@@ -12,9 +12,10 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
     `summary` (guide description, kept in original language, `summaryLang`), `original_nl` (Dutch source text of translated fields).
 - `data/cities/<city>.csv` – flat export.
 - `data/cities/<city>-events-archive.json` – past events moved out by `prune_events.py`.
-- `data/photo-pool.json` – stock mood-image pool for galleries.
+- `data/cities/<city>-media-sources.json` – where each Instagram handle / post / reservation link was found.
+- `data/cities/<city>-features-overrides.json` – optional verified manual feature facts (with source).
 - `data/source-nl/` – frozen Dutch working data for Gent; `scripts/translate_en.py` rebuilds `data/cities/gent.json` from it
-  (then run `assign_photos.py` and `prune_events.py`).
+  (then run `build_features.py` and `prune_events.py`).
   (Long term: edit `data/cities/gent.json` directly and drop the source-nl step.)
 
 ## Daily procedure (± 15–30 min per city)
@@ -38,7 +39,7 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    The site also hides past events client-side, so a missed run never shows stale events.
 5. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.
 6. **Distinctions** – replace all scores when a new Michelin (spring) or Gault&Millau (November) edition appears.
-7. **Photos** – `python3 scripts/assign_photos.py gent` (re)fills stock mood images; real photos are never overwritten (see README).
+7. **Photos & links** – no stock gallery images any more. Weekly: re-check `instagram_posts` (only permalinks from the official profile), `reservation_url` (still linked from the restaurant's own site, HTTP 200) and Wikimedia Commons for new freely licensed photos. Then `python3 scripts/build_features.py gent`. Optional (only if a key is configured): `GOOGLE_MAPS_API_KEY=… python3 scripts/fetch_google_photos.py gent` daily, since photo names expire.
 8. **Finish** – set `dateChecked` (and `lastChanged` if content changed); add one `changelog` entry per change (with source URL);
    regenerate the CSV; test locally: `python3 -m http.server 8765` → `python3 scripts/screenshots.py` (fails on any console error).
 
@@ -54,4 +55,4 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
 ## Rules
 - Never invent data; when in doubt use `unknown` + a note in `dataConflict`.
 - Be polite to sites: ≤1 request/second, own User-Agent, no login pages.
-- No restaurant photos without permission; mood images live in `img/` (Unsplash License, see `img/CREDITS.json`).
+- No restaurant photos without permission or a free licence (Commons CC BY/BY-SA/CC0/PD, credited); Instagram only via the official embed. Category/hero images in `img/` are Unsplash License (see `img/CREDITS.json`).

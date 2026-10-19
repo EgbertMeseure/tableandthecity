@@ -159,7 +159,7 @@
       <div class="card__thumb"><img class="bw" ${TG.imgAttrs(TG.TYPE_KEY[r.type], '80px')} alt="" loading="lazy"></div>
       <div class="card__body"><div class="badges">${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${note ? `<p class="card__note">${esc(note)}</p>` : ''}
-      <div class="card__foot">${km}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>Checked ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
+      <div class="card__foot">${km}${r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>Checked ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
   }
   function render() {
     syncUrl();

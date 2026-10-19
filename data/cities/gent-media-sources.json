@@ -1,0 +1,2148 @@
+{
+ "_note": "Where every Instagram handle/post, booking link and Commons photo came from. Applied to <city>.json by scripts/apply_media.py. Checked 2026-10-19.",
+ "restaurants": {
+  "a-food-affair": {
+   "instagram_handle": "a_food_affair_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeAkD2rNWPl/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcQ9UPmtIPY/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbVSbQECHvX/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DaY2ThrNkrZ/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=373716",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://afoodaffair.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "alberte": {
+   "instagram_handle": null,
+   "instagram_posts": [],
+   "instagram_handle_source": "website links @bar_alberte but Instagram says \"Profile isn't available\"",
+   "reservation_url": "https://bookings.zenchef.com/results?rid=373427",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://alberte-gent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "arbane": {
+   "instagram_handle": "arbane.gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DZZoBIBCPlm/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbtXHOcjHJg/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DblJ16qjCxj/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=369935",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://arbane.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "arno-ristorante": {
+   "instagram_handle": "arno_ristorante_ghent",
+   "instagram_handle_source": "web search; profile name \"ARNO ristorante Ghent\"",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Dcsg9_7hiZK/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/Dclv9xFSI6C/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcgoQ2aBfVg/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcQ1cw_hJ55/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Db_IVolBDF_/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Db3Z5TFBL38/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "baptist": {
+   "instagram_handle": "brasserie_baptist_gent",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeY3MK8iQiE/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMvV3tDaqZ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddn_d-tEdib/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdUMnlVjfnZ/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdHNywRD0--/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc8REo_go08/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "bask": {
+   "instagram_handle": "bask.gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DYSJThpgaAx/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DcJUUaukfxl/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeeW9K_NeSQ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DePEm1io5pn/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/Dd1YhSIoWAO/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdrIQV-tNpO/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://www.bask.be/boek",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://bask.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "bistro-bastien": {
+   "instagram_handle": "bistrobastien",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeokllnDfa2/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdyVUaojTYa/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdyTy9IDfXk/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdHNouuoPrx/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DctV6rVNhkS/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Db_OYwuNZSr/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://www.bistrobastien.be/reserveren",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://bistrobastien.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "bistro-cho": {
+   "instagram_handle": "bistro_cho",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/reel/DeMX0jlgH_I/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DaYAWnwKj55/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZdAs0llkoN/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DYhzJ7aD-0J/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYFVPyZDCsn/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXwvlGxjCTf/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=376670",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://bistrocho.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "boris-maurice": {
+   "instagram_handle": "boris.en.maurice",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DA3Cxpio2Z9/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/C14i4o1IJhq/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/CydrWXaI8n8/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=387387",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://boris-maurice.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "commotie": {
+   "instagram_handle": "commotie_",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Ded6NKHjvXq/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeWOV-iOiB1/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeTmrx_FwYs/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdTOzgxluRx/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc0VRFooAE1/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Db-m6KpOvyd/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://www.commotiegent.be/makeareservation",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://commotiegent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "dapper": {
+   "instagram_handle": "restaurant_dapper",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeqdS-Vjf2d/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeXJTydieaq/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeQtSmoDFsm/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeI-7JyjZD5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd0Yo6bj_u9/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdsqMs-jCEx/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=377604",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://restaurantdapper.com (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "de-rave": {
+   "instagram_handle": "restaurant_de_rave",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/reel/DbTLhXkNtvU/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Csv4cRKNSc3/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/CGc4WolBwOQ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/CGCWy2NBJQ6/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/CF2SPFUhtFz/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "debra": {
+   "instagram_handle": "resto_debragent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeOo0HSKa6w/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dehf2T0KpMr/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeKK1nvK815/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd69HWoqJQ5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddox60vq9bu/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdULHrqKK0i/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=368978",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://debragent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "elders": {
+   "instagram_handle": "elders.gent",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeRHzNVCIhV/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DW6eqsjGXan/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DT5jLPYjICF/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DS8Hu-2jKJv/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DQpm7PljXwB/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DO16O7iDId5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://elders.gent/#reserveer",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://elders.gent (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "ferri": {
+   "instagram_handle": "ferrigent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeR1w25MslY/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DTxMWkcjEBm/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DTnftEmDAGb/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DTdc_iljAOJ/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://www.ferri.gent/reserveren",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://ferri.gent (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "fine-n-fast": {
+   "instagram_handle": "fine_n_fast",
+   "instagram_handle_source": "web search; profile name \"Fine-N-Fast\"",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DepOQ8HCJ2f/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DecRLyMCFrk/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeM5oMLiOSY/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeFEWgdiNap/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdzHf_Voavn/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdrbNmbCPj5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://finenfast.be/reserveren/",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://finenfast.be/ (HTTP 202, 2026-10-19)",
+   "photos": []
+  },
+  "fou-d-o": {
+   "instagram_handle": "brasserie_foudo",
+   "instagram_handle_source": "linked on foudo.be/contact",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Db26KqqNgHb/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DYjifJdN1JJ/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DHQd66otWh7/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DHGJeHKtOXP/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://foudo.be/reserveren/",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://foudo.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "gillis": {
+   "instagram_handle": "gillis_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DdE0IYGguZM/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWUR89VgNjs/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DejRU9QgP9n/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DecHZeJg9bM/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeKScf9AbR5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd1ilUug2wb/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=387389",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://gillisgent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "il-mezzogiorno": {
+   "instagram_handle": "il_mezzogiorno",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Da2SncBDEto/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DT6HrapjAY2/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DPglKY_jGDV/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DBO4ks_t5t5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/C-43vdwN-GK/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/C5xt026NA-U/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=381502",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://ilmezzogiorno.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "jour-de-fete": {
+   "instagram_handle": "restaurantjourdefete",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeZoU5rjN14/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdB-eLBFmJw/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbTAms0Meyw/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYffpQDDEiD/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DUB_Y3pDN4t/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DR_o-2mDFi1/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "karel-de-stoute": {
+   "instagram_handle": "kareldestoutegent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DdyxnKIjRHf/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZVLh_9KCJG/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWi8BgDlpPj/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DV0jC0WDLF9/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVnozCWlnhD/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://restkareldestoute.be/reserveren",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://restkareldestoute.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "kin-khao-thai-eatery": {
+   "instagram_handle": "kinkhaogent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/reel/DaDk2AEuRWn/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DepEB__hkrp/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeXCfMWhDv5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "klaar": {
+   "instagram_handle": "klaargent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/reel/DeMBnZbs-Ux/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DFslpVJNmdl/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DEz-IavN5-H/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://klaargent.be/#reserveren",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://klaargent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "kruidtuin": {
+   "instagram_handle": "kruidtuin_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/reel/DeeA_tnRi2x/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeMW0TBqTUV/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdlHnMIol4v/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdZgxSYRrj_/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DbxetRGM1cf/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DbFqsquKcK4/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://www.kruidtuingent.be/#reserveren",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://kruidtuingent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "le-baan-thai": {
+   "instagram_handle": null,
+   "instagram_posts": [],
+   "instagram_handle_source": "no official account found",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "le-chouchou": {
+   "instagram_handle": "lechouchou_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeoQjLHCnDY/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DejNyHDCRm9/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeeEPIiCjld/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeUaN1IFCOv/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DePUG7qjal-/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMr1rej14H/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://lechouchou.be/reserveer/",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://lechouchou.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "le-jeu-est-jambon": {
+   "instagram_handle": "lejeujambon",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DehNr0rDaox/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeRL48KNfGC/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMS7srNPEQ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeCUbCdjf02/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd4QmaZDZzZ/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdT0hihNnZL/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "lof": {
+   "instagram_handle": "lofrestaurantghent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Deq4s8_jEMt/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DegsZg1F5Es/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeKKdJaF5_q/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd_AU7GFs5Y/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdT-5-ZICeS/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdDfhhos3aQ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "lubbi": {
+   "instagram_handle": "lubbi_cafe",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DYrLgr-sdd1/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYmRcJjsSEK/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYG8mS0jLvf/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXrs2_wjP-n/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "lys-d-or": {
+   "instagram_handle": "lysdor_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DejsQKRiIs1/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dei3oqGCBDg/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeRdwysiPFf/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd4CDCGjXFW/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdqTHoCiEs2/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdYRm65lbTI/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "midi": {
+   "instagram_handle": "brasserie_midi_gent",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DcTgEe8KcRq/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DZcIJvzjOT7/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "moscou-by-danny-horseele": {
+   "instagram_handle": "restaurant.moscou",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DNdP84dMhOJ/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DNiStAsNo8g/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeeVvVGjYOG/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeeOgxKjUEs/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeWlkgBjVl4/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd3nB_QDcoW/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "meme-gusta": {
+   "instagram_handle": "meme_gusta_gent",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DR39Yf8jC-I/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DRwRVJwDKiD/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DL59JZvt_8b/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DJR7yz_s1gz/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DI1bYQhtFX9/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DHxrXMcsyBY/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "nonam": {
+   "instagram_handle": "nonam_ghent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Dei9ut-l0x_/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ded7lGAF-mS/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeZF8eGFYdm/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd5pEEvlLQZ/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd3vHP7oNTf/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc2tQCRCbwr/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://restaurantnonam.guestplan.io",
+   "reservation_provider": "Guestplan",
+   "reservation_source": "linked from https://nonam.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "oak": {
+   "instagram_handle": "oak_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeOdJflGoGf/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd8bjDKnI73/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdqZ-2FDjA-/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdlQdHHDFMv/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdTO1ZEiSV5/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdGW8VagT0X/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://oakgent.be/reservaties/",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://oakgent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "otium-cucina-italiana": {
+   "instagram_handle": "otiumgent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Deb00DZulbh/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DaqGf5ZNkaL/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DafKeZ8Dp2s/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DaBUGafOMzr/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZru3VMu3Ld/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZcwAZyjRHN/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=374152",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://otium.gent (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "patyntje": {
+   "instagram_handle": "restaurant_patyntje",
+   "instagram_handle_source": "web search; profile name \"Restaurant ‘t Patyntje\"",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DY4NKhKDJO6/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DWnwTXhjOu2/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DNQtl-Ghjh4/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DJHfw2poqKW/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=366353",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://www.patyntje.com/ (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "publiek": {
+   "instagram_handle": "publiekgent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DelcOQQDWPE/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/Degomk3MegJ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Debm-nfOJgG/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeRXCzWOvG4/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeGxgw2O2wh/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/Dd8onVsOmvc/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=381344",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://publiekgent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "pulpo": {
+   "instagram_handle": "pulpo.resto",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DdU2vmFIzMC/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dcjk4F5kTuA/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/Da5T9w7ocFA/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DX34q8Egb2w/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DXyto3gIq_5/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXl1YdUlCSj/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://www.sevenrooms.com/explore/mscbvpulpo/reservations/create/search",
+   "reservation_provider": "SevenRooms",
+   "reservation_source": "linked from https://restopulpo.com (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "raaf": {
+   "instagram_handle": "raaf_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DZxXPK2AQRu/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DPBapFDDL0U/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DOsrWO4DCUY/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DJRZYpBsACj/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=374305",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://raafgent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "rizoom": {
+   "instagram_handle": "rizoomgent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DekII-PkdHW/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeYyeJRRsXJ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMTvfQspLi/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdjDFA1sevK/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdcB2iBxGWN/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdRFcN6M4vB/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://www.rizoomgent.be/reserveren",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://rizoomgent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "sensum": {
+   "instagram_handle": "sensum_gent",
+   "instagram_handle_source": "profile name matches the restaurant (existing data field)",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DehVoTSFztl/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DecMC7mF_Mo/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeKKfaEl3XP/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd4I5SLF2KB/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdZPWTJjaqJ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdUFwhtAKJ8/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://widget.thefork.com/b7fb7ca0-dc28-4840-bb83-436c250861b7",
+   "reservation_provider": "TheFork",
+   "reservation_source": "linked from https://sensumgent.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "steendam-66": {
+   "instagram_handle": "bollesteendam",
+   "instagram_handle_source": "listed as the restaurant's Instagram (intravel.net); personal account of chef-owner Bernard \"Bolle\" Baudewijns",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/reel/Ddymv7ORjF4/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/Db5N5VTodnu/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DaIOrk2qoAb/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DZKUQy6ITpv/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "sakas": {
+   "instagram_handle": "sakas.wintercircus",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/reel/DehQ_pgsD1c/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeTk1XysnYk/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMKKHMDPBZ/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/Dd-4FceMKEk/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=369609",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://sakaswintercircusbe.eu (HTTP 200, 2026-10-19)",
+   "photos": [
+    {
+     "src": "img/commons/wintercircus-1-1600.webp",
+     "thumb": "img/commons/wintercircus-1-800.webp",
+     "srcset": "img/commons/wintercircus-1-800.webp 800w, img/commons/wintercircus-1-1600.webp 1600w, img/commons/wintercircus-1-2400.webp 2400w",
+     "w": 1600,
+     "h": 1802,
+     "category": "interior",
+     "alt": "The Wintercircus dome hall in Ghent, the building that houses Sākas",
+     "credit": "Paul Hermans",
+     "credit_url": "https://commons.wikimedia.org/wiki/User:Paul_Hermans",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source": "commons",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Gent_Wintercircus_Lammerstraat.jpg",
+     "date": "2026-07-23"
+    },
+    {
+     "src": "img/commons/wintercircus-2-1600.webp",
+     "thumb": "img/commons/wintercircus-2-800.webp",
+     "srcset": "img/commons/wintercircus-2-800.webp 800w, img/commons/wintercircus-2-1600.webp 1600w, img/commons/wintercircus-2-2400.webp 2400w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "The Wintercircus dome hall in Ghent, the building that houses Sākas",
+     "credit": "FrDr",
+     "credit_url": "https://commons.wikimedia.org/wiki/User:FrDr",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source": "commons",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Wintercircus_Gent_01.jpg",
+     "date": "2024-10-04"
+    }
+   ]
+  },
+  "taberna-bask": {
+   "instagram_handle": "taberna_bask",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Deb-0jcDYEu/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeZW-qaiew9/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMDd0pDBQE/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd_o-gTgilb/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd0waDjAi82/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdYg2g9CK3I/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "talloor-d-or": {
+   "instagram_handle": "talloor_d_or",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DegkFFnitDG/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd6JUgxjpqs/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DduBUwnFMNt/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdYQjHmioKz/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdB0SC3FgqO/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc8ITCwlqbz/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://talloordor.be/reservatie",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://talloordor.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "trattoria-della-mamma": {
+   "instagram_handle": "trattoria_della_mamma",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DXEDAwADfmL/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWq4AK1l1rr/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWqqqdADeOo/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWZNRiyF57B/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVywgwYjTp0/",
+     "category": "exterior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DS7BurnDRyy/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://trattoriadellamamma.be/reserveer/",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://trattoriadellamamma.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "tribune": {
+   "instagram_handle": "tribune.wintercircus",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DeJUeU9O2Bn/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd_PgYhuZvJ/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdTWeudKHGm/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdGW9iwiZHG/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc0VV_ajWHw/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dcf6-OyCvdM/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://bookings.zenchef.com/results?rid=368794",
+   "reservation_provider": "Zenchef",
+   "reservation_source": "linked from https://tribunegent.be (HTTP 200, 2026-10-19)",
+   "photos": [
+    {
+     "src": "img/commons/wintercircus-1-1600.webp",
+     "thumb": "img/commons/wintercircus-1-800.webp",
+     "srcset": "img/commons/wintercircus-1-800.webp 800w, img/commons/wintercircus-1-1600.webp 1600w, img/commons/wintercircus-1-2400.webp 2400w",
+     "w": 1600,
+     "h": 1802,
+     "category": "interior",
+     "alt": "The Wintercircus dome hall in Ghent, the building that houses Tribune",
+     "credit": "Paul Hermans",
+     "credit_url": "https://commons.wikimedia.org/wiki/User:Paul_Hermans",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source": "commons",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Gent_Wintercircus_Lammerstraat.jpg",
+     "date": "2026-07-23"
+    },
+    {
+     "src": "img/commons/wintercircus-2-1600.webp",
+     "thumb": "img/commons/wintercircus-2-800.webp",
+     "srcset": "img/commons/wintercircus-2-800.webp 800w, img/commons/wintercircus-2-1600.webp 1600w, img/commons/wintercircus-2-2400.webp 2400w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "The Wintercircus dome hall in Ghent, the building that houses Tribune",
+     "credit": "FrDr",
+     "credit_url": "https://commons.wikimedia.org/wiki/User:FrDr",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source": "commons",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Wintercircus_Gent_01.jpg",
+     "date": "2024-10-04"
+    }
+   ]
+  },
+  "vrijmoed": {
+   "instagram_handle": "restaurant_vrijmoed",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Ded3BP_jMak/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeMhxw5NJe8/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd_5FEUNSzD/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd81C0SiABo/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdrX2hACosg/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdotddvNls9/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": "https://www.vrijmoed.be/nl/reserveren",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://vrijmoed.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  },
+  "yalo": {
+   "instagram_handle": "yalohotel",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/Deqx5oagJwr/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DejvIrqgVXL/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/p/Deg66NXgGcD/",
+     "category": "interior",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DeKxFOZgQ9R/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/Dd_WtIjgfGa/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    },
+    {
+     "url": "https://www.instagram.com/reel/DdoEQ3hgUDz/",
+     "category": "chef",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "instagram alt text"
+    }
+   ],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "yusu": {
+   "instagram_handle": "yusu_gent",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "reservation_source": "no booking link found on the website",
+   "photos": []
+  },
+  "een-twee-vijf": {
+   "instagram_handle": "eentweevijf",
+   "instagram_handle_source": "linked on the restaurant website",
+   "instagram_posts": [
+    {
+     "url": "https://www.instagram.com/p/DXwjLuIDaKK/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXgbjZOgr7Q/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXMBAsIjb7k/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWYakBSje4j/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DT0YDMtDUk8/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    },
+    {
+     "url": "https://www.instagram.com/p/DTfHNPMjYWu/",
+     "category": "food",
+     "found": "official profile grid, 2026-10-19",
+     "category_basis": "visual check of embed"
+    }
+   ],
+   "reservation_url": "https://eentweevijf.be/#reserveer",
+   "reservation_provider": "own page",
+   "reservation_source": "linked from https://eentweevijf.be (HTTP 200, 2026-10-19)",
+   "photos": []
+  }
+ }
+}
