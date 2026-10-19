@@ -180,7 +180,6 @@ button,input,select{font-family:inherit}
 .rule{display:block;width:46px;height:1px;background:currentColor;opacity:.6}
 .carousel,.carousel-x{cursor:grab;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
 .carousel.dragging,.carousel-x.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto;user-select:none}
-.carousel.dragging *,.carousel-x.dragging *{pointer-events:none}
 .carousel:focus-visible,.carousel-x:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 .carousel img,.carousel-x img{-webkit-user-drag:none;user-select:none}
 .carousel-x{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 var(--gutter);padding:4px var(--gutter) 24px;scrollbar-width:none}

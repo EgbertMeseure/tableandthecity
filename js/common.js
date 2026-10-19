@@ -187,7 +187,7 @@ const TG = (() => {
   }
   /* ---- carousels: scroll-snap track + arrows + mouse drag with momentum (touch/trackpad scroll natively) ---- */
   const DRAG = new WeakMap();
-  const wasDragged = el => { const d = DRAG.get(el); return !!(d && d.moved); };
+  const wasDragged = el => { const d = DRAG.get(el); return !!(d && d.suppress); };
   function carousel(track) {
     if (!track || track._car) return; track._car = true;
     const id = track.id;
@@ -209,34 +209,58 @@ const TG = (() => {
       if (e.key === 'ArrowRight') { e.preventDefault(); track.scrollBy({ left: step(), behavior: 'smooth' }); }
       if (e.key === 'ArrowLeft') { e.preventDefault(); track.scrollBy({ left: -step(), behavior: 'smooth' }); }
     });
-    /* vertical mouse wheel stays vertical page scroll; shift+wheel and trackpads scroll horizontally natively */
-    const st = { down: false, moved: false, x: 0, sl: 0, v: 0, t: 0, raf: 0 };
+    /* vertical mouse wheel stays vertical page scroll; shift+wheel and trackpads scroll horizontally natively.
+       Mouse drag: state is per gesture. A click is suppressed ONLY when the pointer of that same gesture moved
+       > THRESH px between pointerdown and pointerup; every other path (arrows, wheel, touch, momentum) never
+       blocks clicks. Pointer capture starts only after the threshold. Momentum never touches click state. */
+    const THRESH = 6;
+    const st = { id: null, down: false, moved: false, x0: 0, sl: 0, v: 0, t: 0, lx: 0, raf: 0, suppress: false };
     DRAG.set(track, st);
+    const stopGlide = () => { if (st.raf) cancelAnimationFrame(st.raf); st.raf = 0; track.classList.remove('dragging'); };
+    const reset = () => {
+      if (st.id != null) { try { if (track.hasPointerCapture(st.id)) track.releasePointerCapture(st.id); } catch (_) {} }
+      st.id = null; st.down = false; st.moved = false;
+    };
     track.addEventListener('pointerdown', e => {
-      if (e.pointerType !== 'mouse' || e.button !== 0) return;      // touch & pen use native swipe
-      cancelAnimationFrame(st.raf); Object.assign(st, { down: true, moved: false, x: e.clientX, sl: track.scrollLeft, v: 0, t: performance.now(), lx: e.clientX });
+      stopGlide(); reset(); st.suppress = false;                       // fresh gesture, nothing carried over
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;          // touch & pen use native swipe
+      Object.assign(st, { id: e.pointerId, down: true, x0: e.clientX, sl: track.scrollLeft, v: 0, t: performance.now(), lx: e.clientX });
     });
-    window.addEventListener('pointermove', e => {
-      if (!st.down) return;
-      const dx = e.clientX - st.x;
-      if (!st.moved && Math.abs(dx) > 6) { st.moved = true; track.classList.add('dragging'); try { track.setPointerCapture(e.pointerId); } catch (_) {} }
-      if (!st.moved) return;
+    track.addEventListener('pointermove', e => {
+      if (!st.down || e.pointerId !== st.id) return;
+      if (!(e.buttons & 1)) { reset(); return; }                         // button released outside the window
+      const dx = e.clientX - st.x0;
+      if (!st.moved) {
+        if (Math.abs(dx) <= THRESH) return;
+        st.moved = true; track.classList.add('dragging');
+        try { track.setPointerCapture(e.pointerId); } catch (_) {}
+      }
       const now = performance.now(), dt = Math.max(1, now - st.t);
       st.v = 0.8 * st.v + 0.2 * ((st.lx - e.clientX) / dt); st.t = now; st.lx = e.clientX;
       track.scrollLeft = st.sl - dx; e.preventDefault();
     });
-    const end = () => {
-      if (!st.down) return; st.down = false;
-      if (!st.moved) return;
-      let v = st.v * 16;                                            // px per frame
+    track.addEventListener('pointerup', e => {
+      if (e.pointerId !== st.id) return;
+      const dragged = st.down && st.moved && Math.abs(e.clientX - st.x0) > THRESH;
+      const v0 = st.v * 16; reset();
+      st.suppress = dragged;                                             // only the click of THIS gesture
+      if (dragged) setTimeout(() => { st.suppress = false; }, 0);        // click fires synchronously after pointerup
+      if (!dragged) { track.classList.remove('dragging'); return; }
+      let v = v0;
       const glide = () => {
-        if (Math.abs(v) < 0.5) { track.classList.remove('dragging'); setTimeout(() => { st.moved = false; }, 0); return; }
-        track.scrollLeft += v; v *= 0.94; st.raf = requestAnimationFrame(glide);
+        const before = track.scrollLeft;
+        if (Math.abs(v) < 0.5) { stopGlide(); return; }
+        track.scrollLeft += v; v *= 0.94;
+        if (track.scrollLeft === before) { stopGlide(); return; }       // hit an edge
+        st.raf = requestAnimationFrame(glide);
       };
-      glide();
-    };
-    window.addEventListener('pointerup', end); window.addEventListener('pointercancel', end);
-    track.addEventListener('click', e => { if (st.moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+      st.raf = requestAnimationFrame(glide);
+    });
+    const cancel = e => { if (e.pointerId === st.id) { reset(); stopGlide(); st.suppress = false; } };
+    track.addEventListener('pointercancel', cancel);
+    track.addEventListener('lostpointercapture', e => { if (e.pointerId === st.id && st.down) { reset(); stopGlide(); } });
+    window.addEventListener('blur', () => { reset(); stopGlide(); });
+    track.addEventListener('click', e => { if (st.suppress) { st.suppress = false; e.preventDefault(); e.stopPropagation(); } }, true);
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }

@@ -5,6 +5,68 @@ from playwright.async_api import async_playwright
 BASE = 'http://localhost:8765/index.html?country=be&city=gent'
 fails = []
 def check(cond, msg): print(('PASS ' if cond else 'FAIL ') + msg); cond or fails.append(msg)
+
+async def regression(b):
+    """Clicks must still work after every way of scrolling (bug: cards unclickable after scrolling)."""
+    VIS = """(id)=>{const t=document.getElementById(id).getBoundingClientRect();
+      const c=[...document.querySelectorAll('#'+id+' .pillcard')].find(x=>{const r=x.getBoundingClientRect();return r.left>=t.left+4&&r.right<=t.right-4&&x.dataset.cat!=='0'});
+      if(!c)return null;const r=c.getBoundingClientRect();return {cat:c.dataset.cat,x:r.left+r.width/2,y:r.top+r.height/2}}"""
+    async def fresh(pg):
+        await pg.goto(BASE, wait_until='networkidle'); await pg.wait_for_timeout(500)
+        await pg.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})"); await pg.wait_for_timeout(300)
+        return await pg.locator('#carousel').bounding_box()
+    async def click_card(pg, label, how='mouse'):
+        await pg.wait_for_timeout(1500)                                  # let smooth scroll / momentum settle
+        v = await pg.evaluate(VIS, 'carousel')
+        if how == 'mouse': await pg.mouse.click(v['x'], v['y'])
+        else: await pg.touchscreen.tap(v['x'], v['y'])
+        await pg.wait_for_timeout(500)
+        ok = await pg.evaluate("document.querySelector('.pillcard.active')!==null") or ('?' in pg.url and '=' in pg.url.split('?')[1] and pg.url != BASE)
+        check(ok and pg.url != BASE, f'{label}: card click after scrolling still applies the filter ({pg.url.split("?")[1]})')
+    pg = await (await b.new_context(viewport={'width': 1366, 'height': 768})).new_page()
+    tb = await fresh(pg); await pg.click('[data-car-next="carousel"]'); await click_card(pg, 'after arrow click')
+    tb = await fresh(pg); y = tb['y'] + tb['height'] / 2
+    await pg.mouse.move(tb['x'] + 900, y); await pg.mouse.down()
+    for i in range(1, 11): await pg.mouse.move(tb['x'] + 900 - i * 40, y); await pg.wait_for_timeout(16)
+    await pg.mouse.up(); await click_card(pg, 'after mouse drag (momentum settled)')
+    tb = await fresh(pg); y = tb['y'] + tb['height'] / 2
+    await pg.mouse.move(tb['x'] + 900, y); await pg.mouse.down()
+    for i in range(1, 11): await pg.mouse.move(tb['x'] + 900 - i * 60, y); await pg.wait_for_timeout(8)
+    await pg.mouse.up(); await pg.wait_for_timeout(60)
+    await pg.mouse.click(tb['x'] + 300, y)                               # click DURING momentum = stop glide only
+    await click_card(pg, 'after interrupting momentum with a click')
+    tb = await fresh(pg); y = tb['y'] + tb['height'] / 2
+    await pg.mouse.move(tb['x'] + 400, y); await pg.keyboard.down('Shift'); await pg.mouse.wheel(0, 500); await pg.keyboard.up('Shift')
+    await click_card(pg, 'after shift+wheel')
+    tb = await fresh(pg); await pg.mouse.move(tb['x'] + 400, y); await pg.mouse.wheel(500, 0); await click_card(pg, 'after horizontal (trackpad) wheel')
+    tb = await fresh(pg); await pg.mouse.move(tb['x'] + 400, y); await pg.mouse.down(); await pg.mouse.move(tb['x'] + 403, y); await pg.mouse.up()
+    await pg.wait_for_timeout(300); check(pg.url != BASE, 'click with 3 px jitter is still a click')
+    # touch swipe then tap (mobile)
+    m = await (await b.new_context(viewport={'width': 390, 'height': 844}, has_touch=True, is_mobile=True)).new_page()
+    tb = await fresh(m); y = tb['y'] + tb['height'] / 2
+    cdp = await m.context.new_cdp_session(m)
+    await cdp.send('Input.dispatchTouchEvent', {'type': 'touchStart', 'touchPoints': [{'x': 330, 'y': y}]})
+    for i in range(1, 13): await cdp.send('Input.dispatchTouchEvent', {'type': 'touchMove', 'touchPoints': [{'x': 330 - i * 22, 'y': y}]}); await m.wait_for_timeout(16)
+    await cdp.send('Input.dispatchTouchEvent', {'type': 'touchEnd', 'touchPoints': []})
+    await click_card(m, 'mobile: after touch swipe (tap)', how='touch')
+    # events carousel: link still opens after a drag
+    pg = await (await b.new_context(viewport={'width': 1366, 'height': 768})).new_page()
+    await pg.goto(BASE, wait_until='networkidle'); await pg.wait_for_timeout(500)
+    await pg.evaluate("document.getElementById('evlist').scrollIntoView({block:'center',behavior:'instant'})"); await pg.wait_for_timeout(300)
+    tb = await pg.locator('#evlist').bounding_box(); y = tb['y'] + tb['height'] / 2
+    await pg.mouse.move(tb['x'] + 900, y); await pg.mouse.down()
+    for i in range(1, 8): await pg.mouse.move(tb['x'] + 900 - i * 40, y); await pg.wait_for_timeout(16)
+    await pg.mouse.up(); await pg.wait_for_timeout(1500)
+    links = pg.locator('#evlist a[target=_blank]')
+    n = await links.count(); target = None
+    for i in range(n):
+        bb = await links.nth(i).bounding_box()
+        if bb and bb['x'] > tb['x'] + 20 and bb['x'] + bb['width'] < tb['x'] + tb['width'] - 20: target = links.nth(i); break
+    try:
+        async with pg.context.expect_page(timeout=5000) as pi: await target.click()
+        check(True, 'events: link click after drag opens the page')
+    except Exception as e: check(False, f'events: link click after drag ({e})')
+
 async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
@@ -53,6 +115,7 @@ async def main():
         for i in range(1, 13): await cdp.send('Input.dispatchTouchEvent', {'type': 'touchMove', 'touchPoints': [{'x': 330 - i * 22, 'y': y}]}); await m.wait_for_timeout(16)
         await cdp.send('Input.dispatchTouchEvent', {'type': 'touchEnd', 'touchPoints': []}); await m.wait_for_timeout(900)
         t = await m.evaluate("document.getElementById('carousel').scrollLeft"); check(t > 50, f'mobile: touch swipe scrolls carousel (scrollLeft={t})')
+        await regression(b)
         check(not errs, f'no page errors {errs}')
         await b.close()
     print('FAILURES:', fails); sys.exit(1 if fails else 0)
