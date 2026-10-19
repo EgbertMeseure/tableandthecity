@@ -66,6 +66,7 @@ button,input,select{font-family:inherit}
 .badge{border:1px solid currentColor;border-radius:var(--pill);padding:3px 9px;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;white-space:nowrap}
 .badge.solid{background:var(--ink);border-color:var(--ink);color:#fff}
 .badge.dist{border-style:dashed}
+.badge.soon{border-style:dashed;background:transparent}
 
 /* ---- '///' menu + drawer ---- */
 .menu-btn{background:none;border:0;color:#fff;cursor:pointer;padding:4px;display:flex}
@@ -252,20 +253,34 @@ button,input,select{font-family:inherit}
 .mono-thumb.mt-coffee{--mt-a:#2f2a26;--mt-b:#120f0d}
 .mono-thumb.mt-bakeries{--mt-a:#3d362c;--mt-b:#1a1611}
 
-/* ---- "Choose your table" sub-menu (floats in <body>, positioned by app.js) ---- */
-.catmenu{position:absolute;z-index:60;min-width:200px;max-width:min(260px,calc(100vw - 16px));padding:8px;border-radius:18px;
-  background:rgba(12,11,10,.94);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(200,169,106,.35);
-  box-shadow:0 14px 40px rgba(0,0,0,.35);opacity:0;transform:translateY(6px);transition:opacity .18s ease,transform .18s ease}
-.catmenu.open{opacity:1;transform:none}
-.catmenu button{display:flex;width:100%;justify-content:space-between;align-items:baseline;gap:14px;background:none;border:0;color:#fff;
-  font:inherit;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:9px 12px;border-radius:999px;cursor:pointer;text-align:left}
-.catmenu button span{font-family:var(--serif);font-size:13px;letter-spacing:0;color:var(--accent)}
-.catmenu button:hover,.catmenu button:focus-visible{background:rgba(255,255,255,.1);outline:none}
-.catmenu .catmenu__all{border-bottom:1px solid rgba(255,255,255,.12);border-radius:12px 12px 4px 4px;margin-bottom:4px}
-@media (prefers-reduced-motion:reduce){.catmenu{transition:none}}
+/* ---- "Choose your table": sub-menu INSIDE the stadium card (slides up from the bottom, clipped by the card radius) ---- */
+.pillcard{isolation:isolate}
+.pillcard .pill-main{position:absolute;inset:0;z-index:3;border:0;padding:0;margin:0;background:none;color:inherit;font:inherit;cursor:pointer;border-radius:inherit}
+.pillcard .pill-main:focus-visible{outline:2px solid var(--accent);outline-offset:-6px}
+.pillcard span.pill-label{position:absolute;inset:0;transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.pillcard .pill-shade{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:0;transition:opacity .3s ease;
+  background:linear-gradient(to top,rgba(8,8,8,.95) 0%,rgba(8,8,8,.9) 60%,rgba(8,8,8,.55) 76%,rgba(8,8,8,.1) 92%)}
+.pillmenu{position:absolute;left:0;right:0;bottom:0;z-index:4;display:flex;flex-wrap:wrap;justify-content:center;align-content:flex-end;gap:5px;
+  padding:0 12% 30%;max-height:74%;overflow:hidden;visibility:hidden;opacity:0;transform:translateY(24%);
+  transition:opacity .25s ease,transform .35s cubic-bezier(.2,.7,.2,1),visibility 0s linear .35s}
+.pillmenu button{display:inline-flex;align-items:baseline;gap:6px;max-width:100%;border:1px solid rgba(255,255,255,.38);background:rgba(255,255,255,.08);color:#fff;
+  font:inherit;font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;line-height:1.15;padding:6px 10px;border-radius:999px;cursor:pointer;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:background .2s,border-color .2s,color .2s}
+.pillmenu button b{font-family:var(--serif);font-weight:600;font-size:12px;letter-spacing:0;color:var(--accent)}
+.pillmenu button:hover,.pillmenu button:focus-visible{background:#fff;color:#111;border-color:#fff;outline:none}
+.pillmenu button:hover b,.pillmenu button:focus-visible b{color:#7a5a1c}
+.pillmenu .pm-all{flex-basis:100%;justify-content:center;background:rgba(200,169,106,.22);border-color:rgba(200,169,106,.7)}
+.pillcard.menu-open .pill-shade{opacity:1}
+.pillcard.menu-open span.pill-label{transform:translateY(-31%)}
+.pillcard.menu-open .pillmenu{visibility:visible;opacity:1;transform:none;transition:opacity .25s ease,transform .35s cubic-bezier(.2,.7,.2,1),visibility 0s}
+.pillcard.menu-open img{transform:scale(1.04)}
+@media (max-width:700px){.pillmenu{padding:0 9% 26%;gap:4px}.pillcard.menu-open span.pill-label{transform:translateY(-36%)}.pillmenu button{font-size:9.5px;padding:5px 8px;letter-spacing:.05em}}
+@media (prefers-reduced-motion:reduce){.pillmenu,.pillcard span.pill-label,.pillcard .pill-shade{transition:none}}
 
 /* ---- map markers: subtle shape per group (restaurants keep the round dot) ---- */
 .mk.g-cafes_bars{background:#5a5a5a}
 .mk.g-coffee{border-radius:3px;width:12px;height:12px;background:#000}
 .mk.g-bakeries{border-radius:3px;width:12px;height:12px;background:#fff;border-color:#000;transform:rotate(45deg)}
 .mk.g-bakeries.hl{transform:rotate(45deg) scale(1.7)}
+/* announced, not yet open: hollow dashed marker */
+.mk.soon{background:#fff;border:2px dashed #000;box-shadow:none}

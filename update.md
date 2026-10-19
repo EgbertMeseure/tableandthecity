@@ -38,6 +38,16 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    `data/cities/gent-events-archive.json` and logs it in the changelog. Rule-based events keep a `recurrence`
    (`{freq:'monthly', nth:2, weekday:6}` = every 2nd Saturday); the site shows only their next occurrence.
    The site also hides past events client-side, so a missed run never shows stale events.
+4b. **Upcoming openings** – search (current year) `opent binnenkort Gent`, `opent in <maand> Gent`, `nieuwe zaak Gent`, HLN "Net binnen",
+   Nieuwsblad regio Gent, BeleefGent/visit.gent "coming soon", Instagram announcements. Add to `data/cities/<city>-upcoming.json` only with a
+   credible source announcing a date or "binnenkort" and only if not open yet; unknown fields `null`. Re-check every week; drop cancelled projects.
+   **When `expectedOpening` has passed** (the site already shows it as *Just opened*): verify it really opened (press/own site/Instagram), then
+   move the record into `<city>.json` (via `<city>-venues-new.json` + `merge_venues.py` for venues, or directly for restaurants) with
+   `openingDate`, `isNew: true`, sources and a changelog entry, and delete it from the upcoming file. If it slipped, update `expectedOpening`.
+4c. **Visitor feedback** – read the "Know this place?" submissions (form inbox / `FEEDBACK_EMAIL`). Treat each as a *tip*, never as a source:
+   verify on the place's own site/Instagram/menu (or a press source) before touching `features`/`features_evidence`, then add a changelog entry with that
+   source URL. Ignore unverifiable tips. Nothing on the site updates automatically from feedback.
+   ⚠ `FEEDBACK_EMAIL` is still the placeholder `hello@tableandthecity.com` (no real inbox): replace it in `js/config.js` once a real address/form endpoint exists — until then no feedback arrives.
 5. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.
 6. **Distinctions** – replace all scores when a new Michelin (spring) or Gault&Millau (November) edition appears.
 7. **Photos & links** – no stock gallery images any more. Weekly: re-check `instagram_posts` (only permalinks from the official profile), `reservation_url` (still linked from the restaurant's own site, HTTP 200) and Wikimedia Commons for new freely licensed photos. Then `python3 scripts/build_features.py gent`. Optional (only if a key is configured): `GOOGLE_MAPS_API_KEY=… python3 scripts/fetch_google_photos.py gent` daily, since photo names expire.

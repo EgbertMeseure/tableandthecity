@@ -42,23 +42,8 @@
   const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
   const hours = r.openingHours && known(r.openingHours) ? esc(r.openingHours) : '';
   // ---- feature tiles: green only when verified "yes" in sourced data ----
-  const F = Object.assign({}, r.features || {});
+  const { F, EV, TILES } = TG.featureTiles(r);
   const live = r.events || [];
-  F.events = live.length ? true : null;
-  F.chefCollabs = live.some(e => /collab|four.hands|4.hands|guest chef|chef collective/i.test(`${e.type} ${e.title}`) || (e.partners || []).length) ? true : null;
-  const EV = Object.assign({}, r.features_evidence || {});
-  if (F.events) EV.events = `${live.length} upcoming`;
-  if (F.chefCollabs) EV.chefCollabs = 'upcoming event with partner chefs';
-  const TILES_BY_GROUP = {
-    cafes_bars: [['liveMusic', 'Live music'], ['dj', 'DJ'], ['terrace', 'Terrace'], ['foodServed', 'Food served'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['events', 'Events'], ['new', 'New']],
-    coffee: [['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['new', 'New']],
-  };
-  TILES_BY_GROUP.bakeries = TILES_BY_GROUP.coffee;
-  if (!isR(r)) F.new = r.isNew ? true : null;
-  const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
-    ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
-    ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
-    ['walkIn', 'Walk-in'], ['wheelchair', 'Wheelchair accessible'], ['openSunday', 'Open Sunday'], ['new', 'New']];
   const CHECK = '<svg class="ft__ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5"/></svg>';
   const tiles = TILES.map(([k, l]) => {
     const v = F[k];
@@ -66,37 +51,96 @@
     return `<li class="ft${v === true ? ' on' : ''}" title="${esc(tip)}" data-state="${v === true ? 'yes' : v === false ? 'no' : 'unknown'}">${v === true ? CHECK : ''}<span>${l}</span><span class="sr">: ${esc(tip)}</span></li>`;
   }).join('');
   const nYes = TILES.filter(([k]) => F[k] === true).length;
+  // ---- "Know this place?" visitor feedback: tap pills (has it / doesn't / neutral), optional note, one Send. Never changes data. ----
+  const FB_SKIP = new Set(['events', 'chefCollabs', 'michelin', 'gaultMillau', 'new']);   // computed or editorial, not for visitors
+  const FB = TILES.filter(([k]) => !FB_SKIP.has(k));
+  const feedbackBlock = `<section class="fb" id="fb" aria-labelledby="fb-h">
+      <h3 id="fb-h">Know this place? <span>Help us keep it right</span></h3>
+      <p class="fb__hint">Tap once = has it, twice = doesn’t have it, three times = not sure.</p>
+      <div class="fb__pills" role="group" aria-label="Features">${FB.map(([k, l]) => `<button type="button" class="fbp" data-k="${k}" data-v="" aria-label="${esc(l)}: not sure">${esc(l)}</button>`).join('')}</div>
+      <details class="fb__more"><summary>Add a note (optional)</summary><input type="text" id="fb-note" maxlength="200" placeholder="e.g. closed on Mondays now" aria-label="Note (optional)"></details>
+      <input type="text" id="fb-hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="fb__hp">
+      <div class="fb__actions"><button type="button" class="pill-btn sm fb-send" id="fb-send" disabled>Send</button>
+        <a class="pill-btn sm dark" id="fb-mail" hidden target="_blank" rel="noopener">Email us</a></div>
+      <p class="fb__msg" id="fb-msg" role="status" aria-live="polite"></p></section>`;
   // ---- reserve: own booking URL (verified) > website > phone ----
-  const resv = !isR(r) ? null : r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : r.website ? { href: r.website, label: 'Reserve' } : r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
+  const resv = !isR(r) || r.fromUpcoming ? null : r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : r.website ? { href: r.website, label: 'Reserve' } : r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
+  // ---- announced openings (data/cities/<city>-upcoming.json): expected date + the announcement itself ----
+  const expTxt = r.fromUpcoming ? (TG.expectedText(r, true) || 'Soon — date not announced yet') : '';
+  const src0 = (r.sources || [])[0];
+  const openingBox = !r.fromUpcoming ? '' : `<div class="soonbox"><strong>${r.upcoming ? `Opening soon${TG.expectedText(r, true) ? ' · ' + esc(TG.expectedText(r, true)) : ''}` : `Just opened · announced for ${esc(expTxt)}`}.</strong>
+      ${r.expectedOpeningNote ? esc(r.expectedOpeningNote) + ' ' : ''}${r.upcoming ? 'Not open yet — details may change.' : 'We have not re-checked the opening yet.'}
+      ${src0 ? `<a href="${esc(src0)}" target="_blank" rel="noopener">Read the announcement${r.announcedBy ? ` (${esc(r.announcedBy.split(';')[0])})` : ''} ↗</a>` : ''}</div>`;
   const sourcesLine = `<details class="srcline"><summary>Sources &amp; last checked ${esc(fmtDate(r.dateChecked, long))}</summary>
       <ol class="sources">${r.sources.map(s => s.startsWith('http') ? `<li><a href="${esc(s.split(' ')[0])}" target="_blank" rel="noopener">${esc(s)}</a></li>` : `<li>${esc(s)}</li>`).join('')}</ol>
       <p>Last changed ${esc(fmtDate(r.lastChanged))} · Coordinates: ${esc(r.geoSource)}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
   $('#left').innerHTML = `
     ${r.summary ? `<p class="summary" lang="${esc(r.summaryLang || 'nl')}">${esc(r.summary)}</p>` : ''}
+    ${r.fromUpcoming ? openingBox : ''}
     ${r.status !== 'open' ? `<div class="conflict"><strong>Status: ${esc(r.status)}.</strong> ${esc(r.statusNote)}</div>` : ''}
     ${r.dataConflict ? `<div class="conflict"><strong>Note:</strong> ${esc(r.dataConflict)}</div>` : ''}
     <dl class="essentials">
+      ${r.fromUpcoming ? `<div><dt>${r.upcoming ? 'Expected opening' : 'Opened'}</dt><dd>${esc(expTxt)}</dd></div>` : ''}
       <div><dt>Address</dt><dd>${esc(r.address)}</dd></div>
+      ${r.fromUpcoming && r.team ? `<div><dt>Team</dt><dd>${esc(r.team)}</dd></div>` : ''}
       ${r.phone ? `<div><dt>Phone</dt><dd><a href="tel:${esc(r.phone.replace(/[^\d+]/g, ''))}">${esc(r.phone)}</a></dd></div>` : ''}
       ${r.website ? `<div><dt>Website</dt><dd><a href="${esc(r.website)}" target="_blank" rel="noopener">${esc(host(r.website))}</a></dd></div>` : ''}
-      ${isR(r) || known(r.priceLevel) ? `<div><dt>Price</dt><dd>${priceTxt}</dd></div>` : ''}
+      ${(isR(r) && !r.upcoming) || known(r.priceLevel) ? `<div><dt>Price</dt><dd>${priceTxt}</dd></div>` : ''}
       ${hours ? `<div><dt>Hours</dt><dd>${hours}</dd></div>` : ''}
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
     </dl>
     <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
     <ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>
+    ${feedbackBlock}
     <h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>
-    ${live.length ? live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev"><div class="ev__meta">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</div>
-      <div class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</div>
-      <div>${esc(e.title)}</div><div class="ev__meta" style="margin-top:6px">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
+    ${live.length ? live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev"><div class="ev__when"><span class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</span><span class="ev__type">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</span></div>
+      <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
       <div style="font-size:12px;margin-top:6px">${(e.sources || []).map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(' · ')}</div></div>`).join('') : `<p class="unk">No upcoming ${isR(r) ? 'events or collaborations' : 'events'} listed right now.</p>`}
     ${sourcesLine}`;
+  bindFeedback();
+  function bindFeedback() {
+    const C = window.TG_CONFIG || {}, box = $('#fb'); if (!box) return;
+    const pageUrl = location.href.split('#')[0], subject = `Table and the City – ${r.name}`;
+    const LABEL = Object.fromEntries(FB), NEXT = { '': 'yes', yes: 'no', no: '' }, SAY = { '': 'not sure', yes: 'has it', no: 'doesn’t have it' };
+    const changes = () => [...box.querySelectorAll('.fbp')].filter(b => b.dataset.v).map(b => ({ feature: b.dataset.k, label: LABEL[b.dataset.k], value: b.dataset.v === 'yes' }));
+    const note = () => $('#fb-note').value.trim().slice(0, 200);
+    const mailBody = (ch, n) => [`Place: ${r.name} (${r.id}), ${city.name}`, `Page: ${pageUrl}`, '',
+      ...(ch.length ? ['Visitor says:', ...ch.map(c => `- ${c.label}: ${c.value ? 'yes, has it' : 'no, doesn’t have it'}`)] : []), ...(n ? ['', `Note: ${n}`] : [])].join('\n');
+    const mailto = (ch, n) => `mailto:${(C.FEEDBACK_EMAIL || '').replace(/[^\w.+@-]/g, '')}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailBody(ch, n))}`;
+    const mail = $('#fb-mail'); if (C.FEEDBACK_EMAIL) { mail.hidden = false; mail.href = mailto([], ''); }
+    const send = $('#fb-send'), msg = $('#fb-msg');
+    const refresh = () => { send.disabled = !(changes().length || note()); if (C.FEEDBACK_EMAIL) mail.href = mailto(changes(), note()); };
+    box.addEventListener('click', e => { const b = e.target.closest('.fbp'); if (!b) return; b.dataset.v = NEXT[b.dataset.v];
+      b.setAttribute('aria-label', `${LABEL[b.dataset.k]}: ${SAY[b.dataset.v]}`); refresh(); });
+    $('#fb-note').addEventListener('input', refresh);
+    // rate limit per page: max 3 sends per 24 h (localStorage)
+    const RL = 'tg-fb-' + city.id + '-' + r.id, DAY = 864e5;
+    const sent = () => { try { return JSON.parse(localStorage.getItem(RL) || '[]').filter(t => Date.now() - t < DAY); } catch (_) { return []; } };
+    const thanks = () => { msg.textContent = 'Thanks! We’ll check it.'; box.classList.add('done'); box.querySelectorAll('.fbp').forEach(b => { b.dataset.v = ''; }); $('#fb-note').value = ''; refresh(); };
+    send.addEventListener('click', async () => {
+      const ch = changes(), n = note(); if (!ch.length && !n) return;
+      if ($('#fb-hp').value) { thanks(); return; }                         // honeypot filled → silently drop
+      const prev = sent(); if (prev.length >= 3) { msg.textContent = 'Thanks — we already received your notes for this place today.'; return; }
+      const payload = { placeId: r.id, placeName: r.name, city: city.id, changes: ch, note: n, url: pageUrl, timestamp: new Date().toISOString() };
+      if (!C.FEEDBACK_ENDPOINT) { location.href = mailto(ch, n); try { localStorage.setItem(RL, JSON.stringify([...prev, Date.now()])); } catch (_) {} thanks(); return; }
+      send.disabled = true; msg.textContent = 'Sending…';
+      try {
+        const res = await fetch(C.FEEDBACK_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({ ...(C.FEEDBACK_ACCESS_KEY ? { access_key: C.FEEDBACK_ACCESS_KEY } : {}), subject, from_name: 'Table and the City feedback', ...payload, changes_text: mailBody(ch, n) }) });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        try { localStorage.setItem(RL, JSON.stringify([...prev, Date.now()])); } catch (_) {}
+        thanks();
+      } catch (_) {
+        msg.innerHTML = `Couldn’t send right now.${C.FEEDBACK_EMAIL ? ` <a href="${esc(mailto(ch, n))}">Email it instead</a>.` : ' Please try again later.'}`; refresh();
+      }
+    });
+  }
   $('#right').innerHTML = `
     <div class="dcta">
       ${resv ? `<a class="pill-btn reserve" id="reserve" href="${esc(resv.href)}" ${resv.href.startsWith('tel:') ? '' : 'target="_blank" rel="noopener"'}>${resv.label}${resv.href.startsWith('tel:') ? '' : ' ↗'}</a>` : ''}
       ${r.website ? `<a class="pill-btn dark" href="${esc(r.website)}" target="_blank" rel="noopener">Website ↗</a>` : ''}
       ${r.instagram ? `<a class="pill-btn dark" href="${esc(r.instagram)}" target="_blank" rel="noopener">Instagram ↗</a>` : ''}
-      <a class="pill-btn dark" href="https://www.openstreetmap.org/?mlat=${r.lat}&mlon=${r.lng}#map=18/${r.lat}/${r.lng}" target="_blank" rel="noopener">Directions ↗</a></div>
+      <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions ↗</a></div>
     ${r.reservation_url ? `<p class="resv-note">Books via ${esc(r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url))}, as linked on the restaurant's own website.</p>` : (resv ? `<p class="resv-note">No online booking link found — ${resv.href.startsWith('tel:') ? 'book by phone' : 'see the restaurant’s website'}.</p>` : '')}
     <div class="dmap" id="dmap"></div>
     <p class="dmap-cap">${esc(r.neighbourhood)} · ${esc(r.district)}</p>`;

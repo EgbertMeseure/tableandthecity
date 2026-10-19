@@ -87,5 +87,37 @@ Every record in `data/cities/<city>.json` has a `group` (`restaurants`, `cafes_b
 `data/cities/<city>-venues-new.json` and are merged with `python3 scripts/merge_venues.py <city>` (idempotent; re-run after the
 venues file changes, then `apply_media.py` and `build_features.py`, which leave venue records alone). Records with
 `status: "unverified"` stay in the data but are never shown. "Choose your table" shows one card per group (+ New, Events); hovering
-(desktop), tapping (touch) or ArrowDown (keyboard) opens a small menu of sub-categories with counts. Venue events (concerts, club
+(desktop), tapping (touch) or ArrowDown (keyboard) reveals the sub-categories with counts **inside the card itself**
+(a dark gradient slides up from the bottom, clipped by the card's stadium shape; items are small pills; Enter/ArrowDown/ArrowUp/Escape work,
+a drag never opens or clicks a card). Venue events (concerts, club
 nights) appear in the Events section; past dates are hidden as usual.
+
+## New → Just opened / Opening soon
+The **New** card's menu has *Just opened* (`isNew` records in `<city>.json`) and *Opening soon*: announced-but-not-open places from
+`data/cities/<city>-upcoming.json` (linked as `upcoming` in `data/cities.json`). Each has `expectedOpening` (`YYYY-MM-DD`, `YYYY-MM`, `YYYY`
+or `"soon"`, optional `expectedOpeningLabel` such as "Autumn 2027"), `description`, `team`, `sources`, `announcedBy`, `dateChecked`.
+They only appear under New (URL `?new=1&stage=soon`), with an "Opening soon · <date>" badge, a hollow dashed map marker, no Reserve button,
+no confirmed features unless sourced, and a detail-page box with the expected opening and a link to the announcement. When the date (or the
+whole month/year) has passed in Europe/Brussels the browser shows the place as *Just opened* automatically — then move it into `<city>.json`
+(see `update.md`). A record with the same `id` in `<city>.json` always wins.
+
+## List cards
+The description line is replaced by the place's confirmed *At a glance* features (same group-specific set as the detail grid,
+`TG.featureTiles(r)` in `common.js`): only `true` values, max 4 chips + "+N". No confirmed features → just the category line.
+
+## Events
+Event cards (home + detail) lead with the event **name** (serif, max 3 lines); date + type form a small line above, the venue a small line below.
+
+## Directions
+"Directions" (detail page, map popups) opens Google Maps directions in a new tab:
+`https://www.google.com/maps/dir/?api=1&destination=<name, address, Gent>` (lat,lng if no address; `&destination_place_id=` only when a real
+`google_place_id` is stored). The maps themselves stay Leaflet/OpenStreetMap.
+
+## Visitor feedback ("Know this place?")
+Under the *At a glance* grid on every detail page. Visitors tap the place's group-specific feature pills (1× = has it ✓, 2× = doesn't have it, 3× = not sure), optionally open a one-line note, and press **Send**. Payload: `{placeId, placeName, city, changes:[{feature,label,value}], note, url, timestamp}` (+ `subject`, `changes_text`, and `access_key` when set).
+Configure in `js/config.js` (all empty by default — everything there is public, no secrets):
+- `FEEDBACK_ENDPOINT` – URL accepting a JSON POST, e.g. `https://api.web3forms.com/submit` or `https://formspree.io/f/<id>`.
+- `FEEDBACK_ACCESS_KEY` – the form's public access key (Web3Forms); omitted from the payload when empty.
+- `FEEDBACK_EMAIL` – shows the **Email us** button (mailto, subject `Table and the City – <place>`, body with place + URL + selections). Hidden when empty.
+  ⚠ Currently set to the **placeholder** `hello@tableandthecity.com` — not a real inbox yet (domain not owned). Replace it in `js/config.js` with a real address (or configure `FEEDBACK_ENDPOINT`) before launch; until then feedback mails go nowhere.
+Without an endpoint, **Send** opens a mailto with the selections pre-written (to `FEEDBACK_EMAIL`, or with no recipient if that is empty too). Anti-spam: hidden honeypot field (`website`; filled = silently dropped) and max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`). Feedback **never changes data** — it is reviewed by hand (see update.md).

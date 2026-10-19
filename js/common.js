@@ -82,7 +82,8 @@ const TG = (() => {
   function badges(r, { withDist = true, max = 99 } = {}) {
     const b = [];
     if (r.status !== 'open') b.push(`<span class="badge">${esc(r.status)}</span>`);
-    if (r.isNew) b.push('<span class="badge solid">New</span>');
+    if (r.upcoming) b.push(`<span class="badge soon">${esc(soonLabel(r))}</span>`);
+    else if (r.isNew) b.push('<span class="badge solid">New</span>');
     if (r.events.length) b.push('<span class="badge solid">Event</span>');
     if (r.vegan === 'yes') b.push('<span class="badge">Vegan</span>');
     else if (r.vegetarian === 'yes') b.push('<span class="badge">Veggie</span>');
@@ -90,6 +91,73 @@ const TG = (() => {
     if (withDist && r.distinctions.michelin && r.distinctions.michelin !== 'Michelin selection') b.push(`<span class="badge dist">${esc(stars(r.distinctions.michelin))}</span>`);
     if (withDist && r.distinctions.gaultMillau) b.push(`<span class="badge dist">G&amp;M ${r.distinctions.gaultMillau}</span>`);
     return b.slice(0, max).join('');
+  }
+
+  /* ---- upcoming openings (data/cities/<city>-upcoming.json) ----
+     expectedOpening: 'YYYY-MM-DD' | 'YYYY-MM' | 'YYYY' | 'soon'. Once that day (or the whole month/year) has passed in
+     Europe/Brussels, the place is shown as "Just opened" until it is moved into <city>.json by hand (see update.md). */
+  function expectedPassed(x) {
+    const v = String(x || '');
+    if (/^\d{4}-\d{2}-\d{2}$/.test(v)) return v <= TODAY;
+    if (/^\d{4}-\d{2}$/.test(v)) return TODAY.slice(0, 7) > v;
+    if (/^\d{4}$/.test(v)) return TODAY.slice(0, 4) > v;
+    return false;                                                      // 'soon' / unknown: stays upcoming
+  }
+  const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  function expectedText(r, long = false) {
+    const v = String(r.expectedOpening || '');
+    if (/^\d{4}-\d{2}-\d{2}$/.test(v)) return long ? fmtDate(v, { day: 'numeric', month: 'long', year: 'numeric' }) : `${+v.slice(8)} ${MON[+v.slice(5, 7) - 1]}`;
+    if (/^\d{4}-\d{2}$/.test(v)) return long ? fmtDate(v) : MON[+v.slice(5, 7) - 1];
+    if (r.expectedOpeningLabel) return r.expectedOpeningLabel;
+    return /^\d{4}$/.test(v) ? v : '';
+  }
+  const soonLabel = r => { const t = expectedText(r); return t ? `Opening soon · ${t}` : 'Opening soon'; };
+  /* shape an upcoming record like a normal place record (defaults for every field the UI reads) */
+  function fromUpcoming(u) {
+    const passed = expectedPassed(u.expectedOpening);
+    return {
+      type: null, cuisine: '', cuisineTags: [], chef: u.team || 'unknown', priceLevel: 'unknown', priceFrom: null, phone: null,
+      distinctions: { michelin: null, gaultMillau: null }, events: [], photos: [], instagram_posts: [], menuType: 'unknown', menuChanges: 'unknown',
+      currentMenuNote: 'unknown', reservation_url: null, status: 'open', statusNote: '', dataConflict: null, vegetarian: 'unknown', vegan: 'unknown',
+      ...u,
+      features: { ...(u.features || {}) }, features_evidence: { ...(u.features_evidence || {}) },
+      instagram: u.instagram_handle ? `https://www.instagram.com/${u.instagram_handle}/` : null,
+      summary: u.description, summaryLang: 'en', lastChanged: u.dateChecked, district: u.district || '', neighbourhood: u.neighbourhood || '',
+      fromUpcoming: true, upcoming: !passed, isNew: passed,
+      openingDate: passed ? (u.expectedOpening || 'unknown') : 'unknown', openingYear: passed ? String(u.expectedOpening).slice(0, 4) : 'unknown'
+    };
+  }
+
+  /* "At a glance" feature tiles (group-specific), shared by the detail grid and the list cards.
+     Values: true (sourced) | false | null; events/chefCollabs come from upcoming events. */
+  function featureTiles(r) {
+    const isR = r.group === 'restaurants';
+    const F = Object.assign({}, r.features || {});
+    const live = r.events || [];
+    F.events = live.length ? true : null;
+    F.chefCollabs = live.some(e => /collab|four.hands|4.hands|guest chef|chef collective/i.test(`${e.type} ${e.title}`) || (e.partners || []).length) ? true : null;
+    const EV = Object.assign({}, r.features_evidence || {});
+    if (F.events) EV.events = `${live.length} upcoming`;
+    if (F.chefCollabs) EV.chefCollabs = 'upcoming event with partner chefs';
+    const TILES_BY_GROUP = {
+      cafes_bars: [['liveMusic', 'Live music'], ['dj', 'DJ'], ['terrace', 'Terrace'], ['foodServed', 'Food served'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['events', 'Events'], ['new', 'New']],
+      coffee: [['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['new', 'New']],
+    };
+    TILES_BY_GROUP.bakeries = TILES_BY_GROUP.coffee;
+    if (!isR) F.new = r.isNew ? true : null;
+    const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
+      ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
+      ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
+      ['walkIn', 'Walk-in'], ['wheelchair', 'Wheelchair accessible'], ['openSunday', 'Open Sunday'], ['new', 'New']];
+    return { F, EV, TILES };
+  }
+
+  /* Google Maps directions (new tab). Destination = name + address (+ Gent); lat,lng if no address; place_id only when we have a real one */
+  function directionsUrl(r) {
+    const clean = t => String(t || '').replace(/\s*\([^)]*\)/g, '').trim();   // drop notes like "(former Club 69)"
+    const addr = known(r.address) ? clean(r.address) : '', name = clean(r.name);
+    const dest = addr ? `${name}, ${addr}${/gent|ghent/i.test(addr) ? '' : ', Gent'}` : (r.lat ? `${r.lat},${r.lng}` : `${name}, Gent`);
+    return 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(dest) + (r.google_place_id ? '&destination_place_id=' + encodeURIComponent(r.google_place_id) : '');
   }
 
   /* ---- countries & cities ---- */
@@ -169,8 +237,11 @@ const TG = (() => {
 
   /* ---- data ---- */
   async function load(city) {
-    const d = await fetch(city.data).then(r => r.json());
+    const [d, up] = await Promise.all([fetch(city.data).then(r => r.json()),
+      city.upcoming ? fetch(city.upcoming).then(r => r.ok ? r.json() : { upcoming: [] }).catch(() => ({ upcoming: [] })) : { upcoming: [] }]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
+    const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
+    rs.push(...(up.upcoming || []).filter(u => u.id && !ids.has(u.id)).map(fromUpcoming));
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
     const events = [];
@@ -268,6 +339,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

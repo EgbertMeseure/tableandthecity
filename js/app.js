@@ -10,27 +10,32 @@
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
   const QUICK = ['new', 'veggie', 'vegan', 'events'];                  // chips in the main row
-  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, sort: 'rec', ev: '' };
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
   const params = new URLSearchParams(location.search);
-  ['q', ...ADV, 'sort', 'ev'].forEach(k => params.get(k) && (state[k] = params.get(k)));
+  ['q', ...ADV, 'sort', 'ev', 'stage'].forEach(k => params.get(k) && (state[k] = params.get(k)));
+  if (!['', 'open', 'soon'].includes(state.stage)) state.stage = '';
+  if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
   if (!['rec', 'dist', 'new', 'price'].includes(state.sort)) state.sort = 'rec';
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
-    ['q', ...ADV, 'ev'].forEach(k => state[k] && p.set(k, state[k]));
+    ['q', ...ADV, 'stage', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
     if (state.sort !== 'rec') p.set('sort', state.sort);
     QUICK.forEach(k => state[k] && p.set(k, '1'));
     history.replaceState(null, '', location.pathname + '?' + p + location.hash);
   }
   const advCount = () => ADV.filter(k => state[k]).length;
-  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.origin || state.sort !== 'rec');
+  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.origin || state.sort !== 'rec');
+  /* announced-but-not-open places only appear under New (all new / opening soon), never in the plain lists */
+  const isNewish = r => r.isNew || r.upcoming;
+  const OPEN = R.filter(r => !r.upcoming);
 
   // ---- hero labels ----
-  $('#lbl-count').textContent = `${R.length} places in ${CITY}`;
-  $('#lbl-veg').textContent = `${R.filter(r => r.vegetarian === 'yes').length} veggie · ${R.filter(r => r.vegan === 'yes').length} vegan`;
+  $('#lbl-count').textContent = `${OPEN.length} places in ${CITY}`;
+  $('#lbl-veg').textContent = `${OPEN.filter(r => r.vegetarian === 'yes').length} veggie · ${OPEN.filter(r => r.vegan === 'yes').length} vegan`;
   $('#lbl-ev').textContent = `${E.filter(isUpcoming).length} upcoming events & collaborations`;
   $('#explore-title').textContent = `All places in ${CITY}`; $('#about-city').textContent = CITY;
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
@@ -40,7 +45,8 @@
   // ---- "Choose your table": top-level group cards, each with a small sub-menu ----
   const sub = (label, f) => ({ label, f });
   const GROUPS = [
-    { label: 'New', img: 'plated', f: { new: true }, subs: Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g })) },
+    { label: 'New', img: 'plated', f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
+      ...Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g }))] },
     { label: 'Restaurants', img: 'finedining', f: { group: 'restaurants' }, subs: [
       sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
       sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
@@ -53,90 +59,76 @@
     { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' })] },
     { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
   ];
-  const matchF = (r, f) => Object.entries(f).every(([k, v]) =>
-    k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? r.isNew :
+  const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
+    k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
     k === 'veggie' ? r.vegetarian === 'yes' : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
   GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n); });
+  // each card is a stadium-shaped tile; its sub-menu lives INSIDE the card (revealed from the bottom, clipped by the card's radius)
   $('#carousel').innerHTML = GROUPS.map((c, i) => `
-    <button class="pillcard bw-host grain" data-cat="${i}" aria-label="${esc(c.label)}, ${c.n} ${c.toEvents ? 'upcoming' : 'places'}"${c.subs.length ? ' aria-haspopup="menu" aria-expanded="false"' : ''}>
-      <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">
-      <span>${esc(c.label)}<small>${c.n} ${c.toEvents ? 'upcoming' : 'places'}</small></span>
-    </button>`).join('');
-  function choose(g, f, btn) {
+    <div class="pillcard bw-host grain${c.subs.length ? ' has-menu' : ''}" data-cat="${i}">
+      <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">${c.subs.length ? '<i class="pill-shade" aria-hidden="true"></i>' : ''}
+      <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.n} ${c.toEvents ? 'upcoming' : 'places'}"${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
+        <span class="pill-label">${esc(c.label)}<small>${c.n} ${c.toEvents ? 'upcoming' : 'places'}</small></span></button>
+      ${c.subs.length ? `<div class="pillmenu" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">
+        <button role="menuitem" tabindex="-1" class="pm-all" data-s="-1">All ${esc(c.label.toLowerCase())}<b>${c.n}</b></button>
+        ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}">${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
+    </div>`).join('');
+  function choose(g, f, card) {
     resetFilters(false); Object.assign(state, f); closeMenu(false);
-    document.querySelectorAll('.pillcard').forEach(p => p.classList.toggle('active', p === btn));
+    document.querySelectorAll('.pillcard').forEach(p => p.classList.toggle('active', p === card));
     applyUI(); render();
     document.getElementById(g.toEvents ? 'events' : 'explore').scrollIntoView();
   }
-  // floating menu lives in <body> so the carousel's overflow cannot clip it
-  const menu = document.createElement('div'); menu.className = 'catmenu'; menu.id = 'catmenu'; menu.setAttribute('role', 'menu'); menu.hidden = true;
-  document.body.appendChild(menu);
   let menuFor = null, tOpen, tClose, lastPtr = 'mouse';
   const hoverable = () => matchMedia('(hover: hover) and (pointer: fine)').matches;
-  function openMenu(btn, { focus = false } = {}) {
-    clearTimeout(tClose); const g = GROUPS[+btn.dataset.cat]; if (!g.subs.length) return;
-    if (menuFor === btn && !menu.hidden) { if (focus) menu.querySelector('button').focus(); return; }
-    closeMenu(false); menuFor = btn; btn.setAttribute('aria-expanded', 'true');
-    const all = `<button role="menuitem" class="catmenu__all" data-s="-1">All ${esc(g.label.toLowerCase())}<span>${g.n}</span></button>`;
-    menu.innerHTML = all + g.subs.map((s, j) => `<button role="menuitem" data-s="${j}">${esc(s.label)}<span>${s.n}</span></button>`).join('');
-    menu.setAttribute('aria-label', g.label); menu.hidden = false; place();
-    requestAnimationFrame(() => menu.classList.add('open'));
-    if (focus) menu.querySelector('button').focus();
-  }
-  function place() {
-    if (!menuFor) return; const r = menuFor.getBoundingClientRect(), mw = menu.offsetWidth, mh = menu.offsetHeight;
-    const left = Math.max(8, Math.min(innerWidth - mw - 8, r.left + r.width / 2 - mw / 2));
-    // sits just under the card's label, over the lower half (extends below the card when the list is long)
-    const top = Math.max(r.top + r.height * .58, r.bottom - mh - 18);
-    menu.style.left = left + scrollX + 'px'; menu.style.top = top + scrollY + 'px';
+  const mainOf = card => card.querySelector('.pill-main');
+  const itemsOf = card => [...card.querySelectorAll('.pillmenu [data-s]')];
+  function openMenu(card, { focus = false } = {}) {
+    clearTimeout(tClose); if (!card.classList.contains('has-menu')) return;
+    if (menuFor !== card) { closeMenu(false); menuFor = card; card.classList.add('menu-open'); mainOf(card).setAttribute('aria-expanded', 'true'); }
+    if (focus) itemsOf(card)[0].focus();
   }
   function closeMenu(refocus) {
     clearTimeout(tOpen); clearTimeout(tClose); if (!menuFor) return;
-    const btn = menuFor; btn.setAttribute('aria-expanded', 'false'); menuFor = null;
-    menu.classList.remove('open'); menu.hidden = true; if (refocus) btn.focus();
+    const card = menuFor; menuFor = null; card.classList.remove('menu-open'); mainOf(card).setAttribute('aria-expanded', 'false');
+    if (refocus) mainOf(card).focus();
   }
   const car = $('#carousel');
   car.addEventListener('pointerdown', e => { lastPtr = e.pointerType || 'mouse'; }, true);
   car.addEventListener('pointerover', e => {
-    const b = e.target.closest('.pillcard'); if (!b || e.pointerType !== 'mouse' || !hoverable() || car.classList.contains('dragging') || e.buttons) return;
-    clearTimeout(tClose); clearTimeout(tOpen); tOpen = setTimeout(() => openMenu(b), menuFor ? 0 : 140);
+    const c = e.target.closest('.pillcard'); if (!c || e.pointerType !== 'mouse' || !hoverable() || car.classList.contains('dragging') || e.buttons) return;
+    clearTimeout(tClose); if (menuFor === c) return; clearTimeout(tOpen); tOpen = setTimeout(() => openMenu(c), menuFor ? 0 : 140);
   });
   car.addEventListener('pointerout', e => {
-    const b = e.target.closest('.pillcard'); if (!b || e.pointerType !== 'mouse' || (e.relatedTarget && b.contains(e.relatedTarget))) return;
+    const c = e.target.closest('.pillcard'); if (!c || e.pointerType !== 'mouse' || (e.relatedTarget && c.contains(e.relatedTarget))) return;
     clearTimeout(tOpen); tClose = setTimeout(() => closeMenu(false), 220);
   });
-  car.addEventListener('pointermove', e => { if (e.buttons & 1 && menuFor) closeMenu(false); });
-  menu.addEventListener('pointerenter', () => clearTimeout(tClose));
-  menu.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') tClose = setTimeout(() => closeMenu(false), 220); });
-  car.addEventListener('scroll', () => { if (menuFor && !menu.contains(document.activeElement)) closeMenu(false); else place(); }, { passive: true });
+  car.addEventListener('pointermove', e => { if (e.buttons & 1 && menuFor && car.classList.contains('dragging')) closeMenu(false); });
   addEventListener('resize', () => closeMenu(false));
   car.addEventListener('click', e => {
     if (TG.wasDragged(car)) return;
-    const b = e.target.closest('.pillcard'); if (!b) return;
-    const g = GROUPS[+b.dataset.cat];
-    // touch / no-hover devices: first tap opens the menu (its first item selects the whole group)
-    if (g.subs.length && (lastPtr !== 'mouse' || !hoverable()) && e.detail !== 0) { if (menuFor === b) closeMenu(false); else openMenu(b); return; }
-    choose(g, g.f, b);
+    const c = e.target.closest('.pillcard'); if (!c) return;
+    const g = GROUPS[+c.dataset.cat], it = e.target.closest('[data-s]');
+    if (it) { if (menuFor !== c) { openMenu(c); return; } const j = +it.dataset.s; choose(g, j < 0 ? g.f : g.subs[j].f, c); return; }
+    // touch / no-hover devices: first tap opens the in-card menu (its first item selects the whole group)
+    if (g.subs.length && (lastPtr !== 'mouse' || !hoverable()) && e.detail !== 0) { if (menuFor === c) closeMenu(false); else openMenu(c); return; }
+    choose(g, g.f, c);
   });
   car.addEventListener('keydown', e => {
-    const b = e.target.closest('.pillcard'); if (!b) return;
-    if (e.key === 'ArrowDown') { e.preventDefault(); openMenu(b, { focus: true }); }
-    else if (e.key === 'Escape') closeMenu(false);
-  });
-  menu.addEventListener('click', e => {
-    const it = e.target.closest('[data-s]'); if (!it || !menuFor) return;
-    const btn = menuFor, g = GROUPS[+btn.dataset.cat], j = +it.dataset.s;
-    choose(g, j < 0 ? g.f : g.subs[j].f, btn);
-  });
-  menu.addEventListener('keydown', e => {
-    const items = [...menu.querySelectorAll('[data-s]')], i = items.indexOf(document.activeElement);
+    const c = e.target.closest('.pillcard'); if (!c) return;
+    const items = itemsOf(c), i = items.indexOf(document.activeElement);
+    if (i < 0) {                                                          // focus on the card itself
+      if (e.key === 'ArrowDown' && items.length) { e.preventDefault(); openMenu(c, { focus: true }); }
+      else if (e.key === 'Escape') closeMenu(false);
+      return;
+    }
     if (e.key === 'ArrowDown') { e.preventDefault(); items[(i + 1) % items.length].focus(); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); if (i <= 0) closeMenu(true); else items[i - 1].focus(); }
     else if (e.key === 'Escape') { e.preventDefault(); closeMenu(true); }
     else if (e.key === 'Tab') closeMenu(true);
   });
-  document.addEventListener('pointerdown', e => { if (menuFor && !menu.contains(e.target) && !menuFor.contains(e.target)) closeMenu(false); });
+  document.addEventListener('pointerdown', e => { if (menuFor && !menuFor.contains(e.target)) closeMenu(false); });
   TG.carousel($('#carousel'));
 
   // ---- filter options ----
@@ -156,7 +148,7 @@
   // ---- search ----
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   R.forEach(r => r._hay = norm([r.name, r.type, catLabel(r), GROUP_LABEL[r.group], r.cuisine, r.cuisineTags.join(' '), r.chef, r.neighbourhood, r.district, r.address, r.menuType, r.menuChanges, r.currentMenuNote, r.dietNote, r.summary,
-    r.distinctions.michelin, r.events.map(e => [e.title, e.type, (e.partners || []).join(' ')].join(' ')).join(' '), r.isNew ? 'new nieuw' : '', r.vegan === 'yes' ? 'vegan plant-based' : '', r.vegetarian === 'yes' ? 'veggie vegetarian' : '', r.original_nl ? Object.values(r.original_nl).join(' ') : ''].join(' ')));
+    r.distinctions.michelin, r.events.map(e => [e.title, e.type, (e.partners || []).join(' ')].join(' ')).join(' '), r.isNew ? 'new nieuw' : '', r.upcoming ? 'opening soon upcoming binnenkort' : '', r.vegan === 'yes' ? 'vegan plant-based' : '', r.vegetarian === 'yes' ? 'veggie vegetarian' : '', r.original_nl ? Object.values(r.original_nl).join(' ') : ''].join(' ')));
   E.forEach(e => e._hay = norm([e.title, e.type, e.location, (e.partners || []).join(' '), e.restaurantNames.join(' '), e.note].join(' ')));
   const terms = () => norm(state.q).split(/\s+/).filter(Boolean);
 
@@ -178,17 +170,21 @@
       if (state.dist === 'gm' && !d.gaultMillau) return false;
       if (state.veggie && r.vegetarian !== 'yes') return false;
       if (state.vegan && r.vegan !== 'yes') return false;
-      if (state.new && !r.isNew) return false;
+      if (r.upcoming && !state.new) return false;
+      if (state.new && !isNewish(r)) return false;
+      if (state.stage && (state.stage === 'soon') !== !!r.upcoming) return false;
       if (state.events && !r.events.length) return false;
       return true;
     });
     if (state.origin) list.forEach(r => r._km = r.lat ? haversine(state.origin, [r.lat, r.lng]) : null);
     const nm = (a, b) => a.name.localeCompare(b.name, 'en');
     const opened = r => String(known(r.openingDate) ? r.openingDate : (known(r.openingYear) ? r.openingYear : '0'));
+    const exp = r => /^\d{4}/.test(r.expectedOpening || '') ? r.expectedOpening : '0000';    // 'soon' sorts first among upcoming
+    const soonFirst = (a, b) => (!!a.upcoming - !!b.upcoming) || (a.upcoming && b.upcoming ? exp(a).localeCompare(exp(b)) : 0);
     const by = {
-      rec: (a, b) => distRank(b) - distRank(a) || (b.isNew - a.isNew) || nm(a, b),
+      rec: (a, b) => soonFirst(a, b) || distRank(b) - distRank(a) || (b.isNew - a.isNew) || nm(a, b),
       price: (a, b) => (priceNum(a.priceLevel) ?? 9) - (priceNum(b.priceLevel) ?? 9) || (a.priceFrom ?? 999) - (b.priceFrom ?? 999) || nm(a, b),
-      new: (a, b) => opened(b).localeCompare(opened(a)) || nm(a, b),
+      new: (a, b) => soonFirst(a, b) || opened(b).localeCompare(opened(a)) || nm(a, b),
       dist: (a, b) => (a._km ?? 1e9) - (b._km ?? 1e9)
     };
     return list.sort(state.sort === 'dist' && !state.origin ? by.rec : (by[state.sort] || by.rec));
@@ -216,17 +212,22 @@
 
   // ---- render list + markers ----
   const detailUrl = id => cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id));
+  const SHORT = { glutenFree: 'Gluten-free', naPairing: 'NA pairing', wheelchair: 'Wheelchair', vegan: 'Vegan', aLaCarte: 'À la carte', gaultMillau: 'G&M', chefCollabs: 'Chef collabs', openSunday: 'Sunday', foodServed: 'Food', reservations: 'Bookable' };
   function card(r) {
     const price = known(r.priceLevel) ? r.priceLevel : (r.priceFrom ? `from ${eur(r.priceFrom)}` : '');
     const isR = r.group === 'restaurants', cu = r.cuisine.split(/[,–(]/)[0].trim();
     const meta = [catLabel(r), isR && cu !== catLabel(r) ? cu : '', known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
     const km = state.origin && r._km != null ? `<span>${r._km.toFixed(1)} km</span>` : '';
-    const note = known(r.currentMenuNote) ? r.currentMenuNote : (known(r.menuType) ? r.menuType : (!isR && r.summary ? r.summary : ''));
+    // "At a glance" chips: only sourced-true features (same group-specific set as the detail grid); New/Event already are badges
+    const ft = TG.featureTiles(r), MAXF = 4;
+    const on = ft.TILES.filter(([k]) => ft.F[k] === true && k !== 'new' && k !== 'events');
+    const chips = on.slice(0, MAXF).map(([k, l]) => `<li class="fchip" title="${esc(ft.EV[k] ? `${l} — ${ft.EV[k]}` : l)}">${esc(SHORT[k] || l)}</li>`).join('')
+      + (on.length > MAXF ? `<li class="fchip more" title="${esc(on.slice(MAXF).map(([k, l]) => SHORT[k] || l).join(', '))}">+${on.length - MAXF}</li>` : '');
     return `<a class="card bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
       <div class="card__body"><div class="badges">${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
-      ${note ? `<p class="card__note">${esc(note)}</p>` : ''}
-      <div class="card__foot">${km}${isR && r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>Checked ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
+      ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
+      <div class="card__foot">${km}${isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>${r.upcoming ? 'Announced · checked' : 'Checked'} ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
   }
   function render() {
     syncUrl();
@@ -239,8 +240,8 @@
     layer.clearLayers();
     list.forEach(r => {
       if (!r.lat) return;
-      const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
-        .bindPopup(`<b>${esc(r.name)}</b><br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}<br>${esc(r.address)}<br><a href="${detailUrl(r.id)}">Details →</a>`);
+      const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}${r.upcoming ? ' soon' : ''}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
+        .bindPopup(`<b>${esc(r.name)}</b>${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}<br>${esc(r.address)}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
       m.on('mouseover', () => hl(r.id, true)); m.on('mouseout', () => hl(r.id, false));
       m.addTo(layer);
     });
@@ -280,8 +281,9 @@
     $('#evlist').innerHTML = ev.length ? ev.map(e => {
       const date = fmtDate(e.dateStart, { day: 'numeric', month: 'short' }) + (e.dateEnd && e.dateEnd !== e.dateStart ? ' <span class="dash">–</span> ' + fmtDate(e.dateEnd, { day: 'numeric', month: 'short' }) : '') + ' ' + (e.dateEnd || e.dateStart).slice(0, 4);
       const links = e.restaurantIds.map((id, i) => `<a href="${detailUrl(id)}">${esc(e.restaurantNames[i])}</a>`).join('');
-      return `<article class="ev"><div class="ev__meta">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</div><div class="ev__date">${date}</div>
-        <div class="ev__title">${esc(e.title)}</div><div class="ev__meta">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
+      // hierarchy: small date/type line → event NAME (dominant, max 3 lines) → venue small
+      return `<article class="ev"><div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
+        <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
         ${e.note ? `<div class="ev__note">${esc(e.note)}</div>` : ''}
         <div class="ev__links">${links}${(e.sources || []).slice(0, 2).map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">Source${e.sources.length > 1 ? ' ' + (i + 1) : ''} ↗</a>`).join('')}</div></article>`;
     }).join('') : '<div class="ev-empty"><p>No upcoming events match.</p><p class="sub">Try “All” or clear the search.</p></div>';
@@ -309,7 +311,7 @@
   $('#q-hero').addEventListener('keydown', e => { if (e.key === 'Enter') document.getElementById('explore').scrollIntoView(); });
   ADV.forEach(k => $('#f-' + k).addEventListener('change', e => { state[k] = e.target.value; render(); }));
   $('#sort').addEventListener('change', e => { state.sort = e.target.value; if (state.sort === 'dist' && !state.origin) locate(); render(); });
-  document.querySelectorAll('[data-toggle]').forEach(b => b.addEventListener('click', () => { const k = b.dataset.toggle; state[k] = !state[k]; b.setAttribute('aria-pressed', state[k]); render(); }));
+  document.querySelectorAll('[data-toggle]').forEach(b => b.addEventListener('click', () => { const k = b.dataset.toggle; state[k] = !state[k]; if (k === 'new' && !state.new) state.stage = ''; b.setAttribute('aria-pressed', state[k]); render(); }));
   $('#reset').addEventListener('click', () => resetFilters());
   // "More filters" sheet
   const sheet = $('#morefilters'), bd = $('#sheet-bd');
