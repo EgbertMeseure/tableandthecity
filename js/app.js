@@ -39,8 +39,6 @@
   $('#lbl-ev').textContent = `${E.filter(isUpcoming).length} upcoming events & collaborations`;
   $('#explore-title').textContent = `All places in ${CITY}`; $('#about-city').textContent = CITY;
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
-  const checked = R.map(r => r.dateChecked).sort().pop();
-  $('#checked').textContent = `Last checked: ${fmtDate(checked, { day: 'numeric', month: 'long', year: 'numeric' })}`;
 
   // ---- "Choose your table": top-level group cards, each with a small sub-menu ----
   const sub = (label, f) => ({ label, f });
@@ -227,7 +225,7 @@
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
       <div class="card__body"><div class="badges">${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
-      <div class="card__foot">${km}${isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>${r.upcoming ? 'Announced · checked' : 'Checked'} ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
+      <div class="card__foot">${km}${isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
   }
   function render() {
     syncUrl();

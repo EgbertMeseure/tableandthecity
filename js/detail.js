@@ -17,7 +17,7 @@
     return;
   }
   const long = { day: 'numeric', month: 'long', year: 'numeric' };
-  TG.renderFooter(cfg, city, `Last checked ${esc(fmtDate(r.dateChecked, long))}`);
+  TG.renderFooter(cfg, city);
   document.title = `${r.name} — ${city.name} — Table and the City`;
   const canon = `https://tableandthecity.com/${cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(r.id))}`;
   document.querySelector('meta[property="og:title"]').content = `${r.name} — Table and the City`;
@@ -71,9 +71,9 @@
   const openingBox = !r.fromUpcoming ? '' : `<div class="soonbox"><strong>${r.upcoming ? `Opening soon${TG.expectedText(r, true) ? ' · ' + esc(TG.expectedText(r, true)) : ''}` : `Just opened · announced for ${esc(expTxt)}`}.</strong>
       ${r.expectedOpeningNote ? esc(r.expectedOpeningNote) + ' ' : ''}${r.upcoming ? 'Not open yet — details may change.' : 'We have not re-checked the opening yet.'}
       ${src0 ? `<a href="${esc(src0)}" target="_blank" rel="noopener">Read the announcement${r.announcedBy ? ` (${esc(r.announcedBy.split(';')[0])})` : ''} ↗</a>` : ''}</div>`;
-  const sourcesLine = `<details class="srcline"><summary>Sources &amp; last checked ${esc(fmtDate(r.dateChecked, long))}</summary>
+  const sourcesLine = `<details class="srcline"><summary>Sources</summary>
       <ol class="sources">${r.sources.map(s => s.startsWith('http') ? `<li><a href="${esc(s.split(' ')[0])}" target="_blank" rel="noopener">${esc(s)}</a></li>` : `<li>${esc(s)}</li>`).join('')}</ol>
-      <p>Last changed ${esc(fmtDate(r.lastChanged))} · Coordinates: ${esc(r.geoSource)}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
+      <p>${r.fromUpcoming ? '' : `Last changed ${esc(fmtDate(r.lastChanged))} · `}Coordinates: ${esc(r.geoSource)}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
   $('#left').innerHTML = `
     ${r.summary ? `<p class="summary" lang="${esc(r.summaryLang || 'nl')}">${esc(r.summary)}</p>` : ''}
     ${r.fromUpcoming ? openingBox : ''}
