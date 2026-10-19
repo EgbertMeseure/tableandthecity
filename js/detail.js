@@ -23,13 +23,7 @@
   document.querySelector('meta[property="og:url"]').content = canon;
   document.head.insertAdjacentHTML('beforeend', `<link rel="canonical" href="${esc(canon)}">`);
   // ---- hero: a real, freely licensed photo of the restaurant if we have one; otherwise a neutral typographic hero ----
-  const GKEY = (window.TG_CONFIG || {}).googleMapsKey || '';
-  const gphotos = GKEY ? (r.google_photos || []).map(g => {           // Places API (New) photo media URL + required attribution
-    const a = (g.authorAttributions || [])[0] || {};
-    const u = w => `https://places.googleapis.com/v1/${g.name}/media?maxWidthPx=${w}&key=${encodeURIComponent(GKEY)}`;
-    return { src: u(1600), thumb: u(800), w: g.widthPx, h: g.heightPx, category: 'other', alt: `${r.name} — photo via Google Maps`, credit: a.displayName || 'Google Maps user', credit_url: a.uri, source: 'google_places', license: 'Google Maps' };
-  }) : [];
-  const own = [...(r.photos || []).filter(p => p.source !== 'stock'), ...gphotos];
+  const own = TG.realPhotos(r);
   const heroP = own.find(p => p.category === 'exterior' || p.category === 'interior') || own[0];
   if (heroP) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(heroP.src)}" ${heroP.srcset ? `srcset="${esc(heroP.srcset)}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" fetchpriority="high">`;

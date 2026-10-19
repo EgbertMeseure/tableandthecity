@@ -231,3 +231,19 @@ button,input,select{font-family:inherit}
 @media (max-width:700px){.ftgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.ft{font-size:13px;min-height:46px;padding:8px 10px}.essentials{grid-template-columns:1fr 1fr}.dhero.dhero--plain>span.dhero__mono{font-size:70vw}}
 @media (min-width:420px) and (max-width:700px){.ftgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media (max-width:900px){#right{order:-1}.dgrid{display:flex;flex-direction:column;gap:28px}}
+
+/* ---- typographic pill thumbnail (no stock images for restaurants) ---- */
+.mono-thumb{position:absolute;inset:0;display:grid;place-items:center;overflow:hidden;
+  background:radial-gradient(140% 90% at 50% var(--pos,30%),var(--mt-a) 0%,var(--mt-b) 55%,#0b0a09 100%);
+  --mt-a:#34302b;--mt-b:#161514;filter:grayscale(1);transition:filter var(--ease)}
+.mono-thumb.mt-finedining{--mt-a:#3b3226;--mt-b:#17130f}
+.mono-thumb.mt-bistro{--mt-a:#2f3330;--mt-b:#131614}
+.mono-thumb.mt-nieuw{--mt-a:#38302e;--mt-b:#171312}
+.mono-thumb.mt-casual{--mt-a:#2e2f35;--mt-b:#121317}
+.mono-thumb.mt-interior{--mt-a:#33312c;--mt-b:#151412}
+.mono-thumb::before{content:"";position:absolute;inset:-20%;background:linear-gradient(var(--ang,0deg),rgba(255,255,255,.05),transparent 60%);z-index:0}
+.mono-thumb>span{position:relative;z-index:1;font-family:var(--display);font-weight:500;font-size:46px;line-height:1;letter-spacing:-.02em;
+  color:transparent;-webkit-text-stroke:1px #cfcac2;transition:color var(--ease),-webkit-text-stroke-color var(--ease)}
+.mono-thumb.two>span{font-size:32px}
+.bw-host:hover .mono-thumb,.bw-host:focus-within .mono-thumb,.bw-host.is-hover .mono-thumb{filter:none}
+.bw-host:hover .mono-thumb>span,.bw-host:focus-within .mono-thumb>span,.bw-host.is-hover .mono-thumb>span{color:var(--accent);-webkit-text-stroke-color:var(--accent)}

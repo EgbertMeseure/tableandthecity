@@ -9,6 +9,32 @@ const TG = (() => {
   const TYPE_IMG = Object.fromEntries(Object.entries(TYPE_KEY).map(([k, v]) => [k, `img/${v}.jpg`]));
   /* responsive <img> attributes for a site image key (img/<key>-{800,1600,2400}.webp, jpg fallback) */
   const imgAttrs = (key, sizes = '100vw') => `src="img/${key}.jpg" srcset="img/${key}-800.webp 800w, img/${key}-1600.webp 1600w, img/${key}-2400.webp 2400w" sizes="${sizes}"`;
+  /* real, licensed photos of a restaurant only (Commons / own / Google Places when a key is configured) — never stock, never Instagram */
+  function realPhotos(r) {
+    const GKEY = (window.TG_CONFIG || {}).googleMapsKey || '';
+    const g = GKEY ? (r.google_photos || []).map(p => {
+      const a = (p.authorAttributions || [])[0] || {};
+      const u = w => `https://places.googleapis.com/v1/${p.name}/media?maxWidthPx=${w}&key=${encodeURIComponent(GKEY)}`;
+      return { src: u(1600), thumb: u(400), w: p.widthPx, h: p.heightPx, category: 'other', alt: `${r.name} — photo via Google Maps`, credit: a.displayName || 'Google Maps user', credit_url: a.uri, source: 'google_places', license: 'Google Maps' };
+    }) : [];
+    return [...(r.photos || []).filter(p => p.source !== 'stock' && p.source !== 'instagram_embed'), ...g];
+  }
+  const STOP = /^(de|het|le|la|les|l|the|by|and|&|'t|t|di|della|il|a|-|–)$/i;
+  function initials(name) {
+    const w = String(name).replace(/[.,]/g, '').split(/\s+/).filter(x => x && !STOP.test(x) && !/^[dl]['’]\p{L}{0,3}$/iu.test(x));
+    const pick = w.length ? w : [String(name)];
+    const first = s => (s.match(/[\p{L}\p{N}]/u) || [''])[0].toUpperCase();
+    return pick.length === 2 && !/^\d/.test(pick[1]) ? first(pick[0]) + first(pick[1]) : first(pick[0]);   // two-word names → two initials
+  }
+  /* pill thumbnail: real photo if one exists, else a typographic monogram (dark grain, Didone initial, gold on hover) */
+  function thumb(r, sizes = '80px') {
+    const p = realPhotos(r).find(x => x.category === 'exterior' || x.category === 'interior') || realPhotos(r)[0];
+    if (p) return `<img class="bw" src="${esc(p.thumb || p.src)}" ${p.srcset ? `srcset="${esc(p.srcset)}" sizes="${sizes}"` : ''} alt="" loading="lazy" decoding="async">`;
+    const ini = initials(r.name);
+    const tone = TYPE_KEY[r.type] || 'interior';
+    let h = 0; for (const ch of r.id) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    return `<span class="mono-thumb grain mt-${tone}${ini.length > 1 ? ' two' : ''}" style="--ang:${h % 360}deg;--pos:${20 + h % 60}%" aria-hidden="true"><span>${esc(ini)}</span></span>`;
+  }
   const TYPE_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual' };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v != null && v !== '' && v !== U && !/^unknown\b/i.test(String(v));
@@ -214,6 +240,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

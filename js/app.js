@@ -156,7 +156,7 @@
     const km = state.origin && r._km != null ? `<span>${r._km.toFixed(1)} km</span>` : '';
     const note = known(r.currentMenuNote) ? r.currentMenuNote : (known(r.menuType) ? r.menuType : '');
     return `<a class="card bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
-      <div class="card__thumb"><img class="bw" ${TG.imgAttrs(TG.TYPE_KEY[r.type], '80px')} alt="" loading="lazy"></div>
+      <div class="card__thumb">${TG.thumb(r, '80px')}</div>
       <div class="card__body"><div class="badges">${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${note ? `<p class="card__note">${esc(note)}</p>` : ''}
       <div class="card__foot">${km}${r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>Checked ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
