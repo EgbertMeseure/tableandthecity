@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+design-reference.jpg
+img/p.html
+.DS_Store

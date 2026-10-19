@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Table and the City — Gent: fine dining, bistros &amp; chef events</title>
+<meta name="description" content="Table and the City: a curated, filterable guide to Gent's best tables — Michelin and Gault&amp;Millau restaurants, bistros, new openings, vegetarian &amp; vegan options and chef collaborations.">
+<link rel="canonical" href="https://tableandthecity.com/?city=gent">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Table and the City">
+<meta property="og:title" content="Table and the City — Gent">
+<meta property="og:description" content="Taste the city at its finest tables: restaurants, new openings, veggie &amp; vegan and chef events in Gent.">
+<meta property="og:url" content="https://tableandthecity.com/?city=gent">
+<meta property="og:image" content="https://tableandthecity.com/img/og.jpg">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Italiana&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="css/brand.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="hero grain" id="top">
+  <img class="hero__img bw" src="img/interior.jpg" alt="">
+  <div class="topbar">
+    <a class="wordmark" data-home href="index.html" aria-label="Table and the City – home"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a>
+    <div class="topbar__right">
+      <div class="citysel" data-citysel></div>
+      <label class="pill-search" aria-label="Search">
+        <input id="q-hero" type="search" placeholder="Search restaurant, chef, cuisine, event…" autocomplete="off">
+        <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      </label>
+      <button class="menu-btn" data-open-nav aria-label="Menu"><svg viewBox="0 0 30 22"><path d="M8 21 15 1M15 21 22 1M22 21 29 1"/></svg></button>
+    </div>
+  </div>
+  <div class="hero__body">
+    <blockquote class="quote">“One cannot think well, love well, sleep well, if one has not dined well.”<cite>Virginia Woolf, <i>A Room of One’s Own</i></cite></blockquote>
+    <div class="hero__cta">
+      <h1>Taste the city<br>at its finest tables</h1>
+      <a class="pill-btn" href="#explore">Explore</a>
+    </div>
+  </div>
+  <div class="hero__labels up"><span id="lbl-count">Restaurants</span><span id="lbl-veg">Veggie &amp; vegan</span><span id="lbl-ev">Events &amp; collaborations</span></div>
+</header>
+
+<nav class="navdrawer" id="nav" aria-hidden="true">
+  <button class="close up" data-close-nav>Close</button>
+  <a href="#categories" data-close-nav>Categories</a>
+  <a href="#explore" data-close-nav>Map &amp; list</a>
+  <a href="#events" data-close-nav>Events</a>
+  <a href="#about" data-close-nav>About the data</a>
+  <span class="family">Part of the … and the City family</span>
+</nav>
+
+<section class="section" id="categories">
+  <div class="subbar"><a class="wordmark" data-home href="index.html"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a><button class="menu-btn" data-open-nav aria-label="Menu"><svg viewBox="0 0 30 22"><path d="M8 21 15 1M15 21 22 1M22 21 29 1"/></svg></button></div>
+  <div class="section__head">
+    <button class="arrow" data-scroll="-1" aria-label="Previous"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
+    <h2>Choose your table</h2>
+    <button class="arrow" data-scroll="1" aria-label="Next"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></button>
+  </div>
+  <div class="carousel" id="carousel"></div>
+</section>
+
+<section class="section" id="explore" style="padding-top:20px">
+  <div class="section__head">
+    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></span>
+    <h2 id="explore-title">All addresses</h2>
+    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></span>
+  </div>
+  <div class="notice" id="city-notice" hidden></div>
+  <div class="searchline">
+    <label class="pill-search" aria-label="Search the list">
+      <input id="q" type="search" placeholder="Search by name, chef, cuisine, menu, event…" autocomplete="off">
+      <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+    </label>
+    <select class="fsel" id="sort" aria-label="Sort">
+      <option value="name">Sort: name</option>
+      <option value="score">Sort: distinction / score</option>
+      <option value="price-asc">Sort: price low → high</option>
+      <option value="price-desc">Sort: price high → low</option>
+      <option value="new">Sort: newest</option>
+      <option value="dist">Sort: distance</option>
+    </select>
+    <button class="chip" id="btn-loc" aria-pressed="false">◎ My location</button>
+    <span class="count" id="count"></span>
+  </div>
+  <div class="filters" id="filters">
+    <select class="fsel" id="f-type" aria-label="Type"><option value="">Type: all</option></select>
+    <select class="fsel" id="f-area" aria-label="Neighbourhood"><option value="">Neighbourhood: all</option></select>
+    <select class="fsel" id="f-cuisine" aria-label="Cuisine"><option value="">Cuisine: all</option></select>
+    <select class="fsel" id="f-price" aria-label="Price"><option value="">Price: all</option><option>€€</option><option>€€€</option><option>€€€€</option><option value="unknown">Price unknown</option></select>
+    <select class="fsel" id="f-dist" aria-label="Distinction">
+      <option value="">Distinction: all</option>
+      <option value="star">Michelin star(s)</option>
+      <option value="bib">Bib Gourmand</option>
+      <option value="michelin">In the Michelin Guide</option>
+      <option value="gm15">Gault&amp;Millau ≥ 15</option>
+      <option value="gm13">Gault&amp;Millau ≥ 13</option>
+      <option value="gm">Gault&amp;Millau (any score)</option>
+    </select>
+    <button class="chip" data-toggle="veggie" aria-pressed="false">Veggie</button>
+    <button class="chip" data-toggle="vegan" aria-pressed="false">Vegan</button>
+    <button class="chip" data-toggle="new" aria-pressed="false">New</button>
+    <button class="chip" data-toggle="events" aria-pressed="false">With events</button>
+    <button class="chip" id="reset">Clear filters</button>
+  </div>
+  <div class="explorer">
+    <div class="mapwrap"><div id="map" role="region" aria-label="Map"></div><div class="maphint" id="maphint">Click the map to measure distance</div></div>
+    <div class="list" id="list" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="section events on-dark grain" id="events">
+  <div class="section__head">
+    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></span>
+    <h2>Events &amp; collaborations</h2>
+    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></span>
+  </div>
+  <div class="filters">
+    <select class="fsel" id="ev-type" aria-label="Event type"><option value="">Type: all</option></select>
+    <button class="chip" id="ev-past" aria-pressed="false">Show past</button>
+    <span class="count" id="ev-count" style="color:#bbb"></span>
+  </div>
+  <div class="evlist" id="evlist"></div>
+</section>
+
+<section class="about" id="about">
+  <div>
+    <h3>About the data</h3>
+    <p><span id="about-city">Gent</span> is the first city in the guide. The selection is based on the <a href="https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurants" target="_blank" rel="noopener">MICHELIN Guide 2026</a>, <a href="https://www.gaultmillau.be/nl/restaurants?q=gent" target="_blank" rel="noopener">Gault&amp;Millau 2026</a>, the restaurants’ own websites and local press (HLN, Nieuwsblad, Made in). Nothing is invented: anything we could not verify is shown as <em>unknown</em>. Price level (€–€€€€) comes only from the Michelin Guide; “from €” is the lowest menu/lunch price found in a source. Sources are mostly in Dutch; menu notes are translated faithfully, guide descriptions are shown in the original Dutch.</p>
+    <p>Coordinates: <a href="https://nominatim.openstreetmap.org/" target="_blank" rel="noopener">Nominatim / OpenStreetMap</a>. Map © OpenStreetMap contributors (greyscale on the home page, colour on the detail page). Mood images: <a href="img/CREDITS.json">Unsplash (Unsplash License)</a> – they are not photos of the restaurants themselves.</p>
+    <p class="up" id="checked"></p>
+  </div>
+  <div>
+    <h3>Latest changes</h3>
+    <ul class="changelog" id="changelog"></ul>
+  </div>
+</section>
+<footer class="site-footer" data-footer></footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/common.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

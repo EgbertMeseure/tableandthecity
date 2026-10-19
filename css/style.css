@@ -1,0 +1,138 @@
+/* Table and the City – site-specific layout (tokens & components live in brand.css) */
+/* ---------- HERO ---------- */
+.hero{min-height:100vh;max-height:980px;background:#000;color:#fff;display:flex;flex-direction:column;overflow:hidden}
+.hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62;z-index:0}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.2) 40%,rgba(0,0,0,.75));z-index:1}
+.hero>*:not(.hero__img){position:relative;z-index:3}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:42px 7vw 0}
+.topbar .wordmark{color:#fff}
+.hero .badge{color:inherit}
+.topbar__right{display:flex;align-items:center;gap:28px}
+.hero__body{flex:1;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:0 7vw}
+.quote{max-width:260px;font-size:11px;line-height:1.55;letter-spacing:.06em;text-transform:uppercase}
+.quote cite{display:block;text-align:right;margin-top:10px;font-style:normal;opacity:.85}
+.hero__cta{justify-self:end;text-align:right}
+.hero__cta h1{font-family:var(--sans);font-weight:400;font-size:clamp(18px,2vw,26px);letter-spacing:.16em;line-height:1.35;text-transform:uppercase;margin:0 0 26px}
+.hero__labels{display:flex;justify-content:space-between;padding:0 7vw 34px}
+
+/* ---------- SECTIONS ---------- */
+.subbar{display:flex;align-items:center;justify-content:space-between;padding:0 7vw 30px}
+.subbar .wordmark{font-size:30px}
+.subbar .menu-btn{color:var(--ink)}
+
+
+/* ---------- EXPLORER ---------- */
+.filters{padding:0 7vw 18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.searchline{padding:0 7vw 14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.searchline .pill-search{border-color:var(--line-d);width:min(460px,100%);background:#fff}
+.searchline .pill-search input{color:var(--ink)}
+.searchline .pill-search input::placeholder{color:#777}
+.searchline .pill-search svg{stroke:#000}
+.count{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#555;margin-left:auto}
+.explorer{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:0;border-top:1px solid #000;border-bottom:1px solid #000}
+.mapwrap{position:sticky;top:0;height:calc(100vh - 0px);max-height:820px;border-right:1px solid #000}
+#map{height:100%;width:100%}
+#map .leaflet-tile-pane{filter:grayscale(1) contrast(.95) brightness(1.04)}
+.maphint{position:absolute;left:14px;bottom:14px;z-index:500;background:#fff;border:1px solid #000;border-radius:999px;padding:8px 14px;font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+.list{max-height:820px;overflow-y:auto;padding:0}
+.card{display:grid;grid-template-columns:74px 1fr;gap:16px;padding:16px 22px;border-bottom:1px solid #e5e5e5;align-items:center;cursor:pointer;text-decoration:none;color:inherit;background:#fff;transition:background .25s}
+.card:hover,.card.is-hover{background:#f4f4f4}
+.card__thumb{width:74px;height:120px;border-radius:999px;overflow:hidden;position:relative}
+.card__thumb img{width:100%;height:100%;object-fit:cover}
+.card h3{font-family:var(--serif);font-weight:400;font-size:24px;margin:0 0 4px;letter-spacing:.02em}
+.card__meta{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:#555;margin-bottom:8px}
+.card__note{font-size:12.5px;line-height:1.45;color:#333;margin:6px 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card__foot{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#666}
+.card__foot a{text-decoration:none;border-bottom:1px solid #000;color:#000}
+.empty{padding:40px 22px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#666}
+.leaflet-container{font-family:var(--sans)}
+.mk{width:14px;height:14px;border-radius:50%;background:#000;border:2px solid #fff;box-shadow:0 0 0 1px #000;transition:transform .2s}
+.mk.star{background:#fff;border-color:#000}
+.mk.hl{transform:scale(1.7)}
+.leaflet-popup-content-wrapper{border-radius:18px}
+.leaflet-popup-content{font-size:12px;margin:12px 16px}
+.leaflet-popup-content b{font-family:var(--serif);font-size:18px;font-weight:400}
+
+/* ---------- EVENTS (dark) ---------- */
+.events{background:#0b0b0b;color:#fff}
+.events .section__head{color:#fff}
+.evlist{padding:0 7vw;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.ev{border:1px solid rgba(255,255,255,.4);border-radius:28px;padding:20px 22px;display:flex;flex-direction:column;gap:8px}
+.ev.past{opacity:.5}
+.ev__date{font-family:var(--serif);font-size:28px;letter-spacing:.03em}
+.ev__title{font-size:13px;line-height:1.45}
+.ev__meta{font-size:10px;letter-spacing:.14em;text-transform:uppercase;opacity:.8}
+.ev a{color:#fff}
+.ev__links{display:flex;flex-wrap:wrap;gap:6px}
+.ev__links a{border:1px solid rgba(255,255,255,.7);border-radius:999px;padding:4px 10px;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+.ev__links a:hover{background:#fff;color:#000}
+
+/* ---------- ABOUT / FOOTER ---------- */
+.about{padding:70px 7vw;display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.about h3{font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;margin:0 0 16px}
+.about p,.about li{font-size:13px;line-height:1.6}
+.about ul{padding-left:18px;margin:0}
+.changelog li{margin-bottom:8px}
+
+/* ---------- DETAIL (colour) ---------- */
+body.detail{background:#faf8f4}
+.dhero{min-height:70vh;color:#fff;display:flex;flex-direction:column;overflow:hidden;background:#111}
+.dhero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.dhero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.05) 45%,rgba(0,0,0,.75));z-index:1}
+.dhero>*:not(.dhero__img):not(.credit){position:relative;z-index:3}
+.dhero::after{opacity:.08}
+.dhero__body{margin-top:auto;padding:0 7vw 48px}
+.dhero__body h1{font-family:var(--serif);font-weight:400;font-size:clamp(46px,7vw,96px);letter-spacing:.02em;margin:10px 0 14px;line-height:1}
+.dhero .badge{border-color:#fff;color:#fff}
+.dhero .badge.solid{background:var(--accent);border-color:var(--accent);color:#111}
+.credit{position:absolute;right:12px;bottom:10px;z-index:4;font-size:9px;letter-spacing:.1em;opacity:.7;text-transform:uppercase}
+.dgrid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;padding:56px 7vw}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid #111}
+.fact{padding:16px 0;border-bottom:1px solid #d9d4ca}
+.fact:nth-child(odd){padding-right:18px}
+.fact dt{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent-soft);margin-bottom:6px}
+.fact dd{margin:0;font-size:14px;line-height:1.5}
+.fact.wide{grid-column:1/-1}
+.yes{color:#2f7a3b;font-weight:500}.no{color:#a33;font-weight:500}.unk{color:#888}
+.dmap{height:340px;border-radius:28px;overflow:hidden;border:1px solid #111}
+.panel h2{font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;margin:34px 0 14px}
+.panel h2:first-child{margin-top:0}
+.dev{border:1px solid #111;border-radius:22px;padding:14px 18px;margin-bottom:12px;background:#fff}
+.dev .ev__date{font-size:22px;color:#111}
+.dev .ev__meta{color:var(--accent-soft);opacity:1}
+.sources{font-size:12px;line-height:1.7;word-break:break-all;padding-left:18px}
+.back{color:#fff;text-decoration:none}
+.summary{font-family:var(--serif);font-size:22px;line-height:1.45;margin:0 0 30px}
+.conflict{border:1px dashed #a33;border-radius:18px;padding:12px 16px;font-size:13px;margin:16px 0;background:#fff6f4}
+.dcta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.dcta .pill-btn.dark{background:#111;color:#fff}
+.dcta .pill-btn.dark:hover{background:var(--accent);color:#111;border-color:var(--accent)}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width:900px){
+  .hero__body{grid-template-columns:1fr;gap:40px;padding-top:40px}
+  .hero__cta{justify-self:start;text-align:left}
+  .hero__labels{flex-direction:column;gap:8px}
+  .explorer{grid-template-columns:1fr}
+  .mapwrap{position:relative;height:52vh;border-right:0;border-bottom:1px solid #000}
+  .list{max-height:none}
+  .about,.dgrid{grid-template-columns:1fr}
+  .topbar{padding-top:26px;flex-wrap:wrap}
+  .pill-search{width:100%}
+  .topbar__right{width:100%;justify-content:space-between}
+}
+.card .badge.solid{background:#000;color:#fff}
+.dhero .badge{color:#fff}
+.topbar__right{gap:18px}
+.citysel--light>button{border-color:var(--line-d);color:var(--ink)}
+.subbar .citysel ul{top:42px}
+.summary-lang{font-size:var(--fs-xs);letter-spacing:var(--track-ui);text-transform:uppercase;color:var(--accent-soft);margin:-18px 0 30px}
+.notice{margin:0 var(--gutter) 18px;border:1px dashed #000;border-radius:var(--pill);padding:10px 18px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+@media (max-width:900px){.wordmark{font-size:28px}.subbar .wordmark{font-size:24px}}
+.pill-btn{white-space:nowrap}
+@media (max-width:900px){
+  .topbar__right{flex-wrap:wrap;gap:12px}
+  .topbar__right .pill-search{order:3;flex:1 1 100%;width:100%}
+  .topbar__right .menu-btn{margin-left:auto}
+  .citysel ul{left:0;right:auto}
+}

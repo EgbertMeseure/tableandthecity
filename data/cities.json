@@ -1,0 +1,12 @@
+{
+ "brand": {"name": "Table and the City", "domain": "tableandthecity.com", "family": [{"name": "Arts and the City", "domain": "artsandthecity.com", "status": "coming soon"}]},
+ "defaultCity": "gent",
+ "countries": [
+  {"code": "BE", "name": "Belgium", "cities": [
+   {"id": "gent", "name": "Gent", "nameEn": "Ghent", "active": true, "data": "data/cities/gent.json", "center": [51.051, 3.725], "zoom": 13},
+   {"id": "antwerpen", "name": "Antwerpen", "nameEn": "Antwerp", "active": false},
+   {"id": "brussel", "name": "Brussel", "nameEn": "Brussels", "active": false},
+   {"id": "brugge", "name": "Brugge", "nameEn": "Bruges", "active": false}
+  ]}
+ ]
+}

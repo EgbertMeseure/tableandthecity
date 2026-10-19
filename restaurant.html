@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Restaurant — Table and the City</title>
+<meta name="description" content="Restaurant details on Table and the City: cuisine, price, distinctions, vegetarian &amp; vegan options, current menu, events and sources.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Table and the City">
+<meta property="og:title" content="Table and the City">
+<meta property="og:description" content="Taste the city at its finest tables.">
+<meta property="og:url" content="https://tableandthecity.com/restaurant.html">
+<meta property="og:image" content="https://tableandthecity.com/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Italiana&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="css/brand.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="detail">
+<header class="dhero grain" id="top">
+  <img class="dhero__img" id="himg" src="img/hero2.jpg" alt="">
+  <div class="topbar">
+    <a class="wordmark" data-home href="index.html" aria-label="Table and the City – home"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a>
+    <div class="topbar__right">
+      <div class="citysel" data-citysel></div>
+      <a class="pill-btn sm" id="back" href="index.html#explore">← All addresses</a>
+      <button class="menu-btn" data-open-nav aria-label="Menu"><svg viewBox="0 0 30 22"><path d="M8 21 15 1M15 21 22 1M22 21 29 1"/></svg></button>
+    </div>
+  </div>
+  <div class="dhero__body">
+    <div class="badges" id="hbadges"></div>
+    <h1 id="hname">…</h1>
+    <div class="up" id="hmeta"></div>
+  </div>
+  <span class="credit">Mood image (Unsplash) – not a photo of the restaurant</span>
+</header>
+<nav class="navdrawer" id="nav" aria-hidden="true">
+  <button class="close up" data-close-nav>Close</button>
+  <a data-home href="index.html">Home</a><a data-home="#explore" href="index.html#explore">Map &amp; list</a><a data-home="#events" href="index.html#events">Events</a><a data-home="#about" href="index.html#about">About the data</a>
+  <span class="family">Part of the … and the City family</span>
+</nav>
+<main class="dgrid" id="main">
+  <div class="panel" id="left"></div>
+  <aside class="panel" id="right"></aside>
+</main>
+<footer class="site-footer" data-footer></footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/common.js"></script>
+<script src="js/detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* ==========================================================================
+   "… and the City" family – shared design system  (brand.css)
+   Used by Table and the City (tableandthecity.com) and, later, Arts and the City
+   (artsandthecity.com). A sister site only overrides the tokens in :root –
+   typically --accent (and optionally --accent-ink) – and keeps everything else.
+   ========================================================================== */
+:root{
+  /* colour */
+  --ink:#0b0b0b; --paper:#fff; --paper-warm:#faf8f4; --mute:#8a8a8a; --mute-2:#555;
+  --line:rgba(255,255,255,.85); --line-d:rgba(0,0,0,.85); --hairline:#e5e5e5;
+  --accent:#c8a96a;          /* Table and the City: warm gold. Arts and the City: override here. */
+  --accent-ink:#111;         /* text colour on top of --accent */
+  --accent-soft:#7a6f5d;     /* muted label colour on colour pages */
+  /* type */
+  --serif:'Italiana','Bodoni Moda',Didot,'Times New Roman',serif;      /* thin Didone display */
+  --serif-it:'Cormorant Garamond','Bodoni Moda',Didot,Georgia,serif;  /* italic companion */
+  --sans:'Montserrat','Helvetica Neue',Arial,sans-serif;
+  --fs-xs:10px; --fs-s:11px; --fs-m:13px; --fs-l:22px; --fs-xl:clamp(28px,3vw,40px); --fs-display:clamp(46px,7vw,96px);
+  --track-ui:.18em; --track-wide:.2em;
+  /* shape & motion */
+  --pill:999px; --radius-card:28px; --gutter:7vw; --ease:.45s ease;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--sans);font-weight:300;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select{font-family:inherit}
+.up{text-transform:uppercase;letter-spacing:var(--track-ui);font-size:var(--fs-s);font-weight:400}
+.dash{font-family:var(--sans);font-weight:300;padding:0 .15em}
+
+/* ---- wordmark: "TABLE and the City" ---- */
+.wordmark{display:inline-flex;align-items:baseline;gap:.32em;font-family:var(--serif);font-weight:400;font-size:34px;line-height:1;text-decoration:none;color:inherit;white-space:nowrap}
+.wordmark .wm-main{text-transform:uppercase;letter-spacing:.08em}
+.wordmark .wm-sub{font-family:var(--serif-it);font-style:italic;font-weight:300;font-size:.58em;letter-spacing:.02em;text-transform:none}
+.wordmark .wm-sub b{font-weight:300;color:var(--accent)}
+
+/* ---- film grain + B&W → colour on hover ---- */
+.grain{position:relative;isolation:isolate}
+.grain::after{content:"";position:absolute;inset:0;background-image:var(--grain);opacity:.16;mix-blend-mode:overlay;pointer-events:none;z-index:2}
+.bw{filter:grayscale(1) contrast(1.08);transition:filter var(--ease), transform .6s ease}
+.bw-host:hover .bw,.bw-host:focus-within .bw,.bw-host.is-hover .bw{filter:grayscale(0) contrast(1)}
+
+/* ---- pills: search, buttons, chips, selects, badges ---- */
+.pill-search{display:flex;align-items:center;border:1px solid var(--line);border-radius:var(--pill);padding:0 14px 0 18px;height:34px;width:min(360px,52vw);background:rgba(0,0,0,.15)}
+.pill-search input{flex:1;min-width:0;background:transparent;border:0;outline:0;color:#fff;font-size:var(--fs-s);letter-spacing:.16em;text-transform:uppercase}
+.pill-search input::placeholder{color:rgba(255,255,255,.75)}
+.pill-search svg{width:16px;height:16px;stroke:#fff;fill:none;stroke-width:1.4;flex:none}
+.pill-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--line);color:#fff;background:transparent;border-radius:var(--pill);padding:0 34px;height:44px;text-decoration:none;cursor:pointer;font-size:var(--fs-s);letter-spacing:var(--track-ui);text-transform:uppercase;transition:background .25s,color .25s}
+.pill-btn:hover{background:#fff;color:#000}
+.pill-btn.sm{height:34px;padding:0 20px}
+.pill-btn.dark{border-color:var(--line-d);color:var(--ink)}
+.pill-btn.dark:hover{background:#000;color:#fff}
+.chip{border:1px solid var(--line-d);border-radius:var(--pill);background:#fff;height:34px;padding:0 16px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;color:var(--ink)}
+.chip[aria-pressed="true"]{background:#000;color:#fff}
+.fsel{appearance:none;border:1px solid var(--line-d);border-radius:var(--pill);background-color:#fff;color:var(--ink);height:34px;padding:0 30px 0 16px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;
+  background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%);background-position:calc(100% - 15px) 15px,calc(100% - 11px) 15px;background-size:4px 4px;background-repeat:no-repeat}
+.on-dark .chip,.on-dark .fsel{background-color:transparent;color:#fff;border-color:var(--line)}
+.on-dark .fsel option{color:#000}
+.on-dark .chip[aria-pressed="true"]{background:#fff;color:#000}
+.badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.badge{border:1px solid currentColor;border-radius:var(--pill);padding:3px 9px;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;white-space:nowrap}
+.badge.solid{background:var(--ink);border-color:var(--ink);color:#fff}
+.badge.dist{border-style:dashed}
+
+/* ---- '///' menu + drawer ---- */
+.menu-btn{background:none;border:0;color:#fff;cursor:pointer;padding:4px;display:flex}
+.menu-btn svg{width:28px;height:22px;stroke:currentColor;stroke-width:1.2}
+.navdrawer{position:fixed;top:0;right:0;height:100vh;width:min(360px,90vw);background:#0b0b0b;color:#fff;z-index:2000;transform:translateX(100%);transition:transform var(--ease);padding:42px 36px;display:flex;flex-direction:column;gap:22px}
+.navdrawer.open{transform:none}
+.navdrawer a{text-decoration:none;font-family:var(--serif);font-size:30px;letter-spacing:.04em}
+.navdrawer .close{align-self:flex-end;background:none;border:1px solid var(--line);color:#fff;border-radius:var(--pill);padding:8px 16px;cursor:pointer}
+.navdrawer .family{margin-top:auto;font-size:var(--fs-xs);letter-spacing:var(--track-ui);text-transform:uppercase;opacity:.7}
+
+/* ---- city / country selector (pill + dropdown) ---- */
+.citysel{position:relative}
+.citysel>button{display:inline-flex;align-items:center;gap:8px;height:34px;padding:0 16px;border:1px solid var(--line);border-radius:var(--pill);background:transparent;color:inherit;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+.citysel>button::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.citysel>button::after{content:"";width:5px;height:5px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(45deg) translateY(-2px);margin-left:2px}
+.citysel ul{display:none;position:absolute;right:0;top:42px;min-width:250px;margin:0;padding:10px;list-style:none;background:#0b0b0b;color:#fff;border:1px solid rgba(255,255,255,.35);border-radius:22px;z-index:1500}
+.citysel.open ul{display:block}
+.citysel li{border-radius:var(--pill)}
+.citysel .ci{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 14px;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border-radius:var(--pill)}
+.citysel .ci em{font-style:normal;font-size:9px;opacity:.8}
+.citysel a.ci:hover,.citysel li[aria-current="true"] .ci{background:#fff;color:#000}
+.citysel .ci.soon{opacity:.45;cursor:default}
+.citysel .grp{padding:8px 14px 2px;font-size:9px;letter-spacing:.2em;text-transform:uppercase;opacity:.55}
+
+/* ---- section heading flanked by thin arrows ---- */
+.section{padding:70px 0}
+.section__head{display:flex;align-items:center;justify-content:space-between;padding:0 var(--gutter);margin-bottom:34px}
+.section__head h2{font-weight:400;font-size:14px;letter-spacing:var(--track-wide);text-transform:uppercase;margin:0;text-align:center}
+.arrow{background:none;border:0;cursor:pointer;padding:8px;color:inherit}
+.arrow svg{width:46px;height:12px;stroke:currentColor;stroke-width:1}
+
+/* ---- carousel of stadium (pill) photo cards ---- */
+.carousel{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px var(--gutter) 24px;scrollbar-width:none}
+.carousel::-webkit-scrollbar{display:none}
+.pillcard{flex:0 0 clamp(170px,19vw,240px);aspect-ratio:1/2.45;border-radius:var(--pill);overflow:hidden;position:relative;scroll-snap-align:center;cursor:pointer;border:0;padding:0;background:#111;color:#fff;font:inherit}
+.pillcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pillcard::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(0,0,0,.15),rgba(0,0,0,.55));z-index:1;transition:opacity var(--ease)}
+.pillcard:hover::before{opacity:.55}
+.pillcard span{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:3;font-size:clamp(14px,1.4vw,19px);letter-spacing:.16em;text-transform:uppercase;font-weight:400;text-align:center;padding:0 14px}
+.pillcard small{display:block;font-size:var(--fs-xs);letter-spacing:var(--track-wide);margin-top:8px;opacity:.85}
+.pillcard.active{outline:1px solid #000;outline-offset:6px}
+.pillcard:hover img{transform:scale(1.04)}
+
+/* ---- footer with family line ---- */
+.site-footer{background:#000;color:#fff;padding:44px var(--gutter);display:grid;grid-template-columns:auto 1fr auto;gap:24px 40px;align-items:center;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase}
+.site-footer a{color:#fff}
+.site-footer .wordmark{font-size:24px;color:#fff}
+.site-footer .family{text-align:center;line-height:1.9}
+.site-footer .family .wordmark{font-size:16px;opacity:.9}
+.site-footer .family a{text-decoration:none;border-bottom:1px solid rgba(255,255,255,.4)}
+.site-footer .family a:hover{border-color:var(--accent);color:var(--accent)}
+.site-footer .meta{grid-column:1/-1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;opacity:.65;border-top:1px solid rgba(255,255,255,.2);padding-top:18px}
+@media (max-width:900px){.site-footer{grid-template-columns:1fr}.site-footer .family{text-align:left}}

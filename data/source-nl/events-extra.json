@@ -1,0 +1,90 @@
+[
+ {
+  "title": "Gand Gourmand – foodpromenade, workshops en tastings",
+  "dateStart": "2026-11-01",
+  "dateEnd": "2026-11-08",
+  "type": "stadsfestival",
+  "location": "Meerdere locaties in Gent",
+  "partners": [
+   "Stad Gent / PuurGent"
+  ],
+  "sources": [
+   "https://stad.gent/nl/puur-gent/nieuws-evenementen/neem-deel-aan-gand-gourmand"
+  ],
+  "id": "extra-0"
+ },
+ {
+  "title": "Yasai – herfst pop-up: plant-based 6-gangenmenu (12 plaatsen)",
+  "dateStart": "2026-10-29",
+  "dateEnd": "2026-10-31",
+  "type": "pop-up (vegan)",
+  "location": "Rabotstraat 25, Gent",
+  "partners": [
+   "Yasai"
+  ],
+  "sources": [
+   "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
+  ],
+  "note": "Tweede reeks 5–7 november 2026.",
+  "id": "extra-1"
+ },
+ {
+  "title": "Yasai – herfst pop-up (tweede reeks)",
+  "dateStart": "2026-11-05",
+  "dateEnd": "2026-11-07",
+  "type": "pop-up (vegan)",
+  "location": "Rabotstraat 25, Gent",
+  "partners": [
+   "Yasai"
+  ],
+  "sources": [
+   "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
+  ],
+  "id": "extra-2"
+ },
+ {
+  "title": "Chaji omakase – thee- en kaiseki-ervaring met chef Nick Hofman",
+  "dateStart": "2026-11-08",
+  "dateEnd": null,
+  "type": "thema-avond / samenwerking",
+  "location": "Zuru Zuru Ramen, Gent",
+  "note": "Kadert in Gand Gourmand; €120 p.p., 2 shifts.",
+  "partners": [
+   "Diana Goderich (theespecialist)"
+  ],
+  "sources": [
+   "https://zuruzuru-ramen.be/events/chaji-omakase-thee-en-kaiseki-ervaring/"
+  ],
+  "id": "extra-3"
+ },
+ {
+  "title": "BROER @ Red Loft – Røk neemt de keuken over",
+  "dateStart": "2026-09-20",
+  "dateEnd": null,
+  "type": "guest chef / takeover",
+  "location": "Red Loft, Hugo van der Goesstraat 17A",
+  "partners": [
+   "Røk",
+   "Red Loft"
+  ],
+  "sources": [
+   "https://www.redloft.be/broer"
+  ],
+  "id": "extra-4"
+ },
+ {
+  "title": "Carbonaraburger: samenwerking Tush × Arthe² (Geoffrey Devriendt)",
+  "dateStart": "2026-01-13",
+  "dateEnd": null,
+  "type": "chef-samenwerking / special",
+  "location": "Tush, Hoogpoort 50",
+  "partners": [
+   "Arthe²",
+   "Tush"
+  ],
+  "sources": [
+   "https://www.hln.be/gent/hamburger-en-fine-diningrestaurant-in-gent-creeren-samen-unieke-carbonaraburger-alleen-maar-lokale-ingredienten~a9ec6ce7d/"
+  ],
+  "id": "extra-5"
+ }
+]

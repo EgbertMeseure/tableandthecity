@@ -1,0 +1,10 @@
+[
+ {"date":"2026-10-19","restaurant":"(alle)","field":"dataset","change":"Eerste opname: 52 adressen uit Michelin Gids 2026, Gault&Millau 2026 en recente persberichten; per adres eigen website gecontroleerd.","source":"https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurants"},
+ {"date":"2026-10-19","restaurant":"DOOR73","field":"status","change":"Niet opgenomen: definitief gesloten (laatste service eind juli 2026); team verhuisde naar Le Chouchou.","source":"https://www.hln.be/gent/marcelo-ballardin-en-dominik-dhooge-sluiten-na-acht-jaar-door73-in-gent-een-mooi-verhaal-maar-het-is-tijd-voor-een-nieuw-concept~a48dd0cd/"},
+ {"date":"2026-10-19","restaurant":"Souvenir","field":"status","change":"Niet opgenomen: definitief gesloten na zomer 2025 (team runt nu Lubbi).","source":"https://souvenir.gent/"},
+ {"date":"2026-10-19","restaurant":"Le Chouchou","field":"isNew","change":"Nieuw (geopend begin augustus 2026) – Burgstraat 20.","source":"https://www.hln.be/gent/net-open-met-le-chouchou-starten-marcelo-ballardin-en-dominik-dhooge-een-nieuw-avontuur-we-hopen-een-echt-buurtrestaurant-te-worden~a5c850d0/"},
+ {"date":"2026-10-19","restaurant":"Lubbi","field":"status","change":"Tijdelijk gesloten wegens ziekte (melding op eigen site).","source":"https://lubbi.be/"},
+ {"date":"2026-10-19","restaurant":"DEBRA","field":"address","change":"Adresconflict: GM meldt verhuis naar Zuidstationstraat 14; eigen site en Michelin vermelden Lange Steenstraat 10 (gebruikt).","source":"https://debragent.be/"},
+ {"date":"2026-10-19","restaurant":"Boris & Maurice","field":"currentMenuNote","change":"Nieuwe kaart oktober–november 2026 (13/10–20/11).","source":"https://boris-maurice.be/menu/"},
+ {"date":"2026-10-19","restaurant":"Talloor d'Or","field":"currentMenuNote","change":"Weeklunch 20–23/10/2026 en diner Chef's Choice 16/10–20/11/2026 gepubliceerd.","source":"https://talloordor.be/menu"}
+]
