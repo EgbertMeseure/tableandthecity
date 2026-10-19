@@ -5,7 +5,8 @@ city = sys.argv[1] if len(sys.argv) > 1 else 'gent'
 P = f'data/cities/{city}.json'
 D = json.load(open(P)); M = json.load(open(f'data/cities/{city}-media-sources.json'))['restaurants']
 for r in D['restaurants']:
-    m = M.get(r['id'], {})
+    if r['id'] not in M: continue                       # venues keep their own media fields
+    m = M[r['id']]
     h = m.get('instagram_handle')
     r['instagram_handle'] = h
     r['instagram'] = f'https://www.instagram.com/{h}/' if h else None

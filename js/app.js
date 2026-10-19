@@ -1,16 +1,16 @@
 /* Table and the City – city overview page */
 (async function () {
-  const { esc, fmtDate, eur, known, priceNum, distRank, isStar, isUpcoming, badges, TYPE_IMG, TYPE_LABEL, haversine, cityUrl } = TG;
+  const { esc, fmtDate, eur, known, priceNum, distRank, isStar, isUpcoming, badges, TYPE_IMG, TYPE_LABEL, GROUP_LABEL, CAT_LABEL, catLabel, haversine, cityUrl } = TG;
   TG.bindNav();
   const { cfg, city, notice } = await TG.currentCity();
   TG.renderCitySel(cfg, city); TG.renderFooter(cfg, city);
   const { restaurants: R, events: E, changelog } = await TG.load(city);
   const CITY = city.name;
-  document.title = `Table and the City — ${CITY}: fine dining, bistros & chef events`;
+  document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
   const $ = s => document.querySelector(s);
-  const ADV = ['type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
+  const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
   const QUICK = ['new', 'veggie', 'vegan', 'events'];                  // chips in the main row
-  const DEF = { q: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, sort: 'rec', ev: '' };
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
@@ -29,60 +29,125 @@
   const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.origin || state.sort !== 'rec');
 
   // ---- hero labels ----
-  $('#lbl-count').textContent = `${R.length} addresses in ${CITY}`;
+  $('#lbl-count').textContent = `${R.length} places in ${CITY}`;
   $('#lbl-veg').textContent = `${R.filter(r => r.vegetarian === 'yes').length} veggie · ${R.filter(r => r.vegan === 'yes').length} vegan`;
   $('#lbl-ev').textContent = `${E.filter(isUpcoming).length} upcoming events & collaborations`;
-  $('#explore-title').textContent = `All addresses in ${CITY}`; $('#about-city').textContent = CITY;
+  $('#explore-title').textContent = `All places in ${CITY}`; $('#about-city').textContent = CITY;
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
   const checked = R.map(r => r.dateChecked).sort().pop();
   $('#checked').textContent = `Last checked: ${fmtDate(checked, { day: 'numeric', month: 'long', year: 'numeric' })}`;
 
-  // ---- category carousel ----
-  const CATS = [
-    { label: 'All', img: 'hero2', n: R.length },
-    { label: 'Fine dining', img: 'finedining', key: 'type:fine dining' },
-    { label: 'Gastro-bistro', img: 'bistro', key: 'type:gastro-bistro' },
-    { label: 'Bistro & brasserie', img: 'nieuw', key: 'type:bistro+brasserie' },
-    { label: 'Casual', img: 'casual', key: 'type:casual' },
-    { label: 'Veggie & vegan', img: 'vegan', key: 'veggie' },
-    { label: 'New', img: 'plated', key: 'new' },
-    { label: 'Stars', img: 'events2', key: 'dist:star' },
-    { label: 'Events', img: 'events', key: 'events' }
+  // ---- "Choose your table": top-level group cards, each with a small sub-menu ----
+  const sub = (label, f) => ({ label, f });
+  const GROUPS = [
+    { label: 'New', img: 'plated', f: { new: true }, subs: Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g })) },
+    { label: 'Restaurants', img: 'finedining', f: { group: 'restaurants' }, subs: [
+      sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
+      sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
+      sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Veggie & vegan', { group: 'restaurants', veggie: true }),
+      sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
+    { label: 'Cafés & bars', img: 'bar', f: { group: 'cafes_bars' }, subs: [
+      sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
+      sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), sub('Cafés', { group: 'cafes_bars', type: 'cafe' })] },
+    { label: 'Coffee', img: 'coffee', f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' })] },
+    { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' })] },
+    { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
   ];
-  const countFor = key => R.filter(r => matchKey(r, key)).length;
-  function matchKey(r, key) {
-    if (!key) return true;
-    if (key.startsWith('type:')) return key.slice(5).split('+').includes(r.type);
-    if (key === 'veggie') return r.vegetarian === 'yes';
-    if (key === 'new') return r.isNew;
-    if (key === 'events') return r.events.length > 0;
-    if (key === 'dist:star') return isStar(r.distinctions.michelin);
-    return true;
-  }
-  $('#carousel').innerHTML = CATS.map((c, i) => `
-    <button class="pillcard bw-host grain" data-cat="${i}" aria-label="${esc(c.label)}">
+  const matchF = (r, f) => Object.entries(f).every(([k, v]) =>
+    k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? r.isNew :
+    k === 'veggie' ? r.vegetarian === 'yes' : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
+  const countF = f => R.filter(r => matchF(r, f)).length;
+  GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n); });
+  $('#carousel').innerHTML = GROUPS.map((c, i) => `
+    <button class="pillcard bw-host grain" data-cat="${i}" aria-label="${esc(c.label)}, ${c.n} ${c.toEvents ? 'upcoming' : 'places'}"${c.subs.length ? ' aria-haspopup="menu" aria-expanded="false"' : ''}>
       <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">
-      <span>${esc(c.label)}<small>${c.n ?? countFor(c.key)} addresses</small></span>
+      <span>${esc(c.label)}<small>${c.n} ${c.toEvents ? 'upcoming' : 'places'}</small></span>
     </button>`).join('');
-  $('#carousel').addEventListener('click', e => {
-    if (TG.wasDragged($('#carousel'))) return;
-    const b = e.target.closest('.pillcard'); if (!b) return;
-    const c = CATS[+b.dataset.cat];
-    resetFilters(false);
-    if (c.key) {
-      if (c.key.startsWith('type:')) state.type = c.key.slice(5);
-      else if (c.key === 'dist:star') state.dist = 'star';
-      else state[c.key] = true;
-    }
-    document.querySelectorAll('.pillcard').forEach(p => p.classList.toggle('active', p === b && !!c.key));
+  function choose(g, f, btn) {
+    resetFilters(false); Object.assign(state, f); closeMenu(false);
+    document.querySelectorAll('.pillcard').forEach(p => p.classList.toggle('active', p === btn));
     applyUI(); render();
-    if (c.key === 'events') document.getElementById('events').scrollIntoView(); else document.getElementById('explore').scrollIntoView();
+    document.getElementById(g.toEvents ? 'events' : 'explore').scrollIntoView();
+  }
+  // floating menu lives in <body> so the carousel's overflow cannot clip it
+  const menu = document.createElement('div'); menu.className = 'catmenu'; menu.id = 'catmenu'; menu.setAttribute('role', 'menu'); menu.hidden = true;
+  document.body.appendChild(menu);
+  let menuFor = null, tOpen, tClose, lastPtr = 'mouse';
+  const hoverable = () => matchMedia('(hover: hover) and (pointer: fine)').matches;
+  function openMenu(btn, { focus = false } = {}) {
+    clearTimeout(tClose); const g = GROUPS[+btn.dataset.cat]; if (!g.subs.length) return;
+    if (menuFor === btn && !menu.hidden) { if (focus) menu.querySelector('button').focus(); return; }
+    closeMenu(false); menuFor = btn; btn.setAttribute('aria-expanded', 'true');
+    const all = `<button role="menuitem" class="catmenu__all" data-s="-1">All ${esc(g.label.toLowerCase())}<span>${g.n}</span></button>`;
+    menu.innerHTML = all + g.subs.map((s, j) => `<button role="menuitem" data-s="${j}">${esc(s.label)}<span>${s.n}</span></button>`).join('');
+    menu.setAttribute('aria-label', g.label); menu.hidden = false; place();
+    requestAnimationFrame(() => menu.classList.add('open'));
+    if (focus) menu.querySelector('button').focus();
+  }
+  function place() {
+    if (!menuFor) return; const r = menuFor.getBoundingClientRect(), mw = menu.offsetWidth, mh = menu.offsetHeight;
+    const left = Math.max(8, Math.min(innerWidth - mw - 8, r.left + r.width / 2 - mw / 2));
+    // sits just under the card's label, over the lower half (extends below the card when the list is long)
+    const top = Math.max(r.top + r.height * .58, r.bottom - mh - 18);
+    menu.style.left = left + scrollX + 'px'; menu.style.top = top + scrollY + 'px';
+  }
+  function closeMenu(refocus) {
+    clearTimeout(tOpen); clearTimeout(tClose); if (!menuFor) return;
+    const btn = menuFor; btn.setAttribute('aria-expanded', 'false'); menuFor = null;
+    menu.classList.remove('open'); menu.hidden = true; if (refocus) btn.focus();
+  }
+  const car = $('#carousel');
+  car.addEventListener('pointerdown', e => { lastPtr = e.pointerType || 'mouse'; }, true);
+  car.addEventListener('pointerover', e => {
+    const b = e.target.closest('.pillcard'); if (!b || e.pointerType !== 'mouse' || !hoverable() || car.classList.contains('dragging') || e.buttons) return;
+    clearTimeout(tClose); clearTimeout(tOpen); tOpen = setTimeout(() => openMenu(b), menuFor ? 0 : 140);
   });
+  car.addEventListener('pointerout', e => {
+    const b = e.target.closest('.pillcard'); if (!b || e.pointerType !== 'mouse' || (e.relatedTarget && b.contains(e.relatedTarget))) return;
+    clearTimeout(tOpen); tClose = setTimeout(() => closeMenu(false), 220);
+  });
+  car.addEventListener('pointermove', e => { if (e.buttons & 1 && menuFor) closeMenu(false); });
+  menu.addEventListener('pointerenter', () => clearTimeout(tClose));
+  menu.addEventListener('pointerleave', e => { if (e.pointerType === 'mouse') tClose = setTimeout(() => closeMenu(false), 220); });
+  car.addEventListener('scroll', () => { if (menuFor && !menu.contains(document.activeElement)) closeMenu(false); else place(); }, { passive: true });
+  addEventListener('resize', () => closeMenu(false));
+  car.addEventListener('click', e => {
+    if (TG.wasDragged(car)) return;
+    const b = e.target.closest('.pillcard'); if (!b) return;
+    const g = GROUPS[+b.dataset.cat];
+    // touch / no-hover devices: first tap opens the menu (its first item selects the whole group)
+    if (g.subs.length && (lastPtr !== 'mouse' || !hoverable()) && e.detail !== 0) { if (menuFor === b) closeMenu(false); else openMenu(b); return; }
+    choose(g, g.f, b);
+  });
+  car.addEventListener('keydown', e => {
+    const b = e.target.closest('.pillcard'); if (!b) return;
+    if (e.key === 'ArrowDown') { e.preventDefault(); openMenu(b, { focus: true }); }
+    else if (e.key === 'Escape') closeMenu(false);
+  });
+  menu.addEventListener('click', e => {
+    const it = e.target.closest('[data-s]'); if (!it || !menuFor) return;
+    const btn = menuFor, g = GROUPS[+btn.dataset.cat], j = +it.dataset.s;
+    choose(g, j < 0 ? g.f : g.subs[j].f, btn);
+  });
+  menu.addEventListener('keydown', e => {
+    const items = [...menu.querySelectorAll('[data-s]')], i = items.indexOf(document.activeElement);
+    if (e.key === 'ArrowDown') { e.preventDefault(); items[(i + 1) % items.length].focus(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); if (i <= 0) closeMenu(true); else items[i - 1].focus(); }
+    else if (e.key === 'Escape') { e.preventDefault(); closeMenu(true); }
+    else if (e.key === 'Tab') closeMenu(true);
+  });
+  document.addEventListener('pointerdown', e => { if (menuFor && !menu.contains(e.target) && !menuFor.contains(e.target)) closeMenu(false); });
   TG.carousel($('#carousel'));
 
   // ---- filter options ----
   const opt = (sel, vals, fmt = v => v) => { $(sel).insertAdjacentHTML('beforeend', vals.map(v => `<option value="${esc(v)}">${esc(fmt(v))}</option>`).join('')); };
-  opt('#f-type', ['fine dining', 'gastro-bistro', 'bistro', 'brasserie', 'casual', 'bistro+brasserie'], v => v === 'bistro+brasserie' ? 'Bistro + brasserie' : TYPE_LABEL[v]);
+  opt('#f-group', Object.keys(GROUP_LABEL).filter(g => R.some(r => r.group === g)), g => GROUP_LABEL[g]);
+  const CATS_BY_G = { restaurants: ['fine dining', 'gastro-bistro', 'bistro', 'brasserie', 'bistro+brasserie', 'casual', 'restaurant'], cafes_bars: ['dance_cafe', 'brown_cafe', 'irish_pub', 'cafe'], coffee: ['coffee_bar'], bakeries: ['bakery'] };
+  const catOpt = v => v === 'bistro+brasserie' ? 'Bistro + brasserie' : v === 'restaurant' ? 'Restaurant (type not classified)' : CAT_LABEL[v];
+  $('#f-type').insertAdjacentHTML('beforeend', Object.entries(CATS_BY_G).map(([g, vs]) => {
+    const ok = vs.filter(v => R.some(r => v.split('+').includes(r.category)));
+    return ok.length ? `<optgroup label="${esc(GROUP_LABEL[g])}">${ok.map(v => `<option value="${esc(v)}">${esc(catOpt(v))}</option>`).join('')}</optgroup>` : '';
+  }).join(''));
   const areas = [...new Set(R.map(r => r.district))].sort((a, b) => a.localeCompare(b, 'en'));
   const hoods = [...new Set(R.map(r => r.neighbourhood))].filter(h => !areas.includes(h)).sort((a, b) => a.localeCompare(b, 'en'));
   $('#f-area').insertAdjacentHTML('beforeend', `<optgroup label="District">${areas.map(a => `<option value="d:${esc(a)}">${esc(a)}</option>`).join('')}</optgroup><optgroup label="Neighbourhood (OSM)">${hoods.map(a => `<option value="n:${esc(a)}">${esc(a)}</option>`).join('')}</optgroup>`);
@@ -90,7 +155,7 @@
 
   // ---- search ----
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  R.forEach(r => r._hay = norm([r.name, r.type, r.cuisine, r.cuisineTags.join(' '), r.chef, r.neighbourhood, r.district, r.address, r.menuType, r.menuChanges, r.currentMenuNote, r.dietNote, r.summary,
+  R.forEach(r => r._hay = norm([r.name, r.type, catLabel(r), GROUP_LABEL[r.group], r.cuisine, r.cuisineTags.join(' '), r.chef, r.neighbourhood, r.district, r.address, r.menuType, r.menuChanges, r.currentMenuNote, r.dietNote, r.summary,
     r.distinctions.michelin, r.events.map(e => [e.title, e.type, (e.partners || []).join(' ')].join(' ')).join(' '), r.isNew ? 'new nieuw' : '', r.vegan === 'yes' ? 'vegan plant-based' : '', r.vegetarian === 'yes' ? 'veggie vegetarian' : '', r.original_nl ? Object.values(r.original_nl).join(' ') : ''].join(' ')));
   E.forEach(e => e._hay = norm([e.title, e.type, e.location, (e.partners || []).join(' '), e.restaurantNames.join(' '), e.note].join(' ')));
   const terms = () => norm(state.q).split(/\s+/).filter(Boolean);
@@ -99,7 +164,8 @@
     const t = terms();
     let list = R.filter(r => {
       if (t.length && !t.every(w => r._hay.includes(w))) return false;
-      if (state.type && !state.type.split('+').includes(r.type)) return false;
+      if (state.group && r.group !== state.group) return false;
+      if (state.type && !state.type.split('+').includes(r.category)) return false;
       if (state.area) { const [k, v] = [state.area.slice(0, 1), state.area.slice(2)]; if (k === 'd' ? r.district !== v : r.neighbourhood !== v) return false; }
       if (state.cuisine && !r.cuisineTags.includes(state.cuisine)) return false;
       if (state.price && r.priceLevel !== state.price) return false;
@@ -152,14 +218,15 @@
   const detailUrl = id => cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id));
   function card(r) {
     const price = known(r.priceLevel) ? r.priceLevel : (r.priceFrom ? `from ${eur(r.priceFrom)}` : '');
-    const meta = [TYPE_LABEL[r.type], r.cuisine.split(/[,–(]/)[0].trim(), r.neighbourhood, price].filter(Boolean).map(esc).join(' · ');
+    const isR = r.group === 'restaurants', cu = r.cuisine.split(/[,–(]/)[0].trim();
+    const meta = [catLabel(r), isR && cu !== catLabel(r) ? cu : '', known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
     const km = state.origin && r._km != null ? `<span>${r._km.toFixed(1)} km</span>` : '';
-    const note = known(r.currentMenuNote) ? r.currentMenuNote : (known(r.menuType) ? r.menuType : '');
+    const note = known(r.currentMenuNote) ? r.currentMenuNote : (known(r.menuType) ? r.menuType : (!isR && r.summary ? r.summary : ''));
     return `<a class="card bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
       <div class="card__body"><div class="badges">${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${note ? `<p class="card__note">${esc(note)}</p>` : ''}
-      <div class="card__foot">${km}${r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>Checked ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
+      <div class="card__foot">${km}${isR && r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}<span>Checked ${esc(fmtDate(r.dateChecked))}</span></div></div></a>`;
   }
   function render() {
     syncUrl();
@@ -172,8 +239,8 @@
     layer.clearLayers();
     list.forEach(r => {
       if (!r.lat) return;
-      const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk${isStar(r.distinctions.michelin) ? ' star' : ''}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
-        .bindPopup(`<b>${esc(r.name)}</b><br>${esc(TYPE_LABEL[r.type])} · ${esc(r.cuisine.split(/[,–(]/)[0])}<br>${esc(r.address)}<br><a href="${detailUrl(r.id)}">Details →</a>`);
+      const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
+        .bindPopup(`<b>${esc(r.name)}</b><br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}<br>${esc(r.address)}<br><a href="${detailUrl(r.id)}">Details →</a>`);
       m.on('mouseover', () => hl(r.id, true)); m.on('mouseout', () => hl(r.id, false));
       m.addTo(layer);
     });
@@ -195,7 +262,8 @@
     { id: 'popup', label: 'Pop-ups', re: /pop-up/i },
     { id: 'collab', label: 'Chef collabs', re: /four-hands|guest chef|takeover|collaboration|chef collective/i },
     { id: 'dinner', label: 'Dinners', re: /themed|wine dinner|charity|menu/i },
-    { id: 'festival', label: 'Festivals', re: /festival|culinary event/i }
+    { id: 'festival', label: 'Festivals', re: /festival|culinary event/i },
+    { id: 'night', label: 'Concerts & club nights', re: /concert|club night|dj set|party/i }
   ];
   const evGroup = e => (EVGROUPS.find(g => g.re.test(e.type)) || {}).id;
   E.forEach(e => e._g = evGroup(e));
@@ -245,7 +313,7 @@
   $('#reset').addEventListener('click', () => resetFilters());
   // "More filters" sheet
   const sheet = $('#morefilters'), bd = $('#sheet-bd');
-  const openSheet = o => { sheet.classList.toggle('open', o); sheet.setAttribute('aria-hidden', !o); bd.hidden = !o; document.body.classList.toggle('noscroll', o); if (o) $('#f-type').focus(); };
+  const openSheet = o => { sheet.classList.toggle('open', o); sheet.setAttribute('aria-hidden', !o); bd.hidden = !o; document.body.classList.toggle('noscroll', o); if (o) $('#f-group').focus(); };
   $('#btn-more').addEventListener('click', () => openSheet(true));
   [$('#mf-close'), bd].forEach(x => x.addEventListener('click', () => openSheet(false)));
   $('#mf-apply').addEventListener('click', () => { openSheet(false); document.getElementById('explore').scrollIntoView(); });

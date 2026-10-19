@@ -246,3 +246,26 @@ button,input,select{font-family:inherit}
 .mono-thumb.two>span{font-size:32px}
 .bw-host:hover .mono-thumb,.bw-host:focus-within .mono-thumb,.bw-host.is-hover .mono-thumb{filter:none}
 .bw-host:hover .mono-thumb>span,.bw-host:focus-within .mono-thumb>span,.bw-host.is-hover .mono-thumb>span{color:var(--accent);-webkit-text-stroke-color:var(--accent)}
+
+/* ---- group tones for monogram thumbnails ---- */
+.mono-thumb.mt-cafes_bars{--mt-a:#3a2c24;--mt-b:#170f0c}
+.mono-thumb.mt-coffee{--mt-a:#2f2a26;--mt-b:#120f0d}
+.mono-thumb.mt-bakeries{--mt-a:#3d362c;--mt-b:#1a1611}
+
+/* ---- "Choose your table" sub-menu (floats in <body>, positioned by app.js) ---- */
+.catmenu{position:absolute;z-index:60;min-width:200px;max-width:min(260px,calc(100vw - 16px));padding:8px;border-radius:18px;
+  background:rgba(12,11,10,.94);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(200,169,106,.35);
+  box-shadow:0 14px 40px rgba(0,0,0,.35);opacity:0;transform:translateY(6px);transition:opacity .18s ease,transform .18s ease}
+.catmenu.open{opacity:1;transform:none}
+.catmenu button{display:flex;width:100%;justify-content:space-between;align-items:baseline;gap:14px;background:none;border:0;color:#fff;
+  font:inherit;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;padding:9px 12px;border-radius:999px;cursor:pointer;text-align:left}
+.catmenu button span{font-family:var(--serif);font-size:13px;letter-spacing:0;color:var(--accent)}
+.catmenu button:hover,.catmenu button:focus-visible{background:rgba(255,255,255,.1);outline:none}
+.catmenu .catmenu__all{border-bottom:1px solid rgba(255,255,255,.12);border-radius:12px 12px 4px 4px;margin-bottom:4px}
+@media (prefers-reduced-motion:reduce){.catmenu{transition:none}}
+
+/* ---- map markers: subtle shape per group (restaurants keep the round dot) ---- */
+.mk.g-cafes_bars{background:#5a5a5a}
+.mk.g-coffee{border-radius:3px;width:12px;height:12px;background:#000}
+.mk.g-bakeries{border-radius:3px;width:12px;height:12px;background:#fff;border-color:#000;transform:rotate(45deg)}
+.mk.g-bakeries.hl{transform:rotate(45deg) scale(1.7)}

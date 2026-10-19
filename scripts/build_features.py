@@ -14,6 +14,7 @@ KEYS = ['veggie', 'vegan', 'glutenFree', 'kidsWelcome', 'terrace', 'lunch', 'din
         'walkIn', 'wheelchair', 'openSunday', 'new']
 def txt(r, *f): return ' '.join(str(r.get(x) or '') for x in f) + ' ' + ' '.join(str(v) for v in (r.get('original_nl') or {}).values())
 for r in D['restaurants']:
+    if r.get('origin') == 'venues': continue          # venue features come from the venues research file
     F = {k: None for k in KEYS}; E = {}
     def yes(k, why): F[k] = True; E[k] = why
     menu = str(r.get('menuType') or ''); ml = menu.lower()

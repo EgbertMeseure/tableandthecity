@@ -80,3 +80,12 @@ booking link); `events`/`chefCollabs` are computed in the browser from upcoming 
 
 ## Carousels
 All horizontal rows (categories, events) use one helper, `TG.carousel(track)` in `js/common.js`: CSS scroll-snap on an `overflow-x` track, native touch swipe and trackpad/Shift+wheel scrolling, mouse click-drag with momentum (a drag never fires a card click), ←/→ keys when the track has focus, and arrow buttons (`data-car-prev="<track id>"` / `data-car-next`) with 44px+ targets that turn disabled at the ends. Test: `python3 scripts/test_carousels.py` (needs the local server on :8765).
+
+## Groups: restaurants, cafés & bars, coffee, bakeries
+Every record in `data/cities/<city>.json` has a `group` (`restaurants`, `cafes_bars`, `coffee`, `bakeries`) and a `category`
+(restaurant type, or `dance_cafe`, `brown_cafe`, `irish_pub`, `cafe`, `coffee_bar`, `bakery`). Venues and new businesses come from
+`data/cities/<city>-venues-new.json` and are merged with `python3 scripts/merge_venues.py <city>` (idempotent; re-run after the
+venues file changes, then `apply_media.py` and `build_features.py`, which leave venue records alone). Records with
+`status: "unverified"` stay in the data but are never shown. "Choose your table" shows one card per group (+ New, Events); hovering
+(desktop), tapping (touch) or ArrowDown (keyboard) opens a small menu of sub-categories with counts. Venue events (concerts, club
+nights) appear in the Events section; past dates are hidden as usual.

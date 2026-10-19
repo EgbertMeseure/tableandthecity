@@ -11,6 +11,7 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
     `vegetarian`/`vegan` = `yes|no|unknown`, `events[]` (`title, dateStart, dateEnd|dateText, type, location, partners[], sources[], note`),
     `summary` (guide description, kept in original language, `summaryLang`), `original_nl` (Dutch source text of translated fields).
 - `data/cities/<city>.csv` – flat export.
+- After updating `data/cities/<city>-venues-new.json`: `python3 scripts/merge_venues.py <city> && python3 scripts/apply_media.py && python3 scripts/build_features.py`.
 - `data/cities/<city>-events-archive.json` – past events moved out by `prune_events.py`.
 - `data/cities/<city>-media-sources.json` – where each Instagram handle / post / reservation link was found.
 - `data/cities/<city>-features-overrides.json` – optional verified manual feature facts (with source).

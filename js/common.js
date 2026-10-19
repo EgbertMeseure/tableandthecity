@@ -31,10 +31,14 @@ const TG = (() => {
     const p = realPhotos(r).find(x => x.category === 'exterior' || x.category === 'interior') || realPhotos(r)[0];
     if (p) return `<img class="bw" src="${esc(p.thumb || p.src)}" ${p.srcset ? `srcset="${esc(p.srcset)}" sizes="${sizes}"` : ''} alt="" loading="lazy" decoding="async">`;
     const ini = initials(r.name);
-    const tone = TYPE_KEY[r.type] || 'interior';
+    const tone = TYPE_KEY[r.type] || (r.group && r.group !== 'restaurants' ? r.group : 'interior');
     let h = 0; for (const ch of r.id) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
     return `<span class="mono-thumb grain mt-${tone}${ini.length > 1 ? ' two' : ''}" style="--ang:${h % 360}deg;--pos:${20 + h % 60}%" aria-hidden="true"><span>${esc(ini)}</span></span>`;
   }
+  const GROUP_LABEL = { restaurants: 'Restaurants', cafes_bars: 'Cafés & bars', coffee: 'Coffee', bakeries: 'Bakeries' };
+  const CAT_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual', restaurant: 'Restaurant',
+    dance_cafe: 'Dance café', brown_cafe: 'Brown café', irish_pub: 'Irish pub', cafe: 'Café', coffee_bar: 'Specialty coffee', bakery: 'Bakery' };
+  const catLabel = r => CAT_LABEL[r.category] || CAT_LABEL[r.type] || GROUP_LABEL[r.group] || '';
   const TYPE_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual' };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v != null && v !== '' && v !== U && !/^unknown\b/i.test(String(v));
@@ -166,7 +170,7 @@ const TG = (() => {
   /* ---- data ---- */
   async function load(city) {
     const d = await fetch(city.data).then(r => r.json());
-    const rs = d.restaurants;
+    const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
     const events = [];
@@ -264,6 +268,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

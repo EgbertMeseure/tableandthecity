@@ -19,7 +19,10 @@ async def regression(b):
         await pg.wait_for_timeout(1500)                                  # let smooth scroll / momentum settle
         v = await pg.evaluate(VIS, 'carousel')
         if how == 'mouse': await pg.mouse.click(v['x'], v['y'])
-        else: await pg.touchscreen.tap(v['x'], v['y'])
+        else:                                                            # touch: tap opens the sub-menu, its first item = whole group
+            await pg.touchscreen.tap(v['x'], v['y']); await pg.wait_for_timeout(400)
+            check(await pg.is_visible('#catmenu'), f'{label}: tap opens the sub-menu')
+            bb = await pg.locator('#catmenu [data-s]').first.bounding_box(); await pg.touchscreen.tap(bb['x'] + bb['width'] / 2, bb['y'] + bb['height'] / 2)
         await pg.wait_for_timeout(500)
         ok = await pg.evaluate("document.querySelector('.pillcard.active')!==null") or ('?' in pg.url and '=' in pg.url.split('?')[1] and pg.url != BASE)
         check(ok and pg.url != BASE, f'{label}: card click after scrolling still applies the filter ({pg.url.split("?")[1]})')
@@ -67,6 +70,81 @@ async def regression(b):
         check(True, 'events: link click after drag opens the page')
     except Exception as e: check(False, f'events: link click after drag ({e})')
 
+async def hover_menu(b):
+    """'Choose your table' sub-menus: hover (desktop), keyboard, tap (touch); counts match the list."""
+    pg = await (await b.new_context(viewport={'width': 1366, 'height': 768})).new_page()
+    errs = []; pg.on('pageerror', lambda e: errs.append(str(e)))
+    await pg.goto(BASE, wait_until='networkidle'); await pg.wait_for_timeout(500)
+    await pg.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})"); await pg.wait_for_timeout(300)
+    card = pg.locator('.pillcard[data-cat="1"]'); bb = await card.bounding_box()
+    await pg.mouse.move(bb['x'] + bb['width'] / 2, bb['y'] + 40); await pg.wait_for_timeout(450)
+    check(await pg.is_visible('#catmenu'), 'hover: menu opens on hovering a group card')
+    items = await pg.locator('#catmenu [data-s]').all_inner_texts()
+    check(len(items) >= 6 and any(i.lower().startswith('fine dining') for i in items), f'hover: restaurant sub-categories listed ({len(items)})')
+    check(await card.get_attribute('aria-expanded') == 'true', 'hover: aria-expanded=true')
+    it = pg.locator('#catmenu [data-s]', has_text='Fine dining'); n = int((await it.locator('span').inner_text()).strip())
+    ib = await it.bounding_box(); await pg.mouse.move(bb['x'] + bb['width'] / 2, ib['y'] + ib['height'] / 2, steps=8)
+    await pg.wait_for_timeout(350); check(await pg.is_visible('#catmenu'), 'hover: menu stays open while moving into it')
+    await it.click(); await pg.wait_for_timeout(400)
+    cnt = await pg.inner_text('#count')
+    check('group=restaurants' in pg.url and 'type=fine' in pg.url and cnt.startswith(f'{n} '), f'hover: sub-item applies its filter, count matches ({n} / {cnt})')
+    check(not await pg.is_visible('#catmenu'), 'hover: menu closes after choosing')
+    await pg.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})"); await pg.wait_for_timeout(300)
+    bb = await pg.locator('.pillcard[data-cat="2"]').bounding_box()
+    await pg.mouse.move(bb['x'] + bb['width'] / 2, bb['y'] + 40); await pg.wait_for_timeout(450)
+    await pg.mouse.move(bb['x'] + bb['width'] / 2, bb['y'] - 120, steps=4); await pg.wait_for_timeout(500)
+    check(not await pg.is_visible('#catmenu'), 'hover: menu closes on mouse leave')
+    # every sub-menu count equals the list count it produces
+    bad = []
+    for cat in range(5):
+        await pg.goto(BASE, wait_until='networkidle'); await pg.wait_for_timeout(300)
+        await pg.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})")
+        c = pg.locator(f'.pillcard[data-cat="{cat}"]'); await c.scroll_into_view_if_needed(); await pg.wait_for_timeout(500)
+        k = await pg.locator('#catmenu [data-s]').count() if False else None
+        await c.focus(); await pg.keyboard.press('ArrowDown'); await pg.wait_for_timeout(250)
+        k = await pg.locator('#catmenu [data-s]').count()
+        for j in range(k):
+            if j: await c.focus(); await pg.keyboard.press('ArrowDown'); await pg.wait_for_timeout(200)
+            for _ in range(j): await pg.keyboard.press('ArrowDown')
+            t = await pg.evaluate("document.activeElement.innerText"); want = t.split('\n')[-1].strip()
+            await pg.keyboard.press('Enter'); await pg.wait_for_timeout(250)
+            got = (await pg.inner_text('#count')).split(' ')[0]
+            if got != want: bad.append((cat, t, got))
+            await pg.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})"); await pg.wait_for_timeout(150)
+    check(not bad, f'keyboard: ArrowDown opens menu, Enter applies; all sub-menu counts match the list {bad}')
+    await pg.goto(BASE, wait_until='networkidle'); await pg.wait_for_timeout(300)
+    await pg.focus('.pillcard[data-cat="1"]'); await pg.keyboard.press('ArrowDown'); await pg.wait_for_timeout(200); await pg.keyboard.press('Escape'); await pg.wait_for_timeout(200)
+    check(not await pg.is_visible('#catmenu') and await pg.evaluate("document.activeElement.dataset.cat==='1'"), 'keyboard: Escape closes and returns focus')
+    await pg.focus('.pillcard[data-cat="2"]'); await pg.keyboard.press('Enter'); await pg.wait_for_timeout(300)
+    check('group=cafes_bars' in pg.url, 'keyboard: Enter on a card selects the whole group')
+    # no menu while dragging
+    await pg.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})"); await pg.wait_for_timeout(300)
+    tb = await pg.locator('#carousel').bounding_box(); y = tb['y'] + tb['height'] / 2
+    await pg.mouse.move(tb['x'] + 900, y); await pg.mouse.down()
+    for i in range(1, 11): await pg.mouse.move(tb['x'] + 900 - i * 40, y); await pg.wait_for_timeout(16)
+    vis = await pg.is_visible('#catmenu'); await pg.mouse.up(); await pg.wait_for_timeout(1500)
+    check(not vis, 'drag: menu does not open while dragging')
+    v = await pg.evaluate("""()=>{const t=document.getElementById('carousel').getBoundingClientRect();const c=[...document.querySelectorAll('.pillcard')].find(x=>{const r=x.getBoundingClientRect();return r.left>=t.left+4&&r.right<=t.right-4&&x.dataset.cat!=='5'});const r=c.getBoundingClientRect();return {x:r.left+r.width/2,y:r.top+40}}""")
+    await pg.mouse.move(v['x'] - 5, v['y']); await pg.mouse.move(v['x'], v['y'], steps=3); await pg.wait_for_timeout(450)
+    check(await pg.is_visible('#catmenu'), 'drag: hover menu works again after a drag')
+    # touch
+    m = await (await b.new_context(viewport={'width': 390, 'height': 844}, has_touch=True, is_mobile=True)).new_page()
+    m.on('pageerror', lambda e: errs.append(str(e)))
+    await m.goto(BASE, wait_until='networkidle'); await m.wait_for_timeout(500)
+    await m.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})"); await m.wait_for_timeout(300)
+    c = m.locator('.pillcard[data-cat="2"]'); await m.evaluate("document.querySelector('.pillcard[data-cat=\"2\"]').scrollIntoView({inline:'center',block:'center',behavior:'instant'})"); await m.wait_for_timeout(600)
+    bb = await c.bounding_box(); await m.touchscreen.tap(bb['x'] + bb['width'] / 2, bb['y'] + 40); await m.wait_for_timeout(400)
+    check(await m.is_visible('#catmenu') and 'group=' not in m.url, 'touch: tap on a card opens its menu (no filter yet)')
+    it = m.locator('#catmenu [data-s]', has_text='Brown'); n = (await it.locator('span').inner_text()).strip(); ib = await it.bounding_box()
+    mb = await m.locator('#catmenu').bounding_box(); check(mb['x'] >= 0 and mb['x'] + mb['width'] <= 390, 'touch: menu fits the viewport')
+    await m.touchscreen.tap(ib['x'] + ib['width'] / 2, ib['y'] + ib['height'] / 2); await m.wait_for_timeout(400)
+    check('type=brown_cafe' in m.url and (await m.inner_text('#count')).startswith(n + ' '), f'touch: tapping a sub-item applies it ({n})')
+    await m.evaluate("document.getElementById('carousel').scrollIntoView({block:'center',behavior:'instant'})"); await m.wait_for_timeout(300)
+    bb = await c.bounding_box(); await m.touchscreen.tap(bb['x'] + bb['width'] / 2, bb['y'] + 40); await m.wait_for_timeout(300)
+    await m.touchscreen.tap(20, 20); await m.wait_for_timeout(300)
+    check(not await m.is_visible('#catmenu'), 'touch: tapping outside closes the menu')
+    check(not errs, f'menu: no page errors {errs}')
+
 async def main():
     async with async_playwright() as p:
         b = await p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
@@ -104,7 +182,8 @@ async def main():
             check(await sl(tid) > 50, f'{tid}: shift+wheel scrolls horizontally')
         # a plain click still opens a category (no drag)
         await pg.evaluate("document.getElementById('carousel').scrollLeft=0"); await pg.click('.pillcard[data-cat="1"]'); await pg.wait_for_timeout(400)
-        check('type=fine+dining' in pg.url or 'type=fine%20dining' in pg.url, 'plain click on a category still filters')
+        check('group=restaurants' in pg.url, 'plain click on a group card filters the whole group')
+        await hover_menu(b)
         # touch swipe (mobile emulation, CDP touch events)
         m = await (await b.new_context(viewport={'width': 390, 'height': 844}, has_touch=True, is_mobile=True)).new_page()
         await m.goto(BASE, wait_until='networkidle'); await m.wait_for_timeout(800)

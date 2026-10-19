@@ -1,6 +1,7 @@
 /* Table and the City – restaurant detail page (full colour) */
 (async function () {
-  const { esc, fmtDate, eur, known, badges, TYPE_LABEL, cityUrl } = TG;
+  const { esc, fmtDate, eur, known, badges, TYPE_LABEL, catLabel, cityUrl } = TG;
+  const isR = r => r.group === 'restaurants';
   TG.bindNav();
   const { cfg, city } = await TG.currentCity();
   TG.renderCitySel(cfg, city);
@@ -35,7 +36,7 @@
   }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
-  $('#hmeta').textContent = [TYPE_LABEL[r.type], r.cuisine, r.neighbourhood].join(' · ');
+  $('#hmeta').textContent = [catLabel(r), isR(r) && r.cuisine !== catLabel(r) ? r.cuisine : '', known(r.neighbourhood) ? r.neighbourhood : ''].filter(Boolean).join(' · ');
   const d = r.distinctions || {};
   const priceTxt = [known(r.priceLevel) ? esc(r.priceLevel) : '', r.priceFrom ? `from ${eur(r.priceFrom)}` : ''].filter(Boolean).join(' · ') || '<span class="unk">unknown</span>';
   const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
@@ -48,7 +49,13 @@
   const EV = Object.assign({}, r.features_evidence || {});
   if (F.events) EV.events = `${live.length} upcoming`;
   if (F.chefCollabs) EV.chefCollabs = 'upcoming event with partner chefs';
-  const TILES = [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
+  const TILES_BY_GROUP = {
+    cafes_bars: [['liveMusic', 'Live music'], ['dj', 'DJ'], ['terrace', 'Terrace'], ['foodServed', 'Food served'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['events', 'Events'], ['new', 'New']],
+    coffee: [['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['new', 'New']],
+  };
+  TILES_BY_GROUP.bakeries = TILES_BY_GROUP.coffee;
+  if (!isR(r)) F.new = r.isNew ? true : null;
+  const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
     ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
     ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
     ['walkIn', 'Walk-in'], ['wheelchair', 'Wheelchair accessible'], ['openSunday', 'Open Sunday'], ['new', 'New']];
@@ -60,10 +67,10 @@
   }).join('');
   const nYes = TILES.filter(([k]) => F[k] === true).length;
   // ---- reserve: own booking URL (verified) > website > phone ----
-  const resv = r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : r.website ? { href: r.website, label: 'Reserve' } : r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
+  const resv = !isR(r) ? null : r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : r.website ? { href: r.website, label: 'Reserve' } : r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
   const sourcesLine = `<details class="srcline"><summary>Sources &amp; last checked ${esc(fmtDate(r.dateChecked, long))}</summary>
       <ol class="sources">${r.sources.map(s => s.startsWith('http') ? `<li><a href="${esc(s.split(' ')[0])}" target="_blank" rel="noopener">${esc(s)}</a></li>` : `<li>${esc(s)}</li>`).join('')}</ol>
-      <p>Last changed ${esc(fmtDate(r.lastChanged))} · Coordinates: ${esc(r.geoSource)}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
+      <p>Last changed ${esc(fmtDate(r.lastChanged))} · Coordinates: ${esc(r.geoSource)}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
   $('#left').innerHTML = `
     ${r.summary ? `<p class="summary" lang="${esc(r.summaryLang || 'nl')}">${esc(r.summary)}</p>` : ''}
     ${r.status !== 'open' ? `<div class="conflict"><strong>Status: ${esc(r.status)}.</strong> ${esc(r.statusNote)}</div>` : ''}
@@ -72,17 +79,17 @@
       <div><dt>Address</dt><dd>${esc(r.address)}</dd></div>
       ${r.phone ? `<div><dt>Phone</dt><dd><a href="tel:${esc(r.phone.replace(/[^\d+]/g, ''))}">${esc(r.phone)}</a></dd></div>` : ''}
       ${r.website ? `<div><dt>Website</dt><dd><a href="${esc(r.website)}" target="_blank" rel="noopener">${esc(host(r.website))}</a></dd></div>` : ''}
-      <div><dt>Price</dt><dd>${priceTxt}</dd></div>
+      ${isR(r) || known(r.priceLevel) ? `<div><dt>Price</dt><dd>${priceTxt}</dd></div>` : ''}
       ${hours ? `<div><dt>Hours</dt><dd>${hours}</dd></div>` : ''}
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
     </dl>
     <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
     <ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>
-    <h2>Events &amp; collaborations</h2>
+    <h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>
     ${live.length ? live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev"><div class="ev__meta">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</div>
       <div class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</div>
       <div>${esc(e.title)}</div><div class="ev__meta" style="margin-top:6px">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
-      <div style="font-size:12px;margin-top:6px">${(e.sources || []).map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(' · ')}</div></div>`).join('') : '<p class="unk">No upcoming events or collaborations right now.</p>'}
+      <div style="font-size:12px;margin-top:6px">${(e.sources || []).map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(' · ')}</div></div>`).join('') : `<p class="unk">No upcoming ${isR(r) ? 'events or collaborations' : 'events'} listed right now.</p>`}
     ${sourcesLine}`;
   $('#right').innerHTML = `
     <div class="dcta">

@@ -118,5 +118,32 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "used_for": "Gallery + hero of Sākas and Tribune (Wintercircus, Lammerstraat 13)",
   "changes": "resized, WebP"
+ },
+ {
+  "file": "img/bar.jpg + img/bar-{800,1600,2400}.webp",
+  "title": "Clear drinking glass with brown liquid on brown wooden table",
+  "photographer": "Ambitious Studio* | Rick Barrett",
+  "photographer_url": "https://unsplash.com/photos/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-bFBQZhwCfl4",
+  "source": "https://unsplash.com/photos/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-bFBQZhwCfl4",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Category card \"Cafés & bars\""
+ },
+ {
+  "file": "img/coffee.jpg + img/coffee-{800,1600,2400}.webp",
+  "title": "Person making latte art",
+  "photographer": "Fahmi Fakhrudin",
+  "photographer_url": "https://unsplash.com/@fahmipaping",
+  "source": "https://unsplash.com/photos/person-making-latte-art-nzyzAUsbV0M",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Category card \"Coffee\""
+ },
+ {
+  "file": "img/bakery.jpg + img/bakery-{800,1600,2400}.webp",
+  "title": "A bakery filled with lots of different types of pastries",
+  "photographer": "Sitraka",
+  "photographer_url": "https://unsplash.com/@srakotoarivelo7",
+  "source": "https://unsplash.com/photos/a-bakery-filled-with-lots-of-different-types-of-pastries-gKWvWZVRwZQ",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Category card \"Bakeries\""
  }
 ]
