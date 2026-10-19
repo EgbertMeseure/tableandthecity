@@ -16,15 +16,16 @@
 <meta property="og:image" content="https://tableandthecity.com/img/og.jpg">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1000.webp 1000w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Italiana&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="css/brand.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="hero grain" id="top">
-  <img class="hero__img bw" src="img/interior.jpg" alt="">
+  <img class="hero__img bw" src="img/hero-1600.jpg" srcset="img/hero-1000.webp 1000w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" sizes="100vw" alt="" fetchpriority="high">
   <div class="topbar">
     <a class="wordmark" data-home href="index.html" aria-label="Table and the City – home"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a>
     <div class="topbar__right">
@@ -43,6 +44,7 @@
       <a class="pill-btn" href="#explore">Explore</a>
     </div>
   </div>
+  <a class="scrollcue" href="#categories" aria-label="Scroll to categories"><span>Scroll</span><i></i></a>
   <div class="hero__labels up"><span id="lbl-count">Restaurants</span><span id="lbl-veg">Veggie &amp; vegan</span><span id="lbl-ev">Events &amp; collaborations</span></div>
 </header>
 
@@ -56,76 +58,76 @@
 </nav>
 
 <section class="section" id="categories">
-  <div class="subbar"><a class="wordmark" data-home href="index.html"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a><button class="menu-btn" data-open-nav aria-label="Menu"><svg viewBox="0 0 30 22"><path d="M8 21 15 1M15 21 22 1M22 21 29 1"/></svg></button></div>
   <div class="section__head">
-    <button class="arrow" data-scroll="-1" aria-label="Previous"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
+    <button class="arrow" type="button" data-car-prev="carousel" aria-controls="carousel" aria-label="Previous categories"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
     <h2>Choose your table</h2>
-    <button class="arrow" data-scroll="1" aria-label="Next"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></button>
+    <button class="arrow" type="button" data-car-next="carousel" aria-controls="carousel" aria-label="Next categories"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></button>
   </div>
-  <div class="carousel" id="carousel"></div>
+  <div class="carousel" id="carousel" tabindex="0" role="region" aria-label="Categories (scroll horizontally)"></div>
 </section>
 
-<section class="section" id="explore" style="padding-top:20px">
+<section class="section" id="explore">
   <div class="section__head">
-    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></span>
+    <span class="rule" aria-hidden="true"></span>
     <h2 id="explore-title">All addresses</h2>
-    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></span>
+    <span class="rule" aria-hidden="true"></span>
   </div>
   <div class="notice" id="city-notice" hidden></div>
-  <div class="searchline">
-    <label class="pill-search" aria-label="Search the list">
-      <input id="q" type="search" placeholder="Search by name, chef, cuisine, menu, event…" autocomplete="off">
+  <div class="finder">
+    <label class="bigsearch" aria-label="Search restaurants">
       <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <input id="q" type="search" placeholder="Search a restaurant, chef, dish or cuisine" autocomplete="off">
     </label>
-    <select class="fsel" id="sort" aria-label="Sort">
-      <option value="name">Sort: name</option>
-      <option value="score">Sort: distinction / score</option>
-      <option value="price-asc">Sort: price low → high</option>
-      <option value="price-desc">Sort: price high → low</option>
-      <option value="new">Sort: newest</option>
-      <option value="dist">Sort: distance</option>
-    </select>
-    <button class="chip" id="btn-loc" aria-pressed="false">◎ My location</button>
-    <span class="count" id="count"></span>
-  </div>
-  <div class="filters" id="filters">
-    <select class="fsel" id="f-type" aria-label="Type"><option value="">Type: all</option></select>
-    <select class="fsel" id="f-area" aria-label="Neighbourhood"><option value="">Neighbourhood: all</option></select>
-    <select class="fsel" id="f-cuisine" aria-label="Cuisine"><option value="">Cuisine: all</option></select>
-    <select class="fsel" id="f-price" aria-label="Price"><option value="">Price: all</option><option>€€</option><option>€€€</option><option>€€€€</option><option value="unknown">Price unknown</option></select>
-    <select class="fsel" id="f-dist" aria-label="Distinction">
-      <option value="">Distinction: all</option>
-      <option value="star">Michelin star(s)</option>
-      <option value="bib">Bib Gourmand</option>
-      <option value="michelin">In the Michelin Guide</option>
-      <option value="gm15">Gault&amp;Millau ≥ 15</option>
-      <option value="gm13">Gault&amp;Millau ≥ 13</option>
-      <option value="gm">Gault&amp;Millau (any score)</option>
-    </select>
-    <button class="chip" data-toggle="veggie" aria-pressed="false">Veggie</button>
-    <button class="chip" data-toggle="vegan" aria-pressed="false">Vegan</button>
-    <button class="chip" data-toggle="new" aria-pressed="false">New</button>
-    <button class="chip" data-toggle="events" aria-pressed="false">With events</button>
-    <button class="chip" id="reset">Clear filters</button>
+    <div class="finder__row">
+      <div class="chips" role="group" aria-label="Quick filters">
+        <button class="chip" id="btn-loc" aria-pressed="false">Near me</button>
+        <button class="chip" data-toggle="new" aria-pressed="false">New</button>
+        <button class="chip" data-toggle="veggie" aria-pressed="false">Veggie</button>
+        <button class="chip" data-toggle="vegan" aria-pressed="false">Vegan</button>
+        <button class="chip" data-toggle="events" aria-pressed="false">Events</button>
+      </div>
+      <div class="finder__right">
+        <button class="linkbtn" id="reset" hidden>Reset</button>
+        <span class="count" id="count"></span>
+        <select class="fsel" id="sort" aria-label="Sort">
+          <option value="rec">Recommended</option>
+          <option value="dist">Nearest</option>
+          <option value="new">Newest</option>
+          <option value="price">Price</option>
+        </select>
+        <button class="chip chip--more" id="btn-more" aria-haspopup="dialog" aria-controls="morefilters"><span class="hide-sm">More </span>filters<span class="n" id="more-n" hidden></span></button>
+      </div>
+    </div>
   </div>
   <div class="explorer">
-    <div class="mapwrap"><div id="map" role="region" aria-label="Map"></div><div class="maphint" id="maphint">Click the map to measure distance</div></div>
+    <div class="mapwrap"><div id="map" role="region" aria-label="Map"></div><div class="maphint" id="maphint">Click the map to sort by distance</div></div>
     <div class="list" id="list" aria-live="polite"></div>
   </div>
 </section>
 
+<div class="sheet-backdrop" id="sheet-bd" hidden></div>
+<aside class="sheet" id="morefilters" role="dialog" aria-modal="true" aria-labelledby="mf-title" aria-hidden="true">
+  <div class="sheet__head"><h3 id="mf-title">More filters</h3><button class="close-x" id="mf-close" aria-label="Close">×</button></div>
+  <div class="sheet__body">
+    <label class="field"><span>Type</span><select class="fsel" id="f-type"><option value="">Any type</option></select></label>
+    <label class="field"><span>Neighbourhood</span><select class="fsel" id="f-area"><option value="">Anywhere in the city</option></select></label>
+    <label class="field"><span>Cuisine</span><select class="fsel" id="f-cuisine"><option value="">Any cuisine</option></select></label>
+    <label class="field"><span>Price level</span><select class="fsel" id="f-price"><option value="">Any price</option><option>€€</option><option>€€€</option><option>€€€€</option></select></label>
+    <label class="field"><span>Distinction</span><select class="fsel" id="f-dist">
+      <option value="">Any</option><option value="star">Michelin star(s)</option><option value="bib">Bib Gourmand</option><option value="michelin">In the Michelin Guide</option>
+      <option value="gm15">Gault&amp;Millau ≥ 15</option><option value="gm13">Gault&amp;Millau ≥ 13</option></select></label>
+  </div>
+  <div class="sheet__foot"><button class="pill-btn dark" id="mf-clear">Clear</button><button class="pill-btn solid" id="mf-apply">Show results</button></div>
+</aside>
+
 <section class="section events on-dark grain" id="events">
   <div class="section__head">
-    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></span>
+    <button class="arrow" type="button" data-car-prev="evlist" aria-controls="evlist" aria-label="Previous events"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
     <h2>Events &amp; collaborations</h2>
-    <span class="arrow" aria-hidden="true"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></span>
+    <button class="arrow" type="button" data-car-next="evlist" aria-controls="evlist" aria-label="Next events"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></button>
   </div>
-  <div class="filters">
-    <select class="fsel" id="ev-type" aria-label="Event type"><option value="">Type: all</option></select>
-    <button class="chip" id="ev-past" aria-pressed="false">Show past</button>
-    <span class="count" id="ev-count" style="color:#bbb"></span>
-  </div>
-  <div class="evlist" id="evlist"></div>
+  <div class="evbar"><div class="chips" id="ev-chips" role="group" aria-label="Event type"></div><span class="count" id="ev-count"></span></div>
+  <div class="evlist carousel-x" id="evlist" tabindex="0" role="region" aria-label="Upcoming events (scroll horizontally)"></div>
 </section>
 
 <section class="about" id="about">

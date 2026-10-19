@@ -76,7 +76,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "alberte",
@@ -137,7 +231,101 @@
     "dietNote": "Site: vegetarisch mogelijk bij reservatie; vegan niet mogelijk.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "arbane",
@@ -198,7 +386,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g114-1600.webp",
+     "thumb": "img/gallery/g114-800.webp",
+     "w": 1600,
+     "h": 2463,
+     "category": "chef",
+     "alt": "Man preparing food",
+     "credit": "Louis Hansel / Unsplash",
+     "credit_url": "https://unsplash.com/@louishansel",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "arno-ristorante",
@@ -261,7 +543,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "baptist",
@@ -322,7 +698,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "bask",
@@ -411,7 +881,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "bistro-bastien",
@@ -472,7 +1036,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "bistro-cho",
@@ -535,7 +1193,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g106-1600.webp",
+     "thumb": "img/gallery/g106-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Man standing front of plate with vegetable",
+     "credit": "Jason Leung / Unsplash",
+     "credit_url": "https://unsplash.com/@ninjason",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-standing-front-of-plate-with-vegetable--eKZLpj7U0E",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "boris-maurice",
@@ -597,7 +1349,101 @@
     "dietNote": "Site: vegetarische variant voor de lunch.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "commotie",
@@ -687,7 +1533,101 @@
     "dietNote": "Site: geen vegetarisch of veganistisch menu mogelijk; pescotarisch wel op aanvraag.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "dapper",
@@ -729,25 +1669,7 @@
    "instagram": null,
    "phone": "+32 9 396 09 40",
    "summary": "Met uitzicht op het veld van KAA Gent serveert Nick Dapper een eigentijdse keuken. Hij overtuigt met sashimi van hamachi en salade van noordzeekrab. Daarna gepocheerde tarbot in beurre noisette met structuren van bloemkool en jus van grijze garnalen,…",
-   "events": [
-    {
-     "title": "Diner Gantoise (KAA Gent Foundation) – menu by four chefs",
-     "dateStart": "2026-04-02",
-     "dateEnd": null,
-     "type": "collaboration / charity dinner",
-     "location": "Flanders Expo, Unit 7",
-     "partners": [
-      "Moscou by Danny Horseele",
-      "Vrijmoed",
-      "Dapper."
-     ],
-     "sources": [
-      "https://www.kaagent.be/nl/nieuws/09-04-2026/diner-gantoise-ne-gruute-merci"
-     ],
-     "note": "Date inferred: \"last Thursday\" in a post dated 9-4-2026.",
-     "id": "dapper-0"
-    }
-   ],
+   "events": [],
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/dapper-gent",
     "https://www.restaurantdapper.com/nl/menu",
@@ -769,7 +1691,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g114-1600.webp",
+     "thumb": "img/gallery/g114-800.webp",
+     "w": 1600,
+     "h": 2463,
+     "category": "chef",
+     "alt": "Man preparing food",
+     "credit": "Louis Hansel / Unsplash",
+     "credit_url": "https://unsplash.com/@louishansel",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "de-rave",
@@ -832,7 +1848,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g114-1600.webp",
+     "thumb": "img/gallery/g114-800.webp",
+     "w": 1600,
+     "h": 2463,
+     "category": "chef",
+     "alt": "Man preparing food",
+     "credit": "Louis Hansel / Unsplash",
+     "credit_url": "https://unsplash.com/@louishansel",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "debra",
@@ -897,7 +2007,101 @@
     "dietNote": "Menukaart okt. 2026 vermeldt een vegetarisch alternatief (artisjok-knolselder-herfsttruffel).",
     "statusNote": "",
     "dataConflict": "GM-pagina meldt verhuis \"op 1 juli\" naar Zuidstationstraat 14; eigen site en Michelin vermelden Lange Steenstraat 10. Adres van eigen site gebruikt."
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g119-1600.webp",
+     "thumb": "img/gallery/g119-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Person putting food on plate",
+     "credit": "Sebastian Coman Photography / Unsplash",
+     "credit_url": "https://unsplash.com/@sebastiancoman",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-putting-food-on-plate-cQbOSRpElxw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "elders",
@@ -985,7 +2189,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "ferri",
@@ -1047,7 +2345,101 @@
     "dietNote": "Site: \"seizoensgebonden vegetarische keuken\"; vegetarisch 5-gangenmenu.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "fine-n-fast",
@@ -1108,7 +2500,101 @@
     "dietNote": "Kaart met o.a. rode biet, zure appel, venkel en Pas de Bleu.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "fou-d-o",
@@ -1169,7 +2655,101 @@
     "dietNote": "Kaart met \"Linguine Veggie\".",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g106-1600.webp",
+     "thumb": "img/gallery/g106-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Man standing front of plate with vegetable",
+     "credit": "Jason Leung / Unsplash",
+     "credit_url": "https://unsplash.com/@ninjason",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-standing-front-of-plate-with-vegetable--eKZLpj7U0E",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "gillis",
@@ -1231,7 +2811,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "il-mezzogiorno",
@@ -1292,7 +2966,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "jour-de-fete",
@@ -1354,7 +3122,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "karel-de-stoute",
@@ -1443,7 +3305,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "kin-khao-thai-eatery",
@@ -1504,7 +3460,101 @@
     "dietNote": "Site: \"er zijn vegan opties beschikbaar\" (lunch en diner).",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "klaar",
@@ -1566,7 +3616,101 @@
     "dietNote": "Lunchkaart met vegetarische opties (gele biet-burrata, gnocchi Pas de Rouge); vegan \"niet gegarandeerd\".",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g119-1600.webp",
+     "thumb": "img/gallery/g119-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Person putting food on plate",
+     "credit": "Sebastian Coman Photography / Unsplash",
+     "credit_url": "https://unsplash.com/@sebastiancoman",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-putting-food-on-plate-cQbOSRpElxw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "kruidtuin",
@@ -1627,7 +3771,101 @@
     "dietNote": "Site: koken vlees, vis én veggie; vegetariërs krijgen aangepast menu; geen vegan menu’s.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "le-baan-thai",
@@ -1688,7 +3926,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "le-chouchou",
@@ -1752,7 +4084,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "le-jeu-est-jambon",
@@ -1813,7 +4239,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g119-1600.webp",
+     "thumb": "img/gallery/g119-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Person putting food on plate",
+     "credit": "Sebastian Coman Photography / Unsplash",
+     "credit_url": "https://unsplash.com/@sebastiancoman",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-putting-food-on-plate-cQbOSRpElxw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "lof",
@@ -1855,22 +4375,7 @@
    "instagram": "https://www.instagram.com/lofrestaurantghent",
    "phone": "+32 9 235 40 70",
    "summary": "Er hangt een zekere Louis XIV vibe in het Pillows hotel, een standing die restaurant LOF deelt in een uitgepuurde vorm. De luxeproducten in het menu en de mooie à la carte tonen aan dat men hier voor fine dining kiest, met hier en daar wat Aziatische schwung.…",
-   "events": [
-    {
-     "title": "Chef meets Chef – four-hands dinner with Jannis Brevet (ex-Inter Scaldes)",
-     "dateStart": "2024-10-19",
-     "dateEnd": "2024-10-20",
-     "type": "four-hands dinner",
-     "location": "LOF Restaurant",
-     "partners": [
-      "Jannis Brevet"
-     ],
-     "sources": [
-      "https://www.pillowshotels.com/ghent/nl/events/chef-meets-chef/"
-     ],
-     "id": "lof-0"
-    }
-   ],
+   "events": [],
    "sources": [
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/lof",
     "https://www.gaultmillau.be/nl/restaurants/lof-gent",
@@ -1891,7 +4396,101 @@
     "dietNote": "Site: \"LOF Restaurant also serves a vegetarian Chef's Menu.\"",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "lubbi",
@@ -1955,7 +4554,101 @@
     "dietNote": "Kaart (mei 2026) met o.a. falafelburger en rode biet met geitenkaas.",
     "statusNote": "Site: \"tijdelijk gesloten wegens ziekte\" (gecontroleerd 19-10-2026).",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g119-1600.webp",
+     "thumb": "img/gallery/g119-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Person putting food on plate",
+     "credit": "Sebastian Coman Photography / Unsplash",
+     "credit_url": "https://unsplash.com/@sebastiancoman",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-putting-food-on-plate-cQbOSRpElxw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "lys-d-or",
@@ -1996,20 +4689,7 @@
    "instagram": "https://www.instagram.com/lysdor_gent",
    "phone": "+32 9 430 11 30",
    "summary": "Het zwarte marmer, de gouden accenten en de vleugelpiano geven dit Gentse stadspand een luxueuze uitstraling die klasse ademt. Chef Wattenberge zit op dezelfde lijn met een Franse keuken die klassiek geïnspireerd is, moderne nuances opzoekt en verfijnd wordt…",
-   "events": [
-    {
-     "title": "Lobster menu (3 courses, €59) on Fridays and Saturdays in September",
-     "dateStart": null,
-     "dateText": "September (year not stated)",
-     "type": "themed menu",
-     "location": "Lys d'Or",
-     "partners": [],
-     "sources": [
-      "https://www.lysdor.be/nl/menu"
-     ],
-     "id": "lys-d-or-0"
-    }
-   ],
+   "events": [],
    "sources": [
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/lys-d-or",
     "https://www.gaultmillau.be/nl/restaurants/lys-dor-gent",
@@ -2031,7 +4711,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "midi",
@@ -2092,7 +4866,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "moscou-by-danny-horseele",
@@ -2160,23 +5028,6 @@
       "https://www.hln.be/merelbeke-melle/18-topchefs-en-13-michelinsterren-voor-herfsteditie-van-fourchette~a263d398/"
      ],
      "id": "moscou-by-danny-horseele-0"
-    },
-    {
-     "title": "Diner Gantoise (KAA Gent Foundation) – menu by four chefs",
-     "dateStart": "2026-04-02",
-     "dateEnd": null,
-     "type": "collaboration / charity dinner",
-     "location": "Flanders Expo, Unit 7",
-     "partners": [
-      "Moscou by Danny Horseele",
-      "Vrijmoed",
-      "Dapper."
-     ],
-     "sources": [
-      "https://www.kaagent.be/nl/nieuws/09-04-2026/diner-gantoise-ne-gruute-merci"
-     ],
-     "note": "Date inferred: \"last Thursday\" in a post dated 9-4-2026.",
-     "id": "moscou-by-danny-horseele-1"
     }
    ],
    "sources": [
@@ -2200,7 +5051,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g106-1600.webp",
+     "thumb": "img/gallery/g106-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Man standing front of plate with vegetable",
+     "credit": "Jason Leung / Unsplash",
+     "credit_url": "https://unsplash.com/@ninjason",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-standing-front-of-plate-with-vegetable--eKZLpj7U0E",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "meme-gusta",
@@ -2260,7 +5205,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "nonam",
@@ -2301,23 +5340,7 @@
    "instagram": "https://www.instagram.com/nonam_ghent",
    "phone": "+32 9 329 49 14",
    "summary": "Authentiek, vintage, gezellig: Nonam, hartje Patershol, is het allemaal. U overnacht er in luxekamers en kiest in het restaurant voor een menu dat fusiongerechten speels interpreteert. Rijstpap volgens grootmoeders recept gaat de chef bijvoorbeeld pimpen met…",
-   "events": [
-    {
-     "title": "Winemaker’s dinner with Arnaud Desfontaine (Château de Chamilly), with Vitis Vin",
-     "dateStart": null,
-     "dateText": "15 October (year not stated in source)",
-     "type": "wine dinner / collaboration",
-     "location": "Nonam",
-     "partners": [
-      "Vitis Vin",
-      "Château de Chamilly"
-     ],
-     "sources": [
-      "https://nonam.be/exclusief-winemakers-diner-nonam-en-vitis-vin-ontvangen-arnaud-desfontaine/2017/"
-     ],
-     "id": "nonam-0"
-    }
-   ],
+   "events": [],
    "sources": [
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/nonam",
     "https://www.gaultmillau.be/nl/restaurants/nonam-gent",
@@ -2339,7 +5362,101 @@
     "dietNote": "Site: gerechten niet aan te passen voor bv. een vegan menu.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "oak",
@@ -2403,7 +5520,101 @@
     "dietNote": "Site: \"op aanvraag serveren we een volledig vegetarisch menu. We koken niet veganistisch.\"",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g114-1600.webp",
+     "thumb": "img/gallery/g114-800.webp",
+     "w": 1600,
+     "h": 2463,
+     "category": "chef",
+     "alt": "Man preparing food",
+     "credit": "Louis Hansel / Unsplash",
+     "credit_url": "https://unsplash.com/@louishansel",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "otium-cucina-italiana",
@@ -2464,7 +5675,101 @@
     "dietNote": "Site en GM: vegetarisch degustatiemenu (3 gangen €49).",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g4-1600.webp",
+     "thumb": "img/gallery/g4-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Black and white sliced mushrooms on yellow ceramic bowl",
+     "credit": "Crystal Jo / Unsplash",
+     "credit_url": "https://unsplash.com/@crystalsjo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "patyntje",
@@ -2525,7 +5830,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "publiek",
@@ -2587,7 +5986,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g111-1600.webp",
+     "thumb": "img/gallery/g111-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Person holding stainless steel spoon and fork eating on black table",
+     "credit": "Duane Mendes / Unsplash",
+     "credit_url": "https://unsplash.com/@duanemendes",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "pulpo",
@@ -2648,7 +6141,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g104-1600.webp",
+     "thumb": "img/gallery/g104-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Wine bottle on brown wooden table",
+     "credit": "🇸🇮 Janko Ferlič / Unsplash",
+     "credit_url": "https://unsplash.com/@itfeelslikefilm",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "raaf",
@@ -2710,7 +6297,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "rizoom",
@@ -2774,7 +6455,101 @@
     "dietNote": "Site: vegetarisch en vegan niet mogelijk.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g119-1600.webp",
+     "thumb": "img/gallery/g119-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Person putting food on plate",
+     "credit": "Sebastian Coman Photography / Unsplash",
+     "credit_url": "https://unsplash.com/@sebastiancoman",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-putting-food-on-plate-cQbOSRpElxw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "sensum",
@@ -2851,8 +6626,14 @@
      "sources": [
       "https://sensumgent.be/menu/"
      ],
-     "note": "Recurring; date = next 2nd Saturday (calculated).",
-     "id": "sensum-1"
+     "note": "Recurring every 2nd Saturday of the month; the next date is calculated automatically.",
+     "id": "sensum-1",
+     "recurrence": {
+      "freq": "monthly",
+      "nth": 2,
+      "weekday": 6,
+      "until": null
+     }
     }
    ],
    "sources": [
@@ -2876,7 +6657,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g103-1600.webp",
+     "thumb": "img/gallery/g103-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "interior",
+     "alt": "Turned-on filament bulb lights at bar counter",
+     "credit": "qui nguyen / Unsplash",
+     "credit_url": "https://unsplash.com/@quinguyen",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "steendam-66",
@@ -2938,7 +6813,101 @@
     "dietNote": "Site: \"niet gespecialiseerd in … vegetarische schotels\"; enkel krijtbord.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g119-1600.webp",
+     "thumb": "img/gallery/g119-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Person putting food on plate",
+     "credit": "Sebastian Coman Photography / Unsplash",
+     "credit_url": "https://unsplash.com/@sebastiancoman",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/person-putting-food-on-plate-cQbOSRpElxw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "sakas",
@@ -3000,7 +6969,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "taberna-bask",
@@ -3062,7 +7125,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g106-1600.webp",
+     "thumb": "img/gallery/g106-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Man standing front of plate with vegetable",
+     "credit": "Jason Leung / Unsplash",
+     "credit_url": "https://unsplash.com/@ninjason",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-standing-front-of-plate-with-vegetable--eKZLpj7U0E",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "talloor-d-or",
@@ -3125,7 +7282,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g113-1600.webp",
+     "thumb": "img/gallery/g113-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "chef",
+     "alt": "Chefs working in a busy professional kitchen preparing food",
+     "credit": "Yanhao Fang / Unsplash",
+     "credit_url": "https://unsplash.com/@alamanga",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "trattoria-della-mamma",
@@ -3186,7 +7437,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g70-1600.webp",
+     "thumb": "img/gallery/g70-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "A fine dining dish with wine in dim light",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g58-1600.webp",
+     "thumb": "img/gallery/g58-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Round gray plate with cooked food",
+     "credit": "Patrick Browne / Unsplash",
+     "credit_url": "https://unsplash.com/@kiltimagh01",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g106-1600.webp",
+     "thumb": "img/gallery/g106-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Man standing front of plate with vegetable",
+     "credit": "Jason Leung / Unsplash",
+     "credit_url": "https://unsplash.com/@ninjason",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-standing-front-of-plate-with-vegetable--eKZLpj7U0E",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g14-1600.webp",
+     "thumb": "img/gallery/g14-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Elegant cafe with awnings and warm lights at night",
+     "credit": "Florian Schindler / Unsplash",
+     "credit_url": "https://unsplash.com/@flo_raw",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "tribune",
@@ -3248,7 +7593,101 @@
     "dietNote": "Kaart bevat vegetarische gerechten (o.a. gegrilde courgette met ratatouille).",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g63-1600.webp",
+     "thumb": "img/gallery/g63-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "food",
+     "alt": "Elegant plate of food with a glass of wine",
+     "credit": "Tommaso Ubezio / Unsplash",
+     "credit_url": "https://unsplash.com/@tommasoubezio",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g29-1600.webp",
+     "thumb": "img/gallery/g29-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "interior",
+     "alt": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+     "credit": "Peter Muniz / Unsplash",
+     "credit_url": "https://unsplash.com/@petepxl",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g114-1600.webp",
+     "thumb": "img/gallery/g114-800.webp",
+     "w": 1600,
+     "h": 2463,
+     "category": "chef",
+     "alt": "Man preparing food",
+     "credit": "Louis Hansel / Unsplash",
+     "credit_url": "https://unsplash.com/@louishansel",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "vrijmoed",
@@ -3315,37 +7754,6 @@
       "https://www.hln.be/merelbeke-melle/18-topchefs-en-13-michelinsterren-voor-herfsteditie-van-fourchette~a263d398/"
      ],
      "id": "vrijmoed-0"
-    },
-    {
-     "title": "Diner Gantoise (KAA Gent Foundation) – menu by four chefs",
-     "dateStart": "2026-04-02",
-     "dateEnd": null,
-     "type": "collaboration / charity dinner",
-     "location": "Flanders Expo, Unit 7",
-     "partners": [
-      "Moscou by Danny Horseele",
-      "Vrijmoed",
-      "Dapper."
-     ],
-     "sources": [
-      "https://www.kaagent.be/nl/nieuws/09-04-2026/diner-gantoise-ne-gruute-merci"
-     ],
-     "note": "Date inferred: \"last Thursday\" in a post dated 9-4-2026.",
-     "id": "vrijmoed-1"
-    },
-    {
-     "title": "Roaring Twenties gala dinner (benefit for Kom op tegen Kanker) – 4-course menu by Michaël Vrijmoed",
-     "dateStart": "2026-10-10",
-     "dateEnd": null,
-     "type": "charity dinner / guest chef",
-     "location": "Wintercircus Gent",
-     "partners": [
-      "Kom op tegen Kanker"
-     ],
-     "sources": [
-      "https://www.roaringtwenties.be/"
-     ],
-     "id": "vrijmoed-2"
     }
    ],
    "sources": [
@@ -3370,7 +7778,101 @@
     "dietNote": "GM vermeldt keuken \"Vegetarisch\"; chef in nieuwsbericht: steeds meer gasten bestellen een plantaardig menu.",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g32-1600.webp",
+     "thumb": "img/gallery/g32-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "A bustling restaurant interior with a bar and decorative lighting",
+     "credit": "hiding ninja / Unsplash",
+     "credit_url": "https://unsplash.com/@hidingninjatokyo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g114-1600.webp",
+     "thumb": "img/gallery/g114-800.webp",
+     "w": 1600,
+     "h": 2463,
+     "category": "chef",
+     "alt": "Man preparing food",
+     "credit": "Louis Hansel / Unsplash",
+     "credit_url": "https://unsplash.com/@louishansel",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "yalo",
@@ -3431,7 +7933,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g56-1600.webp",
+     "thumb": "img/gallery/g56-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brown and white food on black ceramic plate",
+     "credit": "Romain Briaux / Unsplash",
+     "credit_url": "https://unsplash.com/@romainbriaux",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g50-1600.webp",
+     "thumb": "img/gallery/g50-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Chef pouring sauce over plated steak",
+     "credit": "Urban Gyllström / Unsplash",
+     "credit_url": "https://unsplash.com/@gyllstrom_photo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g96-1600.webp",
+     "thumb": "img/gallery/g96-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "interior",
+     "alt": "A formal dining table set with wine glasses and candles",
+     "credit": "Max Griss / Unsplash",
+     "credit_url": "https://unsplash.com/@grissphoto",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g35-1600.webp",
+     "thumb": "img/gallery/g35-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Restaurant dining room with tables and chairs",
+     "credit": "Joseph Sung / Unsplash",
+     "credit_url": "https://unsplash.com/@vonsung",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g114-1600.webp",
+     "thumb": "img/gallery/g114-800.webp",
+     "w": 1600,
+     "h": 2463,
+     "category": "chef",
+     "alt": "Man preparing food",
+     "credit": "Louis Hansel / Unsplash",
+     "credit_url": "https://unsplash.com/@louishansel",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g42-1600.webp",
+     "thumb": "img/gallery/g42-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A restaurant illuminated by string lights at night",
+     "credit": "MARIOLA GROBELSKA / Unsplash",
+     "credit_url": "https://unsplash.com/@mariolagr",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "yusu",
@@ -3493,7 +8089,101 @@
     "dietNote": "HLN: \"Alle gerechten zijn volledig plantaardig.\"",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g71-1600.webp",
+     "thumb": "img/gallery/g71-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bowl of vegetable salads",
+     "credit": "Anna Pelzer / Unsplash",
+     "credit_url": "https://unsplash.com/@annapelzer",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g82-1600.webp",
+     "thumb": "img/gallery/g82-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Salad on white ceramic bowl",
+     "credit": "Sara Dubler / Unsplash",
+     "credit_url": "https://unsplash.com/@ahungryblonde_",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g93-1600.webp",
+     "thumb": "img/gallery/g93-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gourmet pastry with green topping and delicate flowers",
+     "credit": "Madeline Liu / Unsplash",
+     "credit_url": "https://unsplash.com/@madeline_sd",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g106-1600.webp",
+     "thumb": "img/gallery/g106-800.webp",
+     "w": 1600,
+     "h": 2400,
+     "category": "chef",
+     "alt": "Man standing front of plate with vegetable",
+     "credit": "Jason Leung / Unsplash",
+     "credit_url": "https://unsplash.com/@ninjason",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-standing-front-of-plate-with-vegetable--eKZLpj7U0E",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g37-1600.webp",
+     "thumb": "img/gallery/g37-800.webp",
+     "w": 1600,
+     "h": 1066,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with glowing table lamps",
+     "credit": "Doon _MUC / Unsplash",
+     "credit_url": "https://unsplash.com/@doon_muc",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   },
   {
    "id": "een-twee-vijf",
@@ -3555,7 +8245,101 @@
     "dietNote": "",
     "statusNote": "",
     "dataConflict": null
-   }
+   },
+   "photos": [
+    {
+     "src": "img/gallery/g53-1600.webp",
+     "thumb": "img/gallery/g53-800.webp",
+     "w": 1600,
+     "h": 2185,
+     "category": "food",
+     "alt": "Cooked food on black round plate",
+     "credit": "Trình Minh Thư / Unsplash",
+     "credit_url": "https://unsplash.com/@imdauphong",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g49-1600.webp",
+     "thumb": "img/gallery/g49-800.webp",
+     "w": 1600,
+     "h": 1600,
+     "category": "food",
+     "alt": "Flat-lay photography of cooked meat and sauce platter",
+     "credit": "Martin Widenka / Unsplash",
+     "credit_url": "https://unsplash.com/@widenka",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g86-1600.webp",
+     "thumb": "img/gallery/g86-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "A white plate topped with an orange slice",
+     "credit": "Martin Baron / Unsplash",
+     "credit_url": "https://unsplash.com/@elmartinbaron",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g26-1600.webp",
+     "thumb": "img/gallery/g26-800.webp",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Cozy restaurant interior with tables and seating",
+     "credit": "Antonio Araujo / Unsplash",
+     "credit_url": "https://unsplash.com/@antonioaaaraujo",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g25-1600.webp",
+     "thumb": "img/gallery/g25-800.webp",
+     "w": 1600,
+     "h": 1020,
+     "category": "interior",
+     "alt": "A room with tables and chairs",
+     "credit": "Glenov Brankovic / Unsplash",
+     "credit_url": "https://unsplash.com/@glenovbrankovic",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g124-1600.webp",
+     "thumb": "img/gallery/g124-800.webp",
+     "w": 1600,
+     "h": 2000,
+     "category": "chef",
+     "alt": "Man cooking",
+     "credit": "redcharlie / Unsplash",
+     "credit_url": "https://unsplash.com/@redcharlie",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+     "license": "Unsplash License"
+    },
+    {
+     "src": "img/gallery/g46-1600.webp",
+     "thumb": "img/gallery/g46-800.webp",
+     "w": 1600,
+     "h": 2133,
+     "category": "exterior",
+     "alt": "Outdoor cafe seating area at night with string lights",
+     "credit": "Bernhard / Unsplash",
+     "credit_url": "https://unsplash.com/@bernhardbar",
+     "source": "stock",
+     "source_url": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+     "license": "Unsplash License"
+    }
+   ],
+   "instagram_posts": []
   }
  ],
  "extraEvents": [
@@ -3616,36 +8400,6 @@
     "https://zuruzuru-ramen.be/events/chaji-omakase-thee-en-kaiseki-ervaring/"
    ],
    "id": "extra-3"
-  },
-  {
-   "title": "BROER @ Red Loft – Røk takes over the kitchen",
-   "dateStart": "2026-09-20",
-   "dateEnd": null,
-   "type": "guest chef / takeover",
-   "location": "Red Loft, Hugo van der Goesstraat 17A",
-   "partners": [
-    "Røk",
-    "Red Loft"
-   ],
-   "sources": [
-    "https://www.redloft.be/broer"
-   ],
-   "id": "extra-4"
-  },
-  {
-   "title": "Carbonara burger: collaboration Tush × Arthe² (Geoffrey Devriendt)",
-   "dateStart": "2026-01-13",
-   "dateEnd": null,
-   "type": "chef collaboration / special",
-   "location": "Tush, Hoogpoort 50",
-   "partners": [
-    "Arthe²",
-    "Tush"
-   ],
-   "sources": [
-    "https://www.hln.be/gent/hamburger-en-fine-diningrestaurant-in-gent-creeren-samen-unieke-carbonaraburger-alleen-maar-lokale-ingredienten~a9ec6ce7d/"
-   ],
-   "id": "extra-5"
   }
  ],
  "changelog": [
@@ -3704,6 +8458,13 @@
    "field": "currentMenuNote",
    "change": "Weekly lunch 20–23/10/2026 and Chef's Choice dinner 16/10–20/11/2026 published.",
    "source": "https://talloordor.be/menu"
+  },
+  {
+   "date": "2026-10-19",
+   "restaurant": "(all)",
+   "field": "events",
+   "change": "Archived 9 past or undated event(s).",
+   "source": "scripts/prune_events.py"
   }
  ]
 }

@@ -1,62 +1,368 @@
 [
  {
-  "file": "img/hero.jpg",
-  "source": "https://unsplash.com/photos/360-photography-of-building-by-the-river-with-boats-pcsRIHwsB3U",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "360 photography of building by the river with boats - Free Photo on Unsplash"
- },
- {
-  "file": "img/hero2.jpg",
+  "file": "img/hero2.jpg + img/hero2-{800,1600,2400}.webp",
+  "title": "A row of buildings next to a body of water",
+  "photographer": "Bogdan Nanescu",
+  "photographer_url": "https://unsplash.com/@nanebbb",
   "source": "https://unsplash.com/photos/a-row-of-buildings-next-to-a-body-of-water-Y3fNgPRcbRM",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "A row of buildings next to a body of water - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/finedining.jpg",
+  "file": "img/finedining.jpg + img/finedining-{800,1600,2400}.webp",
+  "title": "A plate of food with garnish on a dark background",
+  "photographer": "You Le",
+  "photographer_url": "https://unsplash.com/@le_y0u",
   "source": "https://unsplash.com/photos/a-plate-of-food-with-garnish-on-a-dark-background-GOZzFrW2neM",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "A plate of food with garnish on a dark background - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/bistro.jpg",
+  "file": "img/bistro.jpg + img/bistro-{800,1600,2400}.webp",
+  "title": "A table set for a formal dinner with a lit candle",
+  "photographer": "Caroline Hernandez",
+  "photographer_url": "https://unsplash.com/@carolinehdz",
   "source": "https://unsplash.com/photos/a-table-set-for-a-formal-dinner-with-a-lit-candle-Ro_TUH1cgA8",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "A table set for a formal dinner with a lit candle - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/interior.jpg",
+  "file": "img/interior.jpg + img/interior-{800,1600,2400}.webp",
+  "title": "Warm lights illuminate a dark restaurant interior",
+  "photographer": "Brooke Balentine",
+  "photographer_url": "https://unsplash.com/@brookebalentine",
   "source": "https://unsplash.com/photos/warm-lights-illuminate-a-dark-restaurant-interior-SwXXPouDo_0",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "Warm lights illuminate a dark restaurant interior - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/vegan.jpg",
+  "file": "img/vegan.jpg + img/vegan-{800,1600,2400}.webp",
+  "title": "Veggie salad in white and brown ceramic plate",
+  "photographer": "Rebecca Hansen",
+  "photographer_url": "https://unsplash.com/@bmarie97",
   "source": "https://unsplash.com/photos/veggie-salad-in-white-and-brown-ceramic-plate-KFACa2ZwfW4",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "Veggie salad in white and brown ceramic plate - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/events.jpg",
+  "file": "img/events.jpg + img/events-{800,1600,2400}.webp",
+  "title": "Chef cooking with flames in a restaurant kitchen",
+  "photographer": "tommao wang",
+  "photographer_url": "https://unsplash.com/@tommaomaoer",
   "source": "https://unsplash.com/photos/chef-cooking-with-flames-in-a-restaurant-kitchen-MLmtRczOxYM",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "Chef cooking with flames in a restaurant kitchen - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/events2.jpg",
+  "file": "img/events2.jpg + img/events2-{800,1600,2400}.webp",
+  "title": "A chef is cooking on a stove with flames",
+  "photographer": "Thimotius Timmy",
+  "photographer_url": "https://unsplash.com/@thedeadvertising",
   "source": "https://unsplash.com/photos/a-chef-is-cooking-on-a-stove-with-flames-hy1Kjb0Yzq0",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "A chef is cooking on a stove with flames - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/nieuw.jpg",
+  "file": "img/nieuw.jpg + img/nieuw-{800,1600,2400}.webp",
+  "title": "A candle is lit in a dimly lit restaurant",
+  "photographer": "Carmen Laezza",
+  "photographer_url": "https://unsplash.com/@_elleci",
   "source": "https://unsplash.com/photos/a-candle-is-lit-in-a-dimly-lit-restaurant-AxGsGXLUT2U",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "A candle is lit in a dimly lit restaurant - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
  },
  {
-  "file": "img/casual.jpg",
+  "file": "img/casual.jpg + img/casual-{800,1600,2400}.webp",
+  "title": "A dimly lit restaurant with a painting on the wall",
+  "photographer": "Asena",
+  "photographer_url": "https://unsplash.com/@asenacanakci",
   "source": "https://unsplash.com/photos/a-dimly-lit-restaurant-with-a-painting-on-the-wall-6BgoQo_daWs",
-  "license": "Unsplash License (gratis gebruik)",
-  "title": "A dimly lit restaurant with a painting on the wall - Free Photo on Unsplash"
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
+ },
+ {
+  "file": "img/hero-*.webp, img/hero-1600.jpg (home hero)",
+  "title": "Long dining table with festive flowers",
+  "photographer": "M F",
+  "photographer_url": "https://unsplash.com/@mfe1",
+  "source": "https://unsplash.com/photos/fb0_wj2MZk4",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
+ },
+ {
+  "file": "img/plated*.{jpg,webp} (category “New”)",
+  "title": "A table is set with wine glasses and plates of food",
+  "photographer": "Kamilla Isalieva",
+  "photographer_url": "https://unsplash.com/@kamillaisalieva",
+  "source": "https://unsplash.com/photos/JDjarj_oSyo",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
+ },
+ {
+  "file": "img/pass*.{jpg,webp} (spare)",
+  "title": "Grayscale photography of person doing plating of dishes",
+  "photographer": "Louis Hansel",
+  "photographer_url": "https://unsplash.com/@louishansel",
+  "source": "https://unsplash.com/photos/R6_o_PPAS94",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)"
+ },
+ {
+  "file": "img/gallery/g49-{800,1600}.webp",
+  "title": "flat-lay photography of cooked meat and sauce platter",
+  "photographer": "Martin Widenka",
+  "photographer_url": "https://unsplash.com/@widenka",
+  "source": "https://unsplash.com/photos/flat-lay-photography-of-cooked-meat-and-sauce-platter-tkfRSPt-jdk",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g50-{800,1600}.webp",
+  "title": "chef pouring sauce over plated steak",
+  "photographer": "Urban Gyllström",
+  "photographer_url": "https://unsplash.com/@gyllstrom_photo",
+  "source": "https://unsplash.com/photos/chef-pouring-sauce-over-plated-steak-MaWMfm-HCqQ",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g53-{800,1600}.webp",
+  "title": "cooked food on black round plate",
+  "photographer": "Trình Minh Thư",
+  "photographer_url": "https://unsplash.com/@imdauphong",
+  "source": "https://unsplash.com/photos/cooked-food-on-black-round-plate-a6kYPun9_ao",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g56-{800,1600}.webp",
+  "title": "brown and white food on black ceramic plate",
+  "photographer": "Romain Briaux",
+  "photographer_url": "https://unsplash.com/@romainbriaux",
+  "source": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g58-{800,1600}.webp",
+  "title": "round gray plate with cooked food",
+  "photographer": "Patrick Browne",
+  "photographer_url": "https://unsplash.com/@kiltimagh01",
+  "source": "https://unsplash.com/photos/round-gray-plate-with-cooked-food-jMwvJ5aj5eA",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g63-{800,1600}.webp",
+  "title": "Elegant plate of food with a glass of wine",
+  "photographer": "Tommaso Ubezio",
+  "photographer_url": "https://unsplash.com/@tommasoubezio",
+  "source": "https://unsplash.com/photos/elegant-plate-of-food-with-a-glass-of-wine-Upz2cj1Y-qM",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g70-{800,1600}.webp",
+  "title": "A fine dining dish with wine in dim light",
+  "photographer": "Tommaso Ubezio",
+  "photographer_url": "https://unsplash.com/@tommasoubezio",
+  "source": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g86-{800,1600}.webp",
+  "title": "a white plate topped with an orange slice",
+  "photographer": "Martin Baron",
+  "photographer_url": "https://unsplash.com/@elmartinbaron",
+  "source": "https://unsplash.com/photos/a-white-plate-topped-with-an-orange-slice-IxhC5bboziA",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g93-{800,1600}.webp",
+  "title": "Gourmet pastry with green topping and delicate flowers",
+  "photographer": "Madeline Liu",
+  "photographer_url": "https://unsplash.com/@madeline_sd",
+  "source": "https://unsplash.com/photos/gourmet-pastry-with-green-topping-and-delicate-flowers-Ah_UUg0p_20",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g71-{800,1600}.webp",
+  "title": "bowl of vegetable salads",
+  "photographer": "Anna Pelzer",
+  "photographer_url": "https://unsplash.com/@annapelzer",
+  "source": "https://unsplash.com/photos/bowl-of-vegetable-salads-IGfIGP5ONV0",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g82-{800,1600}.webp",
+  "title": "salad on white ceramic bow l",
+  "photographer": "Sara Dubler",
+  "photographer_url": "https://unsplash.com/@ahungryblonde_",
+  "source": "https://unsplash.com/photos/salad-on-white-ceramic-bow-l-T_dY6AzzVXU",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g4-{800,1600}.webp",
+  "title": "black and white sliced mushrooms on yellow ceramic bowl",
+  "photographer": "Crystal Jo",
+  "photographer_url": "https://unsplash.com/@crystalsjo",
+  "source": "https://unsplash.com/photos/black-and-white-sliced-mushrooms-on-yellow-ceramic-bowl-pR4ONqs576I",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (food)"
+ },
+ {
+  "file": "img/gallery/g25-{800,1600}.webp",
+  "title": "a room with tables and chairs",
+  "photographer": "Glenov Brankovic",
+  "photographer_url": "https://unsplash.com/@glenovbrankovic",
+  "source": "https://unsplash.com/photos/a-room-with-tables-and-chairs-e4B5AvA7Jqo",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g26-{800,1600}.webp",
+  "title": "Cozy restaurant interior with tables and seating",
+  "photographer": "Antonio Araujo",
+  "photographer_url": "https://unsplash.com/@antonioaaaraujo",
+  "source": "https://unsplash.com/photos/cozy-restaurant-interior-with-tables-and-seating-yQYtdkKOLnQ",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g29-{800,1600}.webp",
+  "title": "A long dining table set with glasses and napkins in a dimly lit restaurant",
+  "photographer": "Peter Muniz",
+  "photographer_url": "https://unsplash.com/@petepxl",
+  "source": "https://unsplash.com/photos/dining-table-set-in-restaurant-_j7dWgwhkPI",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g32-{800,1600}.webp",
+  "title": "A bustling restaurant interior with a bar and decorative lighting",
+  "photographer": "hiding ninja",
+  "photographer_url": "https://unsplash.com/@hidingninjatokyo",
+  "source": "https://unsplash.com/photos/a-bustling-restaurant-interior-with-a-bar-and-decorative-lighting-Rpw5dto_LP4",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g35-{800,1600}.webp",
+  "title": "Restaurant dining room with tables and chairs",
+  "photographer": "Joseph Sung",
+  "photographer_url": "https://unsplash.com/@vonsung",
+  "source": "https://unsplash.com/photos/restaurant-dining-room-with-tables-and-chairs-4OcwZ7SwsJI",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g96-{800,1600}.webp",
+  "title": "A formal dining table set with wine glasses and candles",
+  "photographer": "Max Griss",
+  "photographer_url": "https://unsplash.com/@grissphoto",
+  "source": "https://unsplash.com/photos/a-formal-dining-table-set-with-wine-glasses-and-candles-ZLsmvlmXcLg",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g103-{800,1600}.webp",
+  "title": "turned-on filament bulb lights at bar counter",
+  "photographer": "qui nguyen",
+  "photographer_url": "https://unsplash.com/@quinguyen",
+  "source": "https://unsplash.com/photos/turned-on-filament-bulb-lights-at-bar-counter-Zrp9b3PMIy8",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g104-{800,1600}.webp",
+  "title": "wine bottle on brown wooden table",
+  "photographer": "🇸🇮 Janko Ferlič",
+  "photographer_url": "https://unsplash.com/@itfeelslikefilm",
+  "source": "https://unsplash.com/photos/wine-bottle-on-brown-wooden-table-UOzYAApmaKw",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (interior)"
+ },
+ {
+  "file": "img/gallery/g106-{800,1600}.webp",
+  "title": "man standing front of plate with vegetable",
+  "photographer": "Jason Leung",
+  "photographer_url": "https://unsplash.com/@ninjason",
+  "source": "https://unsplash.com/photos/man-standing-front-of-plate-with-vegetable--eKZLpj7U0E",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (chef)"
+ },
+ {
+  "file": "img/gallery/g111-{800,1600}.webp",
+  "title": "person holding stainless steel spoon and fork eating on black table",
+  "photographer": "Duane Mendes",
+  "photographer_url": "https://unsplash.com/@duanemendes",
+  "source": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-and-fork-eating-on-black-table--g5jWce3HUQ",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (chef)"
+ },
+ {
+  "file": "img/gallery/g113-{800,1600}.webp",
+  "title": "Chefs working in a busy professional kitchen preparing food",
+  "photographer": "Yanhao Fang",
+  "photographer_url": "https://unsplash.com/@alamanga",
+  "source": "https://unsplash.com/photos/chefs-working-in-a-busy-professional-kitchen-preparing-food-rHjzjwxDP2g",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (chef)"
+ },
+ {
+  "file": "img/gallery/g114-{800,1600}.webp",
+  "title": "man preparing food",
+  "photographer": "Louis Hansel",
+  "photographer_url": "https://unsplash.com/@louishansel",
+  "source": "https://unsplash.com/photos/man-preparing-food-v3OlBE6-fhU",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (chef)"
+ },
+ {
+  "file": "img/gallery/g119-{800,1600}.webp",
+  "title": "person putting food on plate",
+  "photographer": "Sebastian Coman Photography",
+  "photographer_url": "https://unsplash.com/@sebastiancoman",
+  "source": "https://unsplash.com/photos/person-putting-food-on-plate-cQbOSRpElxw",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (chef)"
+ },
+ {
+  "file": "img/gallery/g124-{800,1600}.webp",
+  "title": "man cooking",
+  "photographer": "redcharlie",
+  "photographer_url": "https://unsplash.com/@redcharlie",
+  "source": "https://unsplash.com/photos/man-cooking-t-7KEq9M0b0",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (chef)"
+ },
+ {
+  "file": "img/gallery/g14-{800,1600}.webp",
+  "title": "Elegant cafe with awnings and warm lights at night",
+  "photographer": "Florian Schindler",
+  "photographer_url": "https://unsplash.com/@flo_raw",
+  "source": "https://unsplash.com/photos/elegant-cafe-with-awnings-and-warm-lights-at-night-8jfXxwdCNkE",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (exterior)"
+ },
+ {
+  "file": "img/gallery/g37-{800,1600}.webp",
+  "title": "Outdoor cafe seating area at night with glowing table lamps",
+  "photographer": "Doon _MUC",
+  "photographer_url": "https://unsplash.com/@doon_muc",
+  "source": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-glowing-table-lamps-n6Gi6zFeDxc",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (exterior)"
+ },
+ {
+  "file": "img/gallery/g42-{800,1600}.webp",
+  "title": "A restaurant illuminated by string lights at night",
+  "photographer": "MARIOLA GROBELSKA",
+  "photographer_url": "https://unsplash.com/@mariolagr",
+  "source": "https://unsplash.com/photos/a-restaurant-illuminated-by-string-lights-at-night-3Vhq_qfI9q8",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (exterior)"
+ },
+ {
+  "file": "img/gallery/g46-{800,1600}.webp",
+  "title": "Outdoor cafe seating area at night with string lights",
+  "photographer": "Bernhard",
+  "photographer_url": "https://unsplash.com/@bernhardbar",
+  "source": "https://unsplash.com/photos/outdoor-cafe-seating-area-at-night-with-string-lights-RbHNTwNEXQI",
+  "license": "Unsplash License",
+  "use": "detail-page gallery mood image (exterior)"
  }
 ]

@@ -181,6 +181,9 @@ def ev(e):
     if e.get('dateText'): e['dateText'] = tr(EVDATETEXT, e['dateText'], 'evdt')
     if e.get('location') in EVLOC: e['location'] = EVLOC[e['location']]
     e['partners'] = [EVPARTNER.get(p, p) for p in e.get('partners', [])]
+    if e.get('id') == 'sensum-1':  # rule-based: every 2nd Saturday of the month; UI computes the next date
+        e['recurrence'] = {'freq': 'monthly', 'nth': 2, 'weekday': 6, 'until': None}
+        e['note'] = 'Recurring every 2nd Saturday of the month; the next date is calculated automatically.'
     return e
 out = []
 for r in R:

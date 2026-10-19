@@ -1,12 +1,153 @@
 {
- "brand": {"name": "Table and the City", "domain": "tableandthecity.com", "family": [{"name": "Arts and the City", "domain": "artsandthecity.com", "status": "coming soon"}]},
+ "brand": {
+  "name": "Table and the City",
+  "domain": "tableandthecity.com",
+  "family": [
+   {
+    "name": "Arts and the City",
+    "domain": "artsandthecity.com",
+    "status": "coming soon"
+   }
+  ]
+ },
  "defaultCity": "gent",
  "countries": [
-  {"code": "BE", "name": "Belgium", "cities": [
-   {"id": "gent", "name": "Gent", "nameEn": "Ghent", "active": true, "data": "data/cities/gent.json", "center": [51.051, 3.725], "zoom": 13},
-   {"id": "antwerpen", "name": "Antwerpen", "nameEn": "Antwerp", "active": false},
-   {"id": "brussel", "name": "Brussel", "nameEn": "Brussels", "active": false},
-   {"id": "brugge", "name": "Brugge", "nameEn": "Bruges", "active": false}
-  ]}
- ]
+  {
+   "code": "BE",
+   "name": "Belgium",
+   "cities": [
+    {
+     "id": "gent",
+     "name": "Gent",
+     "nameEn": "Ghent",
+     "active": true,
+     "data": "data/cities/gent.json",
+     "center": [
+      51.051,
+      3.725
+     ],
+     "zoom": 13
+    },
+    {
+     "id": "antwerpen",
+     "name": "Antwerpen",
+     "nameEn": "Antwerp",
+     "active": false
+    },
+    {
+     "id": "brussel",
+     "name": "Brussel",
+     "nameEn": "Brussels",
+     "active": false
+    },
+    {
+     "id": "brugge",
+     "name": "Brugge",
+     "nameEn": "Bruges",
+     "active": false
+    }
+   ],
+   "id": "be",
+   "active": true
+  },
+  {
+   "id": "nl",
+   "code": "NL",
+   "name": "Netherlands",
+   "active": false,
+   "cities": [
+    {
+     "id": "amsterdam",
+     "name": "Amsterdam",
+     "active": false
+    },
+    {
+     "id": "rotterdam",
+     "name": "Rotterdam",
+     "active": false
+    }
+   ]
+  },
+  {
+   "id": "fr",
+   "code": "FR",
+   "name": "France",
+   "active": false,
+   "cities": [
+    {
+     "id": "paris",
+     "name": "Paris",
+     "active": false
+    },
+    {
+     "id": "lyon",
+     "name": "Lyon",
+     "active": false
+    }
+   ]
+  },
+  {
+   "id": "it",
+   "code": "IT",
+   "name": "Italy",
+   "active": false,
+   "cities": [
+    {
+     "id": "milano",
+     "name": "Milano",
+     "active": false
+    },
+    {
+     "id": "roma",
+     "name": "Roma",
+     "active": false
+    }
+   ]
+  },
+  {
+   "id": "es",
+   "code": "ES",
+   "name": "Spain",
+   "active": false,
+   "cities": [
+    {
+     "id": "barcelona",
+     "name": "Barcelona",
+     "active": false
+    },
+    {
+     "id": "madrid",
+     "name": "Madrid",
+     "active": false
+    }
+   ]
+  },
+  {
+   "id": "gb",
+   "code": "GB",
+   "name": "United Kingdom",
+   "active": false,
+   "cities": [
+    {
+     "id": "london",
+     "name": "London",
+     "active": false
+    }
+   ]
+  },
+  {
+   "id": "de",
+   "code": "DE",
+   "name": "Germany",
+   "active": false,
+   "cities": [
+    {
+     "id": "berlin",
+     "name": "Berlin",
+     "active": false
+    }
+   ]
+  }
+ ],
+ "defaultCountry": "be"
 }

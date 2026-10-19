@@ -11,7 +11,10 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
     `vegetarian`/`vegan` = `yes|no|unknown`, `events[]` (`title, dateStart, dateEnd|dateText, type, location, partners[], sources[], note`),
     `summary` (guide description, kept in original language, `summaryLang`), `original_nl` (Dutch source text of translated fields).
 - `data/cities/<city>.csv` – flat export.
-- `data/source-nl/` – frozen Dutch working data for Gent; `scripts/translate_en.py` rebuilds `data/cities/gent.json` from it.
+- `data/cities/<city>-events-archive.json` – past events moved out by `prune_events.py`.
+- `data/photo-pool.json` – stock mood-image pool for galleries.
+- `data/source-nl/` – frozen Dutch working data for Gent; `scripts/translate_en.py` rebuilds `data/cities/gent.json` from it
+  (then run `assign_photos.py` and `prune_events.py`).
   (Long term: edit `data/cities/gent.json` directly and drop the source-nl step.)
 
 ## Daily procedure (± 15–30 min per city)
@@ -28,9 +31,15 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
 3. **Events & collaborations** – search `four hands Gent`, `4-handendiner Gent`, `gastchef Gent`, `pop-up Gent restaurant`,
    `wijndiner Gent`, plus agendas: visit.gent.be, stad.gent (Gand Gourmand), Fourchette, Red Loft/BROER, Instagram links on
    restaurant sites. Only add with a date + source. No year stated → `dateStart=null`, `dateText="… (year not stated)"`.
-4. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.
-5. **Distinctions** – replace all scores when a new Michelin (spring) or Gault&Millau (November) edition appears.
-6. **Finish** – set `dateChecked` (and `lastChanged` if content changed); add one `changelog` entry per change (with source URL);
+4. **Prune past events** – `python3 scripts/prune_events.py gent` moves every event whose end date (or single date) is before
+   today (Europe/Brussels), and undated events not marked `ongoing: true` with a future `dateEnd`, to
+   `data/cities/gent-events-archive.json` and logs it in the changelog. Rule-based events keep a `recurrence`
+   (`{freq:'monthly', nth:2, weekday:6}` = every 2nd Saturday); the site shows only their next occurrence.
+   The site also hides past events client-side, so a missed run never shows stale events.
+5. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.
+6. **Distinctions** – replace all scores when a new Michelin (spring) or Gault&Millau (November) edition appears.
+7. **Photos** – `python3 scripts/assign_photos.py gent` (re)fills stock mood images; real photos are never overwritten (see README).
+8. **Finish** – set `dateChecked` (and `lastChanged` if content changed); add one `changelog` entry per change (with source URL);
    regenerate the CSV; test locally: `python3 -m http.server 8765` → `python3 scripts/screenshots.py` (fails on any console error).
 
 ## Frequency

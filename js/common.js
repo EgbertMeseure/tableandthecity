@@ -2,9 +2,13 @@
 const TG = (() => {
   const BRAND = 'Table and the City';
   const LOCALE = 'en-GB';
-  const TODAY = new Date().toISOString().slice(0, 10);
+  /* "today" in the guide's time zone (Europe/Brussels), computed once at page load */
+  const TODAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Brussels', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   const U = 'unknown';
-  const TYPE_IMG = { 'fine dining': 'img/finedining.jpg', 'gastro-bistro': 'img/bistro.jpg', 'bistro': 'img/nieuw.jpg', 'brasserie': 'img/casual.jpg', 'casual': 'img/interior.jpg' };
+  const TYPE_KEY = { 'fine dining': 'finedining', 'gastro-bistro': 'bistro', 'bistro': 'nieuw', 'brasserie': 'casual', 'casual': 'interior' };
+  const TYPE_IMG = Object.fromEntries(Object.entries(TYPE_KEY).map(([k, v]) => [k, `img/${v}.jpg`]));
+  /* responsive <img> attributes for a site image key (img/<key>-{800,1600,2400}.webp, jpg fallback) */
+  const imgAttrs = (key, sizes = '100vw') => `src="img/${key}.jpg" srcset="img/${key}-800.webp 800w, img/${key}-1600.webp 1600w, img/${key}-2400.webp 2400w" sizes="${sizes}"`;
   const TYPE_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual' };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const known = v => v != null && v !== '' && v !== U && !/^unknown\b/i.test(String(v));
@@ -24,47 +28,104 @@ const TG = (() => {
     return s + (r.distinctions.gaultMillau || 0);
   };
   const stars = m => m === '2 Michelin stars' ? '★★' : m === '1 Michelin star' ? '★' : m === 'Bib Gourmand' ? 'Bib' : m === 'Michelin selection' ? 'Michelin' : '';
-  const isUpcoming = e => (e.dateEnd || e.dateStart) && (e.dateEnd || e.dateStart) >= TODAY;
-  function badges(r, { withDist = true } = {}) {
+  /* next occurrence for rule-based events, e.g. {freq:'monthly', nth:2, weekday:6} = every 2nd Saturday */
+  function nextOccurrence(rule, from = TODAY) {
+    if (!rule || rule.freq !== 'monthly') return null;
+    let [y, m] = from.split('-').map(Number);
+    for (let i = 0; i < 14; i++) {
+      const first = new Date(Date.UTC(y, m - 1, 1)); const off = (rule.weekday - first.getUTCDay() + 7) % 7;
+      const d = new Date(Date.UTC(y, m - 1, 1 + off + 7 * (rule.nth - 1)));
+      const iso = d.toISOString().slice(0, 10);
+      if (d.getUTCMonth() === m - 1 && iso >= from) return iso;
+      m++; if (m > 12) { m = 1; y++; }
+    }
+    return null;
+  }
+  /* normalise an event to its relevant (next) occurrence; returns null if it is in the past or undated */
+  function liveEvent(e) {
+    if (e.recurrence) { const n = nextOccurrence(e.recurrence); return n && (!e.recurrence.until || n <= e.recurrence.until) ? { ...e, dateStart: n, dateEnd: null } : null; }
+    if (!e.dateStart) return e.ongoing && e.dateEnd && e.dateEnd >= TODAY ? e : null;
+    return (e.dateEnd || e.dateStart) >= TODAY ? e : null;
+  }
+  const isUpcoming = e => !!liveEvent(e);
+  /* priority order; cards pass {max: 2} */
+  function badges(r, { withDist = true, max = 99 } = {}) {
     const b = [];
+    if (r.status !== 'open') b.push(`<span class="badge">${esc(r.status)}</span>`);
     if (r.isNew) b.push('<span class="badge solid">New</span>');
+    if (r.events.length) b.push('<span class="badge solid">Event</span>');
     if (r.vegan === 'yes') b.push('<span class="badge">Vegan</span>');
-    if (r.vegetarian === 'yes') b.push('<span class="badge">Veggie</span>');
-    if (r.events.some(isUpcoming)) b.push('<span class="badge solid">Event</span>');
-    else if (r.events.length) b.push('<span class="badge">Collab</span>');
+    else if (r.vegetarian === 'yes') b.push('<span class="badge">Veggie</span>');
+    if (max > 2 && r.vegan === 'yes' && r.vegetarian === 'yes') b.push('<span class="badge">Veggie</span>');
     if (withDist && r.distinctions.michelin && r.distinctions.michelin !== 'Michelin selection') b.push(`<span class="badge dist">${esc(stars(r.distinctions.michelin))}</span>`);
     if (withDist && r.distinctions.gaultMillau) b.push(`<span class="badge dist">G&amp;M ${r.distinctions.gaultMillau}</span>`);
-    if (r.status !== 'open') b.push(`<span class="badge">${esc(r.status)}</span>`);
-    return b.join('');
+    return b.slice(0, max).join('');
   }
 
-  /* ---- cities ---- */
+  /* ---- countries & cities ---- */
   let CITIES = null;
   async function cities() {
     if (!CITIES) CITIES = await fetch('data/cities.json').then(r => r.json());
     return CITIES;
   }
-  function allCities(cfg) { return cfg.countries.flatMap(c => c.cities.map(x => ({ ...x, country: c.name, countryCode: c.code }))); }
-  /* resolve ?city=…; unknown or inactive cities fall back to the default with a notice */
+  function allCities(cfg) { return cfg.countries.flatMap(c => c.cities.map(x => ({ ...x, country: c.name, countryCode: c.code, countryId: c.id }))); }
+  /* resolve ?country=…&city=…; unknown or inactive places fall back to the default with a notice */
   async function currentCity() {
     const cfg = await cities(); const list = allCities(cfg);
-    const asked = (new URLSearchParams(location.search).get('city') || cfg.defaultCity).toLowerCase();
-    const hit = list.find(c => c.id === asked);
-    const city = hit && hit.active ? hit : list.find(c => c.id === cfg.defaultCity);
-    const notice = hit && hit.active ? '' : (hit ? `${hit.name} is coming soon — showing ${city.name}.` : `Unknown city “${asked}” — showing ${city.name}.`);
-    return { cfg, city, notice };
+    const qs = new URLSearchParams(location.search);
+    const askedCountry = (qs.get('country') || '').toLowerCase();
+    const askedCity = (qs.get('city') || '').toLowerCase();
+    const def = list.find(c => c.id === cfg.defaultCity);
+    const co = cfg.countries.find(c => c.id === askedCountry);
+    let city = def, notice = '';
+    if (askedCountry && !co) notice = `Unknown country “${askedCountry}” — showing ${def.name}, ${def.country}.`;
+    else if (co && !co.active) notice = `${co.name} is coming soon — showing ${def.name}, ${def.country}.`;
+    else {
+      const pool = co ? list.filter(c => c.countryId === co.id) : list;
+      const hit = askedCity ? pool.find(c => c.id === askedCity) : pool.find(c => c.active);
+      if (hit && hit.active) city = hit;
+      else if (hit) notice = `${hit.name} is coming soon — showing ${def.name}.`;
+      else if (askedCity) notice = `Unknown city “${askedCity}” — showing ${def.name}.`;
+    }
+    const country = cfg.countries.find(c => c.id === city.countryId);
+    return { cfg, city, country, notice };
   }
-  const cityUrl = (page, cityId, extra = '') => `${page}?city=${encodeURIComponent(cityId)}${extra}`;
+  let CUR = null;
+  const cityUrl = (page, cityId, extra = '') => {
+    const c = CUR && CUR.id === cityId ? CUR : (CITIES ? allCities(CITIES).find(x => x.id === cityId) : null);
+    return `${page}?country=${encodeURIComponent(c ? c.countryId : 'be')}&city=${encodeURIComponent(cityId)}${extra}`;
+  };
+  /* two pills: Country ▾  City ▾ (city list filtered by the chosen country) */
   function renderCitySel(cfg, city) {
+    CUR = city;
+    const cityItems = co => co.cities.map(c => c.active
+      ? `<li role="option" aria-current="${c.id === city.id}"><a class="ci" href="${cityUrl('index.html', c.id)}">${esc(c.name)}<em>${c.id === city.id ? '●' : ''}</em></a></li>`
+      : `<li role="option" aria-disabled="true"><span class="ci soon">${esc(c.name)}<em>soon</em></span></li>`).join('');
     document.querySelectorAll('[data-citysel]').forEach(el => {
-      el.innerHTML = `<button type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Choose city">${esc(city.name)}, ${esc(city.country)}</button>
-        <ul role="listbox">${cfg.countries.map(co => `<li class="grp">${esc(co.name)}</li>` + co.cities.map(c => c.active
-          ? `<li role="option" aria-current="${c.id === city.id}"><a class="ci" href="${cityUrl('index.html', c.id)}">${esc(c.name)}<em>${c.id === city.id ? '●' : ''}</em></a></li>`
-          : `<li role="option" aria-disabled="true"><span class="ci soon">${esc(c.name)}<em>soon</em></span></li>`).join('')).join('')}</ul>`;
-      const btn = el.querySelector('button');
-      btn.addEventListener('click', e => { e.stopPropagation(); const o = el.classList.toggle('open'); btn.setAttribute('aria-expanded', o); });
-      document.addEventListener('click', () => { el.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); });
+      el.classList.add('placesel');
+      el.innerHTML = `
+        <div class="citysel" data-dd="country"><button type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Choose country">${esc(city.country)}</button>
+          <ul role="listbox">${cfg.countries.map(co => co.active
+            ? `<li role="option" aria-current="${co.id === city.countryId}"><button type="button" class="ci" data-country="${esc(co.id)}">${esc(co.name)}<em>${co.id === city.countryId ? '●' : ''}</em></button></li>`
+            : `<li role="option"><button type="button" class="ci soon" data-soon="${esc(co.name)}" aria-label="${esc(co.name)}, coming soon">${esc(co.name)}<em>soon</em></button></li>`).join('')}
+            <li class="soon-msg" hidden></li></ul></div>
+        <div class="citysel" data-dd="city"><button type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Choose city">${esc(city.name)}</button>
+          <ul role="listbox"><li class="grp">${esc(city.country)}</li>${cityItems(cfg.countries.find(c => c.id === city.countryId))}</ul></div>`;
+      el.querySelectorAll('.citysel').forEach(dd => {
+        const btn = dd.querySelector(':scope>button');
+        btn.addEventListener('click', e => { e.stopPropagation(); el.querySelectorAll('.citysel').forEach(o => o !== dd && o.classList.remove('open'));
+          const o = dd.classList.toggle('open'); btn.setAttribute('aria-expanded', o); });
+        dd.querySelector('ul').addEventListener('click', e => e.stopPropagation());
+      });
+      el.querySelectorAll('[data-soon]').forEach(b => b.addEventListener('click', () => {
+        const m = el.querySelector('.soon-msg'); m.hidden = false; m.textContent = `${b.dataset.soon} — coming soon`; }));
+      el.querySelectorAll('[data-country]').forEach(b => b.addEventListener('click', () => {
+        const co = cfg.countries.find(c => c.id === b.dataset.country);
+        const ddc = el.querySelector('[data-dd="city"]'); el.querySelector('[data-dd="country"]').classList.remove('open');
+        ddc.querySelector('ul').innerHTML = `<li class="grp">${esc(co.name)}</li>` + cityItems(co); ddc.classList.add('open');
+      }));
     });
+    document.addEventListener('click', () => document.querySelectorAll('.citysel.open').forEach(d => { d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded', 'false'); }));
     document.querySelectorAll('[data-home]').forEach(a => a.href = cityUrl('index.html', city.id) + (a.dataset.home || ''));
   }
   function renderFooter(cfg, city, extra = '') {
@@ -80,12 +141,15 @@ const TG = (() => {
   async function load(city) {
     const d = await fetch(city.data).then(r => r.json());
     const rs = d.restaurants;
+    /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
+    rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
     const events = [];
     rs.forEach(r => r.events.forEach(e => events.push({ ...e, restaurantIds: [r.id], restaurantNames: [r.name] })));
     const merged = {};
     events.forEach(e => { const k = e.title + '|' + (e.dateStart || e.dateText);
       if (merged[k]) { merged[k].restaurantIds.push(...e.restaurantIds); merged[k].restaurantNames.push(...e.restaurantNames); } else merged[k] = { ...e }; });
-    const allEvents = Object.values(merged).concat((d.extraEvents || []).map(e => ({ ...e, restaurantIds: [], restaurantNames: [] })));
+    const allEvents = Object.values(merged).concat((d.extraEvents || []).map(liveEvent).filter(Boolean).map(e => ({ ...e, restaurantIds: [], restaurantNames: [] })))
+      .sort((a, b) => a.dateStart.localeCompare(b.dateStart) || (a.dateEnd || a.dateStart).localeCompare(b.dateEnd || b.dateStart));
     return { meta: d.city, restaurants: rs, events: allEvents, changelog: d.changelog || [] };
   }
   const haversine = (a, b) => { const R = 6371, t = x => x * Math.PI / 180; const dLat = t(b[0] - a[0]), dLng = t(b[1] - a[1]);
@@ -95,6 +159,61 @@ const TG = (() => {
     document.querySelectorAll('[data-open-nav]').forEach(b => b.addEventListener('click', () => { nav.classList.add('open'); nav.setAttribute('aria-hidden', 'false'); }));
     nav.querySelectorAll('[data-close-nav]').forEach(b => b.addEventListener('click', () => { nav.classList.remove('open'); nav.setAttribute('aria-hidden', 'true'); }));
   }
-  return { BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  /* ---- carousels: scroll-snap track + arrows + mouse drag with momentum (touch/trackpad scroll natively) ---- */
+  const DRAG = new WeakMap();
+  const wasDragged = el => { const d = DRAG.get(el); return !!(d && d.moved); };
+  function carousel(track) {
+    if (!track || track._car) return; track._car = true;
+    const id = track.id;
+    const prev = document.querySelectorAll(`[data-car-prev="${id}"]`), next = document.querySelectorAll(`[data-car-next="${id}"]`);
+    const step = () => Math.max(240, track.clientWidth * 0.8);
+    const max = () => track.scrollWidth - track.clientWidth;
+    function update() {
+      const atStart = track.scrollLeft <= 2, atEnd = track.scrollLeft >= max() - 2, none = max() <= 2;
+      prev.forEach(b => { b.disabled = atStart || none; b.setAttribute('aria-disabled', b.disabled); });
+      next.forEach(b => { b.disabled = atEnd || none; b.setAttribute('aria-disabled', b.disabled); });
+    }
+    prev.forEach(b => b.addEventListener('click', () => track.scrollBy({ left: -step(), behavior: 'smooth' })));
+    next.forEach(b => b.addEventListener('click', () => track.scrollBy({ left: step(), behavior: 'smooth' })));
+    track.addEventListener('scroll', () => requestAnimationFrame(update), { passive: true });
+    new ResizeObserver(update).observe(track);
+    new MutationObserver(() => { track.scrollLeft = 0; update(); }).observe(track, { childList: true });
+    track.addEventListener('keydown', e => {
+      if (e.target !== track) return;
+      if (e.key === 'ArrowRight') { e.preventDefault(); track.scrollBy({ left: step(), behavior: 'smooth' }); }
+      if (e.key === 'ArrowLeft') { e.preventDefault(); track.scrollBy({ left: -step(), behavior: 'smooth' }); }
+    });
+    /* vertical mouse wheel stays vertical page scroll; shift+wheel and trackpads scroll horizontally natively */
+    const st = { down: false, moved: false, x: 0, sl: 0, v: 0, t: 0, raf: 0 };
+    DRAG.set(track, st);
+    track.addEventListener('pointerdown', e => {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;      // touch & pen use native swipe
+      cancelAnimationFrame(st.raf); Object.assign(st, { down: true, moved: false, x: e.clientX, sl: track.scrollLeft, v: 0, t: performance.now(), lx: e.clientX });
+    });
+    window.addEventListener('pointermove', e => {
+      if (!st.down) return;
+      const dx = e.clientX - st.x;
+      if (!st.moved && Math.abs(dx) > 6) { st.moved = true; track.classList.add('dragging'); try { track.setPointerCapture(e.pointerId); } catch (_) {} }
+      if (!st.moved) return;
+      const now = performance.now(), dt = Math.max(1, now - st.t);
+      st.v = 0.8 * st.v + 0.2 * ((st.lx - e.clientX) / dt); st.t = now; st.lx = e.clientX;
+      track.scrollLeft = st.sl - dx; e.preventDefault();
+    });
+    const end = () => {
+      if (!st.down) return; st.down = false;
+      if (!st.moved) return;
+      let v = st.v * 16;                                            // px per frame
+      const glide = () => {
+        if (Math.abs(v) < 0.5) { track.classList.remove('dragging'); setTimeout(() => { st.moved = false; }, 0); return; }
+        track.scrollLeft += v; v *= 0.94; st.raf = requestAnimationFrame(glide);
+      };
+      glide();
+    };
+    window.addEventListener('pointerup', end); window.addEventListener('pointercancel', end);
+    track.addEventListener('click', e => { if (st.moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+    track.addEventListener('dragstart', e => e.preventDefault());
+    update();
+  }
+  return { carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

@@ -1,0 +1,156 @@
+[
+ {
+  "title": "Diner Gantoise (KAA Gent Foundation) – menu by four chefs",
+  "dateStart": "2026-04-02",
+  "dateEnd": null,
+  "type": "collaboration / charity dinner",
+  "location": "Flanders Expo, Unit 7",
+  "partners": [
+   "Moscou by Danny Horseele",
+   "Vrijmoed",
+   "Dapper."
+  ],
+  "sources": [
+   "https://www.kaagent.be/nl/nieuws/09-04-2026/diner-gantoise-ne-gruute-merci"
+  ],
+  "note": "Date inferred: \"last Thursday\" in a post dated 9-4-2026.",
+  "id": "dapper-0",
+  "restaurant": "dapper",
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "Chef meets Chef – four-hands dinner with Jannis Brevet (ex-Inter Scaldes)",
+  "dateStart": "2024-10-19",
+  "dateEnd": "2024-10-20",
+  "type": "four-hands dinner",
+  "location": "LOF Restaurant",
+  "partners": [
+   "Jannis Brevet"
+  ],
+  "sources": [
+   "https://www.pillowshotels.com/ghent/nl/events/chef-meets-chef/"
+  ],
+  "id": "lof-0",
+  "restaurant": "lof",
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "Lobster menu (3 courses, €59) on Fridays and Saturdays in September",
+  "dateStart": null,
+  "dateText": "September (year not stated)",
+  "type": "themed menu",
+  "location": "Lys d'Or",
+  "partners": [],
+  "sources": [
+   "https://www.lysdor.be/nl/menu"
+  ],
+  "id": "lys-d-or-0",
+  "restaurant": "lys-d-or",
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "Diner Gantoise (KAA Gent Foundation) – menu by four chefs",
+  "dateStart": "2026-04-02",
+  "dateEnd": null,
+  "type": "collaboration / charity dinner",
+  "location": "Flanders Expo, Unit 7",
+  "partners": [
+   "Moscou by Danny Horseele",
+   "Vrijmoed",
+   "Dapper."
+  ],
+  "sources": [
+   "https://www.kaagent.be/nl/nieuws/09-04-2026/diner-gantoise-ne-gruute-merci"
+  ],
+  "note": "Date inferred: \"last Thursday\" in a post dated 9-4-2026.",
+  "id": "moscou-by-danny-horseele-1",
+  "restaurant": "moscou-by-danny-horseele",
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "Winemaker’s dinner with Arnaud Desfontaine (Château de Chamilly), with Vitis Vin",
+  "dateStart": null,
+  "dateText": "15 October (year not stated in source)",
+  "type": "wine dinner / collaboration",
+  "location": "Nonam",
+  "partners": [
+   "Vitis Vin",
+   "Château de Chamilly"
+  ],
+  "sources": [
+   "https://nonam.be/exclusief-winemakers-diner-nonam-en-vitis-vin-ontvangen-arnaud-desfontaine/2017/"
+  ],
+  "id": "nonam-0",
+  "restaurant": "nonam",
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "Diner Gantoise (KAA Gent Foundation) – menu by four chefs",
+  "dateStart": "2026-04-02",
+  "dateEnd": null,
+  "type": "collaboration / charity dinner",
+  "location": "Flanders Expo, Unit 7",
+  "partners": [
+   "Moscou by Danny Horseele",
+   "Vrijmoed",
+   "Dapper."
+  ],
+  "sources": [
+   "https://www.kaagent.be/nl/nieuws/09-04-2026/diner-gantoise-ne-gruute-merci"
+  ],
+  "note": "Date inferred: \"last Thursday\" in a post dated 9-4-2026.",
+  "id": "vrijmoed-1",
+  "restaurant": "vrijmoed",
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "Roaring Twenties gala dinner (benefit for Kom op tegen Kanker) – 4-course menu by Michaël Vrijmoed",
+  "dateStart": "2026-10-10",
+  "dateEnd": null,
+  "type": "charity dinner / guest chef",
+  "location": "Wintercircus Gent",
+  "partners": [
+   "Kom op tegen Kanker"
+  ],
+  "sources": [
+   "https://www.roaringtwenties.be/"
+  ],
+  "id": "vrijmoed-2",
+  "restaurant": "vrijmoed",
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "BROER @ Red Loft – Røk takes over the kitchen",
+  "dateStart": "2026-09-20",
+  "dateEnd": null,
+  "type": "guest chef / takeover",
+  "location": "Red Loft, Hugo van der Goesstraat 17A",
+  "partners": [
+   "Røk",
+   "Red Loft"
+  ],
+  "sources": [
+   "https://www.redloft.be/broer"
+  ],
+  "id": "extra-4",
+  "restaurant": null,
+  "archived": "2026-10-19"
+ },
+ {
+  "title": "Carbonara burger: collaboration Tush × Arthe² (Geoffrey Devriendt)",
+  "dateStart": "2026-01-13",
+  "dateEnd": null,
+  "type": "chef collaboration / special",
+  "location": "Tush, Hoogpoort 50",
+  "partners": [
+   "Arthe²",
+   "Tush"
+  ],
+  "sources": [
+   "https://www.hln.be/gent/hamburger-en-fine-diningrestaurant-in-gent-creeren-samen-unieke-carbonaraburger-alleen-maar-lokale-ingredienten~a9ec6ce7d/"
+  ],
+  "id": "extra-5",
+  "restaurant": null,
+  "archived": "2026-10-19"
+ }
+]
