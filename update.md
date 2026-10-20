@@ -56,6 +56,10 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    Restaurants › Casual: a confirmed vegan / vegetarian / vegan-friendly level or confirmed breakfast/brunch (from the veggie and breakfast layers of the last
    run, persisted in `data/osm/keep-exceptions.json`, which only grows; remove an entry by hand to drop it). After an import, re-run 4e and 4h, then the import
    once more so newly confirmed places are picked up. Curated places are never dropped.
+   **Never: friteries and student restaurants** (user decision 20 Oct 2026): friteries / frietkoten (name friet/frituur/fritkot/frites/chips, cuisine
+   friture, or fries/chips fast food) and student / university cafeterias & restaurants (name student/cafetaria, or operator UGent / HoGent / hogeschool)
+   are dropped with NO veggie / breakfast exception (`never_kind()` in import_osm.py; last run's names in `data/osm/gent-never-excluded.json`). A curated
+   record that looks like one is printed as a WARNING: remove it by hand.
    **No generic cafés / coffee houses:** OSM pub/bar/biergarten that is not a dance café, brown café, Irish pub, cocktail bar or beer bar, and every
    `amenity=cafe` that is not specialty coffee, is dropped at import with the same exceptions (confirmed veggie level or breakfast/brunch, same keep file).
    Kept generic cafés with breakfast/brunch move to Coffee; the others stay under Cafés & bars › All / Coffee › All. Specialty coffee and Shops & roasters stay.

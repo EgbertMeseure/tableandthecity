@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "gent",
- "count": 224,
+ "count": 199,
  "places": {
   "cafe-labath": {
    "veggieLevel": "vegan-friendly",
@@ -326,34 +326,6 @@
    "hcName": "Merino",
    "hcInfo": "Serves meat, vegan options available. Offers drinks, food & entertainment. Has vegan spaghetti and vegan snacks. Outdoor seating. Wheelchair accessible. Accepts credit cards. Free Wi-Fi. Wed-Thu 11:00-00:00, Fri 11:00-01:00, Sat 14:00-01:00"
   },
-  "osm-cafetaria-aula-n6404585900": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6404585900"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-cafetaria-blandijn-n6404585899": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6404585899"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-cafetaria-campus-uz-gent-n6404585902": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6404585902"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-cafetaria-ledeganck-n6404585898": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6404585898"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-catberry-n10295133531": {
    "veggieLevel": "vegan",
    "sources": [
@@ -363,16 +335,6 @@
    "note": "Own site: \"Plantbased koffiebar & patisserie in Gent\" — \"Altijd vers, altijd plantaardig\".",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-chasse-patat-n3299030673": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/3299030673"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Friterie Chasse Patat",
-   "hcInfo": "Serves meat, vegan options available. Restaurant with a focus on French fries. Serves labeled vegan burgers,  fried chicken, nuggets, falafel, cheese crochets and more. Reported to use a separate fryer.  Tue-Fri 17:00-22:00, Thu-Fri 11:30-1"
   },
   "osm-chopstix-n12460847732": {
    "veggieLevel": "vegan-friendly",
@@ -444,26 +406,6 @@
    "hcName": "Cafe de Buffel",
    "hcInfo": "Serves meat, vegan options available. Menu changes every season and always has at least one main dish. There are also vegan appetizers. Accepts credit cards. Mon 17:00-00:00, Tue-Thu 17:00-01:00, Fri 16:00-02:00, Sat 17:00-02:00"
   },
-  "osm-de-frietketel-n474342760": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/474342760"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "De Frietketel",
-   "hcInfo": "Serves meat, vegan options available. Belgian fries shop, has veggieburgers and snack foods. Ask if uses a separate fryer for veggie foods. Closed weekends.  Mon-Fri 11:00-14:00, Mon 17:00-22:00, Tue-Fri 17:00-23:00, Sun 17:00-22:00"
-  },
-  "osm-de-frietschap-n4158261701": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/4158261701"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Frituur De Frietschap",
-   "hcInfo": "Serves meat, vegan options available. Frituur serving vegan burgers, cheese croquettes and Belgian fries made in vegetable oil, topped with vegan mayo.  Tue-Sat 11:30-14:00, Tue-Thu 17:00-22:30, Fri-Sat 17:00-23:30, Sun 17:00-22:30"
-  },
   "osm-de-gekroonde-hoofden-n12478756510": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -479,13 +421,6 @@
    "basis": "HappyCow listing",
    "hcName": "Café de Loge",
    "hcInfo": "Serves meat, vegan options available. Cafe with a selection of rotating vegan and vegetarian dishes on the menu. Everyday there's a vegan recommendation. Staff is knowledgeable about veganism. Outdoor seating. Accepts credit cards. Free Wi-"
-  },
-  "osm-de-papegaai-n3266033261": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/3266033261"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-de-salopette-n6942598387": {
    "veggieLevel": "vegan",
@@ -711,43 +646,6 @@
    "basis": "HappyCow listing",
    "hcName": "Freddie",
    "hcInfo": "Serves meat, vegan options available. Café serving breakfast and lunch with clearly marked vegan items. Vegan offer includes cinnamon rolls, coconut yoghurt with granola & fruit, and cauliflower toast with caponata & herb salsa. Has plant m"
-  },
-  "osm-frietshop-gentbrugge-n3967087158": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Frietshop Gentbrugge",
-   "hcInfo": "Serves meat, vegan options available. Belgian fries shop, that has vegan snack foods including kipcorn, curry, goulash, nuggets, ice cream and more.  Mon-Sun 17:00-21:30"
-  },
-  "osm-frites-atelier-n6461233284": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6461233284"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-frituur-botermarkt-n8957992042": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/8957992042"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-frituur-einde-were-n7798175992": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/7798175992"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-frituur-fonteintje-w555463819": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/way/555463819"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-full-circle-coffee-n11608541222": {
    "veggieLevel": "vegan",
@@ -1392,20 +1290,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-resto-b-n9420690482": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/9420690482"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-resto-d-n6574771219": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6574771219"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-rk-barbecue-n9808181998": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -1569,13 +1453,6 @@
    "hcName": "Steamy Windows",
    "hcInfo": "Serves meat, vegan options available. Dim-sum restaurant with 3 kinds of vegan dumplings (shiitake and Chinese spinach) and 2 kinds of vegan buns (mushroom tofu bun and pickled mustard leaf bun), marked on the menu. Also has 8 vegetable ite"
   },
-  "osm-stefano-s-place-n7020626409": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/7020626409"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-stek-n6828901282": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -1584,62 +1461,6 @@
    "basis": "HappyCow listing",
    "hcName": "STEK",
    "hcInfo": "Serves meat, vegan options available. Breakfast/lunch café offering a few vegan items such as granola, acai bowl, pancakes and toast. Outdoor seating. Accepts credit cards. Mon-Sat 09:00-17:00"
-  },
-  "osm-studentencafetaria-de-brug-n4258301746": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/4258301746"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-studentenrestaurant-bijloke-w1565279658": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/way/1565279658"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-studentenresto-ardoyen-n4130825680": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/4130825680"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-studentenresto-boudewijn-n3796833730": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/3796833730"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-studentenresto-coupure-n4823020761": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/4823020761"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-studentenresto-de-brug-n3699071712": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/3699071712"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-studentenresto-dunant-n6404585903": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6404585903"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-studentenresto-s5-n3752879366": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/3752879366"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-sushi-love-gent-n9056427353": {
    "veggieLevel": "vegan-friendly",
@@ -1667,16 +1488,6 @@
    "basis": "HappyCow listing",
    "hcName": "Taco Santo",
    "hcInfo": "Serves meat, vegan options available. Offers tacos and chips with guacamole and salsa. Items that are not vegan are labeled as not vegan instead of the other way around. Outdoor seating. Wheelchair accessible. Accepts credit cards. Tue-Fri "
-  },
-  "osm-tartaar-bar-n6236003054": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/6236003054"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Frituur Tartaar",
-   "hcInfo": "Serves meat, vegan options available. Belgian restaurant offering vegan burgers, falafel, broccoli biegnets, and more. Outdoor seating. Accepts credit cards. Tue-Sun 11:30-22:30"
   },
   "osm-ter-burg-n6092406662": {
    "veggieLevel": "veggie-friendly",

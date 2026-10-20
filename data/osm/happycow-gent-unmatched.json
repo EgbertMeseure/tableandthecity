@@ -210,6 +210,21 @@
   "hcSection": "restaurant"
  },
  {
+  "name": "De Frietketel",
+  "address": "Papegaaistraat 89",
+  "price": "Inexpensive",
+  "tags": [
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Belgium",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Belgian fries shop, has veggieburgers and snack foods. Ask if uses a separate fryer for veggie foods. Closed weekends.  Mon-Fri 11:00-14:00, Mon 17:00-22:00, Tue-Fri 17:00-23:00, Sun 17:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
   "name": "Domino's Pizza - Overpoortstr.",
   "address": "Overpoortstraat 57",
   "price": "Moderate",
@@ -314,6 +329,55 @@
   "hcSection": "restaurant"
  },
  {
+  "name": "Frietshop Gentbrugge",
+  "address": "Tweekapellenstraat 4",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "European",
+   "Honey",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Belgian fries shop, that has vegan snack foods including kipcorn, curry, goulash, nuggets, ice cream and more.  Mon-Sun 17:00-21:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Friterie Chasse Patat",
+  "address": "IJzerlaan 9",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Fast food",
+   "Take-out",
+   "European",
+   "Belgian",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Restaurant with a focus on French fries. Serves labeled vegan burgers,  fried chicken, nuggets, falafel, cheese crochets and more. Reported to use a separate fryer.  Tue-Fri 17:00-22:00, Thu-Fri 11:30-14:00, Sun 17:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Frituur De Frietschap",
+  "address": "Rooigemlaan 185",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Fast food",
+   "Take-out",
+   "European",
+   "Belgian",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Frituur serving vegan burgers, cheese croquettes and Belgian fries made in vegetable oil, topped with vegan mayo.  Tue-Sat 11:30-14:00, Tue-Thu 17:00-22:30, Fri-Sat 17:00-23:30, Sun 17:00-22:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
   "name": "Frituur De Papegaai",
   "address": "Annonciadenstraat 17",
   "price": "Inexpensive",
@@ -325,6 +389,23 @@
    "Non-veg"
   ],
   "info": "Serves meat, vegan options available. Fast food snack bar. Has labeled vegan choices and sauces. Wheelchair accessible. Mon-Fri 11:30-14:30, 17:00-22:00, Sun 17:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Frituur Tartaar",
+  "address": "Heilige-Geeststraat 3",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Belgian",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Belgian restaurant offering vegan burgers, falafel, broccoli biegnets, and more. Outdoor seating. Accepts credit cards. Tue-Sun 11:30-22:30",
   "level": "vegan-friendly",
   "hcSection": "restaurant"
  },

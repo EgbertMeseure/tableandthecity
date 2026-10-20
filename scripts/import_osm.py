@@ -18,6 +18,8 @@ Mapping (features only when explicitly tagged; source 'OpenStreetMap', © OpenSt
   shop=bakery → Bakeries › bakery; shop=pastry → Bakeries › patisserie — ARTISAN ONLY: every OSM bakery/pastry shop is DROPPED unless it is in
     data/bakeries-artisan.json 'keep' (sourced artisan check) or 'branchOf' (another shop of a curated bakery → merged into it). Veggie / breakfast
     bakeries are NOT kept on that basis alone; they are listed in data/osm/<city>-bakeries-pending.json for an artisan check.
+Never shown, no exceptions (user decision 20 Oct 2026): friteries / frietkoten (name friet/frituur/fritkot/frites/chips or cuisine friture/fries/chips,
+  fried_food fast food) and student / university cafeterias & restaurants (name student/cafetaria, or operator UGent / HoGent / hogeschool …); see never_kind().
 Excluded: no name, lifecycle-prefixed / disused / closed tags, opening_hours="closed", permanently closed places in data/osm/closed.json, elements outside the city boundary,
   and large franchise / multinational chains listed in data/chains-exclude.json (brand:wikidata, brand or name; see is_chain).
   Curated / upcoming records are never dropped automatically: a chain match there is only printed as a WARNING.
@@ -70,6 +72,22 @@ def is_chain(t):
 FF_KEEP = ROOT / 'data' / 'osm' / 'keep-exceptions.json'
 CLOSED = ROOT / 'data' / 'osm' / 'closed.json'                 # permanently closed (sourced): skipped even while OSM still lists them
 ARTISAN = ROOT / 'data' / 'bakeries-artisan.json'            # artisan bakeries allowlist (keep / branchOf)
+
+
+FRIT_NAME = re.compile(r"(friet|frituur|fritkot|frietkot|frites|friterie|\bfrit\b|\bchips\b)")
+STU_NAME = re.compile(r"(student|cafetaria|cafeteria)")
+EDU_OPERATOR = re.compile(r"(universiteit|ugent|hogent|hogeschool|odisee|artevelde ?hogeschool|kask|luca school)")
+
+
+def never_kind(t, name):
+    """Types that are never shown, whatever their veggie / breakfast level (user decision 20 Oct 2026):
+    friteries / frietkoten and student / university cafeterias & restaurants. Returns 'friterie' | 'student' | None."""
+    n, c, op = _fold(name), _fold(t.get('cuisine', '')), _fold(t.get('operator', ''))
+    first = c.split(';')[0].strip()
+    ff = t.get('amenity') == 'fast_food'
+    if FRIT_NAME.search(n) or 'friture' in c or first in ('fries', 'chips') or (ff and re.search(r"\b(fries|chips|fried_food)\b", c)): return 'friterie'
+    if STU_NAME.search(n) or EDU_OPERATOR.search(op): return 'student'
+    return None
 
 
 def fastfood_keep():
@@ -261,7 +279,7 @@ def main():
     curated = [r for r in cur['restaurants'] if r.get('lat')]
     if UPC.exists(): curated += [u for u in json.loads(UPC.read_text()).get('upcoming', []) if u.get('lat')]
     stamp = raw.get('osm3s', {}).get('timestamp_osm_base', '')[:10]
-    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0, 'fast_food': 0, 'generic_cafe': 0, 'coffee_house': 0, 'generic_bakery': 0}, set()
+    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0, 'fast_food': 0, 'generic_cafe': 0, 'coffee_house': 0, 'generic_bakery': 0, 'friterie': 0, 'student': 0}, set()
     ff_keep, ff_kept = fastfood_keep(), set()
     art = json.loads(ARTISAN.read_text()) if ARTISAN.exists() else {'keep': {}, 'branchOf': {}}
     by_cid = {c['id']: c for c in curated}
@@ -269,6 +287,7 @@ def main():
     closed_names = {norm_name(v['name']) for k, v in closed.items() if k.startswith('name:')}
     bk_pending = {}
     chains = Counter()
+    never = {'friterie': [], 'student': []}; never_ids = set()
     elems = sorted(raw['elements'], key=lambda e: (e['type'], e['id']))
     for e in elems:
         t = e.get('tags', {})
@@ -278,6 +297,7 @@ def main():
         if t.get('opening_hours', '').strip().lower() in ('closed', 'off') or t.get('opening_hours:covid19') == 'off' and False: skipped['closed'] += 1; continue
         if t.get('amenity') not in ('restaurant', 'cafe', 'bar', 'pub', 'biergarten', 'fast_food') and t.get('shop') not in ('bakery', 'pastry', 'coffee'): skipped['other'] += 1; continue
         if (ch := is_chain(t)): skipped['chain'] += 1; chains[ch] += 1; continue    # big chains stay off the site
+        if (nk := never_kind(t, name)): skipped[nk] += 1; never[nk].append(name); never_ids.add(f"osm-{slug(name)}-{e['type'][0]}{e['id']}"); continue   # no friteries / student restaurants, no exceptions
         if f"{e['type']}/{e['id']}" in closed or norm_name(name) in closed_names: skipped['closed'] += 1; continue
         lat, lng = (e['lat'], e['lon']) if e['type'] == 'node' else (e['center']['lat'], e['center']['lon'])
         group, cat = categorize(t, name)
@@ -378,10 +398,12 @@ def main():
     if filled: CUR.write_text(json.dumps(cur, ensure_ascii=False, indent=1) + '\n')
     kept_ff = {k: ff_keep[k] for k in ff_kept}
     FF_KEEP.write_text(json.dumps({'about': 'OSM places that the import would drop (fast food; generic cafés/pubs) but keeps because of a confirmed vegan/vegetarian/vegan-friendly level or breakfast/brunch. Fast food → Restaurants › Casual; generic café/pub with breakfast/brunch → Coffee; other generic cafés/pubs and coffee houses stay in their group (under All). See fastfood_keep() in scripts/import_osm.py.',
-                                   'keep': dict(sorted({**json.loads(FF_KEEP.read_text())['keep'], **kept_ff}.items() if FF_KEEP.exists() else kept_ff.items()))}, ensure_ascii=False, indent=1) + '\n')
+                                   'keep': dict(sorted((k, v) for k, v in ({**json.loads(FF_KEEP.read_text())['keep'], **kept_ff}.items() if FF_KEEP.exists() else kept_ff.items()) if k not in never_ids))}, ensure_ascii=False, indent=1) + '\n')
     (OSM_DIR / f'{CITY}-bakeries-pending.json').write_text(json.dumps({'about': 'OSM bakeries with a confirmed vegan/veggie level or breakfast that the import dropped because no source confirms they are artisan. Add a sourced entry to data/bakeries-artisan.json (keep) or via scripts/merge_bakeries.py to show them.', 'places': dict(sorted(bk_pending.items()))}, ensure_ascii=False, indent=1) + '\n')
     for c in curated:                                             # never drop curated/upcoming silently: warn only
         if (ch := is_chain({'name': c.get('name', '')})): print(f"WARNING: curated/upcoming record {c['id']} looks like chain {ch} — review by hand")
+        if (nk := never_kind({'cuisine': ';'.join(c.get('cuisineTags') or [])}, c.get('name', ''))): print(f"WARNING: curated/upcoming record {c['id']} looks like a {nk} place — remove it by hand")
+    (OSM_DIR / f'{CITY}-never-excluded.json').write_text(json.dumps({k: sorted(set(v)) for k, v in never.items()}, ensure_ascii=False, indent=1) + '\n')
     (OSM_DIR / f'{CITY}-chains-excluded.json').write_text(json.dumps(dict(sorted(chains.items())), ensure_ascii=False, indent=1) + '\n')
     print(f'{len(places)} OSM places written → {OUT.relative_to(ROOT)} (OSM base {stamp})')
     print('by group/category:', dict(Counter((p['group'], p['category']) for p in places)))

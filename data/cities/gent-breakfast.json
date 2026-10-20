@@ -374,30 +374,6 @@
     "source": "https://www.cafemerino.be/menu-merino-11-3-2025"
    }
   },
-  "osm-cafetaria-aula-n6404585900": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusaula.htm"
-   }
-  },
-  "osm-cafetaria-blandijn-n6404585899": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusboekentoren.htm"
-   }
-  },
-  "osm-cafetaria-campus-uz-gent-n6404585902": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusuzgent.htm"
-   }
-  },
-  "osm-cafetaria-ledeganck-n6404585898": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusledeganck.htm"
-   }
-  },
   "osm-catberry-n10295133531": {
    "breakfast": {
     "value": true,
@@ -922,36 +898,6 @@
     "source": "https://stekgent.be"
    }
   },
-  "osm-studentencafetaria-de-brug-n4258301746": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariadebrug.htm"
-   }
-  },
-  "osm-studentenresto-ardoyen-n4130825680": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restoardoyen.htm"
-   }
-  },
-  "osm-studentenresto-de-brug-n3699071712": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restodebrug.htm"
-   }
-  },
-  "osm-studentenresto-dunant-n6404585903": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restocampusdunant.htm"
-   }
-  },
-  "osm-studentenresto-s5-n3752879366": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restocampussterre.htm"
-   }
-  },
   "osm-take-five-n10267858018": {
    "breakfast": {
     "value": true,
@@ -1163,6 +1109,42 @@
   },
   {
    "id": "osm-martens-n1314094556",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-cafetaria-aula-n6404585900",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-cafetaria-blandijn-n6404585899",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-cafetaria-campus-uz-gent-n6404585902",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-cafetaria-ledeganck-n6404585898",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-studentencafetaria-de-brug-n4258301746",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-studentenresto-ardoyen-n4130825680",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-studentenresto-de-brug-n3699071712",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-studentenresto-dunant-n6404585903",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-studentenresto-s5-n3752879366",
    "why": "unknown id"
   },
   {
