@@ -213,8 +213,34 @@
       new: (a, b) => soonFirst(a, b) || opened(b).localeCompare(opened(a)) || nm(a, b),
       dist: (a, b) => (a._km ?? 1e9) - (b._km ?? 1e9)
     };
-    return list.sort(state.sort === 'dist' && !state.origin ? by.rec : (by[state.sort] || by.rec));
+    // open now first, then unknown hours, then closed (Europe/Brussels); the chosen ranking stays the order within each group
+    const now = new Date(); list.forEach(r => { r._oh = TG.openState(r, now); });
+    const base = state.sort === 'dist' && !state.origin ? by.rec : (by[state.sort] || by.rec);
+    list._base = base;
+    return list.sort((a, b) => TG.OPEN_RANK[a._oh.state] - TG.OPEN_RANK[b._oh.state] || base(a, b));
   }
+  /* re-evaluate "open now" every minute: labels update in place; the re-sort waits until the list is out of view (or the tab
+     was hidden) so nothing moves under the reader, and keeps the number of cards shown and the scroll position */
+  let ohPending = false;
+  const ohKey = o => o.state + '|' + (o.opensAt ? o.opensAt.dayOffset + o.opensAt.time : '') + (o.byStatus ? 's' : '');
+  function ohTick(force) {
+    const now = new Date(); let changed = false;
+    LIST.forEach(r => { const o = TG.openState(r, now); if (!r._oh || ohKey(o) !== ohKey(r._oh)) { if (!r._oh || o.state !== r._oh.state) changed = true; r._oh = o; } });
+    document.querySelectorAll('#list .card[data-id] [data-oh]').forEach(el => { const r = BYID.get(el.closest('.card').dataset.id); if (!r) return;
+      const h = TG.openLabel(r._oh); if (el.innerHTML !== h) el.innerHTML = h; });
+    if (changed) ohPending = true;
+    if (!ohPending) return;
+    const box = $('#list').getBoundingClientRect(), inView = box.bottom > 0 && box.top < innerHeight;
+    if (inView && !force && !document.hidden) return;
+    ohPending = false;
+    const y = scrollY, n = shown;
+    LIST.sort((a, b) => TG.OPEN_RANK[a._oh.state] - TG.OPEN_RANK[b._oh.state] || LIST._base(a, b));
+    $('#list').innerHTML = LIST.slice(0, n).map(card).join(''); moreBtn();
+    scrollTo(0, y);
+  }
+  const BYID = new Map(R.map(r => [r.id, r]));
+  setTimeout(() => { ohTick(); setInterval(ohTick, 60000); }, 60000 - Date.now() % 60000 + 500);   // just after each minute
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) ohTick(true); });
 
   // ---- map (greyscale) ----
   const map = L.map('map', { zoomControl: true, scrollWheelZoom: false }).setView(city.center, city.zoom);
@@ -255,7 +281,7 @@
       + (on.length > MAXF ? `<li class="fchip more" title="${esc(on.slice(MAXF).map(([k, l]) => SHORT[k] || l).join(', '))}">+${on.length - MAXF}</li>` : '');
     return `<a class="card bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
-      <div class="card__body"><div class="badges">${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
+      <div class="card__body"><div class="badges"><span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
       <div class="card__foot">${km}${isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
   }
@@ -286,7 +312,7 @@
   function marker(r) {                                                     // built once per place, reused across renders
     if (r._m) return r._m;
     const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}${r.upcoming ? ' soon' : ''}${r.curated ? '' : ' osm'}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
-      .bindPopup(() => `<b>${esc(r.name)}</b>${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}${r.veggieLevel ? `<br><i>${esc(TG.VEG_LABEL[r.veggieLevel])}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}${known(r.address) ? '<br>' + esc(r.address) : ''}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
+      .bindPopup(() => `<b>${esc(r.name)}</b>${TG.openState(r).state === 'open' ? ' <span class="oh oh--open oh--pop">Open now</span>' : ''}${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}${r.veggieLevel ? `<br><i>${esc(TG.VEG_LABEL[r.veggieLevel])}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}${known(r.address) ? '<br>' + esc(r.address) : ''}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
     m.on('mouseover', () => hl(r.id, true)); m.on('mouseout', () => hl(r.id, false));
     return (r._m = m);
   }

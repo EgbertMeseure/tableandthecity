@@ -173,6 +173,24 @@ const TG = (() => {
     });
     return best;
   }
+  /* ---- open now (js/hours.js, Europe/Brussels) ----
+     open | closed | unknown. A place with a non-open status (temporarily closed, renovation…) is never open. Hours that cannot be
+     parsed with confidence, or that carry a "sources differ" note, are unknown: nothing is shown and they sort between open and closed. */
+  function openState(r, now = new Date()) {
+    if (r.upcoming) return { state: 'unknown' };
+    if (r.status && r.status !== 'open') return { state: 'closed', byStatus: true };
+    if (r.openingHoursNote || !known(r.openingHours) || !window.TGHours) return { state: 'unknown' };
+    return window.TGHours.status(r.openingHours, now);
+  }
+  const OPEN_RANK = { open: 0, unknown: 1, closed: 2 };
+  /* small label: list cards (short) and the detail page (long: "Closed · opens Tue 08:00"); empty for unknown / status-closed */
+  function openLabel(o, long = false) {
+    if (!o || o.byStatus) return '';
+    if (o.state === 'open') return `<span class="oh oh--open">Open now${long && o.closesAt ? `<span class="oh__sub"> · until ${esc(o.closesAt)}</span>` : ''}</span>`;
+    if (o.state !== 'closed') return '';
+    const t = o.opensAt ? window.TGHours.opensText(o.opensAt) : '';
+    return `<span class="oh oh--closed">${long ? `Closed${t ? ` · opens ${esc(t)}` : ''}` : t ? `Opens ${esc(t)}` : 'Closed'}</span>`;
+  }
   const EARLY = 600;                                                  // "Open early" = opens at or before 10:00
   const BF_GROUPS = new Set(['restaurants', 'coffee', 'cafes_bars']);
   /* breakfast / brunch: confirmed (sourced) vs. merely opening early (heuristic, shown separately) */
@@ -417,6 +435,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

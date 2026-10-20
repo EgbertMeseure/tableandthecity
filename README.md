@@ -159,3 +159,19 @@ Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ran
   `scripts/merge_breakfast.py`), weekend brunch (shown once ≥ 3 places), and separately **Opens early** = opens at or before 10:00 by sourced opening hours
   (restaurants, cafés & bars, coffee; bakeries only with seating). Opens early is a fact about hours, never labelled as serving breakfast.
 - "Breakfast" and "Brunch" tiles in *At a glance* (all groups) and in the feedback pills.
+
+## Open now
+`js/hours.js` (`TGHours`, no dependencies, also loads in node) parses `openingHours` strictly — OSM `opening_hours` syntax
+("Mo-Fr 08:00-18:00; Sa 09:00-14:00; Su off", `24/7`, comma day lists, `,` additional rules, `;` overrides, extended times like 26:00)
+and our curated text ("Mon closed · Tue–Sat 18:00–22:00 · Sun closed", "Weekdays …; weekends & holidays …", "from 11:00 to 01:00").
+Everything is evaluated in **Europe/Brussels** time (Intl, whatever the visitor's time zone); overnight ranges count after midnight.
+Strict, never guessed: month/date rules, `Su[1]`, comments, "from 18:00" without an end, "dinner", conditions in brackets, conflicting
+days → the whole string is *unknown* (no label). Curated text: a day not mentioned is unknown (OSM: closed). PH rules are ignored; on a
+Belgian public holiday a schedule that mentions holidays is unknown. Open end (`18:00+`) is never shown as closed. A `status` other than
+`open` (temporarily closed, renovation until `statusUntil`) is never open; an `openingHoursNote` ("sources differ") makes hours unknown.
+- Every list (all places, group/sub-filters, search, any sort) is ordered **open → unknown → closed**, the chosen ranking inside each group;
+  "Show more" pages through the re-sorted list. Cards: green **Open now** pill, grey "Opens 18:00" / "Opens Tue 08:00" / "Closed".
+- Detail hero: "Open now · until 22:00" or "Closed · opens tomorrow 08:00". Map popups: "Open now". Nothing for unknown hours.
+- Re-evaluated every minute: labels update in place; the list re-sorts only when it is out of view or the tab comes back (same cards
+  shown, same scroll position).
+- Test: `node scripts/test_hours.js` (also run with e.g. `TZ=America/Los_Angeles`); it prints parseable / not parseable counts per file.

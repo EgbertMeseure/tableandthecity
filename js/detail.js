@@ -58,6 +58,10 @@
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
+  // "Open now" / "Closed · opens Tue 08:00" (Europe/Brussels, js/hours.js); nothing when the hours are unknown; refreshed every minute
+  const paintOpen = () => { const h = TG.openLabel(TG.openState(r), true), el = $('#hopen'); if (el && el.innerHTML !== h) el.innerHTML = h; };
+  paintOpen(); setInterval(paintOpen, 60000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) paintOpen(); });
   $('#hmeta').textContent = [catLabel(r), isR(r) && r.cuisine !== catLabel(r) ? r.cuisine : '', known(r.neighbourhood) ? r.neighbourhood : ''].filter(Boolean).join(' · ');
   const d = r.distinctions || {};
   const priceTxt = [known(r.priceLevel) ? esc(r.priceLevel) : '', r.priceFrom ? `from ${eur(r.priceFrom)}` : ''].filter(Boolean).join(' · ') || '<span class="unk">unknown</span>';
