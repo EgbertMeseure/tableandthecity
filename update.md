@@ -84,11 +84,20 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    not a logo / icon / flat graphic, loads as a hotlinked `<img>` in Chrome) and stores only the URL in `data/cities/gent-heroes.json`. Images are hotlinked
    (`referrerpolicy="no-referrer"`) with a "Photo: <domain>" credit, never downloaded or rehosted. Then `--sheet` → look at `/tmp/hero-sheet-*.png` and add
    logos / posters / screenshots / spam to `data/osm/hero-review.json` (re-run to apply). Hero order on a detail page: free-licence photo → website og:image →
-   first Instagram photo post (official embed, scaled and clipped, credit @handle) → monogram. A broken hotlink falls back automatically.
+   first Instagram photo post (official embed, scaled and clipped, credit @handle) → first tile of the official profile embed (checked handles only, see 4j) → monogram. List cards use the same photo (B&W, colour on hover). A broken hotlink falls back automatically.
 4h. **Breakfast & brunch** – `python3 scripts/merge_breakfast.py gent` after every OSM import and whenever `/workspace/handoff/gent-breakfast-research.json`
    is updated (or `--handoff=path`). Sourced research values win over OSM tags (`breakfast=yes`, `brunch=yes`, `cuisine=…breakfast…`); nothing is guessed.
    "Opens early" on the site is computed from sourced opening hours (≤ 10:00) and is always shown as a fact ("Opens at 08:00"), never as "serves breakfast".
    'missing' places from the handoff are only added with name, address, coordinates, group and source.
+4i. **Researched opening hours** – `python3 scripts/merge_hours.py gent [--handoff=…]` merges `/workspace/handoff/gent-hours-research.json`
+   (idempotent): every string must parse with `js/hours.js` (failures are skipped and printed); valid ones are kept by OSM ref in
+   `data/osm/hours-research.json`, which `import_osm.py` re-applies after each import **only where OSM has no opening_hours** (OSM hours are
+   never overwritten). Records get `openingHours`, `openingHoursSource` (URL) and `openingHoursConfidence` (high/medium). The handoff's
+   permanently closed places go to `data/osm/closed.json`; sourced address moves and temporary closures live in CORRECTIONS in that script
+   → `data/osm/corrections.json` (`correctionSource`). Temporary closures: `status: "temporarily closed"`, `statusUntil` = last closed day
+   (Europe/Brussels; the site shows the place as open again the day after, curated and OSM alike).
+4j. **Instagram / photos** (weekly) – `python3 scripts/build_instagram_layer.py gent --check` (new handles; `--recheck` all; `--research=<file>`
+   merges a researcher hand-off). Then `python3 scripts/photo_coverage.py gent --missing=/workspace/handoff/gent-photos-missing.json`.
 4f. **Closure spot-check** (monthly) – sample 40 random OSM places, check own site / recent listings, record in `data/osm/spotcheck-<date>.json`;
    closed places: fix in OSM (or add `"status": "closed"` via corrections) and re-import.
 5. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.

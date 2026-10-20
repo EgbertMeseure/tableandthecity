@@ -324,3 +324,8 @@ button,input,select{font-family:inherit}
 .essentials .opens{display:block;font-size:12px;color:var(--text-3);margin-top:3px}
 /* never let a wide embed (Instagram hero / rail) widen the mobile layout viewport */
 html,body{overflow-x:clip}
+/* Instagram profile embed tile (official widget: header + recent photo grid; each tile links to the post on Instagram) */
+.gal-rail>.gtile.gtile--igprofile{flex:0 0 326px}
+.gtile__prof{position:relative;width:326px;height:352px;overflow:hidden;border-radius:22px;background:#fff;isolation:isolate}
+.gtile__prof iframe{position:absolute;left:0;top:0;width:326px;height:560px;border:0;display:block}
+@media (max-width:700px){.gal-rail>.gtile.gtile--igprofile{flex-basis:72vw}.gtile__prof{width:100%;border-radius:16px}.gtile__prof iframe{width:100%}}

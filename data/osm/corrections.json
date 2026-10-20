@@ -21,6 +21,41 @@
    "website": null,
    "websiteNote": "namjai.be now serves an online-casino page (checked 20 Oct 2026) — link removed",
    "source": "https://namjai.be/ (title \"Casoola Casino\", 20 Oct 2026)"
+  },
+  "way/493483121": {
+   "address": "Jan Breydelstraat 8, 9000 Gent",
+   "postalCode": "9000",
+   "lat": 51.0558696,
+   "lng": 3.7204115,
+   "neighbourhood": "Patershol",
+   "source": "https://ikurasushi.be/ (new location Jan Breydelstraat 8; geocoded with Nominatim)"
+  },
+  "node/10277884384": {
+   "address": "Leo Tertzweillaan 3, 9050 Gentbrugge",
+   "postalCode": "9050",
+   "lat": 51.0408766,
+   "lng": 3.754368,
+   "source": "https://www.bistrojeanne.be/ (address on own site; geocoded with Nominatim)"
+  },
+  "node/5825400253": {
+   "address": "Lammerstraat 12, 9000 Gent",
+   "postalCode": "9000",
+   "lat": 51.0478939,
+   "lng": 3.7281707,
+   "source": "https://nonoresto.be/restaurant/aywa/ + Visit Gent register (Lammerstraat 12; geocoded with Nominatim)"
+  },
+  "node/7085959385": {
+   "address": "Schoolstraat 6, 9040 Sint-Amandsberg",
+   "postalCode": "9040",
+   "lat": 51.0602466,
+   "lng": 3.7479681,
+   "source": "https://openwok.be/ (Schoolstraat 6, 9040 Sint-Amandsberg; geocoded with Nominatim)"
+  },
+  "node/11352130038": {
+   "status": "temporarily closed",
+   "statusUntil": "2026-10-21",
+   "statusNote": "Closed for holidays from Monday 19 to Wednesday 21 October 2026; open again from Thursday 22 October.",
+   "source": "https://gent.tokyosushi.be/nl/Contact"
   }
  }
 }

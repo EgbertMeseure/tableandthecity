@@ -294,3 +294,9 @@ body.noscroll{overflow:hidden}
 .dhero .oh--open::before{background:#7ee2a3;box-shadow:0 0 0 2px rgba(126,226,163,.3)}
 .dhero .oh--closed{background:rgba(0,0,0,.45);border-color:rgba(255,255,255,.55);color:#fff}
 .oh--pop{font-size:10px;padding:0 7px 0 6px;vertical-align:1px}
+
+/* list-card photos: the place's own photo over the monogram (the monogram shows through when a hotlink breaks) */
+.card__thumb .thumb-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
+.card__thumb .thumb-ig{position:absolute;inset:0;overflow:hidden;z-index:1;pointer-events:none;opacity:0;transition:opacity .5s ease,filter var(--ease)}
+.card__thumb .thumb-ig.is-loaded{opacity:1}
+.card__thumb .thumb-ig iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;pointer-events:none;background:transparent}

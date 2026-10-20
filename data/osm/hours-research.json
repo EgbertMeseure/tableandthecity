@@ -1,0 +1,1535 @@
+{
+ "about": "Researched opening hours for OSM places without an opening_hours tag (key = OSM ref). Written by scripts/merge_hours.py; import_osm.py re-applies them after each OSM import, only where OSM has no hours. Every string parses with js/hours.js.",
+ "places": {
+  "node/10005651044": {
+   "id": "osm-table-10-n10005651044",
+   "name": "Table 10",
+   "openingHours": "Mo 12:00-14:00; Tu-Fr 12:00-14:00,18:30-21:00; Sa,Su off",
+   "source": "https://www.table10.be/",
+   "confidence": "high",
+   "note": "Restaurant hours. The clubhouse has longer hours.",
+   "checked": "2026-10-20"
+  },
+  "node/10081473802": {
+   "id": "osm-ichi-bao-n10081473802",
+   "name": "Ichi Bao",
+   "openingHours": "We-Su 18:00-21:00; Mo,Tu off",
+   "source": "https://www.ichibao.be/",
+   "confidence": "high",
+   "note": "Site lists kitchen hours (\"KITCHEN OPEN\"); no reservations.",
+   "checked": "2026-10-20"
+  },
+  "node/10097967923": {
+   "id": "osm-antichi-sapori-n10097967923",
+   "name": "Antichi Sapori",
+   "openingHours": "We-Su 12:00-13:45,18:00-21:45; Mo,Tu off",
+   "source": "https://antichisapori.be/contact/",
+   "confidence": "high",
+   "note": "Address is Sint-Pietersnieuwstraat 204. One line says \"closed Monday and Tuesday lunch\", but the hours table lists Tuesday as a rest day.",
+   "checked": "2026-10-20"
+  },
+  "node/10250827159": {
+   "id": "osm-uludag-n10250827159",
+   "name": "Uludag",
+   "openingHours": "Tu-Su 11:00-24:00; Mo off",
+   "source": "https://nonoresto.be/restaurant/pitta-uludag/",
+   "confidence": "medium",
+   "note": "\"Pitta Uludag\", Vierweegsestraat 2. Aggregator listing apparently mirroring Google data; frituur-in-de-buurt.be agrees.",
+   "checked": "2026-10-20"
+  },
+  "node/10277884384": {
+   "id": "osm-bistro-jeanne-n10277884384",
+   "name": "Bistro Jeanne",
+   "openingHours": "Mo,Th,Fr,Su 09:00-16:00; Sa 09:00-15:00,18:00-22:00; Tu,We off",
+   "source": "https://nonoresto.be/restaurant/bistro-jeanne/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Actual address is Leo Tertzweillaan 3, 9050 Gentbrugge (own site), not Kliniekstraat. HLN article of 11 Dec 2025 states the same hours.",
+   "checked": "2026-10-20"
+  },
+  "node/10295133531": {
+   "id": "osm-catberry-n10295133531",
+   "name": "Catberry",
+   "openingHours": "Tu-Su 10:00-18:00; Mo off",
+   "source": "https://catberry.be/",
+   "confidence": "high",
+   "note": "Matches the Visit Gent register.",
+   "checked": "2026-10-20"
+  },
+  "node/10609073783": {
+   "id": "osm-ruba-n10609073783",
+   "name": "Ruba",
+   "openingHours": "Mo-Su 11:00-21:00",
+   "source": "https://nonoresto.be/restaurant/ruba-gent/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/10748138689": {
+   "id": "osm-mian-n10748138689",
+   "name": "Mian",
+   "openingHours": "Mo-Fr,Su 11:30-14:00,17:00-21:30; Sa off",
+   "source": "https://nonoresto.be/restaurant/mian/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/10840172980": {
+   "id": "osm-da-mario-n10840172980",
+   "name": "Da Mario",
+   "openingHours": "Mo 18:00-22:00; Tu,Th-Su 12:00-14:00,18:00-22:00; We off",
+   "source": "https://damariodrongen.be/",
+   "confidence": "high",
+   "note": "Address is Abdijmolenstraat 46, 9031 Drongen.",
+   "checked": "2026-10-20"
+  },
+  "node/10885975050": {
+   "id": "osm-de-abt-n10885975050",
+   "name": "De Abt",
+   "openingHours": "Tu-Sa 12:00-14:00,18:00-21:00; Su,Mo off",
+   "source": "https://www.deabt.gent/",
+   "confidence": "high",
+   "note": "Kitchen hours. Site address is Lange Kruisstraat 4.",
+   "checked": "2026-10-20"
+  },
+  "node/10892781655": {
+   "id": "osm-royal-india-n10892781655",
+   "name": "Royal India",
+   "openingHours": "Tu 18:00-23:00; We-Fr 12:00-14:30,18:00-22:00; Sa,Su 12:00-14:30,17:30-22:00; Mo off",
+   "source": "https://royalindiabelgium.com/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/10907848125": {
+   "id": "osm-uilenspiegel-n10907848125",
+   "name": "Uilenspiegel",
+   "openingHours": "Tu-Th 11:30-19:00; Fr,Sa 11:30-21:30; Su,Mo off",
+   "source": "https://www.eetcafe-uilenspiegel.be/",
+   "confidence": "high",
+   "note": "Shopping Sundays 11:30-18:00. Closed on the Tuesday after a shopping Sunday.",
+   "checked": "2026-10-20"
+  },
+  "node/10908021209": {
+   "id": "osm-guerilla-streetfood-n10908021209",
+   "name": "Guerilla Streetfood",
+   "openingHours": "We,Th,Su 17:45-21:00; Fr,Sa 17:45-22:00; Mo,Tu off",
+   "source": "https://www.guerrillastreetfood.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/11047218681": {
+   "id": "osm-pizza-roma-n11047218681",
+   "name": "Pizza Roma",
+   "openingHours": "Mo-Th 11:00-23:30; Fr-Su 11:00-23:45",
+   "source": "https://www.pizzaroma.be/",
+   "confidence": "high",
+   "note": "Site states one set of hours for all its Ghent branches.",
+   "checked": "2026-10-20"
+  },
+  "node/11049255677": {
+   "id": "osm-yalla-yalla-n11049255677",
+   "name": "Yalla Yalla",
+   "openingHours": "Mo-Fr 18:00-22:00; Sa,Su 12:00-15:00,18:00-22:00",
+   "source": "https://nonoresto.be/restaurant/yalla-yalla-gent/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Own website did not load.",
+   "checked": "2026-10-20"
+  },
+  "node/11049255678": {
+   "id": "osm-taste-of-india-n11049255678",
+   "name": "Taste of India",
+   "openingHours": "Mo,Tu,Th-Su 12:00-22:00; We off",
+   "source": "https://www.bedrijvenwijzer.be/bedrijf/taste-of-india-gent-indian-restaurant-indiase-restaurant-0rrnjl9w",
+   "confidence": "medium",
+   "note": "Directory listing; search text of the own reservation page agrees, but that page could not be fetched.",
+   "checked": "2026-10-20"
+  },
+  "node/11099366423": {
+   "id": "osm-de-raadkamer-n11099366423",
+   "name": "De Raadkamer",
+   "openingHours": "We-Sa 12:00-13:30,18:30-20:30; Su 12:00-13:30; Mo,Tu off",
+   "source": "https://www.de-raadkamer.be/",
+   "confidence": "high",
+   "note": "Closed Monday, Tuesday and Sunday evening.",
+   "checked": "2026-10-20"
+  },
+  "node/11146607054": {
+   "id": "osm-koeketiene-n11146607054",
+   "name": "Koeketiene",
+   "openingHours": "Th,Fr 09:00-15:00; Sa 09:00-18:00; Su 09:00-15:00; Mo-We off",
+   "source": "https://www.koeketienegent.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/11157734893": {
+   "id": "osm-edel-rot-n11157734893",
+   "name": "Edel Rot",
+   "openingHours": "Mo-Th 16:00-24:00; Fr,Sa 15:00-01:00; Su 15:00-23:00; PH off",
+   "source": "https://www.wijnbar-edelrot.be/",
+   "confidence": "high",
+   "note": "Kitchen until 22:00.",
+   "checked": "2026-10-20"
+  },
+  "node/11352130038": {
+   "id": "osm-tokyo-sushi-n11352130038",
+   "name": "Tokyo Sushi",
+   "openingHours": "Tu-Fr 12:00-14:30,17:30-21:30; Sa,Su 12:00-21:30; Mo off",
+   "source": "https://gent.tokyosushi.be/nl/Contact",
+   "confidence": "high",
+   "note": "Botermarkt 10. Site announces a holiday closure from Monday 19 to Wednesday 21 Oct 2026 (not encoded).",
+   "checked": "2026-10-20"
+  },
+  "node/11395904795": {
+   "id": "osm-le-gout-avant-tout-n11395904795",
+   "name": "Le Goût avant Tout",
+   "openingHours": "We-Sa 18:00-21:00; Su 12:00-13:30,18:00-20:00; Mo,Tu off",
+   "source": "https://www.legoutavanttout.be/",
+   "confidence": "high",
+   "note": "Kitchen hours. Other lunches only for groups of 10+ by reservation.",
+   "checked": "2026-10-20"
+  },
+  "node/11395904796": {
+   "id": "osm-le-homard-rouge-n11395904796",
+   "name": "Le Homard Rouge",
+   "openingHours": "Tu-Sa 18:30-22:00; Su,Mo off",
+   "source": "https://www.lehomardrouge.be",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/11476402371": {
+   "id": "osm-uzume-sushi-n11476402371",
+   "name": "Uzume Sushi",
+   "openingHours": "Tu-Su 14:30-22:45; Mo off",
+   "source": "https://overpoort.uzumesushi.be/Contact",
+   "confidence": "high",
+   "note": "Uzume Sushi Overpoort branch (own ordering site), Zwijnaardsesteenweg 45. Monday not listed, so treated as closed.",
+   "checked": "2026-10-20"
+  },
+  "node/11592985145": {
+   "id": "osm-sin-n11592985145",
+   "name": "Sin",
+   "openingHours": "Mo,Th-Su 18:30-22:30; Tu,We off",
+   "source": "https://www.restaurantsin.be/contact",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/11608541222": {
+   "id": "osm-full-circle-coffee-n11608541222",
+   "name": "Full Circle Coffee",
+   "openingHours": "Mo-Fr 07:00-18:00; Sa,Su 09:00-18:00",
+   "source": "https://www.fullcircleghent.com",
+   "confidence": "high",
+   "note": "Astrid branch (Kon. Astridlaan 218).",
+   "checked": "2026-10-20"
+  },
+  "node/1167829682": {
+   "id": "osm-thawan-thai-n1167829682",
+   "name": "Thawan Thai",
+   "openingHours": "We,Sa 17:00-22:00; Th,Fr,Su 11:30-14:00,17:00-22:00; Mo,Tu off",
+   "source": "http://www.thawanthai.be/index.php?Itemid=43&id=21&option=com_content&task=section",
+   "confidence": "high",
+   "note": "Take-away. Site says open on public holidays (with that weekday's hours) even on Mo/Tu; that is not encoded. Old-style site, but selfcity.be agrees.",
+   "checked": "2026-10-20"
+  },
+  "node/11697848804": {
+   "id": "osm-mimosa-n11697848804",
+   "name": "Mimosa",
+   "openingHours": "Mo,We-Fr,Su 09:00-16:00; Sa 09:00-18:00; Tu off",
+   "source": "https://nonoresto.be/restaurant/mimosa-2/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Mageleinstraat 7.",
+   "checked": "2026-10-20"
+  },
+  "node/1186301440": {
+   "id": "osm-pittoresk-n1186301440",
+   "name": "Pittoresk",
+   "openingHours": "Mo-Su 10:00-22:00",
+   "source": "https://nonoresto.be/restaurant/pittoresk/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Vrijdagmarkt 3; ours says Grootkanonplein, which is adjacent.",
+   "checked": "2026-10-20"
+  },
+  "node/1186301469": {
+   "id": "osm-cassis-n1186301469",
+   "name": "Cassis",
+   "openingHours": "Mo-Su 09:00-22:30",
+   "source": "https://visit.gent.be/nl/eten-drinken/cassis",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source). Visit Gent address is Vrijdagmarkt 5; ours says Meerseniersstraat, which is adjacent.",
+   "checked": "2026-10-20"
+  },
+  "node/1186342684": {
+   "id": "osm-veneris-n1186342684",
+   "name": "Veneris",
+   "openingHours": "We,Th,Su 12:00-22:00; Fr 11:00-24:00; Sa 12:00-24:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/veneris/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/1186342710": {
+   "id": "osm-savarin-n1186342710",
+   "name": "Savarin",
+   "openingHours": "Mo,Tu,Fr-Su 11:00-22:00; We,Th off",
+   "source": "https://visit.gent.be/nl/eten-drinken/savarin",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/1186945845": {
+   "id": "osm-brasserie-borluut-n1186945845",
+   "name": "Brasserie Borluut",
+   "openingHours": "Mo-Sa 08:00-23:00; Su off",
+   "source": "https://restaurantborluut.be/contact",
+   "confidence": "high",
+   "note": "Address is Korenmarkt 7. Also open on the first Sunday of each month; kitchen 11:00-22:00.",
+   "checked": "2026-10-20"
+  },
+  "node/1186961242": {
+   "id": "osm-carpentia-n1186961242",
+   "name": "Carpentia",
+   "openingHours": "We,Th 11:30-14:00,18:00-21:00; Fr 10:00-14:00,18:00-23:00; Sa 11:00-14:00,18:00-24:00; Su 10:00-14:00,18:00-21:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/carpentia/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Vrijdagmarkt 21.",
+   "checked": "2026-10-20"
+  },
+  "node/1187193552": {
+   "id": "osm-ode-brasserie-n1187193552",
+   "name": "Ode Brasserie",
+   "openingHours": "Tu-Su 11:30-14:30,17:00-21:00; Mo off",
+   "source": "https://brasserie-ode.be/contact/",
+   "confidence": "high",
+   "note": "Open on public holidays (per site).",
+   "checked": "2026-10-20"
+  },
+  "node/1187211188": {
+   "id": "osm-5th-gok-n1187211188",
+   "name": "5th Gök",
+   "openingHours": "We-Su 12:00-22:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/5th-gok/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Vrijdagmarkt 51.",
+   "checked": "2026-10-20"
+  },
+  "node/11897347047": {
+   "id": "osm-8tea5-n11897347047",
+   "name": "8tea5",
+   "openingHours": "Mo-Th 11:00-20:00; Fr,Sa 11:00-21:00; Su 12:00-19:00",
+   "source": "https://8tea5.com/locations/ghent-2/",
+   "confidence": "high",
+   "note": "Ghent 2 store page on the own site.",
+   "checked": "2026-10-20"
+  },
+  "node/12104551219": {
+   "id": "osm-pitta-alanya-n12104551219",
+   "name": "Pitta Alanya",
+   "openingHours": "Mo-Fr 11:00-01:00; Sa 12:00-24:00; Su off",
+   "source": "https://alanya07.be/",
+   "confidence": "high",
+   "note": "Trades as \"Pitta Alanya 07\", François Benardstraat 1. Delivery hours are shorter.",
+   "checked": "2026-10-20"
+  },
+  "node/1212139210": {
+   "id": "osm-mister-spaghetti-n1212139210",
+   "name": "Mister Spaghetti",
+   "openingHours": "Mo-Th 12:00-14:00,18:00-21:00; Fr-Su 11:30-14:00,18:00-21:30",
+   "source": "https://www.mister-spaghetti.com/gent/",
+   "confidence": "high",
+   "note": "Outside school holidays. During holidays it is daily 11:30-14:00 and 18:00-21:30.",
+   "checked": "2026-10-20"
+  },
+  "node/1212142778": {
+   "id": "osm-himalaya-n1212142778",
+   "name": "Himalaya",
+   "openingHours": "Mo-Fr 12:00-14:30,17:00-22:00; Sa 12:00-22:30; Su 12:00-22:00",
+   "source": "https://himalayarestaurant.be/",
+   "confidence": "high",
+   "note": "Site address is Oudburg 1.",
+   "checked": "2026-10-20"
+  },
+  "node/1212142878": {
+   "id": "osm-il-cortile-n1212142878",
+   "name": "Il Cortile",
+   "openingHours": "Tu-Su 12:00-22:00; Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/il-cortile",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/1212155509": {
+   "id": "osm-korenleitwee-n1212155509",
+   "name": "KorenleiTwee",
+   "openingHours": "Tu-Sa 12:00-14:00,18:00-21:00; Su,Mo off",
+   "source": "https://www.korenleitwee.be/vacatures",
+   "confidence": "high",
+   "note": "These are kitchen hours (restaurant). The front terrace café is open daily from 10:30 \"until closing\" (no closing time given).",
+   "checked": "2026-10-20"
+  },
+  "node/12128973417": {
+   "id": "osm-masala-accent-n12128973417",
+   "name": "Masala Accent",
+   "openingHours": "Mo,Tu,Th-Su 11:30-14:30,17:30-22:00; We off",
+   "source": "https://masalaaccent.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/12348834392": {
+   "id": "osm-take-in-n12348834392",
+   "name": "Take In",
+   "openingHours": "Mo-Su 11:00-23:00",
+   "source": "https://takein.be",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/12363199163": {
+   "id": "osm-janine-s-n12363199163",
+   "name": "Janine's",
+   "openingHours": "Mo-Fr 12:00-15:00,18:00-23:00; Sa 18:00-23:00; Su off",
+   "source": "https://janines.be/",
+   "confidence": "high",
+   "note": "Kitchen 12:00-14:00 and 18:00-21:00. Saturday is sharing dishes only.",
+   "checked": "2026-10-20"
+  },
+  "node/12367017828": {
+   "id": "osm-oh-ma-n12367017828",
+   "name": "Oh!Ma",
+   "openingHours": "Mo-Su 11:30-14:30,17:30-21:30",
+   "source": "https://www.oh-ma.eu/nl/openingsuren",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/12387000495": {
+   "id": "osm-coconne-n12387000495",
+   "name": "Coconne",
+   "openingHours": "Tu-Fr 08:30-17:00; Sa,Su 08:30-16:00; Mo off",
+   "source": "https://nonoresto.be/restaurant/coconne-gent/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/12391159028": {
+   "id": "osm-bobon-n12391159028",
+   "name": "Bobon",
+   "openingHours": "Mo-Su 11:30-18:00",
+   "source": "https://www.bobon.gent/",
+   "confidence": "medium",
+   "note": "Own site says every day, kitchen 11:30-17:30 and bar until 18:00. Visit Gent register says Monday closed and 11:30-17:00.",
+   "checked": "2026-10-20"
+  },
+  "node/12501221566": {
+   "id": "osm-leoni-cucina-contemporanea-n12501221566",
+   "name": "Leonì Cucina Contemporanea",
+   "openingHours": "Mo,Tu,Sa 17:00-21:30; Th,Fr,Su 12:00-14:30,17:00-21:30; We off",
+   "source": "https://www.leonicucina.be/",
+   "confidence": "high",
+   "note": "Visit Gent register differs slightly; own site used.",
+   "checked": "2026-10-20"
+  },
+  "node/12648351621": {
+   "id": "osm-ocakta-muhabbet-n12648351621",
+   "name": "Ocakta Muhabbet",
+   "openingHours": "Tu-Su 12:00-23:00; Mo off",
+   "source": "https://nonoresto.be/restaurant/ocakta-muhabbet/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/12660436404": {
+   "id": "osm-bicho-malo-n12660436404",
+   "name": "Bicho Malo",
+   "openingHours": "Tu-Sa 18:00-23:00; Mo,Su off",
+   "source": "https://nonoresto.be/restaurant/bicho-malo/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Own site shows no hours. Same hours on Foodeist and Google-derived listings.",
+   "checked": "2026-10-20"
+  },
+  "node/12702505074": {
+   "id": "osm-meat-district-n12702505074",
+   "name": "meat district",
+   "openingHours": "Mo-We 17:00-22:00; Th,Fr 11:30-22:00; Su 15:00-22:00; Sa off",
+   "source": "https://nonoresto.be/restaurant/meat-district/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Ottergemsesteenweg 1.",
+   "checked": "2026-10-20"
+  },
+  "node/12702545500": {
+   "id": "osm-cozette-n12702545500",
+   "name": "cozette",
+   "openingHours": "Mo-Sa 09:00-17:00; Su off",
+   "source": "https://cozette.gent/",
+   "confidence": "high",
+   "note": "Address is Hofbouwlaan 6.",
+   "checked": "2026-10-20"
+  },
+  "node/12703297599": {
+   "id": "osm-koffiebar-712-n12703297599",
+   "name": "Koffiebar 712",
+   "openingHours": "Tu-Su 09:00-18:00; Mo off",
+   "source": "https://www.hln.be/eten-en-drinken-gent/net-open-koffiebar-712-opent-in-de-serpentstraat-ik-wil-bijdragen-aan-een-positieve-sfeer-in-gent~a91cbad7/",
+   "confidence": "medium",
+   "note": "Hours from the HLN opening article (Serpentstraat 28); could be outdated.",
+   "checked": "2026-10-20"
+  },
+  "node/12712573951": {
+   "id": "osm-norma-n12712573951",
+   "name": "Norma",
+   "openingHours": "Mo-Fr 09:00-17:00; Sa 09:00-18:00; Su,PH 09:00-15:00",
+   "source": "https://www.normagent.com/",
+   "confidence": "high",
+   "note": "Shopping Sundays 09:00-18:00. Kitchen until 14:30.",
+   "checked": "2026-10-20"
+  },
+  "node/12738654204": {
+   "id": "osm-stroom-brewery-n12738654204",
+   "name": "Stroom Brewery",
+   "openingHours": "Fr,Sa 14:00-19:00",
+   "source": "https://stroombrouwers.be/visit-us/",
+   "confidence": "medium",
+   "note": "Taproom/shop hours from search-result text of the own \"Visit us\" page (page timed out when fetched directly). Open until 22:00 on the first Friday of each month (not encoded).",
+   "checked": "2026-10-20"
+  },
+  "node/12791117487": {
+   "id": "osm-lebes-n12791117487",
+   "name": "Lebes",
+   "openingHours": "We-Sa 18:00-01:00; Su 18:00-23:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/lebes/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Frans van Ryhovelaan 164.",
+   "checked": "2026-10-20"
+  },
+  "node/12823548056": {
+   "id": "osm-au-pain-marie-n12823548056",
+   "name": "Au Pain-Marie",
+   "openingHours": "Mo-Fr 09:00-16:00; Sa,Su off",
+   "source": "https://aupainmarie.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/12823556595": {
+   "id": "osm-little-happiness-n12823556595",
+   "name": "Little Happiness",
+   "openingHours": "Mo,Tu,Th-Su 15:00-24:00; We off",
+   "source": "https://nonoresto.be/restaurant/little-happiness/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/13038155968": {
+   "id": "osm-sultan-s-n13038155968",
+   "name": "Sultan's",
+   "openingHours": "Tu-Fr 16:30-21:30; Sa,Su 12:30-21:30; Mo off",
+   "source": "https://www.eet.nu/gent/sultan-s-restaurant",
+   "confidence": "medium",
+   "note": "Directory listings (eet.nu, hapsalons.be agree); own ordering site redirects to Takeaway.com.",
+   "checked": "2026-10-20"
+  },
+  "node/13184548545": {
+   "id": "osm-gonza-z-n13184548545",
+   "name": "Gonza'z",
+   "openingHours": "Tu-Th,Su 10:00-23:00; Fr,Sa 10:00-01:00; Mo off",
+   "source": "https://nonoresto.be/restaurant/gonzaz/",
+   "confidence": "medium",
+   "note": "Listing address is Donkersteeg 8.",
+   "checked": "2026-10-20"
+  },
+  "node/13273886628": {
+   "id": "osm-au-bon-vivant-n13273886628",
+   "name": "Au bon vivant",
+   "openingHours": "Sa,Su 10:30-18:30",
+   "source": "https://www.aubonvivant.be/",
+   "confidence": "medium",
+   "note": "Oyster bar on the Groentenmarkt that the site says is open \"every weekend\" 10:30-18:30. Closed during the Gentse Feesten.",
+   "checked": "2026-10-20"
+  },
+  "node/1349521463": {
+   "id": "osm-sorelle-n1349521463",
+   "name": "Sorelle",
+   "openingHours": "Tu-Sa 10:00-18:00; Mo,Su off",
+   "source": "https://nonoresto.be/restaurant/sorelle/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/13608226201": {
+   "id": "osm-den-johnny-n13608226201",
+   "name": "Den Johnny",
+   "openingHours": "We 17:00-01:00; Th 19:00-01:00; Fr 15:30-01:00; Sa 13:30-01:00; Su 13:30-23:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/den-johnny/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Own website is a parked page.",
+   "checked": "2026-10-20"
+  },
+  "node/13625580253": {
+   "id": "osm-brasserie-noordhof-n13625580253",
+   "name": "Brasserie Noordhof",
+   "openingHours": "We-Su 12:00-14:00,18:00-21:00; Mo,Tu off",
+   "source": "https://www.brasserienoordhofdrongen.be/",
+   "confidence": "medium",
+   "note": "Kitchen hours. The site gives the evening kitchen close as 21:00 on one page and 20:45 on another.",
+   "checked": "2026-10-20"
+  },
+  "node/13898213727": {
+   "id": "osm-still-n13898213727",
+   "name": "STILL.",
+   "openingHours": "Mo-Th 09:00-16:30; Fr,Sa 09:00-19:00; Su 09:00-15:30",
+   "source": "https://exa.ai/library/place/dz4rkqqr7fk",
+   "confidence": "medium",
+   "note": "Google-derived place listing (Ajuinlei 27); the HLN opening article is consistent with it.",
+   "checked": "2026-10-20"
+  },
+  "node/13904090843": {
+   "id": "osm-copain-n13904090843",
+   "name": "CoPain",
+   "openingHours": "Mo-We,Fr,Sa 08:00-18:00; Th 08:30-13:00; Su 08:00-11:00",
+   "source": "https://www.copain.gent/",
+   "confidence": "high",
+   "note": "Bakery at F. Lousbergskaai 33.",
+   "checked": "2026-10-20"
+  },
+  "node/13957813953": {
+   "id": "osm-minty-plus-n13957813953",
+   "name": "Minty Plus",
+   "openingHours": "Mo,We,Th,Su 09:00-22:00; Fr,Sa 09:00-23:00; Tu off",
+   "source": "https://mintyplus.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/14072558901": {
+   "id": "osm-t-felt-n14072558901",
+   "name": "‘t Felt",
+   "openingHours": "Tu-Sa 11:00-18:30; Su,Mo off",
+   "source": "https://www.hln.be/gent/tina-51-sloot-restaurant-lepelblad-na-25-jaar-maar-opent-nu-t-felt-in-gent-onze-populairste-gerechten-zitten-nu-op-een-broodje~aa203009/",
+   "confidence": "medium",
+   "note": "Hours from the HLN opening article; own site shows no hours. Monday not mentioned, so treated as closed.",
+   "checked": "2026-10-20"
+  },
+  "node/14230351176": {
+   "id": "osm-bloom-table-n14230351176",
+   "name": "Bloom & Table",
+   "openingHours": "Tu-Su 12:00-22:00; Mo off",
+   "source": "https://www.bloomtable.be/",
+   "confidence": "high",
+   "note": "Site address is Leeuwstraat 57A.",
+   "checked": "2026-10-20"
+  },
+  "node/1425064288": {
+   "id": "osm-la-salita-n1425064288",
+   "name": "La Salita",
+   "openingHours": "Tu-Fr 12:00-14:00,18:00-21:30; Sa,Su 18:00-21:30; Mo off",
+   "source": "https://la-salita.webador.it/info-contact",
+   "confidence": "high",
+   "note": "Sint-Kwintensberg 29.",
+   "checked": "2026-10-20"
+  },
+  "node/1462321981": {
+   "id": "osm-bocca-n1462321981",
+   "name": "Bocca",
+   "openingHours": "Mo-Fr 11:30-22:00; Sa,Su 17:00-22:00",
+   "source": "https://nonoresto.be/restaurant/bocca-2/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Citadellaan 4 branch (own site bocca.be lists this branch).",
+   "checked": "2026-10-20"
+  },
+  "node/1532794995": {
+   "id": "osm-de-kuip-van-gent-n1532794995",
+   "name": "De kuip van Gent",
+   "openingHours": "Mo,We-Sa 10:00-23:30; Su 10:00-22:30; Tu off",
+   "source": "https://nonoresto.be/restaurant/de-kuip-van-gent/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Korenmarkt 32.",
+   "checked": "2026-10-20"
+  },
+  "node/1532795040": {
+   "id": "osm-fait-divers-n1532795040",
+   "name": "Fait Divers",
+   "openingHours": "Mo-Su 11:00-23:00",
+   "source": "https://www.brasseriefaitsdivers.be/nl/contact",
+   "confidence": "high",
+   "note": "Own name \"Faits Divers\", Korenmarkt 31.",
+   "checked": "2026-10-20"
+  },
+  "node/1532798351": {
+   "id": "osm-godot-n1532798351",
+   "name": "Godot",
+   "openingHours": "Mo-Su 12:00-23:00",
+   "source": "https://www.godotgent.be/",
+   "confidence": "high",
+   "note": "Kitchen hours, open 7 days. Visit Gent register says 11:00-23:00.",
+   "checked": "2026-10-20"
+  },
+  "node/1616705129": {
+   "id": "osm-maison-elza-n1616705129",
+   "name": "Maison Elza",
+   "openingHours": "Th,Fr 18:00-21:30; Sa 09:00-16:00,18:00-21:30; Su 09:00-17:00; Mo-We off",
+   "source": "https://www.maisonelza.be/",
+   "confidence": "high",
+   "note": "Site gives dinner close as \"...\", so 21:30 is the end of dinner service. Visit Gent register differs on Monday; own site used.",
+   "checked": "2026-10-20"
+  },
+  "node/1616705175": {
+   "id": "osm-pampas-n1616705175",
+   "name": "Pampas",
+   "openingHours": "Mo-Th 18:00-22:00; Fr 18:00-23:00; Sa 17:30-23:00; Su 12:00-14:30,17:30-21:00",
+   "source": "https://www.pampas.be/",
+   "confidence": "high",
+   "note": "Ghent block of a multi-branch site.",
+   "checked": "2026-10-20"
+  },
+  "node/1628067350": {
+   "id": "osm-la-cave-n1628067350",
+   "name": "La Cave",
+   "openingHours": "Tu-Su 12:00-15:00,18:00-22:00; Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/la-cave",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/1628067381": {
+   "id": "osm-twilight-sushi-n1628067381",
+   "name": "Twilight Sushi",
+   "openingHours": "Mo-Su 12:00-22:00",
+   "source": "https://www.twilightsushi.com/contact",
+   "confidence": "high",
+   "note": "Korenmarkt 36. A Google-derived listing gives an 11:30 opening; the own site is used.",
+   "checked": "2026-10-20"
+  },
+  "node/1804185553": {
+   "id": "osm-asian-king-n1804185553",
+   "name": "Asian King",
+   "openingHours": "Mo,We-Su,PH 12:00-14:30,17:00-22:00; Tu off",
+   "source": "https://asianking.be",
+   "confidence": "high",
+   "note": "Tuesday not listed on site, so treated as closed.",
+   "checked": "2026-10-20"
+  },
+  "node/1914075890": {
+   "id": "osm-indian-masala-n1914075890",
+   "name": "Indian Masala",
+   "openingHours": "Mo-Su 12:00-14:00,17:30-22:00",
+   "source": "https://www.indianmasala.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/2275104992": {
+   "id": "osm-le-petit-grill-n2275104992",
+   "name": "Le petit Grill",
+   "openingHours": "Mo-Fr 12:00-14:00,18:00-22:30; Sa,Su off",
+   "source": "https://www.openingsurengids.be/le-petit-grill/gent/1",
+   "confidence": "medium",
+   "note": "Directory listing; Google-derived exa.ai place page agrees.",
+   "checked": "2026-10-20"
+  },
+  "node/2439607489": {
+   "id": "osm-ette-ibibio-n2439607489",
+   "name": "Ette Ibibio",
+   "openingHours": "Tu-Su 18:00-22:00; Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/ette-ibibio",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/2555276332": {
+   "id": "osm-la-malcontenta-n2555276332",
+   "name": "La Malcontenta",
+   "openingHours": "Mo-Sa 17:30-22:30; Su off",
+   "source": "https://www.lamalcontenta.be/",
+   "confidence": "medium",
+   "note": "Own site gives \"from 17:30\" only. The 22:30 closing comes from the Visit Gent register.",
+   "checked": "2026-10-20"
+  },
+  "node/2617862001": {
+   "id": "osm-de-witte-leeuw-n2617862001",
+   "name": "De Witte Leeuw",
+   "openingHours": "Mo-Su 11:00-23:30",
+   "source": "https://www.dewitteleeuwgent.be/",
+   "confidence": "high",
+   "note": "Visit Gent register says 11:00-23:00 daily.",
+   "checked": "2026-10-20"
+  },
+  "node/2620549988": {
+   "id": "osm-allegro-moderato-n2620549988",
+   "name": "Allegro Moderato",
+   "openingHours": "Tu-Sa 12:00-14:00,18:30-21:00; Su,Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/allegro-moderato",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/3185163629": {
+   "id": "osm-jan-van-den-bon-n3185163629",
+   "name": "Jan Van den Bon",
+   "openingHours": "Tu-Fr 12:00-14:00,19:00-22:00; Sa 19:00-22:00; Su,Mo,PH off",
+   "source": "https://visit.gent.be/nl/eten-drinken/jan-van-den-bon",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source). Own site confirms weekly closing on Saturday lunch, Sunday, Monday and public holidays.",
+   "checked": "2026-10-20"
+  },
+  "node/3336720192": {
+   "id": "osm-cafe-rene-n3336720192",
+   "name": "Café René",
+   "openingHours": "Tu-Fr 11:00-22:30; Sa 10:00-22:30; Su,Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-rene",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/3392860014": {
+   "id": "osm-lucy-chang-n3392860014",
+   "name": "Lucy Chang",
+   "openingHours": "Mo-Th 12:00-21:30; Fr-Su 12:00-22:00",
+   "source": "https://nonoresto.be/restaurant/lucy-chang-gent/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Own website did not load.",
+   "checked": "2026-10-20"
+  },
+  "node/3394070669": {
+   "id": "osm-t-klokhuys-n3394070669",
+   "name": "'t Klokhuys",
+   "openingHours": "Tu-Th 18:00-22:00; Fr,Sa 12:00-14:00,18:00-22:00; Su 12:00-14:00,17:30-22:00; Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/t-klokhuys",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/3394539390": {
+   "id": "osm-borsalino-san-marino-n3394539390",
+   "name": "Borsalino San Marino",
+   "openingHours": "We 12:00-14:00,18:00-22:00; Th 12:00-14:30,18:00-22:00; Fr 12:00-14:15,18:00-22:30; Sa 12:00-14:30,18:00-22:30; Su 12:00-14:30,18:00-22:00; Mo,Tu off",
+   "source": "https://selfcity.be/restaurant/gent/borsalino-san-marino/",
+   "confidence": "medium",
+   "note": "Only an aggregator listing; own site returned an error.",
+   "checked": "2026-10-20"
+  },
+  "node/3394542495": {
+   "id": "osm-basta-n3394542495",
+   "name": "Basta",
+   "openingHours": "Mo-Fr 12:00-14:30,17:00-22:00; Sa,Su 12:00-22:00",
+   "source": "https://bastaresto.com/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/3483670405": {
+   "id": "osm-laila-n3483670405",
+   "name": "Laila",
+   "openingHours": "Mo,Tu,Th-Su 12:00-14:30,18:00-23:00; We off",
+   "source": "https://www.lailarestaurant.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/3511035004": {
+   "id": "osm-eethuis-toreke-n3511035004",
+   "name": "Eethuis Toreke",
+   "openingHours": "Mo,Tu,Th 10:00-16:00; We 08:30-16:00; Fr 10:00-23:00; Sa,Su off",
+   "source": "https://torekevzw.be/eten-drinken/",
+   "confidence": "high",
+   "note": "Social restaurant, Vlotstraat 22.",
+   "checked": "2026-10-20"
+  },
+  "node/3842499429": {
+   "id": "osm-in-bocca-lupo-n3842499429",
+   "name": "In Bocca 'Lupo",
+   "openingHours": "We,Th,Sa 18:00-23:00; Fr 12:00-15:00,18:00-23:00; Mo,Tu,Su,PH off",
+   "source": "https://www.inboccalupo.be/",
+   "confidence": "high",
+   "note": "Kitchen Fri 12:00-14:00 and We-Sa 18:00-21:30; closing times are approximate (the site says \"around 15:00-15:30\" and \"around 23:00\").",
+   "checked": "2026-10-20"
+  },
+  "node/3842784242": {
+   "id": "osm-toi-et-moi-n3842784242",
+   "name": "Toi et Moi",
+   "openingHours": "Mo,Fr,Sa 18:00-21:00; Su 12:00-14:00,18:30-21:00; Tu-Th off",
+   "source": "https://www.restotoietmoi.be/",
+   "confidence": "high",
+   "note": "Visit Gent register also lists Thursday; own site used.",
+   "checked": "2026-10-20"
+  },
+  "node/3874321406": {
+   "id": "osm-indian-curry-house-n3874321406",
+   "name": "Indian Curry House",
+   "openingHours": "Tu-Th,Su 12:00-14:30,17:30-22:30; Fr,Sa 12:00-14:30,17:30-23:00; Mo off",
+   "source": "https://www.indiancurryhouse.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/3967083754": {
+   "id": "osm-t-smulderke-n3967083754",
+   "name": "'t Smulderke",
+   "openingHours": "Tu-Fr 17:00-22:00; Sa 17:00-23:00; Su 11:30-22:00; Mo off",
+   "source": "http://restosmulderke.be/",
+   "confidence": "high",
+   "note": "Frederik Burvenichstraat 133, Gentbrugge. Monday closed except on public holidays.",
+   "checked": "2026-10-20"
+  },
+  "node/4421648390": {
+   "id": "osm-karreaux-n4421648390",
+   "name": "Karreaux",
+   "openingHours": "Mo,Th,Fr,Sa 19:00-24:00; Tu,We,Su off",
+   "source": "https://www.karreaux.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/4456452819": {
+   "id": "osm-rokkebolle-n4456452819",
+   "name": "Rokkebolle",
+   "openingHours": "Tu 16:00-23:30; We,Th 14:00-23:30; Fr 12:00-23:30; Sa 10:00-16:00; Su 10:00-14:00; Mo off",
+   "source": "https://www.rokkebolle.be/",
+   "confidence": "high",
+   "note": "Saturday evening is private events only.",
+   "checked": "2026-10-20"
+  },
+  "node/4488600996": {
+   "id": "osm-buongiorno-n4488600996",
+   "name": "Buongiorno",
+   "openingHours": "Mo-Fr 09:00-18:00; Sa 10:00-18:00; Su 10:00-16:00",
+   "source": "https://www.bottin.be/nl/lokale-bestand/jighgcfghiechgfdceh--buongiorno--gent.htm",
+   "confidence": "medium",
+   "note": "Directory listings only (bottin.be, selfcity.be agree).",
+   "checked": "2026-10-20"
+  },
+  "node/4716568192": {
+   "id": "osm-o-learys-n4716568192",
+   "name": "O'Learys",
+   "openingHours": "Mo,Tu,Th 16:00-24:00; We 14:00-24:00; Fr 16:00-02:00; Sa 12:00-02:00; Su 12:00-24:00",
+   "source": "https://olearys.com/nl-be/gent/",
+   "confidence": "medium",
+   "note": "Hours from search-result text of the own site; the page itself is behind a bot check, so it could not be fetched directly. Kitchen has separate hours; holidays open from 14:00.",
+   "checked": "2026-10-20"
+  },
+  "node/4718292171": {
+   "id": "osm-babu-n4718292171",
+   "name": "Babú",
+   "openingHours": "Mo-Fr 11:45-14:30,17:30-21:00; Sa,Su 11:45-21:00",
+   "source": "https://nonoresto.be/restaurant/babu/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/4863374603": {
+   "id": "osm-woest-n4863374603",
+   "name": "Woest",
+   "openingHours": "Tu,We 11:30-15:00; Th,Fr 11:30-23:00; Sa 09:00-23:00; Su 09:00-15:00; Mo off",
+   "source": "https://www.woestgent.be/",
+   "confidence": "high",
+   "note": "Site address is Drongensesteenweg 41.",
+   "checked": "2026-10-20"
+  },
+  "node/4893318698": {
+   "id": "osm-surtoe-n4893318698",
+   "name": "Surtoe",
+   "openingHours": "Fr-Mo 12:00-14:00,18:00-21:00; Tu-Th off",
+   "source": "https://www.restaurantsurtoe.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/4907557926": {
+   "id": "osm-pagos-n4907557926",
+   "name": "Pagos",
+   "openingHours": "Tu-Sa 09:00-19:00; Su,Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/pagos",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/499978423": {
+   "id": "osm-tampopo-n499978423",
+   "name": "Tampopo",
+   "openingHours": "Tu-Sa 12:00-14:00,18:30-21:00; Su,Mo off",
+   "source": "http://www.tampopo.be/",
+   "confidence": "high",
+   "note": "Steenaardestraat 40, Sint-Denijs-Westrem.",
+   "checked": "2026-10-20"
+  },
+  "node/5249092192": {
+   "id": "osm-edgar-kaasbar-n5249092192",
+   "name": "Edgar Kaasbar",
+   "openingHours": "Tu-Sa 18:00-23:00; Su,Mo off",
+   "source": "https://www.edgarkaasbar.be/",
+   "confidence": "high",
+   "note": "Matches the Visit Gent register.",
+   "checked": "2026-10-20"
+  },
+  "node/5276097616": {
+   "id": "osm-midtown-grill-n5276097616",
+   "name": "Midtown Grill",
+   "openingHours": "Tu-Fr 07:00-10:30,18:00-22:00; Sa 07:00-11:00,18:00-22:00; Su,Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/midtown-grill",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source). Visit Gent listing is \"Marriott Ghent Restaurant\" at the same address; includes breakfast service.",
+   "checked": "2026-10-20"
+  },
+  "node/5395453707": {
+   "id": "osm-flynn-s-n5395453707",
+   "name": "Flynn's",
+   "openingHours": "Tu-Fr 12:00-14:00,18:30-22:00; Sa 18:30-22:00; Su,Mo,PH off",
+   "source": "https://www.flynns.be/",
+   "confidence": "high",
+   "note": "Site mentions inaugurating a new space on 8 Nov 2026, so check the address.",
+   "checked": "2026-10-20"
+  },
+  "node/5524955122": {
+   "id": "osm-pantheon-n5524955122",
+   "name": "Pantheon",
+   "openingHours": "We-Su 12:00-14:30,18:00-23:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/pantheon/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/5567192748": {
+   "id": "osm-the-wokbar-n5567192748",
+   "name": "The Wokbar",
+   "openingHours": "Mo,Th-Su 12:00-14:30,17:00-22:00; We 17:00-22:00; Tu off",
+   "source": "https://nonoresto.be/restaurant/the-wokbar/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/5610774621": {
+   "id": "osm-clouds-in-my-coffee-n5610774621",
+   "name": "Clouds in my coffee",
+   "openingHours": "Mo,We-Fr 08:30-18:00; Sa,Su 09:00-18:00; Tu off",
+   "source": "https://nonoresto.be/restaurant/clouds-in-my-coffee/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/566313995": {
+   "id": "osm-de-loge-n566313995",
+   "name": "De Loge",
+   "openingHours": "Mo-Fr 15:00-01:00; Sa,Su 12:00-01:00",
+   "source": "https://deloge.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/5734799246": {
+   "id": "osm-domestica-n5734799246",
+   "name": "Domestica",
+   "openingHours": "Mo,Sa 18:30-22:00; Tu-Fr 12:00-14:00,18:30-22:00; Su off",
+   "source": "https://visit.gent.be/nl/eten-drinken/domestica",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/5822374282": {
+   "id": "osm-bodega-n5822374282",
+   "name": "Bodega",
+   "openingHours": "Mo-Th 08:30-15:00; Fr 08:30-22:00; Sa 09:00-15:00; Su 09:00-14:00",
+   "source": "https://www.bodega.gent/kopie-van-events",
+   "confidence": "high",
+   "note": "Own site info page; kitchen closes earlier.",
+   "checked": "2026-10-20"
+  },
+  "node/5825400253": {
+   "id": "osm-aywa-n5825400253",
+   "name": "Aywa",
+   "openingHours": "Tu-Th 17:00-22:00; Fr,Sa 12:00-14:00,17:00-22:00; Mo,Su off",
+   "source": "https://nonoresto.be/restaurant/aywa/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Listing address is Lammerstraat 12, not Parijsberg. The Visit Gent register gives the same hours at Lammerstraat 12.",
+   "checked": "2026-10-20"
+  },
+  "node/5894300885": {
+   "id": "osm-fratelli-ditalia-da-pino-n5894300885",
+   "name": "Fratelli d’Italia Da Pino",
+   "openingHours": "Tu-Sa 12:00-14:30,18:00-22:30; Su,Mo off",
+   "source": "https://www.openingsuren.vlaanderen/da-pino/9000-gent/kouterdreef-1",
+   "confidence": "medium",
+   "note": "Directory listing (Kouterdreef 1); uw-adres.be and yozo.be agree.",
+   "checked": "2026-10-20"
+  },
+  "node/5918300538": {
+   "id": "osm-luv-l-oeuf-n5918300538",
+   "name": "Luv l'oeuf",
+   "openingHours": "Tu-Su 09:00-15:00; Mo off",
+   "source": "https://luvloeuf.com/contact",
+   "confidence": "high",
+   "note": "Visible text says Tu-Su 9-15; the site JSON-LD gives Saturday until 16:00.",
+   "checked": "2026-10-20"
+  },
+  "node/602681361": {
+   "id": "osm-du-progres-n602681361",
+   "name": "Du Progrès",
+   "openingHours": "Tu-Sa 11:00-22:00; Su,Mo off",
+   "source": "https://visit.gent.be/nl/eten-drinken/du-progres",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/6133546281": {
+   "id": "osm-bocca-n6133546281",
+   "name": "Bocca",
+   "openingHours": "Mo-Sa 11:30-22:00; Su off",
+   "source": "https://visit.gent.be/nl/eten-drinken/bocca",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source). Recollettenlei 2 branch.",
+   "checked": "2026-10-20"
+  },
+  "node/6138202016": {
+   "id": "osm-krua-panya-n6138202016",
+   "name": "Krua Panya",
+   "openingHours": "Tu-Fr 11:30-14:30,17:30-22:30; Sa 17:30-22:30; Su,Mo off",
+   "source": "https://pontima.eu/",
+   "confidence": "high",
+   "note": "Website is pontima.eu at the same address (Vlaanderenstraat 105). Name may have changed.",
+   "checked": "2026-10-20"
+  },
+  "node/6138202032": {
+   "id": "osm-sushi-plaza-n6138202032",
+   "name": "Sushi Plaza",
+   "openingHours": "Mo-Su 12:00-14:30,17:00-22:00",
+   "source": "https://www.sushiplaza.be/",
+   "confidence": "medium",
+   "note": "Site says \"Open: every day\" next to takeaway times 12:00-14:30 and 17:00-22:00, so restaurant hours are inferred from takeaway hours.",
+   "checked": "2026-10-20"
+  },
+  "node/6174754586": {
+   "id": "osm-ming-s-garden-n6174754586",
+   "name": "Ming's Garden",
+   "openingHours": "Tu-Fr,Su 12:00-14:00,18:00-21:30; Sa 12:00-14:00,18:00-21:00; Mo off",
+   "source": "https://intravel.net/ghent/restaurants-cafes/mings-garden",
+   "confidence": "medium",
+   "note": "Directory listings (wokpoint.be, intravel.net, annuaire-horaire.be agree).",
+   "checked": "2026-10-20"
+  },
+  "node/6779344616": {
+   "id": "osm-kingslize-n6779344616",
+   "name": "Kingslize",
+   "openingHours": "Mo 11:00-13:30,16:00-22:00; Tu-Th,Sa,Su 11:00-13:30,17:00-22:00; Fr 11:00-22:00",
+   "source": "https://www.kingslizepizza.be/nl/pizza-bestellen/gent",
+   "confidence": "high",
+   "note": "Delivery/takeaway pizza; hours from the Gent branch page (Uber Eats shows slightly different times).",
+   "checked": "2026-10-20"
+  },
+  "node/6789941787": {
+   "id": "osm-augustijntje-n6789941787",
+   "name": "Augustijntje",
+   "openingHours": "Fr,Su 11:30-14:00,18:00-21:30; Sa 18:00-21:30; Mo-Th off",
+   "source": "https://nonoresto.be/restaurant/augustijntje/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/6825290292": {
+   "id": "osm-de-sneppe-n6825290292",
+   "name": "De Sneppe",
+   "openingHours": "We-Sa 12:00-14:00,18:00-21:00; Su 12:00-14:30,18:00-21:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/de-sneppe/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/6828901282": {
+   "id": "osm-stek-n6828901282",
+   "name": "Stek",
+   "openingHours": "Mo-Sa 09:00-16:00; Su off",
+   "source": "https://stekgent.be",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/6828974432": {
+   "id": "osm-komparto-n6828974432",
+   "name": "Komparto",
+   "openingHours": "Mo 18:00-23:30; Tu-Fr 12:00-16:00,18:00-23:30; Sa,Su off",
+   "source": "https://nonoresto.be/restaurant/komparto/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/6853683393": {
+   "id": "osm-muday-n6853683393",
+   "name": "Muday",
+   "openingHours": "Tu-Fr 18:00-22:00; Sa 17:00-22:00; Su 17:00-21:00; Mo off",
+   "source": "https://muday.be/nl/",
+   "confidence": "high",
+   "note": "Monday not listed, so treated as closed.",
+   "checked": "2026-10-20"
+  },
+  "node/6920767887": {
+   "id": "osm-taco-santo-n6920767887",
+   "name": "Taco Santo",
+   "openingHours": "Tu-Th 17:30-22:00; Fr 12:00-15:00,17:30-22:00; Sa 12:00-22:00; Su,Mo off; PH off",
+   "source": "https://www.tacosanto.be/",
+   "confidence": "high",
+   "note": "Taco Santo Uno, Gebroeders Vandeveldestraat 3. Kitchen closes 21:30; closed on public holidays.",
+   "checked": "2026-10-20"
+  },
+  "node/6942691396": {
+   "id": "osm-de-casserolle-n6942691396",
+   "name": "De Casserolle",
+   "openingHours": "Mo-Fr 12:00-15:00; Sa,Su off",
+   "source": "https://nonoresto.be/restaurant/de-casserolle/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/6983077035": {
+   "id": "osm-kulba-kabul-n6983077035",
+   "name": "Kulba Kabul",
+   "openingHours": "Tu-Sa 11:30-23:00; Su 11:30-22:00; Mo off",
+   "source": "https://nonoresto.be/restaurant/restaurant-kulba-kabul-gent/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data; bottin.be and selfcity.be agree. Address Wondelgemstraat 11.",
+   "checked": "2026-10-20"
+  },
+  "node/7012018353": {
+   "id": "osm-asian-corner-n7012018353",
+   "name": "Asian Corner",
+   "openingHours": "Tu-Su 11:00-21:30; Mo off",
+   "source": "https://nonoresto.be/restaurant/asian-corner/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/7036891924": {
+   "id": "osm-wurst-n7036891924",
+   "name": "Würst",
+   "openingHours": "Tu-Su 11:00-22:00; Mo off",
+   "source": "https://www.wurstdogs.be/",
+   "confidence": "high",
+   "note": "Monday not mentioned, so treated as closed.",
+   "checked": "2026-10-20"
+  },
+  "node/7060940342": {
+   "id": "osm-spazio24-n7060940342",
+   "name": "Spazio24",
+   "openingHours": "Mo,Tu,Th,Fr 09:30-16:30; We,Sa,Su off",
+   "source": "https://visit.gent.be/nl/eten-drinken/spazio24",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/7079394606": {
+   "id": "osm-illyrian-n7079394606",
+   "name": "Illyrian",
+   "openingHours": "Th,Fr 18:00-22:00; Sa 18:00-23:00; Mo-We,Su off",
+   "source": "https://www.illyrian.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "node/7085959385": {
+   "id": "osm-open-wok-n7085959385",
+   "name": "Open Wok",
+   "openingHours": "Mo,Tu,Th 11:30-13:30,17:30-21:00; Fr 11:30-13:30,17:30-22:00; Sa 17:00-22:00; Su 17:00-21:00; We off",
+   "source": "https://openwok.be/",
+   "confidence": "high",
+   "note": "Address is Schoolstraat 6, 9040 Sint-Amandsberg.",
+   "checked": "2026-10-20"
+  },
+  "node/7158632586": {
+   "id": "osm-per-bacco-n7158632586",
+   "name": "Per Bacco",
+   "openingHours": "Th-Su 12:00-14:00,18:00-22:00; Mo-We off",
+   "source": "https://www.perbacco.be/",
+   "confidence": "high",
+   "note": "Own site says Thursday to Sunday; eet.nu claims Tuesday/Wednesday lunch too, but the own site wins.",
+   "checked": "2026-10-20"
+  },
+  "node/7158635685": {
+   "id": "osm-carlos-quinto-n7158635685",
+   "name": "Carlos Quinto",
+   "openingHours": "We-Sa 12:00-24:00; Su 12:00-17:00; Mo,Tu off",
+   "source": "https://visit.gent.be/nl/eten-drinken/carlos-quinto",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source). Visit Gent address is Kammerstraat 20.",
+   "checked": "2026-10-20"
+  },
+  "node/7878949226": {
+   "id": "osm-astro-boy-n7878949226",
+   "name": "Astro Boy",
+   "openingHours": "Tu-Th 18:00-21:30; Fr,Sa 18:00-22:00; Su,Mo off",
+   "source": "https://www.astroboy.be/",
+   "confidence": "high",
+   "note": "Address on site is Kongostraat 2. One page says Tu-Sa 18:00-22:00, but the Visit Gent register matches the detailed version used here.",
+   "checked": "2026-10-20"
+  },
+  "node/8393159527": {
+   "id": "osm-kleindok-n8393159527",
+   "name": "Kleindok",
+   "openingHours": "Mo,We-Fr 09:00-17:00; Tu 09:00-16:00; Sa,Su off",
+   "source": "https://nonoresto.be/restaurant/kleindok/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/8911924546": {
+   "id": "osm-aperto-chiuso-n8911924546",
+   "name": "Aperto Chiuso",
+   "openingHours": "Mo,Tu,Th,Fr,Sa 18:00-22:30; We,Su,PH off",
+   "source": "https://apertochiuso.be/",
+   "confidence": "high",
+   "note": "Visit Gent register lists 18:00-22:00; own site used.",
+   "checked": "2026-10-20"
+  },
+  "node/8941921521": {
+   "id": "osm-martino-n8941921521",
+   "name": "Martino",
+   "openingHours": "We-Su 18:00-23:00; Mo,Tu off",
+   "source": "https://visit.gent.be/nl/eten-drinken/martino",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/8944368818": {
+   "id": "osm-istanbul-n8944368818",
+   "name": "Istanbul",
+   "openingHours": "Mo,Tu,Th-Su 12:00-22:00; We off",
+   "source": "https://www.cylex-belgie.be/bedrijf/istanbul-12913353.html",
+   "confidence": "medium",
+   "note": "Directory listings (cylex, nearfinder, menukaart.menu agree).",
+   "checked": "2026-10-20"
+  },
+  "node/8957993745": {
+   "id": "osm-souplicious-n8957993745",
+   "name": "Souplicious",
+   "openingHours": "Mo-Th 07:30-15:00; Fr 07:30-14:00; Sa,Su off",
+   "source": "https://souplicious.be",
+   "confidence": "high",
+   "note": "Opens 08:30 during school holidays. The site JSON-LD says 09:00-17:00 daily (template value), so the visible text was used.",
+   "checked": "2026-10-20"
+  },
+  "node/9230408432": {
+   "id": "osm-halab-al-shahbae-n9230408432",
+   "name": "Halab Al-shahbae",
+   "openingHours": "Mo,Th,Su 17:00-05:00; Tu 15:00-05:00; Fr,Sa 15:00-06:00; We off",
+   "source": "https://www.halabal-shahbae.be/nl/eetgelegenheid",
+   "confidence": "high",
+   "note": "Wednesday not listed, so treated as closed.",
+   "checked": "2026-10-20"
+  },
+  "node/9248442976": {
+   "id": "osm-bar-terroir-n9248442976",
+   "name": "Bar Terroir",
+   "openingHours": "Mo,We 11:30-20:00; Th,Fr 11:30-23:00; Sa 11:00-23:00; Su 11:00-21:00; Tu off",
+   "source": "https://visit.gent.be/nl/eten-drinken/bar-terroir",
+   "confidence": "medium",
+   "note": "Visit Gent / City of Ghent opening-hours register (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "node/9741063269": {
+   "id": "osm-fewa-restaurant-bar-n9741063269",
+   "name": "Fewa restaurant & bar",
+   "openingHours": "Mo-We,Fr-Su 11:00-22:00; Th off",
+   "source": "https://fewarestaurant.be/",
+   "confidence": "high",
+   "note": "Bar 11:00-22:00; kitchen 11:00-14:30 and 17:30-22:00.",
+   "checked": "2026-10-20"
+  },
+  "node/9741063665": {
+   "id": "osm-bistro-baziel-n9741063665",
+   "name": "Bistro Baziel",
+   "openingHours": "Mo-Su 09:00-24:00",
+   "source": "https://www.bistrobaziel.be/",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "way/102713996": {
+   "id": "osm-jaggers-w102713996",
+   "name": "Jaggers",
+   "openingHours": "Mo,Sa,Su 09:00-21:00; Tu,Th 09:00-17:00; Fr 07:00-21:00; We off",
+   "source": "https://jaggers.gent",
+   "confidence": "high",
+   "note": "Kitchen hours.",
+   "checked": "2026-10-20"
+  },
+  "way/107725021": {
+   "id": "osm-pakhuis-w107725021",
+   "name": "Pakhuis",
+   "openingHours": "Mo-Th 11:30-23:00; Fr,Sa 11:30-24:00; Su,PH off",
+   "source": "https://www.pakhuis.be/",
+   "confidence": "high",
+   "note": "Bar and terrace hours. Restaurant is Mo-Th 12:00-14:15 and 18:30-22:30, Fr-Sa until 23:00.",
+   "checked": "2026-10-20"
+  },
+  "way/126373297": {
+   "id": "osm-golflounge-w126373297",
+   "name": "Golflounge",
+   "openingHours": "Tu-Sa 10:00-21:00; Su 10:00-18:00; Mo off",
+   "source": "https://nonoresto.be/restaurant/golflounge/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source). Own website did not load.",
+   "checked": "2026-10-20"
+  },
+  "way/237595802": {
+   "id": "osm-zwartwit-w237595802",
+   "name": "ZwartWit",
+   "openingHours": "Mo-Fr 11:30-15:00; Sa,Su off",
+   "source": "https://nonoresto.be/restaurant/zwartwit/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "way/252396612": {
+   "id": "osm-da-luigi-w252396612",
+   "name": "Da Luigi",
+   "openingHours": "Tu-Sa 09:30-19:00; Su,Mo off",
+   "source": "https://www.openingsuren.vlaanderen/da-luigi/9000-gent/lammerstraat-5",
+   "confidence": "medium",
+   "note": "Directory listings (bedrijvenwijzer.be, webhero.be agree); listed as an Italian deli/shop.",
+   "checked": "2026-10-20"
+  },
+  "way/316401895": {
+   "id": "osm-wang-hung-w316401895",
+   "name": "Wang Hung",
+   "openingHours": "We-Su 12:00-14:30,17:30-22:00; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/wang-hung/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "way/329892437": {
+   "id": "osm-la-dolce-vita-w329892437",
+   "name": "La Dolce Vita",
+   "openingHours": "Mo 18:00-22:00; Tu-Sa 12:00-14:00,18:00-22:00; Su off",
+   "source": "https://restoladolcevita.be/",
+   "confidence": "high",
+   "note": "Kitchen hours; closed Sunday and Monday lunch.",
+   "checked": "2026-10-20"
+  },
+  "way/425380898": {
+   "id": "osm-nenuphar-w425380898",
+   "name": "Nenuphar",
+   "openingHours": "Mo-Sa 12:00-14:00,18:00-21:30; Su 12:00-14:30,18:00-21:00",
+   "source": "https://www.hotel-restaurant-nenuphar.be/contact",
+   "confidence": "high",
+   "note": "Restaurant hours (hotel-restaurant).",
+   "checked": "2026-10-20"
+  },
+  "way/491661561": {
+   "id": "osm-bluesette-w491661561",
+   "name": "Bluesette",
+   "openingHours": "Mo-Fr 16:00-02:00; Sa,Su off",
+   "source": "https://www.eetcafebluesette.be/",
+   "confidence": "high",
+   "note": "Weekends open on request. Visit Gent register lists 14:00-01:00; own site used.",
+   "checked": "2026-10-20"
+  },
+  "way/493483074": {
+   "id": "osm-vier-tafels-w493483074",
+   "name": "Vier Tafels",
+   "openingHours": "We-Su 12:00-14:00,18:00-21:00; Mo,Tu off",
+   "source": "https://restaurantviertafels.be/",
+   "confidence": "high",
+   "note": "Plotersgracht 6 (Patershol).",
+   "checked": "2026-10-20"
+  },
+  "way/493483121": {
+   "id": "osm-ikura-w493483121",
+   "name": "Ikura",
+   "openingHours": "Tu-Su 17:00-22:00; Mo off",
+   "source": "https://ikurasushi.be/",
+   "confidence": "high",
+   "note": "Dine-in hours; takeaway and delivery 15:00-22:30. The site says Ikura has a new location at Jan Breydelstraat 8, so the Oudburg address is outdated.",
+   "checked": "2026-10-20"
+  },
+  "way/494018303": {
+   "id": "osm-ocean-sushi-w494018303",
+   "name": "Ocean Sushi",
+   "openingHours": "We-Mo 17:00-22:00; Tu off",
+   "source": "https://gent.oceansushi.be/",
+   "confidence": "high",
+   "note": "These are takeaway hours as stated on the site.",
+   "checked": "2026-10-20"
+  },
+  "way/626909787": {
+   "id": "osm-brasserie-wondelgem-w626909787",
+   "name": "Brasserie Wondelgem",
+   "openingHours": "We-Su 11:30-21:30; Mo,Tu off",
+   "source": "https://nonoresto.be/restaurant/brasserie-wondelgem/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "way/630342003": {
+   "id": "osm-pitta-side-w630342003",
+   "name": "Pitta side",
+   "openingHours": "Tu-Fr 11:30-14:00,17:00-23:00; Sa,Su 16:30-23:00; Mo off",
+   "source": "https://nonoresto.be/restaurant/pitta-side/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "way/630349191": {
+   "id": "osm-verz-w630349191",
+   "name": "VerZ",
+   "openingHours": "Mo-Th 08:30-21:00; Fr 09:00-21:00; Sa,Su off",
+   "source": "https://nonoresto.be/restaurant/verz/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  },
+  "way/684021894": {
+   "id": "osm-greek-time-w684021894",
+   "name": "Greek Time",
+   "openingHours": "Tu-Fr,Su 12:00-14:00,18:00-22:30; Sa 18:00-22:30; Mo off",
+   "source": "https://selfcity.be/restaurant/gent/greek-time/",
+   "confidence": "medium",
+   "note": "Directory listing only. openingsurengids.be shows the week of 19-25 Oct as closed (possibly holiday).",
+   "checked": "2026-10-20"
+  },
+  "way/685047789": {
+   "id": "osm-romanoff-s-w685047789",
+   "name": "Romanoff's",
+   "openingHours": "Tu-Fr 11:45-13:30,18:30-20:30; Sa 18:15-20:30; Su 12:00-13:30; Mo off",
+   "source": "https://romanoffs-be.jimdoweb.com/",
+   "confidence": "high",
+   "note": "These are kitchen hours (own site). The Google-derived listing gives slightly wider times (12-14 / 18:30-21). Brugsevaart 14, Mariakerke.",
+   "checked": "2026-10-20"
+  },
+  "way/725921195": {
+   "id": "osm-in-den-karpel-w725921195",
+   "name": "In Den Karpel",
+   "openingHours": "We-Su 11:00-21:00; Mo,Tu off",
+   "source": "https://indenkarpel.be/",
+   "confidence": "high",
+   "note": "Restaurant 12:00-14:00 and 17:30-21:00; tea room 14:30-17:00.",
+   "checked": "2026-10-20"
+  },
+  "way/744209712": {
+   "id": "osm-soepplus-w744209712",
+   "name": "Soepplus",
+   "openingHours": "Mo-Fr 10:00-15:00; Sa,Su off",
+   "source": "https://soepplus.be/",
+   "confidence": "high",
+   "note": "Matches the Visit Gent register.",
+   "checked": "2026-10-20"
+  },
+  "way/909712432": {
+   "id": "osm-pietje-pek-w909712432",
+   "name": "Pietje Pek",
+   "openingHours": "Th 17:30-22:00; Fr-Su 11:30-15:00,16:00-22:00; Mo-We off",
+   "source": "https://www.pietjepekdrongen.be",
+   "confidence": "high",
+   "note": null,
+   "checked": "2026-10-20"
+  },
+  "way/996842002": {
+   "id": "osm-de-lachende-monnik-w996842002",
+   "name": "De lachende monnik",
+   "openingHours": "Mo,Tu,Th 11:00-14:00,17:00-21:30; Fr,Su 11:00-14:00,17:00-22:00; Sa 17:00-22:00; We off",
+   "source": "https://nonoresto.be/restaurant/de-lachende-monnik/",
+   "confidence": "medium",
+   "note": "Aggregator listing apparently mirroring Google data (secondary source).",
+   "checked": "2026-10-20"
+  }
+ }
+}

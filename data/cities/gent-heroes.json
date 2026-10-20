@@ -478,6 +478,15 @@
    "hash": "5e8214d8818b",
    "checked": "2026-10-20"
   },
+  "osm-mister-spaghetti-n1212139210": {
+   "url": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg",
+   "source": "https://www.mister-spaghetti.com/locaties/gent/",
+   "type": "og:image",
+   "w": 1879,
+   "h": 1250,
+   "hash": "aa4fb3323cb1",
+   "checked": "2026-10-20"
+  },
   "osm-morgen-bakkerij-n12345668083": {
    "url": "https://morgen-bakkerij.be/cdn/shop/files/386593463_122100601220067786_8301562322715799969_n_b621dd2b-e1ab-4bf3-91ec-a45fcbbf2322.jpg?v=1697612288",
    "source": "https://morgen-bakkerij.be/",
@@ -983,6 +992,10 @@
    "why": "logo-like file name (https://foudo.be/wp-content/uploads/2022/03/logo-wit.jpg)",
    "checked": "2026-10-20"
   },
+  "fourth-wave": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
   "full-circle-coffee": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -1191,7 +1204,7 @@
    "checked": "2026-10-20"
   },
   "osm-akdeniz-n5815859041": {
-   "why": "no og:image / twitter:image",
+   "why": "homepage HTTP 403",
    "checked": "2026-10-20"
   },
   "osm-akotee-cafe-n12719038394": {
@@ -1367,7 +1380,7 @@
    "checked": "2026-10-20"
   },
   "osm-balls-glory-n3818381914": {
-   "why": "error: ReadTimeout",
+   "why": "logo-like file name (https://ballsnglory.be/Images/defaults/default-image.jpg)",
    "checked": "2026-10-20"
   },
   "osm-bar-a-l-aise-n12582617323": {
@@ -1734,7 +1747,7 @@
    "checked": "2026-10-20"
   },
   "osm-copain-n13904090843": {
-   "why": "no og:image / twitter:image",
+   "why": "flat image, likely a logo/graphic (sd 11)",
    "checked": "2026-10-20"
   },
   "osm-copain-n6884858560": {
@@ -2031,7 +2044,7 @@
    "checked": "2026-10-20"
   },
   "osm-flordi-n11640842891": {
-   "why": "error: SSLError",
+   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "osm-fluoclub-n5370972190": {
@@ -2130,7 +2143,7 @@
   "osm-giri-n1616705163": {
    "why": "manual review: logo / wordmark, not a photo of the place",
    "checked": "2026-10-20",
-   "url": "https://giribe.webhosting.be/img/asset/cHJpdmF0ZS9vZy1pbWFnZS5qcGc=?w=1200&h=600&fit=crop&q=50&s=06b1e2068853830d572167c2b273084c"
+   "url": "https://giri.be/img/asset/cHJpdmF0ZS9vZy1pbWFnZS5qcGc=?w=1200&h=600&fit=crop&q=50&s=06b1e2068853830d572167c2b273084c"
   },
   "osm-go-fre-n7142820242": {
    "why": "no og:image / twitter:image",
@@ -2442,8 +2455,9 @@
    "url": "https://www.biernet.nl/images/merken/116648-Gulden-Draak-Blond-bier-uit-2025.png"
   },
   "osm-kaffie-is-kaffie-vzw-n12985197902": {
-   "why": "image HTTP 404 text/html; charset=utf-8",
-   "checked": "2026-10-20"
+   "why": "manual review: logo / wordmark graphic (seo.png), 20 Oct 2026",
+   "checked": "2026-10-20",
+   "url": "https://kaffieiskaffie.be/uploads/site-assets/_1200x630_crop_center-center_82_none/seo.png?mtime=1661769232"
   },
   "osm-kaiju-n13504530036": {
    "why": "not landscape (820x1024)",
@@ -2454,7 +2468,7 @@
    "checked": "2026-10-20"
   },
   "osm-karoot-n9665581800": {
-   "why": "homepage HTTP 403",
+   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "osm-karreaux-n4421648390": {
@@ -2576,7 +2590,7 @@
    "checked": "2026-10-20"
   },
   "osm-libanese-snack-n6440678397": {
-   "why": "error: SSLError",
+   "why": "error: ConnectTimeout",
    "checked": "2026-10-20"
   },
   "osm-limoncello-n12772623907": {
@@ -2672,11 +2686,6 @@
   "osm-missy-sippy-blues-roots-club-w97507956": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
-  },
-  "osm-mister-spaghetti-n1212139210": {
-   "why": "does not load as hotlinked <img> in Chrome (CORP / hotlink protection)",
-   "checked": "2026-10-20",
-   "url": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg"
   },
   "osm-misterioso-n13787972887": {
    "why": "no og:image / twitter:image",
@@ -3139,7 +3148,7 @@
    "checked": "2026-10-20"
   },
   "osm-stroom-brewery-n12738654204": {
-   "why": "image HTTP 202 text/html",
+   "why": "homepage HTTP 202",
    "checked": "2026-10-20"
   },
   "osm-studentencafe-de-hoeve-n3827722275": {
@@ -3348,7 +3357,7 @@
    "checked": "2026-10-20"
   },
   "osm-thai-thanee-n1404464937": {
-   "why": "no og:image / twitter:image",
+   "why": "error: ReadTimeout",
    "checked": "2026-10-20"
   },
   "osm-thatcha-thai-kitchen-n6312636187": {

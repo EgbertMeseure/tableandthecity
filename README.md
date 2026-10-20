@@ -40,9 +40,21 @@ Per restaurant (`data/cities/<city>.json`):
   `source: "commons"` for Wikimedia Commons files (CC BY / CC BY-SA / CC0 / PD only), stored in `img/commons/` as
   800/1600/2400 px WebP, credited with author + licence + link to the file page. `source: "own"` for photos a
   restaurant supplied with written permission (`img/r/<id>/…`).
-- Detail hero: the first real exterior/interior photo; otherwise a neutral typographic hero (brand gradient, grain,
-  outlined initial) — never a random dish.
-- No posts and no photos → a "Photos coming soon" empty state linking to the restaurant's website / Instagram.
+- **One photo per place, everywhere** (`TG.cardPhoto(r)` in `common.js`): free-licence / own photo → the place's own website
+  `og:image` (`data/cities/<city>-heroes.json` or the research layer; hotlinked with `referrerpolicy="no-referrer"`, "Photo: <domain>")
+  → first Instagram photo post (official post embed) → the official **profile embed** `https://www.instagram.com/<handle>/embed/`
+  (shows the account's recent photo grid without a login; used only for handles whose embed was checked, see below) → monogram.
+  The same photo is used on the list card (B&W, colour on hover; 74×120 crop), the detail hero (full colour) and the gallery.
+  List cards: the monogram is always underneath; a broken hotlink removes itself. Instagram iframes on cards are created only when the
+  card scrolls into view (IntersectionObserver), max 3 loading at a time; detail-page gallery embeds load near the viewport.
+  Embeds are scaled and clipped with `TG.fitIg()` (post: 54 px header + 4:5 photo; profile: centre of the first grid tile).
+- Gallery: Instagram posts, or the profile embed widget when there are no posts, plus the website og:image (tag "Website") and
+  free-licence photos. Nothing → "Photos coming soon" (or a link tile to the profile when its embed does not render).
+- `data/cities/<city>-instagram.json` (`scripts/build_instagram_layer.py`): `places` = researched handles / post permalinks / og:images
+  (`origin: "research (not yet approved)"` — **preview branch only**; a researched handle replaces a missing or renamed one, null = not
+  confirmed → no embed), `embed` = per handle whether the profile embed renders (`--check`, headless Chrome from 127.0.0.1).
+  `python3 scripts/photo_coverage.py gent --missing=/workspace/handoff/gent-photos-missing.json` prints coverage and lists places still
+  without a photo that have a website or handle.
 
 ### Google Places Photos (prepared, not active)
 `scripts/fetch_google_photos.py` uses the **Places API (New)**: `places:searchText` with

@@ -26,6 +26,47 @@
    "closed": "before 2026",
    "source": "https://catberry.be/koffiebar/",
    "note": "previous location; Catberry is now at Lange Violettestraat 4 (node/10295133531)"
+  },
+  "node/8957993748": {
+   "name": "Grade",
+   "id": "osm-grade-n8957993748",
+   "address": "Ledebergplein 27",
+   "closed": "yes",
+   "source": "https://www.grade.be",
+   "note": "Website says \"Na 40 onvergetelijke jaren neemt Grade afscheid\" (farewell after 40 years)."
+  },
+  "node/12315865312": {
+   "name": "Jus",
+   "id": "osm-jus-n12315865312",
+   "address": "mageleinstraat 43",
+   "closed": "yes",
+   "source": "https://www.jusgent.be/",
+   "note": "Website says \"Op 19 september sloten we de deur van Jus voor de laatste keer\" (closed for the last time on 19 September)."
+  },
+  "way/626907760": {
+   "name": "Silver City",
+   "id": "osm-silver-city-w626907760",
+   "address": "Liefkensstraat, Gent",
+   "closed": "yes",
+   "source": "https://www.made-in.be/oost-vlaanderen/restaurant-sluit-na-34-jaar-uit-schrik-voor-wegenwerken-die-nog-moeten-beginnen-het-is-nu-al-een-jungle-aan-omleidingen/",
+   "note": "Chinese restaurant Silver City (Wondelgem, near Industrieweg) served its last meal on 17 Sep 2023. The owners called it a closure \"for an indefinite period\" and might restart later. No sign of reopening found. OSM address is Liefkensstraat; the article says Evergemsesteenweg near Industrieweg (same corner area).",
+   "certainty": "less certain: the owners called it a closure \"for an indefinite period\" (Sep 2023) and might restart; no reopening found (Oct 2026)"
+  },
+  "node/10139555017": {
+   "name": "The Church",
+   "id": "osm-the-church-n10139555017",
+   "address": "Oude Houtlei 56",
+   "closed": "yes",
+   "source": "https://www.hln.be/gent/zomerbar-op-oude-houtlei-kan-eindelijk-open-een-baken-van-rust-middenin-de-stad~ad462c95/",
+   "note": "Temporary summer pop-up bar at Oude Houtlei 56, which ran until 2 Oct 2021. No later activity found; the site belongs to Hotel Monasterium PoortAckere."
+  },
+  "node/4107591327": {
+   "name": "Wijkrestaurant 't Oud Postje",
+   "id": "osm-wijkrestaurant-t-oud-postje-n4107591327",
+   "address": "Meulesteedsesteenweg 455, 9000 Gent",
+   "closed": "yes",
+   "source": "https://sogent.be/projecten/t-oud-postje",
+   "note": "The landlord sogent says the neighbourhood restaurant was at Meulesteedsesteenweg 455 \"until recently\" (vond je tot voor kort). Search results report it closed in Feb 2023 and that the operator moved on to Café M at Meulesteedsesteenweg 515."
   }
  }
 }

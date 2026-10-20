@@ -13623,7 +13623,7 @@
    "address": "Donkersteeg 25, 9000 Gent",
    "lat": 51.054753,
    "lng": 3.722884,
-   "website": null,
+   "website": "https://fourthwave.be/",
    "instagram_handle": "fourthwave.gent",
    "summary": "Specialty tea bar by tea sommelier and mixologist Hakan Sönmez that serves tea by day and tea-based cocktails and mocktails in the evening.",
    "status": "open",
@@ -13632,7 +13632,8 @@
     "https://www.gaultmillau.be/en/cocktail-bars/fourth-wave-gent",
     "https://www.hln.be/gent/hakan-34-opent-eerste-specialty-tea-bar-van-vlaanderen-s-avonds-ook-gewoon-cocktails~a728d228/",
     "https://tagmag.news/feed/1025982-gent-heeft-nu-zijn-allereerste-specialty-theebar/",
-    "https://cadeaubongent.be/handelaar/fourth-wave"
+    "https://cadeaubongent.be/handelaar/fourth-wave",
+    "https://fourthwave.be/"
    ],
    "dateChecked": "2026-10-20",
    "features": {
@@ -14778,6 +14779,11 @@
    "date": "2026-10-20",
    "change": "Removed Bloch (bloch-gent) from Bakeries: the name belongs to the industrial producer Culinor (Destelbergen), sold via Delhaize — not an artisan bakery",
    "source": "https://www.gondola.be/nl/news/bakkerij-bloch-krijgt-tweede-leven-bij-delhaize"
+  },
+  {
+   "date": "2026-10-20",
+   "change": "Fourth Wave: website added (fourthwave.be, the own site linking @fourthwave.gent)",
+   "source": "https://fourthwave.be/"
   }
  ]
 }

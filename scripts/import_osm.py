@@ -389,6 +389,11 @@ def main():
         if c:
             r.update({k: v for k, v in c.items() if k != 'source'}); r['correctionSource'] = c.get('source')
             if 'address' in c: r.pop('addressApprox', None)
+    hrs = json.loads((OSM_DIR / 'hours-research.json').read_text())['places'] if (OSM_DIR / 'hours-research.json').exists() else {}
+    for r in places:                                             # researched hours (scripts/merge_hours.py), only where OSM has none
+        h = hrs.get(r['osm'])
+        if h and not r.get('openingHours'):
+            r.update({'openingHours': h['openingHours'], 'openingHoursSource': h['source'], 'openingHoursConfidence': h.get('confidence')})
     places.sort(key=lambda r: r['id']); save_locate()
     out = {'source': 'OpenStreetMap via Overpass API', 'license': '© OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)',
            'osmBase': stamp, 'city': CITY, 'count': len(places), 'places': places}

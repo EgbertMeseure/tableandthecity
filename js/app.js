@@ -47,8 +47,8 @@
   // ---- breakfast & brunch: confirmed (sourced) values; 'early' = opens ≤ 10:00 by sourced hours, no breakfast claim ----
   const MEAL = (r, v) => { const m = TG.mealOf(r); return v === 'any' ? m.any : v === 'breakfast' ? m.bf : v === 'brunch' ? m.br : v === 'wkbrunch' ? m.wk : v === 'early' ? m.early : true; };
   // card photo: the og:image a confirmed breakfast/brunch place publishes itself (hotlinked, credited); else the site's own coffee image
-  function mealPhoto() {
-    const r = R.filter(x => TG.mealOf(x).any && x.heroImage).sort((a, b) => (b.curated ? 1 : 0) - (a.curated ? 1 : 0) || a.name.localeCompare(b.name))[0];
+  function mealPhoto() {   // reviewed heroes only (not the research preview layer)
+    const r = R.filter(x => TG.mealOf(x).any && x.heroImage && !x.heroImage.origin).sort((a, b) => (b.curated ? 1 : 0) - (a.curated ? 1 : 0) || a.name.localeCompare(b.name))[0];
     if (!r) return null;
     const dom = r.heroImage.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
     return { url: r.heroImage.url, credit: `Photo: ${dom} (${r.name})`, href: r.heroImage.source };
@@ -235,7 +235,7 @@
     ohPending = false;
     const y = scrollY, n = shown;
     LIST.sort((a, b) => TG.OPEN_RANK[a._oh.state] - TG.OPEN_RANK[b._oh.state] || LIST._base(a, b));
-    $('#list').innerHTML = LIST.slice(0, n).map(card).join(''); moreBtn();
+    $('#list').innerHTML = LIST.slice(0, n).map(card).join(''); moreBtn(); TG.lazyIg($('#list'));
     scrollTo(0, y);
   }
   const BYID = new Map(R.map(r => [r.id, r]));
@@ -295,7 +295,7 @@
     // list: first PAGE cards, "Show more" appends the next PAGE (keeps the DOM small with ~1,500 places)
     LIST = list; shown = Math.min(PAGE, list.length);
     $('#list').innerHTML = list.length ? list.slice(0, shown).map(card).join('') : '<div class="empty">Nothing matches these filters. <button class="linkbtn" data-reset>Reset</button></div>';
-    moreBtn();
+    moreBtn(); TG.lazyIg($('#list'));
     layer.clearLayers();
     layer.addLayers ? layer.addLayers(list.filter(r => r.lat).map(marker)) : list.filter(r => r.lat).forEach(r => marker(r).addTo(layer));
     renderEvents();
@@ -307,7 +307,7 @@
   }
   $('#list-more').addEventListener('click', () => {
     const next = LIST.slice(shown, shown + PAGE); shown += next.length;
-    $('#list').insertAdjacentHTML('beforeend', next.map(card).join('')); moreBtn();
+    $('#list').insertAdjacentHTML('beforeend', next.map(card).join('')); moreBtn(); TG.lazyIg($('#list'));
   });
   function marker(r) {                                                     // built once per place, reused across renders
     if (r._m) return r._m;

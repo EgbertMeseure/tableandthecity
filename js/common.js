@@ -29,14 +29,69 @@ const TG = (() => {
     const first = s => (s.match(/[\p{L}\p{N}]/u) || [''])[0].toUpperCase();
     return pick.length === 2 && !/^\d/.test(pick[1]) ? first(pick[0]) + first(pick[1]) : first(pick[0]);   // two-word names → two initials
   }
-  /* pill thumbnail: real photo if one exists, else a typographic monogram (dark grain, Didone initial, gold on hover) */
+  /* the place's own Instagram post permalinks (verified), as {url, category} */
+  const igPostsOf = r => (r.instagram_posts || []).map(p => typeof p === 'string' ? { url: p } : p).filter(p => /^https:\/\/www\.instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+\/?$/.test(p.url));
+  const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
+  /* the one photo a card / hero shows, in order: free-licence or own photo → the place's own website og:image (hotlinked)
+     → first Instagram photo post (official embed) → Instagram profile grid (official embed, only for handles whose embed was checked) → null */
+  function cardPhoto(r, forCard) {
+    const own = realPhotos(r), p = own.find(x => x.category === 'exterior' || x.category === 'interior') || own[0];
+    if (p) return { kind: 'img', src: p.thumb || p.src, srcset: p.srcset, credit: `Photo: ${p.credit || ''}` };
+    if (r.heroImage && r.heroImage.url) return { kind: 'img', src: r.heroImage.url, hotlink: true, credit: `Photo: ${hostOf(r.heroImage.source)}` };
+    if (forCard && !igCardsOn()) return null;
+    const posts = igPostsOf(r), h = r.igHandle ? '@' + r.igHandle : 'Instagram';
+    if (posts.length) { const hp = posts.find(x => /\/p\//.test(x.url)) || posts[0];
+      return { kind: 'igpost', embed: hp.url.replace(/\/$/, '') + '/embed/', href: hp.url, credit: `Photo: ${h} on Instagram` }; }
+    if (r.igEmbed) return { kind: 'igprofile', embed: `https://www.instagram.com/${r.igHandle}/embed/`, href: `https://www.instagram.com/${r.igHandle}/`, credit: `Photos: @${r.igHandle} on Instagram` };
+    return null;
+  }
+  /* Instagram on list cards: on unless config says no, Data Saver is on, or the connection is slow */
+  function igCardsOn() {
+    if ((window.TG_CONFIG || {}).igCardEmbeds === false) return false;
+    const c = navigator.connection; return !(c && (c.saveData || /(^|-)2g|3g/.test(c.effectiveType || '')));
+  }
+  /* scale + clip an Instagram embed iframe (540 px wide layout) so its photo covers a W×H box.
+     post embed: 54 px header, then the 4:5 photo (540×675). profile embed: header ≈ 137–182 px, then a 3-column grid of 179 px
+     tiles; we show the centre of the first tile (x 0–179, y 182–312 is inside it for every header height we measured). */
+  function fitIg(box, fr, kind) {
+    const W = box.clientWidth, H = box.clientHeight; if (!W || !H) return;
+    let k, x, y;
+    if (kind === 'igprofile') { k = Math.max(W / 179, H / 130); x = W / 2 - 89.5 * k; y = H / 2 - 247 * k; fr.style.height = '700px'; }
+    else { k = Math.max(W / 540, H / 675); x = (W - 540 * k) / 2; y = (H - 675 * k) / 2 - 54 * k; fr.style.height = (54 + 675 + 260) + 'px'; }
+    fr.style.width = '540px'; fr.style.transform = `translate(${x}px, ${y}px) scale(${k})`;
+  }
+  /* list cards: Instagram iframes are created only when the card scrolls into view, max 3 loading at once */
+  let igIO = null; const igQ = []; let igBusy = 0;
+  function igPump() {
+    while (igBusy < 3 && igQ.length) {
+      const box = igQ.shift(); if (!box.isConnected || box.querySelector('iframe')) continue;
+      igBusy++; const fr = document.createElement('iframe');
+      fr.title = ''; fr.tabIndex = -1; fr.setAttribute('scrolling', 'no'); fr.setAttribute('aria-hidden', 'true'); fr.loading = 'lazy';
+      let done = false; const fin = () => { if (done) return; done = true; igBusy--; box.classList.add('is-loaded'); igPump(); };
+      fr.addEventListener('load', () => setTimeout(fin, 400)); setTimeout(fin, 8000);
+      fr.src = box.dataset.igSrc; box.appendChild(fr); fitIg(box, fr, box.dataset.igKind);
+    }
+  }
+  function lazyIg(root = document) {
+    const boxes = [...root.querySelectorAll('.thumb-ig[data-ig-src]:not([data-ig-seen])')]; if (!boxes.length) return;
+    if (!('IntersectionObserver' in window)) { boxes.forEach(b => { b.dataset.igSeen = 1; igQ.push(b); }); igPump(); return; }
+    // only after the card has been on screen for 0.3 s (scrolling past quickly loads nothing)
+    igIO = igIO || new IntersectionObserver(en => en.forEach(e => { const b = e.target;
+      if (!e.isIntersecting) { clearTimeout(b._igT); return; }
+      b._igT = setTimeout(() => { igIO.unobserve(b); igQ.push(b); igPump(); }, 300); }), { rootMargin: '0px' });
+    boxes.forEach(b => { b.dataset.igSeen = 1; igIO.observe(b); });
+  }
+  /* pill thumbnail: the place's real photo (cardPhoto) over a typographic monogram (dark grain, Didone initial, gold on hover).
+     The monogram is always underneath, so a broken hotlink or an embed that does not load falls back to it by itself. */
   function thumb(r, sizes = '80px') {
-    const p = realPhotos(r).find(x => x.category === 'exterior' || x.category === 'interior') || realPhotos(r)[0];
-    if (p) return `<img class="bw" src="${esc(p.thumb || p.src)}" ${p.srcset ? `srcset="${esc(p.srcset)}" sizes="${sizes}"` : ''} alt="" loading="lazy" decoding="async">`;
     const ini = initials(r.name);
     const tone = TYPE_KEY[r.type] || (r.group && r.group !== 'restaurants' ? r.group : 'interior');
     let h = 0; for (const ch of r.id) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
-    return `<span class="mono-thumb grain mt-${tone}${ini.length > 1 ? ' two' : ''}" style="--ang:${h % 360}deg;--pos:${20 + h % 60}%" aria-hidden="true"><span>${esc(ini)}</span></span>`;
+    const mono = `<span class="mono-thumb grain mt-${tone}${ini.length > 1 ? ' two' : ''}" style="--ang:${h % 360}deg;--pos:${20 + h % 60}%" aria-hidden="true"><span>${esc(ini)}</span></span>`;
+    const p = cardPhoto(r, true);
+    if (!p) return mono;
+    if (p.kind === 'img') return mono + `<img class="bw thumb-photo" src="${esc(p.src)}" ${p.srcset ? `srcset="${esc(p.srcset)}" sizes="${sizes}"` : ''}${p.hotlink ? ' referrerpolicy="no-referrer"' : ''} alt="" title="${esc(p.credit)}" loading="lazy" decoding="async" onerror="this.remove()">`;
+    return mono + `<span class="bw thumb-ig" data-ig-src="${esc(p.embed)}" data-ig-kind="${p.kind}" title="${esc(p.credit)}" aria-hidden="true"></span>`;
   }
   const GROUP_LABEL = { restaurants: 'Restaurants', cafes_bars: 'Cafés & bars', coffee: 'Coffee', bakeries: 'Bakeries' };
   const CAT_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual', restaurant: 'Restaurant',
@@ -142,7 +197,7 @@ const TG = (() => {
       openingYear: 'unknown', openingDate: 'unknown', isNew: false, summary: '', summaryLang: 'en', district: '', neighbourhood: '', address: 'unknown',
       ...o, address: o.address || 'unknown',
       instagram: o.instagram_handle ? `https://www.instagram.com/${o.instagram_handle}/` : null,
-      geoSource: 'OpenStreetMap', openingHoursSource: o.openingHours ? 'OpenStreetMap' : null,
+      geoSource: 'OpenStreetMap', openingHoursSource: o.openingHoursSource || (o.openingHours ? 'OpenStreetMap' : null),
       sources: [`https://www.openstreetmap.org/${o.osm}`], fromOsm: true, curated: false,
       features: { ...(o.features || {}) }, features_evidence: { ...(o.features_evidence || {}) }
     };
@@ -327,17 +382,32 @@ const TG = (() => {
   /* ---- data ---- */
   async function load(city) {
     const opt = (url, empty) => url ? fetch(bust(url), { cache: 'no-cache' }).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg, hz, bk] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
-      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} })]);
+    const [d, up, om, vg, hz, bk, ig] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
-    const today = new Date().toISOString().slice(0, 10);              // a temporary status (e.g. closed for renovation) ends by itself
-    rs.forEach(r => { if (r.statusUntil && today > r.statusUntil) { r.status = 'open'; r.statusNote = ''; } });
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
     rs.push(...(up.upcoming || []).filter(u => u.id && !ids.has(u.id)).map(fromUpcoming));
     rs.push(...(om.places || []).filter(o => !ids.has(o.id) && o.status !== 'closed').map(fromOsm));   // OpenStreetMap base list (deduped at import time)
+    // a temporary status (e.g. closed for renovation / holidays) ends by itself: statusUntil = last closed day (Europe/Brussels), curated and OSM alike
+    rs.forEach(r => { if (r.statusUntil && TODAY > r.statusUntil) { r.status = 'open'; r.statusNote = ''; } });
     rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
     rs.forEach(r => { const h = (hz.places || {})[r.id]; if (h && !r.heroImage) r.heroImage = h; applyMeal(r, (bk.places || {})[r.id]); });
+    /* Instagram / photo layer (<city>-instagram.json): researched handles (a rename wins), verified posts when a place has none,
+       own-site og:image when there is no hero; igEmbed = the official profile embed renders the photo grid without a login */
+    const IGP = ig.places || {}, EMB = ig.embed || {};
+    rs.forEach(r => {
+      const x = IGP[r.id];
+      if (x) {
+        if (x.instagram_handle) { r.instagram_handle = x.instagram_handle; r.instagram = `https://www.instagram.com/${x.instagram_handle}/`; }
+        else if ('instagram_handle' in x) r.igUnconfirmed = true;
+        if ((x.posts || []).length && !igPostsOf(r).length) r.instagram_posts = x.posts.map(url => ({ url, category: '' }));
+        if (x.heroReject && r.heroImage && r.heroImage.url === x.heroReject) delete r.heroImage;   // flagged by research: logo / text / render / chain promo / duplicate
+        if (x.heroImage && !r.heroImage) r.heroImage = x.heroImage;
+      }
+      r.igHandle = r.instagram_handle || (r.instagram ? r.instagram.replace(/\/+$/, '').split('/').pop() : '');
+      r.igEmbed = !!(r.igHandle && !r.igUnconfirmed && EMB[r.igHandle] && EMB[r.igHandle].ok);
+    });
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
     const events = [];
@@ -435,6 +505,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();
