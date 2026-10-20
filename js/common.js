@@ -10,6 +10,9 @@ const TG = (() => {
   /* responsive <img> attributes for a site image key (img/<key>-{800,1600,2400}.webp, jpg fallback) */
   const imgAttrs = (key, sizes = '100vw') => `src="img/${key}.jpg" srcset="img/${key}-800.webp 800w, img/${key}-1600.webp 1600w, img/${key}-2400.webp 2400w" sizes="${sizes}"`;
   /* real, licensed photos of a restaurant only (Commons / own / Google Places when a key is configured) — never stock, never Instagram */
+  /* cache-busting: data fetches carry the page's build stamp (<meta name="build">, set by scripts/stamp_assets.py) */
+  const BUILD = (document.querySelector('meta[name="build"]') || {}).content || '';
+  const bust = u => BUILD ? `${u}${u.includes('?') ? '&' : '?'}v=${BUILD}` : u;
   function realPhotos(r) {
     const GKEY = (window.TG_CONFIG || {}).googleMapsKey || '';
     const g = GKEY ? (r.google_photos || []).map(p => {
@@ -231,7 +234,7 @@ const TG = (() => {
   /* ---- countries & cities ---- */
   let CITIES = null;
   async function cities() {
-    if (!CITIES) CITIES = await fetch('data/cities.json').then(r => r.json());
+    if (!CITIES) CITIES = await fetch(bust('data/cities.json'), { cache: 'no-cache' }).then(r => r.json());
     return CITIES;
   }
   function allCities(cfg) { return cfg.countries.flatMap(c => c.cities.map(x => ({ ...x, country: c.name, countryCode: c.code, countryId: c.id }))); }
@@ -305,8 +308,8 @@ const TG = (() => {
 
   /* ---- data ---- */
   async function load(city) {
-    const opt = (url, empty) => url ? fetch(url).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg, hz, bk] = await Promise.all([fetch(city.data).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+    const opt = (url, empty) => url ? fetch(bust(url), { cache: 'no-cache' }).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
+    const [d, up, om, vg, hz, bk] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
       opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first

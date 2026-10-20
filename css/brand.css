@@ -322,3 +322,5 @@ button,input,select{font-family:inherit}
 .dhero.dhero--ig>div.dhero__ig{position:absolute;inset:0;overflow:hidden;z-index:0;pointer-events:none;background:#111}
 .dhero__ig iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0}
 .essentials .opens{display:block;font-size:12px;color:var(--text-3);margin-top:3px}
+/* never let a wide embed (Instagram hero / rail) widen the mobile layout viewport */
+html,body{overflow-x:clip}

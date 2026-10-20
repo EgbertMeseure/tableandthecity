@@ -97,6 +97,13 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
 8. **Finish** – set `dateChecked` (and `lastChanged` if content changed); add one `changelog` entry per change (with source URL);
    regenerate the CSV; test locally: `python3 -m http.server 8765` → `python3 scripts/screenshots.py` (fails on any console error).
 
+## Before every commit / zip: cache-busting (always)
+`python3 scripts/stamp_assets.py` — stamps every css/js include in `index.html` and `restaurant.html` with `?v=<build>` and sets
+`<meta name="build">`; `js/common.js` adds the same `?v=` (plus `cache: 'no-cache'`) to its data fetches. `<build>` is a hash of all css, js
+and city data, so browsers never mix an old cached stylesheet/script/data file with a new page (that showed as a broken detail page).
+Idempotent; `--check` exits 1 when a page is not stamped with the current build. Then commit, push, and build the zip:
+`git archive --format=zip --prefix=tableandthecity/ -o /workspace/tableandthecity-site.zip HEAD`.
+
 ## Frequency
 | Task | Frequency |
 |---|---|
