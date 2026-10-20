@@ -52,6 +52,11 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    (re-downloads OSM, keeps ids stable, never overwrites curated data). Look at the printed counts: a big drop usually means Overpass returned a partial result —
    re-run. New places without an address need `data/osm/streets.json` (downloaded automatically, not in git). Put sourced fixes in `data/osm/corrections.json`
    (and ideally fix OSM itself). When an OSM place gets hand-researched, move it into `gent.json` (same name/location → the import then skips it).
+   **Big chains stay off the site:** the import drops every OSM element whose `brand:wikidata`, `brand` or name matches `data/chains-exclude.json`
+   (McDonald's, Burger King, Quick, Domino's, Pizza Hut, Starbucks, Panos, Paul, Lunch Garden, Le Pain Quotidien, IzyCoffee, hotel / fuel-station / supermarket
+   outlets…). Per-chain counts of the last run: `data/osm/gent-chains-excluded.json`. A new chain shows up? Add it (name, confirmed wikidata id, name pattern)
+   and re-run — idempotent. Local multi-site Ghent/Belgian businesses are kept on purpose (list + reasons under `keep`). Curated / upcoming records are never
+   dropped automatically: a match there prints `WARNING … looks like chain` — decide by hand. Don't add chain openings to `gent-upcoming.json`.
 4e. **Veggie / vegan layer** – `python3 scripts/veggie_layer.py gent` after every import; weekly follow `scripts/VEGGIE_CHECK.md`
    (refresh HappyCow, verify every 100% vegan / vegetarian place on its own site, add press finds). Never guess a level.
 4f. **Closure spot-check** (monthly) – sample 40 random OSM places, check own site / recent listings, record in `data/osm/spotcheck-<date>.json`;

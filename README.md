@@ -133,6 +133,8 @@ Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ran
   null fields of the curated record (website, phone, hours, terrace, wheelchair, gluten-free). Matches: `data/osm/gent-osm-matches.json`.
 - Addresses: `addr:*` tags; otherwise the nearest named street (≤ 40 m) marked "street only, approx." District = deelgemeente (OSM boundary),
   neighbourhood = nearest OSM neighbourhood node. Sourced corrections on top of OSM: `data/osm/corrections.json`.
+- No big chains: large franchise / multinational chains (fast food, coffee, bakery franchises, hotel-chain, supermarket and fuel-station outlets) are dropped
+  at import via `data/chains-exclude.json` (brand:wikidata / brand / name); they are not shown and not counted. Local multi-site businesses are kept (see `keep`).
 - Licence: **© OpenStreetMap contributors, ODbL 1.0** (https://www.openstreetmap.org/copyright) — shown in the footer of every page and in each OSM detail page's sources.
 - Veggie/vegan: `data/cities/gent-veggie.json` (built by `scripts/veggie_layer.py`; see `scripts/VEGGIE_CHECK.md`) gives each place one level —
   100% vegan, 100% vegetarian, vegan options, veggie options — with sources and a note; badges, the detail-page box, the "Veggie & vegan" card

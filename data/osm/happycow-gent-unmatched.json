@@ -210,6 +210,42 @@
   "hcSection": "restaurant"
  },
  {
+  "name": "Domino's Pizza - Overpoortstr.",
+  "address": "Overpoortstraat 57",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "American",
+   "Pizza",
+   "Italian",
+   "Fast food",
+   "Delivery",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Mon-Sun 11:00-00:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Domino's Pizza - Rooigemlaan",
+  "address": "Rooigemlaan 418",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "American",
+   "Pizza",
+   "Italian",
+   "Fast food",
+   "Delivery",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Mon-Sun 11:00-14:00, 17:00-23:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
   "name": "Domino's Pizza - St. Pieters",
   "address": "Kon. Astridlaan 226",
   "price": "Moderate",
@@ -241,6 +277,23 @@
   ],
   "info": "Serves meat, vegan options available. Experimental food bar with a changing menu. Offers a clearly labeled vegan pizza. Some of the starters may also be vegan, such as the soy shiitake sourdough dumplings - ask staff.  Thu-Sat 18:00-21:30",
   "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Ellis Gourmet Burger",
+  "address": "Korenmarkt",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "American",
+   "Western",
+   "Fast food",
+   "Delivery",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Mon-Thu 11:30-22:00, Fri-Sat 11:30-23:00, Sun 11:30-22:00",
+  "level": "veggie-friendly",
   "hcSection": "restaurant"
  },
  {
@@ -344,6 +397,48 @@
   "hcSection": "restaurant"
  },
  {
+  "name": "Le Pain Quotidien - Gent Korenmarkt",
+  "address": "Korenmarkt 16",
+  "price": "Moderate",
+  "tags": [
+   "Vegan-friendly",
+   "Lacto",
+   "Ovo",
+   "Organic",
+   "Mediterranean",
+   "Beer/Wine",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Accepts credit cards. Free Wi-Fi. Mon-Sat 07:00-19:00, Sun 08:00-18:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Le Pain Quotidien - Kalandeberg",
+  "address": "Kalandeberg 10",
+  "price": "Moderate",
+  "tags": [
+   "Vegan-friendly",
+   "Lacto",
+   "Ovo",
+   "Organic",
+   "Mediterranean",
+   "Beer/Wine",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Outdoor seating. Mon-Sat 07:00-19:00, Sun 08:00-18:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
   "name": "Lebanese Restaurant",
   "address": "Sleepstraat 1",
   "price": "Moderate",
@@ -413,6 +508,25 @@
  },
  {
   "name": "Panos",
+  "address": "Antwerpsesteenweg 1114",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Sat 05:00-19:00, Sun 08:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
   "address": "Zeeschipstraat 52",
   "price": "Inexpensive",
   "tags": [
@@ -427,6 +541,25 @@
    "Non-veg"
   ],
   "info": "Mon-Sat 05:30-20:00, Sun 08:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Langemunt 55",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Fri 07:00-18:30, Sat 08:00-18:30",
   "level": "veggie-friendly",
   "hcSection": "restaurant"
  },
@@ -484,6 +617,25 @@
    "Non-veg"
   ],
   "info": "Mon-Fri 06:30-17:30",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Veldstraat 96",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Fri 07:00-18:30, Sat 08:00-18:30, Sun 09:00-18:30",
   "level": "veggie-friendly",
   "hcSection": "restaurant"
  },
@@ -953,6 +1105,20 @@
   "hcSection": "other"
  },
  {
+  "name": "Dunkin'",
+  "address": "Langemunt 33",
+  "price": "Inexpensive",
+  "tags": [
+   "American",
+   "Fast food",
+   "Take-out",
+   "Bakery"
+  ],
+  "info": "No cash. Accepts credit cards. Mon-Wed 08:00-22:00, Fri-Sun 08:00-22:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
   "name": "Ekoplaza",
   "address": "Kortrijksesteenweg 148",
   "price": "Inexpensive",
@@ -1052,6 +1218,45 @@
   "tags": [],
   "info": "Pop-up ice cream shop with a range of fruit sorbets and vegan chocolate ice cream. Reopened April 2023. Outdoor seating. Accepts credit cards. Tue-Sun 13:00-18:00",
   "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "IzyCoffee",
+  "address": "Jozef Plateaustraat 2",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Take-out",
+   "Honey"
+  ],
+  "info": "Mon-Sun 08:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "IzyCoffee - Dok Noord",
+  "address": "Dok-Noord 7",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Take-out",
+   "Honey"
+  ],
+  "info": "Outdoor seating. Wheelchair accessible. Accepts credit cards. Free Wi-Fi. Mon-Sun 08:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "IzyCoffee - Langemunt",
+  "address": "Langemunt 2",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Take-out",
+   "Honey"
+  ],
+  "info": "Free Wi-Fi. Mon-Fri 07:00-22:00, Sat-Sun 08:00-22:00",
+  "level": "veggie-friendly",
   "hcSection": "other"
  },
  {
@@ -1155,6 +1360,17 @@
   "price": "Inexpensive",
   "tags": [],
   "info": "Ice cream shop offering several vegan flavors such as vanilla, chocolate, hazelnut, and matcha.  Mon-Fri 12:00-18:30, Sat-Sun 11:00-18:30",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Panda",
+  "address": "Koningin Elisabethlaan 89",
+  "price": "Inexpensive",
+  "tags": [
+   "Bakery"
+  ],
+  "info": "Offers a vegan martino sandwich, a hummus sandwich and a jam pastry. Check these are vegan.  Mon-Fri 07:00-18:00, Sun 07:30-14:00",
   "level": "vegan-friendly",
   "hcSection": "other"
  },

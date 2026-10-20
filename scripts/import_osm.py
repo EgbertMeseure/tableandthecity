@@ -14,9 +14,12 @@ Mapping (features only when explicitly tagged; source 'OpenStreetMap', © OpenSt
   amenity=pub|bar|biergarten → Cafés & bars (irish pub / cocktail bar / beer bar / dance café by tags or name, else 'café')
   amenity=cafe → Coffee (specialty coffee by name/cuisine, else 'coffee & lunch'); shop=coffee → Coffee › coffee shop / roaster
   shop=bakery → Bakeries › bakery; shop=pastry → Bakeries › patisserie
-Excluded: no name, lifecycle-prefixed / disused / closed tags, opening_hours="closed", elements outside the city boundary.
+Excluded: no name, lifecycle-prefixed / disused / closed tags, opening_hours="closed", elements outside the city boundary,
+  and large franchise / multinational chains listed in data/chains-exclude.json (brand:wikidata, brand or name; see is_chain).
+  Curated / upcoming records are never dropped automatically: a chain match there is only printed as a WARNING.
 """
 import difflib, json, math, re, sys, time, unicodedata, urllib.parse, urllib.request
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -38,6 +41,26 @@ Q_BOUNDS = f'''[out:json][timeout:180];
 area["boundary"="administrative"]["admin_level"="8"]["name"="{AREA}"]->.g;
 rel["boundary"="administrative"]["admin_level"="9"](area.g);
 out geom;'''
+
+
+CHAINS = json.loads((ROOT / 'data' / 'chains-exclude.json').read_text())['chains']
+
+
+def _fold(s):
+    s = unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode().lower()
+    return re.sub(r'\s+', ' ', s.replace('’', "'").replace('`', "'")).strip()
+
+
+def is_chain(t):
+    """Name of the excluded chain this OSM tag set belongs to, or None."""
+    wd = {x.strip() for k in ('brand:wikidata', 'operator:wikidata') for x in (t.get(k) or '').split(';') if x.strip()}
+    names = [_fold(t.get(k)) for k in ('brand', 'name', 'name:nl', 'name:en') if t.get(k)]
+    web = (t.get('website') or t.get('contact:website') or '').lower()
+    for c in CHAINS:
+        if wd & set(c.get('wikidata', [])): return c['name']
+        if any(re.match(p, n) for p in c.get('patterns', []) for n in names): return c['name']
+        if c.get('brandWebsite') and c['brandWebsite'] in web: return c['name']
+    return None
 
 
 def overpass(q, dest):
@@ -212,7 +235,8 @@ def main():
     curated = [r for r in cur['restaurants'] if r.get('lat')]
     if UPC.exists(): curated += [u for u in json.loads(UPC.read_text()).get('upcoming', []) if u.get('lat')]
     stamp = raw.get('osm3s', {}).get('timestamp_osm_base', '')[:10]
-    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0}, set()
+    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0}, set()
+    chains = Counter()
     elems = sorted(raw['elements'], key=lambda e: (e['type'], e['id']))
     for e in elems:
         t = e.get('tags', {})
@@ -221,6 +245,7 @@ def main():
         if any(LIFECYCLE.match(k) for k in t) or t.get('disused') == 'yes' or t.get('abandoned') == 'yes': skipped['lifecycle'] += 1; continue
         if t.get('opening_hours', '').strip().lower() in ('closed', 'off') or t.get('opening_hours:covid19') == 'off' and False: skipped['closed'] += 1; continue
         if t.get('amenity') not in ('restaurant', 'cafe', 'bar', 'pub', 'biergarten', 'fast_food') and t.get('shop') not in ('bakery', 'pastry', 'coffee'): skipped['other'] += 1; continue
+        if (ch := is_chain(t)): skipped['chain'] += 1; chains[ch] += 1; continue    # big chains stay off the site
         lat, lng = (e['lat'], e['lon']) if e['type'] == 'node' else (e['center']['lat'], e['center']['lon'])
         group, cat = categorize(t, name)
         if not group: skipped['other'] += 1; continue
@@ -286,10 +311,13 @@ def main():
     (OSM_DIR / f'{CITY}-osm-matches.json').write_text(json.dumps([{k: v for k, v in m.items() if k != 'tags'} for m in matched], ensure_ascii=False, indent=1))
     filled = fill_curated(cur, matched) if '--fill-curated' in ARGS else []
     if filled: CUR.write_text(json.dumps(cur, ensure_ascii=False, indent=1) + '\n')
-    from collections import Counter
+    for c in curated:                                             # never drop curated/upcoming silently: warn only
+        if (ch := is_chain({'name': c.get('name', '')})): print(f"WARNING: curated/upcoming record {c['id']} looks like chain {ch} — review by hand")
+    (OSM_DIR / f'{CITY}-chains-excluded.json').write_text(json.dumps(dict(sorted(chains.items())), ensure_ascii=False, indent=1) + '\n')
     print(f'{len(places)} OSM places written → {OUT.relative_to(ROOT)} (OSM base {stamp})')
     print('by group/category:', dict(Counter((p['group'], p['category']) for p in places)))
     print(f'{len(matched)} matched to curated records (not re-added); skipped: {skipped}')
+    print(f'chains excluded ({sum(chains.values())}): {dict(chains.most_common())}')
     print(f'filled {len(filled)} null fields in curated records' + (': ' + ', '.join(filled[:30]) if filled else ''))
 
 

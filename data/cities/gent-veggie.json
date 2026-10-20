@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "gent",
- "count": 279,
+ "count": 260,
  "places": {
   "cafe-labath": {
    "veggieLevel": "vegan-friendly",
@@ -576,13 +576,6 @@
    "hcName": "Delilunch",
    "hcInfo": "Serves meat, vegan options available. Vegan choices may include sandwiches such as \"prepare\", hummus, kip curry and at times specials. Check the soups and salads to see if they can be made vegan. Accepts credit cards. Mon-Fri 08:30-16:00"
   },
-  "osm-deliway-n5820296721": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/5820296721"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-den-hoek-af-w501058824": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -620,32 +613,6 @@
    "basis": "verified",
    "checked": "2026-10-20"
   },
-  "osm-domino-s-n13099269905": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Domino's Pizza - Rooigemlaan",
-   "hcInfo": "Mon-Sun 11:00-14:00, 17:00-23:00"
-  },
-  "osm-domino-s-n3392860009": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/3392860009"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Domino's Pizza - Overpoortstr.",
-   "hcInfo": "Mon-Sun 11:00-00:00"
-  },
-  "osm-domino-s-n4606858515": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/4606858515"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-dreamcatchers-n12363209411": {
    "veggieLevel": "vegan",
    "sources": [
@@ -655,15 +622,6 @@
    "note": "Cat adoption café; HappyCow: \"Reported to be fully vegan March 2026\". Open Wed & Sat.",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-dunkin-n7142820248": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Dunkin'",
-   "hcInfo": "No cash. Accepts credit cards. Mon-Wed 08:00-22:00, Fri-Sun 08:00-22:00"
   },
   "osm-eat-love-pizza-n2546643705": {
    "veggieLevel": "vegan-friendly",
@@ -722,15 +680,6 @@
    "basis": "HappyCow listing",
    "hcName": "El Berraco",
    "hcInfo": "Serves meat, vegan options available. Latin American restaurant offering a few vegan items such as empanadas sin carne, tacos, burrito, and chili sin carne. Specify vegan.  Mon-Tue 14:00-21:00, Thu-Fri 14:00-21:00, Sat-Sun 12:00-21:30"
-  },
-  "osm-ellis-gourmet-burger-n1186945849": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Ellis Gourmet Burger",
-   "hcInfo": "Mon-Thu 11:30-22:00, Fri-Sat 11:30-23:00, Sun 11:30-22:00"
   },
   "osm-entr-w241981493": {
    "veggieLevel": "vegan-friendly",
@@ -1104,33 +1053,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-izycoffee-n10907884070": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "IzyCoffee - Langemunt",
-   "hcInfo": "Free Wi-Fi. Mon-Fri 07:00-22:00, Sat-Sun 08:00-22:00"
-  },
-  "osm-izycoffee-n11992730153": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "IzyCoffee",
-   "hcInfo": "Mon-Sun 08:00-18:00"
-  },
-  "osm-izycoffee-n5651108321": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "IzyCoffee - Dok Noord",
-   "hcInfo": "Outdoor seating. Wheelchair accessible. Accepts credit cards. Free Wi-Fi. Mon-Sun 08:00-18:00"
-  },
   "osm-johnny-s-burger-n12002629024": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -1258,24 +1180,6 @@
    "basis": "verified",
    "checked": "2026-10-20"
   },
-  "osm-le-pain-quotidien-n11099152458": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Le Pain Quotidien - Gent Korenmarkt",
-   "hcInfo": "Accepts credit cards. Free Wi-Fi. Mon-Sat 07:00-19:00, Sun 08:00-18:30"
-  },
-  "osm-le-pain-quotidien-n5190248821": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Le Pain Quotidien - Kalandeberg",
-   "hcInfo": "Outdoor seating. Mon-Sat 07:00-19:00, Sun 08:00-18:30"
-  },
   "osm-lekker-gec-n2721915415": {
    "veggieLevel": "vegan",
    "sources": [
@@ -1320,13 +1224,6 @@
    "note": "HappyCow: coffee & food bar by the owners of former vegan business Billy Bonka — \"vegan comfort food\". No own website found.",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-lunch-garden-n1628297829": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/1628297829"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-madonna-n5247954582": {
    "veggieLevel": "veggie-friendly",
@@ -1480,13 +1377,6 @@
    "hcName": "O'Learys",
    "hcInfo": "Mon-Thu 18:00-22:00, Fri 18:00-23:00, Sat-Sun 12:00-23:00"
   },
-  "osm-o-tacos-n12702639946": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/12702639946"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-o-yo-n10885912444": {
    "veggieLevel": "vegetarian",
    "sources": [
@@ -1548,15 +1438,6 @@
    "basis": "verified",
    "checked": "2026-10-20"
   },
-  "osm-panda-n1599352633": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Panda",
-   "hcInfo": "Offers a vegan martino sandwich, a hummus sandwich and a jam pastry. Check these are vegan.  Mon-Fri 07:00-18:00, Sun 07:30-14:00"
-  },
   "osm-panda-n4154773490": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -1566,34 +1447,6 @@
    "basis": "HappyCow listing + OpenStreetMap",
    "hcName": "De Panda",
    "hcInfo": "Good health store with a restaurant behind the shop.  Mon-Sat 12:00-14:00, 18:30-20:30"
-  },
-  "osm-panos-n4229989138": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/4229989138"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Panos",
-   "hcInfo": "Mon-Fri 07:00-18:30, Sat 08:00-18:30"
-  },
-  "osm-panos-n4269664953": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Panos",
-   "hcInfo": "Mon-Fri 07:00-18:30, Sat 08:00-18:30, Sun 09:00-18:30"
-  },
-  "osm-panos-n6511811019": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Panos",
-   "hcInfo": "Mon-Sat 05:00-19:00, Sun 08:00-18:00"
   },
   "osm-parkkaffee-n663056470": {
    "veggieLevel": "vegan-friendly",
@@ -1668,20 +1521,6 @@
    "veggieLevel": "veggie-friendly",
    "sources": [
     "https://www.openstreetmap.org/node/9278632522"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-pizza-hut-n1630717461": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/1630717461"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-pizza-hut-n2747933913": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/2747933913"
    ],
    "basis": "OpenStreetMap diet tags"
   },

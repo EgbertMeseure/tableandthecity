@@ -22,7 +22,8 @@
   "outOfScopeOrStale": [
    "The Bakery by Joost Arijs \"opens 9 December\" — 2022 press release, already open",
    "Stoom (sauna), K-Way, Action (not horeca)",
-   "La Matta (gelato open; wine & sandwiches from Oct 2026 — partly open)"
+   "La Matta (gelato open; wine & sandwiches from Oct 2026 — partly open)",
+   "McDonald's Vrijdagmarkt (summer 2027) — big chains are excluded from the site (data/chains-exclude.json)"
   ]
  },
  "upcoming": [
@@ -161,40 +162,6 @@
     "https://avs.be/nieuws/renovatiewerken-sint-annakerk-schieten-op-opening-voorzien-tegen-eind-2027"
    ],
    "announcedBy": "Delhaize press release, 3 Sep 2026; AVS, 23 Jun 2026",
-   "dateChecked": "2026-10-20"
-  },
-  {
-   "id": "mcdonalds-vrijdagmarkt",
-   "name": "McDonald's Vrijdagmarkt",
-   "group": "restaurants",
-   "category": "restaurant",
-   "address": "Corner of Vrijdagmarkt and Langemunt, 9000 Gent (next to Dulle Griet)",
-   "postalCode": "9000",
-   "district": "Gent (9000)",
-   "neighbourhood": "Patershol",
-   "lat": 51.0571906,
-   "lng": 3.724775,
-   "geoSource": "Nominatim/OpenStreetMap",
-   "geoPrecision": "approximate (Vrijdagmarkt 1-2, OSM)",
-   "expectedOpening": "2027",
-   "expectedOpeningLabel": "Summer 2027",
-   "expectedOpeningNote": "HLN, 9 Mar 2026: \"Tegen de zomer van 2027 zal er een McDonald’s gevestigd zijn.\"",
-   "description": "Second McDonald's in the city centre, in a fully restored historic corner building with no big logos or light signs on the façade.",
-   "team": "Building owner QRF; McDonald’s Belgium",
-   "website": null,
-   "instagram_handle": null,
-   "vegetarian": "unknown",
-   "vegan": "unknown",
-   "dietNote": "",
-   "openingHours": null,
-   "openingHoursSource": null,
-   "features": {},
-   "features_evidence": {},
-   "sources": [
-    "https://www.hln.be/gent/dit-historisch-pand-in-gent-wordt-een-mcdonalds-al-zal-u-dat-niet-meteen-zien~a1f565a2/",
-    "https://www.hln.be/gent/qrf-sluit-deel-met-fastfoodketen-voor-hoek-langemunt-vrijdagmarkt-gent-centrum-krijgt-een-tweede-mcdonalds~ac81be93/"
-   ],
-   "announcedBy": "HLN, 23 Jan 2026 and 9 Mar 2026",
    "dateChecked": "2026-10-20"
   }
  ]

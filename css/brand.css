@@ -213,8 +213,8 @@ button,input,select{font-family:inherit}
 .srcline .sources{margin:12px 0 6px}
 .pill-btn.reserve{background:var(--accent);border-color:var(--accent);color:#111;font-weight:600;padding-inline:30px}
 .pill-btn.reserve:hover,.pill-btn.reserve:focus-visible{background:#111;border-color:#111;color:#fff}
-.resv-note{font-size:13px;color:var(--text-3);margin:10px 0 18px}
-.dmap-cap{font-size:13px;color:var(--text-3);margin:8px 0 0}
+.resv-note{font-size:13px;color:var(--text-3);margin:10px 0 0}
+.dmap-cap{font-size:13px;color:var(--text-3);margin:12px 0 4px;padding-left:4px}
 .card__foot .ext.resv{font-weight:600;color:var(--text)}
 /* neutral typographic hero when no licensed photo of the restaurant exists */
 .dhero--plain{background:radial-gradient(120% 90% at 85% 10%,#3a332a 0%,#1a1816 45%,#0d0c0b 100%)}

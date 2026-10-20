@@ -1,0 +1,405 @@
+{
+ "about": "Large franchise / multinational chains are kept OFF the site (user request 20 Oct 2026: 'we still want decent things, not big chains'). Used by scripts/import_osm.py: an OSM element is dropped when its brand:wikidata is listed, or its brand / name matches a pattern (case- and accent-insensitive, matched against the start of the name). Curated places (gent.json) and upcoming places are never dropped automatically; the import only WARNS when one matches, so a human decides. Local multi-site Ghent/Belgian businesses are kept on purpose; see 'keep'. Wikidata ids are only listed where confirmed (seen on Ghent OSM elements or well-known); name patterns cover the rest.",
+ "chains": [
+  {
+   "name": "McDonald's",
+   "wikidata": [
+    "Q38076"
+   ],
+   "patterns": [
+    "mc ?donald'?s?\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Burger King",
+   "wikidata": [
+    "Q177054"
+   ],
+   "patterns": [
+    "burger king\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "KFC",
+   "wikidata": [
+    "Q524757"
+   ],
+   "patterns": [
+    "kfc\\b",
+    "kentucky fried"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Quick",
+   "wikidata": [
+    "Q286494"
+   ],
+   "patterns": [
+    "quick$",
+    "quick (restaurant|burger)"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Domino's",
+   "wikidata": [
+    "Q839466"
+   ],
+   "patterns": [
+    "domino'?s\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Pizza Hut",
+   "wikidata": [
+    "Q191615"
+   ],
+   "patterns": [
+    "pizza hut\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Subway",
+   "wikidata": [
+    "Q244457"
+   ],
+   "patterns": [
+    "subway$"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Five Guys",
+   "wikidata": [
+    "Q1131810"
+   ],
+   "patterns": [
+    "five guys\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Taco Bell",
+   "wikidata": [
+    "Q752941"
+   ],
+   "patterns": [
+    "taco bell\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Popeyes",
+   "wikidata": [
+    "Q1330910"
+   ],
+   "patterns": [
+    "popeyes\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Tasty Crousty",
+   "wikidata": [],
+   "patterns": [
+    "tasty crousty\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "O'Tacos",
+   "wikidata": [
+    "Q28494040"
+   ],
+   "patterns": [
+    "o'? ?tacos\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Pitaya",
+   "wikidata": [],
+   "patterns": [
+    "pitaya\\b"
+   ],
+   "kind": "fast food (franchise)"
+  },
+  {
+   "name": "Sushi Shop",
+   "wikidata": [],
+   "patterns": [
+    "sushi shop\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Dunkin'",
+   "wikidata": [
+    "Q847743"
+   ],
+   "patterns": [
+    "dunkin'?\\b"
+   ],
+   "kind": "fast food"
+  },
+  {
+   "name": "Belchicken",
+   "wikidata": [
+    "Q139504961"
+   ],
+   "patterns": [
+    "belchicken\\b"
+   ],
+   "kind": "fast food franchise (BE, many sites)"
+  },
+  {
+   "name": "Ellis Gourmet Burger",
+   "wikidata": [],
+   "patterns": [
+    "ellis gourmet burger\\b"
+   ],
+   "kind": "burger franchise (NL/BE)"
+  },
+  {
+   "name": "Deliway",
+   "wikidata": [
+    "Q126195408"
+   ],
+   "patterns": [
+    "deliway\\b"
+   ],
+   "kind": "fuel-station sandwich franchise"
+  },
+  {
+   "name": "Meat Factory",
+   "wikidata": [
+    "Q129079958"
+   ],
+   "patterns": [
+    "meat factory\\b"
+   ],
+   "kind": "restaurant franchise"
+  },
+  {
+   "name": "Lunch Garden",
+   "wikidata": [
+    "Q2491217"
+   ],
+   "patterns": [
+    "lunch garden\\b"
+   ],
+   "kind": "self-service restaurant chain"
+  },
+  {
+   "name": "Vapiano",
+   "wikidata": [],
+   "patterns": [
+    "vapiano\\b"
+   ],
+   "kind": "restaurant chain"
+  },
+  {
+   "name": "Starbucks",
+   "wikidata": [
+    "Q37158"
+   ],
+   "patterns": [
+    "starbucks\\b"
+   ],
+   "kind": "coffee"
+  },
+  {
+   "name": "Costa Coffee",
+   "wikidata": [
+    "Q608845"
+   ],
+   "patterns": [
+    "costa coffee\\b"
+   ],
+   "kind": "coffee"
+  },
+  {
+   "name": "Coffee Company",
+   "wikidata": [],
+   "patterns": [
+    "coffee company$"
+   ],
+   "kind": "coffee franchise"
+  },
+  {
+   "name": "IzyCoffee",
+   "wikidata": [
+    "Q124358963"
+   ],
+   "patterns": [
+    "izy ?coffee\\b"
+   ],
+   "kind": "coffee franchise (BE, many sites)"
+  },
+  {
+   "name": "Nespresso",
+   "wikidata": [
+    "Q301301"
+   ],
+   "patterns": [
+    "nespresso\\b"
+   ],
+   "kind": "coffee (Nestlé boutique)"
+  },
+  {
+   "name": "Exki",
+   "wikidata": [],
+   "patterns": [
+    "exki\\b"
+   ],
+   "kind": "coffee & lunch chain"
+  },
+  {
+   "name": "Le Pain Quotidien",
+   "wikidata": [
+    "Q2046903"
+   ],
+   "patterns": [
+    "le pain quotidien\\b"
+   ],
+   "kind": "multinational café chain"
+  },
+  {
+   "name": "Panos",
+   "wikidata": [
+    "Q3384496"
+   ],
+   "patterns": [
+    "panos\\b"
+   ],
+   "kind": "bakery / sandwich franchise"
+  },
+  {
+   "name": "Délifrance",
+   "wikidata": [],
+   "patterns": [
+    "delifrance\\b"
+   ],
+   "kind": "bakery franchise"
+  },
+  {
+   "name": "Paul",
+   "wikidata": [
+    "Q3370417"
+   ],
+   "patterns": [
+    "paul$",
+    "boulangerie paul\\b"
+   ],
+   "kind": "multinational bakery chain"
+  },
+  {
+   "name": "Bakker Bart",
+   "wikidata": [],
+   "patterns": [
+    "bakker bart\\b"
+   ],
+   "kind": "bakery franchise"
+  },
+  {
+   "name": "Point Chaud",
+   "wikidata": [],
+   "patterns": [
+    "point chaud\\b"
+   ],
+   "kind": "bakery franchise"
+  },
+  {
+   "name": "Le Croissant",
+   "wikidata": [],
+   "patterns": [
+    "le croissant$"
+   ],
+   "kind": "bakery franchise (stations)"
+  },
+  {
+   "name": "Panda (bakery franchise)",
+   "wikidata": [],
+   "patterns": [],
+   "brandWebsite": "panda.be/verkooppunten",
+   "kind": "bakery franchise (BE, many sites); only shops linking to panda.be/verkooppunten, not Restaurant Panda or the Panda organic shop"
+  },
+  {
+   "name": "Campanile",
+   "wikidata": [
+    "Q2412064"
+   ],
+   "patterns": [
+    "campanile\\b"
+   ],
+   "kind": "hotel-chain restaurant"
+  },
+  {
+   "name": "Fastned",
+   "wikidata": [],
+   "patterns": [
+    "fastned\\b"
+   ],
+   "kind": "fuel / charging station shop"
+  },
+  {
+   "name": "Supermarket & fuel-station chains",
+   "wikidata": [],
+   "patterns": [
+    "(carrefour|delhaize|colruyt|aldi|lidl|albert heijn|okay|spar|q8|total ?energies|esso|shell|lukoil|texaco)\\b"
+   ],
+   "kind": "in-store / fuel-station bakeries and cafés"
+  },
+  {
+   "name": "Hotel-chain restaurants",
+   "wikidata": [],
+   "patterns": [
+    "(ibis|novotel|mercure|holiday inn|nh |marriott|hilton|radisson|b&b hotel|van der valk)\\b"
+   ],
+   "kind": "hotel breakfast rooms / hotel restaurants"
+  }
+ ],
+ "keep": [
+  {
+   "name": "Le Botaniste",
+   "why": "Belgian plant-based restaurant group (≈15–20 sites), fully vegan, verified; not a franchise of a multinational — borderline; kept."
+  },
+  {
+   "name": "WAY, O'yo, Aernoudt, Van Hecke, Mertens, Himschoot, Chefdag, Barouche, Holy Guacamoly, Catberry",
+   "why": "Local Ghent multi-site businesses."
+  },
+  {
+   "name": "Umamido, Balls & Glory, Bavet",
+   "why": "Small Belgian multi-site restaurant groups (≈5–15 sites), not multinational franchises."
+  },
+  {
+   "name": "Hawaiian Poké Bowl",
+   "why": "Belgian poke brand (.be), 3 Ghent spots — borderline; kept."
+  },
+  {
+   "name": "8tea5",
+   "why": "Belgian bubble-tea chain, small — borderline; kept."
+  },
+  {
+   "name": "Tom & Dellas",
+   "why": "Belgian craft-food café brand, few sites — borderline; kept."
+  },
+  {
+   "name": "Tasty (sandwich bar)",
+   "why": "Independent Ghent sandwich bar named 'Tasty'; not Tasty Crousty (no brand tag)."
+  },
+  {
+   "name": "Wok restaurants ('t Wokske, Open Wok, Wok Away, Wok King, The Wokbar)",
+   "why": "Independent, not part of a wok chain."
+  },
+  {
+   "name": "Sint-Annakerk restaurant & wine bar (Delhaize), upcoming",
+   "why": "Restaurant inside the restored church; Delhaize is the leaseholder, operators not announced — borderline; kept for review."
+  }
+ ]
+}

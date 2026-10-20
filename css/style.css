@@ -94,7 +94,8 @@ body.detail{background:#faf8f4}
 
 .fact.wide{grid-column:1/-1}
 .yes{color:#2f7a3b;font-weight:500}.no{color:#a33;font-weight:500}.unk{color:#666}
-.dmap{height:340px;border-radius:28px;overflow:hidden;border:1px solid #111}
+.dmap{height:340px;border-radius:28px;overflow:hidden;border:1px solid #111;margin-top:20px}   /* breathing room under the CTA pills / booking note */
+@media (max-width:700px){.dmap{margin-top:14px}}
 .panel h2{font-weight:600;font-size:13px;letter-spacing:.2em;text-transform:uppercase;margin:34px 0 14px}
 .panel h2:first-child{margin-top:0}
 .dev{border:1px solid #111;border-radius:22px;padding:14px 18px;margin-bottom:12px;background:#fff}
