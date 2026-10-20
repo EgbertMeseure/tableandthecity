@@ -1,0 +1,202 @@
+{
+ "about": "Bakeries & patisseries shown on the site are artisan only (user request 20 Oct 2026: 'the more fancy, better, handmade/artisan bakeries, like Bakker Klaas, Norman Bakery and such'). scripts/import_osm.py drops every OSM shop=bakery / shop=pastry EXCEPT: (1) elements listed in 'keep' (artisan confirmed by a source; filled by hand or by scripts/merge_bakeries.py), (2) elements listed in 'branchOf' (another shop of a curated bakery: not shown separately, counted as that curated place). Curated bakeries in data/cities/<city>.json are never dropped. A confirmed vegan/veggie or breakfast level alone does NOT keep a bakery: it must also be in 'keep' (see data/osm/bakeries-pending.json for those waiting for an artisan check). Remove an entry to drop a place again.",
+ "keep": {
+  "node/10295133531": {
+   "name": "Catberry",
+   "address": "Lange Violettestraat 4, 9000 Gent",
+   "category": "patisserie",
+   "style": [
+    "cakes",
+    "patisserie",
+    "vegan"
+   ],
+   "website": "https://catberry.be/",
+   "instagram_handle": "catberry.pastries",
+   "description": "Fully plant-based patisserie and coffee bar baking its cakes, brownies, cupcakes and frangipane in-house, also serving breakfast, lunch and high tea.",
+   "source": "https://catberry.be/koffiebar/",
+   "sources": [
+    "https://catberry.be/koffiebar/",
+    "https://catberry.be/faq/",
+    "https://catberry.be/",
+    "https://visit.gent.be/nl/eten-drinken/catberry"
+   ],
+   "features": {
+    "seating": true,
+    "vegan": true,
+    "glutenFree": true,
+    "openSunday": true,
+    "breakfast": true
+   },
+   "features_evidence": {
+    "seating": "https://catberry.be/koffiebar/",
+    "vegan": "https://catberry.be/faq/",
+    "glutenFree": "https://catberry.be/faq/",
+    "openSunday": "https://catberry.be/koffiebar/",
+    "breakfast": "https://catberry.be/"
+   },
+   "openingHours": null,
+   "openingHoursNote": "Opening days differ between its own website, FAQ and OSM — check catberry.be before visiting."
+  },
+  "node/11004345644": {
+   "name": "Patisserie Suffys",
+   "address": "Loofblommestraat 59, 9051 Sint-Denijs-Westrem",
+   "category": "patisserie",
+   "style": [
+    "patisserie",
+    "traditional bakery"
+   ],
+   "website": "https://www.suffys.be/",
+   "instagram_handle": "suffyspatisserie",
+   "description": "Family bakery-patisserie of Kristof Suffys making bread, viennoiserie, patisserie and chocolates daily in its own workshops, with a second shop in Sint-Martens-Latem.",
+   "source": "https://www.suffys.be/",
+   "sources": [
+    "https://www.suffys.be/",
+    "https://www.suffys.be/contact/",
+    "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/sint-martens-latem/tijd-en-liefde-zijn-het-belangrijkste.-beste-bakker-van-latem-maakt-nog-alles-zelf/55773422.html"
+   ],
+   "features": {
+    "openSunday": true
+   },
+   "features_evidence": {
+    "openSunday": "https://www.suffys.be/contact/"
+   }
+  },
+  "node/1295215428": {
+   "name": "De Gentsche Koekedoos",
+   "address": "Goudstraat 31, 9000 Gent",
+   "category": "bakery",
+   "style": [
+    "mastellen",
+    "traditional bakery"
+   ],
+   "description": "Small craft bakery of Patrick Dutilleul and Claudine Leupe, singled out by De Tijd's Sabato as makers of real freshly baked Gentse mastellen, sold on Fridays and Saturdays.",
+   "source": "https://www.tijd.be/sabato/the-100-food-2023/6-winkels-in-gent-voor-een-geslaagde-doe-het-zelf-brunch/10500228.html",
+   "sources": [
+    "https://www.tijd.be/sabato/the-100-food-2023/6-winkels-in-gent-voor-een-geslaagde-doe-het-zelf-brunch/10500228.html",
+    "https://www.tijd.be/sabato/the-100-food-2023/gestreken-kost-de-gentsche-koekedoos-gent/10498223.html",
+    "https://bakkerindebuurt.be/bakkers-in-gent/de-gentsche-koekedoos-in-gent/"
+   ],
+   "features": {
+    "openSunday": false
+   },
+   "features_evidence": {
+    "openSunday": "https://bakkerindebuurt.be/bakkers-in-gent/de-gentsche-koekedoos-in-gent/"
+   },
+   "openingHours": null,
+   "openingHoursNote": "Hours differ between sources (OSM vs bakkerindebuurt.be) — check before visiting."
+  },
+  "node/13904090843": {
+   "name": "CoPain",
+   "address": "Ferdinand Lousbergskaai 33, 9000 Gent",
+   "category": "bakery",
+   "style": [
+    "bread",
+    "sourdough"
+   ],
+   "website": "https://www.copain.gent/",
+   "instagram_handle": "broodmakerscopain",
+   "description": "Cooperative bakery founded in 2016 under baker Adriaan Druwé, baking sourdough and long-fermented wheat, spelt and rye breads with flour from Molens Descamps, sold from its shop in the Lousbergmarkt covered market.",
+   "source": "https://www.copain.gent/over-ons",
+   "sources": [
+    "https://www.copain.gent/over-ons",
+    "https://www.copain.gent/aanbod",
+    "https://www.copain.gent/contact",
+    "https://www.lousbergmarkt.be/",
+    "https://www.copain.gent/post/dag-van-de-ambachten"
+   ],
+   "features": {
+    "openSunday": true
+   },
+   "features_evidence": {
+    "openSunday": "https://www.copain.gent/contact"
+   }
+  },
+  "node/3457029648": {
+   "name": "Bakkerij Bernard",
+   "address": "Brusselsesteenweg 487, 9050 Gentbrugge",
+   "category": "bakery",
+   "style": [
+    "sourdough",
+    "traditional bakery"
+   ],
+   "description": "Gentbrugge bakery-cum-brocante shop where Bernard Van Steenberge bakes sourdough from a starter over 90 years old in a wood-fired oven, plus speculaas and award-winning Gentse mastellen.",
+   "source": "https://www.demorgen.be/beter-leven/geef-ons-dagelijks-zuurdesembrood-50-bijzondere-bakkers-in-brussel-en-vlaanderen~baf8320b/",
+   "sources": [
+    "https://www.demorgen.be/beter-leven/geef-ons-dagelijks-zuurdesembrood-50-bijzondere-bakkers-in-brussel-en-vlaanderen~baf8320b/",
+    "https://www.tijd.be/sabato/the-100-food-2023/6-winkels-in-gent-voor-een-geslaagde-doe-het-zelf-brunch/10500228.html",
+    "https://www.hln.be/gent/bakker-bernard-bakt-met-deeg-dat-91-jaar-oud-is-geeft-een-typische-geur-die-de-hele-dag-blijft-hangen~a3c16a5d/",
+    "https://www.broodenbanket.be/19139/",
+    "https://www.made-in.be/oost-vlaanderen/bernard-schaalt-zijn-populaire-bakkerij-terug-met-pijn-in-het-hart-16-a-18-uur-per-dag-dat-is-niet-langer-verantwoord/"
+   ],
+   "features": {
+    "openSunday": false
+   },
+   "features_evidence": {
+    "openSunday": "https://www.made-in.be/oost-vlaanderen/bernard-schaalt-zijn-populaire-bakkerij-terug-met-pijn-in-het-hart-16-a-18-uur-per-dag-dat-is-niet-langer-verantwoord/"
+   }
+  },
+  "node/9264478841": {
+   "name": "Tartelette (Lies & Maurits)",
+   "address": "Lange Kruisstraat 6, 9000 Gent",
+   "category": "patisserie",
+   "style": [
+    "patisserie",
+    "tarts"
+   ],
+   "website": "https://www.tartelette.be/",
+   "instagram_handle": "tartelette.gent",
+   "description": "Tartelette bar run by pastry chefs Lies Dhont and Maurits van Lookeren (ex-De Baere and Del Rey) serving seasonal sweet and savoury tartlets finished to order, to eat in or pre-order for takeaway.",
+   "source": "https://www.tartelette.be/",
+   "sources": [
+    "https://www.tartelette.be/",
+    "https://www.made-in.be/oost-vlaanderen/lies-en-maurits-openen-tartelette-bar-je-kan-op-voorhand-een-taartje-reserveren/"
+   ],
+   "features": {
+    "seating": true,
+    "openSunday": true
+   },
+   "features_evidence": {
+    "seating": "https://www.tartelette.be/",
+    "openSunday": "https://www.tartelette.be/"
+   }
+  }
+ },
+ "branchOf": {
+  "node/1802834698": {
+   "curated": "himschoot",
+   "name": "Himschoot",
+   "note": "Koningin Elisabethlaan 112 shop",
+   "source": "https://www.bakkerijhimschoot.be/"
+  },
+  "node/7004508573": {
+   "curated": "himschoot",
+   "name": "Himschoot",
+   "note": "Dok-Noord tearoom",
+   "source": "https://www.bakkerijhimschoot.be/"
+  },
+  "node/5515898234": {
+   "curated": "bakker-klaas-wintercircus",
+   "name": "Bakker Klaas",
+   "note": "Mariakerke shop (Alphonse Claeys-Bouüaertlaan 5)",
+   "source": "https://www.bakkerklaas.be/"
+  },
+  "node/12345668083": {
+   "curated": "morgen-bakkerij",
+   "name": "Morgen",
+   "note": "same shop, OSM node about 170 m off the curated geocode",
+   "source": "https://morgen-bakkerij.be/pages/contact"
+  },
+  "node/686401578": {
+   "curated": "de-broodstokerij-gent",
+   "name": "De Broodstokerij",
+   "note": "Sint-Amandsberg shop (Antwerpsesteenweg 303)",
+   "source": "https://www.debroodstokerij.be/"
+  },
+  "node/4678136994": {
+   "curated": "julies-house",
+   "name": "Julie's House",
+   "note": "Koningin Elisabethlaan 26 shop",
+   "source": "https://www.julieshouse.be/"
+  }
+ }
+}

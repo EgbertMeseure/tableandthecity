@@ -8,5 +8,10 @@
   "lat": 51.070828,
   "lng": 3.729969,
   "geoSource": "OpenStreetMap Nominatim"
+ },
+ "Kortrijksesteenweg 1086, 9051 Gent": {
+  "lat": 51.021575,
+  "lng": 3.689763,
+  "geoSource": "OpenStreetMap Nominatim"
  }
 }

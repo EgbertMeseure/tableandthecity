@@ -1,0 +1,31 @@
+{
+ "about": "Permanently closed places. scripts/import_osm.py skips these OSM elements even while OSM still has them (fix OSM too); merge scripts never add them. Key = OSM ref, or 'name:<name>' when not in OSM.",
+ "places": {
+  "node/12337524429": {
+   "name": "Fugazi",
+   "address": "Vlaanderenstraat 51, 9000 Gent",
+   "closed": "2025-08",
+   "source": "HLN, Aug 2025 (per cocktail bar research handoff 20 Oct 2026)"
+  },
+  "name:The Drifter": {
+   "name": "The Drifter",
+   "address": "Steendam 53, 9000 Gent",
+   "closed": "2026-08-29",
+   "source": "https://www.moniteur-alertes.be/evenements-cloture/BE0799589707/"
+  },
+  "node/6884858560": {
+   "name": "CoPain",
+   "address": "Dok-Zuid 22, 9000 Gent",
+   "closed": "2022-12-16",
+   "source": "https://www.copain.gent/post/sluiting-vestiging-dok-zuid",
+   "note": "now head office / workshop only; the shop is in the Lousbergmarkt (node/13904090843)"
+  },
+  "node/1491174588": {
+   "name": "Catberry",
+   "address": "Bommelstraat, 9000 Gent",
+   "closed": "before 2026",
+   "source": "https://catberry.be/koffiebar/",
+   "note": "previous location; Catberry is now at Lange Violettestraat 4 (node/10295133531)"
+  }
+ }
+}

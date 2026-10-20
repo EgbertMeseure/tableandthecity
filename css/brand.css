@@ -201,6 +201,7 @@ button,input,select{font-family:inherit}
 .ft-legend .sw.on{background:var(--ok-bg);border-color:var(--ok)}
 .ftgrid{list-style:none;margin:0 0 10px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
 .ft{position:relative;display:flex;align-items:center;gap:8px;min-height:52px;padding:10px 14px;border:1px solid #d6d0c4;border-radius:12px;background:#fff;color:#6b665d;font-size:14px;font-weight:500;line-height:1.25;cursor:default}
+.ft__note{display:block;margin-top:2px;font-size:12px;font-weight:400;color:var(--text-3)}
 .ft.on{background:var(--ok-bg);border-color:var(--ok);color:var(--ok-ink)}
 .ft__ic{flex:0 0 16px;width:16px;height:16px;fill:none;stroke:var(--ok);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .ft[data-state="unknown"]{border-style:solid}

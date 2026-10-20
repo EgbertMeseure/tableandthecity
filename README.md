@@ -125,9 +125,11 @@ Without an endpoint, **Send** opens a mailto with the selections pre-written (to
 ## Full coverage: OpenStreetMap base list + veggie/vegan layer
 Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ranked first), the site loads every food & drink business in Gent
 (incl. deelgemeenten) from OpenStreetMap: `data/cities/gent-osm.json`, built by `scripts/import_osm.py` (Overpass API, idempotent).
-- Mapping: restaurant → Restaurants (brasserie/bistro by name, else generic), fast_food → Restaurants › Quick bites, pub/bar/biergarten → Cafés & bars
-  (irish pub / cocktail bar / beer bar by tags or name, else café), cafe → Coffee (specialty coffee by name, else coffee house), shop=coffee → coffee shop/roaster,
-  bakery → Bakeries, pastry → Patisserie. Features (terrace, wheelchair, wifi, takeaway, gluten-free, vegan/veggie, open Sunday) only when explicitly tagged
+- Mapping: restaurant → Restaurants (brasserie/bistro by name, else generic), fast_food → dropped (no frituren / snack bars / kebab / night shops) unless it has a confirmed vegan/vegetarian/vegan-friendly level or breakfast/brunch → Restaurants › Casual (`data/osm/keep-exceptions.json`), pub/bar/biergarten → Cafés & bars
+  (irish pub / cocktail bar / beer bar / dance / brown café by tags or name; generic cafés are dropped with the same exceptions), cafe → Coffee (specialty coffee
+  by name; generic coffee houses are dropped with the same exceptions), shop=coffee → coffee shop/roaster, bakery → Bakeries, pastry → Patisserie — artisan
+  only: OSM bakeries/patisseries are dropped unless listed in `data/bakeries-artisan.json` (keep / branchOf). Permanently closed places in
+  `data/osm/closed.json` are skipped. Cocktail bars and artisan bakeries from research: `scripts/merge_cocktailbars.py`, `scripts/merge_bakeries.py`. Features (terrace, wheelchair, wifi, takeaway, gluten-free, vegan/veggie, open Sunday) only when explicitly tagged
   (evidence "OpenStreetMap: tag=value"). No descriptions are invented; OSM places show a "not yet reviewed" note and the feedback block.
 - Dedupe: an OSM element with a similar name < 60 m (or the same distinctive name < 150 m) from a curated record is not added; `--fill-curated` only fills
   null fields of the curated record (website, phone, hours, terrace, wheelchair, gluten-free). Matches: `data/osm/gent-osm-matches.json`.

@@ -51,10 +51,10 @@ def geocode(addr):
     cache = json.loads(GEO.read_text()) if GEO.exists() else {}
     if addr not in cache:
         time.sleep(1.1)
-        q = urllib.parse.urlencode({'q': addr, 'format': 'json', 'limit': 1, 'countrycodes': 'be'})
+        q = urllib.parse.urlencode({'q': addr, 'format': 'json', 'limit': 1, 'countrycodes': 'be', 'addressdetails': 0})
         req = urllib.request.Request(f'https://nominatim.openstreetmap.org/search?{q}', headers={'User-Agent': 'TableAndTheCity-data/1.0 (+https://tableandthecity.com)'})
         res = json.loads(urllib.request.urlopen(req, timeout=20).read())
-        cache[addr] = {'lat': round(float(res[0]['lat']), 6), 'lng': round(float(res[0]['lon']), 6), 'geoSource': 'OpenStreetMap Nominatim'} if res and 'Gent' in res[0].get('display_name', '') else {}
+        cache[addr] = {'lat': round(float(res[0]['lat']), 6), 'lng': round(float(res[0]['lon']), 6), 'geoSource': 'OpenStreetMap Nominatim'} if res and 'Gent' in res[0].get('display_name', '') and (not (pc := re.search(r'\b9\d{3}\b', addr)) or pc.group(0) in res[0]['display_name']) else {}
         GEO.write_text(json.dumps(cache, ensure_ascii=False, indent=1) + '\n')
     return cache[addr]
 

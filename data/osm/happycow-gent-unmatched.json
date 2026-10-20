@@ -344,6 +344,25 @@
   "hcSection": "restaurant"
  },
  {
+  "name": "Hawaiian Poke Bowl",
+  "address": "Vlaanderenstraat 90",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "International",
+   "Take-out",
+   "Asian",
+   "Fusion",
+   "Honey",
+   "Hawaiian",
+   "Non-veg"
+  ],
+  "info": "Accepts credit cards. Mon-Sun 11:00-22:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
   "name": "Hawaiian Poke Bowl - Centrum",
   "address": "Kalandestraat 1",
   "price": "Inexpensive",
@@ -359,6 +378,25 @@
    "Non-veg"
   ],
   "info": "Mon-Sun 11:00-22:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Hawaiian Poké Bowl - Gent Kraanlei",
+  "address": "Kraanlei 1",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "International",
+   "Take-out",
+   "Asian",
+   "Fusion",
+   "Honey",
+   "Hawaiian",
+   "Non-veg"
+  ],
+  "info": "Accepts credit cards. Mon-Sun 11:00-22:00",
   "level": "veggie-friendly",
   "hcSection": "restaurant"
  },
@@ -875,6 +913,17 @@
   "hcSection": "other"
  },
  {
+  "name": "Have A Roll",
+  "address": "12 Koestraat",
+  "price": "Inexpensive",
+  "tags": [
+   "Bakery"
+  ],
+  "info": "A completely vegan bakery that offers vegan cinnamon rolls with a range of flavours such as classic, caramel pecan, apple, and snickers.  Mon-Sun 11:00-18:00",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
   "name": "Holy Cow",
   "address": "Lange Kruisstraat 7",
   "price": "Inexpensive",
@@ -1040,11 +1089,34 @@
   "hcSection": "other"
  },
  {
+  "name": "Bakery Frimout",
+  "address": "Zwijnaardsesteenweg 278",
+  "price": "",
+  "tags": [
+   "Bakery"
+  ],
+  "info": "Bakery that has vegan koffiekoeken.  Mon-Thu 06:00-18:30, Fri 06:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
   "name": "Bakkerij Himschoot",
   "address": "Kon Elisabethlaan 112",
   "price": "Inexpensive",
   "tags": [],
   "info": "Non-vegan bakery offering vegan ice cream flavors. Flavors may include chocolate, vanilla, fruit, or straciatella.  Mon-Sun 07:30-18:30",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Bakkerij Jonas",
+  "address": "Evergemsesteenweg 62",
+  "price": "Moderate",
+  "tags": [
+   "Take-out",
+   "Bakery"
+  ],
+  "info": "Bakery with many vegan pastries, pies, sandwiches and bread types. Available for takeaway only.  Mon-Tue 06:30-12:30, 13:30-18:00, Wed 06:30-13:30, Thu-Fri 06:30-12:30, 13:30-18:00, Sat 06:30-17:00",
   "level": "vegan-friendly",
   "hcSection": "other"
  },
@@ -1275,6 +1347,15 @@
   "tags": [],
   "info": "Wheelchair accessible. Mon-Thu 10:00-18:00, Fri-Sat 10:00-18:30",
   "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Mayana",
+  "address": "Sint-Pietersnieuwstraat 99",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Chocolate bar offering oat and almond milk for hot chocolate as well as vegan ice-cream, brownies and chocolate.  Mon-Fri 11:00-22:00",
+  "level": "vegan-friendly",
   "hcSection": "other"
  },
  {

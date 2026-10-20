@@ -1,0 +1,11 @@
+{
+ "about": "OSM bakeries with a confirmed vegan/veggie level or breakfast that the import dropped because no source confirms they are artisan. Add a sourced entry to data/bakeries-artisan.json (keep) or via scripts/merge_bakeries.py to show them.",
+ "places": {
+  "osm-have-a-roll-n11394481011": {
+   "osm": "node/11394481011",
+   "name": "Have a Roll",
+   "why": "veggie level: vegan",
+   "website": "https://havearoll.com/"
+  }
+ }
+}

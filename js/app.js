@@ -10,27 +10,28 @@
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
   const QUICK = ['new', 'veggie', 'vegan', 'events'];                  // chips in the main row
-  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', vlevel: '', meal: '', sort: 'rec', ev: '' };
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', vlevel: '', meal: '', style: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
   const params = new URLSearchParams(location.search);
-  ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel', 'meal'].forEach(k => params.get(k) && (state[k] = params.get(k)));
+  ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel', 'meal', 'style'].forEach(k => params.get(k) && (state[k] = params.get(k)));
   if (!['', 'vegan', 'vegetarian', 'vegan-friendly', 'veggie-friendly'].includes(state.vlevel)) state.vlevel = '';
   if (!['', 'open', 'soon'].includes(state.stage)) state.stage = '';
   if (!['', 'any', 'breakfast', 'brunch', 'wkbrunch', 'early'].includes(state.meal)) state.meal = '';
+  if (!/^[a-z-]{0,20}$/.test(state.style)) state.style = '';
   if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
   if (!['rec', 'dist', 'new', 'price'].includes(state.sort)) state.sort = 'rec';
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
-    ['q', ...ADV, 'stage', 'vlevel', 'meal', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
+    ['q', ...ADV, 'stage', 'vlevel', 'meal', 'style', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
     if (state.sort !== 'rec') p.set('sort', state.sort);
     QUICK.forEach(k => state[k] && p.set(k, '1'));
     history.replaceState(null, '', location.pathname + '?' + p + location.hash);
   }
   const advCount = () => ADV.filter(k => state[k]).length;
-  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.vlevel || state.meal || state.origin || state.sort !== 'rec');
+  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.vlevel || state.meal || state.style || state.origin || state.sort !== 'rec');
   /* announced-but-not-open places only appear under New (all new / opening soon), never in the plain lists */
   const isNewish = r => r.isNew || r.upcoming;
   const OPEN = R.filter(r => !r.upcoming);
@@ -62,26 +63,26 @@
     { label: 'Restaurants', img: 'finedining', f: { group: 'restaurants' }, subs: [
       sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
       sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
-      sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Quick bites', { group: 'restaurants', type: 'quick_bites' }),
+      sub('Casual', { group: 'restaurants', type: 'casual' }),
       sub('Vegan', { group: 'restaurants', vlevel: 'vegan' }, 1), sub('Vegetarian', { group: 'restaurants', vlevel: 'vegetarian' }, 1),
       sub('Vegan-friendly', { group: 'restaurants', vegan: true }, 1), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
     { label: 'Cafés & bars', img: 'bar', f: { group: 'cafes_bars' }, subs: [
       sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
-      sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), sub('Cafés', { group: 'cafes_bars', type: 'cafe' })] },   // beer/cocktail bars (few) are under 'All'
+      sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), { ...sub('Cocktail bars', { group: 'cafes_bars', type: 'cocktail_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All'
     { label: 'Coffee', img: 'coffee', f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
-      sub('Coffee houses', { group: 'coffee', type: 'coffee_house' }), sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' }),
+      sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' }),
       sub('Vegan', { group: 'coffee', vlevel: 'vegan' })] },
-    { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),
-      sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Vegan options', { group: 'bakeries', vegan: true })] },
+    { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
+      sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' }), sub('Vegan options', { group: 'bakeries', vegan: true })] },
     { label: 'Veggie & vegan', img: 'vegan', f: { veggie: true }, subs: [sub('100% vegan', { vlevel: 'vegan' }), sub('100% vegetarian', { vlevel: 'vegetarian' }),
       sub('Vegan-friendly', { vegan: true }), sub('Options only', { vlevel: 'veggie-friendly' })] },
     { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
-    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
+    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
-  GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= 3); });   // tiny sub-groups stay reachable via filters
+  GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
   // each card is a stadium-shaped tile; its sub-menu lives INSIDE the card (revealed from the bottom, clipped by the card's radius)
   $('#carousel').innerHTML = GROUPS.map((c, i) => `
     <div class="pillcard bw-host grain${c.subs.length ? ' has-menu' : ''}" data-cat="${i}">
@@ -152,7 +153,7 @@
   // ---- filter options ----
   const opt = (sel, vals, fmt = v => v) => { $(sel).insertAdjacentHTML('beforeend', vals.map(v => `<option value="${esc(v)}">${esc(fmt(v))}</option>`).join('')); };
   opt('#f-group', Object.keys(GROUP_LABEL).filter(g => R.some(r => r.group === g)), g => GROUP_LABEL[g]);
-  const CATS_BY_G = { restaurants: ['fine dining', 'gastro-bistro', 'bistro', 'brasserie', 'bistro+brasserie', 'casual', 'quick_bites', 'restaurant'],
+  const CATS_BY_G = { restaurants: ['fine dining', 'gastro-bistro', 'bistro', 'brasserie', 'bistro+brasserie', 'casual', 'restaurant'],
     cafes_bars: ['dance_cafe', 'brown_cafe', 'irish_pub', 'cocktail_bar', 'beer_bar', 'cafe'], coffee: ['coffee_bar', 'coffee_house', 'coffee_shop'], bakeries: ['bakery', 'patisserie'] };
   const catOpt = v => v === 'bistro+brasserie' ? 'Bistro + brasserie' : v === 'restaurant' ? 'Restaurant (type not classified)' : CAT_LABEL[v];
   $('#f-type').insertAdjacentHTML('beforeend', Object.entries(CATS_BY_G).map(([g, vs]) => {
@@ -191,6 +192,7 @@
       if (state.vegan && r.vegan !== 'yes') return false;
       if (state.vlevel && r.veggieLevel !== state.vlevel) return false;
       if (state.meal && !MEAL(r, state.meal)) return false;
+      if (state.style && !(r.bakeryStyle || []).includes(state.style)) return false;
       if (r.upcoming && !state.new) return false;
       if (state.new && !isNewish(r)) return false;
       if (state.stage && (state.stage === 'soon') !== !!r.upcoming) return false;

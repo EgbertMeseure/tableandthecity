@@ -10,6 +10,15 @@
    "hash": "2e72871395c7",
    "checked": "2026-10-20"
   },
+  "atelier-joost-arijs": {
+   "url": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092",
+   "source": "https://joostarijs.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "1a0c1fda3d0d",
+   "checked": "2026-10-20"
+  },
   "baba-jacquet": {
    "url": "https://babajacquet.be/cdn/shop/files/2503_BABA-GENT-86_1_72ffb824-60ea-4744-a6ca-96fa74798aa7.jpg?v=1766159222",
    "source": "https://babajacquet.be/",
@@ -17,6 +26,15 @@
    "w": 1600,
    "h": 1067,
    "hash": "dc40b8bd2d6c",
+   "checked": "2026-10-20"
+  },
+  "bar-bassie": {
+   "url": "https://barbassie.be/og/cover.jpg",
+   "source": "https://barbassie.be/en",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "c07b6b2c0d88",
    "checked": "2026-10-20"
   },
   "bloch-gent": {
@@ -62,6 +80,15 @@
    "w": 1200,
    "h": 630,
    "hash": "e742ad711852",
+   "checked": "2026-10-20"
+  },
+  "little-red-rooster": {
+   "url": "https://primary.jwwb.nl/public/p/m/b/temp-mwauebbpvmgedcquihnp/lrr-13-high.jpg",
+   "source": "https://www.littleredrooster.be/",
+   "type": "og:image",
+   "w": 1080,
+   "h": 720,
+   "hash": "1c6d412d91c2",
    "checked": "2026-10-20"
   },
   "lof": {
@@ -197,6 +224,15 @@
    "w": 1054,
    "h": 862,
    "hash": "41daaef93da5",
+   "checked": "2026-10-20"
+  },
+  "osm-bridge-brasserie-n12830913043": {
+   "url": "https://www.brasseriebridge.be/wp-content/uploads/2022/04/Foto03_web-1-1030x687-1.jpg",
+   "source": "https://www.brasseriebridge.be/",
+   "type": "og:image",
+   "w": 1030,
+   "h": 687,
+   "hash": "462c290ac01e",
    "checked": "2026-10-20"
   },
   "osm-cafe-de-welkom-n13238658621": {
@@ -792,6 +828,15 @@
    "h": 1153,
    "hash": "6dcd5b5bc673",
    "checked": "2026-10-20"
+  },
+  "whynot": {
+   "url": "https://www.whynot.gent/og/home.jpg",
+   "source": "https://whynot.gent/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "5045a9f570b8",
+   "checked": "2026-10-20"
   }
  },
  "rejected": {
@@ -824,6 +869,11 @@
   "bar-bidon": {
    "why": "error: SSLError",
    "checked": "2026-10-20"
+  },
+  "bar-dada": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://bardada.gent/assets/images/share-image.png"
   },
   "bask": {
    "why": "no og:image / twitter:image",
@@ -961,6 +1011,11 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
+  "jiggers": {
+   "why": "manual review: poster / graphic / ad (flyer with hours), not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://freight.cargo.site/i/d9986075a6212cbd67fff6aed08de76949aa96690d8e66e2d25e2db79cc54ee2/Jiggers-socialsharing.jpg"
+  },
   "jour-de-fete": {
    "why": "error: SSLError",
    "checked": "2026-10-20"
@@ -1023,6 +1078,10 @@
   },
   "meme-gusta": {
    "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "mexcalli": {
+   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "midi": {
@@ -1457,6 +1516,10 @@
    "why": "error: SSLError",
    "checked": "2026-10-20"
   },
+  "osm-brasserie-klaverblad-n12207219295": {
+   "why": "too small (700x466)",
+   "checked": "2026-10-20"
+  },
   "osm-brasserie-leon-n9502823727": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -1668,6 +1731,10 @@
   },
   "osm-conchi-s-peruvian-cuisine-n7142820246": {
    "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-copain-n13904090843": {
+   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "osm-copain-n6884858560": {
@@ -3533,6 +3600,10 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
+  "piu-di-piu": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
   "porter-house": {
    "why": "manual review: logo / wordmark, not a photo of the place",
    "checked": "2026-10-20",
@@ -3575,6 +3646,10 @@
    "checked": "2026-10-20",
    "url": "https://smorbrod.gent/cdn/shop/files/SMORBROD_licht_met-slogan_8c6206a3-6eaa-4b7e-8549-0925d484eab5.png?height=628&pad_color=ffffff&v=1630607050&width=1200"
   },
+  "soan": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/68b896946512c81bad0ab2a6/t/690a53d4dc81b2568c54d118/1762284500964/soan_logo_brown_rgb.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
   "steendam-66": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -3602,6 +3677,10 @@
   },
   "the-celtic-towers": {
    "why": "image HTTP 404 text/html; charset=UTF-8",
+   "checked": "2026-10-20"
+  },
+  "the-cobbler": {
+   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "the-kitchen-1898-the-post": {

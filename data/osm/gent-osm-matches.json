@@ -21,6 +21,13 @@
   "m": 9
  },
  {
+  "osm": "node/686401578",
+  "osmName": "De Broodstokerij",
+  "id": "de-broodstokerij-gent",
+  "name": "De Broodstokerij",
+  "m": 2206
+ },
+ {
   "osm": "node/1187211187",
   "osmName": "De Dulle Griet",
   "id": "de-dulle-griet",
@@ -117,6 +124,13 @@
   "id": "de-geus-van-gent",
   "name": "De Geus van Gent",
   "m": 4
+ },
+ {
+  "osm": "node/1802834698",
+  "osmName": "Himschoot",
+  "id": "himschoot",
+  "name": "Bakkerij Himschoot",
+  "m": 2169
  },
  {
   "osm": "node/1804222878",
@@ -245,6 +259,13 @@
   "m": 0
  },
  {
+  "osm": "node/4678136994",
+  "osmName": "Julie's House",
+  "id": "julies-house",
+  "name": "Julie's House",
+  "m": 2201
+ },
+ {
   "osm": "node/4769782821",
   "osmName": "Vrijmoed",
   "id": "vrijmoed",
@@ -280,18 +301,25 @@
   "m": 0
  },
  {
+  "osm": "node/5515898234",
+  "osmName": "Bakker Klaas",
+  "id": "bakker-klaas-wintercircus",
+  "name": "Bakker Klaas (Wintercircus)",
+  "m": 4562
+ },
+ {
+  "osm": "node/5558643521",
+  "osmName": "The Cobbler",
+  "id": "the-cobbler",
+  "name": "The Cobbler",
+  "m": 0
+ },
+ {
   "osm": "node/5598981422",
   "osmName": "Ventura",
   "id": "cafe-ventura",
   "name": "Café Ventura",
   "m": 3
- },
- {
-  "osm": "node/6045669487",
-  "osmName": "Bloch",
-  "id": "bloch-gent",
-  "name": "Bloch",
-  "m": 8
  },
  {
   "osm": "node/6138202006",
@@ -385,6 +413,13 @@
   "m": 3
  },
  {
+  "osm": "node/7004508573",
+  "osmName": "Himschoot",
+  "id": "himschoot",
+  "name": "Bakkerij Himschoot",
+  "m": 1334
+ },
+ {
   "osm": "node/7004798512",
   "osmName": "WAY",
   "id": "way-dok-noord",
@@ -425,6 +460,13 @@
   "id": "elders",
   "name": "Elders",
   "m": 5
+ },
+ {
+  "osm": "node/9968047089",
+  "osmName": "Jigger's",
+  "id": "jiggers",
+  "name": "Jigger's",
+  "m": 0
  },
  {
   "osm": "node/10170071134",
@@ -497,11 +539,25 @@
   "m": 4
  },
  {
+  "osm": "node/11156864221",
+  "osmName": "Piu Di Piu",
+  "id": "piu-di-piu",
+  "name": "Piu di Piu",
+  "m": 0
+ },
+ {
   "osm": "node/11156941450",
   "osmName": "Bianca",
   "id": "bianca",
   "name": "Bianca",
   "m": 24
+ },
+ {
+  "osm": "node/11157999249",
+  "osmName": "Fourth Wave",
+  "id": "fourth-wave",
+  "name": "Fourth Wave",
+  "m": 0
  },
  {
   "osm": "node/11352130032",
@@ -546,11 +602,25 @@
   "m": 16
  },
  {
+  "osm": "node/12052382373",
+  "osmName": "Mexcalli",
+  "id": "mexcalli",
+  "name": "Mexcalli",
+  "m": 0
+ },
+ {
   "osm": "node/12312749498",
   "osmName": "Taberna Bask",
   "id": "taberna-bask",
   "name": "Taberna Bask",
   "m": 30
+ },
+ {
+  "osm": "node/12320890446",
+  "osmName": "Bar Bassie",
+  "id": "bar-bassie",
+  "name": "Bar Bassie",
+  "m": 0
  },
  {
   "osm": "node/12323439126",
@@ -565,6 +635,27 @@
   "id": "bakker-klaas-wintercircus",
   "name": "Bakker Klaas (Wintercircus)",
   "m": 43
+ },
+ {
+  "osm": "node/12335070923",
+  "osmName": "Way Keizerpoort",
+  "id": "way-bakery-keizerpoort",
+  "name": "WAY Specialty Coffee Bakery (Keizerpoort)",
+  "m": 0
+ },
+ {
+  "osm": "node/12345668083",
+  "osmName": "MORGEN bakkerij",
+  "id": "morgen-bakkerij",
+  "name": "MORGEN bakkerij",
+  "m": 174
+ },
+ {
+  "osm": "node/12347676956",
+  "osmName": "Limonada",
+  "id": "limonada",
+  "name": "Limonada",
+  "m": 0
  },
  {
   "osm": "node/12352095864",
@@ -602,6 +693,13 @@
   "m": 8
  },
  {
+  "osm": "node/12530031558",
+  "osmName": "Little Red Rooster",
+  "id": "little-red-rooster",
+  "name": "Little Red Rooster",
+  "m": 0
+ },
+ {
   "osm": "node/12531280974",
   "osmName": "the bakery",
   "id": "the-bakery-joost-arijs",
@@ -628,6 +726,20 @@
   "id": "wunderbar",
   "name": "Wunderbar",
   "m": 15
+ },
+ {
+  "osm": "node/12644833233",
+  "osmName": "Bar Dada",
+  "id": "bar-dada",
+  "name": "Bar Dada",
+  "m": 0
+ },
+ {
+  "osm": "node/12739362013",
+  "osmName": "WhyNot",
+  "id": "whynot",
+  "name": "WhyNot",
+  "m": 0
  },
  {
   "osm": "node/12755180305",
@@ -693,6 +805,13 @@
   "m": 0
  },
  {
+  "osm": "node/13307731097",
+  "osmName": "Soan",
+  "id": "soan",
+  "name": "SOAN",
+  "m": 0
+ },
+ {
   "osm": "node/13500924194",
   "osmName": "FARI",
   "id": "fari",
@@ -712,6 +831,13 @@
   "id": "roar-gent",
   "name": "ROAR",
   "m": 14
+ },
+ {
+  "osm": "node/13841141386",
+  "osmName": "The Mix",
+  "id": "the-mix",
+  "name": "The Mix",
+  "m": 0
  },
  {
   "osm": "node/13866437601",

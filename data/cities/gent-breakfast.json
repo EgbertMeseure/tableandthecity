@@ -250,12 +250,6 @@
     "source": "https://www.amourgent.be/"
    }
   },
-  "osm-bakker-klaas-n5515898234": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.bakkerklaas.be/"
-   }
-  },
   "osm-bistro-baziel-n9741063665": {
    "breakfast": {
     "value": true,
@@ -405,12 +399,6 @@
    }
   },
   "osm-catberry-n10295133531": {
-   "breakfast": {
-    "value": true,
-    "source": "https://catberry.be/"
-   }
-  },
-  "osm-catberry-n1491174588": {
    "breakfast": {
     "value": true,
     "source": "https://catberry.be/"
@@ -619,16 +607,6 @@
     "source": "https://www.xn--jos-dma.be"
    }
   },
-  "osm-julie-s-house-n4678136994": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.julieshouse.be/"
-   },
-   "breakfastHours": {
-    "value": "Fri–Sun (daily during school holidays)",
-    "source": "https://www.julieshouse.be/en_GB/reserveren"
-   }
-  },
   "osm-kaffee-allez-n12625884854": {
    "breakfast": {
     "value": true,
@@ -735,12 +713,6 @@
    "breakfast": {
     "value": true,
     "source": "https://www.maisonelza.be/"
-   }
-  },
-  "osm-martens-n1314094556": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.martens-gent.be/"
    }
   },
   "osm-midtown-grill-n5276097616": {
@@ -1177,6 +1149,22 @@
   }
  },
  "missingNotAdded": [
+  {
+   "id": "osm-bakker-klaas-n5515898234",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-catberry-n1491174588",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-julie-s-house-n4678136994",
+   "why": "unknown id"
+  },
+  {
+   "id": "osm-martens-n1314094556",
+   "why": "unknown id"
+  },
   {
    "name": "Le Pain Quotidien (Korenmarkt)",
    "why": "big chain (Le Pain Quotidien), excluded"

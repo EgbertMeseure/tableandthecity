@@ -210,6 +210,8 @@ const TG = (() => {
       coffee: [['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['terrace', 'Terrace'], ['wifi', 'Wifi'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']],
     };
     TILES_BY_GROUP.bakeries = TILES_BY_GROUP.coffee;
+    if (r.category === 'cocktail_bar') TILES_BY_GROUP.cafes_bars = [['terrace', 'Terrace'], ['signatureCocktails', 'Signature cocktails'], ['mocktails', 'Mocktails / alcohol-free'],
+      ['foodServed', 'Food served'], ['lateNight', 'Late night'], ['openSunday', 'Open Sunday'], ['reservations', 'Reservations']];
     if (!isR) F.new = r.isNew ? true : null;
     const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
       ['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
@@ -308,6 +310,8 @@ const TG = (() => {
       opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
+    const today = new Date().toISOString().slice(0, 10);              // a temporary status (e.g. closed for renovation) ends by itself
+    rs.forEach(r => { if (r.statusUntil && today > r.statusUntil) { r.status = 'open'; r.statusNote = ''; } });
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
     rs.push(...(up.upcoming || []).filter(u => u.id && !ids.has(u.id)).map(fromUpcoming));
     rs.push(...(om.places || []).filter(o => !ids.has(o.id) && o.status !== 'closed').map(fromOsm));   // OpenStreetMap base list (deduped at import time)

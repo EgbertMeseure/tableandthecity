@@ -10,11 +10,15 @@ OSM tags are only used to FILL fields that are null/unknown in the curated recor
   python3 scripts/import_osm.py gent --fill-curated  # also fill null fields of matched curated records in gent.json
 
 Mapping (features only when explicitly tagged; source 'OpenStreetMap', © OpenStreetMap contributors, ODbL):
-  amenity=restaurant → Restaurants (brasserie/bistro by name, else generic 'restaurant'); amenity=fast_food → Restaurants › Quick bites
-  amenity=pub|bar|biergarten → Cafés & bars (irish pub / cocktail bar / beer bar / dance café by tags or name, else 'café')
-  amenity=cafe → Coffee (specialty coffee by name/cuisine, else 'coffee & lunch'); shop=coffee → Coffee › coffee shop / roaster
-  shop=bakery → Bakeries › bakery; shop=pastry → Bakeries › patisserie
-Excluded: no name, lifecycle-prefixed / disused / closed tags, opening_hours="closed", elements outside the city boundary,
+  amenity=restaurant → Restaurants (brasserie/bistro by name, else generic 'restaurant'); amenity=fast_food → DROPPED (no frituren, snack bars,
+    kebab, night shops) unless it has a confirmed vegan/vegetarian/vegan-friendly level or breakfast/brunch → Restaurants › Casual (fastfood_keep)
+  amenity=pub|bar|biergarten → Cafés & bars (irish pub / cocktail bar / beer bar / dance café by tags or name); generic cafés/pubs are DROPPED
+    unless kept by fastfood_keep() (confirmed veggie level → stays, breakfast/brunch → Coffee)
+  amenity=cafe → Coffee › specialty coffee (by name/cuisine); other cafés (generic coffee houses) are DROPPED unless kept by fastfood_keep(); shop=coffee → Coffee › coffee shop / roaster
+  shop=bakery → Bakeries › bakery; shop=pastry → Bakeries › patisserie — ARTISAN ONLY: every OSM bakery/pastry shop is DROPPED unless it is in
+    data/bakeries-artisan.json 'keep' (sourced artisan check) or 'branchOf' (another shop of a curated bakery → merged into it). Veggie / breakfast
+    bakeries are NOT kept on that basis alone; they are listed in data/osm/<city>-bakeries-pending.json for an artisan check.
+Excluded: no name, lifecycle-prefixed / disused / closed tags, opening_hours="closed", permanently closed places in data/osm/closed.json, elements outside the city boundary,
   and large franchise / multinational chains listed in data/chains-exclude.json (brand:wikidata, brand or name; see is_chain).
   Curated / upcoming records are never dropped automatically: a chain match there is only printed as a WARNING.
 """
@@ -61,6 +65,28 @@ def is_chain(t):
         if any(re.match(p, n) for p in c.get('patterns', []) for n in names): return c['name']
         if c.get('brandWebsite') and c['brandWebsite'] in web: return c['name']
     return None
+
+
+FF_KEEP = ROOT / 'data' / 'osm' / 'keep-exceptions.json'
+CLOSED = ROOT / 'data' / 'osm' / 'closed.json'                 # permanently closed (sourced): skipped even while OSM still lists them
+ARTISAN = ROOT / 'data' / 'bakeries-artisan.json'            # artisan bakeries allowlist (keep / branchOf)
+
+
+def fastfood_keep():
+    """amenity=fast_food places and generic cafés/pubs (pub/bar/biergarten that are not dance / brown / Irish / cocktail / beer bars)
+    and generic coffee houses (amenity=cafe that is not specialty coffee) are dropped, EXCEPT those with a confirmed vegan / vegetarian / vegan-friendly level or a confirmed
+    breakfast / brunch. The keep list is persisted in data/osm/keep-exceptions.json (only grows; delete an entry by hand to drop it),
+    so a re-import gives the same result even before the veggie / breakfast layers are rebuilt."""
+    keep = dict(json.loads(FF_KEEP.read_text())['keep']) if FF_KEEP.exists() else {}
+    cd = ROOT / 'data' / 'cities'
+    vg = json.loads((cd / f'{CITY}-veggie.json').read_text())['places'] if (cd / f'{CITY}-veggie.json').exists() else {}
+    bk = json.loads((cd / f'{CITY}-breakfast.json').read_text())['places'] if (cd / f'{CITY}-breakfast.json').exists() else {}
+    for k, v in vg.items():
+        if k.startswith('osm-') and v.get('veggieLevel') in ('vegan', 'vegetarian', 'vegan-friendly'): keep.setdefault(k, f"veggie level: {v['veggieLevel']}")
+    for k, v in bk.items():
+        yes = [m for m in ('breakfast', 'brunch') if (v.get(m) or {}).get('value') is True]
+        if k.startswith('osm-') and yes: keep.setdefault(k, 'confirmed ' + ' & '.join(yes))
+    return keep
 
 
 def overpass(q, dest):
@@ -133,7 +159,7 @@ def categorize(t, name):
     if a in ('pub', 'bar', 'biergarten'):
         if re.search(r'\birish\b', n) or 'irish' in t.get('pub', '') : return 'cafes_bars', 'irish_pub'
         if re.search(r'dans(cafe|café)|dancing\b', n): return 'cafes_bars', 'dance_cafe'
-        if t.get('cocktails') == 'yes' or 'cocktail' in n: return 'cafes_bars', 'cocktail_bar'
+        if t.get('cocktails') == 'yes' or 'cocktail' in n or 'cocktail' in t.get('description', '').lower(): return 'cafes_bars', 'cocktail_bar'
         if a == 'biergarten' or re.search(r'\b(bier|beer|brew|tap|hop)\w*', n) or t.get('microbrewery') == 'yes': return 'cafes_bars', 'beer_bar'
         return 'cafes_bars', 'cafe'
     if sh == 'coffee': return 'coffee', 'coffee_shop'
@@ -235,7 +261,13 @@ def main():
     curated = [r for r in cur['restaurants'] if r.get('lat')]
     if UPC.exists(): curated += [u for u in json.loads(UPC.read_text()).get('upcoming', []) if u.get('lat')]
     stamp = raw.get('osm3s', {}).get('timestamp_osm_base', '')[:10]
-    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0}, set()
+    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0, 'fast_food': 0, 'generic_cafe': 0, 'coffee_house': 0, 'generic_bakery': 0}, set()
+    ff_keep, ff_kept = fastfood_keep(), set()
+    art = json.loads(ARTISAN.read_text()) if ARTISAN.exists() else {'keep': {}, 'branchOf': {}}
+    by_cid = {c['id']: c for c in curated}
+    closed = json.loads(CLOSED.read_text())['places'] if CLOSED.exists() else {}
+    closed_names = {norm_name(v['name']) for k, v in closed.items() if k.startswith('name:')}
+    bk_pending = {}
     chains = Counter()
     elems = sorted(raw['elements'], key=lambda e: (e['type'], e['id']))
     for e in elems:
@@ -246,15 +278,38 @@ def main():
         if t.get('opening_hours', '').strip().lower() in ('closed', 'off') or t.get('opening_hours:covid19') == 'off' and False: skipped['closed'] += 1; continue
         if t.get('amenity') not in ('restaurant', 'cafe', 'bar', 'pub', 'biergarten', 'fast_food') and t.get('shop') not in ('bakery', 'pastry', 'coffee'): skipped['other'] += 1; continue
         if (ch := is_chain(t)): skipped['chain'] += 1; chains[ch] += 1; continue    # big chains stay off the site
+        if f"{e['type']}/{e['id']}" in closed or norm_name(name) in closed_names: skipped['closed'] += 1; continue
         lat, lng = (e['lat'], e['lon']) if e['type'] == 'node' else (e['center']['lat'], e['center']['lon'])
         group, cat = categorize(t, name)
+        if (ak0 := art.get('keep', {}).get(f"{e['type']}/{e['id']}")): group, cat = 'bakeries', ak0.get('category', 'bakery')   # allowlisted artisan bakery / patisserie (also when OSM tags it as a café)
         if not group: skipped['other'] += 1; continue
         osm_ref = f"{e['type']}/{e['id']}"
         # dedupe vs curated: similar name and < 60 m
         # (exactly the same distinctive name: up to 150 m, curated geocodes are sometimes a building off)
-        hit = next((c for c in curated if (d := dist_m((lat, lng), (c['lat'], c['lng']))) < 60 and same_name(name, c['name'])
+        hit = next((c for c in curated if c.get('osm') == osm_ref), None) or next((c for c in curated if (d := dist_m((lat, lng), (c['lat'], c['lng']))) < 60 and same_name(name, c['name'])
                     or d < 150 and len(norm_name(name)) >= 5 and norm_name(name) == norm_name(c['name'])), None)
+        if not hit and group == 'bakeries' and (b := art.get('branchOf', {}).get(osm_ref)) and b['curated'] in by_cid: hit = by_cid[b['curated']]
         if hit: matched.append({'osm': osm_ref, 'osmName': name, 'id': hit['id'], 'name': hit['name'], 'm': round(dist_m((lat, lng), (hit['lat'], hit['lng']))), 'tags': t}); continue
+        if cat == 'quick_bites':                                  # no frituren / snack bars / kebab / night shops (user request 20 Oct 2026)
+            rid0 = f"osm-{slug(name)}-{e['type'][0]}{e['id']}"
+            if rid0 not in ff_keep: skipped['fast_food'] += 1; continue
+            ff_kept.add(rid0); cat = 'casual'                     # kept: confirmed veggie level or breakfast/brunch → Restaurants › Casual
+        if group == 'cafes_bars' and cat == 'cafe':               # no generic cafés / pubs (user request 20 Oct 2026); dance / brown / Irish / cocktail / beer bars stay
+            rid0 = f"osm-{slug(name)}-{e['type'][0]}{e['id']}"
+            if rid0 not in ff_keep: skipped['generic_cafe'] += 1; continue
+            ff_kept.add(rid0)
+            if 'breakfast' in ff_keep[rid0] or 'brunch' in ff_keep[rid0]: group, cat = 'coffee', 'coffee_house'   # a morning place → Coffee
+        elif group == 'coffee' and cat == 'coffee_house':        # no generic coffee houses (user request 20 Oct 2026); specialty coffee + shops/roasters stay
+            rid0 = f"osm-{slug(name)}-{e['type'][0]}{e['id']}"
+            if rid0 not in ff_keep: skipped['coffee_house'] += 1; continue
+            ff_kept.add(rid0)
+        if group == 'bakeries':                                   # artisan bakeries / patisseries only (user request 20 Oct 2026)
+            ak = art.get('keep', {}).get(osm_ref)
+            if not ak:
+                rid0 = f"osm-{slug(name)}-{e['type'][0]}{e['id']}"
+                if rid0 in ff_keep: bk_pending[rid0] = {'osm': osm_ref, 'name': name, 'why': ff_keep[rid0], 'website': t.get('website') or t.get('contact:website')}
+                skipped['generic_bakery'] += 1; continue
+            if ak.get('category') in ('bakery', 'patisserie'): cat = ak['category']
         # same business mapped twice in OSM (node + building), keep the first
         key = (norm_name(name), round(lat, 3), round(lng, 3))
         if key in seen: skipped['dup_osm'] += 1; continue
@@ -297,6 +352,16 @@ def main():
                'openingHours': oh, 'features': feats, 'features_evidence': ev, 'osm': osm_ref}
         if veg: rec['veggieLevel'] = veg; rec['veggieSource'] = [f'https://www.openstreetmap.org/{osm_ref}']
         if t.get('brand'): rec['brand'] = t['brand']
+        if group == 'bakeries' and (ak := art.get('keep', {}).get(osm_ref)):        # sourced artisan facts from the allowlist
+            if ak.get('style'): rec['bakeryStyle'] = ak['style']; rec['bakeryStyleSource'] = ak.get('source')
+            for k in ('website', 'instagram_handle'):
+                if ak.get(k) and not rec.get(k): rec[k] = ak[k]
+            if ak.get('description'): rec['summary'] = ak['description']; rec['summarySource'] = ak.get('source')
+            for k, v in (ak.get('features') or {}).items():                        # research values win over OSM tags here (they carry a source)
+                rec.setdefault('features', {})[k] = v; rec.setdefault('features_evidence', {})[k] = (ak.get('features_evidence') or {}).get(k, ak.get('source'))
+            if ak.get('sources'): rec['sources'] = ak['sources']
+            if ak.get('address') and (rec.get('addressApprox') or not rec.get('address')): rec['address'] = ak['address']; rec.pop('addressApprox', None)
+            if 'openingHours' in ak: rec['openingHours'] = ak['openingHours']; rec['openingHoursNote'] = ak.get('openingHoursNote')   # e.g. null: sources conflict
         places.append({k: v for k, v in rec.items() if v not in (None, '', [], {})})
     corr = json.loads((OSM_DIR / 'corrections.json').read_text())['places'] if (OSM_DIR / 'corrections.json').exists() else {}
     for r in places:                                             # hand corrections (sourced) on top of OSM tags
@@ -311,6 +376,10 @@ def main():
     (OSM_DIR / f'{CITY}-osm-matches.json').write_text(json.dumps([{k: v for k, v in m.items() if k != 'tags'} for m in matched], ensure_ascii=False, indent=1))
     filled = fill_curated(cur, matched) if '--fill-curated' in ARGS else []
     if filled: CUR.write_text(json.dumps(cur, ensure_ascii=False, indent=1) + '\n')
+    kept_ff = {k: ff_keep[k] for k in ff_kept}
+    FF_KEEP.write_text(json.dumps({'about': 'OSM places that the import would drop (fast food; generic cafés/pubs) but keeps because of a confirmed vegan/vegetarian/vegan-friendly level or breakfast/brunch. Fast food → Restaurants › Casual; generic café/pub with breakfast/brunch → Coffee; other generic cafés/pubs and coffee houses stay in their group (under All). See fastfood_keep() in scripts/import_osm.py.',
+                                   'keep': dict(sorted({**json.loads(FF_KEEP.read_text())['keep'], **kept_ff}.items() if FF_KEEP.exists() else kept_ff.items()))}, ensure_ascii=False, indent=1) + '\n')
+    (OSM_DIR / f'{CITY}-bakeries-pending.json').write_text(json.dumps({'about': 'OSM bakeries with a confirmed vegan/veggie level or breakfast that the import dropped because no source confirms they are artisan. Add a sourced entry to data/bakeries-artisan.json (keep) or via scripts/merge_bakeries.py to show them.', 'places': dict(sorted(bk_pending.items()))}, ensure_ascii=False, indent=1) + '\n')
     for c in curated:                                             # never drop curated/upcoming silently: warn only
         if (ch := is_chain({'name': c.get('name', '')})): print(f"WARNING: curated/upcoming record {c['id']} looks like chain {ch} — review by hand")
     (OSM_DIR / f'{CITY}-chains-excluded.json').write_text(json.dumps(dict(sorted(chains.items())), ensure_ascii=False, indent=1) + '\n')

@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "gent",
- "count": 260,
+ "count": 224,
  "places": {
   "cafe-labath": {
    "veggieLevel": "vegan-friendly",
@@ -160,16 +160,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-bakkerij-frimout-n2275104999": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/2275104999"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Bakery Frimout",
-   "hcInfo": "Bakery that has vegan koffiekoeken.  Mon-Thu 06:00-18:30, Fri 06:00-18:00"
-  },
   "osm-barouche-n1532798352": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -178,13 +168,6 @@
    "basis": "HappyCow listing",
    "hcName": "Barouche",
    "hcInfo": "Serves meat, vegan options available. Vegan dishes includes a pita or platter with oven baked falafel (labeled vegan) with vegan sauce. Hummus, sweet potato and cauliflower included with the platter are also vegan. Outdoor seating. Accepts "
-  },
-  "osm-barouche-n1598830926": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/1598830926"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-barouche-w252396611": {
    "veggieLevel": "vegan-friendly",
@@ -285,13 +268,6 @@
    "hcName": "Bocca - Recollettenlei",
    "hcInfo": "Serves meat, vegan options available. Fresh pasta restaurant with several choices for vegans labeled on the menu. Not wheelchair accessible. Few seatings available - maximum 4 people per table possible. Outdoor seating. Mon-Sat 11:30-22:00"
   },
-  "osm-bodrum-n6613025398": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6613025398"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-boempatat-n1651810939": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -315,6 +291,13 @@
    "veggieLevel": "veggie-friendly",
    "sources": [
     "https://www.openstreetmap.org/node/11613223411"
+   ],
+   "basis": "OpenStreetMap diet tags"
+  },
+  "osm-brasserie-klaverblad-n12207219295": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.openstreetmap.org/node/12207219295"
    ],
    "basis": "OpenStreetMap diet tags"
   },
@@ -361,13 +344,6 @@
    "veggieLevel": "veggie-friendly",
    "sources": [
     "https://www.openstreetmap.org/node/6404585902"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-cafetaria-coupure-n6404585904": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6404585904"
    ],
    "basis": "OpenStreetMap diet tags"
   },
@@ -433,24 +409,10 @@
    "hcName": "Eet- en Koffiehuis Cozette",
    "hcInfo": "Serves meat, vegan options available. Brunch restaurant offering vegan sweet treats such as brownies and cinnamon rolls. Also has vegetarian dishes that can be made vegan on request. Outdoor seating. Accepts credit cards. Free Wi-Fi. Mon-Fr"
   },
-  "osm-da-edi-n1630724940": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/1630724940"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-da-toto-n3810896304": {
    "veggieLevel": "veggie-friendly",
    "sources": [
     "https://www.openstreetmap.org/node/3810896304"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-dampoort-n1432587520": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/1432587520"
    ],
    "basis": "OpenStreetMap diet tags"
   },
@@ -502,24 +464,10 @@
    "hcName": "Frituur De Frietschap",
    "hcInfo": "Serves meat, vegan options available. Frituur serving vegan burgers, cheese croquettes and Belgian fries made in vegetable oil, topped with vegan mayo.  Tue-Sat 11:30-14:00, Tue-Thu 17:00-22:30, Fri-Sat 17:00-23:30, Sun 17:00-22:30"
   },
-  "osm-de-fritoloog-n5813542646": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/5813542646"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-de-gekroonde-hoofden-n12478756510": {
    "veggieLevel": "veggie-friendly",
    "sources": [
     "https://www.openstreetmap.org/node/12478756510"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-de-lange-friet-n11112760679": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/11112760679"
    ],
    "basis": "OpenStreetMap diet tags"
   },
@@ -701,13 +649,6 @@
    "hcName": "Epiphany's Kitchen",
    "hcInfo": "Serves meat, vegan options available. Healthy pizza and pasta restaurant offering a gluten-free and vegetarian menu, with the option to add meat and fish. Offers plenty of vegan dishes. Reservations required. Accepts credit cards. Mon 12:00"
   },
-  "osm-esra-n5552776593": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/5552776593"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-et-alors-n1212154982": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -771,20 +712,6 @@
    "hcName": "Freddie",
    "hcInfo": "Serves meat, vegan options available. Café serving breakfast and lunch with clearly marked vegan items. Vegan offer includes cinnamon rolls, coconut yoghurt with granola & fruit, and cauliflower toast with caponata & herb salsa. Has plant m"
   },
-  "osm-frietbar-gent-w315295022": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/way/315295022"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-frietcultuur-n1628956682": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/1628956682"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-frietshop-gentbrugge-n3967087158": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -793,13 +720,6 @@
    "basis": "HappyCow listing",
    "hcName": "Frietshop Gentbrugge",
    "hcInfo": "Serves meat, vegan options available. Belgian fries shop, that has vegan snack foods including kipcorn, curry, goulash, nuggets, ice cream and more.  Mon-Sun 17:00-21:30"
-  },
-  "osm-friettime-n10293667270": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/10293667270"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-frites-atelier-n6461233284": {
    "veggieLevel": "veggie-friendly",
@@ -822,38 +742,10 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-frituur-ekkergem-n7106744189": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/7106744189"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-frituur-fonteintje-w555463819": {
    "veggieLevel": "vegan-friendly",
    "sources": [
     "https://www.openstreetmap.org/way/555463819"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-frituur-frietkampioen-w1056833978": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/way/1056833978"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-frituur-oost-n12702645848": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/12702645848"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-frituur-t-primeurke-n11886699158": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/11886699158"
    ],
    "basis": "OpenStreetMap diet tags"
   },
@@ -866,13 +758,6 @@
    "note": "Own site: \"100% plant-based specialty coffee bar\".",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-fusilli-n10058494643": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/10058494643"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-ganzerik-w451731257": {
    "veggieLevel": "vegan-friendly",
@@ -936,13 +821,6 @@
    "hcName": "Gust",
    "hcInfo": "Serves meat, vegan options available. Breakfast, brunch & lunch bar offering vegan options and clearly labelled allergens. Dishes include scrambled tofu, hummus, baba ganoush, muhammara, vegan pie and more. Plant-based milk and yoghurt avai"
   },
-  "osm-gyros-gent-n12155966682": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/12155966682"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-have-a-roll-n11394481011": {
    "veggieLevel": "vegan",
    "sources": [
@@ -952,25 +830,6 @@
    "note": "Own site: \"Handmade brioche cinnamon rolls (and 100% plantbased)\".",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-hawaiian-poke-bowl-n10058555910": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/10058555910"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Hawaiian Poke Bowl",
-   "hcInfo": "Accepts credit cards. Mon-Sun 11:00-22:00"
-  },
-  "osm-hawaiian-poke-bowl-n1212143937": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Hawaiian Poké Bowl - Gent Kraanlei",
-   "hcInfo": "Accepts credit cards. Mon-Sun 11:00-22:00"
   },
   "osm-hey-joo-n12323883644": {
    "veggieLevel": "vegan-friendly",
@@ -989,13 +848,6 @@
    "basis": "HappyCow listing",
    "hcName": "HOLA",
    "hcInfo": "Serves meat, vegan options available. Breakfast and lunch bar. Has vegan salad and sandwich choices. Can also make non-veggie salads vegan by switching the dressing or opting for roasted chickpeas or falafel as protein. Outdoor seating. Whe"
-  },
-  "osm-holy-guacamoly-n5275465125": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/5275465125"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-horn-ok-please-n9740823412": {
    "veggieLevel": "vegan-friendly",
@@ -1052,22 +904,6 @@
     "https://www.openstreetmap.org/node/11918209075"
    ],
    "basis": "OpenStreetMap diet tags"
-  },
-  "osm-johnny-s-burger-n12002629024": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/12002629024"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-jonas-w626912753": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Bakkerij Jonas",
-   "hcInfo": "Bakery with many vegan pastries, pies, sandwiches and bread types. Available for takeaway only.  Mon-Tue 06:30-12:30, 13:30-18:00, Wed 06:30-13:30, Thu-Fri 06:30-12:30, 13:30-18:00, Sat 06:30-17:00"
   },
   "osm-jus-n12315865312": {
    "veggieLevel": "veggie-friendly",
@@ -1241,15 +1077,6 @@
    "basis": "HappyCow listing + OpenStreetMap",
    "hcName": "Marengo",
    "hcInfo": "Serves meat, vegan options available. Reported the menu has a few labeled vegan options. The daily special is always vegetarian and sometimes vegan, but you need to check with the staff. Vegan choices may include chili sin carne and coupe c"
-  },
-  "osm-mayana-bakery-n13779471500": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Mayana",
-   "hcInfo": "Chocolate bar offering oat and almond milk for hot chocolate as well as vegan ice-cream, brownies and chocolate.  Mon-Fri 11:00-22:00"
   },
   "osm-meat-district-n12702505074": {
    "veggieLevel": "veggie-friendly",
@@ -1473,13 +1300,6 @@
    "hcName": "Patron",
    "hcInfo": "Cafe offering a few vegan items such as donuts, banana bread, vegan 'chocoladekoek', soups and lunch dishes. Accepts credit cards. Free Wi-Fi. Tue-Fri 09:00-17:00, Sat-Sun 10:00-17:00"
   },
-  "osm-paul-s-boutique-n3625606680": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/3625606680"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-petit-thai-n11476496998": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -1493,27 +1313,6 @@
    "veggieLevel": "veggie-friendly",
    "sources": [
     "https://www.openstreetmap.org/node/10892781656"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-pitta-03-n8190378074": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/8190378074"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-pitta-sari-n6613025199": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6613025199"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-pitta-snack-sint-pieters-n13851181760": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/13851181760"
    ],
    "basis": "OpenStreetMap diet tags"
   },
@@ -1607,13 +1406,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-rifood-n9561372005": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/9561372005"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-rk-barbecue-n9808181998": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -1622,13 +1414,6 @@
    "basis": "HappyCow listing",
    "hcName": "RØK Barbecue",
    "hcInfo": "Serves meat, vegan options available. Barbecue restaurant located inside the taproom of Dok Brewing Company. Vegan options include an oyster mushroom burger and fresh fries. Outdoor seating. Accepts credit cards. Tue-Sun 12:00-14:00, 18:00-"
-  },
-  "osm-rk-burgers-n9758297317": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/9758297317"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-rokko-n12659929329": {
    "veggieLevel": "vegan",
@@ -1713,27 +1498,6 @@
    "basis": "HappyCow listing",
    "hcName": "Ship &amp; Sip (café, eventruimte, kajakverhuur)",
    "hcInfo": "Serves meat, vegan options available. Bar on a boat offering vegan tapas plates, vegan meatballs, vegan spaghetti, and veggie lasagna. Outdoor seating. Accepts credit cards. Thu 18:00-23:00, Fri 18:00-01:00, Sat 15:00-01:00, Sun 15:00-23:00"
-  },
-  "osm-simpizza-n5803560353": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/5803560353"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-snack-metropol-n1705424958": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/1705424958"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-snack-tosi-n10231441259": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/10231441259"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-soepbar-sordo-n9092308404": {
    "veggieLevel": "vegan-friendly",
@@ -1914,13 +1678,6 @@
    "hcName": "Frituur Tartaar",
    "hcInfo": "Serves meat, vegan options available. Belgian restaurant offering vegan burgers, falafel, broccoli biegnets, and more. Outdoor seating. Accepts credit cards. Tue-Sun 11:30-22:30"
   },
-  "osm-taste-it-n819591968": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/819591968"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-ter-burg-n6092406662": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -1981,13 +1738,6 @@
    "hcName": "Uncle Sam's",
    "hcInfo": "Serves meat, vegan options available. American style diner offering labeled vegan burgers.  Thu-Fri 12:00-13:30, Thu-Sat 18:00-21:00, Sun 12:00-21:00"
   },
-  "osm-valeir-n6942598286": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6942598286"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-veggi-en-grill-n9230929147": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -2042,13 +1792,6 @@
    "hcName": "WASBAR - Kalandestraat",
    "hcInfo": "Outdoor seating. Mon-Sun 09:00-19:00"
   },
-  "osm-way-keizerpoort-n12335070923": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/12335070923"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-way-n4361414624": {
    "veggieLevel": "vegan",
    "sources": [
@@ -2068,13 +1811,6 @@
    "note": "Own site: \"alles wat we maken is volledig plantaardig\".",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-ya-baba-n4185953473": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/4185953473"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-yalla-yalla-n11049255677": {
    "veggieLevel": "vegan-friendly",

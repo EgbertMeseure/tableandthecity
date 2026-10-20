@@ -52,6 +52,22 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    (re-downloads OSM, keeps ids stable, never overwrites curated data). Look at the printed counts: a big drop usually means Overpass returned a partial result —
    re-run. New places without an address need `data/osm/streets.json` (downloaded automatically, not in git). Put sourced fixes in `data/osm/corrections.json`
    (and ideally fix OSM itself). When an OSM place gets hand-researched, move it into `gent.json` (same name/location → the import then skips it).
+   **No quick bites:** `amenity=fast_food` (frituren, snack bars, kebab/pita, night shops, takeaway pizza counters) is dropped at import. Exceptions are kept as
+   Restaurants › Casual: a confirmed vegan / vegetarian / vegan-friendly level or confirmed breakfast/brunch (from the veggie and breakfast layers of the last
+   run, persisted in `data/osm/keep-exceptions.json`, which only grows; remove an entry by hand to drop it). After an import, re-run 4e and 4h, then the import
+   once more so newly confirmed places are picked up. Curated places are never dropped.
+   **No generic cafés / coffee houses:** OSM pub/bar/biergarten that is not a dance café, brown café, Irish pub, cocktail bar or beer bar, and every
+   `amenity=cafe` that is not specialty coffee, is dropped at import with the same exceptions (confirmed veggie level or breakfast/brunch, same keep file).
+   Kept generic cafés with breakfast/brunch move to Coffee; the others stay under Cafés & bars › All / Coffee › All. Specialty coffee and Shops & roasters stay.
+   **Artisan bakeries only:** every OSM `shop=bakery` / `shop=pastry` is dropped unless it is in `data/bakeries-artisan.json` → `keep` (sourced artisan check)
+   or `branchOf` (another shop of a curated bakery, merged into it). A veggie or breakfast level alone does not keep a bakery; those wait in
+   `data/osm/gent-bakeries-pending.json` for an artisan check. New research: `python3 scripts/merge_bakeries.py gent` (reads
+   `/workspace/handoff/gent-bakeries-research.json`; OSM shops → allowlist, others → `gent.json`; an allowlisted shop is shown under Bakeries even when OSM
+   tags it as a café; conflicting hours → OVERRIDES in that script set them to null with a note), then import + 4e + 4h.
+   **Cocktail bars:** `python3 scripts/merge_cocktailbars.py gent` merges `/workspace/handoff/gent-cocktailbars-research.json` into `gent.json`
+   (category `cocktail_bar`, sourced features, OSM ref so the import does not add it twice). Research notes (temporary closure with an end date →
+   `statusUntil`, after which the site shows the place as open again; seasonal hours; 'Groups of 6+ only' reservations → `features_note`) live in
+   OVERRIDES in that script. **Closed for good:** add the place to `data/osm/closed.json` (OSM ref or `name:<name>`, with source); the import skips it.
    **Big chains stay off the site:** the import drops every OSM element whose `brand:wikidata`, `brand` or name matches `data/chains-exclude.json`
    (McDonald's, Burger King, Quick, Domino's, Pizza Hut, Starbucks, Panos, Paul, Lunch Garden, Le Pain Quotidien, IzyCoffee, hotel / fuel-station / supermarket
    outlets…). Per-chain counts of the last run: `data/osm/gent-chains-excluded.json`. A new chain shows up? Add it (name, confirmed wikidata id, name pattern)
