@@ -1,0 +1,21 @@
+{
+ "about": "Manual corrections applied on top of OSM tags by import_osm.py (key = OSM element). Each with a source. Also worth fixing upstream in OpenStreetMap.",
+ "places": {
+  "node/9137334030": {
+   "website": "https://www.antwerpfriedchickengent.be/",
+   "source": "https://www.antwerpfriedchickengent.be/contact"
+  },
+  "node/1212142878": {
+   "website": "https://www.ilcortilegent.be/",
+   "source": "https://visit.gent.be/en/eat-drink/il-cortile"
+  },
+  "node/4273118892": {
+   "website": "https://restaurants.umamido.be/ramen-gent-korenmarkt/",
+   "source": "https://www.umamido.be/ordernow"
+  },
+  "node/10289666040": {
+   "address": "Koningin Maria Hendrikaplein 37, 9000 Gent",
+   "source": "https://www.opcafegaan.be/gent/the-dixie"
+  }
+ }
+}

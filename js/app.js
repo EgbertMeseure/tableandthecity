@@ -10,67 +10,75 @@
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
   const QUICK = ['new', 'veggie', 'vegan', 'events'];                  // chips in the main row
-  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', sort: 'rec', ev: '' };
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', vlevel: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
   const params = new URLSearchParams(location.search);
-  ['q', ...ADV, 'sort', 'ev', 'stage'].forEach(k => params.get(k) && (state[k] = params.get(k)));
+  ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel'].forEach(k => params.get(k) && (state[k] = params.get(k)));
+  if (!['', 'vegan', 'vegetarian', 'vegan-friendly', 'veggie-friendly'].includes(state.vlevel)) state.vlevel = '';
   if (!['', 'open', 'soon'].includes(state.stage)) state.stage = '';
   if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
   if (!['rec', 'dist', 'new', 'price'].includes(state.sort)) state.sort = 'rec';
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
-    ['q', ...ADV, 'stage', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
+    ['q', ...ADV, 'stage', 'vlevel', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
     if (state.sort !== 'rec') p.set('sort', state.sort);
     QUICK.forEach(k => state[k] && p.set(k, '1'));
     history.replaceState(null, '', location.pathname + '?' + p + location.hash);
   }
   const advCount = () => ADV.filter(k => state[k]).length;
-  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.origin || state.sort !== 'rec');
+  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.vlevel || state.origin || state.sort !== 'rec');
   /* announced-but-not-open places only appear under New (all new / opening soon), never in the plain lists */
   const isNewish = r => r.isNew || r.upcoming;
   const OPEN = R.filter(r => !r.upcoming);
 
   // ---- hero labels ----
   $('#lbl-count').textContent = `${OPEN.length} places in ${CITY}`;
-  $('#lbl-veg').textContent = `${OPEN.filter(r => r.vegetarian === 'yes').length} veggie · ${OPEN.filter(r => r.vegan === 'yes').length} vegan`;
+  const nLv = l => OPEN.filter(r => r.veggieLevel === l).length;
+  $('#lbl-veg').textContent = `${nLv('vegan')} fully vegan · ${nLv('vegetarian')} vegetarian · ${OPEN.filter(r => r.veggieLevel).length} with veggie options`;
   $('#lbl-ev').textContent = `${E.filter(isUpcoming).length} upcoming events & collaborations`;
   $('#explore-title').textContent = `All places in ${CITY}`; $('#about-city').textContent = CITY;
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
 
   // ---- "Choose your table": top-level group cards, each with a small sub-menu ----
-  const sub = (label, f) => ({ label, f });
+  const sub = (label, f, x) => ({ label, f, x });   // x: hidden on small screens (also in the 'Veggie & vegan' card)
   const GROUPS = [
     { label: 'New', img: 'plated', f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
       ...Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g }))] },
     { label: 'Restaurants', img: 'finedining', f: { group: 'restaurants' }, subs: [
       sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
       sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
-      sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Veggie & vegan', { group: 'restaurants', veggie: true }),
-      sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
+      sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Quick bites', { group: 'restaurants', type: 'quick_bites' }),
+      sub('Vegan', { group: 'restaurants', vlevel: 'vegan' }, 1), sub('Vegetarian', { group: 'restaurants', vlevel: 'vegetarian' }, 1),
+      sub('Vegan-friendly', { group: 'restaurants', vegan: true }, 1), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
     { label: 'Cafés & bars', img: 'bar', f: { group: 'cafes_bars' }, subs: [
       sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
-      sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), sub('Cafés', { group: 'cafes_bars', type: 'cafe' })] },
-    { label: 'Coffee', img: 'coffee', f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' })] },
-    { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' })] },
+      sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), sub('Cafés', { group: 'cafes_bars', type: 'cafe' })] },   // beer/cocktail bars (few) are under 'All'
+    { label: 'Coffee', img: 'coffee', f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
+      sub('Coffee houses', { group: 'coffee', type: 'coffee_house' }), sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' }),
+      sub('Vegan', { group: 'coffee', vlevel: 'vegan' })] },
+    { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),
+      sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Vegan options', { group: 'bakeries', vegan: true })] },
+    { label: 'Veggie & vegan', img: 'vegan', f: { veggie: true }, subs: [sub('100% vegan', { vlevel: 'vegan' }), sub('100% vegetarian', { vlevel: 'vegetarian' }),
+      sub('Vegan-friendly', { vegan: true }), sub('Options only', { vlevel: 'veggie-friendly' })] },
     { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
-    k === 'veggie' ? r.vegetarian === 'yes' : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
+    k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
-  GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n); });
+  GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= 3); });   // tiny sub-groups stay reachable via filters
   // each card is a stadium-shaped tile; its sub-menu lives INSIDE the card (revealed from the bottom, clipped by the card's radius)
   $('#carousel').innerHTML = GROUPS.map((c, i) => `
     <div class="pillcard bw-host grain${c.subs.length ? ' has-menu' : ''}" data-cat="${i}">
       <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">${c.subs.length ? '<i class="pill-shade" aria-hidden="true"></i>' : ''}
       <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.n} ${c.toEvents ? 'upcoming' : 'places'}"${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
         <span class="pill-label">${esc(c.label)}<small>${c.n} ${c.toEvents ? 'upcoming' : 'places'}</small></span></button>
-      ${c.subs.length ? `<div class="pillmenu" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">
-        <button role="menuitem" tabindex="-1" class="pm-all" data-s="-1">All ${esc(c.label.toLowerCase())}<b>${c.n}</b></button>
-        ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}">${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
+      ${c.subs.length ? `<div class="pillmenu${c.subs.length > 7 ? ' many' : ''}" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">
+        <button role="menuitem" tabindex="-1" class="pm-all" data-s="-1" aria-label="All ${esc(c.label.toLowerCase())}, ${c.n}">All<b>${c.n}</b></button><i class="pm-br" aria-hidden="true"></i>
+        ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}"${s.x ? ' class="pm-x"' : ''}>${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
     </div>`).join('');
   function choose(g, f, card) {
     resetFilters(false); Object.assign(state, f); closeMenu(false);
@@ -132,7 +140,8 @@
   // ---- filter options ----
   const opt = (sel, vals, fmt = v => v) => { $(sel).insertAdjacentHTML('beforeend', vals.map(v => `<option value="${esc(v)}">${esc(fmt(v))}</option>`).join('')); };
   opt('#f-group', Object.keys(GROUP_LABEL).filter(g => R.some(r => r.group === g)), g => GROUP_LABEL[g]);
-  const CATS_BY_G = { restaurants: ['fine dining', 'gastro-bistro', 'bistro', 'brasserie', 'bistro+brasserie', 'casual', 'restaurant'], cafes_bars: ['dance_cafe', 'brown_cafe', 'irish_pub', 'cafe'], coffee: ['coffee_bar'], bakeries: ['bakery'] };
+  const CATS_BY_G = { restaurants: ['fine dining', 'gastro-bistro', 'bistro', 'brasserie', 'bistro+brasserie', 'casual', 'quick_bites', 'restaurant'],
+    cafes_bars: ['dance_cafe', 'brown_cafe', 'irish_pub', 'cocktail_bar', 'beer_bar', 'cafe'], coffee: ['coffee_bar', 'coffee_house', 'coffee_shop'], bakeries: ['bakery', 'patisserie'] };
   const catOpt = v => v === 'bistro+brasserie' ? 'Bistro + brasserie' : v === 'restaurant' ? 'Restaurant (type not classified)' : CAT_LABEL[v];
   $('#f-type').insertAdjacentHTML('beforeend', Object.entries(CATS_BY_G).map(([g, vs]) => {
     const ok = vs.filter(v => R.some(r => v.split('+').includes(r.category)));
@@ -146,7 +155,7 @@
   // ---- search ----
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   R.forEach(r => r._hay = norm([r.name, r.type, catLabel(r), GROUP_LABEL[r.group], r.cuisine, r.cuisineTags.join(' '), r.chef, r.neighbourhood, r.district, r.address, r.menuType, r.menuChanges, r.currentMenuNote, r.dietNote, r.summary,
-    r.distinctions.michelin, r.events.map(e => [e.title, e.type, (e.partners || []).join(' ')].join(' ')).join(' '), r.isNew ? 'new nieuw' : '', r.upcoming ? 'opening soon upcoming binnenkort' : '', r.vegan === 'yes' ? 'vegan plant-based' : '', r.vegetarian === 'yes' ? 'veggie vegetarian' : '', r.original_nl ? Object.values(r.original_nl).join(' ') : ''].join(' ')));
+    r.distinctions.michelin, r.events.map(e => [e.title, e.type, (e.partners || []).join(' ')].join(' ')).join(' '), r.isNew ? 'new nieuw' : '', r.upcoming ? 'opening soon upcoming binnenkort' : '', r.vegan === 'yes' ? 'vegan plant-based plantaardig' : '', r.vegetarian === 'yes' ? 'veggie vegetarian vegetarisch' : '', r.veggieLevel ? TG.VEG_LABEL[r.veggieLevel] : '', r.original_nl ? Object.values(r.original_nl).join(' ') : ''].join(' ')));
   E.forEach(e => e._hay = norm([e.title, e.type, e.location, (e.partners || []).join(' '), e.restaurantNames.join(' '), e.note].join(' ')));
   const terms = () => norm(state.q).split(/\s+/).filter(Boolean);
 
@@ -166,8 +175,9 @@
       if (state.dist === 'gm15' && !(d.gaultMillau >= 15)) return false;
       if (state.dist === 'gm13' && !(d.gaultMillau >= 13)) return false;
       if (state.dist === 'gm' && !d.gaultMillau) return false;
-      if (state.veggie && r.vegetarian !== 'yes') return false;
+      if (state.veggie && !r.veggieLevel) return false;
       if (state.vegan && r.vegan !== 'yes') return false;
+      if (state.vlevel && r.veggieLevel !== state.vlevel) return false;
       if (r.upcoming && !state.new) return false;
       if (state.new && !isNewish(r)) return false;
       if (state.stage && (state.stage === 'soon') !== !!r.upcoming) return false;
@@ -176,11 +186,14 @@
     });
     if (state.origin) list.forEach(r => r._km = r.lat ? haversine(state.origin, [r.lat, r.lng]) : null);
     const nm = (a, b) => a.name.localeCompare(b.name, 'en');
+    const VR = r => ({ vegan: 4, vegetarian: 3, 'vegan-friendly': 2, 'veggie-friendly': 1 }[r.veggieLevel] || 0);
     const opened = r => String(known(r.openingDate) ? r.openingDate : (known(r.openingYear) ? r.openingYear : '0'));
     const exp = r => /^\d{4}/.test(r.expectedOpening || '') ? r.expectedOpening : '0000';    // 'soon' sorts first among upcoming
     const soonFirst = (a, b) => (!!a.upcoming - !!b.upcoming) || (a.upcoming && b.upcoming ? exp(a).localeCompare(exp(b)) : 0);
     const by = {
-      rec: (a, b) => soonFirst(a, b) || distRank(b) - distRank(a) || (b.isNew - a.isNew) || nm(a, b),
+      // curated (hand-researched) places first, then the OpenStreetMap base list; veggie level breaks ties when filtering on it
+      rec: (a, b) => soonFirst(a, b) || (!!b.curated - !!a.curated) || distRank(b) - distRank(a) || (b.isNew - a.isNew)
+        || ((state.veggie || state.vegan) ? VR(b) - VR(a) : 0) || nm(a, b),
       price: (a, b) => (priceNum(a.priceLevel) ?? 9) - (priceNum(b.priceLevel) ?? 9) || (a.priceFrom ?? 999) - (b.priceFrom ?? 999) || nm(a, b),
       new: (a, b) => soonFirst(a, b) || opened(b).localeCompare(opened(a)) || nm(a, b),
       dist: (a, b) => (a._km ?? 1e9) - (b._km ?? 1e9)
@@ -191,7 +204,11 @@
   // ---- map (greyscale) ----
   const map = L.map('map', { zoomControl: true, scrollWheelZoom: false }).setView(city.center, city.zoom);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
-  const layer = L.layerGroup().addTo(map); let originMarker = null;
+  // clustered markers (vendored Leaflet.markercluster): ~1,500 places stay fast; clusters split from zoom 17
+  const layer = (L.markerClusterGroup ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 44, disableClusteringAtZoom: 17, chunkedLoading: true, spiderfyOnMaxZoom: false,
+    iconCreateFunction: c => { const n = c.getChildCount(); return L.divIcon({ className: '', html: `<div class="mkc${n > 99 ? ' big' : n > 19 ? ' mid' : ''}"><span>${n}</span></div>`, iconSize: [34, 34], iconAnchor: [17, 17] }); } })
+    : L.layerGroup()).addTo(map);
+  let originMarker = null;
   map.on('click', e => setOrigin([e.latlng.lat, e.latlng.lng], 'chosen point'));
   function setOrigin(ll, label) {
     state.origin = ll; state.originLabel = label; state.sort = 'dist';
@@ -210,15 +227,15 @@
 
   // ---- render list + markers ----
   const detailUrl = id => cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id));
-  const SHORT = { glutenFree: 'Gluten-free', naPairing: 'NA pairing', wheelchair: 'Wheelchair', vegan: 'Vegan', aLaCarte: 'À la carte', gaultMillau: 'G&M', chefCollabs: 'Chef collabs', openSunday: 'Sunday', foodServed: 'Food', reservations: 'Bookable' };
+  const SHORT = { glutenFree: 'Gluten-free', naPairing: 'NA pairing', wheelchair: 'Wheelchair', vegan: 'Vegan', aLaCarte: 'À la carte', gaultMillau: 'G&M', chefCollabs: 'Chef collabs', openSunday: 'Sunday', openMonday: 'Monday', foodServed: 'Food', reservations: 'Bookable' };
   function card(r) {
     const price = known(r.priceLevel) ? r.priceLevel : (r.priceFrom ? `from ${eur(r.priceFrom)}` : '');
-    const isR = r.group === 'restaurants', cu = r.cuisine.split(/[,–(]/)[0].trim();
+    const isR = r.group === 'restaurants', cu = (r.cuisine || '').split(/[,–(]/)[0].trim();
     const meta = [catLabel(r), isR && cu !== catLabel(r) ? cu : '', known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
     const km = state.origin && r._km != null ? `<span>${r._km.toFixed(1)} km</span>` : '';
     // "At a glance" chips: only sourced-true features (same group-specific set as the detail grid); New/Event already are badges
     const ft = TG.featureTiles(r), MAXF = 4;
-    const on = ft.TILES.filter(([k]) => ft.F[k] === true && k !== 'new' && k !== 'events');
+    const on = ft.TILES.filter(([k]) => ft.F[k] === true && k !== 'new' && k !== 'events' && !(r.veggieLevel && (k === 'veggie' || k === 'vegan')));   // level is the badge
     const chips = on.slice(0, MAXF).map(([k, l]) => `<li class="fchip" title="${esc(ft.EV[k] ? `${l} — ${ft.EV[k]}` : l)}">${esc(SHORT[k] || l)}</li>`).join('')
       + (on.length > MAXF ? `<li class="fchip more" title="${esc(on.slice(MAXF).map(([k, l]) => SHORT[k] || l).join(', '))}">+${on.length - MAXF}</li>` : '');
     return `<a class="card bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
@@ -234,16 +251,29 @@
     $('#mf-apply').textContent = `Show ${list.length} result${list.length === 1 ? '' : 's'}`;
     $('#reset').hidden = !anyActive();
     const n = advCount(); $('#more-n').hidden = !n; $('#more-n').textContent = n;
-    $('#list').innerHTML = list.length ? list.map(card).join('') : '<div class="empty">Nothing matches these filters. <button class="linkbtn" data-reset>Reset</button></div>';
+    // list: first PAGE cards, "Show more" appends the next PAGE (keeps the DOM small with ~1,500 places)
+    LIST = list; shown = Math.min(PAGE, list.length);
+    $('#list').innerHTML = list.length ? list.slice(0, shown).map(card).join('') : '<div class="empty">Nothing matches these filters. <button class="linkbtn" data-reset>Reset</button></div>';
+    moreBtn();
     layer.clearLayers();
-    list.forEach(r => {
-      if (!r.lat) return;
-      const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}${r.upcoming ? ' soon' : ''}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
-        .bindPopup(`<b>${esc(r.name)}</b>${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}<br>${esc(r.address)}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
-      m.on('mouseover', () => hl(r.id, true)); m.on('mouseout', () => hl(r.id, false));
-      m.addTo(layer);
-    });
+    layer.addLayers ? layer.addLayers(list.filter(r => r.lat).map(marker)) : list.filter(r => r.lat).forEach(r => marker(r).addTo(layer));
     renderEvents();
+  }
+  const PAGE = 24; let LIST = [], shown = 0;
+  function moreBtn() {
+    const left = LIST.length - shown, b = $('#list-more');
+    b.hidden = left <= 0; b.textContent = `Show more (${Math.min(PAGE, left)} of ${left} more)`;
+  }
+  $('#list-more').addEventListener('click', () => {
+    const next = LIST.slice(shown, shown + PAGE); shown += next.length;
+    $('#list').insertAdjacentHTML('beforeend', next.map(card).join('')); moreBtn();
+  });
+  function marker(r) {                                                     // built once per place, reused across renders
+    if (r._m) return r._m;
+    const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}${r.upcoming ? ' soon' : ''}${r.curated ? '' : ' osm'}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
+      .bindPopup(() => `<b>${esc(r.name)}</b>${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}${r.veggieLevel ? `<br><i>${esc(TG.VEG_LABEL[r.veggieLevel])}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}${known(r.address) ? '<br>' + esc(r.address) : ''}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
+    m.on('mouseover', () => hl(r.id, true)); m.on('mouseout', () => hl(r.id, false));
+    return (r._m = m);
   }
   function hl(id, on) {
     document.querySelectorAll(`[data-mk="${CSS.escape(id)}"]`).forEach(x => x.classList.toggle('hl', on));
@@ -296,6 +326,7 @@
     ADV.forEach(k => $('#f-' + k).value = state[k]);
     $('#sort').value = state.sort;
     document.querySelectorAll('[data-toggle]').forEach(b => b.setAttribute('aria-pressed', state[b.dataset.toggle]));
+    document.querySelectorAll('[data-vl]').forEach(b => b.setAttribute('aria-pressed', state.vlevel === b.dataset.vl));
     $('#btn-loc').setAttribute('aria-pressed', !!state.origin);
   }
   function resetFilters(rerender = true) {
@@ -303,13 +334,14 @@
     document.querySelectorAll('.pillcard').forEach(p => p.classList.remove('active'));
     if (rerender) { applyUI(); render(); }
   }
-  let tmr; const onQ = v => { state.q = v; clearTimeout(tmr); tmr = setTimeout(() => { applyUI(); render(); }, 120); };
+  let tmr; const onQ = v => { state.q = v; clearTimeout(tmr); tmr = setTimeout(() => { applyUI(); render(); }, 60); };
   $('#q').addEventListener('input', e => onQ(e.target.value));
   $('#q-hero').addEventListener('input', e => onQ(e.target.value));
   $('#q-hero').addEventListener('keydown', e => { if (e.key === 'Enter') document.getElementById('explore').scrollIntoView(); });
   ADV.forEach(k => $('#f-' + k).addEventListener('change', e => { state[k] = e.target.value; render(); }));
   $('#sort').addEventListener('change', e => { state.sort = e.target.value; if (state.sort === 'dist' && !state.origin) locate(); render(); });
   document.querySelectorAll('[data-toggle]').forEach(b => b.addEventListener('click', () => { const k = b.dataset.toggle; state[k] = !state[k]; if (k === 'new' && !state.new) state.stage = ''; b.setAttribute('aria-pressed', state[k]); render(); }));
+  document.querySelectorAll('[data-vl]').forEach(b => b.addEventListener('click', () => { state.vlevel = state.vlevel === b.dataset.vl ? '' : b.dataset.vl; applyUI(); render(); }));
   $('#reset').addEventListener('click', () => resetFilters());
   // "More filters" sheet
   const sheet = $('#morefilters'), bd = $('#sheet-bd');

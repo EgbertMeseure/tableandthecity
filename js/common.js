@@ -37,7 +37,11 @@ const TG = (() => {
   }
   const GROUP_LABEL = { restaurants: 'Restaurants', cafes_bars: 'Cafés & bars', coffee: 'Coffee', bakeries: 'Bakeries' };
   const CAT_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual', restaurant: 'Restaurant',
-    dance_cafe: 'Dance café', brown_cafe: 'Brown café', irish_pub: 'Irish pub', cafe: 'Café', coffee_bar: 'Specialty coffee', bakery: 'Bakery' };
+    quick_bites: 'Quick bites', dance_cafe: 'Dance café', brown_cafe: 'Brown café', irish_pub: 'Irish pub', cafe: 'Café', cocktail_bar: 'Cocktail bar', beer_bar: 'Beer bar',
+    coffee_bar: 'Specialty coffee', coffee_house: 'Coffee house', coffee_shop: 'Coffee shop / roaster', bakery: 'Bakery', patisserie: 'Patisserie' };
+  /* veggie/vegan level (data/cities/<city>-veggie.json): fully vegan › fully vegetarian › clear vegan options › clear veggie options */
+  const VEG_LABEL = { vegan: '100% vegan', vegetarian: '100% vegetarian', 'vegan-friendly': 'Vegan options', 'veggie-friendly': 'Veggie options' };
+  const VEG_SHORT = { vegan: 'Vegan', vegetarian: 'Vegetarian', 'vegan-friendly': 'Vegan options', 'veggie-friendly': 'Veggie options' };
   const catLabel = r => CAT_LABEL[r.category] || CAT_LABEL[r.type] || GROUP_LABEL[r.group] || '';
   const TYPE_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual' };
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -85,9 +89,7 @@ const TG = (() => {
     if (r.upcoming) b.push(`<span class="badge soon">${esc(soonLabel(r))}</span>`);
     else if (r.isNew) b.push('<span class="badge solid">New</span>');
     if (r.events.length) b.push('<span class="badge solid">Event</span>');
-    if (r.vegan === 'yes') b.push('<span class="badge">Vegan</span>');
-    else if (r.vegetarian === 'yes') b.push('<span class="badge">Veggie</span>');
-    if (max > 2 && r.vegan === 'yes' && r.vegetarian === 'yes') b.push('<span class="badge">Veggie</span>');
+    if (r.veggieLevel) b.push(`<span class="badge veg lv-${r.veggieLevel}" title="${esc(VEG_LABEL[r.veggieLevel])}">${esc(VEG_SHORT[r.veggieLevel])}</span>`);
     if (withDist && r.distinctions.michelin && r.distinctions.michelin !== 'Michelin selection') b.push(`<span class="badge dist">${esc(stars(r.distinctions.michelin))}</span>`);
     if (withDist && r.distinctions.gaultMillau) b.push(`<span class="badge dist">G&amp;M ${r.distinctions.gaultMillau}</span>`);
     return b.slice(0, max).join('');
@@ -128,6 +130,33 @@ const TG = (() => {
     };
   }
 
+  /* shape an OpenStreetMap record (data/cities/<city>-osm.json) like a place record; never invents content */
+  function fromOsm(o) {
+    return {
+      type: null, cuisine: (o.cuisineTags || []).join(', '), cuisineTags: o.cuisineTags || [], chef: 'unknown', priceLevel: 'unknown', priceFrom: null, phone: null,
+      distinctions: { michelin: null, gaultMillau: null }, events: [], photos: [], instagram_posts: [], menuType: 'unknown', menuChanges: 'unknown',
+      currentMenuNote: 'unknown', reservation_url: null, status: 'open', statusNote: '', dataConflict: null, vegetarian: 'unknown', vegan: 'unknown',
+      openingYear: 'unknown', openingDate: 'unknown', isNew: false, summary: '', summaryLang: 'en', district: '', neighbourhood: '', address: 'unknown',
+      ...o, address: o.address || 'unknown',
+      instagram: o.instagram_handle ? `https://www.instagram.com/${o.instagram_handle}/` : null,
+      geoSource: 'OpenStreetMap', openingHoursSource: o.openingHours ? 'OpenStreetMap' : null,
+      sources: [`https://www.openstreetmap.org/${o.osm}`], fromOsm: true, curated: false,
+      features: { ...(o.features || {}) }, features_evidence: { ...(o.features_evidence || {}) }
+    };
+  }
+  /* apply the veggie layer: one level per place, sourced; curated diet fields without a layer entry map to *-friendly */
+  function applyVeg(r, v) {
+    if (v) { r.veggieLevel = v.veggieLevel; r.veggieInfo = v; }
+    else if (!r.veggieLevel && r.vegan === 'yes') r.veggieLevel = 'vegan-friendly';
+    else if (!r.veggieLevel && r.vegetarian === 'yes') r.veggieLevel = 'veggie-friendly';
+    const L = r.veggieLevel; if (!L) return;
+    r.vegetarian = 'yes'; r.vegan = L === 'vegan' || L === 'vegan-friendly' ? 'yes' : (L === 'vegetarian' || L === 'veggie-friendly') && r.vegan === 'yes' ? 'unknown' : r.vegan;
+    const why = v ? `${VEG_LABEL[L]} — ${v.note || v.basis}` : `${VEG_LABEL[L]} — ${r.dietNote || 'see sources'}`;
+    r.features = { ...(r.features || {}) }; r.features_evidence = { ...(r.features_evidence || {}) };
+    if (r.group === 'restaurants') { r.features.veggie = true; r.features_evidence.veggie = why; }
+    if (r.vegan === 'yes') { r.features.vegan = true; r.features_evidence.vegan = why; } else if (r.features.vegan === true && v) { r.features.vegan = null; delete r.features_evidence.vegan; }
+  }
+
   /* "At a glance" feature tiles (group-specific), shared by the detail grid and the list cards.
      Values: true (sourced) | false | null; events/chefCollabs come from upcoming events. */
   function featureTiles(r) {
@@ -140,15 +169,15 @@ const TG = (() => {
     if (F.events) EV.events = `${live.length} upcoming`;
     if (F.chefCollabs) EV.chefCollabs = 'upcoming event with partner chefs';
     const TILES_BY_GROUP = {
-      cafes_bars: [['liveMusic', 'Live music'], ['dj', 'DJ'], ['terrace', 'Terrace'], ['foodServed', 'Food served'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['events', 'Events'], ['new', 'New']],
-      coffee: [['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['wifi', 'Wifi'], ['openSunday', 'Open Sunday'], ['new', 'New']],
+      cafes_bars: [['liveMusic', 'Live music'], ['dj', 'DJ'], ['terrace', 'Terrace'], ['foodServed', 'Food served'], ['wifi', 'Wifi'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['events', 'Events'], ['new', 'New']],
+      coffee: [['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['terrace', 'Terrace'], ['wifi', 'Wifi'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']],
     };
     TILES_BY_GROUP.bakeries = TILES_BY_GROUP.coffee;
     if (!isR) F.new = r.isNew ? true : null;
     const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
       ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
       ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
-      ['walkIn', 'Walk-in'], ['wheelchair', 'Wheelchair accessible'], ['openSunday', 'Open Sunday'], ['new', 'New']];
+      ['walkIn', 'Walk-in'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']];
     return { F, EV, TILES };
   }
 
@@ -232,16 +261,19 @@ const TG = (() => {
       <a class="wordmark" href="${cityUrl('index.html', city.id)}"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a>
       <div class="family">Part of the <i style="font-family:var(--serif-it);text-transform:none;font-size:15px;letter-spacing:.02em">… and the City</i> family<br>${fam}</div>
       <a href="#top">Back to top ↑</a>
-      <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span></div>`);
+      <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span></div>`);
   }
 
   /* ---- data ---- */
   async function load(city) {
-    const [d, up] = await Promise.all([fetch(city.data).then(r => r.json()),
-      city.upcoming ? fetch(city.upcoming).then(r => r.ok ? r.json() : { upcoming: [] }).catch(() => ({ upcoming: [] })) : { upcoming: [] }]);
+    const opt = (url, empty) => url ? fetch(url).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
+    const [d, up, om, vg] = await Promise.all([fetch(city.data).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
+    rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
     rs.push(...(up.upcoming || []).filter(u => u.id && !ids.has(u.id)).map(fromUpcoming));
+    rs.push(...(om.places || []).filter(o => !ids.has(o.id) && o.status !== 'closed').map(fromOsm));   // OpenStreetMap base list (deduped at import time)
+    rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
     const events = [];
@@ -339,6 +371,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

@@ -3,3 +3,4 @@ __pycache__/
 design-reference.jpg
 img/p.html
 .DS_Store
+data/osm/streets.json

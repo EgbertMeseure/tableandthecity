@@ -20,6 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
 <link rel="stylesheet" href="css/brand.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -82,8 +83,9 @@
       <div class="chips" role="group" aria-label="Quick filters">
         <button class="chip" id="btn-loc" aria-pressed="false">Near me</button>
         <button class="chip" data-toggle="new" aria-pressed="false">New</button>
-        <button class="chip" data-toggle="veggie" aria-pressed="false">Veggie</button>
-        <button class="chip" data-toggle="vegan" aria-pressed="false">Vegan</button>
+        <button class="chip chip--veg" data-toggle="veggie" aria-pressed="false" title="Fully vegan or vegetarian, or clear veggie/vegan options">Veggie &amp; vegan</button>
+        <button class="chip chip--veg" data-toggle="vegan" aria-pressed="false" title="Fully vegan or clear vegan options">Vegan options</button>
+        <button class="chip chip--veg" data-vl="vegan" aria-pressed="false" title="Fully vegan places only">100% vegan</button>
         <button class="chip" data-toggle="events" aria-pressed="false">Events</button>
       </div>
       <div class="finder__right">
@@ -102,6 +104,7 @@
   <div class="explorer">
     <div class="mapwrap"><div id="map" role="region" aria-label="Map"></div><div class="maphint" id="maphint">Click the map to sort by distance</div></div>
     <div class="list" id="list" aria-live="polite"></div>
+    <div class="list-more"><button class="pill-btn dark" id="list-more" hidden>Show more</button></div>
   </div>
 </section>
 
@@ -145,6 +148,7 @@
 <footer class="site-footer" data-footer></footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
 <script src="js/common.js"></script>
 <script src="js/app.js"></script>
 </body>

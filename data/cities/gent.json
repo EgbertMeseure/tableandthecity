@@ -60,11 +60,12 @@
     "https://www.gaultmillau.be/nl/restaurants/a-food-affair-gent",
     "https://afoodaffair.be/",
     "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/gaultmillau-2026.-deze-gentse-restaurants-zijn-bij-de-beste-van-het-land-maar-je-kan-er-goed-eten-voor-minder-dan-55-euro/102135355.html",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://afoodaffair.be/contact/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -118,8 +119,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "setMenu": "menu type: 4-course tasting menu + à la carte",
@@ -127,11 +129,15 @@
     "terrace": "description mentions a terrace",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "14.0/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=373716"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=373716",
+    "openMonday": "https://afoodaffair.be/contact/",
+    "openSunday": "https://afoodaffair.be/contact/"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Sat 18:00–22:00 · Sun closed",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://afoodaffair.be/contact/",
+   "osm": "node/6983068056"
   },
   {
    "id": "alberte",
@@ -176,11 +182,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/alberte-gent",
     "https://www.alberte-gent.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://alberte-gent.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -217,19 +224,24 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "lunch": "menu type: Set menu (lunch 3+ courses €46, 5-course menu)",
     "setMenu": "menu type: Set menu (lunch 3+ courses €46, 5-course menu)",
     "gaultMillau": "13.5/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=373427"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=373427",
+    "openMonday": "https://alberte-gent.be",
+    "openSunday": "https://alberte-gent.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Thu 18:30–20:30 · Fri–Sat 12:00–13:30, 18:30–20:30 · Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://alberte-gent.be",
+   "osm": "node/12755180305"
   },
   {
    "id": "arbane",
@@ -274,11 +286,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/arbane-gent",
     "https://www.arbane.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://arbane.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -328,8 +341,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Lunch à la carte; dinner 5-course tasting menu",
@@ -337,11 +351,15 @@
     "setMenu": "menu type: Lunch à la carte; dinner 5-course tasting menu",
     "aLaCarte": "menu type: Lunch à la carte; dinner 5-course tasting menu",
     "gaultMillau": "13.0/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=369935"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=369935",
+    "openMonday": "https://arbane.be",
+    "openSunday": "https://arbane.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed 19:00–20:00 · Thu–Sat 12:00–13:00, 19:00–20:00 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://arbane.be",
+   "osm": "node/11897385586"
   },
   {
    "id": "arno-ristorante",
@@ -380,7 +398,7 @@
    "statusNote": "",
    "website": "https://arno-ristorante.be/",
    "instagram": "https://www.instagram.com/arno_ristorante_ghent/",
-   "phone": null,
+   "phone": "+32 9 212 01 21",
    "summary": "",
    "events": [],
    "sources": [
@@ -388,11 +406,12 @@
     "https://arno-ristorante.be/over-arno/",
     "https://guide.michelin.com/be/nl/article/dining-out/nieuwe-restaurants-in-de-michelin-gids-belgie-en-luxemburg-2026",
     "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/chef-van-beste-italiaans-restaurant-van-belgie-opent-zaak-in-gent-ons-menu-is-de-rit-uit-de-binnenstad-waard/100542712.html",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://arno-ristorante.be/contact/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -454,19 +473,24 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": true
+    "openSunday": false,
+    "new": true,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Set menus, à la carte and business lunch",
     "setMenu": "menu type: Set menus, à la carte and business lunch",
     "aLaCarte": "menu type: Set menus, à la carte and business lunch",
     "michelin": "Michelin selection (2026)",
-    "new": "opened 2025-10"
+    "new": "opened 2025-10",
+    "openMonday": "https://arno-ristorante.be/contact/",
+    "openSunday": "https://arno-ristorante.be/contact/"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Wed 18:00–21:00 · Thu–Sat 12:00–14:30, 18:00–21:00 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://arno-ristorante.be/contact/",
+   "osm": "node/13266807830"
   },
   {
    "id": "baptist",
@@ -511,11 +535,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/baptist-gent-wondelgem",
     "https://www.baptist-wondelgem.be/nl",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.baptist-wondelgem.be/nl/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -577,17 +602,22 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "lunch": "menu type: Lunch, Saturday sharing and à la carte",
     "aLaCarte": "menu type: Lunch, Saturday sharing and à la carte",
-    "gaultMillau": "12.0/20 (2026)"
+    "gaultMillau": "12.0/20 (2026)",
+    "openMonday": "https://www.baptist-wondelgem.be/nl/contact",
+    "openSunday": "https://www.baptist-wondelgem.be/nl/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Fri 12:00–14:00, 18:00–21:00 · Sat 18:00–21:00 · Sun closed",
    "group": "restaurants",
-   "category": "brasserie"
+   "category": "brasserie",
+   "openingHoursSource": "https://www.baptist-wondelgem.be/nl/contact",
+   "osm": "way/629449976"
   },
   {
    "id": "bask",
@@ -660,11 +690,12 @@
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/bar-bask",
     "https://www.gaultmillau.be/nl/restaurants/bask-gent",
     "https://www.bask.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://bask.be/praktisch"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -708,11 +739,11 @@
    "reservation_url": "https://www.bask.be/boek",
    "reservation_provider": "own page",
    "features": {
-    "veggie": null,
-    "vegan": null,
+    "veggie": true,
+    "vegan": false,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": false,
     "lunch": null,
     "dinner": null,
     "setMenu": true,
@@ -726,19 +757,27 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "setMenu": "menu type: Experience menus (€78/€92/€112) and à la carte",
     "aLaCarte": "menu type: Experience menus (€78/€92/€112) and à la carte",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "14.5/20 (2026)",
-    "reservations": "booking link on own website: https://www.bask.be/boek"
+    "reservations": "booking link on own website: https://www.bask.be/boek",
+    "openMonday": "https://bask.be/praktisch",
+    "openSunday": "https://bask.be/praktisch",
+    "vegan": "https://bask.be/praktisch — \"Veganistische gerechten bieden we niet aan\"",
+    "veggie": "https://bask.be/praktisch — limited vegetarian options (focus on fish/meat)",
+    "terrace": "OpenStreetMap: outdoor_seating=no"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Fri 18:00–23:30 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://bask.be/praktisch",
+   "osm": "node/9106174380"
   },
   {
    "id": "bistro-bastien",
@@ -783,11 +822,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/bistro-bastien-gent",
     "https://www.bistrobastien.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://bistrobastien.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -849,17 +889,22 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Lunch, specials and menu",
     "gaultMillau": "12.0/20 (2026)",
-    "reservations": "booking link on own website: https://www.bistrobastien.be/reserveren"
+    "reservations": "booking link on own website: https://www.bistrobastien.be/reserveren",
+    "openMonday": "https://bistrobastien.be",
+    "openSunday": "https://bistrobastien.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Wed dinner · Thu–Sat lunch, dinner · Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://bistrobastien.be",
+   "osm": "node/3394070668"
   },
   {
    "id": "bistro-cho",
@@ -906,11 +951,12 @@
     "https://www.gaultmillau.be/nl/restaurants/bistro-cho-gent",
     "https://www.bistrocho.be/menu",
     "https://www.made-in.be/oost-vlaanderen/bavo-en-alexander-waren-chefs-in-toprestaurants-nu-openen-ze-hun-eigen-bistro-we-hebben-2-700-wijnflessen-liggen/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://bistrocho.be/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -972,8 +1018,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": true
+    "openSunday": true,
+    "new": true,
+    "openMonday": true
    },
    "features_evidence": {
     "aLaCarte": "menu type: À la carte (indicative, fresh daily)",
@@ -981,11 +1028,15 @@
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "13.5/20 (2026)",
     "new": "opened 2025-07",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=376670"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=376670",
+    "openMonday": "https://bistrocho.be/contact",
+    "openSunday": "https://bistrocho.be/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon 12:00–14:30, 18:30–22:00 · Tue–Wed closed · Thu–Sun 12:00–14:30, 18:30–22:00",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://bistrocho.be/contact",
+   "osm": "node/12978510647"
   },
   {
    "id": "boris-maurice",
@@ -1031,11 +1082,12 @@
     "https://guide.michelin.com/be/nl/oost-vlaanderen/sint-amandsberg/restaurant/boris-maurice",
     "https://www.gaultmillau.be/nl/restaurants/boris-maurice-gent",
     "https://boris-maurice.be/menu/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://boris-maurice.be/info/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -1085,8 +1137,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
@@ -1095,11 +1148,15 @@
     "terrace": "description mentions a terrace",
     "michelin": "Bib Gourmand (2026)",
     "gaultMillau": "13.0/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=387387"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=387387",
+    "openMonday": "https://boris-maurice.be/info/",
+    "openSunday": "https://boris-maurice.be/info/"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue 18:00–21:00 · Wed–Fri 12:00–14:00, 18:00–21:00 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://boris-maurice.be/info/",
+   "osm": "node/10746387969"
   },
   {
    "id": "commotie",
@@ -1173,11 +1230,13 @@
     "https://www.gaultmillau.be/nl/restaurants/commotie-gent",
     "https://www.commotiegent.be/menu",
     "https://www.commotiegent.be/overons",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://commotiegent.be/contact",
+    "https://commotiegent.be/makeareservation"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -1223,7 +1282,7 @@
    "features": {
     "veggie": false,
     "vegan": false,
-    "glutenFree": null,
+    "glutenFree": false,
     "kidsWelcome": null,
     "terrace": true,
     "lunch": null,
@@ -1239,8 +1298,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "setMenu": "menu type: Tasting menu (set)",
@@ -1248,11 +1308,16 @@
     "terrace": "description mentions a terrace",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "15.5/20 (2026)",
-    "reservations": "booking link on own website: https://www.commotiegent.be/makeareservation"
+    "reservations": "booking link on own website: https://www.commotiegent.be/makeareservation",
+    "glutenFree": "https://commotiegent.be/makeareservation — cannot accommodate gluten-free menus",
+    "openMonday": "https://commotiegent.be/contact",
+    "openSunday": "https://commotiegent.be/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Thu 19:30 (dinner) · Fri 12:00 (lunch), 19:30 (dinner) · Sat 19:30 (dinner) · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://commotiegent.be/contact",
+   "osm": "node/11717356067"
   },
   {
    "id": "dapper",
@@ -1300,11 +1365,13 @@
     "https://www.restaurantdapper.com/nl/menu",
     "https://www.kaagent.be/nl/nieuws/14-07-2025/horseele-wordt-restaurant-dapper",
     "https://www.hln.be/gent/net-open-restaurant-dapper-vervangt-horseele-als-fine-diningzaak-in-de-planet-group-arena~abb3afad/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://restaurantdapper.com/contact",
+    "https://visit.gent.be/nl/eten-drinken/dapper"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -1348,7 +1415,7 @@
    "reservation_url": "https://bookings.zenchef.com/results?rid=377604",
    "reservation_provider": "Zenchef",
    "features": {
-    "veggie": null,
+    "veggie": true,
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
@@ -1366,19 +1433,25 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": true
+    "openSunday": false,
+    "new": true,
+    "openMonday": false
    },
    "features_evidence": {
     "setMenu": "menu type: Signature menu and à la carte",
     "aLaCarte": "menu type: Signature menu and à la carte",
     "gaultMillau": "14.0/20 (2026)",
     "new": "opened 2025-09",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=377604"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=377604",
+    "openMonday": "https://restaurantdapper.com/contact",
+    "openSunday": "https://restaurantdapper.com/contact",
+    "veggie": "https://visit.gent.be/nl/eten-drinken/dapper — full gastronomic vegetable menu"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed 18:00–20:00 · Thu–Fri 12:00–14:00, 18:00–20:00 · Sat 18:30–20:00 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://restaurantdapper.com/contact",
+   "osm": "node/2454728590"
   },
   {
    "id": "de-rave",
@@ -1425,11 +1498,12 @@
     "https://www.gaultmillau.be/nl/restaurants/de-rave-gent",
     "https://restaurantderave.be/menu",
     "https://restaurantderave.be/lunch",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://restaurantderave.be/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -1473,7 +1547,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": false,
     "lunch": true,
     "dinner": null,
     "setMenu": true,
@@ -1486,19 +1560,26 @@
     "chefCollabs": null,
     "reservations": null,
     "walkIn": null,
-    "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "wheelchair": false,
+    "openSunday": true,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Menu 3/4 courses + quick lunch + à la carte",
     "setMenu": "menu type: Menu 3/4 courses + quick lunch + à la carte",
     "aLaCarte": "menu type: Menu 3/4 courses + quick lunch + à la carte",
-    "gaultMillau": "13.0/20 (2026)"
+    "gaultMillau": "13.0/20 (2026)",
+    "openMonday": "https://restaurantderave.be/contact",
+    "openSunday": "https://restaurantderave.be/contact",
+    "terrace": "OpenStreetMap: outdoor_seating=no",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Wed closed · Thu–Fri 12:00, 18:00–19:30 · Sat 18:00–19:30 · Sun 12:00, 18:00–19:30",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://restaurantderave.be/contact",
+   "osm": "node/10908013548"
   },
   {
    "id": "debra",
@@ -1547,11 +1628,12 @@
     "https://debragent.be/",
     "https://debragent.be/wp-content/uploads/2026/10/DEBRA-MENU-OKT-2026-Topkopie-1.pdf",
     "https://guide.michelin.com/be/nl/article/dining-out/nieuwe-restaurants-in-de-michelin-gids-belgie-en-luxemburg-2026",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://debragent.be"
    ],
    "dataConflict": "G&M page reports a move \"on 1 July\" to Zuidstationstraat 14; own website and Michelin list Lange Steenstraat 10. Address from own website used.",
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -1613,8 +1695,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
@@ -1622,11 +1705,15 @@
     "aLaCarte": "menu type: \"DEBRA’s Choice\" 5 courses (€85) or à la carte",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "14.5/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=368978"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=368978",
+    "openMonday": "https://debragent.be",
+    "openSunday": "https://debragent.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Sat 19:00–21:00 · Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://debragent.be",
+   "osm": "node/12805720542"
   },
   {
    "id": "elders",
@@ -1698,11 +1785,12 @@
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/elders",
     "https://www.gaultmillau.be/nl/restaurants/elders-gent",
     "https://elders.gent/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://elders.gent"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -1750,7 +1838,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": true,
     "dinner": true,
     "setMenu": true,
@@ -1764,8 +1852,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": true,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Lunch 3 courses (€45); dinner seasonal 6-course menu (€75)",
@@ -1773,11 +1862,16 @@
     "setMenu": "menu type: Lunch 3 courses (€45); dinner seasonal 6-course menu (€75)",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "14.5/20 (2026)",
-    "reservations": "booking link on own website: https://elders.gent/#reserveer"
+    "reservations": "booking link on own website: https://elders.gent/#reserveer",
+    "openMonday": "https://elders.gent",
+    "openSunday": "https://elders.gent",
+    "terrace": "https://elders.gent — front terrace (no reservations) + back garden in summer"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed 18:00–24:00 (dinner from 19:00) · Thu–Fri 12:00 lunch, 18:00–24:00 (dinner from 19:00) · Sat 18:00–24:00 (dinner from 19:00) · Sun 10:30–17:00 (kitchen 12:00–14:00)",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://elders.gent",
+   "osm": "node/9702596192"
   },
   {
    "id": "ferri",
@@ -1823,11 +1917,12 @@
     "https://www.gaultmillau.be/nl/restaurants/ferri-gent",
     "https://www.ferri.gent/",
     "https://www.ferri.gent/menu",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://visit.gent.be/nl/eten-drinken/ferri"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -1881,17 +1976,22 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "setMenu": "menu type: 5-course menu, vegetarian or fish (€72)",
-    "reservations": "booking link on own website: https://www.ferri.gent/reserveren"
+    "reservations": "booking link on own website: https://www.ferri.gent/reserveren",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/ferri",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/ferri"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Sat 19:00–22:00 · Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/ferri",
+   "osm": "node/11952535069"
   },
   {
    "id": "fine-n-fast",
@@ -1936,11 +2036,12 @@
    "sources": [
     "https://finenfast.be/",
     "https://nieuwsdump.be/nieuws/net-open-rog-gerookt-met-cubaanse-sigaren-en-rund-gecombineerd-met-oester-lowie-26-opent-fine-n-fast-een-restaurant-met-rocknrollrandje",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://finenfast.be/contact/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2003,17 +2104,21 @@
     "walkIn": null,
     "wheelchair": null,
     "openSunday": null,
-    "new": true
+    "new": true,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "aLaCarte": "menu type: Individual dishes (à la carte)",
     "new": "opened 2026-07",
-    "reservations": "booking link on own website: https://finenfast.be/reserveren/"
+    "reservations": "booking link on own website: https://finenfast.be/reserveren/",
+    "openMonday": "https://finenfast.be/contact/"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Sat 11:30–22:00 · Sun unknown",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://finenfast.be/contact/",
+   "osm": "node/4932254606"
   },
   {
    "id": "fou-d-o",
@@ -2031,7 +2136,7 @@
    "lat": 51.038176,
    "lng": 3.690598,
    "geoSource": "Nominatim/OpenStreetMap",
-   "priceLevel": "unknown",
+   "priceLevel": "€€",
    "priceFrom": 26,
    "distinctions": {
     "michelin": null,
@@ -2058,11 +2163,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/fou-do-gent",
     "https://foudo.be/menu/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://foudo.be/contact/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2100,7 +2206,7 @@
    "features": {
     "veggie": true,
     "vegan": null,
-    "glutenFree": null,
+    "glutenFree": true,
     "kidsWelcome": null,
     "terrace": true,
     "lunch": true,
@@ -2116,8 +2222,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
@@ -2125,11 +2232,17 @@
     "aLaCarte": "menu type: À la carte + weekly lunch",
     "terrace": "description mentions a terrace",
     "gaultMillau": "12.5/20 (2026)",
-    "reservations": "booking link on own website: https://foudo.be/reserveren/"
+    "reservations": "booking link on own website: https://foudo.be/reserveren/",
+    "glutenFree": "https://foudo.be/menu/ — menu marks dishes that can be served gluten-free",
+    "openMonday": "https://foudo.be/contact/",
+    "openSunday": "https://foudo.be/contact/"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Fri 12:00–14:00, 18:00–21:30 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "brasserie"
+   "category": "brasserie",
+   "openingHoursSource": "https://foudo.be/contact/",
+   "priceLevelSource": "https://foudo.be/menu/ — basis: pasta mains €25–26 on menu",
+   "osm": "way/933042094"
   },
   {
    "id": "gillis",
@@ -2175,11 +2288,12 @@
     "https://www.gaultmillau.be/nl/restaurants/gillis-gent",
     "https://www.gillisgent.be/the-menu/",
     "https://www.gillisgent.be/wine-menu/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://gillisgent.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2227,7 +2341,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": false,
     "lunch": null,
     "dinner": null,
     "setMenu": null,
@@ -2241,17 +2355,23 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "aLaCarte": "menu type: Sharing bites + meat selection (à la carte)",
     "gaultMillau": "13.5/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=387389"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=387389",
+    "openMonday": "https://gillisgent.be",
+    "openSunday": "https://gillisgent.be",
+    "terrace": "OpenStreetMap: outdoor_seating=no"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Thu 18:30–00:00 · Fri 12:00–15:00, 18:30–00:00 · Sat 18:30–00:00 · Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://gillisgent.be",
+   "osm": "node/6139933288"
   },
   {
    "id": "il-mezzogiorno",
@@ -2296,11 +2416,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/il-mezzogiorno-gent",
     "https://www.ilmezzogiorno.be/menu/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.ilmezzogiorno.be/info/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2362,18 +2483,23 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": true,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "lunch": "menu type: Menu Pranzo (€20), Menu Orto (€56), à la carte",
     "aLaCarte": "menu type: Menu Pranzo (€20), Menu Orto (€56), à la carte",
     "gaultMillau": "12.0/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=381502"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=381502",
+    "openMonday": "https://www.ilmezzogiorno.be/info/",
+    "openSunday": "https://www.ilmezzogiorno.be/info/"
    },
-   "openingHours": null,
+   "openingHours": "Mon 18:00–22:00 · Tue–Thu closed · Fri–Sun 18:00–22:00",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://www.ilmezzogiorno.be/info/",
+   "osm": "node/260203053"
   },
   {
    "id": "jour-de-fete",
@@ -2419,11 +2545,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/jour-de-fete-gent",
     "https://restaurantjourdefete.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://visit.gent.be/nl/eten-drinken/jour-de-fete"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2471,7 +2598,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": null,
     "dinner": null,
     "setMenu": true,
@@ -2485,16 +2612,22 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "setMenu": "menu type: Multiple-choice menu 2/3 courses (€33/€39)",
-    "gaultMillau": "12.0/20 (2026)"
+    "gaultMillau": "12.0/20 (2026)",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/jour-de-fete",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/jour-de-fete",
+    "terrace": "https://visit.gent.be/nl/eten-drinken/jour-de-fete — large quiet terrace on the Zebrastraat atrium (summer)"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue 12:00–14:00, 18:30–22:00 · Wed 12:00–14:00 · Thu–Fri 12:00–14:00, 18:30–22:00 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/jour-de-fete",
+   "osm": "node/1227902197"
   },
   {
    "id": "karel-de-stoute",
@@ -2567,11 +2700,12 @@
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/karel-de-stoute",
     "https://www.gaultmillau.be/nl/restaurants/karel-de-stoute-gent",
     "https://restkareldestoute.be/menu",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://restkareldestoute.be/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2629,19 +2763,24 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Set menu (lunch, 5 or 6 courses)",
     "setMenu": "menu type: Set menu (lunch, 5 or 6 courses)",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "15.0/20 (2026)",
-    "reservations": "booking link on own website: https://restkareldestoute.be/reserveren"
+    "reservations": "booking link on own website: https://restkareldestoute.be/reserveren",
+    "openMonday": "https://restkareldestoute.be/contact",
+    "openSunday": "https://restkareldestoute.be/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri from 12:00, from 19:00 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://restkareldestoute.be/contact",
+   "osm": "node/3394070666"
   },
   {
    "id": "kin-khao-thai-eatery",
@@ -2659,7 +2798,7 @@
    "lat": 51.054702,
    "lng": 3.722924,
    "geoSource": "Nominatim/OpenStreetMap",
-   "priceLevel": "unknown",
+   "priceLevel": "€€",
    "priceFrom": 27,
    "distinctions": {
     "michelin": null,
@@ -2686,11 +2825,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/kin-khao-thai-eatery-gent",
     "https://www.kinkhao.be/gent/menu/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://visit.gent.be/nl/eten-drinken/kin-khao-thai-eatery"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2740,8 +2880,9 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
@@ -2750,11 +2891,16 @@
     "dinner": "menu type: Lunch à la carte; dinner Choice Menu €55 (sharing)",
     "setMenu": "menu type: Lunch à la carte; dinner Choice Menu €55 (sharing)",
     "aLaCarte": "menu type: Lunch à la carte; dinner Choice Menu €55 (sharing)",
-    "gaultMillau": "13.0/20 (2026)"
+    "gaultMillau": "13.0/20 (2026)",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/kin-khao-thai-eatery",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/kin-khao-thai-eatery"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Sat 12:00–14:00, 18:00–22:00 · Sun closed",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/kin-khao-thai-eatery",
+   "priceLevelSource": "https://www.kinkhao.be/gent/menu/ — basis: lunch mains from €15, dinner choice menu €55",
+   "osm": "node/11049255679"
   },
   {
    "id": "klaar",
@@ -2772,7 +2918,7 @@
    "lat": 51.054902,
    "lng": 3.722854,
    "geoSource": "Nominatim/OpenStreetMap",
-   "priceLevel": "unknown",
+   "priceLevel": "€€€",
    "priceFrom": 37,
    "distinctions": {
     "michelin": null,
@@ -2800,11 +2946,12 @@
     "https://www.gaultmillau.be/nl/restaurants/klaar-gent",
     "https://klaargent.be/",
     "https://d3ttqbsx541wet.cloudfront.net/documents/Menukaart-klaar-officieel-LUNCH.pdf",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://klaargent.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2854,18 +3001,24 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "lunch": "menu type: À la carte + lunch formula (€37)",
     "aLaCarte": "menu type: À la carte + lunch formula (€37)",
-    "reservations": "booking link on own website: https://klaargent.be/#reserveren"
+    "reservations": "booking link on own website: https://klaargent.be/#reserveren",
+    "openMonday": "https://klaargent.be",
+    "openSunday": "https://klaargent.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue from 12:00, from 18:00 · Wed from 12:00 (closed evening) · Thu–Fri from 12:00, from 18:00 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://klaargent.be",
+   "priceLevelSource": "https://klaargent.be — basis: lunch formula €37, dinner à la carte",
+   "osm": "node/14141659599"
   },
   {
    "id": "kruidtuin",
@@ -2910,11 +3063,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/kruidtuin-gent",
     "https://www.kruidtuingent.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://kruidtuingent.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -2976,8 +3130,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
@@ -2985,11 +3140,15 @@
     "dinner": "menu type: Short menu (lunch 3/4 courses, dinner 5 courses)",
     "setMenu": "menu type: Short menu (lunch 3/4 courses, dinner 5 courses)",
     "gaultMillau": "13.0/20 (2026)",
-    "reservations": "booking link on own website: https://www.kruidtuingent.be/#reserveren"
+    "reservations": "booking link on own website: https://www.kruidtuingent.be/#reserveren",
+    "openMonday": "https://kruidtuingent.be",
+    "openSunday": "https://kruidtuingent.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Wed 12:00–14:00, 19:00–21:30 · Thu closed · Fri–Sat 12:00–14:00, 19:00–21:30 · Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://kruidtuingent.be",
+   "osm": "node/11028543743"
   },
   {
    "id": "le-baan-thai",
@@ -3034,11 +3193,13 @@
    "sources": [
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/le-baan-thai",
     "https://www.lebaanthai.be/nl/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.lebaanthai.be/nl/contact",
+    "https://visit.gent.be/nl/eten-drinken/le-baan-thai"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3057,7 +3218,7 @@
    "reservation_url": null,
    "reservation_provider": null,
    "features": {
-    "veggie": null,
+    "veggie": true,
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
@@ -3075,16 +3236,22 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": true,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "terrace": "description mentions a terrace",
-    "michelin": "Bib Gourmand (2026)"
+    "michelin": "Bib Gourmand (2026)",
+    "openMonday": "https://www.lebaanthai.be/nl/contact",
+    "openSunday": "https://www.lebaanthai.be/nl/contact",
+    "veggie": "https://visit.gent.be/nl/eten-drinken/le-baan-thai — \"veel vegetarische opties\""
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Thu 18:30–21:30 · Fri–Sat 18:30–22:00 · Sun 12:00–14:00, 18:30–21:30",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://www.lebaanthai.be/nl/contact",
+   "osm": "node/3394491369"
   },
   {
    "id": "le-chouchou",
@@ -3132,11 +3299,12 @@
     "https://lechouchou.be/",
     "https://www.hln.be/gent/net-open-met-le-chouchou-starten-marcelo-ballardin-en-dominik-dhooge-een-nieuw-avontuur-we-hopen-een-echt-buurtrestaurant-te-worden~a5c850d0/",
     "https://www.hln.be/gent/marcelo-ballardin-en-dominik-dhooge-sluiten-na-acht-jaar-door73-in-gent-een-mooi-verhaal-maar-het-is-tijd-voor-een-nieuw-concept~a48dd0cd/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://lechouchou.be/contact/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3198,17 +3366,22 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": true
+    "openSunday": true,
+    "new": true,
+    "openMonday": false
    },
    "features_evidence": {
     "aLaCarte": "menu type: À la carte",
     "new": "opened 2026-08",
-    "reservations": "booking link on own website: https://lechouchou.be/reserveer/"
+    "reservations": "booking link on own website: https://lechouchou.be/reserveer/",
+    "openMonday": "https://lechouchou.be/contact/",
+    "openSunday": "https://lechouchou.be/contact/"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Sat arrival 12:00–13:30, 19:00–20:30 · Sun arrival 12:00–13:30",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://lechouchou.be/contact/",
+   "osm": "node/12585403426"
   },
   {
    "id": "le-jeu-est-jambon",
@@ -3226,7 +3399,7 @@
    "lat": 51.058193,
    "lng": 3.722271,
    "geoSource": "Nominatim/OpenStreetMap",
-   "priceLevel": "unknown",
+   "priceLevel": "€€",
    "priceFrom": null,
    "distinctions": {
     "michelin": null,
@@ -3253,11 +3426,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/le-jeu-est-jambon-gent",
     "https://www.lejeujambon.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.hln.be/gent/net-open-le-jeu-est-jambon-van-quinten-31-en-elizabeth-30-opent-in-patershol-herkenbare-gerechtjes-met-een-eigen-stijl~adb19179/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3305,7 +3479,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": null,
     "dinner": null,
     "setMenu": null,
@@ -3319,15 +3493,22 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
-    "aLaCarte": "menu type: À la carte (sample menu)"
+    "aLaCarte": "menu type: À la carte (sample menu)",
+    "openMonday": "https://www.lejeujambon.be/",
+    "openSunday": "https://www.lejeujambon.be/",
+    "terrace": "https://www.hln.be/gent/net-open-le-jeu-est-jambon-van-quinten-31-en-elizabeth-30-opent-in-patershol-herkenbare-gerechtjes-met-een-eigen-stijl~adb19179/ — \"ruime binnenterras\" in summer"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Sat 18:00–21:30 · Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://www.lejeujambon.be/",
+   "priceLevelSource": "https://www.hln.be/gent/net-open-le-jeu-est-jambon-van-quinten-31-en-elizabeth-30-opent-in-patershol-herkenbare-gerechtjes-met-een-eigen-stijl~adb19179/ — basis: sharing dishes €5–26",
+   "osm": "node/3908306916"
   },
   {
    "id": "lof",
@@ -3374,11 +3555,12 @@
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/lof",
     "https://www.gaultmillau.be/nl/restaurants/lof-gent",
     "https://www.lofrestaurant.com/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://lofrestaurant.com"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3441,7 +3623,8 @@
     "walkIn": null,
     "wheelchair": null,
     "openSunday": true,
-    "new": null
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
@@ -3450,11 +3633,14 @@
     "aLaCarte": "menu type: À la carte or Chef’s Menu (6 courses); Sunday lunch",
     "openSunday": "menu type: À la carte or Chef’s Menu (6 courses); Sunday lunch",
     "michelin": "Michelin selection (2026)",
-    "gaultMillau": "14.0/20 (2026)"
+    "gaultMillau": "14.0/20 (2026)",
+    "openMonday": "https://lofrestaurant.com"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Sat 18:00–21:30 · Sun first Sunday of the month: lunch only",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://lofrestaurant.com",
+   "osm": "node/6900564087"
   },
   {
    "id": "lubbi",
@@ -3490,7 +3676,7 @@
    "menuChanges": "unknown",
    "currentMenuNote": "Menu May 2026: apéro board, beef tartare, ceviche, Lubbi meatballs, falafel burger.",
    "status": "temporarily closed",
-   "statusNote": "Website: \"temporarily closed due to illness\" (checked 19-10-2026).",
+   "statusNote": "Temporarily closed due to illness (lubbi.be).",
    "website": "https://lubbi.be/",
    "instagram": "https://www.instagram.com/lubbi_cafe/",
    "phone": null,
@@ -3506,7 +3692,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3546,7 +3732,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": true,
     "dinner": null,
     "setMenu": null,
@@ -3560,18 +3746,24 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "lunch": "menu type: Sharing à la carte + easy lunch",
     "aLaCarte": "menu type: Sharing à la carte + easy lunch",
-    "gaultMillau": "13/20 (2026)"
+    "gaultMillau": "13/20 (2026)",
+    "openMonday": "https://lubbi.be/",
+    "openSunday": "https://lubbi.be/",
+    "terrace": "https://lubbi.be/ — \"groot zonneterras\""
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Wed 12:00–15:00 · Thu–Fri 12:00–15:00, 17:00–22:30 · Sat 17:00–22:30 · Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://lubbi.be/",
+   "osm": "node/13112745575"
   },
   {
    "id": "lys-d-or",
@@ -3618,11 +3810,12 @@
     "https://www.gaultmillau.be/nl/restaurants/lys-dor-gent",
     "https://www.lysdor.be/nl/alacarte",
     "https://www.lysdor.be/nl/menu",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.lysdor.be/nl/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3684,17 +3877,21 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "aLaCarte": "menu type: À la carte + suggestion menus",
     "michelin": "Michelin selection (2026)",
-    "gaultMillau": "14.0/20 (2026)"
+    "gaultMillau": "14.0/20 (2026)",
+    "openMonday": "https://www.lysdor.be/nl/contact",
+    "openSunday": "https://www.lysdor.be/nl/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon 12:00–14:00, 18:30–21:00 · Tue 12:00–14:00 · Wed closed · Thu–Fri 12:00–14:00, 18:30–21:00 · Sat 18:30–21:00 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://www.lysdor.be/nl/contact"
   },
   {
    "id": "midi",
@@ -3739,11 +3936,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/midi-gent",
     "https://www.brasseriemidi.be/nl/lunch",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://brasseriemidi.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3775,7 +3973,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": true,
     "dinner": null,
     "setMenu": null,
@@ -3789,17 +3987,23 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Weekly lunch + à la carte",
     "aLaCarte": "menu type: Weekly lunch + à la carte",
-    "gaultMillau": "13.0/20 (2026)"
+    "gaultMillau": "13.0/20 (2026)",
+    "openMonday": "https://brasseriemidi.be",
+    "openSunday": "https://brasseriemidi.be",
+    "terrace": "OpenStreetMap: outdoor_seating=yes"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–13:45, 18:30–21:30 · Sat 12:00–14:15, 18:30–21:30 · Sun closed",
    "group": "restaurants",
-   "category": "brasserie"
+   "category": "brasserie",
+   "openingHoursSource": "https://brasseriemidi.be",
+   "osm": "node/11471262936"
   },
   {
    "id": "moscou-by-danny-horseele",
@@ -3874,11 +4078,13 @@
     "https://www.gaultmillau.be/nl/restaurants/moscou-by-danny-horseele-gent-gentbrugge",
     "https://nl.linkedin.com/posts/danny-horseele-8b4264287_restaurant-moscouby-danny-horseele-is-sedert-activity-7333183337416564736-Dhlu",
     "https://www.hln.be/gent/dit-zijn-volgens-michelin-2026-de-sterrenrestaurants-in-gent~afe757d9/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.restaurantmoscou.be/contact",
+    "https://www.restaurantmoscou.be/menu"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -3924,7 +4130,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "glutenFree": null,
+    "glutenFree": true,
     "kidsWelcome": null,
     "terrace": null,
     "lunch": null,
@@ -3940,19 +4146,25 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": true
+    "openSunday": false,
+    "new": true,
+    "openMonday": false
    },
    "features_evidence": {
     "setMenu": "menu type: Set menu and à la carte (G&M feature \"À la carte\")",
     "aLaCarte": "menu type: Set menu and à la carte (G&M feature \"À la carte\")",
     "michelin": "1 Michelin star (2026)",
     "gaultMillau": "15.5/20 (2026)",
-    "new": "opened 2025-05-23"
+    "new": "opened 2025-05-23",
+    "glutenFree": "https://www.restaurantmoscou.be/menu — gluten intolerance can be flagged at booking; cross-contamination not excluded",
+    "openMonday": "https://www.restaurantmoscou.be/contact",
+    "openSunday": "https://www.restaurantmoscou.be/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–13:30, 19:00–20:30 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://www.restaurantmoscou.be/contact",
+   "osm": "node/12994866605"
   },
   {
    "id": "meme-gusta",
@@ -3996,11 +4208,12 @@
    "events": [],
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/meme-gusta-gent",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.meme-gusta.be/nl/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4062,17 +4275,22 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "setMenu": "menu type: 3-course menu (€43) and à la carte",
     "aLaCarte": "menu type: 3-course menu (€43) and à la carte",
-    "gaultMillau": "12.5/20 (2026)"
+    "gaultMillau": "12.5/20 (2026)",
+    "openMonday": "https://www.meme-gusta.be/nl/contact",
+    "openSunday": "https://www.meme-gusta.be/nl/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon 18:00–22:00 · Tue 12:00–14:00, 18:00–22:00 · Wed 18:00–22:00 · Thu–Sat 12:00–14:00, 18:00–22:00 · Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://www.meme-gusta.be/nl/contact",
+   "osm": "node/13866437601"
   },
   {
    "id": "nonam",
@@ -4119,11 +4337,12 @@
     "https://www.gaultmillau.be/nl/restaurants/nonam-gent",
     "https://nonam.be/",
     "https://nonam.be/nieuws/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://nonam.be/contact-us/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4169,7 +4388,7 @@
    "features": {
     "veggie": null,
     "vegan": false,
-    "glutenFree": null,
+    "glutenFree": true,
     "kidsWelcome": null,
     "terrace": null,
     "lunch": true,
@@ -4185,19 +4404,24 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Lunch 2 courses, menu 4 or 5 courses",
     "setMenu": "menu type: Lunch 2 courses, menu 4 or 5 courses",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "13.0/20 (2026)",
-    "reservations": "booking link on own website: https://restaurantnonam.guestplan.io"
+    "reservations": "booking link on own website: https://restaurantnonam.guestplan.io",
+    "glutenFree": "https://nonam.be/contact-us/ — dishes can be adapted for gluten (notify in advance)",
+    "openMonday": "https://nonam.be/contact-us/",
+    "openSunday": "https://nonam.be/contact-us/"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Sat lunch from 12:00, dinner from 19:00 · Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://nonam.be/contact-us/"
   },
   {
    "id": "oak",
@@ -4245,11 +4469,12 @@
     "https://www.gaultmillau.be/nl/restaurants/oak-gent",
     "https://oakgent.be/menu/",
     "https://www.hln.be/gent/net-open-met-le-chouchou-starten-marcelo-ballardin-en-dominik-dhooge-een-nieuw-avontuur-we-hopen-een-echt-buurtrestaurant-te-worden~a5c850d0/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://oakgent.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4311,19 +4536,24 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "setMenu": "menu type: Set menus (Discovery / Experience / Chef’s menu)",
     "michelin": "1 Michelin star (2026)",
     "gaultMillau": "16.5/20 (2026)",
-    "reservations": "booking link on own website: https://oakgent.be/reservaties/"
+    "reservations": "booking link on own website: https://oakgent.be/reservaties/",
+    "openMonday": "https://oakgent.be",
+    "openSunday": "https://oakgent.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–13:30, 19:00–22:00 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://oakgent.be",
+   "osm": "node/10291647457"
   },
   {
    "id": "otium-cucina-italiana",
@@ -4368,11 +4598,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/otium-cucina-italiana-gent",
     "https://otium.gent/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://otium.gent/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4433,20 +4664,26 @@
     "chefCollabs": null,
     "reservations": true,
     "walkIn": null,
-    "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "wheelchair": false,
+    "openSunday": true,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "lunch": "menu type: Menu degustazione (meat / fish / vegetarian) + lunch",
     "setMenu": "menu type: Menu degustazione (meat / fish / vegetarian) + lunch",
     "gaultMillau": "13.0/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=374152"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=374152",
+    "openMonday": "https://otium.gent/contact",
+    "openSunday": "https://otium.gent/contact",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue 12:00–14:30, 17:30–22:30 · Wed–Thu closed · Fri–Sat 12:00–14:30, 17:30–22:30 · Sun 12:00–15:00, 17:30–22:30",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://otium.gent/contact",
+   "osm": "node/6155773246"
   },
   {
    "id": "patyntje",
@@ -4491,11 +4728,12 @@
    "sources": [
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/patyntje",
     "https://www.patyntje.com/menu",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.patyntje.com/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4549,18 +4787,23 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": true,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "aLaCarte": "menu type: À la carte + group menus",
     "terrace": "description mentions a terrace",
     "michelin": "Michelin selection (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=366353"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=366353",
+    "openMonday": "https://www.patyntje.com/contact",
+    "openSunday": "https://www.patyntje.com/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Sat 11:30–14:00, 17:30–21:15 · Sun 11:30–14:30, 17:30–21:00",
    "group": "restaurants",
-   "category": "brasserie"
+   "category": "brasserie",
+   "openingHoursSource": "https://www.patyntje.com/contact",
+   "osm": "node/2462825576"
   },
   {
    "id": "publiek",
@@ -4606,11 +4849,12 @@
     "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/publiek",
     "https://www.gaultmillau.be/nl/restaurants/publiek-gent",
     "https://publiekgent.be/nl",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://publiekgent.be/nl/reserveren"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4671,9 +4915,10 @@
     "chefCollabs": null,
     "reservations": true,
     "walkIn": null,
-    "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "wheelchair": false,
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Set menu (lunch 3+ courses, dinner 5–7 courses)",
@@ -4681,11 +4926,16 @@
     "setMenu": "menu type: Set menu (lunch 3+ courses, dinner 5–7 courses)",
     "michelin": "1 Michelin star (2026)",
     "gaultMillau": "15.0/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=381344"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=381344",
+    "openMonday": "https://publiekgent.be/nl/reserveren",
+    "openSunday": "https://publiekgent.be/nl/reserveren",
+    "wheelchair": "https://publiekgent.be/nl/reserveren — 2 steps at front door; toilet on first floor"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–13:30, 19:00–20:30 · Sat 19:00–20:30 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://publiekgent.be/nl/reserveren",
+   "osm": "node/4463413776"
   },
   {
    "id": "pulpo",
@@ -4703,7 +4953,7 @@
    "lat": 51.015878,
    "lng": 3.659584,
    "geoSource": "Nominatim/OpenStreetMap",
-   "priceLevel": "unknown",
+   "priceLevel": "€€",
    "priceFrom": 30.5,
    "distinctions": {
     "michelin": null,
@@ -4730,11 +4980,15 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/pulpo-gent-sint-denijs-westrem",
     "https://www.restopulpo.com/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://restopulpo.com/pulpolatem/contactlatem",
+    "https://restopulpo.com/faq",
+    "https://restopulpo.com/pulpolatem/menulatem",
+    "https://visit.gent.be/nl/eten-drinken/pulpo"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4778,11 +5032,11 @@
    "reservation_url": "https://www.sevenrooms.com/explore/mscbvpulpo/reservations/create/search",
    "reservation_provider": "SevenRooms",
    "features": {
-    "veggie": null,
-    "vegan": null,
+    "veggie": true,
+    "vegan": true,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": true,
     "dinner": null,
     "setMenu": null,
@@ -4796,18 +5050,27 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: À la carte + weekly lunch (€30.50)",
     "aLaCarte": "menu type: À la carte + weekly lunch (€30.50)",
     "gaultMillau": "13.0/20 (2026)",
-    "reservations": "booking link on own website: https://www.sevenrooms.com/explore/mscbvpulpo/reservations/create/search"
+    "reservations": "booking link on own website: https://www.sevenrooms.com/explore/mscbvpulpo/reservations/create/search",
+    "openMonday": "https://restopulpo.com/pulpolatem/contactlatem",
+    "openSunday": "https://restopulpo.com/pulpolatem/contactlatem",
+    "terrace": "https://restopulpo.com/faq — garden terrace (\"tuinterras\")",
+    "vegan": "https://visit.gent.be/nl/eten-drinken/pulpo — limited vegan offer on request",
+    "veggie": "https://restopulpo.com/pulpolatem/menulatem — pasta \"kan ook veggie\""
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–14:00, 18:30–22:00 · Sat 18:30–22:00 · Sun closed",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://restopulpo.com/pulpolatem/contactlatem",
+   "priceLevelSource": "https://restopulpo.com/pulpolatem/menulatem — basis: pasta mains €26.50–27.50",
+   "osm": "node/10170071134"
   },
   {
    "id": "raaf",
@@ -4853,11 +5116,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/raaf-gent",
     "https://raafgent.be/uploads/voorbeeld-menu.pdf",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://raafgent.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -4911,17 +5175,22 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "setMenu": "menu type: Menu 5/6/7 courses",
     "gaultMillau": "13.0/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=374305"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=374305",
+    "openMonday": "https://raafgent.be",
+    "openSunday": "https://raafgent.be"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Sat 18:30–23:00 · Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://raafgent.be",
+   "osm": "node/12052358528"
   },
   {
    "id": "rizoom",
@@ -4969,11 +5238,12 @@
     "https://www.gaultmillau.be/nl/restaurants/rizoom-gent",
     "https://www.rizoomgent.be/menu-1",
     "https://www.rizoomgent.be/menu",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.rizoomgent.be/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5019,7 +5289,7 @@
    "features": {
     "veggie": false,
     "vegan": false,
-    "glutenFree": null,
+    "glutenFree": true,
     "kidsWelcome": null,
     "terrace": null,
     "lunch": true,
@@ -5035,19 +5305,25 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Omakase menu (Wed/Thu \"fundamentals\", Fri/Sat \"experience\", Friday lunch)",
     "setMenu": "menu type: Omakase menu (Wed/Thu \"fundamentals\", Fri/Sat \"experience\", Friday lunch)",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "15.0/20 (2026)",
-    "reservations": "booking link on own website: https://www.rizoomgent.be/reserveren"
+    "reservations": "booking link on own website: https://www.rizoomgent.be/reserveren",
+    "glutenFree": "https://www.rizoomgent.be/menu — gluten intolerance possible only if cross-contamination is not a problem; not for severe allergy",
+    "openMonday": "https://www.rizoomgent.be/contact",
+    "openSunday": "https://www.rizoomgent.be/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue closed · Wed–Thu 19:00–23:30 · Fri 12:30–15:30, 19:00–23:30 · Sat 19:00–23:30 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://www.rizoomgent.be/contact",
+   "osm": "node/6898538387"
   },
   {
    "id": "sensum",
@@ -5139,11 +5415,13 @@
     "https://www.gaultmillau.be/nl/restaurants/sensum-gent-sint-denijs-westrem",
     "https://sensumgent.be/menu/",
     "https://www.gaultmillau.be/en/news/ten-to-taste-gent",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://sensumgent.be/contact/",
+    "https://sensumgent.be/terrace-concept/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5191,7 +5469,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": true,
     "dinner": null,
     "setMenu": true,
@@ -5205,19 +5483,24 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "lunch": "menu type: Lunch menu 4 courses (€90) and Sensum Experience 5/6 courses",
     "setMenu": "menu type: Lunch menu 4 courses (€90) and Sensum Experience 5/6 courses",
     "michelin": "1 Michelin star (2026)",
     "gaultMillau": "15.5/20 (2026)",
-    "reservations": "booking link on own website: https://widget.thefork.com/b7fb7ca0-dc28-4840-bb83-436c250861b7"
+    "reservations": "booking link on own website: https://widget.thefork.com/b7fb7ca0-dc28-4840-bb83-436c250861b7",
+    "openMonday": "https://sensumgent.be/contact/",
+    "openSunday": "https://sensumgent.be/contact/",
+    "terrace": "https://sensumgent.be/terrace-concept/ — waterside terrace concept"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Wed 12:00–16:30, 19:00–23:30 · Thu private dining only · Fri 12:00–16:30, 19:00–23:30 · Sat private dining only (open 2nd Saturday of the month) · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://sensumgent.be/contact/"
   },
   {
    "id": "steendam-66",
@@ -5236,7 +5519,7 @@
    "lat": 51.057071,
    "lng": 3.730432,
    "geoSource": "Nominatim/OpenStreetMap",
-   "priceLevel": "unknown",
+   "priceLevel": "€€€",
    "priceFrom": 66,
    "distinctions": {
     "michelin": null,
@@ -5263,11 +5546,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/steendam-66-gent",
     "https://www.steendam66.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://steendam66.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5307,7 +5591,7 @@
     "vegan": false,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": null,
     "dinner": null,
     "setMenu": null,
@@ -5321,16 +5605,23 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "aLaCarte": "menu type: Chalkboard à la carte",
-    "gaultMillau": "12.5/20 (2026)"
+    "gaultMillau": "12.5/20 (2026)",
+    "openMonday": "https://steendam66.be",
+    "openSunday": "https://steendam66.be",
+    "terrace": "https://steendam66.be — \"Klein terras aanwezig\""
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–13:30, 18:30–22:30 · Sat dinner seatings 18:00–20:30 and 20:45–close · Sun closed",
    "group": "restaurants",
-   "category": "bistro"
+   "category": "bistro",
+   "openingHoursSource": "https://steendam66.be",
+   "priceLevelSource": "https://steendam66.be — basis: lunch 2 courses €29; dinner mains higher (priceFrom 66 in data)",
+   "osm": "node/4559081390"
   },
   {
    "id": "sakas",
@@ -5369,18 +5660,19 @@
    "statusNote": "",
    "website": "https://sakaswintercircusbe.eu",
    "instagram": "https://www.instagram.com/sakas.wintercircus/",
-   "phone": null,
+   "phone": "+32 489 68 74 67",
    "summary": "Chef Yoshihito Mizuno stelt in het Gentse Wintercircus een 8- of 16-delig omakase menu voor wat zoveel betekent als ‘u te laten leiden door de chef’. Als creatieve start proeven we van kort gerijpte hamachi met tomatenwater en olie van ansjovis terwijl…",
    "events": [],
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/sakas-gent",
     "https://www.sakaswintercircusbe.eu/",
     "https://www.sakaswintercircusbe.eu/about",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://sakaswintercircusbe.eu/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5467,17 +5759,22 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "setMenu": "menu type: Omakase",
     "gaultMillau": "13.5/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=369609"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=369609",
+    "openMonday": "https://sakaswintercircusbe.eu/contact",
+    "openSunday": "https://sakaswintercircusbe.eu/contact"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Sat 19:00–23:00 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://sakaswintercircusbe.eu/contact",
+   "osm": "node/12323439126"
   },
   {
    "id": "taberna-bask",
@@ -5523,11 +5820,12 @@
     "https://guide.michelin.com/be/nl/oost-vlaanderen/ledeberg/restaurant/taberna-bask",
     "https://www.hln.be/gent/deze-48-restaurants-uit-gent-staan-in-de-nieuwe-gault-millau~adb6c7a6/",
     "https://tabernabask.be/menu",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://tabernabask.be/faq"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5571,10 +5869,10 @@
    "reservation_url": null,
    "reservation_provider": null,
    "features": {
-    "veggie": null,
-    "vegan": null,
+    "veggie": true,
+    "vegan": false,
     "glutenFree": null,
-    "kidsWelcome": null,
+    "kidsWelcome": true,
     "terrace": null,
     "lunch": null,
     "dinner": null,
@@ -5590,15 +5888,22 @@
     "walkIn": null,
     "wheelchair": null,
     "openSunday": null,
-    "new": null
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "michelin": "Bib Gourmand (2026)",
-    "gaultMillau": "13/20 (2026)"
+    "gaultMillau": "13/20 (2026)",
+    "kidsWelcome": "https://tabernabask.be/faq — families welcome; no high chairs available",
+    "openMonday": "https://tabernabask.be/faq",
+    "vegan": "https://tabernabask.be/faq — \"Veganistische gerechten hebben we voorlopig niet\"",
+    "veggie": "https://tabernabask.be/faq — \"veel vegetarische opties\""
    },
-   "openingHours": null,
+   "openingHours": "Mon–Fri 17:30–23:30 · Sat–Sun unknown",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://tabernabask.be/faq",
+   "osm": "node/12312749498"
   },
   {
    "id": "talloor-d-or",
@@ -5645,11 +5950,13 @@
     "https://www.gaultmillau.be/nl/restaurants/talloor-dor-gent",
     "https://talloordor.be/menu",
     "https://talloordor.be/over-ons",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://talloordor.be/contact",
+    "https://talloordor.be"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5697,7 +6004,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": true,
     "dinner": true,
     "setMenu": true,
@@ -5710,9 +6017,10 @@
     "chefCollabs": null,
     "reservations": true,
     "walkIn": null,
-    "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "wheelchair": true,
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "lunch": "menu type: Weekly lunch + Chef’s Choice dinner menu; Chef’s Table",
@@ -5720,11 +6028,17 @@
     "setMenu": "menu type: Weekly lunch + Chef’s Choice dinner menu; Chef’s Table",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "14.0/20 (2026)",
-    "reservations": "booking link on own website: https://talloordor.be/reservatie"
+    "reservations": "booking link on own website: https://talloordor.be/reservatie",
+    "openMonday": "https://talloordor.be/contact",
+    "openSunday": "https://talloordor.be/contact",
+    "terrace": "https://talloordor.be — terrace and green inner garden",
+    "wheelchair": "OpenStreetMap: wheelchair=yes"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–14:00, 18:30–22:00 · Sat 18:30–22:00 · Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://talloordor.be/contact",
+   "osm": "node/8944368521"
   },
   {
    "id": "trattoria-della-mamma",
@@ -5769,11 +6083,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/trattoria-della-mamma-gent",
     "https://trattoriadellamamma.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://trattoriadellamamma.be/reserveer/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5834,17 +6149,23 @@
     "chefCollabs": null,
     "reservations": true,
     "walkIn": null,
-    "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "wheelchair": false,
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "gaultMillau": "12.0/20 (2026)",
-    "reservations": "booking link on own website: https://trattoriadellamamma.be/reserveer/"
+    "reservations": "booking link on own website: https://trattoriadellamamma.be/reserveer/",
+    "openMonday": "https://trattoriadellamamma.be/reserveer/",
+    "openSunday": "https://trattoriadellamamma.be/reserveer/",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Fri 11:30–14:15, 18:00–21:00 · Sat 11:30–14:15 · Sun closed",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://trattoriadellamamma.be/reserveer/",
+   "osm": "node/1804222878"
   },
   {
    "id": "tribune",
@@ -5890,11 +6211,13 @@
     "https://www.gaultmillau.be/nl/restaurants/tribune-gent",
     "https://tribunegent.be/menu/",
     "https://www.hln.be/gent/net-open-tribune-eten-met-een-uitzicht-in-de-nok-van-het-wintercircus-niet-het-klassieke-voor-hoofd-en-nagerecht~ae077229/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://tribunegent.be",
+    "https://visit.gent.be/nl/eten-drinken/tribune"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -5975,7 +6298,7 @@
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
-    "terrace": null,
+    "terrace": true,
     "lunch": null,
     "dinner": null,
     "setMenu": true,
@@ -5989,19 +6312,25 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": true,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "setMenu": "menu type: À la carte 3 or 4 courses",
     "aLaCarte": "menu type: À la carte 3 or 4 courses",
     "gaultMillau": "13.5/20 (2026)",
-    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=368794"
+    "reservations": "booking link on own website: https://bookings.zenchef.com/results?rid=368794",
+    "openMonday": "https://tribunegent.be",
+    "openSunday": "https://tribunegent.be",
+    "terrace": "https://visit.gent.be/nl/eten-drinken/tribune — roof terrace (\"dakterras\")"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue 12:00–13:30, 18:30–20:30 · Wed closed (private hire) · Thu–Fri 12:00–13:30, 18:30–20:30 · Sat–Sun closed (private hire)",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://tribunegent.be",
+   "osm": "node/12352095864"
   },
   {
    "id": "vrijmoed",
@@ -6076,11 +6405,12 @@
     "https://www.vrijmoed.be/nl/menu",
     "https://www.vrijmoed.be/nl/nieuws",
     "https://www.gaultmillau.be/en/news/ten-to-taste-gent",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://vrijmoed.be/nl/reserveren"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -6142,8 +6472,9 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": false
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
@@ -6152,11 +6483,15 @@
     "setMenu": "menu type: Set menu 4–7 courses; lunch also a daily-changing 3-course menu (€99)",
     "michelin": "2 Michelin stars (2026)",
     "gaultMillau": "17.5/20 (2026)",
-    "reservations": "booking link on own website: https://www.vrijmoed.be/nl/reserveren"
+    "reservations": "booking link on own website: https://www.vrijmoed.be/nl/reserveren",
+    "openMonday": "https://vrijmoed.be/nl/reserveren",
+    "openSunday": "https://vrijmoed.be/nl/reserveren"
    },
-   "openingHours": null,
+   "openingHours": "Mon closed · Tue–Fri 12:00–13:30, 19:00–21:30 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "fine dining"
+   "category": "fine dining",
+   "openingHoursSource": "https://vrijmoed.be/nl/reserveren",
+   "osm": "node/4769782821"
   },
   {
    "id": "yalo",
@@ -6201,11 +6536,12 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/yalo-gent",
     "https://www.yalohotel.com/en/news/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://www.yalohotel.com/en/faq/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -6267,16 +6603,21 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": true,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "aLaCarte": "menu type: À la carte sharing",
-    "gaultMillau": "12.5/20 (2026)"
+    "gaultMillau": "12.5/20 (2026)",
+    "openMonday": "https://www.yalohotel.com/en/faq/",
+    "openSunday": "https://www.yalohotel.com/en/faq/"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Sun 12:00–14:30, 18:30–22:30",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://www.yalohotel.com/en/faq/",
+   "osm": "node/10882969105"
   },
   {
    "id": "yusu",
@@ -6316,7 +6657,7 @@
    "statusNote": "",
    "website": "https://www.yusu.be/",
    "instagram": "https://www.instagram.com/yusu_gent/",
-   "phone": null,
+   "phone": "+32 491 14 83 69",
    "summary": "",
    "events": [],
    "sources": [
@@ -6326,7 +6667,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -6363,18 +6704,23 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": true
+    "openSunday": true,
+    "new": true,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "vegetarian field (sourced)",
     "vegan": "vegan field (sourced)",
     "lunch": "menu type: Small sharing plates; lunch sando + a second option that changes monthly",
-    "new": "opened 2026-01"
+    "new": "opened 2026-01",
+    "openMonday": "https://www.yusu.be/",
+    "openSunday": "https://www.yusu.be/"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue 11:00–21:30 · Wed–Thu closed · Fri–Sun 11:00–21:30",
    "group": "restaurants",
-   "category": "casual"
+   "category": "casual",
+   "openingHoursSource": "https://www.yusu.be/",
+   "osm": "way/450236357"
   },
   {
    "id": "een-twee-vijf",
@@ -6420,11 +6766,13 @@
    "sources": [
     "https://www.gaultmillau.be/nl/restaurants/een-twee-vijf-gent",
     "https://eentweevijf.be/",
-    "https://nominatim.openstreetmap.org/ (geocoding)"
+    "https://nominatim.openstreetmap.org/ (geocoding)",
+    "https://eentweevijf.be",
+    "https://visit.gent.be/nl/eten-drinken/een-twee-vijf"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -6468,7 +6816,7 @@
    "reservation_url": "https://eentweevijf.be/#reserveer",
    "reservation_provider": "own page",
    "features": {
-    "veggie": null,
+    "veggie": true,
     "vegan": null,
     "glutenFree": null,
     "kidsWelcome": null,
@@ -6486,18 +6834,24 @@
     "reservations": true,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
-    "new": null
+    "openSunday": false,
+    "new": null,
+    "openMonday": true
    },
    "features_evidence": {
     "setMenu": "menu type: À la carte (2 or 3 courses)",
     "aLaCarte": "menu type: À la carte (2 or 3 courses)",
     "gaultMillau": "13.5/20 (2026)",
-    "reservations": "booking link on own website: https://eentweevijf.be/#reserveer"
+    "reservations": "booking link on own website: https://eentweevijf.be/#reserveer",
+    "openMonday": "https://eentweevijf.be",
+    "openSunday": "https://eentweevijf.be",
+    "veggie": "https://visit.gent.be/nl/eten-drinken/een-twee-vijf — choice of fish, meat or vegetarian"
    },
-   "openingHours": null,
+   "openingHours": "Mon–Tue 12:00–14:00, 19:00–21:00 · Wed closed · Thu–Fri 12:00–14:00, 19:00–21:00 · Sat–Sun closed",
    "group": "restaurants",
-   "category": "gastro-bistro"
+   "category": "gastro-bistro",
+   "openingHoursSource": "https://eentweevijf.be",
+   "osm": "node/12628238501"
   },
   {
    "id": "de-maecht-van-ghent",
@@ -6586,7 +6940,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": true,
     "foodServed": null,
@@ -6594,18 +6948,21 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
     "dj": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Mon closed; Tue–Thu 12:00–00:00; Fri–Sat 12:00–04:00; Sun 12:00–20:00",
    "openingHoursSource": "https://www.demaecht.be/",
    "notes": "Relaunch under new owners in June 2026, not a new opening.",
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1536600694"
   },
   {
    "id": "zeppos-vlasmarkt",
@@ -6684,7 +7041,8 @@
    "openingHoursSource": "https://zepposvlasmarkt.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12372326317"
   },
   {
    "id": "charlatan",
@@ -6727,17 +7085,18 @@
    "instagram": null,
    "instagramSource": null,
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 224 24 57",
    "summary": "Long-running Vlasmarkt café and venue combining concerts with club nights (house, techno, trance, retro and Latin dance nights).",
    "summaryLang": "en",
    "events": [],
    "sources": [
     "https://charlatan.be/agenda/nightlife",
-    "https://nl.wikipedia.org/wiki/Charlatan_(zaal)"
+    "https://nl.wikipedia.org/wiki/Charlatan_(zaal)",
+    "https://visit.gent.be/nl/eten-drinken/charlatan"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -6752,20 +7111,22 @@
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": false,
     "kidsWelcome": null,
     "wheelchair": null,
     "seating": null
    },
    "features_evidence": {
     "liveMusic": "stated by a source in the venues research",
-    "dj": "stated by a source in the venues research"
+    "dj": "stated by a source in the venues research",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/charlatan"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon closed · Tue 20:00–00:00 · Wed–Thu 22:00–06:00 · Fri–Sat 22:00–08:00 · Sun closed",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/charlatan",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/2591395190"
   },
   {
    "id": "kinky-star",
@@ -6808,7 +7169,7 @@
    "instagram": null,
    "instagramSource": null,
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 223 48 45",
    "summary": "Non-profit youth and music centre on the Vlasmarkt with a busy programme of mostly free concerts and club/DJ nights.",
    "summaryLang": "en",
    "events": [
@@ -6876,11 +7237,12 @@
    "sources": [
     "https://www.kinkystar.com/nl/contact",
     "https://www.kinkystar.com/nl",
-    "https://visit.gent.be/fr/voir-et-faire/kinky-star"
+    "https://visit.gent.be/fr/voir-et-faire/kinky-star",
+    "https://www.kinkystar.com/nl/about"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -6889,7 +7251,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": true,
     "dj": true,
     "foodServed": null,
@@ -6897,18 +7259,21 @@
     "glutenFree": null,
     "openSunday": false,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
     "liveMusic": "stated by a source in the venues research",
-    "dj": "stated by a source in the venues research"
+    "dj": "stated by a source in the venues research",
+    "terrace": "https://www.kinkystar.com/nl/about — \"Zitplaatsen in café en terras\"",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Wed–Sat 20:00–02:00; Mon, Tue, Sun closed (extra opening for events)",
    "openingHoursSource": "https://www.kinkystar.com/nl/contact",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/2591395188"
   },
   {
    "id": "funke",
@@ -7020,7 +7385,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": true,
     "foodServed": null,
@@ -7032,13 +7397,15 @@
     "seating": null
    },
    "features_evidence": {
-    "dj": "stated by a source in the venues research"
+    "dj": "stated by a source in the venues research",
+    "terrace": "OpenStreetMap: outdoor_seating=yes"
    },
    "openingHours": "Thu–Sat from 18:00",
    "openingHoursSource": "https://funke.gent/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/10231441260"
   },
   {
    "id": "de-viking",
@@ -7170,7 +7537,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -7182,22 +7549,25 @@
     "terrace": null,
     "liveMusic": null,
     "dj": true,
-    "foodServed": null,
+    "foodServed": false,
     "wifi": null,
     "glutenFree": null,
     "openSunday": null,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": true,
     "seating": null
    },
    "features_evidence": {
-    "dj": "stated by a source in the venues research"
+    "dj": "stated by a source in the venues research",
+    "foodServed": "https://www.porterhousegent.be/ — FAQ: \"Porter House serveert geen eten\"",
+    "wheelchair": "OpenStreetMap: wheelchair=yes"
    },
    "openingHours": "Academic year: Mon–Thu from 21:00; Fri from 21:00 in high season (private hire in low season); Sat private parties",
    "openingHoursSource": "https://www.porterhousegent.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "way/111681688"
   },
   {
    "id": "pallieter",
@@ -7274,7 +7644,8 @@
    "openingHoursSource": "https://www.overpoort-gent.be/lid-overpoort/pallieter/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6799991952"
   },
   {
    "id": "luxx",
@@ -7353,7 +7724,8 @@
    "openingHoursSource": "https://www.overpoort-gent.be/lid-overpoort/luxx/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6799991955"
   },
   {
    "id": "tam-tam",
@@ -7430,7 +7802,8 @@
    "openingHoursSource": "https://www.overpoort-gent.be/lid-overpoort/tam-tam/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6799991956"
   },
   {
    "id": "klub-xiii",
@@ -7507,7 +7880,8 @@
    "openingHoursSource": "https://www.overpoort-gent.be/lid-overpoort/klub-xiii/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6799991943"
   },
   {
    "id": "decadance",
@@ -7664,7 +8038,8 @@
    "openingHoursSource": "https://www.overpoort-gent.be/lid-overpoort/t-kofschip/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "way/347340571"
   },
   {
    "id": "wunderbar",
@@ -7741,7 +8116,8 @@
    "openingHoursSource": "https://www.overpoort-gent.be/lid-overpoort/wunderbar/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12643916389"
   },
   {
    "id": "cafe-albatros",
@@ -7779,7 +8155,7 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": "https://www.cafeventura.be/",
+   "website": "https://cafealbatros.be/",
    "instagram_handle": "cafe_albatros",
    "instagram": "https://www.instagram.com/cafe_albatros/",
    "instagramSource": "Visit Gent listing",
@@ -7789,11 +8165,13 @@
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/cafe-albatros"
+    "https://visit.gent.be/en/eat-drink/cafe-albatros",
+    "https://cafealbatros.be/contact",
+    "https://visit.gent.be/nl/eten-drinken/cafe-albatros"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -7805,23 +8183,29 @@
     "terrace": true,
     "liveMusic": null,
     "dj": true,
-    "foodServed": null,
+    "foodServed": true,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
-    "dj": "stated by a source in the venues research"
+    "dj": "stated by a source in the venues research",
+    "foodServed": "https://visit.gent.be/nl/eten-drinken/cafe-albatros — snacks (\"hapjes\") only",
+    "openMonday": "https://cafealbatros.be/contact",
+    "openSunday": "https://cafealbatros.be/contact",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Sun 15:00–03:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/cafe-albatros",
    "notes": "Visit Gent lists it as a traditional/brown pub; included here because of its DJ dance parties. Same operator as Café Ventura (next door).",
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6258354585"
   },
   {
    "id": "cafe-den-turk",
@@ -7864,16 +8248,17 @@
    "instagram": "https://www.instagram.com/cafedenturk/",
    "instagramSource": "Visit Gent listing",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 233 01 97",
    "summary": "Said to be Ghent's oldest café, with a brown interior in a 15th-century house; known for its draught beers and 'uufflakke' (brawn) sandwiches.",
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/cafe-den-turk"
+    "https://visit.gent.be/en/eat-drink/cafe-den-turk",
+    "https://visit.gent.be/nl/eten-drinken/cafe-den-turk"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -7882,25 +8267,31 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": true,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
-    "foodServed": "stated by a source in the venues research"
+    "foodServed": "stated by a source in the venues research",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/cafe-den-turk",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/cafe-den-turk",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Thu 14:00–03:00 · Fri–Sun 11:00–03:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/cafe-den-turk",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1212137966"
   },
   {
    "id": "t-dreupelkot",
@@ -7978,7 +8369,8 @@
    "openingHoursSource": "https://www.druppelkot.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/2617844678"
   },
   {
    "id": "waterhuis-aan-de-bierkant",
@@ -8016,21 +8408,22 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "http://www.waterhuisaandebierkant.be",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 225 06 80",
    "summary": "Popular brown pub by the water with about 165 beers, including three house beers (Gandavum, Klokke Roeland, Mammelokker).",
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/waterhuis-aan-de-bierkant"
+    "https://visit.gent.be/en/eat-drink/waterhuis-aan-de-bierkant",
+    "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8045,17 +8438,22 @@
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": true
    },
-   "features_evidence": {},
-   "openingHours": null,
-   "openingHoursSource": null,
+   "features_evidence": {
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant"
+   },
+   "openingHours": "Mon–Sun 11:00–01:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1381910682"
   },
   {
    "id": "de-dulle-griet",
@@ -8117,7 +8515,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
@@ -8125,17 +8523,20 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Mon 16:30–01:00; Tue–Sat 12:00–01:00; Sun 12:00–19:30 (no reservations)",
    "openingHoursSource": "https://www.dullegriet.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1187211187"
   },
   {
    "id": "t-galgenhuisje",
@@ -8173,7 +8574,7 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "http://www.galgenhuis.be",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
@@ -8184,11 +8585,12 @@
    "events": [],
    "sources": [
     "https://visit.gent.be/en/eat-drink/t-galgenhuisje",
-    "https://p-magazine.com/nl/articles/afscheid-van-een-horeca-icoon-jo-remue-zwaait-af-na-12-jaar-in-t-galgenhuisje"
+    "https://p-magazine.com/nl/articles/afscheid-van-een-horeca-icoon-jo-remue-zwaait-af-na-12-jaar-in-t-galgenhuisje",
+    "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8197,23 +8599,29 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": true
    },
-   "features_evidence": {},
-   "openingHours": null,
-   "openingHoursSource": null,
+   "features_evidence": {
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje",
+    "terrace": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje — \"Het terras is groter dan het café\""
+   },
+   "openingHours": "Mon–Sun 10:00–01:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1546438179"
   },
   {
    "id": "trollekelder",
@@ -8262,11 +8670,12 @@
    "events": [],
    "sources": [
     "https://visit.gent.be/en/eat-drink/trollekelder",
-    "https://www.trollekelder.be"
+    "https://www.trollekelder.be",
+    "https://visit.gent.be/nl/eten-drinken/trollekelder"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8275,23 +8684,30 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": null,
+    "openMonday": true
    },
-   "features_evidence": {},
-   "openingHours": null,
-   "openingHoursSource": null,
+   "features_evidence": {
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/trollekelder",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/trollekelder",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
+   },
+   "openingHours": "Mon–Thu 16:00–02:00 · Fri–Sun 15:00–03:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/trollekelder",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1534198820"
   },
   {
    "id": "cafe-folklore",
@@ -8369,7 +8785,8 @@
    "openingHoursSource": null,
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/4171365900"
   },
   {
    "id": "afsnis",
@@ -8417,11 +8834,12 @@
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/afsnis"
+    "https://visit.gent.be/en/eat-drink/afsnis",
+    "https://visit.gent.be/nl/eten-drinken/afsnis"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8430,7 +8848,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
@@ -8438,17 +8856,22 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/afsnis",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Thu 14:00–05:00 · Fri–Sun 10:00–05:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/afsnis",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1603623322"
   },
   {
    "id": "het-spijker",
@@ -8518,18 +8941,20 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Mon–Sun 10:00–04:00",
    "openingHoursSource": "https://www.hetspijker.be",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1532798358"
   },
   {
    "id": "cafe-gitane",
@@ -8572,16 +8997,17 @@
    "instagram": null,
    "instagramSource": null,
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 477 34 01 35",
    "summary": "One of Ghent's oldest brown pubs, with a 1930s interior, a terrace and beers from small artisan breweries.",
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/cafe-gitane"
+    "https://visit.gent.be/en/eat-drink/cafe-gitane",
+    "https://visit.gent.be/nl/eten-drinken/cafe-gitane"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8596,19 +9022,23 @@
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": false,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": false
    },
    "features_evidence": {
-    "terrace": "stated by a source in the venues research"
+    "terrace": "stated by a source in the venues research",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/cafe-gitane"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Tue closed · Wed–Sat 17:00–01:00 · Sun closed",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6977445785"
   },
   {
    "id": "cafe-romain",
@@ -8651,16 +9081,17 @@
    "instagram": "https://www.instagram.com/cafe_romain/",
    "instagramSource": "Visit Gent listing",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 477 68 05 71",
    "summary": "Traditional pub beside the Minard theatre, dedicated to actor-director Romain Deconinck and decorated with archive photos and posters.",
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/cafe-romain"
+    "https://visit.gent.be/en/eat-drink/cafe-romain",
+    "https://visit.gent.be/nl/eten-drinken/cafe-romain"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8675,17 +9106,22 @@
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": false
    },
-   "features_evidence": {},
-   "openingHours": null,
-   "openingHoursSource": null,
+   "features_evidence": {
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/cafe-romain"
+   },
+   "openingHours": "Mon closed · Tue–Sun 11:00–01:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "way/231932512"
   },
   {
    "id": "t-floere-foefke",
@@ -8754,18 +9190,20 @@
     "glutenFree": null,
     "openSunday": null,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": true,
     "seating": null
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
-    "liveMusic": "stated by a source in the venues research"
+    "liveMusic": "stated by a source in the venues research",
+    "wheelchair": "OpenStreetMap: wheelchair=yes"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mo-Su,PH 18:00+",
+   "openingHoursSource": "OpenStreetMap",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1201714038"
   },
   {
    "id": "de-geus-van-gent",
@@ -8813,11 +9251,12 @@
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/de-geus-van-gent"
+    "https://visit.gent.be/en/eat-drink/de-geus-van-gent",
+    "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8826,23 +9265,30 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": false,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": true,
+    "seating": null,
+    "openMonday": true
    },
-   "features_evidence": {},
-   "openingHours": null,
-   "openingHoursSource": null,
+   "features_evidence": {
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
+    "terrace": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
+    "wheelchair": "OpenStreetMap: wheelchair=yes"
+   },
+   "openingHours": "Mon–Sat 16:00–03:00 · Sun closed",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1627612971"
   },
   {
    "id": "cafe-ventura",
@@ -8890,11 +9336,13 @@
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://visit.gent.be/en/eat-drink/cafe-ventura"
+    "https://visit.gent.be/en/eat-drink/cafe-ventura",
+    "https://visit.gent.be/nl/eten-drinken/cafe-ventura",
+    "https://cafeventura.be/contact"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -8906,23 +9354,28 @@
     "terrace": true,
     "liveMusic": null,
     "dj": true,
-    "foodServed": null,
+    "foodServed": true,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
-    "dj": "stated by a source in the venues research"
+    "dj": "stated by a source in the venues research",
+    "foodServed": "https://visit.gent.be/nl/eten-drinken/cafe-ventura — snacks (\"hapjes\") only",
+    "openMonday": "https://cafeventura.be/contact",
+    "openSunday": "https://cafeventura.be/contact"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Sun 15:00–03:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/cafe-ventura",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/5598981422"
   },
   {
    "id": "de-woestijn",
@@ -8983,7 +9436,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": true,
@@ -8991,18 +9444,21 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Mon–Sat 15:00–01:00; Sun 10:00–22:00 (as reported by HLN, 22 Sep 2026)",
    "openingHoursSource": "https://www.hln.be/gent/net-open-sam-36-en-tijl-23-openen-bruine-kroeg-door-en-voor-de-buurt-we-willen-echt-een-buurtcafe-zijn-het-is-niet-gewoon-een-hip-woord~a746c6b8/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/14185345382"
   },
   {
    "id": "patrick-foleys",
@@ -9021,7 +9477,7 @@
    "lng": 3.7195835,
    "geoSource": "Nominatim/OpenStreetMap",
    "geoPrecision": "address",
-   "priceLevel": "unknown",
+   "priceLevel": "€€",
    "priceFrom": null,
    "distinctions": {
     "michelin": null,
@@ -9056,7 +9512,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9091,7 +9547,9 @@
    "openingHoursSource": "https://www.foleys.be/",
    "notes": "Site mentions vegetarian/vegan options, child-sized meals, terrace, wheelchair access and disabled toilets; Visit Gent mentions gluten-free dishes and live music.",
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "priceLevelSource": "https://www.foleys.be/ — basis: mains €17–25",
+   "osm": "node/2712612538"
   },
   {
    "id": "the-celtic-towers",
@@ -9110,7 +9568,7 @@
    "lng": 3.7213403,
    "geoSource": "Nominatim/OpenStreetMap",
    "geoPrecision": "address",
-   "priceLevel": "unknown",
+   "priceLevel": "€€",
    "priceFrom": null,
    "distinctions": {
     "michelin": null,
@@ -9140,11 +9598,14 @@
    "events": [],
    "sources": [
     "https://celtictowers.be/",
-    "https://www.theguinnessmap.com/best-guinness-in/city/gent"
+    "https://www.theguinnessmap.com/best-guinness-in/city/gent",
+    "https://celtictowers.be/contact/",
+    "https://celtictowers.be/about-us/",
+    "https://celtictowers.be/menu/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9154,24 +9615,31 @@
     "veggie": null,
     "vegan": null,
     "terrace": null,
-    "liveMusic": null,
+    "liveMusic": true,
     "dj": null,
     "foodServed": true,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": true,
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
-    "foodServed": "stated by a source in the venues research"
+    "foodServed": "stated by a source in the venues research",
+    "liveMusic": "https://celtictowers.be/about-us/ — \"live music on special occasions\"",
+    "openMonday": "https://celtictowers.be/contact/",
+    "openSunday": "https://celtictowers.be/contact/",
+    "wheelchair": "OpenStreetMap: wheelchair=yes"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Sun 11:00–01:00",
+   "openingHoursSource": "https://celtictowers.be/contact/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "priceLevelSource": "https://celtictowers.be/menu/ — basis: burgers/mains €16–18",
+   "osm": "node/602681356"
   },
   {
    "id": "shamrock-irish-bar",
@@ -9207,9 +9675,9 @@
    "menuType": "unknown",
    "menuChanges": "unknown",
    "currentMenuNote": "unknown",
-   "status": "unverified",
-   "statusNote": "Only third-party directory listings found; the domain shamrock.gent now shows unrelated software-company content and the OSM-listed site alaize.net returned nothing. Open status NOT confirmed on 2026-10-19 — verify before publishing.",
-   "website": null,
+   "status": "open",
+   "statusNote": "",
+   "website": "https://www.alaize.net/",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
@@ -9221,11 +9689,12 @@
    "sources": [
     "https://www.tripadvisor.com/Restaurant_Review-g188666-d23751698-Reviews-Shamrock_Irish_Bar-Ghent_East_Flanders_Province.html",
     "https://selfcity.be/bar/gent/shamrock-irish-bar/",
-    "https://www.bars10.com/BE/Ghent/103473505688944/Shamrock-Irish--Bar"
+    "https://www.bars10.com/BE/Ghent/103473505688944/Shamrock-Irish--Bar",
+    "https://www.tripadvisor.com/Restaurant_Review-g186605-d23751698"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9234,7 +9703,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
@@ -9242,15 +9711,19 @@
     "glutenFree": null,
     "openSunday": null,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
-   "features_evidence": {},
+   "features_evidence": {
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
+   },
    "openingHours": null,
    "openingHoursSource": null,
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/11352130032"
   },
   {
    "id": "way-dok-noord",
@@ -9293,18 +9766,20 @@
    "instagram": "https://www.instagram.com/waycoffeeroasters.gent/",
    "instagramSource": "official website",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 494 07 33 22",
    "summary": "Flagship roastery and espresso bar of WAY, run by Belgian barista champion Charlene De Buysere, in a converted warehouse at Dok Noord.",
    "summaryLang": "en",
    "events": [],
    "sources": [
     "https://www.way.gent/pages/locations",
     "https://europeancoffeetrip.com/ghent/",
-    "https://caffeatlas.com/city-guides/belgium/ghent"
+    "https://caffeatlas.com/city-guides/belgium/ghent",
+    "https://www.way.gent/pages/faq",
+    "https://www.way.gent/pages/way-dok-noord"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9317,22 +9792,28 @@
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
-    "wifi": null,
+    "wifi": true,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": false,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": true,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "stated by a source in the venues research",
-    "vegan": "stated by a source in the venues research"
+    "vegan": "stated by a source in the venues research",
+    "openMonday": "https://www.way.gent/pages/way-dok-noord",
+    "openSunday": "https://www.way.gent/pages/way-dok-noord",
+    "seating": "https://www.way.gent/pages/way-dok-noord — \"Koffie ter plaatse\" at espresso bar",
+    "wifi": "https://www.way.gent/pages/faq — FAQ \"Is er wifi? Ja.\""
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Fri 08:30–16:30 · Sat 09:30–17:00 · Sun closed",
+   "openingHoursSource": "https://www.way.gent/pages/way-dok-noord",
    "notes": "WAY's bakery and pastries are 100% plant-based (way.gent/pages/bakkerij).",
    "otherLocations": "WAY also runs Volder (Voldersstraat 58, shop/take-away), Jakobijn espresso bar (Jakobijnenstraat 7) and the Keizerpoort bakery (listed separately).",
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/7004798512"
   },
   {
    "id": "cafe-labath",
@@ -9403,19 +9884,21 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Mon–Fri 08:00–17:30; Sat–Sun and holidays 09:00–17:30",
    "openingHoursSource": "https://www.cafelabath.com/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1349545826"
   },
   {
    "id": "goya-coffee",
@@ -9464,11 +9947,13 @@
    "events": [],
    "sources": [
     "https://www.goyacoffee.be/",
-    "https://visit.gent.be/en/eat-drink/goya"
+    "https://visit.gent.be/en/eat-drink/goya",
+    "https://www.goyacoffee.be/contact",
+    "https://visit.gent.be/nl/eten-drinken/goya"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9482,20 +9967,26 @@
     "dj": null,
     "foodServed": true,
     "wifi": null,
-    "glutenFree": null,
-    "openSunday": null,
+    "glutenFree": true,
+    "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
-    "foodServed": "stated by a source in the venues research"
+    "foodServed": "stated by a source in the venues research",
+    "glutenFree": "https://visit.gent.be/nl/eten-drinken/goya — gluten- and lactose-free options",
+    "openMonday": "https://www.goyacoffee.be/contact",
+    "openSunday": "https://www.goyacoffee.be/contact",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Fri 08:30–18:00 · Sat 09:00–18:00 · Sun 10:00–18:00",
+   "openingHoursSource": "https://www.goyacoffee.be/contact",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/3675247645"
   },
   {
    "id": "mokabon",
@@ -9538,17 +10029,18 @@
    "instagram": "https://www.instagram.com/mokaboncoffee/",
    "instagramSource": "official website",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 225 71 95",
    "summary": "Ghent's oldest coffee house (roasting since 1937, tavern since the 1950s), a tiny ten-table bar serving its own slow-roasted coffee.",
    "summaryLang": "en",
    "events": [],
    "sources": [
     "https://mokabon.be/en/pages/openingsuren-koffiebar",
-    "https://visit.gent.be/en/eat-drink/mokabon"
+    "https://visit.gent.be/en/eat-drink/mokabon",
+    "https://visit.gent.be/nl/eten-drinken/mokabon"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9565,15 +10057,19 @@
     "glutenFree": null,
     "openSunday": false,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": true
    },
-   "features_evidence": {},
+   "features_evidence": {
+    "seating": "https://visit.gent.be/nl/eten-drinken/mokabon — small; shared tables",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
+   },
    "openingHours": "Mon–Fri 09:30–17:30; Sat 10:00–18:00; Sun closed",
    "openingHoursSource": "https://mokabon.be/en/pages/openingsuren-koffiebar",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1536597171"
   },
   {
    "id": "full-circle-coffee",
@@ -9622,11 +10118,13 @@
    "events": [],
    "sources": [
     "https://www.fullcircleghent.com/",
-    "https://visit.gent.be/en/eat-drink/full-circle-coffee"
+    "https://visit.gent.be/en/eat-drink/full-circle-coffee",
+    "https://www.fullcircleghent.com/faq",
+    "https://visit.gent.be/nl/eten-drinken/full-circle-coffee"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9635,27 +10133,33 @@
    "features": {
     "veggie": true,
     "vegan": true,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
-    "wifi": null,
-    "glutenFree": null,
+    "wifi": true,
+    "glutenFree": true,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": true,
+    "seating": true
    },
    "features_evidence": {
     "veggie": "stated by a source in the venues research",
     "vegan": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "glutenFree": "https://www.fullcircleghent.com/faq — \"Some of our food is gluten- and/or sugar-free but not everything\"",
+    "seating": "https://visit.gent.be/nl/eten-drinken/full-circle-coffee — retro armchairs and bar seating",
+    "wifi": "https://www.fullcircleghent.com/faq",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=yes"
    },
    "openingHours": "Weekdays 08:00–18:00; weekends 09:00–18:00 (site also shows 'weekdays 9am–6pm' in its header — minor conflict)",
    "openingHoursSource": "https://www.fullcircleghent.com/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/4916749806"
   },
   {
    "id": "peaberry-coffeebar",
@@ -9704,11 +10208,12 @@
    "events": [],
    "sources": [
     "https://peaberrycoffeebar.be/",
-    "https://visit.gent.be/en/eat-drink/peaberry-coffeebar"
+    "https://visit.gent.be/en/eat-drink/peaberry-coffeebar",
+    "https://visit.gent.be/nl/eten-drinken/peaberry-coffeebar"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9716,29 +10221,33 @@
    "reservation_provider": null,
    "features": {
     "veggie": null,
-    "vegan": null,
+    "vegan": true,
     "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": true,
-    "wifi": null,
+    "wifi": true,
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": true,
     "wheelchair": null,
-    "seating": null
+    "seating": true
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
     "foodServed": "stated by a source in the venues research",
     "openSunday": "stated by a source in the venues research",
-    "kidsWelcome": "stated by a source in the venues research"
+    "kidsWelcome": "stated by a source in the venues research",
+    "seating": "https://peaberrycoffeebar.be/ — indoor tables (laptop policy) + terrace",
+    "vegan": "https://visit.gent.be/nl/eten-drinken/peaberry-coffeebar — \"vegan-friendly koffiehuis\"",
+    "wifi": "https://visit.gent.be/nl/eten-drinken/peaberry-coffeebar — free wifi"
    },
    "openingHours": "Weekdays 08:30–18:00; weekends & holidays 09:30–18:00",
    "openingHoursSource": "https://peaberrycoffeebar.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/10311155535"
   },
   {
    "id": "koffeine",
@@ -9787,11 +10296,12 @@
    "events": [],
    "sources": [
     "https://visit.gent.be/en/eat-drink/koffeine",
-    "https://www.demorgen.be/beter-leven/gebrand-op-het-perfecte-kopje-de-35-fijnste-koffiebars-van-het-moment-in-brussel-en-vlaanderen~b32c24ca/"
+    "https://www.demorgen.be/beter-leven/gebrand-op-het-perfecte-kopje-de-35-fijnste-koffiebars-van-het-moment-in-brussel-en-vlaanderen~b32c24ca/",
+    "https://visit.gent.be/nl/eten-drinken/koffeine"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9806,20 +10316,25 @@
     "foodServed": true,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": true,
+    "openMonday": true
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
-    "foodServed": "stated by a source in the venues research"
+    "foodServed": "stated by a source in the venues research",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/koffeine",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/koffeine",
+    "seating": "https://visit.gent.be/nl/eten-drinken/koffeine — tables with view of the cathedral"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon 09:00–17:00 · Tue–Fri 08:30–18:00 · Sat–Sun 09:30–18:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/koffeine",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12357781261"
   },
   {
    "id": "bar-bidon",
@@ -9868,11 +10383,12 @@
    "events": [],
    "sources": [
     "https://visit.gent.be/en/eat-drink/bar-bidon",
-    "https://caffeatlas.com/city-guides/belgium/ghent"
+    "https://caffeatlas.com/city-guides/belgium/ghent",
+    "https://visit.gent.be/nl/eten-drinken/bar-bidon"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9887,19 +10403,23 @@
     "foodServed": true,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
-    "foodServed": "stated by a source in the venues research"
+    "foodServed": "stated by a source in the venues research",
+    "openMonday": "https://visit.gent.be/nl/eten-drinken/bar-bidon",
+    "openSunday": "https://visit.gent.be/nl/eten-drinken/bar-bidon"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon–Fri 09:30–17:30 · Sat–Sun 10:00–18:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/bar-bidon",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/2514860360"
   },
   {
    "id": "vandekerckhove-bar",
@@ -9948,11 +10468,12 @@
    "events": [],
    "sources": [
     "https://vandekerckhove1854.be/Onze-Koffiebar/",
-    "https://visit.gent.be/en/see-do/vandekerckhove-koffiebranderij-1854"
+    "https://visit.gent.be/en/see-do/vandekerckhove-koffiebranderij-1854",
+    "https://vandekerckhove1854.be/Contact/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -9967,19 +10488,18 @@
     "foodServed": null,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": true,
+    "openSunday": null,
     "kidsWelcome": null,
     "wheelchair": null,
     "seating": null
    },
-   "features_evidence": {
-    "openSunday": "stated by a source in the venues research"
-   },
-   "openingHours": "Mon–Sun 10:00–18:00",
-   "openingHoursSource": "https://vandekerckhove1854.be/Onze-Koffiebar/",
+   "features_evidence": {},
+   "openingHours": "Mon–Sat 10:00–18:00 · Sun unknown",
+   "openingHoursSource": "https://vandekerckhove1854.be/Contact/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12797178901"
   },
   {
    "id": "take-five-voldersstraat",
@@ -10041,7 +10561,7 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": true,
@@ -10049,18 +10569,21 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Mon–Fri 08:30–18:30; Sat–Sun 09:00–18:30 (last order 18:00; breakfast only, kitchen closes 14:00)",
    "openingHoursSource": "https://www.take-five-espressobar.be/our-locations-menu",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/4478900295"
   },
   {
    "id": "wild-child",
@@ -10098,7 +10621,7 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "https://wildchild.gent/",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
@@ -10140,7 +10663,8 @@
    "openingHoursSource": "https://www.hln.be/gent/net-open-in-koffiebar-wild-child-doet-bram-36-zijn-eigen-zin-je-kan-je-ook-om-acht-uur-s-ochtends-al-amuseren-of-toch-bij-mij~a8e19584/",
    "notes": "Opened just before Christmas 2024 (~22 months ago), so outside the 18-month window.",
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12453399658"
   },
   {
    "id": "terug",
@@ -10218,7 +10742,8 @@
    "openingHoursSource": null,
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12798265418"
   },
   {
    "id": "tds",
@@ -10256,7 +10781,7 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "https://www.tdscoffee.be",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
@@ -10297,7 +10822,8 @@
    "openingHoursSource": "https://www.hln.be/gent/kurt-38-en-hanne-39-openen-koffiebar-voor-echte-koffienerds-we-willen-tonen-hoe-divers-koffie-kan-zijn~a27251b1/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/14159912568"
   },
   {
    "id": "or-coffee-lab-gent",
@@ -10460,7 +10986,8 @@
    "openingHoursSource": "https://roarcoffee.be/pages/bezoek-ons",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/13744829256"
   },
   {
    "id": "himschoot",
@@ -10503,18 +11030,19 @@
    "instagram": "https://www.instagram.com/himschootbakkerij/",
    "instagramSource": "Marie Claire (Mar 2025)",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 491 52 83 31",
    "summary": "Ghent's oldest bakery (since 1880) on the Groentenmarkt, known for classics such as sugar bread and bread pudding; also organic and vegan lines.",
    "summaryLang": "en",
    "events": [],
    "sources": [
     "https://www.bakkerijhimschoot.be/contact",
     "https://marieclaire.be/nl/dit-zijn-de-beste-bakkerijen-van-gent/",
-    "https://rutgerbakt.nl/inspiratie/12-tips-voor-de-beste-patissiers-chocolatiers-in-gent/"
+    "https://rutgerbakt.nl/inspiratie/12-tips-voor-de-beste-patissiers-chocolatiers-in-gent/",
+    "https://www.bakkerijhimschoot.be/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -10532,17 +11060,19 @@
     "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": true
    },
    "features_evidence": {
     "vegan": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "seating": "https://www.bakkerijhimschoot.be/ — \"ontspannen in onze tearooms\""
    },
    "openingHours": "Weekdays 07:30–18:00; weekends 08:00–18:00",
    "openingHoursSource": "https://www.bakkerijhimschoot.be/contact",
    "notes": null,
    "otherLocations": "Koningin Elisabethlaan 112; tearoom at Dok-Noord 7/001.",
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/1381910688"
   },
   {
    "id": "joost-arijs",
@@ -10664,7 +11194,7 @@
    "instagram": "https://www.instagram.com/thebakery_joostarijs/",
    "instagramSource": "official website",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 496 53 70",
    "summary": "Bread and viennoiserie bakery of Joost Arijs with an open workshop, in a minimalist interior by architect Glenn Sestig.",
    "summaryLang": "en",
    "events": [],
@@ -10700,7 +11230,8 @@
    "openingHoursSource": "https://thebakery-joostarijs.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12531280974"
   },
   {
    "id": "bakker-klaas-wintercircus",
@@ -10753,7 +11284,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -10771,17 +11302,19 @@
     "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": true
    },
    "features_evidence": {
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "seating": "https://www.bakkerklaas.be/ — breakfast & lunch; \"ter plaatse genieten van een stuk taart\""
    },
    "openingHours": "Wed–Sun 08:00–17:00; Mon–Tue closed",
    "openingHoursSource": "https://www.bakkerklaas.be/",
    "notes": null,
    "otherLocations": "Shop at Alphonse Claeys-Bouüaertlaan 5, Mariakerke; Wednesday farmers' market stall at Heilig Hartplein.",
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12327407781"
   },
   {
    "id": "baba-jacquet",
@@ -10857,11 +11390,12 @@
    "features_evidence": {
     "foodServed": "stated by a source in the venues research"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "We-Su 08:00-17:30",
+   "openingHoursSource": "OpenStreetMap",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6138202006"
   },
   {
    "id": "way-bakery-keizerpoort",
@@ -10910,11 +11444,12 @@
    "events": [],
    "sources": [
     "https://www.way.gent/pages/bakkerij",
-    "https://www.way.gent/pages/locations"
+    "https://www.way.gent/pages/locations",
+    "https://www.way.gent/pages/faq"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -10927,17 +11462,19 @@
     "liveMusic": null,
     "dj": null,
     "foodServed": null,
-    "wifi": null,
+    "wifi": true,
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": true
    },
    "features_evidence": {
     "veggie": "stated by a source in the venues research",
     "vegan": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "seating": "https://www.way.gent/pages/bakkerij — bakery with espresso bar; pastries \"ter plaatse of om mee te nemen\"",
+    "wifi": "https://www.way.gent/pages/faq — FAQ \"Is er wifi? Ja.\" (brand-wide)"
    },
    "openingHours": "Weekdays 07:30–18:00; Sat 08:00–18:00; Sun 08:00–18:00",
    "openingHoursSource": "https://www.way.gent/pages/bakkerij",
@@ -10997,7 +11534,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -11014,17 +11551,20 @@
     "glutenFree": null,
     "openSunday": false,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": true
    },
    "features_evidence": {
-    "terrace": "stated by a source in the venues research"
+    "terrace": "stated by a source in the venues research",
+    "seating": "https://smorbrod.gent/ — coffee bar \"in onze grote living\" or terrace",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Tue–Fri 08:30–16:30; Sat 09:00–15:30",
    "openingHoursSource": "https://smorbrod.gent/pages/contact",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/314251389"
   },
   {
    "id": "morgen-bakkerij",
@@ -11075,11 +11615,12 @@
     "https://morgen-bakkerij.be/pages/contact",
     "https://stad.gent/nl/ondernemen/nieuws-evenementen/een-bakkerij-met-een-ziel-hoe-morgen-de-brugse-poort-nieuw-leven-inblaast",
     "https://www.made-in.be/oost-vlaanderen/beste-bakkerij-van-het-land-ligt-tussen-de-turkse-slagers-en-supermarkten-steeds-meer-klanten-komen-van-ver-weg/",
-    "https://lefooding.com/nl/zaken/morgen"
+    "https://lefooding.com/nl/zaken/morgen",
+    "https://morgen-bakkerij.be/pages/over-ons"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -11096,11 +11637,12 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": true,
     "seating": null
    },
    "features_evidence": {
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "wheelchair": "https://morgen-bakkerij.be/pages/over-ons — no threshold; accessible toilet"
    },
    "openingHours": "Mon–Tue closed; Wed–Fri 08:00–16:30; Sat 08:30–16:30; Sun 08:30–13:00",
    "openingHoursSource": "https://morgen-bakkerij.be/pages/contact",
@@ -11186,7 +11728,8 @@
    "openingHoursSource": "https://www.hln.be/gent/net-open-na-jaren-in-het-vak-opent-norman-31-zijn-eigen-bakkerij-ik-wil-een-echte-buurtbakkerij-worden~a0c1a5cb3/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/13658591182"
   },
   {
    "id": "madam-bakster",
@@ -11235,11 +11778,12 @@
    "events": [],
    "sources": [
     "http://www.madambakster.be",
-    "https://visit.gent.be/en/eat-drink/madam-bakster"
+    "https://visit.gent.be/en/eat-drink/madam-bakster",
+    "https://www.madambakster.be/reserveren/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -11256,19 +11800,22 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
-    "seating": null
+    "wheelchair": false,
+    "seating": true
    },
    "features_evidence": {
     "veggie": "stated by a source in the venues research",
     "vegan": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "seating": "https://www.madambakster.be/reserveren/ — koffiehuis with table reservations",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Coffee bar Wed–Sun 10:00–18:00",
    "openingHoursSource": "http://www.madambakster.be",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/5344860122"
   },
   {
    "id": "de-broodstokerij-gent",
@@ -11338,15 +11885,18 @@
     "glutenFree": null,
     "openSunday": null,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
-   "features_evidence": {},
+   "features_evidence": {
+    "wheelchair": "OpenStreetMap: wheelchair=no"
+   },
    "openingHours": "Webshop pickup slots show Tue–Fri 07:30–18:00 and Sat 08:00–17:00 at Lange Violettestraat (shop hours not stated separately)",
    "openingHoursSource": "https://www.debroodstokerij.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/9521279463"
   },
   {
    "id": "julies-house",
@@ -11396,11 +11946,12 @@
    "sources": [
     "https://www.julieshouse.be/kraanlei",
     "https://www.julieshouse.be/reserveren",
-    "https://visit.gent.be/nl/eten-drinken/julies-house"
+    "https://visit.gent.be/nl/eten-drinken/julies-house",
+    "https://www.julieshouse.be/en_GB/reserveren"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -11409,25 +11960,31 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": true,
     "wifi": null,
     "glutenFree": null,
-    "openSunday": null,
+    "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": true,
+    "openMonday": true
    },
    "features_evidence": {
-    "foodServed": "stated by a source in the venues research"
+    "foodServed": "stated by a source in the venues research",
+    "openMonday": "https://www.julieshouse.be/en_GB/reserveren",
+    "openSunday": "https://www.julieshouse.be/en_GB/reserveren",
+    "seating": "https://www.julieshouse.be/en_GB/reserveren — breakfast/lunch/afternoon tea served in-house",
+    "terrace": "OpenStreetMap: outdoor_seating=yes"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mon 09:00–18:00 · Tue closed · Wed–Sun 09:00–18:00",
+   "openingHoursSource": "https://visit.gent.be/nl/eten-drinken/julies-house",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/2305188547"
   },
   {
    "id": "bloch-gent",
@@ -11470,7 +12027,7 @@
    "instagram": "https://www.instagram.com/bloch1899/",
    "instagramSource": "official website",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 335 00 76",
    "summary": "Revival of the Ghent bakery name Bloch (est. 1899, closed 2008), selling breads, pastries and Bloch classics.",
    "summaryLang": "en",
    "events": [],
@@ -11505,7 +12062,8 @@
    "openingHoursSource": "https://shop.bloch1899.be/kom-langs-in-onze-winkel-in-gent",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6045669487"
   },
   {
    "id": "kultur-bakery",
@@ -11548,7 +12106,7 @@
    "instagram": "https://www.instagram.com/kultur_bakery/",
    "instagramSource": "official website",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 430 07 00",
    "summary": "City-centre bakery for sourdough bread, pastries and viennoiserie, listed by Le Fooding.",
    "summaryLang": "en",
    "events": [],
@@ -11576,17 +12134,19 @@
     "glutenFree": null,
     "openSunday": true,
     "kidsWelcome": null,
-    "wheelchair": null,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
    },
    "openingHours": "Tue–Sat 08:00–18:00; Sun 08:00–13:00 (first Sunday of the month 08:00–16:00); Mon closed",
    "openingHoursSource": "https://www.kultur-gent.com/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/9562793369"
   },
   {
    "id": "marijn-coertjens",
@@ -11629,7 +12189,7 @@
    "instagram": "https://www.instagram.com/marijncoertjens/",
    "instagramSource": "official website",
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 233 48 01",
    "summary": "Chocolatier-pâtissier making pralines, pastries and macarons, where pastries can also be eaten on the spot.",
    "summaryLang": "en",
    "events": [],
@@ -11666,7 +12226,8 @@
    "openingHoursSource": "https://www.marijncoertjens.be/en/contact/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/4830061721"
   },
   {
    "id": "frankies",
@@ -11704,7 +12265,7 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "https://www.frankiesgent.be/",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
@@ -11714,11 +12275,12 @@
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://www.hln.be/gent/net-open-ines-22-opent-taco-en-nachozaak-in-de-overpoort-restaurant-is-vernoemd-naar-mijn-franse-bulldog~a7efd14a/"
+    "https://www.hln.be/gent/net-open-ines-22-opent-taco-en-nachozaak-in-de-overpoort-restaurant-is-vernoemd-naar-mijn-franse-bulldog~a7efd14a/",
+    "https://www.frankiesgent.be/en/find-us"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -11736,18 +12298,21 @@
     "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
     "veggie": "stated by a source in the venues research",
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "openMonday": "https://www.frankiesgent.be/en/find-us"
    },
-   "openingHours": "Mon–Fri 11:30–14:30 & 17:30–21:30; Sat closed; Sun 17:30–21:30 (HLN, 28 Aug 2026)",
-   "openingHoursSource": "https://www.hln.be/gent/net-open-ines-22-opent-taco-en-nachozaak-in-de-overpoort-restaurant-is-vernoemd-naar-mijn-franse-bulldog~a7efd14a/",
+   "openingHours": "Mon–Fri 11:30–20:30 · Sat closed · Sun 17:30–20:30",
+   "openingHoursSource": "https://www.frankiesgent.be/en/find-us",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/14133625075"
   },
   {
    "id": "caracalla",
@@ -11829,7 +12394,8 @@
    "openingHoursSource": "https://www.hln.be/gent/net-open-mahmoud-46-en-amid-52-serveren-authentieke-syrische-keuken-in-de-vlaanderenstraat-zeker-de-kafta-met-tahini-valt-in-de-smaak~aa48077d/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/14125387752"
   },
   {
    "id": "bianca",
@@ -11848,7 +12414,7 @@
    "lng": 3.7238435,
    "geoSource": "Nominatim/OpenStreetMap",
    "geoPrecision": "address",
-   "priceLevel": "unknown",
+   "priceLevel": "€€",
    "priceFrom": null,
    "distinctions": {
     "michelin": null,
@@ -11867,21 +12433,23 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "https://www.biancagent.be/",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
    "instagram_posts": [],
-   "phone": null,
+   "phone": "+32 9 496 14 55",
    "summary": "Milan-inspired Italian restaurant from MTM Group in the former Max waffle house, with antipasti, pasta, secondi and a large front bar and terrace.",
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://www.hln.be/gent/net-open-jean-michel-43-en-julien-44-openen-hun-tiende-zaak-bianca-een-knipoog-naar-milaan~a846b677/"
+    "https://www.hln.be/gent/net-open-jean-michel-43-en-julien-44-openen-hun-tiende-zaak-bianca-een-knipoog-naar-milaan~a846b677/",
+    "https://www.biancagent.be/",
+    "https://www.biancagent.be/storage/navigation/file/96/202606%20-%20Menukaart%20Bianca%20NL.pdf"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -11899,18 +12467,22 @@
     "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "openMonday": "https://www.biancagent.be/"
    },
-   "openingHours": "Daily 18:00–22:00 (Fri–Sat to 22:30); lunch Wed–Sun 12:00–14:30 (HLN, 8 Jul 2026)",
-   "openingHoursSource": "https://www.hln.be/gent/net-open-jean-michel-43-en-julien-44-openen-hun-tiende-zaak-bianca-een-knipoog-naar-milaan~a846b677/",
+   "openingHours": "Mon–Tue 18:00–22:30 · Wed–Sun 12:00–14:30, 18:00–22:30",
+   "openingHoursSource": "https://www.biancagent.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "priceLevelSource": "https://www.biancagent.be/storage/navigation/file/96/202606%20-%20Menukaart%20Bianca%20NL.pdf — basis: pasta/mains €22–31 on menu",
+   "osm": "node/11156941450"
   },
   {
    "id": "kaffee-krevet",
@@ -11948,7 +12520,7 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "https://www.krevet.be/",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
@@ -11958,11 +12530,12 @@
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://www.hln.be/gent/net-open-tibout-33-en-sergio-28-kiezen-gent-voor-tweede-vestiging-van-visbar-studenten-met-een-meter-bier-naast-ingenieur-met-oesters-het-kan-hier~afae4b4d/"
+    "https://www.hln.be/gent/net-open-tibout-33-en-sergio-28-kiezen-gent-voor-tweede-vestiging-van-visbar-studenten-met-een-meter-bier-naast-ingenieur-met-oesters-het-kan-hier~afae4b4d/",
+    "https://www.krevet.be/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -11980,18 +12553,21 @@
     "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": true
    },
    "features_evidence": {
     "terrace": "stated by a source in the venues research",
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "openMonday": "https://www.krevet.be/"
    },
-   "openingHours": "Daily 11:00–00:00; Fri–Sat to 02:00 (HLN, Jun/Jul 2026)",
-   "openingHoursSource": "https://www.hln.be/gent/net-open-tibout-33-en-sergio-28-kiezen-gent-voor-tweede-vestiging-van-visbar-studenten-met-een-meter-bier-naast-ingenieur-met-oesters-het-kan-hier~afae4b4d/",
+   "openingHours": "Mon–Thu 11:00–23:00 · Fri 10:00–01:00 · Sat 11:00–01:00 · Sun 11:00–23:00",
+   "openingHoursSource": "https://www.krevet.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/10814925505"
   },
   {
    "id": "fari",
@@ -12029,7 +12605,7 @@
    "currentMenuNote": "unknown",
    "status": "open",
    "statusNote": "",
-   "website": null,
+   "website": "https://www.farigent.com/",
    "instagram_handle": null,
    "instagram": null,
    "instagramSource": null,
@@ -12039,11 +12615,12 @@
    "summaryLang": "en",
    "events": [],
    "sources": [
-    "https://www.hln.be/gent/net-open-sultan-31-en-lindsey-31-openen-na-rumi-hun-tweede-zaak-fari-ontbijt-en-lunch-met-invloeden-uit-alle-hoeken-van-de-wereld~a0509540/"
+    "https://www.hln.be/gent/net-open-sultan-31-en-lindsey-31-openen-na-rumi-hun-tweede-zaak-fari-ontbijt-en-lunch-met-invloeden-uit-alle-hoeken-van-de-wereld~a0509540/",
+    "https://www.farigent.com/"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -12061,17 +12638,20 @@
     "openSunday": true,
     "kidsWelcome": null,
     "wheelchair": null,
-    "seating": null
+    "seating": null,
+    "openMonday": false
    },
    "features_evidence": {
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "openMonday": "https://www.farigent.com/"
    },
-   "openingHours": "Wed–Sun 09:00–15:00 (HLN, 6 Jun 2026)",
-   "openingHoursSource": "https://www.hln.be/gent/net-open-sultan-31-en-lindsey-31-openen-na-rumi-hun-tweede-zaak-fari-ontbijt-en-lunch-met-invloeden-uit-alle-hoeken-van-de-wereld~a0509540/",
+   "openingHours": "Mon–Tue closed · Wed–Sun 09:00–15:00",
+   "openingHoursSource": "https://www.farigent.com/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/13500924194"
   },
   {
    "id": "cafe-copines",
@@ -12124,7 +12704,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -12147,11 +12727,12 @@
    "features_evidence": {
     "foodServed": "stated by a source in the venues research"
    },
-   "openingHours": "Mon–Sat 08:30–16:30 (HLN, 9 Mar 2026; other listings say Wednesday closed)",
-   "openingHoursSource": "https://www.hln.be/gent/net-open-in-de-brunch-en-koffiebar-van-marie-28-en-anke-27-draait-alles-rond-familie-en-vrienden-pannenkoeken-vernoemd-naar-metekindje~a62c7ce6/",
+   "openingHours": "Mon–Tue 08:30–16:30 · Wed closed · Thu–Sat 08:30–16:30 · Sun closed (open on koopzondag 08:30–16:30)",
+   "openingHoursSource": "https://www.cafecopines.be/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/12421659731"
   },
   {
    "id": "the-coffee-station",
@@ -12308,11 +12889,12 @@
    "features_evidence": {
     "foodServed": "stated by a source in the venues research"
    },
-   "openingHours": null,
-   "openingHoursSource": null,
+   "openingHours": "Mo-Sa 09:00-17:30",
+   "openingHoursSource": "OpenStreetMap",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/13233441564"
   },
   {
    "id": "cafe-recup-gent",
@@ -12362,11 +12944,12 @@
    "sources": [
     "https://www.hln.be/gent/restotip-bij-cafe-recup-is-het-meubilair-gerecycleerd-maar-het-menu-vernieuwend~a2c61cb1/",
     "https://visit.gent.be/en/eat-drink/cafe-recup",
-    "https://www.caferecup.eu/locations"
+    "https://www.caferecup.eu/locations",
+    "https://www.caferecup.eu/faq"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-19",
+   "lastChanged": "2026-10-20",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -12375,26 +12958,30 @@
    "features": {
     "veggie": null,
     "vegan": null,
-    "terrace": null,
+    "terrace": true,
     "liveMusic": null,
     "dj": null,
     "foodServed": true,
     "wifi": null,
     "glutenFree": null,
     "openSunday": true,
-    "kidsWelcome": null,
-    "wheelchair": null,
+    "kidsWelcome": true,
+    "wheelchair": false,
     "seating": null
    },
    "features_evidence": {
     "foodServed": "stated by a source in the venues research",
-    "openSunday": "stated by a source in the venues research"
+    "openSunday": "stated by a source in the venues research",
+    "kidsWelcome": "https://www.caferecup.eu/faq",
+    "terrace": "https://www.caferecup.eu/faq",
+    "wheelchair": "https://www.caferecup.eu/faq — \"Ghent: Unfortunately not wheelchair accessible\""
    },
    "openingHours": "Daily; Mon–Fri 08:00–16:30, weekends 09:00–16:00 (HLN, 30 Apr 2026)",
    "openingHoursSource": "https://www.hln.be/gent/restotip-bij-cafe-recup-is-het-meubilair-gerecycleerd-maar-het-menu-vernieuwend~a2c61cb1/",
    "notes": null,
    "otherLocations": null,
-   "origin": "venues"
+   "origin": "venues",
+   "osm": "node/6828974431"
   }
  ],
  "extraEvents": [
@@ -12520,6 +13107,540 @@
    "field": "events",
    "change": "Archived 9 past or undated event(s).",
    "source": "scripts/prune_events.py"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "A Food Affair",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://afoodaffair.be/contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Afsnis",
+   "change": "Research update: openMonday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/afsnis"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Alberte",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://alberte-gent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Arbane",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://arbane.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "ARNO ristorante",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://arno-ristorante.be/contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Bakker Klaas (Wintercircus)",
+   "change": "Research update: seating",
+   "source": "https://www.bakkerklaas.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Baptist",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://www.baptist-wondelgem.be/nl/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Bar Bidon",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/bar-bidon"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Bask",
+   "change": "Research update: openMonday, openSunday, opening hours, vegan, veggie",
+   "source": "https://bask.be/praktisch"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Bianca",
+   "change": "Research update: openMonday, opening hours, price level, website",
+   "source": "https://www.biancagent.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Bistro Bastien",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://bistrobastien.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Bistro Chó",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://bistrocho.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Boris & Maurice",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://boris-maurice.be/info/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Café Albatros",
+   "change": "Research update: foodServed, openMonday, openSunday, opening hours, website",
+   "source": "https://cafealbatros.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Café Copines",
+   "change": "Research update: opening hours",
+   "source": "https://www.cafecopines.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Café Den Turk",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-den-turk"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Café Gitane",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-gitane"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Cafe Recup",
+   "change": "Research update: kidsWelcome, terrace, wheelchair",
+   "source": "https://www.caferecup.eu/faq"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Café Romain",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-romain"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Café Ventura",
+   "change": "Research update: foodServed, openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-ventura"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Charlatan",
+   "change": "Research update: openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/charlatan"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Commotie",
+   "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
+   "source": "https://commotiegent.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Dapper.",
+   "change": "Research update: openMonday, openSunday, opening hours, veggie",
+   "source": "https://restaurantdapper.com/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "De Geus van Gent",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace",
+   "source": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "De Rave",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://restaurantderave.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "DEBRA",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://debragent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "één twee vijf",
+   "change": "Research update: openMonday, openSunday, opening hours, veggie",
+   "source": "https://eentweevijf.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Elders",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace",
+   "source": "https://elders.gent"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Fari",
+   "change": "Research update: openMonday, opening hours, website",
+   "source": "https://www.farigent.com/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Ferri",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/ferri"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Fine N Fast",
+   "change": "Research update: openMonday, opening hours",
+   "source": "https://finenfast.be/contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Fou d'O",
+   "change": "Research update: glutenFree, openMonday, openSunday, opening hours, price level",
+   "source": "https://foudo.be/contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Frankies",
+   "change": "Research update: openMonday, opening hours, website",
+   "source": "https://www.frankiesgent.be/en/find-us"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Full Circle Coffee",
+   "change": "Research update: glutenFree, seating, wifi",
+   "source": "https://www.fullcircleghent.com/faq"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Gillis",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://gillisgent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Goya",
+   "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
+   "source": "https://www.goyacoffee.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Bakkerij Himschoot",
+   "change": "Research update: seating",
+   "source": "https://www.bakkerijhimschoot.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Il Mezzogiorno",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://www.ilmezzogiorno.be/info/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Jour de Fête",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace",
+   "source": "https://visit.gent.be/nl/eten-drinken/jour-de-fete"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Julie's House",
+   "change": "Research update: openMonday, openSunday, opening hours, seating",
+   "source": "https://visit.gent.be/nl/eten-drinken/julies-house"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Kaffee Krevet",
+   "change": "Research update: openMonday, opening hours, website",
+   "source": "https://www.krevet.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Karel de Stoute",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://restkareldestoute.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Kin Khao - Thai Eatery",
+   "change": "Research update: openMonday, openSunday, opening hours, price level",
+   "source": "https://www.kinkhao.be/gent/menu/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Kinky Star",
+   "change": "Research update: terrace",
+   "source": "https://www.kinkystar.com/nl/about"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Klaar",
+   "change": "Research update: openMonday, openSunday, opening hours, price level",
+   "source": "https://klaargent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Koffeine",
+   "change": "Research update: openMonday, openSunday, opening hours, seating",
+   "source": "https://visit.gent.be/nl/eten-drinken/koffeine"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Kruidtuin",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://kruidtuingent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Le Baan Thaï",
+   "change": "Research update: openMonday, openSunday, opening hours, veggie",
+   "source": "https://www.lebaanthai.be/nl/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Le Chouchou",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://lechouchou.be/contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Le Jeu est Jambon",
+   "change": "Research update: openMonday, openSunday, opening hours, price level, terrace",
+   "source": "https://www.lejeujambon.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "LOF",
+   "change": "Research update: openMonday, opening hours",
+   "source": "https://lofrestaurant.com"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Lubbi",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace, temporarily closed (illness)",
+   "source": "https://lubbi.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Lys d'Or",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://www.lysdor.be/nl/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Madam Bakster",
+   "change": "Research update: seating",
+   "source": "https://www.madambakster.be/reserveren/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Mémé Gusta",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://www.meme-gusta.be/nl/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Midi",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://brasseriemidi.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Mokabon",
+   "change": "Research update: seating",
+   "source": "https://visit.gent.be/nl/eten-drinken/mokabon"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "MORGEN bakkerij",
+   "change": "Research update: wheelchair",
+   "source": "https://morgen-bakkerij.be/pages/over-ons"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Moscou by Danny Horseele",
+   "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
+   "source": "https://www.restaurantmoscou.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Nonam",
+   "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
+   "source": "https://nonam.be/contact-us/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "OAK",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://oakgent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Otium Cucina Italiana",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://otium.gent/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Patrick Foley's Irish Pub",
+   "change": "Research update: price level",
+   "source": "https://www.foleys.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Patyntje",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://www.patyntje.com/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Peaberry Coffeebar",
+   "change": "Research update: seating, vegan, wifi",
+   "source": "https://peaberrycoffeebar.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Porter House",
+   "change": "Research update: foodServed",
+   "source": "https://www.porterhousegent.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Publiek",
+   "change": "Research update: openMonday, openSunday, opening hours, wheelchair",
+   "source": "https://publiekgent.be/nl/reserveren"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Pulpo",
+   "change": "Research update: openMonday, openSunday, opening hours, price level, terrace, vegan, veggie",
+   "source": "https://restopulpo.com/pulpolatem/contactlatem"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Raaf",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://raafgent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Rizoom",
+   "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
+   "source": "https://www.rizoomgent.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Sākas",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://sakaswintercircusbe.eu/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Sensum",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace",
+   "source": "https://sensumgent.be/contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "SMØRBRØD",
+   "change": "Research update: seating",
+   "source": "https://smorbrod.gent/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Steendam 66",
+   "change": "Research update: openMonday, openSunday, opening hours, price level, terrace",
+   "source": "https://steendam66.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "'t Galgenhuisje",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace",
+   "source": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Taberna Bask",
+   "change": "Research update: kidsWelcome, openMonday, opening hours, vegan, veggie",
+   "source": "https://tabernabask.be/faq"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Talloor d'Or",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace",
+   "source": "https://talloordor.be/contact"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "The Celtic Towers",
+   "change": "Research update: liveMusic, openMonday, openSunday, opening hours, price level",
+   "source": "https://celtictowers.be/contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Trattoria della mamma",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://trattoriadellamamma.be/reserveer/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Tribune",
+   "change": "Research update: openMonday, openSunday, opening hours, terrace",
+   "source": "https://tribunegent.be"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Trollekelder",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/trollekelder"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Vandekerckhove & Bar",
+   "change": "Research update: opening hours, openSunday → unknown (sources conflict)",
+   "source": "https://vandekerckhove1854.be/Contact/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Vrijmoed",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://vrijmoed.be/nl/reserveren"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Waterhuis aan de Bierkant",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "WAY Specialty Coffee Bakery (Keizerpoort)",
+   "change": "Research update: seating, wifi",
+   "source": "https://www.way.gent/pages/faq"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "WAY Specialty Coffee Roasters (Dok Noord)",
+   "change": "Research update: openMonday, openSunday, opening hours, seating, wifi",
+   "source": "https://www.way.gent/pages/faq"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Yalo",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://www.yalohotel.com/en/faq/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Yusu",
+   "change": "Research update: openMonday, openSunday, opening hours",
+   "source": "https://www.yusu.be/"
+  },
+  {
+   "date": "2026-10-20",
+   "restaurant": "Shamrock Irish Bar",
+   "change": "Research update: verified as existing (Zuidstationstraat 46; no official website)",
+   "source": ""
   }
  ]
 }

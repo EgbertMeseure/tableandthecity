@@ -1,0 +1,807 @@
+[
+ {
+  "osm": "node/260203053",
+  "osmName": "Il Mezzogiorno",
+  "id": "il-mezzogiorno",
+  "name": "Il Mezzogiorno",
+  "m": 0
+ },
+ {
+  "osm": "node/314251389",
+  "osmName": "SMØRBRØD",
+  "id": "smorbrod",
+  "name": "SMØRBRØD",
+  "m": 4
+ },
+ {
+  "osm": "node/602681356",
+  "osmName": "The Celtic Towers",
+  "id": "the-celtic-towers",
+  "name": "The Celtic Towers",
+  "m": 9
+ },
+ {
+  "osm": "node/1187211187",
+  "osmName": "De Dulle Griet",
+  "id": "de-dulle-griet",
+  "name": "De Dulle Griet",
+  "m": 10
+ },
+ {
+  "osm": "node/1201714038",
+  "osmName": "'t Floere Foefke",
+  "id": "t-floere-foefke",
+  "name": "'t Floere Foefke",
+  "m": 3
+ },
+ {
+  "osm": "node/1212137966",
+  "osmName": "den Turk",
+  "id": "cafe-den-turk",
+  "name": "Café Den Turk",
+  "m": 10
+ },
+ {
+  "osm": "node/1227902197",
+  "osmName": "Jour de Fête",
+  "id": "jour-de-fete",
+  "name": "Jour de Fête",
+  "m": 0
+ },
+ {
+  "osm": "node/1349545826",
+  "osmName": "Café Labath",
+  "id": "cafe-labath",
+  "name": "Café Labath",
+  "m": 4
+ },
+ {
+  "osm": "node/1381910682",
+  "osmName": "Waterhuis aan de Bierkant",
+  "id": "waterhuis-aan-de-bierkant",
+  "name": "Waterhuis aan de Bierkant",
+  "m": 5
+ },
+ {
+  "osm": "node/1381910688",
+  "osmName": "Himschoot",
+  "id": "himschoot",
+  "name": "Bakkerij Himschoot",
+  "m": 4
+ },
+ {
+  "osm": "node/1532798358",
+  "osmName": "Het Spijker",
+  "id": "het-spijker",
+  "name": "Het Spijker",
+  "m": 7
+ },
+ {
+  "osm": "node/1534198820",
+  "osmName": "Trollenkelder",
+  "id": "trollekelder",
+  "name": "Trollekelder",
+  "m": 10
+ },
+ {
+  "osm": "node/1536597171",
+  "osmName": "Mokabon",
+  "id": "mokabon",
+  "name": "Mokabon",
+  "m": 8
+ },
+ {
+  "osm": "node/1536600694",
+  "osmName": "De Maecht van Ghent",
+  "id": "de-maecht-van-ghent",
+  "name": "De Maecht van Ghent",
+  "m": 15
+ },
+ {
+  "osm": "node/1546438179",
+  "osmName": "'t Galgenhuisje",
+  "id": "t-galgenhuisje",
+  "name": "'t Galgenhuisje",
+  "m": 1
+ },
+ {
+  "osm": "node/1603623322",
+  "osmName": "Café Afsnis",
+  "id": "afsnis",
+  "name": "Afsnis",
+  "m": 2
+ },
+ {
+  "osm": "node/1627612971",
+  "osmName": "De Geus van Gent",
+  "id": "de-geus-van-gent",
+  "name": "De Geus van Gent",
+  "m": 4
+ },
+ {
+  "osm": "node/1804222878",
+  "osmName": "Trattoria della Mamma",
+  "id": "trattoria-della-mamma",
+  "name": "Trattoria della mamma",
+  "m": 10
+ },
+ {
+  "osm": "node/2305188547",
+  "osmName": "Julie's House",
+  "id": "julies-house",
+  "name": "Julie's House",
+  "m": 4
+ },
+ {
+  "osm": "node/2454728590",
+  "osmName": "DAPPER.",
+  "id": "dapper",
+  "name": "Dapper.",
+  "m": 19
+ },
+ {
+  "osm": "node/2462825576",
+  "osmName": "Patyntje",
+  "id": "patyntje",
+  "name": "Patyntje",
+  "m": 0
+ },
+ {
+  "osm": "node/2514860360",
+  "osmName": "Bar Bidon",
+  "id": "bar-bidon",
+  "name": "Bar Bidon",
+  "m": 0
+ },
+ {
+  "osm": "node/2591395188",
+  "osmName": "Kinky Star",
+  "id": "kinky-star",
+  "name": "Kinky Star",
+  "m": 14
+ },
+ {
+  "osm": "node/2591395190",
+  "osmName": "Charlatan",
+  "id": "charlatan",
+  "name": "Charlatan",
+  "m": 0
+ },
+ {
+  "osm": "node/2617844678",
+  "osmName": "'T Dreupelkot",
+  "id": "t-dreupelkot",
+  "name": "'t Dreupelkot",
+  "m": 0
+ },
+ {
+  "osm": "node/2712612538",
+  "osmName": "Patrick Foleys Irish Bar & Restaurant",
+  "id": "patrick-foleys",
+  "name": "Patrick Foley's Irish Pub",
+  "m": 0
+ },
+ {
+  "osm": "node/3394070666",
+  "osmName": "Karel de Stoute",
+  "id": "karel-de-stoute",
+  "name": "Karel de Stoute",
+  "m": 5
+ },
+ {
+  "osm": "node/3394070668",
+  "osmName": "Bistro Bastien",
+  "id": "bistro-bastien",
+  "name": "Bistro Bastien",
+  "m": 8
+ },
+ {
+  "osm": "node/3394491369",
+  "osmName": "Le Baan Thai",
+  "id": "le-baan-thai",
+  "name": "Le Baan Thaï",
+  "m": 7
+ },
+ {
+  "osm": "node/3675247645",
+  "osmName": "Goya",
+  "id": "goya-coffee",
+  "name": "Goya",
+  "m": 3
+ },
+ {
+  "osm": "node/3908306916",
+  "osmName": "Le Jeu est Jambon",
+  "id": "le-jeu-est-jambon",
+  "name": "Le Jeu est Jambon",
+  "m": 3
+ },
+ {
+  "osm": "node/4171365900",
+  "osmName": "Café Folklore",
+  "id": "cafe-folklore",
+  "name": "Café Folklore",
+  "m": 5
+ },
+ {
+  "osm": "node/4463413776",
+  "osmName": "Publiek",
+  "id": "publiek",
+  "name": "Publiek",
+  "m": 5
+ },
+ {
+  "osm": "node/4478900295",
+  "osmName": "Take Five",
+  "id": "take-five-voldersstraat",
+  "name": "Take Five Espressobar",
+  "m": 3
+ },
+ {
+  "osm": "node/4559081390",
+  "osmName": "Steendam 66",
+  "id": "steendam-66",
+  "name": "Steendam 66",
+  "m": 0
+ },
+ {
+  "osm": "node/4769782821",
+  "osmName": "Vrijmoed",
+  "id": "vrijmoed",
+  "name": "Vrijmoed",
+  "m": 9
+ },
+ {
+  "osm": "node/4830061721",
+  "osmName": "Marijn Coertjens",
+  "id": "marijn-coertjens",
+  "name": "Marijn Coertjens",
+  "m": 3
+ },
+ {
+  "osm": "node/4916749806",
+  "osmName": "Full Circle Coffee",
+  "id": "full-circle-coffee",
+  "name": "Full Circle Coffee",
+  "m": 5
+ },
+ {
+  "osm": "node/4932254606",
+  "osmName": "Fine N Fast",
+  "id": "fine-n-fast",
+  "name": "Fine N Fast",
+  "m": 5
+ },
+ {
+  "osm": "node/5344860122",
+  "osmName": "Madam Bakster",
+  "id": "madam-bakster",
+  "name": "Madam Bakster",
+  "m": 0
+ },
+ {
+  "osm": "node/5598981422",
+  "osmName": "Ventura",
+  "id": "cafe-ventura",
+  "name": "Café Ventura",
+  "m": 3
+ },
+ {
+  "osm": "node/6045669487",
+  "osmName": "Bloch",
+  "id": "bloch-gent",
+  "name": "Bloch",
+  "m": 8
+ },
+ {
+  "osm": "node/6138202006",
+  "osmName": "Baba Jacquet",
+  "id": "baba-jacquet",
+  "name": "BABA Jacquet",
+  "m": 10
+ },
+ {
+  "osm": "node/6139933288",
+  "osmName": "Gillis",
+  "id": "gillis",
+  "name": "Gillis",
+  "m": 4
+ },
+ {
+  "osm": "node/6155773246",
+  "osmName": "Otium",
+  "id": "otium-cucina-italiana",
+  "name": "Otium Cucina Italiana",
+  "m": 0
+ },
+ {
+  "osm": "node/6258354585",
+  "osmName": "Café Albatros",
+  "id": "cafe-albatros",
+  "name": "Café Albatros",
+  "m": 0
+ },
+ {
+  "osm": "node/6799991943",
+  "osmName": "Klub XIII",
+  "id": "klub-xiii",
+  "name": "Klub XIII",
+  "m": 13
+ },
+ {
+  "osm": "node/6799991952",
+  "osmName": "Pallieter",
+  "id": "pallieter",
+  "name": "Pallieter",
+  "m": 12
+ },
+ {
+  "osm": "node/6799991955",
+  "osmName": "Luxx",
+  "id": "luxx",
+  "name": "LUXX",
+  "m": 15
+ },
+ {
+  "osm": "node/6799991956",
+  "osmName": "Tam-Tam",
+  "id": "tam-tam",
+  "name": "Tam-Tam",
+  "m": 9
+ },
+ {
+  "osm": "node/6828974431",
+  "osmName": "Cafe Recup",
+  "id": "cafe-recup-gent",
+  "name": "Cafe Recup",
+  "m": 10
+ },
+ {
+  "osm": "node/6898538387",
+  "osmName": "Rizoom",
+  "id": "rizoom",
+  "name": "Rizoom",
+  "m": 8
+ },
+ {
+  "osm": "node/6900564087",
+  "osmName": "Lof",
+  "id": "lof",
+  "name": "LOF",
+  "m": 21
+ },
+ {
+  "osm": "node/6977445785",
+  "osmName": "Gitane",
+  "id": "cafe-gitane",
+  "name": "Café Gitane",
+  "m": 1
+ },
+ {
+  "osm": "node/6983068056",
+  "osmName": "A food affair",
+  "id": "a-food-affair",
+  "name": "A Food Affair",
+  "m": 3
+ },
+ {
+  "osm": "node/7004798512",
+  "osmName": "WAY",
+  "id": "way-dok-noord",
+  "name": "WAY Specialty Coffee Roasters (Dok Noord)",
+  "m": 11
+ },
+ {
+  "osm": "node/8944368521",
+  "osmName": "Talloor d'Or",
+  "id": "talloor-d-or",
+  "name": "Talloor d'Or",
+  "m": 10
+ },
+ {
+  "osm": "node/9106174380",
+  "osmName": "BASK",
+  "id": "bask",
+  "name": "Bask",
+  "m": 5
+ },
+ {
+  "osm": "node/9521279463",
+  "osmName": "De Broodstokerij",
+  "id": "de-broodstokerij-gent",
+  "name": "De Broodstokerij",
+  "m": 1
+ },
+ {
+  "osm": "node/9562793369",
+  "osmName": "Kultur Bakery",
+  "id": "kultur-bakery",
+  "name": "Kultur Bakery",
+  "m": 0
+ },
+ {
+  "osm": "node/9702596192",
+  "osmName": "Elders",
+  "id": "elders",
+  "name": "Elders",
+  "m": 5
+ },
+ {
+  "osm": "node/10170071134",
+  "osmName": "Pulpo",
+  "id": "pulpo",
+  "name": "Pulpo",
+  "m": 0
+ },
+ {
+  "osm": "node/10231441260",
+  "osmName": "Funke",
+  "id": "funke",
+  "name": "Funke",
+  "m": 9
+ },
+ {
+  "osm": "node/10291647457",
+  "osmName": "Oak",
+  "id": "oak",
+  "name": "OAK",
+  "m": 11
+ },
+ {
+  "osm": "node/10311155535",
+  "osmName": "Peaberry Coffeebar",
+  "id": "peaberry-coffeebar",
+  "name": "Peaberry Coffeebar",
+  "m": 0
+ },
+ {
+  "osm": "node/10746387969",
+  "osmName": "Boris en Maurice",
+  "id": "boris-maurice",
+  "name": "Boris & Maurice",
+  "m": 4
+ },
+ {
+  "osm": "node/10814925505",
+  "osmName": "Kaffee Krevet",
+  "id": "kaffee-krevet",
+  "name": "Kaffee Krevet",
+  "m": 7
+ },
+ {
+  "osm": "node/10882969105",
+  "osmName": "Yalo",
+  "id": "yalo",
+  "name": "Yalo",
+  "m": 18
+ },
+ {
+  "osm": "node/10908013548",
+  "osmName": "De Rave",
+  "id": "de-rave",
+  "name": "De Rave",
+  "m": 1
+ },
+ {
+  "osm": "node/11028543743",
+  "osmName": "Kruidtuin",
+  "id": "kruidtuin",
+  "name": "Kruidtuin",
+  "m": 7
+ },
+ {
+  "osm": "node/11049255679",
+  "osmName": "Kin Khao",
+  "id": "kin-khao-thai-eatery",
+  "name": "Kin Khao - Thai Eatery",
+  "m": 4
+ },
+ {
+  "osm": "node/11156941450",
+  "osmName": "Bianca",
+  "id": "bianca",
+  "name": "Bianca",
+  "m": 24
+ },
+ {
+  "osm": "node/11352130032",
+  "osmName": "Shamrock",
+  "id": "shamrock-irish-bar",
+  "name": "Shamrock Irish Bar",
+  "m": 0
+ },
+ {
+  "osm": "node/11471262936",
+  "osmName": "Brasserie Midi",
+  "id": "midi",
+  "name": "Midi",
+  "m": 3
+ },
+ {
+  "osm": "node/11717356067",
+  "osmName": "Commotie",
+  "id": "commotie",
+  "name": "Commotie",
+  "m": 21
+ },
+ {
+  "osm": "node/11897385586",
+  "osmName": "Arbane",
+  "id": "arbane",
+  "name": "Arbane",
+  "m": 3
+ },
+ {
+  "osm": "node/11952535069",
+  "osmName": "Ferri",
+  "id": "ferri",
+  "name": "Ferri",
+  "m": 4
+ },
+ {
+  "osm": "node/12052358528",
+  "osmName": "Raaf",
+  "id": "raaf",
+  "name": "Raaf",
+  "m": 16
+ },
+ {
+  "osm": "node/12312749498",
+  "osmName": "Taberna Bask",
+  "id": "taberna-bask",
+  "name": "Taberna Bask",
+  "m": 30
+ },
+ {
+  "osm": "node/12323439126",
+  "osmName": "Sakas",
+  "id": "sakas",
+  "name": "Sākas",
+  "m": 100
+ },
+ {
+  "osm": "node/12327407781",
+  "osmName": "Bakker Klaas",
+  "id": "bakker-klaas-wintercircus",
+  "name": "Bakker Klaas (Wintercircus)",
+  "m": 43
+ },
+ {
+  "osm": "node/12352095864",
+  "osmName": "Tribune",
+  "id": "tribune",
+  "name": "Tribune",
+  "m": 79
+ },
+ {
+  "osm": "node/12357781261",
+  "osmName": "Koffeine",
+  "id": "koffeine",
+  "name": "Koffeine",
+  "m": 5
+ },
+ {
+  "osm": "node/12372326317",
+  "osmName": "Zeppos",
+  "id": "zeppos-vlasmarkt",
+  "name": "Zeppos",
+  "m": 3
+ },
+ {
+  "osm": "node/12421659731",
+  "osmName": "Café Copines",
+  "id": "cafe-copines",
+  "name": "Café Copines",
+  "m": 4
+ },
+ {
+  "osm": "node/12453399658",
+  "osmName": "Wild Child",
+  "id": "wild-child",
+  "name": "Wild Child",
+  "m": 8
+ },
+ {
+  "osm": "node/12531280974",
+  "osmName": "the bakery",
+  "id": "the-bakery-joost-arijs",
+  "name": "The Bakery by Joost Arijs",
+  "m": 53
+ },
+ {
+  "osm": "node/12585403426",
+  "osmName": "Le Chouchou",
+  "id": "le-chouchou",
+  "name": "Le Chouchou",
+  "m": 4
+ },
+ {
+  "osm": "node/12628238501",
+  "osmName": "één twee vijf",
+  "id": "een-twee-vijf",
+  "name": "één twee vijf",
+  "m": 5
+ },
+ {
+  "osm": "node/12643916389",
+  "osmName": "Wunderbar",
+  "id": "wunderbar",
+  "name": "Wunderbar",
+  "m": 15
+ },
+ {
+  "osm": "node/12755180305",
+  "osmName": "Alberte",
+  "id": "alberte",
+  "name": "Alberte",
+  "m": 1
+ },
+ {
+  "osm": "node/12797178901",
+  "osmName": "Vandekerckhove",
+  "id": "vandekerckhove-bar",
+  "name": "Vandekerckhove & Bar",
+  "m": 8
+ },
+ {
+  "osm": "node/12798265418",
+  "osmName": "Terug",
+  "id": "terug",
+  "name": "Terug",
+  "m": 0
+ },
+ {
+  "osm": "node/12805720542",
+  "osmName": "Debra",
+  "id": "debra",
+  "name": "DEBRA",
+  "m": 10
+ },
+ {
+  "osm": "node/12978510647",
+  "osmName": "Bistro Chó",
+  "id": "bistro-cho",
+  "name": "Bistro Chó",
+  "m": 11
+ },
+ {
+  "osm": "node/12994866605",
+  "osmName": "Moscou",
+  "id": "moscou-by-danny-horseele",
+  "name": "Moscou by Danny Horseele",
+  "m": 1
+ },
+ {
+  "osm": "node/13112745575",
+  "osmName": "Lubbi",
+  "id": "lubbi",
+  "name": "Lubbi",
+  "m": 42
+ },
+ {
+  "osm": "node/13233441564",
+  "osmName": "Yume",
+  "id": "yume-coffee",
+  "name": "Yume",
+  "m": 49
+ },
+ {
+  "osm": "node/13266807830",
+  "osmName": "ARNO ristorante",
+  "id": "arno-ristorante",
+  "name": "ARNO ristorante",
+  "m": 0
+ },
+ {
+  "osm": "node/13500924194",
+  "osmName": "FARI",
+  "id": "fari",
+  "name": "Fari",
+  "m": 0
+ },
+ {
+  "osm": "node/13658591182",
+  "osmName": "Norman bakery",
+  "id": "norman-bakery",
+  "name": "Norman Bakery",
+  "m": 5
+ },
+ {
+  "osm": "node/13744829256",
+  "osmName": "ROAR",
+  "id": "roar-gent",
+  "name": "ROAR",
+  "m": 14
+ },
+ {
+  "osm": "node/13866437601",
+  "osmName": "Mémé Gusta",
+  "id": "meme-gusta",
+  "name": "Mémé Gusta",
+  "m": 29
+ },
+ {
+  "osm": "node/14125387752",
+  "osmName": "Caracalla",
+  "id": "caracalla",
+  "name": "Caracalla",
+  "m": 41
+ },
+ {
+  "osm": "node/14133625075",
+  "osmName": "Frankies",
+  "id": "frankies",
+  "name": "Frankies",
+  "m": 9
+ },
+ {
+  "osm": "node/14141659599",
+  "osmName": "Eetcafé Klaar",
+  "id": "klaar",
+  "name": "Klaar",
+  "m": 9
+ },
+ {
+  "osm": "node/14159912568",
+  "osmName": "tds.",
+  "id": "tds",
+  "name": "TDS",
+  "m": 1
+ },
+ {
+  "osm": "node/14185345382",
+  "osmName": "De Woestijn",
+  "id": "de-woestijn",
+  "name": "De Woestijn",
+  "m": 4
+ },
+ {
+  "osm": "way/111681688",
+  "osmName": "Porter House",
+  "id": "porter-house",
+  "name": "Porter House",
+  "m": 3
+ },
+ {
+  "osm": "way/121291706",
+  "osmName": "Mémé Gusta",
+  "id": "meme-gusta",
+  "name": "Mémé Gusta",
+  "m": 4
+ },
+ {
+  "osm": "way/231932512",
+  "osmName": "Café Romain",
+  "id": "cafe-romain",
+  "name": "Café Romain",
+  "m": 18
+ },
+ {
+  "osm": "way/347340571",
+  "osmName": "'t Kofschip",
+  "id": "t-kofschip",
+  "name": "'t Kofschip",
+  "m": 8
+ },
+ {
+  "osm": "way/450236357",
+  "osmName": "Yusu",
+  "id": "yusu",
+  "name": "Yusu",
+  "m": 2
+ },
+ {
+  "osm": "way/629449976",
+  "osmName": "Baptist",
+  "id": "baptist",
+  "name": "Baptist",
+  "m": 3
+ },
+ {
+  "osm": "way/933042094",
+  "osmName": "Fou d'O Brasserie",
+  "id": "fou-d-o",
+  "name": "Fou d'O",
+  "m": 0
+ }
+]

@@ -269,12 +269,14 @@ button,input,select{font-family:inherit}
 .pillmenu button b{font-family:var(--serif);font-weight:600;font-size:12px;letter-spacing:0;color:var(--accent)}
 .pillmenu button:hover,.pillmenu button:focus-visible{background:#fff;color:#111;border-color:#fff;outline:none}
 .pillmenu button:hover b,.pillmenu button:focus-visible b{color:#7a5a1c}
-.pillmenu .pm-all{flex-basis:100%;justify-content:center;background:rgba(200,169,106,.22);border-color:rgba(200,169,106,.7)}
+.pillmenu.many{padding-bottom:20%;max-height:82%;gap:4px}.pillmenu.many button{padding:5px 10px}
+.pillmenu .pm-br{flex-basis:100%;height:0}
+.pillmenu .pm-all{justify-content:center;background:rgba(200,169,106,.22);border-color:rgba(200,169,106,.7)}
 .pillcard.menu-open .pill-shade{opacity:1}
 .pillcard.menu-open span.pill-label{transform:translateY(-31%)}
 .pillcard.menu-open .pillmenu{visibility:visible;opacity:1;transform:none;transition:opacity .25s ease,transform .35s cubic-bezier(.2,.7,.2,1),visibility 0s}
 .pillcard.menu-open img{transform:scale(1.04)}
-@media (max-width:700px){.pillmenu{padding:0 9% 26%;gap:4px}.pillcard.menu-open span.pill-label{transform:translateY(-36%)}.pillmenu button{font-size:9.5px;padding:5px 8px;letter-spacing:.05em}}
+@media (max-width:700px){.pillmenu{padding:0 9% 26%;gap:4px}.pillcard.menu-open span.pill-label{transform:translateY(-36%)}.pillmenu button{font-size:9.5px;padding:5px 8px;letter-spacing:.05em}.pillmenu .pm-x{display:none}.pillmenu.many{padding-bottom:26%;max-height:74%}}
 @media (prefers-reduced-motion:reduce){.pillmenu,.pillcard span.pill-label,.pillcard .pill-shade{transition:none}}
 
 /* ---- map markers: subtle shape per group (restaurants keep the round dot) ---- */
@@ -284,3 +286,8 @@ button,input,select{font-family:inherit}
 .mk.g-bakeries.hl{transform:rotate(45deg) scale(1.7)}
 /* announced, not yet open: hollow dashed marker */
 .mk.soon{background:#fff;border:2px dashed #000;box-shadow:none}
+/* map clusters (B&W) + OSM base-list markers slightly smaller/lighter than curated ones */
+.mkc{width:34px;height:34px;border-radius:50%;background:rgba(0,0,0,.82);color:#fff;display:flex;align-items:center;justify-content:center;font:600 12px/1 var(--sans);box-shadow:0 0 0 4px rgba(0,0,0,.18)}
+.mkc.mid{background:rgba(0,0,0,.88)}
+.mkc.big{background:#000;box-shadow:0 0 0 6px rgba(0,0,0,.2)}
+.mk.osm{opacity:.8;transform:scale(.8)}

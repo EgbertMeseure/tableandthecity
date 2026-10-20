@@ -1,0 +1,1299 @@
+[
+ {
+  "name": "Knol & Kool Bistro & Superet",
+  "address": "Heilige Geeststraat 6",
+  "price": "Moderate",
+  "tags": [
+   "Vegan",
+   "Organic",
+   "Western",
+   "Juice bar",
+   "Beer/Wine",
+   "Take-out",
+   "Catering",
+   "European",
+   "Breakfast"
+  ],
+  "info": "Organic vegan cafe, restaurant, juice bar, and shop. On the brunch & lunch menu offers dishes like a full English breakfast, banana bread, and pancakes. The dinner menu features dishes like salads, burgers, lasagna, and spaghetti bolognese. Vegan cakes, baked treats, acai, fresh juices, coffee, and tea available. Also has a vegan supermarket attached, which stocks food and other items. Outdoor seating. Wheelchair accessible. Accepts credit cards. Free Wi-Fi. Wed-Fri 11:00-21:00, Sat 10:00-21:00, Sun 09:00-16:00",
+  "level": "vegan",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Lekker GEC",
+  "address": "K. M. Hendrikaplein 6",
+  "price": "Moderate",
+  "tags": [
+   "Vegan",
+   "International",
+   "Organic",
+   "Western",
+   "Buffet",
+   "Take-out"
+  ],
+  "info": "Buffet restaurant with small à la carte. Self-service by weight - your plate goes on the scale; you take what you like as much as you like and pay for just that. Has shakes and ice cream. Also information centre for ecology. Day meals served 12:00pm-2:30pm and 6:00pm-8:30pm. Reported fully vegan August 2021.  Tue-Sat 12:00-21:00, Sun 11:00-15:00",
+  "level": "vegan",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Lokaal",
+  "address": "Brabantdam 100",
+  "price": "Moderate",
+  "tags": [
+   "Vegan",
+   "Western",
+   "European"
+  ],
+  "info": "Little tea house and restaurant, established in late-2014 and turned vegan in 2018. Makes salads, soups, sandwiches. Large front windows let in natural sunlight and create a pleasant atmosphere.",
+  "level": "vegan",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Nonna Gent",
+  "address": "5 Walpoortstraat Gent",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Italian",
+   "Fast food",
+   "Delivery",
+   "Take-out",
+   "Catering"
+  ],
+  "info": "Pasta restaurant offering veganizable Italian-inspired dishes like \"Vegan Bolo\" (a plant-based version of bolognese). Also features a variety of vegetable toppings to customize meals, including sun-dried tomatoes, pine nuts, and crispy onions. Accepts credit cards. Mon-Sun 11:30-21:30",
+  "level": "vegetarian",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "O'YO - Brabantdam",
+  "address": "Brabantdam, 82  (at Vlaanderenstraat)",
+  "price": "Moderate",
+  "tags": [
+   "Vegan-friendly",
+   "Lacto",
+   "Organic",
+   "Salad bar",
+   "Delivery",
+   "Take-out",
+   "European",
+   "Middle Eastern",
+   "Honey",
+   "Breakfast"
+  ],
+  "info": "A breakfast, lunch and coffee bar with meals that are yogurt based. Vegan except for dairy milk products and honey. The sweet meals have choices like coconut yogurt with house-made chocolate buckwheat granola and fresh seasonal fruits. Oatmeal, made from oats and vegan milk, with or without yogurt. All the cakes and pies are vegan. The savory meals are plant-based salads with a savory yogurt dip and a protein topping of your choice. Choose the balance bowl if you prefer a salad with lots of veggies, hummus and chickpeas. Takes reservations for groups of 8 people or more. Card payment only. Accepts credit cards. Free Wi-Fi. Mon-Sun 09:00-17:00",
+  "level": "vegetarian",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "O'YO - Sint Baafs",
+  "address": "Sint-Baafsplein 12",
+  "price": "Moderate",
+  "tags": [
+   "Vegan-friendly",
+   "Ovo",
+   "International",
+   "Juice bar",
+   "Delivery",
+   "Take-out",
+   "Gluten-free",
+   "Breakfast"
+  ],
+  "info": "Second location of this vegetarian breakfast, brunch and lunch bar. Has a focus on healthy bowls, toasts and pancakes.  Mon-Sun 09:00-17:00",
+  "level": "vegetarian",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Amour",
+  "address": "Sint Salvatorstraat 18  (at Dok Noord)",
+  "price": "Moderate",
+  "tags": [
+   "Vegan-friendly",
+   "Lacto",
+   "Buffet",
+   "Take-out",
+   "European",
+   "Gluten-free",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Buffet style lunch, brunch, apero & dinner with seasonal and local products. The majority of the dishes are vegetarian and vegan and can include noodle salad with crispy chili, cauliflower & carrot, cucumber salad with dill & citrus, artichoke & mushroom salad with arugula & mustard dressing, marinated mushrooms, pickled radishes, house-made spreads, and more.  Mon-Fri 12:00-14:00, Fri 18:00-21:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Aywa",
+  "address": "Lammerstraat 12",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Take-out",
+   "Middle Eastern",
+   "Honey",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Lebanese restaurant with various typical Lebanese dishes. Includes hummus, fattoush, falafel, grilled eggplant, batata hara and stuffed vine leaves. Check these are vegan. Cash only. Tue-Sat 12:00-14:30, 17:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Basta Resto",
+  "address": "2 Zuidstationstraat",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Italian",
+   "Mediterranean",
+   "Beer/Wine",
+   "Take-out",
+   "European",
+   "Honey",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Restaurant offering clearly marked vegan dishes such as Buddha bowl, penne, vegetable stew and a cake. Accepts credit cards. Mon-Fri 12:00-14:30, 17:00-22:00, Sat-Sun 12:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Beiruti",
+  "address": "Voldersstraat 13",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Organic",
+   "Mediterranean",
+   "Delivery",
+   "Take-out",
+   "Catering",
+   "Middle Eastern",
+   "Honey",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Lebanese restaurant offering a selection of tradition vegan dishes including hummus, falafel, baba ganoush, spinach fatayer, stuffed vine leaves, pastries, tasting dishes and more. Low waste and plastic free. Outdoor seating. Accepts credit cards. Free Wi-Fi. Mon-Wed 10:00-21:00, Thu-Sat 10:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Boker Tov",
+  "address": "20 Burgstraat",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Mediterranean",
+   "Beer/Wine",
+   "Delivery",
+   "Take-out",
+   "Middle Eastern",
+   "Honey",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Israeli restaurant offering vegan dishes such as hummus, falafel, baba ghanoush, tabbouleh, roasted cauliflower, sweet and sour carrots, challah bread, pecan cheesecake, and rosewater pudding. Please note that the labneh is not vegan and may be mislabeled. Outdoor seating. Reservations required. Wheelchair accessible. Accepts credit cards. Mon-Sat 09:00-21:00, Sun 09:00-16:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Carlton Hotel Restaurant",
+  "address": "Koningin Astridlaan 138",
+  "price": "Moderate",
+  "tags": [
+   "Vegan-friendly",
+   "Lacto",
+   "Western",
+   "Buffet",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. A small hotel offers a buffet breakfast with plenty of freshly cut fruit and dried fruit, in addition to freshly squeezed orange and apple juices. Also has a la carte items in addition to a vegan menu which includes fried cherry tomatoes, small vegan weenies, white beans in tomato sauce, rosti potatoes, oatmeal porridge & french toast. Uses only local products.",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Domino's Pizza - St. Pieters",
+  "address": "Kon. Astridlaan 226",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "American",
+   "Pizza",
+   "Italian",
+   "Fast food",
+   "Delivery",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Mon-Sun 11:00-23:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Eat This",
+  "address": "Dok-Noord 5 L",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Pizza",
+   "Fusion",
+   "Honey",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Experimental food bar with a changing menu. Offers a clearly labeled vegan pizza. Some of the starters may also be vegan, such as the soy shiitake sourdough dumplings - ask staff.  Thu-Sat 18:00-21:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Fitchen - Korenmarkt",
+  "address": "Kortemunt 4",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "American",
+   "Fast food",
+   "Take-out",
+   "European",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Fresh wraps and plates, made every day in our own kitchen. Every dish comes as a wrap or a plate, with vegan options such as grilled vegan meat. Two shops in Ghent: Korenmarkt and Vlaanderenstraat.  Mon-Sun 11:00-20:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Frituur De Papegaai",
+  "address": "Annonciadenstraat 17",
+  "price": "Inexpensive",
+  "tags": [
+   "American",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Fast food snack bar. Has labeled vegan choices and sauces. Wheelchair accessible. Mon-Fri 11:30-14:30, 17:00-22:00, Sun 17:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Gado-Gado",
+  "address": "Vrouwebroersstraat 21",
+  "price": "Moderate",
+  "tags": [
+   "Ovo",
+   "Beer/Wine",
+   "Asian",
+   "Indonesian",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Indonesian food menu with one vegan main dish plus a few appetizers and four vegetarian dishes that can be made vegan. Reservations required. Wed-Thu 18:00-21:00, Fri-Sat 18:00-22:00, Sun 18:00-21:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Hawaiian Poke Bowl - Centrum",
+  "address": "Kalandestraat 1",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "International",
+   "Take-out",
+   "Asian",
+   "Fusion",
+   "Honey",
+   "Hawaiian",
+   "Non-veg"
+  ],
+  "info": "Mon-Sun 11:00-22:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Holy Guacamoly",
+  "address": "Kon. Elisabethlaan 4",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "American",
+   "Fast food",
+   "Take-out",
+   "Mexican",
+   "Honey",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Mexican burrito shop serving burritos, nachos, and bowls. Burritos are customizable and vegan fillings are available. Other vegan choices include salads and super nacho bowl. Outdoor seating. Accepts credit cards. Mon-Thu 11:30-14:00, 17:00-21:30, Fri 11:30-21:30, Sat 12:00-15:00, Sat-Sun 17:00-21:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "IKEA",
+  "address": "Maaltekouter 2",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Delivery",
+   "Non-veg"
+  ],
+  "info": "Mon-Thu 10:00-19:30, Fri 10:00-20:30, Sat 09:00-19:30",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Lebanese Restaurant",
+  "address": "Sleepstraat 1",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Take-out",
+   "Middle Eastern",
+   "Lebanese",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Small Lebanese restaurant offering some vegan choices such as falafel, falafel rolls, fries, tabbouleh, fattoush and more. Outdoor seating. Accepts credit cards. Tue-Sun 17:00-23:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Mexcalli",
+  "address": "Bibliotheekstraat 1",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Beer/Wine",
+   "Mexican",
+   "Gluten-free",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Mexican resto-bar with outdoor seating only. Vegan options include nachos, chili sin carne, salad, tacos al pastor with oyster mushrooms, and guacamole. Outdoor seating. Mon-Sun 17:00-01:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Neo Pizza",
+  "address": "Bagattenstraat 128",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Pizza",
+   "Italian",
+   "Beer/Wine",
+   "Delivery",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Pizzeria offering a clearly marked vegan pizza with grilled eggplant, garlic, onion, nuts, and pistachio crema. Outdoor seating. Reservations required. Tue-Sun 18:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Gare Sint-Pietersstation",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Accepts credit cards. Mon-Sat 05:30-20:00, Sun 06:30-20:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Zeeschipstraat 52",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Sat 05:30-20:00, Sun 08:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Corneel Heymanslaan 9",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Sat 05:30-22:00, Sun 08:00-20:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Kortrijksesteenweg 1034",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Sat 05:00-20:00, Sun 06:00-20:00",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Oktrooiplein",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Fri 06:30-17:30",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Panos",
+  "address": "Walpoortstraat 26",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Mon-Fri 06:30-18:30, Sat 07:30-18:30",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Paul's Boutique",
+  "address": "Kon. Astridlaan 209",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "American",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Burger restaurants offering multiple vegetarian burgers and a few vegan ones. The vegan ones are: risotto burger, green patty, hazelnut burger, quinoa burger. Order is served standard with a crispy bun, lettuce, tomato & onion. Be sure to ask for vegan sauce. A 10-minute walk historical center. NOTE: Regular burger buns are not vegan - gluten free buns are vegan but cost extra. Relocated from Sint-Amandsstraat 48. Cash only. Mon-Thu 11:00-15:00, 17:00-21:00, Fri 11:00-14:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Poke n Pasta",
+  "address": "Normaalschoolstraat 47",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Italian",
+   "Japanese",
+   "Beer/Wine",
+   "Delivery",
+   "Take-out",
+   "Fusion",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Poke bowl and pasta restaurant offering vegan choices such as poke bowls with tofu and sweet potato, kimchi ramen, edamame, vegetable gyoza, vegetable spring rolls, pasta salad, vegetable sushi, tofu burrito and vegetable curry. Accepts credit cards. Tue-Sat 11:30-14:00, Tue-Sun 17:00-22:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Pureto",
+  "address": "34, Walpoortstraat",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Fast food",
+   "European",
+   "Honey",
+   "Belgian",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Flemish mashed potato restaurant with vegan \"boudin\" sausages. Other vegan items include mashed broccoli potatoes and a seasonal dish.  Mon-Sun 11:30-21:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Ruby's Lunchbar",
+  "address": "Hamerstraat 30",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "International",
+   "Take-out",
+   "Honey",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Restaurant serving a variety of dishes from different cuisines for breakfast and lunch. Offers vegan choices such as plant-based milk alternatives for coffee & tea, Punjabi kaju masala, roasted miso portobello mushrooms with garlic pea puree & chimichurri, tofu tikka masala and more. Accepts credit cards. Mon-Fri 09:30-15:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Umamido - Vooruit",
+  "address": "Walpoortstraat 38",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Japanese",
+   "Beer/Wine",
+   "Delivery",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Japanese ramen noodle bar offering vegetarian ramen that can be made vegan by ordering without egg. Choose from veggie tantan noodles, shoyu ramen, miso ramen and silken tofu mazemen. Outdoor seating. Accepts credit cards. Mon-Thu 12:00-21:30, Fri-Sat 12:00-22:00, Sun 12:00-21:30",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Woest",
+  "address": "Drongensesteenweg 41",
+  "price": "Expensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "American",
+   "International",
+   "Take-out",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Lunch, brunch & grill place offering vegan choices upon request such as toast, grilled pineapple, tofu & burgers. Menu states they have non-veggie or veggie options for certain dishes, so vegans please inquire. Reservations accepted. Outdoor seating. Accepts credit cards. Mon-Thu 11:30-14:30, Fri 11:30-00:00, Sat 09:00-00:00, Sun 09:00-15:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Yeti Gent",
+  "address": "44A Brabantdam Gent",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Beer/Wine",
+   "Take-out",
+   "European",
+   "Breakfast",
+   "Non-veg"
+  ],
+  "info": "Serves meat, vegan options available. Bar offering options like vegan croissant, granola with fresh fruit (vegan option), and \"Samosa Chat\" (vegan option). Also features specifically labeled vegan choices including vanilla ice cream and various coffee drinks like cappuccino, latte, and flat white which can be prepared with dairy-free alternatives.  Mon 09:00-18:00, Wed-Thu 09:00-18:00, Fri 09:00-20:00, Sat 10:00-20:00, Sun 10:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "sMarty Greenz",
+  "address": "Ghent Area",
+  "price": "Inexpensive",
+  "tags": [
+   "Catering"
+  ],
+  "info": "Plant based caterer that also hosts eco work shops/pep talks and ECOnsultancy for festivals & events. Call for food options and more details.",
+  "level": "veggie-friendly",
+  "hcSection": "restaurant"
+ },
+ {
+  "name": "Animal Rights België",
+  "address": "47 Derbystraat",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Animal rights organization organizing outreach and public education on veganism/animal rights. Can also be found at various events. Additional information can be found on main website.",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "BE Vegan",
+  "address": "Ghent",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Promotes veganism in Belgium. Aims to unite and support people in their efforts to follow a vegan way of life.",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Bubbles at Home",
+  "address": "Kleine Vismarkt 4",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Shop selling body and care products which are all vegan and cruelty free.  Mon-Sun 10:00-13:00, 13:30-18:00",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Cosy Green",
+  "address": "Jozef Wautersstraat 30",
+  "price": "Inexpensive",
+  "tags": [
+   "International",
+   "Thai",
+   "Western",
+   "Fast food",
+   "Take-out",
+   "Asian",
+   "Catering"
+  ],
+  "info": "Vegan food truck est. 2017. Offers Thai food like spring rolls, curries and stir-frys as well western style foods like burgers and wraps. Tuesdays at \"De punt \" Kerkstraat 108, Gentbrugge 11:30am-2pm & 5-8pm. Fridays at Craft Industries, Frederik Burvenichstraat 171, Gentbrugge, 5-8pm. Book the food truck or request for catering by filling out the form on the website. Accepts credit cards. Tue 11:30-14:00, 17:00-20:00, Fri 17:00-20:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Craac - Preorder only",
+  "address": "Eekstuk 6",
+  "price": "Inexpensive",
+  "tags": [
+   "Delivery",
+   "Bakery"
+  ],
+  "info": "Vegan chocolate shop offering pralines, chocolate buttons, bars, and chocolate coated nuts. Available for delivery via the web shop. Can accommodate pick-up orders by preorder only. No storefront. The name, Craac, stands for \"Crazy about chocolate.\"  Mon 09:00-17:00, Wed-Sat 09:00-17:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "De Kapperie",
+  "address": "2 Jan Roomsstraat",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Vegan hair salon specializing in coloring. Uses only products that have not been tested on animals or are 100% vegan.  Wed-Fri 08:30-18:00, Sat 08:30-16:00",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Dosha Aveda Lifestyle Salon & Spa",
+  "address": "Korte Meer 8",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Fully vegan hair salon and spa that offers various services with a focus on slowing down, keeping your hair in great condition and natural hair texture. Treatments include colour, cut, treatments, facials, massages, and nail polish.  Tue-Sat 10:00-18:00",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Gewoon.Anders",
+  "address": "Mimosastraat 152  (at Van Beverenplein)",
+  "price": "Inexpensive",
+  "tags": [
+   "Delivery",
+   "Catering"
+  ],
+  "info": "Makes take-away dishes which are all 100% plant-based, vegan, and made in-house. Take away by ordering directly or through takeaway.com. Also offers catering service.  Mon 11:30-13:30, 17:30-20:30, Thu-Fri 11:30-13:30, 17:30-20:30, Sun 11:30-13:30, 17:30-20:30",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Holy Cow",
+  "address": "Lange Kruisstraat 7",
+  "price": "Inexpensive",
+  "tags": [
+   "Delivery",
+   "Take-out",
+   "Gluten-free"
+  ],
+  "info": "Vegan fair trade chocolate shop offering cocoa spreads, cocoa powders, cocoa nibs, chocolate bars, chocolate drops and more. Accepts credit cards. Mon-Fri 10:00-17:30, Sun 11:00-17:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Kapsalon Rozie",
+  "address": "1 Balsamierenstraat",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "A hair salon that uses all vegan products from R+Co brand.  Mon-Tue 09:30-19:00, Wed 09:30-17:00, Thu-Fri 09:30-19:00, Sat 09:30-15:00",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Luna Creations",
+  "address": "Haspelstraat",
+  "price": "Inexpensive",
+  "tags": [
+   "International",
+   "Take-out",
+   "Bakery",
+   "European",
+   "French"
+  ],
+  "info": "Fully vegan patisserie offering petit fours, cakes, macarons, and other desserts. This is a take-out only service with no storefront. Pre-orders must be placed in advance through their website for pick-up in Ghent. Accepts credit cards.",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Plantbaar",
+  "address": "4 Nederpolder",
+  "price": "Inexpensive",
+  "tags": [
+   "Take-out"
+  ],
+  "info": "Fully vegan/plant-based coffee bar & plant store with a green outside seating area. Daily option of house-made baked goods and coffee with oat milk. Outdoor seating. Wed-Sat 11:00-18:00",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Rabot op je bord",
+  "address": "Jozef II Straat 104",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "A social project, part of de Sociale Kruideniers Gent vzw. Together with volunteers, they make vegan soups, stews, spreads, hummus, sambal, etc., out of food waste. Everyone is welcome to cook (check Facebook for the dates) and help to reduce food waste and bring people together. You can buy the products in the small bar (where you can have free coffee and tea) or in the social shop. In the house is also a second hand clothes shop and every Friday noon is a free stuff shop.  Mon-Thu 14:00-17:00, Fri 11:00-16:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "rokko",
+  "address": "42 Steendam",
+  "price": "Inexpensive",
+  "tags": [
+   "Take-out"
+  ],
+  "info": "Est. April 2024. A feminist, queer, radical bookstore + vegan coffee bar co-op. Offers coffee drinks, pastries, lunch and a daily soup - also has a solidarity price option. Wheelchair accessible. Accepts credit cards. Free Wi-Fi. Wed-Sun 10:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Vegamuze",
+  "address": "Gent area",
+  "price": "Inexpensive",
+  "tags": [
+   "Catering"
+  ],
+  "info": "Offers vegan catering and workshops, and sells at area markets - check its webpage for updates.",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "WAY Specialty Coffee Roasters",
+  "address": "Dok Noord 4E 001",
+  "price": "Inexpensive",
+  "tags": [
+   "Take-out",
+   "Bakery"
+  ],
+  "info": "Offers specialty coffee with oat or soy milk & vegan pastries as well as breakfast and lunch dishes including smoothie bowl, bagel, doughnuts, cakes, and pies. All food is plant based.  Mon-Fri 08:00-17:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "What The Food",
+  "address": "Jean Béthunestraat 100",
+  "price": "Inexpensive",
+  "tags": [
+   "Delivery",
+   "Catering"
+  ],
+  "info": "Caterer offering delivery of frozen vegan meals across Ghent by bike. Menu is inspired by the owner's travels and includes varied dishes such as peanut stew, butter 'chicken', chili sin carne, and red curry. Every dish comes with suggestions for side dish and garniture. Frozen meals are delivered by bike on Tuesdays and Thursday evenings. Available or pick-up at Lange Violettestraat 42, Ghent, as well. Also for sale in Delhaize Proxy Kouter and Viggo's coffee in Antwerp. For private catering inquiries get in touch through the website.  Mon-Sat 09:00-21:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "WONDR care",
+  "address": "Koestraat 2",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Vegan body care shop with a plastic-free approach. Carries skin, hair, and body care products, cosmetics, and fragrances. All products are vegan, free from animal testing, and B Corp certified.  Mon-Sat 10:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Worlds' End",
+  "address": "Ketelvest 51",
+  "price": "Inexpensive",
+  "tags": [
+   "Western",
+   "Beer/Wine"
+  ],
+  "info": "Comic / game shop and bar offering vegan toasts, burgers and snacks. Accepts credit cards. Free Wi-Fi. Tue-Thu 10:30-00:00, Fri-Sat 10:30-01:00, Sun 11:30-00:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Y-bae - Preorder Only",
+  "address": "19, Louis Van Houttestraat",
+  "price": "Moderate",
+  "tags": [
+   "Bakery"
+  ],
+  "info": "Fully vegan bakery concept available for pre-order only. Offers a range of gluten-free and keto buns and bun mixes. Can also be found at various events. See website for additional information and ordering instructions. Delivery available. Reservations required. Accepts credit cards. Sat 11:00-14:00",
+  "level": "vegan",
+  "hcSection": "other"
+ },
+ {
+  "name": "Yasai Gent",
+  "address": "Rabotstraat 25",
+  "price": "Inexpensive",
+  "tags": [
+   "Catering",
+   "Breakfast"
+  ],
+  "info": "Offers plant-based catering for events, retreats and even cook at home.  Offers takeaway boxes on special occasions such as father's day and Easter. Reservations required.",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Adama Zeepziederij",
+  "address": "176 Koningin Astridlaan",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Small-scale soap factory offering vegan body soap and shampoo bars made with organic and fair trade ingredients. Order online and pick up on location. Also sells products at local businesses. NOTE: Reported to sell one non vegan soap May 2025.",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Ayuno",
+  "address": "Korte Meer 22B  (at / near main shopping street Veldstraat)",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Natural food store offers daily vegetarian take-away meals, organic produce, vitamins.  Mon-Fri 09:30-18:30, Sat 09:30-18:00, Sun 09:30-15:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Bakkerij Himschoot",
+  "address": "Kon Elisabethlaan 112",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Non-vegan bakery offering vegan ice cream flavors. Flavors may include chocolate, vanilla, fruit, or straciatella.  Mon-Sun 07:30-18:30",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Bio-Planet",
+  "address": "Drongensesteenweg 134",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Mon-Thu 09:00-19:30, Fri 09:00-20:00, Sat 09:00-19:30",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Broodhuis 503",
+  "address": "503 Coupure Links",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Western",
+   "Take-out",
+   "Bakery",
+   "European",
+   "Breakfast",
+   "Belgian"
+  ],
+  "info": "Bakery cafe / sandwich shop with plant milk for coffee and hummus sandwiches with vegetables. Outdoor seating. Mon-Fri 07:00-14:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Chocolade Ambassade",
+  "address": "Kraanlei 3",
+  "price": "Moderate",
+  "tags": [
+   "Lacto"
+  ],
+  "info": "Seller of fine Belgian chocolates. Has vegan dark chocolate hazelnut bars and vegan pralines.  Mon-Tue 13:30-18:00, Fri-Sun 13:30-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Chocolaterie Vandenbouhede",
+  "address": "Mageleinstraat 46",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Offers artisanal chocolate and confectioneries including vegan chocolates. It's possible to view the production process downstairs.  Tue-Sat 10:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Ciné Mangiare",
+  "address": "24 Klapeksterstraat",
+  "price": "Moderate",
+  "tags": [],
+  "info": "Movie theater offering vegan food options for aperitif at 6pm and dinner at 7pm.  Mon-Tue 18:00-23:00, Thu-Fri 18:00-23:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Ekoplaza",
+  "address": "Kortrijksesteenweg 148",
+  "price": "Inexpensive",
+  "tags": [
+   "Organic"
+  ],
+  "info": "Mon-Sat 09:00-18:30",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Foodstorms",
+  "address": "Ghent area",
+  "price": "Inexpensive",
+  "tags": [
+   "Catering"
+  ],
+  "info": "Formerly a vegan pop-up restaurant, but currently only offers plant-based consulting services and workshops.",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Giftshop Gent",
+  "address": "Werregarenstraat  (at Graffitistraatje )",
+  "price": "Moderate",
+  "tags": [
+   "Beer/Wine",
+   "European"
+  ],
+  "info": "Cozy bar in an art center serving local drinks & coffee in the city center. Offers vegan mastelles from Frimout Bakkery and drinks.  Sun 13:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "HD Ghent",
+  "address": "Burgstraat 43",
+  "price": "Inexpensive",
+  "tags": [
+   "Organic",
+   "Delivery",
+   "Take-out",
+   "Gluten-free"
+  ],
+  "info": "Chocolatier offering a wide selection of vegan chocolates which are all clearly labelled on the shop display. Flavours may include hazelnut & ginger; coffee; marzipan; almond & coconut; neroli; pecan, cashew & tonka. Also sells a range of chocolate from other countries, many of which are vegan. Accepts credit cards. Wed 11:00-17:00, Thu-Sat 10:00-18:30, Sun 10:00-16:30",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Herbômont",
+  "address": "Antwerpsesteenweg 213",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Small store providing raw food supplies and hosts monthly conference about health, food, vegetarianism. Monthly open door with raw food and demos. Relocated from Visitatiestraat 161. Organisation website: http://www.groenedag.org  Mon-Tue 08:30-16:30, Wed 09:00-12:00, Thu 08:30-16:30, Fri 08:30-15:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Holland & Barrett",
+  "address": "Walpoortstraat 4",
+  "price": "Moderate",
+  "tags": [],
+  "info": "Accepts credit cards. Mon-Thu 09:30-18:00, Fri-Sat 09:30-18:30, Sun 12:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Holland & Barrett - Langemunt",
+  "address": "48 Langemunt",
+  "price": "Moderate",
+  "tags": [],
+  "info": "Wheelchair accessible. Mon-Sat 09:30-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Holland & Barrett - Veldstraat",
+  "address": "84 Veldstraat",
+  "price": "Moderate",
+  "tags": [],
+  "info": "Wheelchair accessible. Accepts credit cards. Mon-Thu 09:30-18:00, Fri-Sat 09:30-18:30",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Holland & Barrett - Woodrow Wilsonplein",
+  "address": "Woodrow Wilsonplein 4  (at Shoppingcenter Gent Zuid)",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Mon-Fri 10:00-19:00, Sat 10:00-17:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Ijspaleis T'Sonneputje Pop-Up",
+  "address": "Hondelee 46, Zwijnaarde",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Pop-up ice cream shop with a range of fruit sorbets and vegan chocolate ice cream. Reopened April 2023. Outdoor seating. Accepts credit cards. Tue-Sun 13:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Lousbergmarkt",
+  "address": "Ferdinand Lousbergskaai 33",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Indoor marketplace operating in an old building of a cheese factory. Several local companies are based here with the main focus of providing local and organic products. Among the offering are fresh fruits and vegetables, traditional sourdough bread, prepared foods including vegan options upon request.  Mon-Sat 08:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "LUSH",
+  "address": "Lange Munt 1",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Wheelchair accessible. Mon-Thu 10:00-18:00, Fri-Sat 10:00-18:30",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Moochie",
+  "address": "Klein Turkije 14",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Frozen yogurt shop with soy-based froyo option and soy-popsicles. Variety of toppings include nuts and fresh fruit bits. Offers also acai bowls, granola with fruits, and boba tea. Outdoor seating. Mon-Thu 11:00-21:00, Fri-Sat 11:00-22:00, Sun 12:00-21:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "NOIR",
+  "address": "Onderbergen 48",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "Take-out"
+  ],
+  "info": "Tattoo shop with cafe. Plant-based milk alternatives available as well as vegan cakes and snacks. Regularly holds events, some of which are vegan-friendly. Outdoor seating. Accepts credit cards. Free Wi-Fi. Tue-Sun 09:30-20:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Oats Day Long",
+  "address": "Nederkouter 55",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Organic",
+   "Western",
+   "Juice bar",
+   "Delivery",
+   "Take-out",
+   "European",
+   "Gluten-free",
+   "Breakfast"
+  ],
+  "info": "Serves meat, vegan options available. Cafe with a few vegan options. Reported to have limited vegan options July 2025. Accepts credit cards. Free Wi-Fi. Mon-Fri 07:30-16:30, Sat-Sun 09:30-16:30",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "OHNE",
+  "address": "Steendam 68",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Zero waste bulk shop offering fresh organic fruit and veggies, spices, tofu, seitan stews, vegan pies, reusable straws and more. Bring your own containers or buy in the shop.  Mon-Thu 09:00-19:00, Fri-Sat 10:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "OHNE",
+  "address": "Kon. Elisabethlaan 22",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Zero waste bulk shop offering fresh organic fruit and veggies, spices, tofu, seitan stews, vegan pies, reusable straws and more. Bring your own containers or buy in the shop. Wheelchair accessible. Accepts credit cards. Free Wi-Fi. Mon-Thu 09:00-19:00, Fri-Sat 10:00-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "OR Coffee Lab",
+  "address": "126 A Sint-Pietersnieuwstraat",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Coffee shop near the university offering vegan options. The menu includes acai bowls, yoghurt bowls, and focaccia. Plant-based milk is available for coffee drinks. Outdoor seating. Accepts credit cards. Free Wi-Fi. Mon-Fri 08:00-17:00, Sat-Sun 09:00-17:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Oyya",
+  "address": "Koestraat 22",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Ice cream shop offering several vegan flavors such as vanilla, chocolate, hazelnut, and matcha.  Mon-Sun 11:00-19:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Oyya",
+  "address": "Langemunt 8",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Ice cream shop offering several vegan flavors such as vanilla, chocolate, hazelnut, and matcha.  Mon-Fri 12:00-18:30, Sat-Sun 11:00-18:30",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Picadeli - Esso Drongen Zuid",
+  "address": "E40 Drongen Zuid",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "International",
+   "Buffet",
+   "Fast food",
+   "Salad bar",
+   "Take-out",
+   "Honey"
+  ],
+  "info": "Serves meat, vegan options available. Self-service salad bar chain offering labelled vegan items such as dahl with lentils, Moroccan couscous, vegetables and more. Accepts credit cards. Mon-Sun 00:00-00:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "ProVeg vzw - Ethical Vegetarian Alternative",
+  "address": "Steendam 82",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "EVA is Belgium's vegetarian organization. Pick up a veggie street map of Ghent and other cities, or for veg information. Previously at Steendam 84.  Mon-Tue 09:00-17:00, Thu 09:00-17:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Sundance Kit",
+  "address": "Engelbert van Arenbergstr 43",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Neighbourhood store which represents sustainability & zero waste. Makes only vegetarian take-away meals with organic & locally produced vegetables. Can also buy products of the area and some wine and beer.  Mon-Tue 15:00-18:00, Wed 09:00-14:00, Thu 15:00-18:00, Fri 09:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Talamini Ice",
+  "address": "Ganzendries 1  (at Kortrijksesteenweg)",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Vegan-friendly ice cream shop. Offers more than 8 different flavours of sorbet, several smoothies and more than 5 flavours of vegan ice cream (vanilla, chocolate, hazelnut, speculoos and banana). Also sells several vegan ice cream flavours in separate boxes. NOTE: Reported July 2024 to have limited vegan options – please send updates to HappyCow.  Mon-Sun 13:30-18:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Tavontuur",
+  "address": "Burgstraat 137, Gent  (at city centre)",
+  "price": "Inexpensive",
+  "tags": [],
+  "info": "Bio health food store stocking fresh bread and pastry, fresh vegetables and fruit, vegetarian specialties, personal care products.  Mon-Sat 10:00-13:00, 14:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Ter Doorn",
+  "address": "Groentenmarkt",
+  "price": "Inexpensive",
+  "tags": [
+   "Delivery"
+  ],
+  "info": "Market stall selling organic fresh vegetables and fruits at this spot once a week. Offers home delivery by bicycle.  Fri 08:00-13:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Vegetarische Kookstudio",
+  "address": "Gustaaf Carelshof",
+  "price": "Inexpensive",
+  "tags": [
+   "Catering"
+  ],
+  "info": "Gent-based vegetarian caterer that also holds lectures, cooking demos and workshops as well as providing weekly takeaway meals. Visit webpage for details.",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Veggie = Halal",
+  "address": "Haspelstraat 37/A",
+  "price": "Inexpensive",
+  "tags": [
+   "Lacto",
+   "International",
+   "Catering"
+  ],
+  "info": "Social catering organization for events, seminars, meetings, workshops and more. Chefs with different roots promote vegetarian and plant-based world cuisine. All dishes are vegetarian or vegan and halal. Food is  served in reusable jars and signed by the person who cooked it. Check website or social media for details on booking.",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Wilde Weide",
+  "address": "Jan Hoetplein 1  (at SMAK - Municipal Museum of Contemporary Art)",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Ovo",
+   "European",
+   "Honey"
+  ],
+  "info": "Restaurant and cafe serving lunch at the SMAK (Municipal Museum of Contemporary Art). Offers a vegan cake, snacks and plant-based milk for drinks. Reported to have limited options December 2024. Outdoor seating. Reservations required. Tue-Fri 09:30-17:30, Sat-Sun 10:00-17:30",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Yoghito",
+  "address": "2 Koningin Maria Hendrikaplein",
+  "price": "Moderate",
+  "tags": [
+   "Lacto",
+   "Delivery",
+   "Take-out"
+  ],
+  "info": "Frozen yogurt and coffee bar in the Gent Sint-Pieters station. Various drinks and smoothies can be made vegan with soy milk, almond milk, or oat milk. Wheelchair accessible. Accepts credit cards. Free Wi-Fi. Mon-Fri 06:30-20:00, Sat-Sun 07:30-20:00",
+  "level": "vegan-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Zest",
+  "address": "Koningin Maria-Hendrikaplein 1",
+  "price": "Inexpensive",
+  "tags": [
+   "Juice bar"
+  ],
+  "info": "Takeaway juice and smoothie chain, at the train station. Check for dairy and honey.  Mon-Fri 07:00-19:00, Sat 09:00-18:00, Sun 10:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ },
+ {
+  "name": "Zoetse",
+  "address": "Groentenmarkt 19",
+  "price": "Moderate",
+  "tags": [
+   "European"
+  ],
+  "info": "Chocolate cafe with plant-based milk alternatives. Also offers smoothies and chocolate bonbons. Outdoor seating. Mon 14:00-18:00, Tue-Sun 10:00-18:00",
+  "level": "veggie-friendly",
+  "hcSection": "other"
+ }
+]

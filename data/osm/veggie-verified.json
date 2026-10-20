@@ -1,0 +1,326 @@
+{
+ "about": "Hand-checked veggie/vegan levels (own website/menu, press, HappyCow). Overrides HappyCow and OSM diet tags. veggieLevel null = checked, no clear options.",
+ "places": {
+  "full-circle-coffee": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.fullcircleghent.com/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"one of Belgium's first 100% plant-based specialty coffee bars\"; \"All our donuts, cakes and other sweets are plant-based too.\""
+  },
+  "osm-full-circle-coffee-n11608541222": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.fullcircleghent.com/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"100% plant-based specialty coffee bar\"."
+  },
+  "madam-bakster": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.madambakster.be/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"Al onze desserts zijn helemaal plantaardig\"; \"koffiebar met 100% plantaardige producten\"."
+  },
+  "osm-catberry-n10295133531": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://catberry.be/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"Plantbased koffiebar & patisserie in Gent\" — \"Altijd vers, altijd plantaardig\"."
+  },
+  "osm-de-salopette-n6942598387": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.de-salopette.be/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"plantaardig buffet\" (pay by weight); HappyCow: \"Fully vegan cafe\"."
+  },
+  "osm-dirt-restaurant-n13323699746": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://dirt.restaurant/menu",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own menu: \"Het menu is opgebouwd rond seizoensproducten en volledig plantaardig.\" (some wines not vegan, per HappyCow)"
+  },
+  "osm-greenway-w336127036": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://greenway.be/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Belgian plant-based producer with its own restaurant at Nederkouter 42; HappyCow: \"Reported fully vegan\"."
+  },
+  "osm-have-a-roll-n11394481011": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://havearoll.com/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"Handmade brioche cinnamon rolls (and 100% plantbased)\"."
+  },
+  "osm-karoot-n9665581800": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://karoot.gent/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: cooperative restaurant serving \"een lekkere, vlot geserveerd plantaardige maaltijd\"."
+  },
+  "osm-knol-kool-n12148408793": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.knolkool.com/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"BEESTIG VEGAN bistro & superet\" — \"de eerste 100% plantaardige superette van Gent\"."
+  },
+  "osm-le-botaniste-n4052744492": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://lebotaniste.eu/en/home/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"Food and Wine Bar | Plant-based Organic\"."
+  },
+  "osm-lekker-gec-n2721915415": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?",
+    "https://www.lekkergec.com/"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: buffet restaurant (pay by weight), \"Reported fully vegan\"."
+  },
+  "osm-lokaal-n12208404072": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://lokaal.gent/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: cooperative restaurant \"met biologische, eerlijke en plantaardige ingrediënten\"; HappyCow: turned vegan in 2018."
+  },
+  "osm-oh-ma-n12367017828": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.oh-ma.eu/nl",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"100% plant-based restaurant in Ghent\"."
+  },
+  "osm-plant-a-pizza-n9740821856": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://plantapizza.com/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"The first 100% plant based pizzeria in Belgium\"."
+  },
+  "osm-way-n4361414624": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.way.gent/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"100 % plantaardig in onze bars en in onze desembakkerij\"."
+  },
+  "osm-way-plantbased-bakehouse-n4256139406": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.way.gent/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"alles wat we maken is volledig plantaardig\"."
+  },
+  "way-bakery-keizerpoort": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.way.gent/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: bakery Keizerpoort — \"Volledig plantaardig, elke ochtend vers gebakken.\""
+  },
+  "way-dok-noord": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.way.gent/"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"100 % plantaardig in onze bars\"."
+  },
+  "yusu": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.yusu.be/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"onze menukaart 100% plantaardig\"."
+  },
+  "osm-plantbaar-n12737009115": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?",
+    "https://plantbaar.be/"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: \"Fully vegan/plant-based coffee bar & plant store\" (outdoor bar, Wed–Sat)."
+  },
+  "osm-rokko-n12659929329": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?",
+    "https://www.rokko.be/nl/"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: bookstore + vegan coffee bar co-op."
+  },
+  "osm-soul-kitchen-n5986142786": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?",
+    "https://www.soul-kitchen.be/"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: \"Vegan restaurant\" (bowls, carrot pizza, pakoras)."
+  },
+  "osm-ludo-n5618349223": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: coffee & food bar by the owners of former vegan business Billy Bonka — \"vegan comfort food\". No own website found."
+  },
+  "osm-dreamcatchers-n12363209411": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?",
+    "https://wearedreamcatchers.be/nl"
+   ],
+   "checked": "2026-10-20",
+   "note": "Cat adoption café; HappyCow: \"Reported to be fully vegan March 2026\". Open Wed & Sat."
+  },
+  "osm-boon-n5569907420": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.boon.gent/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"Vegetarische Lunchbar\" — \"de gezonde, vegetarische en creatieve oplossing voor uw ontbijt en lunch\"."
+  },
+  "osm-o-yo-n5247946071": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.oyobar.be/"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own site: \"plant-based (mainly vegan) breakfast, brunch, lunch and coffee bar … We also offer veggie options.\"",
+   "dishes": [
+    {
+     "dish": "Sweet brunch: vegan and gluten-free pancakes with maple syrup, fresh fruit salad",
+     "source": "https://www.oyobar.be/"
+    }
+   ]
+  },
+  "osm-den-johnny-n13608226201": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: diner/music bar with vegan versions of Belgian classics (vol-au-vent, stew); \"Most items are vegan besides a few that come with dairy cheese\"."
+  },
+  "osm-de-appelier-n2634809499": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: vegetarian restaurant, 2 daily vegetarian dishes; ask whether the daily dish is vegan."
+  },
+  "osm-pacha-mama-n3553831592": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: vegetarian restaurant (opened 2016), daily menu; main dish can be made vegan on request."
+  },
+  "osm-meshur-adyaman-cig-koftecisi-n11426088978": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: çiğ köfte (bulgur, walnuts, spices), falafel; \"Reported fully vegetarian March 2025\"."
+  },
+  "osm-boempatat-n1651810939": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.hln.be/gent/net-open-yassin-27-en-ramazan-27-serveren-gepofte-aardappelen-met-allerlei-toppings-de-aardappel-in-zijn-puurste-vorm-verdient-meer-waardering~a2534aaa/"
+   ],
+   "checked": "2026-10-20",
+   "note": "NOT vegetarian (OSM tag diet:vegetarian=only is wrong): HLN lists bolognese, stoofvlees, chicken and shoarma formulas; build-your-own with falafel is possible."
+  },
+  "vrijmoed": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?",
+    "https://www.vrijmoed.be/nl"
+   ],
+   "checked": "2026-10-20",
+   "note": "Two-star restaurant; HappyCow: \"a full vegetable menu at all times, which is either all vegan or some of the items are vegan (please inquire)\". Vegan not guaranteed → not marked vegan."
+  },
+  "kin-khao-thai-eatery": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://kinkhao.be",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Own website: \"vegan options are available\"; HappyCow: a vegan section on the menu."
+  },
+  "patrick-foleys": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "HappyCow: three vegan main dishes (a curry, a salad and a burger with fries)."
+  },
+  "osm-o-yo-n10885912444": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.oyobar.be/",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
+   ],
+   "checked": "2026-10-20",
+   "note": "Second O'yo (Sint-Baafsplein): \"plant-based (mainly vegan)\" breakfast/lunch bar with veggie options (own site)."
+  }
+ }
+}

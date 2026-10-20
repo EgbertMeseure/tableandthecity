@@ -48,6 +48,14 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    verify on the place's own site/Instagram/menu (or a press source) before touching `features`/`features_evidence`, then add a changelog entry with that
    source URL. Ignore unverifiable tips. Nothing on the site updates automatically from feedback.
    ⚠ `FEEDBACK_EMAIL` is still the placeholder `hello@tableandthecity.com` (no real inbox): replace it in `js/config.js` once a real address/form endpoint exists — until then no feedback arrives.
+4d. **OpenStreetMap base list** (weekly, or daily on busy weeks) – `python3 scripts/import_osm.py gent --refresh --fill-curated`
+   (re-downloads OSM, keeps ids stable, never overwrites curated data). Look at the printed counts: a big drop usually means Overpass returned a partial result —
+   re-run. New places without an address need `data/osm/streets.json` (downloaded automatically, not in git). Put sourced fixes in `data/osm/corrections.json`
+   (and ideally fix OSM itself). When an OSM place gets hand-researched, move it into `gent.json` (same name/location → the import then skips it).
+4e. **Veggie / vegan layer** – `python3 scripts/veggie_layer.py gent` after every import; weekly follow `scripts/VEGGIE_CHECK.md`
+   (refresh HappyCow, verify every 100% vegan / vegetarian place on its own site, add press finds). Never guess a level.
+4f. **Closure spot-check** (monthly) – sample 40 random OSM places, check own site / recent listings, record in `data/osm/spotcheck-<date>.json`;
+   closed places: fix in OSM (or add `"status": "closed"` via corrections) and re-import.
 5. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.
 6. **Distinctions** – replace all scores when a new Michelin (spring) or Gault&Millau (November) edition appears.
 7. **Photos & links** – no stock gallery images any more. Weekly: re-check `instagram_posts` (only permalinks from the official profile), `reservation_url` (still linked from the restaurant's own site, HTTP 200) and Wikimedia Commons for new freely licensed photos. Then `python3 scripts/build_features.py gent`. Optional (only if a key is configured): `GOOGLE_MAPS_API_KEY=… python3 scripts/fetch_google_photos.py gent` daily, since photo names expire.

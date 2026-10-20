@@ -262,3 +262,19 @@ body.noscroll{overflow:hidden}
 .fb .fb-send{background:#111;border-color:#111;color:#fff}
 .fb .fb-send:not([disabled]):hover{background:#2e7d4f;border-color:#2e7d4f;color:#fff}
 .fb [hidden]{display:none!important}
+/* list pagination */
+.list-more{display:flex;justify-content:center;margin:22px 0 6px}
+.list-more [hidden]{display:none}
+#list-more[hidden]{display:none}
+/* veggie level badges: level is spelled out; fully vegan/vegetarian are solid */
+.badge.veg{border-color:#2e7d4f;color:#1f5e3a}
+.badge.veg.lv-vegan,.badge.veg.lv-vegetarian{background:#1f5e3a;border-color:#1f5e3a;color:#fff}
+.chip--veg[aria-pressed="true"]{background:#1f5e3a;border-color:#1f5e3a;color:#fff}
+/* detail: veggie level box + OSM base-list note */
+.vegbox{margin:14px 0 4px;padding:12px 16px;border:1px solid #2e7d4f;border-radius:18px;background:#f1f8f3;font-size:13px;line-height:1.5;color:#173d27}
+.vegbox strong{display:block;font:600 14px var(--sans);letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
+.vegbox.lv-vegan,.vegbox.lv-vegetarian{background:#1f5e3a;color:#fff;border-color:#1f5e3a}
+.vegbox.lv-vegan a,.vegbox.lv-vegetarian a{color:#fff}
+.vegbox ul{margin:6px 0 0 18px;padding:0}
+.vegbox .vegsrc{display:block;margin-top:6px;font-size:12px;opacity:.85}
+.osmnote{font-size:13px;color:var(--text-2);margin:8px 0 14px}

@@ -27,7 +27,9 @@
       3.725
      ],
      "zoom": 13,
-     "upcoming": "data/cities/gent-upcoming.json"
+     "upcoming": "data/cities/gent-upcoming.json",
+ "osm": "data/cities/gent-osm.json",
+ "veggie": "data/cities/gent-veggie.json"
     },
     {
      "id": "antwerpen",

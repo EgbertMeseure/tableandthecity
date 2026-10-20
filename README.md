@@ -121,3 +121,23 @@ Configure in `js/config.js` (all empty by default — everything there is public
 - `FEEDBACK_EMAIL` – shows the **Email us** button (mailto, subject `Table and the City – <place>`, body with place + URL + selections). Hidden when empty.
   ⚠ Currently set to the **placeholder** `hello@tableandthecity.com` — not a real inbox yet (domain not owned). Replace it in `js/config.js` with a real address (or configure `FEEDBACK_ENDPOINT`) before launch; until then feedback mails go nowhere.
 Without an endpoint, **Send** opens a mailto with the selections pre-written (to `FEEDBACK_EMAIL`, or with no recipient if that is empty too). Anti-spam: hidden honeypot field (`website`; filled = silently dropped) and max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`). Feedback **never changes data** — it is reviewed by hand (see update.md).
+
+## Full coverage: OpenStreetMap base list + veggie/vegan layer
+Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ranked first), the site loads every food & drink business in Gent
+(incl. deelgemeenten) from OpenStreetMap: `data/cities/gent-osm.json`, built by `scripts/import_osm.py` (Overpass API, idempotent).
+- Mapping: restaurant → Restaurants (brasserie/bistro by name, else generic), fast_food → Restaurants › Quick bites, pub/bar/biergarten → Cafés & bars
+  (irish pub / cocktail bar / beer bar by tags or name, else café), cafe → Coffee (specialty coffee by name, else coffee house), shop=coffee → coffee shop/roaster,
+  bakery → Bakeries, pastry → Patisserie. Features (terrace, wheelchair, wifi, takeaway, gluten-free, vegan/veggie, open Sunday) only when explicitly tagged
+  (evidence "OpenStreetMap: tag=value"). No descriptions are invented; OSM places show a "not yet reviewed" note and the feedback block.
+- Dedupe: an OSM element with a similar name < 60 m (or the same distinctive name < 150 m) from a curated record is not added; `--fill-curated` only fills
+  null fields of the curated record (website, phone, hours, terrace, wheelchair, gluten-free). Matches: `data/osm/gent-osm-matches.json`.
+- Addresses: `addr:*` tags; otherwise the nearest named street (≤ 40 m) marked "street only, approx." District = deelgemeente (OSM boundary),
+  neighbourhood = nearest OSM neighbourhood node. Sourced corrections on top of OSM: `data/osm/corrections.json`.
+- Licence: **© OpenStreetMap contributors, ODbL 1.0** (https://www.openstreetmap.org/copyright) — shown in the footer of every page and in each OSM detail page's sources.
+- Veggie/vegan: `data/cities/gent-veggie.json` (built by `scripts/veggie_layer.py`; see `scripts/VEGGIE_CHECK.md`) gives each place one level —
+  100% vegan, 100% vegetarian, vegan options, veggie options — with sources and a note; badges, the detail-page box, the "Veggie & vegan" card
+  (100% vegan / 100% vegetarian / vegan-friendly / veggie options only), the Restaurants sub-menu (Vegan, Vegetarian, Vegan-friendly) and the quick
+  pills (Veggie & vegan · Vegan options · 100% vegan) all read it.
+- Performance: list shows 24 cards + "Show more"; map markers are clustered with the vendored `vendor/leaflet.markercluster` (MIT); markers are built once.
+- Research hand-offs (`{places:{id:{field:{value,source,note}}}}`) are merged with `scripts/merge_handoff.py gent <file>` (adds `openMonday`, hours as
+  "Mon closed · Tue–Sat 18:00–22:00", price only when unknown; barsgent.be is never used as a source).

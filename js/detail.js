@@ -71,17 +71,25 @@
   const openingBox = !r.fromUpcoming ? '' : `<div class="soonbox"><strong>${r.upcoming ? `Opening soon${TG.expectedText(r, true) ? ' · ' + esc(TG.expectedText(r, true)) : ''}` : `Just opened · announced for ${esc(expTxt)}`}.</strong>
       ${r.expectedOpeningNote ? esc(r.expectedOpeningNote) + ' ' : ''}${r.upcoming ? 'Not open yet — details may change.' : 'We have not re-checked the opening yet.'}
       ${src0 ? `<a href="${esc(src0)}" target="_blank" rel="noopener">Read the announcement${r.announcedBy ? ` (${esc(r.announcedBy.split(';')[0])})` : ''} ↗</a>` : ''}</div>`;
+  // ---- veggie / vegan level (data/cities/<city>-veggie.json): level + how we know + example dishes quoted from a real menu ----
+  const V = r.veggieInfo, VL = r.veggieLevel;
+  const vegBox = !VL ? '' : `<div class="vegbox lv-${esc(VL)}"><strong>${esc(TG.VEG_LABEL[VL])}</strong>
+      ${V && V.note ? `<span>${esc(V.note)}</span>` : (!V && r.dietNote ? `<span>${esc(r.dietNote)}</span>` : (V ? `<span>Source: ${esc(V.basis)}.</span>` : ''))}
+      ${V && V.dishes && V.dishes.length ? `<ul>${V.dishes.map(d => `<li>${esc(d.dish)}</li>`).join('')}</ul>` : ''}
+      ${V && V.sources ? `<span class="vegsrc">${V.sources.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' · ')}</span>` : ''}</div>`;
+  const hoodLine = [known(r.neighbourhood) ? r.neighbourhood : '', known(r.district) && r.district !== r.neighbourhood ? r.district : ''].filter(Boolean).join(' · ');
   const sourcesLine = `<details class="srcline"><summary>Sources</summary>
       <ol class="sources">${r.sources.map(s => s.startsWith('http') ? `<li><a href="${esc(s.split(' ')[0])}" target="_blank" rel="noopener">${esc(s)}</a></li>` : `<li>${esc(s)}</li>`).join('')}</ol>
-      <p>${r.fromUpcoming ? '' : `Last changed ${esc(fmtDate(r.lastChanged))} · `}Coordinates: ${esc(r.geoSource)}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
+      <p>${r.fromUpcoming ? '' : `Last changed ${esc(fmtDate(r.lastChanged))} · `}Coordinates: ${esc(r.geoSource)}${r.fromOsm ? ' · Data © OpenStreetMap contributors (ODbL)' : ''}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
   $('#left').innerHTML = `
     ${r.summary ? `<p class="summary" lang="${esc(r.summaryLang || 'nl')}">${esc(r.summary)}</p>` : ''}
     ${r.fromUpcoming ? openingBox : ''}
+    ${r.fromOsm ? `<p class="osmnote">From the <a href="https://www.openstreetmap.org/${esc(r.osm)}" target="_blank" rel="noopener">OpenStreetMap</a> base list — not yet reviewed by us. Know it? Tell us below.</p>` : ''}
     ${r.status !== 'open' ? `<div class="conflict"><strong>Status: ${esc(r.status)}.</strong> ${esc(r.statusNote)}</div>` : ''}
     ${r.dataConflict ? `<div class="conflict"><strong>Note:</strong> ${esc(r.dataConflict)}</div>` : ''}
     <dl class="essentials">
       ${r.fromUpcoming ? `<div><dt>${r.upcoming ? 'Expected opening' : 'Opened'}</dt><dd>${esc(expTxt)}</dd></div>` : ''}
-      <div><dt>Address</dt><dd>${esc(r.address)}</dd></div>
+      <div><dt>Address</dt><dd>${known(r.address) ? esc(r.address) + (r.addressApprox ? ' <span class="unk">(street only, approx.)</span>' : '') : '<span class="unk">unknown</span>'}</dd></div>
       ${r.fromUpcoming && r.team ? `<div><dt>Team</dt><dd>${esc(r.team)}</dd></div>` : ''}
       ${r.phone ? `<div><dt>Phone</dt><dd><a href="tel:${esc(r.phone.replace(/[^\d+]/g, ''))}">${esc(r.phone)}</a></dd></div>` : ''}
       ${r.website ? `<div><dt>Website</dt><dd><a href="${esc(r.website)}" target="_blank" rel="noopener">${esc(host(r.website))}</a></dd></div>` : ''}
@@ -91,6 +99,7 @@
     </dl>
     <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
     <ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>
+    ${vegBox}
     ${feedbackBlock}
     <h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>
     ${live.length ? live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev"><div class="ev__when"><span class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</span><span class="ev__type">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</span></div>
@@ -143,7 +152,7 @@
       <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions ↗</a></div>
     ${r.reservation_url ? `<p class="resv-note">Books via ${esc(r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url))}, as linked on the restaurant's own website.</p>` : (resv ? `<p class="resv-note">No online booking link found — ${resv.href.startsWith('tel:') ? 'book by phone' : 'see the restaurant’s website'}.</p>` : '')}
     <div class="dmap" id="dmap"></div>
-    <p class="dmap-cap">${esc(r.neighbourhood)} · ${esc(r.district)}</p>`;
+    <p class="dmap-cap">${esc(hoodLine)}</p>`;
 
   // ---- gallery: only real photos of this restaurant (freely licensed, e.g. Wikimedia Commons) + official Instagram embeds ----
   const CATL = { food: 'Food', interior: 'Atmosphere', chef: 'Chef', exterior: 'Exterior', other: 'More' };

@@ -1,0 +1,291 @@
+{
+ "date": "2026-10-20",
+ "method": "40 random OSM places (seed 20261020): own website fetched, otherwise web search for current listings/press. Directory sites partly copy OSM, so \"open\" from directories only is weak evidence.",
+ "summary": {
+  "open": 37,
+  "uncertain": 3
+ },
+ "closedRate": "0/40",
+ "places": [
+  {
+   "id": "osm-osti-s-lobby-coffee-n12681994060",
+   "name": "Osti's Lobby&Coffee",
+   "osm": "node/12681994060",
+   "status": "open",
+   "evidence": "https://www.osti.be/page/lobby-coffee"
+  },
+  {
+   "id": "osm-uncle-babe-s-burger-bar-n4524885209",
+   "name": "Uncle Babe's Burger Bar",
+   "osm": "node/4524885209",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-hotel-columbo-n9193527398",
+   "name": "Hotel Columbo",
+   "osm": "node/9193527398",
+   "status": "open",
+   "evidence": "https://www.made-in.be/bedrijven/hotel-columbo/"
+  },
+  {
+   "id": "osm-dolce-n1616705146",
+   "name": "Dolce",
+   "osm": "node/1616705146",
+   "status": "open",
+   "evidence": "Uber Eats listing (Dolce's Pizza)"
+  },
+  {
+   "id": "osm-patron-n5135071694",
+   "name": "Patron",
+   "osm": "node/5135071694",
+   "status": "open",
+   "evidence": "https://hipsteadresjes.gent/nieuw/patron/"
+  },
+  {
+   "id": "osm-bar-martine-n3394539391",
+   "name": "Bar Martine",
+   "osm": "node/3394539391",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-umamido-n4273118892",
+   "name": "Umamido",
+   "osm": "node/4273118892",
+   "status": "open",
+   "evidence": "https://restaurants.umamido.be/ramen-gent-korenmarkt/"
+  },
+  {
+   "id": "osm-piu-di-piu-n11156864221",
+   "name": "Piu Di Piu",
+   "osm": "node/11156864221",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-bistro-jeanne-n10277884384",
+   "name": "Bistro Jeanne",
+   "osm": "node/10277884384",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-comedor-n5249103310",
+   "name": "Comedor",
+   "osm": "node/5249103310",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-antwerp-fried-chicken-n9137334030",
+   "name": "Antwerp Fried Chicken",
+   "osm": "node/9137334030",
+   "status": "open",
+   "evidence": "https://www.antwerpfriedchickengent.be/contact"
+  },
+  {
+   "id": "osm-in-den-karpel-w725921195",
+   "name": "In Den Karpel",
+   "osm": "way/725921195",
+   "status": "open",
+   "evidence": "https://indenkarpel.be/"
+  },
+  {
+   "id": "osm-plant-a-pizza-n9740821856",
+   "name": "Plant A Pizza",
+   "osm": "node/9740821856",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-delirium-tremens-w347340574",
+   "name": "Delirium Tremens",
+   "osm": "way/347340574",
+   "status": "open",
+   "evidence": "https://www.overpoort-gent.be/lid-overpoort/delirium/"
+  },
+  {
+   "id": "osm-barouche-n1598830926",
+   "name": "Barouche",
+   "osm": "node/1598830926",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-freddie-s-n6761533186",
+   "name": "Freddie's",
+   "osm": "node/6761533186",
+   "status": "open",
+   "evidence": "menu PDF on own Jimdo site"
+  },
+  {
+   "id": "osm-montparnasse-n6699317385",
+   "name": "Montparnasse",
+   "osm": "node/6699317385",
+   "status": "uncertain",
+   "evidence": "only review/directory sites, no hours"
+  },
+  {
+   "id": "osm-boer-janssens-n12250155290",
+   "name": "Boer Janssens",
+   "osm": "node/12250155290",
+   "status": "open",
+   "evidence": "https://www.opcafegaan.be/gentbrugge/boer-janssens"
+  },
+  {
+   "id": "osm-sole-d-italia-n2275104998",
+   "name": "Sole d'Italia",
+   "osm": "node/2275104998",
+   "status": "open",
+   "evidence": "https://soleditalia-gent.be/contact/"
+  },
+  {
+   "id": "osm-edgar-kaasbar-n5249092192",
+   "name": "Edgar Kaasbar",
+   "osm": "node/5249092192",
+   "status": "open",
+   "evidence": "website live with hours"
+  },
+  {
+   "id": "osm-the-dixie-n10289666040",
+   "name": "The Dixie",
+   "osm": "node/10289666040",
+   "status": "open",
+   "evidence": "https://www.opcafegaan.be/gent/the-dixie"
+  },
+  {
+   "id": "osm-wally-n11111845674",
+   "name": "Wally",
+   "osm": "node/11111845674",
+   "status": "open",
+   "evidence": "directory listings (tea-room)"
+  },
+  {
+   "id": "osm-revue-n346358326",
+   "name": "REVUE",
+   "osm": "node/346358326",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-domestica-n5734799246",
+   "name": "Domestica",
+   "osm": "node/5734799246",
+   "status": "open",
+   "evidence": "https://www.domestica.be/contact/"
+  },
+  {
+   "id": "osm-corner-city-w809916753",
+   "name": "Corner City",
+   "osm": "way/809916753",
+   "status": "open",
+   "evidence": "https://www.cornercitygent.be/ (ordering site; 410 on one URL)"
+  },
+  {
+   "id": "osm-bakkerij-sila-n11768598110",
+   "name": "Bakkerij Sila",
+   "osm": "node/11768598110",
+   "status": "open",
+   "evidence": "directory listings"
+  },
+  {
+   "id": "osm-au-bon-vivant-n13273886628",
+   "name": "Au bon vivant",
+   "osm": "node/13273886628",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-cukur-n6613025421",
+   "name": "Çukur",
+   "osm": "node/6613025421",
+   "status": "uncertain",
+   "evidence": "directory listings only, conflicting address"
+  },
+  {
+   "id": "osm-cafe-cengoo-n7741099833",
+   "name": "Café Cengoo",
+   "osm": "node/7741099833",
+   "status": "open",
+   "evidence": "directory listings (Pitta Cengoo)"
+  },
+  {
+   "id": "osm-ganzerik-w451731257",
+   "name": "Ganzerik",
+   "osm": "way/451731257",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-pampas-n1616705175",
+   "name": "Pampas",
+   "osm": "node/1616705175",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-mayana-n3392860011",
+   "name": "Mayana",
+   "osm": "node/3392860011",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-giuseppe-s-n4985608705",
+   "name": "Giuseppe's",
+   "osm": "node/4985608705",
+   "status": "open",
+   "evidence": "website live"
+  },
+  {
+   "id": "osm-den-hoet-n6983076911",
+   "name": "Den Hoet",
+   "osm": "node/6983076911",
+   "status": "uncertain",
+   "evidence": "directory listings only"
+  },
+  {
+   "id": "osm-yucca-n12702903289",
+   "name": "Yucca",
+   "osm": "node/12702903289",
+   "status": "open",
+   "evidence": "https://www.vek.be/en/cafe"
+  },
+  {
+   "id": "osm-nub-n4721891689",
+   "name": "Nub",
+   "osm": "node/4721891689",
+   "status": "open",
+   "evidence": "https://www.nubsmashburger-gand.be/"
+  },
+  {
+   "id": "osm-bollekesfrituur-w124497585",
+   "name": "Bollekesfrituur",
+   "osm": "way/124497585",
+   "status": "open",
+   "evidence": "directory listings + menu"
+  },
+  {
+   "id": "osm-il-cortile-n1212142878",
+   "name": "Il Cortile",
+   "osm": "node/1212142878",
+   "status": "open",
+   "evidence": "https://visit.gent.be/en/eat-drink/il-cortile"
+  },
+  {
+   "id": "osm-delta-w132918992",
+   "name": "Delta",
+   "osm": "way/132918992",
+   "status": "open",
+   "evidence": "https://vtk.ugent.be/delta/info/"
+  },
+  {
+   "id": "osm-brasserie-alfons-n4364430396",
+   "name": "Brasserie Alfons",
+   "osm": "node/4364430396",
+   "status": "open",
+   "evidence": "website live with hours"
+  }
+ ]
+}
