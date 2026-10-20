@@ -143,3 +143,17 @@ Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ran
 - Performance: list shows 24 cards + "Show more"; map markers are clustered with the vendored `vendor/leaflet.markercluster` (MIT); markers are built once.
 - Research hand-offs (`{places:{id:{field:{value,source,note}}}}`) are merged with `scripts/merge_handoff.py gent <file>` (adds `openMonday`, hours as
   "Mon closed · Tue–Sat 18:00–22:00", price only when unknown; barsgent.be is never used as a source).
+
+## Photos: website heroes + Instagram gallery (no rehosting)
+- **Hero** (detail pages): a free-licence photo if we have one; otherwise the place's own `og:image` from its homepage (`data/cities/gent-heroes.json`, built by
+  `scripts/fetch_hero_images.py`, hotlinked with a "Photo: <domain>" credit); otherwise its first Instagram photo post via Instagram's official embed iframe
+  (scaled to cover, not interactive, credit @handle links to the post); otherwise the monogram. Broken hotlinks fall back automatically.
+- **Gallery**: a horizontal rail. Instagram posts (`instagram_posts`, max 8) are shown with Instagram's official `/p/<shortcode>/embed/` iframe, clipped to
+  a square tile so mainly the photo shows, lazy-loaded, with a "View on Instagram @handle" link; tapping the photo opens the post on Instagram.
+  We never download Instagram media: Instagram's `/media/?size=l` hotlink is blocked in browsers (`ERR_BLOCKED_BY_RESPONSE.NotSameOrigin`), so we don't use it.
+  Places with an Instagram account but no collected posts get one "See photos on Instagram" tile linking to the profile.
+## Breakfast & Brunch
+- Card "Breakfast & Brunch" in *Choose your table*: confirmed breakfast / brunch (sourced: research handoff or explicit OSM tags, `data/cities/gent-breakfast.json`,
+  `scripts/merge_breakfast.py`), weekend brunch (shown once ≥ 3 places), and separately **Opens early** = opens at or before 10:00 by sourced opening hours
+  (restaurants, cafés & bars, coffee; bakeries only with seating). Opens early is a fact about hours, never labelled as serving breakfast.
+- "Breakfast" and "Brunch" tiles in *At a glance* (all groups) and in the feedback pills.

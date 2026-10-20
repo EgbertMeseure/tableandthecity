@@ -157,6 +157,43 @@ const TG = (() => {
     if (r.vegan === 'yes') { r.features.vegan = true; r.features_evidence.vegan = why; } else if (r.features.vegan === true && v) { r.features.vegan = null; delete r.features_evidence.vegan; }
   }
 
+  /* earliest opening time from the sourced opening-hours text (OSM syntax "Mo-Fr 07:30-18:00; Sa 08:00-12:00" or ours
+     "Mon closed · Tue–Sat 08:00–15:00"). Returns { time: '07:30', mins, days: 'Mo-Fr' } or null. Starts before 05:00 are
+     night-time continuations (bars), not openings. This is a FACT about hours, never a claim that breakfast is served. */
+  function openFrom(r) {
+    const h = r.openingHours; if (!h || !known(h) || /24\/7/.test(h)) return null;
+    let best = null;
+    String(h).split(/;|·|\|/).forEach(seg => {
+      const m = seg.match(/(\d{1,2})[:.h](\d{2})\s*[-–]/); if (!m) return;
+      const mins = +m[1] * 60 + +m[2]; if (mins < 300 || mins >= 1440) return;
+      if (!best || mins < best.mins) best = { mins, time: `${m[1].padStart(2, '0')}:${m[2]}`, days: seg.slice(0, m.index).replace(/[,:\s]+$/, '').trim() };
+    });
+    return best;
+  }
+  const EARLY = 600;                                                  // "Open early" = opens at or before 10:00
+  const BF_GROUPS = new Set(['restaurants', 'coffee', 'cafes_bars']);
+  /* breakfast / brunch: confirmed (sourced) vs. merely opening early (heuristic, shown separately) */
+  function mealOf(r) {
+    const F = r.features || {};
+    const bf = F.breakfast === true, br = F.brunch === true;
+    const days = r.brunchDays || '';
+    const wk = br && /weekend|sat|sun|\bza|\bzo|\bsa\b|\bsu\b/i.test(days) && !/mon|tue|wed|thu|fri|daily|every day|dagelijks|\bma\b|\bdi\b|\bwo\b|\bdo\b|\bvr\b|mo-|tu-|we-|th-|fr\b/i.test(days);
+    const o = r._open === undefined ? (r._open = openFrom(r)) : r._open;
+    const early = !bf && !br && !!o && o.mins <= EARLY && (BF_GROUPS.has(r.group) || (r.group === 'bakeries' && F.seating === true));
+    return { bf, br, wk, any: bf || br, early, open: o };
+  }
+
+  /* breakfast layer (data/cities/<city>-breakfast.json, sourced): fills features.breakfast / brunch + evidence; never overrides curated values */
+  function applyMeal(r, b) {
+    if (!b) return;
+    r.features = { ...(r.features || {}) }; r.features_evidence = { ...(r.features_evidence || {}) };
+    ['breakfast', 'brunch'].forEach(k => { const x = b[k]; if (!x || r.features[k] != null) return;
+      r.features[k] = x.value; r.features_evidence[k] = [x.note, x.source && x.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]].filter(Boolean).join(' · '); });
+    if (b.brunchDays && b.brunchDays.value) r.brunchDays = b.brunchDays.value;
+    if (b.breakfastHours && b.breakfastHours.value) r.breakfastHours = b.breakfastHours.value;
+    r.mealSources = [b.breakfast, b.brunch, b.brunchDays, b.breakfastHours].filter(x => x && x.source).map(x => x.source);
+  }
+
   /* "At a glance" feature tiles (group-specific), shared by the detail grid and the list cards.
      Values: true (sourced) | false | null; events/chefCollabs come from upcoming events. */
   function featureTiles(r) {
@@ -169,13 +206,13 @@ const TG = (() => {
     if (F.events) EV.events = `${live.length} upcoming`;
     if (F.chefCollabs) EV.chefCollabs = 'upcoming event with partner chefs';
     const TILES_BY_GROUP = {
-      cafes_bars: [['liveMusic', 'Live music'], ['dj', 'DJ'], ['terrace', 'Terrace'], ['foodServed', 'Food served'], ['wifi', 'Wifi'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['events', 'Events'], ['new', 'New']],
-      coffee: [['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['terrace', 'Terrace'], ['wifi', 'Wifi'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']],
+      cafes_bars: [['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['liveMusic', 'Live music'], ['dj', 'DJ'], ['terrace', 'Terrace'], ['foodServed', 'Food served'], ['wifi', 'Wifi'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['events', 'Events'], ['new', 'New']],
+      coffee: [['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['vegan', 'Vegan options'], ['glutenFree', 'Gluten-free'], ['seating', 'Seating'], ['terrace', 'Terrace'], ['wifi', 'Wifi'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']],
     };
     TILES_BY_GROUP.bakeries = TILES_BY_GROUP.coffee;
     if (!isR) F.new = r.isNew ? true : null;
     const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
-      ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
+      ['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
       ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
       ['walkIn', 'Walk-in'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']];
     return { F, EV, TILES };
@@ -267,13 +304,15 @@ const TG = (() => {
   /* ---- data ---- */
   async function load(city) {
     const opt = (url, empty) => url ? fetch(url).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg] = await Promise.all([fetch(city.data).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} })]);
+    const [d, up, om, vg, hz, bk] = await Promise.all([fetch(city.data).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
     rs.push(...(up.upcoming || []).filter(u => u.id && !ids.has(u.id)).map(fromUpcoming));
     rs.push(...(om.places || []).filter(o => !ids.has(o.id) && o.status !== 'closed').map(fromOsm));   // OpenStreetMap base list (deduped at import time)
     rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
+    rs.forEach(r => { const h = (hz.places || {})[r.id]; if (h && !r.heroImage) r.heroImage = h; applyMeal(r, (bk.places || {})[r.id]); });
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
     const events = [];
@@ -371,6 +410,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

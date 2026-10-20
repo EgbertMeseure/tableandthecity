@@ -1,0 +1,167 @@
+{
+ "about": "Breakfast / brunch per place: research handoff (own site, menu, press cross-checked) over explicit OpenStreetMap tags. Built by scripts/merge_breakfast.py. Never guessed.",
+ "handoff": null,
+ "places": {
+  "bar-bidon": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/2514860360",
+    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast"
+   }
+  },
+  "osm-agrea-n1212134080": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/1212134080",
+    "note": "OpenStreetMap: cuisine=tea;breakfast"
+   }
+  },
+  "osm-bloom-table-n14230351176": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/14230351176",
+    "note": "OpenStreetMap: cuisine=sushi;brunch"
+   }
+  },
+  "osm-boekee-garni-n11123595450": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/11123595450",
+    "note": "OpenStreetMap: cuisine=breakfast;lunch;dessert"
+   }
+  },
+  "osm-borek-simit-huis-n11613223411": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/11613223411",
+    "note": "OpenStreetMap: cuisine=breakfast"
+   }
+  },
+  "osm-buongiorno-n4488600996": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/4488600996",
+    "note": "OpenStreetMap: cuisine=coffee_shop;sandwich;breakfast"
+   }
+  },
+  "osm-de-honger-n13788134806": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/13788134806",
+    "note": "OpenStreetMap: cuisine=breakfast;coffee_shop;tea"
+   }
+  },
+  "osm-desayuno-n2105506242": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/2105506242",
+    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;brunch"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/2105506242",
+    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;brunch"
+   }
+  },
+  "osm-giri-n1616705163": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/1616705163",
+    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;brunch"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/1616705163",
+    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;brunch"
+   }
+  },
+  "osm-house-of-waffles-n13310397201": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/13310397201",
+    "note": "OpenStreetMap: cuisine=breakfast;coffee_shop;pancake"
+   }
+  },
+  "osm-jacqueline-n1349508971": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/1349508971",
+    "note": "OpenStreetMap: cuisine=brunch;lunch;apéro;specialty_coffee"
+   }
+  },
+  "osm-mimosa-n11697848804": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/11697848804",
+    "note": "OpenStreetMap: cuisine=brunch;breakfast"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/11697848804",
+    "note": "OpenStreetMap: cuisine=brunch;breakfast"
+   }
+  },
+  "osm-modest-n10882821305": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/10882821305",
+    "note": "OpenStreetMap: cuisine=breakfast"
+   }
+  },
+  "osm-o-yo-n10885912444": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/10885912444",
+    "note": "OpenStreetMap: cuisine=breakfast;brunch"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/10885912444",
+    "note": "OpenStreetMap: cuisine=breakfast;brunch"
+   }
+  },
+  "osm-odil-n11305200343": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/11305200343",
+    "note": "OpenStreetMap: cuisine=breakfast;lunch;coffee_shop"
+   }
+  },
+  "osm-pagos-n4907557926": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/4907557926",
+    "note": "OpenStreetMap: cuisine=breakfast;coffee_shop"
+   }
+  },
+  "osm-pain-perdu-n2773666260": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/2773666260",
+    "note": "OpenStreetMap: cuisine=brunch"
+   }
+  },
+  "osm-souplicious-n8957993745": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/8957993745",
+    "note": "OpenStreetMap: cuisine=lunch;sandwich;soep;breakfast"
+   }
+  },
+  "osm-tom-dellas-n6574771220": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/6574771220",
+    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;salad;sandwich"
+   }
+  },
+  "osm-wasbar-n1532795039": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/1532795039",
+    "note": "OpenStreetMap: cuisine=bagel;breakfast;coffee_shop;sandwich"
+   }
+  }
+ },
+ "missingNotAdded": []
+}

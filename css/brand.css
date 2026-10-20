@@ -291,3 +291,33 @@ button,input,select{font-family:inherit}
 .mkc.mid{background:rgba(0,0,0,.88)}
 .mkc.big{background:#000;box-shadow:0 0 0 6px rgba(0,0,0,.2)}
 .mk.osm{opacity:.8;transform:scale(.8)}
+
+/* Breakfast & Brunch card: the business' own og:image (hotlinked) over the fallback image, with a small credit */
+.pillcard img.pill-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.pillcard .pill-credit{position:absolute;top:9%;left:0;right:0;z-index:5;text-align:center;font-size:9px;letter-spacing:.06em;color:rgba(255,255,255,.75);text-decoration:none;text-shadow:0 1px 2px rgba(0,0,0,.6);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:0 22%}
+.pillcard .pill-credit:hover{color:#fff;text-decoration:underline}
+.pillcard.menu-open .pill-credit{opacity:0;pointer-events:none}
+
+/* ---- detail gallery: horizontal rail; Instagram posts via the official embed iframe, clipped to the photo ---- */
+.gallery__head .gal-arrows{display:flex;gap:4px;margin-left:auto}
+.gallery__head .gal-arrows[hidden]{display:none}
+.gal-rail{margin:0 calc(-1 * var(--gutter))}
+.gal-rail>.gtile{flex:0 0 clamp(230px,24vw,300px);margin:0}
+.gal-rail.gal-rail--single>.gtile{flex-basis:clamp(230px,24vw,300px)}
+.gtile .tile__btn{aspect-ratio:1/1}
+.gtile .tile__btn img{width:100%;height:100%;object-fit:cover}
+.gtile__clip{position:relative;aspect-ratio:1/1;overflow:hidden;border-radius:22px;background:#ece7de;isolation:isolate}
+.gtile__clip iframe{position:absolute;left:0;top:-54px;width:100%;height:calc(100% + 54px + 280px);border:0;display:block;background:transparent}
+.gtile figcaption{margin-top:8px;font-size:11px;letter-spacing:.04em}
+.gtile figcaption a{color:var(--text-2);text-decoration:none}
+.gtile figcaption a:hover{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+.gtile--profile a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;aspect-ratio:1/1;border-radius:22px;background:#111;color:#fff;text-decoration:none;text-align:center;padding:20px}
+.gtile--profile strong{font:600 22px var(--serif)}
+.gtile--profile span{font-size:12px;letter-spacing:.06em;color:var(--accent)}
+.gtile--profile .gtile__ig svg{width:38px;height:38px;fill:none;stroke:var(--accent);stroke-width:1.6}
+.gtile--profile a:hover{background:#000}
+@media (max-width:700px){.gal-rail>.gtile,.gal-rail.gal-rail--single>.gtile{flex-basis:72vw}.gtile__clip,.gtile--profile a{border-radius:16px}}
+/* detail hero from the first Instagram post (embed scaled to cover, not interactive; credit links to the post) */
+.dhero.dhero--ig>div.dhero__ig{position:absolute;inset:0;overflow:hidden;z-index:0;pointer-events:none;background:#111}
+.dhero__ig iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0}
+.essentials .opens{display:block;font-size:12px;color:var(--text-3);margin-top:3px}

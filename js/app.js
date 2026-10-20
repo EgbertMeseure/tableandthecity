@@ -10,26 +10,27 @@
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
   const QUICK = ['new', 'veggie', 'vegan', 'events'];                  // chips in the main row
-  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', vlevel: '', sort: 'rec', ev: '' };
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', vlevel: '', meal: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
   const params = new URLSearchParams(location.search);
-  ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel'].forEach(k => params.get(k) && (state[k] = params.get(k)));
+  ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel', 'meal'].forEach(k => params.get(k) && (state[k] = params.get(k)));
   if (!['', 'vegan', 'vegetarian', 'vegan-friendly', 'veggie-friendly'].includes(state.vlevel)) state.vlevel = '';
   if (!['', 'open', 'soon'].includes(state.stage)) state.stage = '';
+  if (!['', 'any', 'breakfast', 'brunch', 'wkbrunch', 'early'].includes(state.meal)) state.meal = '';
   if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
   if (!['rec', 'dist', 'new', 'price'].includes(state.sort)) state.sort = 'rec';
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
-    ['q', ...ADV, 'stage', 'vlevel', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
+    ['q', ...ADV, 'stage', 'vlevel', 'meal', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
     if (state.sort !== 'rec') p.set('sort', state.sort);
     QUICK.forEach(k => state[k] && p.set(k, '1'));
     history.replaceState(null, '', location.pathname + '?' + p + location.hash);
   }
   const advCount = () => ADV.filter(k => state[k]).length;
-  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.vlevel || state.origin || state.sort !== 'rec');
+  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.vlevel || state.meal || state.origin || state.sort !== 'rec');
   /* announced-but-not-open places only appear under New (all new / opening soon), never in the plain lists */
   const isNewish = r => r.isNew || r.upcoming;
   const OPEN = R.filter(r => !r.upcoming);
@@ -42,11 +43,22 @@
   $('#explore-title').textContent = `All places in ${CITY}`; $('#about-city').textContent = CITY;
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
 
+  // ---- breakfast & brunch: confirmed (sourced) values; 'early' = opens ≤ 10:00 by sourced hours, no breakfast claim ----
+  const MEAL = (r, v) => { const m = TG.mealOf(r); return v === 'any' ? m.any : v === 'breakfast' ? m.bf : v === 'brunch' ? m.br : v === 'wkbrunch' ? m.wk : v === 'early' ? m.early : true; };
+  // card photo: the og:image a confirmed breakfast/brunch place publishes itself (hotlinked, credited); else the site's own coffee image
+  function mealPhoto() {
+    const r = R.filter(x => TG.mealOf(x).any && x.heroImage).sort((a, b) => (b.curated ? 1 : 0) - (a.curated ? 1 : 0) || a.name.localeCompare(b.name))[0];
+    if (!r) return null;
+    const dom = r.heroImage.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
+    return { url: r.heroImage.url, credit: `Photo: ${dom} (${r.name})`, href: r.heroImage.source };
+  }
   // ---- "Choose your table": top-level group cards, each with a small sub-menu ----
   const sub = (label, f, x) => ({ label, f, x });   // x: hidden on small screens (also in the 'Veggie & vegan' card)
   const GROUPS = [
     { label: 'New', img: 'plated', f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
       ...Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g }))] },
+    { label: 'Breakfast & Brunch', img: 'coffee', photo: mealPhoto(), f: { meal: 'any' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
+      sub('Weekend brunch', { meal: 'wkbrunch' }), sub('Opens early', { meal: 'early' })], allMin: 0 },
     { label: 'Restaurants', img: 'finedining', f: { group: 'restaurants' }, subs: [
       sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
       sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
@@ -67,13 +79,13 @@
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
-    k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
+    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
   GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= 3); });   // tiny sub-groups stay reachable via filters
   // each card is a stadium-shaped tile; its sub-menu lives INSIDE the card (revealed from the bottom, clipped by the card's radius)
   $('#carousel').innerHTML = GROUPS.map((c, i) => `
     <div class="pillcard bw-host grain${c.subs.length ? ' has-menu' : ''}" data-cat="${i}">
-      <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">${c.subs.length ? '<i class="pill-shade" aria-hidden="true"></i>' : ''}
+      <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">${c.photo ? `<img class="bw pill-photo" src="${esc(c.photo.url)}" referrerpolicy="no-referrer" alt="" loading="lazy" decoding="async" onerror="this.nextElementSibling&&this.nextElementSibling.classList.contains('pill-credit')&&this.nextElementSibling.remove();this.remove()"><a class="pill-credit" href="${esc(c.photo.href)}" target="_blank" rel="noopener">${esc(c.photo.credit)}</a>` : ''}${c.subs.length ? '<i class="pill-shade" aria-hidden="true"></i>' : ''}
       <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.n} ${c.toEvents ? 'upcoming' : 'places'}"${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
         <span class="pill-label">${esc(c.label)}<small>${c.n} ${c.toEvents ? 'upcoming' : 'places'}</small></span></button>
       ${c.subs.length ? `<div class="pillmenu${c.subs.length > 7 ? ' many' : ''}" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">
@@ -178,6 +190,7 @@
       if (state.veggie && !r.veggieLevel) return false;
       if (state.vegan && r.vegan !== 'yes') return false;
       if (state.vlevel && r.veggieLevel !== state.vlevel) return false;
+      if (state.meal && !MEAL(r, state.meal)) return false;
       if (r.upcoming && !state.new) return false;
       if (state.new && !isNewish(r)) return false;
       if (state.stage && (state.stage === 'soon') !== !!r.upcoming) return false;

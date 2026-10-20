@@ -26,14 +26,36 @@
   // ---- hero: a real, freely licensed photo of the restaurant if we have one; otherwise a neutral typographic hero ----
   const own = TG.realPhotos(r);
   const heroP = own.find(p => p.category === 'exterior' || p.category === 'interior') || own[0];
-  if (heroP) {
+  const igPosts = (r.instagram_posts || []).map(p => typeof p === 'string' ? { url: p } : p).filter(p => /^https:\/\/www\.instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+\/?$/.test(p.url));
+  const igHandle = r.instagram_handle || (r.instagram ? r.instagram.replace(/\/+$/, '').split('/').pop() : '');
+  const HI = r.heroImage, heroHost = HI ? HI.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0] : '';
+  const plainHero = () => {
+    const top = document.querySelector('.dhero'); top.classList.add('dhero--plain'); top.classList.remove('dhero--ig');
+    top.querySelectorAll('.dhero__ig').forEach(x => x.remove());
+    if (!top.querySelector('.dhero__mono')) top.insertAdjacentHTML('afterbegin', `<span class="dhero__mono" aria-hidden="true">${esc((r.name.match(/[A-Za-zÀ-ž]/) || ['T'])[0].toUpperCase())}</span>`);
+  };
+  // first Instagram post as the hero: the official embed, scaled to cover and clipped to the hero (not clickable here; credit links to the post)
+  const igHero = () => {
+    if (!igPosts.length) { $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); return; }
+    const top = document.querySelector('.dhero'); top.classList.add('dhero--ig');
+    const hp = igPosts.find(p => /\/p\//.test(p.url)) || igPosts[0], sc = hp.url.replace(/\/$/, '');   // a photo post rather than a reel (no play button)
+    top.insertAdjacentHTML('afterbegin', `<div class="dhero__ig" aria-hidden="true"><iframe src="${esc(sc)}/embed/" title="" tabindex="-1" loading="eager" scrolling="no" referrerpolicy="no-referrer-when-downgrade"></iframe></div>`);
+    const box = top.querySelector('.dhero__ig'), fr = box.querySelector('iframe');
+    const fit = () => { const W = top.clientWidth, H = top.clientHeight, IW = 540, MH = 675, HEAD = 54;   // embed: 54 px header, then the 4:5 photo
+      const k = Math.max(W / IW, H / MH); fr.style.width = IW + 'px'; fr.style.height = (HEAD + MH + 260) + 'px';
+      fr.style.transform = `translate(${(W - IW * k) / 2}px, ${(H - MH * k) / 2 - HEAD * k}px) scale(${k})`; };
+    fit(); addEventListener('resize', fit);
+    const cr = $('.dhero .credit'); if (cr) cr.innerHTML = `Photo: <a href="${esc(hp.url)}" target="_blank" rel="noopener">${igHandle ? '@' + esc(igHandle) : 'Instagram'}</a> on Instagram`;
+  };
+  if (!heroP && HI) {
+    $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(HI.url)}" alt="${esc(r.name)}" referrerpolicy="no-referrer" fetchpriority="high" loading="eager" decoding="async">`;
+    $('.dhero .credit').innerHTML = `Photo: <a href="${esc(HI.source)}" target="_blank" rel="noopener">${esc(heroHost)}</a>`;
+    $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → Instagram → monogram
+  } else if (!heroP && igPosts.length) { $('#himg').remove(); igHero(); }
+  else if (heroP) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(heroP.src)}" ${heroP.srcset ? `srcset="${esc(heroP.srcset)}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" fetchpriority="high">`;
     $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)} · ${esc(heroP.license || '')}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}`;
-  } else {
-    $('#himg').remove(); $('.dhero .credit').remove();
-    const top = document.querySelector('.dhero'); top.classList.add('dhero--plain');
-    top.insertAdjacentHTML('afterbegin', `<span class="dhero__mono" aria-hidden="true">${esc((r.name.match(/[A-Za-zÀ-ž]/) || ['T'])[0].toUpperCase())}</span>`);
-  }
+  } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
   $('#hmeta').textContent = [catLabel(r), isR(r) && r.cuisine !== catLabel(r) ? r.cuisine : '', known(r.neighbourhood) ? r.neighbourhood : ''].filter(Boolean).join(' · ');
@@ -43,6 +65,7 @@
   const hours = r.openingHours && known(r.openingHours) ? esc(r.openingHours) : '';
   // ---- feature tiles: green only when verified "yes" in sourced data ----
   const { F, EV, TILES } = TG.featureTiles(r);
+  const MEALF = TG.mealOf(r);
   const live = r.events || [];
   const CHECK = '<svg class="ft__ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5"/></svg>';
   const tiles = TILES.map(([k, l]) => {
@@ -94,7 +117,8 @@
       ${r.phone ? `<div><dt>Phone</dt><dd><a href="tel:${esc(r.phone.replace(/[^\d+]/g, ''))}">${esc(r.phone)}</a></dd></div>` : ''}
       ${r.website ? `<div><dt>Website</dt><dd><a href="${esc(r.website)}" target="_blank" rel="noopener">${esc(host(r.website))}</a></dd></div>` : ''}
       ${(isR(r) && !r.upcoming) || known(r.priceLevel) ? `<div><dt>Price</dt><dd>${priceTxt}</dd></div>` : ''}
-      ${hours ? `<div><dt>Hours</dt><dd>${hours}</dd></div>` : ''}
+      ${hours ? `<div><dt>Hours</dt><dd>${hours}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
+      ${MEALF.any ? `<div><dt>${MEALF.bf && MEALF.br ? 'Breakfast &amp; brunch' : MEALF.bf ? 'Breakfast' : 'Brunch'}</dt><dd>Yes${r.breakfastHours ? ` · breakfast ${esc(r.breakfastHours)}` : ''}${r.brunchDays ? ` · brunch ${esc(r.brunchDays)}` : ''}${(r.mealSources || []).length ? ` <span class="unk">(${[...new Set(r.mealSources)].map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' · ')})</span>` : ''}</dd></div>` : ''}
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
     </dl>
     <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
@@ -157,36 +181,48 @@
   // ---- gallery: only real photos of this restaurant (freely licensed, e.g. Wikimedia Commons) + official Instagram embeds ----
   const CATL = { food: 'Food', interior: 'Atmosphere', chef: 'Chef', exterior: 'Exterior', other: 'More' };
   const photos = own.filter(p => CATL[p.category]);
-  const posts = (r.instagram_posts || []).map(p => typeof p === 'string' ? { url: p } : p).filter(p => /^https:\/\/www\.instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+\/?$/.test(p.url));
-  const handle = r.instagram_handle || (r.instagram ? r.instagram.replace(/\/+$/, '').split('/').pop() : '');
+  const posts = igPosts.slice(0, 8);                                  // max 8 Instagram tiles
+  const handle = igHandle;
   let gcat = '', shown = [], idx = 0;
   const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}</span>`;
-  const all = [...photos.map(p => ({ kind: 'photo', cat: p.category, p })), ...posts.map(p => ({ kind: 'ig', cat: CATL[p.category] ? p.category : '', p }))];
+  // Instagram posts first (the place's own photos, via Instagram's official embed iframe — never downloaded or rehosted), then free-licence photos
+  const all = [...posts.map(p => ({ kind: 'ig', cat: CATL[p.category] ? p.category : '', p })), ...photos.map(p => ({ kind: 'photo', cat: p.category, p }))];
   const cats = Object.keys(CATL).filter(c => all.some(x => x.cat === c));
   $('#gal-chips').innerHTML = all.length > 1 && cats.length > 1 ? [['', 'All'], ...cats.map(c => [c, CATL[c]])].map(([c, l]) => `<button class="chip" data-gc="${c}" aria-pressed="${c === ''}">${l}<span class="cnt">${c ? all.filter(x => x.cat === c).length : all.length}</span></button>`).join('') : '';
-  $('#gal-note').innerHTML = posts.length ? `Posts from the restaurant’s official Instagram${handle ? ` <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>` : ''}, shown with Instagram’s own embed.${photos.length ? ' Photos: freely licensed, credited per image.' : ''}` : (photos.length ? 'Freely licensed photos of this restaurant, credited per image.' : '');
-  let igLoaded = false;
-  function loadIg() {
-    if (igLoaded || !document.querySelector('#gal-grid .instagram-media')) return; igLoaded = true;
-    if (window.instgrm) { window.instgrm.Embeds.process(); return; }
-    const sc = document.createElement('script'); sc.async = true; sc.src = 'https://www.instagram.com/embed.js'; document.body.appendChild(sc);
-  }
+  $('#gal-note').innerHTML = posts.length ? `Photos from the place’s own Instagram${handle ? ` <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>` : ''}, shown with Instagram’s embed — tap a photo to open the post.${photos.length ? ' Other photos: freely licensed, credited per image.' : ''}` : (photos.length ? 'Freely licensed photos of this place, credited per image.' : '');
+  const igTile = x => { const u = x.p.url.replace(/\/$/, ''), kind = /\/reel\//.test(u) ? 'Reel' : 'Post';
+    return `<figure class="gtile gtile--ig"><div class="gtile__clip"><iframe data-src="${esc(u)}/embed/" title="${esc(kind)} by ${handle ? '@' + esc(handle) : esc(r.name)} on Instagram" loading="lazy" scrolling="no" allowtransparency="true"></iframe></div>
+      <figcaption><a href="${esc(x.p.url)}" target="_blank" rel="noopener">View on Instagram${handle ? ` @${esc(handle)}` : ''} ↗</a></figcaption></figure>`; };
   function renderGallery() {
     const sel = all.filter(x => !gcat || x.cat === gcat);
     shown = sel.filter(x => x.kind === 'photo').map(x => x.p);
     let pi = 0;
-    $('#gal-grid').innerHTML = sel.map(x => x.kind === 'photo' ? `<figure class="tile">
+    $('#gal-grid').innerHTML = sel.map(x => x.kind === 'photo' ? `<figure class="gtile">
       <button class="tile__btn" data-i="${pi++}" aria-label="Open photo: ${esc(x.p.alt || CATL[x.p.category])}">
-        <img src="${esc(x.p.thumb || x.p.src)}" srcset="${esc(x.p.thumb || x.p.src)} 800w, ${esc(x.p.src)} 1600w" sizes="(max-width: 700px) 50vw, (max-width: 1100px) 33vw, 380px" width="${x.p.w || 800}" height="${x.p.h || 600}" loading="lazy" decoding="async" alt="${esc(x.p.alt || '')}">
-        <span class="tile__tag">${CATL[x.p.category]}</span></button></figure>`
-      : `<figure class="tile tile--ig"><blockquote class="instagram-media" data-instgrm-permalink="${esc(x.p.url)}?utm_source=ig_embed" data-instgrm-version="14"><a href="${esc(x.p.url)}" target="_blank" rel="noopener">View this post on Instagram${handle ? ` · @${esc(handle)}` : ''}</a></blockquote></figure>`).join('');
-    if (igLoaded) { igLoaded = false; loadIg(); }
+        <img src="${esc(x.p.thumb || x.p.src)}" srcset="${esc(x.p.thumb || x.p.src)} 800w, ${esc(x.p.src)} 1600w" sizes="(max-width: 700px) 72vw, 300px" width="${x.p.w || 800}" height="${x.p.h || 600}" loading="lazy" decoding="async" alt="${esc(x.p.alt || '')}">
+        <span class="tile__tag">${CATL[x.p.category]}</span></button></figure>` : igTile(x)).join('');
+    lazyIg();
   }
-  if (!all.length) {
-    $('#gal-grid').outerHTML = `<div class="gal-empty"><p class="gal-empty__t">Photos coming soon</p><p>We only show photos from the restaurant itself or under a free licence. Until then, see ${r.instagram ? `<a href="${esc(r.instagram)}" target="_blank" rel="noopener">${esc(r.name)} on Instagram</a>${r.website ? ' or ' : ''}` : ''}${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">their website</a>` : ''}.</p></div>`;
+  // iframes get their src only when near the viewport (and the rail scrolls them in)
+  let igObs = null;
+  function lazyIg() {
+    const fr = [...document.querySelectorAll('#gal-grid iframe[data-src]')]; if (!fr.length) return;
+    if (!('IntersectionObserver' in window)) { fr.forEach(f => { f.src = f.dataset.src; f.removeAttribute('data-src'); }); return; }
+    if (igObs) igObs.disconnect();
+    igObs = new IntersectionObserver(en => en.forEach(e => { if (!e.isIntersecting) return; const f = e.target; f.src = f.dataset.src; f.removeAttribute('data-src'); igObs.unobserve(f); }), { rootMargin: '300px 600px' });
+    fr.forEach(f => igObs.observe(f));
+  }
+  const igProfile = handle ? `https://www.instagram.com/${esc(handle)}/` : '';
+  if (!all.length && handle) {
+    // no posts collected yet, but a known Instagram account: one tile linking to the profile (no embed, nothing copied)
+    $('#gal-grid').innerHTML = `<figure class="gtile gtile--profile"><a href="${igProfile}" target="_blank" rel="noopener"><span class="gtile__ig" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span><strong>See photos on Instagram</strong><span>@${esc(handle)} ↗</span></a></figure>`;
+    $('#gal-grid').classList.add('gal-rail--single');
+  } else if (!all.length) {
+    $('#gal-grid').outerHTML = `<div class="gal-empty"><p class="gal-empty__t">Photos coming soon</p><p>We only show photos from the place itself or under a free licence. Until then, see ${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">their website</a>` : 'their own channels'}.</p></div>`;
   } else renderGallery();
-  $('#ig').innerHTML = handle ? `<a class="pill-btn dark" href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">More on Instagram @${esc(handle)} ↗</a>` : '';
-  if (posts.length) new IntersectionObserver((en, ob) => { if (en.some(x => x.isIntersecting)) { ob.disconnect(); loadIg(); } }, { rootMargin: '300px' }).observe($('#gallery'));
+  // the profile link stays below the rail only when the rail shows posts (the single profile tile already is that link)
+  $('#ig').innerHTML = handle && all.length ? `<a class="pill-btn dark" href="${igProfile}" target="_blank" rel="noopener">More on Instagram @${esc(handle)} ↗</a>` : '';
+  const rail = $('#gal-grid'); if (rail && all.length > 1) { document.querySelector('.gal-arrows').hidden = false; TG.carousel(rail); }
   $('#gal-chips').addEventListener('click', e => { const b = e.target.closest('[data-gc]'); if (!b) return; gcat = b.dataset.gc;
     $('#gal-chips').querySelectorAll('[data-gc]').forEach(x => x.setAttribute('aria-pressed', x === b)); renderGallery(); });
   const lb = $('#lb'); let lastFocus = null;

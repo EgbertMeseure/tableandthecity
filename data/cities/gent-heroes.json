@@ -1,0 +1,3651 @@
+{
+ "about": "Hero photos = the og:image / twitter:image each business publishes on its own homepage. Hotlinked, never rehosted. Built by scripts/fetch_hero_images.py.",
+ "places": {
+  "alberte": {
+   "url": "https://static1.squarespace.com/static/5583fd4de4b0565809d3ea6b/t/55e8196ce4b0ef23d8d67b6b/1759151098620/ALBERTE_FOOD_SFEER-55_1500px.jpg?format=1500w",
+   "source": "https://www.alberte-gent.be/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 1000,
+   "hash": "2e72871395c7",
+   "checked": "2026-10-20"
+  },
+  "baba-jacquet": {
+   "url": "https://babajacquet.be/cdn/shop/files/2503_BABA-GENT-86_1_72ffb824-60ea-4744-a6ca-96fa74798aa7.jpg?v=1766159222",
+   "source": "https://babajacquet.be/",
+   "type": "og:image",
+   "w": 1600,
+   "h": 1067,
+   "hash": "dc40b8bd2d6c",
+   "checked": "2026-10-20"
+  },
+  "bloch-gent": {
+   "url": "https://www.bloch1899.be/cache/images/made/Bloch-ontbijttafel_1200_630_85_s_c1.jpeg",
+   "source": "https://www.bloch1899.be/nl/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "d48ce8ea6488",
+   "checked": "2026-10-20"
+  },
+  "frankies": {
+   "url": "https://www.frankiesgent.be/frankies-hero-table.webp",
+   "source": "https://www.frankiesgent.be/",
+   "type": "og:image",
+   "w": 1536,
+   "h": 1024,
+   "hash": "aab247cda2d4",
+   "checked": "2026-10-20"
+  },
+  "joost-arijs": {
+   "url": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092",
+   "source": "https://joostarijs.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "1a0c1fda3d0d",
+   "checked": "2026-10-20"
+  },
+  "karel-de-stoute": {
+   "url": "https://restkareldestoute.be/assets/uploads/images/_1200x630_crop_center-center_82_none/DSC8710-bewerkt-bewerkt.jpg?mtime=1596444487",
+   "source": "https://restkareldestoute.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "e742ad711852",
+   "checked": "2026-10-20"
+  },
+  "lof": {
+   "url": "https://static1.squarespace.com/static/66164ba0bd6a93110175e1bc/t/66290b3f2f0e980bb16e305d/1758809238192/lof_3_120424_000609.jpg?format=1500w",
+   "source": "https://www.lofrestaurant.com/",
+   "type": "og:image",
+   "w": 1353,
+   "h": 902,
+   "hash": "6e573079edfe",
+   "checked": "2026-10-20"
+  },
+  "mokabon": {
+   "url": "https://mokabon.be/cdn/shop/files/mkbn-gent-koffie_4b31b536-9574-4271-90f1-09ac9056ff49.jpg?v=1609606135&width=2048",
+   "source": "https://mokabon.be/",
+   "type": "og:image",
+   "w": 2048,
+   "h": 1362,
+   "hash": "55981767f007",
+   "checked": "2026-10-20"
+  },
+  "morgen-bakkerij": {
+   "url": "https://morgen-bakkerij.be/cdn/shop/files/386593463_122100601220067786_8301562322715799969_n_b621dd2b-e1ab-4bf3-91ec-a45fcbbf2322.jpg?v=1697612288",
+   "source": "https://morgen-bakkerij.be/",
+   "type": "og:image",
+   "w": 2048,
+   "h": 1536,
+   "hash": "50255c078361",
+   "checked": "2026-10-20"
+  },
+  "or-coffee-lab-gent": {
+   "url": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982",
+   "source": "https://www.orcoffee.be/pages/or-coffee-labs",
+   "type": "og:image",
+   "w": 1600,
+   "h": 900,
+   "hash": "f2b0d8c46e93",
+   "checked": "2026-10-20"
+  },
+  "osm-50-fifty-n11310427100": {
+   "url": "https://50fiftygent.be/wp-content/uploads/2019/09/IMG_5678-1024x683.jpg",
+   "source": "https://50fiftygent.be/",
+   "type": "og:image",
+   "w": 1024,
+   "h": 683,
+   "hash": "82cc6d5f5d50",
+   "checked": "2026-10-20"
+  },
+  "osm-aluwiz-n819591971": {
+   "url": "https://aluwiz.be/media/pages/home/9951e0519f-1702035326/image00013.jpeg",
+   "source": "https://aluwiz.be/nl",
+   "type": "og:image",
+   "w": 2000,
+   "h": 1500,
+   "hash": "f7ba5494b4de",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-bassie-n12320890446": {
+   "url": "https://barbassie.be/og/cover.jpg",
+   "source": "https://barbassie.be/en",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "c07b6b2c0d88",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-des-amis-n2591395191": {
+   "url": "https://cdn.sanity.io/images/tolymvv1/production/66f8e85ded882f9c514dbe6eadae65b51086cc64-3600x2400.jpg",
+   "source": "https://www.bardesamis.be/nl",
+   "type": "og:image",
+   "w": 3600,
+   "h": 2400,
+   "hash": "f8abfd60dee6",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-martine-n3394539391": {
+   "url": "https://freight.cargo.site/w/1000/i/N3113697321137908062768073060466/screenshot-3017138679.jpg",
+   "source": "https://www.barmartine.be/",
+   "type": "og:image",
+   "w": 1000,
+   "h": 625,
+   "hash": "eb81c628dde6",
+   "checked": "2026-10-20"
+  },
+  "osm-bavet-n1532798353": {
+   "url": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg",
+   "source": "https://bavet.eu/",
+   "type": "og:image",
+   "w": 2040,
+   "h": 1205,
+   "hash": "2caa624a8cee",
+   "checked": "2026-10-20"
+  },
+  "osm-bavet-n1804183176": {
+   "url": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg",
+   "source": "https://bavet.eu/",
+   "type": "og:image",
+   "w": 2040,
+   "h": 1205,
+   "hash": "2caa624a8cee",
+   "checked": "2026-10-20"
+  },
+  "osm-bavet-w175194942": {
+   "url": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg",
+   "source": "https://bavet.eu/",
+   "type": "og:image",
+   "w": 2040,
+   "h": 1205,
+   "hash": "2caa624a8cee",
+   "checked": "2026-10-20"
+  },
+  "osm-benji-s-w491661601": {
+   "url": "https://www.frituur-benjis.be/assets/images/benjis_hero.png",
+   "source": "https://www.frituur-benjis.be/",
+   "type": "og:image",
+   "w": 1920,
+   "h": 1080,
+   "hash": "3422754d65be",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-onglet-w289225387": {
+   "url": "https://brasserieonglet.be/wp-content/uploads/2025/11/foto-7-1024x683.jpg",
+   "source": "https://brasserieonglet.be/",
+   "type": "og:image",
+   "w": 1024,
+   "h": 683,
+   "hash": "e634c4872ea9",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-paradijs-n818880406": {
+   "url": "https://static.wixstatic.com/media/96848e_5bc3154f33d14662b6058c89de7139d1~mv2.png/v1/fill/w_1054,h_862,al_c/96848e_5bc3154f33d14662b6058c89de7139d1~mv2.png",
+   "source": "https://www.brasserieparadijs.be/",
+   "type": "og:image",
+   "w": 1054,
+   "h": 862,
+   "hash": "41daaef93da5",
+   "checked": "2026-10-20"
+  },
+  "osm-cafe-de-welkom-n13238658621": {
+   "url": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg",
+   "source": "https://www.dokbrewingcompany.be/cafedewelkom",
+   "type": "og:image",
+   "w": 1995,
+   "h": 1330,
+   "hash": "f11d0ef7bce4",
+   "checked": "2026-10-20"
+  },
+  "osm-de-gekroonde-hoofden-n12478756510": {
+   "url": "https://degekroondehoofden.be/wp-content/uploads/2025/02/AALST_degekroondehoofden_aalst-076-low-1.webp",
+   "source": "https://degekroondehoofden.be/restaurants/mariakerke/",
+   "type": "og:image",
+   "w": 1300,
+   "h": 866,
+   "hash": "3c49c1e30f6b",
+   "checked": "2026-10-20"
+  },
+  "osm-de-gekroonde-hoofden-n818880413": {
+   "url": "https://degekroondehoofden.be/wp-content/uploads/2025/02/GENT_degekroondehoofden2018_lowres_015.jpg",
+   "source": "https://degekroondehoofden.be/restaurants/gent/",
+   "type": "og:image",
+   "w": 850,
+   "h": 568,
+   "hash": "7feef63be069",
+   "checked": "2026-10-20"
+  },
+  "osm-de-warempel-n11276973781": {
+   "url": "https://v2cdn1.centralappstatic.com/image/resize/1800x1080_cover_3409c9cd35d745b498dc3721ef97cfaf.webp?w=1200",
+   "source": "https://warempel.be/nl",
+   "type": "og:image",
+   "w": 1200,
+   "h": 720,
+   "hash": "be50c9b15c09",
+   "checked": "2026-10-20"
+  },
+  "osm-de-witte-leeuw-n2617862001": {
+   "url": "https://dewitteleeuw.be/wp-content/themes/leonebianco/custom/img/home/restaurant-home.jpg",
+   "source": "https://dewitteleeuw.be/",
+   "type": "og:image",
+   "w": 800,
+   "h": 400,
+   "hash": "9cec24fe1382",
+   "checked": "2026-10-20"
+  },
+  "osm-dok-brewing-company-n7001208946": {
+   "url": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg",
+   "source": "https://www.dokbrewingcompany.be/",
+   "type": "og:image",
+   "w": 1995,
+   "h": 1330,
+   "hash": "f11d0ef7bce4",
+   "checked": "2026-10-20"
+  },
+  "osm-eethaven-n7006060682": {
+   "url": "https://static1.squarespace.com/static/68d3e5d2da9b4e7eb5b9bea9/t/692dc91654477b4646d777f3/1764608278243/%C2%A9+Illias+Teirlinck+-+20251031+-+EETHAVEN+-+HQ+-+6251.jpg?format=1500w",
+   "source": "https://www.eethaven.be/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 1000,
+   "hash": "2a7503905f25",
+   "checked": "2026-10-20"
+  },
+  "osm-entr-w241981493": {
+   "url": "https://www.decentrale.be/files/images/1200x_/centrale-entr.jpg",
+   "source": "https://www.decentrale.be/en/entr",
+   "type": "og:image",
+   "w": 1200,
+   "h": 900,
+   "hash": "0b22572d1ba5",
+   "checked": "2026-10-20"
+  },
+  "osm-evergreen-n5815859922": {
+   "url": "https://impro.usercontent.one/appid/oneComWsb/domain/snookergent.be/media/snookergent.be/onewebmedia/Voorkant.JPG?etag=%221893e9-5b5dac57%22&sourceContentType=image%2Fjpeg&quality=85",
+   "source": "https://www.snookergent.be/",
+   "type": "og:image",
+   "w": 4032,
+   "h": 3024,
+   "hash": "a187cece9ecc",
+   "checked": "2026-10-20"
+  },
+  "osm-fitchen-n3394542496": {
+   "url": "https://fitchen.com/wp-content/uploads/2026/09/fitchen-counter-202609.jpg",
+   "source": "https://fitchen.com/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 1000,
+   "hash": "9755c278699f",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-tolpoort-n12811979440": {
+   "url": "https://www.frituurtolpoort.be/media/images/Frituur-Tolpoort-social.jpg",
+   "source": "https://www.frituurtolpoort.be/",
+   "type": "og:image",
+   "w": 800,
+   "h": 448,
+   "hash": "40dcd99bfd0b",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-tolpoort-n6440678389": {
+   "url": "https://www.frituurtolpoort.be/media/images/Frituur-Tolpoort-social.jpg",
+   "source": "https://www.frituurtolpoort.be/",
+   "type": "og:image",
+   "w": 800,
+   "h": 448,
+   "hash": "40dcd99bfd0b",
+   "checked": "2026-10-20"
+  },
+  "osm-gaston-n10127493290": {
+   "url": "https://rooftopgaston.be/wp-content/uploads/2025/03/a1a0b6db520339a21de05234c6bbf7b2.png",
+   "source": "https://rooftopgaston.be/nl/",
+   "type": "og:image",
+   "w": 1360,
+   "h": 1020,
+   "hash": "62689bcc89f5",
+   "checked": "2026-10-20"
+  },
+  "osm-gentse-stadsbrouwerij-gruut-n4524937893": {
+   "url": "https://www.gruut.be/wp-content/uploads/2026/05/moeder-enzoon3loic.jpg",
+   "source": "https://www.gruut.be/",
+   "type": "og:image",
+   "w": 1800,
+   "h": 1200,
+   "hash": "8069644a9352",
+   "checked": "2026-10-20"
+  },
+  "osm-giuseppe-s-n4985608705": {
+   "url": "https://v2cdn1.centralappstatic.com/image/resize/1233x740_cover_d7debafd42264c7b83fa6f3fa01051ae.jpeg?w=1200",
+   "source": "https://giuseppes.be/nl",
+   "type": "og:image",
+   "w": 1200,
+   "h": 720,
+   "hash": "c8cf3d5a0694",
+   "checked": "2026-10-20"
+  },
+  "osm-godot-n1532798351": {
+   "url": "https://static1.squarespace.com/static/64d35c038f26bc6069bc7688/t/64dccd183bb5c6394143be53/1782218211891/Godot-20230503-03.jpg?format=1500w",
+   "source": "https://www.godotgent.be/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 1001,
+   "hash": "dade08528996",
+   "checked": "2026-10-20"
+  },
+  "osm-havn-zomerbar-n13740247223": {
+   "url": "https://www.havnpopup.be/uploads/files/Contentpictures/_1200x630_crop_center-center_82_none/mederwerk.jpg?mtime=1780430259",
+   "source": "https://www.havnpopup.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "95ded74a3a23",
+   "checked": "2026-10-20"
+  },
+  "osm-illyrian-n7079394606": {
+   "url": "https://v2cdn1.centralappstatic.com/image/resize/4160x3127_cover_0221bb9d22ac441ebc018e24899d00ad.webp?w=1200",
+   "source": "https://illyrian.be/nl",
+   "type": "og:image",
+   "w": 1200,
+   "h": 902,
+   "hash": "e902ed43f4e0",
+   "checked": "2026-10-20"
+  },
+  "osm-janine-s-n12363199163": {
+   "url": "https://janines.be/wp-content/uploads/2022/07/JANINES-JULI-2022-©-Piet-De-Kersgieter-40_2000px.webp",
+   "source": "https://janines.be/",
+   "type": "og:image",
+   "w": 1600,
+   "h": 1066,
+   "hash": "3a26eacdca37",
+   "checked": "2026-10-20"
+  },
+  "osm-jigger-s-n9968047089": {
+   "url": "https://freight.cargo.site/i/d9986075a6212cbd67fff6aed08de76949aa96690d8e66e2d25e2db79cc54ee2/Jiggers-socialsharing.jpg",
+   "source": "https://jiggers.be",
+   "type": "og:image",
+   "w": 1200,
+   "h": 788,
+   "hash": "b34363e4596e",
+   "checked": "2026-10-20"
+  },
+  "osm-john-dory-n7827689770": {
+   "url": "https://static1.squarespace.com/static/5e10e90a1c4abb17966643ee/t/6ab80c8c5d30227ed8052264/1790446732959/JD.jpg?format=1500w",
+   "source": "https://www.john-dory.fish/",
+   "type": "og:image",
+   "w": 1207,
+   "h": 679,
+   "hash": "e3dddf42474c",
+   "checked": "2026-10-20"
+  },
+  "osm-l-apero-d-oc-n6155773247": {
+   "url": "https://impro.usercontent.one/appid/oneComWsb/domain/laperodoc.be/media/laperodoc.be/onewebmedia/IMG_5002.JPG?etag=%223bf3c-6376343d%22&sourceContentType=image%2Fjpeg&quality=85",
+   "source": "https://www.laperodoc.be/",
+   "type": "og:image",
+   "w": 1086,
+   "h": 820,
+   "hash": "186cdae138a9",
+   "checked": "2026-10-20"
+  },
+  "osm-le-gout-avant-tout-n11395904795": {
+   "url": "https://www.legoutavanttout.be/wp-content/uploads/20151221_2207.jpg",
+   "source": "https://www.legoutavanttout.be/",
+   "type": "og:image",
+   "w": 1600,
+   "h": 1067,
+   "hash": "2db73805f254",
+   "checked": "2026-10-20"
+  },
+  "osm-leoni-cucina-contemporanea-n12501221566": {
+   "url": "https://leonicucinacontemporanea.be/__l5e/assets-v1/cc8f47ee-5de3-49b4-81a5-890899a71411/leoni-hero-poster.webp",
+   "source": "https://leonicucinacontemporanea.be",
+   "type": "og:image",
+   "w": 2048,
+   "h": 1366,
+   "hash": "c74ddf9d260b",
+   "checked": "2026-10-20"
+  },
+  "osm-little-red-rooster-n12530031558": {
+   "url": "https://primary.jwwb.nl/public/p/m/b/temp-mwauebbpvmgedcquihnp/lrr-13-high.jpg",
+   "source": "https://www.littleredrooster.be/",
+   "type": "og:image",
+   "w": 1080,
+   "h": 720,
+   "hash": "1c6d412d91c2",
+   "checked": "2026-10-20"
+  },
+  "osm-martens-n1314094556": {
+   "url": "https://www.martens-gent.be/media/images/new-images1/Martens-social.jpg",
+   "source": "https://www.martens-gent.be/",
+   "type": "og:image",
+   "w": 800,
+   "h": 500,
+   "hash": "34915c2fb569",
+   "checked": "2026-10-20"
+  },
+  "osm-mayana-n3392860011": {
+   "url": "https://mayana.site.webhosting.be/uploads/site-assets/_1200x630_crop_center-center_82_none/mayana_031020_1693_2020-11-01-155215.jpg?mtime=1604245935",
+   "source": "https://mayana.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "5e8214d8818b",
+   "checked": "2026-10-20"
+  },
+  "osm-mister-spaghetti-n1212139210": {
+   "url": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg",
+   "source": "https://www.mister-spaghetti.com/locaties/gent/",
+   "type": "og:image",
+   "w": 1879,
+   "h": 1250,
+   "hash": "aa4fb3323cb1",
+   "checked": "2026-10-20"
+  },
+  "osm-morgen-bakkerij-n12345668083": {
+   "url": "https://morgen-bakkerij.be/cdn/shop/files/386593463_122100601220067786_8301562322715799969_n_b621dd2b-e1ab-4bf3-91ec-a45fcbbf2322.jpg?v=1697612288",
+   "source": "https://morgen-bakkerij.be/",
+   "type": "og:image",
+   "w": 2048,
+   "h": 1536,
+   "hash": "50255c078361",
+   "checked": "2026-10-20"
+  },
+  "osm-mosquito-coast-n2617844933": {
+   "url": "https://static1.squarespace.com/static/69048ef0faadd6130b0c4a05/t/695cdcaab5d96f5e50ddb215/1767693482296/20251027+Mosquito+Coast-54.jpg?format=1500w",
+   "source": "https://www.mosquitocoast.be/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 998,
+   "hash": "0409495f3031",
+   "checked": "2026-10-20"
+  },
+  "osm-museumcafe-n12738600479": {
+   "url": "https://huisvanalijn.be/files/attachments/.6436/wl1200hp1200q85_Museumcafe.jpg",
+   "source": "https://huisvanalijn.be/nl/museumcafe",
+   "type": "og:image",
+   "w": 900,
+   "h": 600,
+   "hash": "0b5e6a7ddfa7",
+   "checked": "2026-10-20"
+  },
+  "osm-my-tannour-n12697242776": {
+   "url": "https://static1.squarespace.com/static/64d359f5d45da5265beb6c19/t/67ae1deb82b61d36b22c4410/1739464171122/000Sans-titre-1+%281%29.png?format=1500w",
+   "source": "https://www.mytannour.com/list-locations/gent-fn7h6",
+   "type": "og:image",
+   "w": 1500,
+   "h": 844,
+   "hash": "4c2391a989d1",
+   "checked": "2026-10-20"
+  },
+  "osm-noon-n6255570289": {
+   "url": "https://static.showit.co/1200/eMl8u8EibZzBEyPf4KHTKA/204388/noon-sandwicherie-gent-03.jpg",
+   "source": "https://noonsandwicherie.be/noon-sandwicherie",
+   "type": "og:image",
+   "w": 1200,
+   "h": 745,
+   "hash": "9d3881f5762b",
+   "checked": "2026-10-20"
+  },
+  "osm-pakhuis-w107725021": {
+   "url": "https://static1.squarespace.com/static/64b693996ec7a728142f97e5/t/662a2c5f791a541019b95f4c/1744702240967/Home+Pagina.png?format=1500w",
+   "source": "https://www.pakhuis.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 628,
+   "hash": "103370ee5fc4",
+   "checked": "2026-10-20"
+  },
+  "osm-paul-s-boutique-n3625606680": {
+   "url": "https://www.paulsboutiquegent.be/wp-content/uploads/2025/05/Cover.jpg",
+   "source": "https://www.paulsboutiquegent.be/",
+   "type": "og:image",
+   "w": 1920,
+   "h": 1279,
+   "hash": "c1d4f74a0162",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-roma-n11047218681": {
+   "url": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg",
+   "source": "https://www.pizzaroma.be/nl",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "c526f4f723cf",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-roma-n2399172933": {
+   "url": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg",
+   "source": "https://www.pizzaroma.be/nl",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "c526f4f723cf",
+   "checked": "2026-10-20"
+  },
+  "osm-plant-a-pizza-n9740821856": {
+   "url": "https://plantapizza.com/wp-content/uploads/2024/02/DSC9108-Enhanced-NR.webp",
+   "source": "https://plantapizza.com/",
+   "type": "og:image",
+   "w": 1280,
+   "h": 853,
+   "hash": "871ae7f48795",
+   "checked": "2026-10-20"
+  },
+  "osm-ponton-n4565846936": {
+   "url": "https://static.wixstatic.com/media/ae3385_0aec1e69cb264e0e90c6c2f21e66526f%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/ae3385_0aec1e69cb264e0e90c6c2f21e66526f%7Emv2.jpg",
+   "source": "https://www.pontongent.be/",
+   "type": "og:image",
+   "w": 1773,
+   "h": 1330,
+   "hash": "aab772e08500",
+   "checked": "2026-10-20"
+  },
+  "osm-porta-alta-n11101143153": {
+   "url": "https://www.porta-alta.com/assets/video/pizza-hero-poster.jpg",
+   "source": "https://www.porta-alta.com/",
+   "type": "og:image",
+   "w": 3874,
+   "h": 2160,
+   "hash": "222c1069d888",
+   "checked": "2026-10-20"
+  },
+  "osm-primadonna-n8895903919": {
+   "url": "https://primadonnagent.be/wp-content/uploads/2025/08/Interieur-exterieur-4-klein-knip-scaled.jpg",
+   "source": "https://primadonnagent.be/",
+   "type": "og:image",
+   "w": 2560,
+   "h": 2110,
+   "hash": "959ed6b06fdc",
+   "checked": "2026-10-20"
+  },
+  "osm-pureto-n12585303235": {
+   "url": "https://pureto.be/wp-content/uploads/2025/01/Pureto-34-scaled.jpg",
+   "source": "https://pureto.be/",
+   "type": "og:image",
+   "w": 2560,
+   "h": 1707,
+   "hash": "eeb018cbeb07",
+   "checked": "2026-10-20"
+  },
+  "osm-ramen-n4227045139": {
+   "url": "https://ramen.gent/images/share-image.png",
+   "source": "https://www.ramen.gent/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "73e54fed05a9",
+   "checked": "2026-10-20"
+  },
+  "osm-rk-barbecue-n9808181998": {
+   "url": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg",
+   "source": "https://www.dokbrewingcompany.be/food",
+   "type": "og:image",
+   "w": 1995,
+   "h": 1330,
+   "hash": "f11d0ef7bce4",
+   "checked": "2026-10-20"
+  },
+  "osm-rk-burgers-n9758297317": {
+   "url": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg",
+   "source": "https://www.dokbrewingcompany.be/food",
+   "type": "og:image",
+   "w": 1995,
+   "h": 1330,
+   "hash": "f11d0ef7bce4",
+   "checked": "2026-10-20"
+  },
+  "osm-royal-india-n10892781655": {
+   "url": "https://royalindiabelgium.com/wp-content/uploads/2018/02/22154540_289813671425548_1857361578225640527_n.jpg",
+   "source": "https://royalindiabelgium.com/",
+   "type": "og:image",
+   "w": 960,
+   "h": 720,
+   "hash": "9642e639230c",
+   "checked": "2026-10-20"
+  },
+  "osm-sao-paulo-n5544675087": {
+   "url": "https://saopaulo.be/assets/images/_1200x630_crop_center-center_82_none/20240903-Sao-Paulo-3.jpg?mtime=1732540921",
+   "source": "https://saopaulo.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "1b19c97b39e0",
+   "checked": "2026-10-20"
+  },
+  "osm-sgol-n10892676751": {
+   "url": "https://le-de.cdn-website.com/546f410419c64de59ada2b4c7767577d/dms3rep/multi/opt/293671629_135076772543299_5595228110081462740_n-1920w.jpg",
+   "source": "https://www.sgol.be/",
+   "type": "og:image",
+   "w": 1920,
+   "h": 1280,
+   "hash": "173bf6dd7ea0",
+   "checked": "2026-10-20"
+  },
+  "osm-soepplus-w744209712": {
+   "url": "https://soepplus.be/app/uploads/2021/01/soepplus-social.jpg",
+   "source": "https://soepplus.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "1063577c43eb",
+   "checked": "2026-10-20"
+  },
+  "osm-stamcafe-n1882787678": {
+   "url": "https://stamgent.be/volumes/general/_1200x630_crop_center-center_82_none/434533814_1013805710557772_988149560801692250_n_2025-01-22-221627_oykr.jpg?v=1750142751",
+   "source": "https://stamgent.be/nl_be/bezoek-het-stam/stamcaf%C3%A9",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "ebf195c75ae5",
+   "checked": "2026-10-20"
+  },
+  "osm-surtoe-n4893318698": {
+   "url": "https://restaurantsurtoe.be/wp-content/uploads/2026/08/Image-2.jpg",
+   "source": "https://restaurantsurtoe.be/",
+   "type": "og:image",
+   "w": 1024,
+   "h": 768,
+   "hash": "36662053ad72",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-palace-n12323650406": {
+   "url": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-05.jpg",
+   "source": "https://www.sushipalacegent.be/",
+   "type": "og:image",
+   "w": 1920,
+   "h": 1080,
+   "hash": "9de5367fd836",
+   "checked": "2026-10-20"
+  },
+  "osm-t-kanon-n1603630998": {
+   "url": "https://freight.cargo.site/i/1989b62205562b59349b3d7ca5bea33f7cca1efd6fa542d8ca7e50340270999e/tkanon-DSC09812.jpg",
+   "source": "https://tkanon.com/",
+   "type": "og:image",
+   "w": 2000,
+   "h": 1334,
+   "hash": "ae5cac680ccd",
+   "checked": "2026-10-20"
+  },
+  "osm-table-10-n10005651044": {
+   "url": "https://static.wixstatic.com/media/495648_7bd992ba677d428ba2a6ac9e0a8d06cd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/495648_7bd992ba677d428ba2a6ac9e0a8d06cd%7Emv2.jpg",
+   "source": "https://www.table10.be/",
+   "type": "og:image",
+   "w": 1995,
+   "h": 1330,
+   "hash": "8cfafef743e1",
+   "checked": "2026-10-20"
+  },
+  "osm-tartaar-bar-n6236003054": {
+   "url": "https://www.frituurtartaar.be/wp-content/uploads/2021/12/WhatsApp-Image-2021-07-08-at-19.33.57-12.jpeg",
+   "source": "https://www.frituurtartaar.be/",
+   "type": "og:image",
+   "w": 1024,
+   "h": 472,
+   "hash": "ecbd4aff1f53",
+   "checked": "2026-10-20"
+  },
+  "osm-timelab-eatery-n12798223055": {
+   "url": "https://eatery.timelab.org/wp-content/uploads/2023/05/2022_Summercamp_FiberFever_AaronLapeirre_87.jpg",
+   "source": "https://eatery.timelab.org/",
+   "type": "og:image",
+   "w": 1181,
+   "h": 788,
+   "hash": "a6758adeff56",
+   "checked": "2026-10-20"
+  },
+  "osm-toi-et-moi-n3842784242": {
+   "url": "https://www.restotoietmoi.be/wp-content/uploads/2021/09/Toi_et_Moi_restaurant_gent_18.jpg",
+   "source": "https://www.restotoietmoi.be/nl/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 800,
+   "hash": "ce45983e5249",
+   "checked": "2026-10-20"
+  },
+  "osm-uilenspiegel-n10907848125": {
+   "url": "https://www.eetcafe-uilenspiegel.be/wp-content/uploads/2020/10/1-2.jpg",
+   "source": "https://www.eetcafe-uilenspiegel.be/",
+   "type": "og:image",
+   "w": 1600,
+   "h": 1067,
+   "hash": "b81d8731d933",
+   "checked": "2026-10-20"
+  },
+  "osm-viernulvier-cafe-n3817855015": {
+   "url": "https://img.viernulvier.gent/Sjsr5oNXgfGm8GgFLvAef2HXXDfCAzahpo2i9O86b8o/c:2048:1075:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly93d3cudmllcm51bHZpZXIuZ2VudC8vY21zX2ZpbGVzL3N5c3RlbS9pbWFnZXMvaW1nMjExMjZfb3JpZy5qcGc",
+   "source": "https://www.viernulvier.gent/nl/viernulvier-cafe-terras-gent-5h8n",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "f0a40dfc1faf",
+   "checked": "2026-10-20"
+  },
+  "osm-villa-anamma-n6795335875": {
+   "url": "https://villa-anamma.be/wp-content/uploads/2022/06/MENU.png",
+   "source": "https://villa-anamma.be/",
+   "type": "og:image",
+   "w": 2016,
+   "h": 1512,
+   "hash": "1503d6560838",
+   "checked": "2026-10-20"
+  },
+  "osm-vuslat-etli-ekmek-n13055218101": {
+   "url": "https://static.wixstatic.com/media/a32fe4_c74f99eec64540278f86432dd8739378~mv2.jpg/v1/fill/w_2500,h_1666,al_c/a32fe4_c74f99eec64540278f86432dd8739378~mv2.jpg",
+   "source": "https://www.vuslatetliekmek.be/",
+   "type": "og:image",
+   "w": 2500,
+   "h": 1666,
+   "hash": "79d186a0376e",
+   "checked": "2026-10-20"
+  },
+  "osm-whynot-n12739362013": {
+   "url": "https://www.whynot.gent/og/home.jpg",
+   "source": "https://whynot.gent/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "5045a9f570b8",
+   "checked": "2026-10-20"
+  },
+  "otium-cucina-italiana": {
+   "url": "https://otium.gent/images/hero.jpg",
+   "source": "https://otium.gent/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 1000,
+   "hash": "a8760a670c1b",
+   "checked": "2026-10-20"
+  },
+  "patrick-foleys": {
+   "url": "https://www.foleys.be/og-image.jpg",
+   "source": "https://www.foleys.be/",
+   "type": "og:image",
+   "w": 1475,
+   "h": 772,
+   "hash": "d4580d8eca7b",
+   "checked": "2026-10-20"
+  },
+  "taberna-bask": {
+   "url": "https://static1.squarespace.com/static/66b1d9e793cf002efdbad34c/t/6968d02b7930827154b5387b/1725534598004/Taberna%2Bfood%2B-%2BLouise%2BDe%2BGroote%2BHD-6204.jpg?format=1500w",
+   "source": "https://tabernabask.be/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 1200,
+   "hash": "85211aa9dd65",
+   "checked": "2026-10-20"
+  },
+  "talloor-d-or": {
+   "url": "https://talloordor.be/assets/images/_1200x630_crop_center-center_82_none/MG_0151.jpg?mtime=1716968702",
+   "source": "https://talloordor.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "fe7d0ebeaf1a",
+   "checked": "2026-10-20"
+  },
+  "tribune": {
+   "url": "https://tribunegent.be/wp-content/uploads/2025/02/2021_0915_04001900.jpg",
+   "source": "https://tribunegent.be/",
+   "type": "og:image",
+   "w": 1730,
+   "h": 1153,
+   "hash": "6dcd5b5bc673",
+   "checked": "2026-10-20"
+  }
+ },
+ "rejected": {
+  "a-food-affair": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "afsnis": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "arbane": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.arbane.be/wp-content/uploads/2025/09/social-share.png"
+  },
+  "arno-ristorante": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "bakker-klaas-wintercircus": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/66d0bdb47f175c996ed98515/68944ff0ba8f48b222810526_BAKKER%20KLAAS%20-%20WEB%20DESIGN%20-%20OG%20IMAGE.jpg"
+  },
+  "baptist": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "bar-bidon": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "bask": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "bianca": {
+   "why": "too small (300x91)",
+   "checked": "2026-10-20"
+  },
+  "bistro-bastien": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "bistro-cho": {
+   "why": "flat image, likely a logo/graphic (sd 0)",
+   "checked": "2026-10-20"
+  },
+  "boris-maurice": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "cafe-albatros": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "cafe-copines": {
+   "why": "too small (525x700)",
+   "checked": "2026-10-20"
+  },
+  "cafe-den-turk": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "cafe-labath": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static.wixstatic.com/media/0c8d9c_daa5e8e3764648908203179c7d09b00d~mv2.png/v1/fill/w_1141,h_495,al_c/0c8d9c_daa5e8e3764648908203179c7d09b00d~mv2.png"
+  },
+  "cafe-recup-gent": {
+   "why": "not landscape (2500x3750)",
+   "checked": "2026-10-20"
+  },
+  "cafe-ventura": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "charlatan": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://img.charlatan.be/tSDRFxSWqExvRxxX4dY6BbUa70gg-Kb2Kwyrxa2zKQk/c:1600:840:fp:0.5:0.33/s:1200:630:1/aHR0cHM6Ly93d3cuY2hhcmxhdGFuLmJlLy9jbXNfZmlsZXMvc3lzdGVtL2ltYWdlcy9pbWc0MjI1X29yaWcuanBlZw"
+  },
+  "commotie": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5a09b02d51a58468b37f8cd3/t/618e6a2d5c9d244eec11c23c/1636723247982/mini+logo+.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "dapper": {
+   "why": "too small (584x544)",
+   "checked": "2026-10-20"
+  },
+  "de-broodstokerij-gent": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "de-dulle-griet": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "de-maecht-van-ghent": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "de-rave": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/restaurantderave.be/media/restaurantderave.be/onewebmedia/logo.png?etag=%226ed9-54feb4b7%22&sourceContentType=image%2Fpng&quality=85)",
+   "checked": "2026-10-20"
+  },
+  "de-viking": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "debra": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://debragent.be/wp-content/uploads/2025/04/Screenshot-2025-04-11-at-11.09.32.png"
+  },
+  "een-twee-vijf": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "elders": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://elders.gent/fb-img.png"
+  },
+  "fari": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "ferri": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "fine-n-fast": {
+   "why": "homepage HTTP 202",
+   "checked": "2026-10-20"
+  },
+  "fou-d-o": {
+   "why": "logo-like file name (https://foudo.be/wp-content/uploads/2022/03/logo-wit.jpg)",
+   "checked": "2026-10-20"
+  },
+  "full-circle-coffee": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "funke": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "gillis": {
+   "why": "logo-like file name (https://www.gillisgent.be/wp-content/uploads/2022/04/GillisFavIcon.jpg)",
+   "checked": "2026-10-20"
+  },
+  "goya-coffee": {
+   "why": "too small (262x197)",
+   "checked": "2026-10-20"
+  },
+  "het-spijker": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "himschoot": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "il-mezzogiorno": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "jour-de-fete": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "julies-house": {
+   "why": "too small (512x512)",
+   "checked": "2026-10-20"
+  },
+  "kaffee-krevet": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "kin-khao-thai-eatery": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "kinky-star": {
+   "why": "logo-like file name (https://www.kinkystar.com/static/images/og-default.png)",
+   "checked": "2026-10-20"
+  },
+  "klaar": {
+   "why": "flat image, likely a logo/graphic (sd 0)",
+   "checked": "2026-10-20"
+  },
+  "kruidtuin": {
+   "why": "image HTTP 404 text/html; charset=iso-8859-1",
+   "checked": "2026-10-20"
+  },
+  "kultur-bakery": {
+   "why": "too small (478x392)",
+   "checked": "2026-10-20"
+  },
+  "le-baan-thai": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "le-chouchou": {
+   "why": "not landscape (1536x2048)",
+   "checked": "2026-10-20"
+  },
+  "le-jeu-est-jambon": {
+   "why": "too small (790x790)",
+   "checked": "2026-10-20"
+  },
+  "lubbi": {
+   "why": "not landscape (1080x1620)",
+   "checked": "2026-10-20"
+  },
+  "lys-d-or": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "madam-bakster": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "marijn-coertjens": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "meme-gusta": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "midi": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "moscou-by-danny-horseele": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "nonam": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "oak": {
+   "why": "logo-like file name (https://oakgent.be/wp-content/uploads/2022/12/oak-new-logo-mobile-1021x1024.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-1809-bistro-la-concorde-n12789848389": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-5-voor-12-n1532795016": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-8tea5-n11592816515": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://8tea5.com/app/uploads/2018/11/share-8tea5.png"
+  },
+  "osm-8tea5-n11897347047": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://8tea5.com/app/uploads/2018/11/share-8tea5.png"
+  },
+  "osm-a-pluss-n9810487970": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-aba-jour-n6765119485": {
+   "why": "logo-like file name (https://de.cdn-website.com/da234ec2adef4334b6e0b2bfdd9b4cd4/dms3rep/multi/ABA+logo+max+res+-+transp.gif)",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n10268459056": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n10992714158": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n11127189030": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n1532805919": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n2638449012": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n3639694543": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n3967079276": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n5275020418": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n5550198948": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n6133546280": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n6434028388": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n6466580996": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aernoudt-n6966394891": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-agenvino-n1536597190": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-agrea-n1212134080": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-ah-quy-n6800019656": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-akdeniz-n5815859041": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-akotee-cafe-n12719038394": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-akuma-n4775222545": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/66339d6ffbd55b67107f7057/t/664379e4b4db0a349366d114/1734564421881/akuma+transparante+logo.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-al-castello-n2305188583": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-alain-proviest-n4384148111": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-alard-n12084967318": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-albertini-n13296111878": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-alberto-expresso-n12563401136": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static1.squarespace.com/static/677fc674f3058d6b36b1ae60/t/679d08f08eb54c3e84e173a6/1738344688989/Alberto+for+Site+%281%29.png?format=1500w"
+  },
+  "osm-alice-n4258187836": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-alix-w215083227": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-allegro-moderato-n2620549988": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-amadeus-n2626377985": {
+   "why": "logo-like file name (https://amadeus-resto.be/wp-content/uploads/2024/11/cropped-Logo-rood-zonder-achtergrond-Photoroom.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-amadeus-w140244218": {
+   "why": "logo-like file name (https://amadeus-resto.be/wp-content/uploads/2024/11/cropped-Logo-rood-zonder-achtergrond-Photoroom.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-amaro-n11596286258": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/64ce0f64804aff2927427ef1/t/6ac0d5fffcdbcf3649ed958e/1791022591373/Amaro_logo_Blauw-koraal.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-amatsu-n1461121231": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-amfora-n2273855341": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-amigo-n7444350788": {
+   "why": "too small (509x342)",
+   "checked": "2026-10-20"
+  },
+  "osm-amo-n12374256309": {
+   "why": "flat image, likely a logo/graphic (sd 9)",
+   "checked": "2026-10-20"
+  },
+  "osm-amour-n5428846934": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5cbf78818155121cd31cc282/t/5cc21925104c7b034b798efc/1556224294131/logo_squarespace.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-anadolu-w485424596": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-anar-n6440678296": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-anders-n12630170586": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-anders-n13065594409": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-andre-aperobar-n9459740682": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-andromeda-n6476973285": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ankara-n4704463889": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-antwerp-fried-chicken-n9137334030": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-aperotheek-n1187175064": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.ln-cdn.com/c/reclZbRYFlzlCThFj/images/92886220.png"
+  },
+  "osm-aperto-chiuso-n8911924546": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/apertochiuso.be/media/apertochiuso.be/onewebmedia/Aperto%20logo-blauw.jpg?etag=W%2F%22acaf3-5ed3ffaa%22&sourceContentType=image%2Fjpeg&quality=85)",
+   "checked": "2026-10-20"
+  },
+  "osm-arbed-n11808037058": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-artevelde-brouwerij-n11352130039": {
+   "why": "not landscape (854x1362)",
+   "checked": "2026-10-20"
+  },
+  "osm-arthe2-n12462539697": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-asian-king-n1804185553": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-asmin-n8808808099": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-astro-boy-n7878949226": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static1.squarespace.com/static/5e54e57b1efff2776963c8d2/t/5f3aa0fb0b0981463235c74d/1597677825398/ASTRO_sharingimg.jpg?format=1500w"
+  },
+  "osm-au-bon-vivant-n13273886628": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-aux-merveilleux-de-fred-n10885975053": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-axum-n13506445999": {
+   "why": "logo-like file name (https://www.axum-restaurant.be/assets/image/email-logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-bakker-klaas-n5515898234": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/66d0bdb47f175c996ed98515/68944ff0ba8f48b222810526_BAKKER%20KLAAS%20-%20WEB%20DESIGN%20-%20OG%20IMAGE.jpg"
+  },
+  "osm-bakkerij-diva-n1595045032": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bakkerij-frimout-n2275104999": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-baklavaland-n6853683399": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-balenmagazijn-n11808037065": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-balls-glory-n3818381914": {
+   "why": "error: ReadTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-a-l-aise-n12582617323": {
+   "why": "flat image, likely a logo/graphic (sd 9)",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-bonnie-n1186961222": {
+   "why": "not landscape (2500x2422)",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-bougie-n12318968463": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-bricolage-n7787232865": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/69a8332386572cc790de988b/69b293c668c5091339de1d41_SEO%20IMAGE_CHINASTRAAT-BAR%20BRICOLAGE.jpg"
+  },
+  "osm-bar-c-n12487026037": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/bar-c-gent.be/media/bar-c-gent.be/onewebmedia/LogoBarCTransparant%403x___serialized3.png?etag=null&sourceContentType=image%2Fpng&quality=85)",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-cesar-n4825426336": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bar-dada-n12644833233": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://bardada.gent/assets/images/share-image.png"
+  },
+  "osm-bar-jan-cremer-n3392860010": {
+   "why": "homepage HTTP 202",
+   "checked": "2026-10-20"
+  },
+  "osm-bargino-n6138202027": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-barouche-n1532798352": {
+   "why": "logo-like file name (https://barouche.eu/images/og-default.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-barouche-n1598830926": {
+   "why": "logo-like file name (https://barouche.eu/images/og-default.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-barouche-w252396611": {
+   "why": "logo-like file name (https://barouche.eu/images/og-default.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-barque-a-jack-n5339099860": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-basic-italian-n1972616999": {
+   "why": "too small (512x697)",
+   "checked": "2026-10-20"
+  },
+  "osm-baskuul-n4743297317": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-bassin-n7783901382": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-basta-n3394542495": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bavohoeve-n559175083": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-beroia-n13950447752": {
+   "why": "not landscape (1064x1330)",
+   "checked": "2026-10-20"
+  },
+  "osm-bicho-malo-n12660436404": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-bier-central-n1628067353": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bistro-baziel-n9741063665": {
+   "why": "too small (315x315)",
+   "checked": "2026-10-20"
+  },
+  "osm-bistro-jeanne-n10277884384": {
+   "why": "too small (500x500)",
+   "checked": "2026-10-20"
+  },
+  "osm-bistro-max-n13517502148": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bloom-table-n14230351176": {
+   "why": "not landscape (940x1674)",
+   "checked": "2026-10-20"
+  },
+  "osm-bluesette-w491661561": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bobon-n12391159028": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bocca-n6133546281": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-bodega-n5822374282": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-boekee-garni-n11123595450": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-boempatat-n1651810939": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-boon-n5569907420": {
+   "why": "not landscape (1280x1280)",
+   "checked": "2026-10-20"
+  },
+  "osm-borsalino-san-marino-n3394539390": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-alfons-n4364430396": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-cafe-des-arts-n12828494546": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-imperial-n2620549984": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-leon-n9502823727": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-nanou-n13325635488": {
+   "why": "not landscape (1080x1080)",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-noordhof-n13625580253": {
+   "why": "not landscape (1200x1200)",
+   "checked": "2026-10-20"
+  },
+  "osm-brasserie-olive-n6393303687": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-breadfast-n7014925079": {
+   "why": "logo-like file name (https://cdn2.editmysite.com/images/site/footer/og-image-placeholder-blank.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-broko-n9123899937": {
+   "why": "logo-like file name (https://www.broko.be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-broodateljee-luc-n1317082208": {
+   "why": "too small (400x400)",
+   "checked": "2026-10-20"
+  },
+  "osm-broodhemel-n4414899389": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-broodhemel-w640922618": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-brouwerij-haeseveld-w944707741": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-brut-nature-n10294919704": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-brutal-n11340952262": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-buddy-bubble-drinks-n6774818885": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-bukuu-n13306301095": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-bunny-and-friends-cafe-n14295672115": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-cafe-boteco-n5206792823": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.cafeboteco.be/img/share26.jpg"
+  },
+  "osm-cafe-cannelle-n4304704573": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/640da15c47fe32613a4315d3/t/6436d79b75f61f6ee43c244a/1681315739299/CafeCannelle-logo.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-cafe-contraire-n12384960128": {
+   "why": "not landscape (1080x1080)",
+   "checked": "2026-10-20"
+  },
+  "osm-cafe-merino-n3967079259": {
+   "why": "not landscape (1063x1085)",
+   "checked": "2026-10-20"
+  },
+  "osm-cafe-parti-n1651818968": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-cafe-rene-n3336720192": {
+   "why": "too small (128x128)",
+   "checked": "2026-10-20"
+  },
+  "osm-cafe-theatre-n1232488319": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-cafetaria-aula-n6404585900": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-cafetaria-blandijn-n6404585899": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-cafetaria-campus-uz-gent-n6404585902": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-cafetaria-coupure-n6404585904": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-cafetaria-ledeganck-n6404585898": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-caffe-rosario-n3401869282": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-canard-bizar-n9275253321": {
+   "why": "logo-like file name (https://www.canardbizar.be/Canardbizar_logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-casa-de-las-tapas-n3394491370": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-catberry-n10295133531": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-catberry-n1491174588": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ce-s-arts-n11030811705": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-chapeluur-n11154672486": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-chef-q-n13685423940": {
+   "why": "logo-like file name (https://www-static.chef-q.be/wp-content/uploads/2026/01/cropped-logo_Chef_Q-scaled-1.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-chefdag-n10931877502": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-chefdag-n1271974251": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-chefdag-n7825335032": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-china-paleis-n5275465129": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-chopstix-n12460847732": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-chubby-cheeks-n5734799243": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-chulo-n10907450378": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-claw-n1628067357": {
+   "why": "not landscape (1080x1080)",
+   "checked": "2026-10-20"
+  },
+  "osm-cocotine-n6356381196": {
+   "why": "flat image, likely a logo/graphic (sd 2)",
+   "checked": "2026-10-20"
+  },
+  "osm-cocteau-n5156850058": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-colmar-n275223798": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-colmar-w1033606442": {
+   "why": "too small (768x1024)",
+   "checked": "2026-10-20"
+  },
+  "osm-come-back-w451519579": {
+   "why": "homepage HTTP 400",
+   "checked": "2026-10-20"
+  },
+  "osm-comedor-n5249103310": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/67be132060d13b22d536a1a0/t/6849deeb3a7c34604d82ee70/1749671659831/comedor-logo-wit.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-cometogether-n12639298034": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-comic-sans-n5212328021": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-con-tigo-w426771273": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-conchi-s-peruvian-cuisine-n7142820246": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-copain-n6884858560": {
+   "why": "flat image, likely a logo/graphic (sd 11)",
+   "checked": "2026-10-20"
+  },
+  "osm-coqueluche-n10914424851": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-corner-city-w809916753": {
+   "why": "homepage HTTP 410",
+   "checked": "2026-10-20"
+  },
+  "osm-cotee-n12800541091": {
+   "why": "flat image, likely a logo/graphic (sd 6)",
+   "checked": "2026-10-20"
+  },
+  "osm-crema-coffee-shop-n13755533604": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-da-edi-n1630724940": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-da-toto-n3810896304": {
+   "why": "too small (700x467)",
+   "checked": "2026-10-20"
+  },
+  "osm-dali-restaurant-n11398726824": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-damberd-n1532794990": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-dampoort-n1432587520": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-3-zwaantjes-n5782574959": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-de-abt-n10885975050": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-acht-zaligheden-n11883562269": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-appelier-n2634809499": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-de-bergen-n12870153846": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-brouwzaele-w210985927": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-de-buffel-n4231814743": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-dikke-ziel-n12857171148": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-frietschap-n12435769167": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-de-frietschap-n4158261701": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-de-fritoloog-n5813542646": {
+   "why": "too small (250x250)",
+   "checked": "2026-10-20"
+  },
+  "osm-de-gentsche-koekedoos-n1295215428": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-de-graslei-n1267513267": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-de-grill-n1212159256": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-hemelse-friet-n6174917085": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-hoeve-n1814843960": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-kastart-n1409718536": {
+   "why": "does not load as hotlinked <img> in Chrome (CORP / hotlink protection)",
+   "checked": "2026-10-20",
+   "url": "https://www.dekastart.be/sites/default/files/styles/opengraph_1200_630/public/2020-11/Screenshot%202020-11-05%20at%2020.56.28.png?itok=3T0YBe99"
+  },
+  "osm-de-knoop-n12017880542": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-kunst-n4577957793": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-lieve-n12593224145": {
+   "why": "too small (300x55)",
+   "checked": "2026-10-20"
+  },
+  "osm-de-loge-n566313995": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/641c881f4f74fc4399e98583/t/668af5e646bcff268c72c696/1720382950276/logo-cafedeloge-groen_zw-24.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-de-mokke-n6434031888": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5be9b8f0da02bcbc106157e0/t/5c0eac76898583fde71c6f6e/1544465528308/logomokke.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-de-omgekeerde-wereld-n3817855013": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-de-parkiet-n6111142585": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://primary.jwwb.nl/public/w/k/o/temp-osebqngqlhxskqmxmlps/de-parkiet-met-baseline-high-py7rsg.png?enable-io=true&enable=upscale&fit=bounds&width=1200"
+  },
+  "osm-de-raadkamer-n11099366423": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-rechters-n1628067354": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-de-roes-n11158036327": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-de-salopette-n6942598387": {
+   "why": "too small (733x1038)",
+   "checked": "2026-10-20"
+  },
+  "osm-de-stokerij-n12205332271": {
+   "why": "image HTTP 403 text/html; charset=iso-8859-1",
+   "checked": "2026-10-20"
+  },
+  "osm-de-vrolijke-viking-n9779340997": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-dedeoglu-n12348852300": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-den-johnny-n13608226201": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-desayuno-n2105506242": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-destiny-n10907725299": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-dirt-restaurant-n13323699746": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/dirt.restaurant/media/dirt.restaurant/onewebmedia/logobrownDIRT.png?etag=null&sourceContentType=image%2Fpng&quality=85)",
+   "checked": "2026-10-20"
+  },
+  "osm-dish-n5869420982": {
+   "why": "manual review: website screenshot, not a photo",
+   "checked": "2026-10-20",
+   "url": "https://c-p.rmcdn.net/62590d34b78bed0038586633/3626870/Screenshot-bf8bd383-f54c-4450-9bcc-70eddc800b2f_readyscr_1024.jpg"
+  },
+  "osm-django-n6172843088": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-dolfijn-n10274021580": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-donki-n10742303738": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-door-73-n6900569885": {
+   "why": "not landscape (1536x2048)",
+   "checked": "2026-10-20"
+  },
+  "osm-dreamcatchers-n12363209411": {
+   "why": "too small (493x192)",
+   "checked": "2026-10-20"
+  },
+  "osm-eat-love-pizza-n2546643705": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-eat-this-n12779057073": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.eat-this.be/volumes/general/_1200x630_crop_center-center_82_none/OG.png?v=1777022266"
+  },
+  "osm-edel-rot-n11157734893": {
+   "why": "not landscape (997x1330)",
+   "checked": "2026-10-20"
+  },
+  "osm-edgar-kaasbar-n5249092192": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-edmond-n11897518892": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/6a060b8831fbd73670006426/6a072f73182fe15543b11d54_OG%20IMAGE.jpg"
+  },
+  "osm-eetcafe-elvire-n12365159424": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-eethuis-de-fobie-n2262667588": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-eetkaffee-multatuli-n2210024898": {
+   "why": "image HTTP 403 text/html; charset=iso-8859-1",
+   "checked": "2026-10-20"
+  },
+  "osm-eetoile-n4857533585": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-el-berraco-n2625520413": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-emily-s-n2275104988": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-epiphany-s-n12108332057": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ette-ibibio-n2439607489": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-everest-eetcafe-n1275915798": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-faim-fatale-n1628067359": {
+   "why": "not landscape (885x769)",
+   "checked": "2026-10-20"
+  },
+  "osm-faja-lobi-w501058841": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-felix-cafe-n13207054368": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-festival-n4235248790": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-fewa-restaurant-bar-n9741063269": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-firenze-n1275915813": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-fitchen-n1532798337": {
+   "why": "homepage HTTP 202",
+   "checked": "2026-10-20"
+  },
+  "osm-flordi-n11640842891": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-fluoclub-n5370972190": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-flynn-s-n5395453707": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-foodbar-jef-n13672598745": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-freddie-n12684199822": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static1.squarespace.com/static/65a658505623653168a8bd9f/t/65d0de7552d0be16c9056d1a/1708187267653/Ontwerp+zonder+titel.png?format=1500w"
+  },
+  "osm-frietbar-gent-w315295022": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-frietcultuur-n1628956682": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-frietshop-gentbrugge-n3967087158": {
+   "why": "too small (250x250)",
+   "checked": "2026-10-20"
+  },
+  "osm-frietshop-merelbeke-station-n10275923607": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-frites-atelier-n6461233284": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-botermarkt-n8957992042": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-danny-n12481840573": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-louiss-n1426053791": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-oost-n12702645848": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-oud-bareeltje-n7098451619": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-sint-amands-n5815584262": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-frituur-t-primeurke-n11886699158": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-fuga-n2617845184": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-full-circle-coffee-n11608541222": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ganzerik-w451731257": {
+   "why": "not landscape (1242x1258)",
+   "checked": "2026-10-20"
+  },
+  "osm-garam-masala-n6900564095": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-geheel-de-uwe-n11695175546": {
+   "why": "too small (786x714)",
+   "checked": "2026-10-20"
+  },
+  "osm-gerard-n12630238332": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-giardino-di-roma-n3842499430": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-giri-n1616705163": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://giribe.webhosting.be/img/asset/cHJpdmF0ZS9vZy1pbWFnZS5qcGc=?w=1200&h=600&fit=crop&q=50&s=06b1e2068853830d572167c2b273084c"
+  },
+  "osm-go-fre-n7142820242": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-gok-2-n4720245796": {
+   "why": "logo-like file name (https://gok2.be/wp-content/uploads/2022/05/gok2Logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-gok-n5815859923": {
+   "why": "image HTTP 404 text/plain;charset=utf-8",
+   "checked": "2026-10-20"
+  },
+  "osm-gold-listening-bar-n11311439470": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-golden-friet-n4338768428": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-golden-gai-n6942691397": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static1.squarespace.com/static/5d8858d1a9c68f118309b648/t/5da9e159e6c4514ed03b5f0f/1571414625060/GG_sharingimg.jpg?format=1500w"
+  },
+  "osm-golflounge-w126373297": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-gouden-paard-n6613025423": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-grade-n8957993748": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-greenway-w336127036": {
+   "why": "not landscape (1080x1080)",
+   "checked": "2026-10-20"
+  },
+  "osm-guerilla-streetfood-n10908021209": {
+   "why": "flat image, likely a logo/graphic (sd 12)",
+   "checked": "2026-10-20"
+  },
+  "osm-gusb-sportsbar-n13201025930": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-gust-n11223538737": {
+   "why": "not landscape (1080x1080)",
+   "checked": "2026-10-20"
+  },
+  "osm-gwenola-n11083067941": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-gyros-gent-n12155966682": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-ha-n1856827457": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-haddok-n12404695490": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-haotian-asian-snacks-n13570475860": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-happy-garden-w629450451": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/happygardengent.be/media/happygardengent.be/onewebmedia/Happy%20Garden%20logo.JPG?etag=%2211957-5dc3368d%22&sourceContentType=image%2Fjpeg&quality=85)",
+   "checked": "2026-10-20"
+  },
+  "osm-happy-kidzz-n13426764364": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-happy-thai-n11303527497": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-hattis-ontbijthuis-n9809286018": {
+   "why": "too small (270x270)",
+   "checked": "2026-10-20"
+  },
+  "osm-have-a-roll-n11394481011": {
+   "why": "not landscape (1181x1181)",
+   "checked": "2026-10-20"
+  },
+  "osm-haven-w1271547920": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-hawaiian-poke-bowl-n10058555910": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://hawaiianbowl.com/wp-content/uploads/2026/07/SEO.png"
+  },
+  "osm-hawaiian-poke-bowl-n10885975052": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://hawaiianbowl.com/wp-content/uploads/2026/07/SEO.png"
+  },
+  "osm-hawaiian-poke-bowl-n11407739881": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://hawaiianbowl.com/wp-content/uploads/2026/07/SEO.png"
+  },
+  "osm-hawaiian-poke-bowl-n1212143937": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://hawaiianbowl.com/wp-content/uploads/2026/07/SEO.png"
+  },
+  "osm-hello-chicken-n12501199610": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-hemelsoet-n12150086101": {
+   "why": "homepage HTTP 500",
+   "checked": "2026-10-20"
+  },
+  "osm-het-gouden-hoofd-w671523254": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-het-smulhoekje-n12769128307": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://orderbilly.com/brand/billy/share.jpg"
+  },
+  "osm-hey-joo-n12323883644": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-himalaya-n1212142778": {
+   "why": "logo-like file name (https://localhost:3000/himalayan_logo.jpeg)",
+   "checked": "2026-10-20"
+  },
+  "osm-himschoot-n7004508573": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-hola-food-n5856007887": {
+   "why": "not landscape (1440x1800)",
+   "checked": "2026-10-20"
+  },
+  "osm-hola-food-n7004497033": {
+   "why": "not landscape (1440x1800)",
+   "checked": "2026-10-20"
+  },
+  "osm-holy-guacamoly-n5275465125": {
+   "why": "not landscape (2832x4240)",
+   "checked": "2026-10-20"
+  },
+  "osm-holy-guacamoly-n7783973978": {
+   "why": "not landscape (2832x4240)",
+   "checked": "2026-10-20"
+  },
+  "osm-homble-w496955521": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-hong-thong-thai-n11019866078": {
+   "why": "manual review: generic stock-style image (monks), not the place",
+   "checked": "2026-10-20",
+   "url": "https://hongthongthairestaurant.com/wp-content/uploads/2021/02/Hong-Thong-Thai-Restaurant.jpg"
+  },
+  "osm-horn-ok-please-n9740823412": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5b8c3628f407b4049406825d/t/67eab8e3aa2c1859dfa9159c/1743436003750/LOGO-3colour+7%29.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-hot-club-gent-n1381910690": {
+   "why": "manual review: website screenshot, not a photo",
+   "checked": "2026-10-20",
+   "url": "https://www.hotclub.gent/img/share.jpg"
+  },
+  "osm-hotel-de-lourdes-w115611102": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-house-of-waffles-n13310397201": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/38e385a429fe857612eb5d48f24f6f8e/id-preview-940962af--2aa63a76-80f3-4657-8aa7-5bc3caaffb7c.lovable.app-1789070050753.png"
+  },
+  "osm-hung-hing-n11030869864": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ichiban-n8957993754": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-ikura-w493483121": {
+   "why": "manual review: website screenshot, not a photo",
+   "checked": "2026-10-20",
+   "url": "https://media.base44.com/images/public/6ab632366fedd7f4eb9ac086/29e958d6d_Screenshot2026-10-12at172150.png/v1/fill/w_1200,h_630/29e958d6d_Screenshot2026-10-12at172150.png"
+  },
+  "osm-il-cortile-n1212142878": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-in-bocca-lupo-n3842499429": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/681a1a10de1a868d9bcd1b18/6824a8e676af5586c8747f14_fixed_IN-BOCCA-LUPO_OGsmall.jpg"
+  },
+  "osm-india-palace-n7825707086": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-indian-curry-house-n3874321406": {
+   "why": "logo-like file name (https://indiancurryhouse.be/web-admin/uploads/meta/logo.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-indian-masala-n1914075890": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-italian-corner-n11918209075": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.hogent.be/sites/hogent/assets/Image/sharingimage.jpg"
+  },
+  "osm-jacqueline-n1349508971": {
+   "why": "flat image, likely a logo/graphic (sd 9)",
+   "checked": "2026-10-20"
+  },
+  "osm-jaggers-w102713996": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-jalel-n11476496996": {
+   "why": "manual review: website screenshot, not a photo",
+   "checked": "2026-10-20",
+   "url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/924cd988-e5b8-44f3-b7e0-d6a02c8ea6bb/id-preview-db5f3aee--ce8df6af-ab4b-45bc-8106-3b82fdc1ed37.lovable.app-1783249979172.png"
+  },
+  "osm-jan-van-den-bon-n3185163629": {
+   "why": "error: OSError",
+   "checked": "2026-10-20"
+  },
+  "osm-jan-van-gent-n1201714037": {
+   "why": "logo-like file name (https://cafejanvangent.be/wp-content/uploads/2024/02/cropped-cropped-logo-jan-van-gent-tekst-zwart.jpg?w=200)",
+   "checked": "2026-10-20"
+  },
+  "osm-javana-n4985594584": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.javana.be/src/Frontend/Themes/Javana/facebook.jpg"
+  },
+  "osm-je-m-en-fish-n11164462432": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.jemenfish.gent/images/jmf-share-banner.jpg"
+  },
+  "osm-jilles-n11505926942": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-joan-n11596286257": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/64ce0f64804aff2927427ef1/t/6ac0d5fffcdbcf3649ed958e/1791022591373/Amaro_logo_Blauw-koraal.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-joey-n10885894093": {
+   "why": "not landscape (928x928)",
+   "checked": "2026-10-20"
+  },
+  "osm-johnny-s-burger-n12002629024": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-jose-n13350697189": {
+   "why": "not landscape (2500x2500)",
+   "checked": "2026-10-20"
+  },
+  "osm-julie-s-house-atelier-taartautomaat-n13426894901": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-julie-s-house-n4678136994": {
+   "why": "too small (512x512)",
+   "checked": "2026-10-20"
+  },
+  "osm-jus-n12315865312": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static.tildacdn.net/tild3166-6634-4431-a333-633139643565/JUS_visite_NIEUW.png"
+  },
+  "osm-kafe-kozak-n13752182706": {
+   "why": "too small (700x150)",
+   "checked": "2026-10-20"
+  },
+  "osm-kaffee-allez-n12625884854": {
+   "why": "logo-like file name (https://www.kaffeeallez.be/web/image/website/1/logo?unique=d8dd92a)",
+   "checked": "2026-10-20"
+  },
+  "osm-kaffee-change-n12941952165": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-kaffee-de-planck-w339571134": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.biernet.nl/images/merken/116648-Gulden-Draak-Blond-bier-uit-2025.png"
+  },
+  "osm-kaffie-is-kaffie-vzw-n12985197902": {
+   "why": "image HTTP 404 text/html; charset=utf-8",
+   "checked": "2026-10-20"
+  },
+  "osm-kaiju-n13504530036": {
+   "why": "not landscape (820x1024)",
+   "checked": "2026-10-20"
+  },
+  "osm-kantien-n7628196641": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-karoot-n9665581800": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-karreaux-n4421648390": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-keizershof-n1187211170": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-kim-s-kitchen-n10218686217": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-kingribs-gent-n12104573312": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-kingslize-n6779344616": {
+   "why": "logo-like file name (https://kingslizepizza.be/build/front/images/og_logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-kino-n13342263004": {
+   "why": "not landscape (1329x1330)",
+   "checked": "2026-10-20"
+  },
+  "osm-knees-to-chin-n10885883241": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://kneestochin.com/wp-content/uploads/2025/05/facebook-preview-home-2025.jpg"
+  },
+  "osm-knol-kool-n12148408793": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/635add1e34fe674d2c2d533c/t/635add80b9530c42ed5310c8/1666899328147/K_KLogotype_yellow%40transparant.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-koeketiene-n11146607054": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.koeketienegent.be/media/og/225-387741002_657452053145750_4651490034732579755_n.jpg"
+  },
+  "osm-kona-n13695702160": {
+   "why": "logo-like file name (https://www.kona-gent.be/img/og_logo.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-korenleitwee-n1212155509": {
+   "why": "too small (680x510)",
+   "checked": "2026-10-20"
+  },
+  "osm-kraz-n4679946989": {
+   "why": "not landscape (1000x1000)",
+   "checked": "2026-10-20"
+  },
+  "osm-krookcafe-n6532421427": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-krua-panya-n6138202016": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-krunch-n12708121938": {
+   "why": "logo-like file name (https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/mePbkBlvMXhG2Kwv/logo-1-YrDqrX04XwCgZlQg.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-la-belle-histoire-n11703605271": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-la-bicyclette-n9787361791": {
+   "why": "image HTTP 400 text/html; charset=UTF-8",
+   "checked": "2026-10-20"
+  },
+  "osm-la-dolce-barista-n3304431813": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-la-malcontenta-n2555276332": {
+   "why": "logo-like file name (https://lamalcontenta.be/wp-content/uploads/2022/11/caverta-logo1.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-la-rustica-n1804211330": {
+   "why": "image HTTP 404 text/html; charset=iso-8859-1",
+   "checked": "2026-10-20"
+  },
+  "osm-la-tavola-italiana-n11049255680": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-labyrinth-n13087701120": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-lago-bistro-n9853040230": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-laila-n3483670405": {
+   "why": "logo-like file name (https://www.lailarestaurant.be/assets/img/logo-wit.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-le-beach-house-n11240615546": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/lebeachhouse.be/media/lebeachhouse.be/onewebmedia/Logo%20LBH.jpeg?etag=%224f036166ecc0b0344dae1053109f1b5e%22&sourceContentType=image%2Fjpeg&quality=85)",
+   "checked": "2026-10-20"
+  },
+  "osm-le-botaniste-n4052744492": {
+   "why": "logo-like file name (https://lebotaniste.eu/wp-content/uploads/2020/04/LB-LOGO-CADRE-VEGGIESV2.1.2-scaled-1.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-le-homard-rouge-n11395904796": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-le-zab-thai-n11036341437": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-lekker-gec-n2721915415": {
+   "why": "platform image host (www.facebook.com)",
+   "checked": "2026-10-20"
+  },
+  "osm-libanese-snack-n6440678397": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-limoncello-n12772623907": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-lloyd-coffee-eatery-n11154588568": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-lodos-w1075327915": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-lokaal-n12208404072": {
+   "why": "too small (700x244)",
+   "checked": "2026-10-20"
+  },
+  "osm-lucmoon-n1590803751": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-lucy-chang-n3392860014": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-luxalad-n4893381291": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-macho-n7783989814": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-madfries-n13070268280": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-maison-elza-n1616705129": {
+   "why": "not landscape (1783x2560)",
+   "checked": "2026-10-20"
+  },
+  "osm-manhattn-s-burgers-n2617861936": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.manhattns.com/sites/default/files/styles/facebook_share/public/2022-03/share-image.jpg?itok=0AAR-qxK"
+  },
+  "osm-marengo-n2555139392": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-marimain-n2402543237": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/665c8010e19bbf37048b3472/66605c9c75326682c7cdd1a9_MARIMAIN-SEO-IMAGE.jpg"
+  },
+  "osm-masala-accent-n12128973417": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-maximiliaan-n10885975051": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-meerakker-n9230878888": {
+   "why": "too small (600x315)",
+   "checked": "2026-10-20"
+  },
+  "osm-mengie-n11912063124": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-mexcalli-n12052382373": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-midpoint-n5918274971": {
+   "why": "image HTTP 404 text/html; charset=iso-8859-1",
+   "checked": "2026-10-20"
+  },
+  "osm-midtown-grill-n5276097616": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-minty-plus-n13957813953": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-mission-masala-n7804889585": {
+   "why": "logo-like file name (https://missionmasala.be/wp-content/uploads/2020/05/desi-hand-favicon-512px.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-missy-sippy-blues-roots-club-w97507956": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-misterioso-n13787972887": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-modest-n10882821305": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-mogador-n10911632109": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-mortier-n9902273001": {
+   "why": "too small (661x244)",
+   "checked": "2026-10-20"
+  },
+  "osm-mr-sato-n12741969454": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-muzikantenhuis-n12563480764": {
+   "why": "too small (450x230)",
+   "checked": "2026-10-20"
+  },
+  "osm-nam-jai-n3394491371": {
+   "why": "manual review: og:image is a casino ad (domain apparently taken over) — not the business",
+   "checked": "2026-10-20",
+   "url": "https://namjai.be/og-banner.png"
+  },
+  "osm-nat-thai-n12116554787": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-neapolis-n2625520425": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-nepal-delight-n11047205650": {
+   "why": "logo-like file name (https://www.asiandelightgent.be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-neptune-n1212144793": {
+   "why": "logo-like file name (https://nl.resto.be/across/resources/static/site/images/logo-BE.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-nieuw-gent-n12017880541": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-noah-w430755898": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-noon-s-zusje-n12484933964": {
+   "why": "not landscape (1200x1600)",
+   "checked": "2026-10-20"
+  },
+  "osm-norma-n12712573951": {
+   "why": "not landscape (2500x2406)",
+   "checked": "2026-10-20"
+  },
+  "osm-o-gand-city-n10651688855": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-o-gand-n2461641271": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-o-learys-n4716568192": {
+   "why": "homepage HTTP 429",
+   "checked": "2026-10-20"
+  },
+  "osm-o-yo-n10885912444": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
+  },
+  "osm-o-yo-n5247946071": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
+  },
+  "osm-ocean-sushi-w494018303": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ode-n10095315126": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-odil-n11305200343": {
+   "why": "flat image, likely a logo/graphic (sd 10)",
+   "checked": "2026-10-20"
+  },
+  "osm-officina-raffaelli-n5629021237": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static1.squarespace.com/static/60fd49a5b639eb04277d6362/t/61013d59dcb2d667b8d0f362/1627471193970/officina_raffaelli_neon.jpeg?format=1500w"
+  },
+  "osm-oh-ma-n12367017828": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-okawa-snackbar-n10294919707": {
+   "why": "manual review: blank image",
+   "checked": "2026-10-20",
+   "url": "https://okawasnackbar.be/wp-content/uploads/2023/08/okawa-snackbar-wave.png"
+  },
+  "osm-okawa-sushi-n13788019779": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-ole-pistolet-n1690599456": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-ombra-n12992514757": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/68497b0b4590dc35d9980c32/t/68497ca3fbda364d2e9634d2/1749646499703/Ombra-Logo-ecru-roest-RGB.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-ona-n11157749730": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ona-n3215962992": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-orange-ini-n9809246056": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-oriental-n1293099635": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-osteria-delicati-n4389095205": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-otomat-n4677893292": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-ozgem-n1579895326": {
+   "why": "logo-like file name (https://restaurantozgem.be/wp-content/uploads/2023/04/cropped-restaurantozgem-logo.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-pagos-n4907557926": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-pain-perdu-n2773666260": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-pampas-n1616705175": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-panda-n4154773490": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-pane-vino-w112572422": {
+   "why": "too small (196x196)",
+   "checked": "2026-10-20"
+  },
+  "osm-pani-n1804211176": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://pani.gent/media/site/73503598eb-1771177181/pani-1200x630-crop.jpg"
+  },
+  "osm-panotto-n12837270943": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/684a92c6b8de82798b8a434d/t/684ae56499fb092defb2ed59/1749738852994/Panotto_Logo_Green.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-parisiana-n12379299578": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-parnassus-n11808037060": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-parole-n14241561835": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pasta-la-vista-n5918300537": {
+   "why": "homepage HTTP 202",
+   "checked": "2026-10-20"
+  },
+  "osm-patisserie-de-brabander-n2296688061": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-patisserie-de-brabander-w1360088815": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-petit-comite-n4404607290": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-petit-pain-n6486173576": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-petit-thai-n11476496998": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-phaya-n6064925839": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-pho-saigon-n10892781656": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pietersbar-n3817797701": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-pietje-pek-w909712432": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pitta-can-n4909237822": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pitta-flora-n10983992980": {
+   "why": "logo-like file name (https://www.pittaflora.be/Content/images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-piu-di-piu-n11156864221": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-cesar-n9278632522": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-factory-n1368814342": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-golosa-n7415196885": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-gulhan-n4720207391": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-heart-n10940010347": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-king-n12331252803": {
+   "why": "logo-like file name (https://www.pizzaking-gent.be/foodticket/images/6445/_cms1740574242_logo.gif)",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-masters-n8944368321": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-milano-n11347149712": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-pisa-n12320430953": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-pizza-talia-n6157293158": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pizzahof-n1853026297": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-plantbaar-n12737009115": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-plus-n5936452586": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-pommes-appetit-n3967089404": {
+   "why": "homepage HTTP 403",
+   "checked": "2026-10-20"
+  },
+  "osm-poorthuis-n6939629593": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-poule-poulette-n602681364": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-prince-n12323883648": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-publika-n10892732442": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://static.wixstatic.com/media/e8aa99_f0807a4d36ef485e93a3e51cb3fe40d3~mv2.jpg/v1/fill/w_1920,h_1005,al_c/e8aa99_f0807a4d36ef485e93a3e51cb3fe40d3~mv2.jpg"
+  },
+  "osm-q-bap-n11159647452": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-rabot-dumpling-house-n12748707901": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-restaurant-cocotte-n12772643014": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-restaurant-hartetroef-n12413165387": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-restaurant-panda-n11415862783": {
+   "why": "too small (700x315)",
+   "checked": "2026-10-20"
+  },
+  "osm-resto-leo-n13355672924": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-revue-n346358326": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/62e7939bfeea2865885e05b2/t/630ce5e3605a595076f2bea4/1661789667707/LOGO_white.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-ringo-music-bar-n14073176103": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://framerusercontent.com/assets/w254PwmdUqToLXAQebctjusgds.png"
+  },
+  "osm-rokkebolle-n4456452819": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/60f048d63ba6d21f4753aa75/t/617636d4d5ee7b50dce84d6f/1635137236202/Rokkebolle_logo+kopie2.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-rokko-n12659929329": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-rosa-n12534518527": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-rumi-n7177919608": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-sailing-queen-w313703440": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-seli-s-noodlebar-n2998443056": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-sensum-gent-n12801817423": {
+   "why": "too small (405x10)",
+   "checked": "2026-10-20"
+  },
+  "osm-seoul-south-station-n12702572257": {
+   "why": "logo-like file name (https://www.seoulsouthstation.be/apple-touch-icon.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-shazanna-n6942598686": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-siam-thai-foodhouse-n11534237440": {
+   "why": "logo-like file name (https://siamthaifoodhouse.be/wp-content/uploads/2023/12/Logo-Siamthaifoodhouse.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-simon-says-n1267498823": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-simpizza-n5803560353": {
+   "why": "logo-like file name (https://www.simpizza.be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-sint-cornelius-den-boer-n4543615389": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-snack-metropol-n1705424958": {
+   "why": "logo-like file name (https://www.snackmetropol.be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-snack-tosi-n10231441259": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-snoens-n14116759030": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-soan-n13307731097": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/68b896946512c81bad0ab2a6/t/690a53d4dc81b2568c54d118/1762284500964/soan_logo_brown_rgb.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-soepbar-sordo-n9092308404": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-soeurs-sourire-n9042748310": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-somm-n12607304272": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-soul-kitchen-n5986142786": {
+   "why": "logo-like file name (https://www.soul-kitchen.be/wp-content/uploads/2023/06/soul-kitchen-logo-pt6.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-souplicious-n8957993745": {
+   "why": "too small (566x566)",
+   "checked": "2026-10-20"
+  },
+  "osm-souv-n13051841763": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-spijs-n6156854409": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-splinter-n13784963917": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-st-martinus-snooker-pool-n6157293162": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-steamy-windows-n10892813716": {
+   "why": "logo-like file name (https://www.steamywindows.be/media/site/61aeb79449-1790760311/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-stek-n6828901282": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5ec1193524d67d1b12c7a859/t/5ed42a047f741f7a2f46e628/1590962693507/Logo.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-stroom-brewery-n12738654204": {
+   "why": "image HTTP 202 text/html",
+   "checked": "2026-10-20"
+  },
+  "osm-studentencafe-de-hoeve-n3827722275": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-studentencafetaria-de-brug-n4258301746": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-studentenresto-ardoyen-n4130825680": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-studentenresto-boudewijn-n3796833730": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-studentenresto-coupure-n4823020761": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-studentenresto-de-brug-n3699071712": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-studentenresto-dunant-n6404585903": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-studentenresto-s5-n3752879366": {
+   "why": "logo-like file name (https://www.ugent.be/++resource++plone-logo.svg)",
+   "checked": "2026-10-20"
+  },
+  "osm-subs-w629450280": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-suffys-n11004345644": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-sunset-w329892438": {
+   "why": "logo-like file name (https://www.hzcdn.io/bff/static/vendor/hz-web-ui/twh/favicons/favicon-192x192.1c5d8455.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-love-gent-n9056427353": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-oostakker-n9996956434": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-paradise-n1186970648": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-plaza-n6138202032": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-poel-n3931156537": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-point-n1599352616": {
+   "why": "too small (451x382)",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-prime-n12625568192": {
+   "why": "too small (500x500)",
+   "checked": "2026-10-20"
+  },
+  "osm-sushi-star-n10289739405": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-symphony-n12650624985": {
+   "why": "not landscape (1360x2048)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-braemhof-n6975128485": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/6936bbb57ac84e40f0b8585d/t/69394146000e543c900d16a9/1765359942339/logo+%285%29.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-felt-n14072558901": {
+   "why": "not landscape (1200x1491)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-friethuisje-n13409150918": {
+   "why": "homepage HTTP 400",
+   "checked": "2026-10-20"
+  },
+  "osm-t-gouden-mandeken-n5216234637": {
+   "why": "too small (504x504)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-klaverblad-n3394070670": {
+   "why": "logo-like file name (https://s0.wp.com/i/blank.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-klokhuys-n3394070669": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-t-koningshuis-n2625520422": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-t-lekkerbekje-n6129054366": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-t-oud-clooster-n4776502139": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-t-picolootje-n11481061157": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/picolootje.be/media/picolootje.be/onewebmedia/logo%20voorbeeld%20'tpicolootje%20(132.292%20x%20132.292%20mm)%20(1).png?etag=W%2F%2217c23-621bfe8b%22&sourceContentType=image%2Fpng&quality=85)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-pleintje-n1542762459": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-t-spoorke-n3967087159": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-t-spoorloos-perron-n13758856522": {
+   "why": "not landscape (2000x2000)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-stokbruudje-n11687618612": {
+   "why": "too small (768x320)",
+   "checked": "2026-10-20"
+  },
+  "osm-t-stoofpotje-n6175117985": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-t-westveld-n7312927190": {
+   "why": "logo-like file name (https://bakeronline-paris.s3.eu-west-3.amazonaws.com/uploads/shop-avatars/2924/400x400/logo-westveld.jpg)",
+   "checked": "2026-10-20"
+  },
+  "osm-t5hoekske-n9854049759": {
+   "why": "too small (600x315)",
+   "checked": "2026-10-20"
+  },
+  "osm-tabouleh-n8957993750": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-taj-mahal-n11352130046": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-take-five-n10267858018": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-take-in-n12348834392": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-takes-thyme-n5379924322": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-tamis-homekitchen-w452683591": {
+   "why": "logo-like file name (https://tamishomekitchen.com/wp-content/uploads/2025/08/Icoonlogo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-tampopo-n499978423": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-tartelette-n9264478841": {
+   "why": "logo-like file name (https://www.tartelette.be/icon-normal.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-tarterie-sophie-n13276470851": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://tarteriesophie.com/og.png"
+  },
+  "osm-tartines-n1687422666": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-taste-it-n819591968": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-taste-of-india-n11049255678": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-tenderly-n5275415929": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-ter-burg-n6092406662": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-thai-thanee-n1404464937": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-thatcha-thai-kitchen-n6312636187": {
+   "why": "not landscape (1200x1600)",
+   "checked": "2026-10-20"
+  },
+  "osm-thawan-thai-n1167829682": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-the-corner-house-n11223369715": {
+   "why": "too small (700x467)",
+   "checked": "2026-10-20"
+  },
+  "osm-the-corner-n9355240924": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-the-fresh-princess-n1802839228": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-the-mistress-n13787925225": {
+   "why": "not landscape (2500x2500)",
+   "checked": "2026-10-20"
+  },
+  "osm-the-ribhouse-n3413034464": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-the-showboat-do-nuts-n1209360740": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-the-waffle-factory-n6412046258": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-the-wan-only-n5869420978": {
+   "why": "too small (403x605)",
+   "checked": "2026-10-20"
+  },
+  "osm-the-zone-n772451500": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-therapy-n14015146100": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://therapybar.gent/assets/img/og-launch.jpg"
+  },
+  "osm-toasty-tea-sandwiches-n12628246301": {
+   "why": "too small (592x304)",
+   "checked": "2026-10-20"
+  },
+  "osm-top-pizza-n11511644008": {
+   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-top-sushi-n10298212680": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-touche-n11302184714": {
+   "why": "logo-like file name (https://touchegent.be/web/image/website/2/logo?unique=9190276)",
+   "checked": "2026-10-20"
+  },
+  "osm-trafiek-n1997298037": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-trappistenhuis-n12376674296": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-trefpunt-n1534198809": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-tush-n11352130051": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.eat-tush.com/opengraph-image.png?e981d04de539c99b"
+  },
+  "osm-uma-marisqueira-n11595390054": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-umamido-n4273118892": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-umamido-vooruit-n6919498743": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5e6cace9970b8e6e6a89450a/t/635badd352d90a16d77dd9c8/1666952659813/LOGOfull.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "osm-uncle-babe-s-burger-bar-n4524885209": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-uncle-sam-s-n12703057611": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-uniqplanet-n12568289315": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-unique-asia-n9670098531": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-urfa-n13038155956": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-valeir-n6942598286": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-van-hecke-n1279173373": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-van-hecke-n1914081678": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-van-hecke-n3013961853": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-van-hecke-n7448200576": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-van-hecke-n8065147256": {
+   "why": "homepage HTTP 404",
+   "checked": "2026-10-20"
+  },
+  "osm-veggi-en-grill-n9230929147": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-velvet-n12462615510": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-verlorenkost-n4631920890": {
+   "why": "image HTTP 404 text/html; charset=iso-8859-1",
+   "checked": "2026-10-20"
+  },
+  "osm-vief-n12804094905": {
+   "why": "too small (200x136)",
+   "checked": "2026-10-20"
+  },
+  "osm-villa-ooievaar-n12416733927": {
+   "why": "logo-like file name (https://www.villaooievaar.be/wp-content/uploads/2024/11/245_Logo_KOMPAS_1-1.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-vittorio-n7470367118": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-viva-la-puglia-n9819206829": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-vlierefluiter-w492438497": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-wasbar-n6138202038": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-waterkant-n12923873602": {
+   "why": "not landscape (800x800)",
+   "checked": "2026-10-20"
+  },
+  "osm-way-keizerpoort-n12335070923": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.way.gent/cdn/shop/files/Meta_Description_website_-_1200_x_628_px.jpg?v=1753809497"
+  },
+  "osm-way-n4361414624": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.way.gent/cdn/shop/files/Meta_Description_website_-_1200_x_628_px.jpg?v=1753809497"
+  },
+  "osm-way-plantbased-bakehouse-n4256139406": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.way.gent/cdn/shop/files/Meta_Description_website_-_1200_x_628_px.jpg?v=1753809497"
+  },
+  "osm-win-n12574625746": {
+   "why": "not landscape (1000x1000)",
+   "checked": "2026-10-20"
+  },
+  "osm-woest-n4863374603": {
+   "why": "flat image, likely a logo/graphic (sd 0)",
+   "checked": "2026-10-20"
+  },
+  "osm-wok-king-w1110607357": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-wurst-n7036891924": {
+   "why": "image HTTP 404 image/png",
+   "checked": "2026-10-20"
+  },
+  "osm-yalla-yalla-n11049255677": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-yammi-yammi-n6780960089": {
+   "why": "homepage HTTP 202",
+   "checked": "2026-10-20"
+  },
+  "osm-yibei-tea-n11592816516": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "osm-yo-s-place-n1532794999": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "osm-yoghito-n1972626123": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "osm-yucca-n12702903289": {
+   "why": "logo-like file name (https://www.vek.be/web/image/3276-407784cb/Yucca%20logo2.png)",
+   "checked": "2026-10-20"
+  },
+  "osm-yugen-kombucha-n7628215325": {
+   "why": "logo-like file name (https://yugendrinks.com/cdn/shop/files/yugendrinks_logo_d9d6dcec-2065-4495-8f70-4b02aaca5333.svg?v=1763145514)",
+   "checked": "2026-10-20"
+  },
+  "osm-zuru-zuru-ramen-n11688398600": {
+   "why": "not landscape (2000x3932)",
+   "checked": "2026-10-20"
+  },
+  "patyntje": {
+   "why": "too small (240x240)",
+   "checked": "2026-10-20"
+  },
+  "peaberry-coffeebar": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "porter-house": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.porterhousegent.be/opengraph-image"
+  },
+  "publiek": {
+   "why": "flat image, likely a logo/graphic (sd 10)",
+   "checked": "2026-10-20"
+  },
+  "pulpo": {
+   "why": "too small (698x631)",
+   "checked": "2026-10-20"
+  },
+  "raaf": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "rizoom": {
+   "why": "not landscape (2500x2500)",
+   "checked": "2026-10-20"
+  },
+  "roar-gent": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "sakas": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "sensum": {
+   "why": "too small (405x10)",
+   "checked": "2026-10-20"
+  },
+  "shamrock-irish-bar": {
+   "why": "error: SSLError",
+   "checked": "2026-10-20"
+  },
+  "smorbrod": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://smorbrod.gent/cdn/shop/files/SMORBROD_licht_met-slogan_8c6206a3-6eaa-4b7e-8549-0925d484eab5.png?height=628&pad_color=ffffff&v=1630607050&width=1200"
+  },
+  "steendam-66": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "t-dreupelkot": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "t-galgenhuisje": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "take-five-voldersstraat": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "tds": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://tdscoffee.be/wp-content/uploads/2026/08/tds-social-image.png"
+  },
+  "the-bakery-joost-arijs": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "the-celtic-towers": {
+   "why": "image HTTP 404 text/html; charset=UTF-8",
+   "checked": "2026-10-20"
+  },
+  "trattoria-della-mamma": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "trollekelder": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "vandekerckhove-bar": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://vandekerckhove1854.be/media/17/c4/bd/1763124946/Vandekerckhove-oranje@3x.png?ts=1763124946"
+  },
+  "vrijmoed": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "waterhuis-aan-de-bierkant": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-20"
+  },
+  "way-bakery-keizerpoort": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.way.gent/cdn/shop/files/Meta_Description_website_-_1200_x_628_px.jpg?v=1753809497"
+  },
+  "way-dok-noord": {
+   "why": "manual review: logo / wordmark, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.way.gent/cdn/shop/files/Meta_Description_website_-_1200_x_628_px.jpg?v=1753809497"
+  },
+  "wild-child": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  },
+  "yalo": {
+   "why": "manual review: poster / graphic / ad, not a photo of the place",
+   "checked": "2026-10-20",
+   "url": "https://www.yalohotel.com/wp-content/uploads/2021/08/yalo-share-image.png"
+  },
+  "yusu": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/68ca965b7164fc26da7dff24/t/68dbd0c4e650b237f2c9e45f/1759236292199/Logo+finaal+2.png?format=1500w)",
+   "checked": "2026-10-20"
+  },
+  "zeppos-vlasmarkt": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-20"
+  }
+ }
+}

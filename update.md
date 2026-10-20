@@ -59,6 +59,16 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    dropped automatically: a match there prints `WARNING … looks like chain` — decide by hand. Don't add chain openings to `gent-upcoming.json`.
 4e. **Veggie / vegan layer** – `python3 scripts/veggie_layer.py gent` after every import; weekly follow `scripts/VEGGIE_CHECK.md`
    (refresh HappyCow, verify every 100% vegan / vegetarian place on its own site, add press finds). Never guess a level.
+4g. **Hero photos** (monthly, and after each OSM import) – `python3 scripts/fetch_hero_images.py gent --browser-check` (new places only; `--refresh` re-checks all).
+   Reads each place's own homepage `og:image` / `twitter:image` (what the business publishes for sharing), checks it (HTTPS, image, ≥ 800 px wide, landscape,
+   not a logo / icon / flat graphic, loads as a hotlinked `<img>` in Chrome) and stores only the URL in `data/cities/gent-heroes.json`. Images are hotlinked
+   (`referrerpolicy="no-referrer"`) with a "Photo: <domain>" credit, never downloaded or rehosted. Then `--sheet` → look at `/tmp/hero-sheet-*.png` and add
+   logos / posters / screenshots / spam to `data/osm/hero-review.json` (re-run to apply). Hero order on a detail page: free-licence photo → website og:image →
+   first Instagram photo post (official embed, scaled and clipped, credit @handle) → monogram. A broken hotlink falls back automatically.
+4h. **Breakfast & brunch** – `python3 scripts/merge_breakfast.py gent` after every OSM import and whenever `/workspace/handoff/gent-breakfast-research.json`
+   is updated (or `--handoff=path`). Sourced research values win over OSM tags (`breakfast=yes`, `brunch=yes`, `cuisine=…breakfast…`); nothing is guessed.
+   "Opens early" on the site is computed from sourced opening hours (≤ 10:00) and is always shown as a fact ("Opens at 08:00"), never as "serves breakfast".
+   'missing' places from the handoff are only added with name, address, coordinates, group and source.
 4f. **Closure spot-check** (monthly) – sample 40 random OSM places, check own site / recent listings, record in `data/osm/spotcheck-<date>.json`;
    closed places: fix in OSM (or add `"status": "closed"` via corrections) and re-import.
 5. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.
