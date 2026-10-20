@@ -37,6 +37,15 @@
    "hash": "aab247cda2d4",
    "checked": "2026-10-20"
   },
+  "frou-frou": {
+   "url": "https://froufrou.gent/uploads/site-assets/_1200x630_crop_center-center_82_none/Froufrou-2-2.JPG?mtime=1596747800",
+   "source": "https://froufrou.gent/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "286d3f6aaaf6",
+   "checked": "2026-10-20"
+  },
   "joost-arijs": {
    "url": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092",
    "source": "https://joostarijs.be/",
@@ -431,15 +440,6 @@
    "w": 1200,
    "h": 630,
    "hash": "5e8214d8818b",
-   "checked": "2026-10-20"
-  },
-  "osm-mister-spaghetti-n1212139210": {
-   "url": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg",
-   "source": "https://www.mister-spaghetti.com/locaties/gent/",
-   "type": "og:image",
-   "w": 1879,
-   "h": 1250,
-   "hash": "aa4fb3323cb1",
    "checked": "2026-10-20"
   },
   "osm-morgen-bakkerij-n12345668083": {
@@ -2606,6 +2606,11 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
+  "osm-mister-spaghetti-n1212139210": {
+   "why": "does not load as hotlinked <img> in Chrome (CORP / hotlink protection)",
+   "checked": "2026-10-20",
+   "url": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg"
+  },
   "osm-misterioso-n13787972887": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -3597,6 +3602,10 @@
   },
   "the-celtic-towers": {
    "why": "image HTTP 404 text/html; charset=UTF-8",
+   "checked": "2026-10-20"
+  },
+  "the-kitchen-1898-the-post": {
+   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "trattoria-della-mamma": {

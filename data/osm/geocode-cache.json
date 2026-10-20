@@ -1,0 +1,12 @@
+{
+ "Graslei 16, 9000 Gent": {
+  "lat": 51.054138,
+  "lng": 3.720935,
+  "geoSource": "OpenStreetMap Nominatim"
+ },
+ "Terneuzenlaan 5, 9000 Gent": {
+  "lat": 51.070828,
+  "lng": 3.729969,
+  "geoSource": "OpenStreetMap Nominatim"
+ }
+}

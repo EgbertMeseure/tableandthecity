@@ -1,0 +1,14 @@
+{
+ "about": "Own checks on the place's own website (20 Oct 2026), used by scripts/merge_breakfast.py with the same precedence as the research handoff.",
+ "places": {
+  "the-kitchen-1898-the-post": {
+   "breakfast": {"value": true, "source": "https://www.1898thepost.com/the-kitchen", "note": "Own site: breakfast 'available for everyone, but guests are given priority'; reserve by 11 PM the night before."},
+   "breakfastHours": {"value": "Mon–Fri 7:00–11:00 · Sat–Sun 8:00–12:00", "source": "https://www.1898thepost.com/the-kitchen"}
+  },
+  "frou-frou": {
+   "breakfast": {"value": true, "source": "https://froufrou.gent/", "note": "Own site: breakfast formulas and a multi-course brunch at weekends; closed in the winter months."},
+   "brunch": {"value": true, "source": "https://froufrou.gent/", "note": "Own site: 'Brunch is what we do best!' — weekends; closed in the winter months."},
+   "brunchDays": {"value": "weekends (in season; closed in winter)", "source": "https://froufrou.gent/"}
+  }
+ }
+}

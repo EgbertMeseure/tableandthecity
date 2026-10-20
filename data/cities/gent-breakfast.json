@@ -1,66 +1,527 @@
 {
  "about": "Breakfast / brunch per place: research handoff (own site, menu, press cross-checked) over explicit OpenStreetMap tags. Built by scripts/merge_breakfast.py. Never guessed.",
- "handoff": null,
+ "handoff": "/workspace/handoff/gent-breakfast-research.json",
  "places": {
+  "a-food-affair": {
+   "breakfast": {
+    "value": false,
+    "source": "https://afoodaffair.be/contact/"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://afoodaffair.be/contact/"
+   }
+  },
+  "bakker-klaas-wintercircus": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.bakkerklaas.be/"
+   }
+  },
   "bar-bidon": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/2514860360",
-    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast"
+    "source": "https://visit.gent.be/nl/eten-drinken/bar-bidon"
+   }
+  },
+  "bask": {
+   "breakfast": {
+    "value": false,
+    "source": "https://bask.be/praktisch"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://bask.be/praktisch"
+   }
+  },
+  "cafe-copines": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/anke-27-en-marie-28-openen-hun-eigen-brunch-en-koffiebar-idee-ontstond-tijdens-te-lange-koffiepauzes-in-onze-studententijd/138798748.html"
+   }
+  },
+  "cafe-gitane": {
+   "breakfast": {
+    "value": false,
+    "source": "https://visit.gent.be/nl/eten-drinken/cafe-gitane"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://visit.gent.be/nl/eten-drinken/cafe-gitane"
+   }
+  },
+  "cafe-recup-gent": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.caferecup.eu/menu"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.caferecup.eu/"
+   }
+  },
+  "charlatan": {
+   "breakfast": {
+    "value": false,
+    "source": "https://visit.gent.be/nl/eten-drinken/charlatan"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://visit.gent.be/nl/eten-drinken/charlatan"
+   }
+  },
+  "de-rave": {
+   "breakfast": {
+    "value": false,
+    "source": "https://restaurantderave.be/contact"
+   }
+  },
+  "debra": {
+   "breakfast": {
+    "value": false,
+    "source": "https://debragent.be"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://debragent.be"
+   }
+  },
+  "elders": {
+   "breakfast": {
+    "value": true,
+    "source": "https://visit.gent.be/nl/eten-drinken/elders"
+   },
+   "breakfastHours": {
+    "value": "Sunday (during the Van Beverenplein market)",
+    "source": "https://visit.gent.be/nl/eten-drinken/elders"
+   }
+  },
+  "fari": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.hln.be/gent/net-open-sultan-31-en-lindsey-31-openen-na-rumi-hun-tweede-zaak-fari-ontbijt-en-lunch-met-invloeden-uit-alle-hoeken-van-de-wereld~a0509540/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.farigent.com/menus"
+   },
+   "brunchDays": {
+    "value": "all day during opening hours (Wed–Sun 9:00–15:00)",
+    "source": "https://www.hln.be/gent/net-open-sultan-31-en-lindsey-31-openen-na-rumi-hun-tweede-zaak-fari-ontbijt-en-lunch-met-invloeden-uit-alle-hoeken-van-de-wereld~a0509540/"
+   }
+  },
+  "ferri": {
+   "breakfast": {
+    "value": false,
+    "source": "https://visit.gent.be/nl/eten-drinken/ferri"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://visit.gent.be/nl/eten-drinken/ferri"
+   }
+  },
+  "frou-frou": {
+   "breakfast": {
+    "value": true,
+    "source": "https://froufrou.gent/",
+    "note": "Own site: breakfast formulas and a multi-course brunch at weekends; closed in the winter months."
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://froufrou.gent/",
+    "note": "Own site: 'Brunch is what we do best!' — weekends; closed in the winter months."
+   },
+   "brunchDays": {
+    "value": "weekends (in season; closed in winter)",
+    "source": "https://froufrou.gent/"
+   }
+  },
+  "il-mezzogiorno": {
+   "breakfast": {
+    "value": false,
+    "source": "https://www.ilmezzogiorno.be/info/"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://www.ilmezzogiorno.be/info/"
+   }
+  },
+  "julies-house": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.julieshouse.be/"
+   },
+   "breakfastHours": {
+    "value": "Fri–Sun (daily during school holidays)",
+    "source": "https://www.julieshouse.be/en_GB/reserveren"
+   }
+  },
+  "koffeine": {
+   "breakfast": {
+    "value": true,
+    "source": "https://visit.gent.be/nl/eten-drinken/koffeine"
+   }
+  },
+  "le-jeu-est-jambon": {
+   "breakfast": {
+    "value": false,
+    "source": "https://www.lejeujambon.be/"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://www.lejeujambon.be/"
+   }
+  },
+  "lof": {
+   "breakfast": {
+    "value": false,
+    "source": "https://lofrestaurant.com"
+   }
+  },
+  "madam-bakster": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.madambakster.be/reserveren"
+   },
+   "brunchDays": {
+    "value": "Wed–Sun, reservation in 2-hour shifts (e.g. 10:00–12:00)",
+    "source": "https://www.madambakster.be/reserveren"
+   }
+  },
+  "or-coffee-lab-gent": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.orcoffee.be/pages/or-coffee-labs"
+   },
+   "breakfastHours": {
+    "value": "all day",
+    "source": "https://www.orcoffee.be/pages/or-coffee-labs"
    }
   },
   "osm-agrea-n1212134080": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/1212134080",
-    "note": "OpenStreetMap: cuisine=tea;breakfast"
+    "source": "https://www.openstreetmap.org/node/1212134080"
+   }
+  },
+  "osm-alberto-expresso-n12563401136": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.albertoexpresso.com/menuenglish"
+   }
+  },
+  "osm-alice-n4258187836": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.alice-gent.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.alice-gent.be/"
+   },
+   "brunchDays": {
+    "value": "Sun buffet 9:00–11:45 or 12:00–14:30",
+    "source": "https://www.alice-gent.be/"
+   },
+   "breakfastHours": {
+    "value": "Tue–Sat 9:00–12:00 (not Sun)",
+    "source": "https://www.alice-gent.be/"
+   }
+  },
+  "osm-alix-w215083227": {
+   "brunch": {
+    "value": true,
+    "source": "https://alix.gent/en/services/brunch/"
+   },
+   "brunchDays": {
+    "value": "Sat from 10:00, Sun from 9:30 (buffet)",
+    "source": "https://alix.gent/en/services/brunch/"
+   }
+  },
+  "osm-amfora-n2273855341": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.amfora-gent.com/"
+   }
+  },
+  "osm-amour-n5428846934": {
+   "brunch": {
+    "value": false,
+    "source": "https://www.amourgent.be/"
+   }
+  },
+  "osm-bakker-klaas-n5515898234": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.bakkerklaas.be/"
+   }
+  },
+  "osm-bistro-baziel-n9741063665": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.bistrobaziel.be/"
+   }
+  },
+  "osm-bistro-jeanne-n10277884384": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.bistrojeanne.be/"
    }
   },
   "osm-bloom-table-n14230351176": {
    "brunch": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/14230351176",
-    "note": "OpenStreetMap: cuisine=sushi;brunch"
+    "source": "https://www.openstreetmap.org/node/14230351176"
+   }
+  },
+  "osm-bodega-n5822374282": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.bodega.gent/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.bodega.gent/"
+   },
+   "brunchDays": {
+    "value": "Sun",
+    "source": "https://www.bodega.gent/"
    }
   },
   "osm-boekee-garni-n11123595450": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/11123595450",
-    "note": "OpenStreetMap: cuisine=breakfast;lunch;dessert"
+    "source": "https://www.boekeegarni.be/"
+   },
+   "breakfastHours": {
+    "value": "09:00–10:30",
+    "source": "https://www.boekeegarni.be/"
+   }
+  },
+  "osm-boekjes-en-koekjes-n12583044844": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.boekjesenkoekjesgent.be/contact"
+   }
+  },
+  "osm-boon-n5569907420": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.boon.gent"
+   },
+   "breakfastHours": {
+    "value": "Mon–Fri 9:30–11:30",
+    "source": "https://www.boon.gent"
    }
   },
   "osm-borek-simit-huis-n11613223411": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/11613223411",
-    "note": "OpenStreetMap: cuisine=breakfast"
+    "source": "https://www.openstreetmap.org/node/11613223411"
+   }
+  },
+  "osm-brasserie-nanou-n13325635488": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.brasserienanou.be"
+   }
+  },
+  "osm-brasserie-onglet-w289225387": {
+   "breakfast": {
+    "value": true,
+    "source": "https://brasserieonglet.be/kaart/"
+   },
+   "breakfastHours": {
+    "value": "first Sunday of the month",
+    "source": "https://brasserieonglet.be/kaart/"
    }
   },
   "osm-buongiorno-n4488600996": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/4488600996",
-    "note": "OpenStreetMap: cuisine=coffee_shop;sandwich;breakfast"
+    "source": "https://www.openstreetmap.org/node/4488600996"
+   }
+  },
+  "osm-cafe-cannelle-n4304704573": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.cafecannelle.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.cafecannelle.be/"
+   }
+  },
+  "osm-cafe-contraire-n12384960128": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.cafecontraire.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.cafecontraire.be/"
+   },
+   "brunchDays": {
+    "value": "Sun (by reservation)",
+    "source": "https://www.cafecontraire.be/"
+   },
+   "breakfastHours": {
+    "value": "Tue–Sat",
+    "source": "https://www.cafecontraire.be/"
+   }
+  },
+  "osm-cafe-merino-n3967079259": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.cafemerino.be/menu-merino-11-3-2025"
+   },
+   "brunchDays": {
+    "value": "Sun 10:00–13:00",
+    "source": "https://www.cafemerino.be/menu-merino-11-3-2025"
+   }
+  },
+  "osm-cafetaria-aula-n6404585900": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusaula.htm"
+   }
+  },
+  "osm-cafetaria-blandijn-n6404585899": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusboekentoren.htm"
+   }
+  },
+  "osm-cafetaria-campus-uz-gent-n6404585902": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusuzgent.htm"
+   }
+  },
+  "osm-cafetaria-ledeganck-n6404585898": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariacampusledeganck.htm"
+   }
+  },
+  "osm-catberry-n10295133531": {
+   "breakfast": {
+    "value": true,
+    "source": "https://catberry.be/"
+   }
+  },
+  "osm-catberry-n1491174588": {
+   "breakfast": {
+    "value": true,
+    "source": "https://catberry.be/"
+   }
+  },
+  "osm-cocotine-n6356381196": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.cocotinecoffee.be/"
+   }
+  },
+  "osm-cozette-n12702545500": {
+   "breakfast": {
+    "value": true,
+    "source": "https://cozette.gent/"
+   },
+   "breakfastHours": {
+    "value": "Mon–Sat 9:00–11:00",
+    "source": "https://cozette.gent/"
+   }
+  },
+  "osm-dali-restaurant-n11398726824": {
+   "breakfast": {
+    "value": true,
+    "source": "https://restaurant-dali.be/"
+   }
+  },
+  "osm-de-bergen-n12870153846": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.debergen.gent/"
+   },
+   "breakfastHours": {
+    "value": "Mon–Sat 9:00–11:00",
+    "source": "https://www.debergen.gent/"
    }
   },
   "osm-de-honger-n13788134806": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/13788134806",
-    "note": "OpenStreetMap: cuisine=breakfast;coffee_shop;tea"
+    "source": "https://www.openstreetmap.org/node/13788134806"
+   }
+  },
+  "osm-de-kokmadam-eetbar-n14065917962": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.hln.be/gent/pieter-en-celine-openen-nieuwe-brunch-en-broodjesbar-op-coupure-ik-droom-hier-al-10-jaar-van~a48d2ead/"
+   }
+  },
+  "osm-de-mokke-n6434031888": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.demokke.be/eten"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.demokke.be/eten"
    }
   },
   "osm-desayuno-n2105506242": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/2105506242",
-    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;brunch"
+    "source": "https://www.desayunogent.com/"
    },
    "brunch": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/2105506242",
-    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;brunch"
+    "source": "https://www.desayunogent.com/"
+   },
+   "breakfastHours": {
+    "value": "all day (Mon–Wed & Fri 7:00–17:30, Sat–Sun 9:00–15:00, Thu closed)",
+    "source": "https://www.desayunogent.com/contact-5"
+   }
+  },
+  "osm-et-alors-n1212154982": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.etalors-cafe.be/review"
+   },
+   "brunchDays": {
+    "value": "weekend",
+    "source": "https://www.etalors-cafe.be/review"
+   }
+  },
+  "osm-foodbar-jef-n13672598745": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.foodbar-jef.be"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.foodbar-jef.be"
+   },
+   "brunchDays": {
+    "value": "Sun",
+    "source": "https://www.foodbar-jef.be"
+   }
+  },
+  "osm-freddie-n12684199822": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.freddiekoffie.com/"
+   }
+  },
+  "osm-ganzerik-w451731257": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.ganzerik.be"
+   },
+   "brunchDays": {
+    "value": "Sun",
+    "source": "https://www.ganzerik.be"
    }
   },
   "osm-giri-n1616705163": {
@@ -71,74 +532,391 @@
    },
    "brunch": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/1616705163",
-    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;brunch"
+    "source": "https://giri.be/"
+   },
+   "brunchDays": {
+    "value": "Sat–Sun 09:30–14:45",
+    "source": "https://giri.be/"
+   }
+  },
+  "osm-gust-n11223538737": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.gustgent.be"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.gustgent.be/english"
+   },
+   "brunchDays": {
+    "value": "daily 9:00–14:00 (weekend: multi-course brunch menu)",
+    "source": "https://www.gustgent.be/english"
+   }
+  },
+  "osm-ha-n1856827457": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.brasserieha.be/"
+   },
+   "breakfastHours": {
+    "value": "Sun 09:00–12:00 (breakfast buffet)",
+    "source": "https://www.brasserieha.be/"
+   }
+  },
+  "osm-haddok-n12404695490": {
+   "breakfast": {
+    "value": true,
+    "source": "https://haddok.gent/menu/"
+   },
+   "breakfastHours": {
+    "value": "09:00–11:00",
+    "source": "https://haddok.gent/menu/"
+   }
+  },
+  "osm-hattis-ontbijthuis-n9809286018": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.openstreetmap.org/node/9809286018"
+   }
+  },
+  "osm-hola-food-n5856007887": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.holafood.be/"
+   }
+  },
+  "osm-hola-food-n7004497033": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.holafood.be/"
    }
   },
   "osm-house-of-waffles-n13310397201": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/13310397201",
-    "note": "OpenStreetMap: cuisine=breakfast;coffee_shop;pancake"
+    "source": "https://www.openstreetmap.org/node/13310397201"
    }
   },
   "osm-jacqueline-n1349508971": {
    "brunch": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/1349508971",
-    "note": "OpenStreetMap: cuisine=brunch;lunch;apéro;specialty_coffee"
+    "source": "https://www.jacquelinegent.be/"
+   },
+   "breakfast": {
+    "value": true,
+    "source": "https://www.jacquelinegent.be/"
+   }
+  },
+  "osm-jaggers-w102713996": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.jaggers.gent/nl/menu"
+   }
+  },
+  "osm-jose-n13350697189": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.xn--jos-dma.be"
+   }
+  },
+  "osm-julie-s-house-n4678136994": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.julieshouse.be/"
+   },
+   "breakfastHours": {
+    "value": "Fri–Sun (daily during school holidays)",
+    "source": "https://www.julieshouse.be/en_GB/reserveren"
+   }
+  },
+  "osm-kaffee-allez-n12625884854": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.kaffeeallez.be/"
+   }
+  },
+  "osm-kaffee-change-n12941952165": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.kaffeechange.be"
+   },
+   "breakfastHours": {
+    "value": "8:30–12:00",
+    "source": "https://www.kaffeechange.be"
+   }
+  },
+  "osm-kaffie-is-kaffie-vzw-n12985197902": {
+   "breakfast": {
+    "value": true,
+    "source": "https://kaffieiskaffie.be/over-ons"
+   }
+  },
+  "osm-knol-kool-n12148408793": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.knolkool.com/"
+   }
+  },
+  "osm-koeketiene-n11146607054": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.koeketienegent.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.koeketienegent.be/"
+   },
+   "brunchDays": {
+    "value": "Thu–Sun",
+    "source": "https://www.koeketienegent.be/"
+   }
+  },
+  "osm-kona-n13695702160": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.kona-gent.be"
+   }
+  },
+  "osm-krookcafe-n6532421427": {
+   "breakfast": {
+    "value": true,
+    "source": "https://visit.gent.be/nl/eten-drinken/krookcafe"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://visit.gent.be/nl/eten-drinken/krookcafe"
+   },
+   "brunchDays": {
+    "value": "daily until 15:30",
+    "source": "https://visit.gent.be/nl/eten-drinken/krookcafe"
+   }
+  },
+  "osm-krunch-n12708121938": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.krunch.gent/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.krunch.gent/"
+   }
+  },
+  "osm-la-belle-histoire-n11703605271": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.bellehistoire.be/"
+   },
+   "breakfastHours": {
+    "value": "from 9:00",
+    "source": "https://www.bellehistoire.be/"
+   }
+  },
+  "osm-lloyd-coffee-eatery-n11154588568": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.lloydcoffee.com"
+   }
+  },
+  "osm-luv-l-oeuf-n5918300538": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.luvloeuf.com"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.luvloeuf.com"
+   },
+   "breakfastHours": {
+    "value": "Tue–Sun 9:00–15:00 (all-day breakfast)",
+    "source": "https://www.luvloeuf.com"
+   }
+  },
+  "osm-maison-elza-n1616705129": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.maisonelza.be/"
+   }
+  },
+  "osm-martens-n1314094556": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.martens-gent.be/"
+   }
+  },
+  "osm-midtown-grill-n5276097616": {
+   "breakfast": {
+    "value": true,
+    "source": "https://visit.gent.be/nl/eten-drinken/marriott-ghent-restaurant"
    }
   },
   "osm-mimosa-n11697848804": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/11697848804",
-    "note": "OpenStreetMap: cuisine=brunch;breakfast"
+    "source": "https://www.openstreetmap.org/node/11697848804"
    },
    "brunch": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/11697848804",
-    "note": "OpenStreetMap: cuisine=brunch;breakfast"
+    "source": "https://www.openstreetmap.org/node/11697848804"
+   }
+  },
+  "osm-minty-plus-n13957813953": {
+   "breakfast": {
+    "value": true,
+    "source": "https://mintyplus.be/"
    }
   },
   "osm-modest-n10882821305": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/10882821305",
-    "note": "OpenStreetMap: cuisine=breakfast"
+    "source": "https://modestgent.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://modestgent.be/reserveer/"
+   },
+   "brunchDays": {
+    "value": "Mon–Sat 9:00–16:00 (à la carte or brunch); Sun fixed brunch menu, shifts 9:00, 11:30, 14:00 (reservation required)",
+    "source": "https://modestgent.be/reserveer/"
+   }
+  },
+  "osm-nesto-n13270651417": {
+   "breakfast": {
+    "value": true,
+    "source": "https://nestogent.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://nestogent.be/"
+   },
+   "brunchDays": {
+    "value": "all day",
+    "source": "https://nestogent.be/"
+   }
+  },
+  "osm-noon-s-zusje-n12484933964": {
+   "breakfast": {
+    "value": true,
+    "source": "https://noonsandwicherie.be/noon-s-zusje"
+   },
+   "breakfastHours": {
+    "value": "all day",
+    "source": "https://noonsandwicherie.be/noon-s-zusje"
+   }
+  },
+  "osm-norma-n12712573951": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.normagent.com/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.normagent.com/menu"
+   },
+   "brunchDays": {
+    "value": "09:00–14:30 (opening days)",
+    "source": "https://www.normagent.com/menu"
    }
   },
   "osm-o-yo-n10885912444": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/10885912444",
-    "note": "OpenStreetMap: cuisine=breakfast;brunch"
+    "source": "https://www.oyobar.be"
    },
    "brunch": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/10885912444",
-    "note": "OpenStreetMap: cuisine=breakfast;brunch"
+    "source": "https://www.oyobar.be"
+   }
+  },
+  "osm-o-yo-n5247946071": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.oyobar.be"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.oyobar.be"
    }
   },
   "osm-odil-n11305200343": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/11305200343",
-    "note": "OpenStreetMap: cuisine=breakfast;lunch;coffee_shop"
+    "source": "https://www.odilgent.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.odilgent.be/"
    }
   },
   "osm-pagos-n4907557926": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/4907557926",
-    "note": "OpenStreetMap: cuisine=breakfast;coffee_shop"
+    "source": "https://visit.gent.be/nl/eten-drinken/pagos"
    }
   },
   "osm-pain-perdu-n2773666260": {
    "brunch": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/2773666260",
-    "note": "OpenStreetMap: cuisine=brunch"
+    "source": "https://visit.gent.be/nl/eten-drinken/pain-perdu"
+   },
+   "breakfast": {
+    "value": true,
+    "source": "https://visit.gent.be/nl/eten-drinken/pain-perdu"
+   }
+  },
+  "osm-plus-n5936452586": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.plus.gent/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.plus.gent/"
+   },
+   "brunchDays": {
+    "value": "daily (\"Everyday is brunch day\")",
+    "source": "https://www.plus.gent/"
+   }
+  },
+  "osm-restaurant-cocotte-n12772643014": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.restaurantcocottegent.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.restaurantcocottegent.be/"
+   },
+   "brunchDays": {
+    "value": "Sun & holidays 12:30–15:30",
+    "source": "https://www.restaurantcocottegent.be/"
+   },
+   "breakfastHours": {
+    "value": "daily 7:00–10:30; late breakfast Sat, Sun & holidays 11:00–13:00",
+    "source": "https://www.restaurantcocottegent.be/"
+   }
+  },
+  "osm-resto-leo-n13355672924": {
+   "breakfast": {
+    "value": true,
+    "source": "https://restoleo.be/over-leo/"
+   },
+   "breakfastHours": {
+    "value": "Mon–Fri 8:00–10:30",
+    "source": "https://restoleo.be/over-leo/"
+   }
+  },
+  "osm-rokkebolle-n4456452819": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.rokkebolle.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.rokkebolle.be/contact"
+   },
+   "brunchDays": {
+    "value": "weekend",
+    "source": "https://www.rokkebolle.be/"
    }
   },
   "osm-souplicious-n8957993745": {
@@ -148,20 +926,272 @@
     "note": "OpenStreetMap: cuisine=lunch;sandwich;soep;breakfast"
    }
   },
+  "osm-stamcafe-n1882787678": {
+   "breakfast": {
+    "value": true,
+    "source": "https://stamgent.be/nl_be/bezoek-het-stam/stamcaf%C3%A9"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://stamgent.be/nl_be/bezoek-het-stam/stamcaf%C3%A9"
+   }
+  },
+  "osm-stek-n6828901282": {
+   "breakfast": {
+    "value": true,
+    "source": "https://stekgent.be"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://stekgent.be"
+   },
+   "breakfastHours": {
+    "value": "Mon–Sat 9:00–16:00 (Sun closed)",
+    "source": "https://stekgent.be"
+   }
+  },
+  "osm-studentencafetaria-de-brug-n4258301746": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/cafetarias/cafetariadebrug.htm"
+   }
+  },
+  "osm-studentenresto-ardoyen-n4130825680": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restoardoyen.htm"
+   }
+  },
+  "osm-studentenresto-de-brug-n3699071712": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restodebrug.htm"
+   }
+  },
+  "osm-studentenresto-dunant-n6404585903": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restocampusdunant.htm"
+   }
+  },
+  "osm-studentenresto-s5-n3752879366": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.ugent.be/student/nl/meer-dan-studeren/resto/restos/restocampussterre.htm"
+   }
+  },
+  "osm-take-five-n10267858018": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.take-five-espressobar.be/our-locations-menu"
+   }
+  },
+  "osm-tante-paula-n5618349224": {
+   "breakfast": {
+    "value": true,
+    "source": "https://visit.gent.be/nl/eten-drinken/tante-paula"
+   }
+  },
+  "osm-tartelette-n9264478841": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.tartelette.be/"
+   }
+  },
   "osm-tom-dellas-n6574771220": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/6574771220",
-    "note": "OpenStreetMap: cuisine=coffee_shop;breakfast;salad;sandwich"
+    "source": "https://www.openstreetmap.org/node/6574771220"
+   }
+  },
+  "osm-touche-n11302184714": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.touchegent.be/"
+   },
+   "breakfastHours": {
+    "value": "Tue–Fri 8:30–17:00, Sat–Sun 9:00–17:00 (opening hours; breakfast by reservation)",
+    "source": "https://www.touchegent.be/"
+   }
+  },
+  "osm-vief-n12804094905": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.vief-healthyfastfood.be/food/breakfast-all-day-long"
+   },
+   "breakfastHours": {
+    "value": "all day",
+    "source": "https://www.vief-healthyfastfood.be/food/breakfast-all-day-long"
+   }
+  },
+  "osm-villa-anamma-n6795335875": {
+   "brunch": {
+    "value": true,
+    "source": "https://villa-anamma.be/info-villa-anamma/"
+   },
+   "brunchDays": {
+    "value": "Sun 09:30–14:00",
+    "source": "https://villa-anamma.be/info-villa-anamma/"
    }
   },
   "osm-wasbar-n1532795039": {
    "breakfast": {
     "value": true,
-    "source": "https://www.openstreetmap.org/node/1532795039",
-    "note": "OpenStreetMap: cuisine=bagel;breakfast;coffee_shop;sandwich"
+    "source": "https://www.wasbar.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.wasbar.be/"
+   }
+  },
+  "osm-wasbar-n6138202038": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.wasbar.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.wasbar.be/"
+   }
+  },
+  "osm-win-n12574625746": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.barwin.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.barwin.be/"
+   },
+   "brunchDays": {
+    "value": "Wed–Sun (reservation recommended)",
+    "source": "https://www.barwin.be/"
+   }
+  },
+  "osm-woest-n4863374603": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.woestgent.be/"
+   },
+   "brunchDays": {
+    "value": "weekend (brunch buffet)",
+    "source": "https://waterkant.gent/over-ons/"
+   }
+  },
+  "patrick-foleys": {
+   "brunch": {
+    "value": true,
+    "source": "https://www.foleys.be/"
+   },
+   "brunchDays": {
+    "value": "Sat–Sun 12:00–15:00",
+    "source": "https://www.foleys.be/"
+   }
+  },
+  "peaberry-coffeebar": {
+   "breakfast": {
+    "value": true,
+    "source": "https://peaberrycoffeebar.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://peaberrycoffeebar.be/"
+   },
+   "brunchDays": {
+    "value": "daily (\"All week long\"), extended breakfast/brunch menu 10:00–14:00",
+    "source": "https://peaberrycoffeebar.be/"
+   }
+  },
+  "raaf": {
+   "breakfast": {
+    "value": false,
+    "source": "https://raafgent.be"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://raafgent.be"
+   }
+  },
+  "sakas": {
+   "breakfast": {
+    "value": false,
+    "source": "https://sakaswintercircusbe.eu/contact"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://sakaswintercircusbe.eu/contact"
+   }
+  },
+  "smorbrod": {
+   "breakfast": {
+    "value": true,
+    "source": "https://smorbrod.gent/pages/koffiebar-menu"
+   }
+  },
+  "taberna-bask": {
+   "breakfast": {
+    "value": false,
+    "source": "https://tabernabask.be/faq"
+   },
+   "brunch": {
+    "value": false,
+    "source": "https://tabernabask.be/faq"
+   }
+  },
+  "take-five-voldersstraat": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.take-five-espressobar.be/our-locations-menu"
+   },
+   "breakfastHours": {
+    "value": "Mon–Fri from 8:30, Sat–Sun from 9:00; kitchen closes 14:00 (breakfast only, no lunch)",
+    "source": "https://www.take-five-espressobar.be/our-locations-menu"
+   }
+  },
+  "the-celtic-towers": {
+   "breakfast": {
+    "value": true,
+    "source": "https://celtictowers.be/menu/"
+   },
+   "breakfastHours": {
+    "value": "12:00–14:00",
+    "source": "https://celtictowers.be/menu/"
+   }
+  },
+  "the-kitchen-1898-the-post": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.1898thepost.com/the-kitchen",
+    "note": "Own site: breakfast 'available for everyone, but guests are given priority'; reserve by 11 PM the night before."
+   },
+   "breakfastHours": {
+    "value": "Mon–Fri 7:00–11:00 · Sat–Sun 8:00–12:00",
+    "source": "https://www.1898thepost.com/the-kitchen"
+   }
+  },
+  "yalo": {
+   "breakfast": {
+    "value": true,
+    "source": "https://yalohotel.com"
    }
   }
  },
- "missingNotAdded": []
+ "missingNotAdded": [
+  {
+   "name": "Le Pain Quotidien (Korenmarkt)",
+   "why": "big chain (Le Pain Quotidien), excluded"
+  },
+  {
+   "name": "The Kitchen (1898 The Post)",
+   "why": "already listed"
+  },
+  {
+   "name": "Frou Frou",
+   "why": "already listed"
+  },
+  {
+   "name": "Ruby's Lunchbar",
+   "why": "only a HappyCow listing — not verifiable beyond it"
+  }
+ ]
 }

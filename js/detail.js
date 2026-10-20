@@ -118,7 +118,7 @@
       ${r.website ? `<div><dt>Website</dt><dd><a href="${esc(r.website)}" target="_blank" rel="noopener">${esc(host(r.website))}</a></dd></div>` : ''}
       ${(isR(r) && !r.upcoming) || known(r.priceLevel) ? `<div><dt>Price</dt><dd>${priceTxt}</dd></div>` : ''}
       ${hours ? `<div><dt>Hours</dt><dd>${hours}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
-      ${MEALF.any ? `<div><dt>${MEALF.bf && MEALF.br ? 'Breakfast &amp; brunch' : MEALF.bf ? 'Breakfast' : 'Brunch'}</dt><dd>Yes${r.breakfastHours ? ` · breakfast ${esc(r.breakfastHours)}` : ''}${r.brunchDays ? ` · brunch ${esc(r.brunchDays)}` : ''}${(r.mealSources || []).length ? ` <span class="unk">(${[...new Set(r.mealSources)].map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' · ')})</span>` : ''}</dd></div>` : ''}
+      ${MEALF.any ? `<div><dt>${MEALF.bf && MEALF.br ? 'Breakfast &amp; brunch' : MEALF.bf ? 'Breakfast' : 'Brunch'}</dt><dd>Yes${r.breakfastHours ? ` · breakfast ${esc(r.breakfastHours)}` : ''}${r.brunchDays ? ` · brunch ${esc(r.brunchDays)}` : ''}${(r.mealSources || []).length ? ` <span class="unk">(${[...new Map(r.mealSources.map(u => [host(u), u])).entries()].map(([h, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(h)}</a>`).join(' · ')})</span>` : ''}</dd></div>` : ''}
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
     </dl>
     <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
