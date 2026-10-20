@@ -5,7 +5,8 @@
 
 1. --research: merges a researcher hand-off [{id,name,instagram_handle,handleSource,posts,ogImage,ogImageSource,note}] into
    `places` (handle verified from a linking page, post permalinks verified via oEmbed, og:image of the own site).
-   ⚠ PREVIEW: research entries carry "origin": "research (not yet approved)". The site applies them on top of <city>.json /
+   Research entries carry "origin": "research (approved <date>)" (first hand-off approved by the user 20 Oct 2026; review new hand-offs
+   before merging). The site applies them on top of <city>.json /
    <city>-osm.json: a handle replaces a missing/renamed one, posts are used only when a place has none, an og:image only when
    there is no hero yet (≥ 800 px wide, checked here). An og:image the note flags (logo, text overlay, render, chain promo, duplicate…)
    is left out and, as heroReject, also hidden when <city>-heroes.json has the same URL. instagram_handle null = "could not be confirmed" → no profile embed.
@@ -55,7 +56,7 @@ def merge_research(db, path):
         if x['id'] not in known: print('research: unknown id', x['id']); continue
         prev = db['places'].get(x['id'], {})
         e = {'name': x.get('name'), 'instagram_handle': x.get('instagram_handle'), 'handleSource': x.get('handleSource'),
-             'posts': [p for p in (x.get('posts') or []) if POST.match(p)], 'note': x.get('note'), 'origin': 'research (not yet approved)'}
+             'posts': [p for p in (x.get('posts') or []) if POST.match(p)], 'note': x.get('note'), 'origin': f'research (approved {TODAY})'}
         if x.get('ogImage') and OG_FLAG.search(x.get('note') or ''):
             e['ogImageRejected'] = f'{x["ogImage"]} (note flags it: {OG_FLAG.search(x["note"]).group(0)})'
             e['heroReject'] = x['ogImage']          # the site also drops this image when <city>-heroes.json has it
@@ -111,7 +112,7 @@ def main():
         hs = handles(db)
         check(db, [h for h in hs if OPT.get('--recheck') or h not in db['embed']])
     db = {'about': 'Instagram / photo layer for the site (scripts/build_instagram_layer.py). places: researched handles, verified post permalinks and own-site og:images '
-                   '(origin "research (not yet approved)" = preview only). embed: does https://www.instagram.com/<handle>/embed/ render the photo grid without a login '
+                   '(origin "research (approved <date>)"). embed: does https://www.instagram.com/<handle>/embed/ render the photo grid without a login '
                    '(headless Chrome, desktop UA, localhost origin). Nothing is downloaded or rehosted.',
           'places': dict(sorted(db['places'].items())), 'embed': dict(sorted(db['embed'].items()))}
     OUT.write_text(json.dumps(db, ensure_ascii=False, indent=1) + '\n')

@@ -70,6 +70,7 @@ def is_chain(t):
 
 
 FF_KEEP = ROOT / 'data' / 'osm' / 'keep-exceptions.json'
+NEVER_LIST = ROOT / 'data' / 'never-exclude.json'           # never shown, by OSM ref (student cafés etc. that never_kind() cannot see)
 CLOSED = ROOT / 'data' / 'osm' / 'closed.json'                 # permanently closed (sourced): skipped even while OSM still lists them
 ARTISAN = ROOT / 'data' / 'bakeries-artisan.json'            # artisan bakeries allowlist (keep / branchOf)
 
@@ -284,6 +285,7 @@ def main():
     art = json.loads(ARTISAN.read_text()) if ARTISAN.exists() else {'keep': {}, 'branchOf': {}}
     by_cid = {c['id']: c for c in curated}
     closed = json.loads(CLOSED.read_text())['places'] if CLOSED.exists() else {}
+    never_refs = json.loads(NEVER_LIST.read_text())['places'] if NEVER_LIST.exists() else {}
     closed_names = {norm_name(v['name']) for k, v in closed.items() if k.startswith('name:')}
     bk_pending = {}
     chains = Counter()
@@ -297,6 +299,7 @@ def main():
         if t.get('opening_hours', '').strip().lower() in ('closed', 'off') or t.get('opening_hours:covid19') == 'off' and False: skipped['closed'] += 1; continue
         if t.get('amenity') not in ('restaurant', 'cafe', 'bar', 'pub', 'biergarten', 'fast_food') and t.get('shop') not in ('bakery', 'pastry', 'coffee'): skipped['other'] += 1; continue
         if (ch := is_chain(t)): skipped['chain'] += 1; chains[ch] += 1; continue    # big chains stay off the site
+        if (nx := never_refs.get(f"{e['type']}/{e['id']}")): nk = nx.get('kind', 'student'); skipped[nk] += 1; never[nk].append(name); never_ids.add(f"osm-{slug(name)}-{e['type'][0]}{e['id']}"); continue
         if (nk := never_kind(t, name)): skipped[nk] += 1; never[nk].append(name); never_ids.add(f"osm-{slug(name)}-{e['type'][0]}{e['id']}"); continue   # no friteries / student restaurants, no exceptions
         if f"{e['type']}/{e['id']}" in closed or norm_name(name) in closed_names: skipped['closed'] += 1; continue
         lat, lng = (e['lat'], e['lon']) if e['type'] == 'node' else (e['center']['lat'], e['center']['lon'])

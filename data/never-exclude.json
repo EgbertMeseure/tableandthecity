@@ -1,0 +1,21 @@
+{
+ "about": "Places that are never shown, by OSM ref (user rule 20 Oct 2026: no friteries, no student / university cafés, cafeterias or restaurants). import_osm.py skips these OSM elements and merge_venues.py skips these venue ids, so they do not come back on re-import. Use this when the name/tags do not match never_kind() in import_osm.py.",
+ "places": {
+  "node/6799991952": {
+   "id": "pallieter",
+   "name": "Pallieter",
+   "kind": "student",
+   "reason": "student café: the Overpoort association lists it as \"Studentencafé Pallieter\" and its Instagram (@pallietergent) is named \"Studentencafé Pallieter\"",
+   "source": "https://www.overpoort-gent.be/lid-overpoort/pallieter/",
+   "added": "2026-10-20"
+  },
+  "node/6799991955": {
+   "id": "luxx",
+   "name": "LUXX",
+   "kind": "student",
+   "reason": "student café: the Overpoort association describes it as \"Studenten feest danscafé\"",
+   "source": "https://www.overpoort-gent.be/lid-overpoort/luxx/",
+   "added": "2026-10-20"
+  }
+ }
+}

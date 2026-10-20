@@ -58,7 +58,7 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    once more so newly confirmed places are picked up. Curated places are never dropped.
    **Never: friteries and student restaurants** (user decision 20 Oct 2026): friteries / frietkoten (name friet/frituur/fritkot/frites/chips, cuisine
    friture, or fries/chips fast food) and student / university cafeterias & restaurants (name student/cafetaria, or operator UGent / HoGent / hogeschool)
-   are dropped with NO veggie / breakfast exception (`never_kind()` in import_osm.py; last run's names in `data/osm/gent-never-excluded.json`). A curated
+   are dropped with NO veggie / breakfast exception (`never_kind()` in import_osm.py; last run's names in `data/osm/gent-never-excluded.json`). Student cafés whose name/tags don't say so (e.g. Overpoort "Studentencafé Pallieter", LUXX) go by OSM ref into `data/never-exclude.json` (with reason + source); the import and `merge_venues.py` skip them. A curated
    record that looks like one is printed as a WARNING: remove it by hand.
    **No generic cafés / coffee houses:** OSM pub/bar/biergarten that is not a dance café, brown café, Irish pub, cocktail bar or beer bar, and every
    `amenity=cafe` that is not specialty coffee, is dropped at import with the same exceptions (confirmed veggie level or breakfast/brunch, same keep file).

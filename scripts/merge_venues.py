@@ -52,7 +52,8 @@ def norm(v):
         'notes': ' '.join(x for x in [v.get('typeNote'), v.get('isNewNote'), v.get('featureNotes') if isinstance(v.get('featureNotes'), str) else None] if x) or None,
         'otherLocations': v.get('otherLocations'), 'origin': 'venues'}
 added = []; seen = set(ids)
-for v in V['venues'] + [n for n in V['new_businesses'] if not n.get('alsoInVenues')]:
+NEVER = {x.get('id') for x in json.load(open('data/never-exclude.json'))['places'].values()} if __import__('os').path.exists('data/never-exclude.json') else set()   # student cafés etc.: never shown
+for v in [x for x in V['venues'] + [n for n in V['new_businesses'] if not n.get('alsoInVenues')] if x.get('id') not in NEVER]:
     key = re.sub(r'\W', '', v['name'].lower())
     if v['id'] in seen or key in names: continue
     seen.add(v['id']); names.add(key); added.append(norm(v))

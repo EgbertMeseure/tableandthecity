@@ -51,7 +51,7 @@ Per restaurant (`data/cities/<city>.json`):
 - Gallery: Instagram posts, or the profile embed widget when there are no posts, plus the website og:image (tag "Website") and
   free-licence photos. Nothing → "Photos coming soon" (or a link tile to the profile when its embed does not render).
 - `data/cities/<city>-instagram.json` (`scripts/build_instagram_layer.py`): `places` = researched handles / post permalinks / og:images
-  (`origin: "research (not yet approved)"` — **preview branch only**; a researched handle replaces a missing or renamed one, null = not
+  (`origin: "research (approved 20 Oct 2026)"`; a researched handle replaces a missing or renamed one, null = not
   confirmed → no embed), `embed` = per handle whether the profile embed renders (`--check`, headless Chrome from 127.0.0.1).
   `python3 scripts/photo_coverage.py gent --missing=/workspace/handoff/gent-photos-missing.json` prints coverage and lists places still
   without a photo that have a website or handle.

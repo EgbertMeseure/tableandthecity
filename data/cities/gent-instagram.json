@@ -1,11 +1,11 @@
 {
- "about": "Instagram / photo layer for the site (scripts/build_instagram_layer.py). places: researched handles, verified post permalinks and own-site og:images (origin \"research (not yet approved)\" = preview only). embed: does https://www.instagram.com/<handle>/embed/ render the photo grid without a login (headless Chrome, desktop UA, localhost origin). Nothing is downloaded or rehosted.",
+ "about": "Instagram / photo layer for the site (scripts/build_instagram_layer.py). places: researched handles, verified post permalinks and own-site og:images (origin \"research (approved 20 Oct 2026)\"). embed: does https://www.instagram.com/<handle>/embed/ render the photo grid without a login (headless Chrome, desktop UA, localhost origin). Nothing is downloaded or rehosted.",
  "places": {
   "afsnis": {
    "name": "Afsnis",
    "instagram_handle": null,
    "note": "Unverified candidate @afsnis.gent (InTravel aggregator only); own site links only Facebook.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "alberte": {
    "name": "Alberte",
@@ -15,14 +15,14 @@
     "https://www.instagram.com/p/Cs5gVCvtIi8/"
    ],
    "note": "Own site links @bar_alberte. That account appears to have been renamed: posts embedded in articles as \"@bar_alberte\" (e.g. culinaireambiance.com) are now attributed by Instagram oEmbed to @alberte_gent, same author id. Post verified via Instagram oEmbed (author alberte_gent), dated 31 May 2023; shows the terrace. It was found embedded in marieclaire.be; no more recent verifiable post codes found.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "atelier-joost-arijs": {
    "name": "Atelier Joost Arijs",
    "instagram_handle": "joostarijs",
    "handleSource": "https://joostarijs.be/",
    "note": "Brand account shared by all Joost Arijs shops. og:image: Same brand-wide image as Joost Arijs (macarons).",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092 (note flags it: Same brand)",
    "heroReject": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092"
   },
@@ -31,7 +31,7 @@
    "instagram_handle": "baba.jacquet",
    "handleSource": "https://babajacquet.be/",
    "note": "og:image: Exterior/terrace photo.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://babajacquet.be/cdn/shop/files/2503_BABA-GENT-86_1_72ffb824-60ea-4744-a6ca-96fa74798aa7.jpg?v=1766159222",
     "source": "https://babajacquet.be/",
@@ -46,14 +46,14 @@
    "instagram_handle": "bakkerklaas.gent",
    "handleSource": "https://www.bakkerklaas.be/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "bar-bassie": {
    "name": "Bar Bassie",
    "instagram_handle": "barbassie.wintercircus",
    "handleSource": "https://barbassie.be/en",
    "note": "Also listed on Visit Gent. og:image: Interior image (may be a render or photo).",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://barbassie.be/og/cover.jpg (note flags it: render)",
    "heroReject": "https://barbassie.be/og/cover.jpg"
   },
@@ -62,79 +62,79 @@
    "instagram_handle": "barbidongent",
    "handleSource": "https://tiptoh.eu/blogs/our-baristas/bar-bidon",
    "note": "Own site unreachable; linked from the coffee roaster Tiptoh's profile of Bar Bidon (third party).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "bar-dada": {
    "name": "Bar Dada",
    "instagram_handle": "bar_dada_gent",
    "handleSource": "https://bardada.gent/",
    "note": "Also listed on Visit Gent. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "bianca": {
    "name": "Bianca",
    "instagram_handle": "biancagent.be",
    "handleSource": "https://www.biancagent.be/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "boutique-boissons": {
    "name": "Boutique & Boissons",
    "instagram_handle": null,
    "note": "Unverified candidate @boutique.et.boissons (InTravel aggregator only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "bovary": {
    "name": "Bovary",
    "instagram_handle": null,
    "note": "Unverified candidate @bovary.gent (search result only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-albatros": {
    "name": "Café Albatros",
    "instagram_handle": "cafe_albatros",
    "handleSource": "https://cafealbatros.be/",
    "note": "Also listed on Visit Gent.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-copines": {
    "name": "Café Copines",
    "instagram_handle": "cafe.copines.gent",
    "handleSource": "https://www.cafecopines.be/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-den-turk": {
    "name": "Café Den Turk",
    "instagram_handle": "cafedenturk",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/cafe-den-turk",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-folklore": {
    "name": "Café Folklore",
    "instagram_handle": null,
    "note": "No official account found (@folklorecafeofficial is not identifiable as this Gent café).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-gitane": {
    "name": "Café Gitane",
    "instagram_handle": null,
    "note": "Unverified candidate @gitane_gent (search result only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-labath": {
    "name": "Café Labath",
    "instagram_handle": "cafelabath",
    "handleSource": "https://www.cafelabath.com/",
    "note": "Brand account (Café Labath also has a separate Barcelona account, @cafelabath.bcn). Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-recup-gent": {
    "name": "Cafe Recup",
    "instagram_handle": "cafe.recup",
    "handleSource": "https://www.caferecup.eu/",
    "note": "Also listed on Visit Gent. og:image: Exterior photo.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg/v1/fill/w_2500,h_3750,al_c/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg",
     "source": "https://www.caferecup.eu/",
@@ -148,82 +148,82 @@
    "name": "Café Romain",
    "instagram_handle": "cafe_romain",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "cafe-ventura": {
    "name": "Café Ventura",
    "instagram_handle": "cafe_ventura",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/cafe-ventura",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "caracalla": {
    "name": "Caracalla",
    "instagram_handle": null,
    "note": "Unverified candidate @caracalla.restaurant (search result only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "charlatan": {
    "name": "Charlatan",
    "instagram_handle": null,
    "note": "No official handle verified: own site unreachable from our fetchers; Visit Gent lists none. Search suggested @charlatanlive, but that is a Canadian student newspaper.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "de-broodstokerij-gent": {
    "name": "De Broodstokerij",
    "instagram_handle": "de_broodstokerij",
    "handleSource": "https://www.debroodstokerij.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "de-dulle-griet": {
    "name": "De Dulle Griet",
    "instagram_handle": "dullegrietgent",
    "handleSource": "https://www.dullegriet.be/",
    "note": "Also listed on Visit Gent.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "de-geus-van-gent": {
    "name": "De Geus van Gent",
    "instagram_handle": null,
    "note": "Unverified candidate @geusvangent (search result only; Geuzenhuis page only gives the email geusvangent@gmail.com).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "de-maecht-van-ghent": {
    "name": "De Maecht van Ghent",
    "instagram_handle": "demaecht.be",
    "handleSource": "https://www.demaecht.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "de-viking": {
    "name": "De Viking",
    "instagram_handle": null,
    "note": "Unverified candidate @de.viking.gent (search result only); own site returned errors.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "de-woestijn": {
    "name": "De Woestijn",
    "instagram_handle": null,
    "note": "Candidate @dewoestijngent from our data could not be confirmed by any linking page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "decadance": {
    "name": "Decadance",
    "instagram_handle": "decadance.gent",
    "handleSource": "https://www.overpoort-gent.be/lid-overpoort/decadance/",
    "note": "Linked from the Overpoort Gent VZW member page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "fari": {
    "name": "Fari",
    "instagram_handle": "fari.gent",
    "handleSource": "https://www.farigent.com/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "fourth-wave": {
    "name": "Fourth Wave",
    "instagram_handle": "fourthwave.gent",
    "handleSource": "https://fourthwave.be/",
    "note": "Own site (fourthwave.be, not in our data) links it; Gault&Millau page agrees.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "frankies": {
    "name": "Frankies",
@@ -233,14 +233,14 @@
     "https://www.instagram.com/p/DaIx2Ffotzb/"
    ],
    "note": "Post verified via Instagram oEmbed (author frankiesgent), dated 28 Jun 2026; shows the storefront before opening. Other posts embedded on the own site were graphics or people-focused reels and were not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "frou-frou": {
    "name": "Frou Frou",
    "instagram_handle": "froufroubar",
    "handleSource": "https://froufrou.gent/",
    "note": "og:image: Interior photo.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://froufrou.gent/uploads/site-assets/_1200x630_crop_center-center_82_none/Froufrou-2-2.JPG?mtime=1596747800",
     "source": "https://froufrou.gent/",
@@ -254,47 +254,47 @@
    "name": "Full Circle Coffee",
    "instagram_handle": "fullcircleghent",
    "handleSource": "https://www.fullcircleghent.com/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "funke": {
    "name": "Funke",
    "instagram_handle": "funke.fu",
    "handleSource": "https://funke.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "goya-coffee": {
    "name": "Goya",
    "instagram_handle": "goya_coffee_gent",
    "handleSource": "https://www.goyacoffee.be/",
    "note": "Also listed on Visit Gent. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "het-spijker": {
    "name": "Het Spijker",
    "instagram_handle": "cafehetspijker",
    "handleSource": "https://www.hetspijker.be",
    "note": "Also listed on Visit Gent.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "himschoot": {
    "name": "Bakkerij Himschoot",
    "instagram_handle": null,
    "note": "Conflicting candidates: @himschootbakkerij (our data, search) vs @bakkerijhimschoot (InTravel); own site shows no Instagram link. Left unverified.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "jiggers": {
    "name": "Jigger's",
    "instagram_handle": "jiggers_coolersandcocktails",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/jiggers",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "joost-arijs": {
    "name": "Joost Arijs Patisserie & Chocolaterie",
    "instagram_handle": "joostarijs",
    "handleSource": "https://joostarijs.be/",
    "note": "Brand account shared by all Joost Arijs shops. og:image: Product photo (macarons) with a small logo.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092 (note flags it: logo)",
    "heroReject": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092"
   },
@@ -303,60 +303,60 @@
    "instagram_handle": "julieshouse",
    "handleSource": "https://www.julieshouse.be/",
    "note": "Also listed on Visit Gent. og:image: Cakes photo (webshop category image).",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://julie-stampaert-bvba.odoo.com/web/image?model=product.public.category&id=48&field=image_512 (width 512; < 800 px)"
   },
   "kaffee-krevet": {
    "name": "Kaffee Krevet",
    "instagram_handle": "kaffeekrevet",
    "handleSource": "https://www.krevet.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "kinky-star": {
    "name": "Kinky Star",
    "instagram_handle": "muziekcentrumkinkystar",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/kinky-star",
    "note": "Own site has no Instagram link; Visit Gent lists this account. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "klub-xiii": {
    "name": "Klub XIII",
    "instagram_handle": "klubtreize",
    "handleSource": "https://www.overpoort-gent.be/lid-overpoort/klub-xiii/",
    "note": "Linked from the Overpoort Gent VZW member page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "koffeine": {
    "name": "Koffeine",
    "instagram_handle": "koffeinegent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/koffeine",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "kultur-bakery": {
    "name": "Kultur Bakery",
    "instagram_handle": "kultur_bakery",
    "handleSource": "https://www.kultur-gent.com/",
    "note": "Site also links @kultur_gent (the wider Kultur concept); the bakery account is used. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "le-baan-thai": {
    "name": "Le Baan Thaï",
    "instagram_handle": null,
    "note": "No Instagram account found (own site and Visit Gent show none).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "limonada": {
    "name": "Limonada",
    "instagram_handle": "limonadagent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/limonada",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "little-red-rooster": {
    "name": "Little Red Rooster",
    "instagram_handle": "littleredrooster_ghent",
    "handleSource": "https://www.gaultmillau.be/en/cocktail-bars/little-red-rooster-gent",
    "note": "Own site shows no Instagram link; its Gault&Millau page links this account. og:image: Bartenders behind the bar (interior).",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://primary.jwwb.nl/public/p/m/b/temp-mwauebbpvmgedcquihnp/lrr-13-high.jpg",
     "source": "https://www.littleredrooster.be/",
@@ -371,32 +371,32 @@
    "instagram_handle": "luxx_overpoort",
    "handleSource": "https://www.overpoort-gent.be/lid-overpoort/luxx/",
    "note": "Linked from the Overpoort Gent VZW member page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "madam-bakster": {
    "name": "Madam Bakster",
    "instagram_handle": "madambakster",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/madam-bakster",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "marijn-coertjens": {
    "name": "Marijn Coertjens",
    "instagram_handle": "marijncoertjens",
    "handleSource": "https://www.marijncoertjens.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "mexcalli": {
    "name": "Mexcalli",
    "instagram_handle": null,
    "note": "Unverified candidate @mexcalli.gent (aggregator/search only); own Wix site and Visit Gent show no Instagram link.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "mokabon": {
    "name": "Mokabon",
    "instagram_handle": "mokaboncoffee",
    "handleSource": "https://mokabon.be/",
    "note": "og:image: Coffee being poured from the espresso machine.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://mokabon.be/cdn/shop/files/mkbn-gent-koffie_4b31b536-9574-4271-90f1-09ac9056ff49.jpg?v=1609606135&width=2048",
     "source": "https://mokabon.be/",
@@ -411,7 +411,7 @@
    "instagram_handle": "morgen.bakkerij",
    "handleSource": "https://morgen-bakkerij.be/",
    "note": "og:image: Bread photo.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://morgen-bakkerij.be/cdn/shop/files/386593463_122100601220067786_8301562322715799969_n_b621dd2b-e1ab-4bf3-91ec-a45fcbbf2322.jpg?v=1697612288",
     "source": "https://morgen-bakkerij.be/",
@@ -425,27 +425,27 @@
    "name": "Norman Bakery",
    "instagram_handle": null,
    "note": "Unverified candidate @norman_bakery (search result only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "or-coffee-lab-gent": {
    "name": "OR Coffee Lab",
    "instagram_handle": "orcoffeeroasters",
    "handleSource": "https://www.orcoffee.be/pages/or-coffee-labs",
    "note": "Brand/roastery account (no separate account for the Gent coffee lab found). og:image: Roastery photo with logo overlaid.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982 (note flags it: logo)",
    "heroReject": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982"
   },
   "osm-1809-bistro-la-concorde-n12789848389": {
    "name": "1809 | Bistro La Concorde",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-50-fifty-n11310427100": {
    "name": "50 fifty",
    "instagram_handle": "50fiftygent",
    "handleSource": "https://50fiftygent.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://50fiftygent.be/wp-content/uploads/2019/09/IMG_5678-1024x683.jpg",
     "source": "https://50fiftygent.be/",
@@ -458,109 +458,109 @@
   "osm-5th-gok-n1187211188": {
    "name": "5th Gök",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-8tea5-n11897347047": {
    "name": "8tea5",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-abooov-adanaci-n12352306956": {
    "name": "Abooov Adanaci",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-achturenhuis-n8944368522": {
    "name": "Achturenhuis",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-agenvino-n1536597190": {
    "name": "Agenvino",
    "instagram_handle": "argenvinoresto",
    "handleSource": "https://www.argenvino.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-agrea-n1212134080": {
    "name": "Agrea",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ah-quy-n6800019656": {
    "name": "Ah Quy",
    "instagram_handle": null,
    "note": "own site links @ah_quy_leuven_herent, which is the Leuven/Herent branch, not this Gent place",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-akdeniz-n5815859041": {
    "name": "Akdeniz",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-akuma-n4775222545": {
    "name": "Akuma",
    "instagram_handle": "akuma.ghent",
    "handleSource": "https://www.akumafoodfare.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-al-castello-n2305188583": {
    "name": "Al Castello",
    "instagram_handle": "alcastello_gent",
    "handleSource": "https://www.al-castello.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-alain-proviest-n4384148111": {
    "name": "Alain Proviest",
    "instagram_handle": "alainproviest",
    "handleSource": "https://www.alainproviest.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-alard-n12084967318": {
    "name": "Alard",
    "instagram_handle": "alard.gent",
    "handleSource": "https://alard.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-albertini-n13296111878": {
    "name": "Albertini",
    "instagram_handle": "albertini_gent",
    "handleSource": "https://albertini-gent.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-alberto-expresso-n12563401136": {
    "name": "Alberto Expresso",
    "instagram_handle": "alberto.expresso",
    "handleSource": "https://www.albertoexpresso.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-alice-n4258187836": {
    "name": "Alice",
    "instagram_handle": "gentalice",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/alice",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-alix-w215083227": {
    "name": "Alix",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-allegro-moderato-n2620549988": {
    "name": "Allegro Moderato",
    "instagram_handle": "allegromoderatoresto",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/allegro-moderato",
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-aluwiz-n819591971": {
    "name": "Aluwiz",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://aluwiz.be/media/pages/home/9951e0519f-1702035326/image00013.jpeg",
     "source": "https://www.aluwiz.be",
@@ -574,74 +574,74 @@
    "name": "Amadeus",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-amadeus-w140244218": {
    "name": "Amadeus",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-amatsu-n1461121231": {
    "name": "Amatsu",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000); candidate @amatsugent from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-amfora-n2273855341": {
    "name": "Amfora",
    "instagram_handle": "amforagent",
    "handleSource": "https://www.amfora-gent.com/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-amour-n5428846934": {
    "name": "Amour",
    "instagram_handle": "amour.gent",
    "handleSource": "https://www.amourgent.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-anar-n6440678296": {
    "name": "Anar",
    "instagram_handle": "anarresto",
    "handleSource": "https://www.anar.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-anders-n12630170586": {
    "name": "Anders",
    "instagram_handle": "ofietsanders",
    "handleSource": "https://ofietsanders.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-anders-n13065594409": {
    "name": "Anders",
    "instagram_handle": "ofietsanders",
    "handleSource": "https://www.ofietsanders.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ankara-n4704463889": {
    "name": "Ankara",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-antichi-sapori-n10097967923": {
    "name": "Antichi Sapori",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-aperto-chiuso-n8911924546": {
    "name": "Aperto Chiuso",
    "instagram_handle": "aperto.chiuso",
    "handleSource": "https://apertochiuso.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-artevelde-brouwerij-n11352130039": {
    "name": "Artevelde Brouwerij",
    "instagram_handle": "artevelde_brewery",
    "handleSource": "https://artevelde.be/",
    "note": "og:image is a studio product shot of a beer glass (may be a render)",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://artevelde.be/app/uploads/2023/06/Gentse-Grand-glas-bruin2.png (note flags it: render)",
    "heroReject": "https://artevelde.be/app/uploads/2023/06/Gentse-Grand-glas-bruin2.png"
   },
@@ -649,97 +649,97 @@
    "name": "Arthe²",
    "instagram_handle": "restaurant.arthe2",
    "handleSource": "https://www.restaurantarthe.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-asian-corner-n7012018353": {
    "name": "Asian Corner",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-asian-king-n1804185553": {
    "name": "Asian King",
    "instagram_handle": null,
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-astro-boy-n7878949226": {
    "name": "Astro Boy",
    "instagram_handle": "astro_boy_gent",
    "handleSource": "https://www.astroboy.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-athene-n1472907400": {
    "name": "Athene",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-au-boeuf-qui-rit-n10907502714": {
    "name": "Au Boeuf Qui Rit",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-au-bon-vivant-n13273886628": {
    "name": "Au bon vivant",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-au-pain-marie-n12823548056": {
    "name": "Au Pain-Marie",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-augustijntje-n6789941787": {
    "name": "Augustijntje",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-axum-n13506445999": {
    "name": "Axum",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-aywa-n5825400253": {
    "name": "Aywa",
    "instagram_handle": "aywa_gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/aywa",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-babu-n4718292171": {
    "name": "Babú",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bakkerij-bernard-n3457029648": {
    "name": "Bakkerij Bernard",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-balls-glory-n3818381914": {
    "name": "Balls & Glory",
    "instagram_handle": "ballsnglory",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/balls-glory",
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bar-brutus-n13344139091": {
    "name": "Bar Brutus",
    "instagram_handle": null,
    "note": "candidate @barbrutus9030 from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bar-terroir-n9248442976": {
    "name": "Bar Terroir",
    "instagram_handle": "barterroirgent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/bar-terroir",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-barouche-n1532798352": {
    "name": "Barouche",
    "instagram_handle": "barouche_pitasandbowls",
    "handleSource": "https://www.barouche.eu",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://barouche.eu/images/og-default.jpg",
     "source": "https://www.barouche.eu",
@@ -753,7 +753,7 @@
    "name": "Barouche",
    "instagram_handle": "barouche_pitasandbowls",
    "handleSource": "https://barouche.eu/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://barouche.eu/images/og-default.jpg",
     "source": "https://barouche.eu/",
@@ -767,38 +767,38 @@
    "name": "Barque à Jack",
    "instagram_handle": "barqueajack_gent",
    "handleSource": "https://www.barqueajack.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-basic-italian-n12702756861": {
    "name": "basic Italian",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-baskuul-n4743297317": {
    "name": "Baskuul",
    "instagram_handle": "baskuul",
    "handleSource": "http://www.baskuul.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bassin-n7783901382": {
    "name": "Bassin",
    "instagram_handle": "bassin.gentbrugge",
    "handleSource": "https://www.bassin.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-basta-n3394542495": {
    "name": "Basta",
    "instagram_handle": "bastaresto",
    "handleSource": "https://bastaresto.com/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bavet-n1532798353": {
    "name": "Bavet",
    "instagram_handle": "bavet_spaghetti",
    "handleSource": "https://bavet.eu/",
    "note": "brand/chain account, not branch-specific; og:image is a chain-wide Bavet promo photo",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg (note flags it: chain)",
    "heroReject": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg"
   },
@@ -807,7 +807,7 @@
    "instagram_handle": "bavet_spaghetti",
    "handleSource": "https://bavet.eu/",
    "note": "brand/chain account, not branch-specific; og:image is a chain-wide Bavet promo photo",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg (note flags it: chain)",
    "heroReject": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg"
   },
@@ -816,94 +816,94 @@
    "instagram_handle": "bavet_spaghetti",
    "handleSource": "https://bavet.eu/",
    "note": "brand/chain account, not branch-specific; og:image is a chain-wide Bavet promo photo",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg (note flags it: chain)",
    "heroReject": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg"
   },
   "osm-bayram-n6853683387": {
    "name": "Bayram",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-beef-plaza-n6473717622": {
    "name": "Beef Plaza",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-belgian-burger-restaurant-n13997560953": {
    "name": "Belgian Burger Restaurant",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bella-vista-n5190745934": {
    "name": "Bella Vista",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bento-house-n12623160301": {
    "name": "Bento House",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-beroia-n13950447752": {
    "name": "Beroia",
    "instagram_handle": "beroiarestaurant",
    "handleSource": "https://www.beroia.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bicho-malo-n12660436404": {
    "name": "Bicho Malo",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bier-central-n1628067353": {
    "name": "Bier Central",
    "instagram_handle": "biercentral",
    "handleSource": "https://www.biercentral.be/over-ons",
    "note": "handle linked on the site's contact/about page; Visit Gent links @biercentral_gent instead (https://visit.gent.be/nl/eten-drinken/bier-central)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bistro-baziel-n9741063665": {
    "name": "Bistro Baziel",
    "instagram_handle": "bistro.baziel",
    "handleSource": "https://www.bistrobaziel.be/contact",
    "note": "handle linked on the site's contact/about page",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://primary.jwwb.nl/public/u/n/c/temp-vaduyvmximzohhepeuav/7w1o0a/winterterras.jpg (width 315; < 800 px)"
   },
   "osm-bistro-jeanne-n10277884384": {
    "name": "Bistro Jeanne",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bistro-max-n13517502148": {
    "name": "Bistro Max",
    "instagram_handle": "bistromax1",
    "handleSource": "https://bistro-max.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bite-n12451304999": {
    "name": "Bite",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bizim-inegol-kofte-n12352086998": {
    "name": "Bizim Inegöl Köfte",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-blaarmeersen-w289021664": {
    "name": "Blaarmeersen",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bloom-table-n14230351176": {
    "name": "Bloom & Table",
    "instagram_handle": "bloom_table.2026",
    "handleSource": "https://www.bloomtable.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://primary.jwwb.nl/public/l/z/d/temp-ulfzsmdyhwdemdgenisy/8ef67023-9407-45b0-835e-4b915818f3e7-1-high.png",
     "source": "https://www.bloomtable.be/",
@@ -917,26 +917,26 @@
    "name": "Bluesette",
    "instagram_handle": "bluesettegent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/bluesette",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bobon-n12391159028": {
    "name": "Bobon",
    "instagram_handle": "bobon.gent",
    "handleSource": "https://www.bobon.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bocca-n1462321981": {
    "name": "Bocca",
    "instagram_handle": "bocca_gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/bocca",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bocca-n6133546281": {
    "name": "Bocca",
    "instagram_handle": "bocca.be",
    "handleSource": "http://bocca.be/",
    "note": "Visit Gent links @bocca_gent instead (https://visit.gent.be/nl/eten-drinken/bocca); og:image shows branded takeaway boxes (logo visible)",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://cdn.prod.website-files.com/6a16b3c3f3442f64b0b85584/6ab2386df88a8215e76d690d_og-bocca.jpg (note flags it: logo)",
    "heroReject": "https://cdn.prod.website-files.com/6a16b3c3f3442f64b0b85584/6ab2386df88a8215e76d690d_og-bocca.jpg"
   },
@@ -944,24 +944,24 @@
    "name": "Bodega",
    "instagram_handle": "bodega_gent",
    "handleSource": "https://www.bodega.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-boekee-garni-n11123595450": {
    "name": "Boekee Garni",
    "instagram_handle": "boekeegarni",
    "handleSource": "https://www.boekeegarni.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-boekjes-en-koekjes-n12583044844": {
    "name": "Boekjes en Koekjes",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-boon-n5569907420": {
    "name": "Boon",
    "instagram_handle": "boon.gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/boon",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/d3bcf7_d197282b3de44e029b9792082e238e6a%7Emv2_d_1280_1280_s_2.jpg/v1/fit/w_2500,h_1330,al_c/d3bcf7_d197282b3de44e029b9792082e238e6a%7Emv2_d_1280_1280_s_2.jpg",
     "source": "https://www.boon.gent",
@@ -974,71 +974,71 @@
   "osm-borek-simit-huis-n11613223411": {
    "name": "Börek & Simit Huis",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-borsalino-san-marino-n3394539390": {
    "name": "Borsalino San Marino",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-alfons-n4364430396": {
    "name": "Brasserie Alfons",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-borluut-n1186945845": {
    "name": "Brasserie Borluut",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-cafe-des-arts-n12828494546": {
    "name": "Brasserie Café des Arts",
    "instagram_handle": "cafedesartsgent",
    "handleSource": "https://www.cafedesartsgent.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-de-jacob-n1186342712": {
    "name": "Brasserie de Jacob",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-imperial-n2620549984": {
    "name": "Brasserie Impérial",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-klaverblad-n12207219295": {
    "name": "Brasserie Klaverblad",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://duyn491kcolsw.cloudfront.net/files/4b/4bi/700/4bic3g.png?ph=609f3caa6f (width 700; < 800 px)"
   },
   "osm-brasserie-leon-n9502823727": {
    "name": "Brasserie Leon",
    "instagram_handle": "leonbrasserie",
    "handleSource": "https://www.brasserieleon.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-nanou-n13325635488": {
    "name": "Brasserie Nanou",
    "instagram_handle": "brasserienanou",
    "handleSource": "https://www.brasserienanou.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-noordhof-n13625580253": {
    "name": "Brasserie Noordhof",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-onglet-w289225387": {
    "name": "Brasserie Onglet",
    "instagram_handle": "brasserieonglet",
    "handleSource": "https://brasserieonglet.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://brasserieonglet.be/wp-content/uploads/2025/11/foto-7-1024x683.jpg",
     "source": "https://brasserieonglet.be/",
@@ -1052,7 +1052,7 @@
    "name": "Brasserie Paradijs",
    "instagram_handle": "brasserie_paradijs",
    "handleSource": "https://www.brasserieparadijs.be",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/96848e_5bc3154f33d14662b6058c89de7139d1~mv2.png/v1/fill/w_1054,h_862,al_c/96848e_5bc3154f33d14662b6058c89de7139d1~mv2.png",
     "source": "https://www.brasserieparadijs.be",
@@ -1065,18 +1065,18 @@
   "osm-brasserie-passion-n968042315": {
    "name": "Brasserie Passion",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brasserie-wondelgem-w626909787": {
    "name": "Brasserie Wondelgem",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bridge-brasserie-n12830913043": {
    "name": "Bridge brasserie",
    "instagram_handle": "brasseriebridge",
    "handleSource": "https://www.brasseriebridge.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.brasseriebridge.be/wp-content/uploads/2022/04/Foto03_web-1-1030x687-1.jpg",
     "source": "https://www.brasseriebridge.be/",
@@ -1089,178 +1089,178 @@
   "osm-brut-nature-n10294919704": {
    "name": "Brut Nature",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-brutal-n11340952262": {
    "name": "Brutal",
    "instagram_handle": "brutal_pizza",
    "handleSource": "https://www.brutalpizza.be/",
    "note": "todo lists @brutal_altaglio, which no page we checked links; own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-bukuu-n13306301095": {
    "name": "Bukuu",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-buongiorno-n4488600996": {
    "name": "Buongiorno",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cafe-cannelle-n4304704573": {
    "name": "Café Cannelle",
    "instagram_handle": "cannelle.gent",
    "handleSource": "https://www.cafecannelle.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cafe-contraire-n12384960128": {
    "name": "Cafe Contraire",
    "instagram_handle": "cafe.contraire",
    "handleSource": "https://www.cafecontraire.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cafe-merino-n3967079259": {
    "name": "Café Merino",
    "instagram_handle": "cafemerino_",
    "handleSource": "https://www.cafemerino.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cafe-parti-n1651818968": {
    "name": "Café Parti",
    "instagram_handle": "cafe_parti",
    "handleSource": "http://www.cafeparti.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cafe-rene-n3336720192": {
    "name": "Café René",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cafe-theatre-n1232488319": {
    "name": "Café Théatre",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cappuccino-n12969552787": {
    "name": "Cappuccino",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-carlos-quinto-n7158635685": {
    "name": "Carlos Quinto",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-carpentia-n1186961242": {
    "name": "Carpentia",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-casa-de-las-tapas-n3394491370": {
    "name": "Casa de las Tapas",
    "instagram_handle": "lacasadelastapas",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/casa-de-las-tapas",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cassis-n1186301469": {
    "name": "Cassis",
    "instagram_handle": "restaurantdecassis_official",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/cassis",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-catberry-n10295133531": {
    "name": "Catberry",
    "instagram_handle": "catberry.pastries",
    "handleSource": "https://catberry.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ce-s-arts-n11030811705": {
    "name": "Ce's Arts",
    "instagram_handle": "cesartsgent",
    "handleSource": "https://www.cesarts.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chapeluur-n11154672486": {
    "name": "Chapeluur",
    "instagram_handle": "chapeluur",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/chapeluur",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chapo-s-n7158620688": {
    "name": "Chapo's",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chef-q-n13685423940": {
    "name": "Chef Q",
    "instagram_handle": "restaurant.chefq",
    "handleSource": "https://www.chef-q.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chez-olivier-n6942598587": {
    "name": "Chez Olivier",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-china-paleis-n5275465129": {
    "name": "China Paleis",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chopstix-n12460847732": {
    "name": "Chopstix",
    "instagram_handle": "chopstixgent",
    "handleSource": "https://chopstix.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chubby-cheeks-n5734799243": {
    "name": "Chubby Cheeks",
    "instagram_handle": "chubbycheeks.gent",
    "handleSource": "https://www.chubbycheeks.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chulo-n10907450378": {
    "name": "Chulo",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-clouds-in-my-coffee-n5610774621": {
    "name": "Clouds in my coffee",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-coconne-n12387000495": {
    "name": "Coconne",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cocotine-n6356381196": {
    "name": "Cocotine",
    "instagram_handle": "_cocotine_",
    "handleSource": "https://www.cocotinecoffee.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-colmar-n275223798": {
    "name": "Colmar",
    "instagram_handle": "colmarrestaurants",
    "handleSource": "https://www.colmar.be",
    "note": "brand/chain account, not branch-specific",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-colmar-w1033606442": {
    "name": "Colmar",
    "instagram_handle": "colmarrestaurants",
    "handleSource": "https://www.colmar.be/nl/restaurants/restaurant-colmar-sint-denijs-westrem",
    "note": "brand/chain account, not branch-specific; og:image is a Colmar chain building photo; not confirmed to be this branch",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://colmar.be/wp-content/uploads/2026/04/IMG_7576-768x1024.jpeg (note flags it: chain)",
    "heroReject": "https://colmar.be/wp-content/uploads/2026/04/IMG_7576-768x1024.jpeg"
   },
@@ -1269,156 +1269,156 @@
    "instagram_handle": "comedor.gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/comedor",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-con-tigo-w426771273": {
    "name": "Con TiGo",
    "instagram_handle": "tapasbar_contigo",
    "handleSource": "https://www.tapascontigo.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-conchi-s-peruvian-cuisine-n7142820246": {
    "name": "Conchi's Peruvian Cuisine",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000); candidate @conchis.peruvian.cuisine from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-content-n12339659043": {
    "name": "Content",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-copain-n13904090843": {
    "name": "CoPain",
    "instagram_handle": "broodmakerscopain",
    "handleSource": "https://www.copain.gent/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-coqueluche-n10914424851": {
    "name": "Coqueluche",
    "instagram_handle": "coqueluche_restaurant",
    "handleSource": "https://coqueluche.gent",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-corner-city-w809916753": {
    "name": "Corner City",
    "instagram_handle": null,
    "note": "own website unreachable from our box (410)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cotee-n12800541091": {
    "name": "Cotee",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-country-side-w630717059": {
    "name": "Country Side",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cozette-n12702545500": {
    "name": "cozette",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-crema-coffee-shop-n13755533604": {
    "name": "Crema Coffee Shop",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cuiz-inn-n6567743001": {
    "name": "Cuiz'Inn",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-cuiz-inn-n6574521175": {
    "name": "Cuiz'Inn",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-da-adriano-n7158634388": {
    "name": "Da Adriano",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-da-luigi-w252396612": {
    "name": "Da Luigi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-da-mario-n10840172980": {
    "name": "Da Mario",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-da-toto-n3810896304": {
    "name": "Da Toto",
    "instagram_handle": null,
    "note": "own og:image rejected: eatbu template-style stock image",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dali-restaurant-n11398726824": {
    "name": "Dali Restaurant",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-abt-n10885975050": {
    "name": "De Abt",
    "instagram_handle": "de_abt",
    "handleSource": "https://www.deabt.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-acht-zaligheden-n11883562269": {
    "name": "De Acht Zaligheden",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-appelier-n2634809499": {
    "name": "De Appelier",
    "instagram_handle": "deappelier",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/de-appelier",
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-bergen-n12870153846": {
    "name": "De Bergen",
    "instagram_handle": "debergen.gent",
    "handleSource": "https://www.debergen.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-bompa-n5598997121": {
    "name": "De Bompa",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-brouwzaele-w210985927": {
    "name": "De Brouwzaele",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-buffel-n4231814743": {
    "name": "De Buffel",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-casserolle-n6942691396": {
    "name": "De Casserolle",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-dampoort-n1438344821": {
    "name": "De Dampoort",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-gekroonde-hoofden-n12478756510": {
    "name": "De Gekroonde Hoofden",
    "instagram_handle": "degekroondehoofden.be",
    "handleSource": "https://degekroondehoofden.be/restaurants/mariakerke/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://degekroondehoofden.be/wp-content/uploads/2025/02/AALST_degekroondehoofden_aalst-076-low-1.webp",
     "source": "https://degekroondehoofden.be/restaurants/mariakerke/",
@@ -1432,7 +1432,7 @@
    "name": "De Gekroonde Hoofden",
    "instagram_handle": "degekroondehoofden.be",
    "handleSource": "https://degekroondehoofden.be/restaurants/gent/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://degekroondehoofden.be/wp-content/uploads/2025/02/GENT_degekroondehoofden2018_lowres_015.jpg",
     "source": "https://degekroondehoofden.be/restaurants/gent/",
@@ -1445,109 +1445,109 @@
   "osm-de-gentsche-koekedoos-n1295215428": {
    "name": "De Gentsche Koekedoos",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-graslei-n1267513267": {
    "name": "De Graslei",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-grill-n1212159256": {
    "name": "De Grill",
    "instagram_handle": "restaurant_de_grill",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/de-grill",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-honger-n13788134806": {
    "name": "De Honger",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-kastart-n1409718536": {
    "name": "De Kastart",
    "instagram_handle": "de.kastart",
    "handleSource": "https://www.dekastart.be/",
    "note": "own og:image rejected: illustration",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-kokmadam-eetbar-n14065917962": {
    "name": "De Kokmadam Eetbar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-kuip-van-gent-n1532794995": {
    "name": "De kuip van Gent",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-lachende-monnik-w996842002": {
    "name": "De lachende monnik",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-lieve-n12593224145": {
    "name": "De Lieve",
    "instagram_handle": "delieve.gent",
    "handleSource": "https://www.delievegent.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-loge-n566313995": {
    "name": "De Loge",
    "instagram_handle": "cafedeloge",
    "handleSource": "https://deloge.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-mokke-n6434031888": {
    "name": "De Mokke",
    "instagram_handle": "demokke",
    "handleSource": "https://www.demokke.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-parkiet-n6111142585": {
    "name": "De Parkiet",
    "instagram_handle": "deparkiet",
    "handleSource": "https://www.deparkiet.be/contact",
    "note": "handle linked on the site's contact/about page; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-raadkamer-n11099366423": {
    "name": "De Raadkamer",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-rechters-n1628067354": {
    "name": "De Rechters",
    "instagram_handle": "derechters",
    "handleSource": "https://derechters.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-salopette-n6942598387": {
    "name": "De Salopette",
    "instagram_handle": "de_salopette_gent",
    "handleSource": "https://de-salopette.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-sneppe-n6825290292": {
    "name": "De Sneppe",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-stokerij-n12205332271": {
    "name": "De Stokerij",
    "instagram_handle": "destokerijgent",
    "handleSource": "https://destokerij.gent",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-warempel-n11276973781": {
    "name": "De Warempel",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://v2cdn1.centralappstatic.com/image/resize/1800x1080_cover_3409c9cd35d745b498dc3721ef97cfaf.webp?w=1200",
     "source": "https://warempel.be/",
@@ -1561,7 +1561,7 @@
    "name": "De Witte Leeuw",
    "instagram_handle": "dewitteleeuw",
    "handleSource": "https://www.dewitteleeuwgent.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://dewitteleeuw.be/wp-content/themes/leonebianco/custom/img/home/restaurant-home.jpg",
     "source": "https://www.dewitteleeuwgent.be/",
@@ -1575,62 +1575,62 @@
    "name": "Dedeoglu",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-delilunch-n12702821007": {
    "name": "Delilunch",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-den-hoek-af-w501058824": {
    "name": "Den Hoek Af",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-den-johnny-n13608226201": {
    "name": "Den Johnny",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-desayuno-n2105506242": {
    "name": "Desayuno",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000); candidate @desayunogent from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-desi-food-n11918785850": {
    "name": "Desi Food",
    "instagram_handle": null,
    "note": "candidate @desifood_9030 from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-destiny-n10907725299": {
    "name": "Destiny",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-diamond-pitta-n12320368735": {
    "name": "Diamond Pitta",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dirt-restaurant-n13323699746": {
    "name": "Dirt.restaurant",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dish-n5869420982": {
    "name": "Dish",
    "instagram_handle": null,
    "note": "own og:image rejected: website screenshot",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dok-brewing-company-n7001208946": {
    "name": "Dok Brewing Company",
    "instagram_handle": "dok_brewing_company",
    "handleSource": "https://www.dokbrewingcompany.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg",
     "source": "https://www.dokbrewingcompany.be/",
@@ -1643,55 +1643,55 @@
   "osm-dok-koon-n9801304840": {
    "name": "Dok Koon",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dolce-n1616705146": {
    "name": "Dolce",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-domestica-n5734799246": {
    "name": "Domestica",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-door-73-n6900569885": {
    "name": "Door 73",
    "instagram_handle": null,
    "note": "door73.be now presents Le ChouChou and links @lechouchou_gent; possible rebrand, not verified; own og:image rejected: site now shows Le ChouChou",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dreamcatchers-n12363209411": {
    "name": "DreamCATchers",
    "instagram_handle": "dreamcatchers_gent",
    "handleSource": "https://wearedreamcatchers.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-du-progres-n602681361": {
    "name": "Du Progrès",
    "instagram_handle": "duprogres",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/du-progres",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eat-love-pizza-n2546643705": {
    "name": "Eat Love Pizza",
    "instagram_handle": "eatlove_gent",
    "handleSource": "https://eatlovepizza.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eat-this-n12779057073": {
    "name": "EAT THIS",
    "instagram_handle": "eat_this_experimental_foodbar",
    "handleSource": "https://www.eat-this.be/",
    "note": "site also links several staff/partner accounts; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-edel-rot-n11157734893": {
    "name": "Edel Rot",
    "instagram_handle": "edelrotgent",
    "handleSource": "https://www.wijnbar-edelrot.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg",
     "source": "https://www.wijnbar-edelrot.be/",
@@ -1705,26 +1705,26 @@
    "name": "Edgar Kaasbar",
    "instagram_handle": "edgarkaasbar",
    "handleSource": "https://www.edgarkaasbar.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-edmond-n11897518892": {
    "name": "Edmond",
    "instagram_handle": "edmond.cafe",
    "handleSource": "https://www.edmondcafe.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eetcafe-elvire-n12365159424": {
    "name": "Eetcafé Elvire",
    "instagram_handle": null,
    "note": "candidate @eetcafee_elvire from todo; not verified by any linking page; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eethaven-n7006060682": {
    "name": "Eethaven",
    "instagram_handle": "eethaven.be",
    "handleSource": "https://www.eethaven.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static1.squarespace.com/static/68d3e5d2da9b4e7eb5b9bea9/t/692dc91654477b4646d777f3/1764608278243/%C2%A9+Illias+Teirlinck+-+20251031+-+EETHAVEN+-+HQ+-+6251.jpg?format=1500w",
     "source": "https://www.eethaven.be/",
@@ -1738,40 +1738,40 @@
    "name": "Eethuis De Fobie",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eethuis-toreke-n3511035004": {
    "name": "Eethuis Toreke",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eetkaffee-multatuli-n2210024898": {
    "name": "Eetkaffee Multatuli",
    "instagram_handle": null,
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eetoile-n4857533585": {
    "name": "Eetoile",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-el-berraco-n2625520413": {
    "name": "El Berraco",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-elite-n7090838388": {
    "name": "Elite",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-entr-w241981493": {
    "name": "ENTR",
    "instagram_handle": "decentrale",
    "handleSource": "https://www.decentrale.be/en/entr",
    "note": "account of De Centrale, the venue ENTR is part of",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.decentrale.be/files/images/1200x_/centrale-entr.jpg",
     "source": "https://www.decentrale.be/en/entr",
@@ -1786,72 +1786,72 @@
    "instagram_handle": "epiphanys.kitchen",
    "handleSource": "https://epiphanyskitchen.com/",
    "note": "brand/chain account, not branch-specific",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-et-alors-n1212154982": {
    "name": "Et Alors",
    "instagram_handle": "et_alors_gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/et-alors",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ette-ibibio-n2439607489": {
    "name": "Ette Ibibio",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-everest-eetcafe-n1275915798": {
    "name": "Everest Eetcafé",
    "instagram_handle": "eetcafeeverest",
    "handleSource": "https://www.everesteetcafe.be",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-faim-fatale-n1628067359": {
    "name": "Faim Fatale",
    "instagram_handle": "restofaimfatale",
    "handleSource": "https://www.faimfatale.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fait-divers-n1532795040": {
    "name": "Fait Divers",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fattoush-n13533812685": {
    "name": "Fattoush",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-festival-n4235248790": {
    "name": "Festival",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fewa-restaurant-bar-n9741063269": {
    "name": "Fewa restaurant & bar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-firenze-n1275915813": {
    "name": "Firenze",
    "instagram_handle": "firenzegent",
    "handleSource": "https://restaurantfirenze.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fitchen-n1532798337": {
    "name": "Fitchen",
    "instagram_handle": null,
    "note": "own website unreachable from our box (202)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fitchen-n3394542496": {
    "name": "Fitchen",
    "instagram_handle": "fitchenghent",
    "handleSource": "https://www.fitchen.com/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://fitchen.com/wp-content/uploads/2026/09/fitchen-counter-202609.jpg",
     "source": "https://www.fitchen.com/",
@@ -1865,48 +1865,48 @@
    "name": "Flordi",
    "instagram_handle": "flordi.gent",
    "handleSource": "https://flordi.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-flynn-s-n5395453707": {
    "name": "Flynn's",
    "instagram_handle": "_flynns__",
    "handleSource": "https://www.flynns.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-foodbar-jef-n13672598745": {
    "name": "Foodbar JEF",
    "instagram_handle": "foodbar.jef",
    "handleSource": "https://www.foodbar-jef.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fratelli-ditalia-da-pino-n5894300885": {
    "name": "Fratelli d’Italia Da Pino",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-freddie-n12684199822": {
    "name": "Freddie",
    "instagram_handle": "freddiekoffie",
    "handleSource": "https://www.freddiekoffie.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fuga-n2617845184": {
    "name": "Fuga",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-full-circle-coffee-n11608541222": {
    "name": "Full Circle Coffee",
    "instagram_handle": "fullcircleghent",
    "handleSource": "https://www.fullcircleghent.com",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ganzerik-w451731257": {
    "name": "Ganzerik",
    "instagram_handle": null,
    "note": "og:image is a food-photo collage with logo overlaid",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://impro.usercontent.one/appid/oneComWsb/domain/ganzerik.be/media/ganzerik.be/onewebmedia/IMG_7572.jpg?etag=W%2F%227bafa-637185ed%22&sourceContentType=image%2Fjpeg&quality=85 (note flags it: collage)",
    "heroReject": "https://impro.usercontent.one/appid/oneComWsb/domain/ganzerik.be/media/ganzerik.be/onewebmedia/IMG_7572.jpg?etag=W%2F%227bafa-637185ed%22&sourceContentType=image%2Fjpeg&quality=85"
   },
@@ -1914,13 +1914,13 @@
    "name": "Garam Masala",
    "instagram_handle": "indianrestaurantgarammasala",
    "handleSource": "https://www.garammasala.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gaston-n10127493290": {
    "name": "Gaston",
    "instagram_handle": "gaston_gent",
    "handleSource": "https://gaston-gent.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://rooftopgaston.be/wp-content/uploads/2025/03/a1a0b6db520339a21de05234c6bbf7b2.png",
     "source": "https://gaston-gent.be/",
@@ -1935,12 +1935,12 @@
    "instagram_handle": "geheeldeuwe",
    "handleSource": "https://www.geheeldeuwe.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gentse-stadsbrouwerij-gruut-n4524937893": {
    "name": "Gentse Stadsbrouwerij Gruut",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.gruut.be/wp-content/uploads/2026/05/moeder-enzoon3loic.jpg",
     "source": "https://www.gruut.be/",
@@ -1954,34 +1954,34 @@
    "name": "Gerard",
    "instagram_handle": "gerardgent",
    "handleSource": "https://gerard-gent.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-giardino-di-roma-n3842499430": {
    "name": "Giardino di Roma",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gigi-n9219743937": {
    "name": "Gigi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-giri-n1616705163": {
    "name": "Giri",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-giuliano-n3367536294": {
    "name": "Giuliano",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-giuseppe-s-n4985608705": {
    "name": "Giuseppe's",
    "instagram_handle": "giuseppespizzeria.be",
    "handleSource": "https://giuseppes.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://v2cdn1.centralappstatic.com/image/resize/1233x740_cover_d7debafd42264c7b83fa6f3fa01051ae.jpeg?w=1200",
     "source": "https://giuseppes.be/",
@@ -1995,7 +1995,7 @@
    "name": "Godot",
    "instagram_handle": "godotgentofficial",
    "handleSource": "https://www.godotgent.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static1.squarespace.com/static/64d35c038f26bc6069bc7688/t/64dccd183bb5c6394143be53/1782218211891/Godot-20230503-03.jpg?format=1500w",
     "source": "https://www.godotgent.be/",
@@ -2008,71 +2008,71 @@
   "osm-gohan-n9458004317": {
    "name": "Gohan",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gok-2-n4720245796": {
    "name": "Gök 2",
    "instagram_handle": "restogok2",
    "handleSource": "https://gok2.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gok-n5815859923": {
    "name": "Gök",
    "instagram_handle": "restogok",
    "handleSource": "https://www.restogok.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-golden-gai-n6942691397": {
    "name": "Golden Gai",
    "instagram_handle": "golden_gai_gent",
    "handleSource": "https://www.goldengai.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-golden-potato-n6799991954": {
    "name": "Golden Potato",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-golden-ring-n4764908262": {
    "name": "Golden Ring",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-golflounge-w126373297": {
    "name": "Golflounge",
    "instagram_handle": "golfloungedrongen",
    "handleSource": "http://www.golflounge.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gonza-z-n13184548545": {
    "name": "Gonza'z",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gouden-paard-n6613025423": {
    "name": "Gouden Paard",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gran-gusto-ristorante-n13231393683": {
    "name": "Gran Gusto Ristorante",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-greek-time-w684021894": {
    "name": "Greek Time",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-greenway-w336127036": {
    "name": "Greenway",
    "instagram_handle": "greenway_foods",
    "handleSource": "https://greenway.be/",
    "note": "Visit Gent links @greenway_gent instead (https://visit.gent.be/nl/eten-drinken/greenway); todo lists @greenway_resto_gent, which no page we checked links",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://greenway.be/wp-content/uploads/2025/05/recept-reepjes.jpg",
     "source": "https://greenway.be/",
@@ -2087,90 +2087,90 @@
    "instagram_handle": "guerrilla_streetfood",
    "handleSource": "https://www.guerrillastreetfood.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-gust-n11223538737": {
    "name": "Gust",
    "instagram_handle": "gustgent",
    "handleSource": "https://www.gustgent.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ha-n1856827457": {
    "name": "Ha'",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-haddok-n12404695490": {
    "name": "Haddok",
    "instagram_handle": "haddok.gent",
    "handleSource": "https://haddok.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-halab-al-shahbae-n9230408432": {
    "name": "Halab Al-shahbae",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-haotian-asian-snacks-n13570475860": {
    "name": "Haotian Asian Snacks",
    "instagram_handle": null,
    "note": "site links @asia.tasteof, a different name; candidate only",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-happy-garden-w629450451": {
    "name": "Happy Garden",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-happy-thai-n11303527497": {
    "name": "Happy Thai",
    "instagram_handle": "happythaigent",
    "handleSource": "https://www.happythai.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hattis-ontbijthuis-n9809286018": {
    "name": "Hattis Ontbijthuis",
    "instagram_handle": null,
    "note": "site appears hacked (links spam account @sbobet88); no handle accepted; own og:image rejected: unrelated spam product (site looks hacked)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hawaiian-poke-bowl-n10885975052": {
    "name": "Hawaiian Poké Bowl",
    "instagram_handle": "hawaiianbowl",
    "handleSource": "https://hawaiianpokebowl.be",
    "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hawaiian-poke-bowl-n11407739881": {
    "name": "Hawaiian Poké Bowl",
    "instagram_handle": "hawaiianbowl",
    "handleSource": "https://hawaiianpokebowl.be",
    "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-het-mooie-weer-n12757168866": {
    "name": "Het Mooie Weer!",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hey-joo-n12323883644": {
    "name": "Hey Joo",
    "instagram_handle": "heyjoo.gent",
    "handleSource": "https://heyjoo.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-himalaya-n1212142778": {
    "name": "Himalaya",
    "instagram_handle": null,
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hola-food-n5856007887": {
    "name": "Hola Food",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=4096x4096:format=jpg/path/sce3c563feb33ed71/image/i01880b6a387220d5/version/1641209309/image.jpg",
     "source": "https://www.holafood.be/",
@@ -2183,7 +2183,7 @@
   "osm-hola-food-n7004497033": {
    "name": "Hola-Food",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=4096x4096:format=jpg/path/sce3c563feb33ed71/image/i01880b6a387220d5/version/1641209309/image.jpg",
     "source": "https://www.holafood.be/",
@@ -2196,38 +2196,38 @@
   "osm-hollywood-w329892435": {
    "name": "Hollywood",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hong-thong-thai-n11019866078": {
    "name": "Hong Thong Thai",
    "instagram_handle": "hongthongthairestaurant",
    "handleSource": "https://hongthongthairestaurant.com/",
    "note": "own og:image rejected: stock-style photo of monks, not the place",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-horn-ok-please-n9740823412": {
    "name": "Horn ok please",
    "instagram_handle": "hornokplease.gent",
    "handleSource": "https://www.hornokplease.space/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hot-falafel-n4694014271": {
    "name": "Hot Falafel",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hotel-de-lourdes-w115611102": {
    "name": "Hotel De Lourdes",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-house-of-waffles-n13310397201": {
    "name": "House of Waffles",
    "instagram_handle": "thehouseofwaffles",
    "handleSource": "https://thehouseofwaffles.com/",
    "note": "og:image has large text overlaid",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/38e385a429fe857612eb5d48f24f6f8e/id-preview-940962af--2aa63a76-80f3-4657-8aa7-5bc3caaffb7c.lovable.app-1789070050753.png (note flags it: text)",
    "heroReject": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/38e385a429fe857612eb5d48f24f6f8e/id-preview-940962af--2aa63a76-80f3-4657-8aa7-5bc3caaffb7c.lovable.app-1789070050753.png"
   },
@@ -2235,35 +2235,35 @@
    "name": "Hoy Pinoy",
    "instagram_handle": null,
    "note": "candidate @hoypinoygent from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-hung-hing-n11030869864": {
    "name": "Hung Hing",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-huset-n12184172391": {
    "name": "Huset",
    "instagram_handle": "husetgent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/huset",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ichi-bao-n10081473802": {
    "name": "Ichi Bao",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ichiban-n8957993754": {
    "name": "Ichiban",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ikura-w493483121": {
    "name": "Ikura",
    "instagram_handle": null,
    "note": "og:image has name/text and button overlaid (website-hero style)",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://media.base44.com/images/public/6ab632366fedd7f4eb9ac086/29e958d6d_Screenshot2026-10-12at172150.png/v1/fill/w_1200,h_630/29e958d6d_Screenshot2026-10-12at172150.png (note flags it: text)",
    "heroReject": "https://media.base44.com/images/public/6ab632366fedd7f4eb9ac086/29e958d6d_Screenshot2026-10-12at172150.png/v1/fill/w_1200,h_630/29e958d6d_Screenshot2026-10-12at172150.png"
   },
@@ -2271,18 +2271,18 @@
    "name": "Il Cortile",
    "instagram_handle": null,
    "note": "own website unreachable from our box (200)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-il-pettirosso-n13083737101": {
    "name": "Il Pettirosso",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-illyrian-n7079394606": {
    "name": "Illyrian",
    "instagram_handle": "bistro_illyrian",
    "handleSource": "https://www.illyrian.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://v2cdn1.centralappstatic.com/image/resize/4160x3127_cover_0221bb9d22ac441ebc018e24899d00ad.webp?w=1200",
     "source": "https://www.illyrian.be/",
@@ -2297,61 +2297,61 @@
    "instagram_handle": "inboccalupo.gent",
    "handleSource": "https://www.inboccalupo.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-in-den-karpel-w725921195": {
    "name": "In Den Karpel",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-india-palace-n7825707086": {
    "name": "India Palace",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-indian-curry-house-n3874321406": {
    "name": "Indian Curry House",
    "instagram_handle": "indiancurryhouse_gent",
    "handleSource": "https://www.indiancurryhouse.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-indian-masala-n1914075890": {
    "name": "Indian Masala",
    "instagram_handle": "indianmasalagent",
    "handleSource": "https://www.indianmasala.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-istanbul-n8944368818": {
    "name": "Istanbul",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-italian-corner-n11918209075": {
    "name": "Italian corner",
    "instagram_handle": null,
    "note": "website is HOGENT catering page linking the school account @hogeschool_gent; no venue account; own og:image rejected: school advertising graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-jacqueline-n1349508971": {
    "name": "JACQUELINE",
    "instagram_handle": "jacqueline.gent",
    "handleSource": "https://www.jacquelinegent.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-jaggers-w102713996": {
    "name": "Jaggers",
    "instagram_handle": "jaggers_official",
    "handleSource": "https://jaggers.gent",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-jan-van-den-bon-n3185163629": {
    "name": "Jan Van den Bon",
    "instagram_handle": "janvandenbon",
    "handleSource": "https://www.janvandenbon.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.janvandenbon.be/media/pages/home/6180bf75f5-1634807091/1e8b89b6-1f4d-4bfb-8a3a-8ebcef1cf75f.jpeg",
     "source": "https://www.janvandenbon.be/",
@@ -2365,7 +2365,7 @@
    "name": "Janine's",
    "instagram_handle": "janinesgent",
    "handleSource": "https://janines.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://janines.be/wp-content/uploads/2022/07/JANINES-JULI-2022-©-Piet-De-Kersgieter-40_2000px.webp",
     "source": "https://janines.be/",
@@ -2380,33 +2380,33 @@
    "instagram_handle": "javana_coffeeandtea",
    "handleSource": "https://javana.be/",
    "note": "own og:image rejected: packaging graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-je-m-en-fish-n11164462432": {
    "name": "Je m'en fish",
    "instagram_handle": "je_m_en_fish_",
    "handleSource": "https://www.jemenfish.gent/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-jilles-n11505926942": {
    "name": "Jilles",
    "instagram_handle": "jillesburgers",
    "handleSource": "https://www.jilles.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-joan-n11596286257": {
    "name": "Joan",
    "instagram_handle": null,
    "note": "joan.gent now shows \"Amaro\" and links @amaro_bar_gent; possible rebrand, candidate only; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-john-dory-n7827689770": {
    "name": "John Dory",
    "instagram_handle": null,
    "note": "site links chef @louissnauwaert (not a venue account); site text suggests the restaurant is closing/closed; og:image shows the name etched on the window",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://static1.squarespace.com/static/5e10e90a1c4abb17966643ee/t/6ab80c8c5d30227ed8052264/1790446732959/JD.jpg?format=1500w (note flags it: text)",
    "heroReject": "https://static1.squarespace.com/static/5e10e90a1c4abb17966643ee/t/6ab80c8c5d30227ed8052264/1790446732959/JD.jpg?format=1500w"
   },
@@ -2415,283 +2415,283 @@
    "instagram_handle": "jose.gentkouter",
    "handleSource": "https://www.xn--jos-dma.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kaffee-allez-n12625884854": {
    "name": "Kaffee Allez",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kaffee-change-n12941952165": {
    "name": "Kaffee Changé",
    "instagram_handle": "kaffee_change",
    "handleSource": "https://www.kaffeechange.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kaffie-is-kaffie-vzw-n12985197902": {
    "name": "Kaffie is Kaffie VZW",
    "instagram_handle": "kaffieiskaffie",
    "handleSource": "https://kaffieiskaffie.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kaiju-n13504530036": {
    "name": "Kaiju",
    "instagram_handle": "kaiju.be",
    "handleSource": "https://www.kaijurestaurant.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kantien-n7628196641": {
    "name": "Kantien",
    "instagram_handle": "kantien_gent",
    "handleSource": "https://www.kantien.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-karoot-n9665581800": {
    "name": "KAROOT",
    "instagram_handle": "eethuiskaroot",
    "handleSource": "https://karoot.gent",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-karreaux-n4421648390": {
    "name": "Karreaux",
    "instagram_handle": "restaurant_karreaux",
    "handleSource": "https://www.karreaux.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kaskcafe-n2084451567": {
    "name": "KASKcafé",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-keizershof-n1187211170": {
    "name": "Keizershof",
    "instagram_handle": "keizershof",
    "handleSource": "https://www.keizershof.net",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kim-s-kitchen-n10218686217": {
    "name": "Kim's Kitchen",
    "instagram_handle": "kimskitchen.gent",
    "handleSource": "https://kimskitchen.eu",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kingslize-n6779344616": {
    "name": "Kingslize",
    "instagram_handle": "kingslizepizza.be",
    "handleSource": "https://kingslizepizza.be/",
    "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kino-n13342263004": {
    "name": "Kino",
    "instagram_handle": "kino.gent",
    "handleSource": "https://www.kino-gent.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kleindok-n8393159527": {
    "name": "Kleindok",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-knees-to-chin-n10885883241": {
    "name": "Knees To Chin",
    "instagram_handle": "kneestochin",
    "handleSource": "https://www.kneestochin.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-knol-kool-n12148408793": {
    "name": "Knol&Kool",
    "instagram_handle": "knolkool.gent",
    "handleSource": "https://www.knolkool.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-koeketiene-n11146607054": {
    "name": "Koeketiene",
    "instagram_handle": "koeketienegent",
    "handleSource": "https://www.koeketienegent.be/",
    "note": "og:image shows the logo on a card in the photo",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://www.koeketienegent.be/media/og/225-387741002_657452053145750_4651490034732579755_n.jpg (note flags it: logo)",
    "heroReject": "https://www.koeketienegent.be/media/og/225-387741002_657452053145750_4651490034732579755_n.jpg"
   },
   "osm-koffiebar-712-n12703297599": {
    "name": "Koffiebar 712",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-koffiehuis-ibra-n13201537849": {
    "name": "Koffiehuis Ibra",
    "instagram_handle": null,
    "note": "candidate @koffiehuisibra from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-koffiets-n12855207857": {
    "name": "Koffiets",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kofteci-bayram-grill-n13038155972": {
    "name": "Köfteci Bayram Grill",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-komparto-n6828974432": {
    "name": "Komparto",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kona-n13695702160": {
    "name": "Kona",
    "instagram_handle": "kona_gent",
    "handleSource": "https://www.kona-gent.be",
    "note": "own og:image rejected: pop-art graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-korenleitwee-n1212155509": {
    "name": "KorenleiTwee",
    "instagram_handle": "korenleitwee",
    "handleSource": "https://korenleitwee.be/",
    "note": "own og:image rejected: canal/facade view, not confirmed to be the place",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kraz-n4679946989": {
    "name": "KRAZ",
    "instagram_handle": "kraz.gent",
    "handleSource": "https://www.kraz.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-krookcafe-n6532421427": {
    "name": "Krookcafé",
    "instagram_handle": "krookcafe",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/krookcafe",
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-krua-panya-n6138202016": {
    "name": "Krua Panya",
    "instagram_handle": null,
    "note": "website pontima.eu links @de_orchidee_gent, name mismatch; candidate only",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-krunch-n12708121938": {
    "name": "KRUNCH",
    "instagram_handle": "krunch.gent",
    "handleSource": "https://www.krunch.gent/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kulba-kabul-n6983077035": {
    "name": "Kulba Kabul",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-belle-histoire-n11703605271": {
    "name": "La Belle Histoire",
    "instagram_handle": "bellehistoire.1",
    "handleSource": "https://www.bellehistoire.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-bicyclette-n9787361791": {
    "name": "La bicyclette",
    "instagram_handle": "labicyclette_deinze_gent",
    "handleSource": "https://labicyclettepastabar.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-cave-n1628067350": {
    "name": "La Cave",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-dolce-vita-w329892437": {
    "name": "La Dolce Vita",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-fleur-rouge-brasserie-n2305188573": {
    "name": "La Fleur Rouge Brasserie",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-lanterna-n8350123257": {
    "name": "La Lanterna",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-malcontenta-n2555276332": {
    "name": "La Malcontenta",
    "instagram_handle": "la.malcontenta",
    "handleSource": "https://www.lamalcontenta.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-pizzeria-n819591964": {
    "name": "La Pizzeria",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-provence-n6388961286": {
    "name": "La Provence",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-rustica-n1804211330": {
    "name": "La Rustica",
    "instagram_handle": "pizzerialarustica",
    "handleSource": "https://rustica.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-salita-n1425064288": {
    "name": "La Salita",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-tavola-italiana-n11049255680": {
    "name": "La Tavola Italiana",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-vita-e-bella-n8957993751": {
    "name": "La Vita e Bella",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lago-bistro-n9853040230": {
    "name": "LAGO Bistro",
    "instagram_handle": "lagogentrozebroeken",
    "handleSource": "https://www.lago.be/gent/eten-drinken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-laila-n3483670405": {
    "name": "Laila",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-le-bal-infernal-n7158634387": {
    "name": "Le Bal Infernal",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-le-botaniste-n4052744492": {
    "name": "Le Botaniste",
    "instagram_handle": "le_botaniste",
    "handleSource": "https://lebotaniste.eu",
    "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-le-gout-avant-tout-n11395904795": {
    "name": "Le Goût avant Tout",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.legoutavanttout.be/wp-content/uploads/20151221_2207.jpg",
     "source": "https://www.legoutavanttout.be/",
@@ -2705,41 +2705,41 @@
    "name": "Le Homard Rouge",
    "instagram_handle": "lehomardrouge",
    "handleSource": "https://www.lehomardrouge.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-le-petit-grill-n2275104992": {
    "name": "Le petit Grill",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-le-piranha-n1628067364": {
    "name": "Le piranha",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-le-zab-thai-n11036341437": {
    "name": "Le Zab Thai",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lebes-n12791117487": {
    "name": "Lebes",
    "instagram_handle": null,
    "note": "candidate @_lebes from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lekker-gec-n2721915415": {
    "name": "Lekker GEC",
    "instagram_handle": "lekkergec",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/lekker-gec",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-leoni-cucina-contemporanea-n12501221566": {
    "name": "Leonì Cucina Contemporanea",
    "instagram_handle": "leonicucina",
    "handleSource": "https://www.leonicucina.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://leonicucinacontemporanea.be/__l5e/assets-v1/cc8f47ee-5de3-49b4-81a5-890899a71411/leoni-hero-poster.webp",
     "source": "https://www.leonicucina.be/",
@@ -2753,216 +2753,216 @@
    "name": "Libanese Snack",
    "instagram_handle": null,
    "note": "own website unreachable from our box (301)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-limoncello-n12772623907": {
    "name": "Limoncello",
    "instagram_handle": "limoncellogent",
    "handleSource": "https://www.restaurantlimoncello.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-little-asia-n11352130048": {
    "name": "Little Asia",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-little-happiness-n12823556595": {
    "name": "Little Happiness",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lloyd-coffee-eatery-n11154588568": {
    "name": "Lloyd Coffee Eatery",
    "instagram_handle": "lloydcoffee.eatery",
    "handleSource": "https://www.lloydcoffee.com",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lodos-w1075327915": {
    "name": "Lodos",
    "instagram_handle": "lodos.restaurant",
    "handleSource": "https://www.lodosrestaurant.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lokaal-n12208404072": {
    "name": "Lokaal",
    "instagram_handle": null,
    "note": "own og:image rejected: video-thumbnail graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lucmoon-n1590803751": {
    "name": "LucMoon",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lucy-chang-n3392860014": {
    "name": "Lucy Chang",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ludo-n5618349223": {
    "name": "Ludo",
    "instagram_handle": null,
    "note": "candidate @ludo.kafe from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-lujain-n13040061417": {
    "name": "Lujain",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-luv-l-oeuf-n5918300538": {
    "name": "Luv l'oeuf",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-luxalad-n4893381291": {
    "name": "Luxalad",
    "instagram_handle": "luxalad",
    "handleSource": "https://www.luxalad.com",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-madonna-n5247954582": {
    "name": "Madonna",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-maison-elza-n1616705129": {
    "name": "Maison Elza",
    "instagram_handle": "maisonelza",
    "handleSource": "https://www.maisonelza.be/",
    "note": "own og:image rejected: drawing",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-man-wah-n5859316522": {
    "name": "Man Wah",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-manhattn-s-burgers-n2617861936": {
    "name": "Manhattn's Burgers",
    "instagram_handle": "manhattns.burgers",
    "handleSource": "https://www.manhattns.com/",
    "note": "site also links @manhattns.fr (French branch); own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-marengo-n2555139392": {
    "name": "Marengo",
    "instagram_handle": "cafemarengo",
    "handleSource": "https://marengo.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-martino-n8941921521": {
    "name": "Martino",
    "instagram_handle": "snackbarmartino",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/martino",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-masala-accent-n12128973417": {
    "name": "Masala Accent",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mazaj-n14003387975": {
    "name": "Mazaj",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mazaya-n6942598586": {
    "name": "Mazaya",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-meadow-coffee-bar-n12809311483": {
    "name": "Meadow Coffee Bar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-meat-district-n12702505074": {
    "name": "meat district",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mengie-n11912063124": {
    "name": "Mengie",
    "instagram_handle": null,
    "note": "own website unreachable from our box (200)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-meshur-adyaman-cig-koftecisi-n11426088978": {
    "name": "Meşhur Adıyaman Çiğ Köftecisi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mevlana-42-n11516571366": {
    "name": "Mevlana 42",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mi-garba-n5289336221": {
    "name": "Mi Garba",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mian-n10748138689": {
    "name": "Mian",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-midpoint-n5918274971": {
    "name": "Midpoint",
    "instagram_handle": "midpoint.be",
    "handleSource": "https://midpoint.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-midtown-grill-n5276097616": {
    "name": "Midtown Grill",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mimosa-n11697848804": {
    "name": "Mimosa",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ming-s-garden-n6174754586": {
    "name": "Ming's Garden",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-minty-plus-n13957813953": {
    "name": "Minty Plus",
    "instagram_handle": "mintyplus.gent",
    "handleSource": "https://mintyplus.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-miss-yu-n6828974429": {
    "name": "Miss Yu",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mission-masala-n7804889585": {
    "name": "Mission Masala",
    "instagram_handle": "missionmasala_bombaybbq",
    "handleSource": "https://missionmasala.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mistafluut-n10743751308": {
    "name": "Mistafluut",
    "instagram_handle": null,
    "note": "candidate @cafemistafluut from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mister-spaghetti-n1212139210": {
    "name": "Mister Spaghetti",
    "instagram_handle": "misterspaghettiofficial",
    "handleSource": "https://www.mister-spaghetti.com/gent/",
    "note": "brand/chain account, not branch-specific",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg (note flags it: chain)",
    "heroReject": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg"
   },
@@ -2970,25 +2970,25 @@
    "name": "Modest",
    "instagram_handle": "gent.modest",
    "handleSource": "https://modestgent.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mogador-n10911632109": {
    "name": "Mogador",
    "instagram_handle": null,
    "note": "own website unreachable from our box (200)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mortier-n9902273001": {
    "name": "Mortier",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mosquito-coast-n2617844933": {
    "name": "Mosquito Coast",
    "instagram_handle": "mosquitocoastghent",
    "handleSource": "https://www.mosquitocoast.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static1.squarespace.com/static/69048ef0faadd6130b0c4a05/t/695cdcaab5d96f5e50ddb215/1767693482296/20251027+Mosquito+Coast-54.jpg?format=1500w",
     "source": "https://www.mosquitocoast.be/",
@@ -3001,24 +3001,24 @@
   "osm-moti-mahal-n1209368840": {
    "name": "Moti Mahal",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mr-sato-n12741969454": {
    "name": "Mr. Sato",
    "instagram_handle": "mrsatogent",
    "handleSource": "https://www.mrsato.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-muday-n6853683393": {
    "name": "Muday",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-my-tannour-n12697242776": {
    "name": "My Tannour",
    "instagram_handle": "mytannour.belgium",
    "handleSource": "https://www.mytannour.com/list-locations/gent-fn7h6",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static1.squarespace.com/static/64d359f5d45da5265beb6c19/t/67ae1deb82b61d36b22c4410/1739464171122/000Sans-titre-1+%281%29.png?format=1500w",
     "source": "https://www.mytannour.com/list-locations/gent-fn7h6",
@@ -3031,69 +3031,69 @@
   "osm-myst-n4395300769": {
    "name": "Myst",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-nam-jai-n3394491371": {
    "name": "Nam Jai",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-nat-thai-n12116554787": {
    "name": "Nat Thai",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-neapolis-n2625520425": {
    "name": "Neapolis",
    "instagram_handle": "neapolisgent",
    "handleSource": "https://www.neapolisgent.be",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-nenuphar-w425380898": {
    "name": "Nenuphar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-nepal-delight-n11047205650": {
    "name": "Nepal Delight",
    "instagram_handle": "nepaldelightgent",
    "handleSource": "https://gent.nepaldelight.be",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-neptune-n1212144793": {
    "name": "Neptune",
    "instagram_handle": null,
    "note": "website is a resto.be listing (links platform account); no venue account; own og:image rejected: resto.be platform logo",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-nesto-n13270651417": {
    "name": "Nesto",
    "instagram_handle": "nesto.gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/nesto",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-nieuw-gent-n12017880541": {
    "name": "Nieuw Gent",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-noah-w430755898": {
    "name": "Noah",
    "instagram_handle": "noah.gent",
    "handleSource": "https://noah.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-nono-n14064650165": {
    "name": "Nono",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-noon-n6255570289": {
    "name": "Noon",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.showit.co/1200/eMl8u8EibZzBEyPf4KHTKA/204388/noon-sandwicherie-gent-03.jpg",
     "source": "https://noonsandwicherie.be/noon-sandwicherie",
@@ -3106,7 +3106,7 @@
   "osm-noon-s-zusje-n12484933964": {
    "name": "Noon's Zusje",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.showit.co/1200/cSJwKlWvHi3MXAeDl0vRZQ/204388/image00024.jpg",
     "source": "https://noonsandwicherie.be/noon-s-zusje",
@@ -3121,7 +3121,7 @@
    "instagram_handle": "normagent",
    "handleSource": "https://www.normagent.com/",
    "note": "Visit Gent links @norma.gent instead (https://visit.gent.be/nl/eten-drinken/norma)",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/2b1b69_437e436f5a424decad58522c7d9855bb~mv2.jpg/v1/fill/w_2500,h_2406,al_c/2b1b69_437e436f5a424decad58522c7d9855bb~mv2.jpg",
     "source": "https://www.normagent.com/",
@@ -3135,19 +3135,19 @@
    "name": "Ô Gand",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-o-learys-n4716568192": {
    "name": "O'Learys",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-o-yo-n10885912444": {
    "name": "O'yo",
    "instagram_handle": "oyogent",
    "handleSource": "https://www.oyobar.be",
    "note": "og:image has logo overlaid",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png (note flags it: logo)",
    "heroReject": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
   },
@@ -3156,40 +3156,40 @@
    "instagram_handle": "oyogent",
    "handleSource": "https://www.oyobar.be/",
    "note": "og:image has logo overlaid",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png (note flags it: logo)",
    "heroReject": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
   },
   "osm-ocakta-muhabbet-n12648351621": {
    "name": "Ocakta Muhabbet",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ocean-sushi-w494018303": {
    "name": "Ocean Sushi",
    "instagram_handle": "oceansushigent",
    "handleSource": "https://gent.oceansushi.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ode-brasserie-n1187193552": {
    "name": "Ode Brasserie",
    "instagram_handle": null,
    "note": "candidate @ode_gent from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-odil-n11305200343": {
    "name": "Odil",
    "instagram_handle": "odilgent",
    "handleSource": "https://www.odilgent.be/",
    "note": "own og:image rejected: website screenshot",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-officina-raffaelli-n5629021237": {
    "name": "Officina Raffaelli",
    "instagram_handle": "officinaraffaelli",
    "handleSource": "https://www.officinaraffaelli.be/",
    "note": "og:image is a photo of the neon name sign",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://static1.squarespace.com/static/60fd49a5b639eb04277d6362/t/61013d59dcb2d667b8d0f362/1627471193970/officina_raffaelli_neon.jpeg?format=1500w (note flags it: sign)",
    "heroReject": "https://static1.squarespace.com/static/60fd49a5b639eb04277d6362/t/61013d59dcb2d667b8d0f362/1627471193970/officina_raffaelli_neon.jpeg?format=1500w"
   },
@@ -3197,99 +3197,99 @@
    "name": "Oh!Ma",
    "instagram_handle": "ohma_gent",
    "handleSource": "https://www.oh-ma.eu/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-okawa-snackbar-n10294919707": {
    "name": "Okawa Snackbar",
    "instagram_handle": null,
    "note": "candidate @okawa_sushi_gent from todo; not verified by any linking page; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-okawa-sushi-n13788019779": {
    "name": "Okawa Sushi",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-omar-n6983068048": {
    "name": "Omar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ombra-n12992514757": {
    "name": "Ombra",
    "instagram_handle": "ombra.gent",
    "handleSource": "https://www.ombra.gent",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-open-wok-n7085959385": {
    "name": "Open Wok",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-orange-ini-n9809246056": {
    "name": "Orange Ini",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ornek-n12323650404": {
    "name": "Örnek",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-osteria-delicati-n4389095205": {
    "name": "Osteria Delicati",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-osti-s-lobby-coffee-n12681994060": {
    "name": "Osti's Lobby&Coffee",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-otomat-n4677893292": {
    "name": "Otomat",
    "instagram_handle": "otomat.pizza",
    "handleSource": "https://otomat.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ottoman-grillhouse-n13055223101": {
    "name": "Ottoman Grillhouse",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ozgem-n1579895326": {
    "name": "Özgem",
    "instagram_handle": "ozgemrestaurant",
    "handleSource": "https://restaurantozgem.be/",
    "note": "site also links @restoozgem; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pacha-mama-n3553831592": {
    "name": "Pacha Mama",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pagos-n4907557926": {
    "name": "Pagos",
    "instagram_handle": "pagos_gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/pagos",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pain-perdu-n2773666260": {
    "name": "Pain Perdu",
    "instagram_handle": "lepain.perdu",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/pain-perdu",
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pakhuis-w107725021": {
    "name": "Pakhuis",
    "instagram_handle": "brasseriepakhuis",
    "handleSource": "https://www.pakhuis.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static1.squarespace.com/static/64b693996ec7a728142f97e5/t/662a2c5f791a541019b95f4c/1744702240967/Home+Pagina.png?format=1500w",
     "source": "https://www.pakhuis.be/",
@@ -3303,131 +3303,131 @@
    "name": "Pampas",
    "instagram_handle": "pampasrodizio",
    "handleSource": "https://www.pampas.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-panda-n4154773490": {
    "name": "Panda",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pane-vino-w112572422": {
    "name": "Pane & Vino",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pani-n1804211176": {
    "name": "Panì",
    "instagram_handle": null,
    "note": "og:image is a photo of the logo sign on a wall",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://pani.gent/media/site/73503598eb-1771177181/pani-1200x630-crop.jpg (note flags it: logo)",
    "heroReject": "https://pani.gent/media/site/73503598eb-1771177181/pani-1200x630-crop.jpg"
   },
   "osm-panito-n6171381486": {
    "name": "Panito",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-panotto-n12837270943": {
    "name": "Panotto",
    "instagram_handle": "panotto.gent",
    "handleSource": "https://www.panotto.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pantheon-n5524955122": {
    "name": "Pantheon",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-parisiana-n12379299578": {
    "name": "Parisiana",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-parkkaffee-n663056470": {
    "name": "Parkkaffee",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pastinaak-n9854058974": {
    "name": "Pastinaak",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-patron-n5135071694": {
    "name": "Patron",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-per-bacco-n7158632586": {
    "name": "Per Bacco",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-petit-comite-n4404607290": {
    "name": "Petit Comité",
    "instagram_handle": "alwaysin_petitcomite",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/petit-comite",
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-petit-thai-n11476496998": {
    "name": "Petit Thai",
    "instagram_handle": "petit.thai.gent",
    "handleSource": "https://petitthai.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-phaya-n6064925839": {
    "name": "Phaya",
    "instagram_handle": "phayathai.restaurant",
    "handleSource": "https://www.phayagent.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pho-saigon-n10892781656": {
    "name": "Pho Saigon",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pietje-pek-w909712432": {
    "name": "Pietje Pek",
    "instagram_handle": "pietjepek1",
    "handleSource": "https://www.pietjepekdrongen.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pitta-alanya-n12104551219": {
    "name": "Pitta Alanya",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pitta-flora-n10983992980": {
    "name": "Pitta Flora",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pitta-side-w630342003": {
    "name": "Pitta side",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pittoresk-n1186301440": {
    "name": "Pittoresk",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pizza-bella-w626913548": {
    "name": "Pizza Bella",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pizza-cesar-n9278632522": {
    "name": "Pizza Cesar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://pizzacesar.be/icons/og-image.jpg",
     "source": "https://www.pizza-cesar.com",
@@ -3440,44 +3440,44 @@
   "osm-pizza-gulhan-n4720207391": {
    "name": "Pizza Gülhan",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pizza-king-n12331252803": {
    "name": "Pizza King",
    "instagram_handle": "pizzaking9000",
    "handleSource": "https://www.pizzaking-gent.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pizza-mia-n5056755522": {
    "name": "Pizza Mia",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pizza-pisa-n12320430953": {
    "name": "Pizza Pisa",
    "instagram_handle": null,
    "note": "own website unreachable from our box (403)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pizza-roma-n11047218681": {
    "name": "Pizza Roma",
    "instagram_handle": null,
    "note": "og:image has logo overlaid",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg (note flags it: logo)",
    "heroReject": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg"
   },
   "osm-pizzahof-n1853026297": {
    "name": "Pizzahof",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-plant-a-pizza-n9740821856": {
    "name": "Plant A Pizza",
    "instagram_handle": "plant.a.pizza",
    "handleSource": "https://plantapizza.com",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://plantapizza.com/wp-content/uploads/2024/02/DSC9108-Enhanced-NR.webp",
     "source": "https://plantapizza.com",
@@ -3491,24 +3491,24 @@
    "name": "Plantbaar",
    "instagram_handle": "plantbaar.gent",
    "handleSource": "https://plantbaar.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-plus-n5936452586": {
    "name": "PLUS+",
    "instagram_handle": "plus.gent",
    "handleSource": "https://www.plus.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-poke-house-n11352130035": {
    "name": "Poké House",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ponton-n4565846936": {
    "name": "Ponton",
    "instagram_handle": "pontongent",
    "handleSource": "https://www.pontongent.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/ae3385_0aec1e69cb264e0e90c6c2f21e66526f%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/ae3385_0aec1e69cb264e0e90c6c2f21e66526f%7Emv2.jpg",
     "source": "https://www.pontongent.be/",
@@ -3522,23 +3522,23 @@
    "name": "Poule & Poulette",
    "instagram_handle": "poule_poulette",
    "handleSource": "https://poulepoulette.com/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pret-e-croquer-n6156854475": {
    "name": "Prêt è croquer",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-prince-n12323883648": {
    "name": "Prince",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pureto-n12585303235": {
    "name": "Pureto",
    "instagram_handle": "pureto.be",
    "handleSource": "https://pureto.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://pureto.be/wp-content/uploads/2025/01/Pureto-34-scaled.jpg",
     "source": "https://pureto.be/",
@@ -3551,24 +3551,24 @@
   "osm-rabot-dumpling-house-n12748707901": {
    "name": "Rabot Dumpling House",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-rabotaria-n4075563290": {
    "name": "Rabotaria",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ramen-bambu-n12323883649": {
    "name": "Ramen Bambu",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ramen-n4227045139": {
    "name": "Ramen",
    "instagram_handle": "ramen.gent",
    "handleSource": "https://www.ramen.gent/",
    "note": "og:image is a collage with a logo panel",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://ramen.gent/images/share-image.png (note flags it: collage)",
    "heroReject": "https://ramen.gent/images/share-image.png"
   },
@@ -3576,19 +3576,19 @@
    "name": "Restaurant Cocotte",
    "instagram_handle": "restaurantcocottegent",
    "handleSource": "https://www.restaurantcocottegent.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-restaurant-hartetroef-n12413165387": {
    "name": "Restaurant Hartetroef",
    "instagram_handle": "hartetroef.gent",
    "handleSource": "https://stad.gent/nl/sint-amandsberg/hartetroef",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-restaurant-panda-n11415862783": {
    "name": "Restaurant Panda",
    "instagram_handle": null,
    "note": "og:image has logo overlaid",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://www.restaurantpanda.be/media/images/new-images/Chinees-Restaurant-Panda-social.jpg (note flags it: logo)",
    "heroReject": "https://www.restaurantpanda.be/media/images/new-images/Chinees-Restaurant-Panda-social.jpg"
   },
@@ -3597,90 +3597,90 @@
    "instagram_handle": "restoleo.be",
    "handleSource": "https://restoleo.be",
    "note": "also Visit Gent agrees; @nelsons_bakery_ also linked on site is a different business",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-rk-barbecue-n9808181998": {
    "name": "RØK Barbecue",
    "instagram_handle": "rokbarbecue",
    "handleSource": "https://www.dokbrewingcompany.be/food",
    "note": "page on dokbrewingcompany.be also links @dok_brewing_company (venue host) and @rokburgers; og:image is the same photo as Dok Brewing Company (shared venue)",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg (note flags it: same photo)",
    "heroReject": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg"
   },
   "osm-roast-n2738245892": {
    "name": "Roast",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-rokkebolle-n4456452819": {
    "name": "Rokkebolle",
    "instagram_handle": "rokkebolle",
    "handleSource": "https://www.rokkebolle.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-rokko-n12659929329": {
    "name": "Rokko",
    "instagram_handle": "rokko_gent",
    "handleSource": "https://www.rokko.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-romanoff-s-w685047789": {
    "name": "Romanoff's",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-rosa-n12534518527": {
    "name": "ROSA",
    "instagram_handle": null,
    "note": "fromrosawithlove.com is titled \"Therapie Gent\" and links @amo_rosa_gent; unclear, candidate only",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-royal-india-n10892781655": {
    "name": "Royal India",
    "instagram_handle": null,
    "note": "own og:image rejected: selfie of people, not the place/food",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ruba-n10609073783": {
    "name": "Ruba",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-rumi-n7177919608": {
    "name": "Rumi",
    "instagram_handle": "rumi_gent",
    "handleSource": "https://www.rumirestaurant.be/kopie-van-contact",
    "note": "handle linked on the site's contact/about page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sabi-n1212143203": {
    "name": "Sabi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sahara-n13436668734": {
    "name": "Sahara",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sailing-queen-w313703440": {
    "name": "Sailing Queen",
    "instagram_handle": null,
    "note": "site links @wearedynamate (looks like an agency); not accepted; own og:image rejected: graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-san-ren-xing-n12501294949": {
    "name": "San Ren Xing",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sao-paulo-n5544675087": {
    "name": "São Paulo",
    "instagram_handle": "koffiebranderijsaopaulo",
    "handleSource": "https://www.saopaulo.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://saopaulo.be/assets/images/_1200x630_crop_center-center_82_none/20240903-Sao-Paulo-3.jpg?mtime=1732540921",
     "source": "https://www.saopaulo.be/",
@@ -3693,42 +3693,42 @@
   "osm-saray-n11766645039": {
    "name": "Saray",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-savarin-n1186342710": {
    "name": "Savarin",
    "instagram_handle": "savaringent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/savarin",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-scopa-focacceria-n1381910692": {
    "name": "Scopa Focacceria",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-seli-s-noodlebar-n2998443056": {
    "name": "Seli's Noodlebar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sensum-gent-n12801817423": {
    "name": "Sensum Gent",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-seoul-south-station-n12702572257": {
    "name": "Seoul South Station",
    "instagram_handle": "seoulsouthstation",
    "handleSource": "https://www.seoulsouthstation.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sgol-n10892676751": {
    "name": "Sgol",
    "instagram_handle": "sgol_gent",
    "handleSource": "https://sgol.be",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://le-de.cdn-website.com/546f410419c64de59ada2b4c7767577d/dms3rep/multi/opt/293671629_135076772543299_5595228110081462740_n-1920w.jpg",
     "source": "https://sgol.be",
@@ -3742,35 +3742,35 @@
    "name": "Shazanna",
    "instagram_handle": "annashazanna",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/shazanna",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ship-sip-w834990455": {
    "name": "Ship & Sip",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sin-n11592985145": {
    "name": "Sin",
    "instagram_handle": null,
    "note": "candidate @restaurant_sin from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-snoens-n14116759030": {
    "name": "Snoens",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-soepbar-sordo-n9092308404": {
    "name": "Soepbar Sordo",
    "instagram_handle": "soepbar.sordo",
    "handleSource": "https://soepbarsordo.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-soepplus-w744209712": {
    "name": "Soepplus",
    "instagram_handle": "soepplus",
    "handleSource": "https://soepplus.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://soepplus.be/app/uploads/2021/01/soepplus-social.jpg",
     "source": "https://soepplus.be/",
@@ -3783,48 +3783,48 @@
   "osm-soeurs-sourire-n9042748310": {
    "name": "Soeurs Sourire",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sole-d-italia-n2275104998": {
    "name": "Sole d'Italia",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-somm-n12607304272": {
    "name": "SOMM",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sorelle-n1349521463": {
    "name": "Sorelle",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-soul-kitchen-n5986142786": {
    "name": "Soul Kitchen",
    "instagram_handle": "soulkitchengent",
    "handleSource": "https://www.soul-kitchen.be/contact/",
    "note": "handle linked on the site's contact/about page; own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-soup-lounge-n1212142182": {
    "name": "Soup Lounge",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-soup-r-n5164395526": {
    "name": "Soup'r",
    "instagram_handle": "souprgent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/soupr",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-souplicious-n8957993745": {
    "name": "Souplicious",
    "instagram_handle": "souplicious_ledeberg",
    "handleSource": "https://souplicious.be",
    "note": "og:image has logo overlaid",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://souplicious.be/wp-content/uploads/2023/07/Souplicious-Linkedin.png (note flags it: logo)",
    "heroReject": "https://souplicious.be/wp-content/uploads/2023/07/Souplicious-Linkedin.png"
   },
@@ -3832,25 +3832,25 @@
    "name": "SOUV",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-spazio24-n7060940342": {
    "name": "Spazio24",
    "instagram_handle": "spazio_24",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/spazio24",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-speenghar-restaurant-n13510617308": {
    "name": "Speenghar Restaurant",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-stamcafe-n1882787678": {
    "name": "STAMCafé",
    "instagram_handle": "stamcafe.gent",
    "handleSource": "https://stamgent.be/nl_be/bezoek-het-stam/stamcaf%C3%A9",
    "note": "@stamgent is the museum account",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://stamgent.be/volumes/general/_1200x630_crop_center-center_82_none/434533814_1013805710557772_988149560801692250_n_2025-01-22-221627_oykr.jpg?v=1750142751",
     "source": "https://stamgent.be/nl_be/bezoek-het-stam/stamcaf%C3%A9",
@@ -3865,46 +3865,46 @@
    "instagram_handle": "steamywindowsbe",
    "handleSource": "https://www.steamywindows.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-stek-n6828901282": {
    "name": "Stek",
    "instagram_handle": "stekgent",
    "handleSource": "https://stekgent.be",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-still-n13898213727": {
    "name": "STILL.",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-stroom-brewery-n12738654204": {
    "name": "Stroom Brewery",
    "instagram_handle": null,
    "note": "own website unreachable from our box (202)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-suffys-n11004345644": {
    "name": "Suffys",
    "instagram_handle": "suffyspatisserie",
    "handleSource": "https://www.suffys.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sugar-spice-n1212135543": {
    "name": "Sugar & Spice",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sultan-s-n13038155968": {
    "name": "Sultan's",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-surtoe-n4893318698": {
    "name": "Surtoe",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://restaurantsurtoe.be/wp-content/uploads/2026/08/Image-2.jpg",
     "source": "https://www.restaurantsurtoe.be/",
@@ -3917,24 +3917,24 @@
   "osm-sushi-ledeberg-n8944368719": {
    "name": "Sushi Ledeberg",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-love-gent-n9056427353": {
    "name": "Sushi Love Gent",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-oostakker-n9996956434": {
    "name": "Sushi Oostakker",
    "instagram_handle": null,
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-palace-n12323650406": {
    "name": "Sushi Palace",
    "instagram_handle": "sushipalacegent",
    "handleSource": "https://www.sushipalacegent.be",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-05.jpg",
     "source": "https://www.sushipalacegent.be",
@@ -3948,35 +3948,35 @@
    "name": "Sushi Paradise",
    "instagram_handle": "sushi_paradise_gent",
    "handleSource": "https://sushiparadise.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-plaza-n6138202032": {
    "name": "Sushi Plaza",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-poel-n3931156537": {
    "name": "Sushi Poel",
    "instagram_handle": "sushipoel",
    "handleSource": "https://sushipoel.be",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-prime-n12625568192": {
    "name": "Sushi Prime",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-star-n10289739405": {
    "name": "Sushi Star",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-symphony-n12650624985": {
    "name": "Symphony",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.bar-symphony.be/wp-content/uploads/2025/01/852270ed-74ef-478b-a0f4-28bc6d69e645.jpg",
     "source": "https://www.bar-symphony.be/",
@@ -3991,12 +3991,12 @@
    "instagram_handle": "braemhof",
    "handleSource": "https://braemhof.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-felt-n14072558901": {
    "name": "‘t Felt",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://primary.jwwb.nl/public/q/i/e/temp-zrmqgglodiwpkngnzovu/img_3473-high-dyy4tw.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
     "source": "https://www.tfelt.com/",
@@ -4009,77 +4009,77 @@
   "osm-t-fondueloft-n6796872888": {
    "name": "'t Fondueloft",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-klaverblad-n3394070670": {
    "name": "'t Klaverblad",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-klokhuys-n3394070669": {
    "name": "'t Klokhuys",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-koningshuis-n2625520422": {
    "name": "'t Koningshuis",
    "instagram_handle": "tkoningshuis",
    "handleSource": "https://www.t-koningshuis.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-oud-clooster-n4776502139": {
    "name": "'t Oud Clooster",
    "instagram_handle": "toudclooster",
    "handleSource": "https://www.toudclooster.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-picolootje-n11481061157": {
    "name": "'t Picolootje",
    "instagram_handle": "tpicolootje",
    "handleSource": "https://www.picolootje.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-prison-n1381892995": {
    "name": "‘t Prison",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-smulderke-n3967083754": {
    "name": "'t Smulderke",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-spoorke-n3967087159": {
    "name": "'t Spoorke",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-spoorloos-perron-n13758856522": {
    "name": "'t Spoorloos Perron",
    "instagram_handle": "spoorloosperrongent",
    "handleSource": "https://www.spoorloosperron.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-stoofpotje-n6175117985": {
    "name": "'t Stoofpotje",
    "instagram_handle": "tstoofpotje",
    "handleSource": "https://tstoofpotje.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-t-wokske-n3109397450": {
    "name": "'t Wokske",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-table-10-n10005651044": {
    "name": "Table 10",
    "instagram_handle": "table10zwijnaarde",
    "handleSource": "https://www.table10.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/495648_7bd992ba677d428ba2a6ac9e0a8d06cd%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/495648_7bd992ba677d428ba2a6ac9e0a8d06cd%7Emv2.jpg",
     "source": "https://www.table10.be/",
@@ -4093,114 +4093,114 @@
    "name": "Tabouleh",
    "instagram_handle": null,
    "note": "own website unreachable from our box (404)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-taco-santo-n11210189831": {
    "name": "Taco Santo",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-taco-santo-n6920767887": {
    "name": "Taco Santo",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-taj-mahal-n11352130046": {
    "name": "Taj Mahal",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-take-five-n10267858018": {
    "name": "Take Five",
    "instagram_handle": "takefiveespressobar",
    "handleSource": "https://www.take-five-espressobar.be/contact-3",
    "note": "handle linked on the site's contact/about page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-take-in-n12348834392": {
    "name": "Take In",
    "instagram_handle": "takeingent",
    "handleSource": "https://takein.be",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-takes-thyme-n5379924322": {
    "name": "Takes Thyme",
    "instagram_handle": "takesthyme_ghent",
    "handleSource": "https://www.takesthyme2023.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tamis-homekitchen-w452683591": {
    "name": "Tamis Homekitchen",
    "instagram_handle": "tamis_homekitchen",
    "handleSource": "https://tamishomekitchen.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tampopo-n499978423": {
    "name": "Tampopo",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tante-paula-n5618349224": {
    "name": "Tante Paula",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tapsalon-n12887001771": {
    "name": "Tapsalon",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tartelette-n9264478841": {
    "name": "Tartelette",
    "instagram_handle": "tartelette.gent",
    "handleSource": "https://www.tartelette.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tartoastie-n12556919004": {
    "name": "Tartoastie",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tashun-n3817855014": {
    "name": "Tashun",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-taste-of-india-n11049255678": {
    "name": "Taste of India",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-te-gusta-n9416480518": {
    "name": "Te Gusta",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ter-burg-n6092406662": {
    "name": "Ter Burg",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000); candidate @ter_burg from todo; not verified by any linking page",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ter-toren-n6174916885": {
    "name": "Ter Toren",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-thai-thanee-n1404464937": {
    "name": "Thai Thanee",
    "instagram_handle": "thaithanee_gent",
    "handleSource": "https://www.thaithanee.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-thatcha-thai-kitchen-n6312636187": {
    "name": "Thatcha Thai Kitchen",
    "instagram_handle": "thatchathai_kitchen",
    "handleSource": "https://thatcha.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://thatcha.be/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-14-at-11.27.51-1.jpeg",
     "source": "https://thatcha.be/",
@@ -4214,30 +4214,30 @@
    "name": "Thawan Thai",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-the-corner-house-n11223369715": {
    "name": "The Corner House",
    "instagram_handle": null,
    "note": "own og:image rejected: graphic/render of a napkin",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-the-crispy-crunch-n11897480559": {
    "name": "The Crispy Crunch",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-the-dixie-n10289666040": {
    "name": "The Dixie",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-the-mistress-n13787925225": {
    "name": "The Mistress",
    "instagram_handle": "themistressgent",
    "handleSource": "https://www.themistress.be/",
    "note": "site also links @magino_deinze",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg/v1/fill/w_2500,h_2500,al_c/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg",
     "source": "https://www.themistress.be/",
@@ -4251,17 +4251,17 @@
    "name": "The Waffle Factory",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-the-wokbar-n5567192748": {
    "name": "The Wokbar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-timelab-eatery-n12798223055": {
    "name": "Timelab Eatery",
    "instagram_handle": null,
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://eatery.timelab.org/wp-content/uploads/2023/05/2022_Summercamp_FiberFever_AaronLapeirre_87.jpg",
     "source": "https://eatery.timelab.org/",
@@ -4274,13 +4274,13 @@
   "osm-toetswiet-n1186945848": {
    "name": "Toetswiet",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-toi-et-moi-n3842784242": {
    "name": "Toi et Moi",
    "instagram_handle": "restotoietmoi",
    "handleSource": "https://www.restotoietmoi.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.restotoietmoi.be/wp-content/uploads/2021/09/Toi_et_Moi_restaurant_gent_18.jpg",
     "source": "https://www.restotoietmoi.be/",
@@ -4293,52 +4293,52 @@
   "osm-tokyo-sushi-n11352130038": {
    "name": "Tokyo Sushi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tom-dellas-n6574771220": {
    "name": "Tom & Dellas",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-top-fast-food-n13771013521": {
    "name": "Top Fast Food",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-top-sushi-n10298212680": {
    "name": "Top Sushi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-touche-n11302184714": {
    "name": "Touche",
    "instagram_handle": "touche.gent",
    "handleSource": "https://www.touchegent.be/",
    "note": "own og:image URL broken",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-trafiek-n1997298037": {
    "name": "trafiek",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-tush-n11352130051": {
    "name": "tush",
    "instagram_handle": "tush.gent",
    "handleSource": "https://www.eat-tush.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-twilight-sushi-n1628067381": {
    "name": "Twilight Sushi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uilenspiegel-n10907848125": {
    "name": "Uilenspiegel",
    "instagram_handle": "uilenspiegel_gent",
    "handleSource": "https://www.eetcafe-uilenspiegel.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.eetcafe-uilenspiegel.be/wp-content/uploads/2020/10/1-2.jpg",
     "source": "https://www.eetcafe-uilenspiegel.be/",
@@ -4351,89 +4351,89 @@
   "osm-uludag-n10250827159": {
    "name": "Uludag",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uma-marisqueira-n11595390054": {
    "name": "Uma Marisqueira",
    "instagram_handle": "marisqueirauma.belgie",
    "handleSource": "https://umamarisqueira.com/uma-ghent.html",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-umamido-n4273118892": {
    "name": "Umamido",
    "instagram_handle": "umamido",
    "handleSource": "https://restaurants.umamido.be/ramen-gent-korenmarkt/",
    "note": "brand/chain account, not branch-specific",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-umamido-vooruit-n6919498743": {
    "name": "Umamido Vooruit",
    "instagram_handle": "umamido",
    "handleSource": "https://www.umamido.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uncle-babe-s-burger-bar-n4524885209": {
    "name": "Uncle Babe's Burger Bar",
    "instagram_handle": "unclebabes",
    "handleSource": "https://unclebabes.com/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uncle-sam-s-n12703057611": {
    "name": "Uncle Sam's",
    "instagram_handle": "uncle_samsoostakker",
    "handleSource": "https://www.unclesams.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-urfa-n13038155956": {
    "name": "Urfa",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uzume-sushi-n11476402371": {
    "name": "Uzume Sushi",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-veggi-en-grill-n9230929147": {
    "name": "Veggi en Grill",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-veneris-n1186342684": {
    "name": "Veneris",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-verz-w630349191": {
    "name": "VerZ",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-vief-n12804094905": {
    "name": "Vief",
    "instagram_handle": "vief.gent",
    "handleSource": "https://www.vief-healthyfastfood.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-vier-tafels-w493483074": {
    "name": "Vier Tafels",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-viernulvier-cafe-n3817855015": {
    "name": "VIERNULVIER Café",
    "instagram_handle": "viernulvier.gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/viernulvier-cafe",
    "note": "own website unreachable from our box (308)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-villa-anamma-n6795335875": {
    "name": "Villa Anamma",
    "instagram_handle": "villa_anamma",
    "handleSource": "https://villa-anamma.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://villa-anamma.be/wp-content/uploads/2022/06/MENU.png",
     "source": "https://villa-anamma.be/",
@@ -4446,34 +4446,34 @@
   "osm-villa-bardon-n6947769194": {
    "name": "Villa Bardon",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-villa-ooievaar-n12416733927": {
    "name": "Villa Ooievaar",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-vittorio-n7470367118": {
    "name": "Vittorio",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-viva-la-puglia-n9819206829": {
    "name": "Viva La Puglia",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-volta-n1837379195": {
    "name": "Volta",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-vuslat-etli-ekmek-n13055218101": {
    "name": "Vuslat Etli Ekmek",
    "instagram_handle": "vuslat.etliekmek",
    "handleSource": "https://www.vuslatetliekmek.be/",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://static.wixstatic.com/media/a32fe4_c74f99eec64540278f86432dd8739378~mv2.jpg/v1/fill/w_2500,h_1666,al_c/a32fe4_c74f99eec64540278f86432dd8739378~mv2.jpg",
     "source": "https://www.vuslatetliekmek.be/",
@@ -4486,111 +4486,111 @@
   "osm-wally-n11111845674": {
    "name": "Wally",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-wang-hung-w316401895": {
    "name": "Wang Hung",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-wasbar-n1532795039": {
    "name": "Wasbar",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-wasbar-n6138202038": {
    "name": "Wasbar",
    "instagram_handle": "wasbar",
    "handleSource": "http://www.wasbar.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-way-n4361414624": {
    "name": "Way",
    "instagram_handle": "waycoffeeroasters.gent",
    "handleSource": "https://www.way.gent/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-way-plantbased-bakehouse-n4256139406": {
    "name": "WAY Plantbased Bakehouse",
    "instagram_handle": "waycoffeeroasters.gent",
    "handleSource": "https://www.way.gent/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-win-n12574625746": {
    "name": "Win",
    "instagram_handle": "barwingent",
    "handleSource": "https://www.barwin.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-woest-n4863374603": {
    "name": "Woest",
    "instagram_handle": "woestgent",
    "handleSource": "https://www.woestgent.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-wok-king-w1110607357": {
    "name": "Wok King",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-wurst-n7036891924": {
    "name": "Würst",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-yalla-yalla-n11049255677": {
    "name": "Yalla Yalla",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-yammi-yammi-n6780960089": {
    "name": "Yammi Yammi",
    "instagram_handle": null,
    "note": "own website unreachable from our box (202)",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-yeti-n12542341837": {
    "name": "Yeti",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-zaytoun-n13995728001": {
    "name": "Zaytoun",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-zuru-zuru-ramen-n11688398600": {
    "name": "Zuru Zuru Ramen",
    "instagram_handle": "zuruzururamen",
    "handleSource": "https://zuruzuru-ramen.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-zwartwit-w237595802": {
    "name": "ZwartWit",
    "instagram_handle": null,
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "pallieter": {
    "name": "Pallieter",
    "instagram_handle": "pallietergent",
    "handleSource": "https://www.overpoort-gent.be/lid-overpoort/pallieter/",
    "note": "Linked from the Overpoort street association (Overpoort Gent VZW) member page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "patrick-foleys": {
    "name": "Patrick Foley's Irish Pub",
    "instagram_handle": "patrickfoleys",
    "handleSource": "https://www.foleys.be/",
    "note": "og:image: Interior photo with logo overlaid.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://www.foleys.be/og-image.jpg (note flags it: logo)",
    "heroReject": "https://www.foleys.be/og-image.jpg"
   },
@@ -4599,175 +4599,175 @@
    "instagram_handle": "peaberry_gent",
    "handleSource": "https://peaberrycoffeebar.be/",
    "note": "Own site links @peaberry_gent; Visit Gent lists a different handle, @peaberry_coffeebar_gent. Own site used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "piu-di-piu": {
    "name": "Piu di Piu",
    "instagram_handle": "piudipiubar",
    "handleSource": "https://piudipiu.com/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "porter-house": {
    "name": "Porter House",
    "instagram_handle": "porterhouse_gent",
    "handleSource": "https://www.porterhousegent.be/",
    "note": "Also linked from the Overpoort VZW member page. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "roar-gent": {
    "name": "ROAR",
    "instagram_handle": "roar.ghent",
    "handleSource": "https://roarcoffee.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "shamrock-irish-bar": {
    "name": "Shamrock Irish Bar",
    "instagram_handle": null,
    "note": "No Instagram account found; own site unreachable.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "smorbrod": {
    "name": "SMØRBRØD",
    "instagram_handle": "smorbrodgent",
    "handleSource": "https://smorbrod.gent/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "soan": {
    "name": "SOAN",
    "instagram_handle": "soancocktails",
    "handleSource": "https://www.soanbar.com/",
    "note": "Also linked on its Gault&Millau page. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "t-dreupelkot": {
    "name": "'t Dreupelkot",
    "instagram_handle": "poldreupelkot",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/t-dreupelkot",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "t-floere-foefke": {
    "name": "'t Floere Foefke",
    "instagram_handle": "tfloerefoefke",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/t-floere-foefke",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "t-galgenhuisje": {
    "name": "'t Galgenhuisje",
    "instagram_handle": null,
    "note": "No official account found (Visit Gent lists only Facebook/email).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "t-kofschip": {
    "name": "'t Kofschip",
    "instagram_handle": "tkofschip_gent",
    "handleSource": "https://www.overpoort-gent.be/lid-overpoort/t-kofschip/",
    "note": "Linked from the Overpoort Gent VZW member page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "take-five-voldersstraat": {
    "name": "Take Five Espressobar",
    "instagram_handle": "takefiveespressobar",
    "handleSource": "https://www.honeyguide.nl/nl/locaties-verborgen-parels/981029342/espressobar-take-five",
    "note": "Own site shows no Instagram link; linked from a Honeyguide venue page (third party).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "tam-tam": {
    "name": "Tam-Tam",
    "instagram_handle": "tamtamgent9k",
    "handleSource": "https://www.overpoort-gent.be/lid-overpoort/tam-tam/",
    "note": "Linked from the Overpoort Gent VZW member page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "tds": {
    "name": "TDS",
    "instagram_handle": "tds.ghent",
    "handleSource": "https://www.tdscoffee.be",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "terug": {
    "name": "Terug",
    "instagram_handle": null,
    "note": "Unverified candidate @terug.coffee (search result only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "the-bakery-joost-arijs": {
    "name": "The Bakery by Joost Arijs",
    "instagram_handle": "thebakery_joostarijs",
    "handleSource": "https://thebakery-joostarijs.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "the-celtic-towers": {
    "name": "The Celtic Towers",
    "instagram_handle": "theceltictowers.irishpub",
    "handleSource": "https://celtictowers.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "the-cobbler": {
    "name": "The Cobbler",
    "instagram_handle": "thecobblerghent",
    "handleSource": "https://www.1898thepost.com/the-cobbler/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "the-coffee-station": {
    "name": "The Coffee Station",
    "instagram_handle": null,
    "note": "Unverified candidate @thecoffeestation9000 (search result only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "the-kitchen-1898-the-post": {
    "name": "The Kitchen at 1898 The Post",
    "instagram_handle": "1898ghent",
    "handleSource": "https://www.1898thepost.com/the-kitchen",
    "note": "Hotel account of 1898 The Post (the site also references @1898_thepost); no separate account for The Kitchen found.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "the-mix": {
    "name": "The Mix",
    "instagram_handle": null,
    "note": "Conflicting candidates @the.mix.bar / @the_mix_gent (aggregators only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "trollekelder": {
    "name": "Trollekelder",
    "instagram_handle": null,
    "note": "Unverified candidate @trollekelder (search result only); own site is a beer menu without social links.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "vandekerckhove-bar": {
    "name": "Vandekerckhove & Bar",
    "instagram_handle": "vandekerckhovebar",
    "handleSource": "https://vandekerckhove1854.be/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "waterhuis-aan-de-bierkant": {
    "name": "Waterhuis aan de Bierkant",
    "instagram_handle": null,
    "note": "Unverified candidate @waterhuisgent (search result only); own site blank, Visit Gent lists none.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "way-bakery-keizerpoort": {
    "name": "WAY Specialty Coffee Bakery (Keizerpoort)",
    "instagram_handle": "waycoffeeroasters.gent",
    "handleSource": "https://www.way.gent/pages/bakkerij",
    "note": "Brand account covering all WAY locations. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "way-dok-noord": {
    "name": "WAY Specialty Coffee Roasters (Dok Noord)",
    "instagram_handle": "waycoffeeroasters.gent",
    "handleSource": "https://www.way.gent/",
    "note": "Brand account covering all WAY locations; also listed on Visit Gent. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "whynot": {
    "name": "WhyNot",
    "instagram_handle": "whynot.gent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/whynot",
    "note": "og:image: Cocktail/table photo.",
-   "origin": "research (not yet approved)",
+   "origin": "research (approved 20 Oct 2026)",
    "heroImage": {
     "url": "https://www.whynot.gent/og/home.jpg",
     "source": "https://whynot.gent/",
@@ -4781,33 +4781,33 @@
    "name": "Wild Child",
    "instagram_handle": "wildchild.gent",
    "handleSource": "https://wildchild.gent/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "wunderbar": {
    "name": "Wunderbar",
    "instagram_handle": "wunderbargent",
    "handleSource": "https://www.overpoort-gent.be/lid-overpoort/wunderbar/",
    "note": "Linked from the Overpoort Gent VZW member page.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "yume-coffee": {
    "name": "Yume",
    "instagram_handle": null,
    "note": "Unverified candidate @yume.ghent (search result only).",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "yusu": {
    "name": "Yusu",
    "instagram_handle": "yusu_gent",
    "handleSource": "https://www.yusu.be/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   },
   "zeppos-vlasmarkt": {
    "name": "Zeppos",
    "instagram_handle": "zeppos_vlasmarkt",
    "handleSource": "https://zepposvlasmarkt.be/",
-   "origin": "research (not yet approved)"
+   "origin": "research (approved 20 Oct 2026)"
   }
  },
  "embed": {
