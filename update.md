@@ -98,6 +98,11 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    (Europe/Brussels; the site shows the place as open again the day after, curated and OSM alike).
 4j. **Instagram / photos** (weekly) – `python3 scripts/build_instagram_layer.py gent --check` (new handles; `--recheck` all; `--research=<file>`
    merges a researcher hand-off). Then `python3 scripts/photo_coverage.py gent --missing=/workspace/handoff/gent-photos-missing.json`.
+4k. **Reservations** – `python3 scripts/merge_reservations.py gent [--handoff=…]` merges `/workspace/handoff/gent-reservations-research.json`
+   (idempotent; `[{id,name,method,provider,bookingUrl,phone,source,note}]`, or check entries with `existing_reservation_url` + `status`).
+   Stored in `data/osm/reservations-research.json` (OSM ref / `id:<id>`); `import_osm.py` re-applies the OSM part after each import.
+   Writes `reservationMethod`, `reservationSource`, `reservationNote`, and `reservation_url`/`reservation_provider`/`phone` only where
+   empty (a `status: "redirected"` entry replaces exactly that old link). Re-run it after `apply_media.py` (which resets curated links).
 4f. **Closure spot-check** (monthly) – sample 40 random OSM places, check own site / recent listings, record in `data/osm/spotcheck-<date>.json`;
    closed places: fix in OSM (or add `"status": "closed"` via corrections) and re-import.
 5. **Recompute `isNew`** – set `false` once `openingDate` is older than 18 months.

@@ -1,0 +1,155 @@
+{
+ "about": "Researched reservation info (key = OSM ref, or id:<id> for curated records in <city>.json). Written by scripts/merge_reservations.py; import_osm.py re-applies the OSM entries after each import. An existing reservation_url / phone is never overwritten.",
+ "places": {
+  "id:arbane": {
+   "id": "arbane",
+   "name": "Arbane",
+   "method": "online",
+   "provider": "Zenchef",
+   "bookingUrl": "https://bookings.zenchef.com/results?rid=369935",
+   "source": "https://www.arbane.be/",
+   "note": "Zenchef page loads (HTTP 200); embedded data shows 'Restaurant Arbane - Gent', Wijzemanstraat 4. The own site still links rid=369935.",
+   "checked": "2026-10-23"
+  },
+  "id:arno-ristorante": {
+   "id": "arno-ristorante",
+   "name": "ARNO ristorante",
+   "method": "unknown",
+   "phone": "+32 9 212 01 21",
+   "source": "https://arno-ristorante.be/contact/",
+   "note": "Own site down when checked 23/10 (homepage: 'Please stand by while configuration is in progress', /contact/ gives HTTP 500), so no booking button could be checked. Search-indexed copy of the contact page lists reservations@arnoristorante.be and T +32 092120121; Michelin Guide (https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurant/arno-ristorante) says the restaurant manages its own bookings. Likely email/phone, but the live site does not confirm it. Recheck when the site is back.",
+   "checked": "2026-10-23"
+  },
+  "id:commotie": {
+   "id": "commotie",
+   "name": "Commotie",
+   "method": "online",
+   "bookingUrl": "https://www.commotiegent.be/makeareservation",
+   "source": "https://www.commotiegent.be/makeareservation",
+   "note": "Own 'Reservations - Commotie' page loads with an embedded TableFever widget (v3, restoHashId 9xga0). The public TableFever page for 9xga0 returns 404, so keep the own page as the link.",
+   "checked": "2026-10-23"
+  },
+  "id:dapper": {
+   "id": "dapper",
+   "name": "Dapper.",
+   "method": "online",
+   "provider": "Zenchef",
+   "bookingUrl": "https://bookings.zenchef.com/results?rid=377604",
+   "source": "https://www.restaurantdapper.com/",
+   "note": "Zenchef page loads; data shows 'DAPPER.', Gent, Planet Group Arena (= Ottergemsesteenweg Zuid 808). The own site still links rid=377604.",
+   "checked": "2026-10-23"
+  },
+  "id:karel-de-stoute": {
+   "id": "karel-de-stoute",
+   "name": "Karel de Stoute",
+   "method": "online",
+   "provider": "TableFever",
+   "bookingUrl": "https://www.tablefever.com/nl/restaurant/dgak0/karel-de-stoute?open-widget=1",
+   "replaces": "https://restkareldestoute.be/reserveren",
+   "source": "https://restkareldestoute.be/",
+   "note": "/reserveren now redirects to the homepage. The homepage embeds a TableFever widget (restoHashId dgak0) whose page is titled 'Karel de stoute | TableFever'.",
+   "checked": "2026-10-23"
+  },
+  "id:lof": {
+   "id": "lof",
+   "name": "LOF",
+   "method": "online",
+   "provider": "Guestplan",
+   "bookingUrl": "https://www.lofrestaurant.com/",
+   "phone": "+32 9 235 40 70",
+   "source": "https://www.lofrestaurant.com/",
+   "note": "Homepage \"RESERVE NOW\" opens the Guestplan widget; the homepage is used as the link (the direct widget URL could not be confirmed).",
+   "checked": "2026-10-23"
+  },
+  "id:lys-d-or": {
+   "id": "lys-d-or",
+   "name": "Lys d'Or",
+   "method": "online",
+   "provider": "TableFever",
+   "bookingUrl": "https://www.tablefever.com/nl/restaurant/dgXkm/lys-dor?open-widget=1",
+   "phone": "+32 9 430 11 30",
+   "source": "https://www.lysdor.be/nl",
+   "note": "Site is 'Powered by TableFever' ('Reserveer uw tafel eenvoudig met TableFever'); reservationUrl in page script resolves to the TableFever page titled 'Lys d'Or | TableFever' at Charles de Kerchovelaan 81.",
+   "checked": "2026-10-23"
+  },
+  "id:moscou-by-danny-horseele": {
+   "id": "moscou-by-danny-horseele",
+   "name": "Moscou by Danny Horseele",
+   "method": "online",
+   "provider": "own page",
+   "bookingUrl": "https://www.restaurantmoscou.be/appointment/3",
+   "phone": "+32 475 29 75 58",
+   "source": "https://www.restaurantmoscou.be/appointment/3",
+   "note": "The 'Reserveren' menu item goes to an Odoo booking page ('Reserveer Restaurant Moscou Gentbrugge', with date & time and details steps). Only https://www. works; the bare domain doesn't answer from the box.",
+   "checked": "2026-10-23"
+  },
+  "id:oak": {
+   "id": "oak",
+   "name": "OAK",
+   "method": "online",
+   "bookingUrl": "https://oakgent.be/reservaties/",
+   "source": "https://oakgent.be/reservaties/",
+   "note": "Own page loads. It has two systems: 'reservaties tot 30/12/2026' uses the Tock widget (tock init 'oak'), 'reservaties vanaf 2027' uses Platemate (app.platemate.be). Keep the own page because the provider switches at the new year. exploretock.com/oak sits behind a Cloudflare challenge from the box, so it wasn't verified.",
+   "checked": "2026-10-23"
+  },
+  "id:publiek": {
+   "id": "publiek",
+   "name": "Publiek",
+   "method": "online",
+   "provider": "Zenchef",
+   "bookingUrl": "https://bookings.zenchef.com/results?rid=381344",
+   "source": "https://publiekgent.be/nl/reserveren",
+   "note": "Zenchef page loads; data shows 'Publiek', Ham 39, Gent. The own site's /nl/reserveren embeds data-restaurant=381344.",
+   "checked": "2026-10-23"
+  },
+  "id:rizoom": {
+   "id": "rizoom",
+   "name": "Rizoom",
+   "method": "online",
+   "provider": "TableFever",
+   "bookingUrl": "https://www.tablefever.com/nl/restaurant/9GyvY/rizoom?open-widget=1",
+   "source": "https://www.rizoomgent.be/reserveren",
+   "note": "Own page loads with an embedded TableFever widget (9GyvY → 'Rizoom | TableFever'). The page says reservations open on the 1st of each month for 2 months ahead. bookingUrl is an optional direct provider link; the existing one is fine.",
+   "checked": "2026-10-23"
+  },
+  "id:sakas": {
+   "id": "sakas",
+   "name": "Sākas",
+   "method": "online",
+   "provider": "Zenchef",
+   "bookingUrl": "https://bookings.zenchef.com/results?rid=369609",
+   "source": "https://www.sakaswintercircusbe.eu/",
+   "note": "Zenchef page loads; data shows Lammerstraat 13, Gent, omakase offers. The own site still links rid=369609.",
+   "checked": "2026-10-23"
+  },
+  "id:sensum": {
+   "id": "sensum",
+   "name": "Sensum",
+   "method": "online",
+   "provider": "TheFork",
+   "bookingUrl": "https://widget.thefork.com/b7fb7ca0-dc28-4840-bb83-436c250861b7",
+   "source": "https://sensumgent.be/",
+   "note": "Redirects to the /nl/…?step=date booking wizard titled 'Sensum' (an expected redirect, not a problem). The own site still links this widget. The widget says same-day bookings and groups of 8+ go by phone (+32 9 246 11 46).",
+   "checked": "2026-10-23"
+  },
+  "id:talloor-d-or": {
+   "id": "talloor-d-or",
+   "name": "Talloor d'Or",
+   "method": "online",
+   "bookingUrl": "https://talloordor.be/reservatie",
+   "source": "https://talloordor.be/reservatie",
+   "note": "Own 'Reservatie' page loads and embeds the Tallores booking widget (widget.tallores.com, restaurantId mdzun56kt5z6w2). There is no separate provider page.",
+   "checked": "2026-10-23"
+  },
+  "id:vrijmoed": {
+   "id": "vrijmoed",
+   "name": "Vrijmoed",
+   "method": "online",
+   "provider": "TableFever",
+   "bookingUrl": "https://www.tablefever.com/nl/restaurant/9xrwm/vrijmoed?open-widget=1",
+   "source": "https://www.vrijmoed.be/nl/reserveren",
+   "note": "Own page loads with a TableFever widget trigger (9xrwm → 'Vrijmoed | TableFever'); the page also mentions booking by phone. bookingUrl is an optional direct provider link.",
+   "checked": "2026-10-23"
+  }
+ }
+}

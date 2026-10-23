@@ -9,8 +9,8 @@
   document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
-  const QUICK = ['new', 'veggie', 'vegan', 'events'];                  // chips in the main row
-  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, stage: '', vlevel: '', meal: '', style: '', sort: 'rec', ev: '' };
+  const QUICK = ['open', 'new', 'veggie', 'vegan', 'events'];                  // chips in the main row
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, open: false, stage: '', vlevel: '', meal: '', style: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
@@ -173,8 +173,9 @@
   const terms = () => norm(state.q).split(/\s+/).filter(Boolean);
 
   function filtered() {
-    const t = terms();
+    const t = terms(), now0 = new Date();
     let list = R.filter(r => {
+      if (state.open && TG.openState(r, now0).state !== 'open') return false;   // "Open now" pill (js/hours.js, Europe/Brussels)
       if (t.length && !t.every(w => r._hay.includes(w))) return false;
       if (state.group && r.group !== state.group) return false;
       if (state.type && !state.type.split('+').includes(r.category)) return false;
@@ -234,6 +235,7 @@
     if (inView && !force && !document.hidden) return;
     ohPending = false;
     const y = scrollY, n = shown;
+    if (state.open) { render(); scrollTo(0, y); return; }                // "Open now" is on: places that closed/opened leave/join the list
     LIST.sort((a, b) => TG.OPEN_RANK[a._oh.state] - TG.OPEN_RANK[b._oh.state] || LIST._base(a, b));
     $('#list').innerHTML = LIST.slice(0, n).map(card).join(''); moreBtn(); TG.lazyIg($('#list'));
     scrollTo(0, y);
@@ -269,6 +271,19 @@
   // ---- render list + markers ----
   const detailUrl = id => cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id));
   const SHORT = { glutenFree: 'Gluten-free', naPairing: 'NA pairing', wheelchair: 'Wheelchair', vegan: 'Vegan', aLaCarte: 'À la carte', gaultMillau: 'G&M', chefCollabs: 'Chef collabs', openSunday: 'Sunday', openMonday: 'Monday', foodServed: 'Food', reservations: 'Bookable' };
+  /* booking button on list cards (only categories in TG_CONFIG.BOOKING_BUTTON_TYPES): online link → "Check availability ↗";
+     no online link but a phone (data says phone-only, or nothing researched yet) → tel: "Reservation by phone"; walk-in only → chip */
+  const BK_TYPES = (window.TG_CONFIG || {}).BOOKING_BUTTON_TYPES || [];
+  const bookOn = r => r.group === 'restaurants' && !r.upcoming && !r.fromUpcoming && (BK_TYPES.includes('*') || BK_TYPES.includes(r.category));
+  const bookMethod = r => r.reservationMethod === 'walk-in' ? 'walk-in' : r.reservation_url ? 'online' : known(r.phone) && r.phone ? 'phone' : 'none';
+  function booking(r) {
+    const m = bookMethod(r);
+    if (m === 'online') return `<span class="bk bk--online" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" title="Book online${r.reservation_provider ? ' via ' + esc(r.reservation_provider) : ''} (opens in a new tab)" aria-label="Check availability at ${esc(r.name)} (opens booking page in a new tab)">Check availability <i aria-hidden="true">↗</i></span>`;
+    if (m === 'phone') { const tel = String(r.phone).replace(/[^\d+]/g, '');
+      return `<span class="bk bk--phone" data-tel="tel:${esc(tel)}" role="link" tabindex="0" title="Call ${esc(r.phone)} to reserve" aria-label="Reservation by phone: call ${esc(r.name)} at ${esc(r.phone)}"><span class="bk__l">Reservation by phone</span><span class="bk__n" aria-hidden="true">${esc(r.phone)}</span></span>`; }
+    if (m === 'walk-in') return `<span class="bk-chip" title="${esc(r.reservationNote || 'No reservations: walk-in only')}">Walk-in only</span>`;
+    return '';
+  }
   function card(r) {
     const price = known(r.priceLevel) ? r.priceLevel : (r.priceFrom ? `from ${eur(r.priceFrom)}` : '');
     const isR = r.group === 'restaurants', cu = (r.cuisine || '').split(/[,–(]/)[0].trim();
@@ -283,7 +298,7 @@
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
       <div class="card__body"><div class="badges"><span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
-      <div class="card__foot">${km}${isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
+      <div class="card__foot">${km}${bookOn(r) ? booking(r) : isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
   }
   function render() {
     syncUrl();
@@ -324,8 +339,10 @@
   $('#list').addEventListener('mouseout', e => { const c = e.target.closest('.card'); if (c) hl(c.dataset.id, false); });
   $('#list').addEventListener('click', e => {
     if (e.target.closest('[data-reset]')) { e.preventDefault(); resetFilters(); return; }
+    const b = e.target.closest('.bk'); if (b) { e.preventDefault(); if (b.dataset.tel) location.href = b.dataset.tel; else window.open(b.dataset.href, '_blank', 'noopener'); return; }
     const x = e.target.closest('.ext'); if (x) { e.preventDefault(); window.open(x.dataset.href, '_blank', 'noopener'); }
   });
+  $('#list').addEventListener('keydown', e => { const b = e.target.closest('.bk'); if (b && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); b.click(); } });
 
   // ---- events (upcoming only; past/undated are dropped in TG.load) ----
   const EVGROUPS = [

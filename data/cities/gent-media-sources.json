@@ -1238,9 +1238,9 @@
      "category_basis": "instagram alt text"
     }
    ],
-   "reservation_url": null,
-   "reservation_provider": null,
-   "reservation_source": "no booking link found on the website",
+   "reservation_url": "https://www.restaurantmoscou.be/appointment/3",
+   "reservation_provider": "own page",
+   "reservation_source": "booking page on the restaurant’s own website (Odoo appointment module), set on request 2026-10-23",
    "photos": []
   },
   "meme-gusta": {

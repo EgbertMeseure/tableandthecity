@@ -79,6 +79,11 @@ The front-end renders them only when `js/config.js` has `window.TG_CONFIG = {goo
 Guestplan, TheFork widget… or its own reservation page), checked to return HTTP 200; `reservation_provider` names the
 system. The detail page shows a primary **Reserve** button; without a verified link it falls back to the website, or
 `tel:` ("Call to reserve") if there's only a phone number. List cards show a small "Reserve ↗" link only for verified links.
+**Booking button on list cards** (categories in `TG_CONFIG.BOOKING_BUTTON_TYPES` in `js/config.js`, now `['fine dining']`; add a
+category, or `'*'` for all restaurants): `reservation_url` → black pill "Check availability ↗" (new tab, replaces "Reserve ↗");
+no link but a phone → outlined pill "Reservation by phone" (`tel:`, the number shows on hover and in the tooltip);
+`reservationMethod: "walk-in"` → small "Walk-in only" chip; otherwise nothing. Researched booking info:
+`python3 scripts/merge_reservations.py gent` (see update.md 4k). Quick filter **Open now** (`open=1` in the URL) uses `js/hours.js`.
 
 ### Feature tiles ("At a glance")
 `features: {veggie, vegan, glutenFree, kidsWelcome, terrace, lunch, dinner, setMenu, aLaCarte, winePairing, naPairing,

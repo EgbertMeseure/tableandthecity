@@ -359,7 +359,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://arbane.be",
-   "osm": "node/11897385586"
+   "osm": "node/11897385586",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.arbane.be/",
+   "reservationNote": "Zenchef page loads (HTTP 200); embedded data shows 'Restaurant Arbane - Gent', Wijzemanstraat 4. The own site still links rid=369935."
   },
   {
    "id": "arno-ristorante",
@@ -1317,7 +1320,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://commotiegent.be/contact",
-   "osm": "node/11717356067"
+   "osm": "node/11717356067",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.commotiegent.be/makeareservation",
+   "reservationNote": "Own 'Reservations - Commotie' page loads with an embedded TableFever widget (v3, restoHashId 9xga0). The public TableFever page for 9xga0 returns 404, so keep the own page as the link."
   },
   {
    "id": "dapper",
@@ -1451,7 +1457,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://restaurantdapper.com/contact",
-   "osm": "node/2454728590"
+   "osm": "node/2454728590",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.restaurantdapper.com/",
+   "reservationNote": "Zenchef page loads; data shows 'DAPPER.', Gent, Planet Group Arena (= Ottergemsesteenweg Zuid 808). The own site still links rid=377604."
   },
   {
    "id": "de-rave",
@@ -2742,8 +2751,8 @@
     }
    ],
    "instagram_handle": "kareldestoutegent",
-   "reservation_url": "https://restkareldestoute.be/reserveren",
-   "reservation_provider": "own page",
+   "reservation_url": "https://www.tablefever.com/nl/restaurant/dgak0/karel-de-stoute?open-widget=1",
+   "reservation_provider": "TableFever",
    "features": {
     "veggie": null,
     "vegan": null,
@@ -2772,7 +2781,7 @@
     "setMenu": "menu type: Set menu (lunch, 5 or 6 courses)",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "15.0/20 (2026)",
-    "reservations": "booking link on own website: https://restkareldestoute.be/reserveren",
+    "reservations": "booking link on own website: https://www.tablefever.com/nl/restaurant/dgak0/karel-de-stoute?open-widget=1",
     "openMonday": "https://restkareldestoute.be/contact",
     "openSunday": "https://restkareldestoute.be/contact"
    },
@@ -2780,7 +2789,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://restkareldestoute.be/contact",
-   "osm": "node/3394070666"
+   "osm": "node/3394070666",
+   "reservationMethod": "online",
+   "reservationSource": "https://restkareldestoute.be/",
+   "reservationNote": "/reserveren now redirects to the homepage. The homepage embeds a TableFever widget (restoHashId dgak0) whose page is titled 'Karel de stoute | TableFever'."
   },
   {
    "id": "kin-khao-thai-eatery",
@@ -3601,8 +3613,8 @@
     }
    ],
    "instagram_handle": "lofrestaurantghent",
-   "reservation_url": null,
-   "reservation_provider": null,
+   "reservation_url": "https://www.lofrestaurant.com/",
+   "reservation_provider": "Guestplan",
    "features": {
     "veggie": true,
     "vegan": null,
@@ -3619,7 +3631,7 @@
     "gaultMillau": true,
     "events": null,
     "chefCollabs": null,
-    "reservations": null,
+    "reservations": true,
     "walkIn": null,
     "wheelchair": null,
     "openSunday": true,
@@ -3634,13 +3646,17 @@
     "openSunday": "menu type: À la carte or Chef’s Menu (6 courses); Sunday lunch",
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "14.0/20 (2026)",
-    "openMonday": "https://lofrestaurant.com"
+    "openMonday": "https://lofrestaurant.com",
+    "reservations": "booking link on own website: https://www.lofrestaurant.com/"
    },
    "openingHours": "Mon–Tue closed · Wed–Sat 18:00–21:30 · Sun first Sunday of the month: lunch only",
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://lofrestaurant.com",
-   "osm": "node/6900564087"
+   "osm": "node/6900564087",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.lofrestaurant.com/",
+   "reservationNote": "Homepage \"RESERVE NOW\" opens the Guestplan widget; the homepage is used as the link (the direct widget URL could not be confirmed)."
   },
   {
    "id": "lubbi",
@@ -3856,8 +3872,8 @@
     }
    ],
    "instagram_handle": "lysdor_gent",
-   "reservation_url": null,
-   "reservation_provider": null,
+   "reservation_url": "https://www.tablefever.com/nl/restaurant/dgXkm/lys-dor?open-widget=1",
+   "reservation_provider": "TableFever",
    "features": {
     "veggie": null,
     "vegan": null,
@@ -3874,7 +3890,7 @@
     "gaultMillau": true,
     "events": null,
     "chefCollabs": null,
-    "reservations": null,
+    "reservations": true,
     "walkIn": null,
     "wheelchair": null,
     "openSunday": false,
@@ -3886,12 +3902,16 @@
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "14.0/20 (2026)",
     "openMonday": "https://www.lysdor.be/nl/contact",
-    "openSunday": "https://www.lysdor.be/nl/contact"
+    "openSunday": "https://www.lysdor.be/nl/contact",
+    "reservations": "booking link on own website: https://www.tablefever.com/nl/restaurant/dgXkm/lys-dor?open-widget=1"
    },
    "openingHours": "Mon 12:00–14:00, 18:30–21:00 · Tue 12:00–14:00 · Wed closed · Thu–Fri 12:00–14:00, 18:30–21:00 · Sat 18:30–21:00 · Sun closed",
    "group": "restaurants",
    "category": "fine dining",
-   "openingHoursSource": "https://www.lysdor.be/nl/contact"
+   "openingHoursSource": "https://www.lysdor.be/nl/contact",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.lysdor.be/nl",
+   "reservationNote": "Site is 'Powered by TableFever' ('Reserveer uw tafel eenvoudig met TableFever'); reservationUrl in page script resolves to the TableFever page titled 'Lys d'Or | TableFever' at Charles de Kerchovelaan 81."
   },
   {
    "id": "midi",
@@ -4125,8 +4145,8 @@
     }
    ],
    "instagram_handle": "restaurant.moscou",
-   "reservation_url": null,
-   "reservation_provider": null,
+   "reservation_url": "https://www.restaurantmoscou.be/appointment/3",
+   "reservation_provider": "own page",
    "features": {
     "veggie": null,
     "vegan": null,
@@ -4143,7 +4163,7 @@
     "gaultMillau": true,
     "events": null,
     "chefCollabs": null,
-    "reservations": null,
+    "reservations": true,
     "walkIn": null,
     "wheelchair": null,
     "openSunday": false,
@@ -4158,13 +4178,17 @@
     "new": "opened 2025-05-23",
     "glutenFree": "https://www.restaurantmoscou.be/menu — gluten intolerance can be flagged at booking; cross-contamination not excluded",
     "openMonday": "https://www.restaurantmoscou.be/contact",
-    "openSunday": "https://www.restaurantmoscou.be/contact"
+    "openSunday": "https://www.restaurantmoscou.be/contact",
+    "reservations": "booking link on own website: https://www.restaurantmoscou.be/appointment/3"
    },
    "openingHours": "Mon closed · Tue–Fri 12:00–13:30, 19:00–20:30 · Sat–Sun closed",
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://www.restaurantmoscou.be/contact",
-   "osm": "node/12994866605"
+   "osm": "node/12994866605",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.restaurantmoscou.be/appointment/3",
+   "reservationNote": "The 'Reserveren' menu item goes to an Odoo booking page ('Reserveer Restaurant Moscou Gentbrugge', with date & time and details steps). Only https://www. works; the bare domain doesn't answer from the box."
   },
   {
    "id": "meme-gusta",
@@ -4553,7 +4577,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://oakgent.be",
-   "osm": "node/10291647457"
+   "osm": "node/10291647457",
+   "reservationMethod": "online",
+   "reservationSource": "https://oakgent.be/reservaties/",
+   "reservationNote": "Own page loads. It has two systems: 'reservaties tot 30/12/2026' uses the Tock widget (tock init 'oak'), 'reservaties vanaf 2027' uses Platemate (app.platemate.be). Keep the own page because the provider switches at the new year. exploretock.com/oak sits behind a Cloudflare challenge from the box, so it wasn't verified."
   },
   {
    "id": "otium-cucina-italiana",
@@ -4935,7 +4962,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://publiekgent.be/nl/reserveren",
-   "osm": "node/4463413776"
+   "osm": "node/4463413776",
+   "reservationMethod": "online",
+   "reservationSource": "https://publiekgent.be/nl/reserveren",
+   "reservationNote": "Zenchef page loads; data shows 'Publiek', Ham 39, Gent. The own site's /nl/reserveren embeds data-restaurant=381344."
   },
   {
    "id": "pulpo",
@@ -5323,7 +5353,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://www.rizoomgent.be/contact",
-   "osm": "node/6898538387"
+   "osm": "node/6898538387",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.rizoomgent.be/reserveren",
+   "reservationNote": "Own page loads with an embedded TableFever widget (9GyvY → 'Rizoom | TableFever'). The page says reservations open on the 1st of each month for 2 months ahead. bookingUrl is an optional direct provider link; the existing one is fine."
   },
   {
    "id": "sensum",
@@ -5500,7 +5533,10 @@
    "openingHours": "Mon–Wed 12:00–16:30, 19:00–23:30 · Thu private dining only · Fri 12:00–16:30, 19:00–23:30 · Sat private dining only (open 2nd Saturday of the month) · Sun closed",
    "group": "restaurants",
    "category": "fine dining",
-   "openingHoursSource": "https://sensumgent.be/contact/"
+   "openingHoursSource": "https://sensumgent.be/contact/",
+   "reservationMethod": "online",
+   "reservationSource": "https://sensumgent.be/",
+   "reservationNote": "Redirects to the /nl/…?step=date booking wizard titled 'Sensum' (an expected redirect, not a problem). The own site still links this widget. The widget says same-day bookings and groups of 8+ go by phone (+32 9 246 11 46)."
   },
   {
    "id": "steendam-66",
@@ -5774,7 +5810,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://sakaswintercircusbe.eu/contact",
-   "osm": "node/12323439126"
+   "osm": "node/12323439126",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.sakaswintercircusbe.eu/",
+   "reservationNote": "Zenchef page loads; data shows Lammerstraat 13, Gent, omakase offers. The own site still links rid=369609."
   },
   {
    "id": "taberna-bask",
@@ -6038,7 +6077,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://talloordor.be/contact",
-   "osm": "node/8944368521"
+   "osm": "node/8944368521",
+   "reservationMethod": "online",
+   "reservationSource": "https://talloordor.be/reservatie",
+   "reservationNote": "Own 'Reservatie' page loads and embeds the Tallores booking widget (widget.tallores.com, restaurantId mdzun56kt5z6w2). There is no separate provider page."
   },
   {
    "id": "trattoria-della-mamma",
@@ -6491,7 +6533,10 @@
    "group": "restaurants",
    "category": "fine dining",
    "openingHoursSource": "https://vrijmoed.be/nl/reserveren",
-   "osm": "node/4769782821"
+   "osm": "node/4769782821",
+   "reservationMethod": "online",
+   "reservationSource": "https://www.vrijmoed.be/nl/reserveren",
+   "reservationNote": "Own page loads with a TableFever widget trigger (9xrwm → 'Vrijmoed | TableFever'); the page also mentions booking by phone. bookingUrl is an optional direct provider link."
   },
   {
    "id": "yalo",

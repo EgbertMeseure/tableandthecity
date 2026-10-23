@@ -397,6 +397,15 @@ def main():
         h = hrs.get(r['osm'])
         if h and not r.get('openingHours'):
             r.update({'openingHours': h['openingHours'], 'openingHoursSource': h['source'], 'openingHoursConfidence': h.get('confidence')})
+    rsv = json.loads((OSM_DIR / 'reservations-research.json').read_text())['places'] if (OSM_DIR / 'reservations-research.json').exists() else {}
+    for r in places:                                             # researched booking info (scripts/merge_reservations.py); never overwrites OSM phone/link
+        e = rsv.get(r['osm'])
+        if e and e.get('method') in ('online', 'phone', 'walk-in'):
+            r.update({k: v for k, v in {'reservationMethod': e['method'], 'reservationSource': e.get('source'), 'reservationNote': e.get('note')}.items() if v})
+            if e['method'] == 'online' and e.get('bookingUrl') and not r.get('reservation_url'):
+                r['reservation_url'] = e['bookingUrl']
+                if e.get('provider'): r['reservation_provider'] = e['provider']
+            if e.get('phone') and not r.get('phone'): r['phone'] = e['phone']
     places.sort(key=lambda r: r['id']); save_locate()
     out = {'source': 'OpenStreetMap via Overpass API', 'license': '© OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)',
            'osmBase': stamp, 'city': CITY, 'count': len(places), 'places': places}

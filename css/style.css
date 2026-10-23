@@ -300,3 +300,16 @@ body.noscroll{overflow:hidden}
 .card__thumb .thumb-ig{position:absolute;inset:0;overflow:hidden;z-index:1;pointer-events:none;opacity:0;transition:opacity .5s ease,filter var(--ease)}
 .card__thumb .thumb-ig.is-loaded{opacity:1}
 .card__thumb .thumb-ig iframe{position:absolute;left:0;top:0;border:0;transform-origin:0 0;pointer-events:none;background:transparent}
+/* booking button on list cards (categories in TG_CONFIG.BOOKING_BUTTON_TYPES, js/config.js) */
+.card__foot .bk{display:inline-flex;align-items:center;justify-content:center;gap:7px;height:36px;padding:0 18px;border:1.5px solid var(--ink);border-radius:var(--pill);
+  font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;cursor:pointer;max-width:100%;transition:background .2s,color .2s}
+.card__foot .bk--online{background:var(--ink);color:#fff}
+.card__foot .bk--online:hover,.card__foot .bk--online:focus-visible{background:#fff;color:var(--ink)}
+.card__foot .bk--phone{background:#fff;color:var(--ink)}
+.card__foot .bk--phone:hover,.card__foot .bk--phone:focus-visible{background:var(--ink);color:#fff}
+.card__foot .bk i{font-style:normal}
+.card__foot .bk__n{display:none;letter-spacing:.06em}
+@media (hover:hover){.card__foot .bk--phone:hover .bk__l,.card__foot .bk--phone:focus-visible .bk__l{display:none}.card__foot .bk--phone:hover .bk__n,.card__foot .bk--phone:focus-visible .bk__n{display:inline}}
+.card__foot .bk:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.card__foot .bk-chip{border:1px solid var(--line-d);border-radius:var(--pill);padding:4px 10px;font-size:9.5px;letter-spacing:.14em;font-weight:600;color:var(--ink)}
+@media (max-width:700px){.card__foot .bk{height:38px;padding:0 14px;font-size:10.5px;letter-spacing:.1em}}
