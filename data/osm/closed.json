@@ -67,6 +67,13 @@
    "closed": "yes",
    "source": "https://sogent.be/projecten/t-oud-postje",
    "note": "The landlord sogent says the neighbourhood restaurant was at Meulesteedsesteenweg 455 \"until recently\" (vond je tot voor kort). Search results report it closed in Feb 2023 and that the operator moved on to Café M at Meulesteedsesteenweg 515."
+  },
+  "way/329892435": {
+   "name": "Hollywood",
+   "id": "osm-hollywood-w329892435",
+   "address": "Ter Platen 3",
+   "closed": "yes",
+   "source": "Google Maps shows Permanently closed, 2026-10-23"
   }
  }
 }

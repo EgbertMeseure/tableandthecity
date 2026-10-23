@@ -13060,7 +13060,7 @@
    "instagram": "https://www.instagram.com/jiggers_coolersandcocktails/",
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13099,8 +13099,8 @@
     "reservations": "https://www.jiggers.be/"
    },
    "addedBy": "cocktail bar research handoff",
-   "openingHours": "Mon closed · Tue–Thu 17:00–01:00 · Fri 17:00–02:30 · Sat 16:00–02:30 · Sun 16:00–01:00",
-   "openingHoursSource": "https://www.jiggers.be/",
+   "openingHours": "Tu-Th 17:00-01:00; Fr 17:00-02:00; Sa 16:00-02:00; Mo,Su off",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/place/Jigger's%F0%9F%8D%B8/@51.0579166,3.7241338,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3713885208a15:0x609b819efb4dc440",
    "osm": "node/9968047089",
    "features_note": {
     "reservations": "Groups of 6+ only"
@@ -13133,7 +13133,7 @@
    "instagram": "https://www.instagram.com/thecobblerghent/",
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13178,8 +13178,8 @@
     "reservations": "https://www.1898thepost.com/the-cobbler/"
    },
    "addedBy": "cocktail bar research handoff",
-   "openingHours": "Mon–Thu 17:00–00:00 · Fri–Sat 17:00–01:00 · Sun 17:00–00:00",
-   "openingHoursSource": "https://www.1898thepost.com/the-cobbler/",
+   "openingHours": "Mo-Th,Su 17:00-23:00; Fr-Sa 17:00-24:00",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/search/?api=1&query=The%20Cobbler%2C%20Graslei%2016%2C%209000%20Gent",
    "osm": "node/5558643521"
   },
   {
@@ -13209,7 +13209,7 @@
    "instagram": "https://www.instagram.com/soancocktails/",
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13248,8 +13248,8 @@
     "reservations": "https://www.soanbar.com/"
    },
    "addedBy": "cocktail bar research handoff",
-   "openingHours": "Mon closed · Tue–Thu 17:00–01:00 · Fri–Sat 17:00–01:30 · Sun 16:00–00:00",
-   "openingHoursSource": "https://www.soanbar.com/",
+   "openingHours": "We-Th 17:00-01:00; Fr-Sa 17:00-01:30; Su 16:00-24:00; Mo-Tu off",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/search/?api=1&query=SOAN%2C%20Korenlei%2010%2C%209000%20Gent",
    "osm": "node/13307731097"
   },
   {
@@ -13421,7 +13421,7 @@
    "instagram": "https://www.instagram.com/bar_dada_gent/",
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13464,8 +13464,8 @@
     "openSunday": "https://bardada.gent/"
    },
    "addedBy": "cocktail bar research handoff",
-   "openingHours": "Mon closed · Tue–Sat 17:00–01:00 · Sun closed",
-   "openingHoursSource": "https://bardada.gent/",
+   "openingHours": "Tu-Th 17:00-24:00; Fr 17:00-01:00; Sa 16:00-01:00; Mo,Su off",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/search/?api=1&query=Bar%20Dada%2C%20Hoogpoort%2085%2C%209000%20Gent",
    "osm": "node/12644833233"
   },
   {
@@ -13643,7 +13643,7 @@
    "instagram": "https://www.instagram.com/limonadagent/",
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13671,7 +13671,9 @@
    "features": {},
    "features_evidence": {},
    "addedBy": "cocktail bar research handoff",
-   "osm": "node/12347676956"
+   "osm": "node/12347676956",
+   "openingHours": "Tu-Th 19:00-01:00; Fr 19:00-02:00; Sa 18:00-02:00; Mo,Su off",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/place/Limonada+%F0%9F%8D%B8/@51.0529861,3.7239786,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3713bd1ec08b1:0xc103e0273fd4744a"
   },
   {
    "cuisine": "",
@@ -13700,7 +13702,7 @@
    "instagram": null,
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13727,7 +13729,9 @@
    "features": {},
    "features_evidence": {},
    "addedBy": "cocktail bar research handoff",
-   "osm": "node/13841141386"
+   "osm": "node/13841141386",
+   "openingHours": "Mo,Th 16:00-23:00; Fr-Sa 16:00-01:00; Su 15:00-20:00; Tu-We off",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/place/The+mix/@51.0578331,3.7216626,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3714752bea967:0xad4cdd71f472bdea"
   },
   {
    "cuisine": "",
@@ -13756,7 +13760,7 @@
    "instagram": null,
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13789,7 +13793,9 @@
    },
    "addedBy": "cocktail bar research handoff",
    "statusUntil": "2026-11-03",
-   "statusSource": "https://www.bars10.com/BE/Ghent/105553380849520/Boutique-%26-Boissons"
+   "statusSource": "https://www.bars10.com/BE/Ghent/105553380849520/Boutique-%26-Boissons",
+   "openingHours": "We-Th 17:00-02:30; Fr-Sa 16:00-03:00; Mo-Tu,Su off",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/search/?api=1&query=Boutique%20%26%20Boissons%2C%20Vlaanderenstraat%2066%2C%209000%20Gent"
   },
   {
    "cuisine": "",
@@ -13890,8 +13896,8 @@
    "statusNote": "",
    "instagram": null,
    "phone": null,
-   "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "dataConflict": "Seasonal: according to its own website (mexcalli.be) Mexcalli is a summer garden bar May–September, indoors September–January, and closed January–May. The weekly hours are from Google Maps (read 2026-10-23), which shows no seasonal closure — check before visiting between January and May.",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13930,8 +13936,8 @@
    },
    "addedBy": "cocktail bar research handoff",
    "osm": "node/12052382373",
-   "openingHours": "Seasonal — summer garden bar May–September, indoors September–January; closed January–May",
-   "openingHoursSource": "https://www.mexcalli.be/"
+   "openingHours": "Mo-Tu 18:00-23:00; Th 18:00-24:00; Fr-Sa 18:00-23:30; We,Su off",
+   "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/search/?api=1&query=Mexcalli%2C%20Beverhoutplein%2022%2C%209000%20Gent"
   },
   {
    "cuisine": "",
@@ -13956,11 +13962,11 @@
    "menuType": "unknown",
    "menuChanges": "unknown",
    "currentMenuNote": "unknown",
-   "statusNote": "",
+   "statusNote": "Google Maps shows this place as temporarily closed (2026-10-23); no reopening date known.",
    "instagram": null,
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-20",
+   "lastChanged": "2026-10-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -13978,7 +13984,7 @@
    "website": null,
    "instagram_handle": null,
    "summary": "Gastrobar opened in April 2026 that serves cocktails alongside Asian-European sharing dishes and French classics, with a covered rear terrace overlooking the Muinkschelde.",
-   "status": "open",
+   "status": "temporarily closed",
    "events": [],
    "sources": [
     "https://www.hln.be/gent/net-open-gastrobar-bovary-zet-deelgerechtjes-en-cocktails-op-de-kaart-in-opulent-decor-samen-genieten-van-aziatische-europese-keuken~aa1a25e4/"
@@ -13996,7 +14002,8 @@
    },
    "addedBy": "cocktail bar research handoff",
    "openingHours": "Mon unknown · Tue–Sat 12:00–14:30, 18:00–00:00 · Sun unknown",
-   "openingHoursSource": "https://www.hln.be/gent/net-open-gastrobar-bovary-zet-deelgerechtjes-en-cocktails-op-de-kaart-in-opulent-decor-samen-genieten-van-aziatische-europese-keuken~aa1a25e4/"
+   "openingHoursSource": "https://www.hln.be/gent/net-open-gastrobar-bovary-zet-deelgerechtjes-en-cocktails-op-de-kaart-in-opulent-decor-samen-genieten-van-aziatische-europese-keuken~aa1a25e4/",
+   "statusSource": "Google Maps, 2026-10-23"
   }
  ],
  "extraEvents": [
@@ -14681,6 +14688,24 @@
    "date": "2026-10-20",
    "change": "Removed LUXX (luxx): student café — the site never shows student / university cafés (excluded permanently in data/never-exclude.json)",
    "source": "https://www.overpoort-gent.be/lid-overpoort/luxx/"
+  },
+  {
+   "date": "2026-10-23",
+   "restaurant": "Cocktail bars",
+   "change": "Opening hours updated from Google Maps (read 2026-10-23): Jigger's, The Cobbler, SOAN, Bar Dada, Limonada, The Mix, Boutique & Boissons, Mexcalli",
+   "source": "Google Maps"
+  },
+  {
+   "date": "2026-10-23",
+   "restaurant": "Bovary",
+   "change": "Temporarily closed (Google Maps)",
+   "source": "Google Maps, 2026-10-23"
+  },
+  {
+   "date": "2026-10-23",
+   "restaurant": "Hollywood",
+   "change": "Permanently closed (Google Maps), removed",
+   "source": "Google Maps shows Permanently closed, 2026-10-23"
   }
  ]
 }

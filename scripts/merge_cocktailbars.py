@@ -31,7 +31,10 @@ CLOSED = ROOT / 'data' / 'osm' / 'closed.json'                  # permanently cl
 OVERRIDES = {
     'Boutique & Boissons': {'status': 'temporarily closed', 'statusNote': 'Closed for renovation after Saturday 17 October 2026, for about two weeks.',
                             'statusUntil': '2026-11-03', 'statusSource': 'https://www.bars10.com/BE/Ghent/105553380849520/Boutique-%26-Boissons'},
-    'Mexcalli': {'openingHours': 'Seasonal — summer garden bar May–September, indoors September–January; closed January–May', 'openingHoursSource': 'https://www.mexcalli.be/'},
+    # weekly hours from Google Maps (read 2026-10-23); the seasonal closure from its own site stays visible as a note
+    'Mexcalli': {'openingHours': 'Mo-Tu 18:00-23:00; Th 18:00-24:00; Fr-Sa 18:00-23:30; We,Su off',
+                 'openingHoursSource': 'Google Maps (read 2026-10-23) https://www.google.com/maps/search/?api=1&query=Mexcalli%2C%20Beverhoutplein%2022%2C%209000%20Gent',
+                 'dataConflict': 'Seasonal: according to its own website (mexcalli.be) Mexcalli is a summer garden bar May–September, indoors September–January, and closed January–May. The weekly hours are from Google Maps (read 2026-10-23), which shows no seasonal closure — check before visiting between January and May.'},
     "Jigger's": {'features_note': {'reservations': 'Groups of 6+ only'}},
     'Bar Bassie': {'features_note': {'reservations': 'Groups of 6+ only'}},
 }
