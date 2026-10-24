@@ -329,3 +329,6 @@ html,body{overflow-x:clip}
 .gtile__prof{position:relative;width:326px;height:352px;overflow:hidden;border-radius:22px;background:#fff;isolation:isolate}
 .gtile__prof iframe{position:absolute;left:0;top:0;width:326px;height:560px;border:0;display:block}
 @media (max-width:700px){.gal-rail>.gtile.gtile--igprofile{flex-basis:72vw}.gtile__prof{width:100%;border-radius:16px}.gtile__prof iframe{width:100%}}
+
+/* iOS Safari: keep rounded corners while carousel scrolls */
+.pillcard{-webkit-mask-image:-webkit-radial-gradient(white,black);mask-image:radial-gradient(white,black);transform:translateZ(0)}
