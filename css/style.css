@@ -313,3 +313,63 @@ body.noscroll{overflow:hidden}
 .card__foot .bk:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .card__foot .bk-chip{border:1px solid var(--line-d);border-radius:var(--pill);padding:4px 10px;font-size:9.5px;letter-spacing:.14em;font-weight:600;color:var(--ink)}
 @media (max-width:700px){.card__foot .bk{height:38px;padding:0 14px;font-size:10.5px;letter-spacing:.1em}}
+
+/* ==========================================================================
+   PHONE-ONLY layout (≤640px). Desktop / tablet are untouched: everything below lives in this media query.
+   ========================================================================== */
+@media (max-width:640px){
+  /* --- hero: calm, clean stack --- */
+  .hero{min-height:80svh}
+  .topbar{padding:22px 20px 0;gap:14px}
+  .hero .wordmark{font-size:27px}
+  .topbar__right{gap:10px}
+  .pill-search{height:38px;padding:0 14px 0 16px}
+  .pill-search input::placeholder{font-size:9.5px;letter-spacing:.07em}
+  .hero .quote,.hero .scrollcue{display:none}
+  .hero__body{display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;padding:0 20px 26px;gap:0}
+  .hero__cta h1{font-size:19px;letter-spacing:.14em;line-height:1.45;margin:0 0 20px}
+  .hero__cta .pill-btn{height:40px;padding:0 28px}
+  .hero__labels{flex-direction:column;gap:5px;margin:0 20px;padding:14px 0 22px;border-top:1px solid rgba(255,255,255,.22);font-size:9.5px;letter-spacing:.14em;opacity:.8}
+  .hero__labels #lbl-veg{display:none}
+
+  /* --- "Choose your table": ~3 cards visible + a peek of the 4th --- */
+  #categories{padding-top:26px;padding-bottom:28px}
+  #explore{padding-top:28px}
+  #categories .section__head{padding:0 12px;margin-bottom:16px}
+  #categories .section__head h2{font-size:12.5px}
+  .carousel{gap:10px;padding:4px 16px 18px;scroll-padding-inline:16px}
+  .pillcard{flex:0 0 104px;aspect-ratio:1/2.3}
+  .pillcard span{font-size:10.5px;letter-spacing:.1em;padding:0 8px;line-height:1.3}
+  .pillcard small{font-size:8.5px;letter-spacing:.12em;margin-top:5px}
+  .pillcard.active{outline-offset:3px}
+  .pillcard .pill-credit{font-size:7.5px;padding:0 18%}
+  .pillmenu{padding:0 5% 18%;gap:3px;max-height:80%}
+  .pillcard.menu-open span.pill-label{transform:translateY(-35%);font-size:9.5px;letter-spacing:.06em}
+  .pillcard.menu-open span.pill-label small{display:none}
+  .pillmenu button{font-size:8px;padding:4px 5px;letter-spacing:.01em;gap:3px}
+  .pillmenu button b{font-size:9.5px}
+  .pillmenu.many{gap:3px;padding-bottom:16%;max-height:82%}.pillmenu.many button{padding:3px 5px}
+
+  /* --- place cards: 2-column grid of compact vertical cards --- */
+  .list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .list>.empty{grid-column:1/-1}
+  .card{grid-template-columns:minmax(0,1fr);grid-template-rows:auto 1fr;align-items:start;gap:9px;padding:12px 10px 14px}
+  .card:nth-child(odd){border-right:1px solid #e5e5e5}
+  .card__thumb{width:100%;height:auto;aspect-ratio:4/3;border-radius:18px}
+  .card__body{display:flex;flex-direction:column;min-height:100%}
+  .card .badges{gap:4px;margin-bottom:5px}
+  .card .badge{font-size:8.5px;padding:2px 7px;letter-spacing:.08em}
+  .card .oh{font-size:9.5px;padding:1px 7px 1px 6px;gap:4px}
+  .card .oh--open::before{width:6px;height:6px}
+  .card h3{font-size:17px;line-height:1.15;margin:0 0 3px;overflow-wrap:anywhere}
+  .card__meta{font-size:11px;margin-bottom:6px}
+  .fchips{gap:3px;margin:0 0 6px}
+  .fchip{font-size:9.5px;padding:3px 6px 3px 5px;gap:3px}
+  .fchip.more{padding:3px 6px}
+  .fchip::before{width:5px;height:3px}
+  .card__foot{margin-top:auto;gap:6px 10px;font-size:10px;letter-spacing:.05em}
+  .card__foot .bk{width:100%;height:auto;min-height:36px;padding:6px 8px;font-size:9.5px;letter-spacing:.06em;line-height:1.2;white-space:normal;text-align:center;gap:4px}
+  .card__foot .bk-chip{font-size:8.5px;padding:3px 8px;letter-spacing:.1em}
+  .card__foot .ext{padding:4px 0}
+  .mono-thumb>span{font-size:40px}.mono-thumb.two>span{font-size:30px}
+}
