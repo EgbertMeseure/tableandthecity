@@ -19,7 +19,7 @@
   const long = { day: 'numeric', month: 'long', year: 'numeric' };
   TG.renderFooter(cfg, city);
   document.title = `${r.name} — ${city.name} — Table and the City`;
-  const canon = `https://tableandthecity.com/${cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(r.id))}`;
+  const canon = `https://www.tableandthecity.com/${cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(r.id))}`;
   document.querySelector('meta[property="og:title"]').content = `${r.name} — Table and the City`;
   document.querySelector('meta[property="og:url"]').content = canon;
   document.head.insertAdjacentHTML('beforeend', `<link rel="canonical" href="${esc(canon)}">`);
