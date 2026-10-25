@@ -50,7 +50,8 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    verify on the place's own site/Instagram/menu (or a press source) before touching `features`/`features_evidence`, then add a changelog entry with that
    source URL. Ignore unverifiable tips. Nothing on the site updates automatically from feedback.
    Corrections (subject `Correction: …`), place suggestions (`Suggestion: …`) and city requests (`City request: …`) arrive at
-   `info@tableandthecity.com` via Web3Forms (`FEEDBACK_ENDPOINT` / `FEEDBACK_ACCESS_KEY` in `js/config.js`; sent by `js/forms.js`).
+   `info@tableandthecity.com` via FormSubmit (`FEEDBACK_FORMSUBMIT`), with Web3Forms as fallback (`FEEDBACK_ENDPOINT` / `FEEDBACK_ACCESS_KEY`);
+   both in `js/config.js`, sent by `js/forms.js`. FormSubmit mails come from formsubmit.co with the form's subject.
 4d. **OpenStreetMap base list** (weekly, or daily on busy weeks) – `python3 scripts/import_osm.py gent --refresh --fill-curated`
    (re-downloads OSM, keeps ids stable, never overwrites curated data). Look at the printed counts: a big drop usually means Overpass returned a partial result —
    re-run. New places without an address need `data/osm/streets.json` (downloaded automatically, not in git). Put sourced fixes in `data/osm/corrections.json`
