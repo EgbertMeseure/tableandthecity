@@ -137,3 +137,11 @@ Idempotent; `--check` exits 1 when a page is not stamped with the current build.
 - Never invent data; when in doubt use `unknown` + a note in `dataConflict`.
 - Be polite to sites: ≤1 request/second, own User-Agent, no login pages.
 - No restaurant photos without permission or a free licence (Commons CC BY/BY-SA/CC0/PD, credited); Instagram only via the official embed. Category/hero images in `img/` are Unsplash License (see `img/CREDITS.json`).
+
+## App (PWA)
+- `manifest.webmanifest`, `sw.js` (service worker), `offline.html`, `js/pwa.js` (SW registration + one-time install hint on phones), icons in `img/icons/`.
+- `python3 scripts/stamp_assets.py` also writes the build hash (VERSION) and the precache list (app shell + the active cities' JSON) into `sw.js`,
+  so every deploy installs a fresh cache and deletes the old one. Don't edit those two lines by hand. New active city → re-stamp, it is precached automatically.
+- Icons: edit `scripts/make_icons.py` (or the SVGs) and run `python3 scripts/make_icons.py` (`--svg` rebuilds the SVGs from the font files).
+- Pages/JSON are network-first (weekly updates appear immediately when online); OSM map tiles are never cached by the service worker (OSM tile policy).
+- All paths are relative: works under `/tableandthecity/` on GitHub Pages, at a root domain, or inside a Capacitor wrapper.
