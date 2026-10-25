@@ -565,3 +565,31 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
   .dhero__body h1 .gscore{font-size:13px;padding:2px 7px 1px;vertical-align:.6em}
 }
 @media (prefers-reduced-motion:reduce){.crq__sheet,.crq__scrim{transition:none}}
+
+/* ---- Suggest a place (js/suggest.js; sheet = .crq) + footer visit counter (js/visits.js) ---- */
+.foot-links{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.foot-links a{text-decoration:none}
+.foot-suggest{border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:2px}
+@media (hover:hover){.foot-suggest:hover{color:var(--accent);border-color:var(--accent)}}
+.site-footer .visits{font-family:var(--sans);letter-spacing:.12em;opacity:.85;white-space:nowrap}
+.site-footer .visits[hidden]{display:none}
+.navdrawer a.nav-suggest{font-family:var(--serif-it);font-style:italic;font-size:22px;color:var(--accent)}
+.list-more{flex-wrap:wrap}
+.suggest-line{flex:1 1 100%;margin:14px 0 4px;text-align:center;font-size:12px;letter-spacing:.06em;color:var(--text-2)}
+.suggest-line a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line-d);padding-bottom:1px;font-weight:500}
+@media (hover:hover){.suggest-line a:hover{color:#8a6d2f;border-color:var(--accent)}}
+.no-suggest [data-suggest],.no-suggest .suggest-line{display:none}
+.list>.suggest-line--in{margin:0;padding:26px 22px 30px;grid-column:1/-1}
+.list-more>.suggest-line{display:none}
+@media (max-width:900px){.list>.suggest-line--in{display:none}.list-more>.suggest-line{display:block}}
+.sgp__row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.crq__f select,.crq__f textarea{width:100%;border:1px solid var(--line-d);background:#fff;color:var(--ink);font:400 16px/1.35 var(--sans,inherit);outline:0;-webkit-appearance:none;appearance:none}
+.crq__f select{height:50px;padding:0 44px 0 22px;border-radius:var(--pill);cursor:pointer;
+  background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5 11 1.5' fill='none' stroke='%230b0b0b' stroke-width='1.4'/%3E%3C/svg%3E") no-repeat right 20px center/12px 8px}
+.crq__f textarea{min-height:84px;padding:14px 22px;border-radius:24px;resize:vertical}
+.crq__f textarea::placeholder{color:#9a9a9a}
+.crq__f select:focus-visible,.crq__f textarea:focus-visible{border-color:var(--ink);box-shadow:0 0 0 2px var(--accent)}
+.sgp__hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+.sgp .crq__sheet{width:min(480px,100%)}
+.sgp .crq__form{gap:10px}
+@media (max-width:640px){.sgp__row{grid-template-columns:1fr 1fr;gap:10px}.foot-links{align-items:flex-start}}

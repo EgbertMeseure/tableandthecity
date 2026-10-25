@@ -426,8 +426,8 @@ const TG = (() => {
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
       <a class="wordmark" href="${cityUrl('index.html', city.id)}"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a>
       <div class="family">Part of the <i style="font-family:var(--serif-it);text-transform:none;font-size:15px;letter-spacing:.02em">… and the City</i> family<br>${fam}</div>
-      <a href="#top">Back to top ↑</a>
-      <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span><span>Ratings: Google</span></div>`);
+      <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="#top">Back to top ↑</a></div>
+      <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span><span>Ratings: Google</span><span class="visits" data-visits hidden></span></div>`);
   }
 
   /* ---- data ---- */

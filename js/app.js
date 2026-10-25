@@ -370,6 +370,11 @@
   function moreBtn() {
     const left = LIST.length - shown, b = $('#list-more');
     b.hidden = left <= 0; b.textContent = `Show more (${Math.min(PAGE, left)} of ${left} more)`;
+    // "Missing a place? Suggest it" (js/suggest.js) as the last line of the list itself (desktop: the list scrolls inside its column;
+    // phone: the copy under "Show more" in .list-more is used instead, see css)
+    let sl = $('#list .suggest-line--in');
+    if (!sl) { sl = document.createElement('p'); sl.className = 'suggest-line suggest-line--in'; sl.innerHTML = 'Missing a place? <a href="#suggest" data-suggest>Suggest it</a>'; }
+    $('#list').appendChild(sl);
   }
   $('#list-more').addEventListener('click', () => {
     const next = LIST.slice(shown, shown + PAGE); shown += next.length;
