@@ -1,0 +1,28 @@
+{
+ "city": {
+  "id": "antwerpen",
+  "name": "Antwerpen",
+  "nameEn": "Antwerp",
+  "country": "Belgium",
+  "countryCode": "BE",
+  "center": [
+   51.2125,
+   4.4125
+  ],
+  "zoom": 13,
+  "active": true,
+  "sourceLanguage": "nl",
+  "dateChecked": "2026-10-25"
+ },
+ "extraEvents": [],
+ "changelog": [
+  {
+   "date": "2026-10-25",
+   "restaurant": "(all)",
+   "field": "dataset",
+   "change": "Antwerpen added: base list of 676 places in central Antwerp (districts Antwerpen, Berchem, Borgerhout) from OpenStreetMap, same exclusion rules as the rest of the guide; Google ratings for 572 places; 110 places Google marks as permanently closed left out.",
+   "source": "https://www.openstreetmap.org/copyright"
+  }
+ ],
+ "restaurants": []
+}

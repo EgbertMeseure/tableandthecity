@@ -44,6 +44,8 @@
   $('#lbl-veg').textContent = `${nLv('vegan')} fully vegan · ${nLv('vegetarian')} vegetarian · ${OPEN.filter(r => r.veggieLevel).length} with veggie options`;
   $('#lbl-ev').textContent = `${E.filter(isUpcoming).length} upcoming events & collaborations`;
   $('#explore-title').textContent = `All places in ${CITY}`; $('#about-city').textContent = CITY;
+  if (city.about) $('#about-text').innerHTML = city.about;             // per-city "About the data" (data/cities.json); the static text is Gent's
+  { const md = document.querySelector('meta[name="description"]'); if (md && city.description) md.content = city.description; }
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
 
   // ---- breakfast & brunch: confirmed (sourced) values; 'early' = opens ≤ 10:00 by sourced hours, no breakfast claim ----
@@ -457,7 +459,7 @@
   applyUI(); render();
 
   // ---- hook for js/quiz.js ("Find my table"): the loaded places/events, the list's booking button, and its filters ----
-  window.TGApp = { R, E, city, detailUrl, bookOn, booking,
+  window.TGApp = { R, E, city, layer, detailUrl, bookOn, booking,
     count: f => R.filter(r => matchF(r, f) && (!f.open || TG.openState(r).state === 'open')).length,
     show(f) { resetFilters(false); Object.assign(state, f); applyUI(); render(); document.getElementById('explore').scrollIntoView(); },
     showEvents(ev = '') { if (ev && !groups.some(g => g.id === ev)) ev = ''; state.ev = ev; $('#ev-chips').querySelectorAll('[data-ev]').forEach(x => x.setAttribute('aria-pressed', x.dataset.ev === ev));

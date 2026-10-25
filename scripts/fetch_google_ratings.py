@@ -6,7 +6,7 @@ Usage:  python3 scripts/fetch_google_ratings.py [city] [--raw FILE] [--offline] 
 Key: read from the file named in env GOOGLE_PLACES_API_KEY_FILE, else /home/box/.secrets/google_places_key.
 The key is never printed or written anywhere.
 
-One Places API (New) Text Search per place ("<name> <address>, Gent", location bias 300 m around our
+One Places API (New) Text Search per place ("<name> <address>, <city>", location bias 300 m around our
 coordinates). A candidate is accepted only when it is close (< 250 m) AND its name is similar enough;
 everything else is skipped (no score is better than a wrong score).
 Output: {"source": "Google", "fetched": date, "places": {id: {"score": 9.8, "google_place_id": "..."}}}
@@ -44,7 +44,7 @@ def meters(a, b, c, d):
     R = 6371000; p1, p2 = math.radians(a), math.radians(c); dp = p2 - p1; dl = math.radians(d - b)
     return 2 * R * math.asin(math.sqrt(math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2))
 
-GENERIC = set('restaurant resto brasserie bistro bistrot cafe café bar eetcafe taverne de het den der la le les l the and en & n t s gent ghent gand by van bv'.split())
+GENERIC = set('restaurant resto brasserie bistro bistrot cafe café bar eetcafe taverne de het den der la le les l the and en & n t s gent ghent gand antwerpen antwerp anvers by van bv'.split())
 def norm(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
     s = re.sub(r"[^a-z0-9]+", ' ', s)
@@ -77,10 +77,13 @@ def places_of(city):
         out += [dict(o, _src='osm') for o in json.load(open(p))['places'] if o['id'] not in ids and o.get('status') != 'closed']
     return out
 
+# per city: the name added to the query and the pattern that says an address already names the city (postcode or name)
+CITY_Q = {'gent': ('Gent', r'\b9\d{3}\b|gent'), 'antwerpen': ('Antwerpen', r'\b2\d{3}\b|antwerp')}
 def query(r):
+    cn, pat = CITY_Q[city]
     a = (r.get('address') or '').strip()
-    if a and not re.search(r'\b9\d{3}\b|gent', a, re.I): a += ', Gent'
-    return f"{r['name']} {a or 'Gent'}"
+    if a and not re.search(pat, a, re.I): a += ', ' + cn
+    return f"{r['name']} {a or cn}"
 
 def pick(r, cands):
     best = None
@@ -99,7 +102,7 @@ def main():
     raw = json.load(open(RAW)) if RAW and os.path.exists(RAW) else {}
     k = None if OFFLINE else key()
     rows = places_of(city)[:LIMIT or None]
-    calls = 0; res = {}; log = []
+    calls = 0; res = {}; log = []; closed = []
     for r in rows:
         if r['id'] not in raw:
             if OFFLINE: continue
@@ -112,10 +115,15 @@ def main():
         if r['id'] in SKIP:
             log.append({'id': r['id'], 'src': r['_src'], 'name': r['name'], 'ok': False, 'why': 'manual skip: ' + SKIP[r['id']], 'match': None, 'sim': None, 'm': None}); continue
         b = pick(r, raw[r['id']])
+        if b and b['ok'] and b['c'].get('businessStatus') == 'CLOSED_PERMANENTLY':   # an open listing that also matches wins over a closed one
+            alt = pick(r, [c for c in raw[r['id']] if c.get('businessStatus') != 'CLOSED_PERMANENTLY'])
+            if alt and alt['ok']: b = alt
         c = b and b['c']; name = c and (c.get('displayName') or {}).get('text')
         if not b: why = 'no result'
         elif not b['ok']: why = f"weak: '{name}' sim {b['s']} at {b['d']} m"
-        elif c.get('businessStatus') == 'CLOSED_PERMANENTLY': why = f"Google says closed: '{name}'"
+        elif c.get('businessStatus') == 'CLOSED_PERMANENTLY':
+            why = f"Google says closed: '{name}'"
+            closed.append({'id': r['id'], 'osm': r.get('osm'), 'name': r['name'], 'address': r.get('address'), 'google': name, 'm': b['d'], 'sim': b['s']})
         elif not c.get('rating'): why = f"no rating: '{name}'"
         elif (c.get('userRatingCount') or 0) < MIN_REVIEWS: why = f"too few reviews: '{name}'"
         else:
@@ -129,6 +137,8 @@ def main():
         print(f"{src}: {sum(x['ok'] for x in L)} scored / {len(L)}")
     print('API calls this run:', calls)
     json.dump(log, open('/tmp/ratings_log.json', 'w'), ensure_ascii=False, indent=1)
+    json.dump(closed, open(f'/tmp/ratings_closed_{city}.json', 'w'), ensure_ascii=False, indent=1)   # review, then add to data/osm/closed.json
+    print('Google says permanently closed:', len(closed), f'(list: /tmp/ratings_closed_{city}.json)')
     if DRY or (not res): return print('dry run / nothing to write')
     out = {'source': 'Google', 'note': 'score = Google rating x 2 (0-10). Rerun scripts/fetch_google_ratings.py to refresh.',
            'fetched': datetime.date.today().isoformat(), 'places': dict(sorted(res.items()))}

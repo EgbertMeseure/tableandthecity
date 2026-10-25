@@ -32,20 +32,37 @@ ROOT = Path(__file__).resolve().parent.parent
 CITY = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('-') else 'gent'
 ARGS = set(sys.argv[1:])
 OSM_DIR = ROOT / 'data' / 'osm'
-RAW, BOUNDS = OSM_DIR / 'raw.json', OSM_DIR / 'bounds.json'
+# per city: Overpass admin_level-8 area, the districts (admin_level 9) kept, how districts are shown, the postcode pattern and the city name for addresses.
+# Gent keeps its original cache file names (raw.json, bounds.json, streets.json, locate-cache.json); other cities use <city>-raw.json etc.
+CITY_CFG = {
+    'gent': {'area': 'Gent', 'name': 'Gent', 'districts': None,                                     # None = the whole municipality
+             'show': {'Gent': 'Gent (9000)', 'Gentbrugge': 'Gentbrugge/Ledeberg', 'Ledeberg': 'Gentbrugge/Ledeberg'},
+             'hood_in': ('Gent (9000)', 'Gentbrugge/Ledeberg')},
+    # central Antwerp: the districts Antwerpen (old town, Zuid, Eilandje, Zurenborg-north, Linkeroever …), Berchem (incl. Zurenborg) and Borgerhout
+    # Overpass areas of the district relations 60709 (Antwerpen), 59515 (Berchem), 59577 (Borgerhout); the name-based lookup of the
+    # municipality returns nothing and the whole municipality times out on Overpass
+    'antwerpen': {'area': 'Antwerpen', 'rels': (60709, 59515, 59577), 'name': 'Antwerpen', 'districts': ('Antwerpen', 'Berchem', 'Borgerhout'),
+                  'show': {}, 'hood_in': ('Antwerpen', 'Berchem', 'Borgerhout')},
+}[CITY]
+_pre = '' if CITY == 'gent' else f'{CITY}-'
+RAW, BOUNDS = OSM_DIR / f'{_pre}raw.json', OSM_DIR / f'{_pre}bounds.json'
 CUR = ROOT / 'data' / 'cities' / f'{CITY}.json'
 UPC = ROOT / 'data' / 'cities' / f'{CITY}-upcoming.json'
 OUT = ROOT / 'data' / 'cities' / f'{CITY}-osm.json'
-AREA = {'gent': 'Gent'}[CITY]
+AREA, CITYNAME = CITY_CFG['area'], CITY_CFG['name']
+AREA_Q = ('(' + ''.join(f'area({3600000000 + r});' for r in CITY_CFG['rels']) + ')->.g;') if CITY_CFG.get('rels') else f'area["boundary"="administrative"]["admin_level"="8"]["name"="{AREA}"]->.g;'
 ENDPOINTS = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter']
 Q_POI = f'''[out:json][timeout:180];
-area["boundary"="administrative"]["admin_level"="8"]["name"="{AREA}"]->.g;
+{AREA_Q}
 ( nwr["amenity"~"^(restaurant|cafe|bar|pub|biergarten|fast_food)$"](area.g);
   nwr["shop"~"^(bakery|pastry|coffee)$"](area.g); );
 out center tags;'''
 Q_BOUNDS = f'''[out:json][timeout:180];
-area["boundary"="administrative"]["admin_level"="8"]["name"="{AREA}"]->.g;
+{AREA_Q}
 rel["boundary"="administrative"]["admin_level"="9"](area.g);
+out geom;'''
+if CITY_CFG.get('rels'): Q_BOUNDS = f'''[out:json][timeout:180];
+rel(id:{','.join(map(str, CITY_CFG['rels']))});
 out geom;'''
 
 
@@ -77,7 +94,7 @@ ARTISAN = ROOT / 'data' / 'bakeries-artisan.json'            # artisan bakeries 
 
 FRIT_NAME = re.compile(r"(friet|frituur|fritkot|frietkot|frites|friterie|\bfrit\b|\bchips\b)")
 STU_NAME = re.compile(r"(student|cafetaria|cafeteria)")
-EDU_OPERATOR = re.compile(r"(universiteit|ugent|hogent|hogeschool|odisee|artevelde ?hogeschool|kask|luca school)")
+EDU_OPERATOR = re.compile(r"(universiteit|ugent|hogent|hogeschool|odisee|artevelde ?hogeschool|kask|luca school|uantwerpen|karel de grote|\bkdg\b|thomas more|\bap\b)")
 
 
 def never_kind(t, name):
@@ -111,7 +128,7 @@ def fastfood_keep():
 def overpass(q, dest):
     last = None
     for ep in ENDPOINTS:
-        for attempt in range(2):
+        for attempt in range(5):                                  # the public Overpass servers often refuse / time out: retry
             try:
                 req = urllib.request.Request(ep, data=urllib.parse.urlencode({'data': q}).encode(), headers={'User-Agent': 'tableandthecity-import/1.0'})
                 body = urllib.request.urlopen(req, timeout=240).read()
@@ -129,7 +146,7 @@ def slug(s):
 
 def norm_name(s):
     s = unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode().lower()
-    s = re.sub(r"\b(restaurant|resto|brasserie|bistro|cafe|bar|eetcafe|taverne|de|het|le|la|les|l|the|t|gent|ghent|bakkerij|bakery|patisserie|coffee|koffie)\b", ' ', s)
+    s = re.sub(r"\b(restaurant|resto|brasserie|bistro|cafe|bar|eetcafe|taverne|de|het|le|la|les|l|the|t|gent|ghent|antwerpen|antwerp|bakkerij|bakery|patisserie|coffee|koffie)\b", ' ', s)
     return re.sub(r'[^a-z0-9]+', '', s)
 
 
@@ -213,7 +230,7 @@ def address(t):
     city = t.get('addr:city') or ''
     if not st: return None, pc
     a = f'{st} {hn}' if hn else st
-    tail = ' '.join(x for x in [pc, city or ('Gent' if pc else '')] if x)
+    tail = ' '.join(x for x in [pc, city or (CITYNAME if pc else '')] if x)
     return (f'{a}, {tail}' if tail else a), pc
 
 
@@ -229,14 +246,14 @@ def load_districts():
     def district(lat, lng):
         pt = Point(lng, lat)
         for n, s in polys:
-            if s.contains(pt): return {'Gent': 'Gent (9000)', 'Gentbrugge': 'Gentbrugge/Ledeberg', 'Ledeberg': 'Gentbrugge/Ledeberg'}.get(n, n)
+            if s.contains(pt): return CITY_CFG['show'].get(n, n)
         return ''
     return district
 
 
-STREETS, LOCATE = OSM_DIR / 'streets.json', OSM_DIR / 'locate-cache.json'
+STREETS, LOCATE = OSM_DIR / f'{_pre}streets.json', OSM_DIR / f'{_pre}locate-cache.json'
 Q_STREETS = f'''[out:json][timeout:240];
-area["boundary"="administrative"]["admin_level"="8"]["name"="{AREA}"]->.g;
+{AREA_Q}
 ( way["highway"]["name"](area.g); node["place"~"^(suburb|quarter|neighbourhood)$"](area.g); );
 out geom;'''
 
@@ -281,7 +298,7 @@ def main():
     curated = [r for r in cur['restaurants'] if r.get('lat')]
     if UPC.exists(): curated += [u for u in json.loads(UPC.read_text()).get('upcoming', []) if u.get('lat')]
     stamp = raw.get('osm3s', {}).get('timestamp_osm_base', '')[:10]
-    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0, 'fast_food': 0, 'generic_cafe': 0, 'coffee_house': 0, 'generic_bakery': 0, 'friterie': 0, 'student': 0, 'duplicate': 0}, set()
+    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0, 'fast_food': 0, 'generic_cafe': 0, 'coffee_house': 0, 'generic_bakery': 0, 'friterie': 0, 'student': 0, 'duplicate': 0, 'outside': 0}, set()
     ff_keep, ff_kept = fastfood_keep(), set()
     art = json.loads(ARTISAN.read_text()) if ARTISAN.exists() else {'keep': {}, 'branchOf': {}}
     by_cid = {c['id']: c for c in curated}
@@ -341,9 +358,10 @@ def main():
         addr, pc = address(t)
         loc = locate(f"{e['type']}/{e['id']}", lat, lng)
         dist_name = district(lat, lng)
+        if CITY_CFG['districts'] and dist_name not in CITY_CFG['districts']: skipped['outside'] += 1; continue   # outside the chosen districts
         approx = False
-        if not addr and loc['street']: addr, approx = f"{loc['street']}{', ' + pc if pc else ''}, Gent", True
-        hood = t.get('addr:suburb') or (loc['hood'] if dist_name in ('Gent (9000)', 'Gentbrugge/Ledeberg') else dist_name) or ''
+        if not addr and loc['street']: addr, approx = f"{loc['street']}{', ' + pc if pc else ''}, {CITYNAME}", True
+        hood = t.get('addr:suburb') or (loc['hood'] if dist_name in CITY_CFG['hood_in'] else dist_name) or ''
         feats, ev = {}, {}
         def f(k, v, why):
             if v is not None: feats[k] = v; ev[k] = f'OpenStreetMap: {why}'

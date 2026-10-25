@@ -136,7 +136,7 @@
       label: 'Bar', sub: 'Cocktails, wine, brown cafés, pubs, dancing', noun: ['bar', 'bars'], pool: r => r.group === 'cafes_bars',
       questions: [
         { id: 'type', q: 'What kind of bar?', hard: true, relax: 'type', opts: [
-          { v: 'cocktail_bar', l: 'Cocktail bar', s: 'Signature drinks, mocktails' }, { v: 'brown_cafe', l: 'Brown café', s: 'Classic Gent pub' },
+          { v: 'cocktail_bar', l: 'Cocktail bar', s: 'Signature drinks, mocktails' }, { v: 'brown_cafe', l: 'Brown café', s: () => `Classic ${(APP && APP.city && APP.city.name) || 'local'} pub` },
           { v: 'wine_bar', l: 'Wine bar', s: 'Wine by the glass, small plates' },
           { v: 'irish_pub', l: 'Irish pub', s: 'Pints & sport' }, { v: 'dance_cafe', l: 'Dance café', s: 'DJ, late nights' }].map(o => ({ ...o, f: r => r.category === o.v })) },
         whenQ('When?', [W.tonight(), W.tomorrow(), W.weekend(), W.pick()]),

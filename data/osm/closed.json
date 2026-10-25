@@ -350,6 +350,885 @@
    "address": "Groendreef 156A, 9000 Gent",
    "closed": "unknown",
    "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/11693640428": {
+   "name": "400 Gradi",
+   "id": "osm-400-gradi-n11693640428",
+   "city": "antwerpen",
+   "address": "Grote Markt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('400 Gradi gesloten', 10 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1638728176": {
+   "name": "ABC",
+   "id": "osm-abc-n1638728176",
+   "city": "antwerpen",
+   "address": "Van Wesenbekestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('A.B.C Resto', 7 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5613325222": {
+   "name": "Alligator",
+   "id": "osm-alligator-n5613325222",
+   "city": "antwerpen",
+   "address": "Oudevaartplaats, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Alligator (Cajunkok)', 6 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6743458051": {
+   "name": "AʼSur",
+   "id": "osm-asur-n6743458051",
+   "city": "antwerpen",
+   "address": "Volkstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('A’Sur restaurant', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6214570049": {
+   "name": "Baarpasta",
+   "id": "osm-baarpasta-n6214570049",
+   "city": "antwerpen",
+   "address": "Oude Koornmarkt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Baar Pasta', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/13514726687": {
+   "name": "Bani Daoud",
+   "id": "osm-bani-daoud-n13514726687",
+   "city": "antwerpen",
+   "address": "Turnhoutsebaan, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Bani Daoud', 2 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1665920789": {
+   "name": "Bar AMI",
+   "id": "osm-bar-ami-n1665920789",
+   "city": "antwerpen",
+   "address": "Israëlietenstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Bar AMI', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "way/495219710": {
+   "name": "Bar Pur",
+   "id": "osm-bar-pur-w495219710",
+   "city": "antwerpen",
+   "address": "Cadixstraat 53-55, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Bar Pur', 6 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/10729671005": {
+   "name": "Beastie Smash",
+   "id": "osm-beastie-smash-n10729671005",
+   "city": "antwerpen",
+   "address": "Breydelstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Beastie Smash', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5918693187": {
+   "name": "Bel-Air",
+   "id": "osm-bel-air-n5918693187",
+   "city": "antwerpen",
+   "address": "Jezusstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Bel Air - Wereldkeuken', 73 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11075421394": {
+   "name": "Big Chefs",
+   "id": "osm-big-chefs-n11075421394",
+   "city": "antwerpen",
+   "address": "Operaplein, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('BigChefs Antwerpen', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5236174353": {
+   "name": "Bistrot Benoit",
+   "id": "osm-bistrot-benoit-n5236174353",
+   "city": "antwerpen",
+   "address": "Zirkstraat 23, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Bistrot Benoit', 2 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "way/505101285": {
+   "name": "BNTB VZW",
+   "id": "osm-bntb-vzw-w505101285",
+   "city": "antwerpen",
+   "address": "Pijlstraat 17, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('BNTB VZW', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6644608378": {
+   "name": "Bon Bini",
+   "id": "osm-bon-bini-n6644608378",
+   "city": "antwerpen",
+   "address": "Paardenmarkt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Bon Bini', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5691579668": {
+   "name": "Brasserie Lids",
+   "id": "osm-brasserie-lids-n5691579668",
+   "city": "antwerpen",
+   "address": "Veemarkt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Brasserie Lids', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7340567979": {
+   "name": "Café Imperial",
+   "id": "osm-cafe-imperial-n7340567979",
+   "city": "antwerpen",
+   "address": "Meir, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Café Impérial & Spiegelzaal', 22 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5059078074": {
+   "name": "Camping Campina",
+   "id": "osm-camping-campina-n5059078074",
+   "city": "antwerpen",
+   "address": "Dageraadplaats 16, 2018 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Camping Campina', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1523395004": {
+   "name": "Cappuccino du sud",
+   "id": "osm-cappuccino-du-sud-n1523395004",
+   "city": "antwerpen",
+   "address": "Waalsekaai 28, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Cappuccino Du Sud', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6188059476": {
+   "name": "Caramba",
+   "id": "osm-caramba-n6188059476",
+   "city": "antwerpen",
+   "address": "Kaasrui, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Restaurant Caramba', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/3016292614": {
+   "name": "Caravan",
+   "id": "osm-caravan-n3016292614",
+   "city": "antwerpen",
+   "address": "Damplein 17, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Caravan', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6835438270": {
+   "name": "Changal",
+   "id": "osm-changal-n6835438270",
+   "city": "antwerpen",
+   "address": "Diepestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Changal Persian Restaurant', 6 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5109174665": {
+   "name": "Chez Rini",
+   "id": "osm-chez-rini-n5109174665",
+   "city": "antwerpen",
+   "address": "Oudeleeuwenrui 56, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Chez Rini', 11 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6240417830": {
+   "name": "Corazón de Melón",
+   "id": "osm-corazon-de-melon-n6240417830",
+   "city": "antwerpen",
+   "address": "Vlasmarkt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Corazón de Melón', 94 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5419041512": {
+   "name": "Couscous bar",
+   "id": "osm-couscous-bar-n5419041512",
+   "city": "antwerpen",
+   "address": "Wiegstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('couscous bar Antwerpen', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4362164089": {
+   "name": "Daily Roast",
+   "id": "osm-daily-roast-n4362164089",
+   "city": "antwerpen",
+   "address": "Hoogstraat 13",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Daily Roast', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7011520139": {
+   "name": "Dam Dam Pizza",
+   "id": "osm-dam-dam-pizza-n7011520139",
+   "city": "antwerpen",
+   "address": "Lange Scholiersstraat 81, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Dam Dam Pizza', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6003358727": {
+   "name": "De Godevaart",
+   "id": "osm-de-godevaart-n6003358727",
+   "city": "antwerpen",
+   "address": "Sint-Katelijnevest, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('De Godevaart', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5693449271": {
+   "name": "De Tapas",
+   "id": "osm-de-tapas-n5693449271",
+   "city": "antwerpen",
+   "address": "Grote Markt 23, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('De Tapas', 10 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4946103695": {
+   "name": "De Veehandel",
+   "id": "osm-de-veehandel-n4946103695",
+   "city": "antwerpen",
+   "address": "Lange Lobroekstraat 61, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('De Veehandel', 6 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11912032284": {
+   "name": "Delicia Caribena",
+   "id": "osm-delicia-caribena-n11912032284",
+   "city": "antwerpen",
+   "address": "Zwartzustersstraat 38",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Delicia Caribeña', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4946000115": {
+   "name": "Den Abattoir",
+   "id": "osm-den-abattoir-n4946000115",
+   "city": "antwerpen",
+   "address": "Lange Lobroekstraat 65, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Den Abattoir', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6329631315": {
+   "name": "Dim Dining",
+   "id": "osm-dim-dining-n6329631315",
+   "city": "antwerpen",
+   "address": "Vrijdagmarkt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('DIM Dining*', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4146451378": {
+   "name": "Divin by Sepi",
+   "id": "osm-divin-by-sepi-n4146451378",
+   "city": "antwerpen",
+   "address": "Verschansingstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Divin by Sepi', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1639225387": {
+   "name": "DK",
+   "id": "osm-dk-n1639225387",
+   "city": "antwerpen",
+   "address": "Van Wesenbekestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Restaurant DK', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "way/1469901900": {
+   "name": "Einstein Koffie",
+   "id": "osm-einstein-koffie-w1469901900",
+   "city": "antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Einstein Coffee', 5 m, name similarity 0.857; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1644770039": {
+   "name": "El Rancho",
+   "id": "osm-el-rancho-n1644770039",
+   "city": "antwerpen",
+   "address": "Statiestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('El Rancho Steak House', 5 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/3023101443": {
+   "name": "El Sabor",
+   "id": "osm-el-sabor-n3023101443",
+   "city": "antwerpen",
+   "address": "Italiëlei, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('El Sabor', 7 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4893737322": {
+   "name": "Entree d'Anvers",
+   "id": "osm-entree-d-anvers-n4893737322",
+   "city": "antwerpen",
+   "address": "Suikerrui 1, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Entree dAnvers', 6 m, name similarity 0.9; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4734975170": {
+   "name": "Estrela do Mar",
+   "id": "osm-estrela-do-mar-n4734975170",
+   "city": "antwerpen",
+   "address": "Ellermanstraat 96, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Estrela Do Mar Cvba', 6 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "way/499263551": {
+   "name": "Evita’s Eethuis",
+   "id": "osm-evitas-eethuis-w499263551",
+   "city": "antwerpen",
+   "address": "Scheldestraat 38",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Evita’s Eethuis de Surinaamse keuken', 6 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4751288682": {
+   "name": "Falafel Hub",
+   "id": "osm-falafel-hub-n4751288682",
+   "city": "antwerpen",
+   "address": "Diepestraat 60, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Falafel Hub', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11340829514": {
+   "name": "Farm Kitchen",
+   "id": "osm-farm-kitchen-n11340829514",
+   "city": "antwerpen",
+   "address": "Gitschotellei, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Farm kitchen', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5611616124": {
+   "name": "Flux",
+   "id": "osm-flux-n5611616124",
+   "city": "antwerpen",
+   "address": "Sint-Paulusplaats, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Flux', 0 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6917721519": {
+   "name": "fuga sushi bar",
+   "id": "osm-fuga-sushi-bar-n6917721519",
+   "city": "antwerpen",
+   "address": "Volkstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Fugu Sushi Bar', 2 m, name similarity 0.889; Table and the City ratings run, 2026-10-25)"
+  },
+  "way/504427603": {
+   "name": "Gå nord",
+   "id": "osm-ga-nord-w504427603",
+   "city": "antwerpen",
+   "address": "Hardenvoort 5, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Gå Nord', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6274821461": {
+   "name": "Gallo Nero",
+   "id": "osm-gallo-nero-n6274821461",
+   "city": "antwerpen",
+   "address": "Grote Pieter Potstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Il Gallo Nero', 4 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4769840639": {
+   "name": "Gambero Rosso",
+   "id": "osm-gambero-rosso-n4769840639",
+   "city": "antwerpen",
+   "address": "Oudeleeuwenrui 7, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Ristorante Gambero Rosso', 1 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6214570052": {
+   "name": "Garden Of India",
+   "id": "osm-garden-of-india-n6214570052",
+   "city": "antwerpen",
+   "address": "Oude Koornmarkt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Garden Of India', 15 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5693449277": {
+   "name": "Gist",
+   "id": "osm-gist-n5693449277",
+   "city": "antwerpen",
+   "address": "Kaasstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Restaurant GIST', 9 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4719923349": {
+   "name": "Goesting",
+   "id": "osm-goesting-n4719923349",
+   "city": "antwerpen",
+   "address": "Falconplein, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Goesting', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/8443166144": {
+   "name": "Golden Dragon",
+   "id": "osm-golden-dragon-n8443166144",
+   "city": "antwerpen",
+   "address": "Mechelsesteenweg, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Golden Dragon', 7 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5460583913": {
+   "name": "Graanmarkt 13",
+   "id": "osm-graanmarkt-13-n5460583913",
+   "city": "antwerpen",
+   "address": "Graanmarkt 13, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Graanmarkt 13', 15 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11912108464": {
+   "name": "Hart",
+   "id": "osm-hart-n11912108464",
+   "city": "antwerpen",
+   "address": "Minderbroedersrui 34",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('HART', 6 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4541789440": {
+   "name": "Het Gebaar",
+   "id": "osm-het-gebaar-n4541789440",
+   "city": "antwerpen",
+   "address": "Leopoldstraat 24, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Het Gebaar', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5673441160": {
+   "name": "Hollywood Café",
+   "id": "osm-hollywood-cafe-n5673441160",
+   "city": "antwerpen",
+   "address": "Groenendaallaan 394/406D, 2030 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Hollywood Cafe', 7 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7005616467": {
+   "name": "Huiskamerrestaurant June's",
+   "id": "osm-huiskamerrestaurant-june-s-n7005616467",
+   "city": "antwerpen",
+   "address": "Krugerplein, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('June's Restaurant', 3 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7366336419": {
+   "name": "Ichi",
+   "id": "osm-ichi-n7366336419",
+   "city": "antwerpen",
+   "address": "Italiëlei, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Restaurant ichi', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6122316434": {
+   "name": "Isaac's Kosher",
+   "id": "osm-isaac-s-kosher-n6122316434",
+   "city": "antwerpen",
+   "address": "Lange Herentalsestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Isaac's Kosher Restaurant', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1261779700": {
+   "name": "Isola Sarda",
+   "id": "osm-isola-sarda-n1261779700",
+   "city": "antwerpen",
+   "address": "Anneessensstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Isola Sarda', 2 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6306769622": {
+   "name": "jackie",
+   "id": "osm-jackie-n6306769622",
+   "city": "antwerpen",
+   "address": "Kloosterstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Jackie', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5713136697": {
+   "name": "Kabuki",
+   "id": "osm-kabuki-n5713136697",
+   "city": "antwerpen",
+   "address": "Dageraadplaats, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Kabuki sushi', 3 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6710910565": {
+   "name": "Lai Yi Wan",
+   "id": "osm-lai-yi-wan-n6710910565",
+   "city": "antwerpen",
+   "address": "Van Wesenbekestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Lai Yi Wan Noodles Bar', 5 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1895277227": {
+   "name": "Las Margaritas",
+   "id": "osm-las-margaritas-n1895277227",
+   "city": "antwerpen",
+   "address": "Pacificatiestraat 27, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Las Margaritas', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1629898311": {
+   "name": "Little Buddha",
+   "id": "osm-little-buddha-n1629898311",
+   "city": "antwerpen",
+   "address": "Luikstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Little Buddha', 9 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5224380408": {
+   "name": "Little Bún THEATER",
+   "id": "osm-little-bun-theater-n5224380408",
+   "city": "antwerpen",
+   "address": "Sint-Jorispoort 22, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Little BÚN THEATER - Vietnamese Noodle Shop', 5 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1639225419": {
+   "name": "Lotus",
+   "id": "osm-lotus-n1639225419",
+   "city": "antwerpen",
+   "address": "Van Wesenbekestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Lotus Chinees Restaurant', 1 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7006782036": {
+   "name": "Marchica",
+   "id": "osm-marchica-n7006782036",
+   "city": "antwerpen",
+   "address": "Turnhoutsebaan, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Marchica', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5673441163": {
+   "name": "Martinique",
+   "id": "osm-martinique-n5673441163",
+   "city": "antwerpen",
+   "address": "Groenendaallaan 402, 2030 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Brasserie Martinique', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6291937833": {
+   "name": "Mezze Cafe Varelli",
+   "id": "osm-mezze-cafe-varelli-n6291937833",
+   "city": "antwerpen",
+   "address": "Plantinkaai, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Varelli', 3 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/932290918": {
+   "name": "minerva",
+   "id": "osm-minerva-n932290918",
+   "city": "antwerpen",
+   "address": "Karel Oomsstraat 36",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Minerva Restaurant 🇫🇷', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6535001451": {
+   "name": "Mio Pasta",
+   "id": "osm-mio-pasta-n6535001451",
+   "city": "antwerpen",
+   "address": "Franckenstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('MioPasta', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6997352317": {
+   "name": "Miyazu",
+   "id": "osm-miyazu-n6997352317",
+   "city": "antwerpen",
+   "address": "Turnhoutsebaan, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('MIYAZU', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6981312621": {
+   "name": "Mo's",
+   "id": "osm-mo-s-n6981312621",
+   "city": "antwerpen",
+   "address": "Turnhoutsebaan, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Mo's Steakhouse', 4 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6008349711": {
+   "name": "Molly's Irish Bar",
+   "id": "osm-molly-s-irish-bar-n6008349711",
+   "city": "antwerpen",
+   "address": "Jezuïetenrui, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Molly's Irish Bar - Antwerpen', 8 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6845435153": {
+   "name": "Monifaz Soulfood",
+   "id": "osm-monifaz-soulfood-n6845435153",
+   "city": "antwerpen",
+   "address": "Lange Beeldekensstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Monifaz Soulfood', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4770701621": {
+   "name": "Nome",
+   "id": "osm-nome-n4770701621",
+   "city": "antwerpen",
+   "address": "Verbindingsdok-Westkaai 8, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Nome', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11074261393": {
+   "name": "Nora's Kitchen",
+   "id": "osm-nora-s-kitchen-n11074261393",
+   "city": "antwerpen",
+   "address": "Nationalestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Nora's Kitchen', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/1280279705": {
+   "name": "Novo S.L.B.",
+   "id": "osm-novo-s-l-b-n1280279705",
+   "city": "antwerpen",
+   "address": "Ankerrui 46",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Novo S.L.B., Restaurant', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11514345175": {
+   "name": "Oats Day Long",
+   "id": "osm-oats-day-long-n11514345175",
+   "city": "antwerpen",
+   "address": "Kronenburgstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Oats Day Long', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5921427378": {
+   "name": "Oro di Napoli",
+   "id": "osm-oro-di-napoli-n5921427378",
+   "city": "antwerpen",
+   "address": "Vlasmarkt 8, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Oro Di napoli', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4477832542": {
+   "name": "Pasta 4 You",
+   "id": "osm-pasta-4-you-n4477832542",
+   "city": "antwerpen",
+   "address": "Kerkstraat 76, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Pasta 4 You', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/418728171": {
+   "name": "Pelgrimhuis launge",
+   "id": "osm-pelgrimhuis-launge-n418728171",
+   "city": "antwerpen",
+   "address": "Pelgrimstraat 22, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Pelgrimhuis Antwerpen', 3 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11738859869": {
+   "name": "Pura Vida Tacos",
+   "id": "osm-pura-vida-tacos-n11738859869",
+   "city": "antwerpen",
+   "address": "Nieuwstad 10",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Pura Vida - tacos & more', 6 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6933046126": {
+   "name": "Puro 26",
+   "id": "osm-puro-26-n6933046126",
+   "city": "antwerpen",
+   "address": "Leopold de Waelplaats, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Puro 26', 6 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/13338607800": {
+   "name": "Restaurant 77",
+   "id": "osm-restaurant-77-n13338607800",
+   "city": "antwerpen",
+   "address": "Lange Leemstraat 77",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Grill House 77, Restaurant', 9 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4212026391": {
+   "name": "Restaurant Ardent",
+   "id": "osm-restaurant-ardent-n4212026391",
+   "city": "antwerpen",
+   "address": "Dageraadplaats 3, 2018 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Restaurant Ardent', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5691579667": {
+   "name": "Restaurant Boris",
+   "id": "osm-restaurant-boris-n5691579667",
+   "city": "antwerpen",
+   "address": "Veemarkt, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Boris', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6582588247": {
+   "name": "Rice N‘ Roll",
+   "id": "osm-rice-n-roll-n6582588247",
+   "city": "antwerpen",
+   "address": "Scheldestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Rice 'N Roll', 2 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7265698989": {
+   "name": "Sail & Anchor",
+   "id": "osm-sail-anchor-n7265698989",
+   "city": "antwerpen",
+   "address": "Guldenvliesstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Sail & Anchor Antwerp', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/2803717693": {
+   "name": "Salada Sociale",
+   "id": "osm-salada-sociale-n2803717693",
+   "city": "antwerpen",
+   "address": "Van Immerseelstraat 7, 2018 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Salade Sociale', 2 m, name similarity 0.923; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7066232603": {
+   "name": "Salu Tiffin' Time",
+   "id": "osm-salu-tiffin-time-n7066232603",
+   "city": "antwerpen",
+   "address": "Molenstraat 47, 2018 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Salu Tiffin Time', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5204925425": {
+   "name": "Sensunik",
+   "id": "osm-sensunik-n5204925425",
+   "city": "antwerpen",
+   "address": "Molenstraat 69, 2018 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Sensunik', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7018065114": {
+   "name": "Seree Thai",
+   "id": "osm-seree-thai-n7018065114",
+   "city": "antwerpen",
+   "address": "Van Arteveldestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Seree Thai', 11 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7280393634": {
+   "name": "Shad",
+   "id": "osm-shad-n7280393634",
+   "city": "antwerpen",
+   "address": "Tabakvest 69",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Shad', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4434142465": {
+   "name": "Shmos",
+   "id": "osm-shmos-n4434142465",
+   "city": "antwerpen",
+   "address": "Statiestraat 154",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Shmos', 8 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5693449280": {
+   "name": "Sjalot en Schanul",
+   "id": "osm-sjalot-en-schanul-n5693449280",
+   "city": "antwerpen",
+   "address": "Oude Beurs, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Sjalot en Schanul', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6515848572": {
+   "name": "Sushi intense",
+   "id": "osm-sushi-intense-n6515848572",
+   "city": "antwerpen",
+   "address": "Schoytestraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Sushi Intense', 0 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6436940010": {
+   "name": "Symforosa",
+   "id": "osm-symforosa-n6436940010",
+   "city": "antwerpen",
+   "address": "Vleminckveld, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Symforosa', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4476445329": {
+   "name": "'t Fonteintje",
+   "id": "osm-t-fonteintje-n4476445329",
+   "city": "antwerpen",
+   "address": "Kerkstraat 80, 2060 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (''t Fonteintje', 5 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5247597964": {
+   "name": "'t Injaske",
+   "id": "osm-t-injaske-n5247597964",
+   "city": "antwerpen",
+   "address": "Grote Kauwenberg 5, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (''t Injaske', 2 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6199514387": {
+   "name": "Taksim",
+   "id": "osm-taksim-n6199514387",
+   "city": "antwerpen",
+   "address": "Suikerrui, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Taksim restaurant', 2 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5999650987": {
+   "name": "Ten Ryu",
+   "id": "osm-ten-ryu-n5999650987",
+   "city": "antwerpen",
+   "address": "Sint-Paulusplaats, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Ten Ryu Antwerp', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/6404039547": {
+   "name": "The Josephine",
+   "id": "osm-the-josephine-n6404039547",
+   "city": "antwerpen",
+   "address": "Schuttershofstraat 11, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('The Josephine', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5260810811": {
+   "name": "The View",
+   "id": "osm-the-view-n5260810811",
+   "city": "antwerpen",
+   "address": "Suikerrui 28",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('The View Antwerp', 1 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/7404402125": {
+   "name": "Tito",
+   "id": "osm-tito-n7404402125",
+   "city": "antwerpen",
+   "address": "Falconplein, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('TITO', 0 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/13395070802": {
+   "name": "Vega Nation",
+   "id": "osm-vega-nation-n13395070802",
+   "city": "antwerpen",
+   "address": "Brederodestraat 10",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Veganation', 3 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5055895858": {
+   "name": "Venue 219",
+   "id": "osm-venue-219-n5055895858",
+   "city": "antwerpen",
+   "address": "Troonplaats, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Venue 219', 2 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/5999650986": {
+   "name": "Victor",
+   "id": "osm-victor-n5999650986",
+   "city": "antwerpen",
+   "address": "Sint-Paulusplaats, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Victor', 4 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4922022151": {
+   "name": "Wasabi",
+   "id": "osm-wasabi-n4922022151",
+   "city": "antwerpen",
+   "address": "Londenstraat 26, 2000 Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Wasabi Sushi', 4 m, name similarity 0.95; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/11980381724": {
+   "name": "Delicia Caribeña",
+   "id": "osm-delicia-caribena-n11980381724",
+   "city": "antwerpen",
+   "address": "Zwartzustersstraat, Antwerpen",
+   "closed": "yes",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Delicia Caribeña', 12 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
   }
  }
 }

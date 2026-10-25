@@ -39,7 +39,19 @@
      "id": "antwerpen",
      "name": "Antwerpen",
      "nameEn": "Antwerp",
-     "active": false
+     "active": true,
+     "data": "data/cities/antwerpen.json",
+     "center": [
+      51.2125,
+      4.4125
+     ],
+     "zoom": 13,
+     "upcoming": "data/cities/antwerpen-upcoming.json",
+     "osm": "data/cities/antwerpen-osm.json",
+     "ratings": "data/cities/antwerpen-ratings.json",
+     "area": "Central Antwerp: the districts Antwerpen, Berchem (incl. Zurenborg) and Borgerhout",
+     "description": "Table and the City: a curated, filterable guide to Antwerpen's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+     "about": "<span id=\"about-city\">Antwerpen</span> is the second city in the guide. The base list covers central Antwerp (the districts Antwerpen, Berchem with Zurenborg, and Borgerhout) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries or student cafés, no generic cafés or coffee houses, artisan bakeries only. Ratings come from Google; permanently closed places are left out. Hand-picked places (guides, the restaurants’ own websites, local press) are being added. Nothing is invented: anything we could not verify is shown as <em>unknown</em>."
     },
     {
      "id": "brussel",

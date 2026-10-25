@@ -312,11 +312,12 @@ const TG = (() => {
     return { F, EV, TILES };
   }
 
-  /* Google Maps directions (new tab). Destination = name + address (+ Gent); lat,lng if no address; place_id only when we have a real one */
+  /* Google Maps directions (new tab). Destination = name + address (+ the current city); lat,lng if no address; place_id only when we have a real one */
   function directionsUrl(r) {
     const clean = t => String(t || '').replace(/\s*\([^)]*\)/g, '').trim();   // drop notes like "(former Club 69)"
     const addr = known(r.address) ? clean(r.address) : '', name = clean(r.name);
-    const dest = addr ? `${name}, ${addr}${/gent|ghent/i.test(addr) ? '' : ', Gent'}` : (r.lat ? `${r.lat},${r.lng}` : `${name}, Gent`);
+    const cn = (CUR && CUR.name) || '', cre = new RegExp([cn, CUR && CUR.nameEn].filter(Boolean).join('|') || '^$', 'i');
+    const dest = addr ? `${name}, ${addr}${!cn || cre.test(addr) ? '' : ', ' + cn}` : (r.lat ? `${r.lat},${r.lng}` : `${name}${cn ? ', ' + cn : ''}`);
     return 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(dest) + (r.google_place_id ? '&destination_place_id=' + encodeURIComponent(r.google_place_id) : '');
   }
 

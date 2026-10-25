@@ -4,3 +4,4 @@ design-reference.jpg
 img/p.html
 .DS_Store
 data/osm/streets.json
+data/osm/*-streets.json

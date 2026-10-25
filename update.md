@@ -52,6 +52,11 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    Corrections (subject `Correction: …`), place suggestions (`Suggestion: …`) and city requests (`City request: …`) arrive at
    `info@tableandthecity.com` via FormSubmit (`FEEDBACK_FORMSUBMIT`), with Web3Forms as fallback (`FEEDBACK_ENDPOINT` / `FEEDBACK_ACCESS_KEY`);
    both in `js/config.js`, sent by `js/forms.js`. FormSubmit mails come from formsubmit.co with the form's subject.
+4c-bis. **Other cities (Antwerpen)** – same pipeline, city slug as argument: `python3 scripts/import_osm.py antwerpen [--refresh]`
+   (area = districts Antwerpen, Berchem incl. Zurenborg, Borgerhout via Overpass relation areas; see `CITY_CFG` in import_osm.py) and
+   `python3 scripts/fetch_google_ratings.py antwerpen` (~680 Places Text Search calls per full run; `--raw FILE --offline` re-uses cached responses).
+   Files: `data/cities/antwerpen*.json`, `data/osm/antwerpen-*.json`. Places Google marks CLOSED_PERMANENTLY go by OSM ref into `data/osm/closed.json` (with source).
+   Isolation check (no data/text of another city leaks in): `python3 scripts/test_city_isolation.py [--shots DIR]` (needs the local server on :8765).
 4d. **OpenStreetMap base list** (weekly, or daily on busy weeks) – `python3 scripts/import_osm.py gent --refresh --fill-curated`
    (re-downloads OSM, keeps ids stable, never overwrites curated data). Look at the printed counts: a big drop usually means Overpass returned a partial result —
    re-run. New places without an address need `data/osm/streets.json` (downloaded automatically, not in git). Put sourced fixes in `data/osm/corrections.json`

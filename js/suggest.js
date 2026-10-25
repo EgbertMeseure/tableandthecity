@@ -12,7 +12,7 @@
 
   function currentCity() {
     const b = document.querySelector('[data-dd="city"]>button');
-    return (b && b.textContent.trim()) || 'Gent';
+    return (b && b.textContent.trim()) || (window.TGApp && TGApp.city && TGApp.city.name) || '';
   }
   function mount() {
     root = document.createElement('div'); root.className = 'crq sgp'; root.hidden = true;
