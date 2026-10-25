@@ -9,7 +9,7 @@
   document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // set by the category cards (and shareable URLs); no filter panel
-  const QUICK = ['open', 'new', 'veggie', 'vegan', 'events'];                  // chips in the main row
+  const QUICK = ['open', 'new', 'veggie', 'vegan', 'events'];                  // on/off filters kept in the URL (chips: open, new, events)
   const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, open: false, stage: '', vlevel: '', meal: '', style: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
@@ -17,9 +17,7 @@
   const params = new URLSearchParams(location.search);
   ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel', 'meal', 'style'].forEach(k => params.get(k) && (state[k] = params.get(k)));
   if (!['', 'vegan', 'vegetarian', 'vegan-friendly', 'veggie-friendly'].includes(state.vlevel)) state.vlevel = '';
-  // old links from the removed 'Veggie & vegan' card: levels without their own chip fall back to the matching chip (100% vegan keeps its chip)
-  if (state.vlevel === 'vegan-friendly') { state.vegan = true; state.vlevel = ''; }
-  else if (state.vlevel === 'vegetarian' || state.vlevel === 'veggie-friendly') { state.veggie = true; state.vlevel = ''; }
+  // diet filters (veggie / vegan / vlevel) have no chips any more: set by the cards' Veggie/Vegan rows, the quiz or old links; shown in the list title, cleared by Reset
   if (!['', 'open', 'soon'].includes(state.stage)) state.stage = '';
   if (!['', 'any', 'breakfast', 'brunch', 'wkbrunch', 'early'].includes(state.meal)) state.meal = '';
   if (!/^[a-z-]{0,20}$/.test(state.style)) state.style = '';

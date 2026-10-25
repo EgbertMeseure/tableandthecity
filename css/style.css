@@ -218,6 +218,7 @@ body.noscroll{overflow:hidden}
   .finder .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(-1 * var(--gutter));padding:0 var(--gutter)}
   .finder .chips::-webkit-scrollbar{display:none}
   .finder .chip{flex:none}
+  .finder .chips{gap:6px}.finder .chips>.chip{flex:1 0 auto;padding:0 10px;letter-spacing:.1em}   /* 4 quick chips fill one row on phones */
   .finder__right{gap:8px}
   .finder__right .fsel{padding:0 26px 0 12px}
   .finder__right .chip--more{padding:0 12px}
