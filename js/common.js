@@ -370,6 +370,39 @@ const TG = (() => {
     document.addEventListener('click', () => document.querySelectorAll('.citysel.open').forEach(d => { d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded', 'false'); }));
     document.querySelectorAll('[data-home]').forEach(a => a.href = cityUrl('index.html', city.id) + (a.dataset.home || ''));
   }
+  /* cuisine groups for the quiz's 'What kind of food?' step and the 'By cuisine' card. `t` is tested on each cuisine tag
+     (OSM + curated), `x` (optional) on the curated free-text cuisine line (curated tags are coarse, e.g. Thai → 'Asian').
+     Only restaurants count; groups with fewer than 3 places are not offered (see cuisineList) */
+  const CUISINES = [
+    { id: 'belgian', label: 'Belgian & Flemish', t: /^(belgian|belgian \/ flemish|flemish|regional)$/i, x: /\b(belgian|flemish)\b/i },
+    { id: 'french', label: 'French', t: /^french$/i },
+    { id: 'italian', label: 'Italian & pizza', t: /^(italian|italian pizza|pizza|pasta|spaghetti)$/i, x: /\b(italian|sicilian|tuscan)\b/i },
+    { id: 'mediterranean', label: 'Spanish & Mediterranean', t: /^(spanish|tapas|mediterranean|greek|spanish \/ mediterranean)$/i },
+    { id: 'modern', label: 'Modern & creative', t: /^modern \/ creative$/i },
+    { id: 'japanese', label: 'Japanese & sushi', t: /^(japanese|sushi|ramen)$/i, x: /\b(japanese|omakase)\b/i },
+    { id: 'chinese', label: 'Chinese', t: /^(chinese|dumplings)$/i },
+    { id: 'thai', label: 'Thai', t: /^thai$/i, x: /\bthai\b/i },
+    { id: 'vietnamese', label: 'Vietnamese', t: /^vietnamese$/i },
+    { id: 'korean', label: 'Korean', t: /^korean$/i },
+    { id: 'asian', label: 'Other Asian', t: /^(asian|asian fusion|filipino|noodles|poke)$/i },
+    { id: 'indian', label: 'Indian & Nepalese', t: /^(indian|nepalese)$/i },
+    { id: 'turkish', label: 'Turkish & kebab', t: /^(turkish|kebab|döner|pita)$/i },
+    { id: 'middle-eastern', label: 'Middle Eastern', t: /^(middle eastern|syrian|lebanese|palestinian|persian|arab|arabic|oriental)$/i },
+    { id: 'african', label: 'African & Moroccan', t: /^(african|ethiopian|moroccan)$/i },
+    { id: 'latin', label: 'Mexican & Latin American', t: /^(mexican|latin american|peruvian)$/i },
+    { id: 'burgers', label: 'Burgers & American', t: /^(burgers?|american)$/i },
+    { id: 'grill', label: 'Steak & grill', t: /^(steakhouse|grill|barbecue|spare ribs|fire \/ meat)$/i },
+    { id: 'fish', label: 'Fish & seafood', t: /^(seafood|fish|fish \/ north sea)$/i },
+    { id: 'lunch', label: 'Sandwiches & soup', title: 'Sandwich & soup spots', t: /^(sandwiches|soup|soep|salads|bagels|wrap|bowl)$/i }
+  ];
+  const ASIAN = ['japanese', 'chinese', 'thai', 'vietnamese', 'korean'];
+  const CZ_BY = Object.fromEntries(CUISINES.map(c => [c.id, c]));
+  const inCuisine = (r, id) => { const c = CZ_BY[id]; if (!c || r.group !== 'restaurants') return false;
+    if (!r._cz) r._cz = {}; if (id in r._cz) return r._cz[id];
+    if (id === 'asian' && ASIAN.some(k => inCuisine(r, k))) return (r._cz[id] = false);   // 'Other Asian' = not already Japanese, Thai, …
+    return (r._cz[id] = (r.cuisineTags || []).some(t => c.t.test(t)) || !!(c.x && r.curated && c.x.test(r.cuisine || ''))); };
+  /* the offered list: groups with >= min open restaurants (announced places left out), in the order above, with counts */
+  const cuisineList = (R, min = 3) => CUISINES.map(c => ({ ...c, n: R.filter(r => !r.upcoming && inCuisine(r, c.id)).length })).filter(c => c.n >= min);
   /* small 0-10 score next to a name (Google rating x 2); nothing when there is no confident match */
   const scoreBadge = r => r && r.gscore ? `<span class="gscore" title="Google rating ${(r.gscore / 2).toFixed(1)}/5, shown out of 10" aria-label="Google rating ${r.gscore.toFixed(1)} out of 10">${r.gscore.toFixed(1)}</span>` : '';
   function renderFooter(cfg, city, extra = '') {
@@ -508,6 +541,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { CUISINES, CZ_BY, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

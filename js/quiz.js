@@ -74,6 +74,10 @@
   const DIET_Q = { id: 'diet', q: 'Any dietary wishes?', hard: true, relax: 'diet', opts: [
     { v: 'veggie', l: 'Veggie', s: 'Vegetarian, vegan or clear veggie options', f: DIET.veggie },
     { v: 'vegan', l: 'Vegan', s: 'Fully vegan or clear vegan options', f: DIET.vegan }] };
+  /* 'What kind of food?': Any + the cuisine groups with >= 3 restaurants (TG.cuisineList, filled in once the data is loaded) */
+  const FOOD_Q = { id: 'food', q: 'What kind of food?', hard: true, relax: 'food', compact: true, opts: [] };
+  const fillFood = () => { if (FOOD_Q.opts.length) return;
+    FOOD_Q.opts = [{ v: 'any', l: 'Any', chip: 'Any food' }, ...TG.cuisineList(APP.R).map(c => ({ v: c.id, l: c.label, f: r => TG.inCuisine(r, c.id) }))]; };
   const whenQ = (q, list) => ({ id: 'when', q, hard: true, when: true, opts: list });
   const W = {
     now: (l = 'Right now') => ({ v: 'now', l, s: C => `Open now · ${DAY_LONG[C.dow]}` }),
@@ -93,6 +97,7 @@
           { v: 'casual', l: 'Casual', s: 'Easy-going, all kinds of kitchens', f: STYLE.casual },
           { v: 'moderate', l: 'Moderate', s: 'Bistros, brasseries, gastro-bistros', f: STYLE.moderate },
           { v: 'fancy', l: 'Fancy', s: 'Fine dining, gastro-bistros, Michelin stars', f: STYLE.fancy }] },
+        FOOD_Q,
         { id: 'people', q: 'How many people?', grid: true, opts: [{ v: '2', l: '1–2' }, { v: '4', l: '3–4' }, { v: '8', l: '5–8' }, { v: '9', l: '8+' }] },
         whenQ('When?', [W.today(), W.tomorrow(), W.weekend(), W.pick()]),
         { id: 'occasion', q: 'What’s the occasion?', opts: [
@@ -116,7 +121,7 @@
       },
       list(a) {
         const type = { casual: 'casual+restaurant', moderate: 'bistro+brasserie+gastro-bistro', fancy: 'fine dining+gastro-bistro' }[a.style];
-        return { group: 'restaurants', ...(type ? { type } : {}), ...dietF(a) };
+        return { group: 'restaurants', ...(type ? { type } : {}), ...(a.food && a.food !== 'any' ? { cuisine: a.food } : {}), ...dietF(a) };
       },
       note: a => +a.people >= 8 ? 'Big group: places you can book online or by phone come first — check availability with them.' : ''
     },
@@ -258,6 +263,7 @@
     root.hidden = false; document.documentElement.classList.add('qz-lock');
     requestAnimationFrame(() => root.classList.add('is-open'));
     if (!APP) { body().innerHTML = '<p class="qz__loading">Loading places…</p>'; APP = await ready; }
+    fillFood();
     restart();
   }
   function close() {
@@ -300,7 +306,7 @@
     const hasPick = opts.some(o => o.pick);
     if (hasPick && !st.pick && isPick(st.a[q.id])) st.pick = { iso: st.a[q.id].slice(2), month: st.a[q.id].slice(2, 9) };   // back to a picked date
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${st.step + 1} of ${st.steps.length}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
-      <div class="qz__opts${q.grid ? ' qz__opts--grid' : ''}">${opts.map(o => optBtn(o, q.id, C)).join('')}</div>
+      <div class="qz__opts${q.grid ? ' qz__opts--grid' : ''}${q.compact ? ' qz__opts--compact' : ''}">${opts.map(o => optBtn(o, q.id, C)).join('')}</div>
       ${hasPick && st.pick ? `<div class="qz-cal" role="group" aria-label="Pick a date">${calHtml(sec, q, C)}</div>` : ''}
       <button class="qz__skip" type="button" data-qz-skip>No preference</button>`);
     const cal = root.querySelector('.qz-cal');
@@ -354,7 +360,7 @@
     const a = {}; Object.entries(st.a).forEach(([k, v]) => { if (v) a[k] = v; });
     const { list, exactN, relaxed, near } = results(sec, a, C);
     const top = list.slice(0, 6);
-    const chips = st.steps.filter(q => a[q.id]).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : val(o.l, C))}</li>`; }).join('');
+    const chips = st.steps.filter(q => a[q.id]).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : o.chip || val(o.l, C))}</li>`; }).join('');
     const rq = relaxed && st.steps.find(q => q.relax === relaxed);
     const relaxLine = near ? `<p class="qz__relax">${esc(near)}</p>` : rq ? `<p class="qz__relax">Only ${exactN} exact match${exactN === 1 ? '' : 'es'} — we relaxed “${esc(val(qOpt(sec, relaxed, a[relaxed]).l, C))}”.</p>` : '';
     const note = sec.note ? sec.note(a) : '';

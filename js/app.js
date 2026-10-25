@@ -23,7 +23,7 @@
   if (!/^[a-z-]{0,20}$/.test(state.style)) state.style = '';
   if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
-  ['area', 'cuisine', 'price'].forEach(k => state[k] = ''); if (state.dist !== 'michelin') state.dist = '';   // filter panel removed: only what the cards can set
+  ['area', 'price'].forEach(k => state[k] = ''); if (!TG.CZ_BY[state.cuisine]) state.cuisine = '';   // cuisine = a TG.CUISINES id (By cuisine card, quiz) if (state.dist !== 'michelin') state.dist = '';   // filter panel removed: only what the cards can set
   if (state.sort !== 'dist') state.sort = 'rec';                         // no sort menu: recommended order, or distance once Near me / a map point is set
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
@@ -57,6 +57,7 @@
   }
   // ---- "Choose your table": top-level group cards, each with a small sub-menu ----
   const sub = (label, f) => ({ label, f });
+  const CZL = TG.cuisineList(R);                                          // cuisines with >= 3 restaurants (js/common.js)
   const GROUPS = [
     { label: 'New', img: 'plated', f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
       ...Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g }))] },
@@ -73,12 +74,14 @@
       sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
     { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
       sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
+    // 'By cuisine': one card, its cuisines open in a compact chooser (openCz) instead of an in-card menu
+    { label: 'By cuisine', img: 'casual', f: { group: 'restaurants' }, subs: [], chooser: true },
     // no separate 'Veggie & vegan' card: every card has its own Veggie / Vegan row (+ the quick chips)
     { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
-    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
+    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : k === 'cuisine' ? TG.inCuisine(r, v) : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
   GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
   /* diet row in every place card's menu: 'Veggie' (any veggie level, = the Veggie chip) / 'Vegan' (fully vegan or clear vegan options, = the Vegan chip).
@@ -90,8 +93,8 @@
   $('#carousel').innerHTML = GROUPS.map((c, i) => `
     <div class="pillcard bw-host grain${c.subs.length ? ' has-menu' : ''}" data-cat="${i}">
       <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">${c.photo ? `<img class="bw pill-photo" src="${esc(c.photo.url)}" referrerpolicy="no-referrer" alt="" loading="lazy" decoding="async" onerror="this.nextElementSibling&&this.nextElementSibling.classList.contains('pill-credit')&&this.nextElementSibling.remove();this.remove()"><a class="pill-credit" href="${esc(c.photo.href)}" target="_blank" rel="noopener">${esc(c.photo.credit)}</a>` : ''}${c.subs.length ? '<i class="pill-shade" aria-hidden="true"></i>' : ''}
-      <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.n} ${c.toEvents ? 'upcoming' : 'places'}"${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
-        <span class="pill-label">${esc(c.label)}<small>${c.n} ${c.toEvents ? 'upcoming' : 'places'}</small></span></button>
+      <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.chooser ? `${CZL.length} cuisines` : `${c.n} ${c.toEvents ? 'upcoming' : 'places'}`}"${c.chooser ? ' aria-haspopup="dialog"' : ''}${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
+        <span class="pill-label">${esc(c.label)}<small>${c.chooser ? `${CZL.length} cuisines` : `${c.n} ${c.toEvents ? 'upcoming' : 'places'}`}</small></span></button>
       ${c.subs.length ? `<div class="pillmenu${c.subs.length > 7 ? ' many' : ''}${c.diets.length ? ' has-diet' : ''}" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">${c.diets.length ? `<div class="pm-diet" role="group" aria-label="Diet">${c.diets.map(d => `<button role="menuitemcheckbox" aria-checked="false" tabindex="-1" data-d="${d}" title="${esc(DIET[d].title)}">${DIET[d].label}<b>${c['n_' + d]}</b></button>`).join('')}</div>` : ''}
         <button role="menuitem" tabindex="-1" class="pm-all" data-s="-1" aria-label="All ${esc(c.label.toLowerCase())}, ${c.n}">All<b>${c.n}</b></button><i class="pm-br" aria-hidden="true"></i>
         ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}">${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
@@ -140,6 +143,7 @@
     const g = GROUPS[+c.dataset.cat], it = e.target.closest('[data-s]'), dt = e.target.closest('[data-d]');
     if (dt) { if (menuFor !== c) { openMenu(c); return; } setDiet(c, c.dataset.diet === dt.dataset.d ? '' : dt.dataset.d); return; }
     if (it) { if (menuFor !== c) { openMenu(c); return; } const j = +it.dataset.s, d = c.dataset.diet; choose(g, { ...(j < 0 ? g.f : g.subs[j].f), ...(d ? DIET[d].f : {}) }, c); return; }
+    if (g.chooser) { closeMenu(false); openCz(g, c); return; }
     // touch / no-hover devices: first tap opens the in-card menu (its first item selects the whole group)
     if (g.subs.length && (lastPtr !== 'mouse' || !hoverable()) && e.detail !== 0) { if (menuFor === c) closeMenu(false); else openMenu(c); return; }
     choose(g, g.f, c);
@@ -159,6 +163,49 @@
   });
   document.addEventListener('pointerdown', e => { if (menuFor && !menuFor.contains(e.target)) closeMenu(false); });
   TG.carousel($('#carousel'));
+  /* 'By cuisine' chooser: a small sheet (same shell as 'Request your city') with the cuisines + the usual Veggie / Vegan toggle */
+  let czRoot = null, czCard = null, czLast = null;
+  function czDraw(d) {
+    const f = d ? DIET[d].f : {}, all = countF({ group: 'restaurants', ...f });
+    czRoot.querySelectorAll('[data-czd]').forEach(b => b.setAttribute('aria-pressed', b.dataset.czd === d));
+    czRoot.querySelector('.czs__grid').innerHTML = `<button class="czs__c czs__c--all" type="button" data-cz="">All restaurants<b>${all}</b></button>` +
+      CZL.map(c => ({ c, n: countF({ group: 'restaurants', cuisine: c.id, ...f }) })).filter(x => x.n).map(({ c, n }) =>
+        `<button class="czs__c" type="button" data-cz="${esc(c.id)}">${esc(c.label)}<b>${n}</b></button>`).join('');
+    czRoot.dataset.diet = d;
+  }
+  function openCz(g, card) {
+    czCard = card; czLast = document.activeElement;
+    if (!czRoot) {
+      czRoot = document.createElement('div'); czRoot.className = 'crq czs'; czRoot.hidden = true;
+      czRoot.innerHTML = `<div class="crq__scrim" data-czs-close></div>
+        <div class="crq__sheet czs__sheet" role="dialog" aria-modal="true" aria-labelledby="czs-title">
+          <button class="crq__x" type="button" data-czs-close aria-label="Close">Close</button>
+          <p class="crq__eyebrow">Choose your table</p><h2 class="crq__t" id="czs-title">By cuisine</h2>
+          <p class="crq__lead">Restaurants in ${esc(CITY)}, by kitchen.</p>
+          <div class="czs__diet" role="group" aria-label="Diet">${Object.keys(DIET).map(d => `<button class="chip" type="button" data-czd="${d}" aria-pressed="false" title="${esc(DIET[d].title)}">${DIET[d].label}</button>`).join('')}</div>
+          <div class="czs__grid"></div>
+        </div>`;
+      document.body.appendChild(czRoot);
+      czRoot.addEventListener('click', e => {
+        if (e.target.closest('[data-czs-close]')) return closeCz();
+        const dd = e.target.closest('[data-czd]'); if (dd) return czDraw(czRoot.dataset.diet === dd.dataset.czd ? '' : dd.dataset.czd);
+        const b = e.target.closest('[data-cz]'); if (!b) return;
+        const d = czRoot.dataset.diet; closeCz(false);
+        choose(g, { group: 'restaurants', ...(b.dataset.cz ? { cuisine: b.dataset.cz } : {}), ...(d ? DIET[d].f : {}) }, czCard);
+      });
+      czRoot.addEventListener('keydown', e => { if (e.key === 'Escape') { e.preventDefault(); closeCz(); } });
+    }
+    czDraw('');
+    czRoot.hidden = false; document.documentElement.classList.add('crq-lock');
+    requestAnimationFrame(() => czRoot.classList.add('is-open'));
+    setTimeout(() => czRoot.querySelector('.czs__c').focus({ preventScroll: true }), 30);
+  }
+  function closeCz(refocus = true) {
+    if (!czRoot || czRoot.hidden) return;
+    czRoot.classList.remove('is-open'); document.documentElement.classList.remove('crq-lock');
+    setTimeout(() => { czRoot.hidden = true; }, 200);
+    if (refocus && czLast && czLast.focus) czLast.focus({ preventScroll: true });
+  }
 
   // ---- search ----
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -175,7 +222,7 @@
       if (state.group && r.group !== state.group) return false;
       if (state.type && !state.type.split('+').includes(r.category)) return false;
       if (state.area) { const [k, v] = [state.area.slice(0, 1), state.area.slice(2)]; if (k === 'd' ? r.district !== v : r.neighbourhood !== v) return false; }
-      if (state.cuisine && !r.cuisineTags.includes(state.cuisine)) return false;
+      if (state.cuisine && !TG.inCuisine(r, state.cuisine)) return false;
       if (state.price && r.priceLevel !== state.price) return false;
       const d = r.distinctions;
       if (state.dist === 'star' && !isStar(d.michelin)) return false;
@@ -299,11 +346,11 @@
   const MEAL_T = { any: 'breakfast & brunch', breakfast: 'breakfast', brunch: 'brunch', wkbrunch: 'weekend brunch', early: 'early openers' };
   function listTitle() {
     const diet = state.vlevel ? TG.VEG_LABEL[state.vlevel] : state.vegan ? 'Vegan' : state.veggie ? 'Veggie' : '';
-    const noun = state.type && CAT_LABEL[state.type] ? CAT_LABEL[state.type] : state.meal ? MEAL_T[state.meal] : state.group ? GROUP_LABEL[state.group] : state.dist === 'michelin' ? 'Michelin' : '';
+    const cz = TG.CZ_BY[state.cuisine], noun = cz ? cz.title || cz.label + ' restaurants' : state.type && CAT_LABEL[state.type] ? CAT_LABEL[state.type] : state.meal ? MEAL_T[state.meal] : state.group ? GROUP_LABEL[state.group] : state.dist === 'michelin' ? 'Michelin' : '';
     const nw = state.new ? (state.stage === 'soon' ? 'Opening soon:' : state.stage === 'open' ? 'Just opened:' : 'New') : '';
     if (!diet && !noun && !nw) return `All places in ${CITY}`;
     const w = [nw, diet, noun || (diet || nw ? 'places' : '')].filter(Boolean);
-    return w.map((x, i) => i ? (/^[A-Z][a-z]/.test(x) && !/^Michelin/.test(x) ? x.toLowerCase() : x) : x[0].toUpperCase() + x.slice(1)).join(' ') + ` in ${CITY}`;
+    return w.map((x, i) => i ? (/^[A-Z][a-z]/.test(x) && !/^Michelin/.test(x) && !(cz && x === noun) ? x.toLowerCase() : x) : x[0].toUpperCase() + x.slice(1)).join(' ') + ` in ${CITY}`;
   }
   function render() {
     syncUrl(); $('#explore-title').textContent = listTitle();

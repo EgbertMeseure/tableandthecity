@@ -423,6 +423,7 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz-opt[aria-pressed="true"] .qz-opt__s{color:#d6d6d6}
 .qz-opt__n{flex:none;font-family:var(--serif);font-weight:500;font-size:17px}
 .qz__opts--grid .qz-opt{justify-content:center;text-align:center}
+.qz__opts--compact{display:grid;grid-template-columns:1fr 1fr;gap:8px}.qz__opts--compact .qz-opt{min-height:46px;padding:8px 18px;gap:8px}.qz__opts--compact .qz-opt__l{font-size:11px;letter-spacing:.1em;line-height:1.25}.qz__opts--compact .qz-opt__n{font-size:15px}.qz__opts--compact .qz-opt[data-v="any"]{grid-column:1/-1}
 .qz__skip{display:block;margin:16px auto 0;background:none;border:0;border-bottom:1px solid currentColor;padding:6px 0 2px;cursor:pointer;color:var(--text-2);font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase}
 .qz__chips{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0 0 12px;padding:0}
 .qz__chips li{border:1px solid var(--line-d);border-radius:var(--pill);padding:4px 11px;font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase}
@@ -471,6 +472,7 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
   .qz-opt{min-height:58px;padding:9px 20px}
   .qz-opt__l{font-size:11.5px;letter-spacing:.13em}
   .qz-opt__s{font-size:12px}
+  .qz__opts--compact{gap:6px}.qz__opts--compact .qz-opt{min-height:44px;padding:7px 14px}.qz__opts--compact .qz-opt__l{font-size:9.5px;letter-spacing:.07em}.qz__opts--compact .qz-opt__n{font-size:14px}
   .qz-card{gap:13px;padding:12px 0}
   .qz-card__thumb{width:56px;height:86px}
   .qz-card__name{font-size:17.5px}
@@ -530,6 +532,16 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .pill-btn.crq__send:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .crq__note{margin:0;text-align:center;font-size:11.5px;color:var(--text-2)}
 .crq__thanks{margin:6px 0 10px;font-family:var(--serif);font-size:19px;line-height:1.35}
+/* 'By cuisine' chooser (shell = .crq sheet) */
+.czs__sheet{width:min(560px,100%)}
+.czs__diet{display:flex;gap:8px;margin:0 0 14px}
+.czs__diet .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.czs__grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.czs__c{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;padding:8px 18px;border:1px solid var(--line-d);border-radius:var(--pill);background:#fff;color:var(--ink);cursor:pointer;text-align:left;font:600 10.5px/1.25 var(--sans,inherit);letter-spacing:.12em;text-transform:uppercase}
+.czs__c b{flex:none;font-family:var(--serif);font-weight:500;font-size:15px;letter-spacing:0}
+.czs__c--all{grid-column:1/-1}
+@media (hover:hover){.czs__c:hover{background:var(--ink);border-color:var(--ink);color:#fff}}
+.czs__c:focus-visible,.czs__diet .chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 /* 0-10 score next to a place name (Google rating x 2) */
 .gscore{display:inline-block;margin-left:.5em;padding:2px 6px 1px;border:1px solid var(--line-d,#bbb);border-radius:5px;font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.04em;line-height:1.3;vertical-align:.28em;white-space:nowrap;color:var(--text,#111);font-style:normal}
 .dhero__body h1 .gscore{font-size:max(15px,.2em);padding:3px 9px 2px;border-color:rgba(255,255,255,.7);color:#fff;vertical-align:.9em;letter-spacing:.06em;margin-left:.35em}
@@ -540,6 +552,7 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
   .crq__sheet{width:100%;border-radius:24px 24px 0 0;padding:26px 20px calc(22px + env(safe-area-inset-bottom));max-height:92dvh;transform:translateY(30px)}
   .crq__x{top:20px;right:20px}
   .crq__t{font-size:27px}
+  .czs__grid{gap:6px}.czs__c{min-height:42px;padding:7px 14px;font-size:9.5px;letter-spacing:.08em}.czs__c b{font-size:14px}
   .card h3 .gscore{font-size:9.5px;padding:1px 4px 0;margin-left:.4em;vertical-align:.2em}
   .dhero__body h1 .gscore{font-size:13px;padding:2px 7px 1px;vertical-align:.6em}
 }
