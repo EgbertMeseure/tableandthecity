@@ -530,10 +530,17 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .pill-btn.crq__send:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .crq__note{margin:0;text-align:center;font-size:11.5px;color:var(--text-2)}
 .crq__thanks{margin:6px 0 10px;font-family:var(--serif);font-size:19px;line-height:1.35}
+/* 0-10 score next to a place name (Google rating x 2) */
+.gscore{display:inline-block;margin-left:.5em;padding:2px 6px 1px;border:1px solid var(--line-d,#bbb);border-radius:5px;font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.04em;line-height:1.3;vertical-align:.28em;white-space:nowrap;color:var(--text,#111);font-style:normal}
+.dhero__body h1 .gscore{font-size:max(15px,.2em);padding:3px 9px 2px;border-color:rgba(255,255,255,.7);color:#fff;vertical-align:.9em;letter-spacing:.06em;margin-left:.35em}
+.leaflet-popup-content .gscore{font-size:10px;padding:1px 5px;vertical-align:.2em;margin-left:.4em}
+.qz-card__name .gscore{font-size:10px;padding:1px 5px;vertical-align:.18em}
 @media (max-width:640px){
   .crq{align-items:flex-end;padding:0}
   .crq__sheet{width:100%;border-radius:24px 24px 0 0;padding:26px 20px calc(22px + env(safe-area-inset-bottom));max-height:92dvh;transform:translateY(30px)}
   .crq__x{top:20px;right:20px}
   .crq__t{font-size:27px}
+  .card h3 .gscore{font-size:9.5px;padding:1px 4px 0;margin-left:.4em;vertical-align:.2em}
+  .dhero__body h1 .gscore{font-size:13px;padding:2px 7px 1px;vertical-align:.6em}
 }
 @media (prefers-reduced-motion:reduce){.crq__sheet,.crq__scrim{transition:none}}

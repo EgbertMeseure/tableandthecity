@@ -291,7 +291,7 @@
       + (on.length > MAXF ? `<li class="fchip more" title="${esc(on.slice(MAXF).map(([k, l]) => SHORT[k] || l).join(', '))}">+${on.length - MAXF}</li>` : '');
     return `<a class="card bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
-      <div class="card__body"><div class="badges"><span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${badges(r, { max: 2 })}</div><h3>${esc(r.name)}</h3><div class="card__meta" title="${meta}">${meta}</div>
+      <div class="card__body"><div class="badges"><span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${badges(r, { max: 2 })}</div><h3>${esc(r.name)}${TG.scoreBadge(r)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
       <div class="card__foot">${km}${bookOn(r) ? booking(r) : isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
   }
@@ -330,7 +330,7 @@
   function marker(r) {                                                     // built once per place, reused across renders
     if (r._m) return r._m;
     const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}${r.upcoming ? ' soon' : ''}${r.curated ? '' : ' osm'}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
-      .bindPopup(() => `<b>${esc(r.name)}</b>${TG.openState(r).state === 'open' ? ' <span class="oh oh--open oh--pop">Open now</span>' : ''}${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}${r.veggieLevel ? `<br><i>${esc(TG.VEG_LABEL[r.veggieLevel])}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}${known(r.address) ? '<br>' + esc(r.address) : ''}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
+      .bindPopup(() => `<b>${esc(r.name)}</b>${TG.scoreBadge(r)}${TG.openState(r).state === 'open' ? ' <span class="oh oh--open oh--pop">Open now</span>' : ''}${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}${r.veggieLevel ? `<br><i>${esc(TG.VEG_LABEL[r.veggieLevel])}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}${known(r.address) ? '<br>' + esc(r.address) : ''}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
     m.on('mouseover', () => hl(r.id, true)); m.on('mouseout', () => hl(r.id, false));
     return (r._m = m);
   }

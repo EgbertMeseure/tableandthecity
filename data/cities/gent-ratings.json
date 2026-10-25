@@ -1,0 +1,2683 @@
+{
+"source": "Google",
+"note": "score = Google rating x 2 (0-10). Rerun scripts/fetch_google_ratings.py to refresh.",
+"fetched": "2026-10-25",
+"places": {
+"a-food-affair": {
+"score": 9.4,
+"google_place_id": "ChIJ-dMXR0Rxw0cRBMTTIgbS-IA"
+},
+"afsnis": {
+"score": 8.6,
+"google_place_id": "ChIJrUE05Edxw0cROwVDoz4MdS8"
+},
+"alberte": {
+"score": 9.2,
+"google_place_id": "ChIJZe-nCbV2w0cRDPndCvnO0k4"
+},
+"arbane": {
+"score": 9.6,
+"google_place_id": "ChIJgQHl2yVxw0cRLvxptmo6AMs"
+},
+"baba-jacquet": {
+"score": 8.6,
+"google_place_id": "ChIJv80NXU5xw0cRe4bKtOf00IA"
+},
+"bakker-klaas-wintercircus": {
+"score": 8.2,
+"google_place_id": "ChIJxfjABABxw0cRL3yv2znmNRo"
+},
+"baptist": {
+"score": 9.0,
+"google_place_id": "ChIJhZYaRx1xw0cR7wPr7ozgF8s"
+},
+"bar-bassie": {
+"score": 8.8,
+"google_place_id": "ChIJTS_ebABxw0cRQGdEUBLri9Y"
+},
+"bar-bidon": {
+"score": 8.2,
+"google_place_id": "ChIJ162HHElxw0cR1SLD55NspuM"
+},
+"bar-dada": {
+"score": 9.8,
+"google_place_id": "ChIJfYLRhuJxw0cRlG7uEqhkY84"
+},
+"bask": {
+"score": 9.0,
+"google_place_id": "ChIJaecZjzp3w0cRFwwh60G9_k4"
+},
+"bianca": {
+"score": 8.6,
+"google_place_id": "ChIJPf610s1xw0cR3B5Qe_XSFTY"
+},
+"bistro-bastien": {
+"score": 9.6,
+"google_place_id": "ChIJ99H37pJxw0cRf5IAqAp5zIo"
+},
+"bistro-cho": {
+"score": 9.0,
+"google_place_id": "ChIJI5M6L1hxw0cRNPyqExrTI5I"
+},
+"boris-maurice": {
+"score": 9.8,
+"google_place_id": "ChIJEe7gP_N3w0cRoZA8EAJ_7Gc"
+},
+"boutique-boissons": {
+"score": 9.8,
+"google_place_id": "ChIJk8ASOQhxw0cR-HZgD6-5Y7w"
+},
+"bovary": {
+"score": 8.2,
+"google_place_id": "ChIJXdy0dMhxw0cR7_ZbuPcvMa8"
+},
+"cafe-albatros": {
+"score": 8.2,
+"google_place_id": "ChIJL2bQFbVxw0cRMO4fBLzt07Y"
+},
+"cafe-copines": {
+"score": 9.4,
+"google_place_id": "ChIJWebJe0pxw0cRUex36Wy8r5Q"
+},
+"cafe-den-turk": {
+"score": 9.0,
+"google_place_id": "ChIJMdMUSkZxw0cRkkPPN8n3fJw"
+},
+"cafe-folklore": {
+"score": 9.4,
+"google_place_id": "ChIJo9ytyzhxw0cR_6Z38vyc94A"
+},
+"cafe-gitane": {
+"score": 9.4,
+"google_place_id": "ChIJK9VFgEdxw0cRL7hpXhHde7k"
+},
+"cafe-labath": {
+"score": 8.8,
+"google_place_id": "ChIJDWsxuEFxw0cRghWjc0_HbP4"
+},
+"cafe-recup-gent": {
+"score": 8,
+"google_place_id": "ChIJZ8rj-0Rxw0cRpKO0s3qPikM"
+},
+"cafe-romain": {
+"score": 8.8,
+"google_place_id": "ChIJ_SWChU9xw0cRgcK9cJkmcxw"
+},
+"cafe-ventura": {
+"score": 8.6,
+"google_place_id": "ChIJqUMIi0dxw0cRiEmmg9aQM1E"
+},
+"caracalla": {
+"score": 9.6,
+"google_place_id": "ChIJPbMzNClxw0cRRs2P3mbyhBk"
+},
+"charlatan": {
+"score": 8,
+"google_place_id": "ChIJmTGvckhxw0cRdWirmhObKtQ"
+},
+"commotie": {
+"score": 9.6,
+"google_place_id": "ChIJOYg5t-I6w0cR5i0qMEArfEw"
+},
+"dapper": {
+"score": 9.8,
+"google_place_id": "ChIJ93CV9N51w0cREvk0RPvNE28"
+},
+"de-broodstokerij-gent": {
+"score": 8.4,
+"google_place_id": "ChIJbeIBtGJxw0cRJU7uJjKtftA"
+},
+"de-dulle-griet": {
+"score": 8.8,
+"google_place_id": "ChIJOwuXkEdxw0cRHRoU1qJi6zc"
+},
+"de-geus-van-gent": {
+"score": 8.8,
+"google_place_id": "ChIJ-xDs1VZxw0cRGh3rPirbGL4"
+},
+"de-maecht-van-ghent": {
+"score": 8.2,
+"google_place_id": "ChIJ3wNH10Zxw0cRJ-G-OoUo1ko"
+},
+"de-rave": {
+"score": 9.0,
+"google_place_id": "ChIJB_BGuEdxw0cRiT4W3iNhT_Y"
+},
+"de-woestijn": {
+"score": 10,
+"google_place_id": "ChIJQ5lQYgBxw0cRvIFv5vKklxc"
+},
+"debra": {
+"score": 8.8,
+"google_place_id": "ChIJ236VHQBxw0cRD8ThqLU3gg4"
+},
+"decadance": {
+"score": 8,
+"google_place_id": "ChIJBzK8fFdxw0cRfo-7fp_lWlg"
+},
+"een-twee-vijf": {
+"score": 9.6,
+"google_place_id": "ChIJSbu0KGtxw0cR_JvLwJpx7Xk"
+},
+"elders": {
+"score": 9.6,
+"google_place_id": "ChIJBZG6_-dxw0cR456Abr7zjmM"
+},
+"fari": {
+"score": 9.8,
+"google_place_id": "ChIJ7ajb6xxxw0cRTjVQi6uFKn4"
+},
+"ferri": {
+"score": 9.0,
+"google_place_id": "ChIJi-po_Plxw0cRF7J1lGn_Opk"
+},
+"fine-n-fast": {
+"score": 10,
+"google_place_id": "ChIJI6KIR8hxw0cRLKXbot2c0_M"
+},
+"fou-d-o": {
+"score": 9.2,
+"google_place_id": "ChIJS5cNxSpyw0cRz2mTQh3oIWE"
+},
+"fourth-wave": {
+"score": 10,
+"google_place_id": "ChIJZbwTyEBxw0cRkvonQ77M0c0"
+},
+"frankies": {
+"score": 9.8,
+"google_place_id": "ChIJdwVIRbZxw0cR62u0w2917zg"
+},
+"frou-frou": {
+"score": 9.4,
+"google_place_id": "ChIJ62pZeS9xw0cR7Eq0nfnmaIk"
+},
+"full-circle-coffee": {
+"score": 8.8,
+"google_place_id": "ChIJEX3KV6N2w0cRxs1srnnHOfw"
+},
+"funke": {
+"score": 8,
+"google_place_id": "ChIJiUX38KJxw0cRlRERU6v2I0A"
+},
+"gillis": {
+"score": 9.2,
+"google_place_id": "ChIJYxD_d2pxw0cRebXrB_2YsCQ"
+},
+"goya-coffee": {
+"score": 9.6,
+"google_place_id": "ChIJYcX7JBNxw0cR5v8Au6T0JQI"
+},
+"het-spijker": {
+"score": 8.4,
+"google_place_id": "ChIJX30lLUdxw0cRWpBM9V-tcc4"
+},
+"himschoot": {
+"score": 8.6,
+"google_place_id": "ChIJ7-jZJEdxw0cROJhN6g37Q14"
+},
+"il-mezzogiorno": {
+"score": 8.6,
+"google_place_id": "ChIJ_bdQsTdxw0cRb998p3cBmSo"
+},
+"jiggers": {
+"score": 9.4,
+"google_place_id": "ChIJFYoghThxw0cRQMRN-56Bm2A"
+},
+"joost-arijs": {
+"score": 9.4,
+"google_place_id": "ChIJfbcmI09xw0cR0GFhRYZ5vTU"
+},
+"jour-de-fete": {
+"score": 8.8,
+"google_place_id": "ChIJwXcIIlNxw0cRKt99eGS31_A"
+},
+"julies-house": {
+"score": 8.4,
+"google_place_id": "ChIJ7-aNTkdxw0cRN1jdam0AWVo"
+},
+"kaffee-krevet": {
+"score": 9.0,
+"google_place_id": "ChIJ-Qxer7Bxw0cRBAGQBfiBHos"
+},
+"karel-de-stoute": {
+"score": 9.6,
+"google_place_id": "ChIJlytopThxw0cR4VBD7qItRio"
+},
+"kin-khao-thai-eatery": {
+"score": 9.2,
+"google_place_id": "ChIJLdNs4UZxw0cRNHnZaoYmvxQ"
+},
+"kinky-star": {
+"score": 9.2,
+"google_place_id": "ChIJSwM1fzdxw0cR7PjllzbvJdU"
+},
+"klub-xiii": {
+"score": 4.2,
+"google_place_id": "ChIJ41tYx2Vxw0cRYMLqUzMmWYc"
+},
+"koffeine": {
+"score": 9.2,
+"google_place_id": "ChIJ2V7rDEZxw0cRG3UG-0JfG-8"
+},
+"kruidtuin": {
+"score": 9.4,
+"google_place_id": "ChIJwRilul5xw0cRa5k9PnV5gj4"
+},
+"kultur-bakery": {
+"score": 9.2,
+"google_place_id": "ChIJb4D_k-Rxw0cRFTLuBCIFuE4"
+},
+"le-baan-thai": {
+"score": 8.8,
+"google_place_id": "ChIJKdNNnzhxw0cR42tDhjiPKfk"
+},
+"le-chouchou": {
+"score": 9.4,
+"google_place_id": "ChIJ7wvxxzBxw0cRwbynIIhnSwI"
+},
+"le-jeu-est-jambon": {
+"score": 10,
+"google_place_id": "ChIJM0YxUFpxw0cRIRCAu9miDkY"
+},
+"limonada": {
+"score": 8.4,
+"google_place_id": "ChIJsQjs0Ttxw0cRSnTUPyfgA8E"
+},
+"little-red-rooster": {
+"score": 10,
+"google_place_id": "ChIJHYHpuM5xw0cRpf47yTKrHXc"
+},
+"lof": {
+"score": 9.2,
+"google_place_id": "ChIJHWk-10Fxw0cRFFccV1vdke8"
+},
+"lys-d-or": {
+"score": 9.2,
+"google_place_id": "ChIJg8b-VXtxw0cRBGPtiiUqxSs"
+},
+"madam-bakster": {
+"score": 9.0,
+"google_place_id": "ChIJTzRUhk5xw0cRpl8tiOZ7sGg"
+},
+"marijn-coertjens": {
+"score": 9.4,
+"google_place_id": "ChIJoSrjnOtxw0cRlNVxUrAeIRA"
+},
+"meme-gusta": {
+"score": 9.0,
+"google_place_id": "ChIJNWbijEBxw0cRfaJN0kNtFu0"
+},
+"mexcalli": {
+"score": 8.6,
+"google_place_id": "ChIJU4HswpFxw0cRrxF-PI0lz_8"
+},
+"midi": {
+"score": 8.6,
+"google_place_id": "ChIJxcA4d0Rxw0cR_VKYY1d29VA"
+},
+"mokabon": {
+"score": 9.0,
+"google_place_id": "ChIJcZDM30Zxw0cRJlLzW8YhzQk"
+},
+"morgen-bakkerij": {
+"score": 9.4,
+"google_place_id": "ChIJA_0drsBxw0cRQTkeAa-6PzM"
+},
+"moscou-by-danny-horseele": {
+"score": 9.8,
+"google_place_id": "ChIJa901vSh1w0cRkeYP0Llv6sc"
+},
+"nonam": {
+"score": 8.8,
+"google_place_id": "ChIJ31WY0f5xw0cRjpBeAYO8Rn4"
+},
+"norman-bakery": {
+"score": 9.6,
+"google_place_id": "ChIJ7zpzPFZxw0cRVmH1xfQbiHU"
+},
+"oak": {
+"score": 9.6,
+"google_place_id": "ChIJwfnUD2txw0cR0_9xO0hX36c"
+},
+"or-coffee-lab-gent": {
+"score": 8.8,
+"google_place_id": "ChIJ_____05xw0cRCrl0O0_5wik"
+},
+"osm-50-fifty-n11310427100": {
+"score": 9.6,
+"google_place_id": "ChIJQT_TuRtxw0cR7SA3siZ0LFA"
+},
+"osm-5th-gok-n1187211188": {
+"score": 8,
+"google_place_id": "ChIJAehkmkdxw0cRUL87eoO9naQ"
+},
+"osm-8tea5-n11897347047": {
+"score": 9.6,
+"google_place_id": "ChIJG3JMjz1xw0cR3B6ERjJGr2c"
+},
+"osm-abooov-adanaci-n12352306956": {
+"score": 9.0,
+"google_place_id": "ChIJj8pYBTpxw0cRzxONoKRGn2A"
+},
+"osm-achturenhuis-n8944368522": {
+"score": 8.2,
+"google_place_id": "ChIJX1vYaap2w0cRrbulR-Yaq-M"
+},
+"osm-agenvino-n1536597190": {
+"score": 8.8,
+"google_place_id": "ChIJdeT94EZxw0cRHzSzCFx9IAU"
+},
+"osm-agrea-n1212134080": {
+"score": 7.8,
+"google_place_id": "ChIJMZ9Ya0Zxw0cRqkvf-c22z6o"
+},
+"osm-ah-quy-n6800019656": {
+"score": 9.0,
+"google_place_id": "ChIJM1l6C_hxw0cR9V_u9j_C9Ac"
+},
+"osm-akdeniz-n5815859041": {
+"score": 9.0,
+"google_place_id": "ChIJvYztVThxw0cRPXxofvcKo8A"
+},
+"osm-akuma-n4775222545": {
+"score": 9.2,
+"google_place_id": "ChIJm21LQgBzw0cRaA7gZpw7RKk"
+},
+"osm-al-castello-n2305188583": {
+"score": 8.6,
+"google_place_id": "ChIJ4wJRTUdxw0cRzWRTnlQdXBo"
+},
+"osm-alain-proviest-n4384148111": {
+"score": 9.0,
+"google_place_id": "ChIJcbD2SM92w0cR4nCEpLHg0SQ"
+},
+"osm-alard-n12084967318": {
+"score": 9.0,
+"google_place_id": "ChIJ9TsCRQB3w0cRhOy5zoAQTUQ"
+},
+"osm-albertini-n13296111878": {
+"score": 9.2,
+"google_place_id": "ChIJPWZMeQB3w0cRJt83HnmhCnM"
+},
+"osm-alberto-expresso-n12563401136": {
+"score": 9.8,
+"google_place_id": "ChIJB6tEFotxw0cRtaOErJp_6lc"
+},
+"osm-alice-n4258187836": {
+"score": 8.4,
+"google_place_id": "ChIJrQS6XkFxw0cR1815046CJ1k"
+},
+"osm-alix-w215083227": {
+"score": 9.0,
+"google_place_id": "ChIJzWo-AV9xw0cR3i1Pj5R7KyA"
+},
+"osm-allegro-moderato-n2620549988": {
+"score": 9.0,
+"google_place_id": "ChIJQ0hc2EBxw0cRXDLb3YfShAs"
+},
+"osm-aluwiz-n819591971": {
+"score": 9.4,
+"google_place_id": "ChIJ3b3rqPxzw0cRH9x2UAwXrKg"
+},
+"osm-amadeus-n2626377985": {
+"score": 8.6,
+"google_place_id": "ChIJq3hVrzhxw0cRSC3feblv4iY"
+},
+"osm-amadeus-w140244218": {
+"score": 8.4,
+"google_place_id": "ChIJs0g1-kZxw0cR46lPwxTdOpg"
+},
+"osm-amfora-n2273855341": {
+"score": 8.2,
+"google_place_id": "ChIJ41nudEZxw0cRKBz9x3AM6Wk"
+},
+"osm-amour-n5428846934": {
+"score": 9.4,
+"google_place_id": "ChIJsdLGIlxxw0cREF7lwNOj3Ug"
+},
+"osm-anar-n6440678296": {
+"score": 8.6,
+"google_place_id": "ChIJde8pVjhxw0cR3iD7-z1TQ1Y"
+},
+"osm-anders-n13065594409": {
+"score": 9.6,
+"google_place_id": "ChIJF3bE7jlyw0cRtYvmu-XRZNQ"
+},
+"osm-ankara-n4704463889": {
+"score": 8.6,
+"google_place_id": "ChIJd7gtjzhxw0cR5nJSyJynEoM"
+},
+"osm-antichi-sapori-n10097967923": {
+"score": 9.2,
+"google_place_id": "ChIJFfonfFBxw0cRo3pEBdxh2L4"
+},
+"osm-aperto-chiuso-n8911924546": {
+"score": 9.0,
+"google_place_id": "ChIJSUFOlTlxw0cRbmx6121ns1o"
+},
+"osm-artevelde-brouwerij-n11352130039": {
+"score": 8.8,
+"google_place_id": "ChIJhyqbSjhxw0cRRZCcA86-7XE"
+},
+"osm-arthe2-n12462539697": {
+"score": 9.8,
+"google_place_id": "ChIJGcsjYNVxw0cREyioFWxHmh8"
+},
+"osm-asian-corner-n7012018353": {
+"score": 9.0,
+"google_place_id": "ChIJM2J_NsRxw0cR3LWfhtQYVK8"
+},
+"osm-asian-king-n1804185553": {
+"score": 8.8,
+"google_place_id": "ChIJDxTC7ipxw0cRQp2r7gb1e6Y"
+},
+"osm-astro-boy-n7878949226": {
+"score": 9.4,
+"google_place_id": "ChIJjUtVUy9xw0cRqC5pb4X_aaA"
+},
+"osm-athene-n1472907400": {
+"score": 8.6,
+"google_place_id": "ChIJ2csR405xw0cRWuTFuZH2M68"
+},
+"osm-au-boeuf-qui-rit-n10907502714": {
+"score": 9.0,
+"google_place_id": "ChIJfQeRIUhxw0cRP3lPhFssBuE"
+},
+"osm-au-bon-vivant-n13273886628": {
+"score": 9.8,
+"google_place_id": "ChIJzUBWvyhxw0cRuX67rw-IGJY"
+},
+"osm-au-pain-marie-n12823548056": {
+"score": 9.4,
+"google_place_id": "ChIJZZA1DFBxw0cRPu2zC2dliZ8"
+},
+"osm-augustijntje-n6789941787": {
+"score": 8.6,
+"google_place_id": "ChIJQfv1Oj9xw0cRq-WnyGR1-38"
+},
+"osm-axum-n13506445999": {
+"score": 9.8,
+"google_place_id": "ChIJY91Awthxw0cR4F1EHDjzpyY"
+},
+"osm-aywa-n5825400253": {
+"score": 9.0,
+"google_place_id": "ChIJ_YA66k9xw0cR1NZISstyn84"
+},
+"osm-babu-n4718292171": {
+"score": 8.6,
+"google_place_id": "ChIJsRbkOv9Rw0cRkGUvcDPV128"
+},
+"osm-bakkerij-bernard-n3457029648": {
+"score": 9.2,
+"google_place_id": "ChIJf31PVx50w0cRzxM7xhnPVU4"
+},
+"osm-balls-glory-n3818381914": {
+"score": 8.8,
+"google_place_id": "ChIJsb_XpYyQcUER5Yf4SRG1MOM"
+},
+"osm-bar-brutus-n13344139091": {
+"score": 9.8,
+"google_place_id": "ChIJIYhu7Jtxw0cRP96ZSaqoeIk"
+},
+"osm-bar-terroir-n9248442976": {
+"score": 9.2,
+"google_place_id": "ChIJUShaZ81xw0cRhUBHgUs6mys"
+},
+"osm-barouche-n1532798352": {
+"score": 9.0,
+"google_place_id": "ChIJRXCOzcJxw0cRaxD4gna70BA"
+},
+"osm-barouche-w252396611": {
+"score": 9.2,
+"google_place_id": "ChIJNRG6qkNxw0cRoth5tzcnATU"
+},
+"osm-barque-a-jack-n5339099860": {
+"score": 7.6,
+"google_place_id": "ChIJ4cH9bg5xw0cRWQvcN-6eEKM"
+},
+"osm-basic-italian-n12702756861": {
+"score": 8.2,
+"google_place_id": "ChIJ7c1u_llxw0cRs9v6eMjXBT8"
+},
+"osm-baskuul-n4743297317": {
+"score": 8.8,
+"google_place_id": "ChIJd_zbuV1xw0cRINOGUlmAAno"
+},
+"osm-bassin-n7783901382": {
+"score": 9.4,
+"google_place_id": "ChIJeTGQjzN3w0cR0iheRaAINjw"
+},
+"osm-basta-n3394542495": {
+"score": 8,
+"google_place_id": "ChIJKYAR001xw0cREPp_qlb-nvg"
+},
+"osm-bavet-n1532798353": {
+"score": 8.4,
+"google_place_id": "ChIJidbElJFxw0cRAUp6iI-3ulo"
+},
+"osm-bavet-n1804183176": {
+"score": 8.6,
+"google_place_id": "ChIJJ1fMO1txw0cRLfuH-8VbmVI"
+},
+"osm-bavet-w175194942": {
+"score": 8,
+"google_place_id": "ChIJ451CzVZxw0cRTl_hz8Bk9Ow"
+},
+"osm-bento-house-n12623160301": {
+"score": 9.6,
+"google_place_id": "ChIJjbWR6j5xw0cRIoP8yKqAs40"
+},
+"osm-beroia-n13950447752": {
+"score": 9.4,
+"google_place_id": "ChIJX5fSGwBxw0cRkIUtBEPF_4k"
+},
+"osm-bicho-malo-n12660436404": {
+"score": 8,
+"google_place_id": "ChIJH6lA-_pxw0cRBtzsMxWAAuM"
+},
+"osm-bier-central-n1628067353": {
+"score": 8.4,
+"google_place_id": "ChIJq1zPRzFxw0cRbdQlnYNJe3M"
+},
+"osm-bistro-baziel-n9741063665": {
+"score": 8,
+"google_place_id": "ChIJE_7_G2Bxw0cRCoUxYFST82c"
+},
+"osm-bistro-jeanne-n10277884384": {
+"score": 9.6,
+"google_place_id": "ChIJ4VqYBgB3w0cRUocJ93uRUzQ"
+},
+"osm-bistro-max-n13517502148": {
+"score": 8.8,
+"google_place_id": "ChIJaZk2MMtxw0cRw988JRSruZg"
+},
+"osm-bite-n12451304999": {
+"score": 9.2,
+"google_place_id": "ChIJg7TnuPdxw0cRVu3rGL0-sio"
+},
+"osm-bloom-table-n14230351176": {
+"score": 9.8,
+"google_place_id": "ChIJazssKgBxw0cR4c84kbSQN2M"
+},
+"osm-bluesette-w491661561": {
+"score": 8.4,
+"google_place_id": "ChIJl8Y891pxw0cRJgtVzgNoDmg"
+},
+"osm-bobon-n12391159028": {
+"score": 9.2,
+"google_place_id": "ChIJBdlMJahxw0cRuwe28tR2hks"
+},
+"osm-bocca-n1462321981": {
+"score": 9.4,
+"google_place_id": "ChIJ4-ZPzs9xw0cRGV-IHXSALsk"
+},
+"osm-bocca-n6133546281": {
+"score": 8.8,
+"google_place_id": "ChIJ2ZMOkENxw0cRp849SZi4liU"
+},
+"osm-bodega-n5822374282": {
+"score": 9.0,
+"google_place_id": "ChIJv8AY-F9xw0cRLZtuKiL1URM"
+},
+"osm-boekee-garni-n11123595450": {
+"score": 9.4,
+"google_place_id": "ChIJOyiEJ3Jzw0cRsSpc1ZMOzbg"
+},
+"osm-boekjes-en-koekjes-n12583044844": {
+"score": 9.8,
+"google_place_id": "ChIJgwYB-wdxw0cRuch44hzZ2UM"
+},
+"osm-boon-n5569907420": {
+"score": 9.4,
+"google_place_id": "ChIJ3d86U0dxw0cRT20EcabH6xY"
+},
+"osm-borek-simit-huis-n11613223411": {
+"score": 8.6,
+"google_place_id": "ChIJf_jDR7R2w0cRhBKN3l0VdgM"
+},
+"osm-borsalino-san-marino-n3394539390": {
+"score": 6.8,
+"google_place_id": "ChIJpVY6H09xw0cRnnUjNUviBeU"
+},
+"osm-brasserie-alfons-n4364430396": {
+"score": 8.8,
+"google_place_id": "ChIJT0U7O8V2w0cREFWD4i4OJfY"
+},
+"osm-brasserie-borluut-n1186945845": {
+"score": 6.6,
+"google_place_id": "ChIJY3dA10Zxw0cRd1Zukd2zE4U"
+},
+"osm-brasserie-cafe-des-arts-n12828494546": {
+"score": 8.6,
+"google_place_id": "ChIJnUGVYURxw0cR0wr2V7S6mHg"
+},
+"osm-brasserie-de-jacob-n1186342712": {
+"score": 7.8,
+"google_place_id": "ChIJi4L-iUdxw0cREDIBjGCYqrU"
+},
+"osm-brasserie-imperial-n2620549984": {
+"score": 5.6,
+"google_place_id": "ChIJ_6d-4E5xw0cRiS0q_TdhXY8"
+},
+"osm-brasserie-klaverblad-n12207219295": {
+"score": 8.6,
+"google_place_id": "ChIJy8zp0Kl3w0cRd_f5-QN9JnM"
+},
+"osm-brasserie-leon-n9502823727": {
+"score": 9.0,
+"google_place_id": "ChIJTzqwEzh1w0cR8sSiJDaMnv4"
+},
+"osm-brasserie-nanou-n13325635488": {
+"score": 9.4,
+"google_place_id": "ChIJG5o3kMNzw0cRWUB824P83jI"
+},
+"osm-brasserie-noordhof-n13625580253": {
+"score": 9.0,
+"google_place_id": "ChIJd2lNY3Vuw0cR80u5_DPYXiw"
+},
+"osm-brasserie-onglet-w289225387": {
+"score": 9.4,
+"google_place_id": "ChIJlyU3_QNvw0cRt7TLgmBktlQ"
+},
+"osm-brasserie-paradijs-n818880406": {
+"score": 7.8,
+"google_place_id": "ChIJnyE_s0Bxw0cR1OmrxkIDJXc"
+},
+"osm-brasserie-passion-n968042315": {
+"score": 8.8,
+"google_place_id": "ChIJN6yZYEZxw0cRsOkeRqMzKqY"
+},
+"osm-brasserie-wondelgem-w626909787": {
+"score": 9.0,
+"google_place_id": "ChIJleKXIJFxw0cR2amcO5tAcGk"
+},
+"osm-bridge-brasserie-n12830913043": {
+"score": 8.4,
+"google_place_id": "ChIJF4dbE0Zxw0cRVmZm1HOIUMM"
+},
+"osm-brutal-n11340952262": {
+"score": 9.6,
+"google_place_id": "ChIJa7VYS5Fzw0cRS5eSVj8cZmw"
+},
+"osm-bukuu-n13306301095": {
+"score": 9.8,
+"google_place_id": "ChIJW6zJDMtxw0cRVgmF-BXhHGw"
+},
+"osm-buongiorno-n4488600996": {
+"score": 8.8,
+"google_place_id": "ChIJO-BQZ55xw0cRfwQ0C0bZ8Ig"
+},
+"osm-cafe-cannelle-n4304704573": {
+"score": 9.6,
+"google_place_id": "ChIJp3yrrXt3w0cRMgpAwb1aHlM"
+},
+"osm-cafe-contraire-n12384960128": {
+"score": 9.8,
+"google_place_id": "ChIJ0REwTABxw0cRnmFFlDibK_8"
+},
+"osm-cafe-merino-n3967079259": {
+"score": 9.4,
+"google_place_id": "ChIJqRhMyRZ3w0cR-wRDr0gciUM"
+},
+"osm-cafe-parti-n1651818968": {
+"score": 8.6,
+"google_place_id": "ChIJfXFDIWBxw0cRE9YYAtd17F4"
+},
+"osm-cafe-rene-n3336720192": {
+"score": 8.4,
+"google_place_id": "ChIJhynjkUNxw0cRAHQ_lSqqaag"
+},
+"osm-cafe-theatre-n1232488319": {
+"score": 8.2,
+"google_place_id": "ChIJXf1piERxw0cRCM4yfnP45yk"
+},
+"osm-cappuccino-n12969552787": {
+"score": 9.4,
+"google_place_id": "ChIJmeHhAJNxw0cRYPsD1mjhjRU"
+},
+"osm-carlos-quinto-n7158635685": {
+"score": 7.8,
+"google_place_id": "ChIJH4Uu2Udxw0cRtrlD1V2-54U"
+},
+"osm-carpentia-n1186961242": {
+"score": 6.4,
+"google_place_id": "ChIJTw988Udxw0cRF8YLhYh1DgI"
+},
+"osm-casa-de-las-tapas-n3394491370": {
+"score": 9.0,
+"google_place_id": "ChIJDWUHoThxw0cRhPhBy71tgl4"
+},
+"osm-cassis-n1186301469": {
+"score": 7.4,
+"google_place_id": "ChIJTR-T8Edxw0cRjK6fJZx27LU"
+},
+"osm-catberry-n10295133531": {
+"score": 9.6,
+"google_place_id": "ChIJRXYYXDlxw0cRKpSvr8F87Wk"
+},
+"osm-chapeluur-n11154672486": {
+"score": 8.8,
+"google_place_id": "ChIJ6ZeG1xRxw0cRVZA5kABKntw"
+},
+"osm-chef-q-n13685423940": {
+"score": 9.6,
+"google_place_id": "ChIJS2A6aQBxw0cRYEwZ7qSE6t0"
+},
+"osm-china-paleis-n5275465129": {
+"score": 8.4,
+"google_place_id": "ChIJ7-fb5N9zw0cRV-uTW__vQpE"
+},
+"osm-chopstix-n12460847732": {
+"score": 9.6,
+"google_place_id": "ChIJJdowHa1xw0cR43Rz26PuFys"
+},
+"osm-chubby-cheeks-n5734799243": {
+"score": 9.6,
+"google_place_id": "ChIJAbZrML1xw0cRFV3s-VinbjY"
+},
+"osm-chulo-n10907450378": {
+"score": 9.4,
+"google_place_id": "ChIJp2pz9bhxw0cR4ZirkkSb-vk"
+},
+"osm-clouds-in-my-coffee-n5610774621": {
+"score": 8.6,
+"google_place_id": "ChIJ-zwuUrR2w0cR5L-CrYVlqWw"
+},
+"osm-coconne-n12387000495": {
+"score": 9.6,
+"google_place_id": "ChIJ_zLlIrxxw0cR-bSDhLqy2Nk"
+},
+"osm-cocotine-n6356381196": {
+"score": 8.6,
+"google_place_id": "ChIJKcs7gtdww0cR2ImBTAMWm28"
+},
+"osm-colmar-n275223798": {
+"score": 8,
+"google_place_id": "ChIJCTJ1LgF3w0cRMBUsf1s9iAc"
+},
+"osm-colmar-w1033606442": {
+"score": 8.2,
+"google_place_id": "ChIJWdRJ0DRyw0cRvoKdEmQ5Z9E"
+},
+"osm-comedor-n5249103310": {
+"score": 9.8,
+"google_place_id": "ChIJfyPqe9Jxw0cRVvOwvx3A-AQ"
+},
+"osm-con-tigo-w426771273": {
+"score": 9.0,
+"google_place_id": "ChIJn7HfaOdxw0cREk-SAgxi1gc"
+},
+"osm-conchi-s-peruvian-cuisine-n7142820246": {
+"score": 9.4,
+"google_place_id": "ChIJhYvoj5hxw0cRYv98Op7QPK0"
+},
+"osm-copain-n13904090843": {
+"score": 9.2,
+"google_place_id": "ChIJ3ye4w0xxw0cRdeeZsgKNpgg"
+},
+"osm-coqueluche-n10914424851": {
+"score": 9.4,
+"google_place_id": "ChIJ3dTwGGpzw0cRWTDzEdesr_M"
+},
+"osm-corner-city-w809916753": {
+"score": 8.6,
+"google_place_id": "ChIJ7fw07CF0w0cR2ZKkoMxuufw"
+},
+"osm-cotee-n12800541091": {
+"score": 9.2,
+"google_place_id": "ChIJt95oq79xw0cRth4xGMWnQe8"
+},
+"osm-country-side-w630717059": {
+"score": 8.2,
+"google_place_id": "ChIJDWoxea9xw0cRjah-RZFu3h0"
+},
+"osm-cozette-n12702545500": {
+"score": 9.4,
+"google_place_id": "ChIJzViTWMNxw0cRWSjo5fGyU68"
+},
+"osm-da-adriano-n7158634388": {
+"score": 9.0,
+"google_place_id": "ChIJEUt_I6pxw0cRprMbQ4PXt40"
+},
+"osm-da-luigi-w252396612": {
+"score": 9.8,
+"google_place_id": "ChIJ08d37E9xw0cRFTbrNXBC2Ng"
+},
+"osm-da-mario-n10840172980": {
+"score": 8.6,
+"google_place_id": "ChIJZR-M7gpxw0cR4_77QGqBxDA"
+},
+"osm-da-toto-n3810896304": {
+"score": 8.2,
+"google_place_id": "ChIJacqZ4WBxw0cRI2r60W4E1U8"
+},
+"osm-dali-restaurant-n11398726824": {
+"score": 8.2,
+"google_place_id": "ChIJUXxAK7N2w0cRl-CXUlAsSzw"
+},
+"osm-de-abt-n10885975050": {
+"score": 8.6,
+"google_place_id": "ChIJjdOVDUZxw0cRXvl2dLG2BSk"
+},
+"osm-de-acht-zaligheden-n11883562269": {
+"score": 8.8,
+"google_place_id": "ChIJ0S07gzhxw0cRPdkOJsTbgm8"
+},
+"osm-de-appelier-n2634809499": {
+"score": 9.2,
+"google_place_id": "ChIJ6XMGrVdxw0cRinJGuimUvq4"
+},
+"osm-de-bergen-n12870153846": {
+"score": 9.2,
+"google_place_id": "ChIJldDCjNRxw0cRniOdT7OqXcw"
+},
+"osm-de-brouwzaele-w210985927": {
+"score": 7.8,
+"google_place_id": "ChIJqzam61Zxw0cRuWtSn0mgAgM"
+},
+"osm-de-buffel-n4231814743": {
+"score": 9.0,
+"google_place_id": "ChIJJ64IF0txw0cR5KTeF9AUoOE"
+},
+"osm-de-casserolle-n6942691396": {
+"score": 9.8,
+"google_place_id": "ChIJwW0MlJJxw0cRZ1NAvFZMaLs"
+},
+"osm-de-dampoort-n1438344821": {
+"score": 7.4,
+"google_place_id": "ChIJSSagY7V2w0cRQDrs9RcflY4"
+},
+"osm-de-gekroonde-hoofden-n12478756510": {
+"score": 8.8,
+"google_place_id": "ChIJKbP7AwBxw0cRUwMDLeN2M-k"
+},
+"osm-de-gekroonde-hoofden-n818880413": {
+"score": 8.6,
+"google_place_id": "ChIJXRIrlEBxw0cRsx0RGjb2Ggw"
+},
+"osm-de-gentsche-koekedoos-n1295215428": {
+"score": 9.8,
+"google_place_id": "ChIJWdgsKjhxw0cROYnMftb2Fno"
+},
+"osm-de-graslei-n1267513267": {
+"score": 8.4,
+"google_place_id": "ChIJIQYA1UBxw0cR1lQ3DTlFvNs"
+},
+"osm-de-grill-n1212159256": {
+"score": 8.8,
+"google_place_id": "ChIJtUgjI0Fxw0cRYSI-9frNFjY"
+},
+"osm-de-honger-n13788134806": {
+"score": 10,
+"google_place_id": "ChIJcdjJkN1xw0cR1Zh6XhN6J_M"
+},
+"osm-de-kastart-n1409718536": {
+"score": 8.4,
+"google_place_id": "ChIJ3-lr5ENxw0cRzbLSNBLPT5Y"
+},
+"osm-de-kokmadam-eetbar-n14065917962": {
+"score": 9.6,
+"google_place_id": "ChIJwcfZSo9xw0cRIX6EDRC8PVY"
+},
+"osm-de-kuip-van-gent-n1532794995": {
+"score": 6.2,
+"google_place_id": "ChIJhQ0s1kZxw0cR5GQkSgoBgyk"
+},
+"osm-de-lachende-monnik-w996842002": {
+"score": 8.6,
+"google_place_id": "ChIJn6XtA-1xw0cRyRYgYZPZS8E"
+},
+"osm-de-lieve-n12593224145": {
+"score": 8.6,
+"google_place_id": "ChIJQS4CRj9xw0cR566j3w2TXKo"
+},
+"osm-de-loge-n566313995": {
+"score": 9.2,
+"google_place_id": "ChIJ-2gEVkJxw0cRKcBzn1lSnjI"
+},
+"osm-de-mokke-n6434031888": {
+"score": 9.2,
+"google_place_id": "ChIJNRb2DqF3w0cRAHvv28UBm3M"
+},
+"osm-de-parkiet-n6111142585": {
+"score": 9.0,
+"google_place_id": "ChIJ14t3R9Fxw0cRDNy_CH1ZoXM"
+},
+"osm-de-raadkamer-n11099366423": {
+"score": 9.2,
+"google_place_id": "ChIJxygUlkRxw0cRGBOCbtlEhuk"
+},
+"osm-de-rechters-n1628067354": {
+"score": 8.6,
+"google_place_id": "ChIJre7AE0Zxw0cRMutyU1RbQUY"
+},
+"osm-de-salopette-n6942598387": {
+"score": 9.8,
+"google_place_id": "ChIJHyyX4Ylxw0cRLOWfz6bcsgY"
+},
+"osm-de-sneppe-n6825290292": {
+"score": 9.4,
+"google_place_id": "ChIJu-Jq_oBxw0cRRKg-PViAJQU"
+},
+"osm-de-stokerij-n12205332271": {
+"score": 8.8,
+"google_place_id": "ChIJozxS5zhxw0cRKwFpm-F5d34"
+},
+"osm-de-warempel-n11276973781": {
+"score": 9.0,
+"google_place_id": "ChIJmSAvK0Zxw0cR3bA-BLpAi44"
+},
+"osm-de-witte-leeuw-n2617862001": {
+"score": 8.2,
+"google_place_id": "ChIJaccB1UBxw0cRocMTI7DALgE"
+},
+"osm-dedeoglu-n12348852300": {
+"score": 9.0,
+"google_place_id": "ChIJC8jBbLV2w0cRjMymM-y5LhE"
+},
+"osm-delilunch-n12702821007": {
+"score": 7.4,
+"google_place_id": "ChIJbdRLwO9xw0cRshnVyNZyLns"
+},
+"osm-den-hoek-af-w501058824": {
+"score": 8.8,
+"google_place_id": "ChIJj9l7O09xw0cRtyg0wvXZYc8"
+},
+"osm-den-johnny-n13608226201": {
+"score": 10,
+"google_place_id": "ChIJhZXMsAxxw0cRDGw_Fzw9b-Y"
+},
+"osm-desayuno-n2105506242": {
+"score": 9.6,
+"google_place_id": "ChIJxdW6SSpxw0cRVdQ19Zb9VN8"
+},
+"osm-desi-food-n11918785850": {
+"score": 9.6,
+"google_place_id": "ChIJG_-j7F9xw0cRhesVgfcKOzQ"
+},
+"osm-dirt-restaurant-n13323699746": {
+"score": 10,
+"google_place_id": "ChIJgw2v0BVxw0cR570bUR-veXU"
+},
+"osm-dok-brewing-company-n7001208946": {
+"score": 9.4,
+"google_place_id": "ChIJp3bW8_Zxw0cRcfDpzqGqu_4"
+},
+"osm-dok-koon-n9801304840": {
+"score": 9.4,
+"google_place_id": "ChIJ5_9P3nq_w0cRmp3tJl3gylU"
+},
+"osm-dolce-n1616705146": {
+"score": 8.8,
+"google_place_id": "ChIJM4izPsRxw0cRROXD0Hr6zFQ"
+},
+"osm-domestica-n5734799246": {
+"score": 8.8,
+"google_place_id": "ChIJ158L70Nxw0cRoo_0YhWkEOQ"
+},
+"osm-dreamcatchers-n12363209411": {
+"score": 9.4,
+"google_place_id": "ChIJjfz7s0dxw0cRnq7r4VehMzk"
+},
+"osm-du-progres-n602681361": {
+"score": 9.0,
+"google_place_id": "ChIJPZoLKEdxw0cRmn1Hut7D4sE"
+},
+"osm-eat-love-pizza-n2546643705": {
+"score": 8.2,
+"google_place_id": "ChIJKVRN90Nxw0cRDFB1oj5qGUo"
+},
+"osm-eat-this-n12779057073": {
+"score": 8.8,
+"google_place_id": "ChIJ0QcxzKpxw0cRA4kRBNNHMbs"
+},
+"osm-edel-rot-n11157734893": {
+"score": 9.2,
+"google_place_id": "ChIJexViKUhxw0cRGhNZKdNkorU"
+},
+"osm-edgar-kaasbar-n5249092192": {
+"score": 9.2,
+"google_place_id": "ChIJ2T1rKUhxw0cRHIrk5eRgRX0"
+},
+"osm-edmond-n11897518892": {
+"score": 9.2,
+"google_place_id": "ChIJ-WllHwBxw0cRVEwJJ1J-Poc"
+},
+"osm-eetcafe-elvire-n12365159424": {
+"score": 9.4,
+"google_place_id": "ChIJPYIMMENxw0cR8ZhIl2EBAAI"
+},
+"osm-eethaven-n7006060682": {
+"score": 9.0,
+"google_place_id": "ChIJwd6v3DFxw0cR3d43gI7cYWQ"
+},
+"osm-eethuis-toreke-n3511035004": {
+"score": 8.8,
+"google_place_id": "ChIJBTvPmBZxw0cRQs5OhcPzwFA"
+},
+"osm-eetkaffee-multatuli-n2210024898": {
+"score": 8.6,
+"google_place_id": "ChIJW3OtxDlxw0cRM_nXQaujiBg"
+},
+"osm-eetoile-n4857533585": {
+"score": 10,
+"google_place_id": "ChIJS0Bn6H5zw0cRgBX9YC48wOk"
+},
+"osm-el-berraco-n2625520413": {
+"score": 9.2,
+"google_place_id": "ChIJ8dP6nDFxw0cRqcOz_uAQnz4"
+},
+"osm-entr-w241981493": {
+"score": 8.6,
+"google_place_id": "ChIJEV-umzZxw0cRpdZkJt7ukys"
+},
+"osm-epiphany-s-n12108332057": {
+"score": 8.6,
+"google_place_id": "ChIJqeKCJXdxw0cRnwxQbMqnxJ4"
+},
+"osm-et-alors-n1212154982": {
+"score": 8.2,
+"google_place_id": "ChIJaYRPaOVxw0cR-CnKtmN3p7Y"
+},
+"osm-everest-eetcafe-n1275915798": {
+"score": 10,
+"google_place_id": "ChIJj1p5LABxw0cRJTygr9Lbacs"
+},
+"osm-faim-fatale-n1628067359": {
+"score": 8.6,
+"google_place_id": "ChIJ66An1k1xw0cRrkKcb_6Z488"
+},
+"osm-fattoush-n13533812685": {
+"score": 9.4,
+"google_place_id": "ChIJDy2z3Tpxw0cRK__4UAIfy0Q"
+},
+"osm-fewa-restaurant-bar-n9741063269": {
+"score": 8,
+"google_place_id": "ChIJ60xVGWBxw0cRYZFN0IXk3Lo"
+},
+"osm-firenze-n1275915813": {
+"score": 9.0,
+"google_place_id": "ChIJvwaiZ1pxw0cRITmiV6KwtPw"
+},
+"osm-fitchen-n1532798337": {
+"score": 8.8,
+"google_place_id": "ChIJPbb6-eJxw0cRU_ZMJgoOvT0"
+},
+"osm-fitchen-n3394542496": {
+"score": 8.2,
+"google_place_id": "ChIJ-XTthtlxw0cRgfRh4EwyEtU"
+},
+"osm-flordi-n11640842891": {
+"score": 9.2,
+"google_place_id": "ChIJz15X5fBxw0cRxOsqsuukekY"
+},
+"osm-flynn-s-n5395453707": {
+"score": 9.6,
+"google_place_id": "ChIJX54GOX51w0cRU1twsKTBoBw"
+},
+"osm-foodbar-jef-n13672598745": {
+"score": 9.6,
+"google_place_id": "ChIJ4W_aztx3w0cRWViLLIDlV0Q"
+},
+"osm-fratelli-ditalia-da-pino-n5894300885": {
+"score": 8.6,
+"google_place_id": "ChIJxRC2wUVxw0cR-HQBOMljucM"
+},
+"osm-freddie-n12684199822": {
+"score": 9.4,
+"google_place_id": "ChIJQ9OPZwp3w0cRuKC2oFliGlo"
+},
+"osm-fuga-n2617845184": {
+"score": 9.6,
+"google_place_id": "ChIJm-S-lRlxw0cRFiP7z4c3TYE"
+},
+"osm-full-circle-coffee-n11608541222": {
+"score": 8.4,
+"google_place_id": "ChIJiy088Dxzw0cReo6LOJJwt_U"
+},
+"osm-ganzerik-w451731257": {
+"score": 8.8,
+"google_place_id": "ChIJ77T-cgpxw0cR-d0u5vDvT5E"
+},
+"osm-garam-masala-n6900564095": {
+"score": 9.8,
+"google_place_id": "ChIJ636gzGBxw0cR4SgsrJxTEXk"
+},
+"osm-gaston-n10127493290": {
+"score": 9.0,
+"google_place_id": "ChIJX7phRiFxw0cR7pFde_qNk9o"
+},
+"osm-geheel-de-uwe-n11695175546": {
+"score": 9.6,
+"google_place_id": "ChIJVdVjurhzw0cREz_B4iT7nys"
+},
+"osm-gentse-stadsbrouwerij-gruut-n4524937893": {
+"score": 8.6,
+"google_place_id": "ChIJjftNJkhxw0cRawJIzhR7wAk"
+},
+"osm-gerard-n12630238332": {
+"score": 8.8,
+"google_place_id": "ChIJKdEyU09xw0cRtJ2mclYLG6s"
+},
+"osm-giardino-di-roma-n3842499430": {
+"score": 8.6,
+"google_place_id": "ChIJGyWMx0Fxw0cRPdSwXHBA1cI"
+},
+"osm-gigi-n9219743937": {
+"score": 8.2,
+"google_place_id": "ChIJ2XSIBE1xw0cRujU0ki0wJqA"
+},
+"osm-giri-n1616705163": {
+"score": 9.0,
+"google_place_id": "ChIJT-yuxkBxw0cRdakWBD6RY9A"
+},
+"osm-giuliano-n3367536294": {
+"score": 8.2,
+"google_place_id": "ChIJKcJ2fMVxw0cRWuNST2PBE2U"
+},
+"osm-giuseppe-s-n4985608705": {
+"score": 9.0,
+"google_place_id": "ChIJvc5jJ91xw0cR234aa1QmsMk"
+},
+"osm-godot-n1532798351": {
+"score": 8,
+"google_place_id": "ChIJ_YilLkdxw0cRIyi-HJs7PhA"
+},
+"osm-gok-2-n4720245796": {
+"score": 8.2,
+"google_place_id": "ChIJE-Sruzlxw0cR3KnQJNx_pbw"
+},
+"osm-gok-n5815859923": {
+"score": 8.6,
+"google_place_id": "ChIJGxDiVThxw0cRm_RMTqsQjGc"
+},
+"osm-golden-gai-n6942691397": {
+"score": 9.4,
+"google_place_id": "ChIJC-2QA0pxw0cRRXGGuDMbuZk"
+},
+"osm-golden-potato-n6799991954": {
+"score": 10,
+"google_place_id": "ChIJBcH1I9Nxw0cRFMMp_l_SQg0"
+},
+"osm-golflounge-w126373297": {
+"score": 8.2,
+"google_place_id": "ChIJi0rrVAVxw0cRc8Qud0e0_FY"
+},
+"osm-gonza-z-n13184548545": {
+"score": 9.8,
+"google_place_id": "ChIJI5hM2fdxw0cROkhw2Ljtl2I"
+},
+"osm-gran-gusto-ristorante-n13231393683": {
+"score": 9.2,
+"google_place_id": "ChIJpSVzKxxzw0cRHgwSHUUVWGw"
+},
+"osm-greenway-w336127036": {
+"score": 9.0,
+"google_place_id": "ChIJk84xtkRxw0cRfgXue5cOtgs"
+},
+"osm-gust-n11223538737": {
+"score": 9.2,
+"google_place_id": "ChIJ3TtwVkJxw0cRwhjkxyAtGtk"
+},
+"osm-ha-n1856827457": {
+"score": 8.8,
+"google_place_id": "ChIJL7bHV0Rxw0cR4DdMj8MDak0"
+},
+"osm-haddok-n12404695490": {
+"score": 9.2,
+"google_place_id": "ChIJiadDzYRxw0cRAwOFqOFkwCI"
+},
+"osm-halab-al-shahbae-n9230408432": {
+"score": 8,
+"google_place_id": "ChIJm2UEolBxw0cRyMYJsXbxEzk"
+},
+"osm-haotian-asian-snacks-n13570475860": {
+"score": 7.6,
+"google_place_id": "ChIJBzqwTQBxw0cRp2Hs6Q-EcnI"
+},
+"osm-happy-garden-w629450451": {
+"score": 8.8,
+"google_place_id": "ChIJU6hkbu5xw0cR0tOPvcbVJ00"
+},
+"osm-happy-thai-n11303527497": {
+"score": 9.6,
+"google_place_id": "ChIJVQiCkIVxw0cRN3R32YpGNBU"
+},
+"osm-hawaiian-poke-bowl-n10885975052": {
+"score": 9.4,
+"google_place_id": "ChIJDRLhmQBxw0cRIJB3us5WJk4"
+},
+"osm-hawaiian-poke-bowl-n11407739881": {
+"score": 9.4,
+"google_place_id": "ChIJFXcbp_Bxw0cRTjQssbLfrOw"
+},
+"osm-het-mooie-weer-n12757168866": {
+"score": 10,
+"google_place_id": "ChIJ2d2XGABxw0cR-xiC8hoH-0E"
+},
+"osm-hey-joo-n12323883644": {
+"score": 8.8,
+"google_place_id": "ChIJRboR0_Bxw0cRQLnzte84Y4s"
+},
+"osm-himalaya-n1212142778": {
+"score": 9.2,
+"google_place_id": "ChIJfaxfmzhxw0cReozwRh9gn48"
+},
+"osm-hola-food-n5856007887": {
+"score": 9.0,
+"google_place_id": "ChIJEROr2zFxw0cR823v-VmHqx8"
+},
+"osm-hola-food-n7004497033": {
+"score": 9.0,
+"google_place_id": "ChIJEROr2zFxw0cR823v-VmHqx8"
+},
+"osm-hong-thong-thai-n11019866078": {
+"score": 9.6,
+"google_place_id": "ChIJTQGh-Ltzw0cRchmw4FtjZbI"
+},
+"osm-horn-ok-please-n9740823412": {
+"score": 9.2,
+"google_place_id": "ChIJUfF-Wohxw0cRub6DA_3uvRo"
+},
+"osm-hot-falafel-n4694014271": {
+"score": 9.2,
+"google_place_id": "ChIJK_oiQzd3w0cReVhN7JoAwug"
+},
+"osm-house-of-waffles-n13310397201": {
+"score": 9.0,
+"google_place_id": "ChIJMbUdaYVxw0cREQKFx9hYzPk"
+},
+"osm-hoy-pinoy-n3394070665": {
+"score": 8.8,
+"google_place_id": "ChIJX-628chxw0cRTXSPFLHvAT8"
+},
+"osm-hung-hing-n11030869864": {
+"score": 8.6,
+"google_place_id": "ChIJ1alnF59zw0cRJjwXyzk00-c"
+},
+"osm-huset-n12184172391": {
+"score": 9.2,
+"google_place_id": "ChIJDwC1XWpxw0cRFhOaXKIW2zg"
+},
+"osm-il-cortile-n1212142878": {
+"score": 8.4,
+"google_place_id": "ChIJD8S0YEdxw0cRfVs16dksyJQ"
+},
+"osm-il-pettirosso-n13083737101": {
+"score": 9.8,
+"google_place_id": "ChIJDY3yfMxxw0cRat6FCA_NdFM"
+},
+"osm-illyrian-n7079394606": {
+"score": 9.2,
+"google_place_id": "ChIJSeFiT1Jxw0cRZcNpsQl54h0"
+},
+"osm-in-bocca-lupo-n3842499429": {
+"score": 9.4,
+"google_place_id": "ChIJ9X5lmThxw0cRDtDouh8EeDE"
+},
+"osm-in-den-karpel-w725921195": {
+"score": 7.8,
+"google_place_id": "ChIJ5ehDUY1xw0cRKUQOgEQYx3w"
+},
+"osm-indian-curry-house-n3874321406": {
+"score": 8.8,
+"google_place_id": "ChIJfaYHC0Fxw0cRte2CaswlN5c"
+},
+"osm-indian-masala-n1914075890": {
+"score": 8.8,
+"google_place_id": "ChIJf1swlkpxw0cRSlvRxuDn8ZU"
+},
+"osm-jacqueline-n1349508971": {
+"score": 8.2,
+"google_place_id": "ChIJY61l4kNxw0cRcr5s10LzLuM"
+},
+"osm-jaggers-w102713996": {
+"score": 9.2,
+"google_place_id": "ChIJT5NEi39xw0cRCr3W3T501eE"
+},
+"osm-jan-van-den-bon-n3185163629": {
+"score": 9.2,
+"google_place_id": "ChIJ0X-9015xw0cRsPLuG79Kn4s"
+},
+"osm-janine-s-n12363199163": {
+"score": 9.0,
+"google_place_id": "ChIJ8wS7Xk5xw0cRXJ1Bu5T4Ni8"
+},
+"osm-javana-n4985594584": {
+"score": 8.2,
+"google_place_id": "ChIJDU_JA0Rxw0cRX9ry59ZseM0"
+},
+"osm-jilles-n11505926942": {
+"score": 8.4,
+"google_place_id": "ChIJVwmlf1Zxw0cRXGDp8ej5zTA"
+},
+"osm-jose-n13350697189": {
+"score": 9.0,
+"google_place_id": "ChIJ6WT7d_xxw0cRCxKaaidQMig"
+},
+"osm-kaffee-change-n12941952165": {
+"score": 10,
+"google_place_id": "ChIJm-nV1gJxw0cR05dTQsabw10"
+},
+"osm-kaffie-is-kaffie-vzw-n12985197902": {
+"score": 9.2,
+"google_place_id": "ChIJO6CMwTt0w0cRjbv1LH3xa-U"
+},
+"osm-kaiju-n13504530036": {
+"score": 9.0,
+"google_place_id": "ChIJ2W2MBQBxw0cRnrXUDzvY53g"
+},
+"osm-kantien-n7628196641": {
+"score": 8.8,
+"google_place_id": "ChIJY8CLY2Vxw0cRdsixpOm0JzM"
+},
+"osm-karoot-n9665581800": {
+"score": 9.6,
+"google_place_id": "ChIJoYlYK81xw0cR_ZVD-a0xYQ4"
+},
+"osm-kaskcafe-n2084451567": {
+"score": 8.8,
+"google_place_id": "ChIJWWOrcl1xw0cRCYiD17k0T4o"
+},
+"osm-keizershof-n1187211170": {
+"score": 8.6,
+"google_place_id": "ChIJfZbO7Edxw0cRw2o9xdLkOQg"
+},
+"osm-kingslize-n6779344616": {
+"score": 8.8,
+"google_place_id": "ChIJ_3iC1XZxw0cRCxOqX-VPqQ0"
+},
+"osm-kino-n13342263004": {
+"score": 10,
+"google_place_id": "ChIJq78-oI9xw0cRrowYUloPdZo"
+},
+"osm-kleindok-n8393159527": {
+"score": 9.4,
+"google_place_id": "ChIJ8cgwKOhxw0cRgJhn4OBIJxk"
+},
+"osm-knees-to-chin-n10885883241": {
+"score": 8.4,
+"google_place_id": "ChIJqSnIzfZxw0cR5TBdOlSN8qg"
+},
+"osm-knol-kool-n12148408793": {
+"score": 9.4,
+"google_place_id": "ChIJrxXki0Zxw0cRzo_jPurs8Uk"
+},
+"osm-koeketiene-n11146607054": {
+"score": 9.4,
+"google_place_id": "ChIJa3SxMuBzw0cROb2Et1M1hTk"
+},
+"osm-koffiets-n12855207857": {
+"score": 10,
+"google_place_id": "ChIJU-YcJQBxw0cR_e4RmG48clI"
+},
+"osm-komparto-n6828974432": {
+"score": 9.0,
+"google_place_id": "ChIJfWqEHaxxw0cRipgQ6PtNvgE"
+},
+"osm-kona-n13695702160": {
+"score": 9.2,
+"google_place_id": "ChIJy9UlWwBzw0cRVmMk70HnVDg"
+},
+"osm-korenleitwee-n1212155509": {
+"score": 7.6,
+"google_place_id": "ChIJd92M2UBxw0cRcLC_XWtAw5M"
+},
+"osm-kraz-n4679946989": {
+"score": 9.8,
+"google_place_id": "ChIJxxyeozZxw0cRajAW8VhhuXw"
+},
+"osm-krookcafe-n6532421427": {
+"score": 7.6,
+"google_place_id": "ChIJsSQQnOdxw0cRQ1bXL-i-FJI"
+},
+"osm-krua-panya-n6138202016": {
+"score": 9.2,
+"google_place_id": "ChIJO2TKNgBxw0cRCb3vDzGZ2rk"
+},
+"osm-krunch-n12708121938": {
+"score": 9.6,
+"google_place_id": "ChIJN5Rxsrpzw0cR1s7kArnHCgQ"
+},
+"osm-kulba-kabul-n6983077035": {
+"score": 7.2,
+"google_place_id": "ChIJWUUlAOJxw0cRI4uAIFQDzjw"
+},
+"osm-la-belle-histoire-n11703605271": {
+"score": 8.6,
+"google_place_id": "ChIJdWmIJkRxw0cRV5W3QerHVyo"
+},
+"osm-la-cave-n1628067350": {
+"score": 7.6,
+"google_place_id": "ChIJnQDoieNxw0cRFYKVc8QA26s"
+},
+"osm-la-dolce-vita-w329892437": {
+"score": 9.0,
+"google_place_id": "ChIJVaoO0lZxw0cRMk1Xp15Z5sY"
+},
+"osm-la-fleur-rouge-brasserie-n2305188573": {
+"score": 9.2,
+"google_place_id": "ChIJZ92z0h1xw0cRSCIH9bih1VU"
+},
+"osm-la-malcontenta-n2555276332": {
+"score": 9.0,
+"google_place_id": "ChIJVZA3VUdxw0cRDXwT_e6L1Eo"
+},
+"osm-la-pizzeria-n819591964": {
+"score": 8.8,
+"google_place_id": "ChIJSez7PVRxw0cRbMxpwGIWBJE"
+},
+"osm-la-rustica-n1804211330": {
+"score": 8.8,
+"google_place_id": "ChIJzTMIBVBxw0cRpQJ4Razs0D0"
+},
+"osm-la-salita-n1425064288": {
+"score": 9.2,
+"google_place_id": "ChIJY3hhNOVxw0cRs6Fyk9D64zg"
+},
+"osm-la-tavola-italiana-n11049255680": {
+"score": 8,
+"google_place_id": "ChIJz4Zf54lxw0cRBjAdWkvapto"
+},
+"osm-la-vita-e-bella-n8957993751": {
+"score": 8.4,
+"google_place_id": "ChIJgQ2IDql2w0cRZ01HrKcgZvo"
+},
+"osm-lago-bistro-n9853040230": {
+"score": 8,
+"google_place_id": "ChIJl4CsVsF2w0cRytpeXShIbNE"
+},
+"osm-laila-n3483670405": {
+"score": 9.2,
+"google_place_id": "ChIJJTy3boNxw0cRaJdiXyzn4Gs"
+},
+"osm-le-bal-infernal-n7158634387": {
+"score": 9.0,
+"google_place_id": "ChIJhypG6kdxw0cRHAxDhwidiWw"
+},
+"osm-le-botaniste-n4052744492": {
+"score": 9.0,
+"google_place_id": "ChIJ8SZpAURxw0cRa9eTCcZqLQs"
+},
+"osm-le-gout-avant-tout-n11395904795": {
+"score": 8.8,
+"google_place_id": "ChIJYYD28URxw0cRefGBvIaQf7U"
+},
+"osm-le-homard-rouge-n11395904796": {
+"score": 9.0,
+"google_place_id": "ChIJsxBP7URxw0cRuaGKztJTsbo"
+},
+"osm-le-petit-grill-n2275104992": {
+"score": 8.2,
+"google_place_id": "ChIJBQYPwORzw0cRbiiWWGuGbcM"
+},
+"osm-le-piranha-n1628067364": {
+"score": 9.0,
+"google_place_id": "ChIJN-phO0xxw0cRN1TYaYyqE2M"
+},
+"osm-le-zab-thai-n11036341437": {
+"score": 9.2,
+"google_place_id": "ChIJt9iojExzw0cRXtXE5seaxyc"
+},
+"osm-lebes-n12791117487": {
+"score": 9.6,
+"google_place_id": "ChIJKwikQGBxw0cRJmY9gnwAXdk"
+},
+"osm-lekker-gec-n2721915415": {
+"score": 8.8,
+"google_place_id": "ChIJdbTa_t9zw0cRCdf8xheYYMk"
+},
+"osm-leoni-cucina-contemporanea-n12501221566": {
+"score": 9.4,
+"google_place_id": "ChIJLSxoeH9xw0cRL2NOftnLFwo"
+},
+"osm-libanese-snack-n6440678397": {
+"score": 8.8,
+"google_place_id": "ChIJp-Vz_jhxw0cRd7GHyejqBYA"
+},
+"osm-limoncello-n12772623907": {
+"score": 8.8,
+"google_place_id": "ChIJlTTkU5V1w0cRS4xMdGvvx3s"
+},
+"osm-little-asia-n11352130048": {
+"score": 8.2,
+"google_place_id": "ChIJr5DBDmZxw0cRWPgEYCfcII4"
+},
+"osm-little-happiness-n12823556595": {
+"score": 9.0,
+"google_place_id": "ChIJoe1hPwJxw0cR3VsoUFPZKYo"
+},
+"osm-lloyd-coffee-eatery-n11154588568": {
+"score": 9.0,
+"google_place_id": "ChIJ62tA1hhxw0cRTiLAPLJyCPM"
+},
+"osm-lodos-w1075327915": {
+"score": 9.4,
+"google_place_id": "ChIJaWgrTGRzw0cR96swJISy6e0"
+},
+"osm-lokaal-n12208404072": {
+"score": 9.6,
+"google_place_id": "ChIJ6ftC805xw0cR16_dTu1D568"
+},
+"osm-lucmoon-n1590803751": {
+"score": 8.6,
+"google_place_id": "ChIJRSX3AAJ0w0cRubiOKAVFtWs"
+},
+"osm-lucy-chang-n3392860014": {
+"score": 8.2,
+"google_place_id": "ChIJcw76AERxw0cRCZ9UPLL7szA"
+},
+"osm-ludo-n5618349223": {
+"score": 8.8,
+"google_place_id": "ChIJH_dACvhxw0cRRnwvQSagzfE"
+},
+"osm-lujain-n13040061417": {
+"score": 9.2,
+"google_place_id": "ChIJk66y4alxw0cR5-kpwQAymQI"
+},
+"osm-luv-l-oeuf-n5918300538": {
+"score": 8.4,
+"google_place_id": "ChIJbz5pMz1xw0cRdVZ5PJMn0gk"
+},
+"osm-madonna-n5247954582": {
+"score": 9.2,
+"google_place_id": "ChIJA8vMg-Jxw0cRTNiOeEvHtSE"
+},
+"osm-maison-elza-n1616705129": {
+"score": 9.4,
+"google_place_id": "ChIJn5-Bv0Bxw0cRofw5lD2fEMk"
+},
+"osm-manhattn-s-burgers-n2617861936": {
+"score": 9.0,
+"google_place_id": "ChIJAQSzpnxxw0cRZepO0ysOdWs"
+},
+"osm-marengo-n2555139392": {
+"score": 8.8,
+"google_place_id": "ChIJRfvCG2lxw0cR3v5FT1qzGJA"
+},
+"osm-martino-n8941921521": {
+"score": 9.0,
+"google_place_id": "ChIJl8_4Z05xw0cRY8fapfMJrxc"
+},
+"osm-masala-accent-n12128973417": {
+"score": 9.6,
+"google_place_id": "ChIJ8fBe6ENxw0cRZ5vXmsUyh-E"
+},
+"osm-mazaj-n14003387975": {
+"score": 9.6,
+"google_place_id": "ChIJv6uan0lxw0cRPh1kpMBmiE0"
+},
+"osm-mazaya-n6942598586": {
+"score": 9.6,
+"google_place_id": "ChIJnchn0Olxw0cRDWoUsczVBzw"
+},
+"osm-meadow-coffee-bar-n12809311483": {
+"score": 9.6,
+"google_place_id": "ChIJIb1r4Ddxw0cRKotDC2i2uXw"
+},
+"osm-meat-district-n12702505074": {
+"score": 9.4,
+"google_place_id": "ChIJl9yvZkePw0cRCUH48Lge23s"
+},
+"osm-mengie-n11912063124": {
+"score": 9.4,
+"google_place_id": "ChIJq3XhYABxw0cRgBiVaC60vIc"
+},
+"osm-meshur-adyaman-cig-koftecisi-n11426088978": {
+"score": 9.2,
+"google_place_id": "ChIJVU-5b7V2w0cRj2tbKYcQk90"
+},
+"osm-mevlana-42-n11516571366": {
+"score": 9.0,
+"google_place_id": "ChIJR01WvbZ2w0cR2VP8ZlRvDHA"
+},
+"osm-mi-garba-n5289336221": {
+"score": 9.8,
+"google_place_id": "ChIJH-fTKMxxw0cRWum4EUrGp-g"
+},
+"osm-mian-n10748138689": {
+"score": 8.2,
+"google_place_id": "ChIJn-z3UjR3w0cRulOh2LY-0wA"
+},
+"osm-midpoint-n5918274971": {
+"score": 8.8,
+"google_place_id": "ChIJ4erLyURxw0cRHYsCkwaG6Kk"
+},
+"osm-midtown-grill-n5276097616": {
+"score": 8,
+"google_place_id": "ChIJww1gJ0Fxw0cRswvGrHJzlGQ"
+},
+"osm-mimosa-n11697848804": {
+"score": 8.6,
+"google_place_id": "ChIJLRK7OwBxw0cRlKOaS6AzeMY"
+},
+"osm-ming-s-garden-n6174754586": {
+"score": 8.6,
+"google_place_id": "ChIJxfTa4OZ2w0cRK0QhOLha2jI"
+},
+"osm-minty-plus-n13957813953": {
+"score": 8.4,
+"google_place_id": "ChIJT-6XUABxw0cRSq-Wb_-qEm4"
+},
+"osm-miss-yu-n6828974429": {
+"score": 9.2,
+"google_place_id": "ChIJX63JtgBxw0cRU44APoImJYA"
+},
+"osm-mission-masala-n7804889585": {
+"score": 9.0,
+"google_place_id": "ChIJK-c2Os5xw0cRftpZ1SEV7e4"
+},
+"osm-mistafluut-n10743751308": {
+"score": 9.8,
+"google_place_id": "ChIJ9z3cNmxxw0cR1yPsGKlMBVw"
+},
+"osm-mister-spaghetti-n1212139210": {
+"score": 8.2,
+"google_place_id": "ChIJ5w4UcYVxw0cRiUP9fEwThfk"
+},
+"osm-modest-n10882821305": {
+"score": 9.2,
+"google_place_id": "ChIJMzh7yU5xw0cRMSpQ16EgwnA"
+},
+"osm-mogador-n10911632109": {
+"score": 8.8,
+"google_place_id": "ChIJ8VDVYEZxw0cRSuHCKdspuXY"
+},
+"osm-mosquito-coast-n2617844933": {
+"score": 8.6,
+"google_place_id": "ChIJXZrnG0dxw0cRXD42EZGUpuQ"
+},
+"osm-moti-mahal-n1209368840": {
+"score": 9.8,
+"google_place_id": "ChIJE_3ESclxw0cRbeuGmhvKaA0"
+},
+"osm-mr-sato-n12741969454": {
+"score": 8.4,
+"google_place_id": "ChIJ3YtJMd91w0cRJgd4Y3IK9bs"
+},
+"osm-muday-n6853683393": {
+"score": 9.2,
+"google_place_id": "ChIJu2E1gzBxw0cR3SJFKtBA1xk"
+},
+"osm-my-tannour-n12697242776": {
+"score": 8.6,
+"google_place_id": "ChIJ7ZyM9Edxw0cRPvEM8lQVs_Q"
+},
+"osm-myst-n4395300769": {
+"score": 10,
+"google_place_id": "ChIJuzU3PABxw0cRyyjEMoGA-xg"
+},
+"osm-nam-jai-n3394491371": {
+"score": 8.4,
+"google_place_id": "ChIJ1RBkmzhxw0cRicr0VzjFj4M"
+},
+"osm-neapolis-n2625520425": {
+"score": 9.2,
+"google_place_id": "ChIJNc6zHidxw0cRizWIHhQTbLU"
+},
+"osm-nenuphar-w425380898": {
+"score": 8.2,
+"google_place_id": "ChIJR-kDjCNyw0cR6jbfwa4qJ3g"
+},
+"osm-nepal-delight-n11047205650": {
+"score": 9.0,
+"google_place_id": "ChIJBUW1-3Bxw0cRLx0hvlXFIQk"
+},
+"osm-neptune-n1212144793": {
+"score": 8.4,
+"google_place_id": "ChIJ0VUssUBxw0cRdnECyE3ND0E"
+},
+"osm-nesto-n13270651417": {
+"score": 9.6,
+"google_place_id": "ChIJI9u6DvRxw0cR18Qrkg-qeOg"
+},
+"osm-noah-w430755898": {
+"score": 8.8,
+"google_place_id": "ChIJ4YUL7jNxw0cRSVw1LXoXkN0"
+},
+"osm-nono-n14064650165": {
+"score": 9.6,
+"google_place_id": "ChIJ-ciXYABxw0cRdjz2K_8vBN0"
+},
+"osm-noon-n6255570289": {
+"score": 9.2,
+"google_place_id": "ChIJcapU_Elxw0cR3Jfu9S6SoNQ"
+},
+"osm-noon-s-zusje-n12484933964": {
+"score": 9.2,
+"google_place_id": "ChIJI-aQVahxw0cRHbjkaulfFoM"
+},
+"osm-norma-n12712573951": {
+"score": 9.2,
+"google_place_id": "ChIJjwsbmEZxw0cR_KvPdNH8gqk"
+},
+"osm-o-gand-n2461641271": {
+"score": 7.8,
+"google_place_id": "ChIJNz9rs3Bxw0cRnrbsbMyRmKo"
+},
+"osm-o-learys-n4716568192": {
+"score": 8.2,
+"google_place_id": "ChIJU70O2TFxw0cRnv50i55tf48"
+},
+"osm-o-yo-n10885912444": {
+"score": 8.6,
+"google_place_id": "ChIJ-6BhkuRxw0cRUHl3r1Q5uGk"
+},
+"osm-ocean-sushi-w494018303": {
+"score": 8.2,
+"google_place_id": "ChIJw1NB0Edxw0cRXSd3r9VFm3U"
+},
+"osm-ode-brasserie-n1187193552": {
+"score": 7.4,
+"google_place_id": "ChIJZxy5bABxw0cRy4k1iIZIlKY"
+},
+"osm-odil-n11305200343": {
+"score": 9.2,
+"google_place_id": "ChIJjb9nOyVxw0cRG72plvX_IAk"
+},
+"osm-officina-raffaelli-n5629021237": {
+"score": 8.8,
+"google_place_id": "ChIJdSBeBa5xw0cRFs-ble-WttA"
+},
+"osm-oh-ma-n12367017828": {
+"score": 9.0,
+"google_place_id": "ChIJ84-KKWFxw0cRpL9TSzYR8yQ"
+},
+"osm-okawa-snackbar-n10294919707": {
+"score": 9.6,
+"google_place_id": "ChIJwdptDuBxw0cRy5qAbtJDBLA"
+},
+"osm-okawa-sushi-n13788019779": {
+"score": 9.2,
+"google_place_id": "ChIJhQ7ZVXRxw0cRwIFNHBo1htE"
+},
+"osm-ombra-n12992514757": {
+"score": 9.8,
+"google_place_id": "ChIJwxDEwtdxw0cRbZNEm-4gL8U"
+},
+"osm-open-wok-n7085959385": {
+"score": 8.6,
+"google_place_id": "ChIJZ6LZLMl2w0cRJRU7wX7xW94"
+},
+"osm-ornek-n12323650404": {
+"score": 7.8,
+"google_place_id": "ChIJBwqsjzhxw0cRYIpLM5ZzRoA"
+},
+"osm-osteria-delicati-n4389095205": {
+"score": 8.8,
+"google_place_id": "ChIJEX0T3EBxw0cRhOfDsL95FIQ"
+},
+"osm-osti-s-lobby-coffee-n12681994060": {
+"score": 9.8,
+"google_place_id": "ChIJf4nfTFZxw0cRfHl6IIELdgA"
+},
+"osm-otomat-n4677893292": {
+"score": 8.8,
+"google_place_id": "ChIJ3_F3SUdxw0cR5ZgcJVQIT5I"
+},
+"osm-ottoman-grillhouse-n13055223101": {
+"score": 9.2,
+"google_place_id": "ChIJv5M0Vgpxw0cR90ump1v53Hk"
+},
+"osm-ozgem-n1579895326": {
+"score": 8.8,
+"google_place_id": "ChIJUUPrrzlxw0cRxgrlFyGoUD4"
+},
+"osm-pacha-mama-n3553831592": {
+"score": 9.2,
+"google_place_id": "ChIJC45mtVpxw0cREE-XqDhZOis"
+},
+"osm-pagos-n4907557926": {
+"score": 8,
+"google_place_id": "ChIJDTG8IERxw0cRmp3iu-aLPkE"
+},
+"osm-pain-perdu-n2773666260": {
+"score": 8.8,
+"google_place_id": "ChIJHTpjhk9xw0cRqA_IryPL9Jw"
+},
+"osm-pakhuis-w107725021": {
+"score": 8.4,
+"google_place_id": "ChIJVY98ukZxw0cRpeOQoF0kbMQ"
+},
+"osm-pampas-n1616705175": {
+"score": 8.4,
+"google_place_id": "ChIJn9vdlUBxw0cRv2b9jUAACj4"
+},
+"osm-panda-n4154773490": {
+"score": 8,
+"google_place_id": "ChIJU1d4jzhxw0cRI_38xY-AUwY"
+},
+"osm-pane-vino-w112572422": {
+"score": 8.8,
+"google_place_id": "ChIJFatslkRxw0cRoA-qUl6q7cU"
+},
+"osm-pani-n1804211176": {
+"score": 10,
+"google_place_id": "ChIJ27bW_ldxw0cROo199O7zhOc"
+},
+"osm-panotto-n12837270943": {
+"score": 9.6,
+"google_place_id": "ChIJazMuOABxw0cRvYfg0QXcpXo"
+},
+"osm-pantheon-n5524955122": {
+"score": 9.2,
+"google_place_id": "ChIJXdi7VUJxw0cRE3MisxZIPDM"
+},
+"osm-parisiana-n12379299578": {
+"score": 8.8,
+"google_place_id": "ChIJ2ZP-fKdxw0cRtDkUIC8WWzQ"
+},
+"osm-parkkaffee-n663056470": {
+"score": 8.8,
+"google_place_id": "ChIJg90Nykxww0cR4HVAK62Bny4"
+},
+"osm-pastinaak-n9854058974": {
+"score": 9.0,
+"google_place_id": "ChIJt0EeRs92w0cRJwa86OM2wfc"
+},
+"osm-patron-n5135071694": {
+"score": 9.6,
+"google_place_id": "ChIJPTldgZBxw0cRkPuDZvc8F-8"
+},
+"osm-per-bacco-n7158632586": {
+"score": 8.8,
+"google_place_id": "ChIJP_2b_Uhxw0cRIyGDaL9jXbU"
+},
+"osm-petit-comite-n4404607290": {
+"score": 9.4,
+"google_place_id": "ChIJzRpgWodxw0cReaZEgqj8lC0"
+},
+"osm-petit-thai-n11476496998": {
+"score": 9.2,
+"google_place_id": "ChIJx2I-hRBxw0cRyk4ZJIdi_VM"
+},
+"osm-phaya-n6064925839": {
+"score": 9.2,
+"google_place_id": "ChIJZy4pLp5xw0cRxKxduyyLPzg"
+},
+"osm-pho-saigon-n10892781656": {
+"score": 8.4,
+"google_place_id": "ChIJ2XM2-0Zxw0cRKvpmx7W-pE0"
+},
+"osm-pietje-pek-w909712432": {
+"score": 8.6,
+"google_place_id": "ChIJA_3Mh-txw0cRQH3sqUAsObg"
+},
+"osm-pitta-alanya-n12104551219": {
+"score": 9.4,
+"google_place_id": "ChIJ69z2fCxxw0cRNnu1bNhfEfA"
+},
+"osm-pitta-flora-n10983992980": {
+"score": 8,
+"google_place_id": "ChIJecTyRlR1w0cRwCrmKlZ313A"
+},
+"osm-pitta-side-w630342003": {
+"score": 8.6,
+"google_place_id": "ChIJMxY4WEZxw0cR6zKN84Z83sA"
+},
+"osm-pittoresk-n1186301440": {
+"score": 5.2,
+"google_place_id": "ChIJ-Qwg8Udxw0cRJdHWu_iv1Bs"
+},
+"osm-pizza-bella-w626913548": {
+"score": 8.2,
+"google_place_id": "ChIJPdoB8-hww0cRebRhWsKGc00"
+},
+"osm-pizza-cesar-n9278632522": {
+"score": 6.8,
+"google_place_id": "ChIJWaLCOVNxw0cRmRacZt3k5U8"
+},
+"osm-pizza-gulhan-n4720207391": {
+"score": 8.4,
+"google_place_id": "ChIJu4cbvDlxw0cRU2SKLg7NPfw"
+},
+"osm-pizza-king-n12331252803": {
+"score": 8.2,
+"google_place_id": "ChIJtysKsPlxw0cRIsMo1bk-7Wg"
+},
+"osm-pizza-mia-n5056755522": {
+"score": 7.2,
+"google_place_id": "ChIJyWAepl5xw0cRoiY9v6IJ78k"
+},
+"osm-pizza-pisa-n12320430953": {
+"score": 6.2,
+"google_place_id": "ChIJp98B_fNxw0cR9vVcFy5HM-0"
+},
+"osm-pizza-roma-n11047218681": {
+"score": 6.8,
+"google_place_id": "ChIJ1T-0lVdxw0cRAkMbMjFF5sU"
+},
+"osm-pizzahof-n1853026297": {
+"score": 9.0,
+"google_place_id": "ChIJ_Vtg8exxw0cR7YqoGvYNhEQ"
+},
+"osm-plant-a-pizza-n9740821856": {
+"score": 9.6,
+"google_place_id": "ChIJH5tXTtFxw0cRLEtktIRFJSA"
+},
+"osm-plantbaar-n12737009115": {
+"score": 10,
+"google_place_id": "ChIJH1AnzTdxw0cRFxL_29A-vpI"
+},
+"osm-plus-n5936452586": {
+"score": 9.0,
+"google_place_id": "ChIJC02b80Nxw0cRGD48NFukfJk"
+},
+"osm-ponton-n4565846936": {
+"score": 8.6,
+"google_place_id": "ChIJDdk3RuJxw0cRixZcM6N-VD4"
+},
+"osm-poule-poulette-n602681364": {
+"score": 8.4,
+"google_place_id": "ChIJdZ310EZxw0cRsYYt98lLExA"
+},
+"osm-rabot-dumpling-house-n12748707901": {
+"score": 9.6,
+"google_place_id": "ChIJ0dyL7otxw0cRtcFZXiAbdCw"
+},
+"osm-rabotaria-n4075563290": {
+"score": 7.6,
+"google_place_id": "ChIJcbJsWhNxw0cRI-eLR40CC5U"
+},
+"osm-ramen-n4227045139": {
+"score": 9.6,
+"google_place_id": "ChIJKdWj9Thxw0cR4w0d0VSn51k"
+},
+"osm-restaurant-cocotte-n12772643014": {
+"score": 8.4,
+"google_place_id": "ChIJW1nNgrd1w0cR72AmrKfCm6U"
+},
+"osm-restaurant-hartetroef-n12413165387": {
+"score": 8.8,
+"google_place_id": "ChIJO-_nyK53w0cRwddM1X-gm98"
+},
+"osm-restaurant-panda-n11415862783": {
+"score": 7.4,
+"google_place_id": "ChIJC8jBbLV2w0cRUGHezIdSalQ"
+},
+"osm-resto-leo-n13355672924": {
+"score": 8.8,
+"google_place_id": "ChIJkanUcH1xw0cRPT5n6i35Mog"
+},
+"osm-rk-barbecue-n9808181998": {
+"score": 8.8,
+"google_place_id": "ChIJF8qefJhxw0cRf7v7Ih2rsPs"
+},
+"osm-rokkebolle-n4456452819": {
+"score": 9.0,
+"google_place_id": "ChIJLfBDIap2w0cR3yZyQDxVtxI"
+},
+"osm-rokko-n12659929329": {
+"score": 9.8,
+"google_place_id": "ChIJOzrAzT1xw0cRfAnCKopfvV8"
+},
+"osm-romanoff-s-w685047789": {
+"score": 8.8,
+"google_place_id": "ChIJqe8QqK5xw0cREYSARoiAZbA"
+},
+"osm-royal-india-n10892781655": {
+"score": 9.2,
+"google_place_id": "ChIJG-lg4UZxw0cRpighEa5uQzw"
+},
+"osm-ruba-n10609073783": {
+"score": 9.0,
+"google_place_id": "ChIJ1yX94Xtxw0cR93d6wtqcdis"
+},
+"osm-rumi-n7177919608": {
+"score": 9.4,
+"google_place_id": "ChIJGXDApBVxw0cRdp6YVHHXibY"
+},
+"osm-sahara-n13436668734": {
+"score": 9.4,
+"google_place_id": "ChIJey9Hjvhxw0cR_cq8i28EpYI"
+},
+"osm-san-ren-xing-n12501294949": {
+"score": 9.6,
+"google_place_id": "ChIJLSyjTgBxw0cR1i1M5RteB7w"
+},
+"osm-sao-paulo-n5544675087": {
+"score": 9.6,
+"google_place_id": "ChIJuzx-60Vxw0cRkSpV_eHnYmY"
+},
+"osm-saray-n11766645039": {
+"score": 8.8,
+"google_place_id": "ChIJHwGPqbV2w0cRM5UdIQf0SHg"
+},
+"osm-savarin-n1186342710": {
+"score": 8.4,
+"google_place_id": "ChIJv7UDikdxw0cRctaMg7ZLEjQ"
+},
+"osm-scopa-focacceria-n1381910692": {
+"score": 8.8,
+"google_place_id": "ChIJo9gGCG1xw0cR7s5xCpFXgLc"
+},
+"osm-seli-s-noodlebar-n2998443056": {
+"score": 8.4,
+"google_place_id": "ChIJC46vrEhxw0cRTSJmQz81SDc"
+},
+"osm-sensum-gent-n12801817423": {
+"score": 9.4,
+"google_place_id": "ChIJ17v_QcenxEcR8tP55_pRpaA"
+},
+"osm-seoul-south-station-n12702572257": {
+"score": 8.6,
+"google_place_id": "ChIJFavuz_pxw0cR1qYn7TfRRXA"
+},
+"osm-sgol-n10892676751": {
+"score": 8.2,
+"google_place_id": "ChIJ47zw0uZxw0cRgoPnlYvFxe4"
+},
+"osm-shazanna-n6942598686": {
+"score": 8.6,
+"google_place_id": "ChIJcxNMKkhxw0cRlYeCmvqsIT4"
+},
+"osm-ship-sip-w834990455": {
+"score": 9.8,
+"google_place_id": "ChIJBStcI-txw0cRvd2OvmC0AMM"
+},
+"osm-sin-n11592985145": {
+"score": 9.2,
+"google_place_id": "ChIJo99uLgBxw0cRjiUaZHkjNSI"
+},
+"osm-snoens-n14116759030": {
+"score": 9.4,
+"google_place_id": "ChIJ6WW-mWpxw0cRimXSf1hyA9w"
+},
+"osm-soepbar-sordo-n9092308404": {
+"score": 9.8,
+"google_place_id": "ChIJi-ZZTj9xw0cR44hB9kvPRQY"
+},
+"osm-soepplus-w744209712": {
+"score": 8.8,
+"google_place_id": "ChIJnYkAx09xw0cRfHaXay5Dkg4"
+},
+"osm-sole-d-italia-n2275104998": {
+"score": 8.8,
+"google_place_id": "ChIJOyXZv-Rzw0cRCZ4euNnBilU"
+},
+"osm-sorelle-n1349521463": {
+"score": 8.6,
+"google_place_id": "ChIJlb2v40Nxw0cRcBKEDa7_qxg"
+},
+"osm-soul-kitchen-n5986142786": {
+"score": 9.6,
+"google_place_id": "ChIJlyrSL2lxw0cRtfftoyK_BKY"
+},
+"osm-soup-lounge-n1212142182": {
+"score": 9.0,
+"google_place_id": "ChIJ2wMYgzhxw0cRzbk9qm728gc"
+},
+"osm-soup-r-n5164395526": {
+"score": 9.6,
+"google_place_id": "ChIJ8S9hkkZxw0cRQdMYdBdRQNs"
+},
+"osm-souplicious-n8957993745": {
+"score": 9.6,
+"google_place_id": "ChIJ56kaKVWdw0cR6GDo0qnkRDg"
+},
+"osm-souv-n13051841763": {
+"score": 8.8,
+"google_place_id": "ChIJnTIUS8Nxw0cRygh--jxjxos"
+},
+"osm-spazio24-n7060940342": {
+"score": 9.4,
+"google_place_id": "ChIJd_UUBJRxw0cRrwbRQqtsuDc"
+},
+"osm-speenghar-restaurant-n13510617308": {
+"score": 9.0,
+"google_place_id": "ChIJbdmMTABxw0cRierYlWDPgLY"
+},
+"osm-stamcafe-n1882787678": {
+"score": 8.2,
+"google_place_id": "ChIJS9ZbT1xxw0cRnQo9wMxh8EM"
+},
+"osm-steamy-windows-n10892813716": {
+"score": 9.0,
+"google_place_id": "ChIJy3cDJcpxw0cRXUkxWe30_WI"
+},
+"osm-stek-n6828901282": {
+"score": 9.0,
+"google_place_id": "ChIJEXMvMVtxw0cRiGp55YcZdaQ"
+},
+"osm-still-n13898213727": {
+"score": 9.0,
+"google_place_id": "ChIJ_2OyOvJxw0cRuAxTiOPUIbM"
+},
+"osm-stroom-brewery-n12738654204": {
+"score": 9.8,
+"google_place_id": "ChIJMVkDmqp3w0cR8sg2jnMmhko"
+},
+"osm-suffys-n11004345644": {
+"score": 8.6,
+"google_place_id": "ChIJpRvvXzlyw0cRvBy8kS2P1ks"
+},
+"osm-sugar-spice-n1212135543": {
+"score": 6.4,
+"google_place_id": "ChIJGcdfDglxw0cRZMKpeONDLok"
+},
+"osm-surtoe-n4893318698": {
+"score": 8.8,
+"google_place_id": "ChIJuYwrRkZxw0cRjqZbhLLQHxM"
+},
+"osm-sushi-love-gent-n9056427353": {
+"score": 9.0,
+"google_place_id": "ChIJhRrGNYVxw0cRzyeA05UXE8s"
+},
+"osm-sushi-palace-n12323650406": {
+"score": 9.0,
+"google_place_id": "ChIJ9dsKizhxw0cRiAobxik6uic"
+},
+"osm-sushi-paradise-n1186970648": {
+"score": 8.8,
+"google_place_id": "ChIJqc888kdxw0cRkGTN7Z3Gmpw"
+},
+"osm-sushi-plaza-n6138202032": {
+"score": 8.8,
+"google_place_id": "ChIJBe8UI09xw0cRRBnZaqbIVYk"
+},
+"osm-sushi-poel-n3931156537": {
+"score": 9.4,
+"google_place_id": "ChIJky9TgYBxw0cRiyvOwOmv7oQ"
+},
+"osm-sushi-prime-n12625568192": {
+"score": 9.4,
+"google_place_id": "ChIJG_IcBF9xw0cR7UpA_BNa-hI"
+},
+"osm-sushi-star-n10289739405": {
+"score": 8.6,
+"google_place_id": "ChIJFbFU2Itxw0cRHZmxVyaM4Ck"
+},
+"osm-symphony-n12650624985": {
+"score": 9.6,
+"google_place_id": "ChIJzZ4p-6txw0cRZAWCB41aUCE"
+},
+"osm-t-braemhof-n6975128485": {
+"score": 8.4,
+"google_place_id": "ChIJMVOR5KF2w0cRrze6ApDBWUo"
+},
+"osm-t-felt-n14072558901": {
+"score": 9.8,
+"google_place_id": "ChIJU0o1Wc5xw0cRn0rVw63Odeg"
+},
+"osm-t-klaverblad-n3394070670": {
+"score": 9.2,
+"google_place_id": "ChIJJ4w-mThxw0cR1S75W1cKIvM"
+},
+"osm-t-klokhuys-n3394070669": {
+"score": 8.6,
+"google_place_id": "ChIJFZfTmzhxw0cR1abY_zPXW9g"
+},
+"osm-t-koningshuis-n2625520422": {
+"score": 9.2,
+"google_place_id": "ChIJLVESizhxw0cRJU1nXJWCQ_Y"
+},
+"osm-t-oud-clooster-n4776502139": {
+"score": 8.8,
+"google_place_id": "ChIJEzZs3kNxw0cRSF_Xch4YG5U"
+},
+"osm-t-picolootje-n11481061157": {
+"score": 8.8,
+"google_place_id": "ChIJwUfyq-1zw0cRIL8bXI7BLcA"
+},
+"osm-t-prison-n1381892995": {
+"score": 7.4,
+"google_place_id": "ChIJh5cBtUBxw0cR6Z5y091fS54"
+},
+"osm-t-spoorloos-perron-n13758856522": {
+"score": 8.6,
+"google_place_id": "ChIJ1ccNWq12w0cRu7GV0ACtdMo"
+},
+"osm-t-stoofpotje-n6175117985": {
+"score": 8.8,
+"google_place_id": "ChIJ7wwaBadxw0cRTLX2oKJlQ2U"
+},
+"osm-t-wokske-n3109397450": {
+"score": 9.4,
+"google_place_id": "ChIJIVw6g1dxw0cRRb8MUNpkPhk"
+},
+"osm-table-10-n10005651044": {
+"score": 8.8,
+"google_place_id": "ChIJqwVard5zw0cRwKx6CWnLe7A"
+},
+"osm-taco-santo-n11210189831": {
+"score": 8.8,
+"google_place_id": "ChIJEePO_klxw0cRJxNbnaOqzSo"
+},
+"osm-taco-santo-n6920767887": {
+"score": 8.8,
+"google_place_id": "ChIJBY3LLa5xw0cRyfQ9xa_1qKk"
+},
+"osm-taj-mahal-n11352130046": {
+"score": 9.6,
+"google_place_id": "ChIJLVDNZSxxw0cR2rEYUeQWzGY"
+},
+"osm-take-five-n10267858018": {
+"score": 8.6,
+"google_place_id": "ChIJJdf5HQ5xw0cR3wozfZXrjXc"
+},
+"osm-take-in-n12348834392": {
+"score": 8.8,
+"google_place_id": "ChIJj8m2HThxw0cRhGCCK5byPQ8"
+},
+"osm-takes-thyme-n5379924322": {
+"score": 9.6,
+"google_place_id": "ChIJUz4ArDlxw0cRDQD7WVKWQTw"
+},
+"osm-tamis-homekitchen-w452683591": {
+"score": 9.8,
+"google_place_id": "ChIJGWgonJJxw0cR9O3ZCpT3OeE"
+},
+"osm-tampopo-n499978423": {
+"score": 9.0,
+"google_place_id": "ChIJBQCPGDByw0cRU4flklSwY64"
+},
+"osm-tante-paula-n5618349224": {
+"score": 9.2,
+"google_place_id": "ChIJu5mYEkhxw0cRdmdOkEwMbrY"
+},
+"osm-tapsalon-n12887001771": {
+"score": 9.6,
+"google_place_id": "ChIJOR8iAgRxw0cRwAu_dNLKCAM"
+},
+"osm-tartelette-n9264478841": {
+"score": 9.8,
+"google_place_id": "ChIJlzio1c1xw0cRRXa6-Gml5Lo"
+},
+"osm-tartoastie-n12556919004": {
+"score": 9.0,
+"google_place_id": "ChIJV1fiTQB3w0cRvYZFKcOVa9g"
+},
+"osm-tashun-n3817855014": {
+"score": 8.8,
+"google_place_id": "ChIJl6u1-k9xw0cRiB59fjMbqXA"
+},
+"osm-te-gusta-n9416480518": {
+"score": 9.6,
+"google_place_id": "ChIJ8-A4vth3w0cRjnFjnDlbPas"
+},
+"osm-thai-thanee-n1404464937": {
+"score": 8.6,
+"google_place_id": "ChIJ2csR405xw0cR2V3YOVZcebU"
+},
+"osm-thatcha-thai-kitchen-n6312636187": {
+"score": 9.8,
+"google_place_id": "ChIJ_4rSbmJxw0cRqFTItXyc874"
+},
+"osm-thawan-thai-n1167829682": {
+"score": 8.6,
+"google_place_id": "ChIJo7R2jap2w0cRWfbt_oUE46k"
+},
+"osm-the-corner-house-n11223369715": {
+"score": 8.8,
+"google_place_id": "ChIJ_-HQc1Jxw0cR_CjGqU2raGQ"
+},
+"osm-the-crispy-crunch-n11897480559": {
+"score": 9.2,
+"google_place_id": "ChIJYQhx_n9zw0cReZ7s85OncT0"
+},
+"osm-the-dixie-n10289666040": {
+"score": 8.8,
+"google_place_id": "ChIJfeRKGWBxw0cRxgUUa2ghGhg"
+},
+"osm-the-mistress-n13787925225": {
+"score": 9.6,
+"google_place_id": "ChIJ6e96SLVxw0cRoBLIhM1AQ6U"
+},
+"osm-the-waffle-factory-n6412046258": {
+"score": 8,
+"google_place_id": "ChIJ9_N1JwVxw0cRDggm8IOzU58"
+},
+"osm-the-wokbar-n5567192748": {
+"score": 9.6,
+"google_place_id": "ChIJtRfJrFJxw0cRYLxGnt3L9_c"
+},
+"osm-timelab-eatery-n12798223055": {
+"score": 9.8,
+"google_place_id": "ChIJF5H7QAB3w0cR-foZos7xy84"
+},
+"osm-toetswiet-n1186945848": {
+"score": 7.6,
+"google_place_id": "ChIJOVdJ10Zxw0cRAZi34-UZvM4"
+},
+"osm-toi-et-moi-n3842784242": {
+"score": 9.4,
+"google_place_id": "ChIJG6O2pUFxw0cRly7HB1kpQHw"
+},
+"osm-tokyo-sushi-n11352130038": {
+"score": 8.8,
+"google_place_id": "ChIJU1sJSUZxw0cRgmHC8o3MZwQ"
+},
+"osm-top-sushi-n10298212680": {
+"score": 9.4,
+"google_place_id": "ChIJny3kKJT3w0cRkZ14MqRfF9w"
+},
+"osm-touche-n11302184714": {
+"score": 9.6,
+"google_place_id": "ChIJ67N4nyZxw0cR2Yr57BbPEM8"
+},
+"osm-trafiek-n1997298037": {
+"score": 9.2,
+"google_place_id": "ChIJIc1hUQ1xw0cRGit10RwzkGs"
+},
+"osm-tush-n11352130051": {
+"score": 9.2,
+"google_place_id": "ChIJgaV1MbBxw0cRLdmeksUUoHw"
+},
+"osm-twilight-sushi-n1628067381": {
+"score": 9.2,
+"google_place_id": "ChIJua0Bxplxw0cRWBdjhUaqChU"
+},
+"osm-uilenspiegel-n10907848125": {
+"score": 8.6,
+"google_place_id": "ChIJhRDsdEZxw0cRthln8FQS1cY"
+},
+"osm-uludag-n10250827159": {
+"score": 7.8,
+"google_place_id": "ChIJc4e4hSRxw0cRdDNUff9KT4E"
+},
+"osm-uma-marisqueira-n11595390054": {
+"score": 8.2,
+"google_place_id": "ChIJKxhvBJxxw0cRLsQSldc7VfQ"
+},
+"osm-umamido-n4273118892": {
+"score": 9.2,
+"google_place_id": "ChIJsZ3nK7txw0cROI-4qq4C7CA"
+},
+"osm-umamido-vooruit-n6919498743": {
+"score": 9.0,
+"google_place_id": "ChIJS7AQRIVxw0cRmj0LBjjCaJc"
+},
+"osm-uncle-babe-s-burger-bar-n4524885209": {
+"score": 9.0,
+"google_place_id": "ChIJLQiVVzhxw0cRZ3GXD0Tvh4I"
+},
+"osm-uncle-sam-s-n12703057611": {
+"score": 9.6,
+"google_place_id": "ChIJYd7SWch3w0cR919PuhL6WDo"
+},
+"osm-urfa-n13038155956": {
+"score": 8.4,
+"google_place_id": "ChIJmS8e6zlxw0cRYxQDMlFg7wo"
+},
+"osm-uzume-sushi-n11476402371": {
+"score": 8.6,
+"google_place_id": "ChIJh6ls4uNzw0cR41Ony5ot6hY"
+},
+"osm-veggi-en-grill-n9230929147": {
+"score": 9.2,
+"google_place_id": "ChIJsxEKyk9xw0cRqVRfo9THDnw"
+},
+"osm-veneris-n1186342684": {
+"score": 8,
+"google_place_id": "ChIJv2iafy5xw0cRtazyQ1TfDDw"
+},
+"osm-verz-w630349191": {
+"score": 8.8,
+"google_place_id": "ChIJvaO5RRlxw0cRiqMavwbqRYA"
+},
+"osm-vief-n12804094905": {
+"score": 10,
+"google_place_id": "ChIJXcrHX_pxw0cRSVmj0xmSIx4"
+},
+"osm-vier-tafels-w493483074": {
+"score": 8.8,
+"google_place_id": "ChIJ6XYepjhxw0cRtTak4ttEvdQ"
+},
+"osm-viernulvier-cafe-n3817855015": {
+"score": 8.8,
+"google_place_id": "ChIJrU_Z709xw0cRHFtIOB7m2e4"
+},
+"osm-villa-anamma-n6795335875": {
+"score": 8.8,
+"google_place_id": "ChIJ4Uas3HJ3w0cRz2PE0xtoVgM"
+},
+"osm-villa-bardon-n6947769194": {
+"score": 9.4,
+"google_place_id": "ChIJaVo99zhxw0cRNQ83dg1r-C0"
+},
+"osm-villa-ooievaar-n12416733927": {
+"score": 9.0,
+"google_place_id": "ChIJxxZM1Khxw0cR-FCVsc-vxxM"
+},
+"osm-vittorio-n7470367118": {
+"score": 9.8,
+"google_place_id": "ChIJccdadH93w0cRQ2dzpDhvD78"
+},
+"osm-viva-la-puglia-n9819206829": {
+"score": 9.2,
+"google_place_id": "ChIJT65_n1Rxw0cRtBoneFLxXss"
+},
+"osm-volta-n1837379195": {
+"score": 8.4,
+"google_place_id": "ChIJf4hejGxxw0cRjqf_EBbqIYM"
+},
+"osm-vuslat-etli-ekmek-n13055218101": {
+"score": 8.8,
+"google_place_id": "ChIJfS28XRp1w0cR_rUlLiaPX3I"
+},
+"osm-wally-n11111845674": {
+"score": 8.8,
+"google_place_id": "ChIJAQDwFUdxw0cRi3qoWxi7JIU"
+},
+"osm-wang-hung-w316401895": {
+"score": 8.4,
+"google_place_id": "ChIJ86t91Sl3w0cRFawHXO0L-ZA"
+},
+"osm-wasbar-n1532795039": {
+"score": 8.6,
+"google_place_id": "ChIJdybHKEdxw0cRVE2XmSuEg50"
+},
+"osm-wasbar-n6138202038": {
+"score": 8.8,
+"google_place_id": "ChIJPe2ZDw1xw0cRy29yvdl8Cls"
+},
+"osm-way-n4361414624": {
+"score": 9.2,
+"google_place_id": "ChIJ482RzeFxw0cRRjUZx-0fBF0"
+},
+"osm-win-n12574625746": {
+"score": 9.2,
+"google_place_id": "ChIJDWOklkBxw0cReUStIAc504M"
+},
+"osm-woest-n4863374603": {
+"score": 9.2,
+"google_place_id": "ChIJ2QRM3XJxw0cRO3AwGXpHZPQ"
+},
+"osm-wok-king-w1110607357": {
+"score": 8.4,
+"google_place_id": "ChIJB9sp-SR0w0cRDWVD6TVtoOE"
+},
+"osm-yalla-yalla-n11049255677": {
+"score": 8.8,
+"google_place_id": "ChIJdR_7hi5nwUcR1NJimpDOmdM"
+},
+"osm-yammi-yammi-n6780960089": {
+"score": 8.2,
+"google_place_id": "ChIJIWSIe1dxw0cRR9DFbRY1QzU"
+},
+"osm-yeti-n12542341837": {
+"score": 10,
+"google_place_id": "ChIJ9yybVZFxw0cR3ypTw1gav_A"
+},
+"osm-zuru-zuru-ramen-n11688398600": {
+"score": 9.2,
+"google_place_id": "ChIJE-2he69xw0cRhpX86oHDBS0"
+},
+"osm-zwartwit-w237595802": {
+"score": 8.8,
+"google_place_id": "ChIJEeQy1-V1w0cRiVWDs3WYFoE"
+},
+"otium-cucina-italiana": {
+"score": 8.8,
+"google_place_id": "ChIJmY4xjUNxw0cRezIM57coy3o"
+},
+"patrick-foleys": {
+"score": 9.0,
+"google_place_id": "ChIJ1435nENxw0cRC3w4KfN0OJs"
+},
+"patyntje": {
+"score": 8.4,
+"google_place_id": "ChIJyXcZCnxxw0cRpLlyHuUotoE"
+},
+"peaberry-coffeebar": {
+"score": 9.2,
+"google_place_id": "ChIJfXNyq0hxw0cRO6waqycW3I4"
+},
+"piu-di-piu": {
+"score": 9.8,
+"google_place_id": "ChIJQ_md93hxw0cRqtuT9fQIBv0"
+},
+"porter-house": {
+"score": 8.6,
+"google_place_id": "ChIJr3qRe1dxw0cRXAfoLOliAk0"
+},
+"publiek": {
+"score": 9.4,
+"google_place_id": "ChIJG55QGjZxw0cR8A2N2JmgOmY"
+},
+"pulpo": {
+"score": 9.0,
+"google_place_id": "ChIJpV5Dm2pyw0cRcFzmD6kxROw"
+},
+"raaf": {
+"score": 9.4,
+"google_place_id": "ChIJJxQCfAFxw0cRc-r9KtgEJR8"
+},
+"rizoom": {
+"score": 9.4,
+"google_place_id": "ChIJUZ9iT-pxw0cRVauzI26MaTw"
+},
+"roar-gent": {
+"score": 10,
+"google_place_id": "ChIJX-KZ1MFxw0cRVXEjBu-Ytlg"
+},
+"sakas": {
+"score": 9.0,
+"google_place_id": "ChIJ0y-iNw9xw0cRZQ1aomcuv_A"
+},
+"sensum": {
+"score": 9.4,
+"google_place_id": "ChIJ17v_QcenxEcR8tP55_pRpaA"
+},
+"smorbrod": {
+"score": 9.2,
+"google_place_id": "ChIJn0c4vz1xw0cR6jt6Lu8-JG0"
+},
+"soan": {
+"score": 9.6,
+"google_place_id": "ChIJ8yBoVMVxw0cRa1qLnRoTYJ4"
+},
+"steendam-66": {
+"score": 8.8,
+"google_place_id": "ChIJGXHdK0hxw0cR0RopHw1TVKg"
+},
+"t-dreupelkot": {
+"score": 9.2,
+"google_place_id": "ChIJ2VV7R0dxw0cRgvpHjs8oAVw"
+},
+"t-floere-foefke": {
+"score": 9.2,
+"google_place_id": "ChIJfVZ3pz9xw0cR2lvxMFfYuiw"
+},
+"t-galgenhuisje": {
+"score": 8.8,
+"google_place_id": "ChIJaV9ON0dxw0cRH1vStZrn2Ks"
+},
+"t-kofschip": {
+"score": 8.6,
+"google_place_id": "ChIJec8feVdxw0cRTE9Yi0G_MCs"
+},
+"taberna-bask": {
+"score": 8.6,
+"google_place_id": "ChIJlcU3WwB3w0cRuC8_8eXVoTI"
+},
+"take-five-voldersstraat": {
+"score": 9.2,
+"google_place_id": "ChIJrToD1kVxw0cR8A-E9DYkFkM"
+},
+"talloor-d-or": {
+"score": 9.8,
+"google_place_id": "ChIJIWn4U213w0cR6OQeG-TRmhM"
+},
+"tam-tam": {
+"score": 8.2,
+"google_place_id": "ChIJFalBfFdxw0cR4Vq7g7w8mAs"
+},
+"tds": {
+"score": 9.8,
+"google_place_id": "ChIJaZH6ksZxw0cRVAaR74r2xEU"
+},
+"the-celtic-towers": {
+"score": 8.6,
+"google_place_id": "ChIJZ75VE0Fxw0cRWJ2ghn5QesQ"
+},
+"the-cobbler": {
+"score": 8.8,
+"google_place_id": "ChIJ958ZRUtxw0cRxgi-px9vQDc"
+},
+"the-kitchen-1898-the-post": {
+"score": 9.4,
+"google_place_id": "ChIJcQkHMkFxw0cR7tgyCekyLQE"
+},
+"the-mix": {
+"score": 9.2,
+"google_place_id": "ChIJZ6m-Ukdxw0cR6r1y9HHdTK0"
+},
+"trattoria-della-mamma": {
+"score": 9.2,
+"google_place_id": "ChIJR11EjU9xw0cRN8qA0nOIjao"
+},
+"tribune": {
+"score": 9.4,
+"google_place_id": "ChIJsz7PQQBxw0cRejobtrz5c5U"
+},
+"trollekelder": {
+"score": 9.2,
+"google_place_id": "ChIJL4nc60dxw0cRLQ-_M3LWbNw"
+},
+"vandekerckhove-bar": {
+"score": 9.4,
+"google_place_id": "ChIJc_AZG09xw0cRmCw_BQnhEzI"
+},
+"vrijmoed": {
+"score": 9.6,
+"google_place_id": "ChIJy-svI09xw0cR7Jxnl0xh4kE"
+},
+"waterhuis-aan-de-bierkant": {
+"score": 8.8,
+"google_place_id": "ChIJJUOjOkdxw0cRHSlkVm7Q13c"
+},
+"way-bakery-keizerpoort": {
+"score": 9.0,
+"google_place_id": "ChIJH6-e2XZ3w0cR0B0n6EvET14"
+},
+"way-dok-noord": {
+"score": 9.2,
+"google_place_id": "ChIJj3JjXTBxw0cROOlYMvermEs"
+},
+"whynot": {
+"score": 9.6,
+"google_place_id": "ChIJsevcitlxw0cRf1pVb9etQrw"
+},
+"wild-child": {
+"score": 9.2,
+"google_place_id": "ChIJzz7bDT9xw0cRmq5WStxmJto"
+},
+"yalo": {
+"score": 9.2,
+"google_place_id": "ChIJRVh1k-Nxw0cRMlK97Q-2rpw"
+},
+"yume-coffee": {
+"score": 9.4,
+"google_place_id": "ChIJNcwBZ61xw0cRhKuy1w6WouI"
+},
+"yusu": {
+"score": 9.6,
+"google_place_id": "ChIJRQ-Qz2txw0cR85WDnGrI19I"
+},
+"zeppos-vlasmarkt": {
+"score": 8.4,
+"google_place_id": "ChIJo3cwckhxw0cRXhRY1pyGjXo"
+}
+}
+}

@@ -59,6 +59,7 @@
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
+  if (r.gscore) $('#hname').insertAdjacentHTML('beforeend', TG.scoreBadge(r));
   // "Open now" / "Closed · opens Tue 08:00" (Europe/Brussels, js/hours.js); nothing when the hours are unknown; refreshed every minute
   const paintOpen = () => { const h = TG.openLabel(TG.openState(r), true), el = $('#hopen'); if (el && el.innerHTML !== h) el.innerHTML = h; };
   paintOpen(); setInterval(paintOpen, 60000);

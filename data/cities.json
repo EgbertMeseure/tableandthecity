@@ -32,7 +32,8 @@
      "veggie": "data/cities/gent-veggie.json",
      "heroes": "data/cities/gent-heroes.json",
      "breakfast": "data/cities/gent-breakfast.json",
-     "instagram": "data/cities/gent-instagram.json"
+     "instagram": "data/cities/gent-instagram.json",
+     "ratings": "data/cities/gent-ratings.json"
     },
     {
      "id": "antwerpen",
