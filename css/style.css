@@ -565,3 +565,26 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
   .dhero__body h1 .gscore{font-size:13px;padding:2px 7px 1px;vertical-align:.6em}
 }
 @media (prefers-reduced-motion:reduce){.crq__sheet,.crq__scrim{transition:none}}
+
+/* ---- PWA: safe areas (env() is 0 on desktop and in a normal browser tab, so nothing changes there) ---- */
+.hero>.topbar,.dhero>.topbar{margin-top:env(safe-area-inset-top,0px)}
+.navdrawer{padding-top:calc(42px + env(safe-area-inset-top,0px));padding-bottom:calc(42px + env(safe-area-inset-bottom,0px))}
+.sheet{padding-top:env(safe-area-inset-top,0px)}
+.sheet__foot{padding-bottom:calc(28px + env(safe-area-inset-bottom,0px))}
+.qz,.crq,.lightbox{padding-top:env(safe-area-inset-top,0px)}
+.site-footer{padding-bottom:calc(44px + env(safe-area-inset-bottom,0px))}
+/* installed app (standalone, iOS status bar = black-translucent): a black strip behind the status bar so it stays readable on white sections */
+@media (display-mode:standalone){html::after{content:"";position:fixed;top:0;left:0;right:0;height:env(safe-area-inset-top,0px);background:#0b0b0b;z-index:4000;pointer-events:none}}
+/* ---- PWA: one-time "install the app" hint (phones only; js/pwa.js) ---- */
+.apphint{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:2300;display:flex;align-items:center;gap:12px;max-width:460px;margin:0 auto;
+  padding:10px 10px 10px 12px;background:rgba(11,11,11,.94);color:#f2f2f2;border:1px solid rgba(200,169,106,.55);border-radius:20px;box-shadow:0 12px 34px rgba(0,0,0,.28);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);font-family:var(--sans);opacity:0;transform:translateY(16px);transition:opacity .35s ease,transform .35s ease}
+.apphint.is-in{opacity:1;transform:none}
+.apphint img{flex:none;width:40px;height:40px;border-radius:10px}
+.apphint__t{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px;line-height:1.35}
+.apphint__t b{font:600 12.5px/1.2 var(--serif);letter-spacing:.02em}
+.apphint__t span{font-size:11.5px;color:#cfcfcf}
+.apphint__share{width:15px;height:15px;vertical-align:-3px;fill:none;stroke:#c8a96a;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.apphint__go{flex:none;height:34px;padding:0 14px;border-radius:999px;border:0;background:var(--accent);color:#111;font:600 10px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;cursor:pointer}
+.apphint__x{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:none;color:#fff;font-size:18px;line-height:1;cursor:pointer}
+@media (prefers-reduced-motion:reduce){.apphint{transition:none}}

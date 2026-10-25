@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Offline — Table and the City</title>
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+<style>
+  html,body{height:100%;margin:0;background:#0b0b0b;color:#f2f2f2}
+  body{display:flex;align-items:center;justify-content:center;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif;text-align:center;
+       padding:calc(24px + env(safe-area-inset-top)) calc(24px + env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom)) calc(24px + env(safe-area-inset-left));box-sizing:border-box}
+  main{max-width:420px}
+  img{width:96px;height:96px;border-radius:22px}
+  h1{font-family:'Bodoni Moda','Playfair Display',Didot,'Times New Roman',serif;font-weight:600;font-size:34px;letter-spacing:.04em;margin:26px 0 8px}
+  h1 i{font-family:'Playfair Display',Georgia,serif;color:#c8a96a;font-weight:500}
+  p{color:#cfcfcf;font-size:14px;line-height:1.6;margin:0 0 26px}
+  button,a.btn{display:inline-flex;align-items:center;height:44px;padding:0 26px;border-radius:999px;border:1px solid #c8a96a;background:#c8a96a;color:#111;
+       font:600 11px/1 'Montserrat',Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;cursor:pointer;text-decoration:none}
+  a.btn{background:transparent;color:#f2f2f2;border-color:rgba(255,255,255,.6);margin-left:8px}
+</style>
+</head>
+<body>
+<main>
+  <img src="img/icons/icon-192.png" alt="">
+  <h1>You're <i>offline</i></h1>
+  <p>This page isn't saved on your device yet. Pages you've opened before still work offline — reconnect to see the latest tables.</p>
+  <button onclick="location.reload()">Try again</button><a class="btn" href="./">Home</a>
+</main>
+</body>
+</html>
