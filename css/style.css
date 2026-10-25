@@ -448,6 +448,8 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz-card__thumb .mono-thumb>span{font-size:30px}.qz-card__thumb .mono-thumb.two>span{font-size:22px}
 .qz-card__body{display:flex;flex-direction:column;gap:4px;min-width:0}
 .qz-card__top{display:flex;flex-wrap:wrap;gap:5px;min-height:0}
+.qz-nodiet{color:var(--text-2);border-style:dashed}
+.qz__relax--diet{color:var(--ink)}
 .qz-card__top:empty{display:none}
 .qz-card__top .oh{font-size:10px;padding:1px 8px 1px 7px}
 .qz-card__top .badge{font-size:8.5px;padding:2px 7px}

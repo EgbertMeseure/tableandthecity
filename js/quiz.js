@@ -71,7 +71,9 @@
     fancy: r => ['fine dining', 'gastro-bistro'].includes(r.category) || TG.isStar(r.distinctions.michelin)
   };
   const DIET = { veggie: r => !!r.veggieLevel, vegan: r => r.vegan === 'yes' };   // = the Veggie & vegan / Vegan options chips
-  const DIET_Q = { id: 'diet', q: 'Any dietary wishes?', hard: true, relax: 'diet', opts: [
+  /* three equal answers (no separate 'No preference' link on this step); the diet is never relaxed silently, see results() */
+  const DIET_Q = { id: 'diet', q: 'Any dietary wishes?', hard: true, relax: 'diet', noSkip: true, opts: [
+    { v: 'any', l: 'No preference', s: 'Everything, meat and fish included', chip: 'Any diet' },
     { v: 'veggie', l: 'Veggie', s: 'Vegetarian, vegan or clear veggie options', f: DIET.veggie },
     { v: 'vegan', l: 'Vegan', s: 'Fully vegan or clear vegan options', f: DIET.vegan }] };
   /* 'What kind of food?': Any + the cuisine groups with >= 3 restaurants (TG.cuisineList, filled in once the data is loaded) */
@@ -87,6 +89,11 @@
     weekend: () => ({ v: 'weekend', l: C => C.wkLabel, s: C => `Sat ${shortDate(C.day(C.wk[0]).iso)} – Sun ${shortDate(C.day(C.wk[1]).iso)}` }),
     pick: () => ({ v: 'pick', pick: true, l: 'Pick a date', s: C => `Any day until ${dateLabel(C.day(PLACE_DAYS).iso)}` })
   };
+  const DIET_ON = a => a.diet === 'veggie' || a.diet === 'vegan';
+  /* the diet label on a result card: fully vegetarian / vegan places, or places with clear options */
+  const DIET_LABEL = { vegan: 'Fully vegan', vegetarian: 'Fully vegetarian', 'vegan-friendly': 'Vegan options', 'veggie-friendly': 'Veggie options' };
+  const dietLabel = r => r.veggieLevel === 'vegetarian' && r.vegan === 'yes' ? 'Fully vegetarian · vegan options' : DIET_LABEL[r.veggieLevel] || '';
+  const FULLY = r => r.veggieLevel === 'vegan' || r.veggieLevel === 'vegetarian';
   const VR = r => ({ vegan: 4, vegetarian: 3, 'vegan-friendly': 2, 'veggie-friendly': 1 }[r.veggieLevel] || 0);
   const base = r => (r.curated ? 20 : 0) + TG.distRank(r) / 20;
   const SECTIONS = {
@@ -116,7 +123,7 @@
         if (a.occasion === 'casual') s += ['casual', 'restaurant', 'brasserie'].includes(c) ? 3 : -2;
         if (+a.people >= 8) s += r.reservation_url ? 5 : (TG.known(r.phone) && r.phone ? 3 : 0);
         else if (+a.people === 4) s += r.reservation_url ? 1 : 0;
-        if (a.diet) s += VR(r);
+        if (DIET_ON(a)) s += VR(r);
         return s;
       },
       list(a) {
@@ -149,7 +156,7 @@
         DIET_Q,
         whenQ('When?', [W.now(), W.today(), W.tomorrow(), W.weekend(), W.pick()])
       ],
-      score: (r, a) => base(r) + (a.purpose === 'food' && TG.mealOf(r).any ? 2 : 0) + (r.features.seating === true && a.purpose === 'laptop' ? 1 : 0) + (a.diet ? VR(r) : 0),
+      score: (r, a) => base(r) + (a.purpose === 'food' && TG.mealOf(r).any ? 2 : 0) + (r.features.seating === true && a.purpose === 'laptop' ? 1 : 0) + (DIET_ON(a) ? VR(r) : 0),
       list: a => ({ group: 'coffee', ...(a.purpose === 'quick' ? { type: 'coffee_bar' } : {}), ...dietF(a), ...(a.when === 'now' ? { open: true } : {}) })
     },
     bakery: {
@@ -161,7 +168,7 @@
         DIET_Q,
         whenQ('When?', [W.now('Open now'), W.today(), W.tomorrow(), W.weekend(), W.pick()])
       ],
-      score: (r, a) => base(r) + (a.diet ? VR(r) : 0),
+      score: (r, a) => base(r) + (DIET_ON(a) ? VR(r) : 0),
       list: a => ({ group: 'bakeries', ...(a.kind ? { type: a.kind === 'bread' ? 'bakery' : 'patisserie' } : {}), ...dietF(a), ...(a.when === 'now' ? { open: true } : {}) })
     },
     event: {
@@ -209,16 +216,26 @@
   function results(sec, a, C) {
     const order = sec.relaxOrder || sec.questions.filter(q => q.relax).map(q => q.relax);   // least important first
     const exact = matches(sec, a, C);
-    let list = exact, relaxed = null, near = '';
+    let list = exact, relaxed = null, near = '', dietMsg = '', dietTo = null;   // dietTo: the diet the shown list really uses
     const pickIso = sec.events && isPick(a.ewhen) ? a.ewhen.slice(2) : '';
     if (pickIso && exact.length < 3) {                                     // a picked day: fill up with the events nearest to it
       list = matches(sec, a, C, ['ewhen']); if (list.length <= exact.length) list = matches(sec, a, C, ['ewhen', 'ekind']);
       near = exact.length ? `Only ${exact.length} on ${dateLabel(pickIso)} — nearest dates added.` : `Nothing on ${dateLabel(pickIso)} — here are the nearest events.`;
+    } else if (exact.length < 3 && a.diet === 'vegan' && !sec.events) {   // too few vegan options: say so, then show vegetarian places
+      const veg = matches(sec, { ...a, diet: 'veggie' }, C);
+      if (veg.length > exact.length) {
+        list = veg; dietTo = 'veggie'; dietMsg = exact.length ? `Only ${exact.length} place${exact.length === 1 ? '' : 's'} with vegan options for this choice — places with vegetarian options added below.` : `No vegan options for this choice. Here are ${veg.every(FULLY) ? 'vegetarian places' : 'places with vegetarian options'} instead.`;
+      } else if (!exact.length) {
+        list = matches(sec, a, C, ['diet']); dietTo = ''; if (list.length) dietMsg = 'No vegan or vegetarian options for this choice. These places have no confirmed veggie options.';
+      }
     } else if (exact.length < 3) {
       for (const k of order) {
-        if (!a[k] || k === 'when') continue;                              // "when" is never relaxed: known-closed places stay out
+        if (!a[k] || k === 'when' || k === 'diet') continue;              // "when" is never relaxed: known-closed places stay out; the diet only with a clear message
         const wider = matches(sec, a, C, [k]);
         if (wider.length > exact.length) { list = wider; relaxed = k; break; }
+      }
+      if (!list.length && a.diet === 'veggie') {
+        list = matches(sec, a, C, ['diet']); dietTo = ''; if (list.length) dietMsg = 'No veggie options for this choice. These places have no confirmed veggie options.';
       }
     }
     const ok = new Set(exact);
@@ -229,7 +246,7 @@
       const tier = r => r._w.now ? 0 : RANK[r._w.s] + 1;                  // open now › open that day › unknown hours
       list = list.slice().sort((x, y) => (a.when && a.when !== 'now' && a.when !== 'today' ? RANK[x._w.s] - RANK[y._w.s] : tier(x) - tier(y)) || y._s - x._s || x.name.localeCompare(y.name, 'en'));
     }
-    return { list, exactN: exact.length, relaxed, near };
+    return { list, exactN: exact.length, relaxed, near, dietMsg, dietTo };
   }
 
   /* ---------- UI ---------- */
@@ -284,7 +301,7 @@
     return q.opts.map(o => {
       const n = q.hard && !o.pick ? matches(sec, { ...prev, [q.id]: o.v }, C).length : null;
       return { ...o, n };
-    }).filter(o => o.n == null || o.n > 0);
+    }).filter(o => o.n == null || o.n > 0 || q.id === 'diet');            // diet: always the same three answers (an empty Vegan gets an honest fallback)
   }
   function draw() {
     const C = clock();
@@ -309,7 +326,7 @@
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${st.step + 1} of ${st.steps.length}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
       <div class="qz__opts${q.grid ? ' qz__opts--grid' : ''}${q.compact ? ' qz__opts--compact' : ''}">${opts.map(o => optBtn(o, q.id, C)).join('')}</div>
       ${hasPick && st.pick ? `<div class="qz-cal" role="group" aria-label="Pick a date">${calHtml(sec, q, C)}</div>` : ''}
-      <button class="qz__skip" type="button" data-qz-skip>No preference</button>`);
+      ${q.noSkip ? '' : '<button class="qz__skip" type="button" data-qz-skip>No preference</button>'}`);
     const cal = root.querySelector('.qz-cal');
     if (cal) { cal.scrollIntoView({ block: 'nearest' }); const d = cal.querySelector('[aria-pressed="true"], .qz-cal__d:not([disabled])'); if (d) d.focus({ preventScroll: true }); }
   }
@@ -359,15 +376,16 @@
 
   function drawResults(sec, C) {
     const a = {}; Object.entries(st.a).forEach(([k, v]) => { if (v) a[k] = v; });
-    const { list, exactN, relaxed, near } = results(sec, a, C);
+    const { list, exactN, relaxed, near, dietMsg, dietTo } = results(sec, a, C);
     const top = list.slice(0, 6);
-    const chips = st.steps.filter(q => a[q.id]).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : o.chip || val(o.l, C))}</li>`; }).join('');
+    const allFully = !sec.events && top.length > 1 && top.every(FULLY) ? (top.every(r => r.veggieLevel === 'vegan') ? 'All of these are fully vegan.' : 'All of these are fully vegetarian.') : '';
+    const chips = st.steps.filter(q => a[q.id]).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') || (dietMsg && q.id === 'diet') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : o.chip || val(o.l, C))}</li>`; }).join('');
     const rq = relaxed && st.steps.find(q => q.relax === relaxed);
-    const relaxLine = near ? `<p class="qz__relax">${esc(near)}</p>` : rq ? `<p class="qz__relax">Only ${exactN} exact match${exactN === 1 ? '' : 'es'} — we relaxed “${esc(val(qOpt(sec, relaxed, a[relaxed]).l, C))}”.</p>` : '';
+    const relaxLine = (dietMsg ? `<p class="qz__relax qz__relax--diet">${esc(dietMsg)}</p>` : '') + (allFully ? `<p class="qz__note qz__note--diet">${esc(allFully)}</p>` : '') + (near ? `<p class="qz__relax">${esc(near)}</p>` : rq ? `<p class="qz__relax">Only ${exactN} exact match${exactN === 1 ? '' : 'es'} — we relaxed “${esc(val(qOpt(sec, relaxed, a[relaxed]).l, C))}”.</p>` : '');
     const note = sec.note ? sec.note(a) : '';
     let more = '';
     if (sec.events) more = `<button class="pill-btn dark" type="button" data-qz-all="events">All ${APP.E.length} upcoming events</button>`;
-    else { const f = sec.list(a), n = APP.count(f); more = `<button class="pill-btn dark" type="button" data-qz-all='${esc(JSON.stringify(f))}'>Show all ${n} ${n === 1 ? 'match' : 'matches'}</button>`; }
+    else { const f = sec.list(dietTo == null ? a : { ...a, diet: dietTo }), n = APP.count(f); more = `<button class="pill-btn dark" type="button" data-qz-all='${esc(JSON.stringify(f))}'>Show all ${n} ${n === 1 ? 'match' : 'matches'}</button>`; }
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · your picks</p>
       <h2 class="qz__q qz__q--res" id="qz-title">${list.length ? `${top.length} ${esc(sec.noun[top.length === 1 ? 0 : 1])} for you` : 'Nothing matches'}</h2>
       ${chips ? `<ul class="qz__chips">${chips}</ul>` : ''}${relaxLine}${note ? `<p class="qz__note">${esc(note)}</p>` : ''}
@@ -383,10 +401,11 @@
     if (a.when && a.when !== 'now' && w.days && w.days.length) when = w.days.map(d => `${DAY[d.dow]} ${ivText(d.iv)}`).join(' · ');
     else if (a.when && w.s === 'unknown') when = 'Hours not confirmed';
     const isRest = r.group === 'restaurants';
+    const dl = dietLabel(r), diet = DIET_ON(a) || FULLY(r) ? (dl ? `<span class="badge veg lv-${esc(r.veggieLevel)}">${esc(dl)}</span>` : '<span class="badge qz-nodiet">No confirmed veggie options</span>') : '';
     const foot = APP.bookOn(r) ? APP.booking(r) : isRest && r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : '';
     return `<a class="qz-card bw-host" href="${APP.detailUrl(r.id)}">
       <span class="qz-card__thumb">${TG.thumb(r, '64px')}</span>
-      <span class="qz-card__body"><span class="qz-card__top">${nowish || (o.state === 'open' && !isPick(a.when)) ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1 })}</span>
+      <span class="qz-card__body"><span class="qz-card__top">${nowish || (o.state === 'open' && !isPick(a.when)) ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1, noVeg: true })}${diet}</span>
         <span class="qz-card__name">${esc(r.name)}${TG.scoreBadge(r)}</span><span class="qz-card__meta">${meta}</span>
         ${when ? `<span class="qz-card__when">${esc(when)}</span>` : ''}${foot ? `<span class="qz-card__foot">${foot}</span>` : ''}</span></a>`;
   }

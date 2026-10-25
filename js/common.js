@@ -141,13 +141,13 @@ const TG = (() => {
   }
   const isUpcoming = e => !!liveEvent(e);
   /* priority order; cards pass {max: 2} */
-  function badges(r, { withDist = true, max = 99 } = {}) {
+  function badges(r, { withDist = true, max = 99, noVeg = false } = {}) {
     const b = [];
     if (r.status !== 'open') b.push(`<span class="badge">${esc(r.status)}</span>`);
     if (r.upcoming) b.push(`<span class="badge soon">${esc(soonLabel(r))}</span>`);
     else if (r.isNew) b.push(`<span class="badge solid new">${esc(newLabel(r))}</span>`);
     if (r.events.length) b.push('<span class="badge solid">Event</span>');
-    if (r.veggieLevel) b.push(`<span class="badge veg lv-${r.veggieLevel}" title="${esc(VEG_LABEL[r.veggieLevel])}">${esc(VEG_SHORT[r.veggieLevel])}</span>`);
+    if (r.veggieLevel && !noVeg) b.push(`<span class="badge veg lv-${r.veggieLevel}" title="${esc(VEG_LABEL[r.veggieLevel])}">${esc(VEG_SHORT[r.veggieLevel])}</span>`);
     if (withDist && r.distinctions.michelin && r.distinctions.michelin !== 'Michelin selection') b.push(`<span class="badge dist">${esc(stars(r.distinctions.michelin))}</span>`);
     if (withDist && r.distinctions.gaultMillau) b.push(`<span class="badge dist">G&amp;M ${r.distinctions.gaultMillau}</span>`);
     return b.slice(0, max).join('');
