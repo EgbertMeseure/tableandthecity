@@ -593,3 +593,13 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .sgp .crq__sheet{width:min(480px,100%)}
 .sgp .crq__form{gap:10px}
 @media (max-width:640px){.sgp__row{grid-template-columns:1fr 1fr;gap:10px}.foot-links{align-items:flex-start}}
+
+/* ---------- Logo: "Flat C" lockup (img/brand/*.svg). Sized by height only; the SVG has ~18.5% built-in clear space,
+   pulled back with negative margins so the artwork lines up where the old text wordmark sat. White variant: every
+   placement (hero, detail hero, footer) is on a dark background. ---------- */
+.logo{--logo-h:40px;display:inline-flex;align-items:center;line-height:0;text-decoration:none;flex:none}
+.logo__img{display:block;height:var(--logo-h);width:auto;margin:calc(var(--logo-h)*-.185) 0 calc(var(--logo-h)*-.185) calc(var(--logo-h)*-.185)}
+.site-footer .logo{--logo-h:34px}
+@media (max-width:900px){.logo{--logo-h:36px}}
+@media (max-width:640px){.hero .logo,.dhero .logo{--logo-h:32px}}
+.hero .logo__img,.dhero .logo__img{filter:drop-shadow(0 1px 6px rgba(0,0,0,.55))}   /* keeps the thin white strokes legible over bright photo spots */

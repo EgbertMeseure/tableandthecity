@@ -424,7 +424,7 @@ const TG = (() => {
   function renderFooter(cfg, city, extra = '') {
     const fam = cfg.brand.family.map(f => `<a href="https://${esc(f.domain)}" rel="noopener" title="${esc(f.domain)} – ${esc(f.status)}"><span class="wordmark"><span class="wm-main">${esc(f.name.split(' ')[0])}</span><span class="wm-sub">and the City</span></span></a> <span style="opacity:.6">(${esc(f.status)})</span>`).join(' · ');
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
-      <a class="wordmark" href="${cityUrl('index.html', city.id)}"><span class="wm-main">Table</span><span class="wm-sub">and the City</span></a>
+      <a class="logo logo--foot" href="${cityUrl('index.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
       <div class="family">Part of the <i style="font-family:var(--serif-it);text-transform:none;font-size:15px;letter-spacing:.02em">… and the City</i> family<br>${fam}</div>
       <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="#top">Back to top ↑</a></div>
       <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span><span>Ratings: Google</span><span class="visits" data-visits hidden></span></div>`);
