@@ -134,19 +134,20 @@ Event cards (home + detail) lead with the event **name** (serif, max 3 lines); d
 All three visitor forms send with one button through `js/forms.js` (`TGForms.send`), always to info@tableandthecity.com.
 Visitors never need their own mail app (there is no mailto fallback).
 - **Primary: FormSubmit** – JSON POST to `FEEDBACK_FORMSUBMIT` (`https://formsubmit.co/ajax/info@tableandthecity.com`) with `_subject`,
-  `_template: 'table'`, `_captcha: 'false'`, `_replyto` (visitor's email, if given), `_honey` (honeypot). Success = `success` is `true` or `"true"`;
+  `_template: 'basic'` (FormSubmit's plainest e-mail), `_captcha: 'false'`, `_replyto` (visitor's email, if given), `_honey` (honeypot). Success = `success` is `true` or `"true"`;
   FormSubmit's "needs activation" answer counts as a failure (activate once via the link FormSubmit mails to info@).
 - **Fallback: Web3Forms** – used only when FormSubmit fails (network, timeout, non-2xx, success false): JSON POST to `FEEDBACK_ENDPOINT` with
   `access_key`, `subject`, `replyto`, `botcheck`. Not primary because its Cloudflare managed challenge (403 `cf-mitigated: challenge`) blocks some
   visitors, e.g. from Belgium.
 - Each attempt times out after 12 s; the error message appears only when both fail. States: **Send** → *Sending…* → a thank-you;
 on a network error, timeout (15 s) or `success:false` the form shows "Couldn't send, please try again." and keeps what was typed.
-- **Suggest a place** (`js/suggest.js`; footer, nav drawer, end of the list, `#suggest`): subject `Suggestion: <place> (<city>)`; fields `place_name`, `city`, `place_type`, `address_or_map`, `why`.
-- **Know this place?** (`js/detail.js`, under *At a glance* on every detail page): tap pills (1× = has it ✓, 2× = doesn't have it, 3× = not sure) + an optional note; subject `Correction: <place> (<city>)`; fields `place_name`, `place_id`, `city`, `place_url`, `changes`, `note`. Max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`).
-- **Request your city** (`js/cityreq.js`, bottom of the Country/City dropdowns): subject `City request: <city>, <country>`; fields `country`, `city`.
+- **Suggest a place** (`js/suggest.js`; footer, nav drawer, end of the list, `#suggest`): subject `Suggestion: <place>`; fields Place, City, Type, Location*, Why*, From*.
+- **Know this place?** (`js/detail.js`, under *At a glance* on every detail page): tap pills (1× = has it ✓, 2× = doesn't have it, 3× = not sure) + an optional note; subject `Correction: <place>`; fields Place (`<place>, <city>`), Changes* (e.g. `Terrace: yes, has it; Veggie: no, doesn’t have it`), Note*, Link (the place page URL). Max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`).
+- **Request your city** (`js/cityreq.js`, bottom of the Country/City dropdowns): subject `City request: <city>`; fields City, Country, From*.
 
-Every submission also carries `form_type`, the sender name "Table and the City website", `message` (readable summary), `page`, `sent_at`, and
-the reply-to = the visitor's email when given. Anti-spam: a hidden honeypot in each form (filled → silently dropped in the browser), plus the services'
+The e-mails are kept minimal: only these fields, in this order, with short labels; * = only when given (empty fields are never sent).
+No technical extras (no form type, page, timestamp or sender name). Reply-to = the visitor's email when given. The Web3Forms fallback sends the
+same subject and fields. Anti-spam: a hidden honeypot in each form (filled → silently dropped in the browser), plus the services'
 own honeypots (`_honey` / `botcheck`, sent empty).
 Configure in `js/config.js` (public, no secrets): `FEEDBACK_FORMSUBMIT`, `FEEDBACK_ENDPOINT` (`https://api.web3forms.com/submit`) and
 `FEEDBACK_ACCESS_KEY` (the Web3Forms access key; public by design, it can only send to the inbox it was created for). Both senders empty = the

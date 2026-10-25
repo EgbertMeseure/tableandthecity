@@ -1,6 +1,6 @@
 /* "Suggest a place": a small form (same .crq sheet as "Request your city") opened from any [data-suggest] element
    (footer, nav drawer, end of the "All places" list) or the #suggest URL hash.
-   Sent with TGForms.send (js/forms.js: Web3Forms → info@tableandthecity.com); no mail app involved.
+   Sent with TGForms.send (js/forms.js: FormSubmit, fallback Web3Forms → info@tableandthecity.com); no mail app involved.
    No endpoint configured → the entry points are hidden. */
 (function () {
   'use strict';
@@ -65,12 +65,10 @@
         form.elements[bad[0]].focus(); return;
       }
       if (form.elements.botcheck.value) return thanks(d);                // honeypot filled → silently drop
-      const message = [`Place: ${d.name}`, `City: ${d.city}`, `Type: ${d.type}`, d.where && `Address / map: ${d.where}`, d.why && `Why it's great:\n${d.why}`,
-        d.email && `Email: ${d.email}`].filter(Boolean).join('\n');
       const btn = form.querySelector('.crq__send'); btn.disabled = true; btn.textContent = 'Sending…'; root.classList.add('is-sending');
       try {
-        await F.send({ kind: 'Suggest a place', subject: `Suggestion: ${d.name} (${d.city})`, email: d.email,
-          fields: { place_name: d.name, city: d.city, place_type: d.type, address_or_map: d.where, why: d.why }, message });
+        await F.send({ subject: `Suggestion: ${d.name}`, email: d.email,
+          fields: { Place: d.name, City: d.city, Type: d.type, Location: d.where, Why: d.why, From: d.email } });
         thanks(d);
       } catch (_) {
         err.hidden = false; err.textContent = F.FAIL;                        // the typed text stays in the form

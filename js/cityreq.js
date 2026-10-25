@@ -1,5 +1,5 @@
 /* "Request your city": an extra item at the bottom of the header Country ▾ / City ▾ dropdowns that opens a small form
-   (Country, City, optional email), sent with TGForms.send (js/forms.js: Web3Forms → info@tableandthecity.com), like every
+   (Country, City, optional email), sent with TGForms.send (js/forms.js: FormSubmit, fallback Web3Forms → info@tableandthecity.com), like every
    visitor form; no mail app involved. Hook: this script tag only (index.html, restaurant.html). */
 (function () {
   'use strict';
@@ -79,8 +79,7 @@
       const btn = form.querySelector('.crq__send'), err = root.querySelector('.crq__err');
       btn.disabled = true; btn.textContent = 'Sending…'; root.classList.add('is-sending');
       try {
-        await F.send({ kind: 'Request your city', subject: `City request: ${city}, ${country}`, email,
-          fields: { country, city }, message: `Country: ${country}\nCity: ${city}${email ? `\nEmail: ${email}` : ''}` });
+        await F.send({ subject: `City request: ${city}`, email, fields: { City: city, Country: country, From: email } });
         done();
       } catch (_) { err.hidden = false; err.textContent = F.FAIL; }          // the typed text stays in the form
       finally { btn.disabled = false; btn.textContent = 'Send'; root.classList.remove('is-sending'); }

@@ -140,12 +140,10 @@
   function bindFeedback() {
     const F = window.TGForms, box = $('#fb'); if (!box) return;
     if (!F || !F.ready) { box.remove(); return; }                         // no endpoint configured → no form (never a mailto)
-    const pageUrl = location.href.split('#')[0], subject = `Correction: ${r.name} (${city.name})`;
+    const pageUrl = location.href.split('#')[0], subject = `Correction: ${r.name}`;
     const LABEL = Object.fromEntries(FB), NEXT = { '': 'yes', yes: 'no', no: '' }, SAY = { '': 'not sure', yes: 'has it', no: 'doesn’t have it' };
     const changes = () => [...box.querySelectorAll('.fbp')].filter(b => b.dataset.v).map(b => ({ feature: b.dataset.k, label: LABEL[b.dataset.k], value: b.dataset.v === 'yes' }));
     const note = () => $('#fb-note').value.trim().slice(0, 200);
-    const summary = (ch, n) => [`Place: ${r.name} (${r.id}), ${city.name}`, `Page: ${pageUrl}`, '',
-      ...(ch.length ? ['Visitor says:', ...ch.map(c => `- ${c.label}: ${c.value ? 'yes, has it' : 'no, doesn’t have it'}`)] : []), ...(n ? ['', `Note: ${n}`] : [])].join('\n');
     const send = $('#fb-send'), msg = $('#fb-msg');
     const refresh = () => { send.disabled = !(changes().length || note()); };
     box.addEventListener('click', e => { const b = e.target.closest('.fbp'); if (!b) return; b.dataset.v = NEXT[b.dataset.v];
@@ -161,9 +159,8 @@
       const prev = sent(); if (prev.length >= 3) { msg.textContent = 'Thanks — we already received your notes for this place today.'; return; }
       send.disabled = true; send.textContent = 'Sending…'; msg.textContent = ''; box.classList.add('is-sending');
       try {
-        await F.send({ kind: 'Know this place? (correction)', subject,
-          fields: { place_name: r.name, place_id: r.id, city: city.name, place_url: pageUrl,
-            changes: ch.map(c => `${c.label}: ${c.value ? 'yes' : 'no'}`).join('; '), note: n }, message: summary(ch, n) });
+        await F.send({ subject, fields: { Place: `${r.name}, ${city.name}`,
+          Changes: ch.map(c => `${c.label}: ${c.value ? 'yes, has it' : 'no, doesn’t have it'}`).join('; '), Note: n, Link: pageUrl } });
         try { localStorage.setItem(RL, JSON.stringify([...prev, Date.now()])); } catch (_) {}
         thanks();
       } catch (_) {
