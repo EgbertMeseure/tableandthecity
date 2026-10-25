@@ -10,7 +10,7 @@
      the OSM tile usage policy discourages bulk/offline caching; the browser's normal HTTP cache still applies.
    All paths are relative to this file, so the same worker runs under /tableandthecity/ (GitHub Pages), at a domain root,
    or inside a Capacitor wrapper. */
-const VERSION = '8b1eb52fb2'; // stamped
+const VERSION = 'd118df8798'; // stamped
 const PRECACHE = [
  "./",
  "index.html",
@@ -20,33 +20,35 @@ const PRECACHE = [
  "favicon.ico",
  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
  "vendor/leaflet.markercluster/MarkerCluster.css",
- "css/brand.css?v=8b1eb52fb2",
- "css/style.css?v=8b1eb52fb2",
+ "css/brand.css?v=d118df8798",
+ "css/style.css?v=d118df8798",
  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
  "vendor/leaflet.markercluster/leaflet.markercluster.js",
- "js/config.js?v=8b1eb52fb2",
- "js/hours.js?v=8b1eb52fb2",
- "js/common.js?v=8b1eb52fb2",
- "js/app.js?v=8b1eb52fb2",
- "js/quiz.js?v=8b1eb52fb2",
- "js/cityreq.js?v=8b1eb52fb2",
- "js/pwa.js?v=8b1eb52fb2",
- "js/detail.js?v=8b1eb52fb2",
+ "js/config.js?v=d118df8798",
+ "js/hours.js?v=d118df8798",
+ "js/common.js?v=d118df8798",
+ "js/app.js?v=d118df8798",
+ "js/quiz.js?v=d118df8798",
+ "js/cityreq.js?v=d118df8798",
+ "js/pwa.js?v=d118df8798",
+ "js/detail.js?v=d118df8798",
  "img/icons/apple-touch-icon.png",
  "img/icons/favicon-16.png",
  "img/icons/favicon-32.png",
+ "img/icons/favicon-48.png",
  "img/icons/icon-192.png",
  "img/icons/icon-512.png",
+ "img/icons/icon-maskable-1024.png",
  "img/icons/icon-maskable-512.png",
- "data/cities.json?v=8b1eb52fb2",
- "data/cities/gent.json?v=8b1eb52fb2",
- "data/cities/gent-upcoming.json?v=8b1eb52fb2",
- "data/cities/gent-osm.json?v=8b1eb52fb2",
- "data/cities/gent-veggie.json?v=8b1eb52fb2",
- "data/cities/gent-heroes.json?v=8b1eb52fb2",
- "data/cities/gent-breakfast.json?v=8b1eb52fb2",
- "data/cities/gent-instagram.json?v=8b1eb52fb2",
- "data/cities/gent-ratings.json?v=8b1eb52fb2"
+ "data/cities.json?v=d118df8798",
+ "data/cities/gent.json?v=d118df8798",
+ "data/cities/gent-upcoming.json?v=d118df8798",
+ "data/cities/gent-osm.json?v=d118df8798",
+ "data/cities/gent-veggie.json?v=d118df8798",
+ "data/cities/gent-heroes.json?v=d118df8798",
+ "data/cities/gent-breakfast.json?v=d118df8798",
+ "data/cities/gent-instagram.json?v=d118df8798",
+ "data/cities/gent-ratings.json?v=d118df8798"
 ]; // stamped
 const SHELL = `tatc-shell-${VERSION}`, RUNTIME = `tatc-runtime-${VERSION}`;
 const SWR_HOSTS = ['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com'];
