@@ -8,7 +8,7 @@
   const CITY = city.name;
   document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
   const $ = s => document.querySelector(s);
-  const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // behind "More filters"
+  const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // set by the category cards (and shareable URLs); no filter panel
   const QUICK = ['open', 'new', 'veggie', 'vegan', 'events'];                  // chips in the main row
   const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, open: false, stage: '', vlevel: '', meal: '', style: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
@@ -22,7 +22,8 @@
   if (!/^[a-z-]{0,20}$/.test(state.style)) state.style = '';
   if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
-  if (!['rec', 'dist', 'new', 'price'].includes(state.sort)) state.sort = 'rec';
+  ['area', 'cuisine', 'price'].forEach(k => state[k] = ''); if (state.dist !== 'michelin') state.dist = '';   // filter panel removed: only what the cards can set
+  if (state.sort !== 'dist') state.sort = 'rec';                         // no sort menu: recommended order, or distance once Near me / a map point is set
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
     ['q', ...ADV, 'stage', 'vlevel', 'meal', 'style', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
@@ -54,7 +55,7 @@
     return { url: r.heroImage.url, credit: `Photo: ${dom} (${r.name})`, href: r.heroImage.source };
   }
   // ---- "Choose your table": top-level group cards, each with a small sub-menu ----
-  const sub = (label, f, x) => ({ label, f, x });   // x: hidden on small screens (also in the 'Veggie & vegan' card)
+  const sub = (label, f) => ({ label, f });
   const GROUPS = [
     { label: 'New', img: 'plated', f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
       ...Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g }))] },
@@ -63,19 +64,16 @@
     { label: 'Restaurants', img: 'finedining', f: { group: 'restaurants' }, subs: [
       sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
       sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
-      sub('Casual', { group: 'restaurants', type: 'casual' }),
-      sub('Vegan', { group: 'restaurants', vlevel: 'vegan' }, 1), sub('Vegetarian', { group: 'restaurants', vlevel: 'vegetarian' }, 1),
-      sub('Vegan-friendly', { group: 'restaurants', vegan: true }, 1), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
+      sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
     { label: 'Cafés & bars', img: 'bar', f: { group: 'cafes_bars' }, subs: [
       sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
       sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), { ...sub('Cocktail bars', { group: 'cafes_bars', type: 'cocktail_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All'
     { label: 'Coffee', img: 'coffee', f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
-      sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' }),
-      sub('Vegan', { group: 'coffee', vlevel: 'vegan' })] },
+      sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
     { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
-      sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' }), sub('Vegan options', { group: 'bakeries', vegan: true })] },
+      sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
     { label: 'Veggie & vegan', img: 'vegan', f: { veggie: true }, subs: [sub('100% vegan', { vlevel: 'vegan' }), sub('100% vegetarian', { vlevel: 'vegetarian' }),
-      sub('Vegan-friendly', { vegan: true }), sub('Options only', { vlevel: 'veggie-friendly' })] },
+      sub('Vegan-friendly', { vegan: true }), sub('Options only', { vlevel: 'veggie-friendly' })], noDiet: true },
     { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
@@ -83,16 +81,27 @@
     k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
   GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
+  /* diet row in every place card's menu: 'Veggie' (any veggie level, = the Veggie chip) / 'Vegan' (fully vegan or clear vegan options, = the Vegan chip).
+     A toggle narrows 'All' and the sub-categories (live counts; empty ones hide); only shown when the card has matching places */
+  const DIET = { veggie: { label: 'Veggie', f: { veggie: true }, title: 'Fully vegan or vegetarian, or clear veggie/vegan options' }, vegan: { label: 'Vegan', f: { vegan: true }, title: 'Fully vegan or clear vegan options' } };
+  GROUPS.forEach(g => { g.diets = g.toEvents || g.noDiet || !g.subs.length ? [] : Object.keys(DIET).filter(d => (g['n_' + d] = countF({ ...g.f, ...DIET[d].f })) > 0);
+    g.subs.forEach(s => g.diets.forEach(d => { s['n_' + d] = countF({ ...s.f, ...DIET[d].f }); })); });
   // each card is a stadium-shaped tile; its sub-menu lives INSIDE the card (revealed from the bottom, clipped by the card's radius)
   $('#carousel').innerHTML = GROUPS.map((c, i) => `
     <div class="pillcard bw-host grain${c.subs.length ? ' has-menu' : ''}" data-cat="${i}">
       <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">${c.photo ? `<img class="bw pill-photo" src="${esc(c.photo.url)}" referrerpolicy="no-referrer" alt="" loading="lazy" decoding="async" onerror="this.nextElementSibling&&this.nextElementSibling.classList.contains('pill-credit')&&this.nextElementSibling.remove();this.remove()"><a class="pill-credit" href="${esc(c.photo.href)}" target="_blank" rel="noopener">${esc(c.photo.credit)}</a>` : ''}${c.subs.length ? '<i class="pill-shade" aria-hidden="true"></i>' : ''}
       <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.n} ${c.toEvents ? 'upcoming' : 'places'}"${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
         <span class="pill-label">${esc(c.label)}<small>${c.n} ${c.toEvents ? 'upcoming' : 'places'}</small></span></button>
-      ${c.subs.length ? `<div class="pillmenu${c.subs.length > 7 ? ' many' : ''}" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">
+      ${c.subs.length ? `<div class="pillmenu${c.subs.length > 7 ? ' many' : ''}${c.diets.length ? ' has-diet' : ''}" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">${c.diets.length ? `<div class="pm-diet" role="group" aria-label="Diet">${c.diets.map(d => `<button role="menuitemcheckbox" aria-checked="false" tabindex="-1" data-d="${d}" title="${esc(DIET[d].title)}">${DIET[d].label}<b>${c['n_' + d]}</b></button>`).join('')}</div>` : ''}
         <button role="menuitem" tabindex="-1" class="pm-all" data-s="-1" aria-label="All ${esc(c.label.toLowerCase())}, ${c.n}">All<b>${c.n}</b></button><i class="pm-br" aria-hidden="true"></i>
-        ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}"${s.x ? ' class="pm-x"' : ''}>${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
+        ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}">${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
     </div>`).join('');
+  function setDiet(card, d) {                                            // '' = off; updates counts in the open menu
+    const g = GROUPS[+card.dataset.cat]; card.dataset.diet = d;
+    card.querySelectorAll('[data-d]').forEach(b => b.setAttribute('aria-checked', b.dataset.d === d));
+    card.querySelectorAll('[data-s]').forEach(b => { const j = +b.dataset.s, s = j < 0 ? g : g.subs[j], n = d ? s['n_' + d] : s.n;
+      b.querySelector('b').textContent = n; b.hidden = j >= 0 && !n; });
+  }
   function choose(g, f, card) {
     resetFilters(false); Object.assign(state, f); closeMenu(false);
     document.querySelectorAll('.pillcard').forEach(p => p.classList.toggle('active', p === card));
@@ -102,7 +111,7 @@
   let menuFor = null, tOpen, tClose, lastPtr = 'mouse';
   const hoverable = () => matchMedia('(hover: hover) and (pointer: fine)').matches;
   const mainOf = card => card.querySelector('.pill-main');
-  const itemsOf = card => [...card.querySelectorAll('.pillmenu [data-s]')];
+  const itemsOf = card => [...card.querySelectorAll('.pillmenu [data-s], .pillmenu [data-d]')].filter(b => !b.hidden);
   function openMenu(card, { focus = false } = {}) {
     clearTimeout(tClose); if (!card.classList.contains('has-menu')) return;
     if (menuFor !== card) { closeMenu(false); menuFor = card; card.classList.add('menu-open'); mainOf(card).setAttribute('aria-expanded', 'true'); }
@@ -110,7 +119,7 @@
   }
   function closeMenu(refocus) {
     clearTimeout(tOpen); clearTimeout(tClose); if (!menuFor) return;
-    const card = menuFor; menuFor = null; card.classList.remove('menu-open'); mainOf(card).setAttribute('aria-expanded', 'false');
+    const card = menuFor; menuFor = null; card.classList.remove('menu-open'); mainOf(card).setAttribute('aria-expanded', 'false'); if (card.dataset.diet) setDiet(card, '');
     if (refocus) mainOf(card).focus();
   }
   const car = $('#carousel');
@@ -128,8 +137,9 @@
   car.addEventListener('click', e => {
     if (TG.wasDragged(car)) return;
     const c = e.target.closest('.pillcard'); if (!c) return;
-    const g = GROUPS[+c.dataset.cat], it = e.target.closest('[data-s]');
-    if (it) { if (menuFor !== c) { openMenu(c); return; } const j = +it.dataset.s; choose(g, j < 0 ? g.f : g.subs[j].f, c); return; }
+    const g = GROUPS[+c.dataset.cat], it = e.target.closest('[data-s]'), dt = e.target.closest('[data-d]');
+    if (dt) { if (menuFor !== c) { openMenu(c); return; } setDiet(c, c.dataset.diet === dt.dataset.d ? '' : dt.dataset.d); return; }
+    if (it) { if (menuFor !== c) { openMenu(c); return; } const j = +it.dataset.s, d = c.dataset.diet; choose(g, { ...(j < 0 ? g.f : g.subs[j].f), ...(d ? DIET[d].f : {}) }, c); return; }
     // touch / no-hover devices: first tap opens the in-card menu (its first item selects the whole group)
     if (g.subs.length && (lastPtr !== 'mouse' || !hoverable()) && e.detail !== 0) { if (menuFor === c) closeMenu(false); else openMenu(c); return; }
     choose(g, g.f, c);
@@ -149,21 +159,6 @@
   });
   document.addEventListener('pointerdown', e => { if (menuFor && !menuFor.contains(e.target)) closeMenu(false); });
   TG.carousel($('#carousel'));
-
-  // ---- filter options ----
-  const opt = (sel, vals, fmt = v => v) => { $(sel).insertAdjacentHTML('beforeend', vals.map(v => `<option value="${esc(v)}">${esc(fmt(v))}</option>`).join('')); };
-  opt('#f-group', Object.keys(GROUP_LABEL).filter(g => R.some(r => r.group === g)), g => GROUP_LABEL[g]);
-  const CATS_BY_G = { restaurants: ['fine dining', 'gastro-bistro', 'bistro', 'brasserie', 'bistro+brasserie', 'casual', 'restaurant'],
-    cafes_bars: ['dance_cafe', 'brown_cafe', 'irish_pub', 'cocktail_bar', 'beer_bar', 'cafe'], coffee: ['coffee_bar', 'coffee_house', 'coffee_shop'], bakeries: ['bakery', 'patisserie'] };
-  const catOpt = v => v === 'bistro+brasserie' ? 'Bistro + brasserie' : v === 'restaurant' ? 'Restaurant (type not classified)' : CAT_LABEL[v];
-  $('#f-type').insertAdjacentHTML('beforeend', Object.entries(CATS_BY_G).map(([g, vs]) => {
-    const ok = vs.filter(v => R.some(r => v.split('+').includes(r.category)));
-    return ok.length ? `<optgroup label="${esc(GROUP_LABEL[g])}">${ok.map(v => `<option value="${esc(v)}">${esc(catOpt(v))}</option>`).join('')}</optgroup>` : '';
-  }).join(''));
-  const areas = [...new Set(R.map(r => r.district))].sort((a, b) => a.localeCompare(b, 'en'));
-  const hoods = [...new Set(R.map(r => r.neighbourhood))].filter(h => !areas.includes(h)).sort((a, b) => a.localeCompare(b, 'en'));
-  $('#f-area').insertAdjacentHTML('beforeend', `<optgroup label="District">${areas.map(a => `<option value="d:${esc(a)}">${esc(a)}</option>`).join('')}</optgroup><optgroup label="Neighbourhood (OSM)">${hoods.map(a => `<option value="n:${esc(a)}">${esc(a)}</option>`).join('')}</optgroup>`);
-  opt('#f-cuisine', [...new Set(R.flatMap(r => r.cuisineTags))].sort((a, b) => a.localeCompare(b, 'en')));
 
   // ---- search ----
   const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -300,13 +295,21 @@
       ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
       <div class="card__foot">${km}${bookOn(r) ? booking(r) : isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
   }
+  /* list title follows the chosen table: 'Vegan breakfast in Gent', 'New veggie coffee in Gent', … (other filters keep it) */
+  const MEAL_T = { any: 'breakfast & brunch', breakfast: 'breakfast', brunch: 'brunch', wkbrunch: 'weekend brunch', early: 'early openers' };
+  function listTitle() {
+    const diet = state.vlevel ? TG.VEG_LABEL[state.vlevel] : state.vegan ? 'Vegan' : state.veggie ? 'Veggie' : '';
+    const noun = state.type && CAT_LABEL[state.type] ? CAT_LABEL[state.type] : state.meal ? MEAL_T[state.meal] : state.group ? GROUP_LABEL[state.group] : state.dist === 'michelin' ? 'Michelin' : '';
+    const nw = state.new ? (state.stage === 'soon' ? 'Opening soon:' : state.stage === 'open' ? 'Just opened:' : 'New') : '';
+    if (!diet && !noun && !nw) return `All places in ${CITY}`;
+    const w = [nw, diet, noun || (diet || nw ? 'places' : '')].filter(Boolean);
+    return w.map((x, i) => i ? (/^[A-Z][a-z]/.test(x) && !/^Michelin/.test(x) ? x.toLowerCase() : x) : x[0].toUpperCase() + x.slice(1)).join(' ') + ` in ${CITY}`;
+  }
   function render() {
-    syncUrl();
+    syncUrl(); $('#explore-title').textContent = listTitle();
     const list = filtered();
     $('#count').textContent = `${list.length} result${list.length === 1 ? '' : 's'}`;
-    $('#mf-apply').textContent = `Show ${list.length} result${list.length === 1 ? '' : 's'}`;
     $('#reset').hidden = !anyActive();
-    const n = advCount(); $('#more-n').hidden = !n; $('#more-n').textContent = n;
     // list: first PAGE cards, "Show more" appends the next PAGE (keeps the DOM small with ~1,500 places)
     LIST = list; shown = Math.min(PAGE, list.length);
     $('#list').innerHTML = list.length ? list.slice(0, shown).map(card).join('') : '<div class="empty">Nothing matches these filters. <button class="linkbtn" data-reset>Reset</button></div>';
@@ -381,8 +384,6 @@
   // ---- UI binding ----
   function applyUI() {
     $('#q').value = state.q; $('#q-hero').value = state.q;
-    ADV.forEach(k => $('#f-' + k).value = state[k]);
-    $('#sort').value = state.sort;
     document.querySelectorAll('[data-toggle]').forEach(b => b.setAttribute('aria-pressed', state[b.dataset.toggle]));
     document.querySelectorAll('[data-vl]').forEach(b => b.setAttribute('aria-pressed', state.vlevel === b.dataset.vl));
     $('#btn-loc').setAttribute('aria-pressed', !!state.origin);
@@ -396,19 +397,9 @@
   $('#q').addEventListener('input', e => onQ(e.target.value));
   $('#q-hero').addEventListener('input', e => onQ(e.target.value));
   $('#q-hero').addEventListener('keydown', e => { if (e.key === 'Enter') document.getElementById('explore').scrollIntoView(); });
-  ADV.forEach(k => $('#f-' + k).addEventListener('change', e => { state[k] = e.target.value; render(); }));
-  $('#sort').addEventListener('change', e => { state.sort = e.target.value; if (state.sort === 'dist' && !state.origin) locate(); render(); });
   document.querySelectorAll('[data-toggle]').forEach(b => b.addEventListener('click', () => { const k = b.dataset.toggle; state[k] = !state[k]; if (k === 'new' && !state.new) state.stage = ''; b.setAttribute('aria-pressed', state[k]); render(); }));
   document.querySelectorAll('[data-vl]').forEach(b => b.addEventListener('click', () => { state.vlevel = state.vlevel === b.dataset.vl ? '' : b.dataset.vl; applyUI(); render(); }));
   $('#reset').addEventListener('click', () => resetFilters());
-  // "More filters" sheet
-  const sheet = $('#morefilters'), bd = $('#sheet-bd');
-  const openSheet = o => { sheet.classList.toggle('open', o); sheet.setAttribute('aria-hidden', !o); bd.hidden = !o; document.body.classList.toggle('noscroll', o); if (o) $('#f-group').focus(); };
-  $('#btn-more').addEventListener('click', () => openSheet(true));
-  [$('#mf-close'), bd].forEach(x => x.addEventListener('click', () => openSheet(false)));
-  $('#mf-apply').addEventListener('click', () => { openSheet(false); document.getElementById('explore').scrollIntoView(); });
-  $('#mf-clear').addEventListener('click', () => { ADV.forEach(k => state[k] = ''); document.querySelectorAll('.pillcard').forEach(p => p.classList.remove('active')); applyUI(); render(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape' && sheet.classList.contains('open')) openSheet(false); });
   TG.carousel($('#evlist'));
   applyUI(); render();
 })();

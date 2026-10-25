@@ -277,6 +277,14 @@ button,input,select{font-family:inherit}
 .pillcard.menu-open span.pill-label{transform:translateY(-31%)}
 .pillcard.menu-open .pillmenu{visibility:visible;opacity:1;transform:none;transition:opacity .25s ease,transform .35s cubic-bezier(.2,.7,.2,1),visibility 0s}
 .pillcard.menu-open img{transform:scale(1.04)}
+/* diet row (Veggie / Vegan toggles narrow the card's sub-menu); green like the veggie badges */
+.pillmenu .pm-diet{display:flex;flex-basis:100%;justify-content:center;gap:5px;max-width:100%;padding-bottom:6px;margin-bottom:1px;border-bottom:1px solid rgba(255,255,255,.18)}
+.pillmenu .pm-diet button{border-color:rgba(140,200,155,.6);background:rgba(31,94,58,.28)}
+.pillmenu .pm-diet button b{color:#9fd3ad}
+.pillmenu .pm-diet button[aria-checked="true"]{background:#1f5e3a;border-color:#8cc89b;color:#fff}
+.pillmenu .pm-diet button[aria-checked="true"]::before{content:"✓";margin-right:-2px}
+.pillmenu .pm-diet button[aria-checked="true"] b{color:#fff}
+.pillmenu button[hidden]{display:none}
 @media (max-width:700px){.pillmenu{padding:0 9% 26%;gap:4px}.pillcard.menu-open span.pill-label{transform:translateY(-36%)}.pillmenu button{font-size:9.5px;padding:5px 8px;letter-spacing:.05em}.pillmenu .pm-x{display:none}.pillmenu.many{padding-bottom:26%;max-height:74%}}
 @media (prefers-reduced-motion:reduce){.pillmenu,.pillcard span.pill-label,.pillcard .pill-shade{transition:none}}
 

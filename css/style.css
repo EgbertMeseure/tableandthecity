@@ -349,6 +349,10 @@ body.noscroll{overflow:hidden}
   .pillmenu button{font-size:8px;padding:4px 5px;letter-spacing:.01em;gap:3px}
   .pillmenu button b{font-size:9.5px}
   .pillmenu.many{gap:3px;padding-bottom:16%;max-height:82%}.pillmenu.many button{padding:3px 5px}
+  /* diet row (Veggie / Vegan) sits on top of the sub-menu: tighter rows + label a bit higher so 8 rows fit inside the oval */
+  .pillmenu.has-diet{gap:2px;max-height:85%}.pillmenu.has-diet button{padding-top:3px;padding-bottom:3px}
+  .pillcard.menu-open:has(.has-diet) span.pill-label{transform:translateY(-38%)}
+  .pillmenu .pm-diet{gap:3px;padding-bottom:3px;margin:0 3% 1px}.pillmenu .pm-diet button{padding:3px 6px}.pillmenu .pm-diet button b{display:none}
 
   /* --- place cards: 2-column grid of compact vertical cards --- */
   .list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}

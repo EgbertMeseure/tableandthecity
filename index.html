@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="beb76d18e4">
+<meta name="build" content="0d5ed41831">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Table and the City — Gent: fine dining, bistros &amp; chef events</title>
 <meta name="description" content="Table and the City: a curated, filterable guide to Gent's best tables — Michelin and Gault&amp;Millau restaurants, bistros, new openings, vegetarian &amp; vegan options and chef collaborations.">
@@ -22,8 +22,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
-<link rel="stylesheet" href="css/brand.css?v=beb76d18e4">
-<link rel="stylesheet" href="css/style.css?v=beb76d18e4">
+<link rel="stylesheet" href="css/brand.css?v=0d5ed41831">
+<link rel="stylesheet" href="css/style.css?v=0d5ed41831">
 </head>
 <body>
 <header class="hero grain" id="top">
@@ -93,13 +93,6 @@
       <div class="finder__right">
         <button class="linkbtn" id="reset" hidden>Reset</button>
         <span class="count" id="count"></span>
-        <select class="fsel" id="sort" aria-label="Sort">
-          <option value="rec">Recommended</option>
-          <option value="dist">Nearest</option>
-          <option value="new">Newest</option>
-          <option value="price">Price</option>
-        </select>
-        <button class="chip chip--more" id="btn-more" aria-haspopup="dialog" aria-controls="morefilters"><span class="hide-sm">More </span>filters<span class="n" id="more-n" hidden></span></button>
       </div>
     </div>
   </div>
@@ -109,22 +102,6 @@
     <div class="list-more"><button class="pill-btn dark" id="list-more" hidden>Show more</button></div>
   </div>
 </section>
-
-<div class="sheet-backdrop" id="sheet-bd" hidden></div>
-<aside class="sheet" id="morefilters" role="dialog" aria-modal="true" aria-labelledby="mf-title" aria-hidden="true">
-  <div class="sheet__head"><h3 id="mf-title">More filters</h3><button class="close-x" id="mf-close" aria-label="Close">×</button></div>
-  <div class="sheet__body">
-    <label class="field"><span>Group</span><select class="fsel" id="f-group"><option value="">All groups</option></select></label>
-    <label class="field"><span>Category</span><select class="fsel" id="f-type"><option value="">Any category</option></select></label>
-    <label class="field"><span>Neighbourhood</span><select class="fsel" id="f-area"><option value="">Anywhere in the city</option></select></label>
-    <label class="field"><span>Cuisine</span><select class="fsel" id="f-cuisine"><option value="">Any cuisine</option></select></label>
-    <label class="field"><span>Price level</span><select class="fsel" id="f-price"><option value="">Any price</option><option>€€</option><option>€€€</option><option>€€€€</option></select></label>
-    <label class="field"><span>Distinction</span><select class="fsel" id="f-dist">
-      <option value="">Any</option><option value="star">Michelin star(s)</option><option value="bib">Bib Gourmand</option><option value="michelin">In the Michelin Guide</option>
-      <option value="gm15">Gault&amp;Millau ≥ 15</option><option value="gm13">Gault&amp;Millau ≥ 13</option></select></label>
-  </div>
-  <div class="sheet__foot"><button class="pill-btn dark" id="mf-clear">Clear</button><button class="pill-btn solid" id="mf-apply">Show results</button></div>
-</aside>
 
 <section class="section events on-dark grain" id="events">
   <div class="section__head">
@@ -151,9 +128,9 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
-<script src="js/config.js?v=beb76d18e4"></script>
-<script src="js/hours.js?v=beb76d18e4"></script>
-<script src="js/common.js?v=beb76d18e4"></script>
-<script src="js/app.js?v=beb76d18e4"></script>
+<script src="js/config.js?v=0d5ed41831"></script>
+<script src="js/hours.js?v=0d5ed41831"></script>
+<script src="js/common.js?v=0d5ed41831"></script>
+<script src="js/app.js?v=0d5ed41831"></script>
 </body>
 </html>
