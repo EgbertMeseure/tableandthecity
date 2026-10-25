@@ -20,7 +20,8 @@
     // weekend = Sat + Sun; on a Sunday "this weekend" would just be today, so the next one is offered instead
     const sat = b.dow === 6 ? 6 : 5 - b.dow;
     const wk = b.dow === 5 ? [0, 1] : [sat, sat + 1];
-    return { ...b, day: k => ({ k, iso: addDays(b.iso, k), dow: (b.dow + k) % 7 }), wk, wkLabel: b.dow === 6 ? 'Next weekend' : 'This weekend' };
+    return { ...b, day: k => ({ k, iso: addDays(b.iso, k), dow: (b.dow + k) % 7 }), off: iso => Math.round((Date.parse(iso) - Date.parse(b.iso)) / 864e5),
+      wk, wkLabel: b.dow === 6 ? 'Next weekend' : 'This weekend' };
   }
   const hhmm = m => `${String(Math.floor(m / 60) % 24).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
   /* one place on one day: 'open' (opening hours list hours that day [after `from` minutes for today]) | 'closed' (known closed) | 'unknown' */
@@ -40,7 +41,7 @@
   /* a "when" answer → { s, now, days:[{dow, iv}] } (several days: open if open on any, closed only if closed on all) */
   function whenState(r, when, C) {
     if (!when) { const o = TG.openState(r).state; return { s: o, now: o === 'open', days: [] }; }
-    const spec = WHEN[when](C), res = spec.days.map(k => { const d = C.day(k); return { d, ...dayState(r, d, spec.from || 0) }; });
+    const spec = whenSpec(when, C), res = spec.days.map(k => { const d = C.day(k); return { d, ...dayState(r, d, spec.from || 0) }; });
     const s = res.some(x => x.s === 'open') ? 'open' : res.every(x => x.s === 'closed') ? 'closed' : 'unknown';
     return { s, now: res.some(x => x.now), days: res.filter(x => x.s === 'open').map(x => ({ dow: x.d.dow, iv: x.iv })) };
   }
@@ -51,6 +52,15 @@
     tomorrow: () => ({ days: [1] }),
     weekend: C => ({ days: C.wk })
   };
+  /* a picked date is stored as "d:YYYY-MM-DD": same rules as Tomorrow (today → from now on) */
+  const isPick = v => typeof v === 'string' && v.startsWith('d:');
+  function whenSpec(v, C) {
+    if (!isPick(v)) return WHEN[v](C);
+    const k = C.off(v.slice(2)); return k <= 0 ? { days: [0], from: C.mins } : { days: [k] };
+  }
+  const dowOf = iso => (new Date(iso + 'T12:00:00Z').getUTCDay() + 6) % 7;
+  const dateLabel = iso => `${DAY[dowOf(iso)]} ${shortDate(iso)}`;     // "Sat 7 Nov"
+  const PLACE_DAYS = 60;
   const ivText = iv => iv.map(x => x.e == null ? `from ${hhmm(x.s)}` : `${hhmm(x.s)}–${hhmm(x.e)}`).join(', ');
 
   /* ---------- sections: questions, answers and how each maps to data ---------- */
@@ -70,7 +80,8 @@
     today: (l = 'Today') => ({ v: 'today', l, s: () => 'Open now or later today' }),
     tonight: () => ({ v: 'tonight', l: 'Now / tonight', s: () => 'Open now or after 20:00' }),
     tomorrow: () => ({ v: 'tomorrow', l: 'Tomorrow', s: C => DAY_LONG[(C.dow + 1) % 7] }),
-    weekend: () => ({ v: 'weekend', l: C => C.wkLabel, s: C => `Sat ${shortDate(C.day(C.wk[0]).iso)} – Sun ${shortDate(C.day(C.wk[1]).iso)}` })
+    weekend: () => ({ v: 'weekend', l: C => C.wkLabel, s: C => `Sat ${shortDate(C.day(C.wk[0]).iso)} – Sun ${shortDate(C.day(C.wk[1]).iso)}` }),
+    pick: () => ({ v: 'pick', pick: true, l: 'Pick a date', s: C => `Any day until ${dateLabel(C.day(PLACE_DAYS).iso)}` })
   };
   const VR = r => ({ vegan: 4, vegetarian: 3, 'vegan-friendly': 2, 'veggie-friendly': 1 }[r.veggieLevel] || 0);
   const base = r => (r.curated ? 20 : 0) + TG.distRank(r) / 20;
@@ -83,7 +94,7 @@
           { v: 'moderate', l: 'Moderate', s: 'Bistros, brasseries, gastro-bistros', f: STYLE.moderate },
           { v: 'fancy', l: 'Fancy', s: 'Fine dining, gastro-bistros, Michelin stars', f: STYLE.fancy }] },
         { id: 'people', q: 'How many people?', grid: true, opts: [{ v: '2', l: '1–2' }, { v: '4', l: '3–4' }, { v: '8', l: '5–8' }, { v: '9', l: '8+' }] },
-        whenQ('When?', [W.today(), W.tomorrow(), W.weekend()]),
+        whenQ('When?', [W.today(), W.tomorrow(), W.weekend(), W.pick()]),
         { id: 'occasion', q: 'What’s the occasion?', opts: [
           { v: 'casual', l: 'Casual', s: 'Nothing fancy' }, { v: 'date', l: 'Date night', s: 'Fine dining & intimate bistros first' },
           { v: 'moderate', l: 'Moderate', s: 'A good meal out, no fuss' }, { v: 'new', l: 'A new experience', s: 'New openings, chef events, distinctions' }] },
@@ -115,7 +126,7 @@
         { id: 'type', q: 'What kind of bar?', hard: true, relax: 'type', opts: [
           { v: 'cocktail_bar', l: 'Cocktail bar', s: 'Signature drinks, mocktails' }, { v: 'brown_cafe', l: 'Brown café', s: 'Classic Gent pub' },
           { v: 'irish_pub', l: 'Irish pub', s: 'Pints & sport' }, { v: 'dance_cafe', l: 'Dance café', s: 'DJ, late nights' }].map(o => ({ ...o, f: r => r.category === o.v })) },
-        whenQ('When?', [W.tonight(), W.tomorrow(), W.weekend()]),
+        whenQ('When?', [W.tonight(), W.tomorrow(), W.weekend(), W.pick()]),
         { id: 'terrace', q: 'Terrace?', hard: true, relax: 'terrace', opts: [{ v: 'yes', l: 'Yes, a terrace', s: 'Confirmed terrace', f: r => r.features.terrace === true }] }
       ],
       relaxOrder: ['terrace', 'type'],
@@ -130,7 +141,7 @@
           { v: 'food', l: 'Coffee + something to eat', s: 'Food served, breakfast or brunch', f: r => r.features.foodServed === true || TG.mealOf(r).any },
           { v: 'laptop', l: 'Work with my laptop', s: 'Wifi confirmed', f: r => r.features.wifi === true }] },
         DIET_Q,
-        whenQ('When?', [W.now(), W.today(), W.tomorrow(), W.weekend()])
+        whenQ('When?', [W.now(), W.today(), W.tomorrow(), W.weekend(), W.pick()])
       ],
       score: (r, a) => base(r) + (a.purpose === 'food' && TG.mealOf(r).any ? 2 : 0) + (r.features.seating === true && a.purpose === 'laptop' ? 1 : 0) + (a.diet ? VR(r) : 0),
       list: a => ({ group: 'coffee', ...(a.purpose === 'quick' ? { type: 'coffee_bar' } : {}), ...dietF(a), ...(a.when === 'now' ? { open: true } : {}) })
@@ -142,7 +153,7 @@
           { v: 'bread', l: 'Bread & viennoiserie', s: 'Sourdough, croissants', f: r => r.category === 'bakery' || (r.bakeryStyle || []).some(x => /sourdough|viennoiserie|bread|traditional|mastellen/.test(x)) },
           { v: 'sweet', l: 'Patisserie & sweet', s: 'Cakes, tarts, pastries', f: r => r.category === 'patisserie' || (r.bakeryStyle || []).some(x => /patisserie|cakes|tarts/.test(x)) }] },
         DIET_Q,
-        whenQ('When?', [W.now('Open now'), W.today(), W.tomorrow(), W.weekend()])
+        whenQ('When?', [W.now('Open now'), W.today(), W.tomorrow(), W.weekend(), W.pick()])
       ],
       score: (r, a) => base(r) + (a.diet ? VR(r) : 0),
       list: a => ({ group: 'bakeries', ...(a.kind ? { type: a.kind === 'bread' ? 'bakery' : 'patisserie' } : {}), ...dietF(a), ...(a.when === 'now' ? { open: true } : {}) })
@@ -153,7 +164,8 @@
         { id: 'ewhen', q: 'When?', hard: true, relax: 'ewhen', opts: [
           { v: 'week', l: 'This week', s: C => `${shortDate(C.iso)} – ${shortDate(C.day(6).iso)}`, f: (e, C) => evIn(e, C.iso, C.day(6).iso) },
           { v: 'weekend', l: C => C.wkLabel, s: C => `Fri ${shortDate(C.day(C.wk[0] - 1).iso)} – Sun ${shortDate(C.day(C.wk[1]).iso)}`, f: (e, C) => evIn(e, C.day(Math.max(0, C.wk[0] - 1)).iso, C.day(C.wk[1]).iso) },
-          { v: 'later', l: 'Later', s: C => `From ${shortDate(C.day(7).iso)}`, f: (e, C) => (e.dateEnd || e.dateStart) >= C.day(7).iso }] },
+          { v: 'later', l: 'Later', s: C => `From ${shortDate(C.day(7).iso)}`, f: (e, C) => (e.dateEnd || e.dateStart) >= C.day(7).iso },
+          { v: 'pick', pick: true, l: 'Pick a date', s: C => `Any day until ${dateLabel(lastEv(C))}` }] },
         { id: 'ekind', q: 'What kind?', hard: true, relax: 'ekind', opts: [
           { v: 'food', l: 'Food & chefs', s: 'Pop-ups, chef collabs, dinners, festivals', f: e => !NIGHT.test(e.type) },
           { v: 'night', l: 'Night out', s: 'Concerts & club nights', f: e => NIGHT.test(e.type) }] }
@@ -164,11 +176,16 @@
   };
   const NIGHT = /concert|club night|dj set|party/i;
   const evIn = (e, from, to) => e.dateStart <= to && (e.dateEnd || e.dateStart) >= from;
+  const lastEv = C => APP.E.reduce((m, e) => (e.dateEnd || e.dateStart) > m ? (e.dateEnd || e.dateStart) : m, C.iso);
+  const evDist = (e, iso) => iso < e.dateStart ? (Date.parse(e.dateStart) - Date.parse(iso)) / 864e5 : iso > (e.dateEnd || e.dateStart) ? (Date.parse(iso) - Date.parse(e.dateEnd || e.dateStart)) / 864e5 : 0;
   const dietF = a => a.diet === 'veggie' ? { veggie: true } : a.diet === 'vegan' ? { vegan: true } : {};
   const MOODS = ['restaurant', 'bar', 'coffee', 'bakery', 'event'];
 
   /* ---------- matching ---------- */
-  function qOpt(sec, id, v) { const q = sec.questions.find(x => x.id === id); return q && q.opts.find(o => o.v === v); }
+  function qOpt(sec, id, v) {
+    if (isPick(v)) { const iso = v.slice(2); return { v, l: dateLabel(iso), f: e => evIn(e, iso, iso) }; }
+    const q = sec.questions.find(x => x.id === id); return q && q.opts.find(o => o.v === v);
+  }
   /* places matching every hard answer in `a` except the ones in `skip` (soft answers never filter) */
   function matches(sec, a, C, skip = []) {
     if (sec.events) return APP.E.filter(e => Object.entries(a).every(([k, v]) => skip.includes(k) || !v || qOpt(sec, k, v).f(e, C)));
@@ -176,7 +193,7 @@
       if (r.upcoming || !sec.pool(r)) return false;                      // announced, not open yet
       for (const [k, v] of Object.entries(a)) {
         if (!v || skip.includes(k)) continue;
-        if (k === 'when') { r._w = whenState(r, v, C); if (r._w.s === 'closed' || (WHEN[v](C).nowOnly && r._w.s !== 'open')) return false; continue; }
+        if (k === 'when') { r._w = whenState(r, v, C); if (r._w.s === 'closed' || (whenSpec(v, C).nowOnly && r._w.s !== 'open')) return false; continue; }
         const o = qOpt(sec, k, v); if (o && o.f && !o.f(r)) return false;
       }
       if (!a.when) r._w = whenState(r, '', C);
@@ -186,8 +203,12 @@
   function results(sec, a, C) {
     const order = sec.relaxOrder || sec.questions.filter(q => q.relax).map(q => q.relax);   // least important first
     const exact = matches(sec, a, C);
-    let list = exact, relaxed = null;
-    if (exact.length < 3) {
+    let list = exact, relaxed = null, near = '';
+    const pickIso = sec.events && isPick(a.ewhen) ? a.ewhen.slice(2) : '';
+    if (pickIso && exact.length < 3) {                                     // a picked day: fill up with the events nearest to it
+      list = matches(sec, a, C, ['ewhen']); if (list.length <= exact.length) list = matches(sec, a, C, ['ewhen', 'ekind']);
+      near = exact.length ? `Only ${exact.length} on ${dateLabel(pickIso)} — nearest dates added.` : `Nothing on ${dateLabel(pickIso)} — here are the nearest events.`;
+    } else if (exact.length < 3) {
       for (const k of order) {
         if (!a[k] || k === 'when') continue;                              // "when" is never relaxed: known-closed places stay out
         const wider = matches(sec, a, C, [k]);
@@ -196,17 +217,17 @@
     }
     const ok = new Set(exact);
     if (sec.events) {
-      list = list.slice().sort((x, y) => (ok.has(y) - ok.has(x)) || x.dateStart.localeCompare(y.dateStart));
+      list = list.slice().sort((x, y) => (ok.has(y) - ok.has(x)) || (pickIso ? evDist(x, pickIso) - evDist(y, pickIso) : 0) || x.dateStart.localeCompare(y.dateStart));
     } else {
       list.forEach(r => { r._w = whenState(r, a.when, C); r._s = sec.score(r, a) + (ok.has(r) ? 50 : 0); });
       const tier = r => r._w.now ? 0 : RANK[r._w.s] + 1;                  // open now › open that day › unknown hours
       list = list.slice().sort((x, y) => (a.when && a.when !== 'now' && a.when !== 'today' ? RANK[x._w.s] - RANK[y._w.s] : tier(x) - tier(y)) || y._s - x._s || x.name.localeCompare(y.name, 'en'));
     }
-    return { list, exactN: exact.length, relaxed };
+    return { list, exactN: exact.length, relaxed, near };
   }
 
   /* ---------- UI ---------- */
-  const st = { mood: '', a: {}, step: 0, steps: [], skipped: {} };
+  const st = { mood: '', a: {}, step: 0, steps: [], skipped: {}, pick: null };   // pick: { iso, month } while the date picker is open
   function mount() {
     root = document.createElement('div');
     root.className = 'qz'; root.hidden = true;
@@ -246,7 +267,7 @@
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   const body = () => root.querySelector('.qz__body');
-  function restart() { st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; draw(); }
+  function restart() { st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; st.pick = null; draw(); }
   const val = (x, C) => typeof x === 'function' ? x(C) : x;
 
   /* answers shown for question i: only those with at least one match given the earlier answers */
@@ -254,7 +275,7 @@
     const q = st.steps[i], prev = {};
     st.steps.slice(0, i).forEach(p => { if (st.a[p.id]) prev[p.id] = st.a[p.id]; });
     return q.opts.map(o => {
-      const n = q.hard ? matches(sec, { ...prev, [q.id]: o.v }, C).length : null;
+      const n = q.hard && !o.pick ? matches(sec, { ...prev, [q.id]: o.v }, C).length : null;
       return { ...o, n };
     }).filter(o => o.n == null || o.n > 0);
   }
@@ -276,13 +297,49 @@
     if (!opts.length || (q.hard && !q.when && opts.every(o => o.n === matches(sec, prevA(st.step), C).length))) {   // nothing to choose: skip (and on Back)
       st.a[q.id] = ''; st.skipped[st.step] = true; st.step++; return draw();
     }
+    const hasPick = opts.some(o => o.pick);
+    if (hasPick && !st.pick && isPick(st.a[q.id])) st.pick = { iso: st.a[q.id].slice(2), month: st.a[q.id].slice(2, 9) };   // back to a picked date
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${st.step + 1} of ${st.steps.length}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
       <div class="qz__opts${q.grid ? ' qz__opts--grid' : ''}">${opts.map(o => optBtn(o, q.id, C)).join('')}</div>
+      ${hasPick && st.pick ? `<div class="qz-cal" role="group" aria-label="Pick a date">${calHtml(sec, q, C)}</div>` : ''}
       <button class="qz__skip" type="button" data-qz-skip>No preference</button>`);
+    const cal = root.querySelector('.qz-cal');
+    if (cal) { cal.scrollIntoView({ block: 'nearest' }); const d = cal.querySelector('[aria-pressed="true"], .qz-cal__d:not([disabled])'); if (d) d.focus({ preventScroll: true }); }
+  }
+  /* compact month calendar: today … +60 days (events: … the last event day); event days get a dot */
+  function calHtml(sec, q, C) {
+    const P = st.pick, min = C.iso, max = sec.events ? lastEv(C) : C.day(PLACE_DAYS).iso;
+    const [y, m] = P.month.split('-').map(Number), first = `${P.month}-01`, lead = dowOf(first), n = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    const evDays = sec.events ? new Set(APP.E.flatMap(e => { const out = []; for (let d = e.dateStart; d <= (e.dateEnd || e.dateStart) && out.length < 62; d = addDays(d, 1)) out.push(d); return out; })) : null;
+    // in the current month, whole weeks before today are left out (keeps the sheet short on phones)
+    const skipW = P.month === min.slice(0, 7) ? Math.floor((lead + +min.slice(8) - 1) / 7) : 0;
+    let cells = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'].map(d => `<span class="qz-cal__wd" aria-hidden="true">${d}</span>`).join('') + '<span></span>'.repeat(skipW ? 0 : lead);
+    for (let i = skipW ? skipW * 7 - lead + 1 : 1; i <= n; i++) {
+      const iso = `${P.month}-${String(i).padStart(2, '0')}`, off = iso < min || iso > max;
+      cells += `<button class="qz-cal__d${iso === C.iso ? ' is-today' : ''}${evDays && evDays.has(iso) ? ' has-ev' : ''}" type="button" data-qz-day="${iso}" aria-label="${esc(TG.fmtDate(iso, { weekday: 'long', day: 'numeric', month: 'long' }))}" aria-pressed="${iso === P.iso}"${off ? ' disabled' : ''}>${i}</button>`;
+    }
+    const mName = TG.fmtDate(first, { month: 'long', year: 'numeric' });
+    let go = '<button class="pill-btn dark qz-cal__go" type="button" disabled>Choose a day</button>';
+    if (P.iso) {
+      const cnt = matches(sec, { ...prevA(st.step), [q.id]: 'd:' + P.iso }, C).length, noun = sec.noun[cnt === 1 ? 0 : 1];
+      go = `<button class="pill-btn dark qz-cal__go" type="button" data-qz-date-go>${sec.events && !cnt ? `${esc(dateLabel(P.iso))} · show nearest events` : `${esc(dateLabel(P.iso))} · ${cnt} ${esc(noun)}`}</button>`;
+    }
+    return `<div class="qz-cal__head"><button class="qz-cal__nav" type="button" data-qz-month="-1" aria-label="Previous month"${first <= min ? ' disabled' : ''}>‹</button>
+      <b class="qz-cal__m" aria-live="polite">${esc(mName)}</b>
+      <button class="qz-cal__nav" type="button" data-qz-month="1" aria-label="Next month"${`${P.month}-31` >= max ? ' disabled' : ''}>›</button></div>
+      <div class="qz-cal__grid">${cells}</div>${go}`;
+  }
+  const addMonth = (ym, d) => { let [y, m] = ym.split('-').map(Number); m += d; if (m < 1) { m = 12; y--; } if (m > 12) { m = 1; y++; } return `${y}-${String(m).padStart(2, '0')}`; };
+  function redrawCal(focusSel) {
+    const C = clock(), sec = SECTIONS[st.mood], q = st.steps[st.step], cal = root.querySelector('.qz-cal');
+    if (!cal) return draw();
+    cal.innerHTML = calHtml(sec, q, C);
+    const f = focusSel && cal.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
+    if (st.pick.iso) cal.querySelector('.qz-cal__go').scrollIntoView({ block: 'nearest', behavior: 'auto' });
   }
   function prevA(i) { const p = {}; st.steps.slice(0, i).forEach(q => { if (st.a[q.id]) p[q.id] = st.a[q.id]; }); return p; }
   function optBtn(o, id, C) {
-    const sel = id === 'mood' ? st.mood === o.v : st.a[id] === o.v, s = val(o.s, C);
+    const sel = id === 'mood' ? st.mood === o.v : o.pick ? !!st.pick || isPick(st.a[id]) : st.a[id] === o.v && !st.pick, s = val(o.s, C);
     return `<button class="qz-opt" type="button" data-q="${esc(id)}" data-v="${esc(o.v)}" aria-pressed="${sel}">
       <span class="qz-opt__t"><span class="qz-opt__l">${esc(val(o.l, C))}</span>${s ? `<span class="qz-opt__s">${esc(s)}</span>` : ''}</span>${o.n != null ? `<b class="qz-opt__n" aria-label="${o.n} matches">${o.n}</b>` : ''}</button>`;
   }
@@ -295,11 +352,11 @@
 
   function drawResults(sec, C) {
     const a = {}; Object.entries(st.a).forEach(([k, v]) => { if (v) a[k] = v; });
-    const { list, exactN, relaxed } = results(sec, a, C);
+    const { list, exactN, relaxed, near } = results(sec, a, C);
     const top = list.slice(0, 6);
-    const chips = st.steps.filter(q => a[q.id]).map(q => { const o = q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : val(o.l, C))}</li>`; }).join('');
+    const chips = st.steps.filter(q => a[q.id]).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : val(o.l, C))}</li>`; }).join('');
     const rq = relaxed && st.steps.find(q => q.relax === relaxed);
-    const relaxLine = rq ? `<p class="qz__relax">Only ${exactN} exact match${exactN === 1 ? '' : 'es'} — we relaxed “${esc(val(rq.opts.find(o => o.v === a[relaxed]).l, C))}”.</p>` : '';
+    const relaxLine = near ? `<p class="qz__relax">${esc(near)}</p>` : rq ? `<p class="qz__relax">Only ${exactN} exact match${exactN === 1 ? '' : 'es'} — we relaxed “${esc(val(qOpt(sec, relaxed, a[relaxed]).l, C))}”.</p>` : '';
     const note = sec.note ? sec.note(a) : '';
     let more = '';
     if (sec.events) more = `<button class="pill-btn dark" type="button" data-qz-all="events">All ${APP.E.length} upcoming events</button>`;
@@ -314,7 +371,7 @@
   function placeCard(r, a, C) {
     const price = TG.known(r.priceLevel) ? r.priceLevel : '';
     const meta = [TG.catLabel(r), TG.known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
-    const w = r._w || {}, o = TG.openState(r), nowish = !a.when || a.when === 'now' || a.when === 'today' || a.when === 'tonight';
+    const w = r._w || {}, o = TG.openState(r), nowish = !a.when || a.when === 'now' || a.when === 'today' || a.when === 'tonight' || a.when === 'd:' + C.iso;
     let when = '';
     if (a.when && a.when !== 'now' && w.days && w.days.length) when = w.days.map(d => `${DAY[d.dow]} ${ivText(d.iv)}`).join(' · ');
     else if (a.when && w.s === 'unknown') when = 'Hours not confirmed';
@@ -322,7 +379,7 @@
     const foot = APP.bookOn(r) ? APP.booking(r) : isRest && r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : '';
     return `<a class="qz-card bw-host" href="${APP.detailUrl(r.id)}">
       <span class="qz-card__thumb">${TG.thumb(r, '64px')}</span>
-      <span class="qz-card__body"><span class="qz-card__top">${nowish || o.state === 'open' ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1 })}</span>
+      <span class="qz-card__body"><span class="qz-card__top">${nowish || (o.state === 'open' && !isPick(a.when)) ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1 })}</span>
         <span class="qz-card__name">${esc(r.name)}</span><span class="qz-card__meta">${meta}</span>
         ${when ? `<span class="qz-card__when">${esc(when)}</span>` : ''}${foot ? `<span class="qz-card__foot">${foot}</span>` : ''}</span></a>`;
   }
@@ -343,22 +400,32 @@
     const x = t.closest('.qz-card .ext'); if (x) { e.preventDefault(); window.open(x.dataset.href, '_blank', 'noopener'); return; }
     if (t.closest('[data-qz-back]')) {
       if (!st.mood) return;
-      st.step--; while (st.step >= 0 && st.skipped[st.step]) st.step--;
+      st.pick = null; st.step--; while (st.step >= 0 && st.skipped[st.step]) st.step--;
       if (st.step < 0) { st.mood = ''; st.a = {}; st.step = 0; }
       draw(); return;
     }
     if (t.closest('[data-qz-restart]')) { restart(); return; }
+    const dd = t.closest('[data-qz-day]'); if (dd) { st.pick.iso = dd.dataset.qzDay; redrawCal(`[data-qz-day="${st.pick.iso}"]`); return; }
+    const mm = t.closest('[data-qz-month]'); if (mm) { st.pick.month = addMonth(st.pick.month, +mm.dataset.qzMonth); redrawCal(`[data-qz-month="${mm.dataset.qzMonth}"]:not([disabled]), .qz-cal__d:not([disabled])`); return; }
+    if (t.closest('[data-qz-date-go]')) { const q = st.steps[st.step]; st.a[q.id] = 'd:' + st.pick.iso; st.pick = null; clearAfter(); st.step++; draw(); return; }
     const all = t.closest('[data-qz-all]');
     if (all) { const v = all.dataset.qzAll; close(); if (v === 'events') APP.showEvents(st.a.ekind === 'night' ? 'night' : ''); else APP.show(JSON.parse(v)); return; }
-    if (t.closest('[data-qz-skip]')) { const q = st.steps[st.step]; st.a[q.id] = ''; st.steps.slice(st.step + 1).forEach((q2, j) => { delete st.a[q2.id]; delete st.skipped[st.step + 1 + j]; }); st.step++; draw(); return; }
+    if (t.closest('[data-qz-skip]')) { const q = st.steps[st.step]; st.a[q.id] = ''; st.pick = null; clearAfter(); st.step++; draw(); return; }
     const b = t.closest('.qz-opt'); if (!b) return;
+    if (b.dataset.v === 'pick') {                                          // open (or close) the calendar in place
+      const C = clock(), cur = st.a[b.dataset.q];
+      st.pick = st.pick ? null : { iso: isPick(cur) ? cur.slice(2) : '', month: (isPick(cur) ? cur.slice(2) : C.iso).slice(0, 7) };
+      draw(); return;
+    }
+    st.pick = null;
     if (b.dataset.q === 'mood') {
       if (st.mood !== b.dataset.v) st.a = {};
       st.mood = b.dataset.v; st.steps = SECTIONS[st.mood].questions; st.step = 0; st.skipped = {};
-    } else { st.a[b.dataset.q] = b.dataset.v; st.steps.slice(st.step + 1).forEach((q, j) => { delete st.a[q.id]; delete st.skipped[st.step + 1 + j]; }); st.step++; }
+    } else { st.a[b.dataset.q] = b.dataset.v; clearAfter(); st.step++; }
     b.setAttribute('aria-pressed', 'true');
     setTimeout(draw, 120);                                                 // brief pressed state, then the next question
   }
+  function clearAfter() { st.steps.slice(st.step + 1).forEach((q, j) => { delete st.a[q.id]; delete st.skipped[st.step + 1 + j]; }); }
   document.addEventListener('click', e => { const b = e.target.closest('[data-quiz-open]'); if (b) { e.preventDefault(); open(); } });
   window.TGQuiz = { open, close };
 })();
