@@ -49,7 +49,7 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
 4c. **Visitor feedback** – read the "Know this place?" submissions (form inbox / `FEEDBACK_EMAIL`). Treat each as a *tip*, never as a source:
    verify on the place's own site/Instagram/menu (or a press source) before touching `features`/`features_evidence`, then add a changelog entry with that
    source URL. Ignore unverifiable tips. Nothing on the site updates automatically from feedback.
-   ⚠ `FEEDBACK_EMAIL` is still the placeholder `hello@tableandthecity.com` (no real inbox): replace it in `js/config.js` once a real address/form endpoint exists — until then no feedback arrives.
+   Feedback, city requests and place suggestions arrive at `info@tableandthecity.com` (`FEEDBACK_EMAIL` in `js/config.js`).
 4d. **OpenStreetMap base list** (weekly, or daily on busy weeks) – `python3 scripts/import_osm.py gent --refresh --fill-curated`
    (re-downloads OSM, keeps ids stable, never overwrites curated data). Look at the printed counts: a big drop usually means Overpass returned a partial result —
    re-run. New places without an address need `data/osm/streets.json` (downloaded automatically, not in git). Put sourced fixes in `data/osm/corrections.json`
