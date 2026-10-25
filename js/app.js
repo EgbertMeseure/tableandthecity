@@ -17,6 +17,9 @@
   const params = new URLSearchParams(location.search);
   ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel', 'meal', 'style'].forEach(k => params.get(k) && (state[k] = params.get(k)));
   if (!['', 'vegan', 'vegetarian', 'vegan-friendly', 'veggie-friendly'].includes(state.vlevel)) state.vlevel = '';
+  // old links from the removed 'Veggie & vegan' card: levels without their own chip fall back to the matching chip (100% vegan keeps its chip)
+  if (state.vlevel === 'vegan-friendly') { state.vegan = true; state.vlevel = ''; }
+  else if (state.vlevel === 'vegetarian' || state.vlevel === 'veggie-friendly') { state.veggie = true; state.vlevel = ''; }
   if (!['', 'open', 'soon'].includes(state.stage)) state.stage = '';
   if (!['', 'any', 'breakfast', 'brunch', 'wkbrunch', 'early'].includes(state.meal)) state.meal = '';
   if (!/^[a-z-]{0,20}$/.test(state.style)) state.style = '';
@@ -72,8 +75,7 @@
       sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
     { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
       sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
-    { label: 'Veggie & vegan', img: 'vegan', f: { veggie: true }, subs: [sub('100% vegan', { vlevel: 'vegan' }), sub('100% vegetarian', { vlevel: 'vegetarian' }),
-      sub('Vegan-friendly', { vegan: true }), sub('Options only', { vlevel: 'veggie-friendly' })], noDiet: true },
+    // no separate 'Veggie & vegan' card: every card has its own Veggie / Vegan row (+ the quick chips)
     { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
