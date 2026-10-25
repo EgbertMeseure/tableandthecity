@@ -543,12 +543,6 @@
     "source": "https://www.openstreetmap.org/node/9809286018"
    }
   },
-  "osm-hola-food-n5856007887": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.holafood.be/"
-   }
-  },
   "osm-hola-food-n7004497033": {
    "breakfast": {
     "value": true,
@@ -581,12 +575,6 @@
    "breakfast": {
     "value": true,
     "source": "https://www.xn--jos-dma.be"
-   }
-  },
-  "osm-kaffee-allez-n12625884854": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.kaffeeallez.be/"
    }
   },
   "osm-kaffee-change-n12941952165": {
@@ -766,16 +754,6 @@
    }
   },
   "osm-o-yo-n10885912444": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.oyobar.be"
-   },
-   "brunch": {
-    "value": true,
-    "source": "https://www.oyobar.be"
-   }
-  },
-  "osm-o-yo-n5247946071": {
    "breakfast": {
     "value": true,
     "source": "https://www.oyobar.be"

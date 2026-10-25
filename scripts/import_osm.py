@@ -178,6 +178,7 @@ def categorize(t, name):
     if a in ('pub', 'bar', 'biergarten'):
         if re.search(r'\birish\b', n) or 'irish' in t.get('pub', '') : return 'cafes_bars', 'irish_pub'
         if re.search(r'dans(cafe|café)|dancing\b', n): return 'cafes_bars', 'dance_cafe'
+        if t.get('bar') == 'wine' or 'wine' in cu.split(';') or re.search(r'wijnbar|wine ?bar|\bwine\b|\bvino\b|\bwijn', n): return 'cafes_bars', 'wine_bar'
         if t.get('cocktails') == 'yes' or 'cocktail' in n or 'cocktail' in t.get('description', '').lower(): return 'cafes_bars', 'cocktail_bar'
         if a == 'biergarten' or re.search(r'\b(bier|beer|brew|tap|hop)\w*', n) or t.get('microbrewery') == 'yes': return 'cafes_bars', 'beer_bar'
         return 'cafes_bars', 'cafe'
@@ -280,7 +281,7 @@ def main():
     curated = [r for r in cur['restaurants'] if r.get('lat')]
     if UPC.exists(): curated += [u for u in json.loads(UPC.read_text()).get('upcoming', []) if u.get('lat')]
     stamp = raw.get('osm3s', {}).get('timestamp_osm_base', '')[:10]
-    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0, 'fast_food': 0, 'generic_cafe': 0, 'coffee_house': 0, 'generic_bakery': 0, 'friterie': 0, 'student': 0}, set()
+    places, matched, skipped, seen = [], [], {'noname': 0, 'lifecycle': 0, 'closed': 0, 'other': 0, 'dup_osm': 0, 'chain': 0, 'fast_food': 0, 'generic_cafe': 0, 'coffee_house': 0, 'generic_bakery': 0, 'friterie': 0, 'student': 0, 'duplicate': 0}, set()
     ff_keep, ff_kept = fastfood_keep(), set()
     art = json.loads(ARTISAN.read_text()) if ARTISAN.exists() else {'keep': {}, 'branchOf': {}}
     by_cid = {c['id']: c for c in curated}
@@ -289,7 +290,7 @@ def main():
     closed_names = {norm_name(v['name']) for k, v in closed.items() if k.startswith('name:')}
     bk_pending = {}
     chains = Counter()
-    never = {'friterie': [], 'student': []}; never_ids = set()
+    never = {'friterie': [], 'student': [], 'duplicate': []}; never_ids = set()
     elems = sorted(raw['elements'], key=lambda e: (e['type'], e['id']))
     for e in elems:
         t = e.get('tags', {})

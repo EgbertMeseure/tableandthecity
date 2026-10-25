@@ -126,10 +126,11 @@
       note: a => +a.people >= 8 ? 'Big group: places you can book online or by phone come first — check availability with them.' : ''
     },
     bar: {
-      label: 'Bar', sub: 'Cocktails, brown cafés, pubs, dancing', noun: ['bar', 'bars'], pool: r => r.group === 'cafes_bars',
+      label: 'Bar', sub: 'Cocktails, wine, brown cafés, pubs, dancing', noun: ['bar', 'bars'], pool: r => r.group === 'cafes_bars',
       questions: [
         { id: 'type', q: 'What kind of bar?', hard: true, relax: 'type', opts: [
           { v: 'cocktail_bar', l: 'Cocktail bar', s: 'Signature drinks, mocktails' }, { v: 'brown_cafe', l: 'Brown café', s: 'Classic Gent pub' },
+          { v: 'wine_bar', l: 'Wine bar', s: 'Wine by the glass, small plates' },
           { v: 'irish_pub', l: 'Irish pub', s: 'Pints & sport' }, { v: 'dance_cafe', l: 'Dance café', s: 'DJ, late nights' }].map(o => ({ ...o, f: r => r.category === o.v })) },
         whenQ('When?', [W.tonight(), W.tomorrow(), W.weekend(), W.pick()]),
         { id: 'terrace', q: 'Terrace?', hard: true, relax: 'terrace', opts: [{ v: 'yes', l: 'Yes, a terrace', s: 'Confirmed terrace', f: r => r.features.terrace === true }] }

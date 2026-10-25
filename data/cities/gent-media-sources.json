@@ -72,52 +72,6 @@
    "reservation_source": "linked from https://arbane.be (HTTP 200, 2026-10-19)",
    "photos": []
   },
-  "arno-ristorante": {
-   "instagram_handle": "arno_ristorante_ghent",
-   "instagram_handle_source": "web search; profile name \"ARNO ristorante Ghent\"",
-   "instagram_posts": [
-    {
-     "url": "https://www.instagram.com/p/Dcsg9_7hiZK/",
-     "category": "chef",
-     "found": "official profile grid, 2026-10-19",
-     "category_basis": "visual check of embed"
-    },
-    {
-     "url": "https://www.instagram.com/reel/Dclv9xFSI6C/",
-     "category": "food",
-     "found": "official profile grid, 2026-10-19",
-     "category_basis": "instagram alt text"
-    },
-    {
-     "url": "https://www.instagram.com/p/DcgoQ2aBfVg/",
-     "category": "interior",
-     "found": "official profile grid, 2026-10-19",
-     "category_basis": "instagram alt text"
-    },
-    {
-     "url": "https://www.instagram.com/p/DcQ1cw_hJ55/",
-     "category": "food",
-     "found": "official profile grid, 2026-10-19",
-     "category_basis": "instagram alt text"
-    },
-    {
-     "url": "https://www.instagram.com/p/Db_IVolBDF_/",
-     "category": "food",
-     "found": "official profile grid, 2026-10-19",
-     "category_basis": "instagram alt text"
-    },
-    {
-     "url": "https://www.instagram.com/p/Db3Z5TFBL38/",
-     "category": "food",
-     "found": "official profile grid, 2026-10-19",
-     "category_basis": "instagram alt text"
-    }
-   ],
-   "reservation_url": null,
-   "reservation_provider": null,
-   "reservation_source": "no booking link found on the website",
-   "photos": []
-  },
   "baptist": {
    "instagram_handle": "brasserie_baptist_gent",
    "instagram_handle_source": "profile name matches the restaurant (existing data field)",

@@ -582,12 +582,6 @@
    "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-amatsu-n1461121231": {
-   "name": "Amatsu",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000); candidate @amatsugent from todo; not verified by any linking page",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-amfora-n2273855341": {
    "name": "Amfora",
    "instagram_handle": "amforagent",
@@ -825,18 +819,8 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-beef-plaza-n6473717622": {
-   "name": "Beef Plaza",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-belgian-burger-restaurant-n13997560953": {
    "name": "Belgian Burger Restaurant",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-bella-vista-n5190745934": {
-   "name": "Bella Vista",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
@@ -1180,21 +1164,10 @@
    "handleSource": "https://catberry.be/",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-ce-s-arts-n11030811705": {
-   "name": "Ce's Arts",
-   "instagram_handle": "cesartsgent",
-   "handleSource": "https://www.cesarts.be/",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-chapeluur-n11154672486": {
    "name": "Chapeluur",
    "instagram_handle": "chapeluur",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/chapeluur",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-chapo-s-n7158620688": {
-   "name": "Chapo's",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-chef-q-n13685423940": {
@@ -1386,11 +1359,6 @@
    "name": "De Bergen",
    "instagram_handle": "debergen.gent",
    "handleSource": "https://www.debergen.gent/",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-de-bompa-n5598997121": {
-   "name": "De Bompa",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-de-brouwzaele-w210985927": {
@@ -1620,12 +1588,6 @@
    "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-dish-n5869420982": {
-   "name": "Dish",
-   "instagram_handle": null,
-   "note": "own og:image rejected: website screenshot",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-dok-brewing-company-n7001208946": {
    "name": "Dok Brewing Company",
    "instagram_handle": "dok_brewing_company",
@@ -1653,12 +1615,6 @@
   "osm-domestica-n5734799246": {
    "name": "Domestica",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-door-73-n6900569885": {
-   "name": "Door 73",
-   "instagram_handle": null,
-   "note": "door73.be now presents Le ChouChou and links @lechouchou_gent; possible rebrand, not verified; own og:image rejected: site now shows Le ChouChou",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dreamcatchers-n12363209411": {
@@ -1734,12 +1690,6 @@
     "origin": "research"
    }
   },
-  "osm-eethuis-de-fobie-n2262667588": {
-   "name": "Eethuis De Fobie",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-eethuis-toreke-n3511035004": {
    "name": "Eethuis Toreke",
    "instagram_handle": null,
@@ -1794,12 +1744,6 @@
    "handleSource": "https://visit.gent.be/nl/eten-drinken/et-alors",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-ette-ibibio-n2439607489": {
-   "name": "Ette Ibibio",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-everest-eetcafe-n1275915798": {
    "name": "Everest Eetcafé",
    "instagram_handle": "eetcafeeverest",
@@ -1812,11 +1756,6 @@
    "instagram_handle": "restofaimfatale",
    "handleSource": "https://www.faimfatale.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-fait-divers-n1532795040": {
-   "name": "Fait Divers",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-fattoush-n13533812685": {
@@ -2036,11 +1975,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-golden-ring-n4764908262": {
-   "name": "Golden Ring",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-golflounge-w126373297": {
    "name": "Golflounge",
    "instagram_handle": "golfloungedrongen",
@@ -2059,11 +1993,6 @@
   },
   "osm-gran-gusto-ristorante-n13231393683": {
    "name": "Gran Gusto Ristorante",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-greek-time-w684021894": {
-   "name": "Greek Time",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
@@ -2167,19 +2096,6 @@
    "note": "own og:image URL broken",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-hola-food-n5856007887": {
-   "name": "Hola Food",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://image.jimcdn.com/app/cms/image/transf/dimension=4096x4096:format=jpg/path/sce3c563feb33ed71/image/i01880b6a387220d5/version/1641209309/image.jpg",
-    "source": "https://www.holafood.be/",
-    "type": "og:image",
-    "w": 1440,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
-  },
   "osm-hola-food-n7004497033": {
    "name": "Hola-Food",
    "instagram_handle": null,
@@ -2253,12 +2169,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-ichiban-n8957993754": {
-   "name": "Ichiban",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-ikura-w493483121": {
    "name": "Ikura",
    "instagram_handle": null,
@@ -2304,11 +2214,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-india-palace-n7825707086": {
-   "name": "India Palace",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-indian-curry-house-n3874321406": {
    "name": "Indian Curry House",
    "instagram_handle": "indiancurryhouse_gent",
@@ -2321,11 +2226,6 @@
    "instagram_handle": "indianmasalagent",
    "handleSource": "https://www.indianmasala.be/",
    "note": "own og:image URL broken",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-istanbul-n8944368818": {
-   "name": "Istanbul",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-italian-corner-n11918209075": {
@@ -2396,12 +2296,6 @@
    "note": "own og:image URL broken",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-joan-n11596286257": {
-   "name": "Joan",
-   "instagram_handle": null,
-   "note": "joan.gent now shows \"Amaro\" and links @amaro_bar_gent; possible rebrand, candidate only; own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-john-dory-n7827689770": {
    "name": "John Dory",
    "instagram_handle": null,
@@ -2414,12 +2308,6 @@
    "name": "José",
    "instagram_handle": "jose.gentkouter",
    "handleSource": "https://www.xn--jos-dma.be",
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-kaffee-allez-n12625884854": {
-   "name": "Kaffee Allez",
-   "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
@@ -2455,12 +2343,6 @@
    "handleSource": "https://karoot.gent",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-karreaux-n4421648390": {
-   "name": "Karreaux",
-   "instagram_handle": "restaurant_karreaux",
-   "handleSource": "https://www.karreaux.be/",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-kaskcafe-n2084451567": {
    "name": "KASKcafé",
    "instagram_handle": null,
@@ -2470,12 +2352,6 @@
    "name": "Keizershof",
    "instagram_handle": "keizershof",
    "handleSource": "https://www.keizershof.net",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-kim-s-kitchen-n10218686217": {
-   "name": "Kim's Kitchen",
-   "instagram_handle": "kimskitchen.gent",
-   "handleSource": "https://kimskitchen.eu",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kingslize-n6779344616": {
@@ -2598,13 +2474,6 @@
    "handleSource": "https://www.bellehistoire.be/",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-la-bicyclette-n9787361791": {
-   "name": "La bicyclette",
-   "instagram_handle": "labicyclette_deinze_gent",
-   "handleSource": "https://labicyclettepastabar.be/",
-   "note": "own og:image URL broken",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-la-cave-n1628067350": {
    "name": "La Cave",
    "instagram_handle": null,
@@ -2620,11 +2489,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-la-lanterna-n8350123257": {
-   "name": "La Lanterna",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-la-malcontenta-n2555276332": {
    "name": "La Malcontenta",
    "instagram_handle": "la.malcontenta",
@@ -2634,11 +2498,6 @@
   },
   "osm-la-pizzeria-n819591964": {
    "name": "La Pizzeria",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-la-provence-n6388961286": {
-   "name": "La Provence",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
@@ -2818,12 +2677,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-luxalad-n4893381291": {
-   "name": "Luxalad",
-   "instagram_handle": "luxalad",
-   "handleSource": "https://www.luxalad.com",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-madonna-n5247954582": {
    "name": "Madonna",
    "instagram_handle": null,
@@ -2834,11 +2687,6 @@
    "instagram_handle": "maisonelza",
    "handleSource": "https://www.maisonelza.be/",
    "note": "own og:image rejected: drawing",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-man-wah-n5859316522": {
-   "name": "Man Wah",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-manhattn-s-burgers-n2617861936": {
@@ -2978,12 +2826,6 @@
    "note": "own website unreachable from our box (200)",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-mortier-n9902273001": {
-   "name": "Mortier",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-mosquito-coast-n2617844933": {
    "name": "Mosquito Coast",
    "instagram_handle": "mosquitocoastghent",
@@ -3035,11 +2877,6 @@
   },
   "osm-nam-jai-n3394491371": {
    "name": "Nam Jai",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-nat-thai-n12116554787": {
-   "name": "Nat Thai",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
@@ -3151,15 +2988,6 @@
    "ogImageRejected": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png (note flags it: logo)",
    "heroReject": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
   },
-  "osm-o-yo-n5247946071": {
-   "name": "O'yo",
-   "instagram_handle": "oyogent",
-   "handleSource": "https://www.oyobar.be/",
-   "note": "og:image has logo overlaid",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png (note flags it: logo)",
-   "heroReject": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
-  },
   "osm-ocakta-muhabbet-n12648351621": {
    "name": "Ocakta Muhabbet",
    "instagram_handle": null,
@@ -3226,12 +3054,6 @@
   "osm-open-wok-n7085959385": {
    "name": "Open Wok",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-orange-ini-n9809246056": {
-   "name": "Orange Ini",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000)",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ornek-n12323650404": {
@@ -3324,11 +3146,6 @@
    "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://pani.gent/media/site/73503598eb-1771177181/pani-1200x630-crop.jpg (note flags it: logo)",
    "heroReject": "https://pani.gent/media/site/73503598eb-1771177181/pani-1200x630-crop.jpg"
-  },
-  "osm-panito-n6171381486": {
-   "name": "Panito",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-panotto-n12837270943": {
    "name": "Panotto",
@@ -3529,11 +3346,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-prince-n12323883648": {
-   "name": "Prince",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-pureto-n12585303235": {
    "name": "Pureto",
    "instagram_handle": "pureto.be",
@@ -3608,11 +3420,6 @@
    "ogImageRejected": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg (note flags it: same photo)",
    "heroReject": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg"
   },
-  "osm-roast-n2738245892": {
-   "name": "Roast",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-rokkebolle-n4456452819": {
    "name": "Rokkebolle",
    "instagram_handle": "rokkebolle",
@@ -3629,12 +3436,6 @@
   "osm-romanoff-s-w685047789": {
    "name": "Romanoff's",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-rosa-n12534518527": {
-   "name": "ROSA",
-   "instagram_handle": null,
-   "note": "fromrosawithlove.com is titled \"Therapie Gent\" and links @amo_rosa_gent; unclear, candidate only",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-royal-india-n10892781655": {
@@ -3655,20 +3456,9 @@
    "note": "handle linked on the site's contact/about page",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-sabi-n1212143203": {
-   "name": "Sabi",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-sahara-n13436668734": {
    "name": "Sahara",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-sailing-queen-w313703440": {
-   "name": "Sailing Queen",
-   "instagram_handle": null,
-   "note": "site links @wearedynamate (looks like an agency); not accepted; own og:image rejected: graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-san-ren-xing-n12501294949": {
@@ -3709,12 +3499,6 @@
   "osm-seli-s-noodlebar-n2998443056": {
    "name": "Seli's Noodlebar",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-sensum-gent-n12801817423": {
-   "name": "Sensum Gent",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-seoul-south-station-n12702572257": {
@@ -3779,11 +3563,6 @@
     "checked": "2026-10-20",
     "origin": "research"
    }
-  },
-  "osm-soeurs-sourire-n9042748310": {
-   "name": "Soeurs Sourire",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sole-d-italia-n2275104998": {
    "name": "Sole d'Italia",
@@ -3914,20 +3693,9 @@
     "origin": "research"
    }
   },
-  "osm-sushi-ledeberg-n8944368719": {
-   "name": "Sushi Ledeberg",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-sushi-love-gent-n9056427353": {
    "name": "Sushi Love Gent",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-sushi-oostakker-n9996956434": {
-   "name": "Sushi Oostakker",
-   "instagram_handle": null,
-   "note": "own og:image URL broken",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sushi-palace-n12323650406": {
@@ -4046,17 +3814,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-t-smulderke-n3967083754": {
-   "name": "'t Smulderke",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-t-spoorke-n3967087159": {
-   "name": "'t Spoorke",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-t-spoorloos-perron-n13758856522": {
    "name": "'t Spoorloos Perron",
    "instagram_handle": "spoorloosperrongent",
@@ -4169,11 +3926,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-taste-of-india-n11049255678": {
-   "name": "Taste of India",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-te-gusta-n9416480518": {
    "name": "Te Gusta",
    "instagram_handle": null,
@@ -4183,11 +3935,6 @@
    "name": "Ter Burg",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000); candidate @ter_burg from todo; not verified by any linking page",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-ter-toren-n6174916885": {
-   "name": "Ter Toren",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-thai-thanee-n1404464937": {
@@ -4538,12 +4285,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-wurst-n7036891924": {
-   "name": "Würst",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-yalla-yalla-n11049255677": {
    "name": "Yalla Yalla",
    "instagram_handle": null,
@@ -4558,11 +4299,6 @@
   },
   "osm-yeti-n12542341837": {
    "name": "Yeti",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-zaytoun-n13995728001": {
-   "name": "Zaytoun",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
@@ -4618,12 +4354,6 @@
    "name": "ROAR",
    "instagram_handle": "roar.ghent",
    "handleSource": "https://roarcoffee.be/",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "shamrock-irish-bar": {
-   "name": "Shamrock Irish Bar",
-   "instagram_handle": null,
-   "note": "No Instagram account found; own site unreachable.",
    "origin": "research (approved 20 Oct 2026)"
   },
   "smorbrod": {

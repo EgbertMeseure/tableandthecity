@@ -69,7 +69,8 @@
       sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
     { label: 'Cafés & bars', img: 'bar', f: { group: 'cafes_bars' }, subs: [
       sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
-      sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), { ...sub('Cocktail bars', { group: 'cafes_bars', type: 'cocktail_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All'
+      sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), { ...sub('Cocktail bars', { group: 'cafes_bars', type: 'cocktail_bar' }), min: 1 },
+      { ...sub('Wine bars', { group: 'cafes_bars', type: 'wine_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All'
     { label: 'Coffee', img: 'coffee', f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
       sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
     { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
@@ -245,7 +246,7 @@
     if (state.origin) list.forEach(r => r._km = r.lat ? haversine(state.origin, [r.lat, r.lng]) : null);
     const nm = (a, b) => a.name.localeCompare(b.name, 'en');
     const VR = r => ({ vegan: 4, vegetarian: 3, 'vegan-friendly': 2, 'veggie-friendly': 1 }[r.veggieLevel] || 0);
-    const opened = r => String(known(r.openingDate) ? r.openingDate : (known(r.openingYear) ? r.openingYear : '0'));
+    const opened = r => r.opened || '0';
     const exp = r => /^\d{4}/.test(r.expectedOpening || '') ? r.expectedOpening : '0000';    // 'soon' sorts first among upcoming
     const soonFirst = (a, b) => (!!a.upcoming - !!b.upcoming) || (a.upcoming && b.upcoming ? exp(a).localeCompare(exp(b)) : 0);
     const by = {

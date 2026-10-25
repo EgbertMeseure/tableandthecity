@@ -16,6 +16,13 @@
    "reason": "student café: the Overpoort association describes it as \"Studenten feest danscafé\"",
    "source": "https://www.overpoort-gent.be/lid-overpoort/luxx/",
    "added": "2026-10-20"
+  },
+  "node/5856007887": {
+   "id": "osm-hola-food-n5856007887",
+   "name": "Hola Food",
+   "kind": "duplicate",
+   "reason": "duplicate OSM node of Hola Food (node/7004497033, same address Dok-Noord 7; hours of that node match holafood.be)",
+   "source": "https://www.holafood.be/"
   }
  }
 }

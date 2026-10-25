@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "gent",
- "count": 199,
+ "count": 191,
  "places": {
   "cafe-labath": {
    "veggieLevel": "vegan-friendly",
@@ -532,13 +532,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-eethuis-de-fobie-n2262667588": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/2262667588"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-eetkaffee-multatuli-n2210024898": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -592,16 +585,6 @@
    "basis": "HappyCow listing",
    "hcName": "Et Alors gent",
    "hcInfo": "Serves meat, vegan options available. French creperie with clearly labeled menu. Example vegan dishes include toast with pea pesto and vegan feta, avocado toast, quinoa salad, savory pea pesto crepe, banana pancake crepes and more. Outdoor "
-  },
-  "osm-ette-ibibio-n2439607489": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/2439607489"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Ette Ibibio",
-   "hcInfo": "Serves meat, vegan options available. Cafe that's part of an NGO with a separate vegan menu. Dishes include maniok stew, moin moin, fufu, baked banana plantain, and a bean one. Most mains are served with vegetables and rice.  Tue-Sun 18:00-"
   },
   "osm-fattoush-n13533812685": {
    "veggieLevel": "vegan-friendly",
@@ -738,15 +721,6 @@
    "hcName": "Hey Joo - 헤이 주",
    "hcInfo": "Serves meat, vegan options available. Korean restaurant offering a few vegan items such as tofu-vegetable dumplings, vegan Korean corndogs, bibimbap, jabchae, gimbap and side dishes. Outdoor seating. Accepts credit cards. Wed-Sun 17:30-21:3"
   },
-  "osm-hola-food-n5856007887": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "HOLA",
-   "hcInfo": "Serves meat, vegan options available. Breakfast and lunch bar. Has vegan salad and sandwich choices. Can also make non-veggie salads vegan by switching the dressing or opting for roasted chickpeas or falafel as protein. Outdoor seating. Whe"
-  },
   "osm-horn-ok-please-n9740823412": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -807,13 +781,6 @@
    "veggieLevel": "veggie-friendly",
    "sources": [
     "https://www.openstreetmap.org/node/12315865312"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-kaffee-allez-n12625884854": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/12625884854"
    ],
    "basis": "OpenStreetMap diet tags"
   },
@@ -880,13 +847,6 @@
    "basis": "HappyCow listing",
    "hcName": "Krunch",
    "hcInfo": "Serves meat, vegan options available. Brunch restaurant offering clearly marked vegan choices such as overnight oats with oat milk & chia seeds, soup & toast, sandwich with mushroom, arugula, carrot spread & cauliflower and plant-based milk"
-  },
-  "osm-la-bicyclette-n9787361791": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/9787361791"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-la-pizzeria-n819591964": {
    "veggieLevel": "vegan-friendly",
@@ -1033,15 +993,6 @@
    "hcName": "Mogador",
    "hcInfo": "Serves meat, vegan options available. Moroccan restaurant offering a few vegan tajines with vegetables and potatoes and one vegan couscous dish. Uses olive oil as base in the food. Not wheelchair accessible. Outdoor seating. Mon-Tue 12:00-1"
   },
-  "osm-mortier-n9902273001": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Mortier",
-   "hcInfo": "Serves meat, vegan options available. Resto cafe with several vegan choices such as ravioli cannelloni and cheesecake.  Tue 09:00-19:00, Wed-Fri 09:00-22:00, Sat 14:00-22:00"
-  },
   "osm-mosquito-coast-n2617844933": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -1109,21 +1060,6 @@
     "https://www.happycow.net/europe/belgium/ghent/print?"
    ],
    "note": "Second O'yo (Sint-Baafsplein): \"plant-based (mainly vegan)\" breakfast/lunch bar with veggie options (own site).",
-   "basis": "verified",
-   "checked": "2026-10-20"
-  },
-  "osm-o-yo-n5247946071": {
-   "veggieLevel": "vegetarian",
-   "dishes": [
-    {
-     "dish": "Sweet brunch: vegan and gluten-free pancakes with maple syrup, fresh fruit salad",
-     "source": "https://www.oyobar.be/"
-    }
-   ],
-   "sources": [
-    "https://www.oyobar.be/"
-   ],
-   "note": "Own site: \"plant-based (mainly vegan) breakfast, brunch, lunch and coffee bar … We also offer veggie options.\"",
    "basis": "verified",
    "checked": "2026-10-20"
   },
@@ -1400,13 +1336,6 @@
    "basis": "HappyCow listing",
    "hcName": "Soep Plus",
    "hcInfo": "Serves meat, vegan options available. Soup bar where all soups are made with vegetable broth. Vegans will need to specify. Also has a (changing) salad menu - ask which ones are vegan. Outdoor seating. Mon-Fri 10:00-15:00"
-  },
-  "osm-soeurs-sourire-n9042748310": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/9042748310"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-soul-kitchen-n5986142786": {
    "veggieLevel": "vegan",

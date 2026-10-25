@@ -1385,48 +1385,6 @@
       "instagramSource": "official website"
     },
     {
-      "id": "shamrock-irish-bar",
-      "name": "Shamrock Irish Bar",
-      "category": "irish_pub",
-      "group": "cafes_bars",
-      "address": "Zuidstationstraat 46, 9000 Gent",
-      "lat": 51.0486852,
-      "lng": 3.731763,
-      "geoSource": "Nominatim/OpenStreetMap",
-      "neighbourhood": "Zuid",
-      "description": "Small Irish bar near Gent-Zuid listed in directories with Guinness and a whiskey selection.",
-      "priceLevel": null,
-      "openingHours": null,
-      "openingHoursSource": null,
-      "website": null,
-      "instagram_handle": null,
-      "features": {
-        "veggie": null,
-        "vegan": null,
-        "terrace": null,
-        "live_music": null,
-        "dj": null,
-        "food_served": null,
-        "wifi": null,
-        "gluten_free": null,
-        "open_sunday": null,
-        "kids_welcome": null,
-        "wheelchair_accessible": null
-      },
-      "isNew": false,
-      "openingYear": null,
-      "events": [],
-      "status": "unverified",
-      "statusNote": "Only third-party directory listings found; the domain shamrock.gent now shows unrelated software-company content and the OSM-listed site alaize.net returned nothing. Open status NOT confirmed on 2026-10-19 — verify before publishing.",
-      "sources": [
-        "https://www.tripadvisor.com/Restaurant_Review-g188666-d23751698-Reviews-Shamrock_Irish_Bar-Ghent_East_Flanders_Province.html",
-        "https://selfcity.be/bar/gent/shamrock-irish-bar/",
-        "https://www.bars10.com/BE/Ghent/103473505688944/Shamrock-Irish--Bar"
-      ],
-      "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
-    },
-    {
       "id": "way-dok-noord",
       "name": "WAY Specialty Coffee Roasters (Dok Noord)",
       "category": "coffee_bar",

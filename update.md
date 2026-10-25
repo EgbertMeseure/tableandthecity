@@ -28,8 +28,10 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    (Nieuwsblad, Made in, De Tijd/Sabato), `sluit de deuren Gent restaurant`.
    Weekly: Michelin list (`scripts/scrape_michelin.py`) and Gault&Millau (`scripts/scrape_gaultmillau.py`).
    New entry: ≥1 reliable source + own website; geocode with `scripts/geocode.py` (Nominatim, own User-Agent, ≤1 req/s);
-   `isNew=true` if opened < 18 months ago. Closure: `status` = `temporarily closed` / `permanently closed` + `statusNote`;
-   remove permanently closed places after 30 days (keep the changelog entry).
+   set `opened: 'YYYY-MM'` (or `YYYY-MM-DD`); the site computes 'New since <Month YYYY>' itself for 12 months (the stored `isNew` flag is ignored;
+   no known month → never New). Announced places go to `<city>-upcoming.json` with `opening: 'YYYY-MM'` (shown as 'Opening soon · <Month>',
+   then 'New since <Month>' once that month has passed). Wine bars: `group: 'cafes_bars'`, `category: 'wine_bar'`. Closure: `status` = `temporarily closed` / `permanently closed` + `statusNote`;
+   remove permanently closed places after 30 days (keep the changelog entry); OSM places go into `data/osm/closed.json`.
 3. **Events & collaborations** – search `four hands Gent`, `4-handendiner Gent`, `gastchef Gent`, `pop-up Gent restaurant`,
    `wijndiner Gent`, plus agendas: visit.gent.be, stad.gent (Gand Gourmand), Fourchette, Red Loft/BROER, Instagram links on
    restaurant sites. Only add with a date + source. No year stated → `dateStart=null`, `dateText="… (year not stated)"`.

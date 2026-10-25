@@ -97,7 +97,7 @@
   // ---- announced openings (data/cities/<city>-upcoming.json): expected date + the announcement itself ----
   const expTxt = r.fromUpcoming ? (TG.expectedText(r, true) || 'Soon — date not announced yet') : '';
   const src0 = (r.sources || [])[0];
-  const openingBox = !r.fromUpcoming ? '' : `<div class="soonbox"><strong>${r.upcoming ? `Opening soon${TG.expectedText(r, true) ? ' · ' + esc(TG.expectedText(r, true)) : ''}` : `Just opened · announced for ${esc(expTxt)}`}.</strong>
+  const openingBox = !r.fromUpcoming ? '' : `<div class="soonbox"><strong>${r.upcoming ? `Opening soon${TG.expectedText(r, true) ? ' · ' + esc(TG.expectedText(r, true)) : ''}` : `${esc(TG.newLabel(r))} · announced for ${esc(expTxt)}`}.</strong>
       ${r.expectedOpeningNote ? esc(r.expectedOpeningNote) + ' ' : ''}${r.upcoming ? 'Not open yet — details may change.' : 'We have not re-checked the opening yet.'}
       ${src0 ? `<a href="${esc(src0)}" target="_blank" rel="noopener">Read the announcement${r.announcedBy ? ` (${esc(r.announcedBy.split(';')[0])})` : ''} ↗</a>` : ''}</div>`;
   // ---- veggie / vegan level (data/cities/<city>-veggie.json): level + how we know + example dishes quoted from a real menu ----

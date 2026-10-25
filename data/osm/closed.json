@@ -74,6 +74,282 @@
    "address": "Ter Platen 3",
    "closed": "yes",
    "source": "Google Maps shows Permanently closed, 2026-10-23"
+  },
+  "node/13266807830": {
+   "name": "ARNO ristorante",
+   "address": "Akkerhage 2B, 9000 Gent",
+   "closed": "2026-08-31",
+   "source": "https://www.linkedin.com/posts/arno-ristorante-gent_as-of-31-august-2026-arno-ristorante-has-activity-7503713682724511745-F1vT (closed 31 Aug 2026); Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/11352130032": {
+   "name": "Shamrock Irish Bar",
+   "address": "Zuidstationstraat 46, 9000 Gent",
+   "closed": "unknown",
+   "source": "https://busibee.be/en/0699829165-petal (operating company bankrupt); Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/1461121231": {
+   "name": "Amatsu",
+   "address": "Nederkouter 139, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/6473717622": {
+   "name": "Beef Plaza",
+   "address": "Groenstraat 2, 9041 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/5190745934": {
+   "name": "Bella Vista",
+   "address": "Sint-Baafsplein 2, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/11030811705": {
+   "name": "Ce's Arts",
+   "address": "Filips van Marnixstraat 1, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/7158620688": {
+   "name": "Chapo's",
+   "address": "Sint-Jacobsnieuwstraat 80, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/5598997121": {
+   "name": "De Bompa",
+   "address": "Oudburg 21, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/5869420982": {
+   "name": "Dish",
+   "address": "Sleepstraat 210, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/6900569885": {
+   "name": "Door 73",
+   "address": "Hoogstraat 73, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/2262667588": {
+   "name": "Eethuis De Fobie",
+   "address": "Brusselsepoortstraat 61, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/2439607489": {
+   "name": "Ette Ibibio",
+   "address": "Zwijnaardsesteenweg 104, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/1532795040": {
+   "name": "Fait Divers",
+   "address": "Korenmarkt 31, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/4764908262": {
+   "name": "Golden Ring",
+   "address": "Kortrijksesteenweg 169, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "way/684021894": {
+   "name": "Greek Time",
+   "address": "Brugsevaart 141, 9030 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/8957993754": {
+   "name": "Ichiban",
+   "address": "Hoveniersstraat 131, 9050 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/7825707086": {
+   "name": "India Palace",
+   "address": "Oudburg 11, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/8944368818": {
+   "name": "Istanbul",
+   "address": "Ledebergplein 17, 9050 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/11596286257": {
+   "name": "Joan",
+   "address": "Annonciadenstraat 26, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/12625884854": {
+   "name": "Kaffee Allez",
+   "address": "Sint-Joriskaai 6a, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/4421648390": {
+   "name": "Karreaux",
+   "address": "Henleykaai 4, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/10218686217": {
+   "name": "Kim's Kitchen",
+   "address": "Oudburg 23, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/9787361791": {
+   "name": "La bicyclette",
+   "address": "Voskenslaan 183, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/8350123257": {
+   "name": "La Lanterna",
+   "address": "Lourdesstraat 68, 9041 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/6388961286": {
+   "name": "La Provence",
+   "address": "Nieuwebosstraat 1, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/4893381291": {
+   "name": "Luxalad",
+   "address": "Mageleinstraat 11, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/5859316522": {
+   "name": "Man Wah",
+   "address": "Wondelgemstraat 181, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/9902273001": {
+   "name": "Mortier",
+   "address": "Dampoortstraat 31, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/12116554787": {
+   "name": "Nat Thai",
+   "address": "Hogepontstraat 27, 9050 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/5247946071": {
+   "name": "O'yo",
+   "address": "Brabantdam 82, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/9809246056": {
+   "name": "Orange Ini",
+   "address": "Hoogstraat 7, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/6171381486": {
+   "name": "Panito",
+   "address": "Brugsesteenweg 216, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/12323883648": {
+   "name": "Prince",
+   "address": "Oudburg 58, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/2738245892": {
+   "name": "Roast",
+   "address": "Botestraat 129, 9032 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/12534518527": {
+   "name": "ROSA",
+   "address": "Dendermondsesteenweg 239, 9040 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/1212143203": {
+   "name": "Sabi",
+   "address": "Kraanlei 17/19, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "way/313703440": {
+   "name": "Sailing Queen",
+   "address": "Eilanderskaai 7, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/9042748310": {
+   "name": "Soeurs Sourire",
+   "address": "Landjuweelstraat 23, 9050 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/8944368719": {
+   "name": "Sushi Ledeberg",
+   "address": "Ledebergplein 26, 9050 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/9996956434": {
+   "name": "Sushi Oostakker",
+   "address": "Antwerpsesteenweg 948, 9040 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/3967083754": {
+   "name": "'t Smulderke",
+   "address": "Frederik Burvenichstraat 133, 9050 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/3967087159": {
+   "name": "'t Spoorke",
+   "address": "Leo Tertzweillaan 12, 9050 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/11049255678": {
+   "name": "Taste of India",
+   "address": "Donkersteeg 11, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/6174916885": {
+   "name": "Ter Toren",
+   "address": "Sint-Bernadettestraat 626, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/7036891924": {
+   "name": "Würst",
+   "address": "Kortemunt 3, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+  },
+  "node/13995728001": {
+   "name": "Zaytoun",
+   "address": "Groendreef 156A, 9000 Gent",
+   "closed": "unknown",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
   }
  }
 }

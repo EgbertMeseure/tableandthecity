@@ -862,10 +862,6 @@
    "checked": "2026-10-20",
    "url": "https://www.arbane.be/wp-content/uploads/2025/09/social-share.png"
   },
-  "arno-ristorante": {
-   "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
   "bakker-klaas-wintercircus": {
    "why": "manual review: logo / wordmark, not a photo of the place",
    "checked": "2026-10-20",
@@ -1258,10 +1254,6 @@
   },
   "osm-amaro-n11596286258": {
    "why": "logo-like file name (https://static1.squarespace.com/static/64ce0f64804aff2927427ef1/t/6ac0d5fffcdbcf3649ed958e/1791022591373/Amaro_logo_Blauw-koraal.png?format=1500w)",
-   "checked": "2026-10-20"
-  },
-  "osm-amatsu-n1461121231": {
-   "why": "error: SSLError",
    "checked": "2026-10-20"
   },
   "osm-amfora-n2273855341": {
@@ -1662,10 +1654,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-ce-s-arts-n11030811705": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-chapeluur-n11154672486": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -1932,11 +1920,6 @@
    "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/dirt.restaurant/media/dirt.restaurant/onewebmedia/logobrownDIRT.png?etag=null&sourceContentType=image%2Fpng&quality=85)",
    "checked": "2026-10-20"
   },
-  "osm-dish-n5869420982": {
-   "why": "manual review: website screenshot, not a photo",
-   "checked": "2026-10-20",
-   "url": "https://c-p.rmcdn.net/62590d34b78bed0038586633/3626870/Screenshot-bf8bd383-f54c-4450-9bcc-70eddc800b2f_readyscr_1024.jpg"
-  },
   "osm-django-n6172843088": {
    "why": "homepage HTTP 404",
    "checked": "2026-10-20"
@@ -1947,10 +1930,6 @@
   },
   "osm-donki-n10742303738": {
    "why": "homepage HTTP 404",
-   "checked": "2026-10-20"
-  },
-  "osm-door-73-n6900569885": {
-   "why": "not landscape (1536x2048)",
    "checked": "2026-10-20"
   },
   "osm-dreamcatchers-n12363209411": {
@@ -1983,10 +1962,6 @@
    "why": "error: ConnectTimeout",
    "checked": "2026-10-20"
   },
-  "osm-eethuis-de-fobie-n2262667588": {
-   "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
   "osm-eetkaffee-multatuli-n2210024898": {
    "why": "image HTTP 403 text/html; charset=iso-8859-1",
    "checked": "2026-10-20"
@@ -2005,10 +1980,6 @@
   },
   "osm-epiphany-s-n12108332057": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-ette-ibibio-n2439607489": {
-   "why": "error: ConnectTimeout",
    "checked": "2026-10-20"
   },
   "osm-everest-eetcafe-n1275915798": {
@@ -2291,10 +2262,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-hola-food-n5856007887": {
-   "why": "not landscape (1440x1800)",
-   "checked": "2026-10-20"
-  },
   "osm-hola-food-n7004497033": {
    "why": "not landscape (1440x1800)",
    "checked": "2026-10-20"
@@ -2338,10 +2305,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-ichiban-n8957993754": {
-   "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
   "osm-ikura-w493483121": {
    "why": "manual review: website screenshot, not a photo",
    "checked": "2026-10-20",
@@ -2355,10 +2318,6 @@
    "why": "manual review: logo / wordmark, not a photo of the place",
    "checked": "2026-10-20",
    "url": "https://cdn.prod.website-files.com/681a1a10de1a868d9bcd1b18/6824a8e676af5586c8747f14_fixed_IN-BOCCA-LUPO_OGsmall.jpg"
-  },
-  "osm-india-palace-n7825707086": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
   },
   "osm-indian-curry-house-n3874321406": {
    "why": "logo-like file name (https://indiancurryhouse.be/web-admin/uploads/meta/logo.jpg)",
@@ -2408,10 +2367,6 @@
    "why": "error: ConnectTimeout",
    "checked": "2026-10-20"
   },
-  "osm-joan-n11596286257": {
-   "why": "logo-like file name (https://static1.squarespace.com/static/64ce0f64804aff2927427ef1/t/6ac0d5fffcdbcf3649ed958e/1791022591373/Amaro_logo_Blauw-koraal.png?format=1500w)",
-   "checked": "2026-10-20"
-  },
   "osm-joey-n10885894093": {
    "why": "not landscape (928x928)",
    "checked": "2026-10-20"
@@ -2441,10 +2396,6 @@
    "why": "too small (700x150)",
    "checked": "2026-10-20"
   },
-  "osm-kaffee-allez-n12625884854": {
-   "why": "logo-like file name (https://www.kaffeeallez.be/web/image/website/1/logo?unique=d8dd92a)",
-   "checked": "2026-10-20"
-  },
   "osm-kaffee-change-n12941952165": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2471,15 +2422,7 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-karreaux-n4421648390": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-keizershof-n1187211170": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-kim-s-kitchen-n10218686217": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
@@ -2535,10 +2478,6 @@
   },
   "osm-la-belle-histoire-n11703605271": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-la-bicyclette-n9787361791": {
-   "why": "image HTTP 400 text/html; charset=UTF-8",
    "checked": "2026-10-20"
   },
   "osm-la-dolce-barista-n3304431813": {
@@ -2615,10 +2554,6 @@
   },
   "osm-lucy-chang-n3392860014": {
    "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
-  "osm-luxalad-n4893381291": {
-   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "osm-macho-n7783989814": {
@@ -2699,10 +2634,6 @@
    "why": "error: SSLError",
    "checked": "2026-10-20"
   },
-  "osm-mortier-n9902273001": {
-   "why": "too small (661x244)",
-   "checked": "2026-10-20"
-  },
   "osm-mr-sato-n12741969454": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2715,10 +2646,6 @@
    "why": "manual review: og:image is a casino ad (domain apparently taken over) — not the business",
    "checked": "2026-10-20",
    "url": "https://namjai.be/og-banner.png"
-  },
-  "osm-nat-thai-n12116554787": {
-   "why": "homepage HTTP 404",
-   "checked": "2026-10-20"
   },
   "osm-neapolis-n2625520425": {
    "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
@@ -2761,11 +2688,6 @@
    "checked": "2026-10-20"
   },
   "osm-o-yo-n10885912444": {
-   "why": "manual review: logo / wordmark, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
-  },
-  "osm-o-yo-n5247946071": {
    "why": "manual review: logo / wordmark, not a photo of the place",
    "checked": "2026-10-20",
    "url": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
@@ -2814,10 +2736,6 @@
   },
   "osm-ona-n3215962992": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-orange-ini-n9809246056": {
-   "why": "error: SSLError",
    "checked": "2026-10-20"
   },
   "osm-oriental-n1293099635": {
@@ -2993,10 +2911,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-prince-n12323883648": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-publika-n10892732442": {
    "why": "manual review: poster / graphic / ad, not a photo of the place",
    "checked": "2026-10-20",
@@ -3043,24 +2957,12 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-rosa-n12534518527": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-rumi-n7177919608": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-sailing-queen-w313703440": {
-   "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
   "osm-seli-s-noodlebar-n2998443056": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-sensum-gent-n12801817423": {
-   "why": "too small (405x10)",
    "checked": "2026-10-20"
   },
   "osm-seoul-south-station-n12702572257": {
@@ -3104,10 +3006,6 @@
    "checked": "2026-10-20"
   },
   "osm-soepbar-sordo-n9092308404": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-soeurs-sourire-n9042748310": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
@@ -3199,10 +3097,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-sushi-oostakker-n9996956434": {
-   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
-   "checked": "2026-10-20"
-  },
   "osm-sushi-paradise-n1186970648": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -3275,10 +3169,6 @@
    "why": "homepage HTTP 404",
    "checked": "2026-10-20"
   },
-  "osm-t-spoorke-n3967087159": {
-   "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
   "osm-t-spoorloos-perron-n13758856522": {
    "why": "not landscape (2000x2000)",
    "checked": "2026-10-20"
@@ -3342,10 +3232,6 @@
   },
   "osm-taste-it-n819591968": {
    "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
-  "osm-taste-of-india-n11049255678": {
-   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "osm-tenderly-n5275415929": {
@@ -3565,10 +3451,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-wurst-n7036891924": {
-   "why": "image HTTP 404 image/png",
-   "checked": "2026-10-20"
-  },
   "osm-yalla-yalla-n11049255677": {
    "why": "error: SSLError",
    "checked": "2026-10-20"
@@ -3644,10 +3526,6 @@
   },
   "sensum": {
    "why": "too small (405x10)",
-   "checked": "2026-10-20"
-  },
-  "shamrock-irish-bar": {
-   "why": "error: SSLError",
    "checked": "2026-10-20"
   },
   "smorbrod": {

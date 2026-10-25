@@ -95,7 +95,7 @@ const TG = (() => {
   }
   const GROUP_LABEL = { restaurants: 'Restaurants', cafes_bars: 'Cafés & bars', coffee: 'Coffee', bakeries: 'Bakeries' };
   const CAT_LABEL = { 'fine dining': 'Fine dining', 'gastro-bistro': 'Gastro-bistro', 'bistro': 'Bistro', 'brasserie': 'Brasserie', 'casual': 'Casual', restaurant: 'Restaurant',
-    quick_bites: 'Quick bites', dance_cafe: 'Dance café', brown_cafe: 'Brown café', irish_pub: 'Irish pub', cafe: 'Café', cocktail_bar: 'Cocktail bar', beer_bar: 'Beer bar',
+    quick_bites: 'Quick bites', dance_cafe: 'Dance café', brown_cafe: 'Brown café', irish_pub: 'Irish pub', cafe: 'Café', cocktail_bar: 'Cocktail bar', wine_bar: 'Wine bar', beer_bar: 'Beer bar',
     coffee_bar: 'Specialty coffee', coffee_house: 'Coffee house', coffee_shop: 'Coffee shop / roaster', bakery: 'Bakery', patisserie: 'Patisserie' };
   /* veggie/vegan level (data/cities/<city>-veggie.json): fully vegan › fully vegetarian › clear vegan options › clear veggie options */
   const VEG_LABEL = { vegan: '100% vegan', vegetarian: '100% vegetarian', 'vegan-friendly': 'Vegan options', 'veggie-friendly': 'Veggie options' };
@@ -145,7 +145,7 @@ const TG = (() => {
     const b = [];
     if (r.status !== 'open') b.push(`<span class="badge">${esc(r.status)}</span>`);
     if (r.upcoming) b.push(`<span class="badge soon">${esc(soonLabel(r))}</span>`);
-    else if (r.isNew) b.push('<span class="badge solid">New</span>');
+    else if (r.isNew) b.push(`<span class="badge solid new">${esc(newLabel(r))}</span>`);
     if (r.events.length) b.push('<span class="badge solid">Event</span>');
     if (r.veggieLevel) b.push(`<span class="badge veg lv-${r.veggieLevel}" title="${esc(VEG_LABEL[r.veggieLevel])}">${esc(VEG_SHORT[r.veggieLevel])}</span>`);
     if (withDist && r.distinctions.michelin && r.distinctions.michelin !== 'Michelin selection') b.push(`<span class="badge dist">${esc(stars(r.distinctions.michelin))}</span>`);
@@ -171,9 +171,24 @@ const TG = (() => {
     if (r.expectedOpeningLabel) return r.expectedOpeningLabel;
     return /^\d{4}$/.test(v) ? v : '';
   }
-  const soonLabel = r => { const t = expectedText(r); return t ? `Opening soon · ${t}` : 'Opening soon'; };
+  /* card label: 'Opening soon · December' (month only within the next 3 months, else 'December 2027'; year-only stays '2027') */
+  const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  function soonText(r) {
+    const v = String(r.expectedOpening || ''), m = v.match(/^(\d{4})-(\d{2})/);
+    if (m) { const ahead = (+m[1] * 12 + +m[2]) - (+TODAY.slice(0, 4) * 12 + +TODAY.slice(5, 7)); return MONTHS[+m[2] - 1] + (ahead > 3 || ahead < 0 ? ' ' + m[1] : ''); }
+    if (r.expectedOpeningLabel) return r.expectedOpeningLabel;
+    return /^\d{4}$/.test(v) ? v : '';
+  }
+  const soonLabel = r => { const t = soonText(r); return t ? `Opening soon · ${t}` : 'Opening soon'; };
+  /* 'New' = opened less than 12 months before today (Europe/Brussels), computed here, never stored.
+     opened: 'YYYY-MM' | 'YYYY-MM-DD' (field `opened`; else a leading YYYY-MM[-DD] in openingDate). No month known → not New. */
+  const openedOf = r => { const m = String(r.opened || (known(r.openingDate) ? r.openingDate : '')).match(/^\d{4}-\d{2}(-\d{2})?/); return m && +m[0].slice(5, 7) >= 1 && +m[0].slice(5, 7) <= 12 ? m[0] : null; };
+  const NEW_CUTOFF = (+TODAY.slice(0, 4) - 1) + TODAY.slice(4);                 // same day, one year ago
+  const isRecent = o => { if (!o) return false; const d = o.length === 7 ? o + '-01' : o; return d > NEW_CUTOFF && d <= TODAY; };
+  const newLabel = r => r.opened ? `New since ${MONTHS[+r.opened.slice(5, 7) - 1]} ${r.opened.slice(0, 4)}` : 'New';
   /* shape an upcoming record like a normal place record (defaults for every field the UI reads) */
   function fromUpcoming(u) {
+    u = { ...u, expectedOpening: u.opening || u.expectedOpening };      // `opening: 'YYYY-MM'` and the older `expectedOpening` mean the same
     const passed = expectedPassed(u.expectedOpening);
     return {
       type: null, cuisine: '', cuisineTags: [], chef: u.team || 'unknown', priceLevel: 'unknown', priceFrom: null, phone: null,
@@ -183,7 +198,8 @@ const TG = (() => {
       features: { ...(u.features || {}) }, features_evidence: { ...(u.features_evidence || {}) },
       instagram: u.instagram_handle ? `https://www.instagram.com/${u.instagram_handle}/` : null,
       summary: u.description, summaryLang: 'en', lastChanged: u.dateChecked, district: u.district || '', neighbourhood: u.neighbourhood || '',
-      fromUpcoming: true, upcoming: !passed, isNew: passed,
+      fromUpcoming: true, upcoming: !passed, isNew: false,                // once the month has passed: 'New since <month>' (computed in load)
+      opened: passed && /^\d{4}-\d{2}/.test(u.expectedOpening) ? u.expectedOpening : null,
       openingDate: passed ? (u.expectedOpening || 'unknown') : 'unknown', openingYear: passed ? String(u.expectedOpening).slice(0, 4) : 'unknown'
     };
   }
@@ -426,6 +442,7 @@ const TG = (() => {
     rs.push(...(om.places || []).filter(o => !ids.has(o.id) && o.status !== 'closed').map(fromOsm));   // OpenStreetMap base list (deduped at import time)
     // a temporary status (e.g. closed for renovation / holidays) ends by itself: statusUntil = last closed day (Europe/Brussels), curated and OSM alike
     rs.forEach(r => { if (r.statusUntil && TODAY > r.statusUntil) { r.status = 'open'; r.statusNote = ''; } });
+    rs.forEach(r => { r.opened = openedOf(r); r.isNew = !r.upcoming && isRecent(r.opened); });   // the stored isNew flag is ignored
     rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
     rs.forEach(r => { const g = (gr.places || {})[r.id]; r.gscore = g && g.score > 0 ? g.score : null; });   // <city>-ratings.json: Google rating x 2 (0-10), only confident matches
     rs.forEach(r => { const h = (hz.places || {})[r.id]; if (h && !r.heroImage) r.heroImage = h; applyMeal(r, (bk.places || {})[r.id]); });
@@ -541,6 +558,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { CUISINES, CZ_BY, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { CUISINES, CZ_BY, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();
