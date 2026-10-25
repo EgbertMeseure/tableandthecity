@@ -603,3 +603,6 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 @media (max-width:900px){.logo{--logo-h:36px}}
 @media (max-width:640px){.hero .logo,.dhero .logo{--logo-h:32px}}
 .hero .logo__img,.dhero .logo__img{filter:drop-shadow(0 1px 6px rgba(0,0,0,.55))}   /* keeps the thin white strokes legible over bright photo spots */
+/* visitor forms post via js/forms.js: sending + error states */
+.fb__msg.is-err{color:#b3261e}
+.crq.is-sending .crq__send,.fb.is-sending .fb-send{opacity:.7;cursor:progress}

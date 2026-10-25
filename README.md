@@ -130,14 +130,19 @@ Event cards (home + detail) lead with the event **name** (serif, max 3 lines); d
 `https://www.google.com/maps/dir/?api=1&destination=<name, address, Gent>` (lat,lng if no address; `&destination_place_id=` only when a real
 `google_place_id` is stored). The maps themselves stay Leaflet/OpenStreetMap.
 
-## Visitor feedback ("Know this place?")
-Under the *At a glance* grid on every detail page. Visitors tap the place's group-specific feature pills (1× = has it ✓, 2× = doesn't have it, 3× = not sure), optionally open a one-line note, and press **Send**. Payload: `{placeId, placeName, city, changes:[{feature,label,value}], note, url, timestamp}` (+ `subject`, `changes_text`, and `access_key` when set).
-Configure in `js/config.js` (all empty by default — everything there is public, no secrets):
-- `FEEDBACK_ENDPOINT` – URL accepting a JSON POST, e.g. `https://api.web3forms.com/submit` or `https://formspree.io/f/<id>`.
-- `FEEDBACK_ACCESS_KEY` – the form's public access key (Web3Forms); omitted from the payload when empty.
-- `FEEDBACK_EMAIL` – shows the **Email us** button (mailto, subject `Table and the City – <place>`, body with place + URL + selections). Hidden when empty.
-  Set to `info@tableandthecity.com` (the site's single contact address: feedback, city requests and place suggestions all go there).
-Without an endpoint, **Send** opens a mailto with the selections pre-written (to `FEEDBACK_EMAIL`, or with no recipient if that is empty too). Anti-spam: hidden honeypot field (`website`; filled = silently dropped) and max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`). Feedback **never changes data** — it is reviewed by hand (see update.md).
+## Visitor forms (Web3Forms → info@tableandthecity.com)
+All three visitor forms send with one button through `js/forms.js` (`TGForms.send`): a JSON POST to Web3Forms, which delivers to
+info@tableandthecity.com. Visitors never need their own mail app (there is no mailto fallback). States: **Send** → *Sending…* → a thank-you;
+on a network error, timeout (15 s) or `success:false` the form shows "Couldn't send, please try again." and keeps what was typed.
+- **Suggest a place** (`js/suggest.js`; footer, nav drawer, end of the list, `#suggest`): subject `Suggestion: <place> (<city>)`; fields `place_name`, `city`, `place_type`, `address_or_map`, `why`.
+- **Know this place?** (`js/detail.js`, under *At a glance* on every detail page): tap pills (1× = has it ✓, 2× = doesn't have it, 3× = not sure) + an optional note; subject `Correction: <place> (<city>)`; fields `place_name`, `place_id`, `city`, `place_url`, `changes`, `note`. Max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`).
+- **Request your city** (`js/cityreq.js`, bottom of the Country/City dropdowns): subject `City request: <city>, <country>`; fields `country`, `city`.
+
+Every submission also carries `form_type`, `from_name` = "Table and the City website", `message` (readable summary), `page`, `sent_at`, and
+`replyto` = the visitor's email when given. Anti-spam: a hidden honeypot `botcheck` (filled → silently dropped in the browser; also Web3Forms' own check).
+Configure in `js/config.js` (public, no secrets): `FEEDBACK_ENDPOINT` (`https://api.web3forms.com/submit`) and `FEEDBACK_ACCESS_KEY` (the Web3Forms
+access key; public by design, it can only send to the inbox it was created for). Empty endpoint = the forms and their entry points are hidden.
+`FEEDBACK_EMAIL` = `info@tableandthecity.com`, the site's single contact address (reference only). Feedback **never changes data**; it is reviewed by hand (see update.md).
 
 ## Full coverage: OpenStreetMap base list + veggie/vegan layer
 Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ranked first), the site loads every food & drink business in Gent

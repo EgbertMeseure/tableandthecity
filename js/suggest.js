@@ -1,11 +1,11 @@
 /* "Suggest a place": a small form (same .crq sheet as "Request your city") opened from any [data-suggest] element
    (footer, nav drawer, end of the "All places" list) or the #suggest URL hash.
-   Sending reuses the feedback mechanism: JSON POST to TG_CONFIG.FEEDBACK_ENDPOINT when one is configured, otherwise a mailto:
-   to TG_CONFIG.FEEDBACK_EMAIL (info@tableandthecity.com). No address and no endpoint → the entry points are hidden. */
+   Sent with TGForms.send (js/forms.js: Web3Forms → info@tableandthecity.com); no mail app involved.
+   No endpoint configured → the entry points are hidden. */
 (function () {
   'use strict';
-  const C = window.TG_CONFIG || {}, TO = (C.FEEDBACK_EMAIL || '').replace(/[^\w.+@-]/g, '');   // same sanitising as detail.js
-  if (!TO && !C.FEEDBACK_ENDPOINT) { document.documentElement.classList.add('no-suggest'); return; }
+  const F = window.TGForms;
+  if (!F || !F.ready) { document.documentElement.classList.add('no-suggest'); return; }
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const TYPES = ['Restaurant', 'Café & bar', 'Breakfast', 'Bakery', 'Other'];
   let root = null, lastFocus = null;
@@ -31,10 +31,10 @@
           <label class="crq__f"><span>Address or Google Maps link <i>(optional)</i></span><input name="where" type="text" maxlength="300" autocomplete="off"></label>
           <label class="crq__f"><span>Why it’s great <i>(optional)</i></span><textarea name="why" rows="3" maxlength="1000" placeholder="The dish, the wine list, the room…"></textarea></label>
           <label class="crq__f"><span>Your email <i>(optional)</i></span><input name="email" type="email" autocomplete="email" inputmode="email" maxlength="120" placeholder="Only if you’d like a reply"></label>
-          <input name="website" type="text" tabindex="-1" autocomplete="off" class="sgp__hp" aria-hidden="true">
+          <input name="botcheck" type="text" tabindex="-1" autocomplete="off" class="sgp__hp" aria-hidden="true">
           <p class="crq__err" role="alert" hidden></p>
-          <button class="pill-btn crq__send" type="submit">Send suggestion</button>
-          <p class="crq__note">${C.FEEDBACK_ENDPOINT ? 'Sent straight to our team.' : 'Opens your mail app with the suggestion filled in.'}</p>
+          <button class="pill-btn crq__send" type="submit">Send</button>
+          <p class="crq__note">Goes straight to our team.</p>
         </form>
         <div class="crq__done" hidden><p class="crq__thanks" role="status"></p><button class="pill-btn crq__send" type="button" data-crq-close>Done</button></div>
       </div>`;
@@ -64,34 +64,23 @@
         err.textContent = bad[0] === 'email' ? 'That email doesn’t look right.' : bad.includes('name') ? 'Please add the name of the place.' : 'Please add the city.';
         form.elements[bad[0]].focus(); return;
       }
-      if (form.elements.website.value) return thanks(d);                 // honeypot filled → silently drop
-      const subject = `Place suggestion: ${d.name} (${d.city})`;
-      const body = [`Place: ${d.name}`, `City: ${d.city}`, `Type: ${d.type}`, d.where && `Address / map: ${d.where}`, d.why && `Why it's great:\n${d.why}`,
-        d.email && `Email: ${d.email}`].filter(Boolean).join('\n') + `\n\n— sent from ${location.origin}${location.pathname}`;
-      if (C.FEEDBACK_ENDPOINT) {
-        const btn = form.querySelector('.crq__send'); btn.disabled = true; btn.textContent = 'Sending…';
-        try {
-          const res = await fetch(C.FEEDBACK_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-            body: JSON.stringify({ ...(C.FEEDBACK_ACCESS_KEY ? { access_key: C.FEEDBACK_ACCESS_KEY } : {}), subject, from_name: 'Table and the City – place suggestion',
-              kind: 'suggestion', ...d, message: body, url: location.href, timestamp: new Date().toISOString(), ...(d.email ? { replyto: d.email } : {}) }) });
-          if (!res.ok) throw new Error('HTTP ' + res.status);
-          btn.disabled = false; btn.textContent = 'Send suggestion'; return thanks(d, true);
-        } catch (_) {
-          btn.disabled = false; btn.textContent = 'Send suggestion';
-          if (!TO) { err.hidden = false; err.textContent = 'Couldn’t send right now. Please try again later.'; return; }
-        }
-      }
-      API.last = `mailto:${TO}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      location.href = API.last;
-      thanks(d, false);
+      if (form.elements.botcheck.value) return thanks(d);                // honeypot filled → silently drop
+      const message = [`Place: ${d.name}`, `City: ${d.city}`, `Type: ${d.type}`, d.where && `Address / map: ${d.where}`, d.why && `Why it's great:\n${d.why}`,
+        d.email && `Email: ${d.email}`].filter(Boolean).join('\n');
+      const btn = form.querySelector('.crq__send'); btn.disabled = true; btn.textContent = 'Sending…'; root.classList.add('is-sending');
+      try {
+        await F.send({ kind: 'Suggest a place', subject: `Suggestion: ${d.name} (${d.city})`, email: d.email,
+          fields: { place_name: d.name, city: d.city, place_type: d.type, address_or_map: d.where, why: d.why }, message });
+        thanks(d);
+      } catch (_) {
+        err.hidden = false; err.textContent = F.FAIL;                        // the typed text stays in the form
+      } finally { btn.disabled = false; btn.textContent = 'Send'; root.classList.remove('is-sending'); }
     });
   }
-  function thanks(d, sent) {
+  function thanks(d) {
     root.querySelector('form').hidden = true; root.querySelector('.crq__lead').hidden = true;
     const done = root.querySelector('.crq__done'); done.hidden = false;
-    done.querySelector('.crq__thanks').innerHTML = sent === false
-      ? `Thank you! Your suggestion for <b>${esc(d.name)}</b> is ready in your mail app — just hit send.`
-      : `Thank you! We’ll take a look at <b>${esc(d.name)}</b>.`;
+    done.querySelector('.crq__thanks').innerHTML = `Thank you! Your suggestion for <b>${esc(d.name)}</b> is on its way to our team.`;
     done.querySelector('button').focus();
   }
   function open(from) {
@@ -118,5 +107,5 @@
   const fromHash = () => { if (location.hash === '#suggest') open(); };
   addEventListener('hashchange', fromHash);
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fromHash); else fromHash();
-  const API = window.TGSuggest = { open: () => open(), close, last: '' };
+  const API = window.TGSuggest = { open: () => open(), close };
 })();

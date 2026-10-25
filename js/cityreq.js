@@ -1,10 +1,10 @@
 /* "Request your city": an extra item at the bottom of the header Country ▾ / City ▾ dropdowns that opens a small form
-   (Country, City, optional email). No backend: it opens a mailto: to TG_CONFIG.FEEDBACK_EMAIL – the same config value the
-   "Know this place?" feedback uses, so the address changes in one place. Hook: this script tag only (index.html, restaurant.html). */
+   (Country, City, optional email), sent with TGForms.send (js/forms.js: Web3Forms → info@tableandthecity.com), like every
+   visitor form; no mail app involved. Hook: this script tag only (index.html, restaurant.html). */
 (function () {
   'use strict';
-  const C = window.TG_CONFIG || {}, TO = (C.FEEDBACK_EMAIL || '').replace(/[^\w.+@-]/g, '');   // same sanitising as detail.js
-  if (!TO) return;                                                         // no address configured → feature off
+  const F = window.TGForms;
+  if (!F || !F.ready) return;                                              // no endpoint configured → feature off
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   let root = null, lastFocus = null;
 
@@ -40,9 +40,10 @@
           <label class="crq__f"><span>Country</span><input name="country" type="text" autocomplete="country-name" required maxlength="60"></label>
           <label class="crq__f"><span>City</span><input name="city" type="text" autocomplete="address-level2" required maxlength="60"></label>
           <label class="crq__f"><span>Email <i>(optional)</i></span><input name="email" type="email" autocomplete="email" inputmode="email" maxlength="120" placeholder="So we can tell you when it’s live"></label>
+          <input name="botcheck" type="text" tabindex="-1" autocomplete="off" class="sgp__hp" aria-hidden="true">
           <p class="crq__err" role="alert" hidden></p>
-          <button class="pill-btn crq__send" type="submit">Send request</button>
-          <p class="crq__note">Opens your mail app with the request filled in.</p>
+          <button class="pill-btn crq__send" type="submit">Send</button>
+          <p class="crq__note">Goes straight to our team.</p>
         </form>
         <div class="crq__done" hidden><p class="crq__thanks" role="status"></p><button class="pill-btn crq__send" type="button" data-crq-close>Done</button></div>
       </div>`;
@@ -51,14 +52,14 @@
     root.addEventListener('keydown', e => {
       if (e.key === 'Escape') { e.preventDefault(); close(); }
       if (e.key === 'Tab') {
-        const f = [...root.querySelectorAll('input, button')].filter(x => x.offsetParent); if (!f.length) return;
+        const f = [...root.querySelectorAll('input:not(.sgp__hp), button')].filter(x => x.offsetParent); if (!f.length) return;
         const i = f.indexOf(document.activeElement);
         if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); } else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
       }
     });
     const form = root.querySelector('form');
     form.addEventListener('input', e => { e.target.removeAttribute('aria-invalid'); root.querySelector('.crq__err').hidden = true; });
-    form.addEventListener('submit', e => {
+    form.addEventListener('submit', async e => {
       e.preventDefault();
       const v = k => form.elements[k].value.trim().replace(/\s+/g, ' ');
       const country = v('country'), city = v('city'), email = v('email');
@@ -70,14 +71,19 @@
         err.textContent = bad.includes('email') && bad.length === 1 ? 'That email doesn’t look right.' : 'Please fill in both country and city.';
         form.elements[bad[0]].focus(); return;
       }
-      const subject = `City request: ${city}, ${country}`;
-      const body = `Country: ${country}\nCity: ${city}${email ? `\nEmail: ${email}` : ''}\n\n— sent from ${location.origin}${location.pathname}`;
-      API.last = `mailto:${TO}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      location.href = API.last;
-      form.hidden = true; root.querySelector('.crq__lead').hidden = true;
-      const done = root.querySelector('.crq__done'); done.hidden = false;
-      done.querySelector('.crq__thanks').innerHTML = `Thank you! Your request for <b>${esc(city)}</b> is ready in your mail app — just hit send.`;
-      done.querySelector('button').focus();
+      const done = () => { form.hidden = true; root.querySelector('.crq__lead').hidden = true;
+        const box = root.querySelector('.crq__done'); box.hidden = false;
+        box.querySelector('.crq__thanks').innerHTML = `Thank you! Your request for <b>${esc(city)}</b> is on its way to our team.`;
+        box.querySelector('button').focus(); };
+      if (form.elements.botcheck.value) return done();                     // honeypot filled → silently drop
+      const btn = form.querySelector('.crq__send'), err = root.querySelector('.crq__err');
+      btn.disabled = true; btn.textContent = 'Sending…'; root.classList.add('is-sending');
+      try {
+        await F.send({ kind: 'Request your city', subject: `City request: ${city}, ${country}`, email,
+          fields: { country, city }, message: `Country: ${country}\nCity: ${city}${email ? `\nEmail: ${email}` : ''}` });
+        done();
+      } catch (_) { err.hidden = false; err.textContent = F.FAIL; }          // the typed text stays in the form
+      finally { btn.disabled = false; btn.textContent = 'Send'; root.classList.remove('is-sending'); }
     });
   }
   function open(host, from) {
@@ -98,5 +104,5 @@
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', watch); else watch();
-  const API = window.TGCityRequest = { open: () => { const h = document.querySelector('[data-citysel]'); if (h) open(h); }, close, last: '' };
+  const API = window.TGCityRequest = { open: () => { const h = document.querySelector('[data-citysel]'); if (h) open(h); }, close };
 })();

@@ -88,9 +88,8 @@
       <p class="fb__hint">Tap once = has it, twice = doesn’t have it, three times = not sure.</p>
       <div class="fb__pills" role="group" aria-label="Features">${FB.map(([k, l]) => `<button type="button" class="fbp" data-k="${k}" data-v="" aria-label="${esc(l)}: not sure">${esc(l)}</button>`).join('')}</div>
       <details class="fb__more"><summary>Add a note (optional)</summary><input type="text" id="fb-note" maxlength="200" placeholder="e.g. closed on Mondays now" aria-label="Note (optional)"></details>
-      <input type="text" id="fb-hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="fb__hp">
-      <div class="fb__actions"><button type="button" class="pill-btn sm fb-send" id="fb-send" disabled>Send</button>
-        <a class="pill-btn sm dark" id="fb-mail" hidden target="_blank" rel="noopener">Email us</a></div>
+      <input type="text" id="fb-hp" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" class="fb__hp">
+      <div class="fb__actions"><button type="button" class="pill-btn sm fb-send" id="fb-send" disabled>Send</button></div>
       <p class="fb__msg" id="fb-msg" role="status" aria-live="polite"></p></section>`;
   // ---- reserve: own booking URL (verified) > website > phone ----
   const resv = !isR(r) || r.fromUpcoming ? null : r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : r.website ? { href: r.website, label: 'Reserve' } : r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
@@ -139,40 +138,37 @@
     ${sourcesLine}`;
   bindFeedback();
   function bindFeedback() {
-    const C = window.TG_CONFIG || {}, box = $('#fb'); if (!box) return;
-    const pageUrl = location.href.split('#')[0], subject = `Table and the City – ${r.name}`;
+    const F = window.TGForms, box = $('#fb'); if (!box) return;
+    if (!F || !F.ready) { box.remove(); return; }                         // no endpoint configured → no form (never a mailto)
+    const pageUrl = location.href.split('#')[0], subject = `Correction: ${r.name} (${city.name})`;
     const LABEL = Object.fromEntries(FB), NEXT = { '': 'yes', yes: 'no', no: '' }, SAY = { '': 'not sure', yes: 'has it', no: 'doesn’t have it' };
     const changes = () => [...box.querySelectorAll('.fbp')].filter(b => b.dataset.v).map(b => ({ feature: b.dataset.k, label: LABEL[b.dataset.k], value: b.dataset.v === 'yes' }));
     const note = () => $('#fb-note').value.trim().slice(0, 200);
-    const mailBody = (ch, n) => [`Place: ${r.name} (${r.id}), ${city.name}`, `Page: ${pageUrl}`, '',
+    const summary = (ch, n) => [`Place: ${r.name} (${r.id}), ${city.name}`, `Page: ${pageUrl}`, '',
       ...(ch.length ? ['Visitor says:', ...ch.map(c => `- ${c.label}: ${c.value ? 'yes, has it' : 'no, doesn’t have it'}`)] : []), ...(n ? ['', `Note: ${n}`] : [])].join('\n');
-    const mailto = (ch, n) => `mailto:${(C.FEEDBACK_EMAIL || '').replace(/[^\w.+@-]/g, '')}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(mailBody(ch, n))}`;
-    const mail = $('#fb-mail'); if (C.FEEDBACK_EMAIL) { mail.hidden = false; mail.href = mailto([], ''); }
     const send = $('#fb-send'), msg = $('#fb-msg');
-    const refresh = () => { send.disabled = !(changes().length || note()); if (C.FEEDBACK_EMAIL) mail.href = mailto(changes(), note()); };
+    const refresh = () => { send.disabled = !(changes().length || note()); };
     box.addEventListener('click', e => { const b = e.target.closest('.fbp'); if (!b) return; b.dataset.v = NEXT[b.dataset.v];
       b.setAttribute('aria-label', `${LABEL[b.dataset.k]}: ${SAY[b.dataset.v]}`); refresh(); });
     $('#fb-note').addEventListener('input', refresh);
     // rate limit per page: max 3 sends per 24 h (localStorage)
     const RL = 'tg-fb-' + city.id + '-' + r.id, DAY = 864e5;
     const sent = () => { try { return JSON.parse(localStorage.getItem(RL) || '[]').filter(t => Date.now() - t < DAY); } catch (_) { return []; } };
-    const thanks = () => { msg.textContent = 'Thanks! We’ll check it.'; box.classList.add('done'); box.querySelectorAll('.fbp').forEach(b => { b.dataset.v = ''; }); $('#fb-note').value = ''; refresh(); };
+    const thanks = () => { msg.classList.remove('is-err'); msg.textContent = 'Thanks! We’ll check it.'; box.classList.add('done'); box.querySelectorAll('.fbp').forEach(b => { b.dataset.v = ''; }); $('#fb-note').value = ''; refresh(); };
     send.addEventListener('click', async () => {
       const ch = changes(), n = note(); if (!ch.length && !n) return;
       if ($('#fb-hp').value) { thanks(); return; }                         // honeypot filled → silently drop
       const prev = sent(); if (prev.length >= 3) { msg.textContent = 'Thanks — we already received your notes for this place today.'; return; }
-      const payload = { placeId: r.id, placeName: r.name, city: city.id, changes: ch, note: n, url: pageUrl, timestamp: new Date().toISOString() };
-      if (!C.FEEDBACK_ENDPOINT) { location.href = mailto(ch, n); try { localStorage.setItem(RL, JSON.stringify([...prev, Date.now()])); } catch (_) {} thanks(); return; }
-      send.disabled = true; msg.textContent = 'Sending…';
+      send.disabled = true; send.textContent = 'Sending…'; msg.textContent = ''; box.classList.add('is-sending');
       try {
-        const res = await fetch(C.FEEDBACK_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify({ ...(C.FEEDBACK_ACCESS_KEY ? { access_key: C.FEEDBACK_ACCESS_KEY } : {}), subject, from_name: 'Table and the City feedback', ...payload, changes_text: mailBody(ch, n) }) });
-        if (!res.ok) throw new Error('HTTP ' + res.status);
+        await F.send({ kind: 'Know this place? (correction)', subject,
+          fields: { place_name: r.name, place_id: r.id, city: city.name, place_url: pageUrl,
+            changes: ch.map(c => `${c.label}: ${c.value ? 'yes' : 'no'}`).join('; '), note: n }, message: summary(ch, n) });
         try { localStorage.setItem(RL, JSON.stringify([...prev, Date.now()])); } catch (_) {}
         thanks();
       } catch (_) {
-        msg.innerHTML = `Couldn’t send right now.${C.FEEDBACK_EMAIL ? ` <a href="${esc(mailto(ch, n))}">Email it instead</a>.` : ' Please try again later.'}`; refresh();
-      }
+        msg.textContent = F.FAIL; msg.classList.add('is-err'); refresh();      // the pills and the note stay as they were
+      } finally { send.textContent = 'Send'; box.classList.remove('is-sending'); }
     });
   }
   $('#right').innerHTML = `
