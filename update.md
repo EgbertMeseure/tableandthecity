@@ -70,6 +70,10 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    `data/osm/gent-bakeries-pending.json` for an artisan check. New research: `python3 scripts/merge_bakeries.py gent` (reads
    `/workspace/handoff/gent-bakeries-research.json`; OSM shops → allowlist, others → `gent.json`; an allowlisted shop is shown under Bakeries even when OSM
    tags it as a café; conflicting hours → OVERRIDES in that script set them to null with a note), then import + 4e + 4h.
+   **New openings & wine bars:** `python3 scripts/merge_new_winebars.py` merges `/workspace/handoff/gent-new-upcoming.json` + `gent-winebars.json`:
+   opening month → `opened` on existing curated places, OSM places get sourced fields in `data/osm/corrections.json` (survive a re-import), new places
+   are appended to `gent.json` (`origin: research-…`). Skips and kept conflicts are listed in the script (SKIP / CONFLICTS). Then rerun
+   `scripts/fetch_google_ratings.py gent --raw <file outside the repo>` for the new places' scores.
    **Cocktail bars:** `python3 scripts/merge_cocktailbars.py gent` merges `/workspace/handoff/gent-cocktailbars-research.json` into `gent.json`
    (category `cocktail_bar`, sourced features, OSM ref so the import does not add it twice). Research notes (temporary closure with an end date →
    `statusUntil`, after which the site shows the place as open again; seasonal hours; 'Groups of 6+ only' reservations → `features_note`) live in

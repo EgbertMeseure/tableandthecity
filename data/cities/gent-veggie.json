@@ -606,13 +606,14 @@
    "hcInfo": "Serves meat, vegan options available. Fresh wraps and plates, made every day in our own kitchen. Every dish comes as a wrap or a plate, with vegan options such as grilled vegan meat. Two shops in Ghent: Korenmarkt and Vlaanderenstraat.  Mon"
   },
   "osm-flordi-n11640842891": {
-   "veggieLevel": "vegan-friendly",
+   "veggieLevel": "vegan",
    "sources": [
+    "https://flordi.be/",
     "https://www.happycow.net/europe/belgium/ghent/print?"
    ],
-   "basis": "HappyCow listing",
-   "hcName": "Café Flordi",
-   "hcInfo": "Pub offering vegan options, including a smoky pulled mushroom burger with sweet potato fries, bread with homemade vegetable hummus, and a sharing platter with Padrón peppers, rosemary potato salad, olives, dip, pickles, and toast. Seasonal "
+   "note": "HLN (1 Oct 2026): fully vegan eetcafé (\"volledig plantaardig\"); research 2026-10-25.",
+   "basis": "press",
+   "checked": "2026-10-25"
   },
   "osm-flynn-s-n5395453707": {
    "veggieLevel": "veggie-friendly",

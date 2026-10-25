@@ -1,6 +1,6 @@
 {
  "city": "gent",
- "dateChecked": "2026-10-20",
+ "dateChecked": "2026-10-25",
  "timezone": "Europe/Brussels",
  "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into gent.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
  "excludedChecked": {
@@ -17,7 +17,8 @@
   "notEnoughInfo": [
    "MTM group (Mòris, Bianca…) takes over an unnamed Gentse brasserie in Oct 2026 (HLN 24 Sep 2026) — name secret",
    "Sarma building (Korenmarkt): horeca planned above Hema, no operator or date (HLN)",
-   "Bakkerij Bloch second shop \"aan de rand van Gent\" — no date found"
+   "Bakkerij Bloch second shop \"aan de rand van Gent\" — no date found",
+   "Lunchbar ROMM (Mirto, Rommelaere site): 'coming soon', no opening month published (sandwich contest 5 Oct–27 Nov 2026) — re-add with a month"
   ],
   "outOfScopeOrStale": [
    "The Bakery by Joost Arijs \"opens 9 December\" — 2022 press release, already open",
@@ -59,41 +60,6 @@
     "https://potandpaintclub.com/gent"
    ],
    "announcedBy": "HLN, 14 Sep 2026; official site: \"Vanaf 31 oktober 2026\"",
-   "dateChecked": "2026-10-20"
-  },
-  {
-   "id": "lunchbar-romm",
-   "name": "Lunchbar ROMM",
-   "group": "cafes_bars",
-   "category": "cafe",
-   "address": "Jozef Kluyskensstraat 29, 9000 Gent (Rommelaere site)",
-   "postalCode": "9000",
-   "district": "Gent (9000)",
-   "neighbourhood": "Kunstenkwartier",
-   "lat": 51.045731,
-   "lng": 3.7188608,
-   "geoSource": "Nominatim/OpenStreetMap",
-   "geoPrecision": "address",
-   "expectedOpening": "soon",
-   "expectedOpeningLabel": null,
-   "expectedOpeningNote": "Mirto: \"binnenkort\" — opening date still to be announced.",
-   "description": "Inclusive lunch bar run by social-economy employer Mirto on the former UGent Rommelaere site, with fresh homemade sandwiches, quiches, soups and meal salads.",
-   "team": "Mirto (maatwerkbedrijf / sheltered employment)",
-   "website": null,
-   "instagram_handle": null,
-   "vegetarian": "yes",
-   "vegan": "yes",
-   "dietNote": "Mirto: \"voldoende vegetarische en vegan opties\" (plenty of vegetarian and vegan options).",
-   "openingHours": null,
-   "openingHoursSource": null,
-   "features": {},
-   "features_evidence": {},
-   "sources": [
-    "https://nl.linkedin.com/posts/maatwerkmirto_mirto-romm-socialeeconomie-activity-7513135416070471680-NxSz",
-    "https://companybelgium.be/en/establishment/2392578046/mirto-vzw-site-lunchbar-romm",
-    "https://www.vrt.be/vrtnws/nl/2026/08/20/gent-universiteit-ugent-rommelaere-nieuwe-invulling-restaurant-c/"
-   ],
-   "announcedBy": "Mirto on LinkedIn (Oct 2026); VRT NWS, 20 Aug 2026; address from the Belgian company register (KBO establishment unit)",
    "dateChecked": "2026-10-20"
   },
   {

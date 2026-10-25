@@ -56,6 +56,90 @@
    "statusUntil": "2026-10-21",
    "statusNote": "Closed for holidays from Monday 19 to Wednesday 21 October 2026; open again from Thursday 22 October.",
    "source": "https://gent.tokyosushi.be/nl/Contact"
+  },
+  "node/11640842891": {
+   "opened": "2026-10-02",
+   "summary": "Cooperative meeting place with a fully vegan eetcafé, makers' market and coworking, opened after a four-year run-up and crowdfunding.",
+   "summarySource": "https://www.hln.be/gent/net-open-na-vier-jaar-bijna-opent-ontmoetingsplek-en-eetcafe-flordi-nu-echt-een-plek-om-ideeen-te-laten-groeien-en-te-co-creeren~ad1830b1/",
+   "source": "https://www.hln.be/gent/net-open-na-vier-jaar-bijna-opent-ontmoetingsplek-en-eetcafe-flordi-nu-echt-een-plek-om-ideeen-te-laten-groeien-en-te-co-creeren~ad1830b1/ | https://flordi.be/"
+  },
+  "node/11897518892": {
+   "opened": "2026-06",
+   "group": "cafes_bars",
+   "category": "cafe",
+   "cuisineTags": [],
+   "summary": "All-day café-bar in the former The Cover on the Vrijdagmarkt: newspaper and coffee by day, dinner (mains up to €17.50) and late drinks at night.",
+   "summarySource": "https://www.hln.be/gent/net-open-edmond-blaast-nieuw-leven-in-de-voormalige-the-cover-de-krant-lezen-dineren-of-blijven-hangen-tot-s-nachts-het-kan-allemaal~a2bb01d4/",
+   "source": "https://www.hln.be/gent/net-open-edmond-blaast-nieuw-leven-in-de-voormalige-the-cover-de-krant-lezen-dineren-of-blijven-hangen-tot-s-nachts-het-kan-allemaal~a2bb01d4/"
+  },
+  "node/13685423940": {
+   "opened": "2026-03",
+   "summary": "Mediterranean-coast mezze and grill restaurant near the Citadelpark.",
+   "summarySource": "https://www.hln.be/gent/net-open-zeynep-30-en-kursat-39-brengen-in-chef-q-het-beste-van-de-mediterrane-kust-naar-gent~ab21a0b1/",
+   "source": "https://www.hln.be/gent/net-open-zeynep-30-en-kursat-39-brengen-in-chef-q-het-beste-van-de-mediterrane-kust-naar-gent~ab21a0b1/"
+  },
+  "node/13296111878": {
+   "opened": "2025-11",
+   "group": "cafes_bars",
+   "category": "wine_bar",
+   "cuisineTags": [],
+   "openingHours": "We-Sa 17:00-23:00",
+   "openingHoursSource": "https://www.hln.be/gent/net-open-albertini-het-kleine-zusje-van-alberte-hier-kan-je-zowel-een-fles-wijn-van-200-euro-als-een-cola-komen-drinken~ab136e777/",
+   "openingHoursConfidence": "high",
+   "summary": "Alberte's little-sister café and cave: natural wines, small plates, pizza and pasta, as happy to serve a cola as a €200 bottle.",
+   "summarySource": "https://www.hln.be/gent/net-open-albertini-het-kleine-zusje-van-alberte-hier-kan-je-zowel-een-fles-wijn-van-200-euro-als-een-cola-komen-drinken~ab136e777/",
+   "source": "https://www.hln.be/gent/net-open-albertini-het-kleine-zusje-van-alberte-hier-kan-je-zowel-een-fles-wijn-van-200-euro-als-een-cola-komen-drinken~ab136e777/ | https://www.albertini-gent.be/"
+  },
+  "node/13306301095": {
+   "opened": "2025-11",
+   "summary": "Traditional Gazan dishes cooked 'the way our mother made them' near the Dampoort.",
+   "summarySource": "https://www.hln.be/gent/net-open-abdallah-32-serveert-traditionele-gazaanse-gerechten-in-restaurant-bukuu-zoals-onze-moeder-ze-voor-ons-maakte~abf0f825/",
+   "source": "https://www.hln.be/gent/net-open-abdallah-32-serveert-traditionele-gazaanse-gerechten-in-restaurant-bukuu-zoals-onze-moeder-ze-voor-ons-maakte~abf0f825/ | https://ouvre.be/gand/bukuu-dampoortstraat/"
+  },
+  "node/13510617308": {
+   "opened": "2026-01",
+   "summary": "Afghan restaurant in the Brugse Poort with rice and grill dishes such as qabuli palaw, plus traditional floor seating.",
+   "summarySource": "https://www.hln.be/gent/net-open-speenghar-restaurant-serveert-het-beste-van-de-afghaanse-keuken-met-speciale-zitplaatsen-op-de-grond-voor-wie-graag-traditioneel-dineert~ad2ea84d/",
+   "source": "https://www.hln.be/gent/net-open-speenghar-restaurant-serveert-het-beste-van-de-afghaanse-keuken-met-speciale-zitplaatsen-op-de-grond-voor-wie-graag-traditioneel-dineert~ad2ea84d/ | https://ouvre.be/gand/speenghar-restaurant-phoenixstraat/"
+  },
+  "node/11157734893": {
+   "summary": "No-nonsense natural wine bar and bottle shop by the Belfry, also pouring wild-fermented beers and ciders, with good music and soirées hosted by winemakers.",
+   "summarySource": "https://www.wijnbar-edelrot.be/",
+   "source": "https://www.wijnbar-edelrot.be/ | https://tablejourney.com/belgium/ghent/cuisine/wine-bar/"
+  },
+  "node/12574625746": {
+   "group": "cafes_bars",
+   "category": "wine_bar",
+   "cuisineTags": [],
+   "openingHours": "Mo-We 16:00+; Th-Sa 10:00-24:00; Su 10:00-19:30",
+   "openingHoursSource": "https://www.barwin.be/",
+   "openingHoursConfidence": "high",
+   "summary": "Natural wine bar near the Gravensteen with brunch, a cellar, a bottle shop and a B&B upstairs; oysters at €1 on the first Sunday.",
+   "summarySource": "https://www.barwin.be/",
+   "source": "https://www.barwin.be/ | https://www.barwin.be/wijnbar-gent"
+  },
+  "node/5734799243": {
+   "summary": "'Bar à manger' pairing seasonal bistronomic plates (oysters are a staple) with a curated natural wine list; listed by Gault&Millau.",
+   "summarySource": "https://www.chubbycheeks.be/",
+   "source": "https://www.chubbycheeks.be/ | https://visit.gent.be/en/eat-drink/chubby-cheeks"
+  },
+  "node/9248442976": {
+   "group": "cafes_bars",
+   "category": "wine_bar",
+   "cuisineTags": [],
+   "openingHours": "Mo,We 11:30-20:00; Th,Fr 11:30-23:00; Sa,Su 11:00-23:00; Tu off",
+   "openingHoursSource": "https://www.barterroir.be/contact",
+   "openingHoursConfidence": "high",
+   "summary": "Wine bar and delicatessen on the Groentenmarkt pairing small-estate wines with artisan cheeses and charcuterie; everything is also for sale.",
+   "summarySource": "https://www.barterroir.be/contact",
+   "website": "https://www.barterroir.be/",
+   "source": "https://www.barterroir.be/contact | https://visit.gent.be/en/eat-drink/bar-terroir"
+  },
+  "node/12992514757": {
+   "opened": "2025-07",
+   "summary": "Chef Bert and sommelier Caroline's wine bistro on the Kraanlei: a short seasonal menu built on pure products and a broad, natural-leaning wine list.",
+   "summarySource": "https://www.ombra.gent/contact",
+   "source": "https://www.ombra.gent/contact | https://www.hln.be/gent/restotip-gewoon-heerlijk-eten-en-drinken-in-ombra-wijnbistro-hier-doen-wij-onze-goesting~a13b5803/"
   }
  }
 }

@@ -43,6 +43,10 @@
 "score": 9.8,
 "google_place_id": "ChIJfYLRhuJxw0cRlG7uEqhkY84"
 },
+"bar-martine": {
+"score": 8.6,
+"google_place_id": "ChIJfSVYXopxw0cRq57ke5jGN7s"
+},
 "bask": {
 "score": 9.0,
 "google_place_id": "ChIJaecZjzp3w0cRFwwh60G9_k4"
@@ -75,6 +79,10 @@
 "score": 8.2,
 "google_place_id": "ChIJL2bQFbVxw0cRMO4fBLzt07Y"
 },
+"cafe-copain": {
+"score": 8.8,
+"google_place_id": "ChIJiy8NU2Fxw0cR2WO7vn1vyiQ"
+},
 "cafe-copines": {
 "score": 9.4,
 "google_place_id": "ChIJWebJe0pxw0cRUex36Wy8r5Q"
@@ -90,6 +98,10 @@
 "cafe-gitane": {
 "score": 9.4,
 "google_place_id": "ChIJK9VFgEdxw0cRL7hpXhHde7k"
+},
+"cafe-guido": {
+"score": 10,
+"google_place_id": "ChIJISQXznNxw0cRybqeHmdAOjE"
 },
 "cafe-labath": {
 "score": 8.8,
@@ -211,6 +223,10 @@
 "score": 8.4,
 "google_place_id": "ChIJX30lLUdxw0cRWpBM9V-tcc4"
 },
+"hey-frankie": {
+"score": 9.8,
+"google_place_id": "ChIJoU4lsMBxw0cRoyNyJV72hj8"
+},
 "himschoot": {
 "score": 8.6,
 "google_place_id": "ChIJ7-jZJEdxw0cROJhN6g37Q14"
@@ -266,6 +282,10 @@
 "kultur-bakery": {
 "score": 9.2,
 "google_place_id": "ChIJb4D_k-Rxw0cRFTLuBCIFuE4"
+},
+"la-matta": {
+"score": 10,
+"google_place_id": "ChIJM0SNjvtxw0cR8VpvyYGpoi8"
 },
 "le-baan-thai": {
 "score": 8.8,
@@ -338,6 +358,14 @@
 "oak": {
 "score": 9.6,
 "google_place_id": "ChIJwfnUD2txw0cR0_9xO0hX36c"
+},
+"ona-belfort": {
+"score": 9.2,
+"google_place_id": "ChIJiwB-mLJxw0cRofqRbGTPfKU"
+},
+"ona-nederkouter": {
+"score": 9.2,
+"google_place_id": "ChIJF14UykRxw0cR2iuvwXIVNz4"
 },
 "or-coffee-lab-gent": {
 "score": 8.8,
@@ -2503,6 +2531,10 @@
 "score": 8.8,
 "google_place_id": "ChIJmY4xjUNxw0cRezIM57coy3o"
 },
+"parole": {
+"score": 9.8,
+"google_place_id": "ChIJawwJOVVxw0cR7oRTVoAviXE"
+},
 "patrick-foleys": {
 "score": 9.0,
 "google_place_id": "ChIJ1435nENxw0cRC3w4KfN0OJs"
@@ -2514,6 +2546,10 @@
 "peaberry-coffeebar": {
 "score": 9.2,
 "google_place_id": "ChIJfXNyq0hxw0cRO6waqycW3I4"
+},
+"pica-beans": {
+"score": 9.8,
+"google_place_id": "ChIJIfwxM4hxw0cRAw8WcFneNok"
 },
 "piu-di-piu": {
 "score": 9.8,
@@ -2534,6 +2570,10 @@
 "raaf": {
 "score": 9.4,
 "google_place_id": "ChIJJxQCfAFxw0cRc-r9KtgEJR8"
+},
+"rendez-vous": {
+"score": 10,
+"google_place_id": "ChIJAS8QdwBxw0cRBHR0PWqBGng"
 },
 "rizoom": {
 "score": 9.4,
@@ -2607,6 +2647,14 @@
 "score": 8.8,
 "google_place_id": "ChIJ958ZRUtxw0cRxgi-px9vQDc"
 },
+"the-generous": {
+"score": 9.4,
+"google_place_id": "ChIJQYkAKsoVw0cRzvY4TfG592g"
+},
+"the-gentle": {
+"score": 10,
+"google_place_id": "ChIJJea9dy1xw0cR_TEanc69tpY"
+},
 "the-kitchen-1898-the-post": {
 "score": 9.4,
 "google_place_id": "ChIJcQkHMkFxw0cR7tgyCekyLQE"
@@ -2627,9 +2675,21 @@
 "score": 9.2,
 "google_place_id": "ChIJL4nc60dxw0cRLQ-_M3LWbNw"
 },
+"tshiela": {
+"score": 9.8,
+"google_place_id": "ChIJxQjLTQB3w0cRd1sdit6IMdw"
+},
 "vandekerckhove-bar": {
 "score": 9.4,
 "google_place_id": "ChIJc_AZG09xw0cRmCw_BQnhEzI"
+},
+"vicino": {
+"score": 10,
+"google_place_id": "ChIJQzVk2qdxw0cRuTNsAquJ4PU"
+},
+"vinogradoff": {
+"score": 9.8,
+"google_place_id": "ChIJN8cAjoNxw0cRFY6NCQZwDH8"
 },
 "vrijmoed": {
 "score": 9.6,
