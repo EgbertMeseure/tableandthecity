@@ -1,5 +1,5 @@
 {
- "about": "Manual review of hero og:images (contact sheet, 20 Oct 2026). fetch_hero_images.py moves these ids to rejected and keeps them there on --refresh; delete an entry to re-allow it.",
+ "about": "Manual review of hero og:images (contact sheets: Gent 20 Oct 2026, Antwerpen 25 Oct 2026). fetch_hero_images.py moves these ids to rejected and keeps them there on --refresh; delete an entry to re-allow it.",
  "reject": {
   "arbane": "logo / wordmark, not a photo of the place",
   "bakker-klaas-wintercircus": "logo / wordmark, not a photo of the place",
@@ -66,6 +66,18 @@
   "way-bakery-keizerpoort": "logo / wordmark, not a photo of the place",
   "way-dok-noord": "logo / wordmark, not a photo of the place",
   "yalo": "poster / graphic / ad, not a photo of the place",
-  "osm-kaffie-is-kaffie-vzw-n12985197902": "logo / wordmark graphic (seo.png), 20 Oct 2026"
+  "osm-kaffie-is-kaffie-vzw-n12985197902": "logo / wordmark graphic (seo.png), 20 Oct 2026",
+  "album": "logo / wordmark, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+  "cella": "logo / wordmark, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+  "materia": "logo / wordmark, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+  "bizie-lizie": "Michelin Bib Gourmand logo (third-party mark), not a photo of the place (Antwerpen review, 25 Oct 2026)",
+  "kellys": "poster / graphic / ad (anniversary promo), not a photo of the place (Antwerpen review, 25 Oct 2026)",
+  "paloma": "logo over a graphic, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+  "kloonies": "logo / wordmark over the photo (Antwerpen review, 25 Oct 2026)",
+  "boe": "promo portrait, unclear whether it shows the place; category image instead (Antwerpen review, 25 Oct 2026)",
+  "pazzo": "seasonal stock-style graphic (autumn leaves), not a photo of the place (Antwerpen review, 25 Oct 2026)",
+  "misera": "reproduction of a still-life painting (artwork; reuse rights unclear), also shared with Bar Misera (Antwerpen review, 25 Oct 2026)",
+  "bar-misera": "same image as Misera (duplicate; reproduction of a still-life painting, reuse rights unclear) (Antwerpen review, 25 Oct 2026)",
+  "millesime": "generic interior image on a website-builder CDN (likely stock; unclear whether it is the place) (Antwerpen review, 25 Oct 2026)"
  }
 }

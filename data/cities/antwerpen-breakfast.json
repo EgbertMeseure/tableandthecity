@@ -1,0 +1,102 @@
+{
+ "about": "Breakfast / brunch per place from the research handoff (own site, menu, press). Only sourced values; never guessed.",
+ "handoff": "/workspace/handoff/antwerp/antwerpen-breakfast-brunch.json",
+ "places": {
+  "barnini": {
+   "breakfast": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   }
+  },
+  "barrique": {
+   "breakfast": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   }
+  },
+  "butchers-coffee": {
+   "breakfast": {
+    "value": true,
+    "source": "https://weekend.knack.be/lifestyle/culinair/brunch-adressen-belgie/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://weekend.knack.be/lifestyle/culinair/brunch-adressen-belgie/"
+   }
+  },
+  "charlies": {
+   "breakfast": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   }
+  },
+  "fuel": {
+   "breakfast": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   }
+  },
+  "kloonies": {
+   "breakfast": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   }
+  },
+  "nives": {
+   "breakfast": {
+    "value": true,
+    "source": "https://visit.antwerpen.be/koffie-en-gebak"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://visit.antwerpen.be/koffie-en-gebak"
+   }
+  },
+  "oaas": {
+   "breakfast": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   }
+  },
+  "salt-mint": {
+   "breakfast": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen"
+   }
+  },
+  "tinsel": {
+   "breakfast": {
+    "value": true,
+    "source": "https://weekend.knack.be/lifestyle/culinair/brunch-adressen-belgie/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://weekend.knack.be/lifestyle/culinair/brunch-adressen-belgie/"
+   }
+  }
+ }
+}

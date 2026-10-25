@@ -1,0 +1,526 @@
+{
+ "about": "Hero photos = the og:image / twitter:image each business publishes on its own homepage. Hotlinked, never rehosted. Built by scripts/fetch_hero_images.py.",
+ "places": {
+  "bakker-aldo": {
+   "url": "https://static1.squarespace.com/static/68c755538bafcb2cd87a2988/t/6989109ea87d6d1b7771653f/1770590366947/DSC06879.JPG?format=1500w",
+   "source": "https://www.bakkeraldo.be/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 843,
+   "hash": "c548d8ae426d",
+   "checked": "2026-10-25"
+  },
+  "belroys-bijou": {
+   "url": "https://www.belroys.com/sites/default/files/styles/open_graph/public/content-images/Dieter-shaking.jpg?h=06ac0d8c&itok=TE9J2P0G",
+   "source": "https://www.belroys.com/en/cocktail-bars/welcome-belroys-bijou",
+   "type": "og:image",
+   "w": 1200,
+   "h": 630,
+   "hash": "56b8d97d7409",
+   "checked": "2026-10-25"
+  },
+  "ciro-s": {
+   "url": "https://ciros.be/wp-content/uploads/2023/10/menu_hero.png",
+   "source": "https://ciros.be/",
+   "type": "og:image",
+   "w": 1885,
+   "h": 1300,
+   "hash": "0d9ef484a8e1",
+   "checked": "2026-10-25"
+  },
+  "nage": {
+   "url": "https://www.restaurantnage.be/wp-content/uploads/2021/06/RestaurantNage_Facebook_IMG.png",
+   "source": "https://www.restaurantnage.be/",
+   "type": "og:image",
+   "w": 1200,
+   "h": 628,
+   "hash": "6ca507575ef0",
+   "checked": "2026-10-25"
+  },
+  "oaas": {
+   "url": "https://oaas.be/assets/img/hero-zaal.jpg",
+   "source": "https://oaas.be/",
+   "type": "og:image",
+   "w": 1600,
+   "h": 1066,
+   "hash": "82f503393080",
+   "checked": "2026-10-25"
+  },
+  "ras": {
+   "url": "https://www.ras.today/img/og.jpg",
+   "source": "https://www.ras.today/",
+   "type": "og:image",
+   "w": 1500,
+   "h": 1000,
+   "hash": "6de39691dc67",
+   "checked": "2026-10-25"
+  },
+  "the-jane": {
+   "url": "https://www.thejaneantwerp.com/wp/wp-content/uploads/2025/10/og2.png",
+   "source": "https://www.thejaneantwerp.com/",
+   "type": "og:image",
+   "w": 1920,
+   "h": 1080,
+   "hash": "ee8a3d875b69",
+   "checked": "2026-10-25"
+  }
+ },
+ "rejected": {
+  "album": {
+   "why": "manual review: logo / wordmark, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://static1.squarespace.com/static/5e271fc6ced34d29ef43ca20/t/63c6c6d8d4f9d022b74fcc9b/1673971417048/2020-01-21-Album-linkshare-banner4.png?format=1500w"
+  },
+  "and-or": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "andy-roasters": {
+   "why": "logo-like file name (https://andy-roasters.be/cdn/shop/files/ANDY_logo_RGB.png?v=1639402203)",
+   "checked": "2026-10-25"
+  },
+  "bar-bulot-at-botanic": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "bar-burbure": {
+   "why": "svg/gif/ico",
+   "checked": "2026-10-25"
+  },
+  "bar-misera": {
+   "why": "manual review: same image as Misera (duplicate; reproduction of a still-life painting, reuse rights unclear) (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://nicolasmisera.com/img/containers/assets/social_images/social-sharing.jpg/085bbdd7cf57e5e81686a28e6167be99/social-sharing.jpg"
+  },
+  "bar-peche": {
+   "why": "too small (600x450)",
+   "checked": "2026-10-25"
+  },
+  "bar-t-a-vin": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "barnini": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "batavier": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-25"
+  },
+  "belgian-wines": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "billies": {
+   "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/billiesbier.be/media/billiesbier.be/onewebmedia/Billie's%20bier%20kafetaria%20LOGO.png?etag=W%2F%22174ee-5f0856f6%22&sourceContentType=image%2Fpng&quality=85)",
+   "checked": "2026-10-25"
+  },
+  "bistrot-du-nord": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "bistrot-l-ilot": {
+   "why": "too small (387x320)",
+   "checked": "2026-10-25"
+  },
+  "bizie-lizie": {
+   "why": "manual review: Michelin Bib Gourmand logo (third-party mark), not a photo of the place (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://bizielizie.be/wp-content/uploads/2022/05/34a882dd-e79e-4961-888c-5f651850dffe_4b018da2.jpg"
+  },
+  "black-smoke": {
+   "why": "logo-like file name (https://blacksmoke.be/wp-content/uploads/2016/09/apple-icon-72x72.png)",
+   "checked": "2026-10-25"
+  },
+  "bloesem": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "boe": {
+   "why": "manual review: promo portrait, unclear whether it shows the place; category image instead (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://brjmbmzdlymahbiigwmv.supabase.co/storage/v1/object/public/restaurant-assets/c89f2b8a-694d-49e7-9302-e69bd17ee05b/site/og_image_url-788b3ec0-8e02-4f62-8e4f-526c5b2e893d.png"
+  },
+  "briquet": {
+   "why": "not landscape (997x1330)",
+   "checked": "2026-10-25"
+  },
+  "bun": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "butchers-coffee": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-25"
+  },
+  "cafe-ernst": {
+   "why": "error: ConnectionError",
+   "checked": "2026-10-25"
+  },
+  "cafe-jozef": {
+   "why": "logo-like file name (https://cafejozef.be/wp-content/uploads/2018/11/EPSLogo-kopie-1.png)",
+   "checked": "2026-10-25"
+  },
+  "cafe-tack": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "caffenation": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "cella": {
+   "why": "manual review: logo / wordmark, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://www.cella.be/assets/img/thumbnail.jpg"
+  },
+  "cobra": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "cuichine": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5e82115a17f8c1370e32bf0b/t/5e8601857b47f854b25f1553/1585840518529/cuichine1+logo.png?format=1500w)",
+   "checked": "2026-10-25"
+  },
+  "cuperus": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "de-aarde": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "de-balans": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "decan": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "den-bourgondier": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "den-engel": {
+   "why": "error: SSLError",
+   "checked": "2026-10-25"
+  },
+  "django": {
+   "why": "logo-like file name (https://www.djangoantwerp.be/wp-content/uploads/2026/01/Django-Winebistro-Antwerp-Logo_clean_01-01.png)",
+   "checked": "2026-10-25"
+  },
+  "dogma": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "dome-sur-mer": {
+   "why": "not landscape (1000x1500)",
+   "checked": "2026-10-25"
+  },
+  "domestic": {
+   "why": "too small (634x950)",
+   "checked": "2026-10-25"
+  },
+  "essenz": {
+   "why": "logo-like file name (https://resto-essenz.be/wp-content/uploads/2021/10/Logo-Essenz-Catering-Events-Web.png)",
+   "checked": "2026-10-25"
+  },
+  "et-claire": {
+   "why": "not landscape (1200x1200)",
+   "checked": "2026-10-25"
+  },
+  "fine-fleur": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "flatons": {
+   "why": "error: ConnectionError",
+   "checked": "2026-10-25"
+  },
+  "fuel": {
+   "why": "too small (458x240)",
+   "checked": "2026-10-25"
+  },
+  "funk": {
+   "why": "logo-like file name (https://bakkerijfunk.com/cdn/shop/files/logo_standard_blue_5ec531fa-1935-4d87-87ee-fee63fcef40c.png?v=1759339300)",
+   "checked": "2026-10-25"
+  },
+  "funk-berchem": {
+   "why": "logo-like file name (https://bakkerijfunk.com/cdn/shop/files/logo_standard_blue_5ec531fa-1935-4d87-87ee-fee63fcef40c.png?v=1759339300)",
+   "checked": "2026-10-25"
+  },
+  "fuzz": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "glass": {
+   "why": "logo-like file name (https://wijnbistro-glass.be/wp-content/uploads/2026/05/logo_website_Restaurant_Selection_2026_white.png)",
+   "checked": "2026-10-25"
+  },
+  "glou-glou": {
+   "why": "logo-like file name (https://glouglou-borgerhout.be/assets/share/glouglou-logo-green.png?v=1)",
+   "checked": "2026-10-25"
+  },
+  "goossens": {
+   "why": "homepage HTTP 500",
+   "checked": "2026-10-25"
+  },
+  "hertog-jan-at-botanic": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "het-archief": {
+   "why": "image HTTP 200 application/octet-stream",
+   "checked": "2026-10-25"
+  },
+  "het-nieuwe-palinghuis": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "hidden-garden": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "invincible": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "irish-times": {
+   "why": "error: ConnectTimeout",
+   "checked": "2026-10-25"
+  },
+  "jones-co": {
+   "why": "error: SSLError",
+   "checked": "2026-10-25"
+  },
+  "kasette": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "kellys": {
+   "why": "manual review: poster / graphic / ad (anniversary promo), not a photo of the place (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s309bdf06c0ea4661/image/ifcc8c4516128e137/version/1771855395/image.png"
+  },
+  "kloonies": {
+   "why": "manual review: logo / wordmark over the photo (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://static.wixstatic.com/media/b9ac2e_a184a01034b049ce8a91857721ab895a~mv2.png/v1/fill/w_2500,h_1863,al_c/b9ac2e_a184a01034b049ce8a91857721ab895a~mv2.png"
+  },
+  "ko-uzi": {
+   "why": "image HTTP 404 text/html; charset=iso-8859-1",
+   "checked": "2026-10-25"
+  },
+  "koffie-dealers": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "krijt": {
+   "why": "not landscape (3199x2847)",
+   "checked": "2026-10-25"
+  },
+  "l-amitie": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5592b1b2e4b0779c63ececd3/t/5594e64ee4b0c2ba79b2fc14/1435821650792/Amti%C3%A9_Logo_05_alt.png?format=1500w)",
+   "checked": "2026-10-25"
+  },
+  "la-brasserie-du-dome": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "le-pristine": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/5e2fea717398ba637a11d420/t/5e8c9c10f33f8960fc2d9b98/1586273321025/2020-01-27+LePristine-Default-share_1.jpg?format=1500w)",
+   "checked": "2026-10-25"
+  },
+  "les-annees-folles": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "linas": {
+   "why": "error: ReadTimeout",
+   "checked": "2026-10-25"
+  },
+  "lints": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/66c5c8bb17e6ca5456dbb465/t/66f27d6276934e4a1ae98d18/1727167842955/logo+Lints+lang+wit.png?format=1500w)",
+   "checked": "2026-10-25"
+  },
+  "lito": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "los-dos": {
+   "why": "error: SSLError",
+   "checked": "2026-10-25"
+  },
+  "luddites": {
+   "why": "not landscape (1200x1200)",
+   "checked": "2026-10-25"
+  },
+  "materia": {
+   "why": "manual review: logo / wordmark, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://static.wixstatic.com/media/e558e8_5a004a2bc6154504b13368783d126383~mv2.png/v1/fill/w_1614,h_1128,al_c/e558e8_5a004a2bc6154504b13368783d126383~mv2.png"
+  },
+  "mero": {
+   "why": "image HTTP 403 application/xml",
+   "checked": "2026-10-25"
+  },
+  "millesime": {
+   "why": "manual review: generic interior image on a website-builder CDN (likely stock; unclear whether it is the place) (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://cdn.prod.website-files.com/67e508c2980c586cba2b3141/67efd723445584c2783d45ca_interior-illuminated-restaurant.jpg"
+  },
+  "misera": {
+   "why": "manual review: reproduction of a still-life painting (artwork; reuse rights unclear), also shared with Bar Misera (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://nicolasmisera.com/img/containers/assets/social_images/social-sharing.jpg/085bbdd7cf57e5e81686a28e6167be99/social-sharing.jpg"
+  },
+  "mouton": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "nathan": {
+   "why": "logo-like file name (https://63d646f03f.clvaw-cdnwnd.com/d57e63d6867a8e395deb1da826a72fa1/200000004-ee97bee97e/700/LOGO.png?ph=63d646f03f)",
+   "checked": "2026-10-25"
+  },
+  "nebo": {
+   "why": "flat image, likely a logo/graphic (sd 6)",
+   "checked": "2026-10-25"
+  },
+  "nonas": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "normo": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "orbit": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "osaka": {
+   "why": "error: SSLError",
+   "checked": "2026-10-25"
+  },
+  "paloma": {
+   "why": "manual review: logo over a graphic, not a photo of the place (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://paloma-antwerp.be/wp-content/uploads/2021/06/Group-152@2x-1024x576.png"
+  },
+  "paters-vaetje": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "pazzo": {
+   "why": "manual review: seasonal stock-style graphic (autumn leaves), not a photo of the place (Antwerpen review, 25 Oct 2026)",
+   "checked": "2026-10-25",
+   "url": "https://pazzo.be/media/_1200x630_crop_center-center_82_none/herfst.jpg?mtime=1792507650"
+  },
+  "pont-neuf": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "qin": {
+   "why": "logo-like file name (https://media.base44.com/images/public/6a9ff1368492377ee01fca0d/48db3c1bf_logo.png/v1/fill/w_1200,h_630/48db3c1bf_logo.png)",
+   "checked": "2026-10-25"
+  },
+  "quinten-matsijs": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "rush-rush": {
+   "why": "logo-like file name (https://www.rushrush.be/cdn/shop/files/faviconRR.png?v=1700141481)",
+   "checked": "2026-10-25"
+  },
+  "salt-mint": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "sanctus": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "sips": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "soixante": {
+   "why": "svg/gif/ico",
+   "checked": "2026-10-25"
+  },
+  "t-fornuis": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "t-zilte": {
+   "why": "flat image, likely a logo/graphic (sd 9)",
+   "checked": "2026-10-25"
+  },
+  "ta-nnin": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "tazu": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "the-butcher-s-son": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "the-london": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "tinsel": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  },
+  "upton": {
+   "why": "not landscape (3648x5472)",
+   "checked": "2026-10-25"
+  },
+  "viggos": {
+   "why": "logo-like file name (https://static1.squarespace.com/static/624c161c0d33071efff1ab45/t/624c37c2bd532b606f5100e0/1649162178482/viggos-logo.png?format=1500w)",
+   "checked": "2026-10-25"
+  },
+  "zeezicht": {
+   "why": "no og:image / twitter:image",
+   "checked": "2026-10-25"
+  }
+ },
+ "topPicks": {
+  "ids": [
+   "t-zilte",
+   "the-jane",
+   "hertog-jan-at-botanic",
+   "t-fornuis",
+   "misera",
+   "nebo",
+   "bistrot-du-nord",
+   "fine-fleur",
+   "and-or",
+   "glou-glou",
+   "ciro-s",
+   "album",
+   "bar-misera",
+   "sanctus",
+   "krijt",
+   "flatons",
+   "den-engel",
+   "quinten-matsijs",
+   "paters-vaetje",
+   "tazu",
+   "bar-burbure",
+   "het-archief",
+   "kasette",
+   "funk",
+   "domestic",
+   "goossens"
+  ],
+  "basis": "Editorial shortlist from the strongest source signals: Michelin stars / Bib Gourmand, Gault&Millau 2026 scores >= 16, Gault&Millau Cocktail Bar of the Year (Tazu), Visit Antwerpen classics, and repeated press picks (HLN, Knack Weekend). Review before publishing.",
+  "note": "Research shortlist, kept for reference; the site has no separate featured list (as in Gent). Photos: only reviewed own-site og:images in places{}."
+ }
+}

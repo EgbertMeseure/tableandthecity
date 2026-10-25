@@ -56,6 +56,11 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    (area = districts Antwerpen, Berchem incl. Zurenborg, Borgerhout via Overpass relation areas; see `CITY_CFG` in import_osm.py) and
    `python3 scripts/fetch_google_ratings.py antwerpen` (~680 Places Text Search calls per full run; `--raw FILE --offline` re-uses cached responses).
    Files: `data/cities/antwerpen*.json`, `data/osm/antwerpen-*.json`. Places Google marks CLOSED_PERMANENTLY go by OSM ref into `data/osm/closed.json` (with source).
+   Curated layer from a research handoff folder: `python3 scripts/import_city_handoff.py antwerpen /workspace/handoff/antwerp` writes
+   `antwerpen.json` restaurants[], `-upcoming.json`, `-veggie.json`, `-breakfast.json` (hours overrides from Google Maps are in OVERRIDES in the script);
+   then `python3 scripts/import_osm.py antwerpen --fill-curated` (dedupe OSM against curated, fill empty fields), ratings
+   (`fetch_google_ratings.py antwerpen`; note `--dry-run` still calls the API) and `fetch_hero_images.py antwerpen --curated-only --browser-check`
+   (manual rejects in `data/osm/hero-review.json`).
    Isolation check (no data/text of another city leaks in): `python3 scripts/test_city_isolation.py [--shots DIR]` (needs the local server on :8765).
 4d. **OpenStreetMap base list** (weekly, or daily on busy weeks) – `python3 scripts/import_osm.py gent --refresh --fill-curated`
    (re-downloads OSM, keeps ids stable, never overwrites curated data). Look at the printed counts: a big drop usually means Overpass returned a partial result —

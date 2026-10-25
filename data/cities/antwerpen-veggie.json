@@ -1,0 +1,140 @@
+{
+ "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
+ "city": "antwerpen",
+ "count": 17,
+ "places": {
+  "album": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/album",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Own site: happy to create a vegetarian menu (communicate in advance); no vegan options"
+  },
+  "and-or": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/and-or",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Michelin lists the cuisine as Vegan"
+  },
+  "bizie-lizie": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/bizie-lizie",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Own menu: dishes marked vegetarian and a vegan dish (aubergine)"
+  },
+  "boe": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.hln.be/antwerpen/net-open-met-boe-opent-senna-31-hongkongs-theehuis-op-het-zuid-in-antwerpen-het-enige-in-ons-land~a2accd26/"
+   ],
+   "basis": "HLN: vegetarian alternative available"
+  },
+  "briquet": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.hln.be/antwerpen/deze-6-nieuwe-zaken-in-antwerpen-zijn-het-ontdekken-waard-van-vietnamese-koffie-tot-franse-bistro~a935c4b9/",
+    "https://briquetantwerp.be/"
+   ],
+   "basis": "Own site: vegan options available on request"
+  },
+  "cuichine": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/cuichine-1191666",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Own site: vegetarian and vegan options are limited (chef specialises in meat and seafood)"
+  },
+  "essenz": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/essenz",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Own site: fresh meat, fish and vegetarian dishes; cannot accommodate vegan diets"
+  },
+  "flatons": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://flatons.be/about",
+    "https://www.hln.be/antwerpen/sandip-40-en-faieq-35-ex-pupillen-van-seppe-nobels-openen-restaurant-flatons-in-antwerpen-hier-kunnen-we-ons-eigen-ding-doen~adc6f8177/"
+   ],
+   "basis": "Own menu page: veggie and vegan variants available"
+  },
+  "funk": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://visit.antwerpen.be/koffie-en-gebak",
+    "https://weekend.knack.be/lifestyle/culinair/nieuwe-koffiebars-antwerpen/"
+   ],
+   "basis": "Plant-based bakery (Knack, own site)"
+  },
+  "funk-berchem": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://weekend.knack.be/lifestyle/culinair/nieuwe-koffiebars-antwerpen/",
+    "https://pressroom.craveagency.be/bakkerij-funk-trekt-naar-antwerpen-noord-met-derde-vestiging-aan-park-spoor-noord"
+   ],
+   "basis": "Knack: \"plantaardige gebakjes\"; FUNK is a plant-based bakery"
+  },
+  "funk-noord": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://pressroom.craveagency.be/bakkerij-funk-trekt-naar-antwerpen-noord-met-derde-vestiging-aan-park-spoor-noord"
+   ],
+   "basis": "The plant-based bakery's third branch, by Park Spoor Noord."
+  },
+  "les-annees-folles": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/les-annees-folles",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Own menu page: vegetarian menu on request"
+  },
+  "nonas": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://nonasbakery.be/"
+   ],
+   "basis": "Own site: vegan bakery"
+  },
+  "quinten-matsijs": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://visit.antwerpen.be/biercafes-en-bruine-kroegen",
+    "https://www.quintenmatsijs.be/"
+   ],
+   "basis": "Own site menu: vegetarian lasagna"
+  },
+  "salt-mint": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://somsookheimwee.be/blog/beste-ontbijt-brunch-antwerpen",
+    "https://www.saltandmint.be/"
+   ],
+   "basis": "Own site: veggie tapas possible"
+  },
+  "soixante": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/berchem/restaurant/soixante",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Own site: vegetarian menu on request; vegan not possible"
+  },
+  "t-zilte": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/t-zilte",
+    "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
+   ],
+   "basis": "Own menu page: vegetarian tasting menus (Prikkelend/Puur Vegetarisch)"
+  }
+ }
+}

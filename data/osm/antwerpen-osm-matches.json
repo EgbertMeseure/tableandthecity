@@ -1,1 +1,583 @@
-[]
+[
+ {
+  "osm": "node/1260492419",
+  "osmName": "Kelly's Irish Pub",
+  "id": "kellys",
+  "name": "Kelly's Irish Pub",
+  "m": 43
+ },
+ {
+  "osm": "node/1523377841",
+  "osmName": "Goossens",
+  "id": "goossens",
+  "name": "Goossens",
+  "m": 0
+ },
+ {
+  "osm": "node/1523538200",
+  "osmName": "Ciro's",
+  "id": "ciro-s",
+  "name": "Ciro's",
+  "m": 7
+ },
+ {
+  "osm": "node/1618702909",
+  "osmName": "Cocktailbar Sips",
+  "id": "sips",
+  "name": "SIPS",
+  "m": 0
+ },
+ {
+  "osm": "node/1620771343",
+  "osmName": "L’Amitié",
+  "id": "l-amitie",
+  "name": "l'Amitié",
+  "m": 2
+ },
+ {
+  "osm": "node/1625928155",
+  "osmName": "Bizie Lizie",
+  "id": "bizie-lizie",
+  "name": "Bizie Lizie",
+  "m": 1
+ },
+ {
+  "osm": "node/1775392344",
+  "osmName": "Pelikaan",
+  "id": "pelikaan",
+  "name": "Pelikaan",
+  "m": 0
+ },
+ {
+  "osm": "node/1775392356",
+  "osmName": "'t Paters Vaetje",
+  "id": "paters-vaetje",
+  "name": "'t Paters Vaetje",
+  "m": 0
+ },
+ {
+  "osm": "node/2352086525",
+  "osmName": "ZeeZicht",
+  "id": "zeezicht",
+  "name": "ZeeZicht",
+  "m": 0
+ },
+ {
+  "osm": "node/2405486928",
+  "osmName": "Den Bengel",
+  "id": "den-bengel",
+  "name": "Den Bengel",
+  "m": 0
+ },
+ {
+  "osm": "node/2405486929",
+  "osmName": "Den Engel",
+  "id": "den-engel",
+  "name": "Den Engel",
+  "m": 0
+ },
+ {
+  "osm": "node/2824354133",
+  "osmName": "Café De Jordaan",
+  "id": "de-jordaan",
+  "name": "Café De Jordaan",
+  "m": 0
+ },
+ {
+  "osm": "node/3528613332",
+  "osmName": "Boer van Tienen",
+  "id": "boer-van-tienen",
+  "name": "Boer van Tienen",
+  "m": 0
+ },
+ {
+  "osm": "node/4752597822",
+  "osmName": "Billie's Bier Kafétaria",
+  "id": "billies",
+  "name": "Billie's Bier Kafétaria",
+  "m": 2
+ },
+ {
+  "osm": "node/4760778360",
+  "osmName": "Batavier",
+  "id": "batavier",
+  "name": "Batavier",
+  "m": 0
+ },
+ {
+  "osm": "node/4769847041",
+  "osmName": "Pazzo",
+  "id": "pazzo",
+  "name": "Pazzo",
+  "m": 13
+ },
+ {
+  "osm": "node/4838819307",
+  "osmName": "'t Zilte",
+  "id": "t-zilte",
+  "name": "Zilte",
+  "m": 21
+ },
+ {
+  "osm": "node/4945939923",
+  "osmName": "Bistrot du Nord",
+  "id": "bistrot-du-nord",
+  "name": "Bistrot du Nord",
+  "m": 5
+ },
+ {
+  "osm": "node/4946103694",
+  "osmName": "Bart-à-Vin",
+  "id": "bar-t-a-vin",
+  "name": "Bart-à-Vin",
+  "m": 3
+ },
+ {
+  "osm": "node/4960357121",
+  "osmName": "Viggo's Coffee",
+  "id": "viggos",
+  "name": "Viggo's Coffee",
+  "m": 0
+ },
+ {
+  "osm": "node/5023498026",
+  "osmName": "Normo",
+  "id": "normo",
+  "name": "Normo",
+  "m": 0
+ },
+ {
+  "osm": "node/5138770422",
+  "osmName": "Barnini",
+  "id": "barnini",
+  "name": "Barnini",
+  "m": 0
+ },
+ {
+  "osm": "node/5155096079",
+  "osmName": "The Butcher's Son",
+  "id": "the-butcher-s-son",
+  "name": "The Butcher's son",
+  "m": 13
+ },
+ {
+  "osm": "node/5155332540",
+  "osmName": "Nathan",
+  "id": "nathan",
+  "name": "Nathan",
+  "m": 7
+ },
+ {
+  "osm": "node/5204917011",
+  "osmName": "Black Smoke",
+  "id": "black-smoke",
+  "name": "Black Smoke",
+  "m": 11
+ },
+ {
+  "osm": "node/5222884484",
+  "osmName": "InVINcible",
+  "id": "invincible",
+  "name": "InVINcible",
+  "m": 13
+ },
+ {
+  "osm": "node/5225661256",
+  "osmName": "Lints",
+  "id": "lints",
+  "name": "Lints",
+  "m": 0
+ },
+ {
+  "osm": "node/5287299392",
+  "osmName": "'t Fornuis",
+  "id": "t-fornuis",
+  "name": "'t Fornuis",
+  "m": 18
+ },
+ {
+  "osm": "node/5301957396",
+  "osmName": "lito",
+  "id": "lito",
+  "name": "Lito",
+  "m": 5
+ },
+ {
+  "osm": "node/5310598221",
+  "osmName": "Quinten Matsijs",
+  "id": "quinten-matsijs",
+  "name": "Quinten Matsijs",
+  "m": 0
+ },
+ {
+  "osm": "node/5469861746",
+  "osmName": "Essenz",
+  "id": "essenz",
+  "name": "Essenz",
+  "m": 15
+ },
+ {
+  "osm": "node/5611596122",
+  "osmName": "Nelly",
+  "id": "nelly",
+  "name": "Nelly",
+  "m": 0
+ },
+ {
+  "osm": "node/5613325221",
+  "osmName": "Belgian Wine",
+  "id": "belgian-wines",
+  "name": "Belgian Wines",
+  "m": 4
+ },
+ {
+  "osm": "node/5640748856",
+  "osmName": "Paloma",
+  "id": "paloma",
+  "name": "Paloma",
+  "m": 0
+ },
+ {
+  "osm": "node/5713202878",
+  "osmName": "Cuichine",
+  "id": "cuichine",
+  "name": "Cuichine",
+  "m": 3
+ },
+ {
+  "osm": "node/5715201622",
+  "osmName": "Caffènation",
+  "id": "caffenation",
+  "name": "Caffènation",
+  "m": 25
+ },
+ {
+  "osm": "node/5921427377",
+  "osmName": "Café Beveren",
+  "id": "cafe-beveren",
+  "name": "Café Beveren",
+  "m": 0
+ },
+ {
+  "osm": "node/5959810321",
+  "osmName": "Cafe Jozef",
+  "id": "cafe-jozef",
+  "name": "Café Jozef",
+  "m": 0
+ },
+ {
+  "osm": "node/6005758842",
+  "osmName": "Cuperus Horseymarket",
+  "id": "cuperus",
+  "name": "Cuperus",
+  "m": 0
+ },
+ {
+  "osm": "node/6019292253",
+  "osmName": "Domestic",
+  "id": "domestic",
+  "name": "Domestic",
+  "m": 5
+ },
+ {
+  "osm": "node/6019292254",
+  "osmName": "Dôme sur Mer",
+  "id": "dome-sur-mer",
+  "name": "Dôme Sur Mer",
+  "m": 5
+ },
+ {
+  "osm": "node/6036014387",
+  "osmName": "Cobra",
+  "id": "cobra",
+  "name": "Cobra City",
+  "m": 11
+ },
+ {
+  "osm": "node/6164543366",
+  "osmName": "The Irish Times Pub",
+  "id": "irish-times",
+  "name": "The Irish Times Pub",
+  "m": 0
+ },
+ {
+  "osm": "node/6225842209",
+  "osmName": "Kasette",
+  "id": "kasette",
+  "name": "Kasette Koffie",
+  "m": 24
+ },
+ {
+  "osm": "node/6250404257",
+  "osmName": "Jones & Co",
+  "id": "jones-co",
+  "name": "Jones & Co",
+  "m": 0
+ },
+ {
+  "osm": "node/6283893285",
+  "osmName": "Bakker Aldo",
+  "id": "bakker-aldo",
+  "name": "Bakker Aldo",
+  "m": 0
+ },
+ {
+  "osm": "node/6283897186",
+  "osmName": "Django",
+  "id": "django",
+  "name": "Django",
+  "m": 12
+ },
+ {
+  "osm": "node/6289501694",
+  "osmName": "Het Nieuwe Palinghuis",
+  "id": "het-nieuwe-palinghuis",
+  "name": "Het Nieuwe Palinghuis",
+  "m": 6
+ },
+ {
+  "osm": "node/6302208727",
+  "osmName": "Kloonies",
+  "id": "kloonies",
+  "name": "Kloonies",
+  "m": 0
+ },
+ {
+  "osm": "node/6323914924",
+  "osmName": "Kelly's Irish Pub",
+  "id": "kellys",
+  "name": "Kelly's Irish Pub",
+  "m": 0
+ },
+ {
+  "osm": "node/6373432286",
+  "osmName": "Dogma",
+  "id": "dogma",
+  "name": "Dogma",
+  "m": 0
+ },
+ {
+  "osm": "node/6388925389",
+  "osmName": "Charlie's",
+  "id": "charlies",
+  "name": "Charlie's",
+  "m": 0
+ },
+ {
+  "osm": "node/6449882320",
+  "osmName": "Upton",
+  "id": "upton",
+  "name": "Upton",
+  "m": 2
+ },
+ {
+  "osm": "node/6507012004",
+  "osmName": "Ko'uzi",
+  "id": "ko-uzi",
+  "name": "Ko'uzi",
+  "m": 13
+ },
+ {
+  "osm": "node/6648041310",
+  "osmName": "Koffie Dealers",
+  "id": "koffie-dealers",
+  "name": "Koffie Dealers",
+  "m": 0
+ },
+ {
+  "osm": "node/6917721523",
+  "osmName": "Bún Bar & Restaurant",
+  "id": "bun",
+  "name": "BÚN",
+  "m": 21
+ },
+ {
+  "osm": "node/7235177737",
+  "osmName": "Rush Rush Coffee Roasters",
+  "id": "rush-rush",
+  "name": "Rush Rush",
+  "m": 0
+ },
+ {
+  "osm": "node/7291615330",
+  "osmName": "De Duifkens",
+  "id": "de-duifkens",
+  "name": "De Duifkens",
+  "m": 0
+ },
+ {
+  "osm": "node/7319350142",
+  "osmName": "Salt & Mint",
+  "id": "salt-mint",
+  "name": "Salt & Mint",
+  "m": 0
+ },
+ {
+  "osm": "node/7906922866",
+  "osmName": "Bar Burbure",
+  "id": "bar-burbure",
+  "name": "Bar Burbure",
+  "m": 4
+ },
+ {
+  "osm": "node/9702225837",
+  "osmName": "Andy Roasters",
+  "id": "andy-roasters",
+  "name": "Andy Roasters",
+  "m": 0
+ },
+ {
+  "osm": "node/9776478534",
+  "osmName": "Bar Bulot",
+  "id": "bar-bulot-at-botanic",
+  "name": "Bar Bulot Antwerpen",
+  "m": 20
+ },
+ {
+  "osm": "node/9905649193",
+  "osmName": "Nives",
+  "id": "nives",
+  "name": "Nives",
+  "m": 111
+ },
+ {
+  "osm": "node/9933415757",
+  "osmName": "Tazu",
+  "id": "tazu",
+  "name": "Tazu",
+  "m": 0
+ },
+ {
+  "osm": "node/10170032017",
+  "osmName": "Le Pristine",
+  "id": "le-pristine",
+  "name": "Le Pristine",
+  "m": 3
+ },
+ {
+  "osm": "node/10170036317",
+  "osmName": "Album",
+  "id": "album",
+  "name": "ALBUM",
+  "m": 17
+ },
+ {
+  "osm": "node/10170170418",
+  "osmName": "Tannin",
+  "id": "ta-nnin",
+  "name": "Ta'nnin",
+  "m": 4
+ },
+ {
+  "osm": "node/10171076417",
+  "osmName": "Osaka",
+  "id": "osaka",
+  "name": "Osaka",
+  "m": 0
+ },
+ {
+  "osm": "node/10651481218",
+  "osmName": "Lina's",
+  "id": "linas",
+  "name": "Lina's",
+  "m": 0
+ },
+ {
+  "osm": "node/10799554315",
+  "osmName": "Tinsel",
+  "id": "tinsel",
+  "name": "Tinsel",
+  "m": 28
+ },
+ {
+  "osm": "node/11085111404",
+  "osmName": "Winebar HET ARCHIEF",
+  "id": "het-archief",
+  "name": "Het Archief",
+  "m": 0
+ },
+ {
+  "osm": "node/11275709169",
+  "osmName": "And Or",
+  "id": "and-or",
+  "name": "and/or",
+  "m": 9
+ },
+ {
+  "osm": "node/11478986047",
+  "osmName": "Cella",
+  "id": "cella",
+  "name": "Cella",
+  "m": 11
+ },
+ {
+  "osm": "node/11514335215",
+  "osmName": "FUNK",
+  "id": "funk",
+  "name": "FUNK",
+  "m": 0
+ },
+ {
+  "osm": "node/11911959026",
+  "osmName": "Tango",
+  "id": "tango",
+  "name": "Tango",
+  "m": 0
+ },
+ {
+  "osm": "node/13450290501",
+  "osmName": "Bistrot L'ilot",
+  "id": "bistrot-l-ilot",
+  "name": "Bistrot L'îlot",
+  "m": 3
+ },
+ {
+  "osm": "node/13595815630",
+  "osmName": "The Jane",
+  "id": "the-jane",
+  "name": "The Jane",
+  "m": 13
+ },
+ {
+  "osm": "node/13853749401",
+  "osmName": "Bristo Rocco",
+  "id": "bistro-rocco",
+  "name": "Bistro Rocco",
+  "m": 0
+ },
+ {
+  "osm": "node/14096231101",
+  "osmName": "Funk - Bakkerij",
+  "id": "funk-berchem",
+  "name": "FUNK Berchem",
+  "m": 0
+ },
+ {
+  "osm": "node/14096529869",
+  "osmName": "Polette",
+  "id": "polette",
+  "name": "Polette",
+  "m": 3
+ },
+ {
+  "osm": "node/14178516395",
+  "osmName": "Mero",
+  "id": "mero",
+  "name": "Mero",
+  "m": 1
+ },
+ {
+  "osm": "node/14219791601",
+  "osmName": "Mink",
+  "id": "mink",
+  "name": "MINK",
+  "m": 2
+ },
+ {
+  "osm": "node/14252932115",
+  "osmName": "BOE.",
+  "id": "boe",
+  "name": "Boe",
+  "m": 3
+ }
+]

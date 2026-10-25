@@ -3,6 +3,133 @@
  "dateChecked": "2026-10-25",
  "timezone": "Europe/Brussels",
  "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into antwerpen.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
- "excludedChecked": {},
- "upcoming": []
+ "excludedChecked": {
+  "closedForGood": [
+   "Kulminator (closed April 2026)"
+  ],
+  "unclearStatus": [
+   "Instroom / Samenloop (\"temporarily\" closed since Aug 2026)"
+  ],
+  "oneWeakSource": [
+   "The Bakery",
+   "Le Souffleur",
+   "Speakeasy 1833"
+  ],
+  "closingSoon": [
+   "Materia, Dageraadplaats 3: closes 14 Nov 2026 (HLN 25 Oct 2026) — remove from antwerpen.json then; its successors are listed here"
+  ]
+ },
+ "upcoming": [
+  {
+   "id": "materia-fine-dining-botanic",
+   "name": "Materia (Botanic Sanctuary)",
+   "group": "restaurants",
+   "category": "fine dining",
+   "address": "Botanic Sanctuary, Leopoldstraat 26, 2000 Antwerpen",
+   "neighbourhood": "Theaterbuurt (Centrum)",
+   "lat": 51.214563,
+   "lng": 4.405499,
+   "geoSource": "Michelin Guide (JSON-LD) — Botanic Sanctuary (Hertog Jan)",
+   "expectedOpening": "2026-12",
+   "expectedOpeningLabel": "December 2026 (week of 20 Dec)",
+   "expectedOpeningNote": "Materia closes at Dageraadplaats on 14 Nov 2026 and moves its fine dining into the Botanic Sanctuary hotel.",
+   "description": "Luigi Esposito's Italian fine dining moves into the Botanic Sanctuary, with a Michelin star as the stated goal.",
+   "team": "Luigi Esposito, Melinda Volpicelli",
+   "website": "https://materiafinedining.be/",
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": null,
+    "vegan": null
+   },
+   "sources": [
+    "https://www.hln.be/antwerpen/italiaans-restaurant-materia-verhuist-naar-luxehotel-botanic-sanctuary-antwerp-we-gaan-voor-een-michelinster~acdf802a9/"
+   ],
+   "announcedBy": "HLN, 25 Oct 2026",
+   "dateChecked": "2026-10-25",
+   "postalCode": "2000",
+   "district": "Antwerpen",
+   "geoPrecision": "poi",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  },
+  {
+   "id": "materia-osteria",
+   "name": "Materia Osteria",
+   "group": "restaurants",
+   "category": "casual",
+   "address": "Dageraadplaats 3, 2018 Antwerpen",
+   "neighbourhood": "Zurenborg",
+   "lat": 51.206815,
+   "lng": 4.430545,
+   "geoSource": "Michelin Guide (JSON-LD) — current Materia",
+   "expectedOpening": "2026-12",
+   "expectedOpeningLabel": "early December 2026",
+   "expectedOpeningNote": "Takes over the current Materia address.",
+   "description": "A more casual Italian osteria in Materia's old home on the Dageraadplaats.",
+   "team": "Luigi Esposito, Melinda Volpicelli",
+   "website": null,
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": null,
+    "vegan": null
+   },
+   "sources": [
+    "https://www.hln.be/antwerpen/italiaans-restaurant-materia-verhuist-naar-luxehotel-botanic-sanctuary-antwerp-we-gaan-voor-een-michelinster~acdf802a9/"
+   ],
+   "announcedBy": "HLN, 25 Oct 2026",
+   "dateChecked": "2026-10-25",
+   "postalCode": "2018",
+   "district": "Antwerpen",
+   "geoPrecision": "poi",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  },
+  {
+   "id": "funk-noord",
+   "name": "FUNK Noord",
+   "group": "bakeries",
+   "category": "bakery",
+   "address": "Viaduct-Dam 64A, 2060 Antwerpen",
+   "neighbourhood": "Dam",
+   "lat": 51.231341,
+   "lng": 4.424962,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "expectedOpening": "2026-12",
+   "expectedOpeningLabel": "December 2026",
+   "expectedOpeningNote": "Third FUNK branch, at Park Spoor Noord.",
+   "description": "The plant-based bakery's third branch, by Park Spoor Noord.",
+   "team": "Dennis Van Peel, Lisa Wynen",
+   "website": "https://bakkerijfunk.com/",
+   "instagram_handle": "bakkerijfunk",
+   "vegetarian": "yes",
+   "vegan": "yes",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": true,
+    "vegan": true
+   },
+   "sources": [
+    "https://pressroom.craveagency.be/bakkerij-funk-trekt-naar-antwerpen-noord-met-derde-vestiging-aan-park-spoor-noord"
+   ],
+   "announcedBy": "Crave Agency press release, 22 Oct 2026",
+   "dateChecked": "2026-10-25",
+   "postalCode": "2060",
+   "district": "Antwerpen",
+   "geoPrecision": "poi",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  }
+ ]
 }

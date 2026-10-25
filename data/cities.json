@@ -51,7 +51,10 @@
      "ratings": "data/cities/antwerpen-ratings.json",
      "area": "Central Antwerp: the districts Antwerpen, Berchem (incl. Zurenborg) and Borgerhout",
      "description": "Table and the City: a curated, filterable guide to Antwerpen's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
-     "about": "<span id=\"about-city\">Antwerpen</span> is the second city in the guide. The base list covers central Antwerp (the districts Antwerpen, Berchem with Zurenborg, and Borgerhout) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries or student cafés, no generic cafés or coffee houses, artisan bakeries only. Ratings come from Google; permanently closed places are left out. Hand-picked places (guides, the restaurants’ own websites, local press) are being added. Nothing is invented: anything we could not verify is shown as <em>unknown</em>."
+     "about": "<span id=\"about-city\">Antwerpen</span> is the second city in the guide. The base list covers central Antwerp (the districts Antwerpen, Berchem with Zurenborg, and Borgerhout) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries or student cafés, no generic cafés or coffee houses, artisan bakeries only. Ratings come from Google; permanently closed places are left out. On top of that come 131 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+     "veggie": "data/cities/antwerpen-veggie.json",
+     "heroes": "data/cities/antwerpen-heroes.json",
+     "breakfast": "data/cities/antwerpen-breakfast.json"
     },
     {
      "id": "brussel",
