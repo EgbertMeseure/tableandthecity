@@ -402,4 +402,12 @@
   $('#reset').addEventListener('click', () => resetFilters());
   TG.carousel($('#evlist'));
   applyUI(); render();
+
+  // ---- hook for js/quiz.js ("Find my table"): the loaded places/events, the list's booking button, and its filters ----
+  window.TGApp = { R, E, city, detailUrl, bookOn, booking,
+    count: f => R.filter(r => matchF(r, f) && (!f.open || TG.openState(r).state === 'open')).length,
+    show(f) { resetFilters(false); Object.assign(state, f); applyUI(); render(); document.getElementById('explore').scrollIntoView(); },
+    showEvents(ev = '') { if (ev && !groups.some(g => g.id === ev)) ev = ''; state.ev = ev; $('#ev-chips').querySelectorAll('[data-ev]').forEach(x => x.setAttribute('aria-pressed', x.dataset.ev === ev));
+      syncUrl(); renderEvents(); document.getElementById('events').scrollIntoView(); } };
+  document.dispatchEvent(new CustomEvent('tg:ready'));
 })();
