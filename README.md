@@ -136,7 +136,7 @@ Configure in `js/config.js` (all empty by default — everything there is public
 - `FEEDBACK_ENDPOINT` – URL accepting a JSON POST, e.g. `https://api.web3forms.com/submit` or `https://formspree.io/f/<id>`.
 - `FEEDBACK_ACCESS_KEY` – the form's public access key (Web3Forms); omitted from the payload when empty.
 - `FEEDBACK_EMAIL` – shows the **Email us** button (mailto, subject `Table and the City – <place>`, body with place + URL + selections). Hidden when empty.
-  ⚠ Currently set to the **placeholder** `hello@tableandthecity.com` — not a real inbox yet (domain not owned). Replace it in `js/config.js` with a real address (or configure `FEEDBACK_ENDPOINT`) before launch; until then feedback mails go nowhere.
+  Set to `info@tableandthecity.com` (the site's single contact address: feedback, city requests and place suggestions all go there).
 Without an endpoint, **Send** opens a mailto with the selections pre-written (to `FEEDBACK_EMAIL`, or with no recipient if that is empty too). Anti-spam: hidden honeypot field (`website`; filled = silently dropped) and max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`). Feedback **never changes data** — it is reviewed by hand (see update.md).
 
 ## Full coverage: OpenStreetMap base list + veggie/vegan layer
