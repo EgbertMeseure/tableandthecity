@@ -10,6 +10,4 @@
 /* BOOKING_BUTTON_TYPES: restaurant categories whose list cards show the booking button ("Check availability ↗" for an online
    booking link, "Reservation by phone" as a tel: link, or a "Walk-in only" chip) instead of the small "Reserve ↗" link.
    Add a category to extend it (e.g. 'gastro-bistro', 'bistro', 'brasserie', 'casual'), or '*' for all restaurants. */
-window.TG_CONFIG = { BOOKING_BUTTON_TYPES: ['fine dining'], igCardEmbeds: true, googleMapsKey: '', FEEDBACK_ENDPOINT: '', FEEDBACK_ACCESS_KEY: '', FEEDBACK_EMAIL: 'hello@tableandthecity.com' };
-/* ⚠ PLACEHOLDER: hello@tableandthecity.com is NOT a real inbox yet (the domain is not owned/configured). Mails sent to it bounce/are lost.
-   Replace FEEDBACK_EMAIL with a real address as soon as one exists (or set FEEDBACK_ENDPOINT to a form service). */
+window.TG_CONFIG = { BOOKING_BUTTON_TYPES: ['fine dining'], igCardEmbeds: true, googleMapsKey: '', FEEDBACK_ENDPOINT: '', FEEDBACK_ACCESS_KEY: '', FEEDBACK_EMAIL: 'meseure.egbert@gmail.com' };
