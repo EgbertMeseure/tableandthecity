@@ -4,6 +4,13 @@
   TG.bindNav();
   const { cfg, city, notice } = await TG.currentCity();
   TG.renderCitySel(cfg, city); TG.renderFooter(cfg, city);
+  // per-city photos (data/cities.json → images): hero = '<base>' → <base>-{1000,1600,2400}.webp + <base>-1600.jpg; cards = image keys for TG.imgAttrs
+  const IMG = city.images || {};
+  { const h = document.querySelector('.hero__img');
+    if (h && IMG.hero && !h.getAttribute('src').endsWith(`${IMG.hero}-1600.jpg`)) { const b = IMG.hero;
+      h.srcset = `${b}-1000.webp 1000w, ${b}-1600.webp 1600w, ${b}-2400.webp 2400w`; h.src = `${b}-1600.jpg`; }
+    if (h) (h.decode ? h.decode().catch(() => {}) : Promise.resolve()).then(() => h.classList.add('is-city')); }   // index.html hides a non-default city's hero until its own photo is ready (no flash of Gent's)
+  const cardImg = (id, def) => (IMG.cards && IMG.cards[id]) || def;
   const { restaurants: R, events: E, changelog } = await TG.load(city);
   const CITY = city.name;
   document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
@@ -61,26 +68,26 @@
   const sub = (label, f) => ({ label, f });
   const CZL = TG.cuisineList(R);                                          // cuisines with >= 3 restaurants (js/common.js)
   const GROUPS = [
-    { label: 'New', img: 'plated', f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
+    { label: 'New', img: cardImg('new', 'plated'), f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
       ...Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g }))] },
-    { label: 'Breakfast & Brunch', img: 'coffee', photo: mealPhoto(), f: { meal: 'any' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
+    { label: 'Breakfast & Brunch', img: cardImg('breakfast', 'coffee'), photo: IMG.breakfastPlacePhoto === false ? null : mealPhoto(), f: { meal: 'any' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
       sub('Weekend brunch', { meal: 'wkbrunch' }), sub('Opens early', { meal: 'early' })], allMin: 0 },
-    { label: 'Restaurants', img: 'finedining', f: { group: 'restaurants' }, subs: [
+    { label: 'Restaurants', img: cardImg('restaurants', 'finedining'), f: { group: 'restaurants' }, subs: [
       sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
       sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
       sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
-    { label: 'Cafés & bars', img: 'bar', f: { group: 'cafes_bars' }, subs: [
+    { label: 'Cafés & bars', img: cardImg('cafes_bars', 'bar'), f: { group: 'cafes_bars' }, subs: [
       sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
       sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), { ...sub('Cocktail bars', { group: 'cafes_bars', type: 'cocktail_bar' }), min: 1 },
       { ...sub('Wine bars', { group: 'cafes_bars', type: 'wine_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All'
-    { label: 'Coffee', img: 'coffee', f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
+    { label: 'Coffee', img: cardImg('coffee', 'coffee'), f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
       sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
-    { label: 'Bakeries', img: 'bakery', f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
+    { label: 'Bakeries', img: cardImg('bakeries', 'bakery'), f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
       sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
     // 'By cuisine': one card, its cuisines open in a compact chooser (openCz) instead of an in-card menu
-    { label: 'By cuisine', img: 'casual', f: { group: 'restaurants' }, subs: [], chooser: true },
+    { label: 'By cuisine', img: cardImg('cuisine', 'casual'), f: { group: 'restaurants' }, subs: [], chooser: true },
     // no separate 'Veggie & vegan' card: every card has its own Veggie / Vegan row (+ the quick chips)
-    { label: 'Events', img: 'events', f: { events: true }, subs: [], toEvents: true }
+    { label: 'Events', img: cardImg('events', 'events'), f: { events: true }, subs: [], toEvents: true }
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
@@ -406,8 +413,9 @@
   const EVGROUPS = [
     { id: 'popup', label: 'Pop-ups', re: /pop-up/i },
     { id: 'collab', label: 'Chef collabs', re: /four-hands|guest chef|takeover|collaboration|chef collective/i },
-    { id: 'dinner', label: 'Dinners', re: /themed|wine dinner|charity|menu/i },
-    { id: 'festival', label: 'Festivals', re: /festival|culinary event/i },
+    { id: 'dinner', label: 'Dinners', re: /themed|dinner|charity|menu/i },
+    { id: 'festival', label: 'Festivals', re: /festival|culinary event|market/i },
+    { id: 'tasting', label: 'Tastings', re: /tasting|wine fair|masterclass/i },
     { id: 'night', label: 'Concerts & club nights', re: /concert|club night|dj set|party/i }
   ];
   const evGroup = e => (EVGROUPS.find(g => g.re.test(e.type)) || {}).id;

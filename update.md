@@ -7,6 +7,8 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
 - `data/cities.json` – brand, family sites, countries → cities (`id`, `name`, `active`, `data`, `center`, `zoom`).
   Add a city: add its entry (set `active: true` only when its data file is ready) → `?city=<id>`.
 - `data/cities/<city>.json` – `{ city, restaurants[], extraEvents[], changelog[] }` (the site reads only this).
+  - Optional `eventDetails{eventId: {venue, address, lat, lon, time, price, ticketUrl, blurb…}}` (not rendered yet).
+    Import a researched events file: `python3 scripts/import_city_events.py <city> <file.json>` (skips past/undated events).
   - Per restaurant: `city`, `country`, `dateChecked` (last check), `lastChanged` (last content change),
     `vegetarian`/`vegan` = `yes|no|unknown`, `events[]` (`title, dateStart, dateEnd|dateText, type, location, partners[], sources[], note`),
     `summary` (guide description, kept in original language, `summaryLang`), `original_nl` (Dutch source text of translated fields).

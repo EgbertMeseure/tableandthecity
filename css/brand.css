@@ -11,6 +11,14 @@
   --accent:#c8a96a;          /* Table and the City: warm gold. Arts and the City: override here. */
   --accent-ink:#111;         /* text colour on top of --accent */
   --accent-soft:#7a6f5d;     /* muted label colour on colour pages */
+  /* blue accent (Find my table, active chips, small markers); gold stays the main accent.
+     Three candidates; switch with the one --blue line below. */
+  --blue-midnight:#233d6b;   /* deep navy / midnight */
+  --blue-royal:#2b4acb;      /* royal / ultramarine */
+  --blue-petrol:#2a6474;     /* muted steel / petrol */
+  --blue:var(--blue-royal);
+  --blue-ink:#fff;           /* text on --blue */
+  --blue-hover:color-mix(in srgb,var(--blue) 82%,#000);
   /* type */
   --display:'Bodoni Moda','Playfair Display',Didot,'Times New Roman',serif;   /* Didone wordmark */
   --serif:'Playfair Display','Bodoni Moda',Georgia,'Times New Roman',serif;    /* names, dates, headings */

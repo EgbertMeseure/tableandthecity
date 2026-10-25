@@ -33,7 +33,20 @@
      "heroes": "data/cities/gent-heroes.json",
      "breakfast": "data/cities/gent-breakfast.json",
      "instagram": "data/cities/gent-instagram.json",
-     "ratings": "data/cities/gent-ratings.json"
+     "ratings": "data/cities/gent-ratings.json",
+     "images": {
+      "hero": "img/hero",
+      "cards": {
+       "new": "plated",
+       "breakfast": "coffee",
+       "restaurants": "finedining",
+       "cafes_bars": "bar",
+       "coffee": "coffee",
+       "bakeries": "bakery",
+       "cuisine": "casual",
+       "events": "events"
+      }
+     }
     },
     {
      "id": "antwerpen",
@@ -54,7 +67,21 @@
      "about": "<span id=\"about-city\">Antwerpen</span> is the second city in the guide. The base list covers central Antwerp (the districts Antwerpen, Berchem with Zurenborg, and Borgerhout) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries or student cafés, no generic cafés or coffee houses, artisan bakeries only. Ratings come from Google; permanently closed places are left out. On top of that come 131 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
      "veggie": "data/cities/antwerpen-veggie.json",
      "heroes": "data/cities/antwerpen-heroes.json",
-     "breakfast": "data/cities/antwerpen-breakfast.json"
+     "breakfast": "data/cities/antwerpen-breakfast.json",
+     "images": {
+      "hero": "img/cities/antwerpen/hero",
+      "cards": {
+       "new": "cities/antwerpen/new",
+       "breakfast": "cities/antwerpen/breakfast",
+       "restaurants": "cities/antwerpen/restaurants",
+       "cafes_bars": "cities/antwerpen/cafes_bars",
+       "coffee": "cities/antwerpen/coffee",
+       "bakeries": "cities/antwerpen/bakeries",
+       "cuisine": "cities/antwerpen/cuisine",
+       "events": "cities/antwerpen/events"
+      },
+      "breakfastPlacePhoto": false
+     }
     },
     {
      "id": "brussel",
@@ -171,5 +198,6 @@
    ]
   }
  ],
- "defaultCountry": "be"
+ "defaultCountry": "be",
+ "imagesNote": "Per-city photos: images.hero = base path (<base>-{1000,1600,2400}.webp + <base>-1600.jpg); images.cards = image keys under img/ (<key>-{800,1600,2400}.webp + <key>.jpg) for the 'Choose your table' cards new, breakfast, restaurants, cafes_bars, coffee, bakeries, cuisine, events (missing → Gent's). breakfastPlacePhoto:false = no place photo over the Breakfast & Brunch card. Make the sizes with scripts/make_city_images.py; credit in img/CREDITS.json."
 }

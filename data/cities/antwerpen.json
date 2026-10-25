@@ -14,8 +14,277 @@
   "sourceLanguage": "nl",
   "dateChecked": "2026-10-25"
  },
- "extraEvents": [],
+ "extraEvents": [
+  {
+   "title": "Dabba King Kantine – Sunday natural-wine tasting with South Indian starter",
+   "dateStart": "2026-11-01",
+   "dateEnd": null,
+   "type": "wine tasting",
+   "location": "Dabba King Kantine, Regine Beerplein 1/015, 2018 Antwerpen",
+   "partners": [
+    "Dabba King"
+   ],
+   "sources": [
+    "https://my.weezevent.com/dabba-king-kantine-sundays-wine-tasting-2",
+    "https://visit.antwerpen.be/en/november"
+   ],
+   "note": "12:00–13:30. Six wines, one starter (Chicken 65, Cauliflower 65 or Chettinad crab rolls) and a final glass. €35 (+€0.99 fee); 20 places. Earlier editions ran 6 Sep and 4 Oct 2026; no later dates published.",
+   "id": "extra-0"
+  },
+  {
+   "title": "By the glass: Château Cheval Blanc – open wine evening at August",
+   "dateStart": "2026-11-04",
+   "dateEnd": null,
+   "type": "wine tasting",
+   "location": "August, Jules Bordetstraat 5, 2018 Antwerpen",
+   "partners": [
+    "Club d'Amis",
+    "August",
+    "Trésor Vets",
+    "Château Cheval Blanc"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/2003510986293"
+   ],
+   "note": "18:30–22:30, walk-in. Free entrance, registration required (max. 100). Glasses €20–€50 (Cheval Blanc 2011 and 2014 €50).",
+   "id": "extra-1"
+  },
+  {
+   "title": "La Scoperta – Italian wine masterclass (10 wines, producers present)",
+   "dateStart": "2026-11-06",
+   "dateEnd": null,
+   "type": "wine tasting / masterclass",
+   "location": "La Scoperta, Hopland 50, 2000 Antwerpen",
+   "partners": [
+    "La Scoperta"
+   ],
+   "sources": [
+    "https://lascoperta.be/product/masterclass-degustatie-vrijdag-6-november-2026/"
+   ],
+   "note": "19:30. €60. Opens the year-end tasting weekend.",
+   "id": "extra-2"
+  },
+  {
+   "title": "La Scoperta – year-end Italian wine tasting weekend (≈30 wines)",
+   "dateStart": "2026-11-07",
+   "dateEnd": "2026-11-08",
+   "type": "wine tasting",
+   "location": "La Scoperta, Hopland 50, 2000 Antwerpen",
+   "partners": [
+    "La Scoperta",
+    "Ca du Ferra"
+   ],
+   "sources": [
+    "https://lascoperta.be/degustatiedagen-november-2025/"
+   ],
+   "note": "Sat 12:00–20:00, Sun 12:00–18:00; no booking. €10, refunded with purchases from €100. Page URL slug says 2025 but content is the 2026 edition.",
+   "id": "extra-3"
+  },
+  {
+   "title": "Diwali Brunch by Mission Masala",
+   "dateStart": "2026-11-08",
+   "dateEnd": null,
+   "type": "themed brunch",
+   "location": "WOLF Sharing Food Market, Godefriduskaai 30, 2000 Antwerpen",
+   "partners": [
+    "Mission Masala",
+    "WOLF Sharing Food Market"
+   ],
+   "sources": [
+    "https://wolf.be/en/events-ant/diwali-brunch-by-mission-masala-08-11/"
+   ],
+   "note": "11:30–14:00. €34.",
+   "id": "extra-4"
+  },
+  {
+   "title": "Antwerps BierCollege – beer & food pairing with the Pirate Chef (Wannes Huygh)",
+   "dateStart": "2026-11-14",
+   "dateEnd": null,
+   "type": "tasting / food pairing",
+   "location": "Bar Bertil, Troonplaats 4, 2018 Antwerpen",
+   "partners": [
+    "Antwerps BierCollege",
+    "Wannes Huygh (The Pirate Chef)",
+    "Bar Bertil"
+   ],
+   "sources": [
+    "https://www.antwerpsbiercollege.be/activiteiten/Detail?id=a48959f0-d125-4d6a-a100-2eaed158364f-foodpairingmetbier"
+   ],
+   "note": "19:00. Four courses plus a snack, each matched with beer. €70 members / €80 non-members. Venue address from directory listings (nonoresto.be, cylex), not from the organiser.",
+   "id": "extra-5"
+  },
+  {
+   "title": "Festive Afternoon Tea by Roger van Damme at Botanic Sanctuary",
+   "dateStart": "2026-11-25",
+   "dateEnd": "2026-12-23",
+   "type": "themed menu (seasonal)",
+   "location": "Botanic Sanctuary Antwerp, Leopoldstraat 26, 2000 Antwerpen",
+   "partners": [
+    "Botanic Sanctuary Antwerp",
+    "Roger van Damme"
+   ],
+   "sources": [
+    "https://www.botanicantwerp.be/festive-season/",
+    "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
+   ],
+   "note": "€110 p.p.",
+   "id": "extra-6"
+  },
+  {
+   "title": "Chef's Table by Local Dealer – five-course Latin-fusion dinner",
+   "dateStart": "2026-11-28",
+   "dateEnd": null,
+   "type": "pop-up / chef's table",
+   "location": "WOLF Sharing Food Market, Godefriduskaai 30, 2000 Antwerpen",
+   "partners": [
+    "Local Dealer",
+    "WOLF Sharing Food Market"
+   ],
+   "sources": [
+    "https://my.weezevent.com/chef'stable-localdealer",
+    "https://wolf.be/en/food-ant/local-dealer-mexican/"
+   ],
+   "note": "19:00. Five dishes and three drinks. €69.",
+   "id": "extra-7"
+  },
+  {
+   "title": "Hedone's Dinner – multisensory dinner-performance",
+   "dateStart": "2026-12-03",
+   "dateEnd": null,
+   "type": "dinner performance",
+   "location": "Het Bos, Ankerrui 5-7, 2000 Antwerpen",
+   "partners": [
+    "Fountainfest",
+    "Het Bos"
+   ],
+   "sources": [
+    "https://www.hetbos.be/programma/evenement/2026-12-03-hedone-s-dinner"
+   ],
+   "note": "19:00.",
+   "id": "extra-8"
+  },
+  {
+   "title": "Antwerps BierCollege – fresh-hop beer tasting",
+   "dateStart": "2026-12-04",
+   "dateEnd": null,
+   "type": "tasting (beer)",
+   "location": "Den Hopsack, Grote Pieter Potstraat 24, 2000 Antwerpen",
+   "partners": [
+    "Antwerps BierCollege",
+    "Den Hopsack"
+   ],
+   "sources": [
+    "https://www.antwerpsbiercollege.be/activiteiten/Detail?id=f1ba847b-505f-440e-880c-3c5b27d9931c-ProeverijVersgehoptebieren"
+   ],
+   "note": "20:00. About seven fresh-hopped beers, guided by Jan Foubert. €20 members / €25 non-members; registration until 27 Nov 2026. Address from OpenStreetMap.",
+   "id": "extra-9"
+  },
+  {
+   "title": "Winter in Antwerpen – Christmas markets, food stalls and ice rink across the old centre",
+   "dateStart": "2026-12-04",
+   "dateEnd": "2027-01-03",
+   "type": "city festival / Christmas market",
+   "location": "Various squares in central Antwerp (Grote Markt, Handschoenmarkt, Groenplaats, Steenplein, Suikerrui, Operaplein, Koningin Astridplein…)",
+   "partners": [
+    "City of Antwerp"
+   ],
+   "sources": [
+    "https://www.winterinantwerpen.be/nl-BE/Praktische-info",
+    "https://www.antwerpen.be/product/vendor-at-christmas-market"
+   ],
+   "note": "Sun–Thu 12:00–22:00, Fri–Sat 12:00–24:00; 24 & 31 Dec until 18:00; closed 1 Jan.",
+   "id": "extra-10"
+  },
+  {
+   "title": "Your Divine Xmas – gourmet Christmas village with wine, champagne and live jazz",
+   "dateStart": "2026-12-04",
+   "dateEnd": "2027-01-03",
+   "type": "Christmas market / food & wine",
+   "location": "Hendrik Conscienceplein, 2000 Antwerpen",
+   "partners": [
+    "Your Divine Xmas"
+   ],
+   "sources": [
+    "https://yourdivinexmas.be/",
+    "https://yourdivinexmas.be/calendar/"
+   ],
+   "note": "Mon–Thu 16:00–22:00, Fri–Sat 12:00–24:00, Sun 12:00–22:00. Part of the Winter in Antwerpen period.",
+   "id": "extra-11"
+  },
+  {
+   "title": "La Scoperta – 'Feestwijnen' festive wine evening with Kristel Balcaen's book launch",
+   "dateStart": "2026-12-10",
+   "dateEnd": null,
+   "type": "wine tasting / book launch",
+   "location": "La Scoperta, Hopland 50, 2000 Antwerpen",
+   "partners": [
+    "La Scoperta",
+    "Kristel Balcaen"
+   ],
+   "sources": [
+    "https://lascoperta.be/product/feestwijnen-donderdag-10-december-2026/"
+   ],
+   "note": "€60.",
+   "id": "extra-12"
+  },
+  {
+   "title": "Chocolade- en Pateekesweek – Antwerp chocolate and pastry week (15th edition)",
+   "dateStart": "2027-03-01",
+   "dateEnd": "2027-03-15",
+   "type": "city festival (chocolate & pastry)",
+   "location": "Participating chocolatiers and pastry shops across Antwerp",
+   "partners": [
+    "Antwerpen Koekenstad"
+   ],
+   "sources": [
+    "https://koekenstad.be/chocolade-en-pateekesweek-2027/"
+   ],
+   "note": "Runs Mon 1 Mar to Mon 15 Mar 2027.",
+   "id": "extra-13"
+  },
+  {
+   "title": "Langbeen Duitse Topwijn – German fine-wine fair",
+   "dateStart": "2027-03-13",
+   "dateEnd": "2027-03-14",
+   "type": "wine fair",
+   "location": "Crowne Plaza Antwerpen, Gerard Le Grellelaan 10, 2020 Antwerpen",
+   "partners": [
+    "Langbeen",
+    "Weingut Toni Jost"
+   ],
+   "sources": [
+    "https://www.langbeenduitsetopwijn.be/",
+    "https://tonijost.de/messe-antwerpen-26/"
+   ],
+   "note": "Sat 11:00–18:00, Sun 11:00–17:00 (times per Toni Jost). Over 10 top German estates. Street address from OSM, not the organiser.",
+   "id": "extra-14"
+  },
+  {
+   "title": "Antwerpen Proeft – culinary festival with ~50 restaurants and 100 dishes",
+   "dateStart": "2027-05-06",
+   "dateEnd": "2027-05-09",
+   "type": "food festival",
+   "location": "Waagnatie, Rijnkaai 150, 2000 Antwerpen",
+   "partners": [
+    "Antwerpen Proeft",
+    "ATAG"
+   ],
+   "sources": [
+    "https://www.proeft.be/",
+    "https://www.proeft.be/tickets.html"
+   ],
+   "note": "Mostly indoors across two halls. Children born 2015 or later free. Ticket sales announced to start Oct 2026.",
+   "id": "extra-15"
+  }
+ ],
  "changelog": [
+  {
+   "date": "2026-10-25",
+   "restaurant": "(all)",
+   "field": "events",
+   "change": "Events added: 24 upcoming events (1 Nov 2026 – 9 May 2027) — 16 city/extra events and 11 place-linked entries on 7 places (collaborations listed under each partner place). Extra details (venue, address, coordinates, time, price, ticket link) kept in eventDetails; ticket links added to sources. 1 undated event (Smaakmeesters Deluxe 2027) not imported until it has a date.",
+   "source": "research 2026-10-25"
+  },
   {
    "date": "2026-10-25",
    "restaurant": "(all)",
@@ -174,7 +443,30 @@
    "phone": "+32 (0)3 808 44 65",
    "summary": "A former military chapel turned two-star dining room, with Nick Bril's bold, creative tasting menu served under a striking chandelier and stained glass.",
    "summaryLang": "en",
-   "events": [],
+   "events": [
+    {
+     "title": "Antwerp Diner – charity gala dinner by Antwerp top chefs (Nick Bril, Thomas Diepersloot and others)",
+     "dateStart": "2026-11-22",
+     "dateEnd": null,
+     "type": "collaboration / charity dinner",
+     "location": "Zaal Avenue, Antwerp Expo, Jan Van Rijswijcklaan, 2020 Antwerpen",
+     "partners": [
+      "The Jane",
+      "Fine Fleur",
+      "Frédéric Chabbert",
+      "Dennis Broeckx",
+      "Gino Lemmens"
+     ],
+     "sources": [
+      "https://antwerpspersbureau.be/antwerp-diner-viert-30-jaar-solidariteit-met-topchefs-en-gustaph/",
+      "https://antwerp-diner.be/nieuws/gustaph-wordt-ambassadeur-van-antwerp-diner-2026/",
+      "https://www.hln.be/antwerpen/antwerp-diner-strikt-nick-bril-voor-24ste-editie-een-initiatief-dat-veel-verder-gaat-dan-gastronomie-alleen~a59676ef/",
+      "https://www.antwerp-diner.be/reservatie"
+     ],
+     "note": "Six-course dinner; €3,250 per table of 10. Proceeds to ITG, Sensoa and Tomorrow4isibani (HIV/AIDS). Gustaph performs. Full chef line-up on antwerp-diner.be/chefs.",
+     "id": "the-jane-0"
+    }
+   ],
    "sources": [
     "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/the-jane-1244485",
     "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
@@ -760,7 +1052,30 @@
    "phone": "+32 3 369 26 36",
    "summary": "Dutch chefs Jacob Jan Boerma and Thomas Diepersloot's one-star restaurant in the Botanic Sanctuary, with creative, finely detailed menus.",
    "summaryLang": "en",
-   "events": [],
+   "events": [
+    {
+     "title": "Antwerp Diner – charity gala dinner by Antwerp top chefs (Nick Bril, Thomas Diepersloot and others)",
+     "dateStart": "2026-11-22",
+     "dateEnd": null,
+     "type": "collaboration / charity dinner",
+     "location": "Zaal Avenue, Antwerp Expo, Jan Van Rijswijcklaan, 2020 Antwerpen",
+     "partners": [
+      "The Jane",
+      "Fine Fleur",
+      "Frédéric Chabbert",
+      "Dennis Broeckx",
+      "Gino Lemmens"
+     ],
+     "sources": [
+      "https://antwerpspersbureau.be/antwerp-diner-viert-30-jaar-solidariteit-met-topchefs-en-gustaph/",
+      "https://antwerp-diner.be/nieuws/gustaph-wordt-ambassadeur-van-antwerp-diner-2026/",
+      "https://www.hln.be/antwerpen/antwerp-diner-strikt-nick-bril-voor-24ste-editie-een-initiatief-dat-veel-verder-gaat-dan-gastronomie-alleen~a59676ef/",
+      "https://www.antwerp-diner.be/reservatie"
+     ],
+     "note": "Six-course dinner; €3,250 per table of 10. Proceeds to ITG, Sensoa and Tomorrow4isibani (HIV/AIDS). Gustaph performs. Full chef line-up on antwerp-diner.be/chefs.",
+     "id": "fine-fleur-0"
+    }
+   ],
    "sources": [
     "https://guide.michelin.com/be/nl/antwerpen/be-antwerpen/restaurant/fine-fleur",
     "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
@@ -4839,7 +5154,44 @@
    "phone": null,
    "summary": "Yves Mattagne's intimate fine-dining room in the Botanic Sanctuary: one monthly-changing tasting menu for at most 22 guests, with dishes often finished at the table.",
    "summaryLang": "en",
-   "events": [],
+   "events": [
+    {
+     "title": "Christmas Eve – six-course menu by Yves Mattagne",
+     "dateStart": "2026-12-24",
+     "dateEnd": null,
+     "type": "themed menu",
+     "location": "Hidden Garden & Sanctus, Botanic Sanctuary, Leopoldstraat 26, 2000 Antwerpen",
+     "partners": [
+      "Sanctus",
+      "Hidden Garden",
+      "Yves Mattagne"
+     ],
+     "sources": [
+      "https://www.botanicantwerp.be/festive-season/",
+      "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
+     ],
+     "note": "Arrival 18:00–19:30. €245 p.p. excl. drinks (6–11 yrs €125).",
+     "id": "sanctus-0"
+    },
+    {
+     "title": "New Year's Eve – eight-course menu by Yves Mattagne",
+     "dateStart": "2026-12-31",
+     "dateEnd": null,
+     "type": "themed menu",
+     "location": "Hidden Garden & Sanctus, Botanic Sanctuary, Leopoldstraat 26, 2000 Antwerpen",
+     "partners": [
+      "Sanctus",
+      "Hidden Garden",
+      "Yves Mattagne"
+     ],
+     "sources": [
+      "https://www.botanicantwerp.be/festive-season/",
+      "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
+     ],
+     "note": "Arrival 18:00–19:30. €295 p.p. excl. drinks (6–11 yrs €145).",
+     "id": "sanctus-1"
+    }
+   ],
    "sources": [
     "https://www.hln.be/antwerpen/topchef-yves-mattagne-opent-langverwacht-gastronomisch-restaurant-sanctus-in-hotel-botanic-sanctuary-antwerp~a9add56e/",
     "https://www.botanicantwerp.be/gastronomy/sanctus/",
@@ -4933,7 +5285,44 @@
    "phone": null,
    "summary": "The relaxed brasserie of Yves Mattagne in the Botanic Sanctuary hotel, open every day for lunch and dinner, where the setting matters as much as the plate.",
    "summaryLang": "en",
-   "events": [],
+   "events": [
+    {
+     "title": "Christmas Eve – six-course menu by Yves Mattagne",
+     "dateStart": "2026-12-24",
+     "dateEnd": null,
+     "type": "themed menu",
+     "location": "Hidden Garden & Sanctus, Botanic Sanctuary, Leopoldstraat 26, 2000 Antwerpen",
+     "partners": [
+      "Sanctus",
+      "Hidden Garden",
+      "Yves Mattagne"
+     ],
+     "sources": [
+      "https://www.botanicantwerp.be/festive-season/",
+      "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
+     ],
+     "note": "Arrival 18:00–19:30. €245 p.p. excl. drinks (6–11 yrs €125).",
+     "id": "hidden-garden-0"
+    },
+    {
+     "title": "New Year's Eve – eight-course menu by Yves Mattagne",
+     "dateStart": "2026-12-31",
+     "dateEnd": null,
+     "type": "themed menu",
+     "location": "Hidden Garden & Sanctus, Botanic Sanctuary, Leopoldstraat 26, 2000 Antwerpen",
+     "partners": [
+      "Sanctus",
+      "Hidden Garden",
+      "Yves Mattagne"
+     ],
+     "sources": [
+      "https://www.botanicantwerp.be/festive-season/",
+      "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
+     ],
+     "note": "Arrival 18:00–19:30. €295 p.p. excl. drinks (6–11 yrs €145).",
+     "id": "hidden-garden-1"
+    }
+   ],
    "sources": [
     "https://www.made-in.be/antwerpen/eerste-restaurant-van-yves-mattagne-opent-in-antwerps-hotel-sfeer-en-ambiance-worden-even-belangrijk-als-wat-er-op-het-bord-ligt/",
     "https://www.botanicantwerp.be/gastronomy/hidden-garden/"
@@ -6203,7 +6592,25 @@
    "phone": "+32 3 337 41 55",
    "summary": "A wine bistro in Zurenborg on the Lange Leemstraat, with a good glass and small plates.",
    "summaryLang": "en",
-   "events": [],
+   "events": [
+    {
+     "title": "Bottleneck.be year-end wine tasting – 60+ wines, seated with table service",
+     "dateStart": "2026-12-05",
+     "dateEnd": "2026-12-06",
+     "type": "wine tasting",
+     "location": "Django, Lange Leemstraat 443, 2018 Antwerpen",
+     "partners": [
+      "Bottleneck.be",
+      "Django"
+     ],
+     "sources": [
+      "https://www.bottleneck.be/en/event/eindejaarsdegustatie-9/register",
+      "https://djangoantwerp.be/"
+     ],
+     "note": "Slots 13:00–16:00 and 16:00–19:00 both days. €5 early bird (until 15 Nov), €10 from 16 Nov. Bottleneck lists \"Lange Leemsraat 334\"; Django's own site says Lange Leemstraat 443 (used here).",
+     "id": "django-0"
+    }
+   ],
    "sources": [
     "https://djangoantwerp.be/"
    ],
@@ -7539,7 +7946,53 @@
    "phone": null,
    "summary": "A daytime wine bar near the Meir, open from noon late in the week for a glass and a bite.",
    "summaryLang": "en",
-   "events": [],
+   "events": [
+    {
+     "title": "Het Archief – guided wine tasting \"Vive la France\"",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "wine tasting",
+     "location": "Het Archief, Geefsstraat 5, 2000 Antwerpen",
+     "partners": [
+      "Het Archief"
+     ],
+     "sources": [
+      "https://inhetarchief.be/proeverijen"
+     ],
+     "note": "18:30–21:30. €42.50 p.p.; nine wines with cheese and charcuterie. Pre-registration and bank transfer.",
+     "id": "het-archief-0"
+    },
+    {
+     "title": "Het Archief – guided \"Spring Tasting\"",
+     "dateStart": "2027-03-18",
+     "dateEnd": null,
+     "type": "wine tasting",
+     "location": "Het Archief, Geefsstraat 5, 2000 Antwerpen",
+     "partners": [
+      "Het Archief"
+     ],
+     "sources": [
+      "https://inhetarchief.be/proeverijen"
+     ],
+     "note": "18:30–21:30. €42.50 p.p.; nine wines with cheese and charcuterie. Pre-registration and bank transfer.",
+     "id": "het-archief-1"
+    },
+    {
+     "title": "Het Archief – guided \"April Fools Tasting\"",
+     "dateStart": "2027-04-15",
+     "dateEnd": null,
+     "type": "wine tasting",
+     "location": "Het Archief, Geefsstraat 5, 2000 Antwerpen",
+     "partners": [
+      "Het Archief"
+     ],
+     "sources": [
+      "https://inhetarchief.be/proeverijen"
+     ],
+     "note": "18:30–21:30. €42.50 p.p.; nine wines with cheese and charcuterie. Pre-registration and bank transfer.",
+     "id": "het-archief-2"
+    }
+   ],
    "sources": [
     "https://weekend.knack.be/lifestyle/culinair/beste-wijnbars-in-antwerpen/",
     "https://www.inhetarchief.be/"
@@ -8792,7 +9245,25 @@
    "phone": null,
    "summary": "A beer café in the fashion district focused on Belgian and local craft beers, with typically Belgian dishes to go with them.",
    "summaryLang": "en",
-   "events": [],
+   "events": [
+    {
+     "title": "Billie's Craft Beer Fest – ~60 breweries, ~480 beers",
+     "dateStart": "2026-11-13",
+     "dateEnd": "2026-11-14",
+     "type": "beer festival",
+     "location": "Waagnatie, Rijnkaai 150, 2000 Antwerpen",
+     "partners": [
+      "Billie's Bier Kafétaria"
+     ],
+     "sources": [
+      "https://www.billiescraftbeerfest.com/",
+      "https://www.eventbrite.be/e/1680306595259",
+      "https://www.waagnatie.eu/"
+     ],
+     "note": "Unlimited tastings; €105 per day / €195 combi. SOLD OUT at time of research (25 Oct 2026).",
+     "id": "billies-0"
+    }
+   ],
    "sources": [
     "https://visit.antwerpen.be/biercafes-en-bruine-kroegen"
    ],
@@ -11807,5 +12278,331 @@
    "origin": "research-2026-10-25",
    "osm": "node/9905649193"
   }
- ]
+ ],
+ "eventDetails": {
+  "extra-0": {
+   "venue": "Dabba King Kantine",
+   "address": "Regine Beerplein 1 bus 015, 2018 Antwerpen",
+   "neighbourhood": "Groen Kwartier",
+   "lat": 51.202568,
+   "lng": 4.4219691,
+   "geoSource": "Nominatim: Regine Beerplein 1 (address node)",
+   "blurb": "Dabba King's canteen runs a small Sunday-lunch tasting: six surprise wines, natural and otherwise, alongside a Chettinad starter.",
+   "ticketUrl": "https://my.weezevent.com/dabba-king-kantine-sundays-wine-tasting-2",
+   "time": "12:00–13:30",
+   "price": "€35"
+  },
+  "extra-1": {
+   "venue": "August",
+   "address": "Jules Bordetstraat 5, 2018 Antwerpen",
+   "neighbourhood": "Groen Kwartier",
+   "lat": 51.2032356,
+   "lng": 4.4231701,
+   "geoSource": "Nominatim: Jules Bordetstraat (street-level, not house-level)",
+   "blurb": "A rare chance to drink Cheval Blanc by the glass: two vintages of the Saint-Émilion great, plus the estate's other wines, poured in the bar at August with bites from the kitchen.",
+   "ticketUrl": "https://www.eventbrite.be/e/2003510986293",
+   "time": "18:30–22:30",
+   "price": "Free entry; wines €20–€50 per glass"
+  },
+  "extra-2": {
+   "venue": "La Scoperta",
+   "address": "Hopland 50, 2000 Antwerpen",
+   "neighbourhood": "Theaterbuurt",
+   "lat": 51.2166494,
+   "lng": 4.4130196,
+   "geoSource": "Nominatim: Hopland 50 (building way 497715910)",
+   "blurb": "The Italian wine importer's year-end masterclass: ten bottles from the weekend's line-up, presented with the winemakers in the room.",
+   "ticketUrl": "https://lascoperta.be/product/masterclass-degustatie-vrijdag-6-november-2026/",
+   "time": "19:30",
+   "price": "€60"
+  },
+  "extra-3": {
+   "venue": "La Scoperta",
+   "address": "Hopland 50, 2000 Antwerpen",
+   "neighbourhood": "Theaterbuurt",
+   "lat": 51.2166494,
+   "lng": 4.4130196,
+   "geoSource": "Nominatim: Hopland 50 (building way 497715910)",
+   "blurb": "A relaxed walk-in weekend at La Scoperta's shop with around thirty Italian wines open, and producers including Gambero Rosso's young winemakers of the year, Ca du Ferra.",
+   "ticketUrl": "https://lascoperta.be/degustatiedagen-november-2025/",
+   "time": "Sat 12–20, Sun 12–18",
+   "price": "€10 (refundable on purchase)"
+  },
+  "extra-4": {
+   "venue": "WOLF Sharing Food Market",
+   "address": "Godefriduskaai 30, 2000 Antwerpen",
+   "neighbourhood": "Eilandje",
+   "lat": 51.2275048,
+   "lng": 4.4079851,
+   "geoSource": "OSM node 12449933607 \"Wolf\", Godefriduskaai 30",
+   "blurb": "Mission Masala marks the festival of lights with an all-you-can-eat Indian brunch buffet in the WOLF food hall.",
+   "ticketUrl": "https://wolf.be/en/events-ant/diwali-brunch-by-mission-masala-08-11/",
+   "time": "11:30–14:00",
+   "price": "€34"
+  },
+  "billies-0": {
+   "venue": "Waagnatie",
+   "address": "Rijnkaai 150, 2000 Antwerpen",
+   "neighbourhood": "Eilandje",
+   "lat": 51.233875,
+   "lng": 4.4020576,
+   "geoSource": "Nominatim query \"Waagnatie\" -> OSM way 43071539 (Rijnkaai; building also houses ALO)",
+   "blurb": "The team behind Billie's Bier Kafétaria fills the Waagnatie warehouse with around sixty of the world's most sought-after craft breweries for two days of unlimited pours.",
+   "ticketUrl": "https://www.eventbrite.be/e/1680306595259",
+   "time": null,
+   "price": "€105/day, €195 combi (sold out)"
+  },
+  "extra-5": {
+   "venue": "Bar Bertil",
+   "address": "Troonplaats 4, 2018 Antwerpen",
+   "neighbourhood": "Zurenborg / Brederode",
+   "lat": 51.203147,
+   "lng": 4.3922025,
+   "geoSource": "Nominatim: Troonplaats 4 (building way 502740842)",
+   "blurb": "Antwerp's beer-appreciation society pairs a four-course seafood-leaning menu by the Pirate Chef with a run of carefully chosen beers.",
+   "ticketUrl": "https://www.antwerpsbiercollege.be/activiteiten/Detail?id=a48959f0-d125-4d6a-a100-2eaed158364f-foodpairingmetbier",
+   "time": "19:00",
+   "price": "€70 members / €80 non-members"
+  },
+  "het-archief-0": {
+   "venue": "Het Archief",
+   "address": "Geefsstraat 5, 2000 Antwerpen",
+   "neighbourhood": "Centre (Meir)",
+   "lat": 51.217723,
+   "lng": 4.402489,
+   "geoSource": "Antwerp places dataset (het-archief, OSM node 11085111404)",
+   "blurb": "A guided tour of France in nine glasses: regions, grapes and styles, with cheese and charcuterie on the table.",
+   "ticketUrl": "https://inhetarchief.be/proeverijen",
+   "time": "18:30–21:30",
+   "price": "€42.50"
+  },
+  "the-jane-0": {
+   "venue": "Zaal Avenue, Antwerp Expo",
+   "address": "Jan Van Rijswijcklaan, 2020 Antwerpen",
+   "neighbourhood": "Kiel / Expo",
+   "lat": 51.1919231,
+   "lng": 4.3993298,
+   "geoSource": "OSM way 210079080 \"Antwerp Expo\"",
+   "blurb": "Antwerp's long-running charity gala: a six-course dinner cooked by a brigade of the city's top chefs, including Nick Bril and Thomas Diepersloot, raising money for HIV research and prevention.",
+   "ticketUrl": "https://www.antwerp-diner.be/reservatie",
+   "time": "Evening",
+   "price": "€3,250 per table of 10"
+  },
+  "fine-fleur-0": {
+   "venue": "Zaal Avenue, Antwerp Expo",
+   "address": "Jan Van Rijswijcklaan, 2020 Antwerpen",
+   "neighbourhood": "Kiel / Expo",
+   "lat": 51.1919231,
+   "lng": 4.3993298,
+   "geoSource": "OSM way 210079080 \"Antwerp Expo\"",
+   "blurb": "Antwerp's long-running charity gala: a six-course dinner cooked by a brigade of the city's top chefs, including Nick Bril and Thomas Diepersloot, raising money for HIV research and prevention.",
+   "ticketUrl": "https://www.antwerp-diner.be/reservatie",
+   "time": "Evening",
+   "price": "€3,250 per table of 10"
+  },
+  "extra-6": {
+   "venue": "Botanic Sanctuary Antwerp",
+   "address": "Leopoldstraat 26, 2000 Antwerpen",
+   "neighbourhood": "Botanical garden / centre",
+   "lat": 51.213315,
+   "lng": 4.406263,
+   "geoSource": "Antwerp places dataset (sanctus / hidden-garden)",
+   "blurb": "Pastry star Roger van Damme dresses the Botanic Sanctuary's afternoon tea for the holidays, a slow, sweet way to spend a dark December afternoon.",
+   "ticketUrl": "https://www.botanicantwerp.be/festive-season/",
+   "time": "Afternoons",
+   "price": "€110 p.p."
+  },
+  "extra-7": {
+   "venue": "WOLF Sharing Food Market",
+   "address": "Godefriduskaai 30, 2000 Antwerpen",
+   "neighbourhood": "Eilandje",
+   "lat": 51.2275048,
+   "lng": 4.4079851,
+   "geoSource": "OSM node 12449933607 \"Wolf\", Godefriduskaai 30",
+   "blurb": "WOLF's Mexican kiosk steps out from behind the counter for a one-night chef's table: five Spanish, Mexican and Latin-fusion dishes with three paired drinks.",
+   "ticketUrl": "https://my.weezevent.com/chef'stable-localdealer",
+   "time": "19:00",
+   "price": "€69"
+  },
+  "extra-8": {
+   "venue": "Het Bos",
+   "address": "Ankerrui 5-7, 2000 Antwerpen",
+   "neighbourhood": "Eilandje / Seefhoek",
+   "lat": 51.2274125,
+   "lng": 4.4103455,
+   "geoSource": "OSM node 5236162161 \"Het Bos\"",
+   "blurb": "Fountainfest turns dinner into theatre at arts house Het Bos: three courses woven together with performance, sound and texture.",
+   "ticketUrl": "https://www.hetbos.be/programma/evenement/2026-12-03-hedone-s-dinner",
+   "time": "19:00",
+   "price": null
+  },
+  "extra-9": {
+   "venue": "Den Hopsack",
+   "address": "Grote Pieter Potstraat 24, 2000 Antwerpen",
+   "neighbourhood": "Historic centre",
+   "lat": 51.2202942,
+   "lng": 4.3970667,
+   "geoSource": "OSM node 2407245102 \"Den Hopsack\"",
+   "blurb": "A once-a-year chance to taste beers brewed with hops straight off the bine: about seven fresh-hop examples, poured young as they should be.",
+   "ticketUrl": "https://www.antwerpsbiercollege.be/activiteiten/Detail?id=f1ba847b-505f-440e-880c-3c5b27d9931c-ProeverijVersgehoptebieren",
+   "time": "20:00",
+   "price": "€20 members / €25 non-members"
+  },
+  "extra-10": {
+   "venue": "Winter in Antwerpen (various squares)",
+   "address": "Grote Markt and surrounding squares, 2000 Antwerpen",
+   "neighbourhood": "Historic centre",
+   "lat": 51.2211713,
+   "lng": 4.4003514,
+   "geoSource": "Nominatim: Grote Markt (way 26495372)",
+   "blurb": "Antwerp's month-long winter festival strings chalets through the old centre, from the Grote Markt to Steenplein: mulled wine, oliebollen, raclette and seasonal snacks, with skating and a big wheel along the way.",
+   "ticketUrl": "https://www.winterinantwerpen.be/nl-BE/Praktische-info",
+   "time": "12:00–22:00 (Fri–Sat to 24:00)",
+   "price": "Free entry"
+  },
+  "extra-11": {
+   "venue": "Your Divine Xmas",
+   "address": "Hendrik Conscienceplein, 2000 Antwerpen",
+   "neighbourhood": "Historic centre",
+   "lat": 51.2209459,
+   "lng": 4.4041662,
+   "geoSource": "Nominatim: Hendrik Conscienceplein (way 20413275)",
+   "blurb": "A more grown-up corner of the Christmas season on the baroque Hendrik Conscienceplein: local food stands, a sommelier-led wine bar and champagne, plus workshops and live jazz.",
+   "ticketUrl": "https://yourdivinexmas.be/",
+   "time": "See note",
+   "price": "Free entry; pay per item"
+  },
+  "django-0": {
+   "venue": "Django",
+   "address": "Lange Leemstraat 443, 2018 Antwerpen",
+   "neighbourhood": "Berchem side / Zurenborg",
+   "lat": 51.203405,
+   "lng": 4.42788,
+   "geoSource": "Antwerp places dataset (django)",
+   "blurb": "Natural-leaning online merchant Bottleneck takes over wine bistro Django for a seated year-end tasting: more than sixty wines poured at your table.",
+   "ticketUrl": "https://www.bottleneck.be/en/event/eindejaarsdegustatie-9/register",
+   "time": "13:00–19:00 (two slots)",
+   "price": "€5 early bird / €10"
+  },
+  "extra-12": {
+   "venue": "La Scoperta",
+   "address": "Hopland 50, 2000 Antwerpen",
+   "neighbourhood": "Theaterbuurt",
+   "lat": 51.2166494,
+   "lng": 4.4130196,
+   "geoSource": "Nominatim: Hopland 50 (building way 497715910)",
+   "blurb": "Italian wines picked for the holiday table, with a launch for wine writer Kristel Balcaen's new book.",
+   "ticketUrl": "https://lascoperta.be/product/feestwijnen-donderdag-10-december-2026/",
+   "time": "Evening",
+   "price": "€60"
+  },
+  "sanctus-0": {
+   "venue": "Hidden Garden & Sanctus, Botanic Sanctuary Antwerp",
+   "address": "Leopoldstraat 26, 2000 Antwerpen",
+   "neighbourhood": "Botanical garden / centre",
+   "lat": 51.213315,
+   "lng": 4.406263,
+   "geoSource": "Antwerp places dataset (sanctus / hidden-garden)",
+   "blurb": "Yves Mattagne cooks a six-course Christmas Eve menu, with caviar, langoustine flambéed with whisky and Burgaud duck, across the Botanic Sanctuary's Hidden Garden and Sanctus.",
+   "ticketUrl": "https://www.botanicantwerp.be/festive-season/",
+   "time": "Arrival 18:00–19:30",
+   "price": "€245 p.p. excl. drinks"
+  },
+  "hidden-garden-0": {
+   "venue": "Hidden Garden & Sanctus, Botanic Sanctuary Antwerp",
+   "address": "Leopoldstraat 26, 2000 Antwerpen",
+   "neighbourhood": "Botanical garden / centre",
+   "lat": 51.213315,
+   "lng": 4.406263,
+   "geoSource": "Antwerp places dataset (sanctus / hidden-garden)",
+   "blurb": "Yves Mattagne cooks a six-course Christmas Eve menu, with caviar, langoustine flambéed with whisky and Burgaud duck, across the Botanic Sanctuary's Hidden Garden and Sanctus.",
+   "ticketUrl": "https://www.botanicantwerp.be/festive-season/",
+   "time": "Arrival 18:00–19:30",
+   "price": "€245 p.p. excl. drinks"
+  },
+  "sanctus-1": {
+   "venue": "Hidden Garden & Sanctus, Botanic Sanctuary Antwerp",
+   "address": "Leopoldstraat 26, 2000 Antwerpen",
+   "neighbourhood": "Botanical garden / centre",
+   "lat": 51.213315,
+   "lng": 4.406263,
+   "geoSource": "Antwerp places dataset (sanctus / hidden-garden)",
+   "blurb": "An eight-course New Year's Eve tasting menu by Michelin-starred Yves Mattagne, from scallops with caviar to robata-grilled venison.",
+   "ticketUrl": "https://www.botanicantwerp.be/festive-season/",
+   "time": "Arrival 18:00–19:30",
+   "price": "€295 p.p. excl. drinks"
+  },
+  "hidden-garden-1": {
+   "venue": "Hidden Garden & Sanctus, Botanic Sanctuary Antwerp",
+   "address": "Leopoldstraat 26, 2000 Antwerpen",
+   "neighbourhood": "Botanical garden / centre",
+   "lat": 51.213315,
+   "lng": 4.406263,
+   "geoSource": "Antwerp places dataset (sanctus / hidden-garden)",
+   "blurb": "An eight-course New Year's Eve tasting menu by Michelin-starred Yves Mattagne, from scallops with caviar to robata-grilled venison.",
+   "ticketUrl": "https://www.botanicantwerp.be/festive-season/",
+   "time": "Arrival 18:00–19:30",
+   "price": "€295 p.p. excl. drinks"
+  },
+  "extra-13": {
+   "venue": "Participating chocolatiers and bakers",
+   "address": "Various, Antwerpen",
+   "neighbourhood": "City-wide",
+   "lat": null,
+   "lng": null,
+   "geoSource": "city-wide: no single point",
+   "blurb": "Two weeks when Antwerp's chocolatiers and pastry shops (the city's 'pateekes') put out special creations, organised by the bakers' guild Koekenstad.",
+   "ticketUrl": "https://koekenstad.be/chocolade-en-pateekesweek-2027/",
+   "time": null,
+   "price": null
+  },
+  "extra-14": {
+   "venue": "Crowne Plaza Antwerpen",
+   "address": "Gerard Le Grellelaan 10, 2020 Antwerpen",
+   "neighbourhood": "Kiel / Expo",
+   "lat": 51.190315,
+   "lng": 4.4040924,
+   "geoSource": "OSM way 58114273 \"Crowne Plaza\"",
+   "blurb": "More than ten leading German estates pour Riesling, Pinot Noir and more at this importer-run fair, a good snapshot of where German wine is now.",
+   "ticketUrl": "https://www.langbeenduitsetopwijn.be/",
+   "time": "Sat 11–18, Sun 11–17",
+   "price": null
+  },
+  "het-archief-1": {
+   "venue": "Het Archief",
+   "address": "Geefsstraat 5, 2000 Antwerpen",
+   "neighbourhood": "Centre (Meir)",
+   "lat": 51.217723,
+   "lng": 4.402489,
+   "geoSource": "Antwerp places dataset (het-archief, OSM node 11085111404)",
+   "blurb": "Nine fresh, spring-minded wine styles, each introduced at the table, at this cosy wine bar near the Meir.",
+   "ticketUrl": "https://inhetarchief.be/proeverijen",
+   "time": "18:30–21:30",
+   "price": "€42.50"
+  },
+  "het-archief-2": {
+   "venue": "Het Archief",
+   "address": "Geefsstraat 5, 2000 Antwerpen",
+   "neighbourhood": "Centre (Meir)",
+   "lat": 51.217723,
+   "lng": 4.402489,
+   "geoSource": "Antwerp places dataset (het-archief, OSM node 11085111404)",
+   "blurb": "A playful guided tasting of nine wines chosen to surprise, with a story behind every glass.",
+   "ticketUrl": "https://inhetarchief.be/proeverijen",
+   "time": "18:30–21:30",
+   "price": "€42.50"
+  },
+  "extra-15": {
+   "venue": "Waagnatie Expo & Events",
+   "address": "Rijnkaai 150, 2000 Antwerpen",
+   "neighbourhood": "Eilandje",
+   "lat": 51.233875,
+   "lng": 4.4020576,
+   "geoSource": "Nominatim query \"Waagnatie\" -> OSM way 43071539 (Rijnkaai; building also houses ALO)",
+   "blurb": "Belgium's biggest tasting festival comes back to the Waagnatie: around fifty restaurants and chefs, from starred kitchens to street food, serving small plates over four days.",
+   "ticketUrl": "https://www.proeft.be/tickets.html",
+   "time": null,
+   "price": null
+  }
+ }
 }

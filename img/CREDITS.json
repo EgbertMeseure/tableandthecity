@@ -145,5 +145,86 @@
   "source": "https://unsplash.com/photos/a-bakery-filled-with-lots-of-different-types-of-pastries-gKWvWZVRwZQ",
   "license": "Unsplash License (free to use, no attribution required — credited anyway)",
   "used_for": "Category card \"Bakeries\""
+ },
+ {
+  "file": "img/cities/antwerpen/hero-{1000,1600,2400}.webp + hero-1600.jpg",
+  "title": "White concrete building with statue during night time",
+  "photographer": "Marcus Loke",
+  "photographer_url": "https://unsplash.com/@marcusloke",
+  "source": "https://unsplash.com/photos/white-concrete-building-with-statue-during-night-time-3vOTwWKwQ4A",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp home hero (Grote Markt, Brabo fountain)"
+ },
+ {
+  "file": "img/cities/antwerpen/new.jpg + img/cities/antwerpen/new-{800,1600,2400}.webp",
+  "title": "Lighted lamps in room",
+  "photographer": "takahiro taguchi",
+  "photographer_url": "https://unsplash.com/@tak_tag",
+  "source": "https://unsplash.com/photos/lighted-lamps-in-room-8l_RuuZrOyY",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: new"
+ },
+ {
+  "file": "img/cities/antwerpen/breakfast.jpg + img/cities/antwerpen/breakfast-{800,1600,2400}.webp",
+  "title": "Two plates of eggs benedict with side salad",
+  "photographer": "daniel mironov",
+  "photographer_url": "https://unsplash.com/@cheesy_daniel",
+  "source": "https://unsplash.com/photos/two-plates-of-eggs-benedict-with-side-salad-wBEdZxG8SgU",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: breakfast"
+ },
+ {
+  "file": "img/cities/antwerpen/restaurants.jpg + img/cities/antwerpen/restaurants-{800,1600,2400}.webp",
+  "title": "A white plate topped with a piece of fish covered in sauce",
+  "photographer": "Sung Jin Cho",
+  "photographer_url": "https://unsplash.com/@mbuff",
+  "source": "https://unsplash.com/photos/a-white-plate-topped-with-a-piece-of-fish-covered-in-sauce-ai3vWZtGFgw",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: restaurants"
+ },
+ {
+  "file": "img/cities/antwerpen/cafes_bars.jpg + img/cities/antwerpen/cafes_bars-{800,1600,2400}.webp",
+  "title": "A glass of beer sitting on top of a wooden table",
+  "photographer": "Ben Black",
+  "photographer_url": "https://unsplash.com/@benjamin92black",
+  "source": "https://unsplash.com/photos/a-glass-of-beer-sitting-on-top-of-a-wooden-table-wUKUpQKrifU",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: cafes_bars"
+ },
+ {
+  "file": "img/cities/antwerpen/coffee.jpg + img/cities/antwerpen/coffee-{800,1600,2400}.webp",
+  "title": "White ceramic mug fill with coffee",
+  "photographer": "Matt Hoffman",
+  "photographer_url": "https://unsplash.com/@__matthoffman__",
+  "source": "https://unsplash.com/photos/white-ceramic-mug-fill-with-coffee-IE-gdqEg45M",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: coffee"
+ },
+ {
+  "file": "img/cities/antwerpen/bakeries.jpg + img/cities/antwerpen/bakeries-{800,1600,2400}.webp",
+  "title": "Several loaves of artisan bread on a rack",
+  "photographer": "Intrepid",
+  "photographer_url": "https://unsplash.com/@intrepidfilm",
+  "source": "https://unsplash.com/photos/several-loaves-of-artisan-bread-on-a-rack-1l2qWh-W5AU",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: bakeries"
+ },
+ {
+  "file": "img/cities/antwerpen/cuisine.jpg + img/cities/antwerpen/cuisine-{800,1600,2400}.webp",
+  "title": "Brown and white food on black ceramic plate",
+  "photographer": "Romain Briaux",
+  "photographer_url": "https://unsplash.com/@romainbriaux",
+  "source": "https://unsplash.com/photos/brown-and-white-food-on-black-ceramic-plate-G7eI_KNp7iw",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: cuisine"
+ },
+ {
+  "file": "img/cities/antwerpen/events.jpg + img/cities/antwerpen/events-{800,1600,2400}.webp",
+  "title": "Man in white chef uniform cooking",
+  "photographer": "Johnathan Macedo",
+  "photographer_url": "https://unsplash.com/@johnathanmphoto",
+  "source": "https://unsplash.com/photos/man-in-white-chef-uniform-cooking-4NQEvxW2_4w",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Antwerp 'Choose your table' card: events"
  }
 ]

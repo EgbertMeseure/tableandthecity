@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="1693c7592e">
+<meta name="build" content="6bb8c0515e">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Table and the City</title>
 <meta name="description" content="Table and the City: a curated, filterable guide to the city's best tables — restaurants, bistros, cafés, coffee, bakeries, new openings and vegetarian &amp; vegan options.">
@@ -24,13 +24,15 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Table and the City logo">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1000.webp 1000w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw">
+<script>/* static hero = default city (Gent); another ?city= gets its own hero from data/cities.json (js/app.js), so don't preload or show Gent's */
+(function(){var c=(new URLSearchParams(location.search).get('city')||'').toLowerCase();document.documentElement.setAttribute('data-city',c||'gent');
+if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='image';l.href='img/hero-1600.webp';l.setAttribute('imagesrcset','img/hero-1000.webp 1000w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w');l.setAttribute('imagesizes','100vw');document.head.appendChild(l);}})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
-<link rel="stylesheet" href="css/brand.css?v=1693c7592e">
-<link rel="stylesheet" href="css/style.css?v=1693c7592e">
+<link rel="stylesheet" href="css/brand.css?v=6bb8c0515e">
+<link rel="stylesheet" href="css/style.css?v=6bb8c0515e">
 </head>
 <body>
 <header class="hero grain" id="top">
@@ -134,14 +136,14 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
-<script src="js/config.js?v=1693c7592e"></script>
-<script src="js/forms.js?v=1693c7592e"></script>
-<script src="js/hours.js?v=1693c7592e"></script>
-<script src="js/common.js?v=1693c7592e"></script>
-<script src="js/app.js?v=1693c7592e"></script>
-<script src="js/quiz.js?v=1693c7592e"></script>
-<script src="js/suggest.js?v=1693c7592e"></script>
-<script src="js/visits.js?v=1693c7592e"></script>
-<script src="js/cityreq.js?v=1693c7592e"></script>
+<script src="js/config.js?v=6bb8c0515e"></script>
+<script src="js/forms.js?v=6bb8c0515e"></script>
+<script src="js/hours.js?v=6bb8c0515e"></script>
+<script src="js/common.js?v=6bb8c0515e"></script>
+<script src="js/app.js?v=6bb8c0515e"></script>
+<script src="js/quiz.js?v=6bb8c0515e"></script>
+<script src="js/suggest.js?v=6bb8c0515e"></script>
+<script src="js/visits.js?v=6bb8c0515e"></script>
+<script src="js/cityreq.js?v=6bb8c0515e"></script>
 </body>
 </html>

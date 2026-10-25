@@ -4,6 +4,8 @@
 .hero__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.62;z-index:0}
 .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.2) 40%,rgba(0,0,0,.75));z-index:1}
 .hero>*:not(.hero__img){position:relative;z-index:3}
+html:not([data-city="gent"]) .hero__img:not(.is-city){opacity:0}   /* another city's hero is set by js/app.js (data/cities.json images.hero) */
+.hero__img{transition:opacity .35s ease}
 .topbar{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:42px 7vw 0}
 .topbar .wordmark{color:#fff}
 .hero .badge{color:inherit}
@@ -383,7 +385,7 @@ body.noscroll{overflow:hidden}
    "Find my table" quiz (js/quiz.js): hero button + overlay sheet. Bottom sheet on phones, centred panel on desktop.
    ========================================================================== */
 .hero__btns{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end}
-.pill-btn--quiz{background:#fff;color:#000;border-color:#fff;font-weight:600;display:inline-flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.25);transition:background .2s,color .2s,transform .2s,box-shadow .2s}
+.pill-btn--quiz{background:var(--blue);color:var(--blue-ink);border-color:var(--blue);font-weight:600;display:inline-flex;align-items:center;gap:8px;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.25);transition:background .2s,color .2s,transform .2s,box-shadow .2s}
 .pill-btn--quiz:hover,.pill-btn--quiz:focus-visible{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,0,0,.32)}
 .pill-btn--quiz:active{transform:translateY(0) scale(.98);box-shadow:0 4px 12px rgba(0,0,0,.25)}
 .pill-btn__ic{width:15px;height:15px;fill:currentColor;flex:none}
@@ -392,6 +394,20 @@ body.noscroll{overflow:hidden}
 .hero__hint{margin:12px 0 0;font-size:12.5px;letter-spacing:.02em;opacity:.82;max-width:460px;margin-left:auto;text-wrap:balance}
 @media (max-width:900px){.hero__hint{margin-left:0}}
 @media (max-width:900px){.hero__btns{justify-content:flex-start}}
+/* desktop: a bigger, clearer Find my table (phones keep their size) */
+@media (min-width:901px){
+  .hero__btns{align-items:center}
+  .hero__cta .hero__btns .pill-btn--quiz{height:56px;padding:0 34px 0 30px;font-size:12.5px;gap:10px;letter-spacing:.2em;
+    box-shadow:0 0 0 1px rgba(255,255,255,.28),0 10px 30px rgba(0,0,0,.38)}
+  .hero__cta .hero__btns .pill-btn--quiz .pill-btn__ic{width:18px;height:18px}
+  .hero__cta .hero__btns .pill-btn--quiz:hover,.hero__cta .hero__btns .pill-btn--quiz:focus-visible{box-shadow:0 0 0 1px var(--accent),0 12px 32px rgba(0,0,0,.42)}
+}
+/* blue accents (a few, on purpose): active quick chips, the highlighted map marker, link hovers, chosen quiz answers */
+.finder .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.mk.hl{background:var(--blue);box-shadow:0 0 0 1px var(--blue)}
+@media (hover:hover){.linkbtn:hover,.about a:hover,.card h3 a:hover{color:var(--blue)}}
+.qz-opt[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.qz-opt[aria-pressed="true"] .qz-opt__s{color:rgba(255,255,255,.8)}
 @media (max-width:640px){.hero__btns{gap:10px}.hero__cta .hero__btns .pill-btn{padding:0 22px}.hero__cta .hero__btns .pill-btn--quiz{padding:0 18px 0 16px;gap:7px}.hero__hint{font-size:11.5px;margin-top:10px;opacity:.75}}
 html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz{position:fixed;inset:0;z-index:3000;display:flex;align-items:center;justify-content:center}
