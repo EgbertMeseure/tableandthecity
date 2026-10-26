@@ -69,7 +69,7 @@
      "heroes": "data/cities/antwerpen-heroes.json",
      "breakfast": "data/cities/antwerpen-breakfast.json",
      "images": {
-      "hero": "img/cities/antwerpen/hero",
+      "hero": "img/cities/antwerpen/hero-centraal",
       "cards": {
        "new": "cities/antwerpen/new",
        "breakfast": "cities/antwerpen/breakfast",

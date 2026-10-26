@@ -16,7 +16,7 @@
   --blue-midnight:#233d6b;   /* deep navy / midnight */
   --blue-royal:#2b4acb;      /* royal / ultramarine */
   --blue-petrol:#2a6474;     /* muted steel / petrol */
-  --blue:var(--blue-royal);
+  --blue:var(--blue-petrol);
   --blue-ink:#fff;           /* text on --blue */
   --blue-hover:color-mix(in srgb,var(--blue) 82%,#000);
   /* type */

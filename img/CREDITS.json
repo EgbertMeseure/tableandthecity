@@ -147,13 +147,13 @@
   "used_for": "Category card \"Bakeries\""
  },
  {
-  "file": "img/cities/antwerpen/hero-{1000,1600,2400}.webp + hero-1600.jpg",
-  "title": "White concrete building with statue during night time",
-  "photographer": "Marcus Loke",
-  "photographer_url": "https://unsplash.com/@marcusloke",
-  "source": "https://unsplash.com/photos/white-concrete-building-with-statue-during-night-time-3vOTwWKwQ4A",
+  "file": "img/cities/antwerpen/hero-centraal-{1000,1600,2400}.webp + hero-centraal-1600.jpg",
+  "title": "Elaborate historic building with ornate architecture at dusk",
+  "photographer": "Bart Ros",
+  "photographer_url": "https://unsplash.com/@bartros",
+  "source": "https://unsplash.com/photos/elaborate-historic-building-with-ornate-architecture-at-dusk-hptCJX9khpU",
   "license": "Unsplash License (free to use, no attribution required — credited anyway)",
-  "used_for": "Antwerp home hero (Grote Markt, Brabo fountain)"
+  "used_for": "Antwerp home hero (Antwerpen-Centraal station at dusk)"
  },
  {
   "file": "img/cities/antwerpen/new.jpg + img/cities/antwerpen/new-{800,1600,2400}.webp",
