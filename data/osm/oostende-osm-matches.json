@@ -1,0 +1,163 @@
+[
+ {
+  "osm": "node/1195207833",
+  "osmName": "'t Vistrapje",
+  "id": "t-vistrapje",
+  "name": "'t Vistrapje",
+  "m": 0
+ },
+ {
+  "osm": "node/1195214730",
+  "osmName": "New Lusitania",
+  "id": "lusitania",
+  "name": "Lusitania",
+  "m": 2
+ },
+ {
+  "osm": "node/1597357636",
+  "osmName": "Botteltje",
+  "id": "cafe-botteltje",
+  "name": "Café Botteltje",
+  "m": 7
+ },
+ {
+  "osm": "node/1769983355",
+  "osmName": "North",
+  "id": "restaurant-north",
+  "name": "Restaurant North",
+  "m": 44
+ },
+ {
+  "osm": "node/2038408828",
+  "osmName": "Manuscript",
+  "id": "manuscript",
+  "name": "Manuscript",
+  "m": 3
+ },
+ {
+  "osm": "node/2038415570",
+  "osmName": "Et Alors",
+  "id": "et-alors",
+  "name": "Et Alors",
+  "m": 13
+ },
+ {
+  "osm": "node/3740281893",
+  "osmName": "Café La Bohème",
+  "id": "la-boheme",
+  "name": "La Bohème",
+  "m": 0
+ },
+ {
+  "osm": "node/3740284995",
+  "osmName": "De Zeegeuzen",
+  "id": "de-zeegeuzen",
+  "name": "De Zeegeuzen",
+  "m": 15
+ },
+ {
+  "osm": "node/4189248691",
+  "osmName": "Bistro Mathilda",
+  "id": "bistro-mathilda",
+  "name": "Bistro Mathilda",
+  "m": 12
+ },
+ {
+  "osm": "node/4899040346",
+  "osmName": "De Charlou",
+  "id": "de-charlou",
+  "name": "De Charlou",
+  "m": 7
+ },
+ {
+  "osm": "node/6787808944",
+  "osmName": "De Pelikaan",
+  "id": "de-pelikaan",
+  "name": "De Pelikaan",
+  "m": 0
+ },
+ {
+  "osm": "node/6979638591",
+  "osmName": "Marina",
+  "id": "marina",
+  "name": "Ristorante Marina",
+  "m": 23
+ },
+ {
+  "osm": "node/7740425521",
+  "osmName": "Passe-Vite",
+  "id": "passe-vite",
+  "name": "Passe Vite",
+  "m": 9
+ },
+ {
+  "osm": "node/9761192509",
+  "osmName": "Expo & Kafie",
+  "id": "expo-kafie",
+  "name": "Expo & Kafie",
+  "m": 0
+ },
+ {
+  "osm": "node/9781753149",
+  "osmName": "Storm",
+  "id": "storm",
+  "name": "Storm",
+  "m": 89
+ },
+ {
+  "osm": "node/9884865338",
+  "osmName": "Bierrestaurant Heerlijk",
+  "id": "bierrestaurant-heerlijk",
+  "name": "Bierrestaurant Heerlijk",
+  "m": 14
+ },
+ {
+  "osm": "node/11115773549",
+  "osmName": "Bar Bristol",
+  "id": "bar-bristol",
+  "name": "Bar Bristol",
+  "m": 0
+ },
+ {
+  "osm": "node/11244250269",
+  "osmName": "Le Bassin",
+  "id": "le-bassin",
+  "name": "Le Bassin",
+  "m": 26
+ },
+ {
+  "osm": "node/12315112786",
+  "osmName": "Haut",
+  "id": "haut",
+  "name": "Haut",
+  "m": 12
+ },
+ {
+  "osm": "node/12879323501",
+  "osmName": "Copador",
+  "id": "copador",
+  "name": "Copador",
+  "m": 21
+ },
+ {
+  "osm": "node/13299329540",
+  "osmName": "Oode",
+  "id": "oode",
+  "name": "Oode",
+  "m": 5
+ },
+ {
+  "osm": "node/13617337001",
+  "osmName": "Meerman Speciality Coffee",
+  "id": "meerman",
+  "name": "Meerman",
+  "m": 1
+ },
+ {
+  "osm": "node/13802169101",
+  "osmName": "Mommy's Bastards",
+  "id": "mommys-bastards",
+  "name": "Mommy's Bastards",
+  "m": 1
+ }
+]

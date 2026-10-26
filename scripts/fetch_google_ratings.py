@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Fetch Google ratings for every place of a city and store them in data/cities/<city>-ratings.json.
 
-Usage:  python3 scripts/fetch_google_ratings.py [city] [--raw FILE] [--offline] [--limit N] [--dry-run]
+Usage:  python3 scripts/fetch_google_ratings.py [city] [--raw FILE] [--offline] [--limit N] [--max-calls N] [--curated-only] [--dry-run]
+        curated records come first: no hours, then a recorded source conflict or hours from OpenStreetMap / unknown source, then the rest
 
 Key: read from the file named in env GOOGLE_PLACES_API_KEY_FILE, else /home/box/.secrets/google_places_key.
 The key is never printed or written anywhere.
@@ -23,9 +24,12 @@ opt = lambda k: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else None
 city = (args[0] if args else 'gent')
 RAW, OFFLINE, DRY = opt('--raw'), '--offline' in sys.argv, '--dry-run' in sys.argv
 LIMIT = int(opt('--limit') or 0)
+MAXC = int(opt('--max-calls') or 0)           # stop calling the API after N calls (cached answers are still matched)
+CUR_ONLY = '--curated-only' in sys.argv
 if RAW in args: args.remove(RAW)
 URL = 'https://places.googleapis.com/v1/places:searchText'
-FIELDS = 'places.id,places.displayName,places.rating,places.userRatingCount,places.formattedAddress,places.location,places.businessStatus'
+FIELDS = 'places.id,places.displayName,places.rating,places.userRatingCount,places.formattedAddress,places.location,places.businessStatus,places.regularOpeningHours,places.primaryType,places.types'
+# rating/userRatingCount already bill the request at the Enterprise SKU; hours and types are in the same SKU -> no extra cost
 MAX_M, MIN_REVIEWS = 250, 5
 # reviewed by hand: the best candidate passes the checks but is a different place -> never scored
 SKIP = {
@@ -44,7 +48,7 @@ def meters(a, b, c, d):
     R = 6371000; p1, p2 = math.radians(a), math.radians(c); dp = p2 - p1; dl = math.radians(d - b)
     return 2 * R * math.asin(math.sqrt(math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2))
 
-GENERIC = set('restaurant resto brasserie bistro bistrot cafe café bar eetcafe taverne de het den der la le les l the and en & n t s gent ghent gand antwerpen antwerp anvers by van bv'.split())
+GENERIC = set('restaurant resto brasserie bistro bistrot cafe café bar eetcafe taverne de het den der la le les l the and en & n t s gent ghent gand antwerpen antwerp anvers brugge bruges oostende ostend ostende brussel brussels bruxelles by van bv'.split())
 def norm(s):
     s = unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower()
     s = re.sub(r"[^a-z0-9]+", ' ', s)
@@ -68,17 +72,51 @@ def search(k, q, lat, lng):
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.load(r).get('places', [])
 
+DAYS = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+def osm_hours(roh):
+    """Google regularOpeningHours.periods -> OSM opening_hours string ('Mo-Fr 12:00-14:00,18:00-22:00; Sa,Su off'); None if absent."""
+    ps = (roh or {}).get('periods') or []
+    if not ps: return None
+    if len(ps) == 1 and 'close' not in ps[0]: return '24/7'
+    by = {d: [] for d in range(7)}
+    for p in ps:
+        o, c = p.get('open') or {}, p.get('close')
+        if not c or 'day' not in o: return None
+        s = o.get('hour', 0) * 60 + o.get('minute', 0); e = c.get('hour', 0) * 60 + c.get('minute', 0)
+        if c['day'] != o['day'] or e <= s: e += 1440 * (((c['day'] - o['day']) % 7) or 1)
+        if e - s > 1440: return None
+        by[o['day']].append((s, e))
+    f = lambda m: f'{(m - 1440 if m > 1440 else m) // 60:02d}:{m % 60:02d}'   # overnight end as 01:00 (hours.js: end <= start = next day)
+    sig = {d: ','.join(f'{f(s)}-{f(e)}' for s, e in sorted(v)) or 'off' for d, v in by.items()}
+    order = [1, 2, 3, 4, 5, 6, 0]; rules = []; i = 0
+    groups = {}
+    for d in order: groups.setdefault(sig[d], []).append(d)
+    def runs(ds):
+        idx = sorted(order.index(d) for d in ds); out = []; st = pr = idx[0]
+        for x in idx[1:] + [None]:
+            if x is not None and x == pr + 1: pr = x; continue
+            a, b = DAYS[order[st]], DAYS[order[pr]]
+            out.append(a if st == pr else (f'{a},{b}' if pr == st + 1 else f'{a}-{b}'))
+            if x is not None: st = pr = x
+        return ','.join(out)
+    items = sorted(groups.items(), key=lambda kv: min(order.index(d) for d in kv[1]))
+    return '; '.join(f'{runs(ds)} {sg}' for sg, ds in items)
+
 def places_of(city):
     cur = json.load(open(f'data/cities/{city}.json'))['restaurants']
     out = [dict(r, _src='curated') for r in cur if r.get('status') != 'unverified']
+    out.sort(key=lambda r: 0 if not r.get('openingHours') else 1 if (r.get('dataConflict') or re.match(r'(OpenStreetMap|$)', r.get('openingHoursSource') or '')) else 2)
     ids = {r['id'] for r in out}
+    if CUR_ONLY: return out
     p = f'data/cities/{city}-osm.json'
     if os.path.exists(p):
         out += [dict(o, _src='osm') for o in json.load(open(p))['places'] if o['id'] not in ids and o.get('status') != 'closed']
     return out
 
 # per city: the name added to the query and the pattern that says an address already names the city (postcode or name)
-CITY_Q = {'gent': ('Gent', r'\b9\d{3}\b|gent'), 'antwerpen': ('Antwerpen', r'\b2\d{3}\b|antwerp')}
+CITY_Q = {'gent': ('Gent', r'\b9\d{3}\b|gent'), 'antwerpen': ('Antwerpen', r'\b2\d{3}\b|antwerp'),
+          'brugge': ('Brugge', r'\b8[0-3]\d{2}\b|brugge|bruges'), 'oostende': ('Oostende', r'\b84\d{2}\b|oostende|ostend'),
+          'brussel': ('Brussels', r'\b1\d{3}\b|brussel|bruxelles')}
 def query(r):
     cn, pat = CITY_Q[city]
     a = (r.get('address') or '').strip()
@@ -102,10 +140,13 @@ def main():
     raw = json.load(open(RAW)) if RAW and os.path.exists(RAW) else {}
     k = None if OFFLINE else key()
     rows = places_of(city)[:LIMIT or None]
-    calls = 0; res = {}; log = []; closed = []
+    calls = 0; res = {}; log = []; closed = []; gx = {}
+    refs = raw.setdefault('_osmref', {})                     # OSM ref -> cached id: a curated record that took over an OSM place reuses its answer
     for r in rows:
+        if r['id'] not in raw and r.get('osm') and refs.get(r['osm']) in raw: raw[r['id']] = raw[refs[r['osm']]]
+        if r.get('osm') and r['id'].startswith('osm-'): refs.setdefault(r['osm'], r['id'])
         if r['id'] not in raw:
-            if OFFLINE: continue
+            if OFFLINE or (MAXC and calls >= MAXC): continue
             calls += 1
             try: raw[r['id']] = search(k, query(r), r.get('lat'), r.get('lng'))
             except Exception as e:
@@ -129,6 +170,9 @@ def main():
         else:
             why = ''
             res[r['id']] = {'score': round(c['rating'] * 2, 1), 'google_place_id': c['id']}
+        if b and b['ok'] and c.get('businessStatus') != 'CLOSED_PERMANENTLY':
+            gx[r['id']] = {'name': r['name'], 'google': name, 'google_place_id': c['id'], 'primaryType': c.get('primaryType'),
+                           'types': c.get('types') or [], 'openingHours': osm_hours(c.get('regularOpeningHours'))}
         log.append({'id': r['id'], 'src': r['_src'], 'name': r['name'], 'ok': not why, 'why': why,
                     'match': name, 'sim': b and b['s'], 'm': b and b['d']})
     if RAW and not OFFLINE: json.dump(raw, open(RAW, 'w'), ensure_ascii=False)
@@ -139,6 +183,10 @@ def main():
     json.dump(log, open('/tmp/ratings_log.json', 'w'), ensure_ascii=False, indent=1)
     json.dump(closed, open(f'/tmp/ratings_closed_{city}.json', 'w'), ensure_ascii=False, indent=1)   # review, then add to data/osm/closed.json
     print('Google says permanently closed:', len(closed), f'(list: /tmp/ratings_closed_{city}.json)')
+    if not DRY and gx and city not in ('gent', 'antwerpen'):   # Google Maps hours + place type per confident match (apply: scripts/apply_google_places.py)
+        q = f'data/osm/{city}-google-places.json'
+        json.dump({'source': 'Google Maps (Places API, regularOpeningHours/primaryType)', 'fetched': datetime.date.today().isoformat(),
+                   'places': dict(sorted(gx.items()))}, open(q, 'w'), ensure_ascii=False, indent=0); print('wrote', q, len(gx))
     if DRY or (not res): return print('dry run / nothing to write')
     out = {'source': 'Google', 'note': 'score = Google rating x 2 (0-10). Rerun scripts/fetch_google_ratings.py to refresh.',
            'fetched': datetime.date.today().isoformat(), 'places': dict(sorted(res.items()))}

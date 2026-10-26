@@ -1,0 +1,646 @@
+[
+ {
+  "osm": "node/234524306",
+  "osmName": "L'Ultime Atome",
+  "id": "ultime-atome",
+  "name": "L'Ultime Atome",
+  "m": 11
+ },
+ {
+  "osm": "node/843728985",
+  "osmName": "Le Fontainas",
+  "id": "moeder-lambic-fontainas",
+  "name": "Moeder Lambic Fontainas",
+  "m": 59
+ },
+ {
+  "osm": "node/1037462990",
+  "osmName": "Café Capitale",
+  "id": "cafe-capitale",
+  "name": "Café Capitale",
+  "m": 0
+ },
+ {
+  "osm": "node/1113023881",
+  "osmName": "Le Cirio",
+  "id": "le-cirio",
+  "name": "Le Cirio",
+  "m": 5
+ },
+ {
+  "osm": "node/1356774871",
+  "osmName": "La Fleur en Papier Doré - Het Goudblommeke in Papier",
+  "id": "la-fleur-en-papier-dore",
+  "name": "La Fleur en Papier Doré",
+  "m": 8
+ },
+ {
+  "osm": "node/2329109281",
+  "osmName": "Frank.",
+  "id": "frank",
+  "name": "Frank",
+  "m": 6
+ },
+ {
+  "osm": "node/2459867484",
+  "osmName": "Humus x Hortense",
+  "id": "humus-x-hortense",
+  "name": "Humus x Hortense",
+  "m": 0
+ },
+ {
+  "osm": "node/2501834384",
+  "osmName": "Barge",
+  "id": "barge",
+  "name": "Barge",
+  "m": 3
+ },
+ {
+  "osm": "node/2518122689",
+  "osmName": "Life Is Beautiful",
+  "id": "life-is-beautiful",
+  "name": "Life is Beautiful",
+  "m": 5
+ },
+ {
+  "osm": "node/2522741195",
+  "osmName": "MOK",
+  "id": "mok",
+  "name": "MOK",
+  "m": 5
+ },
+ {
+  "osm": "node/2665166030",
+  "osmName": "Plumette",
+  "id": "plumette",
+  "name": "Plumette",
+  "m": 5
+ },
+ {
+  "osm": "node/2696597856",
+  "osmName": "La Paix",
+  "id": "la-paix",
+  "name": "La Paix",
+  "m": 23
+ },
+ {
+  "osm": "node/3118693286",
+  "osmName": "Aksum",
+  "id": "aksum",
+  "name": "Aksum Coffee House",
+  "m": 0
+ },
+ {
+  "osm": "node/3322996455",
+  "osmName": "Le Petit Canon",
+  "id": "le-petit-canon",
+  "name": "Le Petit Canon",
+  "m": 0
+ },
+ {
+  "osm": "node/3349536703",
+  "osmName": "Brasserie de l'Union",
+  "id": "brasserie-de-l-union",
+  "name": "Brasserie de l'Union",
+  "m": 0
+ },
+ {
+  "osm": "node/3464767689",
+  "osmName": "Pinotte",
+  "id": "pinotte",
+  "name": "Pinotte",
+  "m": 5
+ },
+ {
+  "osm": "node/3863812078",
+  "osmName": "Brassonomie Gus",
+  "id": "gus",
+  "name": "Gus",
+  "m": 6
+ },
+ {
+  "osm": "node/4119669190",
+  "osmName": "kaffabar",
+  "id": "kaffabar",
+  "name": "Kaffabar",
+  "m": 0
+ },
+ {
+  "osm": "node/4200114214",
+  "osmName": "Strofilia",
+  "id": "strofilia",
+  "name": "Strofilia",
+  "m": 7
+ },
+ {
+  "osm": "node/4299290521",
+  "osmName": "Le Corbeau",
+  "id": "le-corbeau",
+  "name": "Le Corbeau",
+  "m": 0
+ },
+ {
+  "osm": "node/4323046261",
+  "osmName": "Corica",
+  "id": "corica",
+  "name": "Corica",
+  "m": 3
+ },
+ {
+  "osm": "node/4326817089",
+  "osmName": "Savage",
+  "id": "savage",
+  "name": "Savage",
+  "m": 12
+ },
+ {
+  "osm": "node/4329817770",
+  "osmName": "La Belle Maraîchère",
+  "id": "la-belle-maraichere",
+  "name": "La Belle Maraîchère",
+  "m": 3
+ },
+ {
+  "osm": "node/4370027741",
+  "osmName": "Vismet",
+  "id": "le-vismet",
+  "name": "Le Vismet",
+  "m": 15
+ },
+ {
+  "osm": "node/4388784730",
+  "osmName": "La Villa in the Sky",
+  "id": "la-villa-in-the-sky",
+  "name": "La Villa in the Sky",
+  "m": 13
+ },
+ {
+  "osm": "node/4413702089",
+  "osmName": "Chemistry & Botanics",
+  "id": "chemistry-and-botanics",
+  "name": "Chemistry and Botanic's",
+  "m": 3
+ },
+ {
+  "osm": "node/4413952472",
+  "osmName": "Goupil le Fol",
+  "id": "goupil-le-fol",
+  "name": "Goupil le Fol",
+  "m": 9
+ },
+ {
+  "osm": "node/4415645090",
+  "osmName": "Cosmos",
+  "id": "cosmos",
+  "name": "Cosmos",
+  "m": 3
+ },
+ {
+  "osm": "node/4416858289",
+  "osmName": "La Table de Mus",
+  "id": "la-table-de-mus",
+  "name": "La Table de Mus",
+  "m": 2
+ },
+ {
+  "osm": "node/4422193252",
+  "osmName": "Gamin",
+  "id": "gamin",
+  "name": "Gamin!",
+  "m": 0
+ },
+ {
+  "osm": "node/4426898813",
+  "osmName": "Ongba",
+  "id": "ongba",
+  "name": "Ôngbà",
+  "m": 24
+ },
+ {
+  "osm": "node/4480414658",
+  "osmName": "À la Mort Subite",
+  "id": "a-la-mort-subite",
+  "name": "À la Mort Subite",
+  "m": 3
+ },
+ {
+  "osm": "node/4633409094",
+  "osmName": "Barkboy",
+  "id": "barkboy",
+  "name": "Barkboy",
+  "m": 6
+ },
+ {
+  "osm": "node/4659999496",
+  "osmName": "Moeder Lambic Fontainas",
+  "id": "moeder-lambic-fontainas",
+  "name": "Moeder Lambic Fontainas",
+  "m": 4
+ },
+ {
+  "osm": "node/4706357837",
+  "osmName": "La Pharmacie Anglaise",
+  "id": "la-pharmacie-anglaise",
+  "name": "La Pharmacie Anglaise",
+  "m": 5
+ },
+ {
+  "osm": "node/4836995621",
+  "osmName": "Resto Henri",
+  "id": "henri",
+  "name": "Henri",
+  "m": 5
+ },
+ {
+  "osm": "node/4836999721",
+  "osmName": "Selecto",
+  "id": "selecto",
+  "name": "Selecto",
+  "m": 3
+ },
+ {
+  "osm": "node/5092104510",
+  "osmName": "Kamo",
+  "id": "kamo",
+  "name": "Kamo",
+  "m": 2
+ },
+ {
+  "osm": "node/5092107887",
+  "osmName": "Car Bon",
+  "id": "car-bon",
+  "name": "Car Bon",
+  "m": 2
+ },
+ {
+  "osm": "node/5301940180",
+  "osmName": "Alley Mian",
+  "id": "alley-mian",
+  "name": "Alley Mian",
+  "m": 15
+ },
+ {
+  "osm": "node/5593328021",
+  "osmName": "James Joyce",
+  "id": "james-joyce",
+  "name": "James Joyce",
+  "m": 0
+ },
+ {
+  "osm": "node/5781359285",
+  "osmName": "Munch",
+  "id": "munch",
+  "name": "Munch",
+  "m": 6
+ },
+ {
+  "osm": "node/5787040151",
+  "osmName": "Vertigo",
+  "id": "vertigo",
+  "name": "Vertigo",
+  "m": 15
+ },
+ {
+  "osm": "node/5787074314",
+  "osmName": "Crème Brussels",
+  "id": "creme",
+  "name": "Crème",
+  "m": 2
+ },
+ {
+  "osm": "node/5907172885",
+  "osmName": "Maru",
+  "id": "maru",
+  "name": "Maru",
+  "m": 11
+ },
+ {
+  "osm": "node/5934700268",
+  "osmName": "Eliane",
+  "id": "eliane",
+  "name": "Eliane",
+  "m": 6
+ },
+ {
+  "osm": "node/5951134953",
+  "osmName": "Old Boy",
+  "id": "old-boy",
+  "name": "Old Boy",
+  "m": 19
+ },
+ {
+  "osm": "node/6245049286",
+  "osmName": "Belga & Co",
+  "id": "belga-co",
+  "name": "Belga & Co (Bailli)",
+  "m": 0
+ },
+ {
+  "osm": "node/6491914208",
+  "osmName": "The Wild Geese",
+  "id": "the-wild-geese",
+  "name": "The Wild Geese",
+  "m": 0
+ },
+ {
+  "osm": "node/6502305994",
+  "osmName": "Bisou",
+  "id": "bisous",
+  "name": "Bisou",
+  "m": 1
+ },
+ {
+  "osm": "node/6815857057",
+  "osmName": "Le Stoefer",
+  "id": "le-stoefer",
+  "name": "Le Stoefer",
+  "m": 2
+ },
+ {
+  "osm": "node/6815859419",
+  "osmName": "Confessions",
+  "id": "confessions",
+  "name": "Confessions",
+  "m": 3
+ },
+ {
+  "osm": "node/6815869046",
+  "osmName": "Le guépard",
+  "id": "le-guepard",
+  "name": "Le Guépard",
+  "m": 7
+ },
+ {
+  "osm": "node/7195165369",
+  "osmName": "The Wild Lab",
+  "id": "the-wild-lab",
+  "name": "The Wild Lab",
+  "m": 4
+ },
+ {
+  "osm": "node/7324815285",
+  "osmName": "Racines",
+  "id": "racines",
+  "name": "Racines",
+  "m": 14
+ },
+ {
+  "osm": "node/7684321685",
+  "osmName": "Boulengier",
+  "id": "boulengier",
+  "name": "Boulengier",
+  "m": 5
+ },
+ {
+  "osm": "node/8450305006",
+  "osmName": "Les Brigittines",
+  "id": "les-brigittines",
+  "name": "Les Brigittines",
+  "m": 4
+ },
+ {
+  "osm": "node/8617596347",
+  "osmName": "Chou",
+  "id": "chou",
+  "name": "Chou",
+  "m": 1
+ },
+ {
+  "osm": "node/8757831476",
+  "osmName": "Anju",
+  "id": "anju",
+  "name": "Anju",
+  "m": 2
+ },
+ {
+  "osm": "node/9239844695",
+  "osmName": "Amen",
+  "id": "amen",
+  "name": "Amen",
+  "m": 2
+ },
+ {
+  "osm": "node/9329458660",
+  "osmName": "Bozar Restaurant",
+  "id": "bozar-restaurant",
+  "name": "Bozar Restaurant",
+  "m": 11
+ },
+ {
+  "osm": "node/9353953435",
+  "osmName": "Au Derby",
+  "id": "au-derby",
+  "name": "Au Derby",
+  "m": 0
+ },
+ {
+  "osm": "node/9529617025",
+  "osmName": "Nightshop",
+  "id": "nightshop",
+  "name": "Nightshop",
+  "m": 28
+ },
+ {
+  "osm": "node/9654570992",
+  "osmName": "The Modern Alchemist",
+  "id": "the-modern-alchemist",
+  "name": "The Modern Alchemist",
+  "m": 4
+ },
+ {
+  "osm": "node/9654627315",
+  "osmName": "Le Dillens",
+  "id": "le-dillens",
+  "name": "Le Dillens",
+  "m": 3
+ },
+ {
+  "osm": "node/9773150833",
+  "osmName": "La Flaque",
+  "id": "la-flaque",
+  "name": "La Flaque",
+  "m": 8
+ },
+ {
+  "osm": "node/9953967312",
+  "osmName": "Madame Beta",
+  "id": "madame-beta",
+  "name": "Madame Beta",
+  "m": 7
+ },
+ {
+  "osm": "node/10252756454",
+  "osmName": "Bozar Café Victor",
+  "id": "bozar-restaurant",
+  "name": "Bozar Restaurant",
+  "m": 44
+ },
+ {
+  "osm": "node/10572932355",
+  "osmName": "Le Wine Bar des Marolles",
+  "id": "le-wine-bar-des-marolles",
+  "name": "Le Wine Bar des Marolles",
+  "m": 3
+ },
+ {
+  "osm": "node/10607657861",
+  "osmName": "Stella",
+  "id": "stella",
+  "name": "Stella",
+  "m": 3
+ },
+ {
+  "osm": "node/10839632912",
+  "osmName": "Wide Awake Coffe St. Cat",
+  "id": "wide-awake",
+  "name": "Wide Awake",
+  "m": 3
+ },
+ {
+  "osm": "node/10863722739",
+  "osmName": "Damn Good Café",
+  "id": "damn-good-cafe",
+  "name": "Damn Good Café",
+  "m": 3
+ },
+ {
+  "osm": "node/10908419020",
+  "osmName": "PtitBeur",
+  "id": "ptitbeur",
+  "name": "P'tit Beur",
+  "m": 1
+ },
+ {
+  "osm": "node/10911058544",
+  "osmName": "Addis Stories",
+  "id": "addis-stories",
+  "name": "Addis Stories",
+  "m": 5
+ },
+ {
+  "osm": "node/10931797363",
+  "osmName": "L'Archiduc",
+  "id": "l-archiduc",
+  "name": "L'Archiduc",
+  "m": 4
+ },
+ {
+  "osm": "node/11046983222",
+  "osmName": "Kline",
+  "id": "kline",
+  "name": "KLINE",
+  "m": 2
+ },
+ {
+  "osm": "node/11078075453",
+  "osmName": "La Buvette",
+  "id": "la-buvette",
+  "name": "La Buvette",
+  "m": 3
+ },
+ {
+  "osm": "node/11123876660",
+  "osmName": "Estaminet de Toone - Stamineï van Toone",
+  "id": "toone",
+  "name": "Toone",
+  "m": 16
+ },
+ {
+  "osm": "node/11298155729",
+  "osmName": "Nonbe Daigaku",
+  "id": "nonbe-daigaku",
+  "name": "Nonbe Daigaku",
+  "m": 7
+ },
+ {
+  "osm": "node/11638726024",
+  "osmName": "Grain Bakery",
+  "id": "grain",
+  "name": "Grain",
+  "m": 6
+ },
+ {
+  "osm": "node/11663750418",
+  "osmName": "nénu",
+  "id": "nenu",
+  "name": "Nénu",
+  "m": 9
+ },
+ {
+  "osm": "node/11906755001",
+  "osmName": "Quartz",
+  "id": "quartz",
+  "name": "Quartz",
+  "m": 3
+ },
+ {
+  "osm": "node/11967448169",
+  "osmName": "Kosto",
+  "id": "kosto",
+  "name": "Kosto",
+  "m": 10
+ },
+ {
+  "osm": "node/12222861503",
+  "osmName": "Stella Coffee Bar",
+  "id": "stella",
+  "name": "Stella",
+  "m": 81
+ },
+ {
+  "osm": "node/12512059105",
+  "osmName": "Ciao",
+  "id": "ciao",
+  "name": "Ciao",
+  "m": 35
+ },
+ {
+  "osm": "node/12513651660",
+  "osmName": "Pinpin",
+  "id": "pinpin",
+  "name": "Pinpin",
+  "m": 2
+ },
+ {
+  "osm": "node/12531627112",
+  "osmName": "Comme Chez Soi",
+  "id": "comme-chez-soi",
+  "name": "Comme chez Soi",
+  "m": 7
+ },
+ {
+  "osm": "node/12628699504",
+  "osmName": "Moeder Lambic",
+  "id": "moeder-lambic",
+  "name": "Moeder Lambic Original",
+  "m": 3
+ },
+ {
+  "osm": "node/13007200519",
+  "osmName": "Fico",
+  "id": "fico",
+  "name": "Fico",
+  "m": 5
+ },
+ {
+  "osm": "node/13009338328",
+  "osmName": "Poechenellekelder",
+  "id": "poechenellekelder",
+  "name": "Poechenellekelder",
+  "m": 5
+ },
+ {
+  "osm": "node/13525137887",
+  "osmName": "MOme",
+  "id": "mome",
+  "name": "MOme",
+  "m": 2
+ },
+ {
+  "osm": "node/14293204310",
+  "osmName": "Wantan",
+  "id": "wantan",
+  "name": "Wantan",
+  "m": 5
+ }
+]

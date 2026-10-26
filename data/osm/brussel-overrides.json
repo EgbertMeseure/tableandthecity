@@ -1,0 +1,16 @@
+{
+  "_note": "Manual status fixes from the Brussel research handoff (2026-10-26).",
+  "barge": {
+    "status": "temporarily closed",
+    "statusUntil": "2026-11-04",
+    "statusNote": "Closed for a break until 4 Nov 2026"
+  },
+  "menssa": {
+    "status": "open",
+    "statusNote": "",
+    "summary": "Christophe Hardiquest's counter restaurant on Avenue de Tervueren, built around a sculpted wooden tree, where the cooks work in front of you and every dish tells a sourcing story; one star, G&M 17/20. Closing for good: the last service is on 14 Nov 2026."
+  },
+  "daily-3000": {
+    "summary": "Chef Sidney Lauwers runs a six-month plant-based bakery-deli in the former Grammes premises: daily sourdough, focaccia, sandwiches, cookies and vegetarian deli dishes. A temporary concept, running until December 2026."
+  }
+}

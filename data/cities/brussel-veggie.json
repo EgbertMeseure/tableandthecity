@@ -1,0 +1,77 @@
+{
+ "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
+ "city": "brussel",
+ "count": 9,
+ "places": {
+  "daily-3000": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://lefooding.com/restaurants/daily-3000",
+    "https://www.demorgen.be/koken-met-de-morgen/bekende-chefs-en-beloftevolle-nieuwkomers-deze-25-nieuwe-restaurants-openen-dit-najaar~be3db896/"
+   ],
+   "basis": "Own site: plant-based bakery & vegetarian eatery"
+  },
+  "honest": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://lefooding.com/restaurants/honest"
+   ],
+   "basis": "Le Fooding: vegan and gluten-free cakes; veggie buns"
+  },
+  "humus-x-hortense": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://guide.michelin.com/be/nl/bruxelles-capitale/ixelles/restaurant/humus-x-hortense",
+    "https://www.gaultmillau.be/nl/restaurants/humus-x-hortense-bruxelles-ixelles"
+   ],
+   "basis": "Michelin and own site: fully plant-based (vegetarian/vegan) gastronomic menu"
+  },
+  "munch": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.brusselstimes.com/2260634/have-you-tried-these-new-restaurants-in-brussels",
+    "https://bruxellessecrete.com/en/the-gems-of-2026-5-newly-opened-restaurants-that-have-already-become-must-visit-spots-for-foodies-in-brussels/"
+   ],
+   "basis": "Brussels Times: mushroom version of the rou jia mo; Bruxelles Secrète: veggie version"
+  },
+  "origine": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/bruxelles-capitale/etterbeek/restaurant/origine",
+    "https://www.gaultmillau.be/nl/restaurants/origine-bruxelles-etterbeek"
+   ],
+   "basis": "Michelin: monthly changing menu offered in vegetarian as well as fish/meat versions"
+  },
+  "savage": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://guide.michelin.com/be/nl/bruxelles-capitale/ixelles/restaurant/savage",
+    "https://www.gaultmillau.be/nl/restaurants/savage-bruxelles-ixelles"
+   ],
+   "basis": "Michelin: fixed menu of creative plant-based dishes"
+  },
+  "the-wild-lab": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.brusselstimes.com/640067/best-in-town-where-to-go-for-brunch-in-brussels"
+   ],
+   "basis": "Brussels Times: vegetarian breakfasts and brunches with plenty of vegan and gluten-free options"
+  },
+  "wantan": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.brusselstimes.com/2260634/have-you-tried-these-new-restaurants-in-brussels",
+    "https://lefooding.com/restaurants/wantan"
+   ],
+   "basis": "Brussels Times: vegetarian dumpling fillings offered"
+  },
+  "winok": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://lefooding.com/restaurants/cafe-winok",
+    "https://lefooding.com/nos-meilleures-adresses/les-meilleurs-coffee-shops-de-bruxelles"
+   ],
+   "basis": "Le Fooding tag: Végi"
+  }
+ }
+}

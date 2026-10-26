@@ -1,0 +1,124 @@
+{
+ "about": "Breakfast / brunch per place from the research handoff (own site, menu, press). Only sourced values; never guessed.",
+ "handoff": "/workspace/handoff/brugge/brugge-breakfast-brunch.json",
+ "places": {
+  "benedict": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.benedictcafe.be/nl"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.benedictcafe.be/nl"
+   }
+  },
+  "blackbird": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.blackbird-bruges.com/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.blackbird-bruges.com/"
+   }
+  },
+  "boho-brunch": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.bohobrunch.be/contact"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.bohobrunch.be/contact"
+   }
+  },
+  "cafe-au-lait": {
+   "breakfast": {
+    "value": true,
+    "source": "https://cafeaulaitbrugge.be/"
+   }
+  },
+  "kaffee-kamiel": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.kaffeekamiel.be/nl/"
+   }
+  },
+  "maro": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.maro-brugge.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.maro-brugge.be/"
+   }
+  },
+  "matin-midi": {
+   "breakfast": {
+    "value": true,
+    "source": "https://matinmidibrugge.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://matinmidibrugge.be/"
+   }
+  },
+  "noahs-broodhuys": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.noahs.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.noahs.be/"
+   }
+  },
+  "nomad": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.nomadbrugge.be/"
+   }
+  },
+  "sanseveria": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.sanseveria.be/locaties"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.sanseveria.be/locaties"
+   }
+  },
+  "tonka": {
+   "breakfast": {
+    "value": true,
+    "source": "https://tonkatearoom.be/contact/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://tonkatearoom.be/contact/"
+   }
+  },
+  "willa": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.willabrunch.be/contact"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.willabrunch.be/contact"
+   }
+  },
+  "yarn": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.yarnbrugge.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.yarnbrugge.be/"
+   }
+  }
+ }
+}

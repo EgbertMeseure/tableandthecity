@@ -44,6 +44,15 @@ CITY_CFG = {
     # municipality returns nothing and the whole municipality times out on Overpass
     'antwerpen': {'area': 'Antwerpen', 'rels': (60709, 59515, 59577), 'name': 'Antwerpen', 'districts': ('Antwerpen', 'Berchem', 'Borgerhout'),
                   'show': {}, 'hood_in': ('Antwerpen', 'Berchem', 'Borgerhout')},
+    # Brugge / Oostende: the whole municipality (relation 562654 incl. Sint-Andries, Assebroek, Sint-Kruis, Zeebrugge …; relation 1292909 incl. Mariakerke,
+    # Stene, Zandvoorde); district = the municipality, neighbourhood = nearest OSM place node
+    'brugge': {'area': 'Brugge', 'rels': (562654,), 'name': 'Brugge', 'districts': ('Brugge',), 'show': {}, 'hood_in': ('Brugge',)},
+    'oostende': {'area': 'Oostende', 'rels': (1292909,), 'name': 'Oostende', 'districts': ('Oostende',), 'show': {}, 'hood_in': ('Oostende',)},
+    # central Brussels: the municipalities City of Brussels (58274: Pentagon, European quarter, Avenue Louise, Laeken …), Ixelles (58250) and
+    # Saint-Gilles (58248), not the whole Brussels-Capital Region (19 municipalities: too many Google calls for a first version)
+    'brussel': {'area': 'Brussel', 'rels': (58274, 58250, 58248), 'name': 'Brussels', 'districts': ('Brussels', 'Ixelles', 'Saint-Gilles'),
+                'show': {'Bruxelles - Brussel': 'Brussels', 'Ixelles - Elsene': 'Ixelles', 'Saint-Gilles - Sint-Gillis': 'Saint-Gilles'},
+                'hood_in': ('Brussels', 'Ixelles', 'Saint-Gilles')},
 }[CITY]
 _pre = '' if CITY == 'gent' else f'{CITY}-'
 RAW, BOUNDS = OSM_DIR / f'{_pre}raw.json', OSM_DIR / f'{_pre}bounds.json'
@@ -169,7 +178,7 @@ def slug(s):
 
 def norm_name(s):
     s = unicodedata.normalize('NFKD', s or '').encode('ascii', 'ignore').decode().lower()
-    s = re.sub(r"\b(restaurant|resto|brasserie|bistro|cafe|bar|eetcafe|taverne|de|het|le|la|les|l|the|t|gent|ghent|antwerpen|antwerp|bakkerij|bakery|patisserie|coffee|koffie)\b", ' ', s)
+    s = re.sub(r"\b(restaurant|resto|brasserie|bistro|cafe|bar|eetcafe|taverne|de|het|le|la|les|l|the|t|gent|ghent|antwerpen|antwerp|brugge|bruges|oostende|ostend|brussel|brussels|bruxelles|bakkerij|bakery|patisserie|coffee|koffie)\b", ' ', s)
     return re.sub(r'[^a-z0-9]+', '', s)
 
 

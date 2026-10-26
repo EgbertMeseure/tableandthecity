@@ -1,0 +1,85 @@
+{
+ "city": "brugge",
+ "dateChecked": "2026-10-26",
+ "timezone": "Europe/Brussels",
+ "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into brugge.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
+ "excludedChecked": {},
+ "upcoming": [
+  {
+   "id": "the-mae",
+   "name": "The Mae",
+   "group": "restaurants",
+   "category": "gastrobar",
+   "address": "Ezelstraat 14, 8000 Brugge",
+   "neighbourhood": "Centrum",
+   "lat": 51.211936,
+   "lng": 3.220272,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "expectedOpening": "2027-01",
+   "expectedOpeningLabel": "mid-January 2027",
+   "expectedOpeningNote": "Renovation had just started at announcement (Oct 2026); no fixed date or reservations yet.",
+   "description": "Gastrobar by Pim Meiresone and Luna-Mae Beuckels, formerly of De Lamme Goedzak.",
+   "team": "Pim Meiresone & Luna-Mae Beuckels",
+   "website": "https://gastrobarthemae.be/",
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": null,
+    "vegan": null
+   },
+   "sources": [
+    "https://www.hln.be/brugge/van-werken-bij-de-lamme-goedzak-tot-een-eigen-zaak-pim-27-en-luna-mae-28-openen-begin-2027-the-mae-in-brugse-ezelstraat~a4b264aa/",
+    "https://www.lokaalnieuws.online/2026/10/10/brugge-the-mae-gastrobar-ezelstraat-pim-meiresone/",
+    "https://gastrobarthemae.be/contact"
+   ],
+   "announcedBy": "HLN / Lokaal Nieuws, Oct 2026",
+   "dateChecked": "2026-10-26",
+   "postalCode": "8000",
+   "district": "Brugge",
+   "geoPrecision": "poi",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  },
+  {
+   "id": "cake-boutique",
+   "name": "Cake Boutique",
+   "group": "bakeries",
+   "category": "patisserie",
+   "address": "Maalse Steenweg 358, 8310 Brugge (Sint-Kruis)",
+   "neighbourhood": "Sint-Kruis",
+   "lat": 51.207898,
+   "lng": 3.267367,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "expectedOpening": "2026-10-30",
+   "expectedOpeningLabel": "Friday 30 October 2026",
+   "expectedOpeningNote": "Own site: shop in Sint-Kruis open from Friday 30 October with a daily patisserie offer (no pre-order needed).",
+   "description": "Luxury custom-cake studio by Debora Noë opening a patisserie shop in Sint-Kruis.",
+   "team": "Debora Noë",
+   "website": "https://cakeboutique.be/",
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": null,
+    "vegan": null
+   },
+   "sources": [
+    "https://cakeboutique.be/"
+   ],
+   "announcedBy": "own website",
+   "dateChecked": "2026-10-26",
+   "postalCode": "8310",
+   "district": "Brugge",
+   "geoPrecision": "poi",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  }
+ ]
+}

@@ -1,0 +1,464 @@
+[
+ {
+  "osm": "node/469970659",
+  "osmName": "Breydel de Coninc",
+  "id": "breydel-de-coninc",
+  "name": "Breydel de Coninc",
+  "m": 4
+ },
+ {
+  "osm": "node/470512865",
+  "osmName": "Assiette Blanche",
+  "id": "assiette-blanche",
+  "name": "Assiette Blanche",
+  "m": 3
+ },
+ {
+  "osm": "node/793769624",
+  "osmName": "Tanuki",
+  "id": "tanuki",
+  "name": "Tanuki",
+  "m": 2
+ },
+ {
+  "osm": "node/1025136363",
+  "osmName": "'t Poatersgat",
+  "id": "t-poatersgat",
+  "name": "'t Poatersgat",
+  "m": 6
+ },
+ {
+  "osm": "node/1055115331",
+  "osmName": "La Tâche",
+  "id": "la-tache",
+  "name": "La Tâche",
+  "m": 3
+ },
+ {
+  "osm": "node/1256770388",
+  "osmName": "De broodsmid - Stefan Vandaele",
+  "id": "de-broodsmid",
+  "name": "De Broodsmid",
+  "m": 29
+ },
+ {
+  "osm": "node/1406364725",
+  "osmName": "'t Nieuw Walnutje",
+  "id": "t-nieuw-walnutje",
+  "name": "'t Nieuw Walnutje",
+  "m": 8
+ },
+ {
+  "osm": "node/1603868955",
+  "osmName": "Laissez-Faire",
+  "id": "laissez-faire",
+  "name": "Laissez-Faire",
+  "m": 6
+ },
+ {
+  "osm": "node/2101086342",
+  "osmName": "Cafe au Lait",
+  "id": "cafe-au-lait",
+  "name": "Café au Lait",
+  "m": 17
+ },
+ {
+  "osm": "node/2506781114",
+  "osmName": "Bruut",
+  "id": "bruut",
+  "name": "Bruut",
+  "m": 6
+ },
+ {
+  "osm": "node/3093906388",
+  "osmName": "Cambrinus",
+  "id": "cafe-cambrinus",
+  "name": "Café Cambrinus",
+  "m": 62
+ },
+ {
+  "osm": "node/3528972849",
+  "osmName": "Rose Red",
+  "id": "rose-red",
+  "name": "Bar Rose Red",
+  "m": 8
+ },
+ {
+  "osm": "node/3655762984",
+  "osmName": "Floris",
+  "id": "floris",
+  "name": "Floris",
+  "m": 16
+ },
+ {
+  "osm": "node/3786122825",
+  "osmName": "Yarn",
+  "id": "yarn",
+  "name": "Yarn",
+  "m": 8
+ },
+ {
+  "osm": "node/4194392771",
+  "osmName": "Nomad",
+  "id": "nomad",
+  "name": "Nomad",
+  "m": 12
+ },
+ {
+  "osm": "node/4350177292",
+  "osmName": "L'Estaminet",
+  "id": "lestaminet",
+  "name": "L'Estaminet",
+  "m": 6
+ },
+ {
+  "osm": "node/4520564054",
+  "osmName": "Bistro Jul",
+  "id": "bistro-jul",
+  "name": "Bistro Jul",
+  "m": 1
+ },
+ {
+  "osm": "node/4555593249",
+  "osmName": "Zet'joe",
+  "id": "zet-joe",
+  "name": "Zet'Joe by Geert Van Hecke",
+  "m": 8
+ },
+ {
+  "osm": "node/4555626480",
+  "osmName": "Rock-Fort",
+  "id": "rock-fort",
+  "name": "Rock-Fort (Bar Law by Rock-Fort)",
+  "m": 2
+ },
+ {
+  "osm": "node/4601492489",
+  "osmName": "Sanseveria",
+  "id": "sanseveria",
+  "name": "Sanseveria Bagelsalon",
+  "m": 18
+ },
+ {
+  "osm": "node/5123699821",
+  "osmName": "Carpe Diem",
+  "id": "carpe-diem",
+  "name": "Bakkerij Detavernier & Carpe Diem",
+  "m": 8
+ },
+ {
+  "osm": "node/5301009405",
+  "osmName": "Bonte B.",
+  "id": "bonte-b",
+  "name": "Bonte B",
+  "m": 6
+ },
+ {
+  "osm": "node/5445275262",
+  "osmName": "Goesepitte 43",
+  "id": "goesepitte-43",
+  "name": "Goesepitte 43",
+  "m": 6
+ },
+ {
+  "osm": "node/5464823927",
+  "osmName": "Den Gouden Karpel",
+  "id": "den-gouden-karpel",
+  "name": "Den Gouden Karpel",
+  "m": 41
+ },
+ {
+  "osm": "node/5592516518",
+  "osmName": "Bie Jimmy",
+  "id": "bie-jimmy",
+  "name": "Bie Jimmy",
+  "m": 2
+ },
+ {
+  "osm": "node/5920416789",
+  "osmName": "Patrick Devos",
+  "id": "patrick-devos",
+  "name": "Patrick Devos",
+  "m": 5
+ },
+ {
+  "osm": "node/6068509348",
+  "osmName": "Joey's Café",
+  "id": "joeys",
+  "name": "Joey's Café",
+  "m": 7
+ },
+ {
+  "osm": "node/6188832285",
+  "osmName": "Cafe Cambrinus",
+  "id": "cafe-cambrinus",
+  "name": "Café Cambrinus",
+  "m": 11
+ },
+ {
+  "osm": "node/6581146585",
+  "osmName": "Réliva",
+  "id": "reliva",
+  "name": "Réliva",
+  "m": 9
+ },
+ {
+  "osm": "node/6818170856",
+  "osmName": "Blackbird",
+  "id": "blackbird",
+  "name": "Blackbird Coffee Club",
+  "m": 14
+ },
+ {
+  "osm": "node/7845606781",
+  "osmName": "Ober",
+  "id": "ober",
+  "name": "Ober",
+  "m": 10
+ },
+ {
+  "osm": "node/8926746845",
+  "osmName": "Zuid 55",
+  "id": "zuid55",
+  "name": "Zuid55",
+  "m": 14
+ },
+ {
+  "osm": "node/9003407097",
+  "osmName": "de Mangerie",
+  "id": "de-mangerie",
+  "name": "De Mangerie",
+  "m": 14
+ },
+ {
+  "osm": "node/9044161931",
+  "osmName": "Cantine Copine",
+  "id": "cantine-copine",
+  "name": "Cantine Copine",
+  "m": 24
+ },
+ {
+  "osm": "node/9193809929",
+  "osmName": "'t Hof Van Beroep",
+  "id": "t-hof-van-beroep",
+  "name": "'t Hof van Beroep",
+  "m": 6
+ },
+ {
+  "osm": "node/9848556559",
+  "osmName": "Kaffee Kamiel",
+  "id": "kaffee-kamiel",
+  "name": "Kaffee Kamiel",
+  "m": 0
+ },
+ {
+  "osm": "node/10078330469",
+  "osmName": "De stove",
+  "id": "de-stove",
+  "name": "De Stove",
+  "m": 6
+ },
+ {
+  "osm": "node/10078330473",
+  "osmName": "Bar'n",
+  "id": "barn",
+  "name": "Bar'n",
+  "m": 2
+ },
+ {
+  "osm": "node/10090281820",
+  "osmName": "Den Heerd",
+  "id": "den-heerd",
+  "name": "Den Heerd",
+  "m": 85
+ },
+ {
+  "osm": "node/10916570066",
+  "osmName": "Groot Vlaenderen",
+  "id": "groot-vlaenderen",
+  "name": "Groot Vlaenderen",
+  "m": 0
+ },
+ {
+  "osm": "node/11179498618",
+  "osmName": "Patisserie Van Mullem",
+  "id": "van-mullem",
+  "name": "Patisserie Van Mullem",
+  "m": 0
+ },
+ {
+  "osm": "node/11212349280",
+  "osmName": "'t Brugs Beertje",
+  "id": "t-brugs-beertje",
+  "name": "'t Brugs Beertje",
+  "m": 8
+ },
+ {
+  "osm": "node/11534576266",
+  "osmName": "Stera - Plantenbar",
+  "id": "stera",
+  "name": "Stera",
+  "m": 1
+ },
+ {
+  "osm": "node/11954392331",
+  "osmName": "The Novel",
+  "id": "the-novel",
+  "name": "The Novel",
+  "m": 2
+ },
+ {
+  "osm": "node/12127218573",
+  "osmName": "Goffin",
+  "id": "goffin",
+  "name": "Goffin",
+  "m": 8
+ },
+ {
+  "osm": "node/12193091776",
+  "osmName": "Coffeebar Adriaan",
+  "id": "coffeebar-adriaan",
+  "name": "Coffeebar Adriaan",
+  "m": 0
+ },
+ {
+  "osm": "node/12265889938",
+  "osmName": "Más",
+  "id": "mas",
+  "name": "Más",
+  "m": 0
+ },
+ {
+  "osm": "node/12314361834",
+  "osmName": "/",
+  "id": "goesepitte-43",
+  "name": "Goesepitte 43",
+  "m": 50
+ },
+ {
+  "osm": "node/13014042214",
+  "osmName": "Bar Bulles",
+  "id": "bar-bulles",
+  "name": "Bar Bulles (Le Foulage)",
+  "m": 8
+ },
+ {
+  "osm": "node/13061293301",
+  "osmName": "Avi'38",
+  "id": "avi38",
+  "name": "AVI'38",
+  "m": 5
+ },
+ {
+  "osm": "node/13513422628",
+  "osmName": "Biscuit",
+  "id": "biscuit",
+  "name": "Biscuit",
+  "m": 6
+ },
+ {
+  "osm": "node/13513943276",
+  "osmName": "Tou.Gou",
+  "id": "tou-gou",
+  "name": "Tou.Gou",
+  "m": 8
+ },
+ {
+  "osm": "node/13672102909",
+  "osmName": "Estaminet in 't Molenhuis",
+  "id": "t-molenhuis",
+  "name": "'t Molenhuis",
+  "m": 4
+ },
+ {
+  "osm": "node/14189266601",
+  "osmName": "Postbar",
+  "id": "postbar",
+  "name": "Postbar",
+  "m": 0
+ },
+ {
+  "osm": "way/100669876",
+  "osmName": "Refter",
+  "id": "refter",
+  "name": "Refter",
+  "m": 12
+ },
+ {
+  "osm": "way/114994147",
+  "osmName": "Preus",
+  "id": "preus",
+  "name": "Preus",
+  "m": 2
+ },
+ {
+  "osm": "way/143533340",
+  "osmName": "De Garre",
+  "id": "de-garre",
+  "name": "De Garre",
+  "m": 1
+ },
+ {
+  "osm": "way/143819510",
+  "osmName": "Delaney's Irish Pub",
+  "id": "delaneys",
+  "name": "Delaney's Irish Pub",
+  "m": 2
+ },
+ {
+  "osm": "way/152546813",
+  "osmName": "De Jonkman",
+  "id": "de-jonkman",
+  "name": "De Jonkman",
+  "m": 11
+ },
+ {
+  "osm": "way/158682620",
+  "osmName": "Quatre Mains",
+  "id": "quatre-vins",
+  "name": "Quatre Vins",
+  "m": 14
+ },
+ {
+  "osm": "way/165757483",
+  "osmName": "De Verloren Hoek",
+  "id": "de-verloren-hoek",
+  "name": "De Verloren Hoek",
+  "m": 2
+ },
+ {
+  "osm": "way/258042923",
+  "osmName": "Café Vlissinghe",
+  "id": "cafe-vlissinghe",
+  "name": "Café Vlissinghe",
+  "m": 2
+ },
+ {
+  "osm": "way/317126966",
+  "osmName": "Zevensterre",
+  "id": "zevensterre",
+  "name": "Zevensterre",
+  "m": 27
+ },
+ {
+  "osm": "way/516184844",
+  "osmName": "L'Estaminet",
+  "id": "lestaminet",
+  "name": "L'Estaminet",
+  "m": 2
+ },
+ {
+  "osm": "way/519081916",
+  "osmName": "De Kelk",
+  "id": "de-kelk",
+  "name": "De Kelk",
+  "m": 7
+ },
+ {
+  "osm": "way/698783179",
+  "osmName": "Bistro Rombaux",
+  "id": "bistro-rombaux",
+  "name": "Bistro Rombaux",
+  "m": 6
+ }
+]

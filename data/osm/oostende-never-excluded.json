@@ -1,0 +1,30 @@
+{
+ "friterie": [
+  "'t Friethof",
+  "'t Hazegras",
+  "Frietshop Oostende",
+  "Frituur 't Hoeksje",
+  "Frituur Franky",
+  "Frituur Gerda",
+  "Frituur Kenny",
+  "Frituur Marleen",
+  "Frituur Opex",
+  "Frituur Sophie",
+  "Oli's Frituur"
+ ],
+ "student": [],
+ "pizza": [
+  "Ensorito",
+  "Pizzeria Margarita",
+  "Pizzeria Zia Maria",
+  "Ristorante - Pizzeria Momento",
+  "Ristorante Pizzeria Mario"
+ ],
+ "kebab": [
+  "Cappadocie",
+  "My Kebab",
+  "Pita Baba",
+  "Pitta Izmir"
+ ],
+ "duplicate": []
+}

@@ -4,7 +4,7 @@ For every active city (data/cities.json) on desktop 1440 and phone 390:
   - every loaded place (TGApp.R, i.e. list, map, quiz, cards, cuisine, search, chips) has an id of this city's own data files only
     and coordinates inside this city's box; every map marker (TGApp.layer) too;
   - the visible page text (outside the Country/City switcher), the title, meta description and og tags never name another city
-    (word match: Gent/Ghent vs Antwerpen/Antwerp …); also with the quiz, Suggest form and By cuisine opened;
+    (word match on every name of every other active city: Gent/Ghent, Antwerpen/Antwerp, Brugge/Bruges, Ostend/Oostende, Brussels/Brussel/Bruxelles); also with the quiz, Suggest form and By cuisine opened;
   - the Suggest form's city defaults to the current city; switching city via the switcher gives the other city only;
   - a detail page of this city never names another city; another city's place id under this city = "Not found".
 Requests to the visit counter / forms are mocked. Usage: python3 scripts/test_city_isolation.py [--shots DIR]   (needs a server on :8765)"""
@@ -24,8 +24,8 @@ def ids_of(c):
         out |= {r['id'] for r in d.get('restaurants', []) + d.get('places', []) + d.get('upcoming', []) if r.get('id')}
     return out
 IDS = {c['id']: ids_of(c) for c in CITIES}
-BOX = {c['id']: (c['center'][0] - .12, c['center'][0] + .12, c['center'][1] - .2, c['center'][1] + .2) for c in CITIES}
-NAMES = {c['id']: [n for n in {c['name'], c.get('nameEn')} if n] for c in CITIES}
+BOX = {c['id']: (c['center'][0] - .16, c['center'][0] + .16, c['center'][1] - .2, c['center'][1] + .2) for c in CITIES}   # ±.16 lat: Zeebrugge (Brugge) is ~.13 north of the centre
+NAMES = {c['id']: [n for n in {c['name'], c.get('nameEn'), c.get('nameNl'), c.get('nameFr')} if n] for c in CITIES}   # e.g. Brussels / Brussel / Bruxelles
 res = {}
 def ok(k, v, info=''):
     res[k] = bool(v); print(('PASS ' if v else 'FAIL ') + k, str(info)[:300])

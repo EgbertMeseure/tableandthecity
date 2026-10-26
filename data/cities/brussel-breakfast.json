@@ -1,0 +1,102 @@
+{
+ "about": "Breakfast / brunch per place from the research handoff (own site, menu, press). Only sourced values; never guessed.",
+ "handoff": "/workspace/handoff/brussel/brussel-breakfast-brunch.json",
+ "places": {
+  "bisous": {
+   "breakfast": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/bisous"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/bisous"
+   }
+  },
+  "creme": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.brusselstimes.com/640067/best-in-town-where-to-go-for-brunch-in-brussels"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.brusselstimes.com/640067/best-in-town-where-to-go-for-brunch-in-brussels"
+   }
+  },
+  "damn-good-cafe": {
+   "breakfast": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/damn-good-cafe"
+   }
+  },
+  "frank": {
+   "breakfast": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/frank"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/frank"
+   }
+  },
+  "kosto": {
+   "breakfast": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/kosto"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/kosto"
+   }
+  },
+  "koul": {
+   "breakfast": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/koul"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/koul"
+   }
+  },
+  "le-dillens": {
+   "breakfast": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/le-dillens"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/le-dillens"
+   }
+  },
+  "pinotte": {
+   "breakfast": {
+    "value": false,
+    "source": "https://lefooding.com/restaurants/pinotte"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/pinotte"
+   }
+  },
+  "seven": {
+   "breakfast": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/seven-3"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://lefooding.com/restaurants/seven-3"
+   }
+  },
+  "the-wild-lab": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.brusselstimes.com/640067/best-in-town-where-to-go-for-brunch-in-brussels"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.brusselstimes.com/640067/best-in-town-where-to-go-for-brunch-in-brussels"
+   }
+  }
+ }
+}

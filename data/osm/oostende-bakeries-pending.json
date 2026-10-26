@@ -1,0 +1,4 @@
+{
+ "about": "OSM bakeries with a confirmed vegan/veggie level or breakfast that the import dropped because no source confirms they are artisan. Add a sourced entry to data/bakeries-artisan.json (keep) or via scripts/merge_bakeries.py to show them.",
+ "places": {}
+}
