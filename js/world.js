@@ -1,14 +1,14 @@
-/* Table and the City – landing page (world.html).
-   Globe (three.js, vendor/three) → country (Belgium) → city cards → full-screen city showcase → the city guide (index.html?country=&city=).
+/* Table and the City – landing page (index.html, the site root; world.html forwards here).
+   Globe (three.js, vendor/three) → country (Belgium) → city cards → the city guide (guide.html?country=&city=).
    Data: data/cities.json (names, active flags, centres, hero photos) + data/landing.json (globe dots, per-city tagline + showcase photos).
-   URL state in the hash so Back works and showcases can be shared: world.html#be (country) · world.html#be/gent (showcase). */
+   The country state lives in history.state (URL stays the bare /, no #hash), so Back still returns to the globe. */
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const BUILD = (document.querySelector('meta[name="build"]') || {}).content || '';
 const bust = u => BUILD ? u + (u.includes('?') ? '&' : '?') + 'v=' + BUILD : u;
 const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const LAST_KEY = 'tatc.lastCity';
-const guideUrl = (co, id, hash = '') => `index.html?country=${encodeURIComponent(co)}&city=${encodeURIComponent(id)}${hash}`;
+const guideUrl = (co, id, hash = '') => `guide.html?country=${encodeURIComponent(co)}&city=${encodeURIComponent(id)}${hash}`;
 
 const getJSON = u => fetch(bust(u), { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error(u + ' ' + r.status); return r.json(); });
 const [CFG, LAND] = await Promise.all([getJSON('data/cities.json'), getJSON('data/landing.json').catch(() => ({ countries: [], cities: {} }))]);
@@ -36,7 +36,7 @@ $('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.acti
 
 function renderCards(co) {
   $('#wl-panel-title').textContent = co.name;
-  $('#wl-cards').innerHTML = co.act.map(c => `<li><a class="wl-card" href="#${esc(co.id)}/${esc(c.id)}" data-city="${esc(c.id)}">
+  $('#wl-cards').innerHTML = co.act.map(c => `<li><a class="wl-card" href="${guideUrl(co.id, c.id)}" data-city="${esc(c.id)}">
     ${c.images && c.images.hero ? `<img ${heroSet(c.images.hero, '(max-width:760px) 100vw, 470px')}${focus(c)} alt="" loading="lazy" decoding="async">` : ''}
     <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span>${c.land.tagline ? `<span class="wl-card__tag">${esc(c.land.tagline)}</span>` : ''}</span>
     <span class="wl-card__go" aria-hidden="true">→</span></a></li>`).join('');
@@ -45,7 +45,7 @@ function renderCards(co) {
 let last = null; try { last = localStorage.getItem(LAST_KEY); } catch (e) {}
 { const [co, c] = cityById(last); if (c && c.active) { const a = $('#wl-resume'); a.href = guideUrl(co.id, c.id); $('#wl-resume-city').textContent = c.name; a.hidden = false; } }
 const remember = id => { try { localStorage.setItem(LAST_KEY, id); } catch (e) {} };
-document.addEventListener('click', e => { const a = e.target.closest('a[href^="index.html"]'); if (a) { const m = /[?&]city=([a-z-]+)/.exec(a.getAttribute('href')); if (m) remember(m[1]); } });
+document.addEventListener('click', e => { const a = e.target.closest('a[href^="guide.html"]'); if (a) { const m = /[?&]city=([a-z-]+)/.exec(a.getAttribute('href')); if (m) remember(m[1]); } });
 
 /* destinations dialog */
 const dest = $('#wl-dest'), listBtn = $('#wl-listbtn');
@@ -193,7 +193,7 @@ async function initGlobe() {
     if (co.active && co.act.length) addMarker('country', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)}<small>${co.act.length} cities</small></span>`, `${co.name}: ${co.act.length} cities`, () => go(`#${co.id}`));
     else addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · coming soon</span>`, `${co.name}, coming soon`, e => { e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
   });
-  ACTIVE.forEach(co => co.act.forEach(c => { const m = addMarker('city', c.center[0], c.center[1], `<span class="wl-mk__lbl">${esc(c.name)}</span>`, c.name, () => go(`#${co.id}/${c.id}`)); m.el.dataset.city = c.id; m.el.dataset.side = (LAND.cities[c.id] || {}).label || 'r'; m.el.tabIndex = -1; }));
+  ACTIVE.forEach(co => co.act.forEach(c => { const m = addMarker('city', c.center[0], c.center[1], `<span class="wl-mk__lbl">${esc(c.name)}</span>`, c.name, () => { remember(c.id); location.href = guideUrl(co.id, c.id); }); m.el.dataset.city = c.id; m.el.dataset.side = (LAND.cities[c.id] || {}).label || 'r'; m.el.tabIndex = -1; }));
   const v3 = new THREE.Vector3(), cam = new THREE.Vector3();
   function placeMarkers() {
     cam.copy(camera.position);
@@ -282,7 +282,7 @@ async function openShow(co, c) {
   const L = c.land || {}, imgs = L.images || [];
   const hero = c.images && c.images.hero;
   show.innerHTML = `
-    <div class="ws-bar"><a class="logo" href="world.html"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="170" height="36"></a>
+    <div class="ws-bar"><a class="logo" href="./"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="170" height="36"></a>
       <button class="ws-close" type="button" data-close><svg viewBox="0 0 46 12" aria-hidden="true"><path d="M46 6H1M6 1 1 6l5 5"/></svg>${esc(co.name)}</button></div>
     <section class="ws-hero">${hero ? `<img ${heroSet(hero)}${focus(c)} alt="${esc(L.heroCaption || c.name)}" fetchpriority="high">` : ''}
       <div class="ws-hero__txt"><p class="wl-eyebrow">${esc(co.name)}</p><h2 id="wl-show-title">${esc(c.name)}</h2>
@@ -321,12 +321,11 @@ function hideShow() {
 function closeShow() { const [co] = parse(); if (pushed > 0) { pushed--; history.back(); } else go(co ? `#${co.id}` : '', true); }
 
 /* ---------- router ---------- */
-let pushed = 0;
-function parse() { const [a, b] = location.hash.replace(/^#/, '').toLowerCase().split('/'); const co = ACTIVE.find(c => c.id === a) || null; const c = co && b ? co.act.find(x => x.id === b) : null; return [co, c]; }
-function go(hash, replace) { if (location.hash === hash || (!hash && !location.hash)) { apply(); return; }
-  if (replace) history.replaceState(null, '', hash || location.pathname + location.search); else { history.pushState(null, '', hash); pushed++; } apply(); }
-addEventListener('popstate', () => { if (pushed > 0) pushed--; apply(); });
-addEventListener('hashchange', apply);
+let pushed = 0, STATE = (history.state && history.state.wl) || '';   // '#be' = Belgium's city cards; kept in history.state, never in the URL
+function parse() { const [a] = STATE.replace(/^#/, '').toLowerCase().split('/'); const co = ACTIVE.find(c => c.id === a) || null; return [co, null]; }
+function go(hash, replace) { hash = hash || ''; if (STATE === hash) { apply(); return; } STATE = hash;
+  const u = location.pathname + location.search; if (replace) history.replaceState({ wl: hash }, '', u); else { history.pushState({ wl: hash }, '', u); pushed++; } apply(); }
+addEventListener('popstate', e => { if (pushed > 0) pushed--; STATE = (e.state && e.state.wl) || ''; apply(); });
 function apply() {
   const [co, c] = parse();
   if (co) { renderCardsOnce(co); document.body.classList.add('is-country'); $('#wl-panel').hidden = false; G && G.toCountry(co); }
@@ -340,7 +339,6 @@ function renderCardsOnce(co) { if (cardsFor === co.id) return; cardsFor = co.id;
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-country]'); if (b) { e.preventDefault(); go('#' + b.dataset.country); return; }
   if (e.target.closest('[data-globe]')) { e.preventDefault(); go('', false); return; }
-  const card = e.target.closest('.wl-card'); if (card) { e.preventDefault(); go(card.getAttribute('href')); }
 });
 /* hovering a card lights its dot on the globe (and the other way round) */
 const hot = (id, on) => document.querySelectorAll(`[data-city="${id}"]`).forEach(el => el.classList.toggle('is-hot', on));

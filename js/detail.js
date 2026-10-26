@@ -9,11 +9,11 @@
   const id = new URLSearchParams(location.search).get('id');
   const r = R.find(x => x.id === id);
   const $ = s => document.querySelector(s);
-  $('#back').href = cityUrl('index.html', city.id, '#explore');
+  $('#back').href = cityUrl('guide.html', city.id, '#explore');
   if (!r) {
     TG.renderFooter(cfg, city);
     $('#hname').textContent = 'Not found';
-    $('#left').innerHTML = `<p>This restaurant is not in the ${esc(city.name)} list (it may have closed or moved). <a href="${cityUrl('index.html', city.id)}">Back to the overview</a>.</p>`;
+    $('#left').innerHTML = `<p>This restaurant is not in the ${esc(city.name)} list (it may have closed or moved). <a href="${cityUrl('guide.html', city.id)}">Back to the overview</a>.</p>`;
     return;
   }
   const long = { day: 'numeric', month: 'long', year: 'numeric' };

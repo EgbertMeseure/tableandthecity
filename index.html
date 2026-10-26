@@ -1,20 +1,21 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="wl-boot">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="9fce0d7008">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<script>/* landing: the bare site root (no ?country=/?city= or other params, no #section) opens the globe (world.html); every guide link keeps working as before */
-if(!location.search&&location.hash.length<2)location.replace("world.html");</script>
-<title>Table and the City</title>
-<meta name="description" content="Table and the City: a curated, filterable guide to the city's best tables — restaurants, bistros, cafés, coffee, bakeries, new openings and vegetarian &amp; vegan options.">
-<link rel="canonical" href="https://www.tableandthecity.com/?city=gent">
+<meta name="build" content="0595af583a">
+<script>/* the site root is the globe landing; any old guide link (index.html?city=… / ?country=… / #explore …) forwards to guide.html with the same query + hash before anything renders */
+if(location.search||(location.hash.length>1&&!/^#(be(\/|$)|wl-)/i.test(location.hash)))location.replace("guide.html"+location.search+location.hash);
+else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathname);</script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Table and the City — choose your city</title>
+<meta name="description" content="Table and the City: curated guides to the finest tables, city by city. Spin the globe, pick a country and a city, and find restaurants, cafés, coffee and bakeries.">
+<link rel="canonical" href="https://www.tableandthecity.com/">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" href="img/brand/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/brand/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="icon" href="img/brand/favicon-16.png" type="image/png" sizes="16x16">
 <link rel="apple-touch-icon" href="img/brand/apple-touch-icon-180.png" sizes="180x180">
-<meta name="theme-color" content="#0b0b0b">
+<meta name="theme-color" content="#050607">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Table and the City">
 <meta property="og:title" content="Table and the City">
@@ -26,129 +27,71 @@ if(!location.search&&location.hash.length<2)location.replace("world.html");</scr
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Table and the City logo">
 <meta name="twitter:card" content="summary_large_image">
-<script>/* static hero = default city (Gent); another ?city= gets its own hero from data/cities.json (js/app.js), so don't preload or show Gent's */
-(function(){var c=(new URLSearchParams(location.search).get('city')||'').toLowerCase();document.documentElement.setAttribute('data-city',c||'gent');
-if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='image';l.href='img/cities/gent/hero-gravensteen-1600.webp';l.setAttribute('imagesrcset','img/cities/gent/hero-gravensteen-1000.webp 1000w, img/cities/gent/hero-gravensteen-1600.webp 1600w, img/cities/gent/hero-gravensteen-2400.webp 2400w');l.setAttribute('imagesizes','100vw');document.head.appendChild(l);}})();</script>
+<link rel="modulepreload" href="vendor/three/three.custom.min.js">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
-<link rel="stylesheet" href="css/brand.css?v=9fce0d7008">
-<link rel="stylesheet" href="css/style.css?v=9fce0d7008">
+<link rel="stylesheet" href="css/brand.css?v=0595af583a">
+<link rel="stylesheet" href="css/world.css?v=0595af583a">
 </head>
-<body>
-<header class="hero grain" id="top">
-  <img class="hero__img bw" src="img/cities/gent/hero-gravensteen-1600.jpg" srcset="img/cities/gent/hero-gravensteen-1000.webp 1000w, img/cities/gent/hero-gravensteen-1600.webp 1600w, img/cities/gent/hero-gravensteen-2400.webp 2400w" sizes="100vw" alt="" fetchpriority="high">
-  <div class="topbar">
-    <a class="logo" data-home href="index.html"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City – home" width="190" height="40"></a>
-    <div class="topbar__right">
-      <div class="citysel" data-citysel></div>
-      <label class="pill-search" aria-label="Search">
-        <input id="q-hero" type="search" placeholder="Search restaurant, chef, cuisine, event…" autocomplete="off">
-        <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
-      </label>
-      <button class="menu-btn" data-open-nav aria-label="Menu"><svg viewBox="0 0 30 22"><path d="M8 21 15 1M15 21 22 1M22 21 29 1"/></svg></button>
-    </div>
+<body class="wl">
+<a class="wl-skip" href="#wl-dest">Skip to the list of cities</a>
+<div class="wl-stage" id="wl-stage" aria-hidden="true">
+  <canvas id="wl-globe"></canvas>
+  <div class="wl-stars"></div>
+</div>
+<div class="wl-markers" id="wl-markers"></div>
+
+<header class="wl-top">
+  <a class="logo" href="./"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="190" height="40"></a>
+  <div class="wl-top__right">
+    <a class="wl-resume" id="wl-resume" hidden href="#"><span class="wl-resume__k">Continue</span> <span id="wl-resume-city"></span> <span aria-hidden="true">→</span></a>
+    <button class="wl-listbtn" type="button" id="wl-listbtn" aria-controls="wl-dest" aria-expanded="false">All destinations</button>
   </div>
-  <div class="hero__body">
-    <blockquote class="quote">“One cannot think well, love well, sleep well, if one has not dined well.”<cite>Virginia Woolf, <i>A Room of One’s Own</i></cite></blockquote>
-    <div class="hero__cta">
-      <h1>Taste the city<br>at its finest tables</h1>
-      <div class="hero__btns"><a class="pill-btn" href="#explore">Explore</a><button class="pill-btn pill-btn--quiz" type="button" data-quiz-open aria-haspopup="dialog" aria-describedby="quiz-hint"><svg class="pill-btn__ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.9 5.6L19.5 10l-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.4z"/><path d="M19 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>Find my table<span class="pill-btn__arr" aria-hidden="true">→</span></button></div>
-      <p class="hero__hint" id="quiz-hint">Answer a few quick questions and we’ll suggest places that fit.</p>
-    </div>
-  </div>
-  <a class="scrollcue" href="#categories" aria-label="Scroll to categories"><span>Scroll</span><i></i></a>
-  <div class="hero__labels up"><span id="lbl-count">Restaurants</span><span id="lbl-veg">Veggie &amp; vegan</span><span id="lbl-ev">Events &amp; collaborations</span></div>
 </header>
 
-<nav class="navdrawer" id="nav" aria-hidden="true">
-  <button class="close up" data-close-nav>Close</button>
-  <a href="#categories" data-close-nav>Categories</a>
-  <a href="#explore" data-close-nav>Map &amp; list</a>
-  <a href="#events" data-close-nav>Events</a>
-  <a href="#about" data-close-nav>About the data</a>
-  <a href="#suggest" class="nav-suggest" data-suggest data-close-nav>Suggest a place</a>
-  <a href="world.html">All destinations</a>
-  <span class="family">Part of the … and the City family</span>
-</nav>
-
-<section class="section" id="categories">
-  <div class="section__head">
-    <button class="arrow" type="button" data-car-prev="carousel" aria-controls="carousel" aria-label="Previous categories"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
-    <h2>Choose your table</h2>
-    <button class="arrow" type="button" data-car-next="carousel" aria-controls="carousel" aria-label="Next categories"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></button>
-  </div>
-  <div class="carousel" id="carousel" tabindex="0" role="region" aria-label="Categories (scroll horizontally)"></div>
+<section class="wl-intro" id="wl-intro">
+  <p class="wl-eyebrow">A curated guide, city by city</p>
+  <h1>Where shall we<br><i>dine tonight?</i></h1>
+  <p class="wl-lede">We start in Belgium and grow, city by city, to every great food city in the world.</p>
+  <button class="wl-cta" type="button" data-country="be"><span class="wl-cta__dot" aria-hidden="true"></span>Explore Belgium<span aria-hidden="true">→</span></button>
+  <p class="wl-hint" id="wl-hint">Drag to spin the globe · tap the gold light</p>
 </section>
 
-<section class="section" id="explore">
-  <div class="section__head">
-    <span class="rule" aria-hidden="true"></span>
-    <h2 id="explore-title">All addresses</h2>
-    <span class="rule" aria-hidden="true"></span>
+<aside class="wl-panel" id="wl-panel" aria-labelledby="wl-panel-title" hidden>
+  <div class="wl-panel__grab" aria-hidden="true"></div>
+  <div class="wl-panel__head">
+    <button class="wl-back" type="button" data-globe aria-label="Back to the globe"><svg viewBox="0 0 46 12" aria-hidden="true"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
+    <div><p class="wl-eyebrow" id="wl-panel-kicker">Choose your city</p><h2 id="wl-panel-title">Belgium</h2></div>
   </div>
-  <div class="notice" id="city-notice" hidden></div>
-  <div class="finder">
-    <label class="bigsearch" aria-label="Search restaurants">
-      <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
-      <input id="q" type="search" placeholder="Search a restaurant, chef, dish or cuisine" autocomplete="off">
-    </label>
-    <div class="finder__row">
-      <div class="chips" role="group" aria-label="Quick filters">
-        <button class="chip" id="btn-loc" aria-pressed="false">Near me</button>
-        <button class="chip chip--open" data-toggle="open" aria-pressed="false" title="Only places open right now (Brussels time, from known opening hours)">Open now</button>
-        <button class="chip" data-toggle="new" aria-pressed="false">New</button>
-        <button class="chip" data-toggle="events" aria-pressed="false">Events</button>
-      </div>
-      <div class="finder__right">
-        <button class="linkbtn" id="reset" hidden>Reset</button>
-        <span class="count" id="count"></span>
-      </div>
+  <ul class="wl-cards" id="wl-cards"></ul>
+  <p class="wl-panel__foot">More countries are on their way.</p>
+</aside>
+
+<nav class="wl-dest" id="wl-dest" aria-label="All destinations" tabindex="-1">
+  <div class="wl-dest__in">
+    <button class="wl-dest__close" type="button" id="wl-dest-close">Close</button>
+    <a class="logo wl-dest__logo" href="./"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="190" height="40"></a>
+    <h2>All destinations</h2>
+    <div id="wl-dest-list">
+      <!-- static fallback (no JS / no WebGL); world.js rebuilds it from data/cities.json -->
+      <h3>Belgium</h3>
+      <ul><li><a href="guide.html?country=be&amp;city=gent">Gent</a></li><li><a href="guide.html?country=be&amp;city=antwerpen">Antwerpen</a></li><li><a href="guide.html?country=be&amp;city=brugge">Brugge</a></li><li><a href="guide.html?country=be&amp;city=oostende">Ostend</a></li><li><a href="guide.html?country=be&amp;city=brussel">Brussels</a></li></ul>
     </div>
   </div>
-  <div class="explorer">
-    <div class="mapwrap"><div id="map" role="region" aria-label="Map"></div><div class="maphint" id="maphint">Click the map to sort by distance</div></div>
-    <div class="list" id="list" aria-live="polite"></div>
-    <div class="list-more"><button class="pill-btn dark" id="list-more" hidden>Show more</button><p class="suggest-line">Missing a place? <a href="#suggest" data-suggest>Suggest it</a></p></div>
-  </div>
-</section>
+</nav>
 
-<section class="section events on-dark grain" id="events">
-  <div class="section__head">
-    <button class="arrow" type="button" data-car-prev="evlist" aria-controls="evlist" aria-label="Previous events"><svg viewBox="0 0 46 12"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
-    <h2>Events &amp; collaborations</h2>
-    <button class="arrow" type="button" data-car-next="evlist" aria-controls="evlist" aria-label="Next events"><svg viewBox="0 0 46 12"><path d="M0 6h45M40 1l5 5-5 5"/></svg></button>
+<div class="wl-show" id="wl-show" role="dialog" aria-modal="true" aria-labelledby="wl-show-title" hidden tabindex="-1"></div>
+<p class="wl-credit" id="wl-credit">Globe: NASA Earth Observatory, Black Marble &amp; Blue Marble (public domain) · <a href="img/CREDITS.json" data-credits>Photo credits</a></p>
+<div class="wl-dest wl-creds" id="wl-creds" role="dialog" aria-modal="true" aria-labelledby="wl-creds-title" tabindex="-1">
+  <div class="wl-dest__in">
+    <button class="wl-dest__close" type="button" data-creds-close>Close</button>
+    <h2 id="wl-creds-title">Photo credits</h2>
+    <div id="wl-creds-list"><p>Loading…</p></div>
+    <p class="wl-creds__all"><a href="img/CREDITS.json">All credits &amp; licences (JSON)</a></p>
   </div>
-  <div class="evbar"><div class="chips" id="ev-chips" role="group" aria-label="Event type"></div><span class="count" id="ev-count"></span></div>
-  <div class="evlist carousel-x" id="evlist" tabindex="0" role="region" aria-label="Upcoming events (scroll horizontally)"></div>
-  <p class="ev-ask">Know an event? <a href="#tell-event" data-event-req>Tell us</a></p>
-</section>
+</div>
 
-<section class="about" id="about">
-  <div>
-    <h3>About the data</h3>
-    <p id="about-text"><span id="about-city">Gent</span> is the first city in the guide. The selection is based on the <a href="https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurants" target="_blank" rel="noopener">MICHELIN Guide 2026</a>, <a href="https://www.gaultmillau.be/nl/restaurants?q=gent" target="_blank" rel="noopener">Gault&amp;Millau 2026</a>, the restaurants’ own websites and local press (HLN, Nieuwsblad, Made in). Nothing is invented: anything we could not verify is shown as <em>unknown</em>. Price level (€–€€€€) comes only from the Michelin Guide; “from €” is the lowest menu/lunch price found in a source. Sources are mostly in Dutch; menu notes are translated faithfully, guide descriptions are shown in the original Dutch.</p>
-    <p>Coordinates: <a href="https://nominatim.openstreetmap.org/" target="_blank" rel="noopener">Nominatim / OpenStreetMap</a>. Map © OpenStreetMap contributors (greyscale on the home page, colour on the detail page). Mood images: <a href="img/CREDITS.json">Unsplash (Unsplash License)</a><span id="hero-credit"></span> – they are not photos of the restaurants themselves.</p>
-  </div>
-  <div>
-    <h3>Latest changes</h3>
-    <ul class="changelog" id="changelog"></ul>
-  </div>
-</section>
-<footer class="site-footer" data-footer></footer>
-
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
-<script src="js/config.js?v=9fce0d7008"></script>
-<script src="js/forms.js?v=9fce0d7008"></script>
-<script src="js/hours.js?v=9fce0d7008"></script>
-<script src="js/common.js?v=9fce0d7008"></script>
-<script src="js/app.js?v=9fce0d7008"></script>
-<script src="js/quiz.js?v=9fce0d7008"></script>
-<script src="js/suggest.js?v=9fce0d7008"></script>
-<script src="js/eventreq.js?v=9fce0d7008"></script>
-<script src="js/visits.js?v=9fce0d7008"></script>
-<script src="js/cityreq.js?v=9fce0d7008"></script>
+<script type="module" src="js/world.js?v=0595af583a"></script>
+<script nomodule>document.documentElement.className+=' no-webgl';</script>
 </body>
 </html>

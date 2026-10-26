@@ -373,9 +373,9 @@ const TG = (() => {
   };
   /* two pills: Country ▾  City ▾ (city list filtered by the chosen country) */
   function renderCitySel(cfg, city) {
-    CUR = city; try { localStorage.setItem('tatc.lastCity', city.id); } catch (e) {}   // the landing (world.html) offers 'Continue to <city>'
+    CUR = city; try { localStorage.setItem('tatc.lastCity', city.id); } catch (e) {}   // the landing (index.html, site root) offers 'Continue to <city>'
     const cityItems = co => co.cities.map(c => c.active
-      ? `<li role="option" aria-current="${c.id === city.id}"><a class="ci" href="${cityUrl('index.html', c.id)}">${esc(c.name)}<em>${c.id === city.id ? '●' : ''}</em></a></li>`
+      ? `<li role="option" aria-current="${c.id === city.id}"><a class="ci" href="${cityUrl('guide.html', c.id)}">${esc(c.name)}<em>${c.id === city.id ? '●' : ''}</em></a></li>`
       : `<li role="option" aria-disabled="true"><span class="ci soon">${esc(c.name)}<em>soon</em></span></li>`).join('');
     document.querySelectorAll('[data-citysel]').forEach(el => {
       el.classList.add('placesel');
@@ -384,7 +384,7 @@ const TG = (() => {
           <ul role="listbox">${cfg.countries.map(co => co.active
             ? `<li role="option" aria-current="${co.id === city.countryId}"><button type="button" class="ci" data-country="${esc(co.id)}">${esc(co.name)}<em>${co.id === city.countryId ? '●' : ''}</em></button></li>`
             : `<li role="option"><button type="button" class="ci soon" data-soon="${esc(co.name)}" aria-label="${esc(co.name)}, coming soon">${esc(co.name)}<em>soon</em></button></li>`).join('')}
-            <li class="soon-msg" hidden></li><li class="world"><a class="ci" href="world.html">All destinations · globe<em>↗</em></a></li></ul></div>
+            <li class="soon-msg" hidden></li><li class="world"><a class="ci" href="./">All destinations · globe<em>↗</em></a></li></ul></div>
         <div class="citysel" data-dd="city"><button type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Choose city">${esc(city.name)}</button>
           <ul role="listbox"><li class="grp">${esc(city.country)}</li>${cityItems(cfg.countries.find(c => c.id === city.countryId))}</ul></div>`;
       el.querySelectorAll('.citysel').forEach(dd => {
@@ -402,7 +402,7 @@ const TG = (() => {
       }));
     });
     document.addEventListener('click', () => document.querySelectorAll('.citysel.open').forEach(d => { d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded', 'false'); }));
-    document.querySelectorAll('[data-home]').forEach(a => a.href = cityUrl('index.html', city.id) + (a.dataset.home || ''));
+    document.querySelectorAll('[data-home]').forEach(a => a.href = cityUrl('guide.html', city.id) + (a.dataset.home || ''));
   }
   /* cuisine groups for the quiz's 'What kind of food?' step and the 'By cuisine' card. `t` is tested on each cuisine tag
      (OSM + curated), `x` (optional) on the curated free-text cuisine line (curated tags are coarse, e.g. Thai → 'Asian').
@@ -442,7 +442,7 @@ const TG = (() => {
   function renderFooter(cfg, city, extra = '') {
     const fam = cfg.brand.family.map(f => `<a href="https://${esc(f.domain)}" rel="noopener" title="${esc(f.domain)} – ${esc(f.status)}"><span class="wordmark"><span class="wm-main">${esc(f.name.split(' ')[0])}</span><span class="wm-sub">and the City</span></span></a> <span style="opacity:.6">(${esc(f.status)})</span>`).join(' · ');
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
-      <a class="logo logo--foot" href="${cityUrl('index.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
+      <a class="logo logo--foot" href="${cityUrl('guide.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
       <div class="family">Part of the <i style="font-family:var(--serif-it);text-transform:none;font-size:15px;letter-spacing:.02em">… and the City</i> family<br>${fam}</div>
       <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="#top">Back to top ↑</a></div>
       <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span><span>Ratings: Google</span><span class="visits" data-visits hidden></span></div>`);
