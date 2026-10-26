@@ -297,12 +297,36 @@
     "osm-t-felt-n14072558901": "only photos with people found (chef)",
     "osm-pureto-n12585303235": "only photos with people found (cook)",
     "gillis": "only photos with people found (chefs, hands)",
-    "fine-n-fast": "only photos with people found (chef, hands)"
+    "fine-n-fast": "only photos with people found (chef, hands)",
+    "de-maecht-van-ghent": "no people-free photo found: own Instagram / site only show people, posters or text overlays",
+    "charlatan": "no people-free photo found: website only has event posters",
+    "de-viking": "no people-free photo found: no Instagram, website unreachable",
+    "kinky-star": "no people-free photo found: only concert photos with people, posters, logos",
+    "porter-house": "no people-free photo found: party photos with people, posters",
+    "tam-tam": "no people-free photo found: only text graphics and a crowd clip",
+    "decadance": "no people-free photo found: DJ portraits, posters and crowds only",
+    "t-kofschip": "no people-free photo found: party / crowd photos and promo graphics only",
+    "wunderbar": "no people-free photo found: people, DJ and event posters only",
+    "klub-xiii": "no people-free photo found: party photos and line-up graphics only",
+    "cafe-albatros": "no people-free photo found: people, text reels, street scenes with passers-by",
+    "cafe-den-turk": "no people-free photo found: staff photos and graphics only",
+    "afsnis": "no people-free photo found: only a menu graphic",
+    "cafe-folklore": "no people-free photo found: no own website or Instagram",
+    "cafe-gitane": "no people-free photo found: no own website or Instagram",
+    "de-geus-van-gent": "no people-free photo found: no own website or Instagram",
+    "trollekelder": "no people-free photo found: website has no usable images, no Instagram",
+    "waterhuis-aan-de-bierkant": "no people-free photo found: website unreachable, no Instagram"
    },
    "skipResearch": {
     "osm-royal-india-n10892781655": "website photo may be stock (WhatsApp image)",
     "sakas": "only candidate has a logo watermark with a line-drawn chef figure",
-    "osm-dok-brewing-company-n7001208946/2-drink": "the embed shows a different image than the candidate"
+    "osm-dok-brewing-company-n7001208946/2-drink": "the embed shows a different image than the candidate",
+    "het-spijker": "only candidate has a brand frame with a cartoon-figure logo; an Instagram embed cannot be cropped",
+    "jour-de-fete/3-food": "cream frame with an emoji sticker; an embed cannot be cropped (other candidates used)",
+    "oak": "website photos only 1024 px wide (low resolution)",
+    "steendam-66/3-food": "low resolution (640 px)",
+    "le-chouchou/3-food": "low resolution",
+    "yusu/3-food": "subject small, needs a crop; possibly the stock-like web image the research flagged"
    },
    "dropPhotos": {
     "sakas": {

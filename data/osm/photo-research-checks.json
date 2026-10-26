@@ -914,6 +914,35 @@
    "ok": true,
    "diff": 0,
    "checked": "2026-10-26"
+  },
+  "web:https://www.dullegriet.be/images/_DSC59721.jpg": {
+   "ok": true,
+   "bytes": 210450,
+   "checked": "2026-10-26"
+  },
+  "ig:3996815983272356185": {
+   "code": "Dd3ivXzjWlZ",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3983278599947316441": {
+   "code": "DdHcshHRmzZ",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:399163012414874372718429800230199723": {
+   "code": "TOBBhl3Y-p8S7pQYVqGr",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:3787953017812629074": {
+   "code": "DSRgzNElzZS",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
   }
  }
 }

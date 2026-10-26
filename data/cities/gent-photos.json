@@ -19,6 +19,9 @@
     "url": "https://www.instagram.com/p/DaY2ThrNkrZ/"
    }
   },
+  "afsnis": {
+   "hold": "no people-free photo found: only a menu graphic"
+  },
   "alberte": {
    "photos": [
     {
@@ -238,6 +241,18 @@
     "url": "https://www.instagram.com/p/DA3Cxg8oiFX/"
    }
   },
+  "cafe-albatros": {
+   "hold": "no people-free photo found: people, text reels, street scenes with passers-by"
+  },
+  "cafe-den-turk": {
+   "hold": "no people-free photo found: staff photos and graphics only"
+  },
+  "cafe-folklore": {
+   "hold": "no people-free photo found: no own website or Instagram"
+  },
+  "cafe-gitane": {
+   "hold": "no people-free photo found: no own website or Instagram"
+  },
   "cafe-recup-gent": {
    "posts": [
     {
@@ -250,6 +265,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/Ded_3SdMBf-/"
    }
+  },
+  "charlatan": {
+   "hold": "no people-free photo found: website only has event posters"
   },
   "commotie": {
    "photos": [
@@ -322,6 +340,32 @@
     "src": "https://images.squarespace-cdn.com/content/v1/686e5ed3afa1e61e9a693484/11ee266e-8214-455d-a61e-1d7c090c9144/D-Extra-7.jpg?format=1500w"
    }
   },
+  "de-dulle-griet": {
+   "photos": [
+    {
+     "src": "https://www.dullegriet.be/images/_DSC59721.jpg",
+     "thumb": "https://www.dullegriet.be/images/_DSC59721.jpg",
+     "w": 1354,
+     "h": 903,
+     "category": "interior",
+     "hotlink": true,
+     "source": "website",
+     "credit": "dullegriet.be",
+     "credit_url": "https://www.dullegriet.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.dullegriet.be/images/_DSC59721.jpg"
+   }
+  },
+  "de-geus-van-gent": {
+   "hold": "no people-free photo found: no own website or Instagram"
+  },
+  "de-maecht-van-ghent": {
+   "hold": "no people-free photo found: own Instagram / site only show people, posters or text overlays"
+  },
   "de-rave": {
    "posts": [
     {
@@ -340,6 +384,9 @@
     "url": "https://www.instagram.com/p/CGc4WolBwOQ/"
    }
   },
+  "de-viking": {
+   "hold": "no people-free photo found: no Instagram, website unreachable"
+  },
   "debra": {
    "posts": [
     {
@@ -357,6 +404,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DezazpEKyto/"
    }
+  },
+  "decadance": {
+   "hold": "no people-free photo found: DJ portraits, posters and crowds only"
   },
   "een-twee-vijf": {
    "posts": [
@@ -563,11 +613,6 @@
      "url": "https://www.instagram.com/p/DUjRrAMDMlP/",
      "category": "interior",
      "origin": "research"
-    },
-    {
-     "url": "https://www.instagram.com/p/DdB-eLBFmJw/",
-     "category": "food",
-     "origin": "research"
     }
    ],
    "pick": {
@@ -615,6 +660,9 @@
     "url": "https://www.instagram.com/p/De4dhDwo-WE/"
    }
   },
+  "kinky-star": {
+   "hold": "no people-free photo found: only concert photos with people, posters, logos"
+  },
   "klaar": {
    "posts": [
     {
@@ -626,6 +674,22 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/DeekyciDf4V/"
+   }
+  },
+  "klub-xiii": {
+   "hold": "no people-free photo found: party photos and line-up graphics only"
+  },
+  "kruidtuin": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdHcshHRmzZ/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DdHcshHRmzZ/"
    }
   },
   "le-baan-thai": {
@@ -682,11 +746,6 @@
     {
      "url": "https://www.instagram.com/p/DejNyHDCRm9/",
      "category": "interior",
-     "origin": "research"
-    },
-    {
-     "url": "https://www.instagram.com/p/DeeEPIiCjld/",
-     "category": "food",
      "origin": "research"
     }
    ],
@@ -871,50 +930,6 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/DeyT3LDkrl5/"
-   }
-  },
-  "oak": {
-   "photos": [
-    {
-     "src": "https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_054-1024x682.jpg",
-     "thumb": "https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_054-1024x682.jpg",
-     "w": 1024,
-     "h": 682,
-     "category": "food",
-     "hotlink": true,
-     "source": "website",
-     "credit": "oakgent.be",
-     "credit_url": "https://oakgent.be/",
-     "alt": ""
-    },
-    {
-     "src": "https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_063-1024x682.jpg",
-     "thumb": "https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_063-1024x682.jpg",
-     "w": 1024,
-     "h": 682,
-     "category": "food",
-     "hotlink": true,
-     "source": "website",
-     "credit": "oakgent.be",
-     "credit_url": "https://oakgent.be/",
-     "alt": ""
-    },
-    {
-     "src": "https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_064-1024x655.jpg",
-     "thumb": "https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_064-1024x655.jpg",
-     "w": 1024,
-     "h": 655,
-     "category": "food",
-     "hotlink": true,
-     "source": "website",
-     "credit": "oakgent.be",
-     "credit_url": "https://oakgent.be/",
-     "alt": ""
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_054-1024x682.jpg"
    }
   },
   "osm-de-gekroonde-hoofden-n12478756510": {
@@ -1346,6 +1361,9 @@
     "url": "https://www.instagram.com/p/DNQtl-Ghjh4/"
    }
   },
+  "porter-house": {
+   "hold": "no people-free photo found: party photos with people, posters"
+  },
   "publiek": {
    "posts": [
     {
@@ -1440,6 +1458,22 @@
     "url": "https://www.instagram.com/p/DePUHIVDMQN/"
    }
   },
+  "t-floere-foefke": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DSRgzNElzZS/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DSRgzNElzZS/"
+   }
+  },
+  "t-kofschip": {
+   "hold": "no people-free photo found: party / crowd photos and promo graphics only"
+  },
   "taberna-bask": {
    "photos": [
     {
@@ -1504,6 +1538,9 @@
     "url": "https://www.instagram.com/p/Dd6JTK7m5UB/"
    }
   },
+  "tam-tam": {
+   "hold": "no people-free photo found: only text graphics and a crowd clip"
+  },
   "trattoria-della-mamma": {
    "posts": [
     {
@@ -1540,6 +1577,9 @@
     "url": "https://www.instagram.com/p/DeJUeU9O2Bn/"
    }
   },
+  "trollekelder": {
+   "hold": "no people-free photo found: website has no usable images, no Instagram"
+  },
   "vrijmoed": {
    "posts": [
     {
@@ -1552,6 +1592,12 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeKJl2NthCu/"
    }
+  },
+  "waterhuis-aan-de-bierkant": {
+   "hold": "no people-free photo found: website unreachable, no Instagram"
+  },
+  "wunderbar": {
+   "hold": "no people-free photo found: people, DJ and event posters only"
   },
   "yalo": {
    "photos": [
@@ -1599,18 +1645,6 @@
      "thumb": "https://images.squarespace-cdn.com/content/v1/68ca965b7164fc26da7dff24/a70f38b2-fea4-47c6-8aa4-e93b880ac706/94964021_679103669532024_5308029829355314938_n.jpg?format=1500w",
      "w": 1080,
      "h": 809,
-     "category": "food",
-     "hotlink": true,
-     "source": "website",
-     "credit": "yusu.be",
-     "credit_url": "https://www.yusu.be/",
-     "alt": ""
-    },
-    {
-     "src": "https://images.squarespace-cdn.com/content/v1/68ca965b7164fc26da7dff24/6145636d-c571-409a-af74-7dcd68e97b77/95297769_896326727496776_2965422070747971019_n.jpg?format=1500w",
-     "thumb": "https://images.squarespace-cdn.com/content/v1/68ca965b7164fc26da7dff24/6145636d-c571-409a-af74-7dcd68e97b77/95297769_896326727496776_2965422070747971019_n.jpg?format=1500w",
-     "w": 1080,
-     "h": 810,
      "category": "food",
      "hotlink": true,
      "source": "website",
