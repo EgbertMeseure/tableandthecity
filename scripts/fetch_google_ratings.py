@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Fetch Google ratings for every place of a city and store them in data/cities/<city>-ratings.json.
 
-Usage:  python3 scripts/fetch_google_ratings.py [city] [--raw FILE] [--offline] [--limit N] [--dry-run]
+Usage:  python3 scripts/fetch_google_ratings.py [city] [--raw FILE] [--offline] [--limit N] [--max-calls N] [--curated-only] [--dry-run]
+        curated records come first: no hours, then hours from OpenStreetMap / unknown source, then the rest
 
 Key: read from the file named in env GOOGLE_PLACES_API_KEY_FILE, else /home/box/.secrets/google_places_key.
 The key is never printed or written anywhere.
@@ -23,6 +24,8 @@ opt = lambda k: sys.argv[sys.argv.index(k) + 1] if k in sys.argv else None
 city = (args[0] if args else 'gent')
 RAW, OFFLINE, DRY = opt('--raw'), '--offline' in sys.argv, '--dry-run' in sys.argv
 LIMIT = int(opt('--limit') or 0)
+MAXC = int(opt('--max-calls') or 0)           # stop calling the API after N calls (cached answers are still matched)
+CUR_ONLY = '--curated-only' in sys.argv
 if RAW in args: args.remove(RAW)
 URL = 'https://places.googleapis.com/v1/places:searchText'
 FIELDS = 'places.id,places.displayName,places.rating,places.userRatingCount,places.formattedAddress,places.location,places.businessStatus,places.regularOpeningHours,places.primaryType,places.types'
@@ -102,7 +105,9 @@ def osm_hours(roh):
 def places_of(city):
     cur = json.load(open(f'data/cities/{city}.json'))['restaurants']
     out = [dict(r, _src='curated') for r in cur if r.get('status') != 'unverified']
+    out.sort(key=lambda r: 0 if not r.get('openingHours') else 1 if re.match(r'(OpenStreetMap|$)', r.get('openingHoursSource') or '') else 2)
     ids = {r['id'] for r in out}
+    if CUR_ONLY: return out
     p = f'data/cities/{city}-osm.json'
     if os.path.exists(p):
         out += [dict(o, _src='osm') for o in json.load(open(p))['places'] if o['id'] not in ids and o.get('status') != 'closed']
@@ -141,7 +146,7 @@ def main():
         if r['id'] not in raw and r.get('osm') and refs.get(r['osm']) in raw: raw[r['id']] = raw[refs[r['osm']]]
         if r.get('osm') and r['id'].startswith('osm-'): refs.setdefault(r['osm'], r['id'])
         if r['id'] not in raw:
-            if OFFLINE: continue
+            if OFFLINE or (MAXC and calls >= MAXC): continue
             calls += 1
             try: raw[r['id']] = search(k, query(r), r.get('lat'), r.get('lng'))
             except Exception as e:
