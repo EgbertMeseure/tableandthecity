@@ -1,0 +1,158 @@
+{
+ "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
+ "city": "brugge",
+ "count": 19,
+ "places": {
+  "blackbird": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.blackbird-bruges.com/",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/blackbird"
+   ],
+   "basis": "own site: plant-based focus; Visit Bruges tag \"Vegan\""
+  },
+  "boho-brunch": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.bohobrunch.be/contact",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/boho-brunch"
+   ],
+   "basis": "Visit Bruges listing tags \"Vegetarian\" and \"Vegan\""
+  },
+  "cantine-copine": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/brugge/restaurant/cantine-copine",
+    "https://www.gaultmillau.be/nl/restaurants/cantine-copine-brugge"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "de-mangerie": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/brugge/restaurant/de-mangerie",
+    "https://www.gaultmillau.be/nl/restaurants/de-mangerie-brugge"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "franco-belge": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/brugge/restaurant/franco-belge",
+    "https://www.gaultmillau.be/nl/restaurants/franco-belge-brugge"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "kaffee-kamiel": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.kaffeekamiel.be/nl/",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/kaffee-kamiel"
+   ],
+   "basis": "Visit Bruges listing tags \"Vegetarian\" and \"Vegan\""
+  },
+  "la-tache": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.gaultmillau.be/nl/restaurants/la-tache-brugge",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/la-tache"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "le-mystique": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/brugge/restaurant/le-mystique",
+    "https://www.gaultmillau.be/nl/restaurants/le-mystique-brugge"
+   ],
+   "basis": "G&M: a full vegetarian menu is offered"
+  },
+  "locale": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/brugge/restaurant/kok-au-vin",
+    "https://www.gaultmillau.be/nl/restaurants/locale-brugge"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "maro": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.maro-brugge.be/",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/maro"
+   ],
+   "basis": "Visit Bruges listing tags \"Vegetarian\" and \"Vegan\""
+  },
+  "nomad": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.nomadbrugge.be/",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/nomad"
+   ],
+   "basis": "Visit Bruges listing tags \"Vegetarian\" and \"Vegan\""
+  },
+  "onslow": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/brugge/restaurant/onslow",
+    "https://www.gaultmillau.be/nl/restaurants/onslow-brugge"
+   ],
+   "basis": "Visit Bruges listing tags \"Vegetarian\" and \"Vegan\""
+  },
+  "patrick-devos": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.patrickdevos.be/",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/restaurant-patrick-devos"
+   ],
+   "basis": "Visit Bruges listing tags \"Vegetarian\" and \"Vegan\""
+  },
+  "reliva": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.reliva.be/",
+    "https://www.gaultmillau.be/nl/restaurants/reliva-brugge"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\"; organic, vegetable-led menu"
+  },
+  "sanseveria": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.sanseveria.be/locaties",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/sanseveria-bagelsalon"
+   ],
+   "basis": "Visit Bruges listing tags \"Vegetarian\" and \"Vegan\""
+  },
+  "tanuki": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.tanuki.be/",
+    "https://www.gaultmillau.be/nl/restaurants/tanuki-brugge"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "the-fat-swan": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.hln.be/brugge/net-open-een-mengelmoes-van-culturen-op-je-bord-brugs-koppel-verlaat-australie-voor-eigen-restaurant-in-katelijnestraat~ad013cb4/"
+   ],
+   "basis": "HLN: the chef always offers a vegetarian alternative"
+  },
+  "yarn": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.yarnbrugge.be/",
+    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/yarn"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "zet-joe": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/brugge/restaurant/zet-joe-by-geert-van-hecke",
+    "https://www.gaultmillau.be/nl/restaurants/zet-joe-brugge"
+   ],
+   "basis": "Visit Bruges listing tag \"Vegetarian\""
+  }
+ }
+}
