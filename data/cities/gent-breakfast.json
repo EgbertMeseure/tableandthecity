@@ -549,12 +549,6 @@
     "source": "https://www.holafood.be/"
    }
   },
-  "osm-house-of-waffles-n13310397201": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.openstreetmap.org/node/13310397201"
-   }
-  },
   "osm-jacqueline-n1349508971": {
    "brunch": {
     "value": true,
@@ -651,12 +645,6 @@
    "breakfastHours": {
     "value": "from 9:00",
     "source": "https://www.bellehistoire.be/"
-   }
-  },
-  "osm-lloyd-coffee-eatery-n11154588568": {
-   "brunch": {
-    "value": true,
-    "source": "https://www.lloydcoffee.com"
    }
   },
   "osm-luv-l-oeuf-n5918300538": {
@@ -892,12 +880,6 @@
    "brunch": {
     "value": true,
     "source": "https://www.tartelette.be/"
-   }
-  },
-  "osm-tom-dellas-n6574771220": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.openstreetmap.org/node/6574771220"
    }
   },
   "osm-touche-n11302184714": {

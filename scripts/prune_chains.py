@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Remove chain restaurants (data/chains-exclude.json, via import_osm.is_chain) from a city's site data already on the site.
+"""Remove chain restaurants (and places listed in data/osm/closed.json) (data/chains-exclude.json, via import_osm.is_chain) from a city's site data already on the site.
 
   python3 scripts/prune_chains.py gent [--dry] [--report=/path/list.md]
 
@@ -31,9 +31,13 @@ def save(p, obj, text):  # keep each file's JSON style (same as prune_pizza_keba
 D = ROOT / 'data' / 'cities'
 raw = {f"{e['type']}/{e['id']}": e.get('tags', {}) for e in json.loads(IO.RAW.read_text())['elements']}
 removed = []
+NEVER = json.loads((ROOT / 'data' / 'never-exclude.json').read_text())['places']
+CLOSED = json.loads((ROOT / 'data' / 'osm' / 'closed.json').read_text())['places']   # also drop places marked permanently closed
 p = D / f'{CITY}-osm.json'; osm, t = load(p); keep = []
 for r in osm['places']:
     ch = IO.is_chain({**raw.get(r.get('osm'), {}), 'name': r['name']}) or IO.is_chain({'name': r['name']})
+    if not ch and r.get('osm') in NEVER: ch = 'never-exclude (' + NEVER[r['osm']].get('kind', '') + ')'
+    if not ch and r.get('osm') in CLOSED: ch = 'closed / other business: ' + CLOSED[r['osm']].get('source', '')[-160:]
     if ch: removed.append((r['id'], r['name'], ch, r.get('address') or '')); continue
     keep.append(r)
 osm['places'] = keep; osm['count'] = len(keep); save(p, osm, t)

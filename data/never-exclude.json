@@ -127,6 +127,30 @@
    "reason": "own site leads with 'Pizza uit de oven' (46 pizza mentions); decision 26 Oct 2026: remove; user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
    "source": "https://lalanterna.be/",
    "added": "2026-10-26"
+  },
+  "way/349289214": {
+   "id": "osm-d-komida-w349289214",
+   "name": "Komida",
+   "kind": "student",
+   "reason": "University of Antwerp student restaurant (Komida, 5+ campus locations); user rule 20 Oct 2026: no student restaurants",
+   "source": "STATUS.md possible-chain review",
+   "added": "2026-10-26"
+  },
+  "node/5116949422": {
+   "id": "osm-komida-n5116949422",
+   "name": "Komida",
+   "kind": "student",
+   "reason": "University of Antwerp student restaurant (Komida, 5+ campus locations); user rule 20 Oct 2026: no student restaurants",
+   "source": "STATUS.md possible-chain review",
+   "added": "2026-10-26"
+  },
+  "node/5118534121": {
+   "id": "osm-komida-n5118534121",
+   "name": "Komida",
+   "kind": "student",
+   "reason": "University of Antwerp student restaurant (Komida, 5+ campus locations); user rule 20 Oct 2026: no student restaurants",
+   "source": "STATUS.md possible-chain review",
+   "added": "2026-10-26"
   }
  },
  "pizzaKebabKeep": {

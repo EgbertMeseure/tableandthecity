@@ -451,15 +451,6 @@
    "hash": "36662053ad72",
    "checked": "2026-10-20"
   },
-  "osm-sushi-palace-n12323650406": {
-   "url": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-05.jpg",
-   "source": "https://www.sushipalacegent.be/",
-   "type": "og:image",
-   "w": 1920,
-   "h": 1080,
-   "hash": "9de5367fd836",
-   "checked": "2026-10-20"
-  },
   "osm-t-kanon-n1603630998": {
    "url": "https://freight.cargo.site/i/1989b62205562b59349b3d7ca5bea33f7cca1efd6fa542d8ca7e50340270999e/tkanon-DSC09812.jpg",
    "source": "https://tkanon.com/",
@@ -2042,11 +2033,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-house-of-waffles-n13310397201": {
-   "why": "manual review: poster / graphic / ad, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/38e385a429fe857612eb5d48f24f6f8e/id-preview-940962af--2aa63a76-80f3-4657-8aa7-5bc3caaffb7c.lovable.app-1789070050753.png"
-  },
   "osm-hung-hing-n11030869864": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2256,10 +2242,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-lloyd-coffee-eatery-n11154588568": {
-   "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
   "osm-lodos-w1075327915": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2349,11 +2331,6 @@
    "why": "too small (450x230)",
    "checked": "2026-10-20"
   },
-  "osm-nam-jai-n3394491371": {
-   "why": "manual review: og:image is a casino ad (domain apparently taken over) — not the business",
-   "checked": "2026-10-20",
-   "url": "https://namjai.be/og-banner.png"
-  },
   "osm-nepal-delight-n11047205650": {
    "why": "logo-like file name (https://www.asiandelightgent.be/Frontend/Images/logo.png)",
    "checked": "2026-10-20"
@@ -2395,10 +2372,6 @@
    "why": "manual review: logo / wordmark, not a photo of the place",
    "checked": "2026-10-20",
    "url": "https://cdn.prod.website-files.com/664df513804b4a3f85a923a8/68c937041ec5219e0680ac15_ogimage.png"
-  },
-  "osm-ocean-sushi-w494018303": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
   },
   "osm-ode-n10095315126": {
    "why": "no og:image / twitter:image",
