@@ -287,7 +287,7 @@
     if (inView && !force && !document.hidden) return;
     ohPending = false;
     const y = scrollY, n = shown;
-    if (state.open) { render(); scrollTo(0, y); return; }                // "Open now" is on: places that closed/opened leave/join the list
+    if (state.open) { render(n); scrollTo(0, y); return; }                // "Open now" is on: places that closed/opened leave/join the list
     LIST.sort((a, b) => TG.OPEN_RANK[a._oh.state] - TG.OPEN_RANK[b._oh.state] || LIST._base(a, b));
     $('#list').innerHTML = LIST.slice(0, n).map(card).join(''); moreBtn(); TG.lazyIg($('#list'));
     scrollTo(0, y);
@@ -362,23 +362,27 @@
     const w = [nw, diet, noun || (diet || nw ? 'places' : '')].filter(Boolean);
     return w.map((x, i) => i ? (/^[A-Z][a-z]/.test(x) && !/^Michelin/.test(x) && !(cz && x === noun) ? x.toLowerCase() : x) : x[0].toUpperCase() + x.slice(1)).join(' ') + ` in ${CITY}`;
   }
-  function render() {
+  function render(keep = 0) {                                             // keep: show at least this many cards (Open-now refresh keeps the expanded list)
     syncUrl(); $('#explore-title').textContent = listTitle();
     const list = filtered();
     $('#count').textContent = `${list.length} result${list.length === 1 ? '' : 's'}`;
     $('#reset').hidden = !anyActive();
-    // list: first PAGE cards, "Show more" appends the next PAGE (keeps the DOM small with ~1,500 places)
-    LIST = list; shown = Math.min(PAGE, list.length);
+    // list: first PAGE cards, "Show more" appends the next PAGE (keeps the DOM small with ~1,500 places);
+    // phone/tablet (stacked layout, ≤900px): only the first 8 so the Events section follows right after, then +16 per tap
+    LIST = list; shown = Math.min(Math.max(first(), keep), list.length);
     $('#list').innerHTML = list.length ? list.slice(0, shown).map(card).join('') : '<div class="empty">Nothing matches these filters. <button class="linkbtn" data-reset>Reset</button></div>';
     moreBtn(); TG.lazyIg($('#list'));
     layer.clearLayers();
     layer.addLayers ? layer.addLayers(list.filter(r => r.lat).map(marker)) : list.filter(r => r.lat).forEach(r => marker(r).addTo(layer));
     renderEvents();
   }
-  const PAGE = 24; let LIST = [], shown = 0;
+  const PAGE = 24, PHONE = matchMedia('(max-width: 900px)'), PH_FIRST = 8, PH_STEP = 16; let LIST = [], shown = 0;
+  const first = () => PHONE.matches ? PH_FIRST : PAGE, step = () => PHONE.matches ? PH_STEP : PAGE;
   function moreBtn() {
     const left = LIST.length - shown, b = $('#list-more');
-    b.hidden = left <= 0; b.textContent = `Show more (${Math.min(PAGE, left)} of ${left} more)`;
+    b.hidden = left <= 0;
+    if (PHONE.matches) b.innerHTML = `Show more places <span class="lm__n">+${Math.min(PH_STEP, left)} · ${left.toLocaleString('en-GB')} more</span>`;
+    else b.textContent = `Show more (${Math.min(PAGE, left)} of ${left} more)`;
     // "Missing a place? Suggest it" (js/suggest.js) as the last line of the list itself (desktop: the list scrolls inside its column;
     // phone: the copy under "Show more" in .list-more is used instead, see css)
     let sl = $('#list .suggest-line--in');
@@ -386,8 +390,13 @@
     $('#list').appendChild(sl);
   }
   $('#list-more').addEventListener('click', () => {
-    const next = LIST.slice(shown, shown + PAGE); shown += next.length;
+    const next = LIST.slice(shown, shown + step()); shown += next.length;
     $('#list').insertAdjacentHTML('beforeend', next.map(card).join('')); moreBtn(); TG.lazyIg($('#list'));
+  });
+  // phone → desktop (rotate / resize): fill up to the desktop's first page; desktop → phone keeps what is shown
+  PHONE.addEventListener('change', () => {
+    if (!PHONE.matches && shown < Math.min(PAGE, LIST.length)) { const next = LIST.slice(shown, PAGE); shown += next.length; $('#list').insertAdjacentHTML('beforeend', next.map(card).join('')); TG.lazyIg($('#list')); }
+    moreBtn();
   });
   function marker(r) {                                                     // built once per place, reused across renders
     if (r._m) return r._m;
