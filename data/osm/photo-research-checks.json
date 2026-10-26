@@ -1302,6 +1302,960 @@
    "ok": true,
    "diff": 0,
    "checked": "2026-10-26"
+  },
+  "ig:3947427755425091964": {
+   "code": "DbIFKESoVF8",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:4005663840090063552": {
+   "code": "DeW-gomMgLA",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://andorantwerp.com/wp-content/uploads/2024/10/Andor_1-1536x921.webp": {
+   "ok": true,
+   "bytes": 193916,
+   "checked": "2026-10-26"
+  },
+  "ig:3977349657640733221": {
+   "code": "DcyYnDTMool",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4001867667227507783": {
+   "code": "DeJfXDHN3xH",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://andy-roasters.be/cdn/shop/files/ANDYROASTERS_12-05-24_34dc8885-015d-40a9-be76-25b5b66b0d77_1500x.jpg?v=1779885076": {
+   "ok": true,
+   "bytes": 659052,
+   "checked": "2026-10-26"
+  },
+  "ig:4013653525569316156": {
+   "code": "DezXJ3DDaU8",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://nicolasmisera.com/img/containers/assets/bar-6.jpg/39926fbe2dbe0f7c6e1bae0fb599fdd9/bar-6.webp": {
+   "ok": true,
+   "bytes": 299890,
+   "checked": "2026-10-26"
+  },
+  "web:https://nicolasmisera.com/img/containers/assets/bar-misera-5.jpg/e9cd977d016994123ee71f79c07464b3/bar-misera-5.webp": {
+   "ok": true,
+   "bytes": 344204,
+   "checked": "2026-10-26"
+  },
+  "web:https://nicolasmisera.com/img/containers/assets/250304_bar_misera-453-2.jpg/434d657638b1ad90e69fc985a55f8841/250304_bar_misera-453-2.webp": {
+   "ok": true,
+   "bytes": 502410,
+   "checked": "2026-10-26"
+  },
+  "ig:3735314094405476453": {
+   "code": "DPWgGDZjGBl",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www-static.barpeche.be/wp-content/uploads/2022/07/6AAFFCDB-C557-4D77-9C52-053425D71B77-686-00000173EA553DD7-1024x683.jpg?media=1658245613": {
+   "ok": true,
+   "bytes": 100764,
+   "checked": "2026-10-26"
+  },
+  "web:https://www-static.barpeche.be/wp-content/uploads/2022/07/3304DCD1-0773-4A14-AA3B-5F0EE249F58A-686-000001742BD9A052-1024x683.jpg?media=1658245613": {
+   "ok": true,
+   "bytes": 112752,
+   "checked": "2026-10-26"
+  },
+  "web:https://bartavin.be/_DSC6962.jpg": {
+   "ok": true,
+   "bytes": 315914,
+   "checked": "2026-10-26"
+  },
+  "web:https://bartavin.be/_DSC6946.jpg": {
+   "ok": true,
+   "bytes": 490570,
+   "checked": "2026-10-26"
+  },
+  "web:https://bartavin.be/_DSC6935.jpg": {
+   "ok": true,
+   "bytes": 727610,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.webshopapp.com/shops/229070/files/152661977/belgian-wines.jpg": {
+   "ok": true,
+   "bytes": 111119,
+   "checked": "2026-10-26"
+  },
+  "ig:3790211613362547549": {
+   "code": "DSZiWGGCOtd",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3783964344892008741": {
+   "code": "DSDV4X8CCkl",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bistrotdunord.be/wp-content/uploads/2024/09/DSCF0428.jpg": {
+   "ok": false,
+   "bytes": 4852920,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 4852920 bytes (needs ≤ 1600000)"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/59a6a34fe5dd5bece8057e13/1509437391610-IXORZ9QY1VWWT57DIDO8/2017-10-31-PHOTO-00000112.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 116222,
+   "checked": "2026-10-26"
+  },
+  "ig:2643752417960670352": {
+   "code": "CSwftEioDSQ",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://bizielizie.be/wp-content/uploads/2021/07/Bizie_lizie_by_rudyroan_food-7306.png": {
+   "ok": false,
+   "bytes": 1839481,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 1839481 bytes (needs ≤ 1600000)"
+  },
+  "web:https://bizielizie.be/wp-content/uploads/2021/08/Bizie_lizie_by_rudyroan_boven_langetafel2--1024x683.jpg": {
+   "ok": true,
+   "bytes": 166879,
+   "checked": "2026-10-26"
+  },
+  "ig:4013472344874164239": {
+   "code": "Deyt9VYFCAP",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012103417169842526": {
+   "code": "Det2s0GihFe",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4014921931543834053": {
+   "code": "De33jmKmG3F",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:3996901688751614575": {
+   "code": "Dd32OjQMupv",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4006382260486114654": {
+   "code": "DeZh3Bus41e",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://brjmbmzdlymahbiigwmv.supabase.co/storage/v1/object/public/restaurant-assets/c89f2b8a-694d-49e7-9302-e69bd17ee05b/site/c955aac4-8345-4fda-8105-877fa5fee353.jpg": {
+   "ok": false,
+   "bytes": 18295364,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 18295364 bytes (needs ≤ 1600000)"
+  },
+  "web:https://static.wixstatic.com/media/3792f9_80874423b7244ceb9e3cf3050e83ef61~mv2.jpeg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3792f9_80874423b7244ceb9e3cf3050e83ef61~mv2.jpeg": {
+   "ok": true,
+   "bytes": 188102,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/3792f9_bac6dbc6f97a497ab9746afaa0bd2244%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/3792f9_bac6dbc6f97a497ab9746afaa0bd2244%7Emv2.jpg": {
+   "ok": true,
+   "bytes": 241667,
+   "checked": "2026-10-26"
+  },
+  "ig:3999772589209874869": {
+   "code": "DeCC_pqMvG1",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://caffenation.be/cdn/shop/files/DripBags_Sfeerbeeld_v1.png?v=1719408627&width=1440": {
+   "ok": false,
+   "bytes": 2413050,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 2413050 bytes (needs ≤ 1600000)"
+  },
+  "web:https://caffenation.be/cdn/shop/files/preview_images/ced5fd633712461aabad049f281fdf68.thumbnail.0000000000_2160x.jpg?v=1788460465": {
+   "ok": true,
+   "bytes": 71803,
+   "checked": "2026-10-26"
+  },
+  "web:https://caffenation.be/cdn/shop/files/DISCOVERY-14.png?v=1740651653&width=1440": {
+   "ok": false,
+   "bytes": 2139176,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 2139176 bytes (needs ≤ 1600000)"
+  },
+  "ig:3999012337527401432": {
+   "code": "Dd_WIiGuavY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3933120665203982802": {
+   "code": "DaVQGgMO0HS",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3875148628138691145": {
+   "code": "DXHSyVYDIpJ",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4008406419565420712": {
+   "code": "DeguGaxl6Co",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2025/04/DSC07657-scaled.jpg": {
+   "ok": true,
+   "bytes": 301957,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2025/04/DSC07649-scaled.jpg": {
+   "ok": true,
+   "bytes": 279125,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2025/04/DSC07690-scaled.jpg": {
+   "ok": true,
+   "bytes": 384848,
+   "checked": "2026-10-26"
+  },
+  "ig:3927312296236434105": {
+   "code": "DaAnbnDMkK5",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3922799602544372520": {
+   "code": "DZwlXRis2so",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3922172484881986081": {
+   "code": "DZuWxgtM7Ih",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.webshopapp.com/shops/257190/files/474716353/700x700x1/b2b.jpg": {
+   "ok": true,
+   "bytes": 654074,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.webshopapp.com/shops/257190/files/474715503/700x700x1/theewereld.jpg": {
+   "ok": true,
+   "bytes": 578262,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.webshopapp.com/shops/257190/files/474715525/700x700x1/koffie-smaakwiel.jpg": {
+   "ok": true,
+   "bytes": 686541,
+   "checked": "2026-10-26"
+  },
+  "ig:4003912473757199040": {
+   "code": "DeQwS5mDarA",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3986082810917909207": {
+   "code": "DdRaTKGDXLX",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3986084041753182786": {
+   "code": "DdRalEZjUJC",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://testtf.be/Bistro%20De%20Balans/NEW/NEWFOTO/Tom%20Corremans_Tablefever_2026-08-11%20Bistro%20De%20Balans_041.jpg": {
+   "ok": false,
+   "bytes": 1604718,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 1604718 bytes (needs ≤ 1600000)"
+  },
+  "web:https://testtf.be/Bistro%20De%20Balans/NEW/NEWFOTO/Tom%20Corremans_Tablefever_2026-08-11%20Bistro%20De%20Balans_007.jpg": {
+   "ok": false,
+   "bytes": 1996513,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 1996513 bytes (needs ≤ 1600000)"
+  },
+  "web:https://testtf.be/Bistro%20De%20Balans/NEW/NEWFOTO/Tom%20Corremans_Tablefever_2026-08-11%20Bistro%20De%20Balans_021.jpg": {
+   "ok": false,
+   "bytes": 1943647,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 1943647 bytes (needs ≤ 1600000)"
+  },
+  "ig:4007734996277975422": {
+   "code": "DeeVb7HDNl-",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.restaurantdecan.be/wp-content/uploads/2024/03/Decan_15FEB2024_72-3-scaled.jpg": {
+   "ok": true,
+   "bytes": 313614,
+   "checked": "2026-10-26"
+  },
+  "ig:4013593290414324529": {
+   "code": "DezJdUsCXsx",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3976621729495751957": {
+   "code": "DcvzGTYsZ0V",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3925848184994271653": {
+   "code": "DZ7ah_MshGl",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.dogmacocktails.be/img/dogma/bar2-xl.jpg": {
+   "ok": true,
+   "bytes": 991176,
+   "checked": "2026-10-26"
+  },
+  "ig:3969444222611937944": {
+   "code": "DcWTH1MgtqY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.domesurmer.be/wp-content/uploads/2022/01/43A7358.jpg": {
+   "ok": true,
+   "bytes": 594301,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.domesurmer.be/wp-content/uploads/2021/12/index-c.jpg": {
+   "ok": true,
+   "bytes": 224598,
+   "checked": "2026-10-26"
+  },
+  "web:https://resto-essenz.be/wp-content/uploads/2024/05/Restaurant-Essenz-Antwerpen-Chef-Joris-Hoefkens-3-1.jpg": {
+   "ok": true,
+   "bytes": 505161,
+   "checked": "2026-10-26"
+  },
+  "web:https://resto-essenz.be/wp-content/uploads/2024/05/Restaurant-Essenz-Antwerpen-Chef-Joris-Hoefkens-4-1.jpg": {
+   "ok": true,
+   "bytes": 465684,
+   "checked": "2026-10-26"
+  },
+  "web:https://resto-essenz.be/wp-content/uploads/2024/05/Restaurant-Essenz-Antwerpen-Chef-Joris-Hoefkens-2.jpg": {
+   "ok": true,
+   "bytes": 878451,
+   "checked": "2026-10-26"
+  },
+  "web:https://et-claire.com/wp-content/uploads/2025/07/croissant-819x1024.jpg": {
+   "ok": true,
+   "bytes": 158545,
+   "checked": "2026-10-26"
+  },
+  "web:https://et-claire.com/wp-content/uploads/2023/12/foto-homepage.jpg": {
+   "ok": true,
+   "bytes": 97126,
+   "checked": "2026-10-26"
+  },
+  "web:https://et-claire.com/wp-content/uploads/2025/07/pain-au-chocolat-819x1024.jpg": {
+   "ok": true,
+   "bytes": 127665,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684839e174396-Tablefever_2025-06-06FineFleur_055.jpg": {
+   "ok": true,
+   "bytes": 182110,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684841a2cee2e-Tablefever_2025-06-06FineFleur_023.jpg": {
+   "ok": true,
+   "bytes": 254080,
+   "checked": "2026-10-26"
+  },
+  "ig:400864033648022317117996811204046823": {
+   "code": "TTQfbmdy10ZS2IJZBi_n",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:4015923824293931174": {
+   "code": "De7bXDgEWim",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://bakkerijfunk.com/cdn/shop/files/IMG_1580_2.jpg?height=4032&v=1759340671": {
+   "ok": true,
+   "bytes": 838163,
+   "checked": "2026-10-26"
+  },
+  "web:https://wijnbistro-glass.be/wp-content/uploads/2026/05/a6e13b10-9100-4390-ade9-e6bf78156ec6.jpeg": {
+   "ok": true,
+   "bytes": 254547,
+   "checked": "2026-10-26"
+  },
+  "web:https://wijnbistro-glass.be/wp-content/uploads/2026/03/594cb8e0-c6e0-4f86-96ef-2587e79a6eb1.jpeg": {
+   "ok": true,
+   "bytes": 136468,
+   "checked": "2026-10-26"
+  },
+  "web:https://wijnbistro-glass.be/wp-content/uploads/2026/05/9040a90d-aa86-495e-a268-d893bf94ec98.jpeg": {
+   "ok": true,
+   "bytes": 308027,
+   "checked": "2026-10-26"
+  },
+  "ig:3998312429302298032": {
+   "code": "Dd82_hxl7Ww",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3994084587177739455": {
+   "code": "Ddt1sU9l4S_",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3993420194206454121": {
+   "code": "DdreoIyjBFp",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://inhetarchief.be/images/home-het-archief-857.webp": {
+   "ok": false,
+   "bytes": 170394,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 application/octet-stream 170394 bytes (needs ≤ 1600000)"
+  },
+  "web:https://www.botanicantwerp.be/media/a4gpjwi0/botanic-sanctuary-antwerp-jjz_bsa_2267.jpg?rxy=0.45614035087719296,0.49209825436596333&width=1903&height=1080&format=webp&v=1dce6d4920ec910": {
+   "ok": true,
+   "bytes": 167766,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.invincible.be/css/images/Ham-invincible-licht.jpg": {
+   "ok": true,
+   "bytes": 139966,
+   "checked": "2026-10-26"
+  },
+  "web:https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i5a04b6d9fbed9e1a/version/1787910052/image.jpg": {
+   "ok": true,
+   "bytes": 889409,
+   "checked": "2026-10-26"
+  },
+  "web:https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i0b6b250db6441552/version/1787910067/image.jpg": {
+   "ok": true,
+   "bytes": 823003,
+   "checked": "2026-10-26"
+  },
+  "web:https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i6419f204e250844e/version/1787910060/image.jpg": {
+   "ok": true,
+   "bytes": 830461,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.kouzi.be/img/slider2025/Kouzi-2018-25828-1280w.webp": {
+   "ok": true,
+   "bytes": 46630,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.kouzi.be/img/slide/Kouzi-EOY-2.webp": {
+   "ok": true,
+   "bytes": 28276,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.kouzi.be/img/slide/Kouzi-6984-Creative-slide.webp": {
+   "ok": true,
+   "bytes": 24692,
+   "checked": "2026-10-26"
+  },
+  "web:https://impro.usercontent.one/appid/oneComWsb/domain/bar-krijt.be/media/bar-krijt.be/onewebmedia/KRIJT-47.jpg?etag=W%2F%22ce4cca-19f3765d380%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=3200,4800&quality=85": {
+   "ok": false,
+   "bytes": 2046635,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 2046635 bytes (needs ≤ 1600000)"
+  },
+  "web:https://impro.usercontent.one/appid/oneComWsb/domain/bar-krijt.be/media/bar-krijt.be/onewebmedia/KRIJT-18.jpg?etag=W%2F%22f4182b-19f376ebcc0%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=3200,2133&quality=85": {
+   "ok": true,
+   "bytes": 543115,
+   "checked": "2026-10-26"
+  },
+  "web:https://impro.usercontent.one/appid/oneComWsb/domain/bar-krijt.be/media/bar-krijt.be/onewebmedia/KRIJT-8.jpg?etag=W%2F%22132faf2-19f37624d28%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=3200,2133&quality=85": {
+   "ok": true,
+   "bytes": 1202505,
+   "checked": "2026-10-26"
+  },
+  "ig:4003256099457555372": {
+   "code": "DeObDZZFVus",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3945310040219269809": {
+   "code": "DbAjpQUDTqx",
+   "ok": false,
+   "diff": 25,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:3955412306565718916": {
+   "code": "DbkcolBDuOE",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3971511588578220840": {
+   "code": "DcdpL9yjVso",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3971512904809521371": {
+   "code": "DcdpfHoDSDb",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:400782983137345585118168313570473049": {
+   "code": "TTAgbhRhGKeFl-CMNzRZ",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:399919343036049420018167085646473049": {
+   "code": "TQWLwmhdH30WKAO3P-dZ",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:4001240433480881193": {
+   "code": "DeHQvmKjtQp",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.lesanneesfolles.be/images/LesAnneesFolles.jpg": {
+   "ok": true,
+   "bytes": 273703,
+   "checked": "2026-10-26"
+  },
+  "ig:397748017965163723018459310057140100": {
+   "code": "TJp9yLYtQcIzjcPXDS-E",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "web:https://www.lesanneesfolles.be/images/banner/03.jpg": {
+   "ok": true,
+   "bytes": 140102,
+   "checked": "2026-10-26"
+  },
+  "ig:400782558841179558418219750106356040": {
+   "code": "TTAbExrRF3vETC45_FlI",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "web:https://d2j6dbq0eux0bg.cloudfront.net/images/141350506/products/866967439/6277622173.jpg": {
+   "ok": true,
+   "bytes": 141361,
+   "checked": "2026-10-26"
+  },
+  "web:https://d2gt4h1eeousrn.cloudfront.net/141350506/cover-CHTS3U/p965nIo-2000x2000.webp": {
+   "ok": true,
+   "bytes": 311602,
+   "checked": "2026-10-26"
+  },
+  "web:https://d2gt4h1eeousrn.cloudfront.net/141350506/custom-YPfTUr/fDVCj4r-2000x2000.webp": {
+   "ok": true,
+   "bytes": 318054,
+   "checked": "2026-10-26"
+  },
+  "ig:3942644931509701692": {
+   "code": "Da3Fq0aIUw8",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3991753105436971201": {
+   "code": "DdljkzYohDB",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.mero-restaurant.com/_next/image?url=https%3A%2F%2Fmero-restaurant.s3.eu-north-1.amazonaws.com%2Fimages%2Frestaurant%2F20251121_Mero%2BRestaurant_007.webp&w=1920&q=85": {
+   "ok": true,
+   "bytes": 215723,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/67e508c2980c586cba2b3141/67f3b8b32d7439b8ae1f5e97_glasses-plate-cutlery-table-table-setting-restaurant-p-1080.jpg": {
+   "ok": true,
+   "bytes": 97114,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/67e508c2980c586cba2b3141/67f3b8b348a38e56ab3c4c3c_upside-down-image-wineglasses-hanging-ceiling-bar-p-1080.jpg": {
+   "ok": true,
+   "bytes": 191428,
+   "checked": "2026-10-26"
+  },
+  "web:https://nicolasmisera.com/img/containers/assets/misera-1.jpg/820806964a932e1067781b8edc303c82/misera-1.webp": {
+   "ok": true,
+   "bytes": 667376,
+   "checked": "2026-10-26"
+  },
+  "ig:3998254328033881280": {
+   "code": "Dd8pyCwIKzA",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3997508332740046498": {
+   "code": "Dd6AKYfom6i",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://restaurantmouton.be/assets/background-1-1600.avif": {
+   "ok": true,
+   "bytes": 104400,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.restaurantnage.be/wp-content/uploads/2021/06/RestaurantNage_Afbeelding_Home_Gerecht_rotate-768x813.png": {
+   "ok": true,
+   "bytes": 543579,
+   "checked": "2026-10-26"
+  },
+  "ig:4009224346041232595": {
+   "code": "DejoE0KoqzT",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007049868245211729": {
+   "code": "Deb5p_6CBpR",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://framerusercontent.com/images/cbyJsn5UoFaoxLlaw5LA7XDdvqw.jpg?scale-down-to=2048&width=2500&height=1667": {
+   "ok": true,
+   "bytes": 451099,
+   "checked": "2026-10-26"
+  },
+  "web:https://framerusercontent.com/images/AmxvzEQsQhh3GAtR0whFRQ5XIV0.jpg?width=2000&height=1971": {
+   "ok": true,
+   "bytes": 748906,
+   "checked": "2026-10-26"
+  },
+  "web:https://nonasbakery.be/wp-content/uploads/2025/11/43e86b1d-7b2f-46c9-85ad-8686313f1bf1-1_all_5713.jpg": {
+   "ok": true,
+   "bytes": 273349,
+   "checked": "2026-10-26"
+  },
+  "web:https://nonasbakery.be/wp-content/uploads/2024/06/1000015899.webp": {
+   "ok": true,
+   "bytes": 186366,
+   "checked": "2026-10-26"
+  },
+  "web:https://nonasbakery.be/wp-content/uploads/2026/03/1000018774.jpg": {
+   "ok": true,
+   "bytes": 555364,
+   "checked": "2026-10-26"
+  },
+  "web:https://oaas.be/assets/img/y-cappuccino.jpg": {
+   "ok": true,
+   "bytes": 222489,
+   "checked": "2026-10-26"
+  },
+  "web:https://oaas.be/assets/img/y-interieur.jpg": {
+   "ok": true,
+   "bytes": 330534,
+   "checked": "2026-10-26"
+  },
+  "web:https://oaas.be/assets/img/slide-1.jpg": {
+   "ok": true,
+   "bytes": 423217,
+   "checked": "2026-10-26"
+  },
+  "ig:4004209893114410388": {
+   "code": "DeRz669MHWU",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3969384179676931135": {
+   "code": "DcWFeF2suQ_",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3983105840657872530": {
+   "code": "DdG1aifMjaS",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://paloma-antwerp.be/wp-content/uploads/2026/08/20251210_144854-701x1024.jpg": {
+   "ok": true,
+   "bytes": 104322,
+   "checked": "2026-10-26"
+  },
+  "web:https://paloma-antwerp.be/wp-content/uploads/2026/08/20260115_155559-scaled.jpg": {
+   "ok": true,
+   "bytes": 591753,
+   "checked": "2026-10-26"
+  },
+  "ig:3992562191986879238": {
+   "code": "Ddobij9CGsG",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4011388716517514515": {
+   "code": "DerUMjQCV0T",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4001966648999278116": {
+   "code": "DeJ13bEj_Yk",
+   "ok": false,
+   "diff": 19,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:4014982060365223395": {
+   "code": "De4FOlfopXj",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://pont-neuf.be/app/uploads/2025/05/MR0103_42-819x1024.jpg": {
+   "ok": true,
+   "bytes": 104714,
+   "checked": "2026-10-26"
+  },
+  "web:https://pont-neuf.be/app/uploads/2025/05/MR0103_19.jpg": {
+   "ok": true,
+   "bytes": 735936,
+   "checked": "2026-10-26"
+  },
+  "web:https://pont-neuf.be/app/uploads/2025/05/301ac0d1b3262068d213c14cda607ed0aa418186.jpg": {
+   "ok": true,
+   "bytes": 570804,
+   "checked": "2026-10-26"
+  },
+  "web:https://media.base44.com/images/public/6a9ff1368492377ee01fca0d/f9612b3ad_5M9A42045.jpg": {
+   "ok": false,
+   "bytes": 4591193,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 4591193 bytes (needs ≤ 1600000)"
+  },
+  "ig:4008532172801345106": {
+   "code": "DehKsXmjIZS",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://media.base44.com/images/public/6a9ff1368492377ee01fca0d/924048631_5M9A3929.jpg": {
+   "ok": false,
+   "bytes": 5565285,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 5565285 bytes (needs ≤ 1600000)"
+  },
+  "web:https://www.quintenmatsijs.be/img/1.jpg": {
+   "ok": true,
+   "bytes": 379086,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.quintenmatsijs.be/img/3.jpg": {
+   "ok": true,
+   "bytes": 193798,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.ras.today/img/front.jpg": {
+   "ok": true,
+   "bytes": 258460,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.ras.today/img/arch/10.jpg": {
+   "ok": true,
+   "bytes": 163367,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.ras.today/img/atmosphere/7.jpg": {
+   "ok": true,
+   "bytes": 162892,
+   "checked": "2026-10-26"
+  },
+  "ig:3997446820145265309": {
+   "code": "Dd5yLQbRfqd",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3976605732437070882": {
+   "code": "Dcvvdg9sZQi",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3964164046798173237": {
+   "code": "DcDijKQx7Q1",
+   "ok": false,
+   "diff": 26,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:3588934784878270052": {
+   "code": "DHOdSv-tlZk",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3649108547401433444": {
+   "code": "DKkPOPatEFk",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3439557045533281519898221669582332": {
+   "code": "KmVUDfV1liPfPSq3QX8",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:3991967487672777294": {
+   "code": "DdmUUeZpPpO",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/c3031a_1cc9113806664097af5ddc94d381557f~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c3031a_1cc9113806664097af5ddc94d381557f~mv2.jpg": {
+   "ok": true,
+   "bytes": 255191,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/c3031a_e8f8433425f1423fbcaca0c099b52668~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c3031a_e8f8433425f1423fbcaca0c099b52668~mv2.jpg": {
+   "ok": true,
+   "bytes": 129196,
+   "checked": "2026-10-26"
+  },
+  "ig:4013686296798579663": {
+   "code": "DezemvoiEvP",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:4002133053690722263": {
+   "code": "DeKbs7hFbfX",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4015617852274379634": {
+   "code": "De6Vyk2iAty",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "web:https://ta-nnin.be/wp-content/uploads/2020/08/009-1536x1028.jpg": {
+   "ok": true,
+   "bytes": 368554,
+   "checked": "2026-10-26"
+  },
+  "web:https://ta-nnin.be/wp-content/uploads/2020/08/019-768x514.jpg": {
+   "ok": true,
+   "bytes": 89187,
+   "checked": "2026-10-26"
+  },
+  "ig:3998407444458235699": {
+   "code": "Dd9MmLiNecz",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:3992449628413102634": {
+   "code": "DdoB8i9NAoq",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012899054394805683": {
+   "code": "Dewrm3AtA2z",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.tazu.be/wp-content/uploads/2022/05/MG_6242-scaled.jpg": {
+   "ok": true,
+   "bytes": 179384,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.tazu.be/wp-content/uploads/2022/05/MG_6379-scaled.jpg": {
+   "ok": true,
+   "bytes": 195035,
+   "checked": "2026-10-26"
+  },
+  "web:https://thelondon.be/image-uploads/R6__9598sq.webp": {
+   "ok": true,
+   "bytes": 86746,
+   "checked": "2026-10-26"
+  },
+  "web:https://thelondon.be/image-uploads/R6__9582sq.webp": {
+   "ok": true,
+   "bytes": 98220,
+   "checked": "2026-10-26"
+  },
+  "web:https://thelondon.be/image-uploads/R6__9512sq.webp": {
+   "ok": true,
+   "bytes": 68630,
+   "checked": "2026-10-26"
+  },
+  "ig:3622930085698504525": {
+   "code": "DJHO7fEIodN",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://upton.be/wp-content/uploads/2022/04/upton_sep21-041-kopie-e1650461618551.jpg": {
+   "ok": true,
+   "bytes": 146092,
+   "checked": "2026-10-26"
+  },
+  "ig:3470062977862136773": {
+   "code": "DAoI-SntPPF",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
   }
  }
 }

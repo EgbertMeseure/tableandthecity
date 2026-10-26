@@ -362,9 +362,18 @@
     "ciro-s": "people visible (staff / guests / hands), flagged by the photo research"
    },
    "hold": {},
-   "skipResearch": {},
+   "skipResearch": {
+    "pazzo/3-food": "text overlay (PAZZO MANIA X MANDRAROSSA)"
+   },
    "dropPhotos": {},
-   "cropResearch": {}
+   "cropResearch": {
+    "belgian-wines/1-interior": [
+     0.2533,
+     0,
+     0.7467,
+     1
+    ]
+   }
   }
  }
 }
