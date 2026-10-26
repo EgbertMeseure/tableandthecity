@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "brussel",
- "count": 10,
+ "count": 12,
  "places": {
   "daily-3000": {
    "veggieLevel": "vegetarian",
@@ -80,6 +80,23 @@
     "https://srl-succulente.odoo.com/contactus"
    ],
    "basis": "Own site: 100% plant-based pâtisserie ('première pâtisserie végane de Bruxelles')"
+  },
+  "pepite": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://pepitepatisserie.com/contact/",
+    "https://pepitepatisserie.com/",
+    "https://www.elle.be/fr/424238-pepite-patisserie-vegetale-bruxelles.html"
+   ],
+   "basis": "Own site: 100% plant-based pâtisserie"
+  },
+  "les-4-jeudis": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://les4jeudis.be/en",
+    "https://les4jeudis.be/en/menu/menu-de-midi"
+   ],
+   "basis": "Own site: totally plant-based (vegan) cuisine, no gluten"
   }
  }
 }
