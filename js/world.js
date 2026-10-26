@@ -53,6 +53,25 @@ listBtn.addEventListener('click', () => openDest(!dest.classList.contains('is-op
 $('#wl-dest-close').addEventListener('click', () => openDest(false));
 dest.addEventListener('click', e => { if (e.target === dest) openDest(false); });
 
+/* photo credits panel (built from img/CREDITS.json: globe textures, each city's hero from cities.json, each showcase photo from landing.json) */
+const creds = $('#wl-creds'); let credsFrom = null;
+async function openCreds(on) {
+  if (!on) { creds.classList.remove('is-open'); if (credsFrom) credsFrom.focus(); return; }
+  credsFrom = document.activeElement; creds.classList.add('is-open'); creds.focus();
+  const cr = await credits(); const by = pre => cr.find(x => x.file && x.file.startsWith(pre));
+  const line = (what, e) => e ? `<li><b>${esc(what)}</b> · ${esc(e.photographer || '')}${e.source ? ` · <a href="${esc(e.source)}" target="_blank" rel="noopener">source</a>` : ''} · ${e.license_url ? `<a href="${esc(e.license_url)}" target="_blank" rel="noopener">${esc((e.license || '').split(' (')[0])}</a>` : esc((e.license || '').split(' (')[0])}${e.changes ? ` · ${esc(e.changes)}` : ''}</li>` : '';
+  let h = `<h3>The globe</h3><ul>${cr.filter(x => x.file && x.file.startsWith('img/world/')).map(e => line(e.title || 'NASA texture', e)).join('')}</ul>`;
+  for (const co of ACTIVE) for (const c of co.act) {
+    const hero = c.images && c.images.hero ? line(`${c.name}: hero`, by(c.images.hero)) : '';
+    const imgs = (c.land.images || []).filter(im => im.src.startsWith(`img/cities/${c.id}/landing/`)).map(im => line(im.caption, by(im.src + '-'))).join('');
+    if (hero || imgs) h += `<h3>${esc(c.name)}</h3><ul>${hero}${imgs}</ul>`;
+  }
+  $('#wl-creds-list').innerHTML = h;
+}
+document.addEventListener('click', e => { const a = e.target.closest('[data-credits]'); if (a) { e.preventDefault(); openCreds(true); return; }
+  if (e.target.closest('[data-creds-close]') || e.target === creds) openCreds(false); });
+creds.addEventListener('keydown', e => { if (e.key === 'Escape') { e.stopPropagation(); openCreds(false); } });
+
 /* ---------- globe ---------- */
 let G = null;
 const canvas = $('#wl-globe');
@@ -276,7 +295,7 @@ async function openShow(co, c) {
           <figcaption><p>${esc(im.caption)}</p>${im.credit ? `<small>Photo: ${im.source ? `<a href="${esc(im.source)}" target="_blank" rel="noopener">${esc(im.credit)}</a>` : esc(im.credit)}</small>` : ''}</figcaption></figure>`; }).join('')}</div>
       <div class="ws-end"><p>Hungry yet?</p><div class="ws-btns"><a class="ws-go" href="${guideUrl(co.id, c.id)}">Find my table in ${esc(c.name)} <span aria-hidden="true">→</span></a>
         <button class="ws-ghost" type="button" data-close>Other cities</button></div>
-        <p class="ws-note">Photos show the city, not the restaurants in the guide. <a href="img/CREDITS.json">Credits &amp; licences</a></p></div></section>` : ''}`;
+        <p class="ws-note">Photos show the city, not the restaurants in the guide. <a href="img/CREDITS.json" data-credits>Credits &amp; licences</a></p></div></section>` : ''}`;
   show.hidden = false; show.scrollTop = 0; document.body.classList.add('is-show');
   { const bar = show.querySelector('.ws-bar'); show.onscroll = () => bar.classList.toggle('is-solid', show.scrollTop > innerHeight * .55); }
   lastFocus = document.activeElement;

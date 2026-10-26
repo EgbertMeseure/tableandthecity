@@ -101,7 +101,16 @@ body.is-country .wl-cards li:nth-child(6) .wl-card{transition-delay:.3s}
 
 /* all destinations (also the no-WebGL fallback) */
 .wl-dest{position:fixed;inset:0;z-index:40;display:none;place-items:center;background:rgba(4,5,6,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:24px}
-.wl-dest.is-open,html.no-webgl .wl-dest{display:grid}
+.wl-dest.is-open,html.no-webgl .wl-dest:not(.wl-creds){display:grid}
+.wl-creds{z-index:60}
+.wl-creds .wl-dest__in{width:min(760px,100%)}
+.wl-creds h2{padding-right:96px}
+.wl-creds ul{display:block}
+.wl-dest.wl-creds li{padding:7px 0;border-bottom:1px solid rgba(244,239,228,.08);font-size:12px;line-height:1.5;color:rgba(244,239,228,.72)}
+.wl-creds li b{font-weight:500;color:var(--cream)}
+.wl-dest.wl-creds li a{display:inline;height:auto;padding:0;border:0;border-radius:0;font:inherit;text-decoration:underline;text-underline-offset:2px;color:inherit}
+.wl-dest.wl-creds li a:hover{background:none;color:var(--gold)}
+.wl-creds__all{margin:22px 0 0;font-size:11px;color:rgba(244,239,228,.5)}
 .wl-dest__in{position:relative;width:min(640px,100%);max-height:90vh;overflow:auto;padding:40px 44px;border:1px solid rgba(200,169,106,.35);border-radius:var(--radius-card);background:rgba(10,12,13,.92)}
 .wl-dest h2{margin:0 0 24px;font-family:var(--display);font-weight:500;font-size:40px;color:var(--cream)}
 .wl-dest h3{margin:22px 0 10px;font-size:var(--fs-s);letter-spacing:var(--track-wide);text-transform:uppercase;color:var(--gold);font-weight:500}
@@ -143,6 +152,7 @@ html.no-webgl .wl-dest{background:radial-gradient(90% 70% at 70% 40%,#0d1a1f,#04
 .ws-go:hover span{transform:translateX(4px)}
 .ws-ghost{display:inline-flex;align-items:center;height:54px;padding:0 26px;border-radius:var(--pill);border:1px solid rgba(244,239,228,.55);color:var(--cream);text-decoration:none;font-size:12px;letter-spacing:var(--track-ui);text-transform:uppercase;font-weight:500;transition:background .25s,color .25s}
 .ws-ghost:hover{background:var(--cream);color:#111}
+button.ws-ghost{background:none;font-family:inherit;cursor:pointer}
 .ws-scroll{position:absolute;z-index:1;right:var(--gutter);bottom:clamp(40px,9vh,90px);font-size:var(--fs-xs);letter-spacing:var(--track-wide);text-transform:uppercase;color:rgba(244,239,228,.7);writing-mode:vertical-rl}
 .ws-body{background:#050505;padding:clamp(60px,10vh,120px) var(--gutter) 60px}
 .ws-body__head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:40px;border-bottom:1px solid rgba(200,169,106,.3);padding-bottom:20px}
@@ -151,11 +161,13 @@ html.no-webgl .wl-dest{background:radial-gradient(90% 70% at 70% 40%,#0d1a1f,#04
 .ws-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:clamp(14px,1.6vw,26px);align-items:start}
 .ws-fig{margin:0;grid-column:span 6;opacity:0;transform:translateY(24px);transition:opacity .9s var(--wl-ease),transform .9s var(--wl-ease)}
 .ws-fig.is-in{opacity:1;transform:none}
-.ws-fig:nth-child(5n+1){grid-column:span 7}
-.ws-fig:nth-child(5n+2){grid-column:span 5;margin-top:12vh}
-.ws-fig:nth-child(5n+3){grid-column:span 5}
-.ws-fig:nth-child(5n+4){grid-column:span 7;margin-top:-6vh}
-.ws-fig:nth-child(5n){grid-column:3 / span 8}
+.ws-fig:nth-child(6n+1){grid-column:span 7}
+.ws-fig:nth-child(6n+2){grid-column:span 5;margin-top:10vh}
+.ws-fig:nth-child(6n+3){grid-column:span 5}
+.ws-fig:nth-child(6n+4){grid-column:span 7;margin-top:4vh}
+.ws-fig:nth-child(6n+5){grid-column:span 6}
+.ws-fig:nth-child(6n){grid-column:span 6;margin-top:8vh}
+.ws-fig:nth-child(6n+5):last-child{grid-column:3 / span 8}
 .ws-ph{position:relative;overflow:hidden;border-radius:6px;background:#111;aspect-ratio:3/2}
 .ws-ph--sq{aspect-ratio:4/5}
 .ws-ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.4s var(--wl-ease)}
@@ -168,11 +180,13 @@ html.no-webgl .wl-dest{background:radial-gradient(90% 70% at 70% 40%,#0d1a1f,#04
 .ws-end{margin-top:clamp(60px,10vh,120px);padding:clamp(40px,7vh,80px) 0 20px;text-align:center;border-top:1px solid rgba(200,169,106,.3)}
 .ws-end p{margin:0 0 26px;font-family:var(--display);font-size:clamp(30px,3.4vw,50px);color:var(--cream)}
 .ws-end .ws-btns{justify-content:center}
-.ws-note{margin:40px 0 0;text-align:center;font-size:11px;color:rgba(244,239,228,.4)}
+.ws-end .ws-note{margin:40px 0 0;text-align:center;font-family:var(--sans,inherit);font-size:11px;letter-spacing:.04em;color:rgba(244,239,228,.45)}
+.ws-end .ws-note a{color:inherit}
+.ws-end .ws-note a:hover{color:var(--gold)}
 
 .wl-credit{position:fixed;z-index:6;left:var(--gutter);bottom:14px;margin:0;font-size:10px;letter-spacing:.04em;color:rgba(244,239,228,.38)}
 .wl-credit a{text-decoration:none;border-bottom:1px solid rgba(244,239,228,.25)}
-body.is-country .wl-credit{opacity:0}
+body.is-country .wl-credit{opacity:0;pointer-events:none}
 
 /* phone */
 @media (max-width:760px){
@@ -181,13 +195,13 @@ body.is-country .wl-credit{opacity:0}
   .wl-top .logo__img{height:30px}
   .wl-listbtn{height:34px;padding:0 14px;font-size:10px}
   .wl-resume{display:none}
-  .wl-intro{top:auto;bottom:calc(26px + env(safe-area-inset-bottom));transform:none;max-width:none;right:var(--gutter)}
+  .wl-intro{top:auto;bottom:calc(40px + env(safe-area-inset-bottom));transform:none;max-width:none;right:var(--gutter)}
   body.is-country .wl-intro{transform:translateY(20px)}
   .wl-intro h1{font-size:clamp(40px,11.5vw,54px)}
   .wl-lede{margin:12px 0 20px;font-size:14px;line-height:1.55}
   .wl-cta{height:48px}
   .wl-hint{margin-top:12px}
-  .wl-credit{display:none}
+  .wl-credit{bottom:calc(8px + env(safe-area-inset-bottom));right:var(--gutter);font-size:9px;line-height:1.4}
   .wl-panel{top:auto;left:0;width:auto;max-height:58vh;padding:10px 18px calc(16px + env(safe-area-inset-bottom));border-radius:26px 26px 0 0;background:rgba(8,10,11,.94);border-top:1px solid rgba(200,169,106,.35);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transform:translateY(40px)}
   .wl-panel__grab{display:block;width:44px;height:4px;border-radius:4px;background:rgba(244,239,228,.3);margin:0 auto 12px}
   .wl-panel__head{margin-bottom:12px}

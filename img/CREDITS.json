@@ -480,176 +480,6 @@
   "used_for": "Brussels \"events\" category card"
  },
  {
-  "file": "img/cities/gent/landing/graslei-dusk-{900,1600}.webp",
-  "title": "1007 Graslei, Clock tower of the Post Office, Church of Saint-Nicolas in Ghent and Belfry of Ghent Photo by Giles Laurent",
-  "photographer": "Giles Laurent",
-  "source": "https://commons.wikimedia.org/wiki/File:1007_Graslei,_Clock_tower_of_the_Post_Office,_Church_of_Saint-Nicolas_in_Ghent_and_Belfry_of_Ghent_Photo_by_Giles_Laurent.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "gent landing showcase (world.html)"
- },
- {
-  "file": "img/cities/gent/landing/graslei-mirror-{900,1600}.webp",
-  "title": "Graslei gent avondlicht2",
-  "photographer": "Michiel Hendryckx",
-  "source": "https://commons.wikimedia.org/wiki/File:Graslei_gent_avondlicht2.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "gent landing showcase (world.html)"
- },
- {
-  "file": "img/cities/gent/landing/quays-night-{900,1600}.webp",
-  "title": "Graslei and Korenlei by night - panoramio",
-  "photographer": "Cor2701",
-  "source": "https://commons.wikimedia.org/wiki/File:Graslei_and_Korenlei_by_night_-_panoramio.jpg",
-  "license": "CC BY 3.0",
-  "license_url": "https://creativecommons.org/licenses/by/3.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "gent landing showcase (world.html)"
- },
- {
-  "file": "img/cities/antwerpen/landing/mas-{900,1600}.webp",
-  "title": "Museum aan de Stroom (MAS) in Antwerp (34081016803)",
-  "photographer": "Bobo Boom",
-  "source": "https://commons.wikimedia.org/wiki/File:Museum_aan_de_Stroom_(MAS)_in_Antwerp_(34081016803).jpg",
-  "license": "CC BY 2.0",
-  "license_url": "https://creativecommons.org/licenses/by/2.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "antwerpen landing showcase (world.html)"
- },
- {
-  "file": "img/cities/antwerpen/landing/brabo-cathedral-{900,1600}.webp",
-  "title": "Brabo Fountain and Antwerpen Cathedral",
-  "photographer": "Ankermast",
-  "source": "https://commons.wikimedia.org/wiki/File:Brabo_Fountain_and_Antwerpen_Cathedral.jpg",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "antwerpen landing showcase (world.html)"
- },
- {
-  "file": "img/cities/antwerpen/landing/het-steen-{900,1600}.webp",
-  "title": "Antwerpen-Het Steen-4602-58369",
-  "photographer": "Rainer Halama",
-  "source": "https://commons.wikimedia.org/wiki/File:Antwerpen-Het_Steen-4602-58369.jpg",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "antwerpen landing showcase (world.html)"
- },
- {
-  "file": "img/cities/antwerpen/landing/mas-view-night-{900,1600}.webp",
-  "title": "View of Antwerp from the Museum aan de Stroom 2019",
-  "photographer": "Steven Lek",
-  "source": "https://commons.wikimedia.org/wiki/File:View_of_Antwerp_from_the_Museum_aan_de_Stroom_2019.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "antwerpen landing showcase (world.html)"
- },
- {
-  "file": "img/cities/brugge/landing/canal-mirror-{900,1600}.webp",
-  "title": "Bruges Canal Panorama",
-  "photographer": "Markdhammond",
-  "source": "https://commons.wikimedia.org/wiki/File:Bruges_Canal_Panorama.jpg",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "brugge landing showcase (world.html)"
- },
- {
-  "file": "img/cities/brugge/landing/rooftops-{900,1600}.webp",
-  "title": "Brugge from belfort",
-  "photographer": "José Víctor Luna Beneyto",
-  "source": "https://commons.wikimedia.org/wiki/File:Brugge_from_belfort.JPG",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "brugge landing showcase (world.html)"
- },
- {
-  "file": "img/cities/brugge/landing/minnewater-{900,1600}.webp",
-  "title": "Minnewater en Poertoren in Brugge",
-  "photographer": "Sally V",
-  "source": "https://commons.wikimedia.org/wiki/File:Minnewater_en_Poertoren_in_Brugge.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "brugge landing showcase (world.html)"
- },
- {
-  "file": "img/cities/oostende/landing/mercator-{900,1600}.webp",
-  "title": "Mercator Oostende (7361639346)",
-  "photographer": "FaceMePLS from The Hague, The Netherlands",
-  "source": "https://commons.wikimedia.org/wiki/File:Mercator_Oostende_(7361639346).jpg",
-  "license": "CC BY 2.0",
-  "license_url": "https://creativecommons.org/licenses/by/2.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "oostende landing showcase (world.html)"
- },
- {
-  "file": "img/cities/oostende/landing/low-tide-sunset-{900,1600}.webp",
-  "title": "Strand te Oostende bij eb en ondergaande zon",
-  "photographer": "KrisRF",
-  "source": "https://commons.wikimedia.org/wiki/File:Strand_te_Oostende_bij_eb_en_ondergaande_zon.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "oostende landing showcase (world.html)"
- },
- {
-  "file": "img/cities/oostende/landing/kursaal-{900,1600}.webp",
-  "title": "Casino Kursaal Oostende",
-  "photographer": "JoJan",
-  "source": "https://commons.wikimedia.org/wiki/File:Casino_Kursaal_Oostende.JPG",
-  "license": "CC BY 3.0",
-  "license_url": "https://creativecommons.org/licenses/by/3.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "oostende landing showcase (world.html)"
- },
- {
-  "file": "img/cities/oostende/landing/oosteroever-beach-{900,1600}.webp",
-  "title": "Oostende Oosteroever Strand R02",
-  "photographer": "Marc Ryckaert",
-  "source": "https://commons.wikimedia.org/wiki/File:Oostende_Oosteroever_Strand_R02.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "oostende landing showcase (world.html)"
- },
- {
-  "file": "img/cities/brussel/landing/galeries-saint-hubert-{900,1600}.webp",
-  "title": "Galeries royales Saint-Hubert, Bruselas, Bélgica, 2021-12-14, DD 04-06 HDR",
-  "photographer": "Diego Delso",
-  "source": "https://commons.wikimedia.org/wiki/File:Galeries_royales_Saint-Hubert,_Bruselas,_B%C3%A9lgica,_2021-12-14,_DD_04-06_HDR.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "brussel landing showcase (world.html)"
- },
- {
-  "file": "img/cities/brussel/landing/atomium-night-{900,1600}.webp",
-  "title": "Atomium, Bruselas, Bélgica, 2021-12-15, DD 151-153 HDR",
-  "photographer": "Diego Delso",
-  "source": "https://commons.wikimedia.org/wiki/File:Atomium,_Bruselas,_B%C3%A9lgica,_2021-12-15,_DD_151-153_HDR.jpg",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "brussel landing showcase (world.html)"
- },
- {
-  "file": "img/cities/brussel/landing/mont-des-arts-{900,1600}.webp",
-  "title": "Garden of Kunstberg viewed from Mont des Arts during nautical twilight (DSCF1028)",
-  "photographer": "Trougnouf (Benoit Brummer)",
-  "source": "https://commons.wikimedia.org/wiki/File:Garden_of_Kunstberg_viewed_from_Mont_des_Arts_during_nautical_twilight_(DSCF1028).jpg",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "changes": "cropped to 3:2, resized, converted to WebP",
-  "used_for": "brussel landing showcase (world.html)"
- },
- {
   "file": "img/world/earth-night-{2048,4096}.jpg",
   "title": "Earth at Night (Black Marble 2016), global composite",
   "photographer": "NASA Earth Observatory (Joshua Stevens), Suomi NPP VIIRS data from Miguel Román, NASA GSFC",
@@ -668,5 +498,295 @@
   "license": "Public domain (NASA imagery, credit requested)",
   "changes": "resized to 2048×1024",
   "used_for": "faint land/ocean base + sunlit edge of the globe (world.html)"
+ },
+ {
+  "file": "img/cities/antwerpen/landing/hl-mas-{900,1600}.webp",
+  "title": "Belgie Antwerpen MAS Museum aan de stroom 01.jpg",
+  "photographer": "Calips",
+  "source": "https://commons.wikimedia.org/wiki/File:Belgie_Antwerpen_MAS_Museum_aan_de_stroom_01.jpg",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "antwerpen landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/antwerpen/landing/hl-zurenborg-{900,1600}.webp",
+  "title": "Zurenborg Cogels-Osylei n°53 (1).JPG",
+  "photographer": "Torsade de Pointes",
+  "source": "https://commons.wikimedia.org/wiki/File:Zurenborg_Cogels-Osylei_n%C2%B053_(1).JPG",
+  "license": "Public domain",
+  "license_url": "",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "antwerpen landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/antwerpen/landing/hl-centraal-hall-{900,1600}.webp",
+  "title": "Centraal station 9.jpg",
+  "photographer": "Ad Meskens",
+  "source": "https://commons.wikimedia.org/wiki/File:Centraal_station_9.jpg",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "antwerpen landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/antwerpen/landing/hl-plantin-moretus-{900,1600}.webp",
+  "title": "Antwerp Belgium Museum-Plantin-Moretus-04.jpg",
+  "photographer": "CEphoto, Uwe Aranas",
+  "source": "https://commons.wikimedia.org/wiki/File:Antwerp_Belgium_Museum-Plantin-Moretus-04.jpg",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "antwerpen landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/antwerpen/landing/hl-diamond-district-{900,1600}.webp",
+  "title": "Antwerp diamond district - shops.jpg",
+  "photographer": "Kristina D.C. Hoeppner",
+  "source": "https://commons.wikimedia.org/wiki/File:Antwerp_diamond_district_-_shops.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "antwerpen landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/antwerpen/landing/hl-bolleke-{900,1600}.webp",
+  "title": "Bolleke in de stad.jpg",
+  "photographer": "Robbylancel",
+  "source": "https://commons.wikimedia.org/wiki/File:Bolleke_in_de_stad.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "antwerpen landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brugge/landing/hl-belfry-markt-{900,1600}.webp",
+  "title": "1011 Grand-Place of Bruges and Belfry of Bruges Photo by Giles Laurent.jpg",
+  "photographer": "Giles Laurent",
+  "source": "https://commons.wikimedia.org/wiki/File:1011_Grand-Place_of_Bruges_and_Belfry_of_Bruges_Photo_by_Giles_Laurent.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brugge landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brugge/landing/hl-groenerei-{900,1600}.webp",
+  "title": "Brugge Groenerei R01.jpg",
+  "photographer": "Marc Ryckaert",
+  "source": "https://commons.wikimedia.org/wiki/File:Brugge_Groenerei_R01.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brugge landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brugge/landing/hl-begijnhof-{900,1600}.webp",
+  "title": "Brugge Begijnhof R01.jpg",
+  "photographer": "Marc Ryckaert",
+  "source": "https://commons.wikimedia.org/wiki/File:Brugge_Begijnhof_R01.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brugge landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brugge/landing/hl-minnewater-{900,1600}.webp",
+  "title": "Brugge Minnewater R01.jpg",
+  "photographer": "Marc Ryckaert (MJJR)",
+  "source": "https://commons.wikimedia.org/wiki/File:Brugge_Minnewater_R01.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brugge landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brugge/landing/hl-gothic-hall-{900,1600}.webp",
+  "title": "De gothische zaal in het stadhuis van Brugge - 366847 - onroerenderfgoed.jpg",
+  "photographer": "Vandevorst, Kris",
+  "source": "https://commons.wikimedia.org/wiki/File:De_gothische_zaal_in_het_stadhuis_van_Brugge_-_366847_-_onroerenderfgoed.jpg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brugge landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brugge/landing/hl-chocolate-{900,1600}.webp",
+  "title": "Brügge (B), Schokolade -- 2018 -- 8473.jpg",
+  "photographer": "Dietmar Rabich",
+  "source": "https://commons.wikimedia.org/wiki/File:Br%C3%BCgge_(B),_Schokolade_--_2018_--_8473.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brugge landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/gent/landing/hl-three-towers-{900,1600}.webp",
+  "title": "1007 Graslei, Clock tower of the Post Office, Church of Saint-Nicolas in Ghent and Belfry of Ghent Photo by Giles Laurent.jpg",
+  "photographer": "Giles Laurent",
+  "source": "https://commons.wikimedia.org/wiki/File:1007_Graslei,_Clock_tower_of_the_Post_Office,_Church_of_Saint-Nicolas_in_Ghent_and_Belfry_of_Ghent_Photo_by_Giles_Laurent.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "gent landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/gent/landing/hl-groot-vleeshuis-{900,1600}.webp",
+  "title": "Gent - Groot Vleeshuis (48196707311).jpg",
+  "photographer": "Fred Romero from Paris, France",
+  "source": "https://commons.wikimedia.org/wiki/File:Gent_-_Groot_Vleeshuis_(48196707311).jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "gent landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/gent/landing/hl-belfry-carillon-{900,1600}.webp",
+  "title": "Playing Drum of the Carillon of the Belfry of Ghent.jpg",
+  "photographer": "Julian Lupyan",
+  "source": "https://commons.wikimedia.org/wiki/File:Playing_Drum_of_the_Carillon_of_the_Belfry_of_Ghent.jpg",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "gent landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/gent/landing/hl-gentse-neuzen-{900,1600}.webp",
+  "title": "6 cuberdons.JPG",
+  "photographer": "DimiTalen",
+  "source": "https://commons.wikimedia.org/wiki/File:6_cuberdons.JPG",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "gent landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/gent/landing/hl-waterzooi-{900,1600}.webp",
+  "title": "Gent (48196756682).jpg",
+  "photographer": "Fred Romero from Paris, France",
+  "source": "https://commons.wikimedia.org/wiki/File:Gent_(48196756682).jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "gent landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brussel/landing/hl-galeries-saint-hubert-{900,1600}.webp",
+  "title": "Galeries Royales Saint-Hubert Bruxelles 01.jpg",
+  "photographer": "Scoutty007",
+  "source": "https://commons.wikimedia.org/wiki/File:Galeries_Royales_Saint-Hubert_Bruxelles_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brussel landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brussel/landing/hl-atomium-night-{900,1600}.webp",
+  "title": "Atomium, Bruselas, Bélgica, 2021-12-15, DD 163-165 HDR.jpg",
+  "photographer": "Diego Delso",
+  "source": "https://commons.wikimedia.org/wiki/File:Atomium,_Bruselas,_B%C3%A9lgica,_2021-12-15,_DD_163-165_HDR.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brussel landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brussel/landing/hl-mont-des-arts-{900,1600}.webp",
+  "title": "Garden of Kunstberg viewed from Mont des Arts during nautical twilight (DSCF1028).jpg",
+  "photographer": "Trougnouf (Benoit Brummer)",
+  "source": "https://commons.wikimedia.org/wiki/File:Garden_of_Kunstberg_viewed_from_Mont_des_Arts_during_nautical_twilight_(DSCF1028).jpg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brussel landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brussel/landing/hl-horta-museum-{900,1600}.webp",
+  "title": "Horta Museum.JPG",
+  "photographer": "J. Miers",
+  "source": "https://commons.wikimedia.org/wiki/File:Horta_Museum.JPG",
+  "license": "CC BY-SA 1.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/1.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brussel landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brussel/landing/hl-waffle-{900,1600}.webp",
+  "title": "Gaufre de Brussel.001 - Brussel.jpg",
+  "photographer": "Fernando Losada Rodríguez",
+  "source": "https://commons.wikimedia.org/wiki/File:Gaufre_de_Brussel.001_-_Brussel.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brussel landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/brussel/landing/hl-cantillon-{900,1600}.webp",
+  "title": "Brasserie Cantillon 11.jpg",
+  "photographer": "Abujoy",
+  "source": "https://commons.wikimedia.org/wiki/File:Brasserie_Cantillon_11.jpg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "brussel landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/oostende/landing/hl-mercator-{900,1600}.webp",
+  "title": "Mercator Oostende (7361639346).jpg",
+  "photographer": "FaceMePLS from The Hague, The Netherlands",
+  "source": "https://commons.wikimedia.org/wiki/File:Mercator_Oostende_(7361639346).jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "oostende landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/oostende/landing/hl-petrus-pauluskerk-{900,1600}.webp",
+  "title": "Oostende Sint-Petrus-en-Pauluskerk R02.jpg",
+  "photographer": "Marc Ryckaert (MJJR)",
+  "source": "https://commons.wikimedia.org/wiki/File:Oostende_Sint-Petrus-en-Pauluskerk_R02.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "oostende landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/oostende/landing/hl-thermae-palace-{900,1600}.webp",
+  "title": "Tp 3.JPG",
+  "photographer": "Giusta777",
+  "source": "https://commons.wikimedia.org/wiki/File:Tp_3.JPG",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "oostende landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/oostende/landing/hl-fish-counter-{900,1600}.webp",
+  "title": "2005-09-11 Oostende 22.jpg",
+  "photographer": "Szilas",
+  "source": "https://commons.wikimedia.org/wiki/File:2005-09-11_Oostende_22.jpg",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "oostende landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/oostende/landing/hl-east-beach-{900,1600}.webp",
+  "title": "Oostende Oosteroever Strand R02.jpg",
+  "photographer": "Marc Ryckaert",
+  "source": "https://commons.wikimedia.org/wiki/File:Oostende_Oosteroever_Strand_R02.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "oostende landing showcase (world.html)"
+ },
+ {
+  "file": "img/cities/oostende/landing/hl-visserskaai-{900,1600}.webp",
+  "title": "Oostende Visserskaai R01.jpg",
+  "photographer": "Marc Ryckaert (MJJR)",
+  "source": "https://commons.wikimedia.org/wiki/File:Oostende_Visserskaai_R01.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "oostende landing showcase (world.html)"
  }
 ]

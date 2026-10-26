@@ -2,7 +2,7 @@
 <html lang="en" class="wl-boot">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="bd67da872b">
+<meta name="build" content="8417a652b0">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Table and the City — choose your city</title>
 <meta name="description" content="Table and the City: curated guides to the finest tables, city by city. Spin the globe, pick a country and a city, and find restaurants, cafés, coffee and bakeries.">
@@ -27,8 +27,8 @@
 <link rel="modulepreload" href="vendor/three/three.custom.min.js">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/brand.css?v=bd67da872b">
-<link rel="stylesheet" href="css/world.css?v=bd67da872b">
+<link rel="stylesheet" href="css/brand.css?v=8417a652b0">
+<link rel="stylesheet" href="css/world.css?v=8417a652b0">
 </head>
 <body class="wl">
 <a class="wl-skip" href="#wl-dest">Skip to the list of cities</a>
@@ -77,9 +77,17 @@
 </nav>
 
 <div class="wl-show" id="wl-show" role="dialog" aria-modal="true" aria-labelledby="wl-show-title" hidden tabindex="-1"></div>
-<p class="wl-credit" id="wl-credit">Globe: NASA Earth Observatory, Black Marble &amp; Blue Marble (public domain) · <a href="img/CREDITS.json">Photo credits</a></p>
+<p class="wl-credit" id="wl-credit">Globe: NASA Earth Observatory, Black Marble &amp; Blue Marble (public domain) · <a href="img/CREDITS.json" data-credits>Photo credits</a></p>
+<div class="wl-dest wl-creds" id="wl-creds" role="dialog" aria-modal="true" aria-labelledby="wl-creds-title" tabindex="-1">
+  <div class="wl-dest__in">
+    <button class="wl-dest__close" type="button" data-creds-close>Close</button>
+    <h2 id="wl-creds-title">Photo credits</h2>
+    <div id="wl-creds-list"><p>Loading…</p></div>
+    <p class="wl-creds__all"><a href="img/CREDITS.json">All credits &amp; licences (JSON)</a></p>
+  </div>
+</div>
 
-<script type="module" src="js/world.js?v=bd67da872b"></script>
+<script type="module" src="js/world.js?v=8417a652b0"></script>
 <script nomodule>document.documentElement.className+=' no-webgl';</script>
 </body>
 </html>
