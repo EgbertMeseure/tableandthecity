@@ -1271,6 +1271,18 @@
    "address": "Oudaan 4, 2000 Antwerpen",
    "closed": "2026",
    "source": "misterbarish.be: \"de Experience store Antwerpen is gesloten\" (checked 26 Oct 2026)"
+  },
+  "node/7124659487": {
+   "name": "Starfish & Coffee",
+   "address": "Bresstraat 9, 2018 Antwerpen",
+   "closed": "2026",
+   "source": "Google Places: permanently closed (Starfish Deli, 0 m); HappyCow 5 Aug 2026: \"now permanently closed\""
+  },
+  "node/7996910129": {
+   "name": "Sushi Eiland",
+   "address": "Kempischdok-Westkaai 36A, 2000 Antwerpen",
+   "closed": "2026",
+   "source": "Google Places: MUROMAKI (Eiland) permanently closed (3 m); company moved to Vlaamsekaai 28 as Muromaki"
   }
  }
 }
