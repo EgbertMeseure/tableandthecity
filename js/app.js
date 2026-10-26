@@ -4,11 +4,12 @@
   TG.bindNav();
   const { cfg, city, notice } = await TG.currentCity();
   TG.renderCitySel(cfg, city); TG.renderFooter(cfg, city);
-  // per-city photos (data/cities.json → images): hero = '<base>' → <base>-{1000,1600,2400}.webp + <base>-1600.jpg; cards = image keys for TG.imgAttrs
+  // per-city photos (data/cities.json → images): hero = '<base>' (+ optional heroFocus = CSS object-position) → <base>-{1000,1600,2400}.webp + <base>-1600.jpg; cards = image keys for TG.imgAttrs
   const IMG = city.images || {};
   { const h = document.querySelector('.hero__img');
     if (h && IMG.hero && !h.getAttribute('src').endsWith(`${IMG.hero}-1600.jpg`)) { const b = IMG.hero;
       h.srcset = `${b}-1000.webp 1000w, ${b}-1600.webp 1600w, ${b}-2400.webp 2400w`; h.src = `${b}-1600.jpg`; }
+    if (h && IMG.heroFocus) h.style.objectPosition = IMG.heroFocus;   // optional focal point (object-position) so the subject survives the narrow phone crop, e.g. Ostend's Mercator
     if (h) (h.decode ? h.decode().catch(() => {}) : Promise.resolve()).then(() => h.classList.add('is-city')); }   // index.html hides a non-default city's hero until its own photo is ready (no flash of Gent's)
   { const c = IMG.heroCredit, el = document.getElementById('hero-credit');   // CC BY(-SA) city hero: name author, licence and source next to the image credits
     if (c && el) el.innerHTML = `; city photo: <a href="${esc(c.source)}" target="_blank" rel="noopener">“${esc(c.title)}”</a> by ${esc(c.author)}, <a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a> (cropped, greyscale; the crop is also ${esc(c.license)})`; }

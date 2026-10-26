@@ -175,6 +175,7 @@
      "about": "<span id=\"about-city\">Ostend</span>: the base list covers the whole municipality (the centre, the seafront and the surrounding boroughs) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. On top of that come 68 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
      "images": {
       "hero": "img/cities/oostende/hero-mercator",
+      "heroFocus": "12% 50%",
       "heroCredit": {"title": "Mercator ship at night", "author": "Ward De Ridder", "source": "https://commons.wikimedia.org/wiki/File:Mercator_ship_at_night.jpg", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"},
       "cards": {
        "new": "cities/oostende/new",
