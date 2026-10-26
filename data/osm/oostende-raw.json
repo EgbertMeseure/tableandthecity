@@ -1,0 +1,4066 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-26T01:36:49Z",
+    "timestamp_areas_base": "2026-10-25T22:23:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 404700052,
+  "lat": 51.2109805,
+  "lon": 2.8781697,
+  "tags": {
+    "name": "J. Beel",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 456958309,
+  "lat": 51.2324528,
+  "lon": 2.9167589,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "7",
+    "addr:postcode": "8400",
+    "addr:street": "Vlaanderenstraat",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "changing_table": "no",
+    "check_date:opening_hours": "2022-07-06",
+    "cuisine": "burger",
+    "drive_through": "no",
+    "entrance:kerb:height": "0",
+    "entrance:ramp": "yes",
+    "entrance:step_count": "0",
+    "entrance:width": "1.18",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "McDonald's",
+    "opening_hours": "Mo-Su,PH 10:00-23:00",
+    "outdoor_seating": "no",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+32 59 25 17 72",
+    "takeaway": "yes",
+    "toilets:access": "yes",
+    "toilets:wheelchair": "no",
+    "website": "https://www.mcdonalds.be/nl/restaurants/oostende-in-store",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 456958310,
+  "lat": 51.2319446,
+  "lon": 2.9163107,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Selfi"
+  }
+},
+{
+  "type": "node",
+  "id": 475410418,
+  "lat": 51.2298067,
+  "lon": 2.9231805,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Bistro Beethoven"
+  }
+},
+{
+  "type": "node",
+  "id": 538990445,
+  "lat": 51.1992366,
+  "lon": 2.8502871,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:postcode": "8400",
+    "amenity": "restaurant",
+    "cuisine": "bistro",
+    "email": "info@bistroraversyde.be",
+    "name": "Bistro Raversyde",
+    "opening_hours": "We-Su 11:00-18:00; Jan 12-Feb 06 off",
+    "outdoor_seating": "yes",
+    "phone": "+32 59 83 53 50",
+    "website": "https://www.raversyde.be/nl/praktische-info/restaurant-cafetaria-bistro-raversyde"
+  }
+},
+{
+  "type": "node",
+  "id": 543394315,
+  "lat": 51.2039428,
+  "lon": 2.8694683,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "887",
+    "addr:postcode": "8400",
+    "addr:street": "Nieuwpoortsesteenweg",
+    "addr:unit": "7",
+    "alt_name": "Ostend Airport Restaurant",
+    "amenity": "restaurant",
+    "changing_table": "yes",
+    "changing_table:count": "1",
+    "changing_table:fee": "no",
+    "changing_table:location": "male_toilet",
+    "delivery": "no",
+    "description": "heeft brasseriegedeelte en restaurantgedeelte",
+    "email": "oostende@belair.be",
+    "highchair": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "FreeWifiBelairOstend",
+    "kids_area": "no",
+    "level": "1",
+    "name": "Belair",
+    "opening_hours": "Mo-Th 10:00-17:00; Fr-Su 10:00-21:00",
+    "outdoor_seating": "no",
+    "phone": "+32 59 70 88 58",
+    "reservation": "optional",
+    "smoking": "no",
+    "start_date": "1989",
+    "takeaway": "no",
+    "toilets": "yes",
+    "toilets:access": "yes",
+    "toilets:wheelchair": "designated",
+    "website": "https://www.belair.be/",
+    "wheelchair": "designated"
+  }
+},
+{
+  "type": "node",
+  "id": 543865543,
+  "lat": 51.2007444,
+  "lon": 2.8567922,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "945",
+    "addr:postcode": "8400",
+    "addr:street": "Nieuwpoortsesteenweg",
+    "amenity": "restaurant",
+    "name": "Restaurant Runway 26=08",
+    "opening_hours": "Tu-Sa 12:00-21:30, Su 12:00-16:00",
+    "phone": "+32 59 442 199",
+    "website": "https://runway2608.be"
+  }
+},
+{
+  "type": "node",
+  "id": 604030652,
+  "lat": 51.2322076,
+  "lon": 2.9217364,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "17",
+    "addr:postcode": "8400",
+    "addr:street": "Bonenstraat",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Zeezotje",
+    "website": "http://www.zeezotje.be"
+  }
+},
+{
+  "type": "node",
+  "id": 793691730,
+  "lat": 51.2293608,
+  "lon": 2.9223719,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "9",
+    "addr:postcode": "8400",
+    "addr:street": "Sint-Petrus- en -Paulusplein",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Pataile",
+    "opening_hours": "Mo-Su 11:00-21:30; Tu off",
+    "takeaway": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 793691736,
+  "lat": 51.2298719,
+  "lon": 2.9228270,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Carelli"
+  }
+},
+{
+  "type": "node",
+  "id": 793691743,
+  "lat": 51.2299323,
+  "lon": 2.9224652,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Petrus"
+  }
+},
+{
+  "type": "node",
+  "id": 793691749,
+  "lat": 51.2298410,
+  "lon": 2.9229992,
+  "tags": {
+    "amenity": "pub",
+    "name": "The Cliff"
+  }
+},
+{
+  "type": "node",
+  "id": 1115063555,
+  "lat": 51.2320554,
+  "lon": 2.9205183,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "9",
+    "addr:postcode": "8400",
+    "addr:street": "Dwarsstraat",
+    "amenity": "restaurant",
+    "check_date": "2026-05-06",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "No Nonsense",
+    "phone": "+32 475 70 18 27",
+    "reservation": "yes",
+    "takeaway": "no",
+    "website": "https://www.nononsense-oostende.be",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1115063560,
+  "lat": 51.2322381,
+  "lon": 2.9188108,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "4",
+    "addr:postcode": "8400",
+    "addr:street": "Breidelstraat",
+    "email": "bakkerijdevriendt@scarlet.be",
+    "name": "Devriendt",
+    "phone": "+32 59 70 42 44",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 1195207833,
+  "lat": 51.2335052,
+  "lon": 2.9215626,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "35",
+    "addr:postcode": "8400",
+    "addr:street": "Visserskaai",
+    "amenity": "restaurant",
+    "name": "'t Vistrapje"
+  }
+},
+{
+  "type": "node",
+  "id": 1195214730,
+  "lat": 51.2330735,
+  "lon": 2.9217725,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "32",
+    "addr:postcode": "8400",
+    "addr:street": "Visserskaai",
+    "amenity": "restaurant",
+    "name": "New Lusitania"
+  }
+},
+{
+  "type": "node",
+  "id": 1195214739,
+  "lat": 51.2349590,
+  "lon": 2.9199677,
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:postcode": "8400",
+    "addr:street": "Albert I-Promenade",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "cuisine": "fine_dining;fish;local",
+    "email": "mangerieoostende@icloud.com",
+    "entrance:kerb:height": "0.08",
+    "entrance:step_count": "1",
+    "entrance:width": "1.03",
+    "name": "De Mangerie",
+    "name:de": "Die Esserei",
+    "opening_hours": "Mo-Su 12:00-14:30,18:00-21:30",
+    "phone": "+32 59 50 18 27",
+    "toilets:wheelchair": "no",
+    "website": "https://www.mangerieoostende.be/",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1195277275,
+  "lat": 51.2325970,
+  "lon": 2.9220360,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Edgar"
+  }
+},
+{
+  "type": "node",
+  "id": 1268601826,
+  "lat": 51.2390744,
+  "lon": 2.9340454,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "13",
+    "addr:postcode": "8400",
+    "addr:street": "Vuurtorenweg",
+    "amenity": "restaurant",
+    "check_date": "2026-04-08",
+    "contact:facebook": "fortnapoleonbrasserie",
+    "contact:instagram": "fort_napoleon_brasserie",
+    "diet:gluten_free": "yes",
+    "diet:lactose_free": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Fort Napoleon",
+    "opening_hours": "Jul-Aug We-Su 10:00-18:00; SH 10:00-18:00; Apr 01-Nov 10 We-Su 10:00-18:00; Nov 11-Mar 30 We-Su 10:00-17:00",
+    "outdoor_seating": "yes",
+    "panoramax": "95961b41-3c9b-4a44-8505-13d160a1920f",
+    "phone": "+32 59 33 09 37",
+    "website": "https://www.fort-napoleon-brasserie.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 1270375528,
+  "lat": 51.2097120,
+  "lon": 2.9300959,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "friture",
+    "name": "Frituur 't Hoeksje"
+  }
+},
+{
+  "type": "node",
+  "id": 1597357616,
+  "lat": 51.2322432,
+  "lon": 2.9148673,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Tao"
+  }
+},
+{
+  "type": "node",
+  "id": 1597357617,
+  "lat": 51.2313896,
+  "lon": 2.9134124,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "7",
+    "addr:postcode": "8400",
+    "addr:street": "Monacoplein",
+    "amenity": "restaurant",
+    "contact:email": "info@texmexoostende.be",
+    "contact:phone": "+32 59 51 17 39",
+    "contact:website": "https://texmexoostende.be/",
+    "cuisine": "mexican",
+    "name": "Tex Mex"
+  }
+},
+{
+  "type": "node",
+  "id": 1597357636,
+  "lat": 51.2334377,
+  "lon": 2.9170629,
+  "tags": {
+    "amenity": "pub",
+    "brewery": "chouffe;leffe;tripel_karmeliet;guinness;chimay;carlsberg;grimbergen;affligem;Orval",
+    "changing_table": "no",
+    "entrance:kerb:height": "0.23",
+    "entrance:ramp": "no",
+    "entrance:step_count": "2",
+    "entrance:width": "0.65",
+    "name": "Botteltje",
+    "toilets:wheelchair": "yes",
+    "toilets:wheelchair:accessible_via": "ground floor",
+    "toilets:wheelchair:door_width": "0.9",
+    "website": "https://www.botteltje.be",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1769983355,
+  "lat": 51.2201310,
+  "lon": 2.8872081,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "137C",
+    "addr:postcode": "8400",
+    "addr:street": "Zeedijk",
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 80 07 59",
+    "contact:website": "https://www.restaurant-north.be/",
+    "name": "North",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1814748465,
+  "lat": 51.2137027,
+  "lon": 2.8844774,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "My Kebab"
+  }
+},
+{
+  "type": "node",
+  "id": 2038408825,
+  "lat": 51.2316174,
+  "lon": 2.9117145,
+  "tags": {
+    "amenity": "bar",
+    "name": "Lounge"
+  }
+},
+{
+  "type": "node",
+  "id": 2038408827,
+  "lat": 51.2318087,
+  "lon": 2.9139893,
+  "tags": {
+    "amenity": "pub",
+    "name": "Bada Bing"
+  }
+},
+{
+  "type": "node",
+  "id": 2038408828,
+  "lat": 51.2316992,
+  "lon": 2.9143055,
+  "tags": {
+    "amenity": "pub",
+    "name": "Manuscript"
+  }
+},
+{
+  "type": "node",
+  "id": 2038415570,
+  "lat": 51.2340931,
+  "lon": 2.9152500,
+  "tags": {
+    "amenity": "pub",
+    "name": "Et Alors"
+  }
+},
+{
+  "type": "node",
+  "id": 2330774516,
+  "lat": 51.2042257,
+  "lon": 2.9765062,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "sandwich",
+    "email": "belegde_broodjes@hotmail.com",
+    "name": "el-Castillo",
+    "opening_hours": "Tu-Fr 07:30-14:00; PH off",
+    "phone": "+32 59 25 01 34",
+    "website": "https://www.belegdebroodjes-elcastillo.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 2331450805,
+  "lat": 51.2223326,
+  "lon": 2.9457053,
+  "tags": {
+    "name": "Crumulus",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 2631275006,
+  "lat": 51.2282444,
+  "lon": 2.9114342,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "'t Groote Huys"
+  }
+},
+{
+  "type": "node",
+  "id": 3326022093,
+  "lat": 51.2226388,
+  "lon": 2.8960701,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "12",
+    "addr:postcode": "8400",
+    "addr:street": "Koningin Astridlaan",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/SushiOostende",
+    "contact:instagram": "https://www.instagram.com/sushi_oostende/",
+    "cuisine": "sushi",
+    "elevator:depth": "2.0",
+    "elevator:width": "0.98",
+    "email": "info@sushioostende.be",
+    "entrance:kerb:height": "0",
+    "entrance:step_count": "0",
+    "entrance:width": "1.8",
+    "name": "Sushi Oostende",
+    "opening_hours": "Tu-Sa 16:30-21:45, Su 12:00-21:45",
+    "phone": "+32 59 43 88 88",
+    "smoking": "no",
+    "toilets:wheelchair": "yes",
+    "toilets:wheelchair:accessible_via": "elevator",
+    "toilets:wheelchair:space_side": "1.6",
+    "website": "https://www.sushioostende.be/",
+    "website:menu": "https://www.sushioostende.be/menukaart/",
+    "wheelchair": "yes",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3524253496,
+  "lat": 51.2046833,
+  "lon": 2.8642107,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "568",
+    "addr:postcode": "8400",
+    "addr:street": "Nieuwpoortsesteenweg",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Bistro De Ton"
+  }
+},
+{
+  "type": "node",
+  "id": 3740281893,
+  "lat": 51.2314250,
+  "lon": 2.9141808,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "9",
+    "addr:postcode": "8400",
+    "addr:street": "Madridstraat",
+    "amenity": "restaurant",
+    "check_date": "2026-08-09",
+    "contact:instagram": "cafe_laboheme",
+    "name": "Café La Bohème"
+  }
+},
+{
+  "type": "node",
+  "id": 3740284995,
+  "lat": 51.2338900,
+  "lon": 2.9179860,
+  "tags": {
+    "addr:housenumber": "38",
+    "addr:street": "Kapucijnenstraat",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/DeZeegeuzen/",
+    "name": "De Zeegeuzen",
+    "opening_hours": "We 17:00-03:00; Th 17:00-01:00; Fr-Sa 17:00-03:00; Su 17:00-01:00",
+    "phone": "+32 473 13 02 61"
+  }
+},
+{
+  "type": "node",
+  "id": 3740287898,
+  "lat": 51.2271138,
+  "lon": 2.9042184,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:postcode": "8400",
+    "addr:street": "Koning Boudewijnpromenade",
+    "amenity": "bar",
+    "name": "Kaap"
+  }
+},
+{
+  "type": "node",
+  "id": 3767566815,
+  "lat": 51.2324289,
+  "lon": 2.9217633,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "8",
+    "addr:postcode": "8400",
+    "addr:street": "Vissersplein",
+    "amenity": "restaurant",
+    "check_date": "2023-07-13",
+    "name": "Montgomery",
+    "phone": "+32 59 70 68 15"
+  }
+},
+{
+  "type": "node",
+  "id": 4146900264,
+  "lat": 51.2324746,
+  "lon": 2.9194206,
+  "tags": {
+    "amenity": "pub",
+    "food": "yes",
+    "indoor_seating": "yes",
+    "name": "Pistache",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4189248442,
+  "lat": 51.2313594,
+  "lon": 2.9187872,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "8",
+    "addr:postcode": "8400",
+    "addr:street": "Wittenonnenstraat",
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "Deli twist"
+  }
+},
+{
+  "type": "node",
+  "id": 4189248691,
+  "lat": 51.2298734,
+  "lon": 2.9147633,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "1",
+    "addr:postcode": "8400",
+    "addr:street": "Leopold II-laan",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "entrance:kerb:height": "0",
+    "entrance:step_count": "0",
+    "entrance:width": "0.98",
+    "name": "Bistro Mathilda",
+    "toilets:wheelchair": "no",
+    "website": "https://www.bistromathilda.be/",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4189248692,
+  "lat": 51.2299955,
+  "lon": 2.9156308,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "18A",
+    "addr:postcode": "8400",
+    "addr:street": "Hendrik Serruyslaan",
+    "amenity": "cafe",
+    "capacity": "60",
+    "cuisine": "seafood;international",
+    "delivery": "no",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "cultuurcafe@degrotepost.be",
+    "name": "CultuurCafé De Grote Post",
+    "opening_hours": "Mo-Su 08:30-23:00",
+    "outdoor_seating": "no",
+    "payment:bancontact": "yes",
+    "payment:bank_card": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+32 496 25 84 88",
+    "website": "https://www.degrotepost.be/plan_je_bezoek/CultuurCafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4189248693,
+  "lat": 51.2241242,
+  "lon": 2.9087954,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "67",
+    "addr:postcode": "8400",
+    "addr:street": "Torhoutsesteenweg",
+    "amenity": "cafe",
+    "contact:facebook": "https://www.facebook.com/p/Bistro-PIAF-100065216340388/",
+    "email": "montix1@live.be",
+    "name": "Bistro Piaf",
+    "phone": "+32 496 39 04 30"
+  }
+},
+{
+  "type": "node",
+  "id": 4294567390,
+  "lat": 51.2322140,
+  "lon": 2.9142927,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Pitta Izmir"
+  }
+},
+{
+  "type": "node",
+  "id": 4311857662,
+  "lat": 51.2310489,
+  "lon": 2.9176561,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "23",
+    "addr:postcode": "8400",
+    "addr:street": "Wittenonnenstraat",
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 50 71 15",
+    "contact:website": "http://la-siesta.be/",
+    "cuisine": "spanish",
+    "name": "La Siesta",
+    "opening_hours": "Mo-Th 11:00-23:00; Fr 11:00-00:00; Sa 00:00-01:00,11:00-24:00; Su 00:00-01:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4463241915,
+  "lat": 51.2232026,
+  "lon": 2.9082252,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "1A",
+    "addr:postcode": "8400",
+    "addr:street": "Weeshuisstraat",
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "name": "Marcelline",
+    "opening_hours": "Mo-We off; Th-Su 09:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4486439201,
+  "lat": 51.2308670,
+  "lon": 2.9113186,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Jilles Beer & Burgers"
+  }
+},
+{
+  "type": "node",
+  "id": 4537351791,
+  "lat": 51.2324660,
+  "lon": 2.9154518,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "38;40",
+    "addr:postcode": "8400",
+    "addr:street": "Langestraat",
+    "alt_name": "Taverne Koekoek",
+    "amenity": "restaurant",
+    "check_date": "2026-07-07",
+    "contact:facebook": "https://www.facebook.com/Koekoek-434731266559321/",
+    "email": "koekoek.oostende@telenet.be",
+    "indoor_seating": "yes",
+    "name": "Koekoek",
+    "opening_hours": "Mo-Su 10:00-23:15",
+    "outdoor_seating": "yes",
+    "phone": "+32 59 70 89 70",
+    "url": "https://koekoekoostende.be/",
+    "website": "https://www.tavernekoekoek.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 4551217589,
+  "lat": 51.2325857,
+  "lon": 2.9199665,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2023-11-12",
+    "cuisine": "seafood",
+    "name": "Apero Fish Palace",
+    "opening_hours": "Th,Su 10:00-21:00; Fr-Sa 10:00-22:00",
+    "phone": "+32 59 50 02 24",
+    "takeaway": "yes",
+    "toilets:wheelchair": "no",
+    "website": "https://apero-fish-palace.be/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4569526947,
+  "lat": 51.2264972,
+  "lon": 2.9256982,
+  "tags": {
+    "amenity": "pub",
+    "name": "'t Hazegras"
+  }
+},
+{
+  "type": "node",
+  "id": 4694177483,
+  "lat": 51.2245236,
+  "lon": 2.8972591,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "13",
+    "addr:postcode": "8400",
+    "addr:street": "Koningin Astridlaan",
+    "amenity": "restaurant",
+    "changing_table": "yes",
+    "entrance:kerb:height": "0.06",
+    "entrance:ramp": "no",
+    "entrance:step_count": "1",
+    "entrance:width": "0.78",
+    "name": "Aldis",
+    "toilets:wheelchair": "yes",
+    "toilets:wheelchair:accessible_via": "ground floor",
+    "toilets:wheelchair:space_side": "0.32",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4740527843,
+  "lat": 51.2336385,
+  "lon": 2.9168737,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "1",
+    "addr:postcode": "8400",
+    "addr:street": "Achturenplein",
+    "amenity": "restaurant",
+    "cuisine": "filipino",
+    "description": "oriental streetfood",
+    "email": "potmamioostende@gmail.com",
+    "name": "Pot Mami",
+    "opening_hours": "Tu-Sa 12:00-15:00,18:00-21:30",
+    "phone": "+32 59 43 01 95",
+    "website": "https://potmamiorientalrestaurantoostende.blogspot.com/?m=1"
+  }
+},
+{
+  "type": "node",
+  "id": 4892241947,
+  "lat": 51.2299433,
+  "lon": 2.9157264,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "18A",
+    "addr:postcode": "8400",
+    "addr:street": "Hendrik Serruyslaan",
+    "amenity": "cafe",
+    "email": "cultuurcafe@degrotepost.be",
+    "name": "Gastrobar Panorama",
+    "note": "It is only a terrace on the top floor, but only for non smokers.",
+    "opening_hours": "Jun-Sep Mo-Su 08:30-00:00",
+    "outdoor_seating": "yes",
+    "payment:bancontact": "yes",
+    "payment:bank_card": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "phone": "+32 496 25 84 88",
+    "smoking:outside": "no",
+    "website": "https://www.degrotepost.be/cultuurcafe-de-grote-post-5xnz"
+  }
+},
+{
+  "type": "node",
+  "id": 4899040346,
+  "lat": 51.2302308,
+  "lon": 2.9121139,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "De Charlou",
+    "phone": "+32 494 17 29 37",
+    "website": "https://www.decharlou.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 5015218712,
+  "lat": 51.2310969,
+  "lon": 2.9143242,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "53",
+    "addr:postcode": "8400",
+    "addr:street": "Adolf Buylstraat",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "contact:phone": "+32 59 51 32 32",
+    "contact:website": "http://cheersoostende.be/",
+    "entrance:kerb:height": "0.38",
+    "entrance:ramp": "no",
+    "entrance:step_count": "2",
+    "entrance:width": "1.02",
+    "name": "Cheers Brasserie Tearoom",
+    "outdoor_seating": "yes",
+    "toilets:wheelchair": "no",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5084776132,
+  "lat": 51.2294469,
+  "lon": 2.9235193,
+  "tags": {
+    "amenity": "pub",
+    "check_date": "2024-01-07",
+    "indoor_seating": "yes",
+    "name": "'t Waterhuis",
+    "outdoor_seating": "yes",
+    "phone": "+32 59 80 32 73",
+    "website": "https://www.waterhuisoostende.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 5084776189,
+  "lat": 51.2334081,
+  "lon": 2.9213843,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "16",
+    "addr:postcode": "8400",
+    "addr:street": "Nieuwstraat",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "cuisine": "regional",
+    "entrance:kerb:height": "0.44",
+    "entrance:ramp": "no",
+    "entrance:step_count": "2",
+    "entrance:width": "0.84",
+    "name": "L'Enfant Terrible",
+    "opening_hours": "Tu-Sa 11:30-15:00,18:00-23:00;Su 11:30-23:00",
+    "phone": "+32 59 51 33 86",
+    "toilets:wheelchair": "no",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5087378832,
+  "lat": 51.2028662,
+  "lon": 2.9030473,
+  "tags": {
+    "addr:housenumber": "601",
+    "addr:street": "Torhoutsesteenweg",
+    "amenity": "restaurant",
+    "name": "Bistro Van Gogh",
+    "website": "https://www.bistrovangogh.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 5513791402,
+  "lat": 51.2284746,
+  "lon": 2.9205375,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 70 55 94",
+    "name": "Intermezzo",
+    "opening_hours": "Mo-Sa 09:00-18:00; We off"
+  }
+},
+{
+  "type": "node",
+  "id": 5515655617,
+  "lat": 51.2316101,
+  "lon": 2.9194767,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+32 473 87 12 97",
+    "contact:website": "https://www.wijnbistrodivino.be",
+    "name": "Wijnbistro diVino",
+    "opening_hours": "We-Su 18:00-22:00; Fr-Sa 18:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5515666944,
+  "lat": 51.2320456,
+  "lon": 2.9133970,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 43 34 53",
+    "contact:website": "https://eclips-at-sea.be/",
+    "name": "Eclips",
+    "opening_hours": "Su-We 18:00-20:30; Mo off; Fr-Sa 18:00-21:00",
+    "payment:american_express": "no",
+    "payment:cash": "yes",
+    "payment:visa": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5516033237,
+  "lat": 51.2259300,
+  "lon": 2.9131381,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 51 39 89",
+    "name": "Lentini",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 11:30-14:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5516046431,
+  "lat": 51.2319172,
+  "lon": 2.9136833,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+32 498 67 28 30",
+    "name": "St. Tropez",
+    "opening_hours": "Fr-Tu 17:30-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5516053517,
+  "lat": 51.2294830,
+  "lon": 2.9089483,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 80 21 86",
+    "contact:website": "http://www.restaurant-valentino.be/",
+    "name": "Valentino",
+    "opening_hours": "Mo-Th 12:00-14:00; Tu off; We off; Fr 12:00-14:00, 18:00-21:00; Sa-Su 12:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5516061799,
+  "lat": 51.2317056,
+  "lon": 2.9134348,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "64",
+    "addr:postcode": "8400",
+    "addr:street": "Van Iseghemlaan",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/RestaurantLobster",
+    "contact:phone": "+32 59 50 02 82",
+    "contact:website": "https://www.lobster.be/",
+    "name": "Restaurant Lobster",
+    "opening_hours": "Mo 12:00-14:00; Tu off; We-Su 12:00-14:00, 18:30-21:30",
+    "payment:american_express": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5516079237,
+  "lat": 51.2351983,
+  "lon": 2.9189445,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 80 20 34",
+    "name": "Othello"
+  }
+},
+{
+  "type": "node",
+  "id": 5527626218,
+  "lat": 51.2313412,
+  "lon": 2.9176735,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Panos",
+    "brand:wikidata": "Q3384496",
+    "brand:wikipedia": "nl:Panos",
+    "contact:phone": "+32 59 50 10 32",
+    "contact:website": "https://www.stores.panos.be",
+    "cuisine": "sandwich",
+    "name": "Panos",
+    "opening_hours": "Mo-Sa 07:30-18:30; Su 09:00-18:30",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5569219195,
+  "lat": 51.2313991,
+  "lon": 2.9189028,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "9",
+    "addr:postcode": "8400",
+    "addr:street": "Kerkstraat",
+    "amenity": "restaurant",
+    "cuisine": "georgian",
+    "name": "2 Sides",
+    "operator": "Tea Shakarashvili",
+    "phone": "+32 485 19 10 29"
+  }
+},
+{
+  "type": "node",
+  "id": 5611708622,
+  "lat": 51.2322433,
+  "lon": 2.9213259,
+  "tags": {
+    "amenity": "bar",
+    "name": "Crayon"
+  }
+},
+{
+  "type": "node",
+  "id": 5761744234,
+  "lat": 51.1976528,
+  "lon": 2.9793671,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:mobile": "+32 498 54 54 71",
+    "contact:website": "https://tearoomsand.be/",
+    "name": "Tearoom 'Sand"
+  }
+},
+{
+  "type": "node",
+  "id": 5848254463,
+  "lat": 51.2383891,
+  "lon": 2.9271832,
+  "tags": {
+    "access": "private",
+    "addr:housenumber": "4",
+    "addr:street": "Halvemaandijk",
+    "amenity": "restaurant",
+    "indoor_seating": "yes",
+    "name": "Ostend Sailing & Phare East",
+    "outdoor_seating": "yes",
+    "website": "https://www.phareeast.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 5875342956,
+  "lat": 51.2261909,
+  "lon": 2.9238506,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "4",
+    "addr:postcode": "8400",
+    "addr:province": "West-Vlaanderen",
+    "addr:street": "Graaf de Smet de Naeyerlaan",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "cuisine": "international",
+    "entrance:kerb:height": "0.04",
+    "entrance:ramp": "no",
+    "entrance:step_count": "1",
+    "entrance:width": "0.68",
+    "name": "Bistro des Belges",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:notes": "yes",
+    "phone": "+32 484 51 97 07",
+    "smoking": "no",
+    "toilets:wheelchair": "yes",
+    "toilets:wheelchair:accessible_via": "ground floor",
+    "toilets:wheelchair:door_width": "0.81",
+    "toilets:wheelchair:space_side": "0.66",
+    "website": "https://bistrodesbelges.be/",
+    "wheelchair": "yes",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5885699345,
+  "lat": 51.2244942,
+  "lon": 2.8965597,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Champs Elyzee"
+  }
+},
+{
+  "type": "node",
+  "id": 5892635493,
+  "lat": 51.2324071,
+  "lon": 2.9485813,
+  "tags": {
+    "name": "Roger Maenhout en Pieters",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 5894606318,
+  "lat": 51.2285590,
+  "lon": 2.9096165,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "20",
+    "addr:postcode": "8400",
+    "addr:street": "Kemmelbergstraat",
+    "amenity": "restaurant",
+    "name": "Villa des Camélias",
+    "outdoor_seating": "no",
+    "website": "https://www.villadescamelias.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 5914809669,
+  "lat": 51.2382066,
+  "lon": 2.9390347,
+  "tags": {
+    "amenity": "cafe",
+    "name": "You Jump"
+  }
+},
+{
+  "type": "node",
+  "id": 6029480170,
+  "lat": 51.2301736,
+  "lon": 2.9115637,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "friture",
+    "facebook": "https://www.visitoostende.be/nl/olis-frituur",
+    "name": "Oli's Frituur"
+  }
+},
+{
+  "type": "node",
+  "id": 6029926219,
+  "lat": 51.2293267,
+  "lon": 2.9204874,
+  "tags": {
+    "amenity": "pub",
+    "name": "St. Pieters"
+  }
+},
+{
+  "type": "node",
+  "id": 6030249076,
+  "lat": 51.2283694,
+  "lon": 2.9110316,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "53",
+    "addr:postcode": "8400",
+    "addr:street": "Karel Janssenslaan",
+    "amenity": "fast_food",
+    "cuisine": "burger;friture",
+    "email": "info@frituurfranky.be",
+    "indoor_seating": "yes",
+    "name": "Frituur Franky",
+    "opening_hours": "Tu-Th 11:30-14:00,17:30-23:00;Fr-Sa 11:30-14:00,17:30-23:30;Su 17:00-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+32 59 41 26 95",
+    "website": "https://www.frituurfranky.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 6030384849,
+  "lat": 51.2304223,
+  "lon": 2.9106581,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Marebello",
+    "website": "https://marebello.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 6030384850,
+  "lat": 51.2304553,
+  "lon": 2.9107265,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Petit Nice"
+  }
+},
+{
+  "type": "node",
+  "id": 6030384851,
+  "lat": 51.2304958,
+  "lon": 2.9108123,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "De Foyer",
+    "website": "https://www.foyeroostende.be"
+  }
+},
+{
+  "type": "node",
+  "id": 6030384852,
+  "lat": 51.2305256,
+  "lon": 2.9108740,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "St-Malo",
+    "website": "https://www.st-malo.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 6030384854,
+  "lat": 51.2305747,
+  "lon": 2.9109733,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Chamonix"
+  }
+},
+{
+  "type": "node",
+  "id": 6353320726,
+  "lat": 51.2041304,
+  "lon": 2.8698443,
+  "tags": {
+    "amenity": "cafe",
+    "diet:vegetarian": "no",
+    "internet_access": "wlan",
+    "name": "Grand Café Horizon",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6392800072,
+  "lat": 51.2281779,
+  "lon": 2.9212280,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Grand Café Burlington"
+  }
+},
+{
+  "type": "node",
+  "id": 6393899065,
+  "lat": 51.2348306,
+  "lon": 2.9202940,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "De Yot"
+  }
+},
+{
+  "type": "node",
+  "id": 6393899067,
+  "lat": 51.2347525,
+  "lon": 2.9206225,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "greek",
+    "name": "Acropolis"
+  }
+},
+{
+  "type": "node",
+  "id": 6396537261,
+  "lat": 51.2278353,
+  "lon": 2.9108499,
+  "tags": {
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6398940845,
+  "lat": 51.2340194,
+  "lon": 2.9178303,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "44",
+    "addr:postcode": "8400",
+    "addr:street": "Kapucijnenstraat",
+    "amenity": "restaurant",
+    "name": "El Mariachi"
+  }
+},
+{
+  "type": "node",
+  "id": 6398940846,
+  "lat": 51.2339657,
+  "lon": 2.9178867,
+  "tags": {
+    "amenity": "pub",
+    "name": "Spanish Inn"
+  }
+},
+{
+  "type": "node",
+  "id": 6398940847,
+  "lat": 51.2339287,
+  "lon": 2.9179215,
+  "tags": {
+    "amenity": "pub",
+    "name": "Filip's Place"
+  }
+},
+{
+  "type": "node",
+  "id": 6404531002,
+  "lat": 51.2299256,
+  "lon": 2.9219234,
+  "tags": {
+    "amenity": "pub",
+    "check_date": "2024-01-07",
+    "name": "Pascal's Bistro",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6455358785,
+  "lat": 51.2301052,
+  "lon": 2.9100389,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "La marée"
+  }
+},
+{
+  "type": "node",
+  "id": 6472649898,
+  "lat": 51.2316972,
+  "lon": 2.9159498,
+  "tags": {
+    "addr:postcode": "8400",
+    "amenity": "cafe",
+    "cuisine": "ice_cream;coffee",
+    "name": "Tearoom Georges",
+    "opening_hours": "Mo-Tu 10:00-18:00; Th-Su 10:00-18:30",
+    "phone": "+32 59 70 29 25",
+    "website": "https://tearoomgeorges.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 6472964686,
+  "lat": 51.2285735,
+  "lon": 2.9226677,
+  "tags": {
+    "amenity": "pub"
+  }
+},
+{
+  "type": "node",
+  "id": 6569718354,
+  "lat": 51.2324218,
+  "lon": 2.9193277,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "3",
+    "addr:postcode": "8400",
+    "addr:street": "Groentemarkt",
+    "amenity": "cafe",
+    "books": "second_hand",
+    "indoor_seating": "yes",
+    "name": "'t Leeshuus",
+    "opening_hours": "We,Fr 14:00-18:00; Th,Sa 10:00-18:00; Su 10:00-15:00",
+    "outdoor_seating": "yes",
+    "website": "https://leeshuus.be/oostende/"
+  }
+},
+{
+  "type": "node",
+  "id": 6578523231,
+  "lat": 51.2331486,
+  "lon": 2.9171692,
+  "tags": {
+    "addr:housenumber": "60B",
+    "addr:street": "Langestraat",
+    "amenity": "restaurant",
+    "name": "Mersea"
+  }
+},
+{
+  "type": "node",
+  "id": 6578523236,
+  "lat": 51.2336634,
+  "lon": 2.9184285,
+  "tags": {
+    "amenity": "fast_food",
+    "diet:vegetarian": "limited",
+    "name": "Old Ham"
+  }
+},
+{
+  "type": "node",
+  "id": 6743886875,
+  "lat": 51.2312467,
+  "lon": 2.9181311,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "13",
+    "addr:postcode": "8400",
+    "addr:street": "Wittenonnenstraat",
+    "amenity": "ice_cream",
+    "changing_table": "no",
+    "entrance:kerb:height": "0",
+    "entrance:ramp": "no",
+    "entrance:step_count": "0",
+    "entrance:width": "2.35",
+    "name": "Boulangerie de la Mer",
+    "shop": "bakery",
+    "toilets:wheelchair": "no",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6763197447,
+  "lat": 51.2223498,
+  "lon": 2.8922796,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "105",
+    "addr:postcode": "8400",
+    "addr:street": "Zeedijk",
+    "amenity": "restaurant",
+    "level": "0",
+    "name": "Fauvisme",
+    "opening_hours": "We-Su 11:00-20:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6770166269,
+  "lat": 51.2218677,
+  "lon": 2.8913708,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "114",
+    "addr:postcode": "8400",
+    "addr:street": "Zeedijk",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "email": "mariogreca19@gmail.com",
+    "level": "0",
+    "name": "Ristorante - Pizzeria Momento",
+    "opening_hours": "Fr-Su 11:30-15:00, Fr-Su 17:30-22:00",
+    "outdoor_seating": "yes",
+    "phone": "+32 59 50 88 93",
+    "toilets": "yes",
+    "website": "https://www.pizzeria-momento.be/",
+    "website:menu": "https://www.pizzeria-momento.be/menu"
+  }
+},
+{
+  "type": "node",
+  "id": 6775303396,
+  "lat": 51.2205837,
+  "lon": 2.8884087,
+  "tags": {
+    "amenity": "restaurant",
+    "entrance:kerb:height": "0.05",
+    "entrance:step_count": "1",
+    "entrance:width": "0.9",
+    "level": "0",
+    "name": "Mercator",
+    "outdoor_seating": "yes",
+    "toilets:wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6779683037,
+  "lat": 51.2203207,
+  "lon": 2.8876300,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Benvenuto",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6779700651,
+  "lat": 51.2202591,
+  "lon": 2.8880533,
+  "tags": {
+    "check_date": "2024-02-15",
+    "contact:email": "bakkerijprestige@hotmail.com",
+    "contact:website": "https://bakkerijprestige.jimdo.com/",
+    "name": "Prestige",
+    "opening_hours": "Mo-Su,PH 07:30-18:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6779705133,
+  "lat": 51.2197524,
+  "lon": 2.8876877,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "83",
+    "addr:postcode": "8400",
+    "addr:street": "Troonstraat",
+    "amenity": "restaurant",
+    "contact:email": "info@restaurantboucquez.be",
+    "contact:phone": "+32 59 50 82 04",
+    "contact:website": "http://www.restaurantboucquez.be",
+    "name": "Restaurant Boucquez",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6779709387,
+  "lat": 51.2202195,
+  "lon": 2.8873886,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "137",
+    "addr:postcode": "8400",
+    "addr:street": "Zeedijk",
+    "amenity": "restaurant",
+    "contact:phone": "+32 59 51 61 13",
+    "contact:website": "https://ilgustodisorrento.be",
+    "cuisine": "italian",
+    "entrance:kerb:height": "0",
+    "entrance:step_count": "0",
+    "entrance:width": "0.95",
+    "name": "Il gusto di sorrento"
+  }
+},
+{
+  "type": "node",
+  "id": 6787808944,
+  "lat": 51.2305361,
+  "lon": 2.9168084,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "2",
+    "addr:postcode": "8400",
+    "addr:street": "Aartshertoginnestraat",
+    "amenity": "pub",
+    "facebook": "https://www.facebook.com/pelikaanoostende",
+    "name": "De Pelikaan"
+  }
+},
+{
+  "type": "node",
+  "id": 6793822877,
+  "lat": 51.2312556,
+  "lon": 2.9153044,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "42",
+    "addr:postcode": "8400",
+    "addr:street": "Adolf Buylstraat",
+    "brand": "Paul",
+    "brand:wikidata": "Q3370417",
+    "contact:phone": "+32 59 70 16 86",
+    "contact:website": "https://www.paul-belgium.be/nl/find-a-paul/oostende",
+    "name": "Paul",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 6795554138,
+  "lat": 51.2318684,
+  "lon": 2.9145185,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "33",
+    "addr:postcode": "8400",
+    "addr:street": "Langestraat",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Il Cavaliere"
+  }
+},
+{
+  "type": "node",
+  "id": 6795578291,
+  "lat": 51.2316706,
+  "lon": 2.9147948,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "6",
+    "addr:postcode": "8400",
+    "addr:street": "Hertstraat",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "entrance:kerb:height": "0.35",
+    "entrance:ramp": "no",
+    "entrance:step_count": "1",
+    "entrance:width": "0.96",
+    "name": "The Catch",
+    "toilets:wheelchair": "no",
+    "website": "https://www.thecatch.be/",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6796419924,
+  "lat": 51.2313058,
+  "lon": 2.9140149,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "8",
+    "addr:postcode": "8400",
+    "addr:street": "Madridstraat",
+    "amenity": "restaurant",
+    "cuisine": "lebanese",
+    "name": "Pita Baba"
+  }
+},
+{
+  "type": "node",
+  "id": 6796419925,
+  "lat": 51.2312377,
+  "lon": 2.9140250,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "6",
+    "addr:postcode": "8400",
+    "addr:street": "Madridstraat",
+    "amenity": "restaurant",
+    "name": "Resto Kafka",
+    "phone": "+32 477 791 860",
+    "website": "https://www.restokafka.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 6801194400,
+  "lat": 51.2344384,
+  "lon": 2.9159971,
+  "tags": {
+    "addr:housenumber": "39",
+    "addr:street": "Albert I-Promenade",
+    "amenity": "bar",
+    "changing_table": "no",
+    "contact:website": "https://galeriebeausite.com/",
+    "entrance:kerb:height": "0.19",
+    "entrance:ramp": "no",
+    "entrance:step_count": "2",
+    "entrance:width": "0.8",
+    "name": "Galerie BeauSite",
+    "toilets:wheelchair": "no",
+    "tourism": "gallery",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6832083722,
+  "lat": 51.2316720,
+  "lon": 2.9140627,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Bombay"
+  }
+},
+{
+  "type": "node",
+  "id": 6979638591,
+  "lat": 51.2352180,
+  "lon": 2.9321551,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "7A",
+    "addr:postcode": "8400",
+    "addr:street": "Hendrik Baelskaai",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "email": "info@resto-marina.be",
+    "name": "Marina",
+    "phone": "+32 59 70 35 56",
+    "website": "https://www.resto-marina.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 7020528002,
+  "lat": 51.2288168,
+  "lon": 2.9099556,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "64",
+    "addr:postcode": "8400",
+    "addr:street": "Koningsstraat",
+    "amenity": "bar",
+    "name": "The Green Man"
+  }
+},
+{
+  "type": "node",
+  "id": 7102288586,
+  "lat": 51.2338131,
+  "lon": 2.9182454,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "13",
+    "addr:postcode": "8400",
+    "addr:street": "Kapucijnenstraat",
+    "amenity": "restaurant",
+    "name": "Den Artiest"
+  }
+},
+{
+  "type": "node",
+  "id": 7382812670,
+  "lat": 51.2362411,
+  "lon": 2.9411231,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "79",
+    "addr:postcode": "8400",
+    "addr:street": "Stroombanklaan",
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "Frituur Opex"
+  }
+},
+{
+  "type": "node",
+  "id": 7394430870,
+  "lat": 51.2164979,
+  "lon": 2.9132055,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "124",
+    "addr:postcode": "8400",
+    "addr:street": "Blauwkasteelstraat",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "drive_through": "no",
+    "name": "'t Smoefelgatje"
+  }
+},
+{
+  "type": "node",
+  "id": 7394784497,
+  "lat": 51.2299562,
+  "lon": 2.9452227,
+  "tags": {
+    "name": "Bakkerij Devooght & De Witte",
+    "payment:coins": "yes",
+    "payment:credit_cards": "yes",
+    "payment:notes": "yes",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 7740425521,
+  "lat": 51.2333157,
+  "lon": 2.9211777,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "10",
+    "addr:postcode": "8400",
+    "addr:street": "Nieuwstraat",
+    "amenity": "restaurant",
+    "cuisine": "salad",
+    "name": "Passe-Vite"
+  }
+},
+{
+  "type": "node",
+  "id": 7740426522,
+  "lat": 51.2318827,
+  "lon": 2.9192993,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Ohana Pokebowls"
+  }
+},
+{
+  "type": "node",
+  "id": 7855091964,
+  "lat": 51.2320907,
+  "lon": 2.9365278,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "33",
+    "addr:postcode": "8400",
+    "addr:street": "Hendrik Baelskaai",
+    "amenity": "cafe",
+    "name": "The Sailor",
+    "phone": "+32 59 26 94 14"
+  }
+},
+{
+  "type": "node",
+  "id": 9337104174,
+  "lat": 51.2343953,
+  "lon": 2.9233313,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 9500971581,
+  "lat": 51.2011285,
+  "lon": 2.9754648,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "friture",
+    "drive_through": "no",
+    "mobile": "+32 478 53 36 09",
+    "name": "Frituur Sophie",
+    "opening_hours": "Mo-Su 17:30-21:30; Tu off; We-Fr 11:15-13:30,17:30-21:30",
+    "outdoor_seating": "yes",
+    "self_service": "no",
+    "takeaway": "yes",
+    "website": "https://www.frituursophie.be"
+  }
+},
+{
+  "type": "node",
+  "id": 9522033447,
+  "lat": 51.2325667,
+  "lon": 2.9123962,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "ice_cream;waffle",
+    "diet:vegan": "no",
+    "diet:vegetarian": "only",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "takeaway": "only",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9659323534,
+  "lat": 51.2258600,
+  "lon": 2.9240511,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "friture",
+    "name": "'t Hazegras",
+    "phone": "+32 59 70 77 35",
+    "website": "https://www.frituurhazegras.be"
+  }
+},
+{
+  "type": "node",
+  "id": 9759736418,
+  "lat": 51.2333471,
+  "lon": 2.9137784,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Diplomat"
+  }
+},
+{
+  "type": "node",
+  "id": 9761192509,
+  "lat": 51.2333838,
+  "lon": 2.9153233,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "47",
+    "addr:postcode": "8400",
+    "addr:street": "Van Iseghemlaan",
+    "amenity": "cafe",
+    "cuisine": "breakfast;salad;dessert;drinks;coffee",
+    "email": "expo_kafie@icloud.com",
+    "level": "0",
+    "name": "Expo & Kafie",
+    "opening_hours": "Mo-Tu 09:00-16:00; We off; Th-Fr 09:00-16:00; Sa-Su 09:00-17:00",
+    "outdoor_seating": "yes",
+    "payment:cards": "only",
+    "payment:cash": "no",
+    "payment:contactless": "yes",
+    "phone": "+32 59 30 43 70",
+    "reservation": "yes",
+    "website": "https://www.expo-kafie.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 9781753149,
+  "lat": 51.2331302,
+  "lon": 2.9350747,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Storm"
+  }
+},
+{
+  "type": "node",
+  "id": 9781753155,
+  "lat": 51.2344826,
+  "lon": 2.9331628,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Vesper"
+  }
+},
+{
+  "type": "node",
+  "id": 9884865338,
+  "lat": 51.2050866,
+  "lon": 2.8657969,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "regional;beer",
+    "name": "Bierrestaurant Heerlijk",
+    "opening_hours": "We-Su 11:30-22:00",
+    "phone": "+32 59 49 00 64",
+    "website": "https://bierrestaurantheerlijk.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 9894893765,
+  "lat": 51.2035089,
+  "lon": 2.9029950,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "contact:website": "https://burgerking.be/nl/stores/#!/l/oostende/torhoutsesteenweg-597/4720807",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "Burger King",
+    "opening_hours": "Mo-Su 10:30-23:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9931311626,
+  "lat": 51.2197705,
+  "lon": 2.9115258,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "61",
+    "addr:postcode": "8400",
+    "addr:street": "Leffingestraat",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Time Out broodjeszaak",
+    "opening_hours": "Mo-Tu 08:00-18:00; We 08:00-14:00; Th 08:00-18:00; Fr 08:00-14:00; PH off",
+    "outdoor_seating": "no",
+    "payment:bancontact": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:payconiq": "yes",
+    "phone": "+32 468 26 41 48",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9945759045,
+  "lat": 51.2028472,
+  "lon": 2.9149181,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "2",
+    "addr:postcode": "8400",
+    "addr:street": "Oudstrijdersplein",
+    "addr:suburb": "Stene",
+    "amenity": "pub",
+    "name": "'t Pomptje"
+  }
+},
+{
+  "type": "node",
+  "id": 9949167245,
+  "lat": 51.2335979,
+  "lon": 2.9142617,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:website": "https://www.facebook.com/pages/Le-Bordeau/209706592394795",
+    "cuisine": "regional",
+    "name": "Le Bord'eau"
+  }
+},
+{
+  "type": "node",
+  "id": 9963293023,
+  "lat": 51.2018721,
+  "lon": 2.9143582,
+  "tags": {
+    "addr:housenumber": "27",
+    "addr:street": "Stenedorpstraat",
+    "amenity": "restaurant",
+    "contact:mobile": "+32 478 97 88 70",
+    "contact:phone": "+32 59 80 08 82",
+    "name": "Bistro De Lisse",
+    "website": "https://www.bistrodelisse.be/copy-of-home-1"
+  }
+},
+{
+  "type": "node",
+  "id": 9963293024,
+  "lat": 51.2026006,
+  "lon": 2.9149671,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "5",
+    "addr:postcode": "8400",
+    "addr:street": "Oudstrijdersplein",
+    "addr:suburb": "Stene",
+    "amenity": "restaurant",
+    "name": "De Vlasschaard"
+  }
+},
+{
+  "type": "node",
+  "id": 9963293025,
+  "lat": 51.2022691,
+  "lon": 2.9147514,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "4",
+    "addr:postcode": "8400",
+    "addr:street": "Stenedorpstraat",
+    "addr:suburb": "Stene",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "name": "Roccia"
+  }
+},
+{
+  "type": "node",
+  "id": 10053556543,
+  "lat": 51.2217094,
+  "lon": 2.9085939,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "124",
+    "addr:postcode": "8400",
+    "addr:street": "Torhoutsesteenweg",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "cuisine": "pizza",
+    "entrance:kerb:height": "0",
+    "entrance:step_count": "0",
+    "entrance:width": "0.92",
+    "name": "Pizza Hut",
+    "toilets:wheelchair": "no",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10091721052,
+  "lat": 51.2301798,
+  "lon": 2.9455292,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "name": "D-Licious Junior"
+  }
+},
+{
+  "type": "node",
+  "id": 10250524592,
+  "lat": 51.2307725,
+  "lon": 2.9226133,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "82",
+    "addr:postcode": "8400",
+    "addr:street": "Sint-Paulusstraat",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "entrance:kerb:height": "0.04",
+    "entrance:ramp": "no",
+    "entrance:step_count": "2",
+    "entrance:width": "0.75",
+    "name": "'t Mespuntje",
+    "toilets:wheelchair": "no",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10250531233,
+  "lat": 51.2307473,
+  "lon": 2.9225238,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "80",
+    "addr:postcode": "8400",
+    "addr:street": "Sint-Paulusstraat",
+    "amenity": "pub",
+    "description": "Uitbater Iwein Scheer staat al 50 jaar achter de toog. De kleurrijke gevel valt meteen op wanneer je het pittoreske Pauluspleintje opkomt. Dit café is traditie in Oostende: binnen in het café voel je dat de passie in het bloed zit.",
+    "name": "'t Kroegske",
+    "operator": "Iwein Scheer"
+  }
+},
+{
+  "type": "node",
+  "id": 10702727182,
+  "lat": 51.2174480,
+  "lon": 2.9074628,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "263",
+    "addr:postcode": "8400",
+    "addr:street": "Torhoutsesteenweg",
+    "name": "Bakkerij Nico",
+    "opening_hours": "Mo-Sa 06:00-12:30,13:15-18:30; Tu off; Su 06:00-12:30,13:15-17:00; PH 06:00-12:30,13:15-17:00",
+    "phone": "+32 59 80 58 78",
+    "shop": "bakery",
+    "website": "https://www.bakkerij-nico.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 10723965806,
+  "lat": 51.2256436,
+  "lon": 2.9237815,
+  "tags": {
+    "addr:housenumber": "19B",
+    "addr:postcode": "8400",
+    "addr:street": "Graaf de Smet de Naeyerlaan",
+    "amenity": "restaurant",
+    "cuisine": "italian;italian_pizza",
+    "email": "elsroels@hotmail.com",
+    "name": "La Piazza",
+    "phone": "+32 59 27 47 91",
+    "website": "https://www.lapiazzaoostende.com"
+  }
+},
+{
+  "type": "node",
+  "id": 10733267005,
+  "lat": 51.2307456,
+  "lon": 2.9111799,
+  "tags": {
+    "addr:housenumber": "33",
+    "addr:postcode": "8400",
+    "addr:street": "Ijzerstraat",
+    "amenity": "restaurant",
+    "name": "Le Basque",
+    "opening_hours": "We-Mo 11:00-21:00",
+    "phone": "+32 497 55 35 32",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.lebasqueoostende.be/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10768306633,
+  "lat": 51.2321047,
+  "lon": 2.9206564,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:facebook": "https://www.facebook.com/pages/Frituur-Marleen/303504106351379",
+    "cuisine": "friture",
+    "delivery": "no",
+    "name": "Frituur Marleen"
+  }
+},
+{
+  "type": "node",
+  "id": 10807059785,
+  "lat": 51.2341734,
+  "lon": 2.9212925,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "44",
+    "addr:postcode": "8400",
+    "addr:street": "Visserskaai",
+    "amenity": "restaurant",
+    "email": "info@madamkroket.be",
+    "name": "Madam Kroket",
+    "phone": "+32 498 39 67 17",
+    "takeaway": "yes",
+    "website": "https://www.madamkroket.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 10807062240,
+  "lat": 51.2342538,
+  "lon": 2.9212410,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "45",
+    "addr:postcode": "8400",
+    "addr:street": "Visserskaai",
+    "indoor_seating": "yes",
+    "name": "Alain Brood & Banket",
+    "opening_hours": "08:00-18:00",
+    "outdoor_seating": "yes",
+    "phone": "+32 472 86 32 40",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 10807120954,
+  "lat": 51.2331046,
+  "lon": 2.9162082,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "cuisine": "pizza",
+    "diet:gluten_free": "yes",
+    "diet:lactose_free": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Domino's",
+    "opening_hours": "11:00-22:00",
+    "phone": "+32 59 28 01 20",
+    "takeaway": "yes",
+    "website": "https://www.dominos.be/fr/magasin/be-oostende-31210"
+  }
+},
+{
+  "type": "node",
+  "id": 10807125847,
+  "lat": 51.2331043,
+  "lon": 2.9170557,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "60",
+    "addr:postcode": "8400",
+    "addr:street": "Langestraat",
+    "name": "Bakkerij DeCock",
+    "opening_hours": "07:30-18:00; We off",
+    "phone": "+32 59 70 31 73",
+    "shop": "bakery",
+    "website": "https://bakkersonline.be/be-nl/bakkerijdecock"
+  }
+},
+{
+  "type": "node",
+  "id": 10807130235,
+  "lat": 51.2291225,
+  "lon": 2.9201496,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "belgian;european",
+    "facebook": "https://www.facebook.com/Bistrotudorrose/",
+    "name": "Tudor Rose",
+    "opening_hours": "09:30-19:30",
+    "phone": "+32 59 44 14 10"
+  }
+},
+{
+  "type": "node",
+  "id": 10807167340,
+  "lat": 51.2247472,
+  "lon": 2.9098269,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "malaysian;thai",
+    "name": "Phuang Malai Thai",
+    "opening_hours": "We-Su 11:00-22:00; Mo,Tu off",
+    "phone": "+32 468 58 33 40",
+    "website": "https://www.phuangmalai.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 10824088538,
+  "lat": 51.2286943,
+  "lon": 2.9203500,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "93A",
+    "addr:postcode": "8400",
+    "addr:street": "Kapellestraat",
+    "amenity": "restaurant",
+    "contact:website": "https://www.ristorantepizzeriamario.be/",
+    "cuisine": "italian",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Ristorante Pizzeria Mario",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10885874818,
+  "lat": 51.2097762,
+  "lon": 2.8780901,
+  "tags": {
+    "amenity": "cafe",
+    "entrance:kerb:height": "0.12",
+    "entrance:step_count": "1",
+    "entrance:width": "1",
+    "name": "De Drie Platanen",
+    "toilets:wheelchair": "no",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10929123805,
+  "lat": 51.2315539,
+  "lon": 2.9160615,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "22",
+    "addr:postcode": "8400",
+    "addr:street": "Adolf Buylstraat",
+    "amenity": "cafe",
+    "brand": "IzyCoffee",
+    "brand:wikidata": "Q124358963",
+    "changing_table": "no",
+    "cuisine": "cake;coffee_shop",
+    "entrance:kerb:height": "0.1",
+    "entrance:ramp": "no",
+    "entrance:step_count": "1",
+    "entrance:width": "0.85",
+    "name": "IzyCoffee",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "takeaway": "yes",
+    "toilets:wheelchair": "no",
+    "website": "https://izycoffee.be",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11005455178,
+  "lat": 51.2318392,
+  "lon": 2.9136166,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "name": "Mac Moules",
+    "website": "https://www.macmoules.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 11020007577,
+  "lat": 51.2219592,
+  "lon": 2.8913942,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "114A",
+    "addr:postcode": "8400",
+    "addr:street": "Zeedijk",
+    "amenity": "restaurant",
+    "delivery": "yes",
+    "indoor_seating": "yes",
+    "level": "0",
+    "name": "My Way aan zee",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11039494932,
+  "lat": 51.2323381,
+  "lon": 2.9155675,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Benji's",
+    "opening_hours": "Tu-Su 12:00-22:30"
+  }
+},
+{
+  "type": "node",
+  "id": 11115773549,
+  "lat": 51.2283006,
+  "lon": 2.9108016,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "10",
+    "addr:postcode": "8400",
+    "addr:street": "Leopold I-plein",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/barbristol.oostende/",
+    "contact:instagram": "https://www.instagram.com/barbristol.oostende/",
+    "email": "hello@barbristol.be",
+    "indoor_seating": "yes",
+    "mobile": "+32 468 31 83 84",
+    "name": "Bar Bristol",
+    "opening_hours": "We-Su 12:00-23:00",
+    "outdoor_seating": "yes",
+    "website": "https://www.barbristol.be/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11144302233,
+  "lat": 51.2328531,
+  "lon": 2.9355826,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "MAX Consael"
+  }
+},
+{
+  "type": "node",
+  "id": 11196468288,
+  "lat": 51.2301077,
+  "lon": 2.9153680,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "18",
+    "addr:postcode": "8400",
+    "addr:street": "Hendrik Serruyslaan",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "takeaway": "only"
+  }
+},
+{
+  "type": "node",
+  "id": 11212649870,
+  "lat": 51.2306923,
+  "lon": 2.9223474,
+  "tags": {
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "cuisine": "indian",
+    "entrance:kerb:height": "0.33",
+    "entrance:ramp": "no",
+    "entrance:step_count": "2",
+    "entrance:width": "1.6",
+    "takeaway": "yes",
+    "toilets:wheelchair": "no",
+    "wheelchair:turning_circle": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11212682923,
+  "lat": 51.2122337,
+  "lon": 2.8759752,
+  "tags": {
+    "addr:housenumber": "60",
+    "addr:street": "Distellaan",
+    "amenity": "cafe",
+    "cuisine": "belgian",
+    "name": "Bistro & Sfeercafé Monroe",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "phone": "+32 475 56 01 79",
+    "website": "https://www.monroe-mariakerke.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 11244210266,
+  "lat": 51.2296392,
+  "lon": 2.9092245,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/profile.php?id=100057503677435",
+    "email": "snowycook@hotmail.com",
+    "name": "Toi, moi et la Mer",
+    "opening_hours": "We-Su 12:00-14:00,18:00-21:00",
+    "phone": "+32 59 80 66 13",
+    "website": "https://toimoietlamer.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 11244250269,
+  "lat": 51.2299241,
+  "lon": 2.9235602,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "1",
+    "addr:postcode": "8400",
+    "addr:street": "Visserskaai",
+    "amenity": "restaurant",
+    "changing_table": "no",
+    "contact:facebook": "https://www.facebook.com/lebassin/",
+    "contact:instagram": "https://www.instagram.com/lebassinoostende/",
+    "email": "info@hoteldubassin.be",
+    "entrance:kerb:height": "0.09",
+    "entrance:ramp": "no",
+    "entrance:step_count": "1",
+    "entrance:width": "1.7",
+    "name": "Le Bassin",
+    "opening_hours": "Mo-Su 10:00-21:00",
+    "opening_hours:kitchen": "Mo-Su 12:00-15:00,17:30-21:00",
+    "outdoor_seating": "yes",
+    "phone": "+32 59 70 33 83",
+    "toilets:wheelchair": "no",
+    "website": "https://www.hoteldubassin.be",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11363078548,
+  "lat": 51.2113842,
+  "lon": 2.8724849,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "67",
+    "addr:postcode": "8400",
+    "addr:street": "Duinhelmstraat",
+    "amenity": "restaurant",
+    "cuisine": "italian",
+    "email": "info@sorrentoresto.com",
+    "indoor_seating": "yes",
+    "name": "Sorrento",
+    "outdoor_seating": "yes",
+    "phone": "+32 59 43 31 61",
+    "website": "https://www.sorrentoresto.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11528056092,
+  "lat": 51.2345924,
+  "lon": 2.9175928,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "16",
+    "addr:postcode": "8400",
+    "addr:street": "Van Iseghemlaan",
+    "amenity": "restaurant",
+    "name": "ZAZcuisine"
+  }
+},
+{
+  "type": "node",
+  "id": 11616364069,
+  "lat": 51.2296010,
+  "lon": 2.9091419,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "69",
+    "addr:postcode": "8400",
+    "addr:street": "Albert I-Promenade",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Eetcafe Leopold",
+    "name:fr": "Café Léopold"
+  }
+},
+{
+  "type": "node",
+  "id": 11736559133,
+  "lat": 51.2245935,
+  "lon": 2.9088049,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:website": "https://www.nellys.be/",
+    "cuisine": "sandwich",
+    "name": "Nelly's"
+  }
+},
+{
+  "type": "node",
+  "id": 11940345724,
+  "lat": 51.2291168,
+  "lon": 2.9233268,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Crystal Palace"
+  }
+},
+{
+  "type": "node",
+  "id": 11940347791,
+  "lat": 51.2285393,
+  "lon": 2.9224826,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "22",
+    "addr:postcode": "8400",
+    "addr:street": "Vindictivelaan",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "name": "Golden Lotus"
+  }
+},
+{
+  "type": "node",
+  "id": 12051050910,
+  "lat": 51.2332344,
+  "lon": 2.9203460,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "10",
+    "addr:postcode": "8400",
+    "addr:street": "Mijnplein",
+    "amenity": "restaurant",
+    "changing_table": "yes",
+    "changing_table:adult": "no",
+    "diet:vegan": "no",
+    "diet:vegetarian": "no",
+    "email": "info@sainttropez.be",
+    "entrance:step_count": "0",
+    "entrance:width": "1",
+    "name": "Brasserie Saint-Tropez",
+    "toilets:access": "yes",
+    "toilets:wheelchair": "yes",
+    "website": "https://www.sainttropez.be/",
+    "wheelchair:turning_circle": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12315112786,
+  "lat": 51.2275175,
+  "lon": 2.9243512,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "2",
+    "addr:postcode": "8400",
+    "addr:street": "Leopold III-laan",
+    "addr:unit": "28",
+    "amenity": "restaurant",
+    "name": "Haut",
+    "opening_hours": "We-Sa 12:00-13:00,19:00-19:30",
+    "phone": "+32 59 468400",
+    "website": "https://hautrestaurant.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 12327179872,
+  "lat": 51.2112914,
+  "lon": 2.9295181,
+  "tags": {
+    "name": "Deneubourg",
+    "shop": "bakery",
+    "website": "https://deneubourg.com/deneubourg-oostende"
+  }
+},
+{
+  "type": "node",
+  "id": 12327530036,
+  "lat": 51.2106667,
+  "lon": 2.9151803,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "friture",
+    "name": "'t Friethof",
+    "website": "https://www.tfriethofoostende.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 12419295798,
+  "lat": 51.2296224,
+  "lon": 2.9190312,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "25",
+    "addr:postcode": "8400",
+    "addr:street": "Sint-Paulusstraat",
+    "amenity": "fast_food",
+    "cuisine": "turkish",
+    "drive_through": "no",
+    "name": "Snack Oostende",
+    "phone": "+32 59 27 52 13",
+    "website": "https://www.snackoostende-oostende.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 12744841998,
+  "lat": 51.2325083,
+  "lon": 2.9164663,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "44",
+    "addr:postcode": "8400",
+    "addr:street": "Vlaanderenstraat",
+    "amenity": "restaurant",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "cuisine": "pizza",
+    "name": "Pizza Hut",
+    "opening_hours": "Mo-Th 11:30-21:00; Fr-Su 11:30-21:30",
+    "phone": "+32 59 50 41 26",
+    "website": "https://restaurants.pizzahut.be/restaurant/restaurant-oostende",
+    "website:menu": "https://restaurants.pizzahut.be/menu"
+  }
+},
+{
+  "type": "node",
+  "id": 12749696995,
+  "lat": 51.2175096,
+  "lon": 2.8815406,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "163",
+    "addr:postcode": "8400",
+    "addr:street": "Zeedijk",
+    "indoor_seating": "no",
+    "name": "Diemas",
+    "opening_hours": "We-Su 07:00-18:00",
+    "outdoor_seating": "no",
+    "shop": "bakery",
+    "takeaway": "only"
+  }
+},
+{
+  "type": "node",
+  "id": 12752036544,
+  "lat": 51.2260588,
+  "lon": 2.9064880,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "15",
+    "addr:postcode": "8400",
+    "addr:street": "Wellingtonstraat",
+    "amenity": "restaurant",
+    "indoor_seating": "yes",
+    "name": "Odyzee",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12752086181,
+  "lat": 51.2308485,
+  "lon": 2.9127639,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "34",
+    "addr:postcode": "8400",
+    "addr:street": "Leopold II-laan",
+    "amenity": "restaurant",
+    "indoor_seating": "yes",
+    "name": "Poule & Poulette",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12752207040,
+  "lat": 51.2290074,
+  "lon": 2.9080032,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 12759963546,
+  "lat": 51.2302067,
+  "lon": 2.9102550,
+  "tags": {
+    "addr:housenumber": "64c",
+    "addr:street": "Albert I-Promenade",
+    "amenity": "restaurant",
+    "check_date": "2025-04-01",
+    "email": "info@bottarga.be",
+    "name": "Bistro Bottarga",
+    "opening_hours": "Mo off; Tu-Fr 12:00-14:30,18:00-21:30; Sa-Su 12:00-21:30",
+    "website": "https://bottarga.be"
+  }
+},
+{
+  "type": "node",
+  "id": 12838117010,
+  "lat": 51.2117631,
+  "lon": 2.8721698,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "103",
+    "addr:postcode": "8400",
+    "addr:street": "Dorpsstraat",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Ensorito",
+    "website": "https://www.ensorito.be"
+  }
+},
+{
+  "type": "node",
+  "id": 12849316947,
+  "lat": 51.2251492,
+  "lon": 2.9112198,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "94",
+    "addr:postcode": "8400",
+    "addr:street": "Alfons Pieterslaan",
+    "amenity": "restaurant",
+    "capacity": "28",
+    "cuisine": "italian",
+    "email": "picobello94@hotmail.com",
+    "internet_access": "wlan",
+    "level": "0",
+    "name": "Picobello Oostende",
+    "opening_hours": "Th-Tu 11:00-14:00,17:00-20:30",
+    "outdoor_seating": "no",
+    "phone": "+32 59 25 00 51",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://pizzeria-picobello.eatbu.com/?lang=nl"
+  }
+},
+{
+  "type": "node",
+  "id": 12851781058,
+  "lat": 51.2330642,
+  "lon": 2.9204757,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "14",
+    "addr:postcode": "8400",
+    "addr:street": "Mijnplein",
+    "amenity": "restaurant",
+    "name": "Brûtal restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 12858261122,
+  "lat": 51.2101320,
+  "lon": 3.0034300,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "123",
+    "addr:postcode": "8400",
+    "addr:street": "Oudenburgsesteenweg",
+    "amenity": "restaurant",
+    "cuisine": "french;belgian",
+    "fax": "+32 59 51 69 56",
+    "name": "Restaurant Plassendale",
+    "opening_hours": "Mo-Sa 12:00-14:00,18:30-21:00; Tu off; We 12:00-14:00",
+    "phone": "+32 59 26 70 35",
+    "website": "https://www.restaurant-plassendale.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 12879130888,
+  "lat": 51.2316802,
+  "lon": 2.9142371,
+  "tags": {
+    "amenity": "bar",
+    "name": "Muziekcafé Twilight",
+    "phone": "+32 475 84 61 85"
+  }
+},
+{
+  "type": "node",
+  "id": 12879323501,
+  "lat": 51.2316175,
+  "lon": 2.9139780,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Copador"
+  }
+},
+{
+  "type": "node",
+  "id": 12914186537,
+  "lat": 51.2322192,
+  "lon": 2.9171279,
+  "tags": {
+    "addr:housenumber": "6A",
+    "addr:street": "Wapenplein",
+    "amenity": "fast_food",
+    "cuisine": "poke",
+    "name": "Hawaiian Poké Bowl",
+    "opening_hours": "Mo-Su 11:00-21:00; Fr-Sa 11:00-22:00",
+    "takeaway": "yes",
+    "website": "https://hawaiianpokebowl.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 12956992696,
+  "lat": 51.2302452,
+  "lon": 2.9231365,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "61",
+    "addr:postcode": "8400",
+    "addr:street": "Sint-Franciscusstraat",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Shanghai"
+  }
+},
+{
+  "type": "node",
+  "id": 12996004055,
+  "lat": 51.2343062,
+  "lon": 2.9170934,
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "20",
+    "addr:postcode": "8400",
+    "addr:street": "Van Iseghemlaan",
+    "amenity": "bar",
+    "name": "Carpe Diem",
+    "opening_hours": "We-Mo 12:00-23:59",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13033714089,
+  "lat": 51.2313540,
+  "lon": 2.9163640,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Brasserie David",
+    "phone": "+32 476 739966",
+    "website": "https://brasseriedavid.be/david/"
+  }
+},
+{
+  "type": "node",
+  "id": 13077656980,
+  "lat": 51.2313827,
+  "lon": 2.9204303,
+  "tags": {
+    "amenity": "restaurant",
+    "level": "0",
+    "name": "Schol",
+    "opening_hours": "Mo-Fr 10:00-16:00",
+    "operator": "vzw ithaka coaching centrum",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "website": "https://vzw-ithaka.be/nl/schol/",
+    "wheelchair": "limited",
+    "wheelchair:description:de": "1 Stufe ca. 15 cm; anlegbare Rampe vorhanden"
+  }
+},
+{
+  "type": "node",
+  "id": 13077833473,
+  "lat": 51.2353295,
+  "lon": 2.9341690,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13077833474,
+  "lat": 51.2351678,
+  "lon": 2.9338660,
+  "tags": {
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 13158027718,
+  "lat": 51.2328206,
+  "lon": 2.9174856,
+  "tags": {
+    "amenity": "cafe",
+    "contact:facebook": "https://facebook.com/BaristaCatOostende",
+    "name": "BaristaCat",
+    "start_date": "2022",
+    "theme": "cat"
+  }
+},
+{
+  "type": "node",
+  "id": 13159342406,
+  "lat": 51.2317915,
+  "lon": 2.9166670,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:website": "https://www.cappadocie-oostende.be/",
+    "cuisine": "kebab;turkish",
+    "name": "Cappadocie"
+  }
+},
+{
+  "type": "node",
+  "id": 13201618828,
+  "lat": 51.2322904,
+  "lon": 2.9173127,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:street": "Wapenplein",
+    "amenity": "restaurant",
+    "contact:email": "info@restaurant-falstaff-oostende.be",
+    "contact:mobile": "+32 468 26 99 28",
+    "contact:website": "https://www.restaurant-falstaff-oostende.be/",
+    "cuisine": "fish",
+    "name": "Falstaff",
+    "opening_hours": "Mo-Fr 10:00-21:30; Sa 10:00-22:00; Su 10:00-21:30"
+  }
+},
+{
+  "type": "node",
+  "id": 13201618829,
+  "lat": 51.2322523,
+  "lon": 2.9172280,
+  "tags": {
+    "addr:housenumber": "7B",
+    "addr:street": "Wapenplein",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/restaurantromwell/",
+    "contact:phone": "+32 59 70 06 05",
+    "cuisine": "fish",
+    "name": "Cromwell"
+  }
+},
+{
+  "type": "node",
+  "id": 13203808105,
+  "lat": 51.2282348,
+  "lon": 2.9208355,
+  "tags": {
+    "addr:housenumber": "107",
+    "addr:street": "Kapellestraat",
+    "amenity": "cafe",
+    "contact:mobile": "+32 495 38 10 44",
+    "contact:website": "https://www.coffeedream.be/",
+    "cuisine": "coffee_shop",
+    "name": "Coffee Dream",
+    "opening_hours": "Sa-Th 09:00-18:00; Fr off",
+    "opening_hours:kitchen": "Sa-Th 09:00-17:00; Fr off"
+  }
+},
+{
+  "type": "node",
+  "id": 13203836872,
+  "lat": 51.2306607,
+  "lon": 2.9186047,
+  "tags": {
+    "addr:housenumber": "22",
+    "addr:street": "Ooststraat",
+    "amenity": "restaurant",
+    "contact:email": "info@cappuccino-oostende.be",
+    "contact:facebook": "https://www.facebook.com/tearoomcappuccino",
+    "contact:instagram": "https://www.instagram.com/cappuccino_oostende/",
+    "contact:phone": "+32 59 51 80 89",
+    "contact:website": "https://www.cappuccino-oostende.be/",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Cappuccino - Rooftop",
+    "opening_hours": "Mo-Su 08:00-19:00",
+    "opening_hours:kitchen": "Mo-Su 11:00-19:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13203928507,
+  "lat": 51.2315946,
+  "lon": 2.9176205,
+  "tags": {
+    "addr:housenumber": "2A",
+    "addr:street": "Kapellestraat",
+    "amenity": "cafe",
+    "contact:website": "https://www.bubble-bar.com/",
+    "cuisine": "bubble_tea",
+    "name": "Bubble Bar",
+    "opening_hours": "Mo-Fr 12:00-18:30; Sa 11:00-19:00; Su 12:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13256733114,
+  "lat": 51.2330084,
+  "lon": 2.9168092,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:email": "hello-oostende@mister-spaghetti.be",
+    "contact:phone": "+32 59 79 02 86",
+    "contact:website": "https://www.mister-spaghetti.com/oostende/",
+    "cuisine": "pasta",
+    "name": "Mister Spaghetti"
+  }
+},
+{
+  "type": "node",
+  "id": 13299329540,
+  "lat": 51.2280243,
+  "lon": 2.9182562,
+  "tags": {
+    "addr:housenumber": "43",
+    "addr:street": "Aartshertoginnestraat",
+    "amenity": "cafe",
+    "name": "Oode",
+    "opening_hours": "Tu-Fr 08:00-17:30; Sa 09:00-17:30",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13350756574,
+  "lat": 51.2260212,
+  "lon": 2.9134130,
+  "tags": {
+    "amenity": "cafe",
+    "name": "‘t Kadaster",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "takeaway": "yes",
+    "website": "https://www.tkadaster.be/espressobar"
+  }
+},
+{
+  "type": "node",
+  "id": 13428626901,
+  "lat": 51.2297609,
+  "lon": 2.9093679,
+  "tags": {
+    "amenity": "cafe",
+    "name": "l’Apero"
+  }
+},
+{
+  "type": "node",
+  "id": 13533952801,
+  "lat": 51.2204766,
+  "lon": 2.9001081,
+  "tags": {
+    "addr:housenumber": "215",
+    "addr:street": "Nieuwpoortsesteenweg",
+    "amenity": "fast_food",
+    "name": "Frietshop Oostende",
+    "opening_hours": "Mo, We-Th 11:30-13:45, 17:30-22:00; Fr-Sa 11:30-13:45, 17:30-23:00; Su 17:30-22:00",
+    "phone": "+32 59 43 84 18",
+    "website": "https://www.frietshopoostende.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 13617337001,
+  "lat": 51.2312566,
+  "lon": 2.9166799,
+  "tags": {
+    "addr:housenumber": "46",
+    "addr:street": "Christinastraat",
+    "contact:instagram": "meerman.coffee",
+    "internet_access": "wlan",
+    "name": "Meerman Speciality Coffee",
+    "shop": "coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 13624954272,
+  "lat": 51.2310015,
+  "lon": 2.9180348,
+  "tags": {
+    "amenity": "restaurant",
+    "indoor_seating": "yes",
+    "name": "Scopa",
+    "opening_hours": "We-Su 11:00-18:00",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13649855975,
+  "lat": 51.2308882,
+  "lon": 2.9173176,
+  "tags": {
+    "amenity": "pub",
+    "indoor_seating": "yes",
+    "microbrewery": "yes",
+    "name": "Rose Mary",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13649898911,
+  "lat": 51.2332349,
+  "lon": 2.9198758,
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Mijnplein",
+    "amenity": "pub",
+    "food": "yes",
+    "name": "Brasserie 't Teugsje",
+    "opening_hours:kitchen": "We-Su 11:30-19:30",
+    "website": "https://www.tteugsje.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 13707951211,
+  "lat": 51.2103488,
+  "lon": 2.8733355,
+  "tags": {
+    "addr:housenumber": "39",
+    "addr:street": "Dorpsstraat",
+    "amenity": "pub",
+    "name": "Sfeercafé CD 4 YOU",
+    "opening_hours": "Mo 16:00-01:00; Th-Su 16:00-01:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13711255065,
+  "lat": 51.2164673,
+  "lon": 2.8789952,
+  "tags": {
+    "addr:housenumber": "177",
+    "addr:street": "Zeedijk",
+    "amenity": "pub",
+    "name": "De Pinta 2.0",
+    "opening_hours": "Tu-Su 11:00-03:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13711257383,
+  "lat": 51.2158556,
+  "lon": 2.8778217,
+  "tags": {
+    "addr:housenumber": "192",
+    "addr:street": "Zeedijk",
+    "amenity": "restaurant",
+    "cuisine": "belgian",
+    "name": "New Sun Beach",
+    "opening_hours": "Mo 11:00-21:00; Th-Su 11:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13802169101,
+  "lat": 51.2321922,
+  "lon": 2.9205145,
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:street": "Dwarsstraat",
+    "amenity": "restaurant",
+    "check_date": "2026-05-06",
+    "name": "Mommy's Bastards",
+    "website": "https://www.mommysbastards.be"
+  }
+},
+{
+  "type": "node",
+  "id": 13808262157,
+  "lat": 51.2320514,
+  "lon": 2.9506557,
+  "tags": {
+    "addr:housenumber": "84",
+    "addr:street": "Schietbaanstraat",
+    "amenity": "restaurant",
+    "name": "De Oesterput",
+    "phone": "+32 59 33 08 73",
+    "website": "https://de-oesterput.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 13808426974,
+  "lat": 51.2333734,
+  "lon": 2.9298373,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:street": "Wandelaarskaai",
+    "amenity": "cafe",
+    "name": "Deschildere streekproducten",
+    "website": "https://deschildre-streekproducten.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 13836462202,
+  "lat": 51.2303838,
+  "lon": 2.9105527,
+  "tags": {
+    "addr:housenumber": "63",
+    "addr:street": "Albert I-Promenade",
+    "amenity": "restaurant",
+    "check_date": "2026-05-16",
+    "cuisine": "seafood",
+    "name": "Bistro Henry"
+  }
+},
+{
+  "type": "node",
+  "id": 13968705618,
+  "lat": 51.2319107,
+  "lon": 2.9145894,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "Pizzeria Margarita"
+  }
+},
+{
+  "type": "node",
+  "id": 13968715423,
+  "lat": 51.2318450,
+  "lon": 2.9144533,
+  "tags": {
+    "amenity": "pub",
+    "name": "Malabar"
+  }
+},
+{
+  "type": "node",
+  "id": 13968719538,
+  "lat": 51.2321348,
+  "lon": 2.9157942,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "tibetan",
+    "name": "Lhamo Bistro",
+    "website": "https://lhamobistro.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 13970223879,
+  "lat": 51.2254570,
+  "lon": 2.9091869,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "poke",
+    "name": "Pure Poke Bowl"
+  }
+},
+{
+  "type": "node",
+  "id": 13970783808,
+  "lat": 51.2182068,
+  "lon": 2.8842508,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Den Artisjok"
+  }
+},
+{
+  "type": "node",
+  "id": 13994632386,
+  "lat": 51.2315880,
+  "lon": 2.9174078,
+  "tags": {
+    "amenity": "cafe",
+    "indoor_seating": "yes",
+    "name": "Lloyd",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13994772873,
+  "lat": 51.2326531,
+  "lon": 2.9163275,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "O'Tacos"
+  }
+},
+{
+  "type": "node",
+  "id": 14054074401,
+  "lat": 51.2325861,
+  "lon": 2.9140989,
+  "tags": {
+    "addr:housenumber": "11a",
+    "addr:postcode": "8400",
+    "addr:street": "Hertstraat",
+    "amenity": "restaurant",
+    "email": "poseidon.oostende@gmail.com",
+    "internet_access": "wlan",
+    "mobile": "+32 485 05 06 91",
+    "name": "Eetkaffee Poseidon",
+    "opening_hours": "Th-Su 09:30-21:00; Mo 09:30-20:00; Tu,We off",
+    "self_service": "no",
+    "website": "https://www.poseidonoostende.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 14081738179,
+  "lat": 51.2290757,
+  "lon": 2.9258068,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Panos",
+    "cuisine": "sandwich",
+    "name": "Panos",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 14081738189,
+  "lat": 51.2289698,
+  "lon": 2.9260474,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "waffle;coffee_shop;ice_cream",
+    "name": "Chez Albert"
+  }
+},
+{
+  "type": "node",
+  "id": 14084192302,
+  "lat": 51.2171779,
+  "lon": 2.9026682,
+  "tags": {
+    "addr:housenumber": "46",
+    "addr:street": "Dokter Verhaeghestraat",
+    "amenity": "restaurant",
+    "check_date": "2026-08-09",
+    "cuisine": "italian;pasta;pizza",
+    "name": "Pizzeria Zia Maria",
+    "website": "https://www.zia-maria-pizzeria.be/"
+  }
+},
+{
+  "type": "node",
+  "id": 14084225101,
+  "lat": 51.2169986,
+  "lon": 2.9023393,
+  "tags": {
+    "addr:housenumber": "26",
+    "addr:street": "Honoré Borgersstraat",
+    "amenity": "fast_food",
+    "check_date": "2026-08-09",
+    "name": "Frituur Gerda",
+    "phone": "+32 59 80 41 48"
+  }
+},
+{
+  "type": "node",
+  "id": 14084411301,
+  "lat": 51.2253978,
+  "lon": 2.8992902,
+  "tags": {
+    "addr:street": "Koning Boudewijnpromenade",
+    "amenity": "bar",
+    "check_date": "2026-08-09",
+    "name": "Surfclub Inside Outside Oostende",
+    "website": "https://www.inout-oostende.be/",
+    "website:menu": "https://www.inout-oostende.be/menukaart-outside/"
+  }
+},
+{
+  "type": "node",
+  "id": 14134541301,
+  "lat": 51.2321773,
+  "lon": 2.9210933,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:postcode": "8400",
+    "addr:street": "Kadzandstraat",
+    "amenity": "pub",
+    "name": "Le Zephyr"
+  }
+},
+{
+  "type": "node",
+  "id": 14265218701,
+  "lat": 51.2388464,
+  "lon": 2.9390136,
+  "tags": {
+    "addr:housenumber": "128",
+    "addr:postcode": "8400",
+    "addr:street": "Fortstraat",
+    "amenity": "restaurant",
+    "name:nl": "Restaurant Van JVC Duin En Zee"
+  }
+},
+{
+  "type": "node",
+  "id": 14287477473,
+  "lat": 51.2042122,
+  "lon": 2.8639060,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/trebbetjeoostende",
+    "cuisine": "grill",
+    "name": "'t Rebbetje",
+    "opening_hours": "We-Sa 18:00-24:00; Su 12:00-24:00",
+    "phone": "+32 470 59 53 40"
+  }
+},
+{
+  "type": "way",
+  "id": 57688059,
+  "center": {
+    "lat": 51.2238768,
+    "lon": 2.8984771
+  },
+  "tags": {
+    "amenity": "pub",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 95366676,
+  "center": {
+    "lat": 51.2303403,
+    "lon": 2.9451678
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "52",
+    "addr:street": "Thomas Van Loostraat",
+    "amenity": "restaurant",
+    "building": "yes",
+    "note": "Is verkocht, nog af te wachten wat er in de plaats komt.",
+    "opening_hours": "Mo-Fr 06:30-18:00; Sa 07:30-17:00",
+    "source:geometry:date": "2009-02-12",
+    "source:geometry:ref": "Gbg/905402",
+    "source_ref": "http://www.croqanne.be/"
+  }
+},
+{
+  "type": "way",
+  "id": 100624887,
+  "center": {
+    "lat": 51.2160770,
+    "lon": 2.8904824
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "451;453",
+    "addr:postcode": "8400",
+    "addr:street": "Nieuwpoortsesteenweg",
+    "amenity": "restaurant",
+    "building": "house",
+    "name": "'t Potje",
+    "source:geometry:date": "2016-09-01",
+    "source:geometry:ref": "Gbg/5695129"
+  }
+},
+{
+  "type": "way",
+  "id": 100970172,
+  "center": {
+    "lat": 51.2150623,
+    "lon": 2.9086265
+  },
+  "tags": {
+    "addr:housenumber": "202;204",
+    "addr:postcode": "8400",
+    "addr:street": "Stuiverstraat",
+    "building": "yes",
+    "name": "Bakkerij Desmedt",
+    "shop": "bakery",
+    "source:geometry:date": "2015-03-10",
+    "source:geometry:ref": "Gbg/921667"
+  }
+},
+{
+  "type": "way",
+  "id": 110526753,
+  "center": {
+    "lat": 51.2060154,
+    "lon": 2.9048084
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "582",
+    "addr:postcode": "8400",
+    "addr:street": "Torhoutsesteenweg",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "building": "retail",
+    "cuisine": "burger",
+    "name": "McDonald's",
+    "source": "AGIV Flandern GRB",
+    "source:geometry:date": "2019-10-14",
+    "source:geometry:ref": "Gbg/4435899",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.be/nl/restaurants/oostende-ii-drive"
+  }
+},
+{
+  "type": "way",
+  "id": 157102928,
+  "center": {
+    "lat": 51.2155865,
+    "lon": 2.8884153
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "180",
+    "addr:postcode": "8400",
+    "addr:street": "Nieuwpoortsesteenweg",
+    "amenity": "pub",
+    "building": "apartments",
+    "name": "Den As",
+    "source:geometry:date": "2015-03-10",
+    "source:geometry:ref": "Gbg/5114599"
+  }
+},
+{
+  "type": "way",
+  "id": 160443054,
+  "center": {
+    "lat": 51.2131113,
+    "lon": 2.8839944
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "2",
+    "addr:postcode": "8400",
+    "addr:street": "Derbylaan",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "tibetaans;chinese",
+    "name": "Sizzler",
+    "outdoor_seating": "yes",
+    "source:geometry:date": "2014-04-28",
+    "source:geometry:ref": "Gbg/928192",
+    "takeaway": "yes",
+    "website": "https://www.sizzler.be"
+  }
+},
+{
+  "type": "way",
+  "id": 185570169,
+  "center": {
+    "lat": 51.2029188,
+    "lon": 2.9145011
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "60",
+    "addr:postcode": "8400",
+    "addr:street": "Steensedijk",
+    "addr:suburb": "Stene",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "french",
+    "source:geometry:date": "2018-06-18",
+    "source:geometry:ref": "Gbg/5695361"
+  }
+},
+{
+  "type": "way",
+  "id": 220246639,
+  "center": {
+    "lat": 51.2218759,
+    "lon": 2.9288329
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Koninginnehof"
+  }
+},
+{
+  "type": "way",
+  "id": 462178627,
+  "center": {
+    "lat": 51.2107648,
+    "lon": 2.9134764
+  },
+  "tags": {
+    "addr:housenumber": "357",
+    "addr:street": "Stuiverstraat",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Ten Stuyver",
+    "source:geometry:date": "2016-09-01",
+    "source:geometry:ref": "Gbg/5694879"
+  }
+},
+{
+  "type": "way",
+  "id": 574724880,
+  "center": {
+    "lat": 51.2323212,
+    "lon": 2.9212593
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "12",
+    "addr:postcode": "8400",
+    "addr:street": "Kadzandstraat",
+    "amenity": "restaurant",
+    "building": "yes",
+    "contact:phone": "+32 499 75 53 57",
+    "cuisine": "italian",
+    "name": "Bajatzu"
+  }
+},
+{
+  "type": "way",
+  "id": 638338969,
+  "center": {
+    "lat": 51.2196994,
+    "lon": 2.9111488
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "65",
+    "addr:postcode": "8400",
+    "addr:street": "Leffingestraat",
+    "building": "yes",
+    "name": "Silvan bakkerij",
+    "opening_hours": "Th-Tu 06:00-19:30",
+    "phone": "+32 466 24 30 46",
+    "shop": "bakery",
+    "source:geometry:date": "2020-03-30",
+    "source:geometry:ref": "Gbg/918772",
+    "website": "https://silvan-bakkerij.business.site/"
+  }
+},
+{
+  "type": "way",
+  "id": 640049079,
+  "center": {
+    "lat": 51.2225205,
+    "lon": 2.9088248
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:country": "BE",
+    "addr:housenumber": "102",
+    "addr:postcode": "8400",
+    "addr:street": "Torhoutsesteenweg",
+    "building": "yes",
+    "name": "Hioco / Marc",
+    "phone": "+32 59 70 39 06",
+    "shop": "bakery",
+    "source:geometry:date": "2016-09-01",
+    "source:geometry:ref": "Gbg/5696417"
+  }
+},
+{
+  "type": "way",
+  "id": 791068791,
+  "center": {
+    "lat": 51.2282123,
+    "lon": 2.9131603
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "1",
+    "addr:postcode": "8400",
+    "addr:street": "Leopoldpark",
+    "amenity": "cafe",
+    "building": "yes",
+    "indoor_seating": "yes",
+    "name": "Chalet Minigolf",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 836051486,
+  "center": {
+    "lat": 51.2146599,
+    "lon": 2.8876695
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "building": "yes",
+    "cuisine": "friture",
+    "delivery": "no",
+    "drive_through": "no",
+    "name": "Frituur Kenny",
+    "payment:cash": "yes",
+    "payment:credit_cards": "no",
+    "payment:debit_cards": "no",
+    "payment:payconiq": "yes",
+    "source:geometry:date": "2007-06-11",
+    "source:geometry:ref": "Gbg/928225",
+    "takeaway": "only"
+  }
+},
+{
+  "type": "way",
+  "id": 837223861,
+  "center": {
+    "lat": 51.2111335,
+    "lon": 2.8728454
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "81",
+    "addr:postcode": "8400",
+    "addr:street": "Dorpsstraat",
+    "amenity": "restaurant",
+    "building": "apartments",
+    "cuisine": "italian",
+    "name": "Bistronoom De Baron",
+    "source:geometry:date": "2007-06-11",
+    "source:geometry:ref": "Gbg/928354"
+  }
+},
+{
+  "type": "way",
+  "id": 949288988,
+  "center": {
+    "lat": 51.2197701,
+    "lon": 2.9303811
+  },
+  "tags": {
+    "addr:housenumber": "18",
+    "addr:street": "Groendreef",
+    "amenity": "pub",
+    "building": "yes",
+    "name": "Armenonville",
+    "source:geometry:date": "2018-06-18",
+    "source:geometry:ref": "Gbg/914348"
+  }
+},
+{
+  "type": "way",
+  "id": 1052981449,
+  "center": {
+    "lat": 51.2188095,
+    "lon": 2.9105338
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "2",
+    "addr:postcode": "8400",
+    "addr:street": "Rietstraat",
+    "amenity": "restaurant",
+    "building": "house",
+    "contact:facebook": "https://www.facebook.com/people/Al-Amira-Oostende/100092515026247/",
+    "cuisine": "moroccan;lebanese;arab",
+    "diet:chicken": "yes",
+    "diet:halal": "yes",
+    "diet:healthy": "yes",
+    "diet:meat": "yes",
+    "diet:mediterranean": "yes",
+    "diet:vegetarian": "yes",
+    "name": "Al Amira",
+    "opening_hours": "Mo,Tu,Th,Fr 11:00-13:00,18:00-21:00; Sa-Su 11:00-22:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+32495662087",
+    "reservation": "yes",
+    "source:geometry:date": "2020-03-30",
+    "source:geometry:ref": "Gbg/918742",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "website": "https://www.al-amira-oostende.be/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1176130064,
+  "center": {
+    "lat": 51.2272232,
+    "lon": 2.9191589
+  },
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "2",
+    "addr:postcode": "8400",
+    "addr:street": "Jan Piersplein",
+    "amenity": "restaurant",
+    "building": "yes",
+    "floating": "yes",
+    "image": "https://photos.app.goo.gl/HiJsKz8GTWJ5SM9r6",
+    "name": "Puert'O"
+  }
+}
+
+  ]
+}

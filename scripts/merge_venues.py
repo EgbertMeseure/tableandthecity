@@ -53,7 +53,9 @@ def norm(v):
         'otherLocations': v.get('otherLocations'), 'origin': 'venues'}
 added = []; seen = set(ids)
 NEVER = {x.get('id') for x in json.load(open('data/never-exclude.json'))['places'].values()} if __import__('os').path.exists('data/never-exclude.json') else set()   # student cafés etc.: never shown
-for v in [x for x in V['venues'] + [n for n in V['new_businesses'] if not n.get('alsoInVenues')] if x.get('id') not in NEVER]:
+sys.argv = [sys.argv[0], city]; sys.path.insert(0, 'scripts'); from import_osm import pizza_kebab_kind   # no pizza / kebab places (user decision 26 Oct 2026)
+PK = lambda v: pizza_kebab_kind({'cuisine': ';'.join(v.get('cuisineTags') or [])}, v.get('name', ''), v.get('cuisine') or v.get('type') or '')
+for v in [x for x in V['venues'] + [n for n in V['new_businesses'] if not n.get('alsoInVenues')] if x.get('id') not in NEVER and not PK(x)]:
     key = re.sub(r'\W', '', v['name'].lower())
     if v['id'] in seen or key in names: continue
     seen.add(v['id']); names.add(key); added.append(norm(v))

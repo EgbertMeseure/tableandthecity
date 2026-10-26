@@ -235,5 +235,248 @@
   "source": "https://unsplash.com/photos/brown-brick-building-under-blue-sky-during-daytime-paeptVxbSFM",
   "license": "Unsplash License (free to use, no attribution required — credited anyway)",
   "used_for": "Gent home hero (Gravensteen at blue hour)"
+ },
+ {
+  "file": "img/cities/brugge/hero-rozenhoedkaai-{1000,1600,2400}.webp + hero-rozenhoedkaai-1600.jpg",
+  "title": "A river running through a city next to tall buildings",
+  "photographer": "Joran Quinten",
+  "photographer_url": "https://unsplash.com/@joranquinten",
+  "source": "https://unsplash.com/photos/a-river-running-through-a-city-next-to-tall-buildings-u7pTxMouu_E",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge home hero (Rozenhoedkaai at night)"
+ },
+ {
+  "file": "img/cities/brussel/hero-grand-place-{1000,1600,2400}.webp + hero-grand-place-1600.jpg",
+  "title": "A large building with a tower",
+  "photographer": "J Torres",
+  "photographer_url": "https://unsplash.com/@jmtorres16",
+  "source": "https://unsplash.com/photos/a-large-building-with-a-tower-CA_frAJ5NPE",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels home hero (Grand-Place at blue hour)"
+ },
+ {
+  "file": "img/cities/oostende/hero-seafront-{1000,1600,2400}.webp + hero-seafront-1600.jpg",
+  "title": "A large white building sitting on top of a sandy beach",
+  "photographer": "Jorick Roels",
+  "photographer_url": "https://unsplash.com/@jorick",
+  "source": "https://unsplash.com/photos/a-large-white-building-sitting-on-top-of-a-sandy-beach-xPRRW6eQPFM",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend home hero (seafront and Royal Galleries)"
+ },
+ {
+  "file": "img/cities/brugge/new-{800,1600,2400}.webp + new.jpg",
+  "title": "A large room with tables and chairs",
+  "photographer": "Kevin Charit",
+  "photographer_url": "https://unsplash.com/@kevin_charit",
+  "source": "https://unsplash.com/photos/a-large-room-with-tables-and-chairs-QusXD31z0G4",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"new\" category card"
+ },
+ {
+  "file": "img/cities/brugge/breakfast-{800,1600,2400}.webp + breakfast.jpg",
+  "title": "Cup of coffee with latte art and croissants",
+  "photographer": "Christopher Chung",
+  "photographer_url": "https://unsplash.com/@christopher_chung_photography",
+  "source": "https://unsplash.com/photos/cup-of-coffee-with-latte-art-and-croissants-lMSmhRDS0Ik",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"breakfast\" category card"
+ },
+ {
+  "file": "img/cities/brugge/restaurants-{800,1600,2400}.webp + restaurants.jpg",
+  "title": "A plate of food and a glass of wine",
+  "photographer": "Aurela Redenica",
+  "photographer_url": "https://unsplash.com/@aureler",
+  "source": "https://unsplash.com/photos/a-plate-of-food-and-a-glass-of-wine-YZ2gxKKQs3Q",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"restaurants\" category card"
+ },
+ {
+  "file": "img/cities/brugge/cafes_bars-{800,1600,2400}.webp + cafes_bars.jpg",
+  "title": "Glass of dark beer next to a small bottle",
+  "photographer": "Stanislav Ivanitskiy",
+  "photographer_url": "https://unsplash.com/@ztanizlaff",
+  "source": "https://unsplash.com/photos/glass-of-dark-beer-next-to-a-small-bottle-RwKsnLm094I",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"cafes_bars\" category card"
+ },
+ {
+  "file": "img/cities/brugge/coffee-{800,1600,2400}.webp + coffee.jpg",
+  "title": "A cup of coffee with latte art on a saucer",
+  "photographer": "nameless 3791",
+  "photographer_url": "https://unsplash.com/@unidentifieduser",
+  "source": "https://unsplash.com/photos/a-cup-of-coffee-with-latte-art-on-a-saucer-T3fFz5W0Foc",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"coffee\" category card"
+ },
+ {
+  "file": "img/cities/brugge/bakeries-{800,1600,2400}.webp + bakeries.jpg",
+  "title": "A rustic loaf of sourdough bread on a wooden board",
+  "photographer": "Diego Arenas de Rodrigo",
+  "photographer_url": "https://unsplash.com/@diegoarenasderodrigo",
+  "source": "https://unsplash.com/photos/a-rustic-loaf-of-sourdough-bread-on-a-wooden-board-guFjW-4kjCc",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"bakeries\" category card"
+ },
+ {
+  "file": "img/cities/brugge/cuisine-{800,1600,2400}.webp + cuisine.jpg",
+  "title": "Cooked mussels in pot on white textile",
+  "photographer": "Alana Harris",
+  "photographer_url": "https://unsplash.com/@alanaharris",
+  "source": "https://unsplash.com/photos/cooked-mussels-in-pot-on-white-textile-l7Lz0Qx5tJ8",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"cuisine\" category card"
+ },
+ {
+  "file": "img/cities/brugge/events-{800,1600,2400}.webp + events.jpg",
+  "title": "White candles on blue and white checkered table cloth",
+  "photographer": "Libby Penner",
+  "photographer_url": "https://unsplash.com/@libby_penner",
+  "source": "https://unsplash.com/photos/white-candles-on-blue-and-white-checkered-table-cloth-Qw5xllbdEAo",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brugge \"events\" category card"
+ },
+ {
+  "file": "img/cities/oostende/new-{800,1600,2400}.webp + new.jpg",
+  "title": "A restaurant with tables, chairs, and a bar",
+  "photographer": "Andrius Budrikas",
+  "photographer_url": "https://unsplash.com/@andriusbudrikas",
+  "source": "https://unsplash.com/photos/a-restaurant-with-tables-chairs-and-a-bar-kGP7rp2gWbc",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"new\" category card"
+ },
+ {
+  "file": "img/cities/oostende/breakfast-{800,1600,2400}.webp + breakfast.jpg",
+  "title": "A plate of food on a wooden table",
+  "photographer": "Nima Naseri",
+  "photographer_url": "https://unsplash.com/@nimanaseri",
+  "source": "https://unsplash.com/photos/a-plate-of-food-on-a-wooden-table-jha7ouP3InE",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"breakfast\" category card"
+ },
+ {
+  "file": "img/cities/oostende/restaurants-{800,1600,2400}.webp + restaurants.jpg",
+  "title": "A plate of oysters on ice with lemon wedges",
+  "photographer": "Anima Visual",
+  "photographer_url": "https://unsplash.com/@animavisual",
+  "source": "https://unsplash.com/photos/a-plate-of-oysters-on-ice-with-lemon-wedges-XaLh3Nakkz4",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"restaurants\" category card"
+ },
+ {
+  "file": "img/cities/oostende/cafes_bars-{800,1600,2400}.webp + cafes_bars.jpg",
+  "title": "A couple of glasses with liquid in them",
+  "photographer": "Susie Burleson",
+  "photographer_url": "https://unsplash.com/@sburleson91",
+  "source": "https://unsplash.com/photos/a-couple-of-glasses-with-liquid-in-them-7_paaCXYXJk",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"cafes_bars\" category card"
+ },
+ {
+  "file": "img/cities/oostende/coffee-{800,1600,2400}.webp + coffee.jpg",
+  "title": "White ceramic mug on blue textile",
+  "photographer": "Victoria Shes",
+  "photographer_url": "https://unsplash.com/@victoriakosmo",
+  "source": "https://unsplash.com/photos/white-ceramic-mug-on-blue-textile-fT8d7dtGCT0",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"coffee\" category card"
+ },
+ {
+  "file": "img/cities/oostende/bakeries-{800,1600,2400}.webp + bakeries.jpg",
+  "title": "Freshly baked artisan bread on a wooden cutting board",
+  "photographer": "David Todd McCarty",
+  "photographer_url": "https://unsplash.com/@davidtoddmccarty",
+  "source": "https://unsplash.com/photos/freshly-baked-artisan-bread-on-a-wooden-cutting-board-qq-trOKqRpk",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"bakeries\" category card"
+ },
+ {
+  "file": "img/cities/oostende/cuisine-{800,1600,2400}.webp + cuisine.jpg",
+  "title": "Fish dish on blue ceramic plate",
+  "photographer": "Jametlene Reskp",
+  "photographer_url": "https://unsplash.com/@reskp",
+  "source": "https://unsplash.com/photos/fish-dish-on-blue-ceramic-plate-vvIrdGQI8xs",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"cuisine\" category card"
+ },
+ {
+  "file": "img/cities/oostende/events-{800,1600,2400}.webp + events.jpg",
+  "title": "Clear wine glasses on top of dining table",
+  "photographer": "Ronan",
+  "photographer_url": "https://unsplash.com/@ronank",
+  "source": "https://unsplash.com/photos/clear-wine-glasses-on-top-of-dining-table-PCE0T5i4pDI",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Ostend \"events\" category card"
+ },
+ {
+  "file": "img/cities/brussel/new-{800,1600,2400}.webp + new.jpg",
+  "title": "A dining room with a table and chairs",
+  "photographer": "Kristina Goncharova",
+  "photographer_url": "https://unsplash.com/@goncharovva_k",
+  "source": "https://unsplash.com/photos/a-dining-room-with-a-table-and-chairs-1XqKv4Mkmk4",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"new\" category card"
+ },
+ {
+  "file": "img/cities/brussel/breakfast-{800,1600,2400}.webp + breakfast.jpg",
+  "title": "Breakfast spread with waffles eggs and juice",
+  "photographer": "Rachel Park",
+  "photographer_url": "https://unsplash.com/@therachelstory",
+  "source": "https://unsplash.com/photos/breakfast-spread-with-waffles-eggs-and-juice-hrlvr2ZlUNk",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"breakfast\" category card"
+ },
+ {
+  "file": "img/cities/brussel/restaurants-{800,1600,2400}.webp + restaurants.jpg",
+  "title": "A fine dining dish with wine in dim light",
+  "photographer": "Tommaso Ubezio",
+  "photographer_url": "https://unsplash.com/@tommasoubezio",
+  "source": "https://unsplash.com/photos/a-fine-dining-dish-with-wine-in-dim-light-viq1MahJTp8",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"restaurants\" category card"
+ },
+ {
+  "file": "img/cities/brussel/cafes_bars-{800,1600,2400}.webp + cafes_bars.jpg",
+  "title": "A dimly lit bar with stools and bottles on the shelves",
+  "photographer": "Shawn DENG",
+  "photographer_url": "https://unsplash.com/@dzshawn",
+  "source": "https://unsplash.com/photos/a-dimly-lit-bar-with-stools-and-bottles-on-the-shelves-nsgzQHsxbXE",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"cafes_bars\" category card"
+ },
+ {
+  "file": "img/cities/brussel/coffee-{800,1600,2400}.webp + coffee.jpg",
+  "title": "Coffee cup with latte art",
+  "photographer": "Emmanuel Lozano",
+  "photographer_url": "https://unsplash.com/@elozanov",
+  "source": "https://unsplash.com/photos/coffee-cup-with-latte-art-vmpk4_yPtRA",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"coffee\" category card"
+ },
+ {
+  "file": "img/cities/brussel/bakeries-{800,1600,2400}.webp + bakeries.jpg",
+  "title": "Assortment of fresh pastries and croissants on display",
+  "photographer": "Phil Hearing",
+  "photographer_url": "https://unsplash.com/@philhearing",
+  "source": "https://unsplash.com/photos/assortment-of-fresh-pastries-and-croissants-on-display-iKExZ008Zh0",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"bakeries\" category card"
+ },
+ {
+  "file": "img/cities/brussel/cuisine-{800,1600,2400}.webp + cuisine.jpg",
+  "title": "Bread on black cooking pan",
+  "photographer": "Masaaki Komori",
+  "photographer_url": "https://unsplash.com/@gaspanik",
+  "source": "https://unsplash.com/photos/bread-on-black-cooking-pan-eCpcnSXKf4k",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"cuisine\" category card"
+ },
+ {
+  "file": "img/cities/brussel/events-{800,1600,2400}.webp + events.jpg",
+  "title": "Clear wine glasses",
+  "photographer": "Fabio Sangregorio",
+  "photographer_url": "https://unsplash.com/@fabiosangregorio",
+  "source": "https://unsplash.com/photos/clear-wine-glasses-xkoiWx2S9_o",
+  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
+  "used_for": "Brussels \"events\" category card"
  }
 ]

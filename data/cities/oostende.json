@@ -1,0 +1,21 @@
+{
+ "city": {
+  "id": "oostende",
+  "name": "Ostend",
+  "nameEn": "Ostend",
+  "nameNl": "Oostende",
+  "country": "Belgium",
+  "countryCode": "BE",
+  "center": [
+   51.23,
+   2.915
+  ],
+  "zoom": 14,
+  "active": true,
+  "sourceLanguage": "nl",
+  "dateChecked": "2026-10-26"
+ },
+ "extraEvents": [],
+ "changelog": [],
+ "restaurants": []
+}

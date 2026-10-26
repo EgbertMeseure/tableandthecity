@@ -1,0 +1,22 @@
+{
+ "city": {
+  "id": "brussel",
+  "name": "Brussels",
+  "nameEn": "Brussels",
+  "nameNl": "Brussel",
+  "nameFr": "Bruxelles",
+  "country": "Belgium",
+  "countryCode": "BE",
+  "center": [
+   50.844,
+   4.356
+  ],
+  "zoom": 13,
+  "active": true,
+  "sourceLanguage": "fr+nl",
+  "dateChecked": "2026-10-26"
+ },
+ "extraEvents": [],
+ "changelog": [],
+ "restaurants": []
+}

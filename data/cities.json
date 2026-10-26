@@ -85,15 +85,102 @@
     },
     {
      "id": "brussel",
-     "name": "Brussel",
+     "name": "Brussels",
      "nameEn": "Brussels",
-     "active": false
+     "nameNl": "Brussel",
+     "nameFr": "Bruxelles",
+     "active": true,
+     "data": "data/cities/brussel.json",
+     "center": [
+      50.844,
+      4.356
+     ],
+     "zoom": 13,
+     "upcoming": "data/cities/brussel-upcoming.json",
+     "osm": "data/cities/brussel-osm.json",
+     "ratings": "data/cities/brussel-ratings.json",
+     "area": "Central Brussels: the City of Brussels (incl. Laeken and the European Quarter), Ixelles and Saint-Gilles",
+     "description": "Table and the City: a curated, filterable guide to Brussels' best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+     "about": "<span id=\"about-city\">Brussels</span>: the base list covers the City of Brussels (with Laeken and the European Quarter), Ixelles and Saint-Gilles and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+     "images": {
+      "hero": "img/cities/brussel/hero-grand-place",
+      "cards": {
+       "new": "cities/brussel/new",
+       "breakfast": "cities/brussel/breakfast",
+       "restaurants": "cities/brussel/restaurants",
+       "cafes_bars": "cities/brussel/cafes_bars",
+       "coffee": "cities/brussel/coffee",
+       "bakeries": "cities/brussel/bakeries",
+       "cuisine": "cities/brussel/cuisine",
+       "events": "cities/brussel/events"
+      },
+      "breakfastPlacePhoto": false
+     }
     },
     {
      "id": "brugge",
      "name": "Brugge",
      "nameEn": "Bruges",
-     "active": false
+     "active": true,
+     "data": "data/cities/brugge.json",
+     "center": [
+      51.2085,
+      3.2245
+     ],
+     "zoom": 14,
+     "upcoming": "data/cities/brugge-upcoming.json",
+     "osm": "data/cities/brugge-osm.json",
+     "ratings": "data/cities/brugge-ratings.json",
+     "area": "Brugge: the whole municipality, from the historic centre to Sint-Andries, Sint-Kruis, Assebroek and Zeebrugge",
+     "description": "Table and the City: a curated, filterable guide to Brugge's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+     "about": "<span id=\"about-city\">Brugge</span>: the base list covers the whole municipality (the historic centre and the surrounding boroughs, Zeebrugge included) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+     "images": {
+      "hero": "img/cities/brugge/hero-rozenhoedkaai",
+      "cards": {
+       "new": "cities/brugge/new",
+       "breakfast": "cities/brugge/breakfast",
+       "restaurants": "cities/brugge/restaurants",
+       "cafes_bars": "cities/brugge/cafes_bars",
+       "coffee": "cities/brugge/coffee",
+       "bakeries": "cities/brugge/bakeries",
+       "cuisine": "cities/brugge/cuisine",
+       "events": "cities/brugge/events"
+      },
+      "breakfastPlacePhoto": false
+     }
+    },
+    {
+     "id": "oostende",
+     "name": "Ostend",
+     "nameEn": "Ostend",
+     "nameNl": "Oostende",
+     "active": true,
+     "data": "data/cities/oostende.json",
+     "center": [
+      51.23,
+      2.915
+     ],
+     "zoom": 14,
+     "upcoming": "data/cities/oostende-upcoming.json",
+     "osm": "data/cities/oostende-osm.json",
+     "ratings": "data/cities/oostende-ratings.json",
+     "area": "Ostend: the whole municipality, from the centre and the seafront to Mariakerke, Raversijde and Stene",
+     "description": "Table and the City: a curated, filterable guide to Ostend's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+     "about": "<span id=\"about-city\">Ostend</span>: the base list covers the whole municipality (the centre, the seafront and the surrounding boroughs) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+     "images": {
+      "hero": "img/cities/oostende/hero-seafront",
+      "cards": {
+       "new": "cities/oostende/new",
+       "breakfast": "cities/oostende/breakfast",
+       "restaurants": "cities/oostende/restaurants",
+       "cafes_bars": "cities/oostende/cafes_bars",
+       "coffee": "cities/oostende/coffee",
+       "bakeries": "cities/oostende/bakeries",
+       "cuisine": "cities/oostende/cuisine",
+       "events": "cities/oostende/events"
+      },
+      "breakfastPlacePhoto": false
+     }
     }
    ],
    "id": "be",

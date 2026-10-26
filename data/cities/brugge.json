@@ -1,0 +1,20 @@
+{
+ "city": {
+  "id": "brugge",
+  "name": "Brugge",
+  "nameEn": "Bruges",
+  "country": "Belgium",
+  "countryCode": "BE",
+  "center": [
+   51.2085,
+   3.2245
+  ],
+  "zoom": 14,
+  "active": true,
+  "sourceLanguage": "nl",
+  "dateChecked": "2026-10-26"
+ },
+ "extraEvents": [],
+ "changelog": [],
+ "restaurants": []
+}
