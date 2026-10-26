@@ -14904,6 +14904,90 @@
    "notes": null,
    "otherLocations": null,
    "origin": "research-2026-10-25"
+  },
+  {
+   "id": "darbode",
+   "name": "DarBodé",
+   "group": "restaurants",
+   "category": "restaurant",
+   "type": null,
+   "cuisine": "Moroccan lunch, mezze and cocktails",
+   "cuisineTags": [
+    "Moroccan"
+   ],
+   "chef": "unknown",
+   "address": "Onderbergen 40, 9000 Gent",
+   "postalCode": "9000",
+   "district": "Gent (9000)",
+   "neighbourhood": "Patershol",
+   "lat": 51.0520937,
+   "lng": 3.7195409,
+   "geoSource": "Nominatim way/435355453 (building, Onderbergen 40)",
+   "geoPrecision": "address",
+   "priceLevel": "unknown",
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": 2026,
+   "openingDate": "2026-05",
+   "opened": "2026-05",
+   "isNew": true,
+   "vegetarian": "yes",
+   "vegan": "unknown",
+   "dietNote": "great vegetarian selection (reviews, Jun 2026)",
+   "menuType": "unknown",
+   "menuChanges": "unknown",
+   "currentMenuNote": "unknown",
+   "status": "open",
+   "statusNote": "",
+   "website": "https://www.darbode.com/",
+   "instagram_handle": "darbode",
+   "instagram": "https://www.instagram.com/darbode/",
+   "instagramSource": "darbode.com (site footer)",
+   "instagram_posts": [],
+   "phone": "+32 493 38 18 60",
+   "summary": "Brothers Nicolas and Martin Bodé's Moroccan concept store with a restaurant in the middle: lunch, mezze assortments and cocktails with a Moroccan twist; now also open on Friday evening (Bar Bodé).",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html",
+    "https://www.hln.be/gent/net-open-darbode-brengt-stukje-marokko-naar-gent-we-willen-dat-mensen-hier-even-vertragen~a7598ca3/",
+    "https://www.darbode.com/",
+    "https://exa.ai/library/place/xdy5zyryvzv"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-26",
+   "lastChanged": "2026-10-26",
+   "city": "gent",
+   "country": "BE",
+   "photos": [],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "features": {
+    "foodServed": true,
+    "openSunday": false,
+    "openMonday": false,
+    "new": true,
+    "lunch": true,
+    "veggie": true
+   },
+   "features_evidence": {
+    "foodServed": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html",
+    "openSunday": "Google Maps hours (via exa.ai mirror, 2026-10-26)",
+    "openMonday": "Google Maps hours (via exa.ai mirror, 2026-10-26)",
+    "new": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html",
+    "lunch": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html",
+    "veggie": "https://exa.ai/library/place/xdy5zyryvzv (Google reviews: great vegetarian selection)"
+   },
+   "openingHours": "Tu-Sa 10:00-18:00; Mo,Su off",
+   "openingHoursSource": "Google Maps (via exa.ai mirror, 2026-10-26; Places API 403) + darbode.com: also open Friday evening",
+   "notes": "Several reviews (Jun 2026) call it a pop-up 'for now'; re-check weekly. Shop + restaurant (\"Bar Bodé\"); HLN 13 Apr 2026 announced the restaurant, Nieuwsblad 29 May 2026 reported it open.",
+   "otherLocations": null,
+   "origin": "research-2026-10-26"
   }
  ],
  "extraEvents": [
@@ -15774,6 +15858,20 @@
    "field": "added",
    "change": "Added (opened 2026-02; research 2026-10-25).",
    "source": "https://www.hln.be/gent/net-open-jonge-ondernemers-brengen-met-cafe-copain-nieuw-leven-op-de-oude-beestenmarkt-in-gent-dit-plein-is-nu-onderbenut~a97b746f/"
+  },
+  {
+   "date": "2026-10-26",
+   "restaurant": "DarBodé",
+   "field": "added",
+   "change": "Added (Moroccan lunch & cocktails, opened 2026-05; weekly research 2026-10-26).",
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html"
+  },
+  {
+   "date": "2026-10-26",
+   "restaurant": "Foodbar JEF",
+   "field": "opened",
+   "change": "Opened 2026-03 (12 March 2026); exact address added (weekly research 2026-10-26).",
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html"
   }
  ]
 }
