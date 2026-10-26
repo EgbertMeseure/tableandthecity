@@ -29,19 +29,36 @@ const TG = (() => {
     const first = s => (s.match(/[\p{L}\p{N}]/u) || [''])[0].toUpperCase();
     return pick.length === 2 && !/^\d/.test(pick[1]) ? first(pick[0]) + first(pick[1]) : first(pick[0]);   // two-word names → two initials
   }
-  /* the place's own Instagram post permalinks (verified), as {url, category} */
-  const igPostsOf = r => (r.instagram_posts || []).map(p => typeof p === 'string' ? { url: p } : p).filter(p => /^https:\/\/www\.instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+\/?$/.test(p.url));
+  /* the place's own Instagram post permalinks (verified), as {url, category}. Photos of people (chef, staff, guests, portraits:
+     category chef / people, set by the photo review in data/osm/photo-review.json, scripts/apply_photo_review.py) are never shown — only food, drinks, the interior … */
+  const PEOPLE_CAT = /^(chef|people|person|staff|portrait|team|graphic)$/;   // graphic = poster / text card, not a photo of the place
+  const igPostsOf = r => (r.instagram_posts || []).map(p => typeof p === 'string' ? { url: p } : p).filter(p => /^https:\/\/www\.instagram\.com\/(p|reel)\/[A-Za-z0-9_-]+\/?$/.test(p.url) && !PEOPLE_CAT.test(p.category || ''));
+  /* the post a card / hero shows: a photo post (not a reel), food / drinks / interior first, then unreviewed, then exterior */
+  const POST_RANK = { food: 0, drink: 0, interior: 0, '': 1, other: 1, exterior: 2 };
+  const bestPost = posts => { const ph = posts.filter(x => /\/p\//.test(x.url)), pool = ph.length ? ph : posts, rk = x => POST_RANK[x.category || ''] ?? 1;
+    return pool.reduce((b, x) => (!b || rk(x) < rk(b) ? x : b), null); };
+  const CFG = () => window.TG_CONFIG || {};
   const hostOf = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
-  /* the one photo a card / hero shows, in order: free-licence or own photo → the place's own website og:image (hotlinked)
-     → first Instagram photo post (official embed) → Instagram profile grid (official embed, only for handles whose embed was checked) → null */
+  /* the photo a card / hero shows, in order: the photo research's pick (<city>-photos.json: own website photo, hotlinked, or own
+     Instagram post) → free-licence or own photo (food / drinks / interior first) → the place's own website og:image (hotlinked)
+     → best Instagram photo post (official embed) → Instagram profile grid (off by default, config.igProfileEmbeds) → null.
+     A place on hold (only photos with people exist) shows nothing: the neutral monogram. */
+  const PHOTO_RANK = { food: 0, drink: 0, interior: 0, exterior: 1, other: 2 };
+  const bestPhoto = own => own.reduce((b, x) => (!b || (PHOTO_RANK[x.category] ?? 2) < (PHOTO_RANK[b.category] ?? 2) ? x : b), null);
+  /* the research pick as {photo} or {post}, when it is still there */
+  const pickOf = r => { const k = r.photoPick; if (!k) return {};
+    return k.type === 'photo' ? { photo: realPhotos(r).find(x => x.src === k.src) } : { post: igPostsOf(r).find(x => x.url === k.url) }; };
+  const igPostCard = (r, hp) => ({ kind: 'igpost', embed: hp.url.replace(/\/$/, '') + '/embed/', href: hp.url, credit: `Photo: ${r.igHandle ? '@' + r.igHandle : 'Instagram'} on Instagram` });
   function cardPhoto(r, forCard) {
-    const own = realPhotos(r), p = own.find(x => x.category === 'exterior' || x.category === 'interior') || own[0];
-    if (p) return { kind: 'img', src: p.thumb || p.src, srcset: p.srcset, credit: `Photo: ${p.credit || ''}` };
+    if (r.photoHold) return null;
+    const pk = pickOf(r);
+    if (pk.post && !(forCard && !igCardsOn())) return igPostCard(r, pk.post);
+    const p = pk.photo || bestPhoto(realPhotos(r));
+    if (p) return { kind: 'img', src: p.thumb || p.src, srcset: p.srcset, hotlink: !!p.hotlink, credit: `Photo: ${p.credit || ''}` };
     if (r.heroImage && r.heroImage.url) return { kind: 'img', src: r.heroImage.url, hotlink: true, credit: `Photo: ${hostOf(r.heroImage.source)}` };
     if (forCard && !igCardsOn()) return null;
-    const posts = igPostsOf(r), h = r.igHandle ? '@' + r.igHandle : 'Instagram';
-    if (posts.length) { const hp = posts.find(x => /\/p\//.test(x.url)) || posts[0];
-      return { kind: 'igpost', embed: hp.url.replace(/\/$/, '') + '/embed/', href: hp.url, credit: `Photo: ${h} on Instagram` }; }
+    const posts = igPostsOf(r);
+    if (posts.length) return igPostCard(r, bestPost(posts));
     if (r.igEmbed) return { kind: 'igprofile', embed: `https://www.instagram.com/${r.igHandle}/embed/`, href: `https://www.instagram.com/${r.igHandle}/`, credit: `Photos: @${r.igHandle} on Instagram` };
     return null;
   }
@@ -434,8 +451,8 @@ const TG = (() => {
   /* ---- data ---- */
   async function load(city) {
     const opt = (url, empty) => url ? fetch(bust(url), { cache: 'no-cache' }).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg, hz, bk, ig, gr] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
-      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} })]);
+    const [d, up, om, vg, hz, bk, ig, gr, ph] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
@@ -455,12 +472,24 @@ const TG = (() => {
       if (x) {
         if (x.instagram_handle) { r.instagram_handle = x.instagram_handle; r.instagram = `https://www.instagram.com/${x.instagram_handle}/`; }
         else if ('instagram_handle' in x) r.igUnconfirmed = true;
-        if ((x.posts || []).length && !igPostsOf(r).length) r.instagram_posts = x.posts.map(url => ({ url, category: '' }));
+        if ((x.posts || []).length && !igPostsOf(r).length) r.instagram_posts = x.posts.map(p => typeof p === 'string' ? { url: p, category: '' } : p);   // reviewed posts carry a category
         if (x.heroReject && r.heroImage && r.heroImage.url === x.heroReject) delete r.heroImage;   // flagged by research: logo / text / render / chain promo / duplicate
         if (x.heroImage && !r.heroImage) r.heroImage = x.heroImage;
       }
       r.igHandle = r.instagram_handle || (r.instagram ? r.instagram.replace(/\/+$/, '').split('/').pop() : '');
-      r.igEmbed = !!(r.igHandle && !r.igUnconfirmed && EMB[r.igHandle] && EMB[r.igHandle].ok);
+      // the profile-grid embed shows whatever the place posted last (often people), so it is off unless config.igProfileEmbeds is true
+      r.igEmbed = !!(CFG().igProfileEmbeds === true && r.igHandle && !r.igUnconfirmed && EMB[r.igHandle] && EMB[r.igHandle].ok);
+    });
+    /* photo research layer (<city>-photos.json, scripts/apply_photo_review.py): checked photos of food / drinks / the interior from the
+       place's own website (hotlinked) and Instagram (official embed) go first, pick = card + hero; hold = only photos with people exist → none */
+    const PH = ph.places || {};
+    rs.forEach(r => {
+      const x = PH[r.id]; if (!x) return;
+      if (x.hold) { r.photoHold = x.hold; r.photos = []; r.google_photos = []; r.instagram_posts = []; delete r.heroImage; r.igEmbed = false; return; }
+      const posts = (x.posts || []), seen = new Set(posts.map(p => p.url.replace(/\/$/, '')));
+      r.photos = [...(x.photos || []), ...(r.photos || [])];
+      r.instagram_posts = [...posts, ...igPostsOf(r).filter(p => !seen.has(p.url.replace(/\/$/, '')))];
+      if (x.pick) r.photoPick = x.pick;
     });
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
@@ -559,6 +588,6 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { CUISINES, CZ_BY, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { CUISINES, CZ_BY, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

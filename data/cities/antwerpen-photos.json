@@ -1,0 +1,51 @@
+{
+ "about": "Photos per place from the photo research (own Instagram via the official post embed, own website hotlinked; every photo checked: food / drinks / interior, no people) and holds (no people-free photo: nothing shown). Built by scripts/apply_photo_review.py; pick = the card + hero photo. Nothing is downloaded or rehosted.",
+ "places": {
+  "belroys-bijou": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DXZ5mxqieED/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DXZ5mxqieED/"
+   }
+  },
+  "ciro-s": {
+   "photos": [
+    {
+     "src": "https://ciros.be/wp-content/uploads/2023/10/home_img_1-1536x1002.png",
+     "thumb": "https://ciros.be/wp-content/uploads/2023/10/home_img_1-1536x1002.png",
+     "w": 1536,
+     "h": 1002,
+     "category": "food",
+     "hotlink": true,
+     "source": "website",
+     "credit": "ciros.be",
+     "credit_url": "https://ciros.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://ciros.be/wp-content/uploads/2023/10/home_img_1-1536x1002.png"
+   }
+  },
+  "the-jane": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdlhjDWMeWt/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DdlhjDWMeWt/"
+   }
+  }
+ }
+}

@@ -182,6 +182,9 @@ Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ran
 - **Hero** (detail pages): a free-licence photo if we have one; otherwise the place's own `og:image` from its homepage (`data/cities/gent-heroes.json`, built by
   `scripts/fetch_hero_images.py`, hotlinked with a "Photo: <domain>" credit); otherwise its first Instagram photo post via Instagram's official embed iframe
   (scaled to cover, not interactive, credit @handle links to the post); otherwise the monogram. Broken hotlinks fall back automatically.
+- **No people** (owner rule, Oct 2026): every photo is food, drinks or the interior. Photos from the photo research (`data/cities/<city>-photos.json`,
+  `scripts/apply_photo_review.py`, see update.md 4h) lead the card and hero; Instagram posts categorised people / graphic are never shown; places with only
+  people photos show the monogram; the Instagram profile-grid embed is off by default (`igProfileEmbeds`).
 - **Gallery**: a horizontal rail. Instagram posts (`instagram_posts`, max 8) are shown with Instagram's official `/p/<shortcode>/embed/` iframe, clipped to
   a square tile so mainly the photo shows, lazy-loaded, with a "View on Instagram @handle" link; tapping the photo opens the post on Instagram.
   We never download Instagram media: Instagram's `/media/?size=l` hotlink is blocked in browsers (`ERR_BLOCKED_BY_RESPONSE.NotSameOrigin`), so we don't use it.

@@ -102,6 +102,15 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    outlets…). Per-chain counts of the last run: `data/osm/gent-chains-excluded.json`. A new chain shows up? Add it (name, confirmed wikidata id, name pattern)
    and re-run — idempotent. Local multi-site Ghent/Belgian businesses are kept on purpose (list + reasons under `keep`). Curated / upcoming records are never
    dropped automatically: a match there prints `WARNING … looks like chain` — decide by hand. Don't add chain openings to `gent-upcoming.json`.
+4h. **Photo review + photo research** (after `apply_media.py`, `build_instagram_layer.py`, `fetch_hero_images.py`, and whenever the research hand-off
+   gets a new batch) – `python3 scripts/apply_photo_review.py gent && python3 scripts/apply_photo_review.py antwerpen`. Rule: a place shows food, drinks or
+   the interior, never people (chef, staff, guests, portraits, hands). `data/osm/photo-review.json` holds the manual review (Instagram post categories —
+   people / graphic posts are never shown —, people heroes, `hold` = no people-free photo → neutral monogram, `dropPhotos`, `skipResearch`). The research
+   hand-off (`/workspace/handoff/place-photos-research/<city>/<id>/sources.json`, each image checked by eye) becomes `data/cities/<city>-photos.json`: own
+   Instagram photos as official post embeds (permalink derived from the CDN url, checked once in headless Chrome that the embed shows the same photo) and own
+   website photos hotlinked (≤ 1.6 MB); the researcher's first usable candidate is the card + hero. Checks are cached in `data/osm/photo-research-checks.json`,
+   so re-runs only check new candidates. Re-runnable and idempotent. The profile-grid embed is off (`igProfileEmbeds: false` in `js/config.js`): it shows
+   whatever was posted last, often people.
 4e. **Veggie / vegan layer** – `python3 scripts/veggie_layer.py gent` after every import; weekly follow `scripts/VEGGIE_CHECK.md`
    (refresh HappyCow, verify every 100% vegan / vegetarian place on its own site, add press finds). Never guess a level.
 4g. **Hero photos** (monthly, and after each OSM import) – `python3 scripts/fetch_hero_images.py gent --browser-check` (new places only; `--refresh` re-checks all).

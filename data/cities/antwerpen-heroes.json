@@ -10,24 +10,6 @@
    "hash": "c548d8ae426d",
    "checked": "2026-10-25"
   },
-  "belroys-bijou": {
-   "url": "https://www.belroys.com/sites/default/files/styles/open_graph/public/content-images/Dieter-shaking.jpg?h=06ac0d8c&itok=TE9J2P0G",
-   "source": "https://www.belroys.com/en/cocktail-bars/welcome-belroys-bijou",
-   "type": "og:image",
-   "w": 1200,
-   "h": 630,
-   "hash": "56b8d97d7409",
-   "checked": "2026-10-25"
-  },
-  "ciro-s": {
-   "url": "https://ciros.be/wp-content/uploads/2023/10/menu_hero.png",
-   "source": "https://ciros.be/",
-   "type": "og:image",
-   "w": 1885,
-   "h": 1300,
-   "hash": "0d9ef484a8e1",
-   "checked": "2026-10-25"
-  },
   "nage": {
    "url": "https://www.restaurantnage.be/wp-content/uploads/2021/06/RestaurantNage_Facebook_IMG.png",
    "source": "https://www.restaurantnage.be/",
@@ -53,15 +35,6 @@
    "w": 1500,
    "h": 1000,
    "hash": "6de39691dc67",
-   "checked": "2026-10-25"
-  },
-  "the-jane": {
-   "url": "https://www.thejaneantwerp.com/wp/wp-content/uploads/2025/10/og2.png",
-   "source": "https://www.thejaneantwerp.com/",
-   "type": "og:image",
-   "w": 1920,
-   "h": 1080,
-   "hash": "ee8a3d875b69",
    "checked": "2026-10-25"
   }
  },
@@ -111,6 +84,11 @@
   "belgian-wines": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-25"
+  },
+  "belroys-bijou": {
+   "why": "photo review: bartender shaking a cocktail",
+   "checked": "2026-10-26",
+   "url": "https://www.belroys.com/sites/default/files/styles/open_graph/public/content-images/Dieter-shaking.jpg?h=06ac0d8c&itok=TE9J2P0G"
   },
   "billies": {
    "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/billiesbier.be/media/billiesbier.be/onewebmedia/Billie's%20bier%20kafetaria%20LOGO.png?etag=W%2F%22174ee-5f0856f6%22&sourceContentType=image%2Fpng&quality=85)",
@@ -174,6 +152,11 @@
    "why": "manual review: logo / wordmark, not a photo of the place (Antwerpen review, 25 Oct 2026)",
    "checked": "2026-10-25",
    "url": "https://www.cella.be/assets/img/thumbnail.jpg"
+  },
+  "ciro-s": {
+   "why": "photo review: people visible (staff / guests / hands), flagged by the photo research",
+   "checked": "2026-10-26",
+   "url": "https://ciros.be/wp-content/uploads/2023/10/menu_hero.png"
   },
   "cobra": {
    "why": "no og:image / twitter:image",
@@ -469,6 +452,11 @@
   "the-butcher-s-son": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-25"
+  },
+  "the-jane": {
+   "why": "photo review: chef portrait",
+   "checked": "2026-10-26",
+   "url": "https://www.thejaneantwerp.com/wp/wp-content/uploads/2025/10/og2.png"
   },
   "the-london": {
    "why": "no og:image / twitter:image",

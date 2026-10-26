@@ -25,7 +25,8 @@
   document.head.insertAdjacentHTML('beforeend', `<link rel="canonical" href="${esc(canon)}">`);
   // ---- hero: a real, freely licensed photo of the restaurant if we have one; otherwise a neutral typographic hero ----
   const own = TG.realPhotos(r);
-  const heroP = own.find(p => p.category === 'exterior' || p.category === 'interior') || own[0];
+  const pk = r.photoHold ? {} : TG.pickOf(r);   // the photo research's pick (own website photo or own Instagram post) leads
+  const heroP = r.photoHold || pk.post ? null : (pk.photo || TG.bestPhoto(own));
   const igPosts = TG.igPostsOf(r);
   const igHandle = r.igHandle || '';
   const HI = r.heroImage, heroHost = HI ? HI.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0] : '';
@@ -40,7 +41,7 @@
     const prof = !igPosts.length && r.igEmbed;
     if (!igPosts.length && !prof) { $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); return; }
     const top = document.querySelector('.dhero'); top.classList.add('dhero--ig');
-    const hp = igPosts.find(p => /\/p\//.test(p.url)) || igPosts[0];   // a photo post rather than a reel (no play button)
+    const hp = pk.post || TG.bestPost(igPosts);   // a photo post rather than a reel (no play button): food / drinks / interior first
     const src = prof ? `https://www.instagram.com/${igHandle}/embed/` : hp.url.replace(/\/$/, '') + '/embed/';
     top.insertAdjacentHTML('afterbegin', `<div class="dhero__ig" aria-hidden="true"><iframe src="${esc(src)}" title="" tabindex="-1" loading="eager" scrolling="no"></iframe></div>`);
     const box = top.querySelector('.dhero__ig'), fr = box.querySelector('iframe');
@@ -48,14 +49,17 @@
     fit(); addEventListener('resize', fit);
     const cr = $('.dhero .credit'); if (cr) cr.innerHTML = `Photo: <a href="${esc(prof ? `https://www.instagram.com/${igHandle}/` : hp.url)}" target="_blank" rel="noopener">${igHandle ? '@' + esc(igHandle) : 'Instagram'}</a> on Instagram`;
   };
-  if (!heroP && HI) {
+  if (r.photoHold) { $('#himg').remove(); $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); }   // only photos with people exist: neutral
+  else if (pk.post) { $('#himg').remove(); igHero(); }
+  else if (!heroP && HI) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(HI.url)}" alt="${esc(r.name)}" referrerpolicy="no-referrer" fetchpriority="high" loading="eager" decoding="async">`;
     $('.dhero .credit').innerHTML = `Photo: <a href="${esc(HI.source)}" target="_blank" rel="noopener">${esc(heroHost)}</a>`;
     $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → Instagram → monogram
   } else if (!heroP && (igPosts.length || r.igEmbed)) { $('#himg').remove(); igHero(); }
   else if (heroP) {
-    $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(heroP.src)}" ${heroP.srcset ? `srcset="${esc(heroP.srcset)}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" fetchpriority="high">`;
-    $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)} · ${esc(heroP.license || '')}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}`;
+    $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(heroP.src)}" ${heroP.srcset ? `srcset="${esc(heroP.srcset)}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
+    if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → Instagram → monogram
+    $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}`;
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
@@ -179,11 +183,13 @@
     <p class="dmap-cap">${esc(hoodLine)}</p>`;
 
   // ---- gallery: only real photos of this restaurant (freely licensed, e.g. Wikimedia Commons) + official Instagram embeds ----
-  const CATL = { food: 'Food', interior: 'Atmosphere', chef: 'Chef', exterior: 'Exterior', other: 'More', profile: 'Instagram' };
+  // no 'chef' / people category: TG.igPostsOf already leaves photos of people out
+  const CATL = { food: 'Food', drink: 'Drinks', interior: 'Atmosphere', exterior: 'Exterior', other: 'More', profile: 'Instagram' };
   // the website og:image (hotlinked from the place's own site, credited) is a photo tile too
   const webPhoto = HI && HI.url ? [{ src: HI.url, thumb: HI.url, w: HI.w, h: HI.h, category: 'other', hotlink: true, alt: `${r.name} — photo from ${heroHost}`, credit: heroHost, credit_url: HI.source }] : [];
   const photos = [...own.filter(p => CATL[p.category]), ...webPhoto];
-  const posts = igPosts.slice(0, 8);                                  // max 8 Instagram tiles
+  const PR = { food: 0, drink: 0, interior: 0 };
+  const posts = igPosts.map((p, i) => [p, i]).sort((a, b) => (PR[a[0].category] ?? 1) - (PR[b[0].category] ?? 1) || a[1] - b[1]).map(x => x[0]).slice(0, 8);   // food / drinks / interior first; max 8 Instagram tiles
   const handle = igHandle;
   let gcat = '', shown = [], idx = 0;
   const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}</span>`;

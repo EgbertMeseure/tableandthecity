@@ -12,7 +12,10 @@
    "instagram_handle": "alberte_gent",
    "handleSource": "https://alberte-gent.be",
    "posts": [
-    "https://www.instagram.com/p/Cs5gVCvtIi8/"
+    {
+     "url": "https://www.instagram.com/p/Cs5gVCvtIi8/",
+     "category": "exterior"
+    }
    ],
    "note": "Own site links @bar_alberte. That account appears to have been renamed: posts embedded in articles as \"@bar_alberte\" (e.g. culinaireambiance.com) are now attributed by Instagram oEmbed to @alberte_gent, same author id. Post verified via Instagram oEmbed (author alberte_gent), dated 31 May 2023; shows the terrace. It was found embedded in marieclaire.be; no more recent verifiable post codes found.",
    "origin": "research (approved 20 Oct 2026)"
@@ -32,14 +35,8 @@
    "handleSource": "https://babajacquet.be/",
    "note": "og:image: Exterior/terrace photo.",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://babajacquet.be/cdn/shop/files/2503_BABA-GENT-86_1_72ffb824-60ea-4744-a6ca-96fa74798aa7.jpg?v=1766159222",
-    "source": "https://babajacquet.be/",
-    "type": "og:image",
-    "w": 1600,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://babajacquet.be/cdn/shop/files/2503_BABA-GENT-86_1_72ffb824-60ea-4744-a6ca-96fa74798aa7.jpg?v=1766159222",
+   "ogImageRejected": "https://babajacquet.be/cdn/shop/files/2503_BABA-GENT-86_1_72ffb824-60ea-4744-a6ca-96fa74798aa7.jpg?v=1766159222 (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "bakker-klaas-wintercircus": {
    "name": "Bakker Klaas (Wintercircus)",
@@ -135,14 +132,8 @@
    "handleSource": "https://www.caferecup.eu/",
    "note": "Also listed on Visit Gent. og:image: Exterior photo.",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static.wixstatic.com/media/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg/v1/fill/w_2500,h_3750,al_c/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg",
-    "source": "https://www.caferecup.eu/",
-    "type": "og:image",
-    "w": 2500,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static.wixstatic.com/media/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg/v1/fill/w_2500,h_3750,al_c/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg",
+   "ogImageRejected": "https://static.wixstatic.com/media/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg/v1/fill/w_2500,h_3750,al_c/1c8f9e_842a0fa3874f4f4a8942dcf95154bbe8~mv2.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "cafe-romain": {
    "name": "Café Romain",
@@ -230,7 +221,10 @@
    "instagram_handle": "frankiesgent",
    "handleSource": "https://www.frankiesgent.be/",
    "posts": [
-    "https://www.instagram.com/p/DaIx2Ffotzb/"
+    {
+     "url": "https://www.instagram.com/p/DaIx2Ffotzb/",
+     "category": "people"
+    }
    ],
    "note": "Post verified via Instagram oEmbed (author frankiesgent), dated 28 Jun 2026; shows the storefront before opening. Other posts embedded on the own site were graphics or people-focused reels and were not used.",
    "origin": "research (approved 20 Oct 2026)"
@@ -241,14 +235,8 @@
    "handleSource": "https://froufrou.gent/",
    "note": "og:image: Interior photo.",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://froufrou.gent/uploads/site-assets/_1200x630_crop_center-center_82_none/Froufrou-2-2.JPG?mtime=1596747800",
-    "source": "https://froufrou.gent/",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://froufrou.gent/uploads/site-assets/_1200x630_crop_center-center_82_none/Froufrou-2-2.JPG?mtime=1596747800",
+   "ogImageRejected": "https://froufrou.gent/uploads/site-assets/_1200x630_crop_center-center_82_none/Froufrou-2-2.JPG?mtime=1596747800 (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "full-circle-coffee": {
    "name": "Full Circle Coffee",
@@ -357,14 +345,8 @@
    "handleSource": "https://www.gaultmillau.be/en/cocktail-bars/little-red-rooster-gent",
    "note": "Own site shows no Instagram link; its Gault&Millau page links this account. og:image: Bartenders behind the bar (interior).",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://primary.jwwb.nl/public/p/m/b/temp-mwauebbpvmgedcquihnp/lrr-13-high.jpg",
-    "source": "https://www.littleredrooster.be/",
-    "type": "og:image",
-    "w": 1080,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://primary.jwwb.nl/public/p/m/b/temp-mwauebbpvmgedcquihnp/lrr-13-high.jpg",
+   "ogImageRejected": "https://primary.jwwb.nl/public/p/m/b/temp-mwauebbpvmgedcquihnp/lrr-13-high.jpg (photo review: two bartenders, portrait)"
   },
   "luxx": {
    "name": "LUXX",
@@ -1335,14 +1317,8 @@
    "instagram_handle": "degekroondehoofden.be",
    "handleSource": "https://degekroondehoofden.be/restaurants/mariakerke/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://degekroondehoofden.be/wp-content/uploads/2025/02/AALST_degekroondehoofden_aalst-076-low-1.webp",
-    "source": "https://degekroondehoofden.be/restaurants/mariakerke/",
-    "type": "og:image",
-    "w": 1300,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://degekroondehoofden.be/wp-content/uploads/2025/02/AALST_degekroondehoofden_aalst-076-low-1.webp",
+   "ogImageRejected": "https://degekroondehoofden.be/wp-content/uploads/2025/02/AALST_degekroondehoofden_aalst-076-low-1.webp (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-de-gekroonde-hoofden-n818880413": {
    "name": "De Gekroonde Hoofden",
@@ -1464,14 +1440,8 @@
    "name": "De Warempel",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://v2cdn1.centralappstatic.com/image/resize/1800x1080_cover_3409c9cd35d745b498dc3721ef97cfaf.webp?w=1200",
-    "source": "https://warempel.be/",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://v2cdn1.centralappstatic.com/image/resize/1800x1080_cover_3409c9cd35d745b498dc3721ef97cfaf.webp?w=1200",
+   "ogImageRejected": "https://v2cdn1.centralappstatic.com/image/resize/1800x1080_cover_3409c9cd35d745b498dc3721ef97cfaf.webp?w=1200 (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-de-witte-leeuw-n2617862001": {
    "name": "De Witte Leeuw",
@@ -1536,14 +1506,8 @@
    "instagram_handle": "dok_brewing_company",
    "handleSource": "https://www.dokbrewingcompany.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg",
-    "source": "https://www.dokbrewingcompany.be/",
-    "type": "og:image",
-    "w": 1995,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg",
+   "ogImageRejected": "https://static.wixstatic.com/media/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/92bfe2_12870f521c1145a2858ad921f671510a%7Emv2.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-dok-koon-n9801304840": {
    "name": "Dok Koon",
@@ -1585,14 +1549,8 @@
    "instagram_handle": "edelrotgent",
    "handleSource": "https://www.wijnbar-edelrot.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static.wixstatic.com/media/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg",
-    "source": "https://www.wijnbar-edelrot.be/",
-    "type": "og:image",
-    "w": 997,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static.wixstatic.com/media/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg",
+   "ogImageRejected": "https://static.wixstatic.com/media/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/04ab9d_fd4393ec6ebb426a8e023166c3282189%7Emv2.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-edgar-kaasbar-n5249092192": {
    "name": "Edgar Kaasbar",
@@ -1618,14 +1576,8 @@
    "instagram_handle": "eethaven.be",
    "handleSource": "https://www.eethaven.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static1.squarespace.com/static/68d3e5d2da9b4e7eb5b9bea9/t/692dc91654477b4646d777f3/1764608278243/%C2%A9+Illias+Teirlinck+-+20251031+-+EETHAVEN+-+HQ+-+6251.jpg?format=1500w",
-    "source": "https://www.eethaven.be/",
-    "type": "og:image",
-    "w": 1500,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static1.squarespace.com/static/68d3e5d2da9b4e7eb5b9bea9/t/692dc91654477b4646d777f3/1764608278243/%C2%A9+Illias+Teirlinck+-+20251031+-+EETHAVEN+-+HQ+-+6251.jpg?format=1500w",
+   "ogImageRejected": "https://static1.squarespace.com/static/68d3e5d2da9b4e7eb5b9bea9/t/692dc91654477b4646d777f3/1764608278243/%C2%A9+Illias+Teirlinck+-+20251031+-+EETHAVEN+-+HQ+-+6251.jpg?format=1500w (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-eethuis-toreke-n3511035004": {
    "name": "Eethuis Toreke",
@@ -1728,14 +1680,8 @@
    "instagram_handle": "fitchenghent",
    "handleSource": "https://www.fitchen.com/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://fitchen.com/wp-content/uploads/2026/09/fitchen-counter-202609.jpg",
-    "source": "https://www.fitchen.com/",
-    "type": "og:image",
-    "w": 1500,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://fitchen.com/wp-content/uploads/2026/09/fitchen-counter-202609.jpg",
+   "ogImageRejected": "https://fitchen.com/wp-content/uploads/2026/09/fitchen-counter-202609.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-flordi-n11640842891": {
    "name": "Flordi",
@@ -1792,14 +1738,8 @@
    "instagram_handle": "gaston_gent",
    "handleSource": "https://gaston-gent.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://rooftopgaston.be/wp-content/uploads/2025/03/a1a0b6db520339a21de05234c6bbf7b2.png",
-    "source": "https://gaston-gent.be/",
-    "type": "og:image",
-    "w": 1360,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://rooftopgaston.be/wp-content/uploads/2025/03/a1a0b6db520339a21de05234c6bbf7b2.png",
+   "ogImageRejected": "https://rooftopgaston.be/wp-content/uploads/2025/03/a1a0b6db520339a21de05234c6bbf7b2.png (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-geheel-de-uwe-n11695175546": {
    "name": "Geheel De Uwe",
@@ -1812,14 +1752,8 @@
    "name": "Gentse Stadsbrouwerij Gruut",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://www.gruut.be/wp-content/uploads/2026/05/moeder-enzoon3loic.jpg",
-    "source": "https://www.gruut.be/",
-    "type": "og:image",
-    "w": 1800,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://www.gruut.be/wp-content/uploads/2026/05/moeder-enzoon3loic.jpg",
+   "ogImageRejected": "https://www.gruut.be/wp-content/uploads/2026/05/moeder-enzoon3loic.jpg (photo review: brewer and visitor)"
   },
   "osm-gerard-n12630238332": {
    "name": "Gerard",
@@ -1853,14 +1787,8 @@
    "instagram_handle": "godotgentofficial",
    "handleSource": "https://www.godotgent.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static1.squarespace.com/static/64d35c038f26bc6069bc7688/t/64dccd183bb5c6394143be53/1782218211891/Godot-20230503-03.jpg?format=1500w",
-    "source": "https://www.godotgent.be/",
-    "type": "og:image",
-    "w": 1500,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static1.squarespace.com/static/64d35c038f26bc6069bc7688/t/64dccd183bb5c6394143be53/1782218211891/Godot-20230503-03.jpg?format=1500w",
+   "ogImageRejected": "https://static1.squarespace.com/static/64d35c038f26bc6069bc7688/t/64dccd183bb5c6394143be53/1782218211891/Godot-20230503-03.jpg?format=1500w (photo review: bartender in the foreground)"
   },
   "osm-gohan-n9458004317": {
    "name": "Gohan",
@@ -2812,27 +2740,15 @@
    "name": "Noon",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static.showit.co/1200/eMl8u8EibZzBEyPf4KHTKA/204388/noon-sandwicherie-gent-03.jpg",
-    "source": "https://noonsandwicherie.be/noon-sandwicherie",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static.showit.co/1200/eMl8u8EibZzBEyPf4KHTKA/204388/noon-sandwicherie-gent-03.jpg",
+   "ogImageRejected": "https://static.showit.co/1200/eMl8u8EibZzBEyPf4KHTKA/204388/noon-sandwicherie-gent-03.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-noon-s-zusje-n12484933964": {
    "name": "Noon's Zusje",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static.showit.co/1200/cSJwKlWvHi3MXAeDl0vRZQ/204388/image00024.jpg",
-    "source": "https://noonsandwicherie.be/noon-s-zusje",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static.showit.co/1200/cSJwKlWvHi3MXAeDl0vRZQ/204388/image00024.jpg",
+   "ogImageRejected": "https://static.showit.co/1200/cSJwKlWvHi3MXAeDl0vRZQ/204388/image00024.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-norma-n12712573951": {
    "name": "Norma",
@@ -3131,14 +3047,8 @@
    "instagram_handle": "pureto.be",
    "handleSource": "https://pureto.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://pureto.be/wp-content/uploads/2025/01/Pureto-34-scaled.jpg",
-    "source": "https://pureto.be/",
-    "type": "og:image",
-    "w": 2560,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://pureto.be/wp-content/uploads/2025/01/Pureto-34-scaled.jpg",
+   "ogImageRejected": "https://pureto.be/wp-content/uploads/2025/01/Pureto-34-scaled.jpg (photo review: cook in the kitchen, portrait)"
   },
   "osm-rabot-dumpling-house-n12748707901": {
    "name": "Rabot Dumpling House",
@@ -3293,14 +3203,8 @@
    "instagram_handle": "sgol_gent",
    "handleSource": "https://sgol.be",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://le-de.cdn-website.com/546f410419c64de59ada2b4c7767577d/dms3rep/multi/opt/293671629_135076772543299_5595228110081462740_n-1920w.jpg",
-    "source": "https://sgol.be",
-    "type": "og:image",
-    "w": 1920,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://le-de.cdn-website.com/546f410419c64de59ada2b4c7767577d/dms3rep/multi/opt/293671629_135076772543299_5595228110081462740_n-1920w.jpg",
+   "ogImageRejected": "https://le-de.cdn-website.com/546f410419c64de59ada2b4c7767577d/dms3rep/multi/opt/293671629_135076772543299_5595228110081462740_n-1920w.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-shazanna-n6942598686": {
    "name": "Shazanna",
@@ -3410,14 +3314,8 @@
    "handleSource": "https://stamgent.be/nl_be/bezoek-het-stam/stamcaf%C3%A9",
    "note": "@stamgent is the museum account",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://stamgent.be/volumes/general/_1200x630_crop_center-center_82_none/434533814_1013805710557772_988149560801692250_n_2025-01-22-221627_oykr.jpg?v=1750142751",
-    "source": "https://stamgent.be/nl_be/bezoek-het-stam/stamcaf%C3%A9",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://stamgent.be/volumes/general/_1200x630_crop_center-center_82_none/434533814_1013805710557772_988149560801692250_n_2025-01-22-221627_oykr.jpg?v=1750142751",
+   "ogImageRejected": "https://stamgent.be/volumes/general/_1200x630_crop_center-center_82_none/434533814_1013805710557772_988149560801692250_n_2025-01-22-221627_oykr.jpg?v=1750142751 (photo review: café full of guests)"
   },
   "osm-steamy-windows-n10892813716": {
    "name": "Steamy Windows",
@@ -3520,14 +3418,8 @@
    "name": "Symphony",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://www.bar-symphony.be/wp-content/uploads/2025/01/852270ed-74ef-478b-a0f4-28bc6d69e645.jpg",
-    "source": "https://www.bar-symphony.be/",
-    "type": "og:image",
-    "w": 1360,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://www.bar-symphony.be/wp-content/uploads/2025/01/852270ed-74ef-478b-a0f4-28bc6d69e645.jpg",
+   "ogImageRejected": "https://www.bar-symphony.be/wp-content/uploads/2025/01/852270ed-74ef-478b-a0f4-28bc6d69e645.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-t-braemhof-n6975128485": {
    "name": "'t Braemhof",
@@ -3540,14 +3432,8 @@
    "name": "‘t Felt",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://primary.jwwb.nl/public/q/i/e/temp-zrmqgglodiwpkngnzovu/img_3473-high-dyy4tw.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
-    "source": "https://www.tfelt.com/",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://primary.jwwb.nl/public/q/i/e/temp-zrmqgglodiwpkngnzovu/img_3473-high-dyy4tw.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+   "ogImageRejected": "https://primary.jwwb.nl/public/q/i/e/temp-zrmqgglodiwpkngnzovu/img_3473-high-dyy4tw.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200 (photo review: chef portrait)"
   },
   "osm-t-fondueloft-n6796872888": {
    "name": "'t Fondueloft",
@@ -3760,14 +3646,8 @@
    "handleSource": "https://www.themistress.be/",
    "note": "site also links @magino_deinze",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static.wixstatic.com/media/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg/v1/fill/w_2500,h_2500,al_c/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg",
-    "source": "https://www.themistress.be/",
-    "type": "og:image",
-    "w": 2500,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://static.wixstatic.com/media/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg/v1/fill/w_2500,h_2500,al_c/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg",
+   "ogImageRejected": "https://static.wixstatic.com/media/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg/v1/fill/w_2500,h_2500,al_c/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-the-waffle-factory-n6412046258": {
    "name": "The Waffle Factory",
@@ -3803,14 +3683,8 @@
    "instagram_handle": "restotoietmoi",
    "handleSource": "https://www.restotoietmoi.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://www.restotoietmoi.be/wp-content/uploads/2021/09/Toi_et_Moi_restaurant_gent_18.jpg",
-    "source": "https://www.restotoietmoi.be/",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://www.restotoietmoi.be/wp-content/uploads/2021/09/Toi_et_Moi_restaurant_gent_18.jpg",
+   "ogImageRejected": "https://www.restotoietmoi.be/wp-content/uploads/2021/09/Toi_et_Moi_restaurant_gent_18.jpg (photo review: guests and waitress)"
   },
   "osm-tokyo-sushi-n11352130038": {
    "name": "Tokyo Sushi",
@@ -3946,14 +3820,8 @@
    "instagram_handle": "villa_anamma",
    "handleSource": "https://villa-anamma.be/",
    "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://villa-anamma.be/wp-content/uploads/2022/06/MENU.png",
-    "source": "https://villa-anamma.be/",
-    "type": "og:image",
-    "w": 2016,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
+   "heroReject": "https://villa-anamma.be/wp-content/uploads/2022/06/MENU.png",
+   "ogImageRejected": "https://villa-anamma.be/wp-content/uploads/2022/06/MENU.png (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
   "osm-villa-bardon-n6947769194": {
    "name": "Villa Bardon",

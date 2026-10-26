@@ -46,7 +46,8 @@
        "cuisine": "casual",
        "events": "events"
       }
-     }
+     },
+     "photos": "data/cities/gent-photos.json"
     },
     {
      "id": "antwerpen",
@@ -81,7 +82,8 @@
        "events": "cities/antwerpen/events"
       },
       "breakfastPlacePhoto": false
-     }
+     },
+     "photos": "data/cities/antwerpen-photos.json"
     },
     {
      "id": "brussel",

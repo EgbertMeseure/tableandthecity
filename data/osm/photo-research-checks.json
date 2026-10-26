@@ -1,0 +1,919 @@
+{
+ "about": "Checks of research photo candidates (scripts/apply_photo_review.py): instagram = the official embed of the derived permalink renders the same photo; website = loads as an image <= 1.6 MB.",
+ "checks": {
+  "ig:3934133110848244441": {
+   "code": "DaY2ThrNkrZ",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:3999355063644808165": {
+   "code": "DeAkD2rNWPl",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3977237220732635911": {
+   "code": "Dcx_C4ROwsH",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3999163243854038468": {
+   "code": "Dd_4cgkuAXE",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5583fd4de4b0565809d3ea6b/1674724591535-C11MJMCTM3YMWMNQT3D7/ALBERTE+JAN+2023-94_2000px.jpg?format=1000w": {
+   "ok": true,
+   "bytes": 74258,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.arbane.be/wp-content/uploads/2026/01/Arbane_Gent-84.jpg": {
+   "ok": false,
+   "bytes": 16220744,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 16220744 bytes (needs ≤ 1600000)"
+  },
+  "web:https://www.arbane.be/wp-content/uploads/2026/01/20250616-ARBANE-gerechten-c-Martin-Corlazzoli-COR03612-scaled.jpg": {
+   "ok": true,
+   "bytes": 376355,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.arbane.be/wp-content/uploads/2026/04/2026-03-26-Arbane-Zaalbeelden-c-Martin-Corlazzoli-COR05041-scaled.jpg": {
+   "ok": true,
+   "bytes": 500010,
+   "checked": "2026-10-26"
+  },
+  "ig:4007855368602639904": {
+   "code": "Deewzkks94g",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4002827399756643137": {
+   "code": "DeM5k_rsftB",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012959067433490338": {
+   "code": "Dew5QKgjlei",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.baptist-wondelgem.be/nl/thumbnail/square/wojzP/Intro%20*25.jpg": {
+   "ok": true,
+   "bytes": 75989,
+   "checked": "2026-10-26"
+  },
+  "ig:4006194597490919556": {
+   "code": "DeY3MK8iQiE",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:40126720479670938622003196540346595": {
+   "code": "B7pmaqoeSrXxdYTVGeDj",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/67eff8f94a3b12fc6a9ade7c/68dfa8750f7f8c0399d9b807_4537a76189a9ad96bdc3a025df306e44_DSCF0007-40-p-2000.webp": {
+   "ok": true,
+   "bytes": 257760,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/67eff8f94a3b12fc6a9ade7c/68dfaa998974b1033cb9b7c1_d5d4cab5402f3c20bb6d52f3264be4a1_DSCF7864-1.webp": {
+   "ok": true,
+   "bytes": 299872,
+   "checked": "2026-10-26"
+  },
+  "ig:3995349581394949658": {
+   "code": "DdyVUaojTYa",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3995342883921982948": {
+   "code": "DdyTy9IDfXk",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://bistrobastien.be/__l5e/assets-v1/45831e95-5cec-43cf-bd37-bc53a1c06a3f/bastien-original-2.jpg": {
+   "ok": true,
+   "bytes": 255450,
+   "checked": "2026-10-26"
+  },
+  "ig:3917290265556464401": {
+   "code": "DZdAr3olrMR",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3892610896807865127": {
+   "code": "DYFVPyZDCsn",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3886815736501118175": {
+   "code": "DXwvlGxjCTf",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3474257836264005975": {
+   "code": "DA3Cxg8oiFX",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3276522143778670596": {
+   "code": "C14i4euoQgE",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:401347563922511431918399612943200596": {
+   "code": "TUv2cPwWo81acvoIEfFU",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:4007640119748073470": {
+   "code": "Ded_3SdMBf-",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4013408967391388404": {
+   "code": "DeyfjEfuyL0",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5a09b02d51a58468b37f8cd3/1702984039707-PTY6Q8IZNURS3FABRFCP/commotie+-+najaar+2022+-+%C2%A9+Pieter+D%27Hoop-144.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 86262,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5a09b02d51a58468b37f8cd3/1602774128278-KMZJDDTHV95JZD6CDTZR/commotie+-+%C2%A9+Pieter+D%27Hoop-107.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 231454,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/686e5ed3afa1e61e9a693484/11ee266e-8214-455d-a61e-1d7c090c9144/D-Extra-7.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 77770,
+   "checked": "2026-10-26"
+  },
+  "ig:4001725000566276915": {
+   "code": "DeI-6-bjYMz",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:4011147249287239648": {
+   "code": "DeqdSvXjRfg",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:2422058545622483856": {
+   "code": "CGc4WolBwOQ",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3111954100711139127": {
+   "code": "Csv4cRKNSc3",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4013669590913198952": {
+   "code": "DezazpEKyto",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4014935768226610796": {
+   "code": "De36s8lKD5s",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3886761215490105994": {
+   "code": "DXwjLuIDaKK",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3815780557205096764": {
+   "code": "DT0YDMtDUk8",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3861953504965684771": {
+   "code": "DWYakBSje4j",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3758706542724865471": {
+   "code": "DQpm6-mDV2_",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3817236848511348370": {
+   "code": "DT5jLBrDO6S",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://elders.gent/site/wp-content/uploads/2025/08/Elders_large_3-819x1024.jpg": {
+   "ok": true,
+   "bytes": 136145,
+   "checked": "2026-10-26"
+  },
+  "ig:4004217997650741592": {
+   "code": "DeR1w25MslY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3814884676637326877": {
+   "code": "DTxMWa6DH4d",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3809328371591807881": {
+   "code": "DTdc_iljAOJ",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "web:https://foudo.be/wp-content/uploads/2022/03/foudo_151119_14938.jpg": {
+   "ok": true,
+   "bytes": 360169,
+   "checked": "2026-10-26"
+  },
+  "web:https://foudo.be/wp-content/uploads/2022/03/3G8A6619.jpg": {
+   "ok": true,
+   "bytes": 286548,
+   "checked": "2026-10-26"
+  },
+  "web:https://foudo.be/wp-content/uploads/2022/04/foudo_151119_14951_mobile.jpg": {
+   "ok": true,
+   "bytes": 107936,
+   "checked": "2026-10-26"
+  },
+  "ig:4006399952285634206": {
+   "code": "DeZl4egII6e",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://froufrou.gent/uploads_c/siteassets/295/Schermafbeelding-2021-08-11-om-15.04.01_c084850d2df5d99f42f92f11ec7b7266.png": {
+   "ok": false,
+   "bytes": 1829518,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 1829518 bytes (needs ≤ 1600000)"
+  },
+  "web:https://froufrou.gent/uploads_c/siteassets/382/IMG_4584_2021-08-11-154913_c084850d2df5d99f42f92f11ec7b7266.JPG": {
+   "ok": true,
+   "bytes": 1131228,
+   "checked": "2026-10-26"
+  },
+  "web:https://freight.cargo.site/w/750/i/d3aa90bd146c99d021411a67b4455ce844acac7b581be2647b90285ef435c952/20250307_Funke_FarahLieten-83.jpg": {
+   "ok": true,
+   "bytes": 398747,
+   "checked": "2026-10-26"
+  },
+  "ig:3817397395756159402": {
+   "code": "DT6HrS8jBGq",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4006407452423669498": {
+   "code": "DeZnlnjMMb6",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3828981830125406543": {
+   "code": "DUjRrAMDMlP",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3981738297869623920": {
+   "code": "DdB-eLBFmJw",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://restkareldestoute.be/assets/uploads/images/DSC4479.jpg": {
+   "ok": true,
+   "bytes": 1516549,
+   "checked": "2026-10-26"
+  },
+  "ig:3856395546702433801": {
+   "code": "DWEq1FSmM4J",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4015088882929624452": {
+   "code": "De4dhDwo-WE",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007802514690670101": {
+   "code": "DeekyciDf4V",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.lebaanthai.be/templates/rt_akuatik/custom/images/sampledata/375701886_1486462538796370_3591846310101628887_n.jpg": {
+   "ok": true,
+   "bytes": 235838,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.lebaanthai.be/templates/rt_akuatik/custom/images/sampledata/375578965_1745982359206089_2160607807336493637_n.jpg": {
+   "ok": true,
+   "bytes": 408557,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.lebaanthai.be/templates/rt_akuatik/custom/images/sampledata/Naamloos.jpg": {
+   "ok": true,
+   "bytes": 133204,
+   "checked": "2026-10-26"
+  },
+  "ig:4010528254028574936": {
+   "code": "DeoQjLHCnDY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4009108711435475389": {
+   "code": "DejNyHDCRm9",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007659350545545565": {
+   "code": "DeeEPIiCjld",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3999848865329418186": {
+   "code": "DeCUVnVNY_K",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4002657436081385744": {
+   "code": "DeMS7srNPEQ",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/66164ba0bd6a93110175e1bc/61445c11-cad7-411b-9769-b3f14db988ad/lof_130225_13871.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 185044,
+   "checked": "2026-10-26"
+  },
+  "ig:4002057202303475690": {
+   "code": "DeKKdJaF5_q",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://lubbi.be/wp-content/uploads/2026/05/lubbi_300525_1574.jpg": {
+   "ok": false,
+   "bytes": 29525958,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 29525958 bytes (needs ≤ 1600000)"
+  },
+  "web:https://lubbi.be/wp-content/uploads/2026/05/lubbi_210126_0922.jpg": {
+   "ok": false,
+   "bytes": 19451133,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 19451133 bytes (needs ≤ 1600000)"
+  },
+  "web:https://lubbi.be/wp-content/uploads/2026/05/lubbi_300525_1543-1.jpg": {
+   "ok": false,
+   "bytes": 24094762,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 24094762 bytes (needs ≤ 1600000)"
+  },
+  "ig:3998403131963724990": {
+   "code": "Dd9LnbNgdS-",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4009011304848691424": {
+   "code": "Dei3oqGCBDg",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4004112440027050335": {
+   "code": "DeRdwysiPFf",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3673235898053951259": {
+   "code": "DL59JZvt_8b",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3780760376607256456": {
+   "code": "DR39Yf8jC-I",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.brasseriemidi.be/nl/thumbnail/full/wn7ee/Intro%20foto's.jpg": {
+   "ok": true,
+   "bytes": 775732,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.brasseriemidi.be/nl/thumbnail-path/full/images/text/b45e92f21a023db85e26c8077889aa19.jpg": {
+   "ok": true,
+   "bytes": 437235,
+   "checked": "2026-10-26"
+  },
+  "ig:4005554154600487288": {
+   "code": "DeWlkgBjVl4",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4004103951804598626": {
+   "code": "DeRb1RbDQli",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4013357572266572153": {
+   "code": "DeyT3LDkrl5",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://nonam.be/wp-content/uploads/2023/09/nonam_280522_000555-scaled-1.jpg": {
+   "ok": true,
+   "bytes": 475280,
+   "checked": "2026-10-26"
+  },
+  "web:https://nonam.be/wp-content/uploads/2023/09/nonam_030623_000534-scaled-1-1471x1536.jpg": {
+   "ok": true,
+   "bytes": 563893,
+   "checked": "2026-10-26"
+  },
+  "web:https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_054-1024x682.jpg": {
+   "ok": true,
+   "bytes": 70722,
+   "checked": "2026-10-26"
+  },
+  "web:https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_063-1024x682.jpg": {
+   "ok": true,
+   "bytes": 106622,
+   "checked": "2026-10-26"
+  },
+  "web:https://oakgent.be/wp-content/uploads/2024/03/OAK_winter_%C2%A9_kris_vlegels_064-1024x655.jpg": {
+   "ok": true,
+   "bytes": 84859,
+   "checked": "2026-10-26"
+  },
+  "ig:3996873884950907212": {
+   "code": "Dd3v588iMlM",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3957668326790966642": {
+   "code": "Dbsdl_lMK1y",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/04ab9d_fba3e2b455c64946a2c7aed21dc07f86~mv2.jpg/v1/fill/w_1280,h_602,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/04ab9d_fba3e2b455c64946a2c7aed21dc07f86~mv2.jpg": {
+   "ok": true,
+   "bytes": 230575,
+   "checked": "2026-10-26"
+  },
+  "ig:4013411955880078607": {
+   "code": "DeygOjvia0P",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:3991734629207040615": {
+   "code": "DdlfX8DguJn",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/68d3e5d2da9b4e7eb5b9bea9/6c288526-3231-4bae-9e9d-1cfb6771adae/%C2%A9+Illias+Teirlinck+-+20251031+-+EETHAVEN+-+LQ+-+5429.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 171796,
+   "checked": "2026-10-26"
+  },
+  "ig:4003235140468864748": {
+   "code": "DeOWSZ0Afbs",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://fitchen.com/wp-content/uploads/2026/09/fitchen-capitole-202609.jpg": {
+   "ok": true,
+   "bytes": 381398,
+   "checked": "2026-10-26"
+  },
+  "ig:3997459410402605718": {
+   "code": "Dd51CeBFvqW",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007091828255404568": {
+   "code": "DecDMmNiLIY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.gruut.be/wp-content/uploads/2026/05/gruut-flesjes-1-1024x683.jpg.webp": {
+   "ok": true,
+   "bytes": 67182,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.gruut.be/wp-content/uploads/2026/05/gruut-flesjes-2.jpg": {
+   "ok": true,
+   "bytes": 283745,
+   "checked": "2026-10-26"
+  },
+  "ig:4010775499284880225": {
+   "code": "DepIxEMtxth",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:401434271814494765318415712050091316": {
+   "code": "TVA82UtK2jp81fAEOhU0",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:401225420114332074518415321510091316": {
+   "code": "TUXwxQ4E4jOCT9KpIpo0",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "web:https://static.showit.co/800/4RvF1hjTc4dESIH3UtNHZw/204388/noon_s_zusje_f_and_d_-_41.jpg": {
+   "ok": true,
+   "bytes": 122000,
+   "checked": "2026-10-26"
+  },
+  "ig:4004211570045628649": {
+   "code": "DeR0TUuFDDp",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://le-de.cdn-website.com/546f410419c64de59ada2b4c7767577d/dms3rep/multi/opt/MorganeBallPhotography-Restaurant-Sgol-244-9550_websize-1920w.jpg": {
+   "ok": true,
+   "bytes": 417389,
+   "checked": "2026-10-26"
+  },
+  "ig:4010684457098876248": {
+   "code": "Deo0EOjjxVY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.stamgent.be/https%3A%2F%2Fstamgent.be%2Fvolumes%2Fgeneral%2Fbezoek-STAM%2Fcafe%2FSTAMcafe5.jpg%3Fv%3D1608297647?dpr=2&w=899.55022488756&h=600&fit=crop&s=a1b753def7d05a529908d6c502f8caff": {
+   "ok": true,
+   "bytes": 379593,
+   "checked": "2026-10-26"
+  },
+  "ig:4015586479241263165": {
+   "code": "De6OqCcCXg9",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.stamgent.be/https%3A%2F%2Fstamgent.be%2Fvolumes%2Fgeneral%2Fbezoek-STAM%2Fcafe%2FSTAMcafe1.jpg%3Fv%3D1608285042?dpr=2&w=899.55022488756&h=600&fit=crop&s=836ecb74dd4f8599cb6e58827dedb2e6": {
+   "ok": true,
+   "bytes": 471949,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bar-symphony.be/wp-content/uploads/2025/01/bc8194f0-5096-4ddd-a963-30006d8e6299-1.jpg": {
+   "ok": true,
+   "bytes": 197784,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bar-symphony.be/wp-content/uploads/2025/01/f8704c99-67ab-45da-929e-eaa4771db492.jpg": {
+   "ok": true,
+   "bytes": 484718,
+   "checked": "2026-10-26"
+  },
+  "ig:4000468909580372807": {
+   "code": "DeEhUciiEtH",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/ffcc60_315283175bdf447ba3f0a624d1275573~mv2.jpg/v1/fill/w_1024,h_720,al_c,q_85,enc_avif,quality_auto/ffcc60_315283175bdf447ba3f0a624d1275573~mv2.jpg": {
+   "ok": true,
+   "bytes": 130623,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.restotoietmoi.be/wp-content/uploads/2021/09/Toi_et_Moi_restaurant_gent_15.jpg": {
+   "ok": true,
+   "bytes": 185635,
+   "checked": "2026-10-26"
+  },
+  "ig:3166450766495049039": {
+   "code": "CvxfjIPs2VP",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3284485404701936971": {
+   "code": "C2U1hLZNs1L",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://villa-anamma.be/wp-content/uploads/2022/06/locatie-verhuur-1536x1152.png": {
+   "ok": false,
+   "bytes": 2746922,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 2746922 bytes (needs ≤ 1600000)"
+  },
+  "web:https://villa-anamma.be/wp-content/uploads/2023/08/VillaAnnama-juli2023-HR-%C2%A9Buro-Bonito-60_websize-1-e1690969181623.jpg": {
+   "ok": true,
+   "bytes": 236406,
+   "checked": "2026-10-26"
+  },
+  "web:https://otium.gent/_next/image?url=%2Fimages%2Fbeleving.jpg&w=1920&q=75&dpl=dpl_4eomHrzYSrGkERtpwQJT25wc2eBo": {
+   "ok": true,
+   "bytes": 257930,
+   "checked": "2026-10-26"
+  },
+  "web:https://otium.gent/images/hero.jpg": {
+   "ok": true,
+   "bytes": 280671,
+   "checked": "2026-10-26"
+  },
+  "ig:3697655815466268792": {
+   "code": "DNQtl-Ghjh4",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:386627124228239659818096117728323154": {
+   "code": "SnYwXwi7Fk00nTrrHqZS",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:3906930559834400222": {
+   "code": "DY4NKT1DCXe",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4006967722250901510": {
+   "code": "Debm-nfOJgG",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3973181068676502333": {
+   "code": "DcjkyGSxRM9",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/59c27cee2278e7ca8d6d90d2/1619715800156-5FCKYE4IA2KSRJ4OU819/pulpo_050221_00004.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 149242,
+   "checked": "2026-10-26"
+  },
+  "ig:3923018947921773678": {
+   "code": "DZxXPK2AQRu",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3723541635729728792": {
+   "code": "DOsrWO4DCUY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3729379138567191828": {
+   "code": "DPBapFDDL0U",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4002660995090780898": {
+   "code": "DeMTvfQspLi",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3999038085948229083": {
+   "code": "Dd_b_OMM8Xb",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:399921858760400415518248562025309473": {
+   "code": "TQWrgybF_7Bf5KhB_CUh",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:4003507044665312269": {
+   "code": "DePUHIVDMQN",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:399542623860412863218440180575131650": {
+   "code": "TPL45RnmdlQwvU5fdlgC",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:401496158353811054118444768190131650": {
+   "code": "TVNJ93zK9rk5Imlice3C",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:391202834142889431936581259208154438": {
+   "code": "S1fJ8yrLt408raHzX91G",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:4013624397974171296": {
+   "code": "DezQh_3F26g",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007071464130337828": {
+   "code": "Deb-kQpF9wk",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/66b1d9e793cf002efdbad34c/7b2652c4-d353-45b0-8123-72ee8aa8daf9/Taberna+Oktober+-+Louise+De+Groote-1908.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 590090,
+   "checked": "2026-10-26"
+  },
+  "ig:3997548519070864641": {
+   "code": "Dd6JTK7m5UB",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://talloordor.be/assets/images/_1600xAUTO_fit_center-center_none/PBM0704_23.jpg": {
+   "ok": true,
+   "bytes": 220460,
+   "checked": "2026-10-26"
+  },
+  "ig:4001876760223994718": {
+   "code": "DeJhbXoCtNe",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3867089785362142666": {
+   "code": "DWqqavLDVXK",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3862176535630290625": {
+   "code": "DWZNRiyF57B",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4001819788912058471": {
+   "code": "DeJUeU9O2Bn",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3986628963641880998": {
+   "code": "DdTWeudKHGm",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4002053402123440302": {
+   "code": "DeKJl2NthCu",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:401366815686454830018634584379053224": {
+   "code": "TUzpbsn62FF54a1Sa1So",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:4001242754045800106": {
+   "code": "DeHRRXXAW6q",
+   "ok": false,
+   "diff": 23,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "web:https://www.yalohotel.com/wp-content/uploads/2021/10/yalo-hotel_16102021_bar-and-restaurant_bar_4-1-1350x900.jpg": {
+   "ok": true,
+   "bytes": 407924,
+   "checked": "2026-10-26"
+  },
+  "ig:4008462129937167053": {
+   "code": "Deg6xHGgrLN",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/68ca965b7164fc26da7dff24/c622e93d-c85d-43bd-ab78-66ff32fea2bd/93158965_1358122971040572_8737230923359037294_n.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 187232,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/68ca965b7164fc26da7dff24/a70f38b2-fea4-47c6-8aa4-e93b880ac706/94964021_679103669532024_5308029829355314938_n.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 404118,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/68ca965b7164fc26da7dff24/6145636d-c571-409a-af74-7dcd68e97b77/95297769_896326727496776_2965422070747971019_n.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 72520,
+   "checked": "2026-10-26"
+  },
+  "web:https://xbagzgpkspxwahykqixc.supabase.co/storage/v1/object/public/boosterpack-ai-images/users/68c6c4b3-2c72-45a2-aa9f-5a0c77601b7b/b988da24-ef87-4795-9826-f321a69c77a1/images/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308_1280w.webp": {
+   "ok": true,
+   "bytes": 23600,
+   "checked": "2026-10-26"
+  },
+  "ig:3880385907274670339": {
+   "code": "DXZ5mxqieED",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://ciros.be/wp-content/uploads/2023/10/home_6-1536x1037.png": {
+   "ok": false,
+   "bytes": 1837124,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 1837124 bytes (needs ≤ 1600000)"
+  },
+  "web:https://ciros.be/wp-content/uploads/2023/10/home_img_1-1536x1002.png": {
+   "ok": true,
+   "bytes": 1000681,
+   "checked": "2026-10-26"
+  },
+  "web:https://ciros.be/wp-content/uploads/2023/10/home_5.png": {
+   "ok": false,
+   "bytes": 1629279,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 1629279 bytes (needs ≤ 1600000)"
+  },
+  "ig:3991744189043959213": {
+   "code": "DdlhjDWMeWt",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  }
+ }
+}
