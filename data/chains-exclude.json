@@ -362,28 +362,92 @@
     "(ibis|novotel|mercure|holiday inn|nh |marriott|hilton|radisson|b&b hotel|van der valk)\\b"
    ],
    "kind": "hotel breakfast rooms / hotel restaurants"
+  },
+  {
+   "name": "Umamido",
+   "patterns": [
+    "umamido\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Belgian ramen chain (≈10 sites). User 26 Oct 2026: no chains."
+  },
+  {
+   "name": "Poule & Poulette",
+   "patterns": [
+    "poule ?(&|et|and) ?poulette\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Belgian chicken chain (many sites). User 26 Oct 2026."
+  },
+  {
+   "name": "Mission Masala",
+   "patterns": [
+    "mission masala\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Several sites (Gent, Antwerpen Troonplaats, Curry Club Wolf Antwerpen; sister brands) per missionmasala.be/restaurant. User 26 Oct 2026."
+  },
+  {
+   "name": "Bavet",
+   "patterns": [
+    "bavet\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Belgian spaghetti chain (≈10+ sites); same group as Umamido in the old keep list."
+  },
+  {
+   "name": "Balls & Glory",
+   "patterns": [
+    "balls ?(&|and) ?glory\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Belgian meatball chain (several sites); same group as Umamido in the old keep list."
+  },
+  {
+   "name": "Le Botaniste",
+   "patterns": [
+    "le botaniste\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Plant-based chain (≈15–20 sites in BE and abroad)."
+  },
+  {
+   "name": "Poké House",
+   "patterns": [
+    "poke house\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "International poke chain."
+  },
+  {
+   "name": "Hawaiian Poké Bowl",
+   "patterns": [
+    "hawaiian poke ?bowl\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Belgian poke chain (many sites)."
+  },
+  {
+   "name": "Takumi Ramen",
+   "patterns": [
+    "takumi\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "Ramen chain (BE/NL/DE, several Antwerp sites)."
+  },
+  {
+   "name": "8tea5",
+   "patterns": [
+    "8 ?tea ?5\\b"
+   ],
+   "kind": "bubble tea chain",
+   "why": "Belgian bubble-tea franchise (many shops)."
   }
  ],
  "keep": [
   {
-   "name": "Le Botaniste",
-   "why": "Belgian plant-based restaurant group (≈15–20 sites), fully vegan, verified; not a franchise of a multinational — borderline; kept."
-  },
-  {
    "name": "WAY, O'yo, Aernoudt, Van Hecke, Mertens, Himschoot, Chefdag, Barouche, Holy Guacamoly, Catberry",
    "why": "Local Ghent multi-site businesses."
-  },
-  {
-   "name": "Umamido, Balls & Glory, Bavet",
-   "why": "Small Belgian multi-site restaurant groups (≈5–15 sites), not multinational franchises."
-  },
-  {
-   "name": "Hawaiian Poké Bowl",
-   "why": "Belgian poke brand (.be), 3 Ghent spots — borderline; kept."
-  },
-  {
-   "name": "8tea5",
-   "why": "Belgian bubble-tea chain, small — borderline; kept."
   },
   {
    "name": "Tom & Dellas",
@@ -400,6 +464,10 @@
   {
    "name": "Sint-Annakerk restaurant & wine bar (Delhaize), upcoming",
    "why": "Restaurant inside the restored church; Delhaize is the leaseholder, operators not announced — borderline; kept for review."
+  },
+  {
+   "name": "Wasbar, Tom & Dellas, Holy Guacamoly, Catberry, Aloha Pokébowl",
+   "why": "Local multi-site or single places, not obvious chains — kept (26 Oct 2026 chain review)."
   }
  ]
 }

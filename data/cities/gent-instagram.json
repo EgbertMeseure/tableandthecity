@@ -442,12 +442,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-8tea5-n11897347047": {
-   "name": "8tea5",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-achturenhuis-n8944368522": {
    "name": "Achturenhuis",
    "instagram_handle": null,
@@ -681,13 +675,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-balls-glory-n3818381914": {
-   "name": "Balls & Glory",
-   "instagram_handle": "ballsnglory",
-   "handleSource": "https://visit.gent.be/nl/eten-drinken/balls-glory",
-   "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-bar-brutus-n13344139091": {
    "name": "Bar Brutus",
    "instagram_handle": null,
@@ -729,33 +716,6 @@
    "instagram_handle": "bastaresto",
    "handleSource": "https://bastaresto.com/",
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-bavet-n1532798353": {
-   "name": "Bavet",
-   "instagram_handle": "bavet_spaghetti",
-   "handleSource": "https://bavet.eu/",
-   "note": "brand/chain account, not branch-specific; og:image is a chain-wide Bavet promo photo",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg (note flags it: chain)",
-   "heroReject": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg"
-  },
-  "osm-bavet-n1804183176": {
-   "name": "Bavet",
-   "instagram_handle": "bavet_spaghetti",
-   "handleSource": "https://bavet.eu/",
-   "note": "brand/chain account, not branch-specific; og:image is a chain-wide Bavet promo photo",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg (note flags it: chain)",
-   "heroReject": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg"
-  },
-  "osm-bavet-w175194942": {
-   "name": "Bavet",
-   "instagram_handle": "bavet_spaghetti",
-   "handleSource": "https://bavet.eu/",
-   "note": "brand/chain account, not branch-specific; og:image is a chain-wide Bavet promo photo",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg (note flags it: chain)",
-   "heroReject": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg"
   },
   "osm-bayram-n6853683387": {
    "name": "Bayram",
@@ -1911,20 +1871,6 @@
    "note": "site appears hacked (links spam account @sbobet88); no handle accepted; own og:image rejected: unrelated spam product (site looks hacked)",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-hawaiian-poke-bowl-n10885975052": {
-   "name": "Hawaiian Poké Bowl",
-   "instagram_handle": "hawaiianbowl",
-   "handleSource": "https://hawaiianpokebowl.be",
-   "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-hawaiian-poke-bowl-n11407739881": {
-   "name": "Hawaiian Poké Bowl",
-   "instagram_handle": "hawaiianbowl",
-   "handleSource": "https://hawaiianpokebowl.be",
-   "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-het-mooie-weer-n12757168866": {
    "name": "Het Mooie Weer!",
    "instagram_handle": null,
@@ -2356,13 +2302,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-le-botaniste-n4052744492": {
-   "name": "Le Botaniste",
-   "instagram_handle": "le_botaniste",
-   "handleSource": "https://lebotaniste.eu",
-   "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-le-gout-avant-tout-n11395904795": {
    "name": "Le Goût avant Tout",
    "instagram_handle": null,
@@ -2606,13 +2545,6 @@
   "osm-miss-yu-n6828974429": {
    "name": "Miss Yu",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-mission-masala-n7804889585": {
-   "name": "Mission Masala",
-   "instagram_handle": "missionmasala_bombaybbq",
-   "handleSource": "https://missionmasala.be",
-   "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mistafluut-n10743751308": {
@@ -3012,11 +2944,6 @@
    "handleSource": "https://www.plus.gent/",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-poke-house-n11352130035": {
-   "name": "Poké House",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-ponton-n4565846936": {
    "name": "Ponton",
    "instagram_handle": "pontongent",
@@ -3030,12 +2957,6 @@
     "checked": "2026-10-20",
     "origin": "research"
    }
-  },
-  "osm-poule-poulette-n602681364": {
-   "name": "Poule & Poulette",
-   "instagram_handle": "poule_poulette",
-   "handleSource": "https://poulepoulette.com/",
-   "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pret-e-croquer-n6156854475": {
    "name": "Prêt è croquer",
@@ -3748,20 +3669,6 @@
    "name": "Uma Marisqueira",
    "instagram_handle": "marisqueirauma.belgie",
    "handleSource": "https://umamarisqueira.com/uma-ghent.html",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-umamido-n4273118892": {
-   "name": "Umamido",
-   "instagram_handle": "umamido",
-   "handleSource": "https://restaurants.umamido.be/ramen-gent-korenmarkt/",
-   "note": "brand/chain account, not branch-specific",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-umamido-vooruit-n6919498743": {
-   "name": "Umamido Vooruit",
-   "instagram_handle": "umamido",
-   "handleSource": "https://www.umamido.be/",
-   "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uncle-babe-s-burger-bar-n4524885209": {

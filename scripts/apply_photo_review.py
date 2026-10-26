@@ -41,6 +41,7 @@ UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 CODE = re.compile(r'instagram\.com/(?:p|reel)/([A-Za-z0-9_-]+)')
 B64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_'
 SUBJECTS = {'food', 'drink', 'interior', 'exterior'}
+SUBJECT_ALIAS = {'drinks': 'drink', 'dessert': 'food', 'pastry': 'food', 'bread': 'food', 'terrace': 'exterior'}  # researcher synonyms
 MAX_BYTES = 1_600_000
 
 
@@ -237,6 +238,7 @@ for sf in sorted(cdir.glob('*/sources.json')) if cdir.exists() else []:
     photos, posts, pick, fallback = [], [], None, None
     for c in cands:
         stem = str(c.get('file', '')).rsplit('.', 1)[0]
+        c['subject'] = SUBJECT_ALIAS.get(c.get('subject'), c.get('subject'))
         if f'{rid}/{stem}' in SKIP: report['left out'].append(f'{rid}/{stem}: {SKIP[f"{rid}/{stem}"]}'); continue
         if not c.get('no_people_verified') or c.get('subject') not in SUBJECTS: report['left out'].append(f'{rid}/{stem}: not verified people-free / subject {c.get("subject")}'); continue
         if c.get('source_type') == 'instagram':

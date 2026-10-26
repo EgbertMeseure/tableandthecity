@@ -118,33 +118,6 @@
    "hash": "eb81c628dde6",
    "checked": "2026-10-20"
   },
-  "osm-bavet-n1532798353": {
-   "url": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg",
-   "source": "https://bavet.eu/",
-   "type": "og:image",
-   "w": 2040,
-   "h": 1205,
-   "hash": "2caa624a8cee",
-   "checked": "2026-10-20"
-  },
-  "osm-bavet-n1804183176": {
-   "url": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg",
-   "source": "https://bavet.eu/",
-   "type": "og:image",
-   "w": 2040,
-   "h": 1205,
-   "hash": "2caa624a8cee",
-   "checked": "2026-10-20"
-  },
-  "osm-bavet-w175194942": {
-   "url": "https://bavet.eu/assets/uploads/2023/03/hero-image.jpg",
-   "source": "https://bavet.eu/",
-   "type": "og:image",
-   "w": 2040,
-   "h": 1205,
-   "hash": "2caa624a8cee",
-   "checked": "2026-10-20"
-  },
   "osm-benji-s-w491661601": {
    "url": "https://www.frituur-benjis.be/assets/images/benjis_hero.png",
    "source": "https://www.frituur-benjis.be/",
@@ -936,11 +909,6 @@
    "checked": "2026-10-20",
    "url": "https://8tea5.com/app/uploads/2018/11/share-8tea5.png"
   },
-  "osm-8tea5-n11897347047": {
-   "why": "manual review: logo / wordmark, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://8tea5.com/app/uploads/2018/11/share-8tea5.png"
-  },
   "osm-a-pluss-n9810487970": {
    "why": "error: SSLError",
    "checked": "2026-10-20"
@@ -1179,10 +1147,6 @@
   },
   "osm-balenmagazijn-n11808037065": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-balls-glory-n3818381914": {
-   "why": "logo-like file name (https://ballsnglory.be/Images/defaults/default-image.jpg)",
    "checked": "2026-10-20"
   },
   "osm-bar-a-l-aise-n12582617323": {
@@ -2048,16 +2012,6 @@
    "checked": "2026-10-20",
    "url": "https://hawaiianbowl.com/wp-content/uploads/2026/07/SEO.png"
   },
-  "osm-hawaiian-poke-bowl-n10885975052": {
-   "why": "manual review: logo / wordmark, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://hawaiianbowl.com/wp-content/uploads/2026/07/SEO.png"
-  },
-  "osm-hawaiian-poke-bowl-n11407739881": {
-   "why": "manual review: logo / wordmark, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://hawaiianbowl.com/wp-content/uploads/2026/07/SEO.png"
-  },
   "osm-hawaiian-poke-bowl-n1212143937": {
    "why": "manual review: logo / wordmark, not a photo of the place",
    "checked": "2026-10-20",
@@ -2329,10 +2283,6 @@
    "why": "logo-like file name (https://impro.usercontent.one/appid/oneComWsb/domain/lebeachhouse.be/media/lebeachhouse.be/onewebmedia/Logo%20LBH.jpeg?etag=%224f036166ecc0b0344dae1053109f1b5e%22&sourceContentType=image%2Fjpeg&quality=85)",
    "checked": "2026-10-20"
   },
-  "osm-le-botaniste-n4052744492": {
-   "why": "logo-like file name (https://lebotaniste.eu/wp-content/uploads/2020/04/LB-LOGO-CADRE-VEGGIESV2.1.2-scaled-1.png)",
-   "checked": "2026-10-20"
-  },
   "osm-le-homard-rouge-n11395904796": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2429,10 +2379,6 @@
   },
   "osm-minty-plus-n13957813953": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-mission-masala-n7804889585": {
-   "why": "logo-like file name (https://missionmasala.be/wp-content/uploads/2020/05/desi-hand-favicon-512px.png)",
    "checked": "2026-10-20"
   },
   "osm-missy-sippy-blues-roots-club-w97507956": {
@@ -2690,10 +2636,6 @@
    "checked": "2026-10-20"
   },
   "osm-poorthuis-n6939629593": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-poule-poulette-n602681364": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
@@ -3141,14 +3083,6 @@
   },
   "osm-uma-marisqueira-n11595390054": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-umamido-n4273118892": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-umamido-vooruit-n6919498743": {
-   "why": "logo-like file name (https://static1.squarespace.com/static/5e6cace9970b8e6e6a89450a/t/635badd352d90a16d77dd9c8/1666952659813/LOGOfull.png?format=1500w)",
    "checked": "2026-10-20"
   },
   "osm-uncle-babe-s-burger-bar-n4524885209": {

@@ -69,15 +69,6 @@
    "hcName": "5th Gök",
    "hcInfo": "Serves meat, vegan options available. Restaurant and brasserie with some vegetarian dishes on the menu and can make some vegan on request such as vegan spaghetti and vegetable stew. Outdoor seating. Mon 12:00-22:00, Wed-Sun 12:00-22:00"
   },
-  "osm-8tea5-n11897347047": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "8tea5 Ghent 2",
-   "hcInfo": "Bubble tea spot with plant milk available for the milk teas. Also offers fruit teas and vegan brownies.  Mon-Thu 11:00-20:00, Fri-Sat 11:00-21:00, Sun 12:00-17:00"
-  },
   "osm-ah-quy-n6800019656": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -189,34 +180,6 @@
     "https://www.openstreetmap.org/node/3394542495"
    ],
    "basis": "OpenStreetMap diet tags"
-  },
-  "osm-bavet-n1532798353": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Bavet - Hooiaard",
-   "hcInfo": "Outdoor seating. Mon-Sun 11:30-22:00"
-  },
-  "osm-bavet-n1804183176": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Bavet - Verlorenkost",
-   "hcInfo": "Mon-Sun 11:30-14:30, 17:30-22:00"
-  },
-  "osm-bavet-w175194942": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/way/175194942"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Bavet - Muinkkaai",
-   "hcInfo": "Mon-Sun 11:30-14:30, 17:30-22:00"
   },
   "osm-bier-central-n1628067353": {
    "veggieLevel": "vegan-friendly",
@@ -808,16 +771,6 @@
    "hcName": "Le Bal Infernal",
    "hcInfo": "Coffee shop offering a range of teas and coffees with non-dairy milks, as well as vegan cakes. NOTE: Reported January 2025 to have limited vegan options – please send updates to HappyCow. Outdoor seating. Accepts credit cards. Free Wi-Fi. M"
   },
-  "osm-le-botaniste-n4052744492": {
-   "veggieLevel": "vegan",
-   "sources": [
-    "https://lebotaniste.eu/en/home/",
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "note": "Own site: \"Food and Wine Bar | Plant-based Organic\".",
-   "basis": "verified",
-   "checked": "2026-10-20"
-  },
   "osm-lekker-gec-n2721915415": {
    "veggieLevel": "vegan",
    "sources": [
@@ -911,15 +864,6 @@
    "basis": "HappyCow listing",
    "hcName": "Midpoint Gourmet Burgers",
    "hcInfo": "Serves meat, vegan options available. Gourmet burger restaurant offering three types of vegan burgers - pulled vegan meat, cajun and \"Red Velvet\".  Tue-Sun 17:00-21:30"
-  },
-  "osm-mission-masala-n7804889585": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Mission Masala",
-   "hcInfo": "Serves meat, vegan options available. Indian restaurant offering vegan dishes such as curries, samosa, aloo ghobi and more.  Tue-Thu 18:00-22:00, Fri-Sat 18:00-23:00, Sun 09:00-17:00"
   },
   "osm-mistafluut-n10743751308": {
    "veggieLevel": "vegan-friendly",
@@ -1110,15 +1054,6 @@
     "https://www.openstreetmap.org/node/4565846936"
    ],
    "basis": "OpenStreetMap diet tags"
-  },
-  "osm-poule-poulette-n602681364": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Poule & Poulette",
-   "hcInfo": "Serves meat, vegan options available. Fast food restaurant offering a few vegan items such as vol au vents, fried 'chicken', burgers & more. Outdoor seating. Wheelchair accessible. Accepts credit cards. Mon-Thu 12:00-21:30, Fri-Sat 12:00-22"
   },
   "osm-pureto-n12585303235": {
    "veggieLevel": "vegan-friendly",
