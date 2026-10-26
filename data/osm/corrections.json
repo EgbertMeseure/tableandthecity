@@ -474,6 +474,15 @@
   "way/237595802": {
    "website": "https://www.zwartwit.tv/",
    "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/13672598745": {
+   "opened": "2026-03",
+   "openingDate": "2026-03-12",
+   "address": "Gentbruggestraat 171/A, 9040 Sint-Amandsberg",
+   "addressApprox": false,
+   "summary": "Neighbourhood breakfast, brunch and lunch bar (green eggs, tuna croque) in Sint-Amandsberg.",
+   "summarySource": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html",
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html | https://www.foodbar-jef.be"
   }
  }
 }

@@ -1,6 +1,6 @@
 {
  "city": "gent",
- "dateChecked": "2026-10-25",
+ "dateChecked": "2026-10-26",
  "timezone": "Europe/Brussels",
  "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into gent.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
  "excludedChecked": {
@@ -12,13 +12,19 @@
    "Club Copain (opened 25 Sep 2026)",
    "Crunch (opened 2 Oct 2026)",
    "Jimmyz (opened 26 Sep 2026)",
-   "Le ChouChou, Klaar, Jalel, Café Edmond (open)"
+   "Le ChouChou, Klaar, Jalel, Café Edmond (open)",
+   "DarBodé restaurant, Onderbergen 40 (announced HLN Apr 2026, open since May 2026 – added to the guide 2026-10-26)",
+   "Barr 34, Onderbergen 34 (lounge/tapas bar, opened ~early Oct 2026 per Nieuwsblad 26 Oct 2026 – added to the guide 2026-10-26 as New since October 2026)",
+   "Café Rosa, Ledebergplein (opened 23 Oct 2026; generic café – not added)"
   ],
   "notEnoughInfo": [
    "MTM group (Mòris, Bianca…) takes over an unnamed Gentse brasserie in Oct 2026 (HLN 24 Sep 2026) — name secret",
    "Sarma building (Korenmarkt): horeca planned above Hema, no operator or date (HLN)",
    "Bakkerij Bloch second shop \"aan de rand van Gent\" — no date found",
-   "Lunchbar ROMM (Mirto, Rommelaere site): 'coming soon', no opening month published (sandwich contest 5 Oct–27 Nov 2026) — re-add with a month"
+   "Lunchbar ROMM (Mirto, Rommelaere site): 'coming soon', no opening month published (sandwich contest 5 Oct–27 Nov 2026) — re-add with a month",
+   "Successor of Jus, Mageleinstraat 43 (two brothers; no name/date, 2026-10-26)",
+   "'Mijn Restaurant' duo at ex-Door73, Hoogstraat 73 (concept secret, HLN 5 Aug 2026)",
+   "Successor of Grade, Ledebergplein (no details, 2026-10-26)"
   ],
   "outOfScopeOrStale": [
    "The Bakery by Joost Arijs \"opens 9 December\" — 2022 press release, already open",

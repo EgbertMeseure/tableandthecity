@@ -151,6 +151,14 @@
    "reason": "University of Antwerp student restaurant (Komida, 5+ campus locations); user rule 20 Oct 2026: no student restaurants",
    "source": "STATUS.md possible-chain review",
    "added": "2026-10-26"
+  },
+  "node/6799991954": {
+   "id": "osm-golden-potato-n6799991954",
+   "name": "Golden Potato",
+   "kind": "kebab",
+   "reason": "Overpoort potato/fast-food shop with kebab wraps, student discounts and delivery apps (HLN, opened Aug 2026); user decision 26 Oct 2026: breaks the no-kebab / no-student rules",
+   "source": "https://www.hln.be/eten-en-drinken-gent/net-open-ahmad-40-opent-golden-potato-in-de-overpoort-zelfs-mijn-chili-sin-carne-komt-met-aardappelpartjes~a1a3f88f/",
+   "added": "2026-10-26"
   }
  },
  "pizzaKebabKeep": {
