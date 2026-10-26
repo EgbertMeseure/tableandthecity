@@ -446,7 +446,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "way/152546813"
+   "osm": "way/152546813",
+   "photos": [
+    {
+     "src": "img/places/brugge/de-jonkman/1-interior-1600.webp",
+     "thumb": "img/places/brugge/de-jonkman/1-interior-800.webp",
+     "srcset": "img/places/brugge/de-jonkman/1-interior-800.webp 800w, img/places/brugge/de-jonkman/1-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "interior",
+     "alt": "De Jonkman: interior",
+     "credit": "@dejonkman on Instagram",
+     "credit_url": "https://www.instagram.com/dejonkman/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/de-jonkman/2-food-1600.webp",
+     "thumb": "img/places/brugge/de-jonkman/2-food-800.webp",
+     "srcset": "img/places/brugge/de-jonkman/2-food-800.webp 800w, img/places/brugge/de-jonkman/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "De Jonkman: food",
+     "credit": "@dejonkman on Instagram",
+     "credit_url": "https://www.instagram.com/dejonkman/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "zet-joe",
@@ -646,7 +676,37 @@
    "category": "fine dining",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/sans-cravate/1-food-1600.webp",
+     "thumb": "img/places/brugge/sans-cravate/1-food-800.webp",
+     "srcset": "img/places/brugge/sans-cravate/1-food-800.webp 800w, img/places/brugge/sans-cravate/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Sans Cravate: food",
+     "credit": "@sanscravate.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/sanscravate.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/sans-cravate/2-interior-1600.webp",
+     "thumb": "img/places/brugge/sans-cravate/2-interior-800.webp",
+     "srcset": "img/places/brugge/sans-cravate/2-interior-800.webp 800w, img/places/brugge/sans-cravate/2-interior-1600.webp 1600w",
+     "w": 1200,
+     "h": 630,
+     "category": "interior",
+     "alt": "Sans Cravate: interior",
+     "credit": "sanscravate.be",
+     "credit_url": "https://sanscravate.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "goffin",
@@ -745,7 +805,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/12127218573"
+   "osm": "node/12127218573",
+   "photos": [
+    {
+     "src": "img/places/brugge/goffin/1-interior-1600.webp",
+     "thumb": "img/places/brugge/goffin/1-interior-800.webp",
+     "srcset": "img/places/brugge/goffin/1-interior-800.webp 800w, img/places/brugge/goffin/1-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "interior",
+     "alt": "Goffin: interior",
+     "credit": "@restaurantgoffin on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantgoffin/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/goffin/2-food-1600.webp",
+     "thumb": "img/places/brugge/goffin/2-food-800.webp",
+     "srcset": "img/places/brugge/goffin/2-food-800.webp 800w, img/places/brugge/goffin/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 720,
+     "category": "food",
+     "alt": "Goffin: food",
+     "credit": "@restaurantgoffin on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantgoffin/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bruut",
@@ -845,7 +935,23 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/2506781114"
+   "osm": "node/2506781114",
+   "photos": [
+    {
+     "src": "img/places/brugge/bruut/1-food-1600.webp",
+     "thumb": "img/places/brugge/bruut/1-food-800.webp",
+     "srcset": "img/places/brugge/bruut/1-food-800.webp 800w, img/places/brugge/bruut/1-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1200,
+     "category": "food",
+     "alt": "Bruut: food",
+     "credit": "bistrobruut.be",
+     "credit_url": "https://bistrobruut.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "floris",
@@ -945,7 +1051,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/3655762984"
+   "osm": "node/3655762984",
+   "photos": [
+    {
+     "src": "img/places/brugge/floris/1-food-1600.webp",
+     "thumb": "img/places/brugge/floris/1-food-800.webp",
+     "srcset": "img/places/brugge/floris/1-food-800.webp 800w, img/places/brugge/floris/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1137,
+     "category": "food",
+     "alt": "Floris: food",
+     "credit": "@restaurantfloris on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantfloris/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/floris/2-interior-1600.webp",
+     "thumb": "img/places/brugge/floris/2-interior-800.webp",
+     "srcset": "img/places/brugge/floris/2-interior-800.webp 800w, img/places/brugge/floris/2-interior-1600.webp 1600w",
+     "w": 1200,
+     "h": 628,
+     "category": "interior",
+     "alt": "Floris: interior",
+     "credit": "florisrestaurant.be",
+     "credit_url": "https://www.florisrestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "patrick-devos",
@@ -1047,7 +1183,37 @@
    "notes": null,
    "instagramSource": "link on own website",
    "origin": "research-2026-10-25",
-   "osm": "node/5920416789"
+   "osm": "node/5920416789",
+   "photos": [
+    {
+     "src": "img/places/brugge/patrick-devos/1-food-1600.webp",
+     "thumb": "img/places/brugge/patrick-devos/1-food-800.webp",
+     "srcset": "img/places/brugge/patrick-devos/1-food-800.webp 800w, img/places/brugge/patrick-devos/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Patrick Devos: food",
+     "credit": "@patrickdevos.be on Instagram",
+     "credit_url": "https://www.instagram.com/patrickdevos.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/patrick-devos/2-food-1600.webp",
+     "thumb": "img/places/brugge/patrick-devos/2-food-800.webp",
+     "srcset": "img/places/brugge/patrick-devos/2-food-800.webp 800w, img/places/brugge/patrick-devos/2-food-1600.webp 1600w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Patrick Devos: food",
+     "credit": "patrickdevos.be",
+     "credit_url": "https://www.patrickdevos.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "auberge-de-herborist",
@@ -1145,7 +1311,37 @@
    "category": "fine dining",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/auberge-de-herborist/1-food-1600.webp",
+     "thumb": "img/places/brugge/auberge-de-herborist/1-food-800.webp",
+     "srcset": "img/places/brugge/auberge-de-herborist/1-food-800.webp 800w, img/places/brugge/auberge-de-herborist/1-food-1600.webp 1600w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "Auberge de Herborist: food",
+     "credit": "@auberge_de_herborist on Instagram",
+     "credit_url": "https://www.instagram.com/auberge_de_herborist/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/auberge-de-herborist/2-food-1600.webp",
+     "thumb": "img/places/brugge/auberge-de-herborist/2-food-800.webp",
+     "srcset": "img/places/brugge/auberge-de-herborist/2-food-800.webp 800w, img/places/brugge/auberge-de-herborist/2-food-1600.webp 1600w",
+     "w": 900,
+     "h": 1600,
+     "category": "food",
+     "alt": "Auberge de Herborist: food",
+     "credit": "@auberge_de_herborist on Instagram",
+     "credit_url": "https://www.instagram.com/auberge_de_herborist/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "le-mystique",
@@ -1244,7 +1440,37 @@
    "category": "fine dining",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/le-mystique/1-interior-1600.webp",
+     "thumb": "img/places/brugge/le-mystique/1-interior-800.webp",
+     "srcset": "img/places/brugge/le-mystique/1-interior-800.webp 800w, img/places/brugge/le-mystique/1-interior-1600.webp 1600w",
+     "w": 826,
+     "h": 1024,
+     "category": "interior",
+     "alt": "Le Mystique: interior",
+     "credit": "lemystique.be",
+     "credit_url": "https://www.lemystique.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/le-mystique/2-food-1600.webp",
+     "thumb": "img/places/brugge/le-mystique/2-food-800.webp",
+     "srcset": "img/places/brugge/le-mystique/2-food-800.webp 800w, img/places/brugge/le-mystique/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Le Mystique: food",
+     "credit": "@restaurantlemystique on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantlemystique/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "goesepitte-43",
@@ -1342,7 +1568,37 @@
    "category": "fine dining",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/5445275262"
+   "osm": "node/5445275262",
+   "photos": [
+    {
+     "src": "img/places/brugge/goesepitte-43/1-food-1600.webp",
+     "thumb": "img/places/brugge/goesepitte-43/1-food-800.webp",
+     "srcset": "img/places/brugge/goesepitte-43/1-food-800.webp 800w, img/places/brugge/goesepitte-43/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Goesepitte 43: food",
+     "credit": "@goesepitte43 on Instagram",
+     "credit_url": "https://www.instagram.com/goesepitte43/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/goesepitte-43/2-food-1600.webp",
+     "thumb": "img/places/brugge/goesepitte-43/2-food-800.webp",
+     "srcset": "img/places/brugge/goesepitte-43/2-food-800.webp 800w, img/places/brugge/goesepitte-43/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Goesepitte 43: food",
+     "credit": "@goesepitte43 on Instagram",
+     "credit_url": "https://www.instagram.com/goesepitte43/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "laissez-faire",
@@ -1437,7 +1693,37 @@
    "notes": "G&M: Mo, Tu, Th lunch; Fr lunch & dinner; Sa dinner; We, Su closed (no times published; openingHours left null).",
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/1603868955"
+   "osm": "node/1603868955",
+   "photos": [
+    {
+     "src": "img/places/brugge/laissez-faire/1-food-1600.webp",
+     "thumb": "img/places/brugge/laissez-faire/1-food-800.webp",
+     "srcset": "img/places/brugge/laissez-faire/1-food-800.webp 800w, img/places/brugge/laissez-faire/1-food-1600.webp 1600w",
+     "w": 706,
+     "h": 1252,
+     "category": "food",
+     "alt": "Laissez-Faire: food",
+     "credit": "@restaurant_laissezfaire on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_laissezfaire/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/laissez-faire/2-interior-1600.webp",
+     "thumb": "img/places/brugge/laissez-faire/2-interior-800.webp",
+     "srcset": "img/places/brugge/laissez-faire/2-interior-800.webp 800w, img/places/brugge/laissez-faire/2-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Laissez-Faire: interior",
+     "credit": "laissezfaire.be",
+     "credit_url": "https://laissezfaire.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bonte-b",
@@ -1537,7 +1823,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/5301009405"
+   "osm": "node/5301009405",
+   "photos": [
+    {
+     "src": "img/places/brugge/bonte-b/1-food-1600.webp",
+     "thumb": "img/places/brugge/bonte-b/1-food-800.webp",
+     "srcset": "img/places/brugge/bonte-b/1-food-800.webp 800w, img/places/brugge/bonte-b/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Bonte B: food",
+     "credit": "@restaurant_bonte_b on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_bonte_b/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/bonte-b/2-interior-1600.webp",
+     "thumb": "img/places/brugge/bonte-b/2-interior-800.webp",
+     "srcset": "img/places/brugge/bonte-b/2-interior-800.webp 800w, img/places/brugge/bonte-b/2-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Bonte B: interior",
+     "credit": "restaurantbonteb.be",
+     "credit_url": "https://www.restaurantbonteb.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "rock-fort",
@@ -1638,7 +1954,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/4555626480"
+   "osm": "node/4555626480",
+   "photos": [
+    {
+     "src": "img/places/brugge/rock-fort/1-food-1600.webp",
+     "thumb": "img/places/brugge/rock-fort/1-food-800.webp",
+     "srcset": "img/places/brugge/rock-fort/1-food-800.webp 800w, img/places/brugge/rock-fort/1-food-1600.webp 1600w",
+     "w": 1067,
+     "h": 1600,
+     "category": "food",
+     "alt": "Rock-Fort (Bar Law by Rock-Fort): food",
+     "credit": "rock-fort.be",
+     "credit_url": "https://www.rock-fort.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/rock-fort/2-food-1600.webp",
+     "thumb": "img/places/brugge/rock-fort/2-food-800.webp",
+     "srcset": "img/places/brugge/rock-fort/2-food-800.webp 800w, img/places/brugge/rock-fort/2-food-1600.webp 1600w",
+     "w": 1067,
+     "h": 1600,
+     "category": "food",
+     "alt": "Rock-Fort (Bar Law by Rock-Fort): food",
+     "credit": "rock-fort.be",
+     "credit_url": "https://www.rock-fort.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "franco-belge",
@@ -1738,7 +2084,37 @@
    "category": "brasserie",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/franco-belge/1-food-1600.webp",
+     "thumb": "img/places/brugge/franco-belge/1-food-800.webp",
+     "srcset": "img/places/brugge/franco-belge/1-food-800.webp 800w, img/places/brugge/franco-belge/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1349,
+     "category": "food",
+     "alt": "Franco Belge: food",
+     "credit": "@restaurant_franco_belge on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_franco_belge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/franco-belge/2-food-1600.webp",
+     "thumb": "img/places/brugge/franco-belge/2-food-800.webp",
+     "srcset": "img/places/brugge/franco-belge/2-food-800.webp 800w, img/places/brugge/franco-belge/2-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Franco Belge: food",
+     "credit": "restaurantfrancobelge.be",
+     "credit_url": "https://restaurantfrancobelge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "tanuki",
@@ -1934,7 +2310,37 @@
    "category": "casual",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/less/1-food-1600.webp",
+     "thumb": "img/places/brugge/less/1-food-800.webp",
+     "srcset": "img/places/brugge/less/1-food-800.webp 800w, img/places/brugge/less/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1333,
+     "category": "food",
+     "alt": "L.E.S.S. Eatery: food",
+     "credit": "@less_eatery on Instagram",
+     "credit_url": "https://www.instagram.com/less_eatery/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/less/2-food-1600.webp",
+     "thumb": "img/places/brugge/less/2-food-800.webp",
+     "srcset": "img/places/brugge/less/2-food-800.webp 800w, img/places/brugge/less/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1334,
+     "category": "food",
+     "alt": "L.E.S.S. Eatery: food",
+     "credit": "@less_eatery on Instagram",
+     "credit_url": "https://www.instagram.com/less_eatery/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "reliva",
@@ -2035,7 +2441,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/6581146585"
+   "osm": "node/6581146585",
+   "photos": [
+    {
+     "src": "img/places/brugge/reliva/1-food-1600.webp",
+     "thumb": "img/places/brugge/reliva/1-food-800.webp",
+     "srcset": "img/places/brugge/reliva/1-food-800.webp 800w, img/places/brugge/reliva/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Réliva: food",
+     "credit": "@reliva_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/reliva_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/reliva/2-interior-1600.webp",
+     "thumb": "img/places/brugge/reliva/2-interior-800.webp",
+     "srcset": "img/places/brugge/reliva/2-interior-800.webp 800w, img/places/brugge/reliva/2-interior-1600.webp 1600w",
+     "w": 1280,
+     "h": 900,
+     "category": "interior",
+     "alt": "Réliva: interior",
+     "credit": "reliva.be",
+     "credit_url": "https://www.reliva.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "refter",
@@ -2237,7 +2673,23 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/9044161931"
+   "osm": "node/9044161931",
+   "photos": [
+    {
+     "src": "img/places/brugge/cantine-copine/1-food-1600.webp",
+     "thumb": "img/places/brugge/cantine-copine/1-food-800.webp",
+     "srcset": "img/places/brugge/cantine-copine/1-food-800.webp 800w, img/places/brugge/cantine-copine/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Cantine Copine: food",
+     "credit": "@cantinecopine on Instagram",
+     "credit_url": "https://www.instagram.com/cantinecopine/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "locale",
@@ -2339,7 +2791,23 @@
    "category": "gastro-bistro",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/locale/1-food-1600.webp",
+     "thumb": "img/places/brugge/locale/1-food-800.webp",
+     "srcset": "img/places/brugge/locale/1-food-800.webp 800w, img/places/brugge/locale/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Locàle: food",
+     "credit": "@locale_by_kokauvin on Instagram",
+     "credit_url": "https://www.instagram.com/locale_by_kokauvin/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "assiette-blanche",
@@ -2439,7 +2907,37 @@
    "category": "brasserie",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/470512865"
+   "osm": "node/470512865",
+   "photos": [
+    {
+     "src": "img/places/brugge/assiette-blanche/1-food-1600.webp",
+     "thumb": "img/places/brugge/assiette-blanche/1-food-800.webp",
+     "srcset": "img/places/brugge/assiette-blanche/1-food-800.webp 800w, img/places/brugge/assiette-blanche/1-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Assiette Blanche: food",
+     "credit": "assietteblanche.be",
+     "credit_url": "https://www.assietteblanche.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/assiette-blanche/2-interior-1600.webp",
+     "thumb": "img/places/brugge/assiette-blanche/2-interior-800.webp",
+     "srcset": "img/places/brugge/assiette-blanche/2-interior-800.webp 800w, img/places/brugge/assiette-blanche/2-interior-1600.webp 1600w",
+     "w": 750,
+     "h": 750,
+     "category": "interior",
+     "alt": "Assiette Blanche: interior",
+     "credit": "assietteblanche.be",
+     "credit_url": "https://www.assietteblanche.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-verloren-hoek",
@@ -2539,7 +3037,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "way/165757483"
+   "osm": "way/165757483",
+   "photos": [
+    {
+     "src": "img/places/brugge/de-verloren-hoek/1-food-1600.webp",
+     "thumb": "img/places/brugge/de-verloren-hoek/1-food-800.webp",
+     "srcset": "img/places/brugge/de-verloren-hoek/1-food-800.webp 800w, img/places/brugge/de-verloren-hoek/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "De Verloren Hoek: food",
+     "credit": "@de_verlorenhoek on Instagram",
+     "credit_url": "https://www.instagram.com/de_verlorenhoek/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/de-verloren-hoek/2-interior-1600.webp",
+     "thumb": "img/places/brugge/de-verloren-hoek/2-interior-800.webp",
+     "srcset": "img/places/brugge/de-verloren-hoek/2-interior-800.webp 800w, img/places/brugge/de-verloren-hoek/2-interior-1600.webp 1600w",
+     "w": 1366,
+     "h": 1122,
+     "category": "interior",
+     "alt": "De Verloren Hoek: interior",
+     "credit": "deverlorenhoek.com",
+     "credit_url": "https://www.deverlorenhoek.com/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "den-heerd",
@@ -2638,7 +3166,23 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/10090281820"
+   "osm": "node/10090281820",
+   "photos": [
+    {
+     "src": "img/places/brugge/den-heerd/1-interior-1600.webp",
+     "thumb": "img/places/brugge/den-heerd/1-interior-800.webp",
+     "srcset": "img/places/brugge/den-heerd/1-interior-800.webp 800w, img/places/brugge/den-heerd/1-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "interior",
+     "alt": "Den Heerd: interior",
+     "credit": "@hotel_montanus on Instagram",
+     "credit_url": "https://www.instagram.com/hotel_montanus/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "onslow",
@@ -2740,7 +3284,23 @@
    "category": "bistro",
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/onslow/1-food-1600.webp",
+     "thumb": "img/places/brugge/onslow/1-food-800.webp",
+     "srcset": "img/places/brugge/onslow/1-food-800.webp 800w, img/places/brugge/onslow/1-food-1600.webp 1600w",
+     "w": 900,
+     "h": 1600,
+     "category": "food",
+     "alt": "Onslow: food",
+     "credit": "@onslow_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/onslow_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "t-nieuw-walnutje",
@@ -2835,7 +3395,37 @@
    "notes": "G&M: Mo, Tu, Fr-Su lunch & dinner; We, Th closed (no times published; openingHours left null).",
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/1406364725"
+   "osm": "node/1406364725",
+   "photos": [
+    {
+     "src": "img/places/brugge/t-nieuw-walnutje/1-interior-1600.webp",
+     "thumb": "img/places/brugge/t-nieuw-walnutje/1-interior-800.webp",
+     "srcset": "img/places/brugge/t-nieuw-walnutje/1-interior-800.webp 800w, img/places/brugge/t-nieuw-walnutje/1-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 1418,
+     "category": "interior",
+     "alt": "'t Nieuw Walnutje: interior",
+     "credit": "@t_nieuw_walnutje on Instagram",
+     "credit_url": "https://www.instagram.com/t_nieuw_walnutje/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/t-nieuw-walnutje/2-food-1600.webp",
+     "thumb": "img/places/brugge/t-nieuw-walnutje/2-food-800.webp",
+     "srcset": "img/places/brugge/t-nieuw-walnutje/2-food-800.webp 800w, img/places/brugge/t-nieuw-walnutje/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1262,
+     "category": "food",
+     "alt": "'t Nieuw Walnutje: food",
+     "credit": "@t_nieuw_walnutje on Instagram",
+     "credit_url": "https://www.instagram.com/t_nieuw_walnutje/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "cult",
@@ -2934,7 +3524,37 @@
    "category": "bistro",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/cult/1-interior-1600.webp",
+     "thumb": "img/places/brugge/cult/1-interior-800.webp",
+     "srcset": "img/places/brugge/cult/1-interior-800.webp 800w, img/places/brugge/cult/1-interior-1600.webp 1600w",
+     "w": 941,
+     "h": 1254,
+     "category": "interior",
+     "alt": "Cult: interior",
+     "credit": "@cultbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/cultbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cult/2-food-1600.webp",
+     "thumb": "img/places/brugge/cult/2-food-800.webp",
+     "srcset": "img/places/brugge/cult/2-food-800.webp 800w, img/places/brugge/cult/2-food-1600.webp 1600w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "Cult: food",
+     "credit": "@cultbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/cultbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "jacobin",
@@ -3033,7 +3653,37 @@
    "category": "bistro",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/jacobin/1-food-1600.webp",
+     "thumb": "img/places/brugge/jacobin/1-food-800.webp",
+     "srcset": "img/places/brugge/jacobin/1-food-800.webp 800w, img/places/brugge/jacobin/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Jacobin: food",
+     "credit": "@jacobin_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/jacobin_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/jacobin/2-food-1600.webp",
+     "thumb": "img/places/brugge/jacobin/2-food-800.webp",
+     "srcset": "img/places/brugge/jacobin/2-food-800.webp 800w, img/places/brugge/jacobin/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Jacobin: food",
+     "credit": "@jacobin_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/jacobin_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "preus",
@@ -3134,7 +3784,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "way/114994147"
+   "osm": "way/114994147",
+   "photos": [
+    {
+     "src": "img/places/brugge/preus/1-food-1600.webp",
+     "thumb": "img/places/brugge/preus/1-food-800.webp",
+     "srcset": "img/places/brugge/preus/1-food-800.webp 800w, img/places/brugge/preus/1-food-1600.webp 1600w",
+     "w": 1200,
+     "h": 1600,
+     "category": "food",
+     "alt": "Preus: food",
+     "credit": "restopreus.be",
+     "credit_url": "https://www.restopreus.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/preus/2-food-1600.webp",
+     "thumb": "img/places/brugge/preus/2-food-800.webp",
+     "srcset": "img/places/brugge/preus/2-food-800.webp 800w, img/places/brugge/preus/2-food-1600.webp 1600w",
+     "w": 640,
+     "h": 1136,
+     "category": "food",
+     "alt": "Preus: food",
+     "credit": "@resto_preus on Instagram",
+     "credit_url": "https://www.instagram.com/resto_preus/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "breydel-de-coninc",
@@ -3233,7 +3913,23 @@
    "category": "restaurant",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/469970659"
+   "osm": "node/469970659",
+   "photos": [
+    {
+     "src": "img/places/brugge/breydel-de-coninc/1-interior-1600.webp",
+     "thumb": "img/places/brugge/breydel-de-coninc/1-interior-800.webp",
+     "srcset": "img/places/brugge/breydel-de-coninc/1-interior-800.webp 800w, img/places/brugge/breydel-de-coninc/1-interior-1600.webp 1600w",
+     "w": 1280,
+     "h": 882,
+     "category": "interior",
+     "alt": "Breydel de Coninc: interior",
+     "credit": "restaurant-breydel.be",
+     "credit_url": "https://restaurant-breydel.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-mangerie",
@@ -3334,7 +4030,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/9003407097"
+   "osm": "node/9003407097",
+   "photos": [
+    {
+     "src": "img/places/brugge/de-mangerie/1-food-1600.webp",
+     "thumb": "img/places/brugge/de-mangerie/1-food-800.webp",
+     "srcset": "img/places/brugge/de-mangerie/1-food-800.webp 800w, img/places/brugge/de-mangerie/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "De Mangerie: food",
+     "credit": "@de_mangerie_bruges on Instagram",
+     "credit_url": "https://www.instagram.com/de_mangerie_bruges/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/de-mangerie/2-food-1600.webp",
+     "thumb": "img/places/brugge/de-mangerie/2-food-800.webp",
+     "srcset": "img/places/brugge/de-mangerie/2-food-800.webp 800w, img/places/brugge/de-mangerie/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "De Mangerie: food",
+     "credit": "@de_mangerie_bruges on Instagram",
+     "credit_url": "https://www.instagram.com/de_mangerie_bruges/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "la-tache",
@@ -3429,7 +4155,23 @@
    "notes": "G&M: Mo, Tu, Th-Sa lunch & dinner; We, Su closed (no times published; openingHours left null).",
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25",
-   "osm": "node/1055115331"
+   "osm": "node/1055115331",
+   "photos": [
+    {
+     "src": "img/places/brugge/la-tache/1-food-1600.webp",
+     "thumb": "img/places/brugge/la-tache/1-food-800.webp",
+     "srcset": "img/places/brugge/la-tache/1-food-800.webp 800w, img/places/brugge/la-tache/1-food-1600.webp 1600w",
+     "w": 900,
+     "h": 1600,
+     "category": "food",
+     "alt": "La Tâche: food",
+     "credit": "@restaurant_la_tache on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_la_tache/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "zuid55",
@@ -3524,7 +4266,37 @@
    "notes": "G&M: Tu, We lunch; Th, Fr, Su lunch & dinner; Sa dinner; Mo closed (no times published; openingHours left null).",
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/8926746845"
+   "osm": "node/8926746845",
+   "photos": [
+    {
+     "src": "img/places/brugge/zuid55/1-food-1600.webp",
+     "thumb": "img/places/brugge/zuid55/1-food-800.webp",
+     "srcset": "img/places/brugge/zuid55/1-food-800.webp 800w, img/places/brugge/zuid55/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Zuid55: food",
+     "credit": "@zuid55 on Instagram",
+     "credit_url": "https://www.instagram.com/zuid55/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/zuid55/2-food-1600.webp",
+     "thumb": "img/places/brugge/zuid55/2-food-800.webp",
+     "srcset": "img/places/brugge/zuid55/2-food-800.webp 800w, img/places/brugge/zuid55/2-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "food",
+     "alt": "Zuid55: food",
+     "credit": "zuid55.com",
+     "credit_url": "https://www.zuid55.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "quatre-vins",
@@ -3621,7 +4393,37 @@
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25",
-   "osm": "way/158682620"
+   "osm": "way/158682620",
+   "photos": [
+    {
+     "src": "img/places/brugge/quatre-vins/1-food-1600.webp",
+     "thumb": "img/places/brugge/quatre-vins/1-food-800.webp",
+     "srcset": "img/places/brugge/quatre-vins/1-food-800.webp 800w, img/places/brugge/quatre-vins/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Quatre Vins: food",
+     "credit": "@quatre.vins on Instagram",
+     "credit_url": "https://www.instagram.com/quatre.vins/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/quatre-vins/2-interior-1600.webp",
+     "thumb": "img/places/brugge/quatre-vins/2-interior-800.webp",
+     "srcset": "img/places/brugge/quatre-vins/2-interior-800.webp 800w, img/places/brugge/quatre-vins/2-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Quatre Vins: interior",
+     "credit": "quatre-vins.be",
+     "credit_url": "https://www.quatre-vins.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "tou-gou",
@@ -3719,7 +4521,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/13513943276"
+   "osm": "node/13513943276",
+   "photos": [
+    {
+     "src": "img/places/brugge/tou-gou/1-food-1600.webp",
+     "thumb": "img/places/brugge/tou-gou/1-food-800.webp",
+     "srcset": "img/places/brugge/tou-gou/1-food-800.webp 800w, img/places/brugge/tou-gou/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Tou.Gou: food",
+     "credit": "@tougou_fijnproeverij on Instagram",
+     "credit_url": "https://www.instagram.com/tougou_fijnproeverij/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/tou-gou/2-interior-1600.webp",
+     "thumb": "img/places/brugge/tou-gou/2-interior-800.webp",
+     "srcset": "img/places/brugge/tou-gou/2-interior-800.webp 800w, img/places/brugge/tou-gou/2-interior-1600.webp 1600w",
+     "w": 1000,
+     "h": 1503,
+     "category": "interior",
+     "alt": "Tou.Gou: interior",
+     "credit": "tougou.be",
+     "credit_url": "https://www.tougou.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bistro-rombaux",
@@ -3819,7 +4651,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "way/698783179"
+   "osm": "way/698783179",
+   "photos": [
+    {
+     "src": "img/places/brugge/bistro-rombaux/1-food-1600.webp",
+     "thumb": "img/places/brugge/bistro-rombaux/1-food-800.webp",
+     "srcset": "img/places/brugge/bistro-rombaux/1-food-800.webp 800w, img/places/brugge/bistro-rombaux/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Bistro Rombaux: food",
+     "credit": "@bistro_rombaux on Instagram",
+     "credit_url": "https://www.instagram.com/bistro_rombaux/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/bistro-rombaux/2-food-1600.webp",
+     "thumb": "img/places/brugge/bistro-rombaux/2-food-800.webp",
+     "srcset": "img/places/brugge/bistro-rombaux/2-food-800.webp 800w, img/places/brugge/bistro-rombaux/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Bistro Rombaux: food",
+     "credit": "@bistro_rombaux on Instagram",
+     "credit_url": "https://www.instagram.com/bistro_rombaux/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "t-apertje",
@@ -3918,7 +4780,37 @@
    "category": "bistro",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/t-apertje/1-interior-1600.webp",
+     "thumb": "img/places/brugge/t-apertje/1-interior-800.webp",
+     "srcset": "img/places/brugge/t-apertje/1-interior-800.webp 800w, img/places/brugge/t-apertje/1-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "'t Apertje: interior",
+     "credit": "apertje.be",
+     "credit_url": "https://apertje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/t-apertje/2-interior-1600.webp",
+     "thumb": "img/places/brugge/t-apertje/2-interior-800.webp",
+     "srcset": "img/places/brugge/t-apertje/2-interior-800.webp 800w, img/places/brugge/t-apertje/2-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "'t Apertje: interior",
+     "credit": "apertje.be",
+     "credit_url": "https://apertje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "zevensterre",
@@ -4111,7 +5003,37 @@
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25",
-   "osm": "node/7845606781"
+   "osm": "node/7845606781",
+   "photos": [
+    {
+     "src": "img/places/brugge/ober/1-interior-1600.webp",
+     "thumb": "img/places/brugge/ober/1-interior-800.webp",
+     "srcset": "img/places/brugge/ober/1-interior-800.webp 800w, img/places/brugge/ober/1-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "interior",
+     "alt": "Ober: interior",
+     "credit": "@ober.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/ober.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/ober/2-interior-1600.webp",
+     "thumb": "img/places/brugge/ober/2-interior-800.webp",
+     "srcset": "img/places/brugge/ober/2-interior-800.webp 800w, img/places/brugge/ober/2-interior-1600.webp 1600w",
+     "w": 901,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Ober: interior",
+     "credit": "@ober.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/ober.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "den-gouden-karpel",
@@ -4207,7 +5129,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/5464823927"
+   "osm": "node/5464823927",
+   "photos": [
+    {
+     "src": "img/places/brugge/den-gouden-karpel/1-food-1600.webp",
+     "thumb": "img/places/brugge/den-gouden-karpel/1-food-800.webp",
+     "srcset": "img/places/brugge/den-gouden-karpel/1-food-800.webp 800w, img/places/brugge/den-gouden-karpel/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1454,
+     "category": "food",
+     "alt": "Den Gouden Karpel: food",
+     "credit": "@den_gouden_karpel on Instagram",
+     "credit_url": "https://www.instagram.com/den_gouden_karpel/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/den-gouden-karpel/2-food-1600.webp",
+     "thumb": "img/places/brugge/den-gouden-karpel/2-food-800.webp",
+     "srcset": "img/places/brugge/den-gouden-karpel/2-food-800.webp 800w, img/places/brugge/den-gouden-karpel/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Den Gouden Karpel: food",
+     "credit": "@den_gouden_karpel on Instagram",
+     "credit_url": "https://www.instagram.com/den_gouden_karpel/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "mas",
@@ -4495,7 +5447,37 @@
    "category": "restaurant",
    "notes": "Own site: closed 31/10-2/11, 24-25/12 and 30/12-10/01.",
    "origin": "research-2026-10-25",
-   "osm": "node/10078330469"
+   "osm": "node/10078330469",
+   "photos": [
+    {
+     "src": "img/places/brugge/de-stove/1-food-1600.webp",
+     "thumb": "img/places/brugge/de-stove/1-food-800.webp",
+     "srcset": "img/places/brugge/de-stove/1-food-800.webp 800w, img/places/brugge/de-stove/1-food-1600.webp 1600w",
+     "w": 750,
+     "h": 750,
+     "category": "food",
+     "alt": "De Stove: food",
+     "credit": "restaurantdestove.eu",
+     "credit_url": "https://www.restaurantdestove.eu/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/de-stove/2-interior-1600.webp",
+     "thumb": "img/places/brugge/de-stove/2-interior-800.webp",
+     "srcset": "img/places/brugge/de-stove/2-interior-800.webp 800w, img/places/brugge/de-stove/2-interior-1600.webp 1600w",
+     "w": 750,
+     "h": 750,
+     "category": "interior",
+     "alt": "De Stove: interior",
+     "credit": "restaurantdestove.eu",
+     "credit_url": "https://www.restaurantdestove.eu/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "foodbar-est",
@@ -4867,7 +5849,37 @@
    "category": "cocktail_bar",
    "notes": "Annual holiday 24 Dec 2026 and 5 Jan-6 Feb 2027 (own site).",
    "opened": "2026-01",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/shibuya/1-food-1600.webp",
+     "thumb": "img/places/brugge/shibuya/1-food-800.webp",
+     "srcset": "img/places/brugge/shibuya/1-food-800.webp 800w, img/places/brugge/shibuya/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Shibuya: food",
+     "credit": "@shibuya.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/shibuya.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/shibuya/2-drink-1600.webp",
+     "thumb": "img/places/brugge/shibuya/2-drink-800.webp",
+     "srcset": "img/places/brugge/shibuya/2-drink-800.webp 800w, img/places/brugge/shibuya/2-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Shibuya: drink",
+     "credit": "@shibuya.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/shibuya.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "mika",
@@ -4956,7 +5968,37 @@
    "category": "cocktail_bar",
    "notes": null,
    "opened": "2026-07",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/mika/1-drink-1600.webp",
+     "thumb": "img/places/brugge/mika/1-drink-800.webp",
+     "srcset": "img/places/brugge/mika/1-drink-800.webp 800w, img/places/brugge/mika/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "MiKa: drink",
+     "credit": "@mikacocktails on Instagram",
+     "credit_url": "https://www.instagram.com/mikacocktails/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/mika/2-drink-1600.webp",
+     "thumb": "img/places/brugge/mika/2-drink-800.webp",
+     "srcset": "img/places/brugge/mika/2-drink-800.webp 800w, img/places/brugge/mika/2-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 720,
+     "category": "food",
+     "alt": "MiKa: drink",
+     "credit": "@mikacocktails on Instagram",
+     "credit_url": "https://www.instagram.com/mikacocktails/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "nuba",
@@ -5236,7 +6278,37 @@
    "notes": "HLN/G&M: dinner Tue-Sat, lunch Tue-Thu; Sun, Mon closed (no times published; openingHours left null).",
    "instagramSource": "own website link, press article or venue listing",
    "opened": "2025-11",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/freddys/1-interior-1600.webp",
+     "thumb": "img/places/brugge/freddys/1-interior-800.webp",
+     "srcset": "img/places/brugge/freddys/1-interior-800.webp 800w, img/places/brugge/freddys/1-interior-1600.webp 1600w",
+     "w": 1536,
+     "h": 864,
+     "category": "interior",
+     "alt": "Freddy's by Kok au Vin: interior",
+     "credit": "freddys.be",
+     "credit_url": "https://freddys.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/freddys/2-interior-1600.webp",
+     "thumb": "img/places/brugge/freddys/2-interior-800.webp",
+     "srcset": "img/places/brugge/freddys/2-interior-800.webp 800w, img/places/brugge/freddys/2-interior-1600.webp 1600w",
+     "w": 1536,
+     "h": 864,
+     "category": "interior",
+     "alt": "Freddy's by Kok au Vin: interior",
+     "credit": "freddys.be",
+     "credit_url": "https://freddys.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "the-fat-swan",
@@ -5420,7 +6492,37 @@
    "category": "cocktail_bar",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/bar-ran/1-drink-1600.webp",
+     "thumb": "img/places/brugge/bar-ran/1-drink-800.webp",
+     "srcset": "img/places/brugge/bar-ran/1-drink-800.webp 800w, img/places/brugge/bar-ran/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Bar Ran: drink",
+     "credit": "@bar.ran.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/bar.ran.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/bar-ran/2-drink-1600.webp",
+     "thumb": "img/places/brugge/bar-ran/2-drink-800.webp",
+     "srcset": "img/places/brugge/bar-ran/2-drink-800.webp 800w, img/places/brugge/bar-ran/2-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Bar Ran: drink",
+     "credit": "@bar.ran.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/bar.ran.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "groot-vlaenderen",
@@ -5511,7 +6613,23 @@
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25",
-   "osm": "node/10916570066"
+   "osm": "node/10916570066",
+   "photos": [
+    {
+     "src": "img/places/brugge/groot-vlaenderen/1-drink-1600.webp",
+     "thumb": "img/places/brugge/groot-vlaenderen/1-drink-800.webp",
+     "srcset": "img/places/brugge/groot-vlaenderen/1-drink-800.webp 800w, img/places/brugge/groot-vlaenderen/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Groot Vlaenderen: drink",
+     "credit": "@grootvlaenderen on Instagram",
+     "credit_url": "https://www.instagram.com/grootvlaenderen/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "barn",
@@ -5602,7 +6720,23 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/10078330473"
+   "osm": "node/10078330473",
+   "photos": [
+    {
+     "src": "img/places/brugge/barn/1-interior-1600.webp",
+     "thumb": "img/places/brugge/barn/1-interior-800.webp",
+     "srcset": "img/places/brugge/barn/1-interior-800.webp 800w, img/places/brugge/barn/1-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1068,
+     "category": "interior",
+     "alt": "Bar'n: interior",
+     "credit": "barn-brugge.be",
+     "credit_url": "https://barn-brugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bar-bulles",
@@ -5690,7 +6824,37 @@
    "category": "cocktail_bar",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/13014042214"
+   "osm": "node/13014042214",
+   "photos": [
+    {
+     "src": "img/places/brugge/bar-bulles/1-drink-1600.webp",
+     "thumb": "img/places/brugge/bar-bulles/1-drink-800.webp",
+     "srcset": "img/places/brugge/bar-bulles/1-drink-800.webp 800w, img/places/brugge/bar-bulles/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Bar Bulles (Le Foulage): drink",
+     "credit": "@barbullesbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/barbullesbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/bar-bulles/2-interior-1600.webp",
+     "thumb": "img/places/brugge/bar-bulles/2-interior-800.webp",
+     "srcset": "img/places/brugge/bar-bulles/2-interior-800.webp 800w, img/places/brugge/bar-bulles/2-interior-1600.webp 1600w",
+     "w": 901,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Bar Bulles (Le Foulage): interior",
+     "credit": "@barbullesbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/barbullesbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "lucifernum",
@@ -5859,7 +7023,23 @@
    "category": "cocktail_bar",
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/hotelbar-julien/1-drink-1600.webp",
+     "thumb": "img/places/brugge/hotelbar-julien/1-drink-800.webp",
+     "srcset": "img/places/brugge/hotelbar-julien/1-drink-800.webp 800w, img/places/brugge/hotelbar-julien/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Bar Julien (Hotel Dukes' Palace): drink",
+     "credit": "@hoteldukespalace on Instagram",
+     "credit_url": "https://www.instagram.com/hoteldukespalace/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "blend",
@@ -6050,7 +7230,23 @@
    "group": "cafes_bars",
    "category": "wine_bar",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/cuvee/1-interior-1600.webp",
+     "thumb": "img/places/brugge/cuvee/1-interior-800.webp",
+     "srcset": "img/places/brugge/cuvee/1-interior-800.webp 800w, img/places/brugge/cuvee/1-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "interior",
+     "alt": "Cuvee: interior",
+     "credit": "@cuvee_natuurlijk on Instagram",
+     "credit_url": "https://www.instagram.com/cuvee_natuurlijk/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "lucy",
@@ -6137,7 +7333,23 @@
    "category": "wine_bar",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/lucy/1-drink-1600.webp",
+     "thumb": "img/places/brugge/lucy/1-drink-800.webp",
+     "srcset": "img/places/brugge/lucy/1-drink-800.webp 800w, img/places/brugge/lucy/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Lucy Winebar: drink",
+     "credit": "@lucy_winebar on Instagram",
+     "credit_url": "https://www.instagram.com/lucy_winebar/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "living",
@@ -6222,7 +7434,37 @@
    "group": "cafes_bars",
    "category": "wine_bar",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/living/1-drink-1600.webp",
+     "thumb": "img/places/brugge/living/1-drink-800.webp",
+     "srcset": "img/places/brugge/living/1-drink-800.webp 800w, img/places/brugge/living/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Living Wijnbar: drink",
+     "credit": "@living.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/living.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/living/2-drink-1600.webp",
+     "thumb": "img/places/brugge/living/2-drink-800.webp",
+     "srcset": "img/places/brugge/living/2-drink-800.webp 800w, img/places/brugge/living/2-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Living Wijnbar: drink",
+     "credit": "@living.brugge on Instagram",
+     "credit_url": "https://www.instagram.com/living.brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bie-jimmy",
@@ -6483,7 +7725,37 @@
    "group": "cafes_bars",
    "category": "wine_bar",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/punta-est/1-food-1600.webp",
+     "thumb": "img/places/brugge/punta-est/1-food-800.webp",
+     "srcset": "img/places/brugge/punta-est/1-food-800.webp 800w, img/places/brugge/punta-est/1-food-1600.webp 1600w",
+     "w": 900,
+     "h": 1600,
+     "category": "food",
+     "alt": "Punta Est: food",
+     "credit": "@punta_est on Instagram",
+     "credit_url": "https://www.instagram.com/punta_est/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/punta-est/2-drink-1600.webp",
+     "thumb": "img/places/brugge/punta-est/2-drink-800.webp",
+     "srcset": "img/places/brugge/punta-est/2-drink-800.webp 800w, img/places/brugge/punta-est/2-drink-1600.webp 1600w",
+     "w": 1200,
+     "h": 1600,
+     "category": "food",
+     "alt": "Punta Est: drink",
+     "credit": "punta-est.be",
+     "credit_url": "https://punta-est.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "t-brugs-beertje",
@@ -6656,7 +7928,37 @@
    "category": "brown_cafe",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "way/143533340"
+   "osm": "way/143533340",
+   "photos": [
+    {
+     "src": "img/places/brugge/de-garre/1-interior-1600.webp",
+     "thumb": "img/places/brugge/de-garre/1-interior-800.webp",
+     "srcset": "img/places/brugge/de-garre/1-interior-800.webp 800w, img/places/brugge/de-garre/1-interior-1600.webp 1600w",
+     "w": 1152,
+     "h": 768,
+     "category": "interior",
+     "alt": "De Garre: interior",
+     "credit": "degarre.be",
+     "credit_url": "https://degarre.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/de-garre/2-drink-1600.webp",
+     "thumb": "img/places/brugge/de-garre/2-drink-800.webp",
+     "srcset": "img/places/brugge/de-garre/2-drink-800.webp 800w, img/places/brugge/de-garre/2-drink-1600.webp 1600w",
+     "w": 1200,
+     "h": 630,
+     "category": "food",
+     "alt": "De Garre: drink",
+     "credit": "degarre.be",
+     "credit_url": "https://degarre.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "cafe-vlissinghe",
@@ -7090,7 +8392,23 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/13672102909"
+   "osm": "node/13672102909",
+   "photos": [
+    {
+     "src": "img/places/brugge/t-molenhuis/1-interior-1600.webp",
+     "thumb": "img/places/brugge/t-molenhuis/1-interior-800.webp",
+     "srcset": "img/places/brugge/t-molenhuis/1-interior-800.webp 800w, img/places/brugge/t-molenhuis/1-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "'t Molenhuis: interior",
+     "credit": "molenhuisbrugge.be",
+     "credit_url": "https://molenhuisbrugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "rose-red",
@@ -7179,7 +8497,23 @@
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25",
-   "osm": "node/3528972849"
+   "osm": "node/3528972849",
+   "photos": [
+    {
+     "src": "img/places/brugge/rose-red/1-food-1600.webp",
+     "thumb": "img/places/brugge/rose-red/1-food-800.webp",
+     "srcset": "img/places/brugge/rose-red/1-food-800.webp 800w, img/places/brugge/rose-red/1-food-1600.webp 1600w",
+     "w": 900,
+     "h": 1600,
+     "category": "food",
+     "alt": "Bar Rose Red: food",
+     "credit": "@hotel.and.bar.rosered on Instagram",
+     "credit_url": "https://www.instagram.com/hotel.and.bar.rosered/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "cafe-cambrinus",
@@ -7268,7 +8602,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/3093906388"
+   "osm": "node/3093906388",
+   "photos": [
+    {
+     "src": "img/places/brugge/cafe-cambrinus/1-drink-1600.webp",
+     "thumb": "img/places/brugge/cafe-cambrinus/1-drink-800.webp",
+     "srcset": "img/places/brugge/cafe-cambrinus/1-drink-800.webp 800w, img/places/brugge/cafe-cambrinus/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Café Cambrinus: drink",
+     "credit": "@cafe.cambrinus on Instagram",
+     "credit_url": "https://www.instagram.com/cafe.cambrinus/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cafe-cambrinus/2-interior-1600.webp",
+     "thumb": "img/places/brugge/cafe-cambrinus/2-interior-800.webp",
+     "srcset": "img/places/brugge/cafe-cambrinus/2-interior-800.webp 800w, img/places/brugge/cafe-cambrinus/2-interior-1600.webp 1600w",
+     "w": 1067,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Café Cambrinus: interior",
+     "credit": "cafecambrinus.eu",
+     "credit_url": "https://www.cafecambrinus.eu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-kelk",
@@ -7528,7 +8892,23 @@
    "group": "cafes_bars",
    "category": "brown_cafe",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/27b-flat/1-food-1600.webp",
+     "thumb": "img/places/brugge/27b-flat/1-food-800.webp",
+     "srcset": "img/places/brugge/27b-flat/1-food-800.webp 800w, img/places/brugge/27b-flat/1-food-1600.webp 1600w",
+     "w": 640,
+     "h": 1136,
+     "category": "food",
+     "alt": "27B Flat: food",
+     "credit": "@27_bflat on Instagram",
+     "credit_url": "https://www.instagram.com/27_bflat/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "delaneys",
@@ -7613,7 +8993,23 @@
    "category": "irish_pub",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "way/143819510"
+   "osm": "way/143819510",
+   "photos": [
+    {
+     "src": "img/places/brugge/delaneys/1-interior-1600.webp",
+     "thumb": "img/places/brugge/delaneys/1-interior-800.webp",
+     "srcset": "img/places/brugge/delaneys/1-interior-800.webp 800w, img/places/brugge/delaneys/1-interior-1600.webp 1600w",
+     "w": 1475,
+     "h": 772,
+     "category": "interior",
+     "alt": "Delaney's Irish Pub: interior",
+     "credit": "delaneys.be",
+     "credit_url": "https://www.delaneys.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-coulissen",
@@ -7876,7 +9272,37 @@
    "category": "coffee_bar",
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/dees/1-drink-1600.webp",
+     "thumb": "img/places/brugge/dees/1-drink-800.webp",
+     "srcset": "img/places/brugge/dees/1-drink-800.webp 800w, img/places/brugge/dees/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Dees Koffiebranders: drink",
+     "credit": "@dees.koffie on Instagram",
+     "credit_url": "https://www.instagram.com/dees.koffie/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/dees/2-interior-1600.webp",
+     "thumb": "img/places/brugge/dees/2-interior-800.webp",
+     "srcset": "img/places/brugge/dees/2-interior-800.webp 800w, img/places/brugge/dees/2-interior-1600.webp 1600w",
+     "w": 1200,
+     "h": 675,
+     "category": "interior",
+     "alt": "Dees Koffiebranders: interior",
+     "credit": "deeskoffie.be",
+     "credit_url": "https://deeskoffie.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "two-point-oh",
@@ -8140,7 +9566,23 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/13513422628"
+   "osm": "node/13513422628",
+   "photos": [
+    {
+     "src": "img/places/brugge/biscuit/1-food-1600.webp",
+     "thumb": "img/places/brugge/biscuit/1-food-800.webp",
+     "srcset": "img/places/brugge/biscuit/1-food-800.webp 800w, img/places/brugge/biscuit/1-food-1600.webp 1600w",
+     "w": 1000,
+     "h": 600,
+     "category": "food",
+     "alt": "Biscuit: food",
+     "credit": "biscuitbrugge.be",
+     "credit_url": "https://biscuitbrugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "stera",
@@ -8316,7 +9758,37 @@
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25",
-   "osm": "node/11954392331"
+   "osm": "node/11954392331",
+   "photos": [
+    {
+     "src": "img/places/brugge/the-novel/1-drink-1600.webp",
+     "thumb": "img/places/brugge/the-novel/1-drink-800.webp",
+     "srcset": "img/places/brugge/the-novel/1-drink-800.webp 800w, img/places/brugge/the-novel/1-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "The Novel: drink",
+     "credit": "@thenovel_bruges on Instagram",
+     "credit_url": "https://www.instagram.com/thenovel_bruges/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/the-novel/2-drink-1600.webp",
+     "thumb": "img/places/brugge/the-novel/2-drink-800.webp",
+     "srcset": "img/places/brugge/the-novel/2-drink-800.webp 800w, img/places/brugge/the-novel/2-drink-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "The Novel: drink",
+     "credit": "@thenovel_bruges on Instagram",
+     "credit_url": "https://www.instagram.com/thenovel_bruges/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "postbar",
@@ -8402,7 +9874,37 @@
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25",
-   "osm": "node/14189266601"
+   "osm": "node/14189266601",
+   "photos": [
+    {
+     "src": "img/places/brugge/postbar/1-food-1600.webp",
+     "thumb": "img/places/brugge/postbar/1-food-800.webp",
+     "srcset": "img/places/brugge/postbar/1-food-800.webp 800w, img/places/brugge/postbar/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1333,
+     "category": "food",
+     "alt": "Postbar: food",
+     "credit": "@postbarbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/postbarbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/postbar/2-food-1600.webp",
+     "thumb": "img/places/brugge/postbar/2-food-800.webp",
+     "srcset": "img/places/brugge/postbar/2-food-800.webp 800w, img/places/brugge/postbar/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Postbar: food",
+     "credit": "@postbarbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/postbarbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "kaffee-kamiel",
@@ -8497,7 +9999,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/9848556559"
+   "osm": "node/9848556559",
+   "photos": [
+    {
+     "src": "img/places/brugge/kaffee-kamiel/1-food-1600.webp",
+     "thumb": "img/places/brugge/kaffee-kamiel/1-food-800.webp",
+     "srcset": "img/places/brugge/kaffee-kamiel/1-food-800.webp 800w, img/places/brugge/kaffee-kamiel/1-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1068,
+     "category": "food",
+     "alt": "Kaffee Kamiel: food",
+     "credit": "kaffeekamiel.be",
+     "credit_url": "https://www.kaffeekamiel.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/kaffee-kamiel/2-food-1600.webp",
+     "thumb": "img/places/brugge/kaffee-kamiel/2-food-800.webp",
+     "srcset": "img/places/brugge/kaffee-kamiel/2-food-800.webp 800w, img/places/brugge/kaffee-kamiel/2-food-1600.webp 1600w",
+     "w": 1068,
+     "h": 1600,
+     "category": "food",
+     "alt": "Kaffee Kamiel: food",
+     "credit": "kaffeekamiel.be",
+     "credit_url": "https://www.kaffeekamiel.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "nomad",
@@ -8590,7 +10122,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/4194392771"
+   "osm": "node/4194392771",
+   "photos": [
+    {
+     "src": "img/places/brugge/nomad/1-food-1600.webp",
+     "thumb": "img/places/brugge/nomad/1-food-800.webp",
+     "srcset": "img/places/brugge/nomad/1-food-800.webp 800w, img/places/brugge/nomad/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Nomad: food",
+     "credit": "@nomad_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/nomad_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/nomad/2-food-1600.webp",
+     "thumb": "img/places/brugge/nomad/2-food-800.webp",
+     "srcset": "img/places/brugge/nomad/2-food-800.webp 800w, img/places/brugge/nomad/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Nomad: food",
+     "credit": "@nomad_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/nomad_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-broodsmid",
@@ -8677,7 +10239,37 @@
    "category": "bakery",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/1256770388"
+   "osm": "node/1256770388",
+   "photos": [
+    {
+     "src": "img/places/brugge/de-broodsmid/1-food-1600.webp",
+     "thumb": "img/places/brugge/de-broodsmid/1-food-800.webp",
+     "srcset": "img/places/brugge/de-broodsmid/1-food-800.webp 800w, img/places/brugge/de-broodsmid/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "De Broodsmid: food",
+     "credit": "@debroodsmid_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/debroodsmid_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/de-broodsmid/2-food-1600.webp",
+     "thumb": "img/places/brugge/de-broodsmid/2-food-800.webp",
+     "srcset": "img/places/brugge/de-broodsmid/2-food-800.webp 800w, img/places/brugge/de-broodsmid/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 810,
+     "category": "food",
+     "alt": "De Broodsmid: food",
+     "credit": "@debroodsmid_brugge on Instagram",
+     "credit_url": "https://www.instagram.com/debroodsmid_brugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bakkerij-joseph",
@@ -8848,7 +10440,37 @@
    "group": "bakeries",
    "category": "bakery",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/de-brooderij/1-food-1600.webp",
+     "thumb": "img/places/brugge/de-brooderij/1-food-800.webp",
+     "srcset": "img/places/brugge/de-brooderij/1-food-800.webp 800w, img/places/brugge/de-brooderij/1-food-1600.webp 1600w",
+     "w": 919,
+     "h": 683,
+     "category": "food",
+     "alt": "De Brooderij: food",
+     "credit": "de-brooderij.be",
+     "credit_url": "https://www.de-brooderij.be/be-nl/de-brooderij",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/de-brooderij/2-food-1600.webp",
+     "thumb": "img/places/brugge/de-brooderij/2-food-800.webp",
+     "srcset": "img/places/brugge/de-brooderij/2-food-800.webp 800w, img/places/brugge/de-brooderij/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1309,
+     "category": "food",
+     "alt": "De Brooderij: food",
+     "credit": "@de_brooderij_microbakkerij on Instagram",
+     "credit_url": "https://www.instagram.com/de_brooderij_microbakkerij/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "van-mullem",
@@ -8941,7 +10563,37 @@
    ],
    "bakeryStyleSource": "https://patisserie-vanmullem.be/brugge",
    "origin": "research-2026-10-25",
-   "osm": "node/11179498618"
+   "osm": "node/11179498618",
+   "photos": [
+    {
+     "src": "img/places/brugge/van-mullem/1-food-1600.webp",
+     "thumb": "img/places/brugge/van-mullem/1-food-800.webp",
+     "srcset": "img/places/brugge/van-mullem/1-food-800.webp 800w, img/places/brugge/van-mullem/1-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1066,
+     "category": "food",
+     "alt": "Patisserie Van Mullem: food",
+     "credit": "patisserie-vanmullem.be",
+     "credit_url": "https://patisserie-vanmullem.be/brugge/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/van-mullem/2-food-1600.webp",
+     "thumb": "img/places/brugge/van-mullem/2-food-800.webp",
+     "srcset": "img/places/brugge/van-mullem/2-food-800.webp 800w, img/places/brugge/van-mullem/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Patisserie Van Mullem: food",
+     "credit": "@patisserievanmullem on Instagram",
+     "credit_url": "https://www.instagram.com/patisserievanmullem/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "carpe-diem",
@@ -9029,7 +10681,37 @@
    "category": "bakery",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/5123699821"
+   "osm": "node/5123699821",
+   "photos": [
+    {
+     "src": "img/places/brugge/carpe-diem/1-food-1600.webp",
+     "thumb": "img/places/brugge/carpe-diem/1-food-800.webp",
+     "srcset": "img/places/brugge/carpe-diem/1-food-800.webp 800w, img/places/brugge/carpe-diem/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Bakkerij Detavernier & Carpe Diem: food",
+     "credit": "@tearoom_carpe_diem on Instagram",
+     "credit_url": "https://www.instagram.com/tearoom_carpe_diem/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/carpe-diem/2-food-1600.webp",
+     "thumb": "img/places/brugge/carpe-diem/2-food-800.webp",
+     "srcset": "img/places/brugge/carpe-diem/2-food-800.webp 800w, img/places/brugge/carpe-diem/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Bakkerij Detavernier & Carpe Diem: food",
+     "credit": "@tearoom_carpe_diem on Instagram",
+     "credit_url": "https://www.instagram.com/tearoom_carpe_diem/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "blackbird",
@@ -9123,7 +10805,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/6818170856"
+   "osm": "node/6818170856",
+   "photos": [
+    {
+     "src": "img/places/brugge/blackbird/1-food-1600.webp",
+     "thumb": "img/places/brugge/blackbird/1-food-800.webp",
+     "srcset": "img/places/brugge/blackbird/1-food-800.webp 800w, img/places/brugge/blackbird/1-food-1600.webp 1600w",
+     "w": 1500,
+     "h": 1125,
+     "category": "food",
+     "alt": "Blackbird Coffee Club: food",
+     "credit": "blackbird-bruges.com",
+     "credit_url": "https://www.blackbird-bruges.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/blackbird/2-food-1600.webp",
+     "thumb": "img/places/brugge/blackbird/2-food-800.webp",
+     "srcset": "img/places/brugge/blackbird/2-food-800.webp 800w, img/places/brugge/blackbird/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Blackbird Coffee Club: food",
+     "credit": "@blackbird_bruges on Instagram",
+     "credit_url": "https://www.instagram.com/blackbird_bruges/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "matin-midi",
@@ -9213,7 +10925,37 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/matin-midi/1-interior-1600.webp",
+     "thumb": "img/places/brugge/matin-midi/1-interior-800.webp",
+     "srcset": "img/places/brugge/matin-midi/1-interior-800.webp 800w, img/places/brugge/matin-midi/1-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Matin Midi: interior",
+     "credit": "matinmidibrugge.be",
+     "credit_url": "https://matinmidibrugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/matin-midi/2-interior-1600.webp",
+     "thumb": "img/places/brugge/matin-midi/2-interior-800.webp",
+     "srcset": "img/places/brugge/matin-midi/2-interior-800.webp 800w, img/places/brugge/matin-midi/2-interior-1600.webp 1600w",
+     "w": 1024,
+     "h": 1536,
+     "category": "interior",
+     "alt": "Matin Midi: interior",
+     "credit": "matinmidibrugge.be",
+     "credit_url": "https://matinmidibrugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "benedict",
@@ -9303,7 +11045,37 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/benedict/1-food-1600.webp",
+     "thumb": "img/places/brugge/benedict/1-food-800.webp",
+     "srcset": "img/places/brugge/benedict/1-food-800.webp 800w, img/places/brugge/benedict/1-food-1600.webp 1600w",
+     "w": 1024,
+     "h": 683,
+     "category": "food",
+     "alt": "Benedict: food",
+     "credit": "benedictcafe.be",
+     "credit_url": "https://www.benedictcafe.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/benedict/2-interior-1600.webp",
+     "thumb": "img/places/brugge/benedict/2-interior-800.webp",
+     "srcset": "img/places/brugge/benedict/2-interior-800.webp 800w, img/places/brugge/benedict/2-interior-1600.webp 1600w",
+     "w": 1024,
+     "h": 683,
+     "category": "interior",
+     "alt": "Benedict: interior",
+     "credit": "benedictcafe.be",
+     "credit_url": "https://www.benedictcafe.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "boho-brunch",
@@ -9396,7 +11168,37 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/boho-brunch/1-food-1600.webp",
+     "thumb": "img/places/brugge/boho-brunch/1-food-800.webp",
+     "srcset": "img/places/brugge/boho-brunch/1-food-800.webp 800w, img/places/brugge/boho-brunch/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Boho Brunch: food",
+     "credit": "@bohobrunchbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/bohobrunchbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/boho-brunch/2-food-1600.webp",
+     "thumb": "img/places/brugge/boho-brunch/2-food-800.webp",
+     "srcset": "img/places/brugge/boho-brunch/2-food-800.webp 800w, img/places/brugge/boho-brunch/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1417,
+     "category": "food",
+     "alt": "Boho Brunch: food",
+     "credit": "@bohobrunchbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/bohobrunchbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "yarn",
@@ -9489,7 +11291,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/3786122825"
+   "osm": "node/3786122825",
+   "photos": [
+    {
+     "src": "img/places/brugge/yarn/1-food-1600.webp",
+     "thumb": "img/places/brugge/yarn/1-food-800.webp",
+     "srcset": "img/places/brugge/yarn/1-food-800.webp 800w, img/places/brugge/yarn/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1328,
+     "category": "food",
+     "alt": "Yarn: food",
+     "credit": "@yarnbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/yarnbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/yarn/2-food-1600.webp",
+     "thumb": "img/places/brugge/yarn/2-food-800.webp",
+     "srcset": "img/places/brugge/yarn/2-food-800.webp 800w, img/places/brugge/yarn/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Yarn: food",
+     "credit": "@yarnbrugge on Instagram",
+     "credit_url": "https://www.instagram.com/yarnbrugge/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "sanseveria",
@@ -9583,7 +11415,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/4601492489"
+   "osm": "node/4601492489",
+   "photos": [
+    {
+     "src": "img/places/brugge/sanseveria/1-food-1600.webp",
+     "thumb": "img/places/brugge/sanseveria/1-food-800.webp",
+     "srcset": "img/places/brugge/sanseveria/1-food-800.webp 800w, img/places/brugge/sanseveria/1-food-1600.webp 1600w",
+     "w": 1500,
+     "h": 860,
+     "category": "food",
+     "alt": "Sanseveria Bagelsalon: food",
+     "credit": "sanseveria.be",
+     "credit_url": "https://www.sanseveria.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/sanseveria/2-food-1600.webp",
+     "thumb": "img/places/brugge/sanseveria/2-food-800.webp",
+     "srcset": "img/places/brugge/sanseveria/2-food-800.webp 800w, img/places/brugge/sanseveria/2-food-1600.webp 1600w",
+     "w": 805,
+     "h": 800,
+     "category": "food",
+     "alt": "Sanseveria Bagelsalon: food",
+     "credit": "sanseveria.be",
+     "credit_url": "https://www.sanseveria.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "tonka",
@@ -9674,7 +11536,37 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/tonka/1-food-1600.webp",
+     "thumb": "img/places/brugge/tonka/1-food-800.webp",
+     "srcset": "img/places/brugge/tonka/1-food-800.webp 800w, img/places/brugge/tonka/1-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1200,
+     "category": "food",
+     "alt": "Tonka: food",
+     "credit": "tonkatearoom.be",
+     "credit_url": "https://tonkatearoom.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/tonka/2-food-1600.webp",
+     "thumb": "img/places/brugge/tonka/2-food-800.webp",
+     "srcset": "img/places/brugge/tonka/2-food-800.webp 800w, img/places/brugge/tonka/2-food-1600.webp 1600w",
+     "w": 1440,
+     "h": 1440,
+     "category": "food",
+     "alt": "Tonka: food",
+     "credit": "tonkatearoom.be",
+     "credit_url": "https://tonkatearoom.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "maro",
@@ -9767,7 +11659,37 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/maro/1-food-1600.webp",
+     "thumb": "img/places/brugge/maro/1-food-800.webp",
+     "srcset": "img/places/brugge/maro/1-food-800.webp 800w, img/places/brugge/maro/1-food-1600.webp 1600w",
+     "w": 1000,
+     "h": 675,
+     "category": "food",
+     "alt": "Maro: food",
+     "credit": "maro-brugge.be",
+     "credit_url": "https://www.maro-brugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/maro/2-interior-1600.webp",
+     "thumb": "img/places/brugge/maro/2-interior-800.webp",
+     "srcset": "img/places/brugge/maro/2-interior-800.webp 800w, img/places/brugge/maro/2-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Maro: interior",
+     "credit": "maro-brugge.be",
+     "credit_url": "https://www.maro-brugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "willa",
@@ -9856,7 +11778,37 @@
    "group": "breakfast",
    "category": "cafe",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/willa/1-food-1600.webp",
+     "thumb": "img/places/brugge/willa/1-food-800.webp",
+     "srcset": "img/places/brugge/willa/1-food-800.webp 800w, img/places/brugge/willa/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Willa: food",
+     "credit": "@willa.brunch on Instagram",
+     "credit_url": "https://www.instagram.com/willa.brunch/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/willa/2-food-1600.webp",
+     "thumb": "img/places/brugge/willa/2-food-800.webp",
+     "srcset": "img/places/brugge/willa/2-food-800.webp 800w, img/places/brugge/willa/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Willa: food",
+     "credit": "@willa.brunch on Instagram",
+     "credit_url": "https://www.instagram.com/willa.brunch/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "noahs-broodhuys",
@@ -9946,7 +11898,37 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/brugge/noahs-broodhuys/1-food-1600.webp",
+     "thumb": "img/places/brugge/noahs-broodhuys/1-food-800.webp",
+     "srcset": "img/places/brugge/noahs-broodhuys/1-food-800.webp 800w, img/places/brugge/noahs-broodhuys/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Noah's Broodhuys: food",
+     "credit": "@noahsbroodhuys on Instagram",
+     "credit_url": "https://www.instagram.com/noahsbroodhuys/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/noahs-broodhuys/2-food-1600.webp",
+     "thumb": "img/places/brugge/noahs-broodhuys/2-food-800.webp",
+     "srcset": "img/places/brugge/noahs-broodhuys/2-food-800.webp 800w, img/places/brugge/noahs-broodhuys/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Noah's Broodhuys: food",
+     "credit": "@noahsbroodhuys on Instagram",
+     "credit_url": "https://www.instagram.com/noahsbroodhuys/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "cafe-au-lait",
@@ -10037,7 +12019,37 @@
    "notes": null,
    "instagramSource": "own website link, press article or venue listing",
    "origin": "research-2026-10-25",
-   "osm": "node/2101086342"
+   "osm": "node/2101086342",
+   "photos": [
+    {
+     "src": "img/places/brugge/cafe-au-lait/1-food-1600.webp",
+     "thumb": "img/places/brugge/cafe-au-lait/1-food-800.webp",
+     "srcset": "img/places/brugge/cafe-au-lait/1-food-800.webp 800w, img/places/brugge/cafe-au-lait/1-food-1600.webp 1600w",
+     "w": 990,
+     "h": 990,
+     "category": "food",
+     "alt": "Café au Lait: food",
+     "credit": "cafeaulaitbrugge.be",
+     "credit_url": "https://cafeaulaitbrugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cafe-au-lait/2-food-1600.webp",
+     "thumb": "img/places/brugge/cafe-au-lait/2-food-800.webp",
+     "srcset": "img/places/brugge/cafe-au-lait/2-food-800.webp 800w, img/places/brugge/cafe-au-lait/2-food-1600.webp 1600w",
+     "w": 990,
+     "h": 831,
+     "category": "food",
+     "alt": "Café au Lait: food",
+     "credit": "cafeaulaitbrugge.be",
+     "credit_url": "https://cafeaulaitbrugge.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   }
  ],
  "eventDetails": {
