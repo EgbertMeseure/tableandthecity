@@ -108,7 +108,7 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    people / graphic posts are never shown —, people heroes, `hold` = no people-free photo → neutral monogram, `dropPhotos`, `skipResearch`). The research
    hand-off (`/workspace/handoff/place-photos-research/<city>/<id>/sources.json`, each image checked by eye) becomes `data/cities/<city>-photos.json`: own
    Instagram photos as official post embeds (permalink derived from the CDN url, checked once in headless Chrome that the embed shows the same photo) and own
-   website photos hotlinked (≤ 1.6 MB); the researcher's first usable candidate is the card + hero. Checks are cached in `data/osm/photo-research-checks.json`,
+   website photos hotlinked (≤ 1.6 MB; heavier ones, or with a `cropResearch` crop, self-hosted as webp under `img/places/<city>/<id>/`); the researcher's first usable candidate is the card + hero. Checks are cached in `data/osm/photo-research-checks.json`,
    so re-runs only check new candidates. Re-runnable and idempotent. The profile-grid embed is off (`igProfileEmbeds: false` in `js/config.js`): it shows
    whatever was posted last, often people.
 4e. **Veggie / vegan layer** – `python3 scripts/veggie_layer.py gent` after every import; weekly follow `scripts/VEGGIE_CHECK.md`

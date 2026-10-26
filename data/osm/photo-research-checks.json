@@ -943,6 +943,365 @@
    "ok": true,
    "diff": 0,
    "checked": "2026-10-26"
+  },
+  "web:https://joostarijs.be/uploads_c/siteassets/19334/joostarijs_300922_1151_942df3d34cfcae9c3718444795690723.jpg": {
+   "ok": true,
+   "bytes": 128063,
+   "checked": "2026-10-26"
+  },
+  "ig:4008278119471901758": {
+   "code": "DegQ7aAF-w-",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "web:https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092": {
+   "ok": true,
+   "bytes": 77150,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/66d222ae3ba52fd960ad44b8/6878f6b1781deecb3145f327_BakkerKlaas_koffiebar-50%20copy.avif": {
+   "ok": true,
+   "bytes": 521874,
+   "checked": "2026-10-26"
+  },
+  "ig:4009819572011681479": {
+   "code": "DelvafjKkbH",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4015599714990491289": {
+   "code": "De6RqpMKwaZ",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://barbassie.be/og/cover.jpg": {
+   "ok": true,
+   "bytes": 173543,
+   "checked": "2026-10-26"
+  },
+  "ig:4010457452325147843": {
+   "code": "DeoAc34qJTD",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007129858163589384": {
+   "code": "DecL2AUs8EI",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:4003481066532919263": {
+   "code": "DePONGTslff",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4002647651793625159": {
+   "code": "DeMQtUWNeBH",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3999102061365231429": {
+   "code": "Dd_qiL8NP9F",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012099312240872931": {
+   "code": "Det1xFFtM3j",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:391580464371915011417921830923367356": {
+   "code": "S2poUD71riUlM2eePXO8",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:3765028284225181460": {
+   "code": "DRAEUbKilcU",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3975902811679449875": {
+   "code": "DctPoq_oWMT",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://fourthwave.be/wp-content/uploads/2026/09/WhatsApp-Image-2026-08-24-at-17.11.26.jpeg": {
+   "ok": true,
+   "bytes": 114542,
+   "checked": "2026-10-26"
+  },
+  "ig:4011299155656506112": {
+   "code": "Deq_1RMuvsA",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3947488458095078446": {
+   "code": "DbIS9aDtiwu",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4013451956347775232": {
+   "code": "DeypUpFNKkA",
+   "ok": false,
+   "diff": 12,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:3948937681436999591": {
+   "code": "DbNceYeNP-n",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "web:https://freight.cargo.site/w/1500/i/115d2c9364fc120fe60ab6f191f53c109a4a37b743be587cc039637f3043008c/Jiggers_bar.jpg": {
+   "ok": true,
+   "bytes": 555945,
+   "checked": "2026-10-26"
+  },
+  "ig:4009241848839668911": {
+   "code": "DejsDg6uASv",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://freight.cargo.site/w/750/i/e3d996597b3b0d1ff2e54c32ea1c3072c1927ce003bfe4ea229161e91c132822/1999.jpg": {
+   "ok": true,
+   "bytes": 169967,
+   "checked": "2026-10-26"
+  },
+  "ig:4011313083754951170": {
+   "code": "DerC_8wFzIC",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://joostarijs.be/uploads_c/siteassets/50722/joostarijs_300926_0108_11106a2285c0bff5e0dd93337bf803fb.jpg": {
+   "ok": true,
+   "bytes": 199186,
+   "checked": "2026-10-26"
+  },
+  "ig:4012959020130758467": {
+   "code": "Dew5PedF-9D",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4002836796833740123": {
+   "code": "DeM7tvZIzVb",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:398874854302792664718443872819122524": {
+   "code": "TNIMdUovBygVQdSe0JFc",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:4013801130528425102": {
+   "code": "Dez4ty4NUSO",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007822363665331116": {
+   "code": "DeepTSVI3Os",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012949203195238774": {
+   "code": "Dew3AnuI5l2",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.marijncoertjens.be/wp-content/uploads/mc-002-website.jpg": {
+   "ok": true,
+   "bytes": 264558,
+   "checked": "2026-10-26"
+  },
+  "web:https://mokabon.be/cdn/shop/files/20230331_-_PG_-_Mokabon_c_Martin_Corlazzoli_-_COR07405.jpg?v=1747589121&width=1400": {
+   "ok": true,
+   "bytes": 232371,
+   "checked": "2026-10-26"
+  },
+  "web:https://mokabon.be/cdn/shop/files/mkbn-gent-koffie_4b31b536-9574-4271-90f1-09ac9056ff49.jpg?v=1609606135&width=2048": {
+   "ok": true,
+   "bytes": 377567,
+   "checked": "2026-10-26"
+  },
+  "ig:3999678610535713188": {
+   "code": "DeBtoFMtYmk",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://morgen-bakkerij.be/cdn/shop/files/386593463_122100601220067786_8301562322715799969_n_b621dd2b-e1ab-4bf3-91ec-a45fcbbf2322.jpg?v=1697612288": {
+   "ok": true,
+   "bytes": 886773,
+   "checked": "2026-10-26"
+  },
+  "ig:3993869638352270673": {
+   "code": "DdtE0aRNHVR",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/63a026886949fb8dc6ca72cd/63d79699d184c45547b388e4_ONA_kerst22-046-p-1600.webp": {
+   "ok": true,
+   "bytes": 241810,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.orcoffee.be/cdn/shop/files/or-coffee-lab-food_800x.png?v=1761821482": {
+   "ok": true,
+   "bytes": 861611,
+   "checked": "2026-10-26"
+  },
+  "web:https://parole.gent/uploads/images/BB_MARGOT_-_WIJNBAR_PAROLE-232_2000px.jpg": {
+   "ok": true,
+   "bytes": 712432,
+   "checked": "2026-10-26"
+  },
+  "web:https://peaberrycoffeebar.be/wp-content/uploads/2024/12/Afbeelding-van-WhatsApp-op-2024-11-18-om-22.55.35_96b47094.jpg": {
+   "ok": true,
+   "bytes": 121349,
+   "checked": "2026-10-26"
+  },
+  "ig:3975772544845590000": {
+   "code": "DcsyBCjRa3w",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012011983200361120": {
+   "code": "Deth6RlRJqg",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://smorbrod.gent/cdn/shop/files/20220218-Smorbrod_Bakkerij_Gent-0002.jpg?v=1650646420&width=1500": {
+   "ok": true,
+   "bytes": 225294,
+   "checked": "2026-10-26"
+  },
+  "ig:4002709015257992938": {
+   "code": "DeMeqRhtM7q",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4013701821649766558": {
+   "code": "DeziIqRxcie",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://storage.googleapis.com/the-bakery-bucket/transforms/d70828a52542b62fe086150982127630/554/joostarijs_030123_001561_2023-02-07-150434_pcrh_a76f1294e72de31e00418469de993ed2.webp": {
+   "ok": true,
+   "bytes": 396902,
+   "checked": "2026-10-26"
+  },
+  "web:https://storage.googleapis.com/the-bakery-bucket/transforms/d70828a52542b62fe086150982127630/552/joostarijs_030123_000363_2023-02-07-150410_wcee_a76f1294e72de31e00418469de993ed2.webp": {
+   "ok": true,
+   "bytes": 790148,
+   "checked": "2026-10-26"
+  },
+  "ig:4007190942150630375": {
+   "code": "DecZu5ODRvn",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3969319194665208620": {
+   "code": "DcV2sb2KMss",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3965733115102186178": {
+   "code": "DcJHUG_q0rC",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3852554926597651165": {
+   "code": "DV3BktFiLrd",
+   "ok": true,
+   "diff": 1,
+   "checked": "2026-10-26"
+  },
+  "ig:3993999940450916310": {
+   "code": "DdticjjghfW",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://02d2939522.clvaw-cdnwnd.com/e23ac54936a5b530ef399a1d037f31ed/200000141-1fea31fea5/WhatsApp%20Image%202026-10-05%20at%2017.29.01%20%282%29.webp?ph=02d2939522": {
+   "ok": true,
+   "bytes": 337274,
+   "checked": "2026-10-26"
+  },
+  "web:https://vandekerckhove1854.be/media/37/9c/ba/1624875273/voor-gif-homepage-nieuw.gif": {
+   "ok": false,
+   "bytes": 2228600,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/gif 2228600 bytes (needs ≤ 1600000)"
+  },
+  "ig:3872164369467738559": {
+   "code": "DW8sPp6DIm_",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://vinogradoff.gent/cdn/shop/files/IMG_8978_1296x.JPG?v=1615924984": {
+   "ok": true,
+   "bytes": 273216,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.way.gent/cdn/shop/t/51/assets/w2-btray_800x.jpg?v=65544521794068427131790850920": {
+   "ok": true,
+   "bytes": 352772,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.way.gent/cdn/shop/t/51/assets/w2-bseed_800x.jpg?v=96030995712228758361790850918": {
+   "ok": true,
+   "bytes": 303546,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.way.gent/cdn/shop/t/51/assets/w2-jbread_800x.jpg?v=93441808552123409351790850918": {
+   "ok": true,
+   "bytes": 129640,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.way.gent/cdn/shop/t/51/assets/w2-hb1_800x.jpg?v=133943921991623739031790850920": {
+   "ok": true,
+   "bytes": 242155,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.way.gent/cdn/shop/t/51/assets/w2-t3_800x.jpg?v=125710593312250646051790850918": {
+   "ok": true,
+   "bytes": 111092,
+   "checked": "2026-10-26"
+  },
+  "ig:3979376387553340286": {
+   "code": "Dc5lb2nsat-",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
   }
  }
 }

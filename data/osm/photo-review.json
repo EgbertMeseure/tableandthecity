@@ -1,5 +1,5 @@
 {
- "about": "Manual photo review: every photo a place shows must be food, drinks or the interior, never people (chef, staff, guests, portraits, hands). Applied by scripts/apply_photo_review.py <city> (see its docstring). posts: Instagram post shortcode → category (people / graphic are never shown). heroReject: own-site og:images with people. hold: places where only photos with people were found → neutral placeholder, nothing shown. dropPhotos: {id: {src substring: why}} own / free-licence photos with people, removed from the place record. skipResearch: research candidates not to use. Reviewed 26 Oct 2026 (contact sheets + face detection; research hand-off /workspace/handoff/place-photos-research).",
+ "about": "Manual photo review: every photo a place shows must be food, drinks or the interior, never people (chef, staff, guests, portraits, hands). Applied by scripts/apply_photo_review.py <city> (see its docstring). posts: Instagram post shortcode → category (people / graphic are never shown). heroReject: own-site og:images with people. hold: places where only photos with people were found → neutral placeholder, nothing shown. dropPhotos: {id: {src substring: why}} own / free-licence photos with people, removed from the place record. cropResearch: {id/file-stem: [l,t,r,b] fractions} crop for a website research photo (self-hosted). skipResearch: research candidates not to use. Reviewed 26 Oct 2026 (contact sheets + face detection; research hand-off /workspace/handoff/place-photos-research). Holds and people heroes / posts listed in the research STATUS.md (Needs placeholder, Current photo shows people) are applied too; this file wins.",
  "cities": {
   "gent": {
    "posts": {
@@ -326,7 +326,16 @@
     "oak": "website photos only 1024 px wide (low resolution)",
     "steendam-66/3-food": "low resolution (640 px)",
     "le-chouchou/3-food": "low resolution",
-    "yusu/3-food": "subject small, needs a crop; possibly the stock-like web image the research flagged"
+    "yusu/3-food": "subject small, needs a crop; possibly the stock-like web image the research flagged",
+    "patrick-foleys": "newspaper liner under the food may show printed figures",
+    "way-dok-noord/1-drink": "cup with a hand-drawn face",
+    "vandekerckhove-bar/1-drink": "low resolution (640 px)",
+    "take-five-voldersstraat": "1 is a logo card, 2 has caption text and an unclear shape",
+    "roar-gent": "cartoon mascot printed on the coffee bags",
+    "julies-house": "1 has caption text and a toile plate (printed figures possible), 2 only 512 px",
+    "the-kitchen-1898-the-post": "shows a hotel room, not the restaurant",
+    "bar-dada/3-interior": "bottle label with painted lips",
+    "ona-belfort": "same website photo as Ona Nederkouter (one shared site); not reused"
    },
    "dropPhotos": {
     "sakas": {
@@ -335,6 +344,14 @@
     "tribune": {
      "img/commons/wintercircus-": "Wintercircus hall photos (Wikimedia Commons) with visitors in view"
     }
+   },
+   "cropResearch": {
+    "bar-bassie/1-interior": [
+     0.1475,
+     0,
+     0.8525,
+     1
+    ]
    }
   },
   "antwerpen": {
@@ -346,7 +363,8 @@
    },
    "hold": {},
    "skipResearch": {},
-   "dropPhotos": {}
+   "dropPhotos": {},
+   "cropResearch": {}
   }
  }
 }

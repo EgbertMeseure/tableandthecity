@@ -21,8 +21,9 @@ never people (chef, staff, guests, portraits, hands).
    - instagram: the post permalink is derived from the CDN url's ig_cache_key (media id → shortcode) and shown with Instagram's
      official embed. Checked once (headless Chrome): the embed must render the very same photo as the researcher's file
      (average-hash, ≤ 8/144 bits) — cached in data/osm/photo-research-checks.json. --no-verify: unchecked ones are left out.
-   - website: hotlinked from the place's own site (never rehosted) when it loads as an image of ≤ 1.6 MB (else left out:
-     too heavy to hotlink).
+   - website: hotlinked from the place's own site when it loads as an image of ≤ 1.6 MB. Too heavy to hotlink, or a crop is set in
+     photo-review.json cropResearch {"id/file-stem": [left, top, right, bottom] as fractions}: the researcher's copy (max 1600 px) is
+     self-hosted as webp under img/places/<city>/<id>/<stem>-1600.webp + -800.webp, still credited to the place's website.
 Run after apply_media.py, build_instagram_layer.py and fetch_hero_images.py (they rewrite those files). Idempotent.
 """
 import base64, io, json, re, sys, urllib.parse
@@ -78,6 +79,27 @@ def media_id(cdn_url):
 REV = json.loads((ROOT / 'data' / 'osm' / 'photo-review.json').read_text())['cities'].get(CITY, {})
 POSTS, HREJ, HOLD, SKIP = REV.get('posts', {}), REV.get('heroReject', {}), REV.get('hold', {}), REV.get('skipResearch', {})
 DROP = REV.get('dropPhotos', {})
+CROP = REV.get('cropResearch', {})
+def status_tables():
+    """the research STATUS.md: 'Needs placeholder' → holds, 'Current photo shows people' → hero rejects / people posts (photo-review.json wins)"""
+    f = RESEARCH / 'STATUS.md'
+    if not f.exists(): return
+    sec = None
+    for line in f.read_text().splitlines():
+        if line.startswith('## '): sec = line[3:].strip().lower(); continue
+        cells = [c.strip() for c in line.strip().strip('|').split('|')]
+        if len(cells) < 3 or cells[0] != CITY: continue
+        rid = cells[1].strip('`')
+        if sec == 'needs placeholder': HOLD.setdefault(rid, f'no people-free photo found (research): {cells[3] if len(cells) > 3 else ""}')
+        elif sec == 'current photo shows people' and len(cells) >= 5:
+            what = cells[4]; src = cells[3]
+            if src.startswith('hero:'): HREJ.setdefault(rid, f'people visible ({what}), flagged by the photo research')
+            elif src.startswith('igpost:'):
+                mid = media_id(src[7:].strip())
+                if mid: POSTS.setdefault(shortcode(mid), 'people')
+
+
+status_tables()
 n = {'posts recategorised': 0, 'heroes rejected': 0, 'iglayer heroes rejected': 0}
 
 
@@ -187,6 +209,20 @@ def check_website(c):
     ck = CHK['checks'][key]; return ck['ok'], ck.get('why', '')
 
 
+def selfhost(rid, stem, local, crop=None):
+    from PIL import Image
+    im = Image.open(local); im = im.convert('RGBA' if im.mode in ('RGBA', 'LA', 'P') and 'transparency' in im.info or im.mode == 'RGBA' else 'RGB')
+    if im.mode == 'RGBA': bg = Image.new('RGB', im.size, 'white'); bg.paste(im, mask=im.split()[3]); im = bg
+    if crop: W, H = im.size; im = im.crop((round(crop[0] * W), round(crop[1] * H), round(crop[2] * W), round(crop[3] * H)))
+    d = ROOT / 'img' / 'places' / CITY / rid; out = {}
+    for px, key in ((1600, 'src'), (800, 'thumb')):
+        c = im.copy(); c.thumbnail((px, px), Image.LANCZOS); f = d / f'{stem}-{px}.webp'
+        if not DRY: d.mkdir(parents=True, exist_ok=True); c.save(f, 'WEBP', quality=80, method=6)
+        out[key] = str(f.relative_to(ROOT))
+        if px == 1600: out['w'], out['h'] = c.size
+    return out
+
+
 host = lambda u: urllib.parse.urlparse(u).hostname.replace('www.', '') if u else ''
 out = {'about': 'Photos per place from the photo research (own Instagram via the official post embed, own website hotlinked; every photo checked: '
                  'food / drinks / interior, no people) and holds (no people-free photo: nothing shown). Built by scripts/apply_photo_review.py; '
@@ -212,10 +248,15 @@ for sf in sorted(cdir.glob('*/sources.json')) if cdir.exists() else []:
             posts.append({'url': url, 'category': c['subject'], 'origin': 'research'}); pick = pick or {'type': 'post', 'url': url}; report['instagram'] += 1
         elif c.get('source_type') == 'website':
             ok, why = check_website(c)
-            if not ok: report['left out'].append(f'{rid}/{stem}: {why}'); continue
-            photos.append({'src': c['source_url'], 'thumb': c['source_url'], 'w': c.get('width'), 'h': c.get('height'), 'category': c['subject'], 'hotlink': True,
-                           'source': 'website', 'credit': host(c.get('page_url') or c['source_url']), 'credit_url': c.get('page_url') or c['source_url'], 'alt': ''})
-            pick = pick or {'type': 'photo', 'src': c['source_url']}; report['website'] += 1
+            crop = CROP.get(f'{rid}/{stem}'); local = sf.parent / c['file']
+            heavy = not ok and why.startswith('HTTP 200 image/')
+            base = {'category': c['subject'], 'source': 'website', 'credit': host(c.get('page_url') or c['source_url']), 'credit_url': c.get('page_url') or c['source_url'], 'alt': ''}
+            if (heavy or crop) and local.exists():
+                ph = {**selfhost(rid, stem, local, crop), **base, 'source_url': c['source_url']}; report['self-hosted'] = report.get('self-hosted', 0) + 1
+            elif not ok: report['left out'].append(f'{rid}/{stem}: {why}'); continue
+            else:
+                ph = {'src': c['source_url'], 'thumb': c['source_url'], 'w': c.get('width'), 'h': c.get('height'), 'hotlink': True, **base}
+            photos.append(ph); pick = pick or {'type': 'photo', 'src': ph['src']}; report['website'] += 1
     if pick:
         out['places'][rid] = {k: v for k, v in (('photos', photos), ('posts', posts), ('pick', pick)) if v}; report['places'] += 1
 for rid, why in HOLD.items():
@@ -225,5 +266,5 @@ if _pw: _pw['p'].stop()
 save(D / f'{CITY}-photos.json', out)
 if not DRY: CHK_F.write_text(json.dumps(CHK, ensure_ascii=False, indent=1) + '\n')
 print(CITY, 'photo review applied:', n)
-print(CITY, f"research: {report['places']} places, {report['instagram']} Instagram posts, {report['website']} website photos; holds: {sum(1 for r in HOLD if r in ids)}")
+print(CITY, f"research: {report['places']} places, {report['instagram']} Instagram posts, {report['website']} website photos ({report.get('self-hosted', 0)} self-hosted); holds: {sum(1 for r in HOLD if r in ids)}")
 for x in report['left out']: print('  left out:', x)

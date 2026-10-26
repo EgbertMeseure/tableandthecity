@@ -17,21 +17,45 @@
   "ciro-s": {
    "photos": [
     {
+     "src": "img/places/antwerpen/ciro-s/1-interior-1600.webp",
+     "w": 1536,
+     "h": 1037,
+     "thumb": "img/places/antwerpen/ciro-s/1-interior-800.webp",
+     "category": "interior",
+     "source": "website",
+     "credit": "ciros.be",
+     "credit_url": "https://ciros.be/",
+     "alt": "",
+     "source_url": "https://ciros.be/wp-content/uploads/2023/10/home_6-1536x1037.png"
+    },
+    {
      "src": "https://ciros.be/wp-content/uploads/2023/10/home_img_1-1536x1002.png",
      "thumb": "https://ciros.be/wp-content/uploads/2023/10/home_img_1-1536x1002.png",
      "w": 1536,
      "h": 1002,
-     "category": "food",
      "hotlink": true,
+     "category": "food",
      "source": "website",
      "credit": "ciros.be",
      "credit_url": "https://ciros.be/",
      "alt": ""
+    },
+    {
+     "src": "img/places/antwerpen/ciro-s/3-drink-1600.webp",
+     "w": 1490,
+     "h": 1427,
+     "thumb": "img/places/antwerpen/ciro-s/3-drink-800.webp",
+     "category": "drink",
+     "source": "website",
+     "credit": "ciros.be",
+     "credit_url": "https://ciros.be/",
+     "alt": "",
+     "source_url": "https://ciros.be/wp-content/uploads/2023/10/home_5.png"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "https://ciros.be/wp-content/uploads/2023/10/home_img_1-1536x1002.png"
+    "src": "img/places/antwerpen/ciro-s/1-interior-1600.webp"
    }
   },
   "the-jane": {
