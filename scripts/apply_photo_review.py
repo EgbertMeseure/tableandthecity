@@ -234,7 +234,7 @@ for sf in sorted(cdir.glob('*/sources.json')) if cdir.exists() else []:
     if rid not in ids or rid in HOLD or rid in SKIP: continue
     try: cands = json.loads(sf.read_text())
     except Exception: report['left out'].append(f'{rid}: unreadable sources.json'); continue
-    photos, posts, pick = [], [], None
+    photos, posts, pick, fallback = [], [], None, None
     for c in cands:
         stem = str(c.get('file', '')).rsplit('.', 1)[0]
         if f'{rid}/{stem}' in SKIP: report['left out'].append(f'{rid}/{stem}: {SKIP[f"{rid}/{stem}"]}'); continue
@@ -245,7 +245,12 @@ for sf in sorted(cdir.glob('*/sources.json')) if cdir.exists() else []:
             url, why = check_instagram(c, local)
             if not url: report['left out'].append(f'{rid}/{stem}: {why}'); continue
             if any(p['url'] == url for p in posts): continue
-            posts.append({'url': url, 'category': c['subject'], 'origin': 'research'}); pick = pick or {'type': 'post', 'url': url}; report['instagram'] += 1
+            posts.append({'url': url, 'category': c['subject'], 'origin': 'research'}); report['instagram'] += 1
+            # a landscape post leaves white bands in the oval embed: only lead with it when nothing else is usable
+            try: wide = float(c.get('width') or 0) > 1.05 * float(c.get('height') or 1e9)
+            except ValueError: wide = False
+            if wide: fallback = fallback or {'type': 'post', 'url': url}
+            else: pick = pick or {'type': 'post', 'url': url}
         elif c.get('source_type') == 'website':
             ok, why = check_website(c)
             crop = CROP.get(f'{rid}/{stem}'); local = sf.parent / c['file']
@@ -257,6 +262,7 @@ for sf in sorted(cdir.glob('*/sources.json')) if cdir.exists() else []:
             else:
                 ph = {'src': c['source_url'], 'thumb': c['source_url'], 'w': c.get('width'), 'h': c.get('height'), 'hotlink': True, **base}
             photos.append(ph); pick = pick or {'type': 'photo', 'src': ph['src']}; report['website'] += 1
+    pick = pick or fallback
     if pick:
         out['places'][rid] = {k: v for k, v in (('photos', photos), ('posts', posts), ('pick', pick)) if v}; report['places'] += 1
 for rid, why in HOLD.items():

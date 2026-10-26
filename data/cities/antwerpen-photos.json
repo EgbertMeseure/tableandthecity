@@ -42,8 +42,8 @@
     }
    ],
    "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DeW-gomMgLA/"
+    "type": "photo",
+    "src": "https://andorantwerp.com/wp-content/uploads/2024/10/Andor_1-1536x921.webp"
    }
   },
   "andy-roasters": {
@@ -823,8 +823,8 @@
     }
    ],
    "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DeeVb7HDNl-/"
+    "type": "photo",
+    "src": "https://www.restaurantdecan.be/wp-content/uploads/2024/03/Decan_15FEB2024_72-3-scaled.jpg"
    }
   },
   "den-bengel": {
@@ -2183,6 +2183,18 @@
   "salt-mint": {
    "photos": [
     {
+     "src": "https://saltandmint.be/wp-content/uploads/2020/11/118195552_2652557265013325_6522145818826832752_o-e1605175973397.jpg",
+     "thumb": "https://saltandmint.be/wp-content/uploads/2020/11/118195552_2652557265013325_6522145818826832752_o-e1605175973397.jpg",
+     "w": 1133,
+     "h": 992,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "saltandmint.be",
+     "credit_url": "https://saltandmint.be/",
+     "alt": ""
+    },
+    {
      "src": "https://saltandmint.be/wp-content/uploads/2019/07/salt-and-mint-lunch.jpg",
      "thumb": "https://saltandmint.be/wp-content/uploads/2019/07/salt-and-mint-lunch.jpg",
      "w": 1440,
@@ -2209,7 +2221,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "https://saltandmint.be/wp-content/uploads/2019/07/salt-and-mint-lunch.jpg"
+    "src": "https://saltandmint.be/wp-content/uploads/2020/11/118195552_2652557265013325_6522145818826832752_o-e1605175973397.jpg"
    }
   },
   "sanctus": {
