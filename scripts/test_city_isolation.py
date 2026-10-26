@@ -29,9 +29,24 @@ NAMES = {c['id']: [n for n in {c['name'], c.get('nameEn'), c.get('nameNl'), c.ge
 res = {}
 def ok(k, v, info=''):
     res[k] = bool(v); print(('PASS ' if v else 'FAIL ') + k, str(info)[:300])
+def names_of(c):
+    out = set()
+    for k in ('data', 'osm', 'upcoming'):
+        if not c.get(k) or not (ROOT / c[k]).exists(): continue
+        d = json.loads((ROOT / c[k]).read_text())
+        out |= {r['name'] for r in d.get('restaurants', []) + d.get('places', []) + d.get('upcoming', []) if r.get('name')}
+    return out
+RX_CITY = {}
 def others_re(cid):
     ns = [n for c in CITIES if c['id'] != cid for n in NAMES[c['id']]]
-    return re.compile(r'\b(' + '|'.join(map(re.escape, ns)) + r')\b', re.I)
+    rx = re.compile(r'\b(' + '|'.join(map(re.escape, ns)) + r')\b', re.I); RX_CITY[rx.pattern] = cid
+    return rx
+# A place of THIS city whose own business name contains another city's name (e.g. Antwerp's "Aan het strand van Oostende",
+# Dageraadplaats 19) is not a reference to that city: its exact name is masked before matching. Nothing else is exempt.
+PROPER = {}
+for _c in CITIES:
+    _rx = others_re(_c['id']); PROPER[_c['id']] = sorted((n for n in names_of(_c) if _rx.search(n)), key=len, reverse=True)
+    if PROPER[_c['id']]: print(f"note {_c['id']}: own place names containing another city's name (masked): {PROPER[_c['id']]}")
 VISIBLE = """() => { const kill = [...document.querySelectorAll('.citysel')]; const t = [];
   const w = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   while (w.nextNode()) { const n = w.currentNode, el = n.parentElement; if (!el || kill.some(k => k.contains(el))) continue;
@@ -40,6 +55,7 @@ VISIBLE = """() => { const kill = [...document.querySelectorAll('.citysel')]; co
   const m = s => (document.querySelector(s) || {}).content || '';
   return { text: t.join(' | '), head: [document.title, m('meta[name="description"]'), m('meta[property="og:title"]'), m('meta[property="og:description"]'), m('meta[property="og:url"]')].join(' | ') }; }"""
 def leak(rx, s):
+    for n in PROPER.get(RX_CITY.get(rx.pattern), []): s = s.replace(n, '\u2026')
     return sorted({m.group(0) for m in rx.finditer(s)}), [s[max(0, m.start() - 60):m.end() + 60] for m in list(rx.finditer(s))[:3]]
 with sync_playwright() as p:
     br = p.chromium.launch(executable_path='/usr/bin/google-chrome')
