@@ -25,6 +25,7 @@ const COUNTRIES = CFG.countries.map(co => {
 });
 const ACTIVE = COUNTRIES.filter(c => c.active && c.act.length);
 const cityById = id => { for (const co of COUNTRIES) { const c = co.cities.find(x => x.id === id); if (c) return [co, c]; } return [null, null]; };
+const focus = c => c.images && c.images.heroFocus ? ` style="object-position:${esc(c.images.heroFocus)}"` : '';   // cities.json images.heroFocus (e.g. Ostend '12% 50%') keeps the subject in narrow crops
 const heroSet = (b, sizes = '100vw') => `src="${esc(b)}-1600.jpg" srcset="${esc(b)}-1000.webp 1000w, ${esc(b)}-1600.webp 1600w, ${esc(b)}-2400.webp 2400w" sizes="${sizes}"`;
 
 /* ---------- static UI: destinations list, cards, resume ---------- */
@@ -36,7 +37,7 @@ $('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.acti
 function renderCards(co) {
   $('#wl-panel-title').textContent = co.name;
   $('#wl-cards').innerHTML = co.act.map(c => `<li><a class="wl-card" href="#${esc(co.id)}/${esc(c.id)}" data-city="${esc(c.id)}">
-    ${c.images && c.images.hero ? `<img ${heroSet(c.images.hero, '(max-width:760px) 100vw, 470px')} alt="" loading="lazy" decoding="async">` : ''}
+    ${c.images && c.images.hero ? `<img ${heroSet(c.images.hero, '(max-width:760px) 100vw, 470px')}${focus(c)} alt="" loading="lazy" decoding="async">` : ''}
     <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span>${c.land.tagline ? `<span class="wl-card__tag">${esc(c.land.tagline)}</span>` : ''}</span>
     <span class="wl-card__go" aria-hidden="true">→</span></a></li>`).join('');
 }
@@ -283,7 +284,7 @@ async function openShow(co, c) {
   show.innerHTML = `
     <div class="ws-bar"><a class="logo" href="world.html"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="170" height="36"></a>
       <button class="ws-close" type="button" data-close><svg viewBox="0 0 46 12" aria-hidden="true"><path d="M46 6H1M6 1 1 6l5 5"/></svg>${esc(co.name)}</button></div>
-    <section class="ws-hero">${hero ? `<img ${heroSet(hero)} alt="${esc(L.heroCaption || c.name)}" fetchpriority="high">` : ''}
+    <section class="ws-hero">${hero ? `<img ${heroSet(hero)}${focus(c)} alt="${esc(L.heroCaption || c.name)}" fetchpriority="high">` : ''}
       <div class="ws-hero__txt"><p class="wl-eyebrow">${esc(co.name)}</p><h2 id="wl-show-title">${esc(c.name)}</h2>
         ${L.tagline ? `<p class="ws-tag">${esc(L.tagline)}</p>` : ''}<p class="ws-cap" id="ws-hero-cap">${esc(L.heroCaption || '')}</p>
         <div class="ws-btns"><a class="ws-go" href="${guideUrl(co.id, c.id)}">Find my table in ${esc(c.name)} <span aria-hidden="true">→</span></a>

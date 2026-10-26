@@ -121,6 +121,10 @@ body.is-country .wl-cards li:nth-child(6) .wl-card{transition-delay:.3s}
 .wl-dest li span em{font-family:var(--sans);font-style:normal;font-size:var(--fs-xs);letter-spacing:.14em;text-transform:uppercase}
 .wl-dest__close{position:absolute;right:20px;top:20px;height:32px;padding:0 14px;border-radius:var(--pill);border:1px solid rgba(244,239,228,.4);background:none;color:var(--cream);cursor:pointer;font-size:var(--fs-xs);letter-spacing:var(--track-ui);text-transform:uppercase}
 html.no-webgl .wl-dest__close{display:none}
+.wl-dest__logo{display:none}
+html.no-webgl .wl-dest__logo{display:block;width:max-content;margin:0 0 26px}
+html.no-webgl .wl-dest__logo .logo__img{display:block;height:42px;width:auto}
+html.no-webgl .wl-credit{z-index:45}
 html.no-webgl .wl-dest{background:radial-gradient(90% 70% at 70% 40%,#0d1a1f,#040506 70%)}
 .wl-dest__note{margin:26px 0 0;font-size:12px;color:var(--cream-2)}
 

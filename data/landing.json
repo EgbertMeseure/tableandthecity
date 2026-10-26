@@ -37,6 +37,17 @@
      "source": "https://commons.wikimedia.org/wiki/File:1007_Graslei,_Clock_tower_of_the_Post_Office,_Church_of_Saint-Nicolas_in_Ghent_and_Belfry_of_Ghent_Photo_by_Giles_Laurent.jpg"
     },
     {
+     "src": "img/cities/gent/landing/hl-graslei",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The guild houses of the Graslei mirrored in the Leie in the evening light.",
+     "credit": "Michiel Hendryckx / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Graslei_gent_avondlicht.jpg"
+    },
+    {
      "src": "img/cities/gent/landing/hl-groot-vleeshuis",
      "sizes": [
       900,
@@ -231,18 +242,18 @@
   },
   "oostende": {
    "tagline": "Salt air, wide beaches and the freshest catch on the Belgian coast.",
-   "heroCaption": "The seafront of the Queen of the Belgian Coast.",
+   "heroCaption": "The Mercator, the three-masted training ship, moored in the marina at night.",
    "images": [
     {
-     "src": "img/cities/oostende/landing/hl-mercator",
+     "src": "img/cities/oostende/landing/hl-fort-napoleon",
      "sizes": [
       900,
       1600
      ],
      "ratio": 1.5,
-     "caption": "The Mercator, a three-master at rest in the marina.",
-     "credit": "FaceMePLS from The Hague, The Netherlands / Wikimedia Commons, CC BY 2.0",
-     "source": "https://commons.wikimedia.org/wiki/File:Mercator_Oostende_(7361639346).jpg"
+     "caption": "Fort Napoleon, Bonaparte's brick pentagon in the dunes.",
+     "credit": "Marc Ryckaert (MJJR) / Wikimedia Commons, CC BY 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Fort_Napoleon_R02.jpg"
     },
     {
      "src": "img/cities/oostende/landing/hl-petrus-pauluskerk",

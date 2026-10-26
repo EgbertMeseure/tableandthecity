@@ -672,6 +672,16 @@
   "used_for": "gent landing showcase (world.html)"
  },
  {
+  "file": "img/cities/gent/landing/hl-graslei-{900,1600}.webp",
+  "title": "Graslei gent avondlicht.jpg",
+  "photographer": "Michiel Hendryckx",
+  "source": "https://commons.wikimedia.org/wiki/File:Graslei_gent_avondlicht.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "changes": "cropped to 3:2, resized, converted to WebP",
+  "used_for": "gent landing showcase (world.html)"
+ },
+ {
   "file": "img/cities/brussel/landing/hl-galeries-saint-hubert-{900,1600}.webp",
   "title": "Galeries Royales Saint-Hubert Bruxelles 01.jpg",
   "photographer": "Scoutty007",
@@ -732,12 +742,12 @@
   "used_for": "brussel landing showcase (world.html)"
  },
  {
-  "file": "img/cities/oostende/landing/hl-mercator-{900,1600}.webp",
-  "title": "Mercator Oostende (7361639346).jpg",
-  "photographer": "FaceMePLS from The Hague, The Netherlands",
-  "source": "https://commons.wikimedia.org/wiki/File:Mercator_Oostende_(7361639346).jpg",
-  "license": "CC BY 2.0",
-  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "file": "img/cities/oostende/landing/hl-fort-napoleon-{900,1600}.webp",
+  "title": "Fort Napoleon R02.jpg",
+  "photographer": "Marc Ryckaert (MJJR)",
+  "source": "https://commons.wikimedia.org/wiki/File:Fort_Napoleon_R02.jpg",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
   "changes": "cropped to 3:2, resized, converted to WebP",
   "used_for": "oostende landing showcase (world.html)"
  },
