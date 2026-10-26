@@ -1229,6 +1229,48 @@
    "address": "Zwartzustersstraat, Antwerpen",
    "closed": "yes",
    "source": "Google Places businessStatus CLOSED_PERMANENTLY ('Delicia Caribeña', 12 m, name similarity 1.0; Table and the City ratings run, 2026-10-25)"
+  },
+  "node/4395300769": {
+   "name": "Myst",
+   "address": "Vlaanderenstraat 49, 9000 Gent",
+   "closed": "2026",
+   "source": "/workspace/handoff/place-photos-research/gent-nosource-STATUS.json (26 Oct 2026): not a food place: MYST is a private tattoo studio (studiomyst.com)"
+  },
+  "node/1837379195": {
+   "name": "Volta",
+   "address": "Nieuwewandeling, Gent",
+   "closed": "2026",
+   "source": "/workspace/handoff/place-photos-research/gent-nosource-STATUS.json (26 Oct 2026): now an event venue (voltagent.be), restaurant only as a Gentse Feesten pop-up"
+  },
+  "node/13771013521": {
+   "name": "Top Fast Food",
+   "address": "Merelstraat 2, Gent",
+   "closed": "2026",
+   "source": "/workspace/handoff/place-photos-research/gent-nosource-STATUS.json (26 Oct 2026): address now Y&K Burger (different business)"
+  },
+  "node/10081473802": {
+   "name": "Ichi Bao",
+   "address": "Stalhof 19, 9000 Gent",
+   "closed": "2026",
+   "source": "/workspace/handoff/place-photos-research/gent-nosource-STATUS.json (26 Oct 2026): own Instagram @ichi.bao: \"Ichi will be closing on Friday 21/8\""
+  },
+  "node/9230408432": {
+   "name": "Halab Al-Shahbae",
+   "address": "Belfortstraat 28, Gent",
+   "closed": "2026",
+   "source": "/workspace/handoff/place-photos-research/gent-nosource-STATUS.json (26 Oct 2026): own Instagram @halab_al_shahbae: closed for a long time, team opens Gedo's Kitchen"
+  },
+  "node/3394491371": {
+   "name": "Nam Jai",
+   "address": "Kraanlei 81, 9000 Gent",
+   "closed": "2026",
+   "source": "/workspace/handoff/place-photos-research/gent-nosource-STATUS.json (26 Oct 2026): Uber Eats listing closed since 3 Feb 2026; Kraanlei 81 is now Nua Thai (nua.gent)"
+  },
+  "node/5224409115": {
+   "name": "Mister Barish",
+   "address": "Oudaan 4, 2000 Antwerpen",
+   "closed": "2026",
+   "source": "misterbarish.be: \"de Experience store Antwerpen is gesloten\" (checked 26 Oct 2026)"
   }
  }
 }

@@ -49,13 +49,15 @@
    "postalCode": "9040",
    "lat": 51.0602466,
    "lng": 3.7479681,
-   "source": "https://openwok.be/ (Schoolstraat 6, 9040 Sint-Amandsberg; geocoded with Nominatim)"
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)",
+   "website": "https://openwok.be/"
   },
   "node/11352130038": {
    "status": "temporarily closed",
    "statusUntil": "2026-10-21",
    "statusNote": "Closed for holidays from Monday 19 to Wednesday 21 October 2026; open again from Thursday 22 October.",
-   "source": "https://gent.tokyosushi.be/nl/Contact"
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)",
+   "website": "https://www.tokyosushi.be/"
   },
   "node/11640842891": {
    "opened": "2026-10-02",
@@ -145,6 +147,333 @@
    "website": null,
    "websiteNote": "hatisontbijthuis.be now redirects to an unrelated spam site (checked 26 Oct 2026); link removed",
    "source": "/workspace/handoff/place-photos-research/STATUS.md (26 Oct 2026)"
+  },
+  "node/1472907400": {
+   "website": "https://restaurantathene.be/nl",
+   "instagram_handle": "restaurant.athene.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/4718292171": {
+   "website": "https://babu.be/home-page-gent/",
+   "instagram_handle": "babu_bunners",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12702756861": {
+   "website": "https://basic-italian.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12451304999": {
+   "website": "https://lunchbarbite.be/",
+   "instagram_handle": "bite.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12583044844": {
+   "instagram_handle": "boekjes_en_koekjes",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1186945845": {
+   "website": "https://restaurantborluut.be/",
+   "instagram_handle": "brasserieborluut",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1186342712": {
+   "website": "https://dejacob.metro.rest/?lang=nl",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/968042315": {
+   "website": "https://resto-passion.be/",
+   "instagram_handle": "resto.passion",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/626909787": {
+   "website": "https://brasseriewondelgem.be/",
+   "instagram_handle": "brasserie_wondelgem",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/7158635685": {
+   "website": "https://carlosquinto.be/",
+   "instagram_handle": "carlos_quinto_gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5610774621": {
+   "website": "https://clouds9000.com/",
+   "instagram_handle": "clouds9000",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12387000495": {
+   "website": "https://coconne.gent/",
+   "instagram_handle": "coconne.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12339659043": {
+   "instagram_handle": "content.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12702545500": {
+   "website": "https://cozette.gent/",
+   "instagram_handle": "cozette.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/10840172980": {
+   "website": "https://damariodrongen.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/13788134806": {
+   "instagram_handle": "de.honger.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/14065917962": {
+   "instagram_handle": "eetbar_dekokmadam",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1532794995": {
+   "website": "https://dekuipvangent.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/996842002": {
+   "website": "https://www.delachendemonnik.be/",
+   "instagram_handle": "delachendemonnik",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6825290292": {
+   "website": "https://restaurantdesneppe.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/501058824": {
+   "website": "https://www.denhoekaf.com/",
+   "instagram_handle": "denhoekaf",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/9801304840": {
+   "instagram_handle": "dokkoonthai",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5734799246": {
+   "website": "https://www.domestica.be/",
+   "instagram_handle": "restaurantdomestica",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/3511035004": {
+   "website": "https://torekevzw.be/",
+   "instagram_handle": "eetcafetoreke",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/13533812685": {
+   "instagram_handle": "fattoush.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/9219743937": {
+   "website": "https://gigi6161.be/",
+   "instagram_handle": "gigi__6161",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/9458004317": {
+   "website": "https://gohan.be/",
+   "instagram_handle": "gohan.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/13231393683": {
+   "instagram_handle": "grangustogent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/9230408432": {
+   "website": "https://www.halabal-shahbae.be/",
+   "instagram_handle": "halab_al_shahbae",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12757168866": {
+   "website": "https://hetmooieweer.be/",
+   "instagram_handle": "hetmooieweer.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/10081473802": {
+   "website": "https://www.ichibao.be/",
+   "instagram_handle": "ichi.bao",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/725921195": {
+   "website": "https://indenkarpel.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/2084451567": {
+   "instagram_handle": "kaskcafe",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/8393159527": {
+   "website": "https://kleindok.be/",
+   "instagram_handle": "kleindok.be",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12855207857": {
+   "website": "https://koffiets.store/",
+   "instagram_handle": "koffietsgent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6828974432": {
+   "website": "https://www.komparto.be/",
+   "instagram_handle": "komparto",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1628067350": {
+   "website": "https://www.lacaverestaurant.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/329892437": {
+   "website": "https://restoladolcevita.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/2305188573": {
+   "website": "https://lafleurrougebrasserie.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/7158634387": {
+   "instagram_handle": "lebalinfernal",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1628067364": {
+   "website": "https://lepiranha.weebly.com/",
+   "instagram_handle": "piranha_gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/11352130048": {
+   "website": "https://restaurantlittleasia.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12823556595": {
+   "instagram_handle": "little_happiness_gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/13040061417": {
+   "instagram_handle": "lujain_resto",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5918300538": {
+   "website": "https://luvloeuf.com/",
+   "instagram_handle": "luvloeuf",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5247954582": {
+   "website": "https://madonna.gent/",
+   "instagram_handle": "madonna_gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6942598586": {
+   "website": "https://mazaya.be/",
+   "instagram_handle": "mazaya.be",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12809311483": {
+   "instagram_handle": "meadow.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12702505074": {
+   "instagram_handle": "m.eatdistrict",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5289336221": {
+   "instagram_handle": "migarba.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/11697848804": {
+   "website": "https://www.mimosa.gent/",
+   "instagram_handle": "mimosa.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6828974429": {
+   "instagram_handle": "missyugent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6853683393": {
+   "website": "https://muday.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/425380898": {
+   "website": "https://www.hotel-restaurant-nenuphar.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/14064650165": {
+   "instagram_handle": "nono_gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5524955122": {
+   "website": "https://pantheon.gent/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/9854058974": {
+   "website": "https://depastinaak.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5135071694": {
+   "instagram_handle": "patrongent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/7158632586": {
+   "website": "https://www.perbacco.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/685047789": {
+   "website": "https://romanoffs-be.jimdoweb.com/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/2275104998": {
+   "website": "https://soleditalia-gent.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1212142182": {
+   "website": "https://www.souplounge.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1212135543": {
+   "website": "https://sugar-spice.eatbu.com/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6796872888": {
+   "website": "https://fondueloft.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6920767887": {
+   "website": "https://www.tacosanto.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12887001771": {
+   "website": "https://tapsalon.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/5567192748": {
+   "website": "https://www.thewokbargent.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1628067381": {
+   "website": "https://www.twilightsushi.com/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1186342684": {
+   "website": "https://veneris.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/630349191": {
+   "website": "https://www.verz.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/493483074": {
+   "website": "https://restaurantviertafels.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/6947769194": {
+   "website": "https://www.villabardon.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/1837379195": {
+   "website": "https://www.voltagent.be/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "node/12542341837": {
+   "instagram_handle": "yeti.gent",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
+  },
+  "way/237595802": {
+   "website": "https://www.zwartwit.tv/",
+   "source": "own site / Instagram verified by website research, gent-nosource-STATUS.json (26 Oct 2026)"
   }
  }
 }

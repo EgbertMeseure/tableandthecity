@@ -2219,6 +2219,33 @@
   "osm-astro-boy-n7878949226": {
    "hold": "no people-free photo found (research): Own IG/site: people/hands in all photos, posters, logo"
   },
+  "osm-athene-n1472907400": {
+   "photos": [
+    {
+     "src": "https://restaurantathene.be/media/pages/home/654546481c-1753447378/athene-gerechten-1000x-q100.jpg",
+     "thumb": "https://restaurantathene.be/media/pages/home/654546481c-1753447378/athene-gerechten-1000x-q100.jpg",
+     "w": 1000,
+     "h": 1250,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "restaurantathene.be",
+     "credit_url": "https://restaurantathene.be/nl",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeW3_87MpJ0/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DeW3_87MpJ0/"
+   }
+  },
   "osm-au-boeuf-qui-rit-n10907502714": {
    "hold": "no people-free photo found (research): no source in data; web search: no own website/Instagram (only listings, Facebook)"
   },
@@ -2308,6 +2335,26 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/DetltJ5MIXu/"
+   }
+  },
+  "osm-babu-n4718292171": {
+   "photos": [
+    {
+     "src": "https://babu.be/wp-content/uploads/2025/07/BABU-JUNI-25-%C2%A9ENCORE-AGENCY-247.jpg",
+     "thumb": "https://babu.be/wp-content/uploads/2025/07/BABU-JUNI-25-%C2%A9ENCORE-AGENCY-247.jpg",
+     "w": 1280,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "babu.be",
+     "credit_url": "https://babu.be/home-page-gent/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://babu.be/wp-content/uploads/2025/07/BABU-JUNI-25-%C2%A9ENCORE-AGENCY-247.jpg"
    }
   },
   "osm-bar-brutus-n13344139091": {
@@ -2464,6 +2511,50 @@
    "pick": {
     "type": "photo",
     "src": "https://bistro-max.be/wp-content/uploads/2025/03/BistroMax_21-scaled.jpg"
+   }
+  },
+  "osm-bite-n12451304999": {
+   "photos": [
+    {
+     "src": "https://lunchbarbite.be/Frontend/Images/bite01.jpg",
+     "thumb": "https://lunchbarbite.be/Frontend/Images/bite01.jpg",
+     "w": 720,
+     "h": 960,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "lunchbarbite.be",
+     "credit_url": "https://lunchbarbite.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://lunchbarbite.be/Frontend/Images/bite07.jpg",
+     "thumb": "https://lunchbarbite.be/Frontend/Images/bite07.jpg",
+     "w": 720,
+     "h": 960,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "lunchbarbite.be",
+     "credit_url": "https://lunchbarbite.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://lunchbarbite.be/Frontend/Images/bite08.jpg",
+     "thumb": "https://lunchbarbite.be/Frontend/Images/bite08.jpg",
+     "w": 720,
+     "h": 960,
+     "hotlink": true,
+     "category": "drink",
+     "source": "website",
+     "credit": "lunchbarbite.be",
+     "credit_url": "https://lunchbarbite.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://lunchbarbite.be/Frontend/Images/bite01.jpg"
    }
   },
   "osm-bloom-table-n14230351176": {
@@ -2664,6 +2755,24 @@
    "pick": {
     "type": "photo",
     "src": "https://www.restaurantalfons.be/nl/thumbnail-path/full/images/eye-catchers/69491469c48f7-Tablefever_2025-10-28AlfonsGent_037.jpg.jpg"
+   }
+  },
+  "osm-brasserie-borluut-n1186945845": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DSVXoscDLwQ/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CjcuDAlMsvp/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DSVXoscDLwQ/"
    }
   },
   "osm-brasserie-cafe-des-arts-n12828494546": {
@@ -2892,6 +3001,65 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/DU_bZaZD9u_/"
+   }
+  },
+  "osm-brasserie-passion-n968042315": {
+   "photos": [
+    {
+     "src": "https://resto-passion.be/wp-content/uploads/2026/06/497724257_2665792290290260_978862188709475680_n.jpg",
+     "thumb": "https://resto-passion.be/wp-content/uploads/2026/06/497724257_2665792290290260_978862188709475680_n.jpg",
+     "w": 1600,
+     "h": 1200,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "resto-passion.be",
+     "credit_url": "https://resto-passion.be/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DZzaTPttuMi/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://resto-passion.be/wp-content/uploads/2026/06/497724257_2665792290290260_978862188709475680_n.jpg"
+   }
+  },
+  "osm-brasserie-wondelgem-w626909787": {
+   "photos": [
+    {
+     "src": "https://brasseriewondelgem.be/wp-content/uploads/2025/11/DSC08286-scaled.jpg",
+     "thumb": "https://brasseriewondelgem.be/wp-content/uploads/2025/11/DSC08286-scaled.jpg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "brasseriewondelgem.be",
+     "credit_url": "https://brasseriewondelgem.be/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DelwsusM32U/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddd3b2RsGmb/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DelwsusM32U/"
    }
   },
   "osm-bridge-brasserie-n12830913043": {
@@ -3231,6 +3399,51 @@
     "src": "https://static.takeaway.com/images/restaurants/be/ON01Q7PN/headers/header.jpg"
    }
   },
+  "osm-clouds-in-my-coffee-n5610774621": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeJk_zQM11T/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DeJk_zQM11T/"
+   }
+  },
+  "osm-coconne-n12387000495": {
+   "photos": [
+    {
+     "src": "https://coconne.gent/_assets/media/b09dde33739e46015654766879f11c54.jpg",
+     "thumb": "https://coconne.gent/_assets/media/b09dde33739e46015654766879f11c54.jpg",
+     "w": 1066,
+     "h": 1599,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "coconne.gent",
+     "credit_url": "https://coconne.gent/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Dd1SbiygLMO/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdQ5iCZAFht/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DdQ5iCZAFht/"
+   }
+  },
   "osm-cocotine-n6356381196": {
    "hold": "no people-free photo found (research): Own IG: images look AI-generated / show people; rest are graphics"
   },
@@ -3353,8 +3566,91 @@
     "src": "https://cotee.be/wp-content/uploads/2025/05/WhatsApp-Image-2025-04-30-at-10.04.47.jpeg"
    }
   },
+  "osm-cozette-n12702545500": {
+   "photos": [
+    {
+     "src": "https://cozette.gent/uploads/foto-bibliotheek/28_1.jpg?v=1782219431",
+     "thumb": "https://cozette.gent/uploads/foto-bibliotheek/28_1.jpg?v=1782219431",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "cozette.gent",
+     "credit_url": "https://cozette.gent/",
+     "alt": ""
+    },
+    {
+     "src": "https://cozette.gent/uploads/foto-bibliotheek/25_1.jpg?v=1782219431",
+     "thumb": "https://cozette.gent/uploads/foto-bibliotheek/25_1.jpg?v=1782219431",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "drink",
+     "source": "website",
+     "credit": "cozette.gent",
+     "credit_url": "https://cozette.gent/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DZ4vjWXM2nW/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DZ4vjWXM2nW/"
+   }
+  },
   "osm-crema-coffee-shop-n13755533604": {
    "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-da-mario-n10840172980": {
+   "photos": [
+    {
+     "src": "https://dev.damariadrongen.brand-solutions.be/wp-content/uploads/2023/10/fe68ed45-3bf9-4790-9e2d-4789a4b59f32.jpg",
+     "thumb": "https://dev.damariadrongen.brand-solutions.be/wp-content/uploads/2023/10/fe68ed45-3bf9-4790-9e2d-4789a4b59f32.jpg",
+     "w": 876,
+     "h": 876,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "damariodrongen.be",
+     "credit_url": "https://damariodrongen.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://dev.damariadrongen.brand-solutions.be/wp-content/uploads/2023/10/57526909-4b8c-4fbf-93c8-9ecccb76e222.jpg",
+     "thumb": "https://dev.damariadrongen.brand-solutions.be/wp-content/uploads/2023/10/57526909-4b8c-4fbf-93c8-9ecccb76e222.jpg",
+     "w": 701,
+     "h": 876,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "damariodrongen.be",
+     "credit_url": "https://damariodrongen.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://damariodrongen.be/wp-content/uploads/2023/10/8d5a7fdc-ce18-4caa-9f51-d9087a9b94fb.jpg",
+     "thumb": "https://damariodrongen.be/wp-content/uploads/2023/10/8d5a7fdc-ce18-4caa-9f51-d9087a9b94fb.jpg",
+     "w": 876,
+     "h": 876,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "damariodrongen.be",
+     "credit_url": "https://damariodrongen.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://dev.damariadrongen.brand-solutions.be/wp-content/uploads/2023/10/fe68ed45-3bf9-4790-9e2d-4789a4b59f32.jpg"
+   }
   },
   "osm-dali-restaurant-n11398726824": {
    "hold": "no people-free photo found (research): website: interior shots show a guest and a large Dalí face mural; no Instagram on record"
@@ -3483,6 +3779,44 @@
     "url": "https://www.instagram.com/p/DeynFXxjJP3/"
    }
   },
+  "osm-de-kokmadam-eetbar-n14065917962": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Da7d4ltNBeC/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dacf_krNIqG/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Da7d4ltNBeC/"
+   }
+  },
+  "osm-de-kuip-van-gent-n1532794995": {
+   "photos": [
+    {
+     "src": "https://dekuipvangent.be/wp-content/uploads/2017/08/kuipslide1-1920x1282.jpg",
+     "thumb": "https://dekuipvangent.be/wp-content/uploads/2017/08/kuipslide1-1920x1282.jpg",
+     "w": 1600,
+     "h": 1068,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "dekuipvangent.be",
+     "credit_url": "https://dekuipvangent.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://dekuipvangent.be/wp-content/uploads/2017/08/kuipslide1-1920x1282.jpg"
+   }
+  },
   "osm-de-lieve-n12593224145": {
    "photos": [
     {
@@ -3601,6 +3935,50 @@
     "src": "https://primary.jwwb.nl/public/p/j/u/temp-tojorieqhhyhpqhsmjgm/img_5693-standard.jpg"
    }
   },
+  "osm-de-sneppe-n6825290292": {
+   "photos": [
+    {
+     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/restaurantdesneppe.be/media/restaurantdesneppe.be/onewebmedia/site%203.jpg?etag=%222e806-64197f79%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=960,1280&quality=85",
+     "thumb": "https://impro.usercontent.one/appid/oneComWsb/domain/restaurantdesneppe.be/media/restaurantdesneppe.be/onewebmedia/site%203.jpg?etag=%222e806-64197f79%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=960,1280&quality=85",
+     "w": 960,
+     "h": 1280,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "restaurantdesneppe.be",
+     "credit_url": "https://restaurantdesneppe.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/restaurantdesneppe.be/media/restaurantdesneppe.be/onewebmedia/site%201.jpg?etag=%222898c-64197f59%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=960,1280&quality=85",
+     "thumb": "https://impro.usercontent.one/appid/oneComWsb/domain/restaurantdesneppe.be/media/restaurantdesneppe.be/onewebmedia/site%201.jpg?etag=%222898c-64197f59%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=960,1280&quality=85",
+     "w": 960,
+     "h": 1280,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "restaurantdesneppe.be",
+     "credit_url": "https://restaurantdesneppe.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/restaurantdesneppe.be/media/restaurantdesneppe.be/onewebmedia/site%205.jpg?etag=%2232722-64197f82%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=960,1280&quality=85",
+     "thumb": "https://impro.usercontent.one/appid/oneComWsb/domain/restaurantdesneppe.be/media/restaurantdesneppe.be/onewebmedia/site%205.jpg?etag=%2232722-64197f82%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=960,1280&quality=85",
+     "w": 960,
+     "h": 1280,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "restaurantdesneppe.be",
+     "credit_url": "https://restaurantdesneppe.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://impro.usercontent.one/appid/oneComWsb/domain/restaurantdesneppe.be/media/restaurantdesneppe.be/onewebmedia/site%203.jpg?etag=%222e806-64197f79%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=960,1280&quality=85"
+   }
+  },
   "osm-de-stokerij-n12205332271": {
    "hold": "no people-free photo found (research): Own IG: graphics/posters; only photo is beer bottles with illustrated labels (doubtful)"
   },
@@ -3659,6 +4037,24 @@
     "src": "https://dedeoglu.be/wp-content/uploads/2024/01/IMG_2859-scaled.jpg"
    }
   },
+  "osm-den-hoek-af-w501058824": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DezE4naO0qf/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdtwG3qucV6/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DezE4naO0qf/"
+   }
+  },
   "osm-den-johnny-n13608226201": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
   },
@@ -3682,6 +4078,61 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/Dd3v588iMlM/"
+   }
+  },
+  "osm-dok-koon-n9801304840": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CrBG3cjN2VX/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CpkXO2bMjMI/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ci2HpdfMatB/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/CrBG3cjN2VX/"
+   }
+  },
+  "osm-domestica-n5734799246": {
+   "photos": [
+    {
+     "src": "https://www.domestica.be/wp-content/uploads/2019/12/Domestica_2012_37_DEF-R-1536x1022.jpg",
+     "thumb": "https://www.domestica.be/wp-content/uploads/2019/12/Domestica_2012_37_DEF-R-1536x1022.jpg",
+     "w": 1536,
+     "h": 1022,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "domestica.be",
+     "credit_url": "https://www.domestica.be/en/home/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.domestica.be/wp-content/uploads/2019/12/Domestica_2012_362_DEF-R-1-2-3-scaled-e1576851096158.jpg",
+     "thumb": "https://www.domestica.be/wp-content/uploads/2019/12/Domestica_2012_362_DEF-R-1-2-3-scaled-e1576851096158.jpg",
+     "w": 1600,
+     "h": 660,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "domestica.be",
+     "credit_url": "https://www.domestica.be/en/home/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.domestica.be/wp-content/uploads/2019/12/Domestica_2012_37_DEF-R-1536x1022.jpg"
    }
   },
   "osm-dreamcatchers-n12363209411": {
@@ -3886,6 +4337,24 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/DeygOjvia0P/"
+   }
+  },
+  "osm-eethuis-toreke-n3511035004": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DewZv4Qqzvp/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMYisxKPZA/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DewZv4Qqzvp/"
    }
   },
   "osm-eetkaffee-multatuli-n2210024898": {
@@ -4275,6 +4744,50 @@
     "url": "https://www.instagram.com/p/DepIxEMtxth/"
    }
   },
+  "osm-gohan-n9458004317": {
+   "photos": [
+    {
+     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/gohan.be/media/gohan.be/onewebmedia/test1.png?etag=%2213e5f8-639f253c%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=1000,500&quality=85",
+     "thumb": "https://impro.usercontent.one/appid/oneComWsb/domain/gohan.be/media/gohan.be/onewebmedia/test1.png?etag=%2213e5f8-639f253c%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=1000,500&quality=85",
+     "w": 1000,
+     "h": 500,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "gohan.be",
+     "credit_url": "https://gohan.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/gohan.be/media/gohan.be/onewebmedia/slide4.png?etag=%22d5292-639f3849%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=1000,500&quality=85",
+     "thumb": "https://impro.usercontent.one/appid/oneComWsb/domain/gohan.be/media/gohan.be/onewebmedia/slide4.png?etag=%22d5292-639f3849%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=1000,500&quality=85",
+     "w": 1000,
+     "h": 500,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "gohan.be",
+     "credit_url": "https://gohan.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/gohan.be/media/gohan.be/onewebmedia/slide11.png?etag=%22e4838-639f38be%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=1000,500&quality=85",
+     "thumb": "https://impro.usercontent.one/appid/oneComWsb/domain/gohan.be/media/gohan.be/onewebmedia/slide11.png?etag=%22e4838-639f38be%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=1000,500&quality=85",
+     "w": 1000,
+     "h": 500,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "gohan.be",
+     "credit_url": "https://gohan.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://impro.usercontent.one/appid/oneComWsb/domain/gohan.be/media/gohan.be/onewebmedia/test1.png?etag=%2213e5f8-639f253c%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=1000,500&quality=85"
+   }
+  },
   "osm-gok-2-n4720245796": {
    "photos": [
     {
@@ -4340,6 +4853,24 @@
   },
   "osm-gouden-paard-n6613025423": {
    "hold": "no people-free photo found (research): website: no usable images (small/logo only); no Instagram on record"
+  },
+  "osm-gran-gusto-ristorante-n13231393683": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeohaX7MqR1/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DMzfh0FsqtW/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DeohaX7MqR1/"
+   }
   },
   "osm-greenway-w336127036": {
    "photos": [
@@ -4483,6 +5014,38 @@
   "osm-hattis-ontbijthuis-n9809286018": {
    "hold": "no people-free photo found (research): website domain now redirects to an unrelated (spam) site; no Instagram on record"
   },
+  "osm-het-mooie-weer-n12757168866": {
+   "photos": [
+    {
+     "src": "https://hetmooieweer.be/wp-content/uploads/2025/06/Enchilada-verde-1414x1536.jpg",
+     "thumb": "https://hetmooieweer.be/wp-content/uploads/2025/06/Enchilada-verde-1414x1536.jpg",
+     "w": 1414,
+     "h": 1536,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "hetmooieweer.be",
+     "credit_url": "https://hetmooieweer.be/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DR4rZNgiIrR/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DLFBkW6o6C8/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DR4rZNgiIrR/"
+   }
+  },
   "osm-hey-joo-n12323883644": {
    "hold": "no people-free photo found (research): only graphics/illustration"
   },
@@ -4575,9 +5138,6 @@
   },
   "osm-hotel-de-lourdes-w115611102": {
    "hold": "no people-free photo found (research): website: terrace image heavily blurred/low quality, other image a group of people"
-  },
-  "osm-house-of-waffles-n13310397201": {
-   "hold": "no people-free photo found (research): Multi-branch brand site: people in most shots; no clearly Gent-branch photo without people"
   },
   "osm-hoy-pinoy-n3394070665": {
    "posts": [
@@ -4983,6 +5543,24 @@
     "src": "https://static.wixstatic.com/media/ffcc60_6ed49de5211141f187b3fc9cf3dd7d92~mv2.jpg/v1/fill/w_744,h_558,q_90,enc_avif,quality_auto/ffcc60_6ed49de5211141f187b3fc9cf3dd7d92~mv2.jpg"
    }
   },
+  "osm-kleindok-n8393159527": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DbA2oe2qqVs/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DReOPe_iOHu/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DbA2oe2qqVs/"
+   }
+  },
   "osm-koeketiene-n11146607054": {
    "photos": [
     {
@@ -5017,6 +5595,45 @@
   },
   "osm-koffiehuis-ibra-n13201537849": {
    "hold": "no people-free photo found (research): no images found"
+  },
+  "osm-komparto-n6828974432": {
+   "photos": [
+    {
+     "src": "https://www.komparto.be/en/thumbnail-path/full/images/text/5da4773d0a45417840e58b5d42b039ce.jpg",
+     "thumb": "https://www.komparto.be/en/thumbnail-path/full/images/text/5da4773d0a45417840e58b5d42b039ce.jpg",
+     "w": 1400,
+     "h": 932,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "komparto.be",
+     "credit_url": "https://www.komparto.be/en",
+     "alt": ""
+    },
+    {
+     "src": "https://www.komparto.be/en/thumbnail/square/W4xqp/Home%20trio%2024.jpg",
+     "thumb": "https://www.komparto.be/en/thumbnail/square/W4xqp/Home%20trio%2024.jpg",
+     "w": 750,
+     "h": 750,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "komparto.be",
+     "credit_url": "https://www.komparto.be/en",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdBV6-Hsgn7/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.komparto.be/en/thumbnail-path/full/images/text/5da4773d0a45417840e58b5d42b039ce.jpg"
+   }
   },
   "osm-korenleitwee-n1212155509": {
    "photos": [
@@ -5087,6 +5704,38 @@
   },
   "osm-la-belle-histoire-n11703605271": {
    "hold": "no people-free photo found (research): Own website: stock-looking images only, hands"
+  },
+  "osm-la-cave-n1628067350": {
+   "photos": [
+    {
+     "src": "https://cdn.website.dish.co/media/46/6f/9306588/La-Cave-Restaurant-La-Cave-Restaurant-DRJ-0862-jpg-1-jpg.jpg",
+     "thumb": "https://cdn.website.dish.co/media/46/6f/9306588/La-Cave-Restaurant-La-Cave-Restaurant-DRJ-0862-jpg-1-jpg.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "lacaverestaurant.be",
+     "credit_url": "https://www.lacaverestaurant.be/?lang=en",
+     "alt": ""
+    },
+    {
+     "src": "https://cdn.website.dish.co/media/39/b0/1516742/La-Cave-Restaurant-DRJ-0881.jpg",
+     "thumb": "https://cdn.website.dish.co/media/39/b0/1516742/La-Cave-Restaurant-DRJ-0881.jpg",
+     "w": 800,
+     "h": 534,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "lacaverestaurant.be",
+     "credit_url": "https://www.lacaverestaurant.be/?lang=en",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://cdn.website.dish.co/media/46/6f/9306588/La-Cave-Restaurant-La-Cave-Restaurant-DRJ-0862-jpg-1-jpg.jpg"
+   }
   },
   "osm-la-malcontenta-n2555276332": {
    "photos": [
@@ -5244,6 +5893,19 @@
     "src": "https://www.restaurantlimoncello.be/site/assets/files/1/2025-04-23_vdv_gent_0986_1.1536x0.jpg"
    }
   },
+  "osm-little-happiness-n12823556595": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DIqa_kOMvtm/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DIqa_kOMvtm/"
+   }
+  },
   "osm-lodos-w1075327915": {
    "photos": [
     {
@@ -5288,6 +5950,56 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/DQmP42FDPCx/"
+   }
+  },
+  "osm-luv-l-oeuf-n5918300538": {
+   "photos": [
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/6427fb763d04fc2f13f3b48f/aa95a8d4-a98a-410f-8899-cc28dd30a6f7/Luvloeuf-7.jpg?format=1500w",
+     "thumb": "https://images.squarespace-cdn.com/content/v1/6427fb763d04fc2f13f3b48f/aa95a8d4-a98a-410f-8899-cc28dd30a6f7/Luvloeuf-7.jpg?format=1500w",
+     "w": 1500,
+     "h": 1000,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "luvloeuf.com",
+     "credit_url": "https://luvloeuf.com/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Dd8djglurZJ/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Dd8djglurZJ/"
+   }
+  },
+  "osm-madonna-n5247954582": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DYeVsagIM0Z/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DUDS65UjKvU/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DT32K2ujLlx/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DYeVsagIM0Z/"
    }
   },
   "osm-maison-elza-n1616705129": {
@@ -5360,8 +6072,53 @@
   "osm-masala-accent-n12128973417": {
    "hold": "no people-free photo found (research): website: only image shows a person's arm at the table"
   },
+  "osm-mazaya-n6942598586": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-mazaya-n6942598586/2-food-1600.webp",
+     "w": 1600,
+     "h": 1067,
+     "thumb": "img/places/gent/osm-mazaya-n6942598586/2-food-800.webp",
+     "category": "food",
+     "source": "website",
+     "credit": "mazaya.be",
+     "credit_url": "https://mazaya.be/",
+     "alt": "",
+     "source_url": "https://impro.usercontent.one/appid/oneComWsb/domain/mazaya.be/media/mazaya.be/onewebmedia/1790307545-huge.jpg?etag=W%2F%221e38147-18a992f17f8%22&sourceContentType=image%2Fjpeg&quality=85&progressive"
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdGrJytAgbl/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeuoheatJJe/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DdGrJytAgbl/"
+   }
+  },
   "osm-mengie-n11912063124": {
    "hold": "no people-free photo found (research): website: menu graphics only; no Instagram on record"
+  },
+  "osm-mi-garba-n5289336221": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DWGhQHMjYA3/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DWGhQHMjYA3/"
+   }
   },
   "osm-midpoint-n5918274971": {
    "photos": [
@@ -5385,6 +6142,38 @@
   },
   "osm-midtown-grill-n5276097616": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-mimosa-n11697848804": {
+   "photos": [
+    {
+     "src": "https://www.mimosa.gent/uploads/1/1/8/2/118246363/background-images/692924477.jpeg",
+     "thumb": "https://www.mimosa.gent/uploads/1/1/8/2/118246363/background-images/692924477.jpeg",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "mimosa.gent",
+     "credit_url": "https://www.mimosa.gent/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DUlyzK8jcPC/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DT41xUwDC_K/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DUlyzK8jcPC/"
+   }
   },
   "osm-minty-plus-n13957813953": {
    "photos": [
@@ -5416,6 +6205,19 @@
    "pick": {
     "type": "photo",
     "src": "https://mintyplus.be/wp-content/uploads/2026/04/image00472-1536x864.jpg"
+   }
+  },
+  "osm-miss-yu-n6828974429": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CDYja0NAdMd/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/CDYja0NAdMd/"
    }
   },
   "osm-mistafluut-n10743751308": {
@@ -5530,6 +6332,38 @@
     "url": "https://www.instagram.com/p/DeR8RzaF9Qh/"
    }
   },
+  "osm-muday-n6853683393": {
+   "photos": [
+    {
+     "src": "https://muday.be/wp-content/uploads/2025/04/408145104_840464274751340_4068912266765186550_n-750x520.jpg",
+     "thumb": "https://muday.be/wp-content/uploads/2025/04/408145104_840464274751340_4068912266765186550_n-750x520.jpg",
+     "w": 750,
+     "h": 520,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "muday.be",
+     "credit_url": "https://muday.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://muday.be/wp-content/uploads/2025/04/437573758_935609238570176_8061420639263039162_n-750x520.jpg",
+     "thumb": "https://muday.be/wp-content/uploads/2025/04/437573758_935609238570176_8061420639263039162_n-750x520.jpg",
+     "w": 750,
+     "h": 520,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "muday.be",
+     "credit_url": "https://muday.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://muday.be/wp-content/uploads/2025/04/408145104_840464274751340_4068912266765186550_n-750x520.jpg"
+   }
+  },
   "osm-nepal-delight-n11047205650": {
    "photos": [
     {
@@ -5594,6 +6428,19 @@
   "osm-noah-w430755898": {
    "hold": "no people-free photo found (research): Own IG/site: graphics and harbour scenery only (possible distant people), no venue photo"
   },
+  "osm-nono-n14064650165": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Ddv8X9tDXoT/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Ddv8X9tDXoT/"
+   }
+  },
   "osm-noon-n6255570289": {
    "hold": "only photos with people found"
   },
@@ -5625,19 +6472,6 @@
   },
   "osm-o-yo-n10885912444": {
    "hold": "no people-free photo found (research): no own images found"
-  },
-  "osm-ocean-sushi-w494018303": {
-   "posts": [
-    {
-     "url": "https://www.instagram.com/p/DZnY0nbljZV/",
-     "category": "food",
-     "origin": "research"
-    }
-   ],
-   "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DZnY0nbljZV/"
-   }
   },
   "osm-ode-brasserie-n1187193552": {
    "hold": "no people-free photo found (research): No images found from own sources"
@@ -5904,8 +6738,73 @@
     "src": "https://pani.gent/media/site/73503598eb-1771177181/pani-1200x630-crop.jpg"
    }
   },
+  "osm-pantheon-n5524955122": {
+   "photos": [
+    {
+     "src": "https://pantheon.gent/wp-content/uploads/2020/05/foto-3.jpg",
+     "thumb": "https://pantheon.gent/wp-content/uploads/2020/05/foto-3.jpg",
+     "w": 960,
+     "h": 960,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "pantheon.gent",
+     "credit_url": "https://pantheon.gent/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://pantheon.gent/wp-content/uploads/2020/05/foto-3.jpg"
+   }
+  },
   "osm-parisiana-n12379299578": {
    "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-patron-n5135071694": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DaSq3a1tgD3/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DaSq3a1tgD3/"
+   }
+  },
+  "osm-per-bacco-n7158632586": {
+   "photos": [
+    {
+     "src": "https://static.wixstatic.com/media/94925b_4cc4ab6a51f641559cfe6248ad9a3262~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/94925b_4cc4ab6a51f641559cfe6248ad9a3262~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/94925b_4cc4ab6a51f641559cfe6248ad9a3262~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/94925b_4cc4ab6a51f641559cfe6248ad9a3262~mv2.jpg",
+     "w": 1280,
+     "h": 900,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "perbacco.be",
+     "credit_url": "https://www.perbacco.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://static.wixstatic.com/media/94925b_a961b3821e3c498f81e8d887821f63e1~mv2.jpg/v1/fill/w_726,h_517,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Per-bacco-menu.jpg",
+     "thumb": "https://static.wixstatic.com/media/94925b_a961b3821e3c498f81e8d887821f63e1~mv2.jpg/v1/fill/w_726,h_517,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Per-bacco-menu.jpg",
+     "w": 726,
+     "h": 517,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "perbacco.be",
+     "credit_url": "https://www.perbacco.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://static.wixstatic.com/media/94925b_4cc4ab6a51f641559cfe6248ad9a3262~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/94925b_4cc4ab6a51f641559cfe6248ad9a3262~mv2.jpg"
+   }
   },
   "osm-petit-comite-n4404607290": {
    "posts": [
@@ -6296,6 +7195,38 @@
     "url": "https://www.instagram.com/p/Dd5rTxNsQiO/"
    }
   },
+  "osm-sole-d-italia-n2275104998": {
+   "photos": [
+    {
+     "src": "https://soleditalia-gent.be/wp-content/uploads/2025/06/Sole_pizza-scaled.webp",
+     "thumb": "https://soleditalia-gent.be/wp-content/uploads/2025/06/Sole_pizza-scaled.webp",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "soleditalia-gent.be",
+     "credit_url": "https://soleditalia-gent.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://soleditalia-gent.be/wp-content/uploads/2025/11/IMG_4639.jpg",
+     "thumb": "https://soleditalia-gent.be/wp-content/uploads/2025/11/IMG_4639.jpg",
+     "w": 1000,
+     "h": 1333,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "soleditalia-gent.be",
+     "credit_url": "https://soleditalia-gent.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://soleditalia-gent.be/wp-content/uploads/2025/06/Sole_pizza-scaled.webp"
+   }
+  },
   "osm-somm-n12607304272": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
   },
@@ -6329,6 +7260,50 @@
    "pick": {
     "type": "photo",
     "src": "https://www.soul-kitchen.be/wp-content/uploads/2023/05/20230330-DSC_3713-2-Edit.jpg"
+   }
+  },
+  "osm-soup-lounge-n1212142182": {
+   "photos": [
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/54046d82e4b0903f2ff8e372/1587992408675-FS3GWW9O4IMORQZOWO08/PSX_20200416_143942.jpg?format=1500w",
+     "thumb": "https://images.squarespace-cdn.com/content/v1/54046d82e4b0903f2ff8e372/1587992408675-FS3GWW9O4IMORQZOWO08/PSX_20200416_143942.jpg?format=1500w",
+     "w": 1500,
+     "h": 1126,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "souplounge.be",
+     "credit_url": "https://www.souplounge.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/54046d82e4b0903f2ff8e372/1588000766210-UD02468E7DPJJC5MDVSU/PSX_20200422_174327.jpg?format=1500w",
+     "thumb": "https://images.squarespace-cdn.com/content/v1/54046d82e4b0903f2ff8e372/1588000766210-UD02468E7DPJJC5MDVSU/PSX_20200422_174327.jpg?format=1500w",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "souplounge.be",
+     "credit_url": "https://www.souplounge.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/54046d82e4b0903f2ff8e372/1632056950211-DI2G6Q8JZ5J462E90I1N/PSX_20210708_100902.jpg?format=1500w",
+     "thumb": "https://images.squarespace-cdn.com/content/v1/54046d82e4b0903f2ff8e372/1632056950211-DI2G6Q8JZ5J462E90I1N/PSX_20210708_100902.jpg?format=1500w",
+     "w": 1500,
+     "h": 1500,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "souplounge.be",
+     "credit_url": "https://www.souplounge.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://images.squarespace-cdn.com/content/v1/54046d82e4b0903f2ff8e372/1587992408675-FS3GWW9O4IMORQZOWO08/PSX_20200416_143942.jpg?format=1500w"
    }
   },
   "osm-soup-r-n5164395526": {
@@ -6460,55 +7435,31 @@
     "url": "https://www.instagram.com/p/DSHc4dgCnKZ/"
    }
   },
-  "osm-surtoe-n4893318698": {
-   "hold": "no people-free photo found (research): website: only terrace image shows passers-by in the background"
-  },
-  "osm-sushi-love-gent-n9056427353": {
-   "hold": "no people-free photo found (research): website: single stock-looking studio sushi composite; no Instagram on record"
-  },
-  "osm-sushi-palace-n12323650406": {
+  "osm-sugar-spice-n1212135543": {
    "photos": [
     {
-     "src": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-02.jpg",
-     "thumb": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-02.jpg",
-     "w": 1600,
-     "h": 900,
+     "src": "https://cdn.website.dish.co/media/16/7d/1621200/Sugar-und-Spice-416B1F75-7037-4D96-BA60-0844E8D1E4F3.jpg",
+     "thumb": "https://cdn.website.dish.co/media/16/7d/1621200/Sugar-und-Spice-416B1F75-7037-4D96-BA60-0844E8D1E4F3.jpg",
+     "w": 800,
+     "h": 598,
      "hotlink": true,
-     "category": "food",
+     "category": "interior",
      "source": "website",
-     "credit": "sushipalacegent.be",
-     "credit_url": "https://www.sushipalacegent.be/",
-     "alt": ""
-    },
-    {
-     "src": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-05.jpg",
-     "thumb": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-05.jpg",
-     "w": 1600,
-     "h": 900,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "sushipalacegent.be",
-     "credit_url": "https://www.sushipalacegent.be/",
-     "alt": ""
-    },
-    {
-     "src": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-03.jpg",
-     "thumb": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-03.jpg",
-     "w": 1600,
-     "h": 900,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "sushipalacegent.be",
-     "credit_url": "https://www.sushipalacegent.be/",
+     "credit": "sugar-spice.eatbu.com",
+     "credit_url": "https://sugar-spice.eatbu.com/?lang=en",
      "alt": ""
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-02.jpg"
+    "src": "https://cdn.website.dish.co/media/16/7d/1621200/Sugar-und-Spice-416B1F75-7037-4D96-BA60-0844E8D1E4F3.jpg"
    }
+  },
+  "osm-surtoe-n4893318698": {
+   "hold": "no people-free photo found (research): website: only terrace image shows passers-by in the background"
+  },
+  "osm-sushi-love-gent-n9056427353": {
+   "hold": "no people-free photo found (research): website: single stock-looking studio sushi composite; no Instagram on record"
   },
   "osm-sushi-paradise-n1186970648": {
    "photos": [
@@ -6780,6 +7731,38 @@
   },
   "osm-tabouleh-n8957993750": {
    "hold": "no people-free photo found (research): website: no usable large images; no Instagram on record"
+  },
+  "osm-taco-santo-n6920767887": {
+   "photos": [
+    {
+     "src": "https://www.tacosanto.be/wp-content/uploads/2019/05/SR36113.jpg.webp",
+     "thumb": "https://www.tacosanto.be/wp-content/uploads/2019/05/SR36113.jpg.webp",
+     "w": 1600,
+     "h": 900,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.tacosanto.be/wp-content/uploads/2019/05/SR36120.jpg?id=3388",
+     "thumb": "https://www.tacosanto.be/wp-content/uploads/2019/05/SR36120.jpg?id=3388",
+     "w": 1600,
+     "h": 900,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.tacosanto.be/wp-content/uploads/2019/05/SR36113.jpg.webp"
+   }
   },
   "osm-taj-mahal-n11352130046": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
@@ -7165,6 +8148,38 @@
   "osm-veggi-en-grill-n9230929147": {
    "hold": "no people-free photo found (research): website: no usable large images; no Instagram on record"
   },
+  "osm-verz-w630349191": {
+   "photos": [
+    {
+     "src": "https://www.verz.be/images/food/VerZ.-ontbijt-yoghurt-koffie.jpg",
+     "thumb": "https://www.verz.be/images/food/VerZ.-ontbijt-yoghurt-koffie.jpg",
+     "w": 1000,
+     "h": 750,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "verz.be",
+     "credit_url": "https://www.verz.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.verz.be/images/verz-terras.jpg",
+     "thumb": "https://www.verz.be/images/verz-terras.jpg",
+     "w": 756,
+     "h": 1008,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "verz.be",
+     "credit_url": "https://www.verz.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.verz.be/images/food/VerZ.-ontbijt-yoghurt-koffie.jpg"
+   }
+  },
   "osm-vief-n12804094905": {
    "photos": [
     {
@@ -7195,6 +8210,50 @@
    "pick": {
     "type": "photo",
     "src": "img/places/gent/osm-vief-n12804094905/1-food-1600.webp"
+   }
+  },
+  "osm-vier-tafels-w493483074": {
+   "photos": [
+    {
+     "src": "https://restaurantviertafels.be/wp-content/uploads/2023/02/VIER-cumberland-kangaroo-1024x669.jpg",
+     "thumb": "https://restaurantviertafels.be/wp-content/uploads/2023/02/VIER-cumberland-kangaroo-1024x669.jpg",
+     "w": 1024,
+     "h": 669,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "restaurantviertafels.be",
+     "credit_url": "https://restaurantviertafels.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://restaurantviertafels.be/wp-content/uploads/2023/02/VIER-gentse-waterzooi-vier-tafels-1024x669.jpg",
+     "thumb": "https://restaurantviertafels.be/wp-content/uploads/2023/02/VIER-gentse-waterzooi-vier-tafels-1024x669.jpg",
+     "w": 1024,
+     "h": 669,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "restaurantviertafels.be",
+     "credit_url": "https://restaurantviertafels.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://restaurantviertafels.be/wp-content/uploads/2023/02/VIER-interieur-vier-tafels-gent-.jpg",
+     "thumb": "https://restaurantviertafels.be/wp-content/uploads/2023/02/VIER-interieur-vier-tafels-gent-.jpg",
+     "w": 1224,
+     "h": 800,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "restaurantviertafels.be",
+     "credit_url": "https://restaurantviertafels.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://restaurantviertafels.be/wp-content/uploads/2023/02/VIER-cumberland-kangaroo-1024x669.jpg"
    }
   },
   "osm-viernulvier-cafe-n3817855015": {
@@ -7355,6 +8414,24 @@
   },
   "osm-yammi-yammi-n6780960089": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-yeti-n12542341837": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DJtkC7dt3uH/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DY-gloskWy-/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DJtkC7dt3uH/"
+   }
   },
   "osm-zuru-zuru-ramen-n11688398600": {
    "photos": [

@@ -231,7 +231,7 @@
    }
   },
   "batavier": {
-   "hold": "no people-free photo found (research): website http://www.batavier.be/ timed out twice; no Instagram on record"
+   "hold": "no people-free photo found (research): website http://www.batavier.be/ timed out twice; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "belgian-wines": {
    "photos": [
@@ -460,7 +460,7 @@
    "hold": "no people-free photo found (research): website only has illustrations with farmer silhouettes; no Instagram images"
   },
   "butchers-coffee": {
-   "hold": "no people-free photo found (research): website butcherscoffee.be timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): website butcherscoffee.be timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "cafe-beveren": {
    "hold": "no people-free photo found (research): no website or Instagram on record"
@@ -1345,7 +1345,7 @@
    }
   },
   "irish-times": {
-   "hold": "no people-free photo found (research): website irish-times-pub.net timed out twice; no Instagram on record"
+   "hold": "no people-free photo found (research): website irish-times-pub.net timed out twice; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "jones-co": {
    "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
@@ -1593,7 +1593,7 @@
    }
   },
   "linas": {
-   "hold": "no people-free photo found (research): website linasbakkerij.be timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): website linasbakkerij.be timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "lints": {
    "photos": [
@@ -1619,7 +1619,7 @@
    "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
   },
   "los-dos": {
-   "hold": "no people-free photo found (research): website losdos.be refused connection twice (ERR_CONNECTION_CLOSED); no Instagram on record"
+   "hold": "no people-free photo found (research): website losdos.be refused connection twice (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "luddites": {
    "photos": [
@@ -1670,6 +1670,9 @@
   },
   "materia-fine-dining-botanic": {
    "hold": "no people-free photo found (research): website: logo only"
+  },
+  "materia-osteria": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
   },
   "mero": {
    "photos": [
@@ -1978,6 +1981,12 @@
   "osaka": {
    "hold": "no people-free photo found (research): listed website (caminoantwerp.com) returned no usable images; no Instagram on record"
   },
+  "osm-1-de-janeiro-da-rosinha-n4729916694": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-a-churrasqueira-n4729916689": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-a-l-infintiste-n5980843877": {
    "photos": [
     {
@@ -2122,6 +2131,9 @@
     "src": "https://atable-restaurant.be/gerecht1.jpeg"
    }
   },
+  "osm-a-tavola-n2151763442": {
+   "hold": "no people-free photo found (research): no usable photos: stock-looking pasta image; other shows a chef"
+  },
   "osm-aahaar-n4592515603": {
    "photos": [
     {
@@ -2162,11 +2174,29 @@
     "src": "https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg"
    }
   },
+  "osm-aari-thai-n4434106317": {
+   "hold": "no people-free photo found (research): website has no usable large images (only a wallpaper pattern)"
+  },
   "osm-abc-taproom-resto-n5710150522": {
    "hold": "no people-free photo found (research): web: illustrated people on beer labels, people at taps, etched figure on brew kettle, stock-looking ribs"
   },
+  "osm-al-haesh-n6152528439": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-albasha-mortsel-2-n5876299689": {
+   "hold": "no people-free photo found (research): no usable photos: all dish images are stock-looking"
+  },
+  "osm-ali-baba-n7018065122": {
+   "hold": "no people-free photo found (research): no source in data; quick search found no site that clearly matches (name is generic)"
+  },
   "osm-alo-n13240343698": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-aloha-pokebowl-n7415158868": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-amici-coffee-books-n6432685616": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-amuri-n13439969453": {
    "photos": [
@@ -2221,8 +2251,14 @@
   "osm-andaluce-seafood-n6997352308": {
    "hold": "no people-free photo found (research): website: only a business-card photo"
   },
+  "osm-anna-n659805377": {
+   "hold": "no people-free photo found (research): possible chain (ANNA is the Crowne Plaza Antwerpen hotel restaurant, IHG); suggest removal"
+  },
   "osm-annpurna-n6124099055": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_AUTHORITY_INVALID); no Instagram on record"
+  },
+  "osm-antonio-n13570980234": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-antoon-van-dyck-n6468349180": {
    "photos": [
@@ -2242,6 +2278,26 @@
    "pick": {
     "type": "photo",
     "src": "https://www.antoonvandyck-brasserie.be/wp-content/uploads/2022/07/antoonvandyck-brasserie-afbeelding7-768x1152.jpeg"
+   }
+  },
+  "osm-apo-s-n7174492064": {
+   "photos": [
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/5f5e18d8221bd53db2a3371c/1614043473639-Q49ND7ZS8A0HPYW90WAG/IMG_20200911_123036.jpg?format=1500w",
+     "thumb": "https://images.squarespace-cdn.com/content/v1/5f5e18d8221bd53db2a3371c/1614043473639-Q49ND7ZS8A0HPYW90WAG/IMG_20200911_123036.jpg?format=1500w",
+     "w": 1500,
+     "h": 1500,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "aposantwerp.com",
+     "credit_url": "https://www.aposantwerp.com/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://images.squarespace-cdn.com/content/v1/5f5e18d8221bd53db2a3371c/1614043473639-Q49ND7ZS8A0HPYW90WAG/IMG_20200911_123036.jpg?format=1500w"
    }
   },
   "osm-argo-n6321736488": {
@@ -2271,10 +2327,10 @@
    "hold": "no people-free photo found (research): website: logos only"
   },
   "osm-arte-n1523520376": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): end-of-run retry loaded site: no usable photos (drawing, person, pizza shot with unclear dark figure at edge)"
   },
   "osm-athene-n5141731472": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-au-vieux-port-n4827579033": {
    "photos": [
@@ -2459,11 +2515,20 @@
   "osm-bananenleef-n7123265875": {
    "hold": "no people-free photo found (research): website: menu graphics with large text overlays only"
   },
+  "osm-banh-mi-antwerp-n13076751901": {
+   "hold": "no people-free photo found (research): no usable photos: people/hands in all images"
+  },
   "osm-bar-buenos-aires-n1775385031": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-bar-epoq-n7288961727": {
+   "hold": "no people-free photo found (research): no usable photos: people, busts and statues in images"
+  },
+  "osm-bar-vert-n7241064050": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-barbouf-n5615179922": {
-   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-barchel-n14279968380": {
    "hold": "no people-free photo found (research): possible chain (3 OSM nodes share barchel.be); website has one shared bar photo plus stock-style texture images"
@@ -2492,6 +2557,18 @@
      "alt": ""
     },
     {
+     "src": "https://www.barriq.be/restaurant/static/src/img/homepage/hero_slide_7.jpg",
+     "thumb": "https://www.barriq.be/restaurant/static/src/img/homepage/hero_slide_7.jpg",
+     "w": 1280,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "barriq.be",
+     "credit_url": "https://www.barriq.be/",
+     "alt": ""
+    },
+    {
      "src": "https://www.barriq.be/restaurant/static/src/img/homepage/bar.jpg",
      "thumb": "https://www.barriq.be/restaurant/static/src/img/homepage/bar.jpg",
      "w": 1600,
@@ -2509,11 +2586,14 @@
     "src": "https://www.barriq.be/restaurant/static/src/img/homepage/private_dining.jpg"
    }
   },
+  "osm-be-leaf-n11964373605": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-beerlovers-bar-n4393283794": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-bella-capri-n6205908271": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-bella-patio-n5693449269": {
    "hold": "no people-free photo found (research): website: people on terrace and in veranda photo"
@@ -2522,7 +2602,7 @@
    "hold": "no people-free photo found (research): website: single stock-looking falafel image"
   },
   "osm-berlin-n1287853566": {
-   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-better-than-hungry-n11200625846": {
    "hold": "no people-free photo found (research): website: street crowd photo and interior dominated by mural of people"
@@ -2621,6 +2701,9 @@
     "src": "https://lam-en-yin.be/wp-content/uploads/2023/06/26340428_ingredient-for-chinese-salad.jpg"
    }
   },
+  "osm-bistro-22-n11693633797": {
+   "hold": "no people-free photo found (research): no source in data; quick search: reported closed (Nov 2024), no own site found"
+  },
   "osm-bistro-estelle-n7005714203": {
    "photos": [
     {
@@ -2714,7 +2797,7 @@
    }
   },
   "osm-bistro-theo-n6441387151": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-bitterpeeen-n5095340210": {
    "photos": [
@@ -2779,11 +2862,23 @@
     "src": "https://static.wixstatic.com/media/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg"
    }
   },
+  "osm-blvd-de-boelevaard-w180051360": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-bocca-d-oro-n1618702878": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none (possibly closed)"
+  },
   "osm-bodrum-palace-n6658759393": {
-   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-bohm-berkel-n10029813105": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-bokki-n12832917601": {
    "hold": "no people-free photo found (research): IG: food shots held with gloved hands, people, promo graphics"
+  },
+  "osm-bourla-n7291615331": {
+   "hold": "no people-free photo found (research): no usable photos: people in all images"
   },
   "osm-bowie-n2348355296": {
    "photos": [
@@ -2824,6 +2919,12 @@
     "type": "photo",
     "src": "https://static.wixstatic.com/media/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg"
    }
+  },
+  "osm-brasserie-1920-n821293211": {
+   "hold": "no people-free photo found (research): possible chain: website is the Accor hotel page (hotel rooms), no restaurant-specific photos"
+  },
+  "osm-brasserie-antwerp-n6839805367": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-brasserie-appelmans-n3250758061": {
    "photos": [
@@ -2957,8 +3058,20 @@
     "src": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7cb7e6f31bf9635162_Brasserie_Monico_Meir_Antwerpen%20(4)-p-1600.webp"
    }
   },
+  "osm-brasserie-windsor-n6445159885": {
+   "hold": "no people-free photo found (research): no usable photos: site uses stock-looking images (stock city/dish photos) and people"
+  },
+  "osm-brasserie-woods-n7363537746": {
+   "hold": "no people-free photo found (research): no usable photos: hands in all images"
+  },
+  "osm-brasseurs-n6448401485": {
+   "hold": "no people-free photo found (research): website: darkened exterior with possible passers-by, washed-out interior with portrait on wall"
+  },
   "osm-brewers-kitchen-n5693449274": {
    "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-broodjeshuis-n3724774317": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-brusketta-n821293291": {
    "photos": [
@@ -2980,14 +3093,26 @@
     "src": "https://primary.jwwb.nl/public/p/m/k/temp-ptzqsmmjggsdjjxqtnbg/5bteh5/45418290_763186514060310_8678908906870669312_n.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200"
    }
   },
+  "osm-burgerium-n14026700173": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-butchers-coffee-n5188616482": {
    "hold": "no people-free photo found (research): IG: hands/people in all food shots; only an empty plate otherwise"
   },
   "osm-c-hive-rooftop-antwerp-n8443166143": {
    "hold": "no people-free photo found (research): website: only one small image (<500px)"
   },
+  "osm-cafe-service-w503395377": {
+   "hold": "no people-free photo found (research): website has no usable large images (only stylised graphics with text overlays)"
+  },
+  "osm-caffenation-goes-koco-n11515053186": {
+   "hold": "no people-free photo found (research): possible chain (Caffénation coffee bar inside Eat Dust store; Caffénation has several locations); suggest removal"
+  },
+  "osm-calamares-n6724799321": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-camino-n5615179729": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-camion-camionette-n14212290376": {
    "photos": [
@@ -3041,6 +3166,9 @@
     "src": "img/places/antwerpen/osm-camion-n6293116186/1-drink-1600.webp"
    }
   },
+  "osm-cannolo-n11928344753": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
   "osm-caos-n12806377721": {
    "photos": [
     {
@@ -3084,6 +3212,12 @@
     "type": "photo",
     "src": "https://caos-antwerp.com/wp-content/uploads/2025/04/Credit-Moooi-Tubelight-Caos-Antwerp-Robin-Noordam12-1024x683.jpg"
    }
+  },
+  "osm-cappadocia-n1641068351": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-capricho-n1641068308": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-cartouche-n9219132691": {
    "photos": [
@@ -3148,6 +3282,9 @@
     "type": "photo",
     "src": "https://v2cdn1.centralappstatic.com/image/resize/1102x661_cover_25bf2560d58a44f7b8643674a72ef9a9.jpeg?w=1200"
    }
+  },
+  "osm-castellino-n6173353979": {
+   "hold": "no people-free photo found (research): website: only image has a blurred person in the background"
   },
   "osm-cece-is-hungry-n12848458802": {
    "photos": [
@@ -3233,6 +3370,15 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DcQ28XNuv7O/"
    }
+  },
+  "osm-chilli-s-taverna-n6652488396": {
+   "hold": "no people-free photo found (research): no usable photos: cartoon logo, person, framed photos of people on walls"
+  },
+  "osm-china-star-n6710910567": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-circus-n5731284481": {
+   "hold": "no people-free photo found (research): no usable photos: people, text overlays, figurative artwork"
   },
   "osm-civilta-del-bere-n6933046124": {
    "photos": [
@@ -3342,6 +3488,24 @@
     "src": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8296-scaled-1.jpg"
    }
   },
+  "osm-comocomo-n6432685607": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-confettis-n6124099053": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-consteau-n11104581507": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-cornichon-n9605995334": {
+   "hold": "no people-free photo found (research): website domain now serves online-casino spam; no usable images"
+  },
+  "osm-cosimo-n1810834957": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-costa-n8419353425": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none (a 'da Costa' site exists but could not be verified as this place)"
+  },
   "osm-cross-roast-experience-store-n13448614176": {
    "photos": [
     {
@@ -3418,6 +3582,9 @@
     "src": "https://cdn.website.dish.co/media/97/4c/1935585/Cucina-48-cucina-bacio.jpg"
    }
   },
+  "osm-cypro-restaurant-n6917721521": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
   "osm-da-fellini-n2531732453": {
    "photos": [
     {
@@ -3437,6 +3604,9 @@
     "type": "photo",
     "src": "https://static.wixstatic.com/media/6e0195_dfb92025deac4382a37b64137e309c2a%7Emv2_d_4320_6480_s_4_2.jpg/v1/fit/w_2500,h_1330,al_c/6e0195_dfb92025deac4382a37b64137e309c2a%7Emv2_d_4320_6480_s_4_2.jpg"
    }
+  },
+  "osm-da-riccardo-n6839814971": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-da-vinci-n6938241240": {
    "photos": [
@@ -3490,6 +3660,9 @@
     "src": "https://dabbaking.be/wp-content/uploads/2023/11/DabbaKing_2023_Sander_Buijs030-1.jpg"
    }
   },
+  "osm-danieli-il-divino-w228966791": {
+   "hold": "no people-free photo found (research): no usable photos: guests, a bust statue, and a white figure-like object at edge of the table shot"
+  },
   "osm-de-7-schaken-n5693449272": {
    "photos": [
     {
@@ -3510,6 +3683,12 @@
     "src": "https://images.squarespace-cdn.com/content/v1/5216765ae4b01820fd27df62/1401973720597-82VK26WFLG7P7JSWG9G1/7schaken25.jpg?format=1500w"
    }
   },
+  "osm-de-arme-duivel-n1523415912": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-de-artiest-n6919675756": {
+   "hold": "no people-free photo found (research): end-of-run retry loaded site: no usable photos (all show people)"
+  },
   "osm-de-bomma-n7041453185": {
    "photos": [
     {
@@ -3529,6 +3708,18 @@
     "type": "photo",
     "src": "https://www.restaurantdebomma.be/wp-content/uploads/2020/01/u3xgmj2s4iwkxg7gg263q-e1578695967200-2048x2731.jpg"
    }
+  },
+  "osm-de-broers-van-julienne-n385181288": {
+   "hold": "no people-free photo found (research): website: single shop-shelf image with unclear blurred shape at edge"
+  },
+  "osm-de-broers-van-julienne-n4395151353": {
+   "hold": "no people-free photo found (research): website: single shop-shelf image with unclear blurred shape at edge"
+  },
+  "osm-de-chinese-muur-n4548929990": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-de-foyer-n6315472185": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-de-herk-n5302320018": {
    "photos": [
@@ -3562,6 +3753,15 @@
     "src": "https://images.squarespace-cdn.com/content/v1/5ed799d6b18eac7e43751310/da85fd7f-8509-4ece-81a8-997ae9ed250c/WhatsApp+Image+2023-10-14+at+17.42.34.jpeg?format=1500w"
    }
   },
+  "osm-de-kompaan-n11822992445": {
+   "hold": "no people-free photo found (research): website: people photo and Borgerhout district logo only"
+  },
+  "osm-de-kroon-van-hopland-n6473753659": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-de-lokeend-n7272869200": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-de-merode-n2329196231": {
    "photos": [
     {
@@ -3581,6 +3781,32 @@
     "type": "photo",
     "src": "img/places/antwerpen/osm-de-merode-n2329196231/1-interior-1600.webp"
    }
+  },
+  "osm-de-mezzanine-n10883767312": {
+   "photos": [
+    {
+     "src": "https://www.demezzanine.be/wp-content/uploads/2022/11/IMG-20221111-WA0020.jpg",
+     "thumb": "https://www.demezzanine.be/wp-content/uploads/2022/11/IMG-20221111-WA0020.jpg",
+     "w": 1600,
+     "h": 1200,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "demezzanine.be",
+     "credit_url": "https://www.demezzanine.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.demezzanine.be/wp-content/uploads/2022/11/IMG-20221111-WA0020.jpg"
+   }
+  },
+  "osm-de-natie-n4782885779": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-de-negen-vaten-n6262551129": {
+   "hold": "no people-free photo found (research): website: stock-looking tapas images and menu graphics only"
   },
   "osm-de-nieuwe-boterham-n6291937834": {
    "posts": [
@@ -3647,6 +3873,9 @@
     "src": "https://www.brasseriedepelgrim.be/nl/thumbnail/square/Waxn4/home%20trio%20*24.jpg"
    }
   },
+  "osm-de-reddende-engel-n1775392355": {
+   "hold": "no people-free photo found (research): website: logo/window lettering is an angel figure, collage graphic; no clean photo"
+  },
   "osm-de-sinjoor-n6225842208": {
    "photos": [
     {
@@ -3667,6 +3896,44 @@
     "src": "https://desinjoor.be/wp-content/uploads/2023/01/20230119_DeSinjoor-1393-scaled.jpg"
    }
   },
+  "osm-de-troubadour-n3363245184": {
+   "photos": [
+    {
+     "src": "https://detroubadour.be/wp-content/uploads/2024/10/TROUBADOUR_9_2024-6.jpg",
+     "thumb": "https://detroubadour.be/wp-content/uploads/2024/10/TROUBADOUR_9_2024-6.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "detroubadour.be",
+     "credit_url": "https://detroubadour.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://detroubadour.be/wp-content/uploads/2024/10/TROUBADOUR_9_2024-6.jpg"
+   }
+  },
+  "osm-de-varkenspoot-n7291615329": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-de-vos-marie-n4488301362": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-de-zeester-w180051379": {
+   "hold": "no people-free photo found (research): website: only a newspaper clipping with a chef portrait"
+  },
+  "osm-de-zuilen-n5693449268": {
+   "hold": "no people-free photo found (research): website: only usable image has a painting of a woman on the wall"
+  },
+  "osm-del-sud-classico-w496944368": {
+   "hold": "no people-free photo found (research): website: terrace shots with people, cathedral views, only pizza image is a phone screenshot with black bars"
+  },
+  "osm-delhi-masala-n2348364630": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-delrodah-funky-soulfood-n11108241805": {
    "photos": [
     {
@@ -3686,6 +3953,18 @@
     "type": "photo",
     "src": "https://static.wixstatic.com/media/7f5d52_62383b84389c41f79380930f312fe7f3~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7f5d52_62383b84389c41f79380930f312fe7f3~mv2.jpg"
    }
+  },
+  "osm-den-hopsack-n2407245102": {
+   "hold": "no people-free photo found (research): website: only image shows people"
+  },
+  "osm-den-houten-lepel-n7660431853": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-desiree-n11693675915": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-diba-n11221431671": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-dok-54-n9807240334": {
    "photos": [
@@ -3719,6 +3998,24 @@
     "src": "https://dok54.be/wp-content/uploads/2024/05/3504FECA-6150-4874-B656-60450B2B26E8-scaled-e1770296914325.jpg"
    }
   },
+  "osm-dr-beer-n4769796428": {
+   "hold": "no people-free photo found (research): website: only terrace photo with guests"
+  },
+  "osm-eco-cafe-n4246521885": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-eetcafe-bob-n13514587804": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-eetcafe-chocola-n5982844533": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none (now reportedly Dansing Chocola, no own site)"
+  },
+  "osm-eetcafe-slachthuis-n4946000116": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-el-bife-n6324030030": {
+   "hold": "no people-free photo found (research): website: stock-looking steak images; others show people/hands"
+  },
   "osm-el-calle-11-n5247889063": {
    "posts": [
     {
@@ -3731,6 +4028,15 @@
     "type": "post",
     "url": "https://www.instagram.com/p/Dcv3NDIDYNA/"
    }
+  },
+  "osm-el-gato-gordo-n7815095795": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-el-mida-n6533875278": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-el-paisano-del-mundo-n5615179529": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-el-puerto-n1629898272": {
    "photos": [
@@ -3795,6 +4101,24 @@
     "type": "photo",
     "src": "https://elrodizio-antwerpen.be/wp-content/uploads/2023/10/scampi-zalm-el-rodizio.jpg"
    }
+  },
+  "osm-el-toro-negro-n2141153948": {
+   "hold": "no people-free photo found (research): website: map graphic, stock-looking food banner and small cut-out graphics"
+  },
+  "osm-el-warda-n1723223517": {
+   "hold": "no people-free photo found (research): website domain now serves unrelated content (stock people photos)"
+  },
+  "osm-eldo-n6917721517": {
+   "hold": "no people-free photo found (research): website: logo plus shots showing hands/people"
+  },
+  "osm-elfde-gebod-n1262072635": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-elsie-s-ethiopisch-en-eritrees-eethuis-n6938241236": {
+   "hold": "no people-free photo found (research): website domain now serves casino spam"
+  },
+  "osm-enoteca-savini-n6019292252": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-epiphanys-kitchen-antwerpen-n13412858201": {
    "photos": [
@@ -3864,6 +4188,15 @@
     "src": "img/places/antwerpen/osm-epiphanys-kitchen-antwerpen-n13412858201/1-interior-1600.webp"
    }
   },
+  "osm-es-balagan-n13014492202": {
+   "hold": "no people-free photo found (research): website: only one image, appears to be a render/concept visual (not a real photo)"
+  },
+  "osm-esaki-sushi-n6253448919": {
+   "hold": "no people-free photo found (research): website: logo banner and one lamp photo with blurred framed artwork (unclear)"
+  },
+  "osm-estro-armonico-n6250404258": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-extra-fika-n9088560699": {
    "photos": [
     {
@@ -3896,6 +4229,27 @@
     "src": "https://images.squarespace-cdn.com/content/v1/5862a35bb8a79b3f4c9032ec/1628596590828-JYZKI1C3KZC3XDS64HBR/_DSF7920.jpg?format=1000w"
    }
   },
+  "osm-fabrik-n6154791336": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-falafel-king-n6943114402": {
+   "hold": "no people-free photo found (research): website: only one small image (<500px)"
+  },
+  "osm-falafel-spot-n4393950678": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-falafeltof-n4376630989": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-fangs-hapje-n6710910570": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-farafina-resto-n7006782024": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none (mamafarafina.be has a different address, not used)"
+  },
+  "osm-felfel-n6327950586": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-ferrier-30-n6933046125": {
    "photos": [
     {
@@ -3914,6 +4268,74 @@
    "pick": {
     "type": "photo",
     "src": "https://ferrier-30.be/media/pages/home/0f73871aef-1715747203/origineel-ferrier-janneg-40-1200x630-crop-1-q80.jpg"
+   }
+  },
+  "osm-fidele-n1629898291": {
+   "photos": [
+    {
+     "src": "https://fidele-gastro.be/wp-content/uploads/2025/08/FideleInterieur_JanneG14-scaled-1.webp",
+     "thumb": "https://fidele-gastro.be/wp-content/uploads/2025/08/FideleInterieur_JanneG14-scaled-1.webp",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "fidele-gastro.be",
+     "credit_url": "https://fidele-gastro.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://fidele-gastro.be/wp-content/uploads/2025/08/FideleInterieur_JanneG26-scaled-1-e1756193596117.webp",
+     "thumb": "https://fidele-gastro.be/wp-content/uploads/2025/08/FideleInterieur_JanneG26-scaled-1-e1756193596117.webp",
+     "w": 1600,
+     "h": 1370,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "fidele-gastro.be",
+     "credit_url": "https://fidele-gastro.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://fidele-gastro.be/wp-content/uploads/2025/08/FideleInterieur_JanneG12-scaled-1-1000x1500.webp",
+     "thumb": "https://fidele-gastro.be/wp-content/uploads/2025/08/FideleInterieur_JanneG12-scaled-1-1000x1500.webp",
+     "w": 1000,
+     "h": 1500,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "fidele-gastro.be",
+     "credit_url": "https://fidele-gastro.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://fidele-gastro.be/wp-content/uploads/2026/03/FIDELE_DETAILATMO_5-1500x1001.jpg",
+     "thumb": "https://fidele-gastro.be/wp-content/uploads/2026/03/FIDELE_DETAILATMO_5-1500x1001.jpg",
+     "w": 1500,
+     "h": 1001,
+     "hotlink": true,
+     "category": "exterior",
+     "source": "website",
+     "credit": "fidele-gastro.be",
+     "credit_url": "https://fidele-gastro.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://fidele-gastro.be/wp-content/uploads/2025/08/Fidele_JanneGooiker-33-scaled-1-e1756199663858.webp",
+     "thumb": "https://fidele-gastro.be/wp-content/uploads/2025/08/Fidele_JanneGooiker-33-scaled-1-e1756199663858.webp",
+     "w": 1179,
+     "h": 1600,
+     "hotlink": true,
+     "category": "drink",
+     "source": "website",
+     "credit": "fidele-gastro.be",
+     "credit_url": "https://fidele-gastro.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://fidele-gastro.be/wp-content/uploads/2025/08/FideleInterieur_JanneG14-scaled-1.webp"
    }
   },
   "osm-fiera-n7310707373": {
@@ -3947,6 +4369,12 @@
     "type": "photo",
     "src": "https://fiera.be/wp-content/uploads/2025/09/Foto-Fiera-3-scaled.jpg"
    }
+  },
+  "osm-filet-d-anvers-n4946000114": {
+   "hold": "no people-free photo found (research): website: stock-looking meat images, map graphic"
+  },
+  "osm-finch-n1010674267": {
+   "hold": "no people-free photo found (research): website: only an opening-hours banner graphic"
   },
   "osm-fiskebar-n385181456": {
    "photos": [
@@ -4000,6 +4428,9 @@
     "src": "https://fiskeskur.be/wp-content/uploads/2022/03/Fiskekur_Sander_Buijs1x145-705x705.jpg"
    }
   },
+  "osm-flisvos-n10610872085": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
   "osm-fogos-n4922022153": {
    "photos": [
     {
@@ -4051,6 +4482,9 @@
     "type": "photo",
     "src": "https://foliaresto.be/wp-content/uploads/2023/11/Folia-interieur-tafel-1024x683.jpg"
    }
+  },
+  "osm-fong-mei-n7018065117": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-fons-n6160845704": {
    "photos": [
@@ -4117,6 +4551,27 @@
     "url": "https://www.instagram.com/p/DeMQW4iuigq/"
    }
   },
+  "osm-fuji-san-n1629898288": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-galicia-n6648041312": {
+   "hold": "no people-free photo found (research): no source in data; quick search: reported permanently closed, no own site found"
+  },
+  "osm-gao-dumpling-n5224391976": {
+   "hold": "no people-free photo found (research): possible chain (GAO Dumpling, two Antwerp locations on one site); suggest removal"
+  },
+  "osm-gao-dumpling-n8018696487": {
+   "hold": "no people-free photo found (research): possible chain (GAO Dumpling, two Antwerp locations on one site); suggest removal"
+  },
+  "osm-georges-espressobar-n4826857561": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-georgian-house-antwerpen-n2941633782": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-gigkoftem-n11634940741": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-gistgeest-n13172834802": {
    "photos": [
     {
@@ -4160,6 +4615,21 @@
     "type": "photo",
     "src": "https://www.gistgeest.be/wp-content/uploads/2023/12/20230628_171504-1024x1024.jpg"
    }
+  },
+  "osm-golden-side-n7305923851": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-gorakhali-n5693449265": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-graan-n4477832548": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-grand-cafe-flamingo-n4694114180": {
+   "hold": "no people-free photo found (research): no usable photos: guests visible in all interior shots; others are illustrations"
+  },
+  "osm-grandma-s-pie-n13338553095": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-griekse-taverne-n5141283953": {
    "photos": [
@@ -4205,6 +4675,12 @@
     "src": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/aQjVA1tW3hVUUyIQN9fW/media/a6a03b82-3a93-47bb-8bd5-cdcff561907b.jpeg"
    }
   },
+  "osm-gusto-italiano-n5691579666": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-gustu-n6938241242": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-harvest-n12460718501": {
    "photos": [
     {
@@ -4249,6 +4725,9 @@
     "src": "https://harvest-antwerp.com/wp-content/uploads/2026/05/2-DSC_6111-scaled.jpg"
    }
   },
+  "osm-hayashi-n4826827307": {
+   "hold": "no people-free photo found (research): website: only stock-looking cherry blossom images"
+  },
   "osm-hechi-n8024838484": {
    "photos": [
     {
@@ -4280,6 +4759,12 @@
     "type": "photo",
     "src": "https://www.hechi.be/wp-content/uploads/2021/11/antwerpen__48_.jpeg"
    }
+  },
+  "osm-helena-kookt-over-n4885753676": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-helios-n7373307283": {
+   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (Berchem coffee shop vs. a Greek restaurant), nothing verifiable"
   },
   "osm-hermanos-burgers-ribs-n6545772771": {
    "photos": [
@@ -4389,6 +4874,18 @@
     "src": "https://hoffys.be/wp-content/uploads/2026/04/HOFFYS-06-GEMARINEERDE-AUBERGINE-HOUMOUS-1_2000px.jpg"
    }
   },
+  "osm-hoi-an-n2281991222": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-holy-guacamoly-n13075065721": {
+   "hold": "no people-free photo found (research): no usable photos: people in images"
+  },
+  "osm-hong-kong-city-n13338543199": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-hopper-n1635538634": {
+   "hold": "no people-free photo found (research): website: event poster and one B&W shot with newspapers (possible printed photos of people)"
+  },
   "osm-horta-grand-cafe-n2367581654": {
    "photos": [
     {
@@ -4420,6 +4917,12 @@
     "type": "photo",
     "src": "https://www.grandcafehorta.be/media/pages/home/26ccf3065c-1699870232/horta-zaal-44-1800x.jpg"
    }
+  },
+  "osm-hot-pot-n8327042582": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-hotel-franq-n8853914979": {
+   "hold": "no people-free photo found (research): no source in data; quick search: restaurant FRANQ at Hotel FRANQ reported closed, not used"
   },
   "osm-huis-de-colvenier-n1426908505": {
    "photos": [
@@ -4520,6 +5023,24 @@
     "type": "photo",
     "src": "https://cdn.prod.website-files.com/62ff586a1030dfba7f40457c/6581551cea74e8b64e50e077_HUMM%20XMAS%20-%20niccola.be-31.jpg"
    }
+  },
+  "osm-i-migliori-n2151674752": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-i-ro-ha-n6274821459": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-il-carpaccio-n4937511004": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-il-carro-n13803905201": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-il-gusto-n2531732461": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-il-postino-n7366336422": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-illyrian-restaurant-bar-n4663295907": {
    "photos": [
@@ -4629,6 +5150,9 @@
     "src": "https://izumi.be/wp-content/uploads/2026/07/hero-banner-1200x800.jpg"
    }
   },
+  "osm-jan-zonder-vrees-n7041453186": {
+   "hold": "no people-free photo found (research): website is a B&B/guesthouse: bedrooms, Brabo statue and city views only"
+  },
   "osm-janya-thai-wok-n9868840608": {
    "photos": [
     {
@@ -4673,6 +5197,47 @@
     "src": "https://www.janya.be/images/gallery_07.jpg"
    }
   },
+  "osm-jardin-public-n322129184": {
+   "photos": [
+    {
+     "src": "https://jardinpublic.be/wp-content/uploads/sites/6/2026/10/Tom-Corremans_2024-02-07-Jardin-Public_007.jpeg",
+     "thumb": "https://jardinpublic.be/wp-content/uploads/sites/6/2026/10/Tom-Corremans_2024-02-07-Jardin-Public_007.jpeg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "jardinpublic.be",
+     "credit_url": "https://jardinpublic.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://jardinpublic.be/wp-content/uploads/sites/6/2026/10/Tom-Corremans_2024-02-07-Jardin-Public_007.jpeg"
+   }
+  },
+  "osm-jerry-s-n7403232905": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-k-bap-korean-cuisine-n6003358724": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-kafeino-n10933962222": {
+   "hold": "no people-free photo found (research): possible chain (Kafeino, several Antwerp branches share one site); suggest removal; site images are stock-looking"
+  },
+  "osm-kafeino-n14277679933": {
+   "hold": "no people-free photo found (research): possible chain (Kafeino, several Antwerp branches share one site); suggest removal; site images are stock-looking"
+  },
+  "osm-kafeino-n4399075674": {
+   "hold": "no people-free photo found (research): possible chain (Kafeino, several Antwerp branches share one site); suggest removal; site images are stock-looking"
+  },
+  "osm-kafeino-n6537356364": {
+   "hold": "no people-free photo found (research): possible chain (Kafeino, several Antwerp branches share one site); suggest removal; site images are stock-looking"
+  },
+  "osm-kai-thai-n7742742654": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-kaiseki-n1996641853": {
    "photos": [
     {
@@ -4693,14 +5258,117 @@
     "src": "https://www.kaiseki-antwerpen.be/Frontend/Images/banner-bg.jpg"
    }
   },
+  "osm-kaizen-n5980843876": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-kapitein-zeppos-n4809730098": {
+   "hold": "no people-free photo found (research): website: only menu graphics and a banner with photos of people"
+  },
+  "osm-kas-w180051326": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-kiekenpaleis-n13641109374": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-kiosk-n4937511005": {
+   "hold": "no people-free photo found (research): no source in data; generic name, nothing verifiable"
+  },
+  "osm-koffie-klub-n14045513601": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-koffiebar-boel-n13793787944": {
    "hold": "no people-free photo found (research): IG: people/hands in nearly all; storefront has unclear window interior; opening-hours graphic"
+  },
+  "osm-koffieklap-n6610901885": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-kofta-house-n6279454156": {
+   "hold": "no people-free photo found (research): no source in data; quick search: reported closed (Feb 2026), no own site"
   },
   "osm-kolonel-coffee-n5188616494": {
    "hold": "no people-free photo found (research): IG/web: people/hands in most; pastry shot has blurred background possibly with passers-by; rest product packshots"
   },
+  "osm-kombine-cadix-n14045184795": {
+   "hold": "no people-free photo found (research): website: only image shows people"
+  },
+  "osm-korsetta-n1810849869": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-krioyo-n10257823241": {
    "hold": "no people-free photo found (research): no website, Instagram embed gave no images: website has no usable large images (only logos/small images)"
+  },
+  "osm-krua-thai-n6250404262": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-kumpir-n6274853393": {
+   "photos": [
+    {
+     "src": "https://www.kumpireethuis.be/wp-content/uploads/2024/04/slider-01.jpg",
+     "thumb": "https://www.kumpireethuis.be/wp-content/uploads/2024/04/slider-01.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "kumpireethuis.be",
+     "credit_url": "https://www.kumpireethuis.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.kumpireethuis.be/wp-content/uploads/2024/04/slider-02.jpg",
+     "thumb": "https://www.kumpireethuis.be/wp-content/uploads/2024/04/slider-02.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "kumpireethuis.be",
+     "credit_url": "https://www.kumpireethuis.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.kumpireethuis.be/wp-content/uploads/2024/04/slider-03.jpg",
+     "thumb": "https://www.kumpireethuis.be/wp-content/uploads/2024/04/slider-03.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "drink",
+     "source": "website",
+     "credit": "kumpireethuis.be",
+     "credit_url": "https://www.kumpireethuis.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.kumpireethuis.be/wp-content/uploads/2024/04/slider-01.jpg"
+   }
+  },
+  "osm-kunthun-2-n4397698115": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-l-isola-di-gio-n4922022154": {
+   "hold": "no people-free photo found (research): website: stock-looking composite banner and facade with diners visible"
+  },
+  "osm-la-boqueria-n6289501690": {
+   "photos": [
+    {
+     "src": "https://www.boqueria.be/wp-content/uploads/2012/03/slide_food_01.jpg",
+     "thumb": "https://www.boqueria.be/wp-content/uploads/2012/03/slide_food_01.jpg",
+     "w": 1600,
+     "h": 1200,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "boqueria.be",
+     "credit_url": "https://www.boqueria.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.boqueria.be/wp-content/uploads/2012/03/slide_food_01.jpg"
+   }
   },
   "osm-la-fontanella-da-enzo-n1644770041": {
    "photos": [
@@ -4758,8 +5426,26 @@
     "src": "https://cdn.website.dish.co/media/2e/88/8306079/La-Fontanella-da-Enzo-IMG-2310-jpeg.jpg"
    }
   },
+  "osm-la-pipe-d-anvers-n4348455389": {
+   "hold": "no people-free photo found (research): website: interior has a figurine bust, terrace shows passers-by, tap has illustrated man, framed portrait"
+  },
+  "osm-la-plazza-n3025995006": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-la-romanesc-n5615202921": {
-   "hold": "no people-free photo found (research): own website from data, Instagram embed gave no images: website timed out"
+   "hold": "no people-free photo found (research): own website from data, Instagram embed gave no images: website timed out; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-la-torre-n3025995007": {
+   "hold": "no people-free photo found (research): no usable photos: only image is stock-looking pizza banner"
+  },
+  "osm-la-trattoria-italiana-n6533875273": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-la-volpe-n4537550190": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-larache-n13943216601": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-las-manas-n5611699521": {
    "photos": [
@@ -4813,6 +5499,47 @@
     "src": "https://www.zooantwerpen.be/images/media-grid-2x/latteria-melkerij-zoo-antwerpen-jonas-verhulst-05052015-24-2.jpg"
    }
   },
+  "osm-le-delieze-sensation-glutine-n6513997947": {
+   "hold": "no people-free photo found (research): no usable photos: stock-looking images (one with a person)"
+  },
+  "osm-le-dix-n6578720533": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-le-john-n5980843880": {
+   "photos": [
+    {
+     "src": "https://lejohn.be/wp-content/uploads/2021/01/john2-1.jpg",
+     "thumb": "https://lejohn.be/wp-content/uploads/2021/01/john2-1.jpg",
+     "w": 1243,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "lejohn.be",
+     "credit_url": "https://lejohn.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://lejohn.be/wp-content/uploads/2021/01/john2-1.jpg"
+   }
+  },
+  "osm-le-royal-cafe-n5333027323": {
+   "hold": "no people-free photo found (research): website: images show staff/guests (incl. figure at bar in dessert shot)"
+  },
+  "osm-le-sud-n6958627485": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-le-sud-n6958630685": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-le-thai-n6262551127": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-leeuwke-n12875211527": {
+   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous ('t Leeuwke zoo stall vs. other 't Leeuwke places), nothing verifiable"
+  },
   "osm-lella-n13432829472": {
    "photos": [
     {
@@ -4859,6 +5586,21 @@
   },
   "osm-lentrepot-du-congo-n1620771354": {
    "hold": "no people-free photo found (research): IG/web: people or hands in all images, rest is a holiday graphic"
+  },
+  "osm-lepicerie-du-cirque-n5174725121": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_DATE_INVALID); no Instagram on record"
+  },
+  "osm-les-saveurs-de-yamada-n5469861747": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-life-is-art-n6509670543": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-lima-n8419353421": {
+   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (generic name; Lima Nikkei exists but could not be matched to this entry)"
+  },
+  "osm-litle-bun-n6509670546": {
+   "hold": "no people-free photo found (research): no usable photos: people in images"
   },
   "osm-little-beirut-n5910172614": {
    "photos": [
@@ -4928,6 +5670,12 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DdGybxrlWbR/"
    }
+  },
+  "osm-little-ethiopia-n5155325635": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-little-ethiopian-n5236118810": {
+   "hold": "no people-free photo found (research): no usable photos: people in all images"
   },
   "osm-little-seoul-n11342145451": {
    "photos": [
@@ -5029,6 +5777,15 @@
     "src": "https://littletbilisi.be/wp-content/uploads/2025/06/Little_Tbilisi_foto_2-scaled.jpg"
    }
   },
+  "osm-lombardia-n476581784": {
+   "hold": "no people-free photo found (research): no source in data; quick search: reported closed (2024), no own site"
+  },
+  "osm-lucien-n7902971736": {
+   "hold": "no people-free photo found (research): no usable photos: people and hands in images"
+  },
+  "osm-lung-wah-n6710910566": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-lunsjes-n7652497506": {
    "photos": [
     {
@@ -5048,6 +5805,18 @@
     "type": "photo",
     "src": "https://lunsjes.be/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGbHVuc2plcy5iZSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAyNiUyRjA0JTJGYzQ2NmE0ZGRiOGZlYjc3MDBiZjVlMjhkNDYzMDkzOTY4MjVlNGVmNy5wbmcmY2FjaGVNYXJrZXI9MTc4NTIyMzYzMy0zNzIxMzYmdG9rZW49MTkxYzRkMTMxOWRlMTQ3OQ.q.png"
    }
+  },
+  "osm-mai-thai-n5260810812": {
+   "hold": "no people-free photo found (research): website: stock-looking images (wine, vineyard, generic dishes) and a statue photo"
+  },
+  "osm-maiaysia-n1260491707": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-maison-tartine-n5994111147": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-malaysian-noodles-n6710910568": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-mampoko-n6119561686": {
    "photos": [
@@ -5069,6 +5838,27 @@
     "src": "https://images.squarespace-cdn.com/content/v1/5d03618e8520ae000166f46d/1574240473735-AOOWCIDTOM136JD0O6OQ/MAMPOKO+JULI+2019-79_2000px.jpg?format=1500w"
    }
   },
+  "osm-mandarin-n1260491706": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-mandraki-n5126844407": {
+   "hold": "no people-free photo found (research): website: only interior has a fresco mural that may depict figures (rejected in doubt); others are logos"
+  },
+  "osm-manfar-n2419216983": {
+   "hold": "no people-free photo found (research): no usable photos: only image includes wall artwork that may depict a figure"
+  },
+  "osm-marcel-n4769796429": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-marche-couverts-n9503615273": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-mario-restaurant-n6432685608": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-maritime-n1423849929": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-marmari-n9605940574": {
    "posts": [
     {
@@ -5081,6 +5871,12 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeL7qHgqbNX/"
    }
+  },
+  "osm-matiate-n5673441159": {
+   "hold": "no people-free photo found (research): website: interior shows a guest; facade has figures visible through glass"
+  },
+  "osm-mattheus-b-n5615179728": {
+   "hold": "no people-free photo found (research): website: stock/catalogue-looking product shots (tea leaves, ceramics, cup on books); others show people/hands"
   },
   "osm-may-s-n5015620465": {
    "photos": [
@@ -5145,6 +5941,12 @@
     "type": "photo",
     "src": "https://images.unsplash.com/photo-1655304015933-731aa5098216"
    }
+  },
+  "osm-meat-eat-n2455491149": {
+   "hold": "no people-free photo found (research): own website from data (gastro-by-mo.be): end-of-run retry loaded but only image was a blank white graphic; no Instagram on record"
+  },
+  "osm-melbourne-coffee-n4825491336": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-melkerij-nachtegalenpark-w141046220": {
    "photos": [
@@ -5222,6 +6024,18 @@
     "src": "https://metsuyan.be/wp-content/uploads/2025/11/WhatsApp-Image-2025-11-10-at-15.29.43_956824c1.jpg"
    }
   },
+  "osm-mico-jon-n10170170417": {
+   "hold": "no people-free photo found (research): website: only interior has a large illustrated artwork that may depict figures (rejected in doubt)"
+  },
+  "osm-mie-katoen-n5677410929": {
+   "hold": "no people-free photo found (research): no usable photos: interior shows a blurred passer-by, other image stock-looking, rest are menus"
+  },
+  "osm-mille-delices-food-drinks-n10780746740": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-mimis-n8922120000": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-minato-n1618702948": {
    "photos": [
     {
@@ -5253,6 +6067,15 @@
     "type": "photo",
     "src": "https://i0.wp.com/minatoantwerpen.com/wp-content/uploads/2023/05/cropped-0-96931700-1351861531.jpg?fit=1200%2C519&ssl=1"
    }
+  },
+  "osm-mint-n1811187404": {
+   "hold": "no people-free photo found (research): website: images show crowds/people"
+  },
+  "osm-mister-wok-n11074286636": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-mister-wok-n5694505121": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-mistral-n13514726684": {
    "photos": [
@@ -5322,6 +6145,15 @@
     "src": "https://fr-mistral.be/wp-content/uploads/2023/08/817408bc-8e3b-4ea5-bb3f-bc9a8f5a7966-e1691142965931.jpg"
    }
   },
+  "osm-mistral-n1523525251": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-moment-n11693675913": {
+   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (Het Moment, Burgstraat, reported closed), nothing verifiable"
+  },
+  "osm-monkey-king-n4811800391": {
+   "hold": "no people-free photo found (research): website: only logo"
+  },
   "osm-monroe-n5224427511": {
    "photos": [
     {
@@ -5390,6 +6222,18 @@
     "src": "https://www.bistromonroe.be/wp-content/uploads/2022/01/01_Monroe_Interieur_14-01-22__56.jpg"
    }
   },
+  "osm-mooy-beautystore-food-drinks-n6257257585": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-morso-n6864934622": {
+   "hold": "no people-free photo found (research): no usable photos: bartender, framed portraits behind bar, rider statue on terrace, rest too dark"
+  },
+  "osm-mosob-eet-cafe-n13334352101": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-mostar-n6222396049": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-msemen-n11042708161": {
    "photos": [
     {
@@ -5421,6 +6265,15 @@
     "type": "photo",
     "src": "https://msemen.be/wp-content/uploads/2020/06/thumbnail_48b535b0-d92e-4c85-bff8-33bbf43e4166-e1598880549279.jpg"
    }
+  },
+  "osm-mundana-n6259962245": {
+   "hold": "no people-free photo found (research): website: only image shows guests through the window"
+  },
+  "osm-muradim-n1618702953": {
+   "hold": "no people-free photo found (research): website has no usable images (the only image failed to download)"
+  },
+  "osm-napo-s-n4416692889": {
+   "hold": "no people-free photo found (research): website images look AI-generated, not used"
   },
   "osm-nawaab-n13334352201": {
    "photos": [
@@ -5481,6 +6334,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeuI6VPhhTU/"
    }
+  },
+  "osm-nemo-s-seafood-sushi-n6938241241": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-nevizade-n6222396044": {
    "photos": [
@@ -5582,6 +6438,15 @@
     "src": "https://newcapital.be/wp-content/uploads/2020/06/newcapital_8-787x787.jpg"
    }
   },
+  "osm-ni-shifu-n5650428320": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-nimmanhaemin-n7090748928": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-ninja-n1620771330": {
+   "hold": "no people-free photo found (research): website has no usable large images (only a logo)"
+  },
   "osm-niya-n14045511101": {
    "photos": [
     {
@@ -5682,6 +6547,18 @@
     "src": "https://images.squarespace-cdn.com/content/v1/645ba4d59e5c0d5c46138b57/99a0beca-5e6d-4035-ac4a-d7f205e588ac/DSC_1631.jpg?format=1500w"
    }
   },
+  "osm-nonsolote-n6298603474": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-nora-indian-n5713136701": {
+   "hold": "no people-free photo found (research): website: only stock-looking images, halal logo and doodle pattern"
+  },
+  "osm-nova-n1810844335": {
+   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (generic name; Nova Pinseria is a recent opening, not matched to this entry)"
+  },
+  "osm-nuoc-nam-n10139550226": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
   "osm-nuova-era-n10310817249": {
    "photos": [
     {
@@ -5778,6 +6655,15 @@
     "src": "https://octaveantwerp.be/assets/Octave/Beelden/_cropMedium/9571/Chocolate-Nation-20190528-204.webp"
    }
   },
+  "osm-ontbijt-al-karam-w506652699": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-oost-azie-n6680458963": {
+   "hold": "no people-free photo found (research): no usable photos: stock-looking backgrounds and blurred people"
+  },
+  "osm-oro-nera-n6222396043": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-orymaz-n4734975173": {
    "photos": [
     {
@@ -5822,6 +6708,18 @@
     "src": "https://www.orymaz.be/images/slide9.jpg"
    }
   },
+  "osm-os-pedros-n6648041311": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-overvloed-n5713136703": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-overzee-n5713136704": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-pa-co-n6250404264": {
+   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (no match for 'pa co'; Paco Rodizio not verifiable as this entry)"
+  },
   "osm-paesano-n11653264949": {
    "photos": [
     {
@@ -5865,6 +6763,15 @@
     "type": "photo",
     "src": "https://paesano.be/wp-content/themes/paesano/assets/img/food-3.webp"
    }
+  },
+  "osm-pampas-rodizio-n4946000522": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-paraiso-do-paladar-n2659901670": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-parillada-argentina-n1644770043": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-park-west-w184336600": {
    "photos": [
@@ -5930,6 +6837,71 @@
     "src": "https://pasta-hippo-vino.be/wp-content/uploads/2024/11/Pasta_2-1219x900.jpg"
    }
   },
+  "osm-pasta-rigoletto-n14053289172": {
+   "hold": "no people-free photo found (research): website: only image is stock-looking"
+  },
+  "osm-pastificio-da-lory-n7272869197": {
+   "hold": "no people-free photo found (research): website: stock-looking images, people/hands"
+  },
+  "osm-persepolis-n1775403977": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-petit-boeuf-n5059044068": {
+   "photos": [
+    {
+     "src": "https://petitboeuf.be/wp-content/uploads/2021/09/IMG_8714.jpg",
+     "thumb": "https://petitboeuf.be/wp-content/uploads/2021/09/IMG_8714.jpg",
+     "w": 1334,
+     "h": 889,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "petitboeuf.be",
+     "credit_url": "https://petitboeuf.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://petitboeuf.be/wp-content/uploads/2021/09/f3352be7-b353-4742-83e3-7742f8b852f7.jpg",
+     "thumb": "https://petitboeuf.be/wp-content/uploads/2021/09/f3352be7-b353-4742-83e3-7742f8b852f7.jpg",
+     "w": 1600,
+     "h": 1230,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "petitboeuf.be",
+     "credit_url": "https://petitboeuf.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://petitboeuf.be/wp-content/uploads/2021/09/0221ee21-d3c3-40a0-af7c-f38269a5f2fd.jpg",
+     "thumb": "https://petitboeuf.be/wp-content/uploads/2021/09/0221ee21-d3c3-40a0-af7c-f38269a5f2fd.jpg",
+     "w": 1600,
+     "h": 1066,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "petitboeuf.be",
+     "credit_url": "https://petitboeuf.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://petitboeuf.be/wp-content/uploads/2021/09/IMG_8730.jpg",
+     "thumb": "https://petitboeuf.be/wp-content/uploads/2021/09/IMG_8730.jpg",
+     "w": 1334,
+     "h": 889,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "petitboeuf.be",
+     "credit_url": "https://petitboeuf.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://petitboeuf.be/wp-content/uploads/2021/09/IMG_8714.jpg"
+   }
+  },
   "osm-petite-renaissance-n11074286634": {
    "photos": [
     {
@@ -5986,6 +6958,30 @@
     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/petiterenaissance.be/media/petiterenaissance.be/onewebmedia/IMG_2288.jpg?etag=%22d4a374e092050eb0ac1f0689468dc1a3%22&sourceContentType=image%2Fjpeg&withoutEnlargement&resize=2500&quality=85&progressive"
    }
   },
+  "osm-pho-viet-n1638728170": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-piadina-italiana-w498298233": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-pici-n5613990729": {
+   "hold": "no people-free photo found (research): possible chain (Pici: three Antwerp locations on one site); suggest removal"
+  },
+  "osm-pici-n7235151165": {
+   "hold": "no people-free photo found (research): possible chain (Pici: three Antwerp locations on one site); suggest removal"
+  },
+  "osm-picniq-koreanen-eats-n5225655965": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-pico-n5584622683": {
+   "hold": "no people-free photo found (research): website has no usable large images (only an illustration)"
+  },
+  "osm-pietrain-n4946103693": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-pimento-n12685132801": {
+   "hold": "no people-free photo found (research): website: only image is a promo graphic with people"
+  },
   "osm-plaasjkaffee-w44860305": {
    "photos": [
     {
@@ -6005,6 +7001,15 @@
     "type": "photo",
     "src": "https://usercontent.one/wp/www.plaasj.be/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-08-at-09.56.27-1-scaled-e1770908665716.jpeg"
    }
+  },
+  "osm-planttrekkerij-n13607927401": {
+   "hold": "no people-free photo found (research): website: all images show people/hands"
+  },
+  "osm-ploy-pochana-n1638728145": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-pokkerito-n9689443695": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-polly-n12118235876": {
    "photos": [
@@ -6061,6 +7066,24 @@
     "type": "photo",
     "src": "https://scontent-den2-1.cdninstagram.com/v/t51.82787-15/747674561_17951002137208730_8360563082656522856_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=XXlhWAB8X28Q7kNvwFWO4_N&_nc_oc=AdpDWGiFpGLRXGvUtDwR1FRc04dokQWx-XXuylbYmZNlZQm2JdXdJuoRvcjhwgizqeg&_nc_zt=23&_nc_ht=scontent-den2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=LYmMHk07Z0eWWKkxvwJ_3A&_nc_tpa=Q5bMBQIu8JE91yqgmky_yoLEpi9tPyiNe-8z0F9AlBr8FIqO8qQPv04ZQLCfGutMZ53tuDTe6Q5yBnLl&oh=00_AQPlkCQxH3kxEcnYoUZy8g30hdz0_jVVWYHKh8_RvbDsUw&oe=6AE4AB9B"
    }
+  },
+  "osm-postuur-n7321150183": {
+   "hold": "no people-free photo found (research): no usable photos: people and hands in images"
+  },
+  "osm-puertos-resto-vishandel-n6997352309": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-quite-frankly-american-diner-n11928408528": {
+   "hold": "no people-free photo found (research): no usable photos: only image shows a passer-by"
+  },
+  "osm-rachel-s-falafel-n6124099058": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-ray-s-coffee-n9933415748": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-refill-n5316556194": {
+   "hold": "no people-free photo found (research): website: bartender photo and blurred stock-looking backgrounds with people"
   },
   "osm-renaissance-n5301889757": {
    "photos": [
@@ -6138,6 +7161,15 @@
     "src": "https://cdn.prod.website-files.com/627a41015d0e9d67fae12334/6aaa6f86a76ba2d3e487823d_repasse-static-10.avif"
    }
   },
+  "osm-restaurant-arive-n12076615140": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-restaurant-gueliz-n6990975897": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-restaurant-jacob-n5916743786": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-restaurant-lokal-n932290911": {
    "photos": [
     {
@@ -6157,6 +7189,9 @@
     "type": "photo",
     "src": "https://i0.wp.com/restaurantlokal.be/wp-content/uploads/2021/05/vlam1x1-scaled.jpg?w=900&ssl=1"
    }
+  },
+  "osm-reuzenhof-n5922139326": {
+   "hold": "no people-free photo found (research): no usable photos: only image shows people"
   },
   "osm-riku-ramen-n12672542701": {
    "photos": [
@@ -6178,6 +7213,9 @@
     "src": "https://static.wixstatic.com/media/c143a0_9d7280bd32334292ab47f4e3422c6328~mv2.jpg/v1/fill/w_1220,h_788,al_c,q_85,enc_avif,quality_auto/c143a0_9d7280bd32334292ab47f4e3422c6328~mv2.jpg"
    }
   },
+  "osm-roest-n4730799362": {
+   "hold": "no people-free photo found (research): website: logo-overlay banner, event promo, terrace full of guests"
+  },
   "osm-roji-n4146451384": {
    "photos": [
     {
@@ -6197,6 +7235,15 @@
     "type": "photo",
     "src": "https://cdn.prod.website-files.com/6a3946f2d36279ee10294d90/6a8ee017bc3c407877db8128__SF44214.jpg"
    }
+  },
+  "osm-roll-boll-n12310531882": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none (Roll&Bowl Deurne is a different address)"
+  },
+  "osm-roma-n1644770044": {
+   "hold": "no people-free photo found (research): website has no usable large images (only a logo)"
+  },
+  "osm-royal-sweets-anas-n13338508341": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-royal-thai-n4608129996": {
    "photos": [
@@ -6306,6 +7353,12 @@
     "src": "https://static.wixstatic.com/media/4e2c20_51c40f4da2e14e779394574bc36a7f39%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/4e2c20_51c40f4da2e14e779394574bc36a7f39%7Emv2.jpg"
    }
   },
+  "osm-ruba-fresh-food-n13284692647": {
+   "hold": "no people-free photo found (research): no usable photos: only interior shows a poster with a human figure; other is a logo"
+  },
+  "osm-ruby-n4537604389": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-sabatino-n6188059472": {
    "photos": [
     {
@@ -6325,6 +7378,9 @@
     "type": "photo",
     "src": "https://www.restaurantsabatino-antwerpen.be/wp-content/uploads/2023/02/sabatino.jpg"
    }
+  },
+  "osm-saint-pol-n11911920756": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-salon-magnus-traiteur-w353285638": {
    "photos": [
@@ -6402,6 +7458,12 @@
     "src": "https://static.showit.co/800/Ub646kdT_CVtmpz4s4OZNA/330135/samenloop_restaurant_antwerpen_2042.jpg"
    }
   },
+  "osm-sano-n7280393652": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-satay-n5991458052": {
+   "hold": "no people-free photo found (research): no usable photos: interior has a mural of a man, other is a logo collage"
+  },
   "osm-savanne-restaurant-w27268548": {
    "photos": [
     {
@@ -6422,6 +7484,27 @@
     "src": "https://www.zooantwerpen.be/images/media-grid-2x/restaurant-savanne-zoo-antwerpen-jonas-verhulst-13062016-40.jpg"
    }
   },
+  "osm-schaftlokaal-410-n6515410488": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-schipperskipje-n10292046498": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-scotties-n6013562902": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-sei7en-steakhouse-n6990975896": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-seoul-club-house-n5015703514": {
+   "hold": "no people-free photo found (research): no usable photos: people, hands or reflections of people in all images"
+  },
+  "osm-shamra-n385181258": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-sherpa-everest-restaurant-cafe-n1639530479": {
+   "hold": "no people-free photo found (research): own website from data: first gather hung, end-of-run retry loaded but no usable images (only file was an HTML page); no Instagram on record"
+  },
   "osm-si-bon-n13019783701": {
    "photos": [
     {
@@ -6441,6 +7524,12 @@
     "type": "photo",
     "src": "https://static.wixstatic.com/media/8b1a13_d4c93bf58e94467597861d489e6af925%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/8b1a13_d4c93bf58e94467597861d489e6af925%7Emv2.jpg"
    }
+  },
+  "osm-siam-sally-n7005616468": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-siam-senses-n1638728129": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-sifa-n1703301935": {
    "photos": [
@@ -6517,6 +7606,12 @@
     "type": "photo",
     "src": "https://simoneskitchen.com/wp-content/uploads/2025/12/SK-BB.png"
    }
+  },
+  "osm-sinbad-n3724696631": {
+   "hold": "no people-free photo found (research): no usable photos: stock-looking images, blurred background with people"
+  },
+  "osm-sint-jan-n11693675914": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-sir-anthony-van-dijck-n4144339591": {
    "photos": [
@@ -6602,6 +7697,18 @@
     "src": "img/places/antwerpen/osm-smudged-n3240742468/1-bar-1600.webp"
    }
   },
+  "osm-snack-rif-n11335350253": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-snackbar-la-dany-n13338558258": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-sofie-s-place-n7291615328": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-sol-y-mar-n3528033154": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-sommar-wintar-n10779278340": {
    "photos": [
     {
@@ -6621,6 +7728,12 @@
     "type": "photo",
     "src": "https://images.squarespace-cdn.com/content/v1/6257d932e22ae3599cd7b605/1790169092188-ZOAN0TEG97N7Q7578YLP/Wintar_ArthurVermeylen_260227_025.jpg?format=1500w"
    }
+  },
+  "osm-sonseveria-n6098555087": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-spati-n1105877723": {
+   "hold": "no people-free photo found (research): no usable photos: Instagram images show people, text graphics or unrelated subjects"
   },
   "osm-speciale-belge-taproom-n5538335121": {
    "photos": [
@@ -6644,6 +7757,9 @@
   },
   "osm-spice-bazaar-n12110023101": {
    "hold": "no people-free photo found (research): own website from data, Instagram embed gave no images: website has no usable large images (only logos/small images)"
+  },
+  "osm-spritz-n4266000491": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
   },
   "osm-staff-s-kantine-w499125770": {
    "photos": [
@@ -6688,6 +7804,69 @@
     "type": "photo",
     "src": "https://www.staffskantine.be/assets/img/gallery/gallery-4.jpg"
    }
+  },
+  "osm-starfish-coffee-n7124659487": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-steamy-n4756224740": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-sukoon-coffee-n6003358732": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-sumac-kammenstraat-n9379359917": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-sushi-asian-cuisine-n3025995008": {
+   "hold": "no people-free photo found (research): no source in data; quick search found no site that clearly matches (name is generic)"
+  },
+  "osm-sushi-berchem-n8655862136": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-sushi-eiland-n7996910129": {
+   "hold": "no people-free photo found (research): no source in data; quick search: company seems to trade as Muromaki now, not confirmed, so no source used"
+  },
+  "osm-sushi-house-n5693449267": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-sushi-kinza-n13338496139": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-sushi-omega-n6001950069": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-t-braboke-n11480620369": {
+   "hold": "no people-free photo found (research): no usable photos: people, text graphics and a statue"
+  },
+  "osm-t-hof-van-eden-n1783469363": {
+   "hold": "no people-free photo found (research): no usable photos: terrace/interior images show guests, steak image stock-looking, table flat-lay has reflections in sunglasses (rejected in doubt)"
+  },
+  "osm-t-hofke-n6205908272": {
+   "hold": "no people-free photo found (research): no usable photos: guests visible in courtyard, wall of framed figure drawings in dining room"
+  },
+  "osm-t-lastig-portret-w116180040": {
+   "hold": "no people-free photo found (research): no usable photos: people in windows; other image stock-looking"
+  },
+  "osm-t-pakhuis-n1618703049": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-t-putke-n6179181367": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-t-rico-n6312724304": {
+   "hold": "no people-free photo found (research): no source in data; quick search: possibly Taqueria Rico but not confirmed, so no source used"
+  },
+  "osm-t-soet-brood-n1629898250": {
+   "hold": "no people-free photo found (research): no usable photos: only image shows a person's arm at the edge"
+  },
+  "osm-t-spreeuwke-n6225842205": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-t-werkhuys-n7005616471": {
+   "hold": "no people-free photo found (research): no usable photos: people in all images"
+  },
+  "osm-taj-mahal-n1260491708": {
+   "hold": "no people-free photo found (research): no usable photos: logo, AI/stock-looking food image, and a mural with small figures"
   },
   "osm-taketwo-n5673441161": {
    "photos": [
@@ -6809,6 +7988,27 @@
     "src": "https://www.tamtamberchem.be/fotos/homeannouncement_half_flyer/4/thumb/maw8090group4jpg.jpg"
    }
   },
+  "osm-tandoori-pasta-n6938241234": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-tang-s-n5731284479": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-tante-yvonne-n5109307149": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-tapabar-n6250404263": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-tarbouch-n6122316435": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-taverne-de-grave-n9924591781": {
+   "hold": "no people-free photo found (research): no usable photos: dining room has cherub figurines on the wall"
+  },
+  "osm-tawan-n7018065115": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
   "osm-tezol-n4397811332": {
    "photos": [
     {
@@ -6829,6 +8029,9 @@
     "src": "https://cdn.website.dish.co/media/80/bd/1106797/Tezol-tezol.jpg"
    }
   },
+  "osm-thai-wok-express-n11626450634": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
   "osm-thamel-restaurant-bar-n13853665501": {
    "photos": [
     {
@@ -6848,6 +8051,9 @@
     "type": "photo",
     "src": "https://images.unsplash.com/photo-1620287061103-5f12d822b0a5?auto=format&fit=crop&w=1440"
    }
+  },
+  "osm-the-best-chinese-restaurant-n1638728164": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
   },
   "osm-the-bistro-n13311353101": {
    "photos": [
@@ -6880,6 +8086,24 @@
     "type": "photo",
     "src": "https://thebistro.be/media/pages/home/cf588f5cd5-1689588699/thebistro-64-1800x.jpg"
    }
+  },
+  "osm-the-breakfast-club-n13672713861": {
+   "hold": "no people-free photo found (research): no usable photos: logo and a photo with hands/arm"
+  },
+  "osm-the-coffee-corner-n13514726697": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-the-dough-bar-n6253448922": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-the-garden-n13517338099": {
+   "hold": "no people-free photo found (research): no usable photos: website images look AI-generated/render; site match also unsure"
+  },
+  "osm-the-legacy-beer-sports-n7280234024": {
+   "hold": "no people-free photo found (research): no source in data; quick search: business listed as bankrupt (probably closed)"
+  },
+  "osm-the-pharmacy-n6259847704": {
+   "hold": "no people-free photo found (research): no usable photos: bartenders/hands in most images; cocktail image has unclear reflections in table (rejected in doubt)"
   },
   "osm-the-village-n6938241238": {
    "photos": [
@@ -6949,6 +8173,18 @@
     "src": "https://www.thevillageantwerp.be/wp-content/uploads/2021/10/sushi-sashimi.jpg"
    }
   },
+  "osm-thuy-hanoi-n10856640382": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-tjoung-tjoung-n1641068384": {
+   "hold": "no people-free photo found (research): no usable photos: only stock-looking Thai patterns, statues and figures"
+  },
+  "osm-tomi-sushi-n4351577389": {
+   "hold": "no people-free photo found (research): no usable photos: only a bamboo-mat texture image"
+  },
+  "osm-tong-mein-n5959810551": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-tota-n6279454159": {
    "photos": [
     {
@@ -6993,6 +8229,15 @@
     "src": "https://static.wixstatic.com/media/873fe3_07fd38d2452e42cfaf8a9b08dee8a0c5~mv2.jpeg/v1/fill/w_1280,h_560,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/873fe3_07fd38d2452e42cfaf8a9b08dee8a0c5~mv2.jpeg"
    }
   },
+  "osm-trattoria-pomodoro-60-n13910503901": {
+   "hold": "no people-free photo found (research): no usable photos: stock-looking pot and a photo of Antwerp Central station, not the restaurant"
+  },
+  "osm-twins-cafe-n13514726693": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-twins-house-n13514726694": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-u-w483462288": {
    "photos": [
     {
@@ -7036,6 +8281,9 @@
     "type": "photo",
     "src": "https://u-eatsleep.be/swfiles/files/Ueat_woodmonkeyphotos_1-1.jpg?nc=1699967285"
    }
+  },
+  "osm-umami-w499602548": {
+   "hold": "no people-free photo found (research): no usable photos: buffet photo has a dark blurred foreground that may be a person (rejected in doubt); other image is a graphic"
   },
   "osm-umi-n6176652012": {
    "photos": [
@@ -7133,6 +8381,15 @@
     "src": "https://v.restaurant/fashiondistrict/wp-content/uploads/sites/23/2024/05/4-731x1024.jpg"
    }
   },
+  "osm-van-dijck-n6188060085": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-velazquez-n6329631314": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-velka-koffie-n12612864302": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-veranda-n4946103692": {
    "photos": [
     {
@@ -7184,6 +8441,9 @@
     "type": "photo",
     "src": "https://static.wixstatic.com/media/70940a_0396d17b9e5746b2ae32b9b1a5b69d71.jpg/v1/fill/w_1280,h_1073,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70940a_0396d17b9e5746b2ae32b9b1a5b69d71.jpg"
    }
+  },
+  "osm-vertigo-cocktailbar-n1523336728": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-villegas-n11338689275": {
    "photos": [
@@ -7253,6 +8513,12 @@
     "src": "https://irp.cdn-website.com/9da2b03d/dms3rep/multi/opt/Villegas_0090+1-1440w.jpg"
    }
   },
+  "osm-viola-n5980843879": {
+   "hold": "no people-free photo found (research): no usable photos: website images are all stock photos"
+  },
+  "osm-vis-amine-n6724799337": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
   "osm-vitis-n6098555088": {
    "photos": [
     {
@@ -7297,6 +8563,15 @@
     "src": "https://primary.jwwb.nl/public/t/d/b/temp-uulhuvwlgwcochvujxbo/9gulle/CE1727C4-FC40-4988-AD08-1B727FC5914A.jpeg?enable-io=true&enable=upscale&fit=bounds&width=1200"
    }
   },
+  "osm-volef-s-n4769840640": {
+   "hold": "no people-free photo found (research): no usable photos: chef portrait and a stock-looking cabbage close-up"
+  },
+  "osm-wabi-n7346608657": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-wah-kel-n5694462727": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_AUTHORITY_INVALID); no Instagram on record"
+  },
   "osm-walrus-n1636652089": {
    "photos": [
     {
@@ -7328,6 +8603,21 @@
     "type": "photo",
     "src": "https://images.squarespace-cdn.com/content/v1/5d9b32d26587c20b1c10ec79/1570459035855-4HF5504I80PPLNDSQ5SR/27545626_1723271721062074_7032347114769274902_n.jpg?format=750w"
    }
+  },
+  "osm-walvis-n5300776425": {
+   "hold": "no people-free photo found (research): no usable photos: logo and a photo with a person"
+  },
+  "osm-wanli-kitchen-n1638728152": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-wattman-n7265644116": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-wayta-n6429151257": {
+   "hold": "no people-free photo found (research): no usable photos: counter photo has an illustrated figure on the wall; other image is a logo"
+  },
+  "osm-wijnbar-niroen-n11693621685": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-wijnbistro-patine-n1635538670": {
    "photos": [
@@ -7373,6 +8663,27 @@
     "src": "https://wijnbistropatine.be/wp-content/uploads/2025/05/Patine-februari-2023_5396_lage-resolutie_websize.jpg"
    }
   },
+  "osm-wild-project-n5419041510": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-win-s-n13074395757": {
+   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-windkracht-12-w239552389": {
+   "hold": "no people-free photo found (research): no source in data; quick search: own website says the restaurant is temporarily closed"
+  },
+  "osm-winebar-casals-n5996361947": {
+   "hold": "no people-free photo found (research): website in data is an unrelated consulting company (Casals' Company), not the wine bar; no Instagram on record"
+  },
+  "osm-wok-more-n13514726685": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-wolf-sharing-foodmarket-n13657953765": {
+   "hold": "no people-free photo found (research): no usable photos: people at table; others are logos/graphics"
+  },
+  "osm-xaverius-n2407511231": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
   "osm-yalla-yalla-n11055776206": {
    "photos": [
     {
@@ -7392,6 +8703,12 @@
     "type": "photo",
     "src": "https://yallayalla.be/app/uploads/2023/11/yy-header-1024x597.png"
    }
+  },
+  "osm-yam-thai-n2529429800": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
+  "osm-yukinii-antwerpen-n8435556618": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-zafraan-n5300913888": {
    "photos": [
@@ -7461,6 +8778,9 @@
     "src": "https://www.zafraan.be/wp-content/uploads/2023/11/AZ2A0024.jpg"
    }
   },
+  "osm-zagreb-n4770711616": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+  },
   "osm-zaowang-n4146451387": {
    "photos": [
     {
@@ -7500,6 +8820,12 @@
     "type": "photo",
     "src": "https://zaowang.be/_astro/header-centrum-interior-dining-enhanced.B8i_nxLV_1tY8X3.jpg"
    }
+  },
+  "osm-zirkey-n5155330956": {
+   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+  },
+  "osm-zuid-cafe-n4960325426": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "paloma": {
    "photos": [

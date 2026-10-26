@@ -644,13 +644,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-house-of-waffles-n13310397201": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/13310397201"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-huset-n12184172391": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -659,13 +652,6 @@
    "basis": "HappyCow listing",
    "hcName": "HUSET",
    "hcInfo": "Cafe offering vegan choices such as scones, brownies, hummus or avocado sandwiches, spinach & pomegranate toast and oat milk for drinks. Outdoor seating. Mon-Fri 11:00-18:00"
-  },
-  "osm-ichi-bao-n10081473802": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/10081473802"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-illyrian-n7079394606": {
    "veggieLevel": "vegan-friendly",
@@ -797,15 +783,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-meshur-adyaman-cig-koftecisi-n11426088978": {
-   "veggieLevel": "vegetarian",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "note": "HappyCow: çiğ köfte (bulgur, walnuts, spices), falafel; \"Reported fully vegetarian March 2025\".",
-   "basis": "verified",
-   "checked": "2026-10-20"
-  },
   "osm-mevlana-42-n11516571366": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -856,15 +833,6 @@
    "basis": "HappyCow listing",
    "hcName": "Muday",
    "hcInfo": "Serves meat, vegan options available. Ethiopian restaurant offering a separate vegan menu. Accepts credit cards. Tue-Sun 18:00-22:00"
-  },
-  "osm-myst-n4395300769": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Myst",
-   "hcInfo": "Tattoo shop and cafe offering plant-based milk with coffee, vegan hot chocolate and pastries. Outdoor seating. Accepts credit cards. Tue-Sat 10:00-18:00"
   },
   "osm-noah-w430755898": {
    "veggieLevel": "veggie-friendly",
@@ -1053,16 +1021,6 @@
    "basis": "HappyCow listing",
    "hcName": "Royal India",
    "hcInfo": "Serves meat, vegan options available. Indian restaurant with a large selection of both vegetarian and vegan dishes including starters, main courses, and plain and garlic vegan naan.  Tue 18:00-23:00, Wed-Sun 12:00-14:30, Wed-Fri 18:00-22:00"
-  },
-  "osm-ruba-n10609073783": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/10609073783"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "RUBA - Ghent",
-   "hcInfo": "Serves meat, vegan options available. Health-focused restaurant serving a variety of bowls. Offers custom vegan bowls, crispy tofu bowl, olive & hummus bowl, protein flapjacks and more. One of a few locations. Accepts credit cards. Mon-Sun "
   },
   "osm-rumi-n7177919608": {
    "veggieLevel": "veggie-friendly",

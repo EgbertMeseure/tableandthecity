@@ -562,6 +562,160 @@
    ],
    "kind": "restaurant group",
    "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Fish & chips chain (Brussels, Antwerpen, Gent ...)."
+  },
+  {
+   "name": "Scopa",
+   "patterns": [
+    "scopa\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): focacceria chain, 14 sites in Belgium + franchising (scopafoca.it)."
+  },
+  {
+   "name": "Ruba",
+   "patterns": [
+    "ruba$",
+    "ruba (gent|antwerpen|leuven|brussel)"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): healthy-bowl chain: Leuven x2, Gent, Antwerpen, Brussel (rubafood.com/locations)."
+  },
+  {
+   "name": "Tom & Della's",
+   "patterns": [
+    "tom ?(&|and) ?dell?a'?s\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Compass Group takeaway brand (Gent, Brugge, Antwerpen, Brussel, Utrecht, Lille)."
+  },
+  {
+   "name": "Meşhur Adıyaman Çiğ Köftecisi",
+   "patterns": [
+    "meshur ad[iy]?[iy]?aman",
+    "ad[iy]?[iy]?aman cig kofte"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Turkish çiğ köfte franchise brand."
+  },
+  {
+   "name": "Joe & The Juice",
+   "patterns": [
+    "joe (&|and) the juice"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): international juice-bar chain."
+  },
+  {
+   "name": "Saravanaa Bhavan",
+   "patterns": [
+    "saravanaa? bhavan"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): international South-Indian restaurant chain."
+  },
+  {
+   "name": "Capri Coffee",
+   "patterns": [
+    "capri coffee"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): coffee chain with several Brussels and Antwerp shops."
+  },
+  {
+   "name": "Lloyd Coffee Eatery",
+   "patterns": [
+    "lloyd coffee"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): 10 locations incl. Brussels, Oostende, Namur, Luxembourg."
+  },
+  {
+   "name": "Lavazza",
+   "patterns": [
+    "lavazza"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): international coffee brand outlet."
+  },
+  {
+   "name": "Ocean Sushi",
+   "patterns": [
+    "ocean sushi"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): Gent, Mortsel and Antwerpen locations."
+  },
+  {
+   "name": "Plump",
+   "patterns": [
+    "plump( antwerp| brussels)?$"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): Antwerp and Brussels (Wolf) locations."
+  },
+  {
+   "name": "Sojubar",
+   "patterns": [
+    "sojubar"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): Korean restaurant chain: Antwerp, Brussels, Breda, Rotterdam, Eindhoven, Amstelveen, Düsseldorf… (sojubar.com)."
+  },
+  {
+   "name": "Sum Sum",
+   "patterns": [
+    "sum ?sum( restaurant)?$"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): Antwerp and Brussels, YumYum group."
+  },
+  {
+   "name": "Sushi Palace",
+   "patterns": [
+    "sushi palace"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): Antwerpen x3, Wilrijk, Leuven (sushipalace.be city subdomains)."
+  },
+  {
+   "name": "House of Waffles",
+   "patterns": [
+    "(the )?house of waffles"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): Gent, Brugge and Antwerpen shops (thehouseofwaffles.com)."
+  },
+  {
+   "name": "YUST",
+   "patterns": [
+    "yust$"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): hotel/co-living brand (Antwerp, Liège, Brussels planned)."
+  },
+  {
+   "name": "Cuiz'Inn",
+   "patterns": [
+    "cuiz'? ?inn"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): motorway service-area restaurant brand (E40 Drongen)."
+  },
+  {
+   "name": "Giuliano",
+   "patterns": [
+    "giuliano$"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): giuliano.world: Genk, Gent, Hasselt, Maasmechelen Village."
+  },
+  {
+   "name": "Stokers",
+   "patterns": [
+    "stokers$"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule, STATUS.md \"Possible chain\" review 26 Oct 2026 (verified): part of The Brick gym chain, not a restaurant."
   }
  ],
  "keep": [
@@ -586,12 +740,20 @@
    "why": "Restaurant inside the restored church; Delhaize is the leaseholder, operators not announced — borderline; kept for review."
   },
   {
-   "name": "Tom & Dellas, Holy Guacamoly, Catberry, Aloha Pokébowl",
+   "name": "Holy Guacamoly, Catberry, Aloha Pokébowl",
    "why": "Local multi-site or single places, not obvious chains — kept (26 Oct 2026 chain review)."
   },
   {
-   "name": "Fitchen, Barchel",
-   "why": "Single-city local businesses (Fitchen: 2 Ghent sites, Antwerp closed; Barchel: 3 Antwerp sites) — kept (26 Oct 2026 chain review)."
+   "name": "Fitchen, Barchel, Uzume Sushi",
+   "why": "Single-city local businesses (Fitchen: 2 Ghent sites, Antwerp closed; Barchel: 3 Antwerp sites; Uzume Sushi: 3 Ghent sites) — kept (26 Oct 2026 chain review)."
+  },
+  {
+   "name": "Kafeïno, GAO Dumpling, Pici, Caffénation, Open Wok, Tokyo Sushi",
+   "why": "Local businesses with 2-4 sites in one city/region (Kafeïno, GAO, Pici, Caffénation: Antwerp only; Open Wok: single takeaway; Tokyo Sushi: Gent + Lochristi) — kept (26 Oct 2026 chain review)."
+  },
+  {
+   "name": "Brasserie 1920, ANNA",
+   "why": "Single hotel restaurants (Accor / Crowne Plaza Antwerpen), not restaurant chains — kept, listed as open decision."
   }
  ]
 }

@@ -1154,16 +1154,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-cuiz-inn-n6567743001": {
-   "name": "Cuiz'Inn",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-cuiz-inn-n6574521175": {
-   "name": "Cuiz'Inn",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-da-adriano-n7158634388": {
    "name": "Da Adriano",
    "instagram_handle": null,
@@ -1694,11 +1684,6 @@
    "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-giuliano-n3367536294": {
-   "name": "Giuliano",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-godot-n1532798351": {
    "name": "Godot",
    "instagram_handle": "godotgentofficial",
@@ -1799,11 +1784,6 @@
    "handleSource": "https://haddok.gent/",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-halab-al-shahbae-n9230408432": {
-   "name": "Halab Al-shahbae",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-haotian-asian-snacks-n13570475860": {
    "name": "Haotian Asian Snacks",
    "instagram_handle": null,
@@ -1887,15 +1867,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-house-of-waffles-n13310397201": {
-   "name": "House of Waffles",
-   "instagram_handle": "thehouseofwaffles",
-   "handleSource": "https://thehouseofwaffles.com/",
-   "note": "og:image has large text overlaid",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/38e385a429fe857612eb5d48f24f6f8e/id-preview-940962af--2aa63a76-80f3-4657-8aa7-5bc3caaffb7c.lovable.app-1789070050753.png (note flags it: text)",
-   "heroReject": "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/38e385a429fe857612eb5d48f24f6f8e/id-preview-940962af--2aa63a76-80f3-4657-8aa7-5bc3caaffb7c.lovable.app-1789070050753.png"
-  },
   "osm-hoy-pinoy-n3394070665": {
    "name": "Hoy Pinoy",
    "instagram_handle": null,
@@ -1911,11 +1882,6 @@
    "name": "Huset",
    "instagram_handle": "husetgent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/huset",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-ichi-bao-n10081473802": {
-   "name": "Ichi Bao",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ikura-w493483121": {
@@ -2328,13 +2294,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-lloyd-coffee-eatery-n11154588568": {
-   "name": "Lloyd Coffee Eatery",
-   "instagram_handle": "lloydcoffee.eatery",
-   "handleSource": "https://www.lloydcoffee.com",
-   "note": "own og:image URL broken",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-lodos-w1075327915": {
    "name": "Lodos",
    "instagram_handle": "lodos.restaurant",
@@ -2422,11 +2381,6 @@
    "name": "Mengie",
    "instagram_handle": null,
    "note": "own website unreachable from our box (200)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-meshur-adyaman-cig-koftecisi-n11426088978": {
-   "name": "Meşhur Adıyaman Çiğ Köftecisi",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-mevlana-42-n11516571366": {
@@ -2525,16 +2479,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-myst-n4395300769": {
-   "name": "Myst",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-nam-jai-n3394491371": {
-   "name": "Nam Jai",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-nenuphar-w425380898": {
    "name": "Nenuphar",
    "instagram_handle": null,
@@ -2622,12 +2566,6 @@
   "osm-ocakta-muhabbet-n12648351621": {
    "name": "Ocakta Muhabbet",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-ocean-sushi-w494018303": {
-   "name": "Ocean Sushi",
-   "instagram_handle": "oceansushigent",
-   "handleSource": "https://gent.oceansushi.be/",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-ode-brasserie-n1187193552": {
@@ -2957,11 +2895,6 @@
    "note": "own og:image rejected: selfie of people, not the place/food",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-ruba-n10609073783": {
-   "name": "Ruba",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-rumi-n7177919608": {
    "name": "Rumi",
    "instagram_handle": "rumi_gent",
@@ -3002,11 +2935,6 @@
    "name": "Savarin",
    "instagram_handle": "savaringent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/savarin",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-scopa-focacceria-n1381910692": {
-   "name": "Scopa Focacceria",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-seli-s-noodlebar-n2998443056": {
@@ -3186,20 +3114,6 @@
    "name": "Sushi Love Gent",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-sushi-palace-n12323650406": {
-   "name": "Sushi Palace",
-   "instagram_handle": "sushipalacegent",
-   "handleSource": "https://www.sushipalacegent.be",
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://www.sushipalacegent.be/wp-content/uploads/2025/05/home-slide-05.jpg",
-    "source": "https://www.sushipalacegent.be",
-    "type": "og:image",
-    "w": 1920,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
   },
   "osm-sushi-paradise-n1186970648": {
    "name": "Sushi Paradise",
@@ -3501,16 +3415,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-tom-dellas-n6574771220": {
-   "name": "Tom & Dellas",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-top-fast-food-n13771013521": {
-   "name": "Top Fast Food",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-top-sushi-n10298212680": {
    "name": "Top Sushi",
    "instagram_handle": null,
@@ -3632,11 +3536,6 @@
   },
   "osm-viva-la-puglia-n9819206829": {
    "name": "Viva La Puglia",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-volta-n1837379195": {
-   "name": "Volta",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
