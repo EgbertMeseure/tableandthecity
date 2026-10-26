@@ -1,0 +1,31 @@
+{
+ "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
+ "city": "oostende",
+ "count": 3,
+ "places": {
+  "bistro-mathilda": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://guide.michelin.com/be/nl/west-vlaanderen/oostende/restaurant/bistro-mathilda",
+    "https://www.bistromathilda.be/"
+   ],
+   "basis": "Own website menu: veggie dishes marked (e.g. goat cheese flan, \"Knol au vin\")"
+  },
+  "carte-blanche": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.hln.be/oostende/van-de-zaak-van-willem-hiele-tot-nieuw-leven-in-het-kursaal-deze-nieuwe-restaurants-in-oostende-zijn-deze-zomer-een-bezoekje-waard~a5737572/",
+    "https://www.carteblancheoostende.be/"
+   ],
+   "basis": "HLN: vegetarian options on the menu"
+  },
+  "kiss-the-chef": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://www.kissthechef.be/",
+    "https://www.visitoostende.be/nl/kiss-chef"
+   ],
+   "basis": "Own website menu: vegan spring rolls (Po Pia jay), tofu options for wok dishes"
+  }
+ }
+}

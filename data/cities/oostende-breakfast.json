@@ -1,0 +1,56 @@
+{
+ "about": "Breakfast / brunch per place from the research handoff (own site, menu, press). Only sourced values; never guessed.",
+ "handoff": "/workspace/handoff/oostende/oostende-breakfast-brunch.json",
+ "places": {
+  "cafe-du-parc": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.hotelduparc.be/nl/cafe-du-parc"
+   }
+  },
+  "expo-kafie": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.expo-kafie.be/"
+   }
+  },
+  "nieuw-stene": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.hln.be/oostende/van-de-zaak-van-willem-hiele-tot-nieuw-leven-in-het-kursaal-deze-nieuwe-restaurants-in-oostende-zijn-deze-zomer-een-bezoekje-waard~a5737572/"
+   }
+  },
+  "rachelerie": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.visitoostende.be/nl/rachelerie"
+   }
+  },
+  "sofia": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.sofiaoostende.be/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.sofiaoostende.be/"
+   }
+  },
+  "sotos": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.hln.be/oostende/net-open-kenny-en-elisa-openen-koffie-en-foodbar-in-ouderlijke-zaak-in-oostende-we-zetten-in-op-ontbijt-en-een-gezonde-lunch~ac911d18/"
+   },
+   "brunch": {
+    "value": true,
+    "source": "https://www.hln.be/oostende/net-open-kenny-en-elisa-openen-koffie-en-foodbar-in-ouderlijke-zaak-in-oostende-we-zetten-in-op-ontbijt-en-een-gezonde-lunch~ac911d18/"
+   }
+  },
+  "zuske": {
+   "breakfast": {
+    "value": true,
+    "source": "https://www.visitoostende.be/nl/zuske"
+   }
+  }
+ }
+}
