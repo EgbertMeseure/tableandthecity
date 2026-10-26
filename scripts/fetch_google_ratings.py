@@ -2,7 +2,7 @@
 """Fetch Google ratings for every place of a city and store them in data/cities/<city>-ratings.json.
 
 Usage:  python3 scripts/fetch_google_ratings.py [city] [--raw FILE] [--offline] [--limit N] [--max-calls N] [--curated-only] [--dry-run]
-        curated records come first: no hours, then hours from OpenStreetMap / unknown source, then the rest
+        curated records come first: no hours, then a recorded source conflict or hours from OpenStreetMap / unknown source, then the rest
 
 Key: read from the file named in env GOOGLE_PLACES_API_KEY_FILE, else /home/box/.secrets/google_places_key.
 The key is never printed or written anywhere.
@@ -105,7 +105,7 @@ def osm_hours(roh):
 def places_of(city):
     cur = json.load(open(f'data/cities/{city}.json'))['restaurants']
     out = [dict(r, _src='curated') for r in cur if r.get('status') != 'unverified']
-    out.sort(key=lambda r: 0 if not r.get('openingHours') else 1 if re.match(r'(OpenStreetMap|$)', r.get('openingHoursSource') or '') else 2)
+    out.sort(key=lambda r: 0 if not r.get('openingHours') else 1 if (r.get('dataConflict') or re.match(r'(OpenStreetMap|$)', r.get('openingHoursSource') or '')) else 2)
     ids = {r['id'] for r in out}
     if CUR_ONLY: return out
     p = f'data/cities/{city}-osm.json'

@@ -211,7 +211,37 @@
    "notes": "Closing periods (own site): 20 Dec 2026-21 Jan 2027, 14-22 Apr 2027, 1-9 Sep 2027. Also open Tuesday evening in July/August. Dinner ends 00:30; encoded as 24:00. Takes part in Jong Keukengeweld (Oct-Nov 2026).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/12315112786"
+   "osm": "node/12315112786",
+   "photos": [
+    {
+     "src": "img/places/oostende/haut/1-food-1600.webp",
+     "thumb": "img/places/oostende/haut/1-food-800.webp",
+     "srcset": "img/places/oostende/haut/1-food-800.webp 800w, img/places/oostende/haut/1-food-1600.webp 1600w",
+     "w": 1066,
+     "h": 1600,
+     "category": "food",
+     "alt": "Haut: food",
+     "credit": "hautrestaurant.be",
+     "credit_url": "https://hautrestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/haut/2-food-1600.webp",
+     "thumb": "img/places/oostende/haut/2-food-800.webp",
+     "srcset": "img/places/oostende/haut/2-food-800.webp 800w, img/places/oostende/haut/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Haut: food",
+     "credit": "@hautoostende on Instagram",
+     "credit_url": "https://www.instagram.com/hautoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "storm",
@@ -311,7 +341,37 @@
    "notes": "Exceptionally closed 24 Dec 2026 until Thursday lunch 7 Jan 2027 (own site).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/9781753149"
+   "osm": "node/9781753149",
+   "photos": [
+    {
+     "src": "img/places/oostende/storm/1-food-1600.webp",
+     "thumb": "img/places/oostende/storm/1-food-800.webp",
+     "srcset": "img/places/oostende/storm/1-food-800.webp 800w, img/places/oostende/storm/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Storm: food",
+     "credit": "@restaurantstorm on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantstorm/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/storm/2-food-1600.webp",
+     "thumb": "img/places/oostende/storm/2-food-800.webp",
+     "srcset": "img/places/oostende/storm/2-food-800.webp 800w, img/places/oostende/storm/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Storm: food",
+     "credit": "@restaurantstorm on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantstorm/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "marina",
@@ -384,10 +444,10 @@
      "partners": [
       "Goût",
       "Piet Huysentruyt",
-      "",
       "Ristorante Marina",
       "Bistro Mathilda",
-      "Atelier D and Kevin Teugels"
+      "Atelier D",
+      "Kevin Teugels"
      ],
      "sources": [
       "https://www.gout-event.be",
@@ -468,7 +528,37 @@
    "notes": "Ristorante Marina takes part in Jong Keukengeweld (Oct-Nov 2026), hosts the A-Wines tasting weekend (21-23 Nov 2026) and cooks at Goût (7 Nov 2026).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/6979638591"
+   "osm": "node/6979638591",
+   "photos": [
+    {
+     "src": "img/places/oostende/marina/1-food-1600.webp",
+     "thumb": "img/places/oostende/marina/1-food-800.webp",
+     "srcset": "img/places/oostende/marina/1-food-800.webp 800w, img/places/oostende/marina/1-food-1600.webp 1600w",
+     "w": 1280,
+     "h": 900,
+     "category": "food",
+     "alt": "Ristorante Marina: food",
+     "credit": "resto-marina.be",
+     "credit_url": "https://www.resto-marina.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/marina/2-food-1600.webp",
+     "thumb": "img/places/oostende/marina/2-food-800.webp",
+     "srcset": "img/places/oostende/marina/2-food-800.webp 800w, img/places/oostende/marina/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 718,
+     "category": "food",
+     "alt": "Ristorante Marina: food",
+     "credit": "@resto.marina.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/resto.marina.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "savarin",
@@ -630,7 +720,37 @@
    "category": "fine dining",
    "notes": "Own site: exceptionally open 26 Oct, 2 Nov and 7 Dec (dinner) and all day Wednesday 11 Nov; closed 24 and 31 Dec 2026. Christmas menu 25 Dec, New Year menu 1 Jan 2027.",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/savarin/1-food-1600.webp",
+     "thumb": "img/places/oostende/savarin/1-food-800.webp",
+     "srcset": "img/places/oostende/savarin/1-food-800.webp 800w, img/places/oostende/savarin/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 726,
+     "category": "food",
+     "alt": "Savarin: food",
+     "credit": "@savarin_oostende on Instagram",
+     "credit_url": "https://www.instagram.com/savarin_oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/savarin/2-interior-1600.webp",
+     "thumb": "img/places/oostende/savarin/2-interior-800.webp",
+     "srcset": "img/places/oostende/savarin/2-interior-800.webp 800w, img/places/oostende/savarin/2-interior-1600.webp 1600w",
+     "w": 1200,
+     "h": 800,
+     "category": "interior",
+     "alt": "Savarin: interior",
+     "credit": "savarin.be",
+     "credit_url": "https://www.savarin.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "vinclo",
@@ -728,7 +848,37 @@
    "category": "fine dining",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/vinclo/1-food-1600.webp",
+     "thumb": "img/places/oostende/vinclo/1-food-800.webp",
+     "srcset": "img/places/oostende/vinclo/1-food-800.webp 800w, img/places/oostende/vinclo/1-food-1600.webp 1600w",
+     "w": 712,
+     "h": 739,
+     "category": "food",
+     "alt": "Vincl'O: food",
+     "credit": "vinclo.be",
+     "credit_url": "https://www.vinclo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/vinclo/2-interior-1600.webp",
+     "thumb": "img/places/oostende/vinclo/2-interior-800.webp",
+     "srcset": "img/places/oostende/vinclo/2-interior-800.webp 800w, img/places/oostende/vinclo/2-interior-1600.webp 1600w",
+     "w": 1170,
+     "h": 657,
+     "category": "interior",
+     "alt": "Vincl'O: interior",
+     "credit": "@vinclo.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/vinclo.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "mange-tout",
@@ -837,7 +987,37 @@
    "group": "restaurants",
    "category": "fine dining",
    "notes": "Festive menus: 24 Dec 19:00, 25 Dec 12:00, 31 Dec 19:00 (own site). Hours left null because only seat times are published.",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/mange-tout/1-wine-1600.webp",
+     "thumb": "img/places/oostende/mange-tout/1-wine-800.webp",
+     "srcset": "img/places/oostende/mange-tout/1-wine-800.webp 800w, img/places/oostende/mange-tout/1-wine-1600.webp 1600w",
+     "w": 1600,
+     "h": 1200,
+     "category": "food",
+     "alt": "Mange Tout: wine",
+     "credit": "restaurantmangetout.be",
+     "credit_url": "https://restaurantmangetout.be/nl/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/mange-tout/2-terrace-1600.webp",
+     "thumb": "img/places/oostende/mange-tout/2-terrace-800.webp",
+     "srcset": "img/places/oostende/mange-tout/2-terrace-800.webp 800w, img/places/oostende/mange-tout/2-terrace-1600.webp 1600w",
+     "w": 1094,
+     "h": 1600,
+     "category": "exterior",
+     "alt": "Mange Tout: terrace",
+     "credit": "restaurantmangetout.be",
+     "credit_url": "https://restaurantmangetout.be/nl/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "lusitania",
@@ -935,7 +1115,23 @@
    "category": "restaurant",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/1195214730"
+   "osm": "node/1195214730",
+   "photos": [
+    {
+     "src": "img/places/oostende/lusitania/1-food-1600.webp",
+     "thumb": "img/places/oostende/lusitania/1-food-800.webp",
+     "srcset": "img/places/oostende/lusitania/1-food-800.webp 800w, img/places/oostende/lusitania/1-food-1600.webp 1600w",
+     "w": 1280,
+     "h": 853,
+     "category": "food",
+     "alt": "Lusitania: food",
+     "credit": "restaurant-lusitania.be",
+     "credit_url": "https://restaurant-lusitania.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "kiss-the-chef",
@@ -1034,7 +1230,23 @@
    "group": "restaurants",
    "category": "gastro-bistro",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/kiss-the-chef/1-food-1600.webp",
+     "thumb": "img/places/oostende/kiss-the-chef/1-food-800.webp",
+     "srcset": "img/places/oostende/kiss-the-chef/1-food-800.webp 800w, img/places/oostende/kiss-the-chef/1-food-1600.webp 1600w",
+     "w": 1280,
+     "h": 884,
+     "category": "food",
+     "alt": "Kiss The Chef: food",
+     "credit": "kissthechef.be",
+     "credit_url": "https://www.kissthechef.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "villa-ostinato",
@@ -1133,7 +1345,37 @@
    "category": "restaurant",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/villa-ostinato/1-food-1600.webp",
+     "thumb": "img/places/oostende/villa-ostinato/1-food-800.webp",
+     "srcset": "img/places/oostende/villa-ostinato/1-food-800.webp 800w, img/places/oostende/villa-ostinato/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Villa Ostinato: food",
+     "credit": "@villaostinato on Instagram",
+     "credit_url": "https://www.instagram.com/villaostinato/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/villa-ostinato/2-food-1600.webp",
+     "thumb": "img/places/oostende/villa-ostinato/2-food-800.webp",
+     "srcset": "img/places/oostende/villa-ostinato/2-food-800.webp 800w, img/places/oostende/villa-ostinato/2-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 1066,
+     "category": "food",
+     "alt": "Villa Ostinato: food",
+     "credit": "villaostinato.be",
+     "credit_url": "https://villaostinato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bistro-mathilda",
@@ -1187,10 +1429,10 @@
      "partners": [
       "Goût",
       "Piet Huysentruyt",
-      "",
       "Ristorante Marina",
       "Bistro Mathilda",
-      "Atelier D and Kevin Teugels"
+      "Atelier D",
+      "Kevin Teugels"
      ],
      "sources": [
       "https://www.gout-event.be",
@@ -1256,7 +1498,37 @@
    "category": "bistro",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/4189248691"
+   "osm": "node/4189248691",
+   "photos": [
+    {
+     "src": "img/places/oostende/bistro-mathilda/1-interior-1600.webp",
+     "thumb": "img/places/oostende/bistro-mathilda/1-interior-800.webp",
+     "srcset": "img/places/oostende/bistro-mathilda/1-interior-800.webp 800w, img/places/oostende/bistro-mathilda/1-interior-1600.webp 1600w",
+     "w": 1277,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Bistro Mathilda: interior",
+     "credit": "bistromathilda.be",
+     "credit_url": "https://bistromathilda.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bistro-mathilda/2-interior-1600.webp",
+     "thumb": "img/places/oostende/bistro-mathilda/2-interior-800.webp",
+     "srcset": "img/places/oostende/bistro-mathilda/2-interior-800.webp 800w, img/places/oostende/bistro-mathilda/2-interior-1600.webp 1600w",
+     "w": 1277,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Bistro Mathilda: interior",
+     "credit": "bistromathilda.be",
+     "credit_url": "https://bistromathilda.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "brasserie-david",
@@ -1454,7 +1726,37 @@
    "category": "brasserie",
    "notes": "Closed 24 Dec from 17:00 and 25 Dec (own site).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/cafe-du-parc/1-food-1600.webp",
+     "thumb": "img/places/oostende/cafe-du-parc/1-food-800.webp",
+     "srcset": "img/places/oostende/cafe-du-parc/1-food-800.webp 800w, img/places/oostende/cafe-du-parc/1-food-1600.webp 1600w",
+     "w": 1066,
+     "h": 1600,
+     "category": "food",
+     "alt": "Café du Parc: food",
+     "credit": "hotelduparc.be",
+     "credit_url": "https://www.hotelduparc.be/nl/cafe-du-parc",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/cafe-du-parc/2-dessert-1600.webp",
+     "thumb": "img/places/oostende/cafe-du-parc/2-dessert-800.webp",
+     "srcset": "img/places/oostende/cafe-du-parc/2-dessert-800.webp 800w, img/places/oostende/cafe-du-parc/2-dessert-1600.webp 1600w",
+     "w": 1080,
+     "h": 1441,
+     "category": "food",
+     "alt": "Café du Parc: dessert",
+     "credit": "@hotelduparcoostende on Instagram",
+     "credit_url": "https://www.instagram.com/hotelduparcoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "eaust",
@@ -1553,7 +1855,37 @@
    "category": "bistro",
    "notes": "Opened 15 May 2025, so more than 12 months ago; not flagged as new.",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/eaust/1-food-1600.webp",
+     "thumb": "img/places/oostende/eaust/1-food-800.webp",
+     "srcset": "img/places/oostende/eaust/1-food-800.webp 800w, img/places/oostende/eaust/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Eaust: food",
+     "credit": "@eaust.be on Instagram",
+     "credit_url": "https://www.instagram.com/eaust.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/eaust/2-interior-1600.webp",
+     "thumb": "img/places/oostende/eaust/2-interior-800.webp",
+     "srcset": "img/places/oostende/eaust/2-interior-800.webp 800w, img/places/oostende/eaust/2-interior-1600.webp 1600w",
+     "w": 1500,
+     "h": 1000,
+     "category": "interior",
+     "alt": "Eaust: interior",
+     "credit": "eaust.be",
+     "credit_url": "https://www.eaust.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "frenchette",
@@ -1884,7 +2216,23 @@
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/11115773549"
+   "osm": "node/11115773549",
+   "photos": [
+    {
+     "src": "img/places/oostende/bar-bristol/1-food-1600.webp",
+     "thumb": "img/places/oostende/bar-bristol/1-food-800.webp",
+     "srcset": "img/places/oostende/bar-bristol/1-food-800.webp 800w, img/places/oostende/bar-bristol/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Bar Bristol: food",
+     "credit": "@barbristol.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/barbristol.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bar-foubert",
@@ -1981,7 +2329,37 @@
    "group": "restaurants",
    "category": "gastro-bistro",
    "notes": "Closed 3-4 Nov and 15-30 Dec 2026 (own site).",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/bar-foubert/1-bar-1600.webp",
+     "thumb": "img/places/oostende/bar-foubert/1-bar-800.webp",
+     "srcset": "img/places/oostende/bar-foubert/1-bar-800.webp 800w, img/places/oostende/bar-foubert/1-bar-1600.webp 1600w",
+     "w": 1050,
+     "h": 700,
+     "category": "interior",
+     "alt": "Bar Foubert: bar",
+     "credit": "barfoubert.be",
+     "credit_url": "https://www.barfoubert.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bar-foubert/2-interior-1600.webp",
+     "thumb": "img/places/oostende/bar-foubert/2-interior-800.webp",
+     "srcset": "img/places/oostende/bar-foubert/2-interior-800.webp 800w, img/places/oostende/bar-foubert/2-interior-1600.webp 1600w",
+     "w": 1050,
+     "h": 700,
+     "category": "interior",
+     "alt": "Bar Foubert: interior",
+     "credit": "barfoubert.be",
+     "credit_url": "https://www.barfoubert.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "brassi-casino",
@@ -2077,7 +2455,23 @@
    "group": "restaurants",
    "category": "brasserie",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/brassi-casino/1-interior-1600.webp",
+     "thumb": "img/places/oostende/brassi-casino/1-interior-800.webp",
+     "srcset": "img/places/oostende/brassi-casino/1-interior-800.webp 800w, img/places/oostende/brassi-casino/1-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Brassi Casino Restaurant: interior",
+     "credit": "brassi.be",
+     "credit_url": "https://www.brassi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "le-bassin",
@@ -2177,7 +2571,37 @@
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/11244250269"
+   "osm": "node/11244250269",
+   "photos": [
+    {
+     "src": "img/places/oostende/le-bassin/1-food-1600.webp",
+     "thumb": "img/places/oostende/le-bassin/1-food-800.webp",
+     "srcset": "img/places/oostende/le-bassin/1-food-800.webp 800w, img/places/oostende/le-bassin/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Le Bassin: food",
+     "credit": "@lebassinoostende on Instagram",
+     "credit_url": "https://www.instagram.com/lebassinoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/le-bassin/2-interior-1600.webp",
+     "thumb": "img/places/oostende/le-bassin/2-interior-800.webp",
+     "srcset": "img/places/oostende/le-bassin/2-interior-800.webp 800w, img/places/oostende/le-bassin/2-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 787,
+     "category": "interior",
+     "alt": "Le Bassin: interior",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "rocco-eats",
@@ -2275,7 +2699,37 @@
    "category": "gastro-bistro",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/rocco-eats/1-wine-1600.webp",
+     "thumb": "img/places/oostende/rocco-eats/1-wine-800.webp",
+     "srcset": "img/places/oostende/rocco-eats/1-wine-800.webp 800w, img/places/oostende/rocco-eats/1-wine-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Rocco Eats Foodbar: wine",
+     "credit": "@roccoeats.foodbar on Instagram",
+     "credit_url": "https://www.instagram.com/roccoeats.foodbar/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rocco-eats/2-food-1600.webp",
+     "thumb": "img/places/oostende/rocco-eats/2-food-800.webp",
+     "srcset": "img/places/oostende/rocco-eats/2-food-800.webp 800w, img/places/oostende/rocco-eats/2-food-1600.webp 1600w",
+     "w": 733,
+     "h": 900,
+     "category": "food",
+     "alt": "Rocco Eats Foodbar: food",
+     "credit": "rocco-eats.com",
+     "credit_url": "https://www.rocco-eats.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "restaurant-north",
@@ -2372,7 +2826,23 @@
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/1769983355"
+   "osm": "node/1769983355",
+   "photos": [
+    {
+     "src": "img/places/oostende/restaurant-north/1-food-1600.webp",
+     "thumb": "img/places/oostende/restaurant-north/1-food-800.webp",
+     "srcset": "img/places/oostende/restaurant-north/1-food-800.webp 800w, img/places/oostende/restaurant-north/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1301,
+     "category": "food",
+     "alt": "Restaurant North: food",
+     "credit": "@restaurant_north on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_north/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-charlou",
@@ -2659,7 +3129,37 @@
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/7740425521"
+   "osm": "node/7740425521",
+   "photos": [
+    {
+     "src": "img/places/oostende/passe-vite/1-wine-1600.webp",
+     "thumb": "img/places/oostende/passe-vite/1-wine-800.webp",
+     "srcset": "img/places/oostende/passe-vite/1-wine-800.webp 800w, img/places/oostende/passe-vite/1-wine-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Passe Vite: wine",
+     "credit": "@passeviteoostende on Instagram",
+     "credit_url": "https://www.instagram.com/passeviteoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/passe-vite/2-bar-1600.webp",
+     "thumb": "img/places/oostende/passe-vite/2-bar-800.webp",
+     "srcset": "img/places/oostende/passe-vite/2-bar-800.webp 800w, img/places/oostende/passe-vite/2-bar-1600.webp 1600w",
+     "w": 788,
+     "h": 525,
+     "category": "interior",
+     "alt": "Passe Vite: bar",
+     "credit": "passeviteoostende.be",
+     "credit_url": "https://passeviteoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "bierrestaurant-heerlijk",
@@ -2756,7 +3256,23 @@
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/9884865338"
+   "osm": "node/9884865338",
+   "photos": [
+    {
+     "src": "img/places/oostende/bierrestaurant-heerlijk/1-food-1600.webp",
+     "thumb": "img/places/oostende/bierrestaurant-heerlijk/1-food-800.webp",
+     "srcset": "img/places/oostende/bierrestaurant-heerlijk/1-food-800.webp 800w, img/places/oostende/bierrestaurant-heerlijk/1-food-1600.webp 1600w",
+     "w": 1090,
+     "h": 1600,
+     "category": "food",
+     "alt": "Bierrestaurant Heerlijk: food",
+     "credit": "bierrestaurantheerlijk.be",
+     "credit_url": "https://bierrestaurantheerlijk.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "belle-de-jour",
@@ -2848,7 +3364,23 @@
    "group": "restaurants",
    "category": "bistro",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/belle-de-jour/1-interior-1600.webp",
+     "thumb": "img/places/oostende/belle-de-jour/1-interior-800.webp",
+     "srcset": "img/places/oostende/belle-de-jour/1-interior-800.webp 800w, img/places/oostende/belle-de-jour/1-interior-1600.webp 1600w",
+     "w": 1536,
+     "h": 1024,
+     "category": "interior",
+     "alt": "Belle de Jour: interior",
+     "credit": "belledejour.be",
+     "credit_url": "https://belledejour.be/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "mommys-bastards",
@@ -2944,7 +3476,37 @@
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/13802169101"
+   "osm": "node/13802169101",
+   "photos": [
+    {
+     "src": "img/places/oostende/mommys-bastards/1-food-1600.webp",
+     "thumb": "img/places/oostende/mommys-bastards/1-food-800.webp",
+     "srcset": "img/places/oostende/mommys-bastards/1-food-800.webp 800w, img/places/oostende/mommys-bastards/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1317,
+     "category": "food",
+     "alt": "Mommy's Bastards: food",
+     "credit": "@mommysbastards on Instagram",
+     "credit_url": "https://www.instagram.com/mommysbastards/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/mommys-bastards/2-food-1600.webp",
+     "thumb": "img/places/oostende/mommys-bastards/2-food-800.webp",
+     "srcset": "img/places/oostende/mommys-bastards/2-food-800.webp 800w, img/places/oostende/mommys-bastards/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1418,
+     "category": "food",
+     "alt": "Mommy's Bastards: food",
+     "credit": "@mommysbastards on Instagram",
+     "credit_url": "https://www.instagram.com/mommysbastards/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "atelier-d",
@@ -2998,10 +3560,10 @@
      "partners": [
       "Goût",
       "Piet Huysentruyt",
-      "",
       "Ristorante Marina",
       "Bistro Mathilda",
-      "Atelier D and Kevin Teugels"
+      "Atelier D",
+      "Kevin Teugels"
      ],
      "sources": [
       "https://www.gout-event.be",
@@ -3080,7 +3642,37 @@
    "category": "fine dining",
    "notes": "Replaces Brassi Grand Café (brassi.be/brassigrandcafe now redirects here); the Gault&Millau 2026 score of 12 was given to Brassi Grand Café. Annual leave 20-29 Oct 2026, reopening Fri 30 Oct.",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/atelier-d/1-food-1600.webp",
+     "thumb": "img/places/oostende/atelier-d/1-food-800.webp",
+     "srcset": "img/places/oostende/atelier-d/1-food-800.webp 800w, img/places/oostende/atelier-d/1-food-1600.webp 1600w",
+     "w": 1024,
+     "h": 572,
+     "category": "food",
+     "alt": "Atelier D: food",
+     "credit": "brassi.be",
+     "credit_url": "https://www.brassi.be/atelier-d/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/atelier-d/2-interior-1600.webp",
+     "thumb": "img/places/oostende/atelier-d/2-interior-800.webp",
+     "srcset": "img/places/oostende/atelier-d/2-interior-800.webp 800w, img/places/oostende/atelier-d/2-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Atelier D: interior",
+     "credit": "@atelierdbybrassi on Instagram",
+     "credit_url": "https://www.instagram.com/atelierdbybrassi/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "cafe-mosselhuis",
@@ -3272,7 +3864,37 @@
    "category": "casual",
    "notes": "Annual leave 10-26 Nov 2026 (own site).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/osteria-marina/1-bar-1600.webp",
+     "thumb": "img/places/oostende/osteria-marina/1-bar-800.webp",
+     "srcset": "img/places/oostende/osteria-marina/1-bar-800.webp 800w, img/places/oostende/osteria-marina/1-bar-1600.webp 1600w",
+     "w": 1080,
+     "h": 719,
+     "category": "interior",
+     "alt": "Osteria Marina: bar",
+     "credit": "@osteria.marina.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/osteria.marina.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osteria-marina/2-interior-1600.webp",
+     "thumb": "img/places/oostende/osteria-marina/2-interior-800.webp",
+     "srcset": "img/places/oostende/osteria-marina/2-interior-800.webp 800w, img/places/oostende/osteria-marina/2-interior-1600.webp 1600w",
+     "w": 1080,
+     "h": 720,
+     "category": "interior",
+     "alt": "Osteria Marina: interior",
+     "credit": "@osteria.marina.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/osteria.marina.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "loma",
@@ -3326,11 +3948,11 @@
      "partners": [
       "Goût",
       "Thijs Meliefste",
-      "",
       "Commootie (Thomas Gellynck)",
       "Kevin Teugels",
       "LOMA",
-      "Bottarga and Le Bar du Bassin"
+      "Bottarga",
+      "Le Bar du Bassin"
      ],
      "sources": [
       "https://www.gout-event.be",
@@ -3388,7 +4010,37 @@
    "category": "bistro",
    "notes": "Cooks at Goût (10 Nov 2026).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/loma/1-food-1600.webp",
+     "thumb": "img/places/oostende/loma/1-food-800.webp",
+     "srcset": "img/places/oostende/loma/1-food-800.webp 800w, img/places/oostende/loma/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "LOMA: food",
+     "credit": "@lomabistro on Instagram",
+     "credit_url": "https://www.instagram.com/lomabistro/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/loma/2-drinks-1600.webp",
+     "thumb": "img/places/oostende/loma/2-drinks-800.webp",
+     "srcset": "img/places/oostende/loma/2-drinks-800.webp 800w, img/places/oostende/loma/2-drinks-1600.webp 1600w",
+     "w": 1066,
+     "h": 1600,
+     "category": "food",
+     "alt": "LOMA: drinks",
+     "credit": "lomabistro.be",
+     "credit_url": "https://www.lomabistro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "tatemado",
@@ -3485,7 +4137,23 @@
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "opened": "2026-07",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/tatemado/1-ingredient-1600.webp",
+     "thumb": "img/places/oostende/tatemado/1-ingredient-800.webp",
+     "srcset": "img/places/oostende/tatemado/1-ingredient-800.webp 800w, img/places/oostende/tatemado/1-ingredient-1600.webp 1600w",
+     "w": 1536,
+     "h": 1024,
+     "category": "food",
+     "alt": "Tatemado: ingredient",
+     "credit": "tatemado.be",
+     "credit_url": "https://tatemado.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "carte-blanche",
@@ -3618,9 +4286,9 @@
    "currentMenuNote": "",
    "status": "open",
    "statusNote": "",
-   "website": null,
-   "instagram": null,
-   "instagram_handle": null,
+   "website": "https://yuzuoostende.be/",
+   "instagram": "https://www.instagram.com/yuzuoostende/",
+   "instagram_handle": "yuzuoostende",
    "phone": null,
    "summary": "Chef Bibek Gurung, nine years at Lautrec in Bredene, combines Japanese flavours with Franco-Belgian classics: sushi, seafood, bouillabaisse and steak tartare.",
    "summaryLang": "en",
@@ -3674,7 +4342,37 @@
    "group": "restaurants",
    "category": "restaurant",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/yuzu/1-food-1600.webp",
+     "thumb": "img/places/oostende/yuzu/1-food-800.webp",
+     "srcset": "img/places/oostende/yuzu/1-food-800.webp 800w, img/places/oostende/yuzu/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1209,
+     "category": "food",
+     "alt": "Yuzu: food",
+     "credit": "@yuzuoostende on Instagram",
+     "credit_url": "https://www.instagram.com/yuzuoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/yuzu/2-food-1600.webp",
+     "thumb": "img/places/oostende/yuzu/2-food-800.webp",
+     "srcset": "img/places/oostende/yuzu/2-food-800.webp 800w, img/places/oostende/yuzu/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Yuzu: food",
+     "credit": "@yuzuoostende on Instagram",
+     "credit_url": "https://www.instagram.com/yuzuoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-vishoek",
@@ -4021,7 +4719,23 @@
    "notes": "Hosts wine masterclasses (Dec 2026-Feb 2027) and a cheese & wine evening (29 Jan 2027).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "opened": "2026-07",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/the-wine-gallery/1-wine-1600.webp",
+     "thumb": "img/places/oostende/the-wine-gallery/1-wine-800.webp",
+     "srcset": "img/places/oostende/the-wine-gallery/1-wine-800.webp 800w, img/places/oostende/the-wine-gallery/1-wine-1600.webp 1600w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "The Wine Gallery: wine",
+     "credit": "@thewinegallery.be on Instagram",
+     "credit_url": "https://www.instagram.com/thewinegallery.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "la-boheme",
@@ -4303,7 +5017,37 @@
    "category": "cafe",
    "notes": null,
    "opened": "2026-01",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/nieuw-stene/1-food-1600.webp",
+     "thumb": "img/places/oostende/nieuw-stene/1-food-800.webp",
+     "srcset": "img/places/oostende/nieuw-stene/1-food-800.webp 800w, img/places/oostende/nieuw-stene/1-food-1600.webp 1600w",
+     "w": 1000,
+     "h": 1600,
+     "category": "food",
+     "alt": "Nieuw Stene: food",
+     "credit": "nieuwstene.be",
+     "credit_url": "https://nieuwstene.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/nieuw-stene/2-food-1600.webp",
+     "thumb": "img/places/oostende/nieuw-stene/2-food-800.webp",
+     "srcset": "img/places/oostende/nieuw-stene/2-food-800.webp 800w, img/places/oostende/nieuw-stene/2-food-1600.webp 1600w",
+     "w": 1448,
+     "h": 1086,
+     "category": "food",
+     "alt": "Nieuw Stene: food",
+     "credit": "nieuwstene.be",
+     "credit_url": "https://nieuwstene.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "manuscript",
@@ -4518,8 +5262,8 @@
    "status": "open",
    "statusNote": "",
    "website": null,
-   "instagram": null,
-   "instagram_handle": null,
+   "instagram": "https://www.instagram.com/de.zeegeuzen/",
+   "instagram_handle": "de.zeegeuzen",
    "phone": "+32 473 13 02 61",
    "summary": "A cosy, traditional café near the Visserskaai, loved by locals and visitors alike.",
    "summaryLang": "en",
@@ -4828,7 +5572,37 @@
    "category": "dance_cafe",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/lafayette/1-interior-1600.webp",
+     "thumb": "img/places/oostende/lafayette/1-interior-800.webp",
+     "srcset": "img/places/oostende/lafayette/1-interior-800.webp 800w, img/places/oostende/lafayette/1-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Lafayette: interior",
+     "credit": "lafayette.be",
+     "credit_url": "https://lafayette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/lafayette/2-interior-1600.webp",
+     "thumb": "img/places/oostende/lafayette/2-interior-800.webp",
+     "srcset": "img/places/oostende/lafayette/2-interior-800.webp 800w, img/places/oostende/lafayette/2-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Lafayette: interior",
+     "credit": "lafayette.be",
+     "credit_url": "https://lafayette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "copador",
@@ -4867,8 +5641,8 @@
    "status": "open",
    "statusNote": "",
    "website": null,
-   "instagram": null,
-   "instagram_handle": null,
+   "instagram": "https://www.instagram.com/copador.be/",
+   "instagram_handle": "copador.be",
    "phone": null,
    "summary": "An atmospheric music bar with national DJs at the weekend, playing jazz and soul to reggae and hip-hop, and famous for its matinees.",
    "summaryLang": "en",
@@ -5397,11 +6171,11 @@
      "partners": [
       "Goût",
       "Thijs Meliefste",
-      "",
       "Commootie (Thomas Gellynck)",
       "Kevin Teugels",
       "LOMA",
-      "Bottarga and Le Bar du Bassin"
+      "Bottarga",
+      "Le Bar du Bassin"
      ],
      "sources": [
       "https://www.gout-event.be",
@@ -5454,7 +6228,37 @@
    "category": "wine_bar",
    "notes": "Cooks at Goût (10 Nov 2026).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/le-bar-du-bassin/1-interior-1600.webp",
+     "thumb": "img/places/oostende/le-bar-du-bassin/1-interior-800.webp",
+     "srcset": "img/places/oostende/le-bar-du-bassin/1-interior-800.webp 800w, img/places/oostende/le-bar-du-bassin/1-interior-1600.webp 1600w",
+     "w": 1600,
+     "h": 914,
+     "category": "interior",
+     "alt": "Le Bar du Bassin: interior",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/p/tapas-en-wijnbar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/le-bar-du-bassin/2-food-1600.webp",
+     "thumb": "img/places/oostende/le-bar-du-bassin/2-food-800.webp",
+     "srcset": "img/places/oostende/le-bar-du-bassin/2-food-800.webp 800w, img/places/oostende/le-bar-du-bassin/2-food-1600.webp 1600w",
+     "w": 1600,
+     "h": 914,
+     "category": "food",
+     "alt": "Le Bar du Bassin: food",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/p/tapas-en-wijnbar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "vines",
@@ -5627,7 +6431,37 @@
    "notes": "Closed 7-11 Nov 2026 (own site).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "origin": "research-2026-10-25",
-   "osm": "node/13299329540"
+   "osm": "node/13299329540",
+   "photos": [
+    {
+     "src": "img/places/oostende/oode/1-food-1600.webp",
+     "thumb": "img/places/oostende/oode/1-food-800.webp",
+     "srcset": "img/places/oostende/oode/1-food-800.webp 800w, img/places/oostende/oode/1-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Oode: food",
+     "credit": "@oode8400 on Instagram",
+     "credit_url": "https://www.instagram.com/oode8400/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/oode/2-food-1600.webp",
+     "thumb": "img/places/oostende/oode/2-food-800.webp",
+     "srcset": "img/places/oostende/oode/2-food-800.webp 800w, img/places/oostende/oode/2-food-1600.webp 1600w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Oode: food",
+     "credit": "@oode8400 on Instagram",
+     "credit_url": "https://www.instagram.com/oode8400/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "de-familie-jansen",
@@ -5886,7 +6720,8 @@
    "category": "coffee_bar",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "statusUntil": "2027-01-01"
   },
   {
    "id": "fogato",
@@ -5973,7 +6808,37 @@
    "category": "coffee_bar",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/fogato/1-coffee-1600.webp",
+     "thumb": "img/places/oostende/fogato/1-coffee-800.webp",
+     "srcset": "img/places/oostende/fogato/1-coffee-800.webp 800w, img/places/oostende/fogato/1-coffee-1600.webp 1600w",
+     "w": 1280,
+     "h": 977,
+     "category": "food",
+     "alt": "Fogato: coffee",
+     "credit": "fogato.be",
+     "credit_url": "https://www.fogato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/fogato/2-coffee-1600.webp",
+     "thumb": "img/places/oostende/fogato/2-coffee-800.webp",
+     "srcset": "img/places/oostende/fogato/2-coffee-800.webp 800w, img/places/oostende/fogato/2-coffee-1600.webp 1600w",
+     "w": 1280,
+     "h": 900,
+     "category": "food",
+     "alt": "Fogato: coffee",
+     "credit": "fogato.be",
+     "credit_url": "https://www.fogato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "kantine",
@@ -6147,7 +7012,23 @@
    "category": "bakery",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/bakkerij-decock/1-bread-1600.webp",
+     "thumb": "img/places/oostende/bakkerij-decock/1-bread-800.webp",
+     "srcset": "img/places/oostende/bakkerij-decock/1-bread-800.webp 800w, img/places/oostende/bakkerij-decock/1-bread-1600.webp 1600w",
+     "w": 1080,
+     "h": 720,
+     "category": "food",
+     "alt": "Bakkerij De Cock: bread",
+     "credit": "@bakkerij_decock on Instagram",
+     "credit_url": "https://www.instagram.com/bakkerij_decock/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "oosterbrood",
@@ -6324,7 +7205,37 @@
     "patisserie"
    ],
    "bakeryStyleSource": "https://fijnbakkerijdebusschere.be/oostende/",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/fijnbakkerij-debusschere/1-pastry-1600.webp",
+     "thumb": "img/places/oostende/fijnbakkerij-debusschere/1-pastry-800.webp",
+     "srcset": "img/places/oostende/fijnbakkerij-debusschere/1-pastry-800.webp 800w, img/places/oostende/fijnbakkerij-debusschere/1-pastry-1600.webp 1600w",
+     "w": 1600,
+     "h": 560,
+     "category": "food",
+     "alt": "Fijnbakkerij Debusschere: pastry",
+     "credit": "fijnbakkerijdebusschere.be",
+     "credit_url": "https://fijnbakkerijdebusschere.be/oostende/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/fijnbakkerij-debusschere/2-pastry-1600.webp",
+     "thumb": "img/places/oostende/fijnbakkerij-debusschere/2-pastry-800.webp",
+     "srcset": "img/places/oostende/fijnbakkerij-debusschere/2-pastry-800.webp 800w, img/places/oostende/fijnbakkerij-debusschere/2-pastry-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Fijnbakkerij Debusschere: pastry",
+     "credit": "@fijnbakkerij_debusschere on Instagram",
+     "credit_url": "https://www.instagram.com/fijnbakkerij_debusschere/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "caruso",
@@ -6414,7 +7325,23 @@
     "patisserie"
    ],
    "bakeryStyleSource": "https://www.caruso.be/",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/caruso/1-pastry-1600.webp",
+     "thumb": "img/places/oostende/caruso/1-pastry-800.webp",
+     "srcset": "img/places/oostende/caruso/1-pastry-800.webp 800w, img/places/oostende/caruso/1-pastry-1600.webp 1600w",
+     "w": 600,
+     "h": 315,
+     "category": "food",
+     "alt": "Patisserie Caruso: pastry",
+     "credit": "caruso.be",
+     "credit_url": "https://www.caruso.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "sofia",
@@ -6512,7 +7439,37 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/sofia/1-food-1600.webp",
+     "thumb": "img/places/oostende/sofia/1-food-800.webp",
+     "srcset": "img/places/oostende/sofia/1-food-800.webp 800w, img/places/oostende/sofia/1-food-1600.webp 1600w",
+     "w": 1365,
+     "h": 972,
+     "category": "food",
+     "alt": "Sofia: food",
+     "credit": "sofiaoostende.be",
+     "credit_url": "https://www.sofiaoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/sofia/2-interior-1600.webp",
+     "thumb": "img/places/oostende/sofia/2-interior-800.webp",
+     "srcset": "img/places/oostende/sofia/2-interior-800.webp 800w, img/places/oostende/sofia/2-interior-1600.webp 1600w",
+     "w": 720,
+     "h": 1280,
+     "category": "interior",
+     "alt": "Sofia: interior",
+     "credit": "@sofiaoostende on Instagram",
+     "credit_url": "https://www.instagram.com/sofiaoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "expo-kafie",
@@ -6649,9 +7606,9 @@
    "currentMenuNote": "",
    "status": "open",
    "statusNote": "",
-   "website": null,
-   "instagram": null,
-   "instagram_handle": null,
+   "website": "https://zuskeoostende.be/",
+   "instagram": "https://www.instagram.com/zuske.be/",
+   "instagram_handle": "zuske.be",
    "phone": null,
    "summary": "A homely place in the centre for breakfast and lunch, welcoming its \"Zuskes en Broerkes\".",
    "summaryLang": "en",
@@ -6706,7 +7663,37 @@
    "group": "restaurants",
    "category": "cafe",
    "notes": null,
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/zuske/1-food-1600.webp",
+     "thumb": "img/places/oostende/zuske/1-food-800.webp",
+     "srcset": "img/places/oostende/zuske/1-food-800.webp 800w, img/places/oostende/zuske/1-food-1600.webp 1600w",
+     "w": 900,
+     "h": 1600,
+     "category": "food",
+     "alt": "Zuske: food",
+     "credit": "@zuske.be on Instagram",
+     "credit_url": "https://www.instagram.com/zuske.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/zuske/2-food-1600.webp",
+     "thumb": "img/places/oostende/zuske/2-food-800.webp",
+     "srcset": "img/places/oostende/zuske/2-food-800.webp 800w, img/places/oostende/zuske/2-food-1600.webp 1600w",
+     "w": 900,
+     "h": 1600,
+     "category": "food",
+     "alt": "Zuske: food",
+     "credit": "@zuske.be on Instagram",
+     "credit_url": "https://www.instagram.com/zuske.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   },
   {
    "id": "rachelerie",
@@ -6802,7 +7789,23 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "link on own website, Visit Oostende listing or press article",
-   "origin": "research-2026-10-25"
+   "origin": "research-2026-10-25",
+   "photos": [
+    {
+     "src": "img/places/oostende/rachelerie/1-bread-1600.webp",
+     "thumb": "img/places/oostende/rachelerie/1-bread-800.webp",
+     "srcset": "img/places/oostende/rachelerie/1-bread-800.webp 800w, img/places/oostende/rachelerie/1-bread-1600.webp 1600w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Rachelerie: bread",
+     "credit": "@fijnbakkerij_debusschere on Instagram",
+     "credit_url": "https://www.instagram.com/fijnbakkerij_debusschere/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ]
   }
  ],
  "eventDetails": {

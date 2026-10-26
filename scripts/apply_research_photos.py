@@ -18,7 +18,8 @@ OPT = {a.split('=', 1)[0]: (a.split('=', 1)[1] if '=' in a else True) for a in s
 RES = Path(OPT.get('--research', '/workspace/handoff/place-photos-research')) / CITY
 MAX, DRY = int(OPT.get('--max', 2)), '--dry' in OPT
 P = ROOT / 'data/cities' / f'{CITY}.json'; D = json.loads(P.read_text())
-CAT = {'food': 'food', 'drink': 'food', 'drinks': 'food', 'interior': 'interior', 'exterior': 'exterior'}
+CAT = {**{k: 'food' for k in 'food dish drink drinks wine beer cocktail coffee pastry bread dessert ingredient'.split()},
+       'interior': 'interior', 'bar': 'interior', 'exterior': 'exterior', 'terrace': 'exterior'}   # menus / graphics: never
 done = placeholder = files = 0
 for r in D['restaurants']:
     sp = RES / r['id'] / 'sources.json'
