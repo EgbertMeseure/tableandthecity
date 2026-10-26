@@ -1,0 +1,390 @@
+{
+ "_doc": "Landing page (world.html): globe dots + per-city showcase. Each city lists only its own images (L = landing photo img/cities/<id>/landing/<name>-{900,1600}.webp, C = the city's own category card photo <base>-{800,1600}.webp). Credits: img/CREDITS.json. label: side of the city-dot label at country zoom (l/r/t/b) so nearby cities do not overlap.",
+ "countries": [
+  {
+   "id": "be",
+   "name": "Belgium",
+   "active": true,
+   "dot": [
+    50.85,
+    4.0
+   ]
+  },
+  {
+   "id": "nl",
+   "name": "Netherlands",
+   "active": false,
+   "dot": [
+    52.2,
+    5.3
+   ]
+  }
+ ],
+ "cities": {
+  "gent": {
+   "tagline": "Medieval towers, candlelit quays and a kitchen that never stops reinventing itself.",
+   "heroCaption": "The Gravensteen, the Counts’ castle, still keeping watch over the old town.",
+   "images": [
+    {
+     "src": "img/cities/gent/landing/hl-three-towers",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Three towers, one skyline: the medieval heart at dusk.",
+     "credit": "Giles Laurent / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:1007_Graslei,_Clock_tower_of_the_Post_Office,_Church_of_Saint-Nicolas_in_Ghent_and_Belfry_of_Ghent_Photo_by_Giles_Laurent.jpg"
+    },
+    {
+     "src": "img/cities/gent/landing/hl-graslei",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The guild houses of the Graslei mirrored in the Leie in the evening light.",
+     "credit": "Michiel Hendryckx / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Graslei_gent_avondlicht.jpg"
+    },
+    {
+     "src": "img/cities/gent/landing/hl-groot-vleeshuis",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The Great Meat Hall, a Gothic larder on the banks of the Leie.",
+     "credit": "Fred Romero from Paris, France / Wikimedia Commons, CC BY 2.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Gent_-_Groot_Vleeshuis_(48196707311).jpg"
+    },
+    {
+     "src": "img/cities/gent/landing/hl-belfry-carillon",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "High in the Belfry, the carillon drum still sets the city’s tempo.",
+     "credit": "Julian Lupyan / Wikimedia Commons, CC0",
+     "source": "https://commons.wikimedia.org/wiki/File:Playing_Drum_of_the_Carillon_of_the_Belfry_of_Ghent.jpg"
+    },
+    {
+     "src": "img/cities/gent/landing/hl-gentse-neuzen",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Cuberdons, Ghent’s raspberry ‘noses’: crisp shell, molten heart.",
+     "credit": "DimiTalen / Wikimedia Commons, CC0",
+     "source": "https://commons.wikimedia.org/wiki/File:6_cuberdons.JPG"
+    },
+    {
+     "src": "img/cities/gent/landing/hl-waterzooi",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Waterzooi, the creamy stew Ghent calls its own.",
+     "credit": "Fred Romero from Paris, France / Wikimedia Commons, CC BY 2.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Gent_(48196756682).jpg"
+    }
+   ],
+   "label": "b"
+  },
+  "antwerpen": {
+   "tagline": "Diamonds, fashion and a harbour city’s appetite for the very best.",
+   "heroCaption": "Antwerpen-Centraal, a railway cathedral to arrive in style.",
+   "images": [
+    {
+     "src": "img/cities/antwerpen/landing/hl-mas",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The MAS, stacked in red stone above the old docks.",
+     "credit": "Calips / Wikimedia Commons, CC BY-SA 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Belgie_Antwerpen_MAS_Museum_aan_de_stroom_01.jpg"
+    },
+    {
+     "src": "img/cities/antwerpen/landing/hl-zurenborg",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Zurenborg, where whole streets still dress in Belle Époque.",
+     "credit": "Torsade de Pointes / Wikimedia Commons, Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:Zurenborg_Cogels-Osylei_n%C2%B053_(1).JPG"
+    },
+    {
+     "src": "img/cities/antwerpen/landing/hl-centraal-hall",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Antwerp-Central: trains arrive in a cathedral of iron and glass.",
+     "credit": "Ad Meskens / Wikimedia Commons, CC BY-SA 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Centraal_station_9.jpg"
+    },
+    {
+     "src": "img/cities/antwerpen/landing/hl-plantin-moretus",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Plantin-Moretus: four centuries of books, ink and quiet study.",
+     "credit": "CEphoto, Uwe Aranas / Wikimedia Commons, CC BY-SA 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Antwerp_Belgium_Museum-Plantin-Moretus-04.jpg"
+    },
+    {
+     "src": "img/cities/antwerpen/landing/hl-diamond-district",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The Diamond Quarter, glittering just behind the station.",
+     "credit": "Kristina D.C. Hoeppner / Wikimedia Commons, CC BY-SA 2.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Antwerp_diamond_district_-_shops.jpg"
+    },
+    {
+     "src": "img/cities/antwerpen/landing/hl-bolleke",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "A ‘bolleke’ of De Koninck, Antwerp’s own amber ale.",
+     "credit": "Robbylancel / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Bolleke_in_de_stad.jpg"
+    }
+   ],
+   "label": "r"
+  },
+  "brugge": {
+   "tagline": "Still canals, brick gables and cosy tables tucked behind every bridge.",
+   "heroCaption": "The Rozenhoedkaai, the most photographed bend of the Bruges canals.",
+   "images": [
+    {
+     "src": "img/cities/brugge/landing/hl-belfry-markt",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The Belfry rising over the Markt and a sea of red roofs.",
+     "credit": "Giles Laurent / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:1011_Grand-Place_of_Bruges_and_Belfry_of_Bruges_Photo_by_Giles_Laurent.jpg"
+    },
+    {
+     "src": "img/cities/brugge/landing/hl-groenerei",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Brick gables leaning over the hush of the Groenerei.",
+     "credit": "Marc Ryckaert / Wikimedia Commons, CC BY 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Brugge_Groenerei_R01.jpg"
+    },
+    {
+     "src": "img/cities/brugge/landing/hl-begijnhof",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Spring in the Beguinage: daffodils, white walls and silence.",
+     "credit": "Marc Ryckaert / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Brugge_Begijnhof_R01.jpg"
+    },
+    {
+     "src": "img/cities/brugge/landing/hl-minnewater",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Minnewater, the Lake of Love, at the edge of the old town.",
+     "credit": "Marc Ryckaert (MJJR) / Wikimedia Commons, CC BY 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Brugge_Minnewater_R01.jpg"
+    },
+    {
+     "src": "img/cities/brugge/landing/hl-gothic-hall",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The Gothic Hall of the City Hall, painted from floor to vault.",
+     "credit": "Vandevorst, Kris / Wikimedia Commons, CC BY 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:De_gothische_zaal_in_het_stadhuis_van_Brugge_-_366847_-_onroerenderfgoed.jpg"
+    },
+    {
+     "src": "img/cities/brugge/landing/hl-chocolate",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Bruges chocolate, studded with nuts and made by hand.",
+     "credit": "Dietmar Rabich / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Br%C3%BCgge_(B),_Schokolade_--_2018_--_8473.jpg"
+    }
+   ],
+   "label": "t"
+  },
+  "oostende": {
+   "tagline": "Salt air, wide beaches and the freshest catch on the Belgian coast.",
+   "heroCaption": "The Mercator, the three-masted training ship, moored in the marina at night.",
+   "images": [
+    {
+     "src": "img/cities/oostende/landing/hl-fort-napoleon",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Fort Napoleon, Bonaparte's brick pentagon in the dunes.",
+     "credit": "Marc Ryckaert (MJJR) / Wikimedia Commons, CC BY 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Fort_Napoleon_R02.jpg"
+    },
+    {
+     "src": "img/cities/oostende/landing/hl-petrus-pauluskerk",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "St Peter and Paul, a forest of neo-Gothic spires by the sea.",
+     "credit": "Marc Ryckaert (MJJR) / Wikimedia Commons, CC BY 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Oostende_Sint-Petrus-en-Pauluskerk_R02.jpg"
+    },
+    {
+     "src": "img/cities/oostende/landing/hl-thermae-palace",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The Royal Galleries, sweeping towards the Thermae Palace.",
+     "credit": "Giusta777 / Wikimedia Commons, CC BY-SA 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Tp_3.JPG"
+    },
+    {
+     "src": "img/cities/oostende/landing/hl-fish-counter",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Fresh fish on ice: the coast’s daily treasure.",
+     "credit": "Szilas / Wikimedia Commons, CC BY 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:2005-09-11_Oostende_22.jpg"
+    },
+    {
+     "src": "img/cities/oostende/landing/hl-east-beach",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Gulls, wide sands and the tide on the East Bank.",
+     "credit": "Marc Ryckaert / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Oostende_Oosteroever_Strand_R02.jpg"
+    },
+    {
+     "src": "img/cities/oostende/landing/hl-visserskaai",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The skyline seen across the fishermen’s quay.",
+     "credit": "Marc Ryckaert (MJJR) / Wikimedia Commons, CC BY 3.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Oostende_Visserskaai_R01.jpg"
+    }
+   ],
+   "label": "l"
+  },
+  "brussel": {
+   "tagline": "Gilded guildhalls, grand cafés and the whole world at one table.",
+   "heroCaption": "The Grand-Place, gilded guildhalls around one of Europe’s grandest squares.",
+   "images": [
+    {
+     "src": "img/cities/brussel/landing/hl-galeries-saint-hubert",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Under the glass roof of the Galeries Royales Saint-Hubert.",
+     "credit": "Scoutty007 / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Galeries_Royales_Saint-Hubert_Bruxelles_01.jpg"
+    },
+    {
+     "src": "img/cities/brussel/landing/hl-atomium-night",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "The Atomium after dark, nine steel spheres lit like a molecule of light.",
+     "credit": "Diego Delso / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Atomium,_Bruselas,_B%C3%A9lgica,_2021-12-15,_DD_163-165_HDR.jpg"
+    },
+    {
+     "src": "img/cities/brussel/landing/hl-mont-des-arts",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Mont des Arts at twilight, the old town glowing beyond.",
+     "credit": "Trougnouf (Benoit Brummer) / Wikimedia Commons, CC BY 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Garden_of_Kunstberg_viewed_from_Mont_des_Arts_during_nautical_twilight_(DSCF1028).jpg"
+    },
+    {
+     "src": "img/cities/brussel/landing/hl-horta-museum",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Victor Horta’s Art Nouveau stairwell, a spiral of light.",
+     "credit": "J. Miers / Wikimedia Commons, CC BY-SA 1.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Horta_Museum.JPG"
+    },
+    {
+     "src": "img/cities/brussel/landing/hl-waffle",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "A sugar-dusted waffle, Brussels’ sweetest habit.",
+     "credit": "Fernando Losada Rodríguez / Wikimedia Commons, CC BY-SA 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Gaufre_de_Brussel.001_-_Brussel.jpg"
+    },
+    {
+     "src": "img/cities/brussel/landing/hl-cantillon",
+     "sizes": [
+      900,
+      1600
+     ],
+     "ratio": 1.5,
+     "caption": "Lambic resting in oak at Cantillon.",
+     "credit": "Abujoy / Wikimedia Commons, CC BY 4.0",
+     "source": "https://commons.wikimedia.org/wiki/File:Brasserie_Cantillon_11.jpg"
+    }
+   ],
+   "label": "r"
+  }
+ }
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en" class="wl-boot">
+<head>
+<meta charset="utf-8">
+<meta name="build" content="9fce0d7008">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Table and the City — choose your city</title>
+<meta name="description" content="Table and the City: curated guides to the finest tables, city by city. Spin the globe, pick a country and a city, and find restaurants, cafés, coffee and bakeries.">
+<link rel="canonical" href="https://www.tableandthecity.com/world.html">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="img/brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/brand/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="img/brand/favicon-16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="img/brand/apple-touch-icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#050607">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Table and the City">
+<meta property="og:title" content="Table and the City">
+<meta property="og:description" content="Taste the city at its finest tables: restaurants, cafés, coffee, bakeries and new openings.">
+<meta property="og:url" content="https://www.tableandthecity.com/">
+<meta property="og:image" content="https://www.tableandthecity.com/img/share-card.jpg">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Table and the City logo">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="modulepreload" href="vendor/three/three.custom.min.js">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/brand.css?v=9fce0d7008">
+<link rel="stylesheet" href="css/world.css?v=9fce0d7008">
+</head>
+<body class="wl">
+<a class="wl-skip" href="#wl-dest">Skip to the list of cities</a>
+<div class="wl-stage" id="wl-stage" aria-hidden="true">
+  <canvas id="wl-globe"></canvas>
+  <div class="wl-stars"></div>
+</div>
+<div class="wl-markers" id="wl-markers"></div>
+
+<header class="wl-top">
+  <a class="logo" href="world.html"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="190" height="40"></a>
+  <div class="wl-top__right">
+    <a class="wl-resume" id="wl-resume" hidden href="#"><span class="wl-resume__k">Continue</span> <span id="wl-resume-city"></span> <span aria-hidden="true">→</span></a>
+    <button class="wl-listbtn" type="button" id="wl-listbtn" aria-controls="wl-dest" aria-expanded="false">All destinations</button>
+  </div>
+</header>
+
+<section class="wl-intro" id="wl-intro">
+  <p class="wl-eyebrow">A curated guide, city by city</p>
+  <h1>Where shall we<br><i>dine tonight?</i></h1>
+  <p class="wl-lede">We start in Belgium and grow, city by city, to every great food city in the world.</p>
+  <button class="wl-cta" type="button" data-country="be"><span class="wl-cta__dot" aria-hidden="true"></span>Explore Belgium<span aria-hidden="true">→</span></button>
+  <p class="wl-hint" id="wl-hint">Drag to spin the globe · tap the gold light</p>
+</section>
+
+<aside class="wl-panel" id="wl-panel" aria-labelledby="wl-panel-title" hidden>
+  <div class="wl-panel__grab" aria-hidden="true"></div>
+  <div class="wl-panel__head">
+    <button class="wl-back" type="button" data-globe aria-label="Back to the globe"><svg viewBox="0 0 46 12" aria-hidden="true"><path d="M46 6H1M6 1 1 6l5 5"/></svg></button>
+    <div><p class="wl-eyebrow" id="wl-panel-kicker">Choose your city</p><h2 id="wl-panel-title">Belgium</h2></div>
+  </div>
+  <ul class="wl-cards" id="wl-cards"></ul>
+  <p class="wl-panel__foot">More countries are on their way.</p>
+</aside>
+
+<nav class="wl-dest" id="wl-dest" aria-label="All destinations" tabindex="-1">
+  <div class="wl-dest__in">
+    <button class="wl-dest__close" type="button" id="wl-dest-close">Close</button>
+    <a class="logo wl-dest__logo" href="world.html"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="190" height="40"></a>
+    <h2>All destinations</h2>
+    <div id="wl-dest-list">
+      <!-- static fallback (no JS / no WebGL); world.js rebuilds it from data/cities.json -->
+      <h3>Belgium</h3>
+      <ul><li><a href="index.html?country=be&amp;city=gent">Gent</a></li><li><a href="index.html?country=be&amp;city=antwerpen">Antwerpen</a></li><li><a href="index.html?country=be&amp;city=brugge">Brugge</a></li><li><a href="index.html?country=be&amp;city=oostende">Ostend</a></li><li><a href="index.html?country=be&amp;city=brussel">Brussels</a></li></ul>
+    </div>
+  </div>
+</nav>
+
+<div class="wl-show" id="wl-show" role="dialog" aria-modal="true" aria-labelledby="wl-show-title" hidden tabindex="-1"></div>
+<p class="wl-credit" id="wl-credit">Globe: NASA Earth Observatory, Black Marble &amp; Blue Marble (public domain) · <a href="img/CREDITS.json" data-credits>Photo credits</a></p>
+<div class="wl-dest wl-creds" id="wl-creds" role="dialog" aria-modal="true" aria-labelledby="wl-creds-title" tabindex="-1">
+  <div class="wl-dest__in">
+    <button class="wl-dest__close" type="button" data-creds-close>Close</button>
+    <h2 id="wl-creds-title">Photo credits</h2>
+    <div id="wl-creds-list"><p>Loading…</p></div>
+    <p class="wl-creds__all"><a href="img/CREDITS.json">All credits &amp; licences (JSON)</a></p>
+  </div>
+</div>
+
+<script type="module" src="js/world.js?v=9fce0d7008"></script>
+<script nomodule>document.documentElement.className+=' no-webgl';</script>
+</body>
+</html>

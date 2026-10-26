@@ -101,6 +101,9 @@ button,input,select{font-family:inherit}
 .citysel a.ci:hover,.citysel li[aria-current="true"] .ci{background:#fff;color:#000}
 .citysel .ci.soon{opacity:.45;cursor:default}
 .citysel .grp{padding:8px 14px 2px;font-size:9px;letter-spacing:.2em;text-transform:uppercase;opacity:.55}
+.citysel li.world{margin-top:6px;padding-top:6px;border-top:1px solid rgba(255,255,255,.18);border-radius:0}
+.citysel li.world .ci{color:var(--accent)}
+.citysel li.world a.ci:hover{color:#000}
 
 /* ---- section heading flanked by thin arrows ---- */
 .section{padding:70px 0}

@@ -373,7 +373,7 @@ const TG = (() => {
   };
   /* two pills: Country ▾  City ▾ (city list filtered by the chosen country) */
   function renderCitySel(cfg, city) {
-    CUR = city;
+    CUR = city; try { localStorage.setItem('tatc.lastCity', city.id); } catch (e) {}   // the landing (world.html) offers 'Continue to <city>'
     const cityItems = co => co.cities.map(c => c.active
       ? `<li role="option" aria-current="${c.id === city.id}"><a class="ci" href="${cityUrl('index.html', c.id)}">${esc(c.name)}<em>${c.id === city.id ? '●' : ''}</em></a></li>`
       : `<li role="option" aria-disabled="true"><span class="ci soon">${esc(c.name)}<em>soon</em></span></li>`).join('');
@@ -384,7 +384,7 @@ const TG = (() => {
           <ul role="listbox">${cfg.countries.map(co => co.active
             ? `<li role="option" aria-current="${co.id === city.countryId}"><button type="button" class="ci" data-country="${esc(co.id)}">${esc(co.name)}<em>${co.id === city.countryId ? '●' : ''}</em></button></li>`
             : `<li role="option"><button type="button" class="ci soon" data-soon="${esc(co.name)}" aria-label="${esc(co.name)}, coming soon">${esc(co.name)}<em>soon</em></button></li>`).join('')}
-            <li class="soon-msg" hidden></li></ul></div>
+            <li class="soon-msg" hidden></li><li class="world"><a class="ci" href="world.html">All destinations · globe<em>↗</em></a></li></ul></div>
         <div class="citysel" data-dd="city"><button type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Choose city">${esc(city.name)}</button>
           <ul role="listbox"><li class="grp">${esc(city.country)}</li>${cityItems(cfg.countries.find(c => c.id === city.countryId))}</ul></div>`;
       el.querySelectorAll('.citysel').forEach(dd => {

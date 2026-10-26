@@ -18,6 +18,16 @@ Static site, no build step. Serve the folder and open `index.html?city=gent`:
 URLs: `index.html?country=be&city=gent`, `restaurant.html?country=be&city=gent&id=<id>`. Filters are in the URL too
 (`q, type, area, cuisine, price, dist, sort, new, veggie, vegan, events, ev`).
 
+## Landing: the globe (`world.html`)
+The bare site root (`/` or `index.html` with no query and no `#section`) redirects to `world.html`: a three.js night globe
+(Belgium = gold dot; inactive countries in `data/cities.json` = faint “coming soon” dots) → city cards → full-screen city showcase.
+Routes: `world.html#be` (country), `world.html#be/gent` (showcase). Every `index.html?country=…&city=…` link works exactly as before.
+The guide stores the last city (`localStorage tatc.lastCity`); the landing offers “Continue to <city>”, and the guide's city menu + nav link “All destinations” lead back.
+- Data: city names/heroes from `data/cities.json` (change a hero there and the landing follows; `images.heroFocus` is honoured on the city card and showcase hero too); globe dots, taglines and showcase photos in `data/landing.json`.
+- Showcase photos: `img/cities/<slug>/landing/*-{900,1600}.webp`, credited in `img/CREDITS.json` and in the landing's “Photo credits” panel.
+- three.js r169 is vendored, tree-shaken: `vendor/three/` (MIT; rebuild notes in its README). Textures: NASA Black Marble 2016 + Blue Marble (public domain) in `img/world/`.
+- No WebGL / no JS modules → a plain list of destinations with the logo. `prefers-reduced-motion` → no auto-rotate, no fly animations.
+
 ## Events
 Only upcoming events are shown (end date ≥ today in Europe/Brussels, computed in the browser at page load).
 Undated events are hidden unless `ongoing: true` with a future `dateEnd`. Recurring events use `recurrence` and show
