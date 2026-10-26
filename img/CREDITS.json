@@ -228,12 +228,12 @@
   "used_for": "Antwerp 'Choose your table' card: events"
  },
  {
-  "file": "img/cities/gent/hero-graslei-{1000,1600,2400}.webp + hero-graslei-1600.jpg",
-  "title": "A large building with a clock tower",
-  "photographer": "Chris Linnett",
-  "photographer_url": "https://unsplash.com/@chrislinnett",
-  "source": "https://unsplash.com/photos/a-large-building-with-a-clock-tower-2yJiqRk0vtc",
+  "file": "img/cities/gent/hero-gravensteen-{1000,1600,2400}.webp + hero-gravensteen-1600.jpg",
+  "title": "Brown brick building under blue sky during daytime",
+  "photographer": "Jolien E.",
+  "photographer_url": "https://unsplash.com/@jeva",
+  "source": "https://unsplash.com/photos/brown-brick-building-under-blue-sky-during-daytime-paeptVxbSFM",
   "license": "Unsplash License (free to use, no attribution required — credited anyway)",
-  "used_for": "Gent home hero (Graslei at night)"
+  "used_for": "Gent home hero (Gravensteen at blue hour)"
  }
 ]

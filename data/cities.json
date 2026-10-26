@@ -35,7 +35,7 @@
      "instagram": "data/cities/gent-instagram.json",
      "ratings": "data/cities/gent-ratings.json",
      "images": {
-      "hero": "img/cities/gent/hero-graslei",
+      "hero": "img/cities/gent/hero-gravensteen",
       "cards": {
        "new": "plated",
        "breakfast": "coffee",
