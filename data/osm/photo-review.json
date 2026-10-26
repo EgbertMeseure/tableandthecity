@@ -335,7 +335,8 @@
     "julies-house": "1 has caption text and a toile plate (printed figures possible), 2 only 512 px",
     "the-kitchen-1898-the-post": "shows a hotel room, not the restaurant",
     "bar-dada/3-interior": "bottle label with painted lips",
-    "ona-belfort": "same website photo as Ona Nederkouter (one shared site); not reused"
+    "ona-belfort": "same website photo as Ona Nederkouter (one shared site); not reused",
+    "vicino/2-food": "wide banner, centre crop shows mostly table"
    },
    "dropPhotos": {
     "sakas": {
@@ -351,6 +352,12 @@
      0,
      0.8525,
      1
+    ],
+    "vicino/1-drink": [
+     0.2533,
+     0,
+     0.7467,
+     1
     ]
    }
   },
@@ -363,7 +370,11 @@
    },
    "hold": {},
    "skipResearch": {
-    "pazzo/3-food": "text overlay (PAZZO MANIA X MANDRAROSSA)"
+    "pazzo/3-food": "text overlay (PAZZO MANIA X MANDRAROSSA)",
+    "ta-nnin/2-interior": "only 768px; #1 is better",
+    "bar-bulot-at-botanic": "shared multi-branch account, branch not confirmed",
+    "misera": "styled still life (sauce boat), not food/drink/interior",
+    "nebo/1-food": "logo watermark; clean alternatives exist"
    },
    "dropPhotos": {},
    "cropResearch": {
@@ -372,6 +383,12 @@
      0,
      0.7467,
      1
+    ],
+    "het-archief/1-interior": [
+     0,
+     0,
+     1,
+     0.86
     ]
    }
   }

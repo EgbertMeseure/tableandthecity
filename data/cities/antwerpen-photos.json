@@ -73,18 +73,11 @@
     "url": "https://www.instagram.com/p/DeJfXDHN3xH/"
    }
   },
-  "bar-bulot-at-botanic": {
-   "posts": [
-    {
-     "url": "https://www.instagram.com/p/DezXJ3DDaU8/",
-     "category": "food",
-     "origin": "research"
-    }
-   ],
-   "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DezXJ3DDaU8/"
-   }
+  "bakker-aldo": {
+   "hold": "no people-free photo found (research): Instagram images all show hands/people; only clean-ish one has a text overlay and an ambiguous dark object (possible hand/sifter) in corner"
+  },
+  "bar-burbure": {
+   "hold": "no people-free photo found (research): website shows only gift vouchers, book covers, T-shirts and a photo of the owners; no Instagram on record"
   },
   "bar-misera": {
    "photos": [
@@ -169,6 +162,9 @@
     "url": "https://www.instagram.com/p/DPWgGDZjGBl/"
    }
   },
+  "bar-sardine": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
+  },
   "bar-t-a-vin": {
    "photos": [
     {
@@ -213,6 +209,30 @@
     "src": "https://bartavin.be/_DSC6962.jpg"
    }
   },
+  "barnini": {
+   "hold": "no people-free photo found (research): website barnini.be navigation failed; no Instagram on record"
+  },
+  "barrique": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DKl3G8dNkuN/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DU5PyXDjEB9/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DKl3G8dNkuN/"
+   }
+  },
+  "batavier": {
+   "hold": "no people-free photo found (research): website http://www.batavier.be/ timed out twice; no Instagram on record"
+  },
   "belgian-wines": {
    "photos": [
     {
@@ -245,6 +265,12 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DXZ5mxqieED/"
    }
+  },
+  "billies": {
+   "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
+  },
+  "bistro-rocco": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
   },
   "bistrot-du-nord": {
    "photos": [
@@ -360,6 +386,9 @@
     "url": "https://www.instagram.com/p/Deyt9VYFCAP/"
    }
   },
+  "bloesem": {
+   "hold": "no people-free photo found (research): own Instagram and website only show flower collages, posters and illustrations; no food, drink or interior"
+  },
   "boe": {
    "photos": [
     {
@@ -391,6 +420,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/Dd32OjQMupv/"
    }
+  },
+  "boer-van-tienen": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
   },
   "briquet": {
    "photos": [
@@ -424,6 +456,15 @@
     "src": "https://static.wixstatic.com/media/3792f9_80874423b7244ceb9e3cf3050e83ef61~mv2.jpeg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3792f9_80874423b7244ceb9e3cf3050e83ef61~mv2.jpeg"
    }
   },
+  "bun": {
+   "hold": "no people-free photo found (research): website only has illustrations with farmer silhouettes; no Instagram images"
+  },
+  "butchers-coffee": {
+   "hold": "no people-free photo found (research): website butcherscoffee.be timed out; no Instagram on record"
+  },
+  "cafe-beveren": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
+  },
   "cafe-ernst": {
    "posts": [
     {
@@ -436,6 +477,12 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeCC_pqMvG1/"
    }
+  },
+  "cafe-jozef": {
+   "hold": "no people-free photo found (research): only website image (terrace) shows a person through the window; no Instagram on record"
+  },
+  "cafe-tack": {
+   "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
   },
   "caffenation": {
    "photos": [
@@ -516,6 +563,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeguGaxl6Co/"
    }
+  },
+  "charlies": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
   },
   "ciro-s": {
    "photos": [
@@ -643,8 +693,8 @@
      "alt": ""
     },
     {
-     "src": "https://cdn.webshopapp.com/shops/257190/files/474715503/700x700x1/theewereld.jpg",
-     "thumb": "https://cdn.webshopapp.com/shops/257190/files/474715503/700x700x1/theewereld.jpg",
+     "src": "https://cdn.webshopapp.com/shops/257190/files/474715525/700x700x1/koffie-smaakwiel.jpg",
+     "thumb": "https://cdn.webshopapp.com/shops/257190/files/474715525/700x700x1/koffie-smaakwiel.jpg",
      "w": 700,
      "h": 700,
      "hotlink": true,
@@ -655,8 +705,8 @@
      "alt": ""
     },
     {
-     "src": "https://cdn.webshopapp.com/shops/257190/files/474715525/700x700x1/koffie-smaakwiel.jpg",
-     "thumb": "https://cdn.webshopapp.com/shops/257190/files/474715525/700x700x1/koffie-smaakwiel.jpg",
+     "src": "https://cdn.webshopapp.com/shops/257190/files/474715503/700x700x1/theewereld.jpg",
+     "thumb": "https://cdn.webshopapp.com/shops/257190/files/474715503/700x700x1/theewereld.jpg",
      "w": 700,
      "h": 700,
      "hotlink": true,
@@ -739,6 +789,12 @@
     "src": "img/places/antwerpen/de-balans/1-food-1600.webp"
    }
   },
+  "de-duifkens": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
+  },
+  "de-jordaan": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
+  },
   "decan": {
    "photos": [
     {
@@ -770,6 +826,15 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeeVb7HDNl-/"
    }
+  },
+  "den-bengel": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
+  },
+  "den-bourgondier": {
+   "hold": "no people-free photo found (research): website only has a parchment background texture; no Instagram on record"
+  },
+  "den-engel": {
+   "hold": "no people-free photo found (research): only images with people or posters"
   },
   "django": {
    "posts": [
@@ -848,6 +913,45 @@
     "url": "https://www.instagram.com/p/DcWTH1MgtqY/"
    }
   },
+  "domestic": {
+   "photos": [
+    {
+     "src": "https://static.wixstatic.com/media/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg/v1/fill/w_980,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg/v1/fill/w_980,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg",
+     "w": 980,
+     "h": 682,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "domestic-bakkerij.be",
+     "credit_url": "https://www.domestic-bakkerij.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://static.wixstatic.com/media/0fdfe7_ad619f49156c4ac4b0b2f2033da1845a~mv2.jpg/v1/fill/w_980,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdfe7_ad619f49156c4ac4b0b2f2033da1845a~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/0fdfe7_ad619f49156c4ac4b0b2f2033da1845a~mv2.jpg/v1/fill/w_980,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdfe7_ad619f49156c4ac4b0b2f2033da1845a~mv2.jpg",
+     "w": 980,
+     "h": 682,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "domestic-bakkerij.be",
+     "credit_url": "https://www.domestic-bakkerij.be/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/De6LetMs5HV/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://static.wixstatic.com/media/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg/v1/fill/w_980,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg"
+   }
+  },
   "essenz": {
    "photos": [
     {
@@ -895,18 +999,6 @@
   "et-claire": {
    "photos": [
     {
-     "src": "https://et-claire.com/wp-content/uploads/2025/07/croissant-819x1024.jpg",
-     "thumb": "https://et-claire.com/wp-content/uploads/2025/07/croissant-819x1024.jpg",
-     "w": 819,
-     "h": 1024,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "et-claire.com",
-     "credit_url": "https://et-claire.com/",
-     "alt": ""
-    },
-    {
      "src": "https://et-claire.com/wp-content/uploads/2023/12/foto-homepage.jpg",
      "thumb": "https://et-claire.com/wp-content/uploads/2023/12/foto-homepage.jpg",
      "w": 1200,
@@ -919,8 +1011,20 @@
      "alt": ""
     },
     {
-     "src": "https://et-claire.com/wp-content/uploads/2025/07/pain-au-chocolat-819x1024.jpg",
-     "thumb": "https://et-claire.com/wp-content/uploads/2025/07/pain-au-chocolat-819x1024.jpg",
+     "src": "https://et-claire.com/wp-content/uploads/2025/07/croissant-819x1024.jpg",
+     "thumb": "https://et-claire.com/wp-content/uploads/2025/07/croissant-819x1024.jpg",
+     "w": 819,
+     "h": 1024,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "et-claire.com",
+     "credit_url": "https://et-claire.com/",
+     "alt": ""
+    },
+    {
+     "src": "https://et-claire.com/wp-content/uploads/2025/07/tray-819x1024.jpg",
+     "thumb": "https://et-claire.com/wp-content/uploads/2025/07/tray-819x1024.jpg",
      "w": 819,
      "h": 1024,
      "hotlink": true,
@@ -933,11 +1037,23 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "https://et-claire.com/wp-content/uploads/2025/07/croissant-819x1024.jpg"
+    "src": "https://et-claire.com/wp-content/uploads/2023/12/foto-homepage.jpg"
    }
   },
   "fine-fleur": {
    "photos": [
+    {
+     "src": "https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684bd46942036-Tablefever_2025-06-06FineFleur_070.jpg",
+     "thumb": "https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684bd46942036-Tablefever_2025-06-06FineFleur_070.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "restaurantfinefleur.be",
+     "credit_url": "https://www.restaurantfinefleur.be/en",
+     "alt": ""
+    },
     {
      "src": "https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684839e174396-Tablefever_2025-06-06FineFleur_055.jpg",
      "thumb": "https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684839e174396-Tablefever_2025-06-06FineFleur_055.jpg",
@@ -965,7 +1081,74 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684839e174396-Tablefever_2025-06-06FineFleur_055.jpg"
+    "src": "https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684bd46942036-Tablefever_2025-06-06FineFleur_070.jpg"
+   }
+  },
+  "flatons": {
+   "hold": "no people-free photo found (research): website has only a logo and a dinner photo with a guest's hand and arm; no Instagram on record"
+  },
+  "fuel": {
+   "photos": [
+    {
+     "src": "https://fuel-antwerp.com/__l5e/assets-v1/318c1934-f602-4304-9193-75d6987c20b7/north-homepage.jpg",
+     "thumb": "https://fuel-antwerp.com/__l5e/assets-v1/318c1934-f602-4304-9193-75d6987c20b7/north-homepage.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "fuel-antwerp.com",
+     "credit_url": "https://fuel-antwerp.com/",
+     "alt": ""
+    },
+    {
+     "src": "https://fuel-antwerp.com/__l5e/assets-v1/e42a5e46-ac21-41cc-8136-c84b0c614e14/south-homepage.jpg",
+     "thumb": "https://fuel-antwerp.com/__l5e/assets-v1/e42a5e46-ac21-41cc-8136-c84b0c614e14/south-homepage.jpg",
+     "w": 720,
+     "h": 1280,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "fuel-antwerp.com",
+     "credit_url": "https://fuel-antwerp.com/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://fuel-antwerp.com/__l5e/assets-v1/318c1934-f602-4304-9193-75d6987c20b7/north-homepage.jpg"
+   }
+  },
+  "funk": {
+   "photos": [
+    {
+     "src": "https://bakkerijfunk.com/cdn/shop/files/IMG_2804.jpg?v=1759339787&width=1600",
+     "thumb": "https://bakkerijfunk.com/cdn/shop/files/IMG_2804.jpg?v=1759339787&width=1600",
+     "w": 895,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bakkerijfunk.com",
+     "credit_url": "https://bakkerijfunk.com/",
+     "alt": ""
+    },
+    {
+     "src": "https://bakkerijfunk.com/cdn/shop/files/IMG_1580_2.jpg?height=4032&v=1759340671",
+     "thumb": "https://bakkerijfunk.com/cdn/shop/files/IMG_1580_2.jpg?height=4032&v=1759340671",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bakkerijfunk.com",
+     "credit_url": "https://bakkerijfunk.com/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://bakkerijfunk.com/cdn/shop/files/IMG_2804.jpg?v=1759339787&width=1600"
    }
   },
   "funk-berchem": {
@@ -994,6 +1177,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/De7bXDgEWim/"
    }
+  },
+  "fuzz": {
+   "hold": "no people-free photo found (research): website images are dark, blurred video stills; no Instagram on record"
   },
   "glass": {
    "photos": [
@@ -1039,6 +1225,12 @@
     "src": "https://wijnbistro-glass.be/wp-content/uploads/2026/05/a6e13b10-9100-4390-ade9-e6bf78156ec6.jpeg"
    }
   },
+  "glou-glou": {
+   "hold": "no people-free photo found (research): only interior photo has the photographer reflected in the wall mirror; other image is the building outside; no Instagram images"
+  },
+  "goossens": {
+   "hold": "no people-free photo found (research): no own website/Instagram on record (only a cityzine.be listing)"
+  },
   "hertog-jan-at-botanic": {
    "posts": [
     {
@@ -1061,6 +1253,29 @@
     "type": "post",
     "url": "https://www.instagram.com/p/Dd82_hxl7Ww/"
    }
+  },
+  "het-archief": {
+   "photos": [
+    {
+     "src": "img/places/antwerpen/het-archief/1-interior-1600.webp",
+     "w": 857,
+     "h": 1106,
+     "thumb": "img/places/antwerpen/het-archief/1-interior-800.webp",
+     "category": "interior",
+     "source": "website",
+     "credit": "inhetarchief.be",
+     "credit_url": "https://inhetarchief.be/",
+     "alt": "",
+     "source_url": "https://inhetarchief.be/images/home-het-archief-857.webp"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/het-archief/1-interior-1600.webp"
+   }
+  },
+  "het-nieuwe-palinghuis": {
+   "hold": "no people-free photo found (research): own Instagram shows owner/staff and an 'OVER TE NEMEN' (for takeover) sign; no people-free food image"
   },
   "hidden-garden": {
    "photos": [
@@ -1102,6 +1317,15 @@
     "src": "https://www.invincible.be/css/images/Ham-invincible-licht.jpg"
    }
   },
+  "irish-times": {
+   "hold": "no people-free photo found (research): website irish-times-pub.net timed out twice; no Instagram on record"
+  },
+  "jones-co": {
+   "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
+  },
+  "kasette": {
+   "hold": "no people-free photo found (research): website has only a logo graphic; no Instagram on record"
+  },
   "kellys": {
    "photos": [
     {
@@ -1129,12 +1353,12 @@
      "alt": ""
     },
     {
-     "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i6419f204e250844e/version/1787910060/image.jpg",
-     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i6419f204e250844e/version/1787910060/image.jpg",
+     "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i8af8242b0fd1136e/version/1787910066/image.jpg",
+     "thumb": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i8af8242b0fd1136e/version/1787910066/image.jpg",
      "w": 1600,
-     "h": 1600,
+     "h": 1067,
      "hotlink": true,
-     "category": "food",
+     "category": "interior",
      "source": "website",
      "credit": "kellysantwerp.be",
      "credit_url": "https://www.kellysantwerp.be/",
@@ -1144,6 +1368,26 @@
    "pick": {
     "type": "photo",
     "src": "https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i5a04b6d9fbed9e1a/version/1787910052/image.jpg"
+   }
+  },
+  "kloonies": {
+   "photos": [
+    {
+     "src": "https://static.wixstatic.com/media/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg/v1/fill/w_1280,h_888,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg/v1/fill/w_1280,h_888,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg",
+     "w": 1280,
+     "h": 888,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "kloonies.be",
+     "credit_url": "https://www.kloonies.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://static.wixstatic.com/media/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg/v1/fill/w_1280,h_888,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg"
    }
   },
   "ko-uzi": {
@@ -1189,6 +1433,9 @@
     "type": "photo",
     "src": "https://www.kouzi.be/img/slider2025/Kouzi-2018-25828-1280w.webp"
    }
+  },
+  "koffie-dealers": {
+   "hold": "no people-free photo found (research): Instagram images show staff/hands or text overlays; website field is just the Instagram URL"
   },
   "krijt": {
    "photos": [
@@ -1251,6 +1498,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeObDZZFVus/"
    }
+  },
+  "la-beurre": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
   },
   "la-brasserie-du-dome": {
    "posts": [
@@ -1315,6 +1565,35 @@
     "src": "https://www.lesanneesfolles.be/images/LesAnneesFolles.jpg"
    }
   },
+  "linas": {
+   "hold": "no people-free photo found (research): website linasbakkerij.be timed out; no Instagram on record"
+  },
+  "lints": {
+   "photos": [
+    {
+     "src": "https://images.squarespace-cdn.com/content/v1/66c5c8bb17e6ca5456dbb465/1792346492399-EYHHY2CDY104G3QJFZW6/image-asset.jpeg?format=1500w",
+     "thumb": "https://images.squarespace-cdn.com/content/v1/66c5c8bb17e6ca5456dbb465/1792346492399-EYHHY2CDY104G3QJFZW6/image-asset.jpeg?format=1500w",
+     "w": 1301,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "lints.be",
+     "credit_url": "https://www.lints.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://images.squarespace-cdn.com/content/v1/66c5c8bb17e6ca5456dbb465/1792346492399-EYHHY2CDY104G3QJFZW6/image-asset.jpeg?format=1500w"
+   }
+  },
+  "lito": {
+   "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
+  },
+  "los-dos": {
+   "hold": "no people-free photo found (research): website losdos.be refused connection twice (ERR_CONNECTION_CLOSED); no Instagram on record"
+  },
   "luddites": {
    "photos": [
     {
@@ -1358,6 +1637,9 @@
     "type": "photo",
     "src": "https://d2j6dbq0eux0bg.cloudfront.net/images/141350506/products/866967439/6277622173.jpg"
    }
+  },
+  "materia": {
+   "hold": "no people-free photo found (research): website only shows the MATERIA logo; no Instagram on record"
   },
   "mero": {
    "photos": [
@@ -1423,24 +1705,17 @@
     "src": "https://cdn.prod.website-files.com/67e508c2980c586cba2b3141/67f3b8b32d7439b8ae1f5e97_glasses-plate-cutlery-table-table-setting-restaurant-p-1080.jpg"
    }
   },
-  "misera": {
-   "photos": [
+  "mink": {
+   "posts": [
     {
-     "src": "https://nicolasmisera.com/img/containers/assets/misera-1.jpg/820806964a932e1067781b8edc303c82/misera-1.webp",
-     "thumb": "https://nicolasmisera.com/img/containers/assets/misera-1.jpg/820806964a932e1067781b8edc303c82/misera-1.webp",
-     "w": 1067,
-     "h": 1600,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
-     "credit": "nicolasmisera.com",
-     "credit_url": "https://nicolasmisera.com/",
-     "alt": ""
+     "url": "https://www.instagram.com/p/DerHwTMtnhX/",
+     "category": "drink",
+     "origin": "research"
     }
    ],
    "pick": {
-    "type": "photo",
-    "src": "https://nicolasmisera.com/img/containers/assets/misera-1.jpg/820806964a932e1067781b8edc303c82/misera-1.webp"
+    "type": "post",
+    "url": "https://www.instagram.com/p/DerHwTMtnhX/"
    }
   },
   "mouton": {
@@ -1535,17 +1810,16 @@
      "alt": ""
     }
    ],
-   "posts": [
-    {
-     "url": "https://www.instagram.com/p/Deb5p_6CBpR/",
-     "category": "food",
-     "origin": "research"
-    }
-   ],
    "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/Deb5p_6CBpR/"
+    "type": "photo",
+    "src": "https://framerusercontent.com/images/cbyJsn5UoFaoxLlaw5LA7XDdvqw.jpg?scale-down-to=2048&width=2500&height=1667"
    }
+  },
+  "nelly": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
+  },
+  "nives": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
   },
   "nonas": {
    "photos": [
@@ -1553,6 +1827,18 @@
      "src": "https://nonasbakery.be/wp-content/uploads/2025/11/43e86b1d-7b2f-46c9-85ad-8686313f1bf1-1_all_5713.jpg",
      "thumb": "https://nonasbakery.be/wp-content/uploads/2025/11/43e86b1d-7b2f-46c9-85ad-8686313f1bf1-1_all_5713.jpg",
      "w": 1387,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "nonasbakery.be",
+     "credit_url": "https://nonasbakery.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://nonasbakery.be/wp-content/uploads/2026/03/1000018774.jpg",
+     "thumb": "https://nonasbakery.be/wp-content/uploads/2026/03/1000018774.jpg",
+     "w": 900,
      "h": 1600,
      "hotlink": true,
      "category": "food",
@@ -1572,24 +1858,15 @@
      "credit": "nonasbakery.be",
      "credit_url": "https://nonasbakery.be/",
      "alt": ""
-    },
-    {
-     "src": "https://nonasbakery.be/wp-content/uploads/2026/03/1000018774.jpg",
-     "thumb": "https://nonasbakery.be/wp-content/uploads/2026/03/1000018774.jpg",
-     "w": 900,
-     "h": 1600,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "nonasbakery.be",
-     "credit_url": "https://nonasbakery.be/",
-     "alt": ""
     }
    ],
    "pick": {
     "type": "photo",
     "src": "https://nonasbakery.be/wp-content/uploads/2025/11/43e86b1d-7b2f-46c9-85ad-8686313f1bf1-1_all_5713.jpg"
    }
+  },
+  "normo": {
+   "hold": "no people-free photo found (research): website gave only a blank/white graphic; Instagram embed (normocoffee) failed to load twice (no bypass attempted)"
   },
   "oaas": {
    "photos": [
@@ -1606,24 +1883,24 @@
      "alt": ""
     },
     {
-     "src": "https://oaas.be/assets/img/y-interieur.jpg",
-     "thumb": "https://oaas.be/assets/img/y-interieur.jpg",
-     "w": 1600,
-     "h": 1067,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
-     "credit": "oaas.be",
-     "credit_url": "https://oaas.be/",
-     "alt": ""
-    },
-    {
      "src": "https://oaas.be/assets/img/slide-1.jpg",
      "thumb": "https://oaas.be/assets/img/slide-1.jpg",
      "w": 1500,
      "h": 1000,
      "hotlink": true,
      "category": "food",
+     "source": "website",
+     "credit": "oaas.be",
+     "credit_url": "https://oaas.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://oaas.be/assets/img/y-interieur.jpg",
+     "thumb": "https://oaas.be/assets/img/y-interieur.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "interior",
      "source": "website",
      "credit": "oaas.be",
      "credit_url": "https://oaas.be/",
@@ -1657,6 +1934,9 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DeRz669MHWU/"
    }
+  },
+  "osaka": {
+   "hold": "no people-free photo found (research): listed website (caminoantwerp.com) returned no usable images; no Instagram on record"
   },
   "paloma": {
    "photos": [
@@ -1697,6 +1977,9 @@
     "src": "https://paloma-antwerp.be/wp-content/uploads/2026/08/20251210_144854-701x1024.jpg"
    }
   },
+  "paters-vaetje": {
+   "hold": "no people-free photo found (research): only image found is blank white; no usable people-free image"
+  },
   "pazzo": {
    "posts": [
     {
@@ -1709,6 +1992,12 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DerUMjQCV0T/"
    }
+  },
+  "pelikaan": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
+  },
+  "phiin": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
   },
   "polette": {
    "posts": [
@@ -1819,18 +2108,6 @@
      "credit": "quintenmatsijs.be",
      "credit_url": "https://www.quintenmatsijs.be/",
      "alt": ""
-    },
-    {
-     "src": "https://www.quintenmatsijs.be/img/3.jpg",
-     "thumb": "https://www.quintenmatsijs.be/img/3.jpg",
-     "w": 1600,
-     "h": 1143,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
-     "credit": "quintenmatsijs.be",
-     "credit_url": "https://www.quintenmatsijs.be/",
-     "alt": ""
     }
    ],
    "pick": {
@@ -1885,20 +2162,61 @@
   "ruby": {
    "posts": [
     {
-     "url": "https://www.instagram.com/p/Dd5yLQbRfqd/",
-     "category": "drink",
+     "url": "https://www.instagram.com/p/Dcvvdg9sZQi/",
+     "category": "food",
      "origin": "research"
     },
     {
-     "url": "https://www.instagram.com/p/Dcvvdg9sZQi/",
-     "category": "food",
+     "url": "https://www.instagram.com/p/Dd5yLQbRfqd/",
+     "category": "drink",
      "origin": "research"
     }
    ],
    "pick": {
     "type": "post",
-    "url": "https://www.instagram.com/p/Dd5yLQbRfqd/"
+    "url": "https://www.instagram.com/p/Dcvvdg9sZQi/"
    }
+  },
+  "rush-rush": {
+   "hold": "no people-free photo found (research): website shows only merch, a person, or a hand on the roaster; no Instagram on record"
+  },
+  "salt-mint": {
+   "photos": [
+    {
+     "src": "https://saltandmint.be/wp-content/uploads/2019/07/salt-and-mint-lunch.jpg",
+     "thumb": "https://saltandmint.be/wp-content/uploads/2019/07/salt-and-mint-lunch.jpg",
+     "w": 1440,
+     "h": 1440,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "saltandmint.be",
+     "credit_url": "https://saltandmint.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://saltandmint.be/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-17-at-19.44.45-6-2.jpeg",
+     "thumb": "https://saltandmint.be/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-17-at-19.44.45-6-2.jpeg",
+     "w": 1086,
+     "h": 724,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "saltandmint.be",
+     "credit_url": "https://saltandmint.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://saltandmint.be/wp-content/uploads/2019/07/salt-and-mint-lunch.jpg"
+   }
+  },
+  "sanctus": {
+   "hold": "no people-free photo found (research): website has only a painting with human figures and an award badge; no Instagram on record"
+  },
+  "scotties": {
+   "hold": "no people-free photo found (research): no website or Instagram on record"
   },
   "sips": {
    "posts": [
@@ -1957,6 +2275,9 @@
     "url": "https://www.instagram.com/p/DdmUUeZpPpO/"
    }
   },
+  "t-fornuis": {
+   "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
+  },
   "t-zilte": {
    "posts": [
     {
@@ -1993,18 +2314,6 @@
      "credit": "ta-nnin.be",
      "credit_url": "https://ta-nnin.be/",
      "alt": ""
-    },
-    {
-     "src": "https://ta-nnin.be/wp-content/uploads/2020/08/019-768x514.jpg",
-     "thumb": "https://ta-nnin.be/wp-content/uploads/2020/08/019-768x514.jpg",
-     "w": 768,
-     "h": 514,
-     "hotlink": true,
-     "category": "drink",
-     "source": "website",
-     "credit": "ta-nnin.be",
-     "credit_url": "https://ta-nnin.be/",
-     "alt": ""
     }
    ],
    "pick": {
@@ -2015,13 +2324,13 @@
   "tango": {
    "posts": [
     {
-     "url": "https://www.instagram.com/p/Dd9MmLiNecz/",
-     "category": "drink",
+     "url": "https://www.instagram.com/p/DdoB8i9NAoq/",
+     "category": "food",
      "origin": "research"
     },
     {
-     "url": "https://www.instagram.com/p/DdoB8i9NAoq/",
-     "category": "food",
+     "url": "https://www.instagram.com/p/Dd9MmLiNecz/",
+     "category": "drink",
      "origin": "research"
     },
     {
@@ -2032,7 +2341,7 @@
    ],
    "pick": {
     "type": "post",
-    "url": "https://www.instagram.com/p/Dd9MmLiNecz/"
+    "url": "https://www.instagram.com/p/DdoB8i9NAoq/"
    }
   },
   "tazu": {
@@ -2066,6 +2375,9 @@
     "type": "photo",
     "src": "https://www.tazu.be/wp-content/uploads/2022/05/MG_6242-scaled.jpg"
    }
+  },
+  "the-butcher-s-son": {
+   "hold": "no people-free photo found (research): own website images all show chefs/owners; no Instagram images gathered"
   },
   "the-jane": {
    "posts": [
@@ -2124,6 +2436,9 @@
     "src": "https://thelondon.be/image-uploads/R6__9598sq.webp"
    }
   },
+  "tinsel": {
+   "hold": "no people-free photo found (research): website tinsel.be yielded no usable images; no Instagram on record"
+  },
   "upton": {
    "photos": [
     {
@@ -2155,6 +2470,27 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DJHO7fEIodN/"
    }
+  },
+  "viggos": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DaztZgSi6ZH/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DazmXZ5C83r/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DaztZgSi6ZH/"
+   }
+  },
+  "zeezicht": {
+   "hold": "no people-free photo found (research): website cafezeezicht.be yielded no usable images; no Instagram on record"
   }
  }
 }

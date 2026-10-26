@@ -271,7 +271,24 @@
    }
   },
   "bar-martine": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "photos": [
+    {
+     "src": "https://freight.cargo.site/w/1500/i/X2738890332854149537617972342898/BAR-MARTINE-05012026--29.jpg",
+     "thumb": "https://freight.cargo.site/w/1500/i/X2738890332854149537617972342898/BAR-MARTINE-05012026--29.jpg",
+     "w": 1500,
+     "h": 1001,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "barmartine.be",
+     "credit_url": "https://barmartine.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://freight.cargo.site/w/1500/i/X2738890332854149537617972342898/BAR-MARTINE-05012026--29.jpg"
+   }
   },
   "bask": {
    "photos": [
@@ -402,16 +419,41 @@
    }
   },
   "boutique-boissons": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "hold": "no people-free photo found (research): own Instagram (boutique.et.boissons, Vlaanderenstraat 66) has only text-overlay posters and people shots"
   },
   "bovary": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DZdGV0TDEiE/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZmoz0ZjHaP/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DZdGV0TDEiE/"
+   }
   },
   "cafe-albatros": {
    "hold": "no people-free photo found: people, text reels, street scenes with passers-by"
   },
   "cafe-copain": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Dez5xgUu7Ql/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Dez5xgUu7Ql/"
+   }
   },
   "cafe-den-turk": {
    "hold": "no people-free photo found: staff photos and graphics only"
@@ -423,7 +465,7 @@
    "hold": "no people-free photo found: no own website or Instagram"
   },
   "cafe-guido": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "hold": "no people-free photo found (research): own Instagram shows only people or mirror reflections with people"
   },
   "cafe-labath": {
    "posts": [
@@ -458,7 +500,17 @@
    "hold": "no people-free photo found (research): own IG: people, text-overlay reels and posters (shared content with Albatros)"
   },
   "caracalla": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdQ145NMQ8v/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DdQ145NMQ8v/"
+   }
   },
   "charlatan": {
    "hold": "no people-free photo found: website only has event posters"
@@ -1464,7 +1516,22 @@
    }
   },
   "norman-bakery": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Dc1SKNCMTRw/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYrSu9VMnIA/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Dc1SKNCMTRw/"
+   }
   },
   "ona-nederkouter": {
    "photos": [
@@ -1988,7 +2055,7 @@
    }
   },
   "pica-beans": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "hold": "no people-free photo found (research): no own Instagram/website found by web search"
   },
   "piu-di-piu": {
    "hold": "no people-free photo found (research): IG is people, reels and reposts with text; the only object shot is a black-and-white menu cover"
@@ -2060,7 +2127,22 @@
    }
   },
   "rendez-vous": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Dc_lZhJOyQ0/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcOPWjiMCyA/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Dc_lZhJOyQ0/"
+   }
   },
   "rizoom": {
    "posts": [
@@ -2236,7 +2318,7 @@
    "hold": "no people-free photo found (research): IG is text posters and a staff video; the only drink shot is a 640px reel cover with text across the cup; website only has a logo"
   },
   "terug": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "hold": "no people-free photo found (research): no own Instagram/website found by web search"
   },
   "the-bakery-joost-arijs": {
    "photos": [
@@ -2314,10 +2396,54 @@
    }
   },
   "the-coffee-station": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DbKwMUYIa4a/",
+     "category": "drink",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbFsVV-Iw6N/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DbKwMUYIa4a/"
+   }
   },
   "the-generous": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "photos": [
+    {
+     "src": "https://backoffice.thegenerous.wine/public/storage/pages/banners/01M5A1CJYKDVZV4QJ2MCMSRKQH.jpg",
+     "thumb": "https://backoffice.thegenerous.wine/public/storage/pages/banners/01M5A1CJYKDVZV4QJ2MCMSRKQH.jpg",
+     "w": 1000,
+     "h": 1500,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "thegenerous.wine",
+     "credit_url": "https://thegenerous.wine/home",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Det_2K5EwwL/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DehVrwPmoTX/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Det_2K5EwwL/"
+   }
   },
   "the-gentle": {
    "photos": [
@@ -2340,7 +2466,7 @@
    }
   },
   "the-mix": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "hold": "no people-free photo found (research): the.mix.bar Instagram is an Australian venue (Woolloongabba), not this place; no own Instagram/website found"
   },
   "trattoria-della-mamma": {
    "posts": [
@@ -2382,7 +2508,7 @@
    "hold": "no people-free photo found: website has no usable images, no Instagram"
   },
   "tshiela": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "hold": "no people-free photo found (research): own Instagram shows only people/hands; website has only a logo"
   },
   "vandekerckhove-bar": {
    "photos": [
@@ -2412,7 +2538,24 @@
    }
   },
   "vicino": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/gent/vicino/1-drink-1600.webp",
+     "w": 747,
+     "h": 584,
+     "thumb": "img/places/gent/vicino/1-drink-800.webp",
+     "category": "drink",
+     "source": "website",
+     "credit": "vicino.be",
+     "credit_url": "https://www.vicino.be/",
+     "alt": "",
+     "source_url": "https://static.wixstatic.com/media/321908_348471bbddd6407e83078d633f6d9c18~mv2.jpg/v1/fill/w_1513,h_584,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Vicino-274.jpg"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/vicino/1-drink-1600.webp"
+   }
   },
   "vinogradoff": {
    "photos": [
@@ -2573,7 +2716,27 @@
    }
   },
   "yume-coffee": {
-   "hold": "no people-free photo found (research): no own website or Instagram on record"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdyoyTMs02x/",
+     "category": "drink",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXjSUNXDFqd/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXw7LRkDJEP/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DdyoyTMs02x/"
+   }
   },
   "yusu": {
    "photos": [

@@ -2256,6 +2256,214 @@
    "ok": true,
    "diff": 0,
    "checked": "2026-10-26"
+  },
+  "web:https://freight.cargo.site/w/1500/i/X2738890332854149537617972342898/BAR-MARTINE-05012026--29.jpg": {
+   "ok": true,
+   "bytes": 499329,
+   "checked": "2026-10-26"
+  },
+  "ig:3917315138424424580": {
+   "code": "DZdGV0TDEiE",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3920000008489563791": {
+   "code": "DZmoz0ZjHaP",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4013805783530320933": {
+   "code": "Dez5xgUu7Ql",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3985922676403277615": {
+   "code": "DdQ145NMQ8v",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3978165711879091312": {
+   "code": "Dc1SKNCMTRw",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3903295893833675264": {
+   "code": "DYrSu9VMnIA",
+   "ok": true,
+   "diff": 3,
+   "checked": "2026-10-26"
+  },
+  "ig:3981065076914988084": {
+   "code": "Dc_lZhJOyQ0",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3967175842440686720": {
+   "code": "DcOPWjiMCyA",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3948179976089611802": {
+   "code": "DbKwMUYIa4a",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3946755629206670989": {
+   "code": "DbFsVV-Iw6N",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012143642533891083": {
+   "code": "Det_2K5EwwL",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4008580509052077271": {
+   "code": "DehVrwPmoTX",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://backoffice.thegenerous.wine/public/storage/pages/banners/01M5A1CJYKDVZV4QJ2MCMSRKQH.jpg": {
+   "ok": true,
+   "bytes": 1035625,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/321908_348471bbddd6407e83078d633f6d9c18~mv2.jpg/v1/fill/w_1513,h_584,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Vicino-274.jpg": {
+   "ok": true,
+   "bytes": 129448,
+   "checked": "2026-10-26"
+  },
+  "ig:3995435197879504305": {
+   "code": "DdyoyTMs02x",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3883027857295563421": {
+   "code": "DXjSUNXDFqd",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3886866737937551631": {
+   "code": "DXw7LRkDJEP",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3636582878918497784": {
+   "code": "DJ3vNxmNFX4",
+   "ok": false,
+   "diff": 17,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:3649565442843233165": {
+   "code": "DKl3G8dNkuN",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3835165989109776509": {
+   "code": "DU5PyXDjEB9",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg/v1/fill/w_980,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdfe7_e3c0645ea17b4853b2c1204af49c640e~mv2.jpg": {
+   "ok": true,
+   "bytes": 186192,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/0fdfe7_ad619f49156c4ac4b0b2f2033da1845a~mv2.jpg/v1/fill/w_980,h_682,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdfe7_ad619f49156c4ac4b0b2f2033da1845a~mv2.jpg": {
+   "ok": true,
+   "bytes": 169394,
+   "checked": "2026-10-26"
+  },
+  "ig:4015572506381619669": {
+   "code": "De6LetMs5HV",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://et-claire.com/wp-content/uploads/2025/07/tray-819x1024.jpg": {
+   "ok": true,
+   "bytes": 167276,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.restaurantfinefleur.be/en/thumbnail-path/full/images/blocks/684bd46942036-Tablefever_2025-06-06FineFleur_070.jpg": {
+   "ok": true,
+   "bytes": 194672,
+   "checked": "2026-10-26"
+  },
+  "web:https://fuel-antwerp.com/__l5e/assets-v1/318c1934-f602-4304-9193-75d6987c20b7/north-homepage.jpg": {
+   "ok": true,
+   "bytes": 897155,
+   "checked": "2026-10-26"
+  },
+  "web:https://fuel-antwerp.com/__l5e/assets-v1/e42a5e46-ac21-41cc-8136-c84b0c614e14/south-homepage.jpg": {
+   "ok": true,
+   "bytes": 954549,
+   "checked": "2026-10-26"
+  },
+  "web:https://bakkerijfunk.com/cdn/shop/files/IMG_2804.jpg?v=1759339787&width=1600": {
+   "ok": true,
+   "bytes": 443471,
+   "checked": "2026-10-26"
+  },
+  "web:https://image.jimcdn.com/app/cms/image/transf/dimension=2048x2048:format=jpg/path/s309bdf06c0ea4661/image/i8af8242b0fd1136e/version/1787910066/image.jpg": {
+   "ok": true,
+   "bytes": 814801,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg/v1/fill/w_1280,h_888,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/b9ac2e_5b2d69c889254fc9ad35ac8c0ed8d192~mv2.jpg": {
+   "ok": true,
+   "bytes": 114101,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/66c5c8bb17e6ca5456dbb465/1792346492399-EYHHY2CDY104G3QJFZW6/image-asset.jpeg?format=1500w": {
+   "ok": true,
+   "bytes": 330906,
+   "checked": "2026-10-26"
+  },
+  "ig:4011333998578399319": {
+   "code": "DerHwTMtnhX",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://saltandmint.be/wp-content/uploads/2019/07/salt-and-mint-lunch.jpg": {
+   "ok": true,
+   "bytes": 368118,
+   "checked": "2026-10-26"
+  },
+  "web:https://saltandmint.be/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-17-at-19.44.45-6-2.jpeg": {
+   "ok": true,
+   "bytes": 87705,
+   "checked": "2026-10-26"
+  },
+  "ig:3941693763630114375": {
+   "code": "DaztZgSi6ZH",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3941662832995323371": {
+   "code": "DazmXZ5C83r",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
   }
  }
 }
