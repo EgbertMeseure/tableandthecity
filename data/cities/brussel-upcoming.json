@@ -4,5 +4,167 @@
  "timezone": "Europe/Brussels",
  "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into brussel.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
  "excludedChecked": {},
- "upcoming": []
+ "upcoming": [
+  {
+   "id": "jeanne",
+   "name": "Jeanne (Kanal)",
+   "group": "restaurants",
+   "category": "fine dining",
+   "address": "Square Sainctelette 21, 1000 Bruxelles (Kanal, 5th floor)",
+   "postalCode": "1000",
+   "district": "Brussels",
+   "lat": 50.858673,
+   "lng": 4.347914,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "geoPrecision": "house",
+   "expectedOpening": "2026-11-28",
+   "expectedOpeningLabel": "28 November 2026",
+   "expectedOpeningNote": "Opens with Kanal–Centre Pompidou on 28 Nov 2026; Wed-Thu 19:00-24:00, Fri-Sat 17:30-24:00 (kitchen until 21:00).",
+   "description": "Kanal's vegetarian gastronomic restaurant overlooking the showroom: chef Aurélia D'Hollander (ex Frondes, Ivresse) serves a seasonal tasting menu of 6 courses (€95) or 4 (€75, first Fri/Sat sitting) at long shared tables by an open kitchen; named after Chantal Akerman's Jeanne Dielman.",
+   "team": [
+    "Aurélia D'Hollander (chef)"
+   ],
+   "website": "https://kanal.brussels/en/jeanne",
+   "instagram_handle": null,
+   "vegetarian": "yes",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": true,
+    "vegan": null
+   },
+   "sources": [
+    "https://kanal.brussels/en/jeanne",
+    "https://www.bruzz.be/select/resto-bar/vlees-noch-vis-gastronomisch-restaurant-van-kanal-nieuwe-smaken-met-bloemen-en-fruit-2026-08-21",
+    "https://www.horecabrussels.be/actu-horeca/restauration/pole-food-kanal-bruxelles/"
+   ],
+   "announcedBy": "Kanal; Bruzz (21 Aug 2026)",
+   "dateChecked": "2026-10-26",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  },
+  {
+   "id": "carrosserie",
+   "name": "Carrosserie (Kanal)",
+   "group": "restaurants",
+   "category": "brasserie",
+   "address": "Quai des Péniches 11, 1000 Bruxelles (Kanal, ground floor)",
+   "postalCode": "1000",
+   "district": "Brussels",
+   "lat": 50.859619,
+   "lng": 4.347964,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "geoPrecision": "house",
+   "expectedOpening": "2026-11-28",
+   "expectedOpeningLabel": "28 November 2026",
+   "expectedOpeningNote": "Opens with Kanal on 28 Nov 2026; Wed-Sun 12:00-24:00, continuous service.",
+   "description": "Kanal's waterside brasserie with a big terrace and a 'pimped' modern brasserie menu by chef Peter Macias: roasted pumpkin with Ardennes buffalo mozzarella, crispy North Sea skate, bitterballen and Belgian classics.",
+   "team": [
+    "Peter Macias (chef)"
+   ],
+   "website": "https://kanal.brussels/en/carrosserie",
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": null,
+    "vegan": null
+   },
+   "sources": [
+    "https://kanal.brussels/en/carrosserie",
+    "https://www.bruzz.be/select/resto-bar/vlees-noch-vis-gastronomisch-restaurant-van-kanal-nieuwe-smaken-met-bloemen-en-fruit-2026-08-21"
+   ],
+   "announcedBy": "Kanal; Bruzz (21 Aug 2026)",
+   "dateChecked": "2026-10-26",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  },
+  {
+   "id": "gio",
+   "name": "GIO",
+   "group": "restaurants",
+   "category": "trattoria",
+   "address": "Rue de la Régence 55, 1000 Bruxelles",
+   "postalCode": "1000",
+   "district": "Brussels",
+   "lat": 50.838775,
+   "lng": 4.354251,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "geoPrecision": "house",
+   "expectedOpening": "2026-11",
+   "expectedOpeningLabel": "early November 2026",
+   "expectedOpeningNote": "Bruzz/L'Echo (22 Oct 2026): opens early November, after Senzanome closes on 31 October.",
+   "description": "Giovanni Bruno closes his long-starred Senzanome on the Sablon after 35 years and opens a simpler, more affordable trattoria a few dozen metres away, with the Senzanome team invited along.",
+   "team": [
+    "Giovanni Bruno (chef)"
+   ],
+   "website": null,
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": null,
+    "vegan": null
+   },
+   "sources": [
+    "https://www.bruzz.be/actua/economie/giovanni-bruno-sluit-toprestaurant-senzanome-en-opent-trattoria-2026-10-22",
+    "https://www.lecho.be/entreprises/horeca/l-ex-chef-etoile-giovanni-bruno-ferme-le-senzanome-et-ouvre-une-trattoria-j-ai-perdu-600-000-euros-en-deux-ans/10696393.html",
+    "https://sosoir.lesoir.be/778407/article/2026-10-22/le-senzanome-ferme-bruxelles-pourquoi-giovanni-bruno-abandonne-la-gastronomie"
+   ],
+   "announcedBy": "L'Echo; Bruzz; Le Soir (22 Oct 2026)",
+   "dateChecked": "2026-10-26",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  },
+  {
+   "id": "ex-toucan-sur-mer",
+   "name": "Lost Frequencies restaurant (ex-Toucan sur Mer, name TBA)",
+   "group": "restaurants",
+   "category": "restaurant",
+   "address": "Avenue Louis Lepoutre, 1050 Ixelles (former Toucan sur Mer)",
+   "postalCode": "1050",
+   "district": "Ixelles",
+   "lat": 50.818639,
+   "lng": 4.356833,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "geoPrecision": "street",
+   "expectedOpening": "2027",
+   "expectedOpeningLabel": "end January / spring 2027",
+   "expectedOpeningNote": "L'Echo via BX1 (2 Sep 2026): opening planned end of January 2027; HLN (5 Sep 2026): partner Cameron Heal says 'probably spring 2027'.",
+   "description": "DJ Lost Frequencies (Felix De Laet), Hangar's Marvin Weymeersch and Cameron Heal, and Victor Roisin (Gratin, Moutarde) take over the seafood institution Toucan sur Mer, closed in June: new name, new chef, Mediterranean menu and occasional chill DJ sets.",
+   "team": [
+    "Felix De Laet",
+    "Marvin Weymeersch",
+    "Cameron Heal",
+    "Victor Roisin"
+   ],
+   "website": null,
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "openingHours": null,
+   "features": {
+    "new": true,
+    "veggie": null,
+    "vegan": null
+   },
+   "sources": [
+    "https://bx1.be/categories/news/le-dj-lost-frequencies-reprend-le-restaurant-toucan-sur-mer/",
+    "https://www.hln.be/brussel/hoe-felix-lost-frequencies-de-laet-en-drie-vrienden-straks-een-brussels-visrestaurant-overnemen-maar-het-wordt-iets-helemaal-anders~a2f2f81d/"
+   ],
+   "announcedBy": "L'Echo; BX1; HLN",
+   "dateChecked": "2026-10-26",
+   "dietNote": "",
+   "openingHoursSource": null,
+   "features_evidence": {}
+  }
+ ]
 }

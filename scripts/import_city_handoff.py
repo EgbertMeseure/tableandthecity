@@ -73,6 +73,7 @@ FALLBACK = CFG['fallback']
 
 def record(p):
     r = {k: v for k, v in p.items() if k not in DROP}
+    if r.get('group') in ('bars', 'cafes', 'cafes-bars', 'cafes_and_bars'): r['group'] = 'cafes_bars'   # e.g. the Brussels handoff says 'bars'
     if p.get('openingMonth') and re.match(r'^\d{4}-\d{2}$', p['openingMonth']): r['opened'] = p['openingMonth']
     if not r.get('openingHours'): r['openingHours'] = None; r['openingHoursSource'] = None
     elif not r.get('openingHoursSource'): r['openingHoursSource'] = p.get('hoursSource')

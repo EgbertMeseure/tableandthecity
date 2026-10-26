@@ -24,12 +24,20 @@ def clean(e):
     if t and t not in x.get('sources', []): x['sources'] = list(x.get('sources', [])) + [t]
     return x
 ids = {r['id']: r for r in D['restaurants']}
+import os
+UP = f'data/cities/{city}-upcoming.json'
+UPC = {u['id']: u['name'] for u in (json.load(open(UP)).get('upcoming', []) if os.path.exists(UP) else [])}
 skipped = []
 extra = [clean(e) for e in H.get('extraEvents', []) if live(e) or skipped.append(e['id'])]
 D['extraEvents'] = extra
 n_rest = 0
 for pid, evs in H.get('restaurantEvents', {}).items():
-    if pid not in ids: sys.exit(f'unknown place id {pid}')
+    if pid not in ids:   # a place that is not open yet (upcoming file): its events go to extraEvents, located at the place
+        if pid not in UPC: sys.exit(f'unknown place id {pid}')
+        for e in evs:
+            if live(e): x = clean(e); x.setdefault('location', UPC[pid]); extra.append(x)
+            else: skipped.append(e['id'])
+        continue
     keep = [clean(e) for e in evs if live(e) or skipped.append(e['id'])]
     ids[pid]['events'] = keep; n_rest += len(keep)
 used = {e['id'] for e in extra} | {e['id'] for r in D['restaurants'] for e in r.get('events', [])}
