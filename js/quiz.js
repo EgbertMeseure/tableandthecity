@@ -193,6 +193,10 @@
   const evDist = (e, iso) => iso < e.dateStart ? (Date.parse(e.dateStart) - Date.parse(iso)) / 864e5 : iso > (e.dateEnd || e.dateStart) ? (Date.parse(iso) - Date.parse(e.dateEnd || e.dateStart)) / 864e5 : 0;
   const dietF = a => a.diet === 'veggie' ? { veggie: true } : a.diet === 'vegan' ? { vegan: true } : {};
   const MOODS = ['restaurant', 'bar', 'coffee', 'bakery', 'event'];
+  /* the quiz's first question; also shown in the hero's speech bubble under the button (heroBubble below), so it is read from here only */
+  const MOOD_Q = { id: 'mood', q: 'What’s the mood?' };
+  /* the moods this city really has (an empty section is never offered), in quiz order */
+  const moodOpts = C => MOODS.map(m => ({ v: m, l: SECTIONS[m].label, s: SECTIONS[m].sub, n: m === 'event' ? APP.E.length : matches(SECTIONS[m], {}, C).length })).filter(o => o.n > 0);
 
   /* ---------- matching ---------- */
   function qOpt(sec, id, v) {
@@ -275,14 +279,15 @@
       }
     });
   }
-  async function open() {
+  /* open(mood): with a mood (a chip in the hero bubble) that answer is pre-selected and the quiz starts at question 2 */
+  async function open(mood) {
     if (!root) mount();
     lastFocus = document.activeElement;
     root.hidden = false; document.documentElement.classList.add('qz-lock');
     requestAnimationFrame(() => root.classList.add('is-open'));
     if (!APP) { body().innerHTML = '<p class="qz__loading">Loading places…</p>'; APP = await ready; }
     fillFood();
-    restart();
+    restart(mood);
   }
   function close() {
     if (!root || root.hidden) return;
@@ -291,7 +296,11 @@
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
   const body = () => root.querySelector('.qz__body');
-  function restart() { st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; st.pick = null; draw(); }
+  function restart(mood) {
+    st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; st.pick = null;
+    if (typeof mood === 'string' && SECTIONS[mood] && moodOpts(clock()).some(o => o.v === mood)) { st.mood = mood; st.steps = SECTIONS[mood].questions; }
+    draw();
+  }
   const val = (x, C) => typeof x === 'function' ? x(C) : x;
 
   /* answers shown for question i: only those with at least one match given the earlier answers */
@@ -310,9 +319,8 @@
     dots.innerHTML = Array.from({ length: total }, (_, i) => `<i class="${i < cur ? 'done' : i === cur ? 'on' : ''}"></i>`).join('');
     back.style.visibility = st.mood ? 'visible' : 'hidden';
     if (!st.mood) {
-      const nEv = APP.E.length;
-      const opts = MOODS.map(m => ({ v: m, l: SECTIONS[m].label, s: SECTIONS[m].sub, n: m === 'event' ? nEv : matches(SECTIONS[m], {}, C).length })).filter(o => o.n > 0);
-      return paint(`<p class="qz__eyebrow">Find my table</p><h2 class="qz__q" id="qz-title">What’s the mood?</h2>
+      const opts = moodOpts(C);
+      return paint(`<p class="qz__eyebrow">Find my table</p><h2 class="qz__q" id="qz-title">${esc(MOOD_Q.q)}</h2>
         <div class="qz__opts">${opts.map(o => optBtn(o, 'mood', C)).join('')}</div>`);
     }
     const sec = SECTIONS[st.mood];
@@ -452,6 +460,31 @@
     setTimeout(draw, 120);                                                 // brief pressed state, then the next question
   }
   function clearAfter() { st.steps.slice(st.step + 1).forEach((q, j) => { delete st.a[q.id]; delete st.skipped[st.step + 1 + j]; }); }
-  document.addEventListener('click', e => { const b = e.target.closest('[data-quiz-open]'); if (b) { e.preventDefault(); open(); } });
-  window.TGQuiz = { open, close };
+  document.addEventListener('click', e => { const b = e.target.closest('[data-quiz-open]'); if (b) { e.preventDefault(); open(b.dataset.quizMood || undefined); } });
+
+  /* ---------- hero speech bubble: the first question (+ the first 3 answers as chips) right under the Find my table button ----------
+     Built once the city's data is loaded (answers = this city's own non-empty moods). Whole bubble opens the quiz; a chip opens it
+     with that answer chosen (question 2). The hero hint stays in the DOM for aria-describedby but is visually replaced (.has-bubble). */
+  const BUBBLE_CHIPS = 3;
+  ready.then(app => {
+    APP = APP || app;
+    const btns = document.querySelector('.hero__btns'), cta = btns && btns.closest('.hero__cta');
+    if (!btns || document.querySelector('.fmt-bubble')) return;
+    const opts = moodOpts(clock()).slice(0, BUBBLE_CHIPS);
+    const el = document.createElement('div');
+    el.className = 'fmt-bubble'; el.setAttribute('role', 'group'); el.setAttribute('aria-label', `Find my table – first question: ${MOOD_Q.q}`);
+    el.innerHTML = `<button class="fmt-bubble__q" type="button" data-quiz-open aria-haspopup="dialog" aria-label="${esc(`Find my table: ${MOOD_Q.q} Start the quiz`)}">${esc(MOOD_Q.q)}</button>`
+      + (opts.length ? `<span class="fmt-bubble__opts">${opts.map(o => `<button class="fmt-bubble__chip" type="button" data-quiz-open data-quiz-mood="${esc(o.v)}" aria-haspopup="dialog" aria-label="${esc(`Find my table: ${o.l}`)}">${esc(o.l)}</button>`).join('')}<span class="fmt-bubble__more" aria-hidden="true">…</span></span>` : '');
+    // a click on the bubble itself (padding, tail) = the question button
+    el.addEventListener('click', e => { if (!e.target.closest('button')) el.querySelector('.fmt-bubble__q').click(); });
+    btns.insertAdjacentElement('afterend', el);
+    // the tail points at the middle of the Find my table button, wherever the button wraps to
+    const fmt = btns.querySelector('.pill-btn--quiz');
+    const aim = () => { const b = fmt.getBoundingClientRect(), r = el.getBoundingClientRect(); if (!r.width) return;
+      el.style.setProperty('--tail-x', `${Math.round(Math.min(r.width - 18, Math.max(18, b.left + b.width / 2 - r.left)))}px`); };
+    if (fmt) { aim(); addEventListener('resize', aim, { passive: true }); }
+    if (cta) cta.classList.add('has-bubble');
+    requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add('is-in')));
+  });
+  window.TGQuiz = { open, close, firstQuestion: () => MOOD_Q.q };
 })();

@@ -410,6 +410,41 @@ body.noscroll{overflow:hidden}
 .qz-opt[aria-pressed="true"] .qz-opt__s{color:rgba(255,255,255,.8)}
 @media (max-width:640px){.hero__btns{gap:10px}.hero__cta .hero__btns .pill-btn{padding:0 22px}.hero__cta .hero__btns .pill-btn--quiz{padding:0 18px 0 16px;gap:7px}.hero__hint{font-size:11.5px;margin-top:10px;opacity:.75}}
 html.qz-lock,html.qz-lock body{overflow:hidden}
+/* hero speech bubble (js/quiz.js heroBubble): the quiz's first question + 3 answer chips, tail pointing up at Find my table.
+   Desktop: absolutely placed in the hint's spot (the hint keeps its space, invisible) so nothing else moves. Phone: compact, in flow. */
+.fmt-bubble{--bub-bg:#f7f1e4;--bub-line:rgba(200,169,106,.75);--tail-x:50%;position:relative;display:inline-flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:6px 10px;
+  margin:14px 0 0;padding:8px 10px 8px 14px;max-width:360px;background:var(--bub-bg);color:var(--ink);border:1px solid var(--bub-line);border-radius:16px;
+  box-shadow:0 8px 24px rgba(0,0,0,.28);text-align:left;cursor:pointer;opacity:0;transform:translateY(6px);transition:opacity .6s ease,transform .6s ease}
+.fmt-bubble::before{content:"";position:absolute;top:-6px;left:var(--tail-x);width:10px;height:10px;margin-left:-5px;background:var(--bub-bg);
+  border-top:1px solid var(--bub-line);border-left:1px solid var(--bub-line);border-top-left-radius:2px;transform:rotate(45deg)}
+.fmt-bubble.is-in{opacity:1;transform:none;animation:fmtFloat 5s ease-in-out .8s infinite}
+.fmt-bubble.is-in:hover,.fmt-bubble.is-in:focus-within{animation-play-state:paused}   /* a still target while aiming */
+@keyframes fmtFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+.fmt-bubble__q{all:unset;cursor:pointer;font-family:var(--serif);font-style:italic;font-size:13.5px;line-height:1.2;color:var(--ink);white-space:nowrap}
+.fmt-bubble__q:hover{color:var(--blue)}
+.fmt-bubble__opts{display:inline-flex;align-items:center;gap:5px;flex-wrap:nowrap}
+.fmt-bubble__chip{all:unset;cursor:pointer;font-family:var(--sans);font-size:10px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;line-height:1;
+  padding:5px 9px;border-radius:var(--pill);border:1px solid var(--blue);color:var(--blue);background:transparent;white-space:nowrap;transition:background .2s,color .2s}
+.fmt-bubble__chip:hover{background:var(--blue);color:var(--blue-ink)}
+.fmt-bubble__more{font-size:11px;color:var(--accent-soft);letter-spacing:.1em;margin-left:-1px}
+.fmt-bubble__q:focus-visible,.fmt-bubble__chip:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:6px}
+.fmt-bubble__chip:focus-visible{border-radius:var(--pill)}
+@media (min-width:901px){
+  .hero__cta.has-bubble .hero__hint{visibility:hidden}          /* keeps its height: the CTA block does not move */
+  .hero__cta.has-bubble{position:relative}
+  .hero__cta.has-bubble .fmt-bubble{position:absolute;right:0;margin:14px 0 0;width:max-content;max-width:none;flex-wrap:nowrap}   /* top:auto = right under the buttons */
+}
+@media (max-width:900px){.fmt-bubble{justify-content:flex-start}}
+@media (max-width:640px){
+  /* phone: one slim bubble replacing the hint line (hint kept for screen readers) */
+  .hero__cta.has-bubble .hero__hint{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;margin:0}
+  .fmt-bubble{margin-top:11px;padding:6px 7px 6px 11px;gap:5px 7px;border-radius:14px;max-width:100%;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+  .fmt-bubble__q{font-size:12px}
+  .fmt-bubble__opts{gap:4px}
+  .fmt-bubble__chip{font-size:9px;letter-spacing:.06em;padding:4px 7px}
+  .fmt-bubble__more{display:none}
+}
+@media (prefers-reduced-motion:reduce){.fmt-bubble{transition:none;transform:none}.fmt-bubble.is-in{animation:none}}
 .qz{position:fixed;inset:0;z-index:3000;display:flex;align-items:center;justify-content:center}
 .qz[hidden]{display:none}
 .qz__scrim{position:absolute;inset:0;background:rgba(0,0,0,.6);opacity:0;transition:opacity .22s ease}
