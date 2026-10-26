@@ -72,6 +72,11 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
    Restaurants › Casual: a confirmed vegan / vegetarian / vegan-friendly level or confirmed breakfast/brunch (from the veggie and breakfast layers of the last
    run, persisted in `data/osm/keep-exceptions.json`, which only grows; remove an entry by hand to drop it). After an import, re-run 4e and 4h, then the import
    once more so newly confirmed places are picked up. Curated places are never dropped.
+   **Never: pizza places and kebab / döner / shoarma / gyros / pita shops** (user decision 26 Oct 2026): `pizza_kebab_kind()` in scripts/import_osm.py
+   (name pizz/pide/kebab/döner/pita…, OSM cuisine pizza/italian_pizza first or kebab/döner/shawarma/gyros/pita; curated cuisine text "Mini pizzas"), used by
+   import_osm.py, import_city_handoff.py and merge_venues.py. Italian restaurants tagged `italian;pizza` stay unless their own site shows pizza is the
+   main thing; those are listed by OSM ref in data/never-exclude.json (kind pizza/kebab). Unclear cases kept: `pizzaKebabKeep` there.
+   Already-imported data: `python3 scripts/prune_pizza_kebab.py <city>` (removed list 26 Oct 2026: /workspace/handoff/place-photos/removed-pizza-kebab.md).
    **Never: friteries and student restaurants** (user decision 20 Oct 2026): friteries / frietkoten (name friet/frituur/fritkot/frites/chips, cuisine
    friture, or fries/chips fast food) and student / university cafeterias & restaurants (name student/cafetaria, or operator UGent / HoGent / hogeschool)
    are dropped with NO veggie / breakfast exception (`never_kind()` in import_osm.py; last run's names in `data/osm/gent-never-excluded.json`). Student cafés whose name/tags don't say so (e.g. Overpoort "Studentencafé Pallieter", LUXX) go by OSM ref into `data/never-exclude.json` (with reason + source); the import and `merge_venues.py` skip them. A curated

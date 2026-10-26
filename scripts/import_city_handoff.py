@@ -80,6 +80,10 @@ def main():
         for p in json.loads((SRC / f'{CITY}-{f}.json').read_text())['places']:
             if p['id'] in seen: continue
             seen[p['id']] = f; recs.append(record(p))
+    # pizza places and kebab / pita shops are never shown (user decision 26 Oct 2026): dropped here too, also from upcoming below
+    pk = lambda r: IO.pizza_kebab_kind({'cuisine': ';'.join(r.get('cuisineTags') or [])}, r.get('name', ''), r.get('cuisine') or '')
+    for r in [r for r in recs if pk(r)]: print('DROPPED', pk(r), r['id'], r['name'])
+    recs = [r for r in recs if not pk(r)]
     for r in recs:                                                # same exclusion rules as the OSM import: warn, never drop silently
         if (ch := IO.is_chain({'name': r['name']})): print('WARNING chain?', r['id'], ch)
         if (nk := IO.never_kind({'cuisine': ';'.join(r.get('cuisineTags') or [])}, r['name'])): print('WARNING', nk, r['id'])
@@ -95,6 +99,7 @@ def main():
     up = json.loads(U.read_text())
     ups = []
     for u in json.loads((SRC / f'{CITY}-upcoming.json').read_text())['upcoming']:
+        if pk(u): print('DROPPED upcoming', pk(u), u['id'], u.get('name')); continue
         x = {k: v for k, v in u.items() if k not in DROP | {'fullyVegan'}}
         x['postalCode'] = (re.search(r'\b(2\d{3})\b', u.get('address') or '') or [None, None])[1]
         x['district'] = district(u['lat'], u['lng']) or FALLBACK.get(x['postalCode'], 'Antwerpen')

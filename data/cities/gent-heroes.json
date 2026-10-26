@@ -361,15 +361,6 @@
    "hash": "8069644a9352",
    "checked": "2026-10-20"
   },
-  "osm-giuseppe-s-n4985608705": {
-   "url": "https://v2cdn1.centralappstatic.com/image/resize/1233x740_cover_d7debafd42264c7b83fa6f3fa01051ae.jpeg?w=1200",
-   "source": "https://giuseppes.be/nl",
-   "type": "og:image",
-   "w": 1200,
-   "h": 720,
-   "hash": "c8cf3d5a0694",
-   "checked": "2026-10-20"
-  },
   "osm-godot-n1532798351": {
    "url": "https://static1.squarespace.com/static/64d35c038f26bc6069bc7688/t/64dccd183bb5c6394143be53/1782218211891/Godot-20230503-03.jpg?format=1500w",
    "source": "https://www.godotgent.be/",
@@ -550,15 +541,6 @@
    "hash": "c1d4f74a0162",
    "checked": "2026-10-20"
   },
-  "osm-pizza-roma-n11047218681": {
-   "url": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg",
-   "source": "https://www.pizzaroma.be/nl",
-   "type": "og:image",
-   "w": 1200,
-   "h": 630,
-   "hash": "c526f4f723cf",
-   "checked": "2026-10-20"
-  },
   "osm-pizza-roma-n2399172933": {
    "url": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg",
    "source": "https://www.pizzaroma.be/nl",
@@ -566,15 +548,6 @@
    "w": 1200,
    "h": 630,
    "hash": "c526f4f723cf",
-   "checked": "2026-10-20"
-  },
-  "osm-plant-a-pizza-n9740821856": {
-   "url": "https://plantapizza.com/wp-content/uploads/2024/02/DSC9108-Enhanced-NR.webp",
-   "source": "https://plantapizza.com/",
-   "type": "og:image",
-   "w": 1280,
-   "h": 853,
-   "hash": "871ae7f48795",
    "checked": "2026-10-20"
   },
   "osm-ponton-n4565846936": {
@@ -1211,10 +1184,6 @@
    "why": "logo-like file name (https://static1.squarespace.com/static/66339d6ffbd55b67107f7057/t/664379e4b4db0a349366d114/1734564421881/akuma+transparante+logo.png?format=1500w)",
    "checked": "2026-10-20"
   },
-  "osm-al-castello-n2305188583": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-alain-proviest-n4384148111": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -1413,15 +1382,7 @@
    "why": "error: SSLError",
    "checked": "2026-10-20"
   },
-  "osm-barouche-n1532798352": {
-   "why": "logo-like file name (https://barouche.eu/images/og-default.jpg)",
-   "checked": "2026-10-20"
-  },
   "osm-barouche-n1598830926": {
-   "why": "logo-like file name (https://barouche.eu/images/og-default.jpg)",
-   "checked": "2026-10-20"
-  },
-  "osm-barouche-w252396611": {
    "why": "logo-like file name (https://barouche.eu/images/og-default.jpg)",
    "checked": "2026-10-20"
   },
@@ -1567,10 +1528,6 @@
   },
   "osm-brut-nature-n10294919704": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-brutal-n11340952262": {
-   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
    "checked": "2026-10-20"
   },
   "osm-buddy-bubble-drinks-n6774818885": {
@@ -1762,10 +1719,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-da-toto-n3810896304": {
-   "why": "too small (700x467)",
-   "checked": "2026-10-20"
-  },
   "osm-dali-restaurant-n11398726824": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -1934,10 +1887,6 @@
   },
   "osm-dreamcatchers-n12363209411": {
    "why": "too small (493x192)",
-   "checked": "2026-10-20"
-  },
-  "osm-eat-love-pizza-n2546643705": {
-   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "osm-eat-this-n12779057073": {
@@ -2327,11 +2276,6 @@
    "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
    "checked": "2026-10-20"
   },
-  "osm-italian-corner-n11918209075": {
-   "why": "manual review: poster / graphic / ad, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://www.hogent.be/sites/hogent/assets/Image/sharingimage.jpg"
-  },
   "osm-jacqueline-n1349508971": {
    "why": "flat image, likely a logo/graphic (sd 9)",
    "checked": "2026-10-20"
@@ -2430,10 +2374,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-kingslize-n6779344616": {
-   "why": "logo-like file name (https://kingslizepizza.be/build/front/images/og_logo.png)",
-   "checked": "2026-10-20"
-  },
   "osm-kino-n13342263004": {
    "why": "not landscape (1329x1330)",
    "checked": "2026-10-20"
@@ -2486,10 +2426,6 @@
   },
   "osm-la-malcontenta-n2555276332": {
    "why": "logo-like file name (https://lamalcontenta.be/wp-content/uploads/2022/11/caverta-logo1.png)",
-   "checked": "2026-10-20"
-  },
-  "osm-la-rustica-n1804211330": {
-   "why": "image HTTP 404 text/html; charset=iso-8859-1",
    "checked": "2026-10-20"
   },
   "osm-la-tavola-italiana-n11049255680": {
@@ -2647,10 +2583,6 @@
    "checked": "2026-10-20",
    "url": "https://namjai.be/og-banner.png"
   },
-  "osm-neapolis-n2625520425": {
-   "why": "logo-like file name (https://http://www..be/Frontend/Images/logo.png)",
-   "checked": "2026-10-20"
-  },
   "osm-nepal-delight-n11047205650": {
    "why": "logo-like file name (https://www.asiandelightgent.be/Frontend/Images/logo.png)",
    "checked": "2026-10-20"
@@ -2746,10 +2678,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-otomat-n4677893292": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-ozgem-n1579895326": {
    "why": "logo-like file name (https://restaurantozgem.be/wp-content/uploads/2023/04/cropped-restaurantozgem-logo.jpg)",
    "checked": "2026-10-20"
@@ -2768,10 +2696,6 @@
   },
   "osm-panda-n4154773490": {
    "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
-  "osm-pane-vino-w112572422": {
-   "why": "too small (196x196)",
    "checked": "2026-10-20"
   },
   "osm-pani-n1804211176": {
@@ -2839,15 +2763,7 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-pitta-flora-n10983992980": {
-   "why": "logo-like file name (https://www.pittaflora.be/Content/images/logo.png)",
-   "checked": "2026-10-20"
-  },
   "osm-piu-di-piu-n11156864221": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-pizza-cesar-n9278632522": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
@@ -2859,16 +2775,8 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-pizza-gulhan-n4720207391": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-pizza-heart-n10940010347": {
    "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
-  "osm-pizza-king-n12331252803": {
-   "why": "logo-like file name (https://www.pizzaking-gent.be/foodticket/images/6445/_cms1740574242_logo.gif)",
    "checked": "2026-10-20"
   },
   "osm-pizza-masters-n8944368321": {
@@ -2879,15 +2787,7 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-pizza-pisa-n12320430953": {
-   "why": "homepage HTTP 403",
-   "checked": "2026-10-20"
-  },
   "osm-pizza-talia-n6157293158": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-pizzahof-n1853026297": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
@@ -3356,10 +3256,6 @@
    "why": "error: SSLError",
    "checked": "2026-10-20"
   },
-  "osm-urfa-n13038155956": {
-   "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
   "osm-valeir-n6942598286": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -3402,10 +3298,6 @@
   },
   "osm-villa-ooievaar-n12416733927": {
    "why": "logo-like file name (https://www.villaooievaar.be/wp-content/uploads/2024/11/245_Logo_KOMPAS_1-1.png)",
-   "checked": "2026-10-20"
-  },
-  "osm-vittorio-n7470367118": {
-   "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
   "osm-viva-la-puglia-n9819206829": {

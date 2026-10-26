@@ -1,5 +1,5 @@
 {
- "about": "Places that are never shown, by OSM ref (user rule 20 Oct 2026: no friteries, no student / university cafés, cafeterias or restaurants). import_osm.py skips these OSM elements and merge_venues.py skips these venue ids, so they do not come back on re-import. Use this when the name/tags do not match never_kind() in import_osm.py.",
+ "about": "Places that are never shown, by OSM ref (user rules 20 Oct 2026: no friteries, no student / university cafés, cafeterias or restaurants; 26 Oct 2026: no pizza places, no kebab / döner / shoarma / gyros / pita shops). import_osm.py skips these OSM elements and merge_venues.py skips these venue ids, so they do not come back on re-import. Use this when the name/tags do not match never_kind() in import_osm.py. 'pizzaKebabKeep': OSM refs that the pizza/kebab rule in import_osm.pizza_kebab_kind() would drop but that are kept (unclear evidence).",
  "places": {
   "node/6799991952": {
    "id": "pallieter",
@@ -23,6 +23,122 @@
    "kind": "duplicate",
    "reason": "duplicate OSM node of Hola Food (node/7004497033, same address Dok-Noord 7; hours of that node match holafood.be)",
    "source": "https://www.holafood.be/"
+  },
+  "node/1532798352": {
+   "id": "osm-barouche-n1532798352",
+   "name": "Barouche",
+   "kind": "kebab",
+   "reason": "pita snack shop: own site describes itself as \"Fresh Pita & Bowls\" (same business as way/252396611, which OSM tags middle_eastern;pita); user rule 26 Oct 2026: no pita / kebab snack shops",
+   "source": "https://barouche.eu/",
+   "added": "2026-10-26"
+  },
+  "node/9245909117": {
+   "id": "osm-pizarro-n9245909117",
+   "name": "Pizarro",
+   "kind": "pizza",
+   "reason": "pizza slice shop (own domain pizarrosliceshop.be); OSM tags italian;pizza, which the cuisine rule keeps; user rule 26 Oct 2026: no pizza places",
+   "source": "https://pizarrosliceshop.be/",
+   "added": "2026-10-26"
+  },
+  "node/4985608705": {
+   "id": "osm-giuseppe-s-n4985608705",
+   "name": "Giuseppe's",
+   "kind": "pizza",
+   "reason": "pizza restaurant: own site title \"Pizza Restaurant in Gent | Giuseppe's - Pizza Forno a Legna\"; OSM tags italian;pizza, which the cuisine rule keeps; user rule 26 Oct 2026: no pizza places",
+   "source": "https://giuseppes.be/",
+   "added": "2026-10-26"
+  },
+  "node/7470367118": {
+   "id": "osm-vittorio-n7470367118",
+   "name": "Vittorio",
+   "kind": "pizza",
+   "reason": "pizza al taglio take-away: own site \"Pizza Pasta Passie … ambachtelijke pizza al taglio en lasagne om mee te nemen\"; OSM tags italian;pizza, which the cuisine rule keeps; user rule 26 Oct 2026: no pizza places",
+   "source": "https://vittorio.gent",
+   "added": "2026-10-26"
+  },
+  "node/4782885778": {
+   "id": "osm-da-giovanni-eilandje-n4782885778",
+   "name": "Da Giovanni Eilandje",
+   "kind": "pizza",
+   "reason": "pizzeria: own site \"de beste Italiaanse pizza in hartje Antwerpen … pizzeria Da Giovanni\"; OSM tags italian;pizza, which the cuisine rule keeps; user rule 26 Oct 2026: no pizza places",
+   "source": "https://www.dagiovanni.be",
+   "added": "2026-10-26"
+  },
+  "node/2305188583": {
+   "id": "osm-al-castello-n2305188583",
+   "name": "Al Castello",
+   "kind": "pizza",
+   "reason": "ristorante-pizzeria: own site \"het authentieke ristorante-pizzeria Al Castello\"; user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://www.al-castello.be/",
+   "added": "2026-10-26"
+  },
+  "node/3810896304": {
+   "id": "osm-da-toto-n3810896304",
+   "name": "Da Toto",
+   "kind": "pizza",
+   "reason": "pizzeria: own site is pizzeria-da-toto (Website help research 26 Oct 2026); user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://pizzeria-da-toto.eatbu.com",
+   "added": "2026-10-26"
+  },
+  "node/1804211330": {
+   "id": "osm-la-rustica-n1804211330",
+   "name": "La Rustica",
+   "kind": "pizza",
+   "reason": "pizzeria: own site title 'Pizzeria Gent – La Rustica' (Website help research 26 Oct 2026); user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://rustica.be/",
+   "added": "2026-10-26"
+  },
+  "node/2141153942": {
+   "id": "osm-da-giovanni-n2141153942",
+   "name": "Da Giovanni",
+   "kind": "pizza",
+   "reason": "pizzeria: own site 'pizzeria Da Giovanni … pizzas from the stone oven'; user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://www.dagiovanni.be",
+   "added": "2026-10-26"
+  },
+  "node/6173353974": {
+   "id": "osm-da-giovanni-ii-n6173353974",
+   "name": "Da Giovanni II",
+   "kind": "pizza",
+   "reason": "pizzeria: own site 'pizzeria Da Giovanni … pizzas from the stone oven'; user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://www.dagiovanni.be",
+   "added": "2026-10-26"
+  },
+  "node/4760788726": {
+   "id": "osm-l-officina-n4760788726",
+   "name": "L'Officina",
+   "kind": "pizza",
+   "reason": "own site describes itself as ristorante-pizzeria (Website help research 26 Oct 2026); user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://www.ristorante-lofficina.be/",
+   "added": "2026-10-26"
+  },
+  "node/4803824056": {
+   "id": "osm-amvrosia-n4803824056",
+   "name": "Amvrosia",
+   "kind": "kebab",
+   "reason": "Greek fast food; gyros leads its own menu (Website help research 26 Oct 2026); user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://www.amvrosia.be/",
+   "added": "2026-10-26"
+  },
+  "node/4317268398": {
+   "id": "osm-la-lanterna-n4317268398",
+   "name": "La Lanterna",
+   "kind": "pizza",
+   "reason": "own site leads with 'Pizza uit de oven' (46 pizza mentions); decision 26 Oct 2026: remove; user rule 26 Oct 2026: no pizza places / kebab-gyros-pita shops",
+   "source": "https://lalanterna.be/",
+   "added": "2026-10-26"
+  }
+ },
+ "pizzaKebabKeep": {
+  "node/14026700173": {
+   "id": "osm-burgerium-n14026700173",
+   "name": "Burgerium",
+   "reason": "OSM cuisine=pizza, but the name says burgers and no source shows pizza is the main thing; kept (decision 26 Oct 2026)"
+  },
+  "node/4477832548": {
+   "id": "osm-graan-n4477832548",
+   "name": "Graan",
+   "reason": "OSM cuisine=pizza, but graan.info shows no pizza (menu page 404); kept until a source shows pizza is the main thing (decision 26 Oct 2026)"
   }
  }
 }

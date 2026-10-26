@@ -160,22 +160,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-barouche-n1532798352": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Barouche",
-   "hcInfo": "Serves meat, vegan options available. Vegan dishes includes a pita or platter with oven baked falafel (labeled vegan) with vegan sauce. Hummus, sweet potato and cauliflower included with the platter are also vegan. Outdoor seating. Accepts "
-  },
-  "osm-barouche-w252396611": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/way/252396611"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-basic-italian-n12702756861": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -371,13 +355,6 @@
    "hcName": "Eet- en Koffiehuis Cozette",
    "hcInfo": "Serves meat, vegan options available. Brunch restaurant offering vegan sweet treats such as brownies and cinnamon rolls. Also has vegetarian dishes that can be made vegan on request. Outdoor seating. Accepts credit cards. Free Wi-Fi. Mon-Fr"
   },
-  "osm-da-toto-n3810896304": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/3810896304"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-de-appelier-n2634809499": {
    "veggieLevel": "vegetarian",
    "sources": [
@@ -505,16 +482,6 @@
    "note": "Cat adoption café; HappyCow: \"Reported to be fully vegan March 2026\". Open Wed & Sat.",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-eat-love-pizza-n2546643705": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/2546643705"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Eat Love Pizza",
-   "hcInfo": "Serves meat, vegan options available. Italian restaurant with clearly labeled menu. Example vegan dishes include marinated olives, focaccia, pizza and panna cotta. Outdoor seating. Accepts credit cards. Mon-Thu 18:00-21:00, Fri 18:00-22:00,"
   },
   "osm-edel-rot-n11157734893": {
    "veggieLevel": "vegan-friendly",
@@ -771,13 +738,6 @@
    "hcName": "Illyrian",
    "hcInfo": "Serves meat, vegan options available. Albanian restaurant offering some vegan friendly falafel dishes. Also offers a selection of vegetarian dishes that can possibly be made vegan, please inquire.  Mon-Tue 11:00-21:30, Thu-Sat 11:00-21:30"
   },
-  "osm-italian-corner-n11918209075": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/11918209075"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-jus-n12315865312": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -794,16 +754,6 @@
    "note": "Own site: cooperative restaurant serving \"een lekkere, vlot geserveerd plantaardige maaltijd\".",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-kingslize-n6779344616": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/6779344616"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Kingslize Pizza Gent",
-   "hcInfo": "Serves meat, vegan options available. Pizza take-out and delivery chain offering 4 vegan pizzas: bolognaise, 'chicken,' margherita and 'pepperoni.'  Mon-Thu 11:00-23:30, Fri-Sat 11:00-01:00, Sun 11:00-22:30"
   },
   "osm-kleindok-n8393159527": {
    "veggieLevel": "veggie-friendly",
@@ -848,13 +798,6 @@
    "basis": "HappyCow listing",
    "hcName": "Krunch",
    "hcInfo": "Serves meat, vegan options available. Brunch restaurant offering clearly marked vegan choices such as overnight oats with oat milk & chia seeds, soup & toast, sandwich with mushroom, arugula, carrot spread & cauliflower and plant-based milk"
-  },
-  "osm-la-pizzeria-n819591964": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/819591964"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-le-bal-infernal-n7158634387": {
    "veggieLevel": "vegan-friendly",
@@ -1081,16 +1024,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-otomat-n4677893292": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/4677893292"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "Otomat",
-   "hcInfo": "Serves meat, vegan options available. Pizzeria with several locations in Belgium. Has a wide variety of beers and also uses beers in pizza dough. Two vegan pizzas are regularly available on menu: Mega Vega and Las Vega. Note: this location "
-  },
   "osm-pacha-mama-n3553831592": {
    "veggieLevel": "vegetarian",
    "sources": [
@@ -1150,23 +1083,6 @@
     "https://www.openstreetmap.org/node/10892781656"
    ],
    "basis": "OpenStreetMap diet tags"
-  },
-  "osm-pizza-cesar-n9278632522": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/9278632522"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
-  "osm-plant-a-pizza-n9740821856": {
-   "veggieLevel": "vegan",
-   "sources": [
-    "https://plantapizza.com/",
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "note": "Own site: \"The first 100% plant based pizzeria in Belgium\".",
-   "basis": "verified",
-   "checked": "2026-10-20"
   },
   "osm-plantbaar-n12737009115": {
    "veggieLevel": "vegan",

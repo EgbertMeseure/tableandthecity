@@ -466,11 +466,6 @@
    "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-abooov-adanaci-n12352306956": {
-   "name": "Abooov Adanaci",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-achturenhuis-n8944368522": {
    "name": "Achturenhuis",
    "instagram_handle": null,
@@ -504,12 +499,6 @@
    "instagram_handle": "akuma.ghent",
    "handleSource": "https://www.akumafoodfare.com/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-al-castello-n2305188583": {
-   "name": "Al Castello",
-   "instagram_handle": "alcastello_gent",
-   "handleSource": "https://www.al-castello.be/",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-alain-proviest-n4384148111": {
@@ -728,34 +717,6 @@
    "instagram_handle": "barterroirgent",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/bar-terroir",
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-barouche-n1532798352": {
-   "name": "Barouche",
-   "instagram_handle": "barouche_pitasandbowls",
-   "handleSource": "https://www.barouche.eu",
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://barouche.eu/images/og-default.jpg",
-    "source": "https://www.barouche.eu",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
-  },
-  "osm-barouche-w252396611": {
-   "name": "Barouche",
-   "instagram_handle": "barouche_pitasandbowls",
-   "handleSource": "https://barouche.eu/",
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://barouche.eu/images/og-default.jpg",
-    "source": "https://barouche.eu/",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
   },
   "osm-barque-a-jack-n5339099860": {
    "name": "Barque à Jack",
@@ -1075,13 +1036,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-brutal-n11340952262": {
-   "name": "Brutal",
-   "instagram_handle": "brutal_pizza",
-   "handleSource": "https://www.brutalpizza.be/",
-   "note": "todo lists @brutal_altaglio, which no page we checked links; own og:image URL broken",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-bukuu-n13306301095": {
    "name": "Bukuu",
    "instagram_handle": null,
@@ -1324,12 +1278,6 @@
   "osm-da-mario-n10840172980": {
    "name": "Da Mario",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-da-toto-n3810896304": {
-   "name": "Da Toto",
-   "instagram_handle": null,
-   "note": "own og:image rejected: eatbu template-style stock image",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-dali-restaurant-n11398726824": {
@@ -1577,11 +1525,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-diamond-pitta-n12320368735": {
-   "name": "Diamond Pitta",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-dirt-restaurant-n13323699746": {
    "name": "Dirt.restaurant",
    "instagram_handle": null,
@@ -1628,12 +1571,6 @@
    "name": "Du Progrès",
    "instagram_handle": "duprogres",
    "handleSource": "https://visit.gent.be/nl/eten-drinken/du-progres",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-eat-love-pizza-n2546643705": {
-   "name": "Eat Love Pizza",
-   "instagram_handle": "eatlove_gent",
-   "handleSource": "https://eatlovepizza.be/",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-eat-this-n12779057073": {
@@ -1818,11 +1755,6 @@
    "handleSource": "https://www.foodbar-jef.be",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-fratelli-ditalia-da-pino-n5894300885": {
-   "name": "Fratelli d’Italia Da Pino",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-freddie-n12684199822": {
    "name": "Freddie",
    "instagram_handle": "freddiekoffie",
@@ -1915,20 +1847,6 @@
    "name": "Giuliano",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-giuseppe-s-n4985608705": {
-   "name": "Giuseppe's",
-   "instagram_handle": "giuseppespizzeria.be",
-   "handleSource": "https://giuseppes.be/",
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://v2cdn1.centralappstatic.com/image/resize/1233x740_cover_d7debafd42264c7b83fa6f3fa01051ae.jpeg?w=1200",
-    "source": "https://giuseppes.be/",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
   },
   "osm-godot-n1532798351": {
    "name": "Godot",
@@ -2183,11 +2101,6 @@
    "note": "own website unreachable from our box (200)",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-il-pettirosso-n13083737101": {
-   "name": "Il Pettirosso",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-illyrian-n7079394606": {
    "name": "Illyrian",
    "instagram_handle": "bistro_illyrian",
@@ -2226,12 +2139,6 @@
    "instagram_handle": "indianmasalagent",
    "handleSource": "https://www.indianmasala.be/",
    "note": "own og:image URL broken",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-italian-corner-n11918209075": {
-   "name": "Italian corner",
-   "instagram_handle": null,
-   "note": "website is HOGENT catering page linking the school account @hogeschool_gent; no venue account; own og:image rejected: school advertising graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-jacqueline-n1349508971": {
@@ -2352,13 +2259,6 @@
    "name": "Keizershof",
    "instagram_handle": "keizershof",
    "handleSource": "https://www.keizershof.net",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-kingslize-n6779344616": {
-   "name": "Kingslize",
-   "instagram_handle": "kingslizepizza.be",
-   "handleSource": "https://kingslizepizza.be/",
-   "note": "brand/chain account, not branch-specific; own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-kino-n13342263004": {
@@ -2494,18 +2394,6 @@
    "instagram_handle": "la.malcontenta",
    "handleSource": "https://www.lamalcontenta.be/",
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-la-pizzeria-n819591964": {
-   "name": "La Pizzeria",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-la-rustica-n1804211330": {
-   "name": "La Rustica",
-   "instagram_handle": "pizzerialarustica",
-   "handleSource": "https://rustica.be/",
-   "note": "own og:image URL broken",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-la-salita-n1425064288": {
@@ -2880,13 +2768,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-neapolis-n2625520425": {
-   "name": "Neapolis",
-   "instagram_handle": "neapolisgent",
-   "handleSource": "https://www.neapolisgent.be",
-   "note": "own og:image URL broken",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-nenuphar-w425380898": {
    "name": "Nenuphar",
    "instagram_handle": null,
@@ -3071,17 +2952,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-otomat-n4677893292": {
-   "name": "Otomat",
-   "instagram_handle": "otomat.pizza",
-   "handleSource": "https://otomat.be/",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-ottoman-grillhouse-n13055223101": {
-   "name": "Ottoman Grillhouse",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-ozgem-n1579895326": {
    "name": "Özgem",
    "instagram_handle": "ozgemrestaurant",
@@ -3131,12 +3001,6 @@
    "name": "Panda",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pane-vino-w112572422": {
-   "name": "Pane & Vino",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-pani-n1804211176": {
@@ -3215,94 +3079,10 @@
    "handleSource": "https://www.pietjepekdrongen.be",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-pitta-alanya-n12104551219": {
-   "name": "Pitta Alanya",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pitta-flora-n10983992980": {
-   "name": "Pitta Flora",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pitta-side-w630342003": {
-   "name": "Pitta side",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-pittoresk-n1186301440": {
    "name": "Pittoresk",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pizza-bella-w626913548": {
-   "name": "Pizza Bella",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pizza-cesar-n9278632522": {
-   "name": "Pizza Cesar",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://pizzacesar.be/icons/og-image.jpg",
-    "source": "https://www.pizza-cesar.com",
-    "type": "og:image",
-    "w": 1200,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
-  },
-  "osm-pizza-gulhan-n4720207391": {
-   "name": "Pizza Gülhan",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pizza-king-n12331252803": {
-   "name": "Pizza King",
-   "instagram_handle": "pizzaking9000",
-   "handleSource": "https://www.pizzaking-gent.be/",
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pizza-mia-n5056755522": {
-   "name": "Pizza Mia",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pizza-pisa-n12320430953": {
-   "name": "Pizza Pisa",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (403)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-pizza-roma-n11047218681": {
-   "name": "Pizza Roma",
-   "instagram_handle": null,
-   "note": "og:image has logo overlaid",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg (note flags it: logo)",
-   "heroReject": "https://www.pizzaroma.be/assets/front/images/opengraph/pizzaroma.jpg"
-  },
-  "osm-pizzahof-n1853026297": {
-   "name": "Pizzahof",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-plant-a-pizza-n9740821856": {
-   "name": "Plant A Pizza",
-   "instagram_handle": "plant.a.pizza",
-   "handleSource": "https://plantapizza.com",
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://plantapizza.com/wp-content/uploads/2024/02/DSC9108-Enhanced-NR.webp",
-    "source": "https://plantapizza.com",
-    "type": "og:image",
-    "w": 1280,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
   },
   "osm-plantbaar-n12737009115": {
    "name": "Plantbaar",
@@ -3672,11 +3452,6 @@
   },
   "osm-sugar-spice-n1212135543": {
    "name": "Sugar & Spice",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-sultan-s-n13038155968": {
-   "name": "Sultan's",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
@@ -4095,11 +3870,6 @@
     "origin": "research"
    }
   },
-  "osm-uludag-n10250827159": {
-   "name": "Uludag",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-uma-marisqueira-n11595390054": {
    "name": "Uma Marisqueira",
    "instagram_handle": "marisqueirauma.belgie",
@@ -4130,11 +3900,6 @@
    "name": "Uncle Sam's",
    "instagram_handle": "uncle_samsoostakker",
    "handleSource": "https://www.unclesams.be/",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-urfa-n13038155956": {
-   "name": "Urfa",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uzume-sushi-n11476402371": {
@@ -4199,11 +3964,6 @@
    "name": "Villa Ooievaar",
    "instagram_handle": null,
    "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-vittorio-n7470367118": {
-   "name": "Vittorio",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-viva-la-puglia-n9819206829": {

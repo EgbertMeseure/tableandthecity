@@ -157,7 +157,7 @@ forms and their entry points are hidden.
 ## Full coverage: OpenStreetMap base list + veggie/vegan layer
 Besides the hand-curated places in `data/cities/gent.json` (`curated: true`, ranked first), the site loads every food & drink business in Gent
 (incl. deelgemeenten) from OpenStreetMap: `data/cities/gent-osm.json`, built by `scripts/import_osm.py` (Overpass API, idempotent).
-- Mapping: restaurant → Restaurants (brasserie/bistro by name, else generic), friteries and student/university cafeterias & restaurants → always dropped (no exceptions), fast_food → dropped (no frituren / snack bars / kebab / night shops) unless it has a confirmed vegan/vegetarian/vegan-friendly level or breakfast/brunch → Restaurants › Casual (`data/osm/keep-exceptions.json`), pub/bar/biergarten → Cafés & bars
+- Mapping: restaurant → Restaurants (brasserie/bistro by name, else generic), friteries, student/university cafeterias & restaurants, pizza places and kebab / pita shops (`pizza_kebab_kind()`, 26 Oct 2026) → always dropped (no exceptions), fast_food → dropped (no frituren / snack bars / kebab / night shops) unless it has a confirmed vegan/vegetarian/vegan-friendly level or breakfast/brunch → Restaurants › Casual (`data/osm/keep-exceptions.json`), pub/bar/biergarten → Cafés & bars
   (irish pub / cocktail bar / beer bar / dance / brown café by tags or name; generic cafés are dropped with the same exceptions), cafe → Coffee (specialty coffee
   by name; generic coffee houses are dropped with the same exceptions), shop=coffee → coffee shop/roaster, bakery → Bakeries, pastry → Patisserie — artisan
   only: OSM bakeries/patisseries are dropped unless listed in `data/bakeries-artisan.json` (keep / branchOf). Permanently closed places in
