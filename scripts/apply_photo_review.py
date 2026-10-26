@@ -42,6 +42,17 @@ CODE = re.compile(r'instagram\.com/(?:p|reel)/([A-Za-z0-9_-]+)')
 B64 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_'
 SUBJECTS = {'food', 'drink', 'interior', 'exterior'}
 SUBJECT_ALIAS = {'drinks': 'drink', 'dessert': 'food', 'pastry': 'food', 'bread': 'food', 'terrace': 'exterior'}  # researcher synonyms
+SUBJECT_WORDS = [('interior', r'interior|dining|room|bar\b|taproom|lounge|table|setting|cellar'), ('exterior', r'exterior|facade|fa\u00e7ade|shopfront|terrace|storefront'),
+                 ('drink', r'\b(drinks?|cocktails?|wines?|beers?|sake|coffee|lattes?|tea|bottles?)\b'), ('food', r'food|dish|ramen|sushi|maki|platter|mezze|dessert|pastry|bread|board|spread|plate|pizza|pasta|cake')]
+
+
+def norm_subject(sj):
+    """Map the researcher's free-text subject ('dining room', 'sushi platter', ...) onto food/drink/interior/exterior; None if unclear."""
+    sj = SUBJECT_ALIAS.get(sj, sj)
+    if sj in SUBJECTS or not sj: return sj
+    for cat, rx in SUBJECT_WORDS:
+        if re.search(rx, str(sj), re.I): return cat
+    return sj
 MAX_BYTES = 1_600_000
 
 
@@ -238,7 +249,7 @@ for sf in sorted(cdir.glob('*/sources.json')) if cdir.exists() else []:
     photos, posts, pick, fallback = [], [], None, None
     for c in cands:
         stem = str(c.get('file', '')).rsplit('.', 1)[0]
-        c['subject'] = SUBJECT_ALIAS.get(c.get('subject'), c.get('subject'))
+        c['subject'] = norm_subject(c.get('subject'))
         if f'{rid}/{stem}' in SKIP: report['left out'].append(f'{rid}/{stem}: {SKIP[f"{rid}/{stem}"]}'); continue
         if not c.get('no_people_verified') or c.get('subject') not in SUBJECTS: report['left out'].append(f'{rid}/{stem}: not verified people-free / subject {c.get("subject")}'); continue
         if c.get('source_type') == 'instagram':

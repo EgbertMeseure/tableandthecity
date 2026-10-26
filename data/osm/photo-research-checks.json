@@ -5193,6 +5193,624 @@
    "ok": true,
    "bytes": 327319,
    "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/69049766e8447109bd139573/994bf388-4400-4afb-b9bf-468a3ab332b0/Photoroom_20260122_203750.PNG?format=1500w": {
+   "ok": true,
+   "bytes": 691862,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.davinci-zuid.be/wp-content/uploads/2025/10/13.jpg": {
+   "ok": true,
+   "bytes": 63431,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.davinci-zuid.be/wp-content/uploads/2017/09/italian-focaccia-with-bell-peppers-PA555D8.jpg": {
+   "ok": true,
+   "bytes": 70886,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5216765ae4b01820fd27df62/1401973720597-82VK26WFLG7P7JSWG9G1/7schaken25.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 74604,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.restaurantdebomma.be/wp-content/uploads/2020/01/u3xgmj2s4iwkxg7gg263q-e1578695967200-2048x2731.jpg": {
+   "ok": true,
+   "bytes": 846667,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5ed799d6b18eac7e43751310/da85fd7f-8509-4ece-81a8-997ae9ed250c/WhatsApp+Image+2023-10-14+at+17.42.34.jpeg?format=1500w": {
+   "ok": true,
+   "bytes": 233740,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5ed799d6b18eac7e43751310/1592576960987-GWWH8KV0IM7KBKDEQI24/IMG_1665.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 229882,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.demerodeberchem.be/img/Slideshow/slideshow1.png": {
+   "ok": false,
+   "bytes": 1646838,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 1646838 bytes (needs ≤ 1600000)"
+  },
+  "web:https://depeerdestal.be/wp-content/uploads/2019/02/13-de-peerdestal-restaurant-antwerpen-tablefever-bart-albrecht-Z_W.jpg": {
+   "ok": true,
+   "bytes": 54889,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.brasseriedepelgrim.be/nl/thumbnail/square/Waxn4/home%20trio%20*24.jpg": {
+   "ok": true,
+   "bytes": 89358,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.brasseriedepelgrim.be/nl/thumbnail/square/wvxA1/home%20trio%20*24.jpg": {
+   "ok": true,
+   "bytes": 80488,
+   "checked": "2026-10-26"
+  },
+  "web:https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72savbMgCQwKTKpWOiuAZBpxdnXtodfNt4BYB-pjl-On3Xdm0aa53IdY3j-lAjWkDppeLNzW6cv3MeqIJ0H_h_pHVDM9w382p1i0Xb3chZ6lxxV2nN9xhmJ5Dc6mybULwE0T8seBX_3LGovmVOzvoAsPwMi9TAGPt5s6-pLRihJ65s9Mo0gk5b4Bm2ZPX13_AGUJMyjT_f6RUos3bnhZc5n52uAYSAjA7_Qh4x1_=w1280": {
+   "ok": false,
+   "bytes": 2397,
+   "checked": "2026-10-26",
+   "why": "HTTP 403 text/html; charset=UTF-8 2397 bytes (needs ≤ 1600000)"
+  },
+  "web:https://desinjoor.be/wp-content/uploads/2023/01/20230119_DeSinjoor-1393-scaled.jpg": {
+   "ok": true,
+   "bytes": 555981,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/7f5d52_62383b84389c41f79380930f312fe7f3~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/7f5d52_62383b84389c41f79380930f312fe7f3~mv2.jpg": {
+   "ok": true,
+   "bytes": 430429,
+   "checked": "2026-10-26"
+  },
+  "web:https://dok54.be/wp-content/uploads/2024/05/3504FECA-6150-4874-B656-60450B2B26E8-scaled-e1770296914325.jpg": {
+   "ok": true,
+   "bytes": 305097,
+   "checked": "2026-10-26"
+  },
+  "web:https://dok54.be/wp-content/uploads/2021/06/MG_9226-min-1-1024x683.jpeg": {
+   "ok": true,
+   "bytes": 108991,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/3b7831_5eb0438d660a45548bd746943097af16~mv2.jpg/v1/fill/w_2500,h_1666,al_c/3b7831_5eb0438d660a45548bd746943097af16~mv2.jpg": {
+   "ok": true,
+   "bytes": 849620,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/3b7831_1563ea5b1eaa40d8925e0a7fca4d0264~mv2.jpg/v1/fit/w_863,h_575,q_90,enc_avif,quality_auto/3b7831_1563ea5b1eaa40d8925e0a7fca4d0264~mv2.jpg": {
+   "ok": true,
+   "bytes": 133489,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/3b7831_9f3815dd53534d2eb3bc4fa1115d3832~mv2.jpg/v1/fit/w_863,h_575,q_90,enc_avif,quality_auto/3b7831_9f3815dd53534d2eb3bc4fa1115d3832~mv2.jpg": {
+   "ok": true,
+   "bytes": 139742,
+   "checked": "2026-10-26"
+  },
+  "web:https://epiphanyskitchen.com/wp-content/uploads/2025/09/0N2A0031-97-95.jpg": {
+   "ok": false,
+   "bytes": 1909136,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 1909136 bytes (needs ≤ 1600000)"
+  },
+  "web:https://epiphanyskitchen.com/wp-content/uploads/2025/09/0N2A0593-200-197.jpg": {
+   "ok": false,
+   "bytes": 2032992,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 2032992 bytes (needs ≤ 1600000)"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5862a35bb8a79b3f4c9032ec/1628596590828-JYZKI1C3KZC3XDS64HBR/_DSF7920.jpg?format=1000w": {
+   "ok": true,
+   "bytes": 81844,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5862a35bb8a79b3f4c9032ec/1628596591152-2NPMML32SDZ9LEXNUOOU/_DSF7921.jpg?format=1000w": {
+   "ok": true,
+   "bytes": 102164,
+   "checked": "2026-10-26"
+  },
+  "web:https://ferrier-30.be/media/pages/home/0f73871aef-1715747203/origineel-ferrier-janneg-40-1200x630-crop-1-q80.jpg": {
+   "ok": true,
+   "bytes": 74571,
+   "checked": "2026-10-26"
+  },
+  "web:https://fiera.be/wp-content/uploads/2025/09/Foto-Fiera-3-scaled.jpg": {
+   "ok": true,
+   "bytes": 304378,
+   "checked": "2026-10-26"
+  },
+  "web:https://fiera.be/wp-content/uploads/2020/02/beeld2-2.jpg": {
+   "ok": true,
+   "bytes": 444116,
+   "checked": "2026-10-26"
+  },
+  "web:https://fiskebar.be/wp-content/uploads/2012/11/Fiskebar2018_SanderBuijs_043kopie-1500x1000.jpg": {
+   "ok": true,
+   "bytes": 252708,
+   "checked": "2026-10-26"
+  },
+  "web:https://fiskebar.be/wp-content/uploads/2012/11/OM_23892-1500x1386.jpg": {
+   "ok": true,
+   "bytes": 472085,
+   "checked": "2026-10-26"
+  },
+  "web:https://fiskeskur.be/wp-content/uploads/2022/03/Fiskekur_Sander_Buijs1x145-705x705.jpg": {
+   "ok": true,
+   "bytes": 620273,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.fogos.be/wp-content/uploads/2015/05/dwedwe.jpg": {
+   "ok": true,
+   "bytes": 59900,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.fogos.be/wp-content/uploads/2015/05/abacaxi-grelhado.jpg": {
+   "ok": true,
+   "bytes": 67944,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.fonsantwerp.be/wp-content/uploads/2018/01/Slider3-1-1200x630.jpg": {
+   "ok": true,
+   "bytes": 155084,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.fonsantwerp.be/wp-content/uploads/2018/01/gevel2-1-1200x630.jpg": {
+   "ok": true,
+   "bytes": 175051,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.gistgeest.be/wp-content/uploads/2023/12/20230628_171504-1024x1024.jpg": {
+   "ok": true,
+   "bytes": 244722,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.gistgeest.be/wp-content/uploads/2023/12/20230624_151953-1024x1024.jpg": {
+   "ok": true,
+   "bytes": 201747,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.gistgeest.be/wp-content/uploads/2023/12/20230719_161045-1024x1024.jpg": {
+   "ok": true,
+   "bytes": 283507,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/aQjVA1tW3hVUUyIQN9fW/media/a6a03b82-3a93-47bb-8bd5-cdcff561907b.jpeg": {
+   "ok": true,
+   "bytes": 280048,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/aQjVA1tW3hVUUyIQN9fW/media/ac95a801-4162-4e16-b3dd-09c549eb362f.jpeg": {
+   "ok": true,
+   "bytes": 140826,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/aQjVA1tW3hVUUyIQN9fW/media/c5790753-4029-414c-af85-8e27574e7d70.jpeg": {
+   "ok": true,
+   "bytes": 53414,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.hechi.be/wp-content/uploads/2021/11/antwerpen__48_.jpeg": {
+   "ok": true,
+   "bytes": 161642,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.hechi.be/wp-content/uploads/2021/11/antwerpen__31_.jpeg": {
+   "ok": true,
+   "bytes": 227723,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.hetgerecht.be/css/images/bg_block3.jpg": {
+   "ok": true,
+   "bytes": 661000,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.hetgerecht.be/UserFiles/Image/HetGerecht/Webpages/Homepage/Extra/Foto002.jpg": {
+   "ok": true,
+   "bytes": 417728,
+   "checked": "2026-10-26"
+  },
+  "web:https://hoffys.be/wp-content/uploads/2026/04/HOFFYS-06-GEMARINEERDE-AUBERGINE-HOUMOUS-1_2000px.jpg": {
+   "ok": true,
+   "bytes": 674322,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.grandcafehorta.be/media/pages/home/26ccf3065c-1699870232/horta-zaal-44-1800x.jpg": {
+   "ok": true,
+   "bytes": 459177,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.grandcafehorta.be/media/pages/home/24eb28303c-1699870231/horta-grand-cafe-hero-3-1800x.jpg": {
+   "ok": true,
+   "bytes": 396461,
+   "checked": "2026-10-26"
+  },
+  "web:https://colvenier.be/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-04-at-14.45.23-3-1000x750.jpeg": {
+   "ok": true,
+   "bytes": 131654,
+   "checked": "2026-10-26"
+  },
+  "web:https://colvenier.be/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-04-at-14.45.22-4-1000x750.jpeg": {
+   "ok": true,
+   "bytes": 121883,
+   "checked": "2026-10-26"
+  },
+  "web:https://instroom.art/united/wp-content/uploads/2026/01/Instroom_Art-galerij-20.jpg": {
+   "ok": true,
+   "bytes": 408503,
+   "checked": "2026-10-26"
+  },
+  "web:https://izumi.be/wp-content/uploads/2026/07/hero-banner-1200x800.jpg": {
+   "ok": true,
+   "bytes": 164333,
+   "checked": "2026-10-26"
+  },
+  "web:https://izumi.be/wp-content/uploads/2026/07/6-1.jpg": {
+   "ok": true,
+   "bytes": 314481,
+   "checked": "2026-10-26"
+  },
+  "web:https://izumi.be/wp-content/uploads/2026/07/7-1.jpg": {
+   "ok": true,
+   "bytes": 472728,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.janya.be/images/gallery_10.jpg": {
+   "ok": true,
+   "bytes": 732325,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.janya.be/images/gallery_08.jpg": {
+   "ok": true,
+   "bytes": 581185,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.lasmanas.be/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-21-at-17.17.18-2-e1737546175182.webp": {
+   "ok": true,
+   "bytes": 67142,
+   "checked": "2026-10-26"
+  },
+  "web:https://lella.be/wp-content/uploads/2025/01/slider-1-lella-img-1-1280x1920.jpg": {
+   "ok": true,
+   "bytes": 377492,
+   "checked": "2026-10-26"
+  },
+  "web:https://lella.be/wp-content/uploads/2025/01/slider-1-lella-img-2-1-1280x1920.jpg": {
+   "ok": true,
+   "bytes": 245577,
+   "checked": "2026-10-26"
+  },
+  "web:https://lella.be/wp-content/uploads/2025/01/slider-1-lella-img-4-1-1280x1920.jpg": {
+   "ok": true,
+   "bytes": 463884,
+   "checked": "2026-10-26"
+  },
+  "web:https://littlebeirut.be/wp-content/uploads/2014/07/int.jpg": {
+   "ok": true,
+   "bytes": 107596,
+   "checked": "2026-10-26"
+  },
+  "web:https://littlebeirut.be/wp-content/uploads/2014/07/bar.jpg": {
+   "ok": true,
+   "bytes": 109066,
+   "checked": "2026-10-26"
+  },
+  "web:https://littlebeirut.be/wp-content/uploads/2017/12/Q5A4887.jpg": {
+   "ok": false,
+   "bytes": 5515528,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 5515528 bytes (needs ≤ 1600000)"
+  },
+  "web:https://littlebeirut.be/wp-content/uploads/2018/01/food.jpg": {
+   "ok": true,
+   "bytes": 148579,
+   "checked": "2026-10-26"
+  },
+  "web:https://lunsjes.be/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGbHVuc2plcy5iZSUyRndwLWNvbnRlbnQlMkZ1cGxvYWRzJTJGMjAyNiUyRjA0JTJGYzQ2NmE0ZGRiOGZlYjc3MDBiZjVlMjhkNDYzMDkzOTY4MjVlNGVmNy5wbmcmY2FjaGVNYXJrZXI9MTc4NTIyMzYzMy0zNzIxMzYmdG9rZW49MTkxYzRkMTMxOWRlMTQ3OQ.q.png": {
+   "ok": true,
+   "bytes": 287685,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/5d03618e8520ae000166f46d/1574240473735-AOOWCIDTOM136JD0O6OQ/MAMPOKO+JULI+2019-79_2000px.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 111774,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.mays.be/images/lange-tafel.jpg": {
+   "ok": true,
+   "bytes": 362628,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.mays.be/images/nieuwe_suggestie.jpg": {
+   "ok": true,
+   "bytes": 1299338,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.mays.be/images/bar.jpg": {
+   "ok": true,
+   "bytes": 295863,
+   "checked": "2026-10-26"
+  },
+  "web:https://melkerij-nachtegalenpark.be/wp-content/uploads/2026/05/DSC05627-scaled-e1779358065184-768x864.jpg": {
+   "ok": true,
+   "bytes": 163465,
+   "checked": "2026-10-26"
+  },
+  "web:https://melkerij-nachtegalenpark.be/wp-content/uploads/2019/06/Nachtegalenpark-feesten-768x511.jpg": {
+   "ok": true,
+   "bytes": 69549,
+   "checked": "2026-10-26"
+  },
+  "web:https://msemen.be/wp-content/uploads/2020/06/thumbnail_48b535b0-d92e-4c85-bff8-33bbf43e4166-e1598880549279.jpg": {
+   "ok": true,
+   "bytes": 134183,
+   "checked": "2026-10-26"
+  },
+  "web:https://msemen.be/wp-content/uploads/2019/12/img-03.jpg": {
+   "ok": true,
+   "bytes": 60695,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.nawaab.be/wp-content/uploads/2026/02/Picture-by-Sora-Studios-460-1024x683.jpg": {
+   "ok": true,
+   "bytes": 135132,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.nawaab.be/wp-content/uploads/2024/06/HRI_0626.jpg": {
+   "ok": true,
+   "bytes": 423612,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.nevizadeantwerp.be/media/images/gallery/7/big/23.jpg": {
+   "ok": true,
+   "bytes": 230826,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.nevizadeantwerp.be/smarty/lp09/media/images/Menu.webp": {
+   "ok": true,
+   "bytes": 255238,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.orymaz.be/images/slide9.jpg": {
+   "ok": true,
+   "bytes": 207849,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.orymaz.be/images/slide3.jpg": {
+   "ok": true,
+   "bytes": 167514,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.orymaz.be/images/slide5.jpg": {
+   "ok": true,
+   "bytes": 122490,
+   "checked": "2026-10-26"
+  },
+  "web:https://paesano.be/wp-content/themes/paesano/assets/img/food-3.webp": {
+   "ok": true,
+   "bytes": 145826,
+   "checked": "2026-10-26"
+  },
+  "web:https://paesano.be/wp-content/themes/paesano/assets/img/food-dessert-1.webp": {
+   "ok": true,
+   "bytes": 188336,
+   "checked": "2026-10-26"
+  },
+  "web:https://paesano.be/wp-content/themes/paesano/assets/img/cocktail-1.webp": {
+   "ok": true,
+   "bytes": 41370,
+   "checked": "2026-10-26"
+  },
+  "web:https://parkwest.be/wp-content/uploads/sites/4/2026/10/Tom-Corremans_2024-02-05-Park-West_38-1229x1536.jpeg": {
+   "ok": true,
+   "bytes": 183664,
+   "checked": "2026-10-26"
+  },
+  "web:https://parkwest.be/wp-content/uploads/sites/4/2026/10/Park-West-%C2%A9-Axelle-Verhoustraeten-131-768x1152.jpg": {
+   "ok": true,
+   "bytes": 78299,
+   "checked": "2026-10-26"
+  },
+  "web:https://parkwest.be/wp-content/uploads/sites/4/2026/10/Tom-Corremans_2024-02-05-Park-West_1-1024x1536.jpeg": {
+   "ok": true,
+   "bytes": 185590,
+   "checked": "2026-10-26"
+  },
+  "web:https://pasta-hippo-vino.be/wp-content/uploads/2024/11/Pasta_2-1219x900.jpg": {
+   "ok": true,
+   "bytes": 166753,
+   "checked": "2026-10-26"
+  },
+  "web:https://usercontent.one/wp/www.plaasj.be/wp-content/uploads/2026/02/WhatsApp-Image-2026-02-08-at-09.56.27-1-scaled-e1770908665716.jpeg": {
+   "ok": true,
+   "bytes": 323757,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.resto-renaissance.be/wp-content/uploads/2025/11/5M9A9526-1-819x1024.jpg": {
+   "ok": true,
+   "bytes": 135108,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/627a41015d0e9d67fae12334/6aaa6f86a76ba2d3e487823d_repasse-static-10.avif": {
+   "ok": true,
+   "bytes": 130774,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/627a41015d0e9d67fae12334/6aaa6f8643f72813a781a77b_repasse-static-12.avif": {
+   "ok": true,
+   "bytes": 85451,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/627a41015d0e9d67fae12334/6aaa6f872f20a427c7aef249_repasse-static-14.avif": {
+   "ok": true,
+   "bytes": 66918,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/627a41015d0e9d67fae12334/6aaa6f87ccc30d3d340eb719_repasse-static-16.avif": {
+   "ok": true,
+   "bytes": 92210,
+   "checked": "2026-10-26"
+  },
+  "web:https://i0.wp.com/restaurantlokal.be/wp-content/uploads/2021/05/vlam1x1-scaled.jpg?w=900&ssl=1": {
+   "ok": true,
+   "bytes": 96755,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/c143a0_9d7280bd32334292ab47f4e3422c6328~mv2.jpg/v1/fill/w_1220,h_788,al_c,q_85,enc_avif,quality_auto/c143a0_9d7280bd32334292ab47f4e3422c6328~mv2.jpg": {
+   "ok": true,
+   "bytes": 138397,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/6a3946f2d36279ee10294d90/6a8ee017bc3c407877db8128__SF44214.jpg": {
+   "ok": true,
+   "bytes": 57050,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.royaltokyosushibar.com/wp-content/uploads/2022/01/DSCF5304-scaled-1.jpg": {
+   "ok": true,
+   "bytes": 396900,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.royaltokyosushibar.com/wp-content/uploads/2022/01/DSCF5283-scaled-1.jpg": {
+   "ok": true,
+   "bytes": 452294,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.royaltokyosushibar.com/wp-content/uploads/2022/01/DSCF5279-scaled-1.jpg": {
+   "ok": true,
+   "bytes": 264304,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.showit.co/800/Ub646kdT_CVtmpz4s4OZNA/330135/samenloop_restaurant_antwerpen_2042.jpg": {
+   "ok": true,
+   "bytes": 196151,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.showit.co/800/9351teBJcujz93_uDIzeMQ/330135/samenloop_restaurant_antwerpen_2080.jpg": {
+   "ok": true,
+   "bytes": 216106,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/8b1a13_d4c93bf58e94467597861d489e6af925%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/8b1a13_d4c93bf58e94467597861d489e6af925%7Emv2.jpg": {
+   "ok": true,
+   "bytes": 184943,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.sifa-eethuis.be/media/images/gallery/82/big/149.jpg?1792988459642": {
+   "ok": true,
+   "bytes": 153528,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.sifa-eethuis.be/media/images/gallery/82/big/151.jpg?1792988465557": {
+   "ok": true,
+   "bytes": 123590,
+   "checked": "2026-10-26"
+  },
+  "web:https://simoneskitchen.com/wp-content/uploads/2025/12/SK-BB.png": {
+   "ok": true,
+   "bytes": 1023670,
+   "checked": "2026-10-26"
+  },
+  "web:https://simoneskitchen.com/wp-content/uploads/2025/12/WhatsApp-Image-2025-12-07-at-09.46.24.jpeg": {
+   "ok": true,
+   "bytes": 423231,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.siranthonyvandijck.be/site/assets/files/1/interieur_4.jpg": {
+   "ok": true,
+   "bytes": 556757,
+   "checked": "2026-10-26"
+  },
+  "web:https://www-static.smudged.be/wp-content/uploads/2024/01/%E2%94%AC%E2%8C%90PBM1001_23.jpg": {
+   "ok": false,
+   "bytes": 3180550,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 3180550 bytes (needs ≤ 1600000)"
+  },
+  "web:https://www-static.smudged.be/wp-content/uploads/2024/01/%E2%94%AC%E2%8C%90PBM1001_4.jpg": {
+   "ok": false,
+   "bytes": 1850728,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 1850728 bytes (needs ≤ 1600000)"
+  },
+  "web:https://www-static.smudged.be/wp-content/uploads/2024/01/%E2%94%AC%E2%8C%90PBM1001_11.jpg": {
+   "ok": true,
+   "bytes": 1326713,
+   "checked": "2026-10-26"
+  },
+  "web:https://images.squarespace-cdn.com/content/v1/6257d932e22ae3599cd7b605/1790169092188-ZOAN0TEG97N7Q7578YLP/Wintar_ArthurVermeylen_260227_025.jpg?format=1500w": {
+   "ok": true,
+   "bytes": 109672,
+   "checked": "2026-10-26"
+  },
+  "web:https://specialebelgetaproom.be/wp-content/uploads/2022/04/20220223-DSC01669-1024x768.jpg": {
+   "ok": true,
+   "bytes": 204015,
+   "checked": "2026-10-26"
+  },
+  "web:https://taketwo.be/wp-content/uploads/2026/09/TAKE-TWO-9.webp": {
+   "ok": true,
+   "bytes": 172148,
+   "checked": "2026-10-26"
+  },
+  "web:https://taketwo.be/wp-content/uploads/2026/09/TAKE-TWO-4-scaled.webp": {
+   "ok": true,
+   "bytes": 251086,
+   "checked": "2026-10-26"
+  },
+  "web:https://taketwo.be/wp-content/uploads/2026/09/TAKE-TWO-7-scaled.webp": {
+   "ok": true,
+   "bytes": 281132,
+   "checked": "2026-10-26"
+  },
+  "web:https://taketwo.be/wp-content/uploads/2026/09/TAKE-TWO-2-scaled.webp": {
+   "ok": true,
+   "bytes": 161420,
+   "checked": "2026-10-26"
+  },
+  "web:https://framerusercontent.com/assets/NgPjgG8QQSvRJo3QkLMNLBGX3Q.jpg": {
+   "ok": false,
+   "bytes": 7475094,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 7475094 bytes (needs ≤ 1600000)"
+  },
+  "web:https://www.tamtamberchem.be/fotos/homeannouncement_half_flyer/4/thumb/maw8090group4jpg.jpg": {
+   "ok": true,
+   "bytes": 192491,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.tamtamberchem.be/fotos/homeannouncement_half_flyer/2/thumb/maw30460interior-1jpg.jpg": {
+   "ok": true,
+   "bytes": 145269,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.tamtamberchem.be/fotos/homeannouncement_half_flyer/3/thumb/maw13804squareTAM-TAM-6163jpg.jpg": {
+   "ok": true,
+   "bytes": 142410,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.umi-sushi.be/wp-content/uploads/2022/11/UMI-SUSHI-hero-restaurant.jpg": {
+   "ok": true,
+   "bytes": 610302,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.umi-sushi.be/wp-content/uploads/2022/11/UMI-SUSHI-hero-japanse-lampen.jpg": {
+   "ok": true,
+   "bytes": 374302,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/70940a_0396d17b9e5746b2ae32b9b1a5b69d71.jpg/v1/fill/w_1280,h_1073,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/70940a_0396d17b9e5746b2ae32b9b1a5b69d71.jpg": {
+   "ok": true,
+   "bytes": 237928,
+   "checked": "2026-10-26"
+  },
+  "web:https://yallayalla.be/app/uploads/2023/11/yy-header-1024x597.png": {
+   "ok": true,
+   "bytes": 1163782,
+   "checked": "2026-10-26"
   }
  }
 }
