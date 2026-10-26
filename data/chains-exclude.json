@@ -442,6 +442,126 @@
    ],
    "kind": "bubble tea chain",
    "why": "Belgian bubble-tea franchise (many shops)."
+  },
+  {
+   "name": "Colmar",
+   "patterns": [
+    "colmar\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Belgian steak/salad restaurant chain (≈20 sites)."
+  },
+  {
+   "name": "Knees to Chin",
+   "patterns": [
+    "knees to chin\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Belgian rice-paper-roll chain (several cities)."
+  },
+  {
+   "name": "Manhattn's Burgers",
+   "patterns": [
+    "manhatt?a?n'?s burgers?\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Belgian burger chain (several cities)."
+  },
+  {
+   "name": "Mister Spaghetti",
+   "patterns": [
+    "mister spaghetti\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): 7 restaurants in Flanders (mister-spaghetti.com/locaties)."
+  },
+  {
+   "name": "My Tannour",
+   "patterns": [
+    "my tannour\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Gent + 6 Brussels sites (mytannour.com/list-locations)."
+  },
+  {
+   "name": "BOCCA",
+   "patterns": [
+    "bocca( (gent|center|centrum|citadel|brugge|kortrijk))?$"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Fresh-pasta bars: Gent x2, Brugge, Kortrijk (bocca.be/locaties)."
+  },
+  {
+   "name": "Seoul South Station",
+   "patterns": [
+    "seoul south station\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Korean fried chicken, 5 shops (Gent, Leuven, Brugge, Brussels x2)."
+  },
+  {
+   "name": "Jilles",
+   "patterns": [
+    "jilles\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Brugge / Oostende / Gent."
+  },
+  {
+   "name": "Wasbar",
+   "patterns": [
+    "wasbar\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Gent x2, Antwerpen x5, Brussels (wasbar.be/restaurants)."
+  },
+  {
+   "name": "Amadeus",
+   "patterns": [
+    "amadeus\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Spare-rib restaurant chain, multiple cities."
+  },
+  {
+   "name": "Lucy Chang",
+   "patterns": [
+    "lucy chang\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Belgian Asian street-food chain, multiple cities."
+  },
+  {
+   "name": "O'Learys",
+   "patterns": [
+    "o'? ?learys?\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): International sports-bar chain."
+  },
+  {
+   "name": "The Waffle Factory",
+   "patterns": [
+    "(the )?waffle factory\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): International waffle chain."
+  },
+  {
+   "name": "Hector Chicken",
+   "patterns": [
+    "hector chicken\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Belgian rotisserie-chicken chain."
+  },
+  {
+   "name": "Bia Mara",
+   "patterns": [
+    "bia mara\\b"
+   ],
+   "kind": "restaurant group",
+   "why": "No-chains rule 26 Oct 2026 (researcher flag, verified): Fish & chips chain (Brussels, Antwerpen, Gent ...)."
   }
  ],
  "keep": [
@@ -466,8 +586,12 @@
    "why": "Restaurant inside the restored church; Delhaize is the leaseholder, operators not announced — borderline; kept for review."
   },
   {
-   "name": "Wasbar, Tom & Dellas, Holy Guacamoly, Catberry, Aloha Pokébowl",
+   "name": "Tom & Dellas, Holy Guacamoly, Catberry, Aloha Pokébowl",
    "why": "Local multi-site or single places, not obvious chains — kept (26 Oct 2026 chain review)."
+  },
+  {
+   "name": "Fitchen, Barchel",
+   "why": "Single-city local businesses (Fitchen: 2 Ghent sites, Antwerp closed; Barchel: 3 Antwerp sites) — kept (26 Oct 2026 chain review)."
   }
  ]
 }

@@ -316,15 +316,6 @@
    "hash": "5e8214d8818b",
    "checked": "2026-10-20"
   },
-  "osm-mister-spaghetti-n1212139210": {
-   "url": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg",
-   "source": "https://www.mister-spaghetti.com/locaties/gent/",
-   "type": "og:image",
-   "w": 1879,
-   "h": 1250,
-   "hash": "aa4fb3323cb1",
-   "checked": "2026-10-20"
-  },
   "osm-morgen-bakkerij-n12345668083": {
    "url": "https://morgen-bakkerij.be/cdn/shop/files/386593463_122100601220067786_8301562322715799969_n_b621dd2b-e1ab-4bf3-91ec-a45fcbbf2322.jpg?v=1697612288",
    "source": "https://morgen-bakkerij.be/",
@@ -350,15 +341,6 @@
    "w": 900,
    "h": 600,
    "hash": "0b5e6a7ddfa7",
-   "checked": "2026-10-20"
-  },
-  "osm-my-tannour-n12697242776": {
-   "url": "https://static1.squarespace.com/static/64d359f5d45da5265beb6c19/t/67ae1deb82b61d36b22c4410/1739464171122/000Sans-titre-1+%281%29.png?format=1500w",
-   "source": "https://www.mytannour.com/list-locations/gent-fn7h6",
-   "type": "og:image",
-   "w": 1500,
-   "h": 844,
-   "hash": "4c2391a989d1",
    "checked": "2026-10-20"
   },
   "osm-pakhuis-w107725021": {
@@ -1022,14 +1004,6 @@
    "why": "error: ConnectTimeout",
    "checked": "2026-10-20"
   },
-  "osm-amadeus-n2626377985": {
-   "why": "logo-like file name (https://amadeus-resto.be/wp-content/uploads/2024/11/cropped-Logo-rood-zonder-achtergrond-Photoroom.png)",
-   "checked": "2026-10-20"
-  },
-  "osm-amadeus-w140244218": {
-   "why": "logo-like file name (https://amadeus-resto.be/wp-content/uploads/2024/11/cropped-Logo-rood-zonder-achtergrond-Photoroom.png)",
-   "checked": "2026-10-20"
-  },
   "osm-amaro-n11596286258": {
    "why": "logo-like file name (https://static1.squarespace.com/static/64ce0f64804aff2927427ef1/t/6ac0d5fffcdbcf3649ed958e/1791022591373/Amaro_logo_Blauw-koraal.png?format=1500w)",
    "checked": "2026-10-20"
@@ -1251,10 +1225,6 @@
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },
-  "osm-bocca-n6133546281": {
-   "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
   "osm-bodega-n5822374282": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -1462,14 +1432,6 @@
   },
   "osm-cocteau-n5156850058": {
    "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
-  "osm-colmar-n275223798": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-colmar-w1033606442": {
-   "why": "too small (768x1024)",
    "checked": "2026-10-20"
   },
   "osm-come-back-w451519579": {
@@ -2142,10 +2104,6 @@
    "checked": "2026-10-20",
    "url": "https://www.jemenfish.gent/images/jmf-share-banner.jpg"
   },
-  "osm-jilles-n11505926942": {
-   "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
   "osm-joey-n10885894093": {
    "why": "not landscape (928x928)",
    "checked": "2026-10-20"
@@ -2212,11 +2170,6 @@
   "osm-kino-n13342263004": {
    "why": "not landscape (1329x1330)",
    "checked": "2026-10-20"
-  },
-  "osm-knees-to-chin-n10885883241": {
-   "why": "manual review: logo / wordmark, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://kneestochin.com/wp-content/uploads/2025/05/facebook-preview-home-2025.jpg"
   },
   "osm-knol-kool-n12148408793": {
    "why": "logo-like file name (https://static1.squarespace.com/static/635add1e34fe674d2c2d533c/t/635add80b9530c42ed5310c8/1666899328147/K_KLogotype_yellow%40transparant.png?format=1500w)",
@@ -2319,10 +2272,6 @@
    "why": "error: SSLError",
    "checked": "2026-10-20"
   },
-  "osm-lucy-chang-n3392860014": {
-   "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
   "osm-macho-n7783989814": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2334,11 +2283,6 @@
   "osm-maison-elza-n1616705129": {
    "why": "not landscape (1783x2560)",
    "checked": "2026-10-20"
-  },
-  "osm-manhattn-s-burgers-n2617861936": {
-   "why": "manual review: logo / wordmark, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://www.manhattns.com/sites/default/files/styles/facebook_share/public/2022-03/share-image.jpg?itok=0AAR-qxK"
   },
   "osm-marengo-n2555139392": {
    "why": "no og:image / twitter:image",
@@ -2445,10 +2389,6 @@
   },
   "osm-o-gand-n2461641271": {
    "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
-  "osm-o-learys-n4716568192": {
-   "why": "homepage HTTP 429",
    "checked": "2026-10-20"
   },
   "osm-o-yo-n10885912444": {
@@ -2701,10 +2641,6 @@
   },
   "osm-seli-s-noodlebar-n2998443056": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-seoul-south-station-n12702572257": {
-   "why": "logo-like file name (https://www.seoulsouthstation.be/apple-touch-icon.png)",
    "checked": "2026-10-20"
   },
   "osm-sgol-n10892676751": {
@@ -3026,10 +2962,6 @@
    "why": "error: SSLError",
    "checked": "2026-10-20"
   },
-  "osm-the-waffle-factory-n6412046258": {
-   "why": "error: SSLError",
-   "checked": "2026-10-20"
-  },
   "osm-the-wan-only-n5869420978": {
    "why": "too small (403x605)",
    "checked": "2026-10-20"
@@ -3155,10 +3087,6 @@
    "checked": "2026-10-20"
   },
   "osm-vlierefluiter-w492438497": {
-   "why": "error: ConnectTimeout",
-   "checked": "2026-10-20"
-  },
-  "osm-wasbar-n6138202038": {
    "why": "error: ConnectTimeout",
    "checked": "2026-10-20"
   },

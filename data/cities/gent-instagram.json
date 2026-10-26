@@ -535,18 +535,6 @@
     "origin": "research"
    }
   },
-  "osm-amadeus-n2626377985": {
-   "name": "Amadeus",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-amadeus-w140244218": {
-   "name": "Amadeus",
-   "instagram_handle": null,
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-amfora-n2273855341": {
    "name": "Amfora",
    "instagram_handle": "amforagent",
@@ -811,21 +799,6 @@
    "instagram_handle": "bobon.gent",
    "handleSource": "https://www.bobon.gent/",
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-bocca-n1462321981": {
-   "name": "Bocca",
-   "instagram_handle": "bocca_gent",
-   "handleSource": "https://visit.gent.be/nl/eten-drinken/bocca",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-bocca-n6133546281": {
-   "name": "Bocca",
-   "instagram_handle": "bocca.be",
-   "handleSource": "http://bocca.be/",
-   "note": "Visit Gent links @bocca_gent instead (https://visit.gent.be/nl/eten-drinken/bocca); og:image shows branded takeaway boxes (logo visible)",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://cdn.prod.website-files.com/6a16b3c3f3442f64b0b85584/6ab2386df88a8215e76d690d_og-bocca.jpg (note flags it: logo)",
-   "heroReject": "https://cdn.prod.website-files.com/6a16b3c3f3442f64b0b85584/6ab2386df88a8215e76d690d_og-bocca.jpg"
   },
   "osm-bodega-n5822374282": {
    "name": "Bodega",
@@ -1116,22 +1089,6 @@
    "handleSource": "https://www.cocotinecoffee.be/",
    "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-colmar-n275223798": {
-   "name": "Colmar",
-   "instagram_handle": "colmarrestaurants",
-   "handleSource": "https://www.colmar.be",
-   "note": "brand/chain account, not branch-specific",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-colmar-w1033606442": {
-   "name": "Colmar",
-   "instagram_handle": "colmarrestaurants",
-   "handleSource": "https://www.colmar.be/nl/restaurants/restaurant-colmar-sint-denijs-westrem",
-   "note": "brand/chain account, not branch-specific; og:image is a Colmar chain building photo; not confirmed to be this branch",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://colmar.be/wp-content/uploads/2026/04/IMG_7576-768x1024.jpeg (note flags it: chain)",
-   "heroReject": "https://colmar.be/wp-content/uploads/2026/04/IMG_7576-768x1024.jpeg"
   },
   "osm-comedor-n5249103310": {
    "name": "Comedor",
@@ -2070,13 +2027,6 @@
    "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-jilles-n11505926942": {
-   "name": "Jilles",
-   "instagram_handle": "jillesburgers",
-   "handleSource": "https://www.jilles.be/",
-   "note": "own og:image URL broken",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-john-dory-n7827689770": {
    "name": "John Dory",
    "instagram_handle": null,
@@ -2145,13 +2095,6 @@
   "osm-kleindok-n8393159527": {
    "name": "Kleindok",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-knees-to-chin-n10885883241": {
-   "name": "Knees To Chin",
-   "instagram_handle": "kneestochin",
-   "handleSource": "https://www.kneestochin.com/",
-   "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-knol-kool-n12148408793": {
@@ -2410,12 +2353,6 @@
    "note": "own website unreachable from our box (000)",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-lucy-chang-n3392860014": {
-   "name": "Lucy Chang",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-ludo-n5618349223": {
    "name": "Ludo",
    "instagram_handle": null,
@@ -2442,13 +2379,6 @@
    "instagram_handle": "maisonelza",
    "handleSource": "https://www.maisonelza.be/",
    "note": "own og:image rejected: drawing",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-manhattn-s-burgers-n2617861936": {
-   "name": "Manhattn's Burgers",
-   "instagram_handle": "manhattns.burgers",
-   "handleSource": "https://www.manhattns.com/",
-   "note": "site also links @manhattns.fr (French branch); own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-marengo-n2555139392": {
@@ -2553,15 +2483,6 @@
    "note": "candidate @cafemistafluut from todo; not verified by any linking page",
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-mister-spaghetti-n1212139210": {
-   "name": "Mister Spaghetti",
-   "instagram_handle": "misterspaghettiofficial",
-   "handleSource": "https://www.mister-spaghetti.com/gent/",
-   "note": "brand/chain account, not branch-specific",
-   "origin": "research (approved 20 Oct 2026)",
-   "ogImageRejected": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg (note flags it: chain)",
-   "heroReject": "https://www.mister-spaghetti.com/wp-content/uploads/2024/06/GENTOPENING_HR-©sdinnewethbe-006.jpg"
-  },
   "osm-modest-n10882821305": {
    "name": "Modest",
    "instagram_handle": "gent.modest",
@@ -2603,20 +2524,6 @@
    "name": "Muday",
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-my-tannour-n12697242776": {
-   "name": "My Tannour",
-   "instagram_handle": "mytannour.belgium",
-   "handleSource": "https://www.mytannour.com/list-locations/gent-fn7h6",
-   "origin": "research (approved 20 Oct 2026)",
-   "heroImage": {
-    "url": "https://static1.squarespace.com/static/64d359f5d45da5265beb6c19/t/67ae1deb82b61d36b22c4410/1739464171122/000Sans-titre-1+%281%29.png?format=1500w",
-    "source": "https://www.mytannour.com/list-locations/gent-fn7h6",
-    "type": "og:image",
-    "w": 1500,
-    "checked": "2026-10-20",
-    "origin": "research"
-   }
   },
   "osm-myst-n4395300769": {
    "name": "Myst",
@@ -2701,11 +2608,6 @@
    "name": "Ô Gand",
    "instagram_handle": null,
    "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-o-learys-n4716568192": {
-   "name": "O'Learys",
-   "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-o-yo-n10885912444": {
@@ -3110,13 +3012,6 @@
   "osm-seli-s-noodlebar-n2998443056": {
    "name": "Seli's Noodlebar",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-seoul-south-station-n12702572257": {
-   "name": "Seoul South Station",
-   "instagram_handle": "seoulsouthstation",
-   "handleSource": "https://www.seoulsouthstation.be/",
-   "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-sgol-n10892676751": {
@@ -3570,12 +3465,6 @@
    "heroReject": "https://static.wixstatic.com/media/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg/v1/fill/w_2500,h_2500,al_c/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg",
    "ogImageRejected": "https://static.wixstatic.com/media/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg/v1/fill/w_2500,h_2500,al_c/ffcc60_cb120270ef654e5085e5ea38c850ca8f~mv2.jpg (photo review: people visible (staff / guests / hands), flagged by the photo research)"
   },
-  "osm-the-waffle-factory-n6412046258": {
-   "name": "The Waffle Factory",
-   "instagram_handle": null,
-   "note": "own website unreachable from our box (000)",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-the-wokbar-n5567192748": {
    "name": "The Wokbar",
    "instagram_handle": null,
@@ -3773,18 +3662,6 @@
   "osm-wang-hung-w316401895": {
    "name": "Wang Hung",
    "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-wasbar-n1532795039": {
-   "name": "Wasbar",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-wasbar-n6138202038": {
-   "name": "Wasbar",
-   "instagram_handle": "wasbar",
-   "handleSource": "http://www.wasbar.be/",
-   "note": "own og:image rejected: logo/graphic",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-way-n4361414624": {

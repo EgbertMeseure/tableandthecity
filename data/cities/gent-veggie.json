@@ -197,24 +197,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-bocca-n1462321981": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Bocca - Citadellaan",
-   "hcInfo": "Serves meat, vegan options available. Fresh pasta restaurant with several choices for vegans labeled on the menu.  Mon-Sat 11:30-22:00, Sun 17:00-22:00"
-  },
-  "osm-bocca-n6133546281": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Bocca - Recollettenlei",
-   "hcInfo": "Serves meat, vegan options available. Fresh pasta restaurant with several choices for vegans labeled on the menu. Not wheelchair accessible. Few seatings available - maximum 4 people per table possible. Outdoor seating. Mon-Sat 11:30-22:00"
-  },
   "osm-boempatat-n1651810939": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -292,13 +274,6 @@
    "basis": "HappyCow listing + OpenStreetMap",
    "hcName": "Chopstix",
    "hcInfo": "Serves meat, vegan options available. Chinese noodle restaurant offering vegan noodles and gyozas. Accepts credit cards. Free Wi-Fi. Tue-Sun 17:30-21:00, Thu-Sun 12:00-14:00"
-  },
-  "osm-colmar-n275223798": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/275223798"
-   ],
-   "basis": "OpenStreetMap diet tags"
   },
   "osm-comedor-n5249103310": {
    "veggieLevel": "vegan-friendly",
@@ -725,15 +700,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-knees-to-chin-n10885883241": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Knees To Chin",
-   "hcInfo": "Serves meat, vegan options available. Offers a range of Vietnamese rice paper rolls, plus some sides, lunch specials, seasonal specials, extras and desserts. Vegan choices are clearly labeled and may include satay tofu rice roll, cabbage sa"
-  },
   "osm-knol-kool-n12148408793": {
    "veggieLevel": "vegan",
    "sources": [
@@ -797,15 +763,6 @@
    "note": "Own site: cooperative restaurant \"met biologische, eerlijke en plantaardige ingrediënten\"; HappyCow: turned vegan in 2018.",
    "basis": "verified",
    "checked": "2026-10-20"
-  },
-  "osm-lucy-chang-n3392860014": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Lucy Chang",
-   "hcInfo": "Serves meat, vegan options available. South-East Asian restaurant offering items that are or can be made vegan such as Malaysian curry soup, Vietnamese spring rolls, dim sums, currys and wok dishes. Outdoor seating. Accepts credit cards. Mo"
   },
   "osm-ludo-n5618349223": {
    "veggieLevel": "vegan",
@@ -931,15 +888,6 @@
     "https://www.openstreetmap.org/node/2461641271"
    ],
    "basis": "OpenStreetMap diet tags"
-  },
-  "osm-o-learys-n4716568192": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "O'Learys",
-   "hcInfo": "Mon-Thu 18:00-22:00, Fri 18:00-23:00, Sat-Sun 12:00-23:00"
   },
   "osm-o-yo-n10885912444": {
    "veggieLevel": "vegetarian",
@@ -1148,13 +1096,6 @@
    "hcName": "Seli's Noodlebar",
    "hcInfo": "Serves meat, vegan options available. Chinese restaurant known for handmade noodles, which are vegan. Most of the noodle sauces are vegan too (except for the oyster sauce). Specify vegan to be sure. Take-away also possible. Accepts credit c"
   },
-  "osm-seoul-south-station-n12702572257": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/12702572257"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-shazanna-n6942598686": {
    "veggieLevel": "veggie-friendly",
    "sources": [
@@ -1293,13 +1234,6 @@
    "hcName": "The Mistress",
    "hcInfo": "Serves meat, vegan options available. Persian-Asian fusion restaurant with a fixed menu offered in a regular or vegetarian version. The vegetarian menu includes dim sum, tofu katsu, veggie bulgogi, and veggie kinilaw. A fully vegan version "
   },
-  "osm-the-waffle-factory-n6412046258": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/6412046258"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-timelab-eatery-n12798223055": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -1364,25 +1298,6 @@
     "https://www.openstreetmap.org/node/9819206829"
    ],
    "basis": "OpenStreetMap diet tags"
-  },
-  "osm-wasbar-n1532795039": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.openstreetmap.org/node/1532795039"
-   ],
-   "basis": "HappyCow listing + OpenStreetMap",
-   "hcName": "WASBAR - Korenmarkt",
-   "hcInfo": "Outdoor seating. Accepts credit cards. Mon-Sun 09:00-21:00"
-  },
-  "osm-wasbar-n6138202038": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "WASBAR - Kalandestraat",
-   "hcInfo": "Outdoor seating. Mon-Sun 09:00-19:00"
   },
   "osm-way-n4361414624": {
    "veggieLevel": "vegan",

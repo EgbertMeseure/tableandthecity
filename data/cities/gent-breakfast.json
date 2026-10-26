@@ -930,26 +930,6 @@
     "source": "https://villa-anamma.be/info-villa-anamma/"
    }
   },
-  "osm-wasbar-n1532795039": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.wasbar.be/"
-   },
-   "brunch": {
-    "value": true,
-    "source": "https://www.wasbar.be/"
-   }
-  },
-  "osm-wasbar-n6138202038": {
-   "breakfast": {
-    "value": true,
-    "source": "https://www.wasbar.be/"
-   },
-   "brunch": {
-    "value": true,
-    "source": "https://www.wasbar.be/"
-   }
-  },
   "osm-win-n12574625746": {
    "breakfast": {
     "value": true,

@@ -2,7 +2,6 @@
  "about": "OSM places that the import would drop (fast food; generic cafés/pubs) but keeps because of a confirmed vegan/vegetarian/vegan-friendly level or breakfast/brunch. Fast food → Restaurants › Casual; generic café/pub with breakfast/brunch → Coffee; other generic cafés/pubs and coffee houses stay in their group (under All). See fastfood_keep() in scripts/import_osm.py.",
  "keep": {
   "osm-bistro-baziel-n9741063665": "confirmed breakfast",
-  "osm-bocca-n1462321981": "veggie level: vegan-friendly",
   "osm-boekjes-en-koekjes-n12583044844": "confirmed breakfast",
   "osm-buongiorno-n4488600996": "confirmed breakfast",
   "osm-cafe-cannelle-n4304704573": "veggie level: vegan-friendly",
@@ -57,7 +56,6 @@
   "osm-trafiek-n1997298037": "veggie level: vegan-friendly",
   "osm-vief-n12804094905": "confirmed breakfast",
   "osm-viernulvier-cafe-n3817855015": "veggie level: vegan-friendly",
-  "osm-wasbar-n6138202038": "confirmed breakfast & brunch",
   "osm-way-keizerpoort-n12335070923": "veggie level: vegan-friendly",
   "osm-way-plantbased-bakehouse-n4256139406": "veggie level: vegan",
   "osm-win-n12574625746": "confirmed breakfast & brunch"

@@ -435,14 +435,6 @@
 "score": 9.4,
 "google_place_id": "ChIJ3b3rqPxzw0cRH9x2UAwXrKg"
 },
-"osm-amadeus-n2626377985": {
-"score": 8.6,
-"google_place_id": "ChIJq3hVrzhxw0cRSC3feblv4iY"
-},
-"osm-amadeus-w140244218": {
-"score": 8.4,
-"google_place_id": "ChIJs0g1-kZxw0cR46lPwxTdOpg"
-},
 "osm-amfora-n2273855341": {
 "score": 8.2,
 "google_place_id": "ChIJ41nudEZxw0cRKBz9x3AM6Wk"
@@ -598,14 +590,6 @@
 "osm-bobon-n12391159028": {
 "score": 9.2,
 "google_place_id": "ChIJBdlMJahxw0cRuwe28tR2hks"
-},
-"osm-bocca-n1462321981": {
-"score": 9.4,
-"google_place_id": "ChIJ4-ZPzs9xw0cRGV-IHXSALsk"
-},
-"osm-bocca-n6133546281": {
-"score": 8.8,
-"google_place_id": "ChIJ2ZMOkENxw0cRp849SZi4liU"
 },
 "osm-bodega-n5822374282": {
 "score": 9.0,
@@ -778,14 +762,6 @@
 "osm-cocotine-n6356381196": {
 "score": 8.6,
 "google_place_id": "ChIJKcs7gtdww0cR2ImBTAMWm28"
-},
-"osm-colmar-n275223798": {
-"score": 8,
-"google_place_id": "ChIJCTJ1LgF3w0cRMBUsf1s9iAc"
-},
-"osm-colmar-w1033606442": {
-"score": 8.2,
-"google_place_id": "ChIJWdRJ0DRyw0cRvoKdEmQ5Z9E"
 },
 "osm-comedor-n5249103310": {
 "score": 9.8,
@@ -1303,10 +1279,6 @@
 "score": 8.2,
 "google_place_id": "ChIJDU_JA0Rxw0cRX9ry59ZseM0"
 },
-"osm-jilles-n11505926942": {
-"score": 8.4,
-"google_place_id": "ChIJVwmlf1Zxw0cRXGDp8ej5zTA"
-},
 "osm-jose-n13350697189": {
 "score": 9.0,
 "google_place_id": "ChIJ6WT7d_xxw0cRCxKaaidQMig"
@@ -1346,10 +1318,6 @@
 "osm-kleindok-n8393159527": {
 "score": 9.4,
 "google_place_id": "ChIJ8cgwKOhxw0cRgJhn4OBIJxk"
-},
-"osm-knees-to-chin-n10885883241": {
-"score": 8.4,
-"google_place_id": "ChIJqSnIzfZxw0cR5TBdOlSN8qg"
 },
 "osm-knol-kool-n12148408793": {
 "score": 9.4,
@@ -1503,10 +1471,6 @@
 "score": 8.6,
 "google_place_id": "ChIJRSX3AAJ0w0cRubiOKAVFtWs"
 },
-"osm-lucy-chang-n3392860014": {
-"score": 8.2,
-"google_place_id": "ChIJcw76AERxw0cRCZ9UPLL7szA"
-},
 "osm-ludo-n5618349223": {
 "score": 8.8,
 "google_place_id": "ChIJH_dACvhxw0cRRnwvQSagzfE"
@@ -1526,10 +1490,6 @@
 "osm-maison-elza-n1616705129": {
 "score": 9.4,
 "google_place_id": "ChIJn5-Bv0Bxw0cRofw5lD2fEMk"
-},
-"osm-manhattn-s-burgers-n2617861936": {
-"score": 9.0,
-"google_place_id": "ChIJAQSzpnxxw0cRZepO0ysOdWs"
 },
 "osm-marengo-n2555139392": {
 "score": 8.8,
@@ -1607,10 +1567,6 @@
 "score": 9.8,
 "google_place_id": "ChIJ9z3cNmxxw0cR1yPsGKlMBVw"
 },
-"osm-mister-spaghetti-n1212139210": {
-"score": 8.2,
-"google_place_id": "ChIJ5w4UcYVxw0cRiUP9fEwThfk"
-},
 "osm-modest-n10882821305": {
 "score": 9.2,
 "google_place_id": "ChIJMzh7yU5xw0cRMSpQ16EgwnA"
@@ -1634,10 +1590,6 @@
 "osm-muday-n6853683393": {
 "score": 9.2,
 "google_place_id": "ChIJu2E1gzBxw0cR3SJFKtBA1xk"
-},
-"osm-my-tannour-n12697242776": {
-"score": 8.6,
-"google_place_id": "ChIJ7ZyM9Edxw0cRPvEM8lQVs_Q"
 },
 "osm-myst-n4395300769": {
 "score": 10,
@@ -1686,10 +1638,6 @@
 "osm-o-gand-n2461641271": {
 "score": 7.8,
 "google_place_id": "ChIJNz9rs3Bxw0cRnrbsbMyRmKo"
-},
-"osm-o-learys-n4716568192": {
-"score": 8.2,
-"google_place_id": "ChIJU70O2TFxw0cRnv50i55tf48"
 },
 "osm-o-yo-n10885912444": {
 "score": 8.6,
@@ -1922,10 +1870,6 @@
 "osm-seli-s-noodlebar-n2998443056": {
 "score": 8.4,
 "google_place_id": "ChIJC46vrEhxw0cRTSJmQz81SDc"
-},
-"osm-seoul-south-station-n12702572257": {
-"score": 8.6,
-"google_place_id": "ChIJFavuz_pxw0cR1qYn7TfRRXA"
 },
 "osm-sgol-n10892676751": {
 "score": 8.2,
@@ -2187,10 +2131,6 @@
 "score": 9.6,
 "google_place_id": "ChIJ6e96SLVxw0cRoBLIhM1AQ6U"
 },
-"osm-the-waffle-factory-n6412046258": {
-"score": 8,
-"google_place_id": "ChIJ9_N1JwVxw0cRDggm8IOzU58"
-},
 "osm-the-wokbar-n5567192748": {
 "score": 9.6,
 "google_place_id": "ChIJtRfJrFJxw0cRYLxGnt3L9_c"
@@ -2306,14 +2246,6 @@
 "osm-wang-hung-w316401895": {
 "score": 8.4,
 "google_place_id": "ChIJ86t91Sl3w0cRFawHXO0L-ZA"
-},
-"osm-wasbar-n1532795039": {
-"score": 8.6,
-"google_place_id": "ChIJdybHKEdxw0cRVE2XmSuEg50"
-},
-"osm-wasbar-n6138202038": {
-"score": 8.8,
-"google_place_id": "ChIJPe2ZDw1xw0cRy29yvdl8Cls"
 },
 "osm-way-n4361414624": {
 "score": 9.2,

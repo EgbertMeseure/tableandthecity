@@ -4691,6 +4691,508 @@
    "ok": true,
    "bytes": 610446,
    "checked": "2026-10-26"
+  },
+  "web:https://5thgok.be/wp-content/uploads/2024/05/Ontwerp-zonder-titel-3-1536x1536.png": {
+   "ok": false,
+   "bytes": 2163035,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 2163035 bytes (needs ≤ 1600000)"
+  },
+  "web:https://5thgok.be/wp-content/uploads/2024/05/Ontwerp-zonder-titel-5-1024x1024.png": {
+   "ok": true,
+   "bytes": 830953,
+   "checked": "2026-10-26"
+  },
+  "web:https://5thgok.be/wp-content/uploads/2024/05/Ontwerp-zonder-titel-4-1536x1536.png": {
+   "ok": true,
+   "bytes": 1583335,
+   "checked": "2026-10-26"
+  },
+  "web:https://antichisapori.be/wp-content/uploads/2023/05/Sans-titre-1_0016_34FF252C-D5BF-4444-86D7-121FBFBDFC0F_1_201_a.jpg": {
+   "ok": true,
+   "bytes": 441515,
+   "checked": "2026-10-26"
+  },
+  "web:https://antichisapori.be/wp-content/uploads/2023/05/Sans-titre-1_0005_EC64A365-5C06-4878-B6EF-FD74F04EABF7_1_201_a.jpg": {
+   "ok": true,
+   "bytes": 534454,
+   "checked": "2026-10-26"
+  },
+  "web:https://antichisapori.be/wp-content/uploads/2023/05/Sans-titre-1_0051_9C101D77-931F-43FB-958A-D70BD0F57D21_1_201_a.jpg": {
+   "ok": true,
+   "bytes": 480607,
+   "checked": "2026-10-26"
+  },
+  "web:https://antichisapori.be/wp-content/uploads/2023/05/Sans-titre-1_0035_7D16B385-62AA-4E93-9EDE-972548480981_1_201_a.jpg": {
+   "ok": true,
+   "bytes": 472306,
+   "checked": "2026-10-26"
+  },
+  "web:https://aupainmarie.be/images/broodjes/aupainmarie6.jpg": {
+   "ok": true,
+   "bytes": 342783,
+   "checked": "2026-10-26"
+  },
+  "web:https://aupainmarie.be/images/broodjes/aupainmarie5.jpg": {
+   "ok": true,
+   "bytes": 837302,
+   "checked": "2026-10-26"
+  },
+  "web:https://aupainmarie.be/images/mand-wraps/img_0392_-1-1.jpg": {
+   "ok": true,
+   "bytes": 310868,
+   "checked": "2026-10-26"
+  },
+  "web:https://impro.usercontent.one/appid/oneComWsb/domain/happygardengent.be/media/happygardengent.be/onewebmedia/Happy%20Garden.webp?etag=%22279f8-68bc4e66%22&sourceContentType=image%2Fwebp&ignoreAspectRatio&resize=1360,765": {
+   "ok": true,
+   "bytes": 132502,
+   "checked": "2026-10-26"
+  },
+  "web:https://aahaar.com/res-img/web-upload/s1.jpg": {
+   "ok": true,
+   "bytes": 382911,
+   "checked": "2026-10-26"
+  },
+  "web:https://aahaar.com/res-img/web-upload/s2.jpg": {
+   "ok": true,
+   "bytes": 924020,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.argo-restaurant.be/wp-content/uploads/2022/07/grieksetaverne-02.jpeg": {
+   "ok": true,
+   "bytes": 249547,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bistro-b23.be/nl/thumbnail-path/full/images/text/b07b175bba99e914a2ebfc9fa85803ea.jpg": {
+   "ok": true,
+   "bytes": 139717,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bistro-b23.be/nl/thumbnail/square/W5KGN/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg": {
+   "ok": true,
+   "bytes": 65241,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bistro-b23.be/nl/thumbnail/square/WAkMx/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg": {
+   "ok": true,
+   "bytes": 66497,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bistro-b23.be/nl/thumbnail/square/wmXxo/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg": {
+   "ok": true,
+   "bytes": 50017,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bistro-b23.be/nl/thumbnail/square/wkP6Y/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg": {
+   "ok": true,
+   "bytes": 72733,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bistro-b23.be/nl/thumbnail/square/9eGvp/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg": {
+   "ok": true,
+   "bytes": 55631,
+   "checked": "2026-10-26"
+  },
+  "web:https://estelle-restaurant.be/wp-content/uploads/2026/05/Estelle-chashu-pork.jpg": {
+   "ok": false,
+   "bytes": 4308354,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 4308354 bytes (needs ≤ 1600000)"
+  },
+  "web:https://estelle-restaurant.be/wp-content/uploads/2026/05/Estelle-mole-verde.jpg": {
+   "ok": false,
+   "bytes": 3336030,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 3336030 bytes (needs ≤ 1600000)"
+  },
+  "web:https://bistro-estelle.be/wp-content/uploads/2024/10/Estelle-antwerpen-3.jpeg": {
+   "ok": false,
+   "bytes": 1701285,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 1701285 bytes (needs ≤ 1600000)"
+  },
+  "web:https://estelle-restaurant.be/wp-content/uploads/2026/10/mole1.png": {
+   "ok": false,
+   "bytes": 3507945,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/png 3507945 bytes (needs ≤ 1600000)"
+  },
+  "web:https://bistro-estelle.be/wp-content/uploads/2024/10/Estelle-antwerpen.jpeg": {
+   "ok": false,
+   "bytes": 2432346,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 2432346 bytes (needs ≤ 1600000)"
+  },
+  "web:https://estelle-restaurant.be/wp-content/uploads/2024/03/Estelle-9-scaled.jpg": {
+   "ok": true,
+   "bytes": 325201,
+   "checked": "2026-10-26"
+  },
+  "web:https://estelle-restaurant.be/wp-content/uploads/2024/10/Estelle-antwerpen-4-scaled.jpeg": {
+   "ok": true,
+   "bytes": 750911,
+   "checked": "2026-10-26"
+  },
+  "ig:4011558003504772696": {
+   "code": "Der6sACxvZY",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4007167207292754913": {
+   "code": "DecUVgaR1vh",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3994092280833199179": {
+   "code": "Ddt3cSPMUxL",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/449dc4_952b0008346440bca38caf2717e5ee56~mv2.jpeg/v1/fill/w_2500,h_2517,al_c/449dc4_952b0008346440bca38caf2717e5ee56~mv2.jpeg": {
+   "ok": true,
+   "bytes": 1130802,
+   "checked": "2026-10-26"
+  },
+  "ig:3967912914320031438": {
+   "code": "DcQ28XNuv7O",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3967897396125102747": {
+   "code": "DcQzaixO_Kb",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3880202493062033867": {
+   "code": "DXZP5v3jDHL",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3823598947143561806": {
+   "code": "DUQJvvwDLJO",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://impro.usercontent.one/appid/oneComWsb/domain/clo-antwerp.be/media/clo-antwerp.be/onewebmedia/CLO%20161_websize.jpg?etag=%2243e82-65aa3c40%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1067,1600&quality=85": {
+   "ok": true,
+   "bytes": 151346,
+   "checked": "2026-10-26"
+  },
+  "ig:4014446096556474581": {
+   "code": "De2LXSTM8DV",
+   "ok": false,
+   "diff": 19,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:4013413121496465270": {
+   "code": "DeygfhTsD92",
+   "ok": false,
+   "diff": 21,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:3992339739116083785": {
+   "code": "Ddno9cksJpJ",
+   "ok": false,
+   "diff": 42,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:3960819245812799352": {
+   "code": "Db3qB5mM9d4",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://harvest-antwerp.com/wp-content/uploads/2026/05/2-DSC_6111-scaled.jpg": {
+   "ok": true,
+   "bytes": 264227,
+   "checked": "2026-10-26"
+  },
+  "web:https://harvest-antwerp.com/wp-content/uploads/2025/06/4-DSC_1938-scaled.jpg": {
+   "ok": true,
+   "bytes": 291287,
+   "checked": "2026-10-26"
+  },
+  "web:https://harvest-antwerp.com/wp-content/uploads/2025/06/1-DSC_1337-scaled.jpg": {
+   "ok": true,
+   "bytes": 451521,
+   "checked": "2026-10-26"
+  },
+  "ig:3983092731551770321": {
+   "code": "DdGybxrlWbR",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:4012183510944453844": {
+   "code": "DeuI6VPhhTU",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3997567562753128726": {
+   "code": "Dd6NoSvhjkW",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3986647759526657218": {
+   "code": "DdTawPfMXzC",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3970886448339639415": {
+   "code": "DcbbC-kslx3",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "ig:3781575419565200666826629360243792": {
+   "code": "LpyMS_4rqyzo9dKCdRQ",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:3831130822774206112": {
+   "code": "DUq6S9jga6g",
+   "ok": false,
+   "diff": 19,
+   "checked": "2026-10-26",
+   "why": "embed shows a different photo"
+  },
+  "ig:401374289838002324318135873748647928": {
+   "code": "TU1HxRM8OEdrm1JG6L_4",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:401370814420163648518640841851040019": {
+   "code": "TU0b52T6guuKH5XRinET",
+   "ok": false,
+   "why": "embed shows no photo (broken link / not a post)",
+   "checked": "2026-10-26"
+  },
+  "ig:2363231894348238758": {
+   "code": "CDL4uMQgA-m",
+   "ok": true,
+   "diff": 0,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.alinfintiste.be/img/gal/03.jpg": {
+   "ok": true,
+   "bytes": 206249,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.alinfintiste.be/img/gal/04.jpg": {
+   "ok": true,
+   "bytes": 199443,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.alinfintiste.be/img/gal/02.jpg": {
+   "ok": true,
+   "bytes": 170504,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.alinfintiste.be/img/23.jpg": {
+   "ok": true,
+   "bytes": 237052,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.alinfintiste.be/img/21.jpg": {
+   "ok": true,
+   "bytes": 228619,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.alinfintiste.be/img/gal/12.jpg": {
+   "ok": true,
+   "bytes": 139937,
+   "checked": "2026-10-26"
+  },
+  "web:https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg": {
+   "ok": true,
+   "bytes": 357898,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.ristorante-amuri.be/assets/8757b641-a428-4ea1-beda-66af261913bc_1772205155811-W5tGtjY8.jpeg": {
+   "ok": true,
+   "bytes": 1264949,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.ristorante-amuri.be/assets/d0b69406-b7c5-4fbb-80da-2bc9c7c47dd1_1772205155811-C8geT_4v.jpeg": {
+   "ok": true,
+   "bytes": 1530151,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.ristorante-amuri.be/assets/9f2a8623-71a6-40a2-bca4-76dc148e6f47_1779026171780-DVcqraOz.jpeg": {
+   "ok": true,
+   "bytes": 128285,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bien-soigne.be/fotos/homeannouncement_full_flyer/1/full/maw3807792C705F7-786E-4BB5-92FB-E9E3061BC108.jpg": {
+   "ok": true,
+   "bytes": 250930,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bien-soigne.be/fotos/topslider_flyer/1/full/maw57974UNIQUEnumber242331IMG4027jpg.jpg": {
+   "ok": true,
+   "bytes": 455930,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bien-soigne.be/fotos/homeannouncement_half_flyer/5/full/maw99562IMG3562.jpg": {
+   "ok": true,
+   "bytes": 461379,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bien-soigne.be/fotos/homeannouncement_half_flyer/2/full/maw274552CB74C8-8139-47F3-850B-E17B2743ADAC.jpg": {
+   "ok": true,
+   "bytes": 580756,
+   "checked": "2026-10-26"
+  },
+  "web:https://lam-en-yin.be/wp-content/uploads/2023/06/26340428_ingredient-for-chinese-salad.jpg": {
+   "ok": true,
+   "bytes": 745546,
+   "checked": "2026-10-26"
+  },
+  "web:https://lam-en-yin.be/wp-content/uploads/2023/06/1079842_chinese-food-appetizers.jpg": {
+   "ok": true,
+   "bytes": 274993,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.bitterpeeen.be/wp-content/uploads/2023/01/bitterpeeen-culinair-vergaderzaal.jpg": {
+   "ok": true,
+   "bytes": 79154,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg": {
+   "ok": true,
+   "bytes": 196275,
+   "checked": "2026-10-26"
+  },
+  "web:https://static.wixstatic.com/media/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg": {
+   "ok": true,
+   "bytes": 178559,
+   "checked": "2026-10-26"
+  },
+  "web:https://www.brasserieappelmans.be/wp-content/uploads/2023/11/Appelmans_11-2017-088-scaled.jpg": {
+   "ok": true,
+   "bytes": 977803,
+   "checked": "2026-10-26"
+  },
+  "web:https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-012-scaled.jpg": {
+   "ok": true,
+   "bytes": 668300,
+   "checked": "2026-10-26"
+  },
+  "web:https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-005-scaled.jpg": {
+   "ok": true,
+   "bytes": 592674,
+   "checked": "2026-10-26"
+  },
+  "web:https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-010-scaled.jpg": {
+   "ok": true,
+   "bytes": 348429,
+   "checked": "2026-10-26"
+  },
+  "web:https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-073-scaled.jpg": {
+   "ok": true,
+   "bytes": 592242,
+   "checked": "2026-10-26"
+  },
+  "web:https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-027-scaled.jpg": {
+   "ok": true,
+   "bytes": 365475,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7cb7e6f31bf9635162_Brasserie_Monico_Meir_Antwerpen%20(4)-p-1600.webp": {
+   "ok": true,
+   "bytes": 149542,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7c6826d58d55286a06_Brasserie_Monico_Meir_Antwerpen%20(12)-p-1600.webp": {
+   "ok": true,
+   "bytes": 95280,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7c7e7c7b6f588d44d0_Brasserie_Monico_Meir_Antwerpen-p-1600.webp": {
+   "ok": true,
+   "bytes": 82472,
+   "checked": "2026-10-26"
+  },
+  "web:https://primary.jwwb.nl/public/p/m/k/temp-ptzqsmmjggsdjjxqtnbg/5bteh5/45418290_763186514060310_8678908906870669312_n.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200": {
+   "ok": true,
+   "bytes": 144172,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/62a30e7b88ea463985613dd1/697b439f07e61e506ca00223_Camion-ette-11.jpg": {
+   "ok": true,
+   "bytes": 966785,
+   "checked": "2026-10-26"
+  },
+  "web:https://cdn.prod.website-files.com/62a30e7b88ea463985613dd1/697b444fa821deb15fefed05_Camion-ette-27.jpg": {
+   "ok": false,
+   "bytes": 1904472,
+   "checked": "2026-10-26",
+   "why": "HTTP 200 image/jpeg 1904472 bytes (needs ≤ 1600000)"
+  },
+  "web:https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/00be3cca-e9f6-4442-8ae4-5997820b546d-high-59c9qk.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200": {
+   "ok": true,
+   "bytes": 211134,
+   "checked": "2026-10-26"
+  },
+  "web:https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/3169dea8-a564-41c7-8594-3f37983cacf2-high.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200": {
+   "ok": true,
+   "bytes": 359825,
+   "checked": "2026-10-26"
+  },
+  "web:https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/f6013cc2-8b9d-42ab-9c29-74855a346683-high.jpg": {
+   "ok": true,
+   "bytes": 291804,
+   "checked": "2026-10-26"
+  },
+  "web:https://v2cdn1.centralappstatic.com/image/resize/1102x661_cover_25bf2560d58a44f7b8643674a72ef9a9.jpeg?w=1200": {
+   "ok": true,
+   "bytes": 144165,
+   "checked": "2026-10-26"
+  },
+  "web:https://lh3.googleusercontent.com/UaLoSrrA4gPQpuvSrxjOQSymIbB3fPDgT8gNOWf5suc-UrubVWmagpAZh8BEtwO21n556Dq5DNlEmvTCbNCa9ubZVAWrw8WksNui=l80-w1500-e365": {
+   "ok": true,
+   "bytes": 61793,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8296-scaled-1.jpg": {
+   "ok": true,
+   "bytes": 281208,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2026/03/DSC09162-compressed-scaled-1-uai-1365x1820.jpg": {
+   "ok": true,
+   "bytes": 469313,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8241-scaled-1-uai-1365x1820.jpg": {
+   "ok": true,
+   "bytes": 378883,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2026/08/DSCF6888-scaled-uai-1707x2276.jpg": {
+   "ok": true,
+   "bytes": 452922,
+   "checked": "2026-10-26"
+  },
+  "web:https://cobra-antwerp.com/wp-content/uploads/2026/03/DSC09232-compressed-scaled-1.jpg": {
+   "ok": true,
+   "bytes": 327319,
+   "checked": "2026-10-26"
   }
  }
 }

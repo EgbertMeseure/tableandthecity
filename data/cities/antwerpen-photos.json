@@ -210,7 +210,7 @@
    }
   },
   "barnini": {
-   "hold": "no people-free photo found (research): website barnini.be navigation failed; no Instagram on record"
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
   },
   "barrique": {
    "posts": [
@@ -1178,6 +1178,33 @@
     "url": "https://www.instagram.com/p/De7bXDgEWim/"
    }
   },
+  "funk-noord": {
+   "photos": [
+    {
+     "src": "https://bakkerijfunk.com/cdn/shop/files/IMG_1580_2.jpg?height=4032&v=1759340671",
+     "thumb": "https://bakkerijfunk.com/cdn/shop/files/IMG_1580_2.jpg?height=4032&v=1759340671",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bakkerijfunk.com",
+     "credit_url": "https://bakkerijfunk.com/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/De7bXDgEWim/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/De7bXDgEWim/"
+   }
+  },
   "fuzz": {
    "hold": "no people-free photo found (research): website images are dark, blurred video stills; no Instagram on record"
   },
@@ -1641,6 +1668,9 @@
   "materia": {
    "hold": "no people-free photo found (research): website only shows the MATERIA logo; no Instagram on record"
   },
+  "materia-fine-dining-botanic": {
+   "hold": "no people-free photo found (research): website: logo only"
+  },
   "mero": {
    "photos": [
     {
@@ -1866,7 +1896,17 @@
    }
   },
   "normo": {
-   "hold": "no people-free photo found (research): website gave only a blank/white graphic; Instagram embed (normocoffee) failed to load twice (no bypass attempted)"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CDL4uMQgA-m/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/CDL4uMQgA-m/"
+   }
   },
   "oaas": {
    "photos": [
@@ -1937,6 +1977,1178 @@
   },
   "osaka": {
    "hold": "no people-free photo found (research): listed website (caminoantwerp.com) returned no usable images; no Instagram on record"
+  },
+  "osm-a-l-infintiste-n5980843877": {
+   "photos": [
+    {
+     "src": "https://www.alinfintiste.be/img/gal/03.jpg",
+     "thumb": "https://www.alinfintiste.be/img/gal/03.jpg",
+     "w": 960,
+     "h": 720,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "alinfintiste.be",
+     "credit_url": "https://www.alinfintiste.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.alinfintiste.be/img/gal/04.jpg",
+     "thumb": "https://www.alinfintiste.be/img/gal/04.jpg",
+     "w": 1250,
+     "h": 720,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "alinfintiste.be",
+     "credit_url": "https://www.alinfintiste.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.alinfintiste.be/img/gal/02.jpg",
+     "thumb": "https://www.alinfintiste.be/img/gal/02.jpg",
+     "w": 960,
+     "h": 720,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "alinfintiste.be",
+     "credit_url": "https://www.alinfintiste.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.alinfintiste.be/img/23.jpg",
+     "thumb": "https://www.alinfintiste.be/img/23.jpg",
+     "w": 720,
+     "h": 720,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "alinfintiste.be",
+     "credit_url": "https://www.alinfintiste.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.alinfintiste.be/img/21.jpg",
+     "thumb": "https://www.alinfintiste.be/img/21.jpg",
+     "w": 720,
+     "h": 720,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "alinfintiste.be",
+     "credit_url": "https://www.alinfintiste.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.alinfintiste.be/img/gal/12.jpg",
+     "thumb": "https://www.alinfintiste.be/img/gal/12.jpg",
+     "w": 720,
+     "h": 720,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "alinfintiste.be",
+     "credit_url": "https://www.alinfintiste.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.alinfintiste.be/img/gal/03.jpg"
+   }
+  },
+  "osm-aahaar-n4592515603": {
+   "photos": [
+    {
+     "src": "https://aahaar.com/res-img/web-upload/s1.jpg",
+     "thumb": "https://aahaar.com/res-img/web-upload/s1.jpg",
+     "w": 1600,
+     "h": 625,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "aahaar.com",
+     "credit_url": "https://www.aahaar.com/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://aahaar.com/res-img/web-upload/s1.jpg"
+   }
+  },
+  "osm-aan-het-strand-van-oostende-n5051913247": {
+   "photos": [
+    {
+     "src": "https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg",
+     "thumb": "https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg",
+     "w": 756,
+     "h": 1134,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "aanhetstrandvanoostende.be",
+     "credit_url": "https://aanhetstrandvanoostende.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg"
+   }
+  },
+  "osm-abc-taproom-resto-n5710150522": {
+   "hold": "no people-free photo found (research): web: illustrated people on beer labels, people at taps, etched figure on brew kettle, stock-looking ribs"
+  },
+  "osm-alo-n13240343698": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
+  },
+  "osm-amuri-n13439969453": {
+   "photos": [
+    {
+     "src": "https://www.ristorante-amuri.be/assets/8757b641-a428-4ea1-beda-66af261913bc_1772205155811-W5tGtjY8.jpeg",
+     "thumb": "https://www.ristorante-amuri.be/assets/8757b641-a428-4ea1-beda-66af261913bc_1772205155811-W5tGtjY8.jpeg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "ristorante-amuri.be",
+     "credit_url": "https://www.ristorante-amuri.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.ristorante-amuri.be/assets/d0b69406-b7c5-4fbb-80da-2bc9c7c47dd1_1772205155811-C8geT_4v.jpeg",
+     "thumb": "https://www.ristorante-amuri.be/assets/d0b69406-b7c5-4fbb-80da-2bc9c7c47dd1_1772205155811-C8geT_4v.jpeg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "ristorante-amuri.be",
+     "credit_url": "https://www.ristorante-amuri.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.ristorante-amuri.be/assets/9f2a8623-71a6-40a2-bca4-76dc148e6f47_1779026171780-DVcqraOz.jpeg",
+     "thumb": "https://www.ristorante-amuri.be/assets/9f2a8623-71a6-40a2-bca4-76dc148e6f47_1779026171780-DVcqraOz.jpeg",
+     "w": 1066,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "ristorante-amuri.be",
+     "credit_url": "https://www.ristorante-amuri.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.ristorante-amuri.be/assets/8757b641-a428-4ea1-beda-66af261913bc_1772205155811-W5tGtjY8.jpeg"
+   }
+  },
+  "osm-amvrosia-cousina-n6314910840": {
+   "hold": "no people-free photo found (research): website: only one small dark blurry banner"
+  },
+  "osm-an-s-hoeve-w180051359": {
+   "hold": "no people-free photo found (research): website: stock-style beach/starfish graphics only"
+  },
+  "osm-andaluce-seafood-n6997352308": {
+   "hold": "no people-free photo found (research): website: only a business-card photo"
+  },
+  "osm-annpurna-n6124099055": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_AUTHORITY_INVALID); no Instagram on record"
+  },
+  "osm-argo-n6321736488": {
+   "photos": [
+    {
+     "src": "https://www.argo-restaurant.be/wp-content/uploads/2022/07/grieksetaverne-02.jpeg",
+     "thumb": "https://www.argo-restaurant.be/wp-content/uploads/2022/07/grieksetaverne-02.jpeg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "argo-restaurant.be",
+     "credit_url": "https://www.argo-restaurant.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.argo-restaurant.be/wp-content/uploads/2022/07/grieksetaverne-02.jpeg"
+   }
+  },
+  "osm-aroy-thai-n4922023249": {
+   "hold": "no people-free photo found (research): website: only one small image (<500px)"
+  },
+  "osm-arrikkiati-n7236305129": {
+   "hold": "no people-free photo found (research): website: logos only"
+  },
+  "osm-arte-n1523520376": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-athene-n5141731472": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-axxes-n5673441162": {
+   "hold": "no people-free photo found (research): website: stock-looking food photos and people"
+  },
+  "osm-b23-n4825518447": {
+   "photos": [
+    {
+     "src": "https://www.bistro-b23.be/nl/thumbnail-path/full/images/text/b07b175bba99e914a2ebfc9fa85803ea.jpg",
+     "thumb": "https://www.bistro-b23.be/nl/thumbnail-path/full/images/text/b07b175bba99e914a2ebfc9fa85803ea.jpg",
+     "w": 1600,
+     "h": 1200,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bistro-b23.be",
+     "credit_url": "https://www.bistro-b23.be/nl",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bistro-b23.be/nl/thumbnail/square/W5KGN/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "thumb": "https://www.bistro-b23.be/nl/thumbnail/square/W5KGN/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "w": 750,
+     "h": 750,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bistro-b23.be",
+     "credit_url": "https://www.bistro-b23.be/nl",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bistro-b23.be/nl/thumbnail/square/WAkMx/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "thumb": "https://www.bistro-b23.be/nl/thumbnail/square/WAkMx/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "w": 750,
+     "h": 750,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bistro-b23.be",
+     "credit_url": "https://www.bistro-b23.be/nl",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bistro-b23.be/nl/thumbnail/square/wmXxo/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "thumb": "https://www.bistro-b23.be/nl/thumbnail/square/wmXxo/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "w": 750,
+     "h": 750,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bistro-b23.be",
+     "credit_url": "https://www.bistro-b23.be/nl",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bistro-b23.be/nl/thumbnail/square/wkP6Y/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "thumb": "https://www.bistro-b23.be/nl/thumbnail/square/wkP6Y/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "w": 750,
+     "h": 750,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "bistro-b23.be",
+     "credit_url": "https://www.bistro-b23.be/nl",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bistro-b23.be/nl/thumbnail/square/9eGvp/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "thumb": "https://www.bistro-b23.be/nl/thumbnail/square/9eGvp/WARME,%20GEZELLIGE%20BISTRO%20MET%20FINE%20DINING.jpg",
+     "w": 750,
+     "h": 750,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "bistro-b23.be",
+     "credit_url": "https://www.bistro-b23.be/nl",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.bistro-b23.be/nl/thumbnail-path/full/images/text/b07b175bba99e914a2ebfc9fa85803ea.jpg"
+   }
+  },
+  "osm-bacchus-n4827573656": {
+   "hold": "no people-free photo found (research): website: darkened exterior with possible person at right, chef portrait, award graphic"
+  },
+  "osm-bai-wei-n4999562884": {
+   "hold": "no people-free photo found (research): website: one stock-looking dish and a photo of people"
+  },
+  "osm-balto-s-n6164543369": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_AUTHORITY_INVALID); no Instagram on record"
+  },
+  "osm-bananenleef-n7123265875": {
+   "hold": "no people-free photo found (research): website: menu graphics with large text overlays only"
+  },
+  "osm-bar-buenos-aires-n1775385031": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-barbouf-n5615179922": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
+  },
+  "osm-barchel-n14279968380": {
+   "hold": "no people-free photo found (research): possible chain (3 OSM nodes share barchel.be); website has one shared bar photo plus stock-style texture images"
+  },
+  "osm-barchel-n4895491830": {
+   "hold": "no people-free photo found (research): possible chain (3 OSM nodes share barchel.be); website has one shared bar photo plus stock-style texture images"
+  },
+  "osm-barchel-n5235997321": {
+   "hold": "no people-free photo found (research): possible chain (3 OSM nodes share barchel.be); website has one shared bar photo plus stock-style texture images"
+  },
+  "osm-baret-bar-food-n6040080941": {
+   "hold": "no people-free photo found (research): website: interior dominated by a mural of a figure; stock-looking steak"
+  },
+  "osm-beerlovers-bar-n4393283794": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-bella-capri-n6205908271": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-bella-patio-n5693449269": {
+   "hold": "no people-free photo found (research): website: people on terrace and in veranda photo"
+  },
+  "osm-beni-falafel-n4810478457": {
+   "hold": "no people-free photo found (research): website: single stock-looking falafel image"
+  },
+  "osm-berlin-n1287853566": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
+  },
+  "osm-better-than-hungry-n11200625846": {
+   "hold": "no people-free photo found (research): website: street crowd photo and interior dominated by mural of people"
+  },
+  "osm-beyzade-n6658759392": {
+   "hold": "no people-free photo found (research): website: only one small image (<500px)"
+  },
+  "osm-bien-soigne-n5226957233": {
+   "photos": [
+    {
+     "src": "https://www.bien-soigne.be/fotos/homeannouncement_full_flyer/1/full/maw3807792C705F7-786E-4BB5-92FB-E9E3061BC108.jpg",
+     "thumb": "https://www.bien-soigne.be/fotos/homeannouncement_full_flyer/1/full/maw3807792C705F7-786E-4BB5-92FB-E9E3061BC108.jpg",
+     "w": 1600,
+     "h": 1066,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "bien-soigne.be",
+     "credit_url": "https://www.bien-soigne.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bien-soigne.be/fotos/topslider_flyer/1/full/maw57974UNIQUEnumber242331IMG4027jpg.jpg",
+     "thumb": "https://www.bien-soigne.be/fotos/topslider_flyer/1/full/maw57974UNIQUEnumber242331IMG4027jpg.jpg",
+     "w": 1600,
+     "h": 1261,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "bien-soigne.be",
+     "credit_url": "https://www.bien-soigne.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bien-soigne.be/fotos/homeannouncement_half_flyer/5/full/maw99562IMG3562.jpg",
+     "thumb": "https://www.bien-soigne.be/fotos/homeannouncement_half_flyer/5/full/maw99562IMG3562.jpg",
+     "w": 1600,
+     "h": 1588,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bien-soigne.be",
+     "credit_url": "https://www.bien-soigne.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://www.bien-soigne.be/fotos/homeannouncement_half_flyer/2/full/maw274552CB74C8-8139-47F3-850B-E17B2743ADAC.jpg",
+     "thumb": "https://www.bien-soigne.be/fotos/homeannouncement_half_flyer/2/full/maw274552CB74C8-8139-47F3-850B-E17B2743ADAC.jpg",
+     "w": 1600,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bien-soigne.be",
+     "credit_url": "https://www.bien-soigne.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.bien-soigne.be/fotos/homeannouncement_full_flyer/1/full/maw3807792C705F7-786E-4BB5-92FB-E9E3061BC108.jpg"
+   }
+  },
+  "osm-bier-central-n5146188039": {
+   "hold": "no people-free photo found (research): website: people in nearly all images; the one interior has a possible person in the background (and looks stock-like)"
+  },
+  "osm-bij-lam-en-yin-n5287315414": {
+   "photos": [
+    {
+     "src": "https://lam-en-yin.be/wp-content/uploads/2023/06/26340428_ingredient-for-chinese-salad.jpg",
+     "thumb": "https://lam-en-yin.be/wp-content/uploads/2023/06/26340428_ingredient-for-chinese-salad.jpg",
+     "w": 1600,
+     "h": 1119,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "lam-en-yin.be",
+     "credit_url": "https://lam-en-yin.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://lam-en-yin.be/wp-content/uploads/2023/06/1079842_chinese-food-appetizers.jpg",
+     "thumb": "https://lam-en-yin.be/wp-content/uploads/2023/06/1079842_chinese-food-appetizers.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "lam-en-yin.be",
+     "credit_url": "https://lam-en-yin.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://lam-en-yin.be/wp-content/uploads/2023/06/26340428_ingredient-for-chinese-salad.jpg"
+   }
+  },
+  "osm-bistro-estelle-n7005714203": {
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-bistro-estelle-n7005714203/1-food-1600.webp",
+     "w": 1131,
+     "h": 1600,
+     "thumb": "img/places/antwerpen/osm-bistro-estelle-n7005714203/1-food-800.webp",
+     "category": "food",
+     "source": "website",
+     "credit": "estelle-restaurant.be",
+     "credit_url": "https://estelle-restaurant.be/",
+     "alt": "",
+     "source_url": "https://estelle-restaurant.be/wp-content/uploads/2026/05/Estelle-chashu-pork.jpg"
+    },
+    {
+     "src": "img/places/antwerpen/osm-bistro-estelle-n7005714203/2-food-1600.webp",
+     "w": 1131,
+     "h": 1600,
+     "thumb": "img/places/antwerpen/osm-bistro-estelle-n7005714203/2-food-800.webp",
+     "category": "food",
+     "source": "website",
+     "credit": "estelle-restaurant.be",
+     "credit_url": "https://estelle-restaurant.be/",
+     "alt": "",
+     "source_url": "https://estelle-restaurant.be/wp-content/uploads/2026/05/Estelle-mole-verde.jpg"
+    },
+    {
+     "src": "img/places/antwerpen/osm-bistro-estelle-n7005714203/3-food-1600.webp",
+     "w": 1600,
+     "h": 1600,
+     "thumb": "img/places/antwerpen/osm-bistro-estelle-n7005714203/3-food-800.webp",
+     "category": "food",
+     "source": "website",
+     "credit": "estelle-restaurant.be",
+     "credit_url": "https://estelle-restaurant.be/",
+     "alt": "",
+     "source_url": "https://bistro-estelle.be/wp-content/uploads/2024/10/Estelle-antwerpen-3.jpeg"
+    },
+    {
+     "src": "img/places/antwerpen/osm-bistro-estelle-n7005714203/4-food-1600.webp",
+     "w": 1080,
+     "h": 720,
+     "thumb": "img/places/antwerpen/osm-bistro-estelle-n7005714203/4-food-800.webp",
+     "category": "food",
+     "source": "website",
+     "credit": "estelle-restaurant.be",
+     "credit_url": "https://estelle-restaurant.be/",
+     "alt": "",
+     "source_url": "https://estelle-restaurant.be/wp-content/uploads/2026/10/mole1.png"
+    },
+    {
+     "src": "img/places/antwerpen/osm-bistro-estelle-n7005714203/5-food-1600.webp",
+     "w": 1600,
+     "h": 1600,
+     "thumb": "img/places/antwerpen/osm-bistro-estelle-n7005714203/5-food-800.webp",
+     "category": "food",
+     "source": "website",
+     "credit": "estelle-restaurant.be",
+     "credit_url": "https://estelle-restaurant.be/",
+     "alt": "",
+     "source_url": "https://bistro-estelle.be/wp-content/uploads/2024/10/Estelle-antwerpen.jpeg"
+    },
+    {
+     "src": "https://estelle-restaurant.be/wp-content/uploads/2024/03/Estelle-9-scaled.jpg",
+     "thumb": "https://estelle-restaurant.be/wp-content/uploads/2024/03/Estelle-9-scaled.jpg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "estelle-restaurant.be",
+     "credit_url": "https://estelle-restaurant.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://estelle-restaurant.be/wp-content/uploads/2024/10/Estelle-antwerpen-4-scaled.jpeg",
+     "thumb": "https://estelle-restaurant.be/wp-content/uploads/2024/10/Estelle-antwerpen-4-scaled.jpeg",
+     "w": 1280,
+     "h": 1600,
+     "hotlink": true,
+     "category": "exterior",
+     "source": "website",
+     "credit": "estelle-restaurant.be",
+     "credit_url": "https://estelle-restaurant.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-bistro-estelle-n7005714203/1-food-1600.webp"
+   }
+  },
+  "osm-bistro-theo-n6441387151": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-bitterpeeen-n5095340210": {
+   "photos": [
+    {
+     "src": "https://www.bitterpeeen.be/wp-content/uploads/2023/01/bitterpeeen-culinair-vergaderzaal.jpg",
+     "thumb": "https://www.bitterpeeen.be/wp-content/uploads/2023/01/bitterpeeen-culinair-vergaderzaal.jpg",
+     "w": 800,
+     "h": 534,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "bitterpeeen.be",
+     "credit_url": "https://www.bitterpeeen.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.bitterpeeen.be/wp-content/uploads/2023/01/bitterpeeen-culinair-vergaderzaal.jpg"
+   }
+  },
+  "osm-bizanaat-n4616307362": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-blue-lagoon-n6124099060": {
+   "photos": [
+    {
+     "src": "https://static.wixstatic.com/media/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg",
+     "thumb": "https://static.wixstatic.com/media/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg",
+     "w": 1280,
+     "h": 900,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "bluelagoonkosher.com",
+     "credit_url": "https://www.bluelagoonkosher.com/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://static.wixstatic.com/media/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/892a80_01eb817b441a472eaf09d0b1da173211f000.jpg"
+   }
+  },
+  "osm-bodrum-palace-n6658759393": {
+   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
+  },
+  "osm-bokki-n12832917601": {
+   "hold": "no people-free photo found (research): IG: food shots held with gloved hands, people, promo graphics"
+  },
+  "osm-brandbar-n6092678041": {
+   "photos": [
+    {
+     "src": "https://static.wixstatic.com/media/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg",
+     "thumb": "https://static.wixstatic.com/media/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg",
+     "w": 1280,
+     "h": 900,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "brandbar.be",
+     "credit_url": "https://www.brandbar.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://static.wixstatic.com/media/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/6db994_317627dba6b24b8bb540a5cc64d43d3a~mv2.jpg"
+   }
+  },
+  "osm-brasserie-appelmans-n3250758061": {
+   "photos": [
+    {
+     "src": "https://www.brasserieappelmans.be/wp-content/uploads/2023/11/Appelmans_11-2017-088-scaled.jpg",
+     "thumb": "https://www.brasserieappelmans.be/wp-content/uploads/2023/11/Appelmans_11-2017-088-scaled.jpg",
+     "w": 1600,
+     "h": 1068,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "brasserieappelmans.be",
+     "credit_url": "https://www.brasserieappelmans.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://www.brasserieappelmans.be/wp-content/uploads/2023/11/Appelmans_11-2017-088-scaled.jpg"
+   }
+  },
+  "osm-brasserie-het-rooi-w545247744": {
+   "photos": [
+    {
+     "src": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-012-scaled.jpg",
+     "thumb": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-012-scaled.jpg",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "hetrooi.be",
+     "credit_url": "https://hetrooi.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-005-scaled.jpg",
+     "thumb": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-005-scaled.jpg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "hetrooi.be",
+     "credit_url": "https://hetrooi.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-010-scaled.jpg",
+     "thumb": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-010-scaled.jpg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "hetrooi.be",
+     "credit_url": "https://hetrooi.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-073-scaled.jpg",
+     "thumb": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-073-scaled.jpg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "hetrooi.be",
+     "credit_url": "https://hetrooi.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-027-scaled.jpg",
+     "thumb": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-027-scaled.jpg",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "hetrooi.be",
+     "credit_url": "https://hetrooi.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://hetrooi.be/wp-content/uploads/2025/02/HET-NIEUWE-ROOI-012-scaled.jpg"
+   }
+  },
+  "osm-brasserie-monico-meir-n3250776061": {
+   "photos": [
+    {
+     "src": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7cb7e6f31bf9635162_Brasserie_Monico_Meir_Antwerpen%20(4)-p-1600.webp",
+     "thumb": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7cb7e6f31bf9635162_Brasserie_Monico_Meir_Antwerpen%20(4)-p-1600.webp",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "exterior",
+     "source": "website",
+     "credit": "monicomeir.be",
+     "credit_url": "https://www.monicomeir.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7c6826d58d55286a06_Brasserie_Monico_Meir_Antwerpen%20(12)-p-1600.webp",
+     "thumb": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7c6826d58d55286a06_Brasserie_Monico_Meir_Antwerpen%20(12)-p-1600.webp",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "monicomeir.be",
+     "credit_url": "https://www.monicomeir.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7c7e7c7b6f588d44d0_Brasserie_Monico_Meir_Antwerpen-p-1600.webp",
+     "thumb": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7c7e7c7b6f588d44d0_Brasserie_Monico_Meir_Antwerpen-p-1600.webp",
+     "w": 1600,
+     "h": 1067,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "monicomeir.be",
+     "credit_url": "https://www.monicomeir.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://cdn.prod.website-files.com/660be8b2e064bdb0047304ea/66434f7cb7e6f31bf9635162_Brasserie_Monico_Meir_Antwerpen%20(4)-p-1600.webp"
+   }
+  },
+  "osm-brewers-kitchen-n5693449274": {
+   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+  },
+  "osm-brusketta-n821293291": {
+   "photos": [
+    {
+     "src": "https://primary.jwwb.nl/public/p/m/k/temp-ptzqsmmjggsdjjxqtnbg/5bteh5/45418290_763186514060310_8678908906870669312_n.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+     "thumb": "https://primary.jwwb.nl/public/p/m/k/temp-ptzqsmmjggsdjjxqtnbg/5bteh5/45418290_763186514060310_8678908906870669312_n.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+     "w": 1200,
+     "h": 798,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "brusketta-antwerpen.be",
+     "credit_url": "https://www.brusketta-antwerpen.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://primary.jwwb.nl/public/p/m/k/temp-ptzqsmmjggsdjjxqtnbg/5bteh5/45418290_763186514060310_8678908906870669312_n.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200"
+   }
+  },
+  "osm-butchers-coffee-n5188616482": {
+   "hold": "no people-free photo found (research): IG: hands/people in all food shots; only an empty plate otherwise"
+  },
+  "osm-c-hive-rooftop-antwerp-n8443166143": {
+   "hold": "no people-free photo found (research): website: only one small image (<500px)"
+  },
+  "osm-camino-n5615179729": {
+   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+  },
+  "osm-camion-camionette-n14212290376": {
+   "photos": [
+    {
+     "src": "https://cdn.prod.website-files.com/62a30e7b88ea463985613dd1/697b439f07e61e506ca00223_Camion-ette-11.jpg",
+     "thumb": "https://cdn.prod.website-files.com/62a30e7b88ea463985613dd1/697b439f07e61e506ca00223_Camion-ette-11.jpg",
+     "w": 1066,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "camion-ette.be",
+     "credit_url": "https://www.camion-ette.be/",
+     "alt": ""
+    },
+    {
+     "src": "img/places/antwerpen/osm-camion-camionette-n14212290376/2-drink-1600.webp",
+     "w": 1066,
+     "h": 1600,
+     "thumb": "img/places/antwerpen/osm-camion-camionette-n14212290376/2-drink-800.webp",
+     "category": "drink",
+     "source": "website",
+     "credit": "camion-ette.be",
+     "credit_url": "https://www.camion-ette.be/",
+     "alt": "",
+     "source_url": "https://cdn.prod.website-files.com/62a30e7b88ea463985613dd1/697b444fa821deb15fefed05_Camion-ette-27.jpg"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://cdn.prod.website-files.com/62a30e7b88ea463985613dd1/697b439f07e61e506ca00223_Camion-ette-11.jpg"
+   }
+  },
+  "osm-camion-n6293116186": {
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-camion-n6293116186/1-drink-1600.webp",
+     "w": 1066,
+     "h": 1600,
+     "thumb": "img/places/antwerpen/osm-camion-n6293116186/1-drink-800.webp",
+     "category": "drink",
+     "source": "website",
+     "credit": "camion-ette.be",
+     "credit_url": "https://www.camion-ette.be/camion",
+     "alt": "",
+     "source_url": "https://cdn.prod.website-files.com/62a30e7b88ea463985613dd1/697b444fa821deb15fefed05_Camion-ette-27.jpg"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-camion-n6293116186/1-drink-1600.webp"
+   }
+  },
+  "osm-cartouche-n9219132691": {
+   "photos": [
+    {
+     "src": "https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/00be3cca-e9f6-4442-8ae4-5997820b546d-high-59c9qk.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+     "thumb": "https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/00be3cca-e9f6-4442-8ae4-5997820b546d-high-59c9qk.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+     "w": 1200,
+     "h": 561,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "brunchbarcartouche.be",
+     "credit_url": "https://www.brunchbarcartouche.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/3169dea8-a564-41c7-8594-3f37983cacf2-high.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+     "thumb": "https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/3169dea8-a564-41c7-8594-3f37983cacf2-high.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "brunchbarcartouche.be",
+     "credit_url": "https://www.brunchbarcartouche.be/",
+     "alt": ""
+    },
+    {
+     "src": "https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/f6013cc2-8b9d-42ab-9c29-74855a346683-high.jpg",
+     "thumb": "https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/f6013cc2-8b9d-42ab-9c29-74855a346683-high.jpg",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "brunchbarcartouche.be",
+     "credit_url": "https://www.brunchbarcartouche.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://primary.jwwb.nl/public/o/p/s/temp-cokvritktosmpxghbwue/00be3cca-e9f6-4442-8ae4-5997820b546d-high-59c9qk.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200"
+   }
+  },
+  "osm-casa-mia-n7660431857": {
+   "photos": [
+    {
+     "src": "https://v2cdn1.centralappstatic.com/image/resize/1102x661_cover_25bf2560d58a44f7b8643674a72ef9a9.jpeg?w=1200",
+     "thumb": "https://v2cdn1.centralappstatic.com/image/resize/1102x661_cover_25bf2560d58a44f7b8643674a72ef9a9.jpeg?w=1200",
+     "w": 1200,
+     "h": 720,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "casamia-antwerp.be",
+     "credit_url": "https://casamia-antwerp.be/en",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://v2cdn1.centralappstatic.com/image/resize/1102x661_cover_25bf2560d58a44f7b8643674a72ef9a9.jpeg?w=1200"
+   }
+  },
+  "osm-cece-is-hungry-n12848458802": {
+   "photos": [
+    {
+     "src": "https://static.wixstatic.com/media/449dc4_952b0008346440bca38caf2717e5ee56~mv2.jpeg/v1/fill/w_2500,h_2517,al_c/449dc4_952b0008346440bca38caf2717e5ee56~mv2.jpeg",
+     "thumb": "https://static.wixstatic.com/media/449dc4_952b0008346440bca38caf2717e5ee56~mv2.jpeg/v1/fill/w_2500,h_2517,al_c/449dc4_952b0008346440bca38caf2717e5ee56~mv2.jpeg",
+     "w": 1589,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "ceceishungry.com",
+     "credit_url": "https://www.ceceishungry.com/",
+     "alt": ""
+    }
+   ],
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Der6sACxvZY/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DecUVgaR1vh/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddt3cSPMUxL/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Der6sACxvZY/"
+   }
+  },
+  "osm-cena-n2715675279": {
+   "photos": [
+    {
+     "src": "https://lh3.googleusercontent.com/UaLoSrrA4gPQpuvSrxjOQSymIbB3fPDgT8gNOWf5suc-UrubVWmagpAZh8BEtwO21n556Dq5DNlEmvTCbNCa9ubZVAWrw8WksNui=l80-w1500-e365",
+     "thumb": "https://lh3.googleusercontent.com/UaLoSrrA4gPQpuvSrxjOQSymIbB3fPDgT8gNOWf5suc-UrubVWmagpAZh8BEtwO21n556Dq5DNlEmvTCbNCa9ubZVAWrw8WksNui=l80-w1500-e365",
+     "w": 640,
+     "h": 640,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "restaurantcena.be",
+     "credit_url": "https://www.restaurantcena.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://lh3.googleusercontent.com/UaLoSrrA4gPQpuvSrxjOQSymIbB3fPDgT8gNOWf5suc-UrubVWmagpAZh8BEtwO21n556Dq5DNlEmvTCbNCa9ubZVAWrw8WksNui=l80-w1500-e365"
+   }
+  },
+  "osm-chicane-n7246220154": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DcQ28XNuv7O/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcQzaixO_Kb/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXZP5v3jDHL/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DUQJvvwDLJO/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DcQ28XNuv7O/"
+   }
+  },
+  "osm-clo-n11435066279": {
+   "photos": [
+    {
+     "src": "https://impro.usercontent.one/appid/oneComWsb/domain/clo-antwerp.be/media/clo-antwerp.be/onewebmedia/CLO%20161_websize.jpg?etag=%2243e82-65aa3c40%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1067,1600&quality=85",
+     "thumb": "https://impro.usercontent.one/appid/oneComWsb/domain/clo-antwerp.be/media/clo-antwerp.be/onewebmedia/CLO%20161_websize.jpg?etag=%2243e82-65aa3c40%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1067,1600&quality=85",
+     "w": 1067,
+     "h": 1600,
+     "hotlink": true,
+     "category": "drink",
+     "source": "website",
+     "credit": "clo-antwerp.be",
+     "credit_url": "https://www.clo-antwerp.be/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://impro.usercontent.one/appid/oneComWsb/domain/clo-antwerp.be/media/clo-antwerp.be/onewebmedia/CLO%20161_websize.jpg?etag=%2243e82-65aa3c40%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=1067,1600&quality=85"
+   }
+  },
+  "osm-cobra-house-n14191289061": {
+   "photos": [
+    {
+     "src": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8296-scaled-1.jpg",
+     "thumb": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8296-scaled-1.jpg",
+     "w": 1066,
+     "h": 1600,
+     "hotlink": true,
+     "category": "interior",
+     "source": "website",
+     "credit": "cobra-antwerp.com",
+     "credit_url": "https://cobra-antwerp.com/cobra-house/",
+     "alt": ""
+    },
+    {
+     "src": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSC09162-compressed-scaled-1-uai-1365x1820.jpg",
+     "thumb": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSC09162-compressed-scaled-1-uai-1365x1820.jpg",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "cobra-antwerp.com",
+     "credit_url": "https://cobra-antwerp.com/cobra-house/",
+     "alt": ""
+    },
+    {
+     "src": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8241-scaled-1-uai-1365x1820.jpg",
+     "thumb": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8241-scaled-1-uai-1365x1820.jpg",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "cobra-antwerp.com",
+     "credit_url": "https://cobra-antwerp.com/cobra-house/",
+     "alt": ""
+    },
+    {
+     "src": "https://cobra-antwerp.com/wp-content/uploads/2026/08/DSCF6888-scaled-uai-1707x2276.jpg",
+     "thumb": "https://cobra-antwerp.com/wp-content/uploads/2026/08/DSCF6888-scaled-uai-1707x2276.jpg",
+     "w": 1200,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "cobra-antwerp.com",
+     "credit_url": "https://cobra-antwerp.com/cobra-house/",
+     "alt": ""
+    },
+    {
+     "src": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSC09232-compressed-scaled-1.jpg",
+     "thumb": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSC09232-compressed-scaled-1.jpg",
+     "w": 1066,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "cobra-antwerp.com",
+     "credit_url": "https://cobra-antwerp.com/cobra-house/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://cobra-antwerp.com/wp-content/uploads/2026/03/DSCF8296-scaled-1.jpg"
+   }
+  },
+  "osm-de-nieuwe-boterham-n6291937834": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Db3qB5mM9d4/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/Db3qB5mM9d4/"
+   }
+  },
+  "osm-harvest-n12460718501": {
+   "photos": [
+    {
+     "src": "https://harvest-antwerp.com/wp-content/uploads/2026/05/2-DSC_6111-scaled.jpg",
+     "thumb": "https://harvest-antwerp.com/wp-content/uploads/2026/05/2-DSC_6111-scaled.jpg",
+     "w": 1600,
+     "h": 1066,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "harvest-antwerp.com",
+     "credit_url": "https://harvest-antwerp.com/",
+     "alt": ""
+    },
+    {
+     "src": "https://harvest-antwerp.com/wp-content/uploads/2025/06/4-DSC_1938-scaled.jpg",
+     "thumb": "https://harvest-antwerp.com/wp-content/uploads/2025/06/4-DSC_1938-scaled.jpg",
+     "w": 1234,
+     "h": 1600,
+     "hotlink": true,
+     "category": "food",
+     "source": "website",
+     "credit": "harvest-antwerp.com",
+     "credit_url": "https://harvest-antwerp.com/",
+     "alt": ""
+    },
+    {
+     "src": "https://harvest-antwerp.com/wp-content/uploads/2025/06/1-DSC_1337-scaled.jpg",
+     "thumb": "https://harvest-antwerp.com/wp-content/uploads/2025/06/1-DSC_1337-scaled.jpg",
+     "w": 1265,
+     "h": 1600,
+     "hotlink": true,
+     "category": "exterior",
+     "source": "website",
+     "credit": "harvest-antwerp.com",
+     "credit_url": "https://harvest-antwerp.com/",
+     "alt": ""
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "https://harvest-antwerp.com/wp-content/uploads/2026/05/2-DSC_6111-scaled.jpg"
+   }
+  },
+  "osm-koffiebar-boel-n13793787944": {
+   "hold": "no people-free photo found (research): IG: people/hands in nearly all; storefront has unclear window interior; opening-hours graphic"
+  },
+  "osm-kolonel-coffee-n5188616494": {
+   "hold": "no people-free photo found (research): IG/web: people/hands in most; pastry shot has blurred background possibly with passers-by; rest product packshots"
+  },
+  "osm-krioyo-n10257823241": {
+   "hold": "no people-free photo found (research): no website, Instagram embed gave no images: website has no usable large images (only logos/small images)"
+  },
+  "osm-la-romanesc-n5615202921": {
+   "hold": "no people-free photo found (research): own website from data, Instagram embed gave no images: website timed out"
+  },
+  "osm-lentrepot-du-congo-n1620771354": {
+   "hold": "no people-free photo found (research): IG/web: people or hands in all images, rest is a holiday graphic"
+  },
+  "osm-little-bun-mas-n10124858690": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdGybxrlWbR/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DdGybxrlWbR/"
+   }
+  },
+  "osm-nectar-n13450281701": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeuI6VPhhTU/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd6NoSvhjkW/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdTawPfMXzC/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcbbC-kslx3/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "pick": {
+    "type": "post",
+    "url": "https://www.instagram.com/p/DeuI6VPhhTU/"
+   }
+  },
+  "osm-spice-bazaar-n12110023101": {
+   "hold": "no people-free photo found (research): own website from data, Instagram embed gave no images: website has no usable large images (only logos/small images)"
   },
   "paloma": {
    "photos": [
