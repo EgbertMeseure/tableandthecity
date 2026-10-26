@@ -263,6 +263,38 @@
    ],
    "note": "Opening day of Kanal; Carrosserie then opens Wed–Sun 12:00–24:00. See brussel-upcoming.json.",
    "id": "carrosserie-0"
+  },
+  {
+   "title": "Dîners gastronomiques: Aromatique at Les 4 Jeudis",
+   "dateStart": "2026-11-06",
+   "dateEnd": "2026-11-07",
+   "type": "plant-based pop-up dinner",
+   "location": "Les 4 Jeudis, Rue du Marteau 36A, 1210 Saint-Josse-ten-Noode",
+   "partners": [
+    "Aromatique (chef Denis Carpentier)"
+   ],
+   "sources": [
+    "https://www.aromatique.be/en/4jeudis",
+    "https://les4jeudis.be/en/events/diners-gastronomiques"
+   ],
+   "note": "Plant-based fine dining by Aromatique's chef Denis Carpentier as a guest at vegan restaurant Les 4 Jeudis, on the first weekend of the month: Friday 6 and Saturday 7 November, from 19:00. Four-course menu (plant-based and gluten-free) €60, optional wine pairing €28. Book via the restaurant's website: les4jeudis.be/en/reservation or +32 2 721 10 49.",
+   "id": "aromatique-0"
+  },
+  {
+   "title": "Dîners gastronomiques: Aromatique at Les 4 Jeudis",
+   "dateStart": "2026-12-04",
+   "dateEnd": "2026-12-05",
+   "type": "plant-based pop-up dinner",
+   "location": "Les 4 Jeudis, Rue du Marteau 36A, 1210 Saint-Josse-ten-Noode",
+   "partners": [
+    "Aromatique (chef Denis Carpentier)"
+   ],
+   "sources": [
+    "https://www.aromatique.be/en/4jeudis",
+    "https://les4jeudis.be/en/events/diners-gastronomiques"
+   ],
+   "note": "Plant-based fine dining by Aromatique's chef Denis Carpentier as a guest at vegan restaurant Les 4 Jeudis, on the first weekend of the month: Friday 4 and Saturday 5 December, from 19:00. Four-course menu (plant-based and gluten-free) €60, optional wine pairing €28. Book via the restaurant's website: les4jeudis.be/en/reservation or +32 2 721 10 49.",
+   "id": "aromatique-1"
   }
  ],
  "changelog": [],
@@ -14643,6 +14675,38 @@
    "ticketUrl": "https://menssa.be",
    "time": null,
    "price": null
+  },
+  "aromatique-0": {
+   "venue": "Les 4 Jeudis",
+   "address": "Rue du Marteau 36A, 1210 Saint-Josse-ten-Noode",
+   "neighbourhood": "Saint-Josse-ten-Noode",
+   "lat": 50.8472921,
+   "lng": 4.3724305,
+   "geoSource": "Nominatim: 36A Rue du Marteau, 1210 Saint-Josse-ten-Noode (house)",
+   "blurb": "Four-course plant-based, gluten-free gastronomic dinner by chef Denis Carpentier (Aromatique) at vegan restaurant Les 4 Jeudis.",
+   "ticketUrl": "https://les4jeudis.be/en/reservation",
+   "time": "from 19:00",
+   "price": "€60 (4 courses); wine pairing +€28",
+   "image": "https://www.aromatique.be/web/image/2009-ef9514fc/4jeudis.webp",
+   "imageSource": "https://www.aromatique.be/en/4jeudis (og:image: Les 4 Jeudis dining room, no people)",
+   "imageAlt": "https://www.aromatique.be/web/image/2022-b7bf355d/WhatsApp%20Image%202026-09-09%20at%2016.31.59%20%281%29.webp",
+   "instagram": "https://www.instagram.com/traiteuraromatique/"
+  },
+  "aromatique-1": {
+   "venue": "Les 4 Jeudis",
+   "address": "Rue du Marteau 36A, 1210 Saint-Josse-ten-Noode",
+   "neighbourhood": "Saint-Josse-ten-Noode",
+   "lat": 50.8472921,
+   "lng": 4.3724305,
+   "geoSource": "Nominatim: 36A Rue du Marteau, 1210 Saint-Josse-ten-Noode (house)",
+   "blurb": "Four-course plant-based, gluten-free gastronomic dinner by chef Denis Carpentier (Aromatique) at vegan restaurant Les 4 Jeudis.",
+   "ticketUrl": "https://les4jeudis.be/en/reservation",
+   "time": "from 19:00",
+   "price": "€60 (4 courses); wine pairing +€28",
+   "image": "https://www.aromatique.be/web/image/2009-ef9514fc/4jeudis.webp",
+   "imageSource": "https://www.aromatique.be/en/4jeudis (og:image: Les 4 Jeudis dining room, no people)",
+   "imageAlt": "https://www.aromatique.be/web/image/2022-b7bf355d/WhatsApp%20Image%202026-09-09%20at%2016.31.59%20%281%29.webp",
+   "instagram": "https://www.instagram.com/traiteuraromatique/"
   }
  }
 }

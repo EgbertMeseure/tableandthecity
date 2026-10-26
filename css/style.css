@@ -622,3 +622,22 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 /* visitor forms post via js/forms.js: sending + error states */
 .fb__msg.is-err{color:#b3261e}
 .crq.is-sending .crq__send,.fb.is-sending .fb-send{opacity:.7;cursor:progress}
+/* phone/tablet (stacked layout): the list shows 8 places, then "Show more places" (black / cream / gold, petrol when pressed),
+   so the Events section follows right after; Events heading a touch more prominent. Desktop (>900px) unchanged. */
+@media (max-width:900px){
+  .list-more{margin:20px 0 4px;padding:0 16px}
+  #list-more{background:var(--ink);color:var(--paper-warm);border-color:var(--accent);height:48px;padding:0 28px;font-weight:600;gap:10px;box-shadow:0 6px 18px rgba(0,0,0,.14)}
+  #list-more .lm__n{color:var(--accent);font-weight:500;letter-spacing:.1em}
+  #list-more:active,#list-more:focus-visible{background:var(--blue);border-color:var(--blue);color:#fff;outline:none}
+  #list-more:active .lm__n,#list-more:focus-visible .lm__n{color:#fff}
+  .events .section__head h2{font-size:15.5px;color:var(--accent)}
+}
+@media (max-width:900px) and (hover:hover){#list-more:hover{background:var(--blue);border-color:var(--blue);color:#fff}#list-more:hover .lm__n{color:#fff}}
+/* "Know an event? Tell us" under the Events carousel (js/eventreq.js; sheet = .crq like Suggest a place) */
+.ev-ask{margin:4px var(--gutter) 0;text-align:center;font-size:12px;letter-spacing:.06em;color:var(--text-inv-2)}
+.ev-ask a{display:inline-block;margin-left:8px;padding:6px 16px;border:1px solid var(--accent);border-radius:var(--pill);color:#faf8f4;text-decoration:none;font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase;transition:background .2s,border-color .2s,color .2s}
+.ev-ask a:focus-visible{outline:none;background:var(--blue);border-color:var(--blue);color:#fff}
+@media (hover:hover){.ev-ask a:hover{background:var(--blue);border-color:var(--blue);color:#fff}}
+.no-event-req .ev-ask{display:none}
+.evr .evr__ro{background:var(--paper-warm);color:var(--text-2);cursor:default}
+.evr .evr__ro:focus,.evr .evr__ro:focus-visible{border-color:var(--line-d);box-shadow:none}

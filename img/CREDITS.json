@@ -255,13 +255,15 @@
   "used_for": "Brussels home hero (Grand-Place at blue hour)"
  },
  {
-  "file": "img/cities/oostende/hero-seafront-{1000,1600,2400}.webp + hero-seafront-1600.jpg",
-  "title": "A large white building sitting on top of a sandy beach",
-  "photographer": "Jorick Roels",
-  "photographer_url": "https://unsplash.com/@jorick",
-  "source": "https://unsplash.com/photos/a-large-white-building-sitting-on-top-of-a-sandy-beach-xPRRW6eQPFM",
-  "license": "Unsplash License (free to use, no attribution required — credited anyway)",
-  "used_for": "Ostend home hero (seafront and Royal Galleries)"
+  "file": "img/cities/oostende/hero-mercator-{1000,1600,2400}.webp + hero-mercator-1600.jpg",
+  "title": "Mercator ship at night.jpg",
+  "photographer": "Ward De Ridder (Warddr)",
+  "photographer_url": "https://commons.wikimedia.org/wiki/User:Warddr",
+  "source": "https://commons.wikimedia.org/wiki/File:Mercator_ship_at_night.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "used_for": "Ostend home hero (the Mercator tall ship in the marina at night)",
+  "changes": "cropped to 3:2, resized, WebP + JPEG; shown in greyscale by CSS. The published crop is likewise licensed CC BY-SA 4.0"
  },
  {
   "file": "img/cities/brugge/new-{800,1600,2400}.webp + new.jpg",
