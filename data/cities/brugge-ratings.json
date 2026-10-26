@@ -1,0 +1,6 @@
+{
+"source": "Google",
+"note": "Not fetched yet (Google Places API returned 403 on 2026-10-26); empty so the site does not request a missing file. Rerun scripts/fetch_google_ratings.py brugge to fill.",
+"fetched": null,
+"places": {}
+}
