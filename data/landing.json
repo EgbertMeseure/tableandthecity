@@ -1,5 +1,5 @@
 {
- "_doc": "Landing page (world.html): globe dots + per-city showcase. Each city lists only its own images (L = landing photo img/cities/<id>/landing/<name>-{900,1600}.webp, C = the city's own category card photo <base>-{800,1600}.webp). Credits: img/CREDITS.json.",
+ "_doc": "Landing page (world.html): globe dots + per-city showcase. Each city lists only its own images (L = landing photo img/cities/<id>/landing/<name>-{900,1600}.webp, C = the city's own category card photo <base>-{800,1600}.webp). Credits: img/CREDITS.json. label: side of the city-dot label at country zoom (l/r/t/b) so nearby cities do not overlap.",
  "countries": [
   {
    "id": "be",
@@ -80,7 +80,8 @@
      "credit": "Ambitious Studio* | Rick Barrett / Unsplash",
      "source": "https://unsplash.com/photos/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-bFBQZhwCfl4"
     }
-   ]
+   ],
+   "label": "b"
   },
   "antwerpen": {
    "tagline": "Diamonds, fashion and a harbour city’s appetite for the very best.",
@@ -152,7 +153,8 @@
      "credit": "Ben Black / Unsplash",
      "source": "https://unsplash.com/photos/a-glass-of-beer-sitting-on-top-of-a-wooden-table-wUKUpQKrifU"
     }
-   ]
+   ],
+   "label": "r"
   },
   "brugge": {
    "tagline": "Still canals, brick gables and cosy tables tucked behind every bridge.",
@@ -213,7 +215,8 @@
      "credit": "Stanislav Ivanitskiy / Unsplash",
      "source": "https://unsplash.com/photos/glass-of-dark-beer-next-to-a-small-bottle-RwKsnLm094I"
     }
-   ]
+   ],
+   "label": "t"
   },
   "oostende": {
    "tagline": "Salt air, wide beaches and the freshest catch on the Belgian coast.",
@@ -285,7 +288,8 @@
      "credit": "Marc Ryckaert / Wikimedia Commons, CC BY-SA 4.0",
      "source": "https://commons.wikimedia.org/wiki/File:Oostende_Oosteroever_Strand_R02.jpg"
     }
-   ]
+   ],
+   "label": "l"
   },
   "brussel": {
    "tagline": "Gilded guildhalls, grand cafés and the whole world at one table.",
@@ -346,7 +350,8 @@
      "credit": "Shawn DENG / Unsplash",
      "source": "https://unsplash.com/photos/a-dimly-lit-bar-with-stools-and-bottles-on-the-shelves-nsgzQHsxbXE"
     }
-   ]
+   ],
+   "label": "r"
   }
  }
 }
