@@ -159,18 +159,56 @@
    "reason": "Overpoort potato/fast-food shop with kebab wraps, student discounts and delivery apps (HLN, opened Aug 2026); user decision 26 Oct 2026: breaks the no-kebab / no-student rules",
    "source": "https://www.hln.be/eten-en-drinken-gent/net-open-ahmad-40-opent-golden-potato-in-de-overpoort-zelfs-mijn-chili-sin-carne-komt-met-aardappelpartjes~a1a3f88f/",
    "added": "2026-10-26"
+  },
+  "node/5340846921": {
+   "id": "osm-green-mango-n5340846921",
+   "name": "Green Mango",
+   "kind": "junk",
+   "reason": "burger chain (greenmango.be: \"nos burgers délicieux\"); the other Green Mango branch is tagged cuisine=burger",
+   "source": "https://www.greenmango.be",
+   "added": "2026-10-29"
   }
  },
  "pizzaKebabKeep": {
-  "node/14026700173": {
-   "id": "osm-burgerium-n14026700173",
-   "name": "Burgerium",
-   "reason": "OSM cuisine=pizza, but the name says burgers and no source shows pizza is the main thing; kept (decision 26 Oct 2026)"
-  },
   "node/4477832548": {
    "id": "osm-graan-n4477832548",
    "name": "Graan",
    "reason": "OSM cuisine=pizza, but graan.info shows no pizza (menu page 404); kept until a source shows pizza is the main thing (decision 26 Oct 2026)"
+  },
+  "node/5051913247": {
+   "id": "osm-aan-het-strand-van-oostende-n5051913247",
+   "name": "Aan het strand van Oostende",
+   "reason": "beach restaurant with a broad menu (burger;pasta;international;tapas); sit-down, kept (decision 29 Oct 2026)"
+  },
+  "node/13641109374": {
+   "id": "osm-kiekenpaleis-n13641109374",
+   "name": "Kiekenpaleis",
+   "reason": "sit-down spit-roast chicken restaurant, not a fried-chicken shop; kept (decision 29 Oct 2026)"
+  },
+  "node/4224004322": {
+   "id": "osm-de-poulin-n4224004322",
+   "name": "De Poulin",
+   "reason": "sit-down chicken restaurant, not a fried-chicken shop; kept (decision 29 Oct 2026)"
+  },
+  "way/146607701": {
+   "id": "osm-de-poulin-w146607701",
+   "name": "De Poulin",
+   "reason": "sit-down chicken restaurant, not a fried-chicken shop; kept (decision 29 Oct 2026)"
+  },
+  "node/10764515717": {
+   "id": "osm-fernand-obb-delicatessen-n10764515717",
+   "name": "Fernand Obb Delicatessen",
+   "reason": "delicatessen known for croquettes, not a burger joint; kept (decision 29 Oct 2026)"
+  },
+  "node/4030010491": {
+   "id": "osm-l-amour-fou-n4030010491",
+   "name": "L'Amour Fou",
+   "reason": "café-brasserie that also serves burgers; kept (decision 29 Oct 2026)"
+  },
+  "node/5343845810": {
+   "id": "osm-broebbeleir-n5343845810",
+   "name": "Broebbeleir",
+   "reason": "beer café-restaurant that also serves burgers; kept (decision 29 Oct 2026)"
   }
  }
 }

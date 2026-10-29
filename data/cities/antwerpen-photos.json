@@ -3093,9 +3093,6 @@
     "src": "https://primary.jwwb.nl/public/p/m/k/temp-ptzqsmmjggsdjjxqtnbg/5bteh5/45418290_763186514060310_8678908906870669312_n.jpg?enable-io=true&enable=upscale&fit=bounds&width=1200"
    }
   },
-  "osm-burgerium-n14026700173": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none"
-  },
   "osm-butchers-coffee-n5188616482": {
    "hold": "no people-free photo found (research): IG: hands/people in all food shots; only an empty plate otherwise"
   },
@@ -4765,50 +4762,6 @@
   },
   "osm-helios-n7373307283": {
    "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (Berchem coffee shop vs. a Greek restaurant), nothing verifiable"
-  },
-  "osm-hermanos-burgers-ribs-n6545772771": {
-   "photos": [
-    {
-     "src": "https://www.hermanosburgersenribs.be/content/uploads/Deluxe%20burger.jpg",
-     "thumb": "https://www.hermanosburgersenribs.be/content/uploads/Deluxe%20burger.jpg",
-     "w": 1280,
-     "h": 838,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "hermanosburgersenribs.be",
-     "credit_url": "https://www.hermanosburgersenribs.be/",
-     "alt": ""
-    },
-    {
-     "src": "https://www.hermanosburgersenribs.be/content/uploads/slider%20foto.jpg",
-     "thumb": "https://www.hermanosburgersenribs.be/content/uploads/slider%20foto.jpg",
-     "w": 1600,
-     "h": 1066,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "hermanosburgersenribs.be",
-     "credit_url": "https://www.hermanosburgersenribs.be/",
-     "alt": ""
-    },
-    {
-     "src": "https://www.hermanosburgersenribs.be/content/uploads/Hermanos%20cheesy%20bacon%20fries.jpg",
-     "thumb": "https://www.hermanosburgersenribs.be/content/uploads/Hermanos%20cheesy%20bacon%20fries.jpg",
-     "w": 1090,
-     "h": 1024,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "hermanosburgersenribs.be",
-     "credit_url": "https://www.hermanosburgersenribs.be/",
-     "alt": ""
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "https://www.hermanosburgersenribs.be/content/uploads/Deluxe%20burger.jpg"
-   }
   },
   "osm-het-gerecht-n7325060285": {
    "photos": [

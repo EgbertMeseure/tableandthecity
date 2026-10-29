@@ -1206,13 +1206,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-tush-n11352130051": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.openstreetmap.org/node/11352130051"
-   ],
-   "basis": "OpenStreetMap diet tags"
-  },
   "osm-uncle-sam-s-n12703057611": {
    "veggieLevel": "vegan-friendly",
    "sources": [
