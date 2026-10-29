@@ -693,3 +693,16 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 /* "Spotted something off?" under At a glance (js/report.js) */
 .rpt-line{margin:14px 0 6px;font-size:13px;color:var(--text-2);display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
 .rpt-line .rpt-btn{border-color:#2a6474;color:#2a6474}
+/* event boxes: one-line description, whole box opens the event page, clear buttons (TG.evButtons) */
+.ev--link{cursor:pointer}
+.ev--link:hover{border-color:#d8b871}
+.ev__desc{max-width:100%;min-width:0;font-size:13px;line-height:1.4;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1;overflow:hidden;color:var(--text-inv-2)}
+.dev .ev__desc{color:#444;margin-top:4px}
+.ev__btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.ev-btn{display:inline-block;padding:7px 14px;border:1px solid currentColor;border-radius:999px;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+.ev .ev-btn{color:#fff}
+.ev .ev-btn:hover{background:#fff;color:#000}
+.ev-btn--tix{background:#2a6474;border-color:#2a6474;color:#fff !important}
+.ev-btn--tix:hover{background:#1f4d59 !important;color:#fff !important}
+.dev .ev-btn{color:#111}
+.dev .ev-btn:hover{background:#111;color:#fff}

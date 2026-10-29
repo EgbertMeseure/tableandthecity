@@ -29,7 +29,8 @@
     "https://visit.antwerpen.be/en/november"
    ],
    "note": "12:00–13:30. Six wines, one starter (Chicken 65, Cauliflower 65 or Chettinad crab rolls) and a final glass. €35 (+€0.99 fee); 20 places. Earlier editions ran 6 Sep and 4 Oct 2026; no later dates published.",
-   "id": "extra-0"
+   "id": "extra-0",
+   "tickets": "https://my.weezevent.com/dabba-king-kantine-sundays-wine-tasting-2"
   },
   {
    "title": "By the glass: Château Cheval Blanc – open wine evening at August",
@@ -47,7 +48,8 @@
     "https://www.eventbrite.be/e/2003510986293"
    ],
    "note": "18:30–22:30, walk-in. Free entrance, registration required (max. 100). Glasses €20–€50 (Cheval Blanc 2011 and 2014 €50).",
-   "id": "extra-1"
+   "id": "extra-1",
+   "tickets": "https://www.eventbrite.be/e/2003510986293"
   },
   {
    "title": "La Scoperta – Italian wine masterclass (10 wines, producers present)",
@@ -145,7 +147,8 @@
     "https://wolf.be/en/food-ant/local-dealer-mexican/"
    ],
    "note": "19:00. Five dishes and three drinks. €69.",
-   "id": "extra-7"
+   "id": "extra-7",
+   "tickets": "https://my.weezevent.com/chef'stable-localdealer"
   },
   {
    "title": "Hedone's Dinner – multisensory dinner-performance",
@@ -274,7 +277,8 @@
     "https://www.proeft.be/tickets.html"
    ],
    "note": "Mostly indoors across two halls. Children born 2015 or later free. Ticket sales announced to start Oct 2026.",
-   "id": "extra-15"
+   "id": "extra-15",
+   "tickets": "https://www.proeft.be/tickets.html"
   }
  ],
  "changelog": [
@@ -9169,7 +9173,8 @@
       "https://www.waagnatie.eu/"
      ],
      "note": "Unlimited tastings; €105 per day / €195 combi. SOLD OUT at time of research (25 Oct 2026).",
-     "id": "billies-0"
+     "id": "billies-0",
+     "tickets": "https://www.eventbrite.be/e/1680306595259"
     }
    ],
    "sources": [

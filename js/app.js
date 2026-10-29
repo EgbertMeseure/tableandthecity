@@ -449,10 +449,11 @@
       const date = fmtDate(e.dateStart, { day: 'numeric', month: 'short' }) + (e.dateEnd && e.dateEnd !== e.dateStart ? ' <span class="dash">–</span> ' + fmtDate(e.dateEnd, { day: 'numeric', month: 'short' }) : '') + ' ' + (e.dateEnd || e.dateStart).slice(0, 4);
       const links = e.restaurantIds.map((id, i) => `<a href="${detailUrl(id)}">${esc(e.restaurantNames[i])}</a>`).join('');
       // hierarchy: small date/type line → event NAME (dominant, max 3 lines) → venue small
-      return `<article class="ev"><div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
+      const eh = TG.evHref(e);
+      return `<article class="ev${eh ? ' ev--link' : ''}"${eh ? ` data-ev-href="${esc(eh)}"` : ''}><div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
         <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
-        ${e.note ? `<div class="ev__note">${esc(e.note)}</div>` : ''}
-        <div class="ev__links">${links}${(e.sources || []).slice(0, 2).map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">Source${e.sources.length > 1 ? ' ' + (i + 1) : ''} ↗</a>`).join('')}</div></article>`;
+        <div class="ev__desc" title="${esc(e.note || '')}">${esc(TG.evDesc(e))}</div>
+        <div class="ev__links">${links}</div><div class="ev__btns">${TG.evButtons(e)}</div></article>`;
     }).join('') : '<div class="ev-empty"><p>No upcoming events match.</p><p class="sub">Try “All” or clear the search.</p></div>';
   }
 

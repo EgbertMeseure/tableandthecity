@@ -10,7 +10,7 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
   - Optional `eventDetails{eventId: {venue, address, lat, lon, time, price, ticketUrl, blurb…}}` (not rendered yet).
     Import a researched events file: `python3 scripts/import_city_events.py <city> <file.json>` (skips past/undated events).
   - Per restaurant: `city`, `country`, `dateChecked` (last check), `lastChanged` (last content change),
-    `vegetarian`/`vegan` = `yes|no|unknown`, `events[]` (`title, dateStart, dateEnd|dateText, type, location, partners[], sources[], note`),
+    `vegetarian`/`vegan` = `yes|no|unknown`, `events[]` (`title, dateStart, dateEnd|dateText, type, location, partners[], sources[], note`; optional `tickets` = ticket-page URL → "Get tickets" button, optional `desc` = one-line description),
     `summary` (guide description, kept in original language, `summaryLang`), `original_nl` (Dutch source text of translated fields).
 - `data/cities/<city>.csv` – flat export.
 - `data/landing.json` – landing globe (world.html): country dots, per-city tagline, hero caption, label side and showcase photos. Heroes come from `data/cities.json`.

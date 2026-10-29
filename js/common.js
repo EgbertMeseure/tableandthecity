@@ -588,6 +588,21 @@ const TG = (() => {
     track.addEventListener('dragstart', e => e.preventDefault());
     update();
   }
-  return { CUISINES, CZ_BY, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+
+  /* event boxes (city page + place page): one-line description, the event page as the box's link, 'More info' + optional 'Get tickets'.
+     desc = e.desc if set (optional), else '<Type> at <venue>' from the event's own data (the full note stays as the box's tooltip) */
+  const _evEsc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  function evDesc(e) {
+    if (e.desc) return e.desc;
+    let at = (e.location || '').split(',')[0].trim(); if ((!at || /\d/.test(at)) && (e.partners || [])[0]) at = e.partners[0]; const ty = (e.type || 'event').trim();
+    return `${ty[0].toUpperCase() + ty.slice(1)}${at ? ` at ${at}` : ''}`;
+  }
+  const evHref = e => (e.sources || []).find(s => s !== e.tickets) || e.tickets || (e.sources || [])[0] || '';
+  const evButtons = e => { const h = evHref(e); return (h && h !== e.tickets ? `<a class="ev-btn" href="${_evEsc(h)}" target="_blank" rel="noopener">More info – visit the page ↗</a>` : '') +
+    (e.tickets ? `<a class="ev-btn ev-btn--tix" href="${_evEsc(e.tickets)}" target="_blank" rel="noopener">Get tickets ↗</a>` : ''); };
+  // the whole box opens the event page (links / buttons inside keep their own target)
+  document.addEventListener('click', ev => { const b = ev.target.closest('[data-ev-href]'); if (!b || ev.target.closest('a, button') || (getSelection && String(getSelection()))) return;
+    window.open(b.dataset.evHref, '_blank', 'noopener'); });
+  return { CUISINES, CZ_BY, evDesc, evHref, evButtons, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();
