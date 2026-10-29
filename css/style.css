@@ -676,3 +676,11 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .no-event-req .ev-ask{display:none}
 .evr .evr__ro{background:var(--paper-warm);color:var(--text-2);cursor:default}
 .evr .evr__ro:focus,.evr .evr__ro:focus-visible{border-color:var(--line-d);box-shadow:none}
+/* 'Choose your table': size the tiles so the last visible one is cut about halfway at the right edge (scroll cue).
+   w = (content width + right padding - n*gap) / (n + .5); flex-basis % = the carousel's content box */
+#carousel>.pillcard{--n:4;flex:0 0 calc((100% + var(--gutter) - var(--n) * 28px) / (var(--n) + .5))}
+@media (min-width:1501px){#carousel>.pillcard{--n:5}}
+@media (min-width:1800px){#carousel>.pillcard{--n:6}}
+@media (max-width:1000px){#carousel>.pillcard{--n:3}}
+@media (max-width:640px){#carousel>.pillcard{--n:4;flex-basis:calc((100% + 16px - var(--n) * 10px) / (var(--n) + .5))}}
+@media (max-width:499px){#carousel>.pillcard{--n:3}}
