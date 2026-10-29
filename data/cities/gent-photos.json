@@ -7599,33 +7599,6 @@
   "osm-t-klokhuys-n3394070669": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
   },
-  "osm-t-koningshuis-n2625520422": {
-   "photos": [
-    {
-     "src": "https://www.t-koningshuis.be/WhatsApp%20Image%202026-06-29%20at%2015.03.32.jpeg",
-     "thumb": "https://www.t-koningshuis.be/WhatsApp%20Image%202026-06-29%20at%2015.03.32.jpeg",
-     "w": 1200,
-     "h": 1600,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "t-koningshuis.be",
-     "credit_url": "https://www.t-koningshuis.be/",
-     "alt": ""
-    }
-   ],
-   "posts": [
-    {
-     "url": "https://www.instagram.com/p/DaidyX-i8-P/",
-     "category": "food",
-     "origin": "research"
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "https://www.t-koningshuis.be/WhatsApp%20Image%202026-06-29%20at%2015.03.32.jpeg"
-   }
-  },
   "osm-t-oud-clooster-n4776502139": {
    "photos": [
     {
@@ -8128,9 +8101,6 @@
     "type": "photo",
     "src": "https://umamarisqueira.com/images/123135512_165916345198030_3413861531082868968_n.jpg"
    }
-  },
-  "osm-uncle-babe-s-burger-bar-n4524885209": {
-   "hold": "no people-free photo found (research): all images have text overlays"
   },
   "osm-uncle-sam-s-n12703057611": {
    "posts": [

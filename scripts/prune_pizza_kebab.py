@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Remove pizza places and kebab / döner / shoarma / gyros / pita shops from a city's site data (user decision 26 Oct 2026).
+"""Remove pizza places, kebab / döner / shoarma / gyros / pita shops (user decision 26 Oct 2026) and junk food: burger joints,
+fried-chicken / wings and hot-dog shops (29 Oct 2026, kind 'junk') from a city's site data.
 
   python3 scripts/prune_pizza_kebab.py gent [--dry] [--report=/path/list.md]
 
@@ -33,7 +34,7 @@ def save(p, obj, text):
 
 raw = {f"{e['type']}/{e['id']}": e.get('tags', {}) for e in json.loads(IO.RAW.read_text())['elements']}
 _nx = json.loads((ROOT / 'data' / 'never-exclude.json').read_text()); PK_KEEP = _nx.get('pizzaKebabKeep', {})
-never = {k: v for k, v in json.loads((ROOT / 'data' / 'never-exclude.json').read_text())['places'].items() if v.get('kind') in ('pizza', 'kebab')}
+never = {k: v for k, v in json.loads((ROOT / 'data' / 'never-exclude.json').read_text())['places'].items() if v.get('kind') in ('pizza', 'kebab', 'junk')}
 removed, border = [], []
 osm_p = D / f'{CITY}-osm.json'; osm, osm_t = load(osm_p)
 keep = []
@@ -56,7 +57,7 @@ for fn, key in ((f'{CITY}.json', 'restaurants'), (f'{CITY}-upcoming.json', 'upco
     d[key] = out; save(p, d, t)
 ids = {x[0] for x in removed}
 for fn, key in ((f'{CITY}-heroes.json', 'places'), (f'{CITY}-heroes.json', 'rejected'), (f'{CITY}-instagram.json', 'places'), (f'{CITY}-ratings.json', 'places'),
-                (f'{CITY}-veggie.json', 'places'), (f'{CITY}-breakfast.json', 'places'), (f'{CITY}-media-sources.json', 'restaurants')):
+                (f'{CITY}-veggie.json', 'places'), (f'{CITY}-breakfast.json', 'places'), (f'{CITY}-photos.json', 'places'), (f'{CITY}-media-sources.json', 'restaurants')):
     p = D / fn
     if not p.exists(): continue
     d, t = load(p)
@@ -69,7 +70,7 @@ if ids & set(d['keep']):
     save(kp, d, t)
 for x in removed: print('REMOVED', CITY, *x[:3])
 for b in border: print('KEPT (borderline)', CITY, b[0], b[1], '|', b[2][:120])
-print(f'{CITY}: removed {len(removed)} (pizza {sum(x[2] == "pizza" for x in removed)}, kebab {sum(x[2] == "kebab" for x in removed)}), borderline kept {len(border)}')
+print(f'{CITY}: removed {len(removed)} (pizza {sum(x[2] == "pizza" for x in removed)}, kebab {sum(x[2] == "kebab" for x in removed)}, junk {sum(x[2] == "junk" for x in removed)}), borderline kept {len(border)}')
 if OPT.get('--report'):
     with open(OPT['--report'], 'a') as f:
         f.write(f"\n## {CITY}: removed {len(removed)}\n\n| city | id | name | kind | reason | list |\n|---|---|---|---|---|---|\n")

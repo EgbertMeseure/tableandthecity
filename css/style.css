@@ -676,3 +676,33 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .no-event-req .ev-ask{display:none}
 .evr .evr__ro{background:var(--paper-warm);color:var(--text-2);cursor:default}
 .evr .evr__ro:focus,.evr .evr__ro:focus-visible{border-color:var(--line-d);box-shadow:none}
+/* 'Choose your table': size the tiles so the last visible one is cut about halfway at the right edge (scroll cue).
+   w = (content width + right padding - n*gap) / (n + .5); flex-basis % = the carousel's content box */
+#carousel>.pillcard{--n:4;flex:0 0 calc((100% + var(--gutter) - var(--n) * 28px) / (var(--n) + .5))}
+@media (min-width:1501px){#carousel>.pillcard{--n:5}}
+@media (min-width:1800px){#carousel>.pillcard{--n:6}}
+@media (max-width:1000px){#carousel>.pillcard{--n:3}}
+@media (max-width:640px){#carousel>.pillcard{--n:4;flex-basis:calc((100% + 16px - var(--n) * 10px) / (var(--n) + .5))}}
+@media (max-width:499px){#carousel>.pillcard{--n:3}}
+/* Beta marker next to the logo (tap / hover shows the note) */
+.logo-wrap{position:relative;display:inline-flex;align-items:center;gap:10px;flex:none}
+.beta-tag{font:600 9px/1 var(--sans,inherit);letter-spacing:.18em;text-transform:uppercase;color:#d8b871;background:rgba(0,0,0,.25);border:1px solid rgba(216,184,113,.7);border-radius:999px;padding:4px 8px 4px 9px;cursor:help}
+.beta-tip{position:absolute;left:0;top:calc(100% + 8px);z-index:20;width:max-content;max-width:min(280px,80vw);padding:8px 12px;border-radius:12px;background:#111;color:#fff;font-size:12px;line-height:1.4;letter-spacing:.02em;box-shadow:0 4px 18px rgba(0,0,0,.3);opacity:0;visibility:hidden;transition:opacity .2s}
+.beta-tag:hover+.beta-tip,.beta-tag:focus+.beta-tip,.beta-tag:focus-visible+.beta-tip{opacity:1;visibility:visible}
+@media (max-width:640px){.logo-wrap{gap:7px}.beta-tag{font-size:8px;padding:3px 6px 3px 7px}}
+/* "Spotted something off?" under At a glance (js/report.js) */
+.rpt-line{margin:14px 0 6px;font-size:13px;color:var(--text-2);display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.rpt-line .rpt-btn{border-color:#2a6474;color:#2a6474}
+/* event boxes: one-line description, whole box opens the event page, clear buttons (TG.evButtons) */
+.ev--link{cursor:pointer}
+.ev--link:hover{border-color:#d8b871}
+.ev__desc{max-width:100%;min-width:0;font-size:13px;line-height:1.4;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1;overflow:hidden;color:var(--text-inv-2)}
+.dev .ev__desc{color:#444;margin-top:4px}
+.ev__btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.ev-btn{display:inline-block;padding:7px 14px;border:1px solid currentColor;border-radius:999px;font-size:10px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+.ev .ev-btn{color:#fff}
+.ev .ev-btn:hover{background:#fff;color:#000}
+.ev-btn--tix{background:#2a6474;border-color:#2a6474;color:#fff !important}
+.ev-btn--tix:hover{background:#1f4d59 !important;color:#fff !important}
+.dev .ev-btn{color:#111}
+.dev .ev-btn:hover{background:#111;color:#fff}

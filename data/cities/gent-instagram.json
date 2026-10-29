@@ -710,11 +710,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-belgian-burger-restaurant-n13997560953": {
-   "name": "Belgian Burger Restaurant",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-bento-house-n12623160301": {
    "name": "Bento House",
    "instagram_handle": null,
@@ -3176,12 +3171,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-t-koningshuis-n2625520422": {
-   "name": "'t Koningshuis",
-   "instagram_handle": "tkoningshuis",
-   "handleSource": "https://www.t-koningshuis.be/",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-t-oud-clooster-n4776502139": {
    "name": "'t Oud Clooster",
    "instagram_handle": "toudclooster",
@@ -3427,13 +3416,6 @@
    "instagram_handle": null,
    "origin": "research (approved 20 Oct 2026)"
   },
-  "osm-tush-n11352130051": {
-   "name": "tush",
-   "instagram_handle": "tush.gent",
-   "handleSource": "https://www.eat-tush.com/",
-   "note": "own og:image rejected: logo/graphic",
-   "origin": "research (approved 20 Oct 2026)"
-  },
   "osm-twilight-sushi-n1628067381": {
    "name": "Twilight Sushi",
    "instagram_handle": null,
@@ -3457,12 +3439,6 @@
    "name": "Uma Marisqueira",
    "instagram_handle": "marisqueirauma.belgie",
    "handleSource": "https://umamarisqueira.com/uma-ghent.html",
-   "origin": "research (approved 20 Oct 2026)"
-  },
-  "osm-uncle-babe-s-burger-bar-n4524885209": {
-   "name": "Uncle Babe's Burger Bar",
-   "instagram_handle": "unclebabes",
-   "handleSource": "https://unclebabes.com/",
    "origin": "research (approved 20 Oct 2026)"
   },
   "osm-uncle-sam-s-n12703057611": {

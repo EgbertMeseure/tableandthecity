@@ -73,23 +73,25 @@
   const GROUPS = [
     { label: 'New', img: cardImg('new', 'plated'), f: { new: true }, subs: [sub('Just opened', { new: true, stage: 'open' }), sub('Opening soon', { new: true, stage: 'soon' }),
       ...Object.keys(GROUP_LABEL).map(g => sub(GROUP_LABEL[g], { new: true, group: g }))] },
-    { label: 'Breakfast & Brunch', img: cardImg('breakfast', 'coffee'), photo: IMG.breakfastPlacePhoto === false ? null : mealPhoto(), f: { meal: 'any' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
-      sub('Weekend brunch', { meal: 'wkbrunch' }), sub('Opens early', { meal: 'early' })], allMin: 0 },
     { label: 'Restaurants', img: cardImg('restaurants', 'finedining'), f: { group: 'restaurants' }, subs: [
       sub('Fine dining', { group: 'restaurants', type: 'fine dining' }), sub('Gastro-bistro', { group: 'restaurants', type: 'gastro-bistro' }),
       sub('Bistro', { group: 'restaurants', type: 'bistro' }), sub('Brasserie', { group: 'restaurants', type: 'brasserie' }),
       sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
+    // 'By cuisine': one card, its cuisines open in a compact chooser (openCz) instead of an in-card menu
+    { label: 'By cuisine', img: cardImg('cuisine', 'casual'), f: { group: 'restaurants' }, subs: [], chooser: true },
+    { label: 'Bakeries', img: cardImg('bakeries', 'bakery'), f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
+      sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
+    { label: 'Breakfast & Brunch', img: cardImg('breakfast', 'coffee'), photo: IMG.breakfastPlacePhoto === false ? null : mealPhoto(), f: { meal: 'any' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
+      sub('Weekend brunch', { meal: 'wkbrunch' }), sub('Opens early', { meal: 'early' })], allMin: 0 },
     { label: 'Cafés & bars', img: cardImg('cafes_bars', 'bar'), f: { group: 'cafes_bars' }, subs: [
       sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
       sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), { ...sub('Cocktail bars', { group: 'cafes_bars', type: 'cocktail_bar' }), min: 1 },
-      { ...sub('Wine bars', { group: 'cafes_bars', type: 'wine_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All'
+      { ...sub('Wine bars', { group: 'cafes_bars', type: 'wine_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All',
     { label: 'Coffee', img: cardImg('coffee', 'coffee'), f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
       sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
-    { label: 'Bakeries', img: cardImg('bakeries', 'bakery'), f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
-      sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
-    // 'By cuisine': one card, its cuisines open in a compact chooser (openCz) instead of an in-card menu
-    { label: 'By cuisine', img: cardImg('cuisine', 'casual'), f: { group: 'restaurants' }, subs: [], chooser: true },
-    // no separate 'Veggie & vegan' card: every card has its own Veggie / Vegan row (+ the quick chips)
+    // Veggie / 100% vegan tiles: no sub-menu, straight to the list of all such places in the city
+    { label: 'Veggie', img: cardImg('veggie', 'plated'), f: { veggie: true }, subs: [], noDiet: true },
+    { label: '100% vegan', img: cardImg('vegan', 'vegan'), f: { vlevel: 'vegan' }, subs: [], noDiet: true },
     { label: 'Events', img: cardImg('events', 'events'), f: { events: true }, subs: [], toEvents: true }
   ];
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
@@ -97,9 +99,10 @@
     k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'dist' ? !!r.distinctions.michelin : k === 'cuisine' ? TG.inCuisine(r, v) : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
   GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
+  for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].noDiet && !GROUPS[i].n) GROUPS.splice(i, 1);   // no empty Veggie / 100% vegan tile
   /* diet row in every place card's menu: 'Veggie' (any veggie level, = the Veggie chip) / 'Vegan' (fully vegan or clear vegan options, = the Vegan chip).
      A toggle narrows 'All' and the sub-categories (live counts; empty ones hide); only shown when the card has matching places */
-  const DIET = { veggie: { label: 'Veggie', f: { veggie: true }, title: 'Fully vegan or vegetarian, or clear veggie/vegan options' }, vegan: { label: 'Vegan', f: { vegan: true }, title: 'Fully vegan or clear vegan options' } };
+  const DIET = { veggie: { label: 'Veggie', f: { veggie: true }, title: 'Fully vegan or vegetarian, or clear veggie/vegan options' }, vegan: { label: '100% vegan', f: { vlevel: 'vegan' }, title: 'Fully vegan places only' } };
   GROUPS.forEach(g => { g.diets = g.toEvents || g.noDiet || !g.subs.length ? [] : Object.keys(DIET).filter(d => (g['n_' + d] = countF({ ...g.f, ...DIET[d].f })) > 0);
     g.subs.forEach(s => g.diets.forEach(d => { s['n_' + d] = countF({ ...s.f, ...DIET[d].f }); })); });
   // each card is a stadium-shaped tile; its sub-menu lives INSIDE the card (revealed from the bottom, clipped by the card's radius)
@@ -154,7 +157,7 @@
     if (TG.wasDragged(car)) return;
     const c = e.target.closest('.pillcard'); if (!c) return;
     const g = GROUPS[+c.dataset.cat], it = e.target.closest('[data-s]'), dt = e.target.closest('[data-d]');
-    if (dt) { if (menuFor !== c) { openMenu(c); return; } setDiet(c, c.dataset.diet === dt.dataset.d ? '' : dt.dataset.d); return; }
+    if (dt) { if (menuFor !== c) { openMenu(c); return; } choose(g, { ...g.f, ...DIET[dt.dataset.d].f }, c); return; }
     if (it) { if (menuFor !== c) { openMenu(c); return; } const j = +it.dataset.s, d = c.dataset.diet; choose(g, { ...(j < 0 ? g.f : g.subs[j].f), ...(d ? DIET[d].f : {}) }, c); return; }
     if (g.chooser) { closeMenu(false); openCz(g, c); return; }
     // touch / no-hover devices: first tap opens the in-card menu (its first item selects the whole group)
@@ -446,10 +449,11 @@
       const date = fmtDate(e.dateStart, { day: 'numeric', month: 'short' }) + (e.dateEnd && e.dateEnd !== e.dateStart ? ' <span class="dash">–</span> ' + fmtDate(e.dateEnd, { day: 'numeric', month: 'short' }) : '') + ' ' + (e.dateEnd || e.dateStart).slice(0, 4);
       const links = e.restaurantIds.map((id, i) => `<a href="${detailUrl(id)}">${esc(e.restaurantNames[i])}</a>`).join('');
       // hierarchy: small date/type line → event NAME (dominant, max 3 lines) → venue small
-      return `<article class="ev"><div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
+      const eh = TG.evHref(e);
+      return `<article class="ev${eh ? ' ev--link' : ''}"${eh ? ` data-ev-href="${esc(eh)}"` : ''}><div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
         <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
-        ${e.note ? `<div class="ev__note">${esc(e.note)}</div>` : ''}
-        <div class="ev__links">${links}${(e.sources || []).slice(0, 2).map((s, i) => `<a href="${esc(s)}" target="_blank" rel="noopener">Source${e.sources.length > 1 ? ' ' + (i + 1) : ''} ↗</a>`).join('')}</div></article>`;
+        <div class="ev__desc" title="${esc(e.note || '')}">${esc(TG.evDesc(e))}</div>
+        <div class="ev__links">${links}</div><div class="ev__btns">${TG.evButtons(e)}</div></article>`;
     }).join('') : '<div class="ev-empty"><p>No upcoming events match.</p><p class="sub">Try “All” or clear the search.</p></div>';
   }
 

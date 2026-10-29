@@ -2806,10 +2806,6 @@
    "why": "error: ConnectTimeout",
    "checked": "2026-10-20"
   },
-  "osm-t-koningshuis-n2625520422": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-t-lekkerbekje-n6129054366": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2981,16 +2977,7 @@
    "why": "error: SSLError",
    "checked": "2026-10-20"
   },
-  "osm-tush-n11352130051": {
-   "why": "manual review: logo / wordmark, not a photo of the place",
-   "checked": "2026-10-20",
-   "url": "https://www.eat-tush.com/opengraph-image.png?e981d04de539c99b"
-  },
   "osm-uma-marisqueira-n11595390054": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-uncle-babe-s-burger-bar-n4524885209": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },

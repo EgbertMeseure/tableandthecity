@@ -30,7 +30,8 @@
     "https://www.lescabanes.be/nl/"
    ],
    "note": "18:00–20:00. Free (registration via Eventbrite). Fresh croquettes, drinks; for guests and locals. The Eventbrite page says \"multiple dates\", but only 30 Oct 2026 is listed.",
-   "id": "extra-0"
+   "id": "extra-0",
+   "tickets": "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695643554"
   },
   {
    "title": "Art & Wine Tasting (2nd edition) – wines, art and bites by Willem Hiele, Kaas of Zo and Bruggraeve",
@@ -50,7 +51,8 @@
     "https://screwit.be/products/tickets-art-wine-tasting"
    ],
    "note": "Sunday. €40 presale / €50 at the door; ticket includes a charcuterie plate (Bruggraeve), a cheese plate (Kaas of Zo) and a signature dish by one-star chef Willem Hiele. Tickets via screwit.be or info@screwit.be. No start time published.",
-   "id": "extra-1"
+   "id": "extra-1",
+   "tickets": "https://screwit.be/products/tickets-art-wine-tasting"
   },
   {
    "title": "Winter in Oostende – Christmas market with local food & drink stalls and ice rink",
@@ -471,7 +473,8 @@
       "https://www.eventbrite.be/e/tickets-a-wines-wijndegustatie-weekend-2026-1991299999904"
      ],
      "note": "11:30–18:00 each day. Free, registration via Eventbrite.",
-     "id": "marina-2"
+     "id": "marina-2",
+     "tickets": "https://www.eventbrite.be/e/tickets-a-wines-wijndegustatie-weekend-2026-1991299999904"
     }
    ],
    "sources": [

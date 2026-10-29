@@ -115,13 +115,21 @@ KEBAB_CUISINE = {'kebab', 'doner', 'doner_kebab', 'durum', 'shawarma', 'shoarma'
 PIZZA_ONLY = {'pizza', 'italian_pizza', 'pasta'}
 
 
+# junk food (user decision 29 Oct 2026): burger joints, smash-burger, fried-chicken / wings and hot-dog shops. Sit-down restaurants
+# that happen to serve a burger stay (burger not the first OSM cuisine, no burger in the name; exceptions in never-exclude pizzaKebabKeep).
+JUNK_NAME = re.compile(r"(burger|\bsmash|hot ?dogs?\b|fried chicken|\bchicken\b|\bwings\b|\bnuggets?\b|\bkfc\b|\bpopeyes\b)")
+JUNK_CUISINE = {'burger', 'burgers', 'chicken', 'fried_chicken', 'hot_dog', 'hotdog', 'wings', 'chicken_wings'}
+
+
 def pizza_kebab_kind(t, name, text=''):
-    """'pizza' | 'kebab' | None. t = OSM tags (only 'cuisine' is read); text = free cuisine text of a curated record (e.g. 'Mini pizzas')."""
+    """'pizza' | 'kebab' | 'junk' | None. t = OSM tags (only 'cuisine' is read); text = free cuisine text of a curated record (e.g. 'Mini pizzas')."""
     n, c = _fold(name), _fold(t.get('cuisine', ''))
     toks = [x.strip().replace(' ', '_') for x in c.split(';') if x.strip()]
     if KEBAB_NAME.search(n) or KEBAB_CUISINE & set(toks): return 'kebab'
     if PIZZA_NAME.search(n) or (toks and (toks[0] in ('pizza', 'italian_pizza') or ('pizza' in toks and set(toks) <= PIZZA_ONLY))): return 'pizza'
+    if JUNK_NAME.search(n) or (toks and toks[0] in JUNK_CUISINE): return 'junk'
     tx = _fold(text)
+    if tx and re.match(r"^[\w\s-]{0,20}(burger|smash|hot ?dog|fried chicken|chicken wings)", tx): return 'junk'
     if tx and re.match(r"^[\w\s-]{0,20}(pizza|pizzeria|pinsa)", tx) and 'italian' not in tx: return 'pizza'   # curated: the main thing is pizza
     if tx and re.search(r"\b(kebab|doner|shoarma|shawarma|gyros|durum)\b", tx): return 'kebab'
     return None
