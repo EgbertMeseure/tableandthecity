@@ -133,6 +133,7 @@
     </dl>
     <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
     <ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>
+    ${window.TGForms && TGForms.ready ? `<p class="rpt-line">Spotted something off? Help us keep this accurate. <button class="pill-btn sm rpt-btn" type="button" data-report data-place="${esc(r.name)}" data-city="${esc(city.name)}">Let us know</button></p>` : ''}
     ${vegBox}
     ${feedbackBlock}
     <h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>
