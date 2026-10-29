@@ -13,6 +13,11 @@ html:not([data-city="gent"]) .hero__img:not(.is-city){opacity:0}   /* another ci
 .hero__body{flex:1;display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:0 7vw}
 .quote{max-width:260px;font-size:11px;line-height:1.55;letter-spacing:.06em;text-transform:uppercase}
 .quote cite{display:block;text-align:right;margin-top:10px;font-style:normal;opacity:.85}
+.quote--city{max-width:300px}
+.quote cite i{font-style:normal;opacity:.75}
+.quote__src{color:inherit;text-decoration:none;opacity:.7;padding:0 2px}
+.quote__src:hover,.quote__src:focus-visible{opacity:1;text-decoration:underline}
+.quote__att{opacity:.8}
 .hero__cta{justify-self:end;text-align:right}
 .hero__cta h1{font-family:var(--sans);font-weight:400;font-size:clamp(18px,2vw,26px);letter-spacing:.16em;line-height:1.35;text-transform:uppercase;margin:0 0 26px}
 .hero__labels{display:flex;justify-content:space-between;padding:0 7vw 30px}
@@ -329,6 +334,8 @@ body.noscroll{overflow:hidden}
   .pill-search{height:38px;padding:0 14px 0 16px}
   .pill-search input::placeholder{font-size:9.5px;letter-spacing:.07em}
   .hero .quote,.hero .scrollcue{display:none}
+  .hero .quote.quote--city{display:block;max-width:none;font-size:9.5px;line-height:1.6;letter-spacing:.08em;margin:0 0 22px;padding-left:12px;border-left:1px solid rgba(255,255,255,.45)}
+  .hero .quote.quote--city cite{text-align:left;margin-top:6px;font-size:9px}
   .hero__body{display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;padding:0 20px 26px;gap:0}
   .hero__cta h1{font-size:19px;letter-spacing:.14em;line-height:1.45;margin:0 0 20px}
   .hero__cta .pill-btn{height:40px;padding:0 28px}
@@ -485,6 +492,10 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz__chips{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0 0 12px;padding:0}
 .qz__chips li{border:1px solid var(--line-d);border-radius:var(--pill);padding:4px 11px;font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase}
 .qz__chips li.relaxed{border-style:dashed;color:var(--text-3)}
+.qz__skipped{margin:-4px 0 12px}
+.qz__skipped-t{margin:0 0 6px;font-size:11px;color:var(--text-3)}
+.qz__chips--skip{margin:0}
+.qz__chips--skip li{border-style:dashed;color:var(--text-3);text-decoration:line-through;text-decoration-thickness:1px}
 .qz__relax,.qz__note{margin:0 0 10px;font-size:12.5px;line-height:1.45;color:var(--text-2)}
 .qz__relax{font-style:italic;font-family:var(--serif-it);font-size:14px}
 .qz__res{border-top:1px solid var(--hairline);margin-top:14px}

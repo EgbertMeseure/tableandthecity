@@ -3,7 +3,7 @@
   const { esc, fmtDate, eur, known, priceNum, distRank, isStar, isUpcoming, badges, TYPE_IMG, TYPE_LABEL, GROUP_LABEL, CAT_LABEL, catLabel, haversine, cityUrl } = TG;
   TG.bindNav();
   const { cfg, city, notice } = await TG.currentCity();
-  TG.renderCitySel(cfg, city); TG.renderFooter(cfg, city);
+  TG.renderCitySel(cfg, city); TG.renderFooter(cfg, city); if (window.TGQuotes) TGQuotes.render(city);   // this month's city quote in the hero (js/quotes.js)
   // per-city photos (data/cities.json → images): hero = '<base>' (+ optional heroFocus = CSS object-position) → <base>-{1000,1600,2400}.webp + <base>-1600.jpg; cards = image keys for TG.imgAttrs
   const IMG = city.images || {};
   { const h = document.querySelector('.hero__img');

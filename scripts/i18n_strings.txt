@@ -451,6 +451,35 @@ Nothing on {date} — here are the nearest events. | Niets op {date} — dit zij
 Only {n} on {date} — nearest dates added. | Maar {n} op {date} — dichtstbijzijnde data toegevoegd. | Nur {n} am {date} — nächste Termine ergänzt. | Seulement {n} le {date} — dates proches ajoutées. | Solo {n} el {date} — añadidas las fechas más cercanas.
 Find my table – first question: {x} | Vind mijn tafel – eerste vraag: {x} | Finde meinen Tisch – erste Frage: {x} | Trouver ma table – première question : {x} | Encuentra mi mesa – primera pregunta: {x}
 Find my table in {city} | Vind mijn tafel in {city} | Finde meinen Tisch in {city} | Trouver ma table à {city} | Encuentra mi mesa en {city}
+# quiz: regular vs specific cuisine, cuisine families, adaptive steps
+What are you in the mood for? | Waar heb je zin in? | Worauf hast du Appetit? | De quoi avez-vous envie ? | ¿Qué te apetece?
+Something regular | Gewoon lekker eten | Einfach gut essen | Quelque chose de classique | Algo normal
+Good food, any kitchen | Goed eten, elke keuken | Gutes Essen, jede Küche | Bonne cuisine, peu importe laquelle | Buena comida, cualquier cocina
+Any kitchen | Elke keuken | Jede Küche | Toute cuisine | Cualquier cocina
+A specific cuisine | Een specifieke keuken | Eine bestimmte Küche | Une cuisine précise | Una cocina concreta
+Pick a kitchen | Kies een keuken | Küche wählen | Choisissez une cuisine | Elige una cocina
+Which kitchen? | Welke keuken? | Welche Küche? | Quelle cuisine ? | ¿Qué cocina?
+Which one? | Welke precies? | Welche genau? | Laquelle ? | ¿Cuál exactamente?
+Any of these | Maakt niet uit | Egal welche | Peu importe | Cualquiera
+Belgian & French | Belgisch & Frans | Belgisch & Französisch | Belge & française | Belga y francesa
+Flemish classics, brasseries, French | Vlaamse klassiekers, brasserieën, Frans | Flämische Klassiker, Brasserien, Französisch | Classiques flamands, brasseries, français | Clásicos flamencos, brasseries, francesa
+Italian & Mediterranean | Italiaans & mediterraan | Italienisch & mediterran | Italienne & méditerranéenne | Italiana y mediterránea
+Pizza, pasta, Spanish, Greek | Pizza, pasta, Spaans, Grieks | Pizza, Pasta, Spanisch, Griechisch | Pizza, pâtes, espagnol, grec | Pizza, pasta, española, griega
+Japanese, Thai, Chinese, Vietnamese… | Japans, Thais, Chinees, Vietnamees… | Japanisch, Thai, Chinesisch, Vietnamesisch… | Japonais, thaï, chinois, vietnamien… | Japonesa, tailandesa, china, vietnamita…
+Indian, Middle Eastern & Turkish | Indisch, Midden-Oosters & Turks | Indisch, Nahost & Türkisch | Indienne, moyen-orientale & turque | India, de Oriente Medio y turca
+Also African & Moroccan | Ook Afrikaans & Marokkaans | Auch Afrikanisch & Marokkanisch | Aussi africaine & marocaine | También africana y marroquí
+Meat, fish & burgers | Vlees, vis & burgers | Fleisch, Fisch & Burger | Viande, poisson & burgers | Carne, pescado y hamburguesas
+Steak, grill, seafood | Steak, grill, zeevruchten | Steak, Grill, Meeresfrüchte | Steak, grillades, fruits de mer | Carne, parrilla, marisco
+Chef-driven, seasonal | Chef-gedreven, seizoensgebonden | Vom Küchenchef geprägt, saisonal | Cuisine d’auteur, de saison | De autor, de temporada
+Mexican, Peruvian | Mexicaans, Peruviaans | Mexikanisch, Peruanisch | Mexicaine, péruvienne | Mexicana, peruana
+Not asked — wouldn’t change these results: | Niet gevraagd — zou deze resultaten niet veranderen: | Nicht gefragt – würde diese Ergebnisse nicht ändern: | Pas demandé — cela ne changerait pas ces résultats : | No preguntado: no cambiaría estos resultados:
+Diet | Dieet | Ernährung | Régime | Dieta
+Style | Stijl | Stil | Style | Estilo
+Group size | Groepsgrootte | Gruppengröße | Taille du groupe | Tamaño del grupo
+Occasion | Gelegenheid | Anlass | Occasion | Ocasión
+Kind of bar | Soort bar | Art der Bar | Type de bar | Tipo de bar
+What for | Waarvoor | Wofür | Pour quoi | Para qué
+Bread or sweet | Brood of zoet | Brot oder Süßes | Pain ou sucré | Pan o dulce
 ## forms
 Know a table we’re missing? Tell us about it. | Ken je een tafel die we missen? Vertel het ons. | Kennst du einen Tisch, der uns fehlt? Erzähl uns davon. | Vous connaissez une table qui nous manque ? Parlez-nous-en. | ¿Conoces una mesa que nos falta? Cuéntanoslo.
 Place name | Naam van de zaak | Name des Lokals | Nom de l’adresse | Nombre del sitio

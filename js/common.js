@@ -430,12 +430,28 @@ const TG = (() => {
     { id: 'lunch', label: 'Sandwiches & soup', title: 'Sandwich & soup spots', t: /^(sandwiches|soup|soep|salads|bagels|wrap|bowl)$/i }
   ];
   const ASIAN = ['japanese', 'chinese', 'thai', 'vietnamese', 'korean'];
+  /* the quiz's 'A specific cuisine' path: 8 families of the groups above (a family with one member is that cuisine itself).
+     Family ids (and 'asian-other' = Other Asian + Korean) also work as a ?cuisine= filter; they are not offered in 'By cuisine'. */
+  const CZ_FAMILIES = [
+    { id: 'fam-befr', label: 'Belgian & French', s: 'Flemish classics, brasseries, French', members: ['belgian', 'french'] },
+    { id: 'fam-itmed', label: 'Italian & Mediterranean', s: 'Pizza, pasta, Spanish, Greek', members: ['italian', 'mediterranean'] },
+    { id: 'fam-asian', label: 'Asian', s: 'Japanese, Thai, Chinese, Vietnamese…', members: ['japanese', 'thai', 'chinese', 'vietnamese', 'asian-other'] },
+    { id: 'fam-east', label: 'Indian, Middle Eastern & Turkish', s: 'Also African & Moroccan', members: ['indian', 'middle-eastern', 'turkish', 'african'] },
+    { id: 'fam-meat', label: 'Meat, fish & burgers', s: 'Steak, grill, seafood', members: ['grill', 'fish', 'burgers'] },
+    { id: 'modern', label: 'Modern & creative', s: 'Chef-driven, seasonal', members: ['modern'] },
+    { id: 'lunch', label: 'Quick bites', s: 'Sandwiches & soup', members: ['lunch'] },
+    { id: 'latin', label: 'Latin American', s: 'Mexican, Peruvian', members: ['latin'] }
+  ];
   const CZ_BY = Object.fromEntries(CUISINES.map(c => [c.id, c]));
+  CZ_BY['asian-other'] = { id: 'asian-other', label: 'Other Asian', members: ['asian', 'korean'] };
+  CZ_FAMILIES.forEach(f => { if (!CZ_BY[f.id]) CZ_BY[f.id] = { id: f.id, label: f.label, members: f.members }; });
   const inCuisine = (r, id) => { const c = CZ_BY[id]; if (!c || r.group !== 'restaurants') return false;
+    if (c.members) return c.members.some(m => inCuisine(r, m));
     if (!r._cz) r._cz = {}; if (id in r._cz) return r._cz[id];
     if (id === 'asian' && ASIAN.some(k => inCuisine(r, k))) return (r._cz[id] = false);   // 'Other Asian' = not already Japanese, Thai, …
     return (r._cz[id] = (r.cuisineTags || []).some(t => c.t.test(t)) || !!(c.x && r.curated && c.x.test(r.cuisine || ''))); };
   /* the offered list: groups with >= min open restaurants (announced places left out), in the order above, with counts */
+  const hasCuisine = r => CUISINES.some(c => inCuisine(r, c.id));   // any known cuisine group (quiz: 'A specific cuisine')
   const cuisineList = (R, min = 3) => CUISINES.map(c => ({ ...c, n: R.filter(r => !r.upcoming && inCuisine(r, c.id)).length })).filter(c => c.n >= min);
   /* small 0-10 score next to a name (Google rating x 2); nothing when there is no confident match */
   const scoreBadge = r => r && r.gscore ? `<span class="gscore" title="Google rating ${(r.gscore / 2).toFixed(1)}/5, shown out of 10" aria-label="Google rating ${r.gscore.toFixed(1)} out of 10">${r.gscore.toFixed(1)}</span>` : '';
@@ -603,6 +619,6 @@ const TG = (() => {
   // the whole box opens the event page (links / buttons inside keep their own target)
   document.addEventListener('click', ev => { const b = ev.target.closest('[data-ev-href]'); if (!b || ev.target.closest('a, button') || (getSelection && String(getSelection()))) return;
     window.open(b.dataset.evHref, '_blank', 'noopener'); });
-  return { CUISINES, CZ_BY, evDesc, evHref, evButtons, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { CUISINES, CZ_BY, CZ_FAMILIES, hasCuisine, evDesc, evHref, evButtons, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();

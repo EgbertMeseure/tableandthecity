@@ -72,14 +72,21 @@
   };
   const DIET = { veggie: r => !!r.veggieLevel, vegan: r => r.vegan === 'yes' };   // = the Veggie & vegan / Vegan options chips
   /* three equal answers (no separate 'No preference' link on this step); the diet is never relaxed silently, see results() */
-  const DIET_Q = { id: 'diet', q: 'Any dietary wishes?', hard: true, relax: 'diet', noSkip: true, opts: [
-    { v: 'any', l: 'No preference', s: 'Everything, meat and fish included', chip: 'Any diet' },
+  const DIET_Q = { id: 'diet', q: 'Any dietary wishes?', short: 'Diet', hard: true, relax: 'diet', noSkip: true, minViable: 1, opts: [
+    { v: 'any', l: 'No preference', s: 'Everything, meat and fish included', chip: 'Any diet', all: true },
     { v: 'veggie', l: 'Veggie', s: 'Vegetarian, vegan or clear veggie options', f: DIET.veggie },
     { v: 'vegan', l: 'Vegan', s: 'Fully vegan or clear vegan options', f: DIET.vegan }] };
-  /* 'What kind of food?': Any + the cuisine groups with >= 3 restaurants (TG.cuisineList, filled in once the data is loaded) */
-  const FOOD_Q = { id: 'food', q: 'What kind of food?', hard: true, relax: 'food', compact: true, opts: [] };
-  const fillFood = () => { if (FOOD_Q.opts.length) return;
-    FOOD_Q.opts = [{ v: 'any', l: 'Any', chip: 'Any food' }, ...TG.cuisineList(APP.R).map(c => ({ v: c.id, l: c.label, f: r => TG.inCuisine(r, c.id) }))]; };
+  /* restaurant path (see handoff/quiz-redesign/proposal.md): 'Something regular' or 'A specific cuisine' first; the cuisine path asks one of
+     8 families (TG.CZ_FAMILIES), then a sub-cuisine only when the family still splits. Places without a known cuisine stay in the regular path. */
+  const KIND_Q = { id: 'kind', q: 'What are you in the mood for?', hard: true, noSkip: true, minViable: 1, opts: [
+    { v: 'regular', l: 'Something regular', s: 'Good food, any kitchen', chip: 'Any kitchen', all: true },
+    { v: 'cuisine', l: 'A specific cuisine', s: 'Pick a kitchen', f: r => TG.hasCuisine(r) }] };
+  const FAMILY_Q = { id: 'family', q: 'Which kitchen?', short: 'Cuisine', hard: true, cond: a => a.kind === 'cuisine', opts: [] };
+  const SUB_Q = { id: 'sub', q: 'Which one?', hard: true, relax: 'sub', compact: true, cond: a => !!a.family && (TG.CZ_BY[a.family].members || []).length > 1, opts: [] };
+  const fillFood = () => { if (FAMILY_Q.opts.length) return;
+    FAMILY_Q.opts = TG.CZ_FAMILIES.map(f => ({ v: f.members.length > 1 ? f.id : f.members[0], l: f.label, s: f.s, f: r => TG.inCuisine(r, f.id) }));
+    SUB_Q.opts = [{ v: 'any', l: 'Any of these', chip: 'Any of these', all: true },
+      ...TG.CZ_FAMILIES.filter(f => f.members.length > 1).flatMap(f => f.members.map(m => ({ v: m, fam: f.id, l: TG.CZ_BY[m].label, f: r => TG.inCuisine(r, m) })))]; };
   const whenQ = (q, list) => ({ id: 'when', q, hard: true, when: true, opts: list });
   const W = {
     now: (l = 'Right now') => ({ v: 'now', l, s: C => `Open now · ${DAY_LONG[C.dow]}` }),
@@ -100,18 +107,25 @@
     restaurant: {
       label: 'Restaurant', sub: 'Lunch or dinner', noun: ['table', 'tables'], pool: r => isR(r),
       questions: [
-        { id: 'style', q: 'What style?', hard: true, relax: 'style', opts: [
+        KIND_Q, FAMILY_Q, SUB_Q,
+        { id: 'style', q: 'What style?', short: 'Style', hard: true, relax: 'style', opts: [
           { v: 'casual', l: 'Casual', s: 'Easy-going, all kinds of kitchens', f: STYLE.casual },
           { v: 'moderate', l: 'Moderate', s: 'Bistros, brasseries, gastro-bistros', f: STYLE.moderate },
           { v: 'fancy', l: 'Fancy', s: 'Fine dining, gastro-bistros, Michelin stars', f: STYLE.fancy }] },
-        FOOD_Q,
-        { id: 'people', q: 'How many people?', grid: true, opts: [{ v: '2', l: '1–2' }, { v: '4', l: '3–4' }, { v: '8', l: '5–8' }, { v: '9', l: '8+' }] },
+        DIET_Q,
         whenQ('When?', [W.today(), W.tomorrow(), W.weekend(), W.pick()]),
-        { id: 'occasion', q: 'What’s the occasion?', opts: [
-          { v: 'casual', l: 'Casual', s: 'Nothing fancy' }, { v: 'date', l: 'Date night', s: 'Fine dining & intimate bistros first' },
-          { v: 'moderate', l: 'Moderate', s: 'A good meal out, no fuss' }, { v: 'new', l: 'A new experience', s: 'New openings, chef events, distinctions' }] },
-        DIET_Q
+        { id: 'people', q: 'How many people?', short: 'Group size', grid: true, opts: [{ v: '2', l: '1–2' }, { v: '4', l: '3–4' }, { v: '8', l: '5–8' }, { v: '9', l: '8+' }],
+          // re-rank only: worth asking when the places left mix bookable and non-bookable ones
+          ask: L => { const b = L.filter(r => r.reservation_url).length, sh = b / L.length; return sh <= .85 && (sh >= .15 || (L.length >= 20 && b >= 5)); } },
+        { id: 'occasion', q: 'What’s the occasion?', short: 'Occasion', opts: [
+          { v: 'casual', l: 'Casual', s: 'Nothing fancy', has: r => ['casual', 'restaurant', 'brasserie'].includes(r.category) },
+          { v: 'date', l: 'Date night', s: 'Fine dining & intimate bistros first', has: r => ['fine dining', 'gastro-bistro', 'bistro'].includes(r.category) },
+          { v: 'moderate', l: 'Moderate', s: 'A good meal out, no fuss', has: r => ['bistro', 'brasserie', 'gastro-bistro'].includes(r.category) },
+          { v: 'new', l: 'A new experience', s: 'New openings, chef events, distinctions', has: r => r.isNew || r.events.length > 0 }],
+          ask: L => L.filter(r => ['casual', 'restaurant'].includes(r.category)).length / L.length <= .85 }
       ],
+      relaxOrder: ['style', 'sub', 'diet'],
+      adaptive: true,
       score(r, a) {
         const c = r.category, star = TG.isStar(r.distinctions.michelin);
         let s = base(r);
@@ -128,46 +142,49 @@
       },
       list(a) {
         const type = { casual: 'casual+restaurant', moderate: 'bistro+brasserie+gastro-bistro', fancy: 'fine dining+gastro-bistro' }[a.style];
-        return { group: 'restaurants', ...(type ? { type } : {}), ...(a.food && a.food !== 'any' ? { cuisine: a.food } : {}), ...dietF(a) };
+        const cz = a.sub && a.sub !== 'any' ? a.sub : a.family;
+        return { group: 'restaurants', ...(type ? { type } : {}), ...(cz ? { cuisine: cz } : {}), ...dietF(a) };
       },
       note: a => +a.people >= 8 ? 'Big group: places you can book online or by phone come first — check availability with them.' : ''
     },
     bar: {
       label: 'Bar', sub: 'Cocktails, wine, brown cafés, pubs, dancing', noun: ['bar', 'bars'], pool: r => r.group === 'cafes_bars',
       questions: [
-        { id: 'type', q: 'What kind of bar?', hard: true, relax: 'type', opts: [
+        { id: 'type', q: 'What kind of bar?', short: 'Kind of bar', hard: true, relax: 'type', opts: [
           { v: 'cocktail_bar', l: 'Cocktail bar', s: 'Signature drinks, mocktails' }, { v: 'brown_cafe', l: 'Brown café', s: () => `Classic ${(APP && APP.city && APP.city.name) || 'local'} pub` },
           { v: 'wine_bar', l: 'Wine bar', s: 'Wine by the glass, small plates' },
           { v: 'irish_pub', l: 'Irish pub', s: 'Pints & sport' }, { v: 'dance_cafe', l: 'Dance café', s: 'DJ, late nights' }].map(o => ({ ...o, f: r => r.category === o.v })) },
         whenQ('When?', [W.tonight(), W.tomorrow(), W.weekend(), W.pick()]),
-        { id: 'terrace', q: 'Terrace?', hard: true, relax: 'terrace', opts: [{ v: 'yes', l: 'Yes, a terrace', s: 'Confirmed terrace', f: r => r.features.terrace === true }] }
+        { id: 'terrace', q: 'Terrace?', short: 'Terrace', hard: true, relax: 'terrace', minViable: 1, opts: [{ v: 'yes', l: 'Yes, a terrace', s: 'Confirmed terrace', f: r => r.features.terrace === true }] }
       ],
-      relaxOrder: ['terrace', 'type'],
+      relaxOrder: ['terrace', 'type'], adaptive: true,
       score: (r, a) => base(r) + (r.features.terrace === true ? 1 : 0) + (r.features.lateNight === true && a.when === 'tonight' ? 2 : 0),
       list: a => ({ group: 'cafes_bars', ...(a.type ? { type: a.type } : {}), ...(a.when === 'now' ? { open: true } : {}) })
     },
     coffee: {
       label: 'Coffee', sub: 'Specialty coffee, brunch, laptop spots', noun: ['coffee spot', 'coffee spots'], pool: r => r.group === 'coffee',
       questions: [
-        { id: 'purpose', q: 'What for?', hard: true, relax: 'purpose', opts: [
+        { id: 'purpose', q: 'What for?', short: 'What for', hard: true, relax: 'purpose', opts: [
           { v: 'quick', l: 'A quick specialty coffee', s: 'Specialty coffee bars', f: r => r.category === 'coffee_bar' },
           { v: 'food', l: 'Coffee + something to eat', s: 'Food served, breakfast or brunch', f: r => r.features.foodServed === true || TG.mealOf(r).any },
           { v: 'laptop', l: 'Work with my laptop', s: 'Wifi confirmed', f: r => r.features.wifi === true }] },
         DIET_Q,
         whenQ('When?', [W.now(), W.today(), W.tomorrow(), W.weekend(), W.pick()])
       ],
+      adaptive: true,
       score: (r, a) => base(r) + (a.purpose === 'food' && TG.mealOf(r).any ? 2 : 0) + (r.features.seating === true && a.purpose === 'laptop' ? 1 : 0) + (DIET_ON(a) ? VR(r) : 0),
       list: a => ({ group: 'coffee', ...(a.purpose === 'quick' ? { type: 'coffee_bar' } : {}), ...dietF(a), ...(a.when === 'now' ? { open: true } : {}) })
     },
     bakery: {
       label: 'Bakery', sub: 'Bread, viennoiserie, patisserie', noun: ['bakery', 'bakeries'], pool: r => r.group === 'bakeries',
       questions: [
-        { id: 'kind', q: 'Bread or something sweet?', hard: true, relax: 'kind', opts: [
+        { id: 'kind', q: 'Bread or something sweet?', short: 'Bread or sweet', hard: true, relax: 'kind', opts: [
           { v: 'bread', l: 'Bread & viennoiserie', s: 'Sourdough, croissants', f: r => r.category === 'bakery' || (r.bakeryStyle || []).some(x => /sourdough|viennoiserie|bread|traditional|mastellen/.test(x)) },
           { v: 'sweet', l: 'Patisserie & sweet', s: 'Cakes, tarts, pastries', f: r => r.category === 'patisserie' || (r.bakeryStyle || []).some(x => /patisserie|cakes|tarts/.test(x)) }] },
         DIET_Q,
         whenQ('When?', [W.now('Open now'), W.today(), W.tomorrow(), W.weekend(), W.pick()])
       ],
+      adaptive: true,
       score: (r, a) => base(r) + (DIET_ON(a) ? VR(r) : 0),
       list: a => ({ group: 'bakeries', ...(a.kind ? { type: a.kind === 'bread' ? 'bakery' : 'patisserie' } : {}), ...dietF(a), ...(a.when === 'now' ? { open: true } : {}) })
     },
@@ -307,10 +324,36 @@
   function optionsFor(sec, i, C) {
     const q = st.steps[i], prev = {};
     st.steps.slice(0, i).forEach(p => { if (st.a[p.id]) prev[p.id] = st.a[p.id]; });
-    return q.opts.map(o => {
+    return q.opts.filter(o => !o.fam || o.fam === prev.family).map(o => {
       const n = q.hard && !o.pick ? matches(sec, { ...prev, [q.id]: o.v }, C).length : null;
       return { ...o, n };
     }).filter(o => o.n == null || o.n > 0 || q.id === 'diet');            // diet: always the same three answers (an empty Vegan gets an honest fallback)
+  }
+  /* adaptive steps (sections with `adaptive`, proposal §4): a step is skipped when its answer could not split the places still left.
+     Hard (filtering) steps: asked only with > 6 places left, enough viable answers (>= 3 places and fewer than all; non-viable answers are
+     hidden; `all` answers = keep everything) and not lopsided (top answer > 85% while the rest keep < 8). 'When': unless <= 3 left.
+     Soft steps (re-rank only): their own ask(list) test, answers without any matching place (has) hidden. Returns { skip } or { opts }. */
+  function stepPlan(sec, i, C) {
+    const q = st.steps[i], prev = prevA(i);
+    if (q.cond && !q.cond(prev)) return { skip: 'cond' };
+    const opts = optionsFor(sec, i, C);
+    if (!sec.adaptive) {
+      if (!opts.length || (q.hard && !q.when && opts.every(o => o.n === matches(sec, prev, C).length))) return { skip: 'rule' };
+      return { opts };
+    }
+    const L = matches(sec, prev, C), n = L.length;
+    if (q.when) return n <= 3 ? { skip: 'rule' } : { opts };
+    if (n <= 6) return { skip: 'rule' };
+    if (q.hard) {
+      const spec = opts.filter(o => !o.all && !o.pick), viable = spec.filter(o => o.n >= 3 && o.n < n);
+      if (viable.length < (q.minViable || 2)) return { skip: 'rule' };
+      const ks = spec.map(o => o.n).sort((x, y) => y - x), rest = ks.slice(1).reduce((x, y) => x + y, 0);
+      if (ks[0] > .85 * n && rest < 8) return { skip: 'rule' };
+      return { opts: opts.filter(o => o.all || o.pick || viable.includes(o)) };
+    }
+    if (q.ask && !q.ask(L)) return { skip: 'rule' };
+    const shown = opts.filter(o => !o.has || L.some(o.has));
+    return shown.length < 2 ? { skip: 'rule' } : { opts: shown };
   }
   function draw() {
     const C = clock();
@@ -325,13 +368,15 @@
     }
     const sec = SECTIONS[st.mood];
     if (st.step >= st.steps.length) return drawResults(sec, C);
-    const q = st.steps[st.step], opts = optionsFor(sec, st.step, C);
-    if (!opts.length || (q.hard && !q.when && opts.every(o => o.n === matches(sec, prevA(st.step), C).length))) {   // nothing to choose: skip (and on Back)
-      st.a[q.id] = ''; st.skipped[st.step] = true; st.step++; return draw();
-    }
+    const q = st.steps[st.step], plan = stepPlan(sec, st.step, C);
+    if (plan.skip) { st.a[q.id] = ''; st.skipped[st.step] = plan.skip; st.step++; return draw(); }   // nothing to choose: skip (and on Back)
+    const opts = plan.opts;
+    // "n of m": questions asked so far + this one, of that + the later steps that can still come (each may still be skipped)
+    const asked = st.steps.slice(0, st.step).filter((x, j) => !st.skipped[j]).length + 1;
+    const of = asked + st.steps.slice(st.step + 1).filter(x => !x.cond || x.cond(prevA(st.step)) || (q.id === 'kind' && x.id === 'family')).length;
     const hasPick = opts.some(o => o.pick);
     if (hasPick && !st.pick && isPick(st.a[q.id])) st.pick = { iso: st.a[q.id].slice(2), month: st.a[q.id].slice(2, 9) };   // back to a picked date
-    paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${st.step + 1} of ${st.steps.length}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
+    paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${asked} of ${of}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
       <div class="qz__opts${q.grid ? ' qz__opts--grid' : ''}${q.compact ? ' qz__opts--compact' : ''}">${opts.map(o => optBtn(o, q.id, C)).join('')}</div>
       ${hasPick && st.pick ? `<div class="qz-cal" role="group" aria-label="Pick a date">${calHtml(sec, q, C)}</div>` : ''}
       ${q.noSkip ? '' : '<button class="qz__skip" type="button" data-qz-skip>No preference</button>'}`);
@@ -387,7 +432,7 @@
     const { list, exactN, relaxed, near, dietMsg, dietTo } = results(sec, a, C);
     const top = list.slice(0, 6);
     const allFully = !sec.events && top.length > 1 && top.every(FULLY) ? (top.every(r => r.veggieLevel === 'vegan') ? 'All of these are fully vegan.' : 'All of these are fully vegetarian.') : '';
-    const chips = st.steps.filter(q => a[q.id]).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') || (dietMsg && q.id === 'diet') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : o.chip || val(o.l, C))}</li>`; }).join('');
+    const chips = st.steps.filter(q => a[q.id] && !(q.id === 'kind' && a.kind === 'cuisine')).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') || (dietMsg && q.id === 'diet') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : o.chip || val(o.l, C))}</li>`; }).join('');
     const rq = relaxed && st.steps.find(q => q.relax === relaxed);
     const relaxLine = (dietMsg ? `<p class="qz__relax qz__relax--diet">${esc(dietMsg)}</p>` : '') + (allFully ? `<p class="qz__note qz__note--diet">${esc(allFully)}</p>` : '') + (near ? `<p class="qz__relax">${esc(near)}</p>` : rq ? `<p class="qz__relax">Only ${exactN} exact match${exactN === 1 ? '' : 'es'} — we relaxed “${esc(val(qOpt(sec, relaxed, a[relaxed]).l, C))}”.</p>` : '');
     const note = sec.note ? sec.note(a) : '';
@@ -396,10 +441,15 @@
     else { const f = sec.list(dietTo == null ? a : { ...a, diet: dietTo }), n = APP.count(f); more = `<button class="pill-btn dark" type="button" data-qz-all='${esc(JSON.stringify(f))}'>Show all ${n} ${n === 1 ? 'match' : 'matches'}</button>`; }
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · your picks</p>
       <h2 class="qz__q qz__q--res" id="qz-title">${list.length ? `${top.length} ${esc(sec.noun[top.length === 1 ? 0 : 1])} for you` : 'Nothing matches'}</h2>
-      ${chips ? `<ul class="qz__chips">${chips}</ul>` : ''}${relaxLine}${note ? `<p class="qz__note">${esc(note)}</p>` : ''}
+      ${chips ? `<ul class="qz__chips">${chips}</ul>` : ''}${skippedHtml()}${relaxLine}${note ? `<p class="qz__note">${esc(note)}</p>` : ''}
       <div class="qz__res">${list.length ? top.map(x => sec.events ? evCard(x) : placeCard(x, a, C)).join('') : '<p class="qz__empty">Try fewer wishes, or browse everything.</p>'}</div>
       <div class="qz__end">${more}<button class="qz__skip" type="button" data-qz-restart>Start over</button></div>`);
     root.querySelector('.qz__dots').innerHTML = Array.from({ length: st.steps.length + 2 }, () => '<i class="done"></i>').join('');
+  }
+  /* the steps left out by the adaptive rule (stepPlan), so it is clear why the quiz was short */
+  function skippedHtml() {
+    const sk = st.steps.filter((q, i) => st.skipped[i] === 'rule' && q.short);
+    return sk.length ? `<div class="qz__skipped"><p class="qz__skipped-t">Not asked — wouldn’t change these results:</p><ul class="qz__chips qz__chips--skip">${sk.map(q => `<li>${esc(q.short)}</li>`).join('')}</ul></div>` : '';
   }
   function placeCard(r, a, C) {
     const price = TG.known(r.priceLevel) ? r.priceLevel : '';
