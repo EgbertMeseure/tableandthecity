@@ -2,9 +2,10 @@
 <html lang="en" class="wl-boot">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="68facf24ec">
+<meta name="build" content="b09c61a328">
+<script src="js/i18n.js?v=b09c61a328"></script>
 <script>/* the site root is the globe landing; any old guide link (index.html?city=… / ?country=… / #explore …) forwards to guide.html with the same query + hash before anything renders */
-if(location.search||(location.hash.length>1&&!/^#(be(\/|$)|wl-)/i.test(location.hash)))location.replace("guide.html"+location.search+location.hash);
+if((location.search&&!/^\?lang=[a-z]{2}$/.test(location.search))||(location.hash.length>1&&!/^#(be(\/|$)|wl-)/i.test(location.hash)))location.replace("guide.html"+location.search+location.hash);
 else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathname);</script>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Table and the City — choose your city</title>
@@ -30,8 +31,8 @@ else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathna
 <link rel="modulepreload" href="vendor/three/three.custom.min.js">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/brand.css?v=68facf24ec">
-<link rel="stylesheet" href="css/world.css?v=68facf24ec">
+<link rel="stylesheet" href="css/brand.css?v=b09c61a328">
+<link rel="stylesheet" href="css/world.css?v=b09c61a328">
 </head>
 <body class="wl">
 <a class="wl-skip" href="#wl-dest">Skip to the list of cities</a>
@@ -45,7 +46,7 @@ else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathna
   <a class="logo" href="./"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="190" height="40"></a>
   <div class="wl-top__right">
     <a class="wl-resume" id="wl-resume" hidden href="#"><span class="wl-resume__k">Continue</span> <span id="wl-resume-city"></span> <span aria-hidden="true">→</span></a>
-    <button class="wl-listbtn" type="button" id="wl-listbtn" aria-controls="wl-dest" aria-expanded="false">All destinations</button>
+    <button class="wl-listbtn" type="button" id="wl-listbtn" aria-controls="wl-dest" aria-expanded="false"><span class="wl-lb-full">All destinations</span><span class="wl-lb-short">Destinations</span></button>
   </div>
 </header>
 
@@ -91,7 +92,7 @@ else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathna
   </div>
 </div>
 
-<script type="module" src="js/world.js?v=68facf24ec"></script>
+<script type="module" src="js/world.js?v=b09c61a328"></script>
 <script nomodule>document.documentElement.className+=' no-webgl';</script>
 </body>
 </html>

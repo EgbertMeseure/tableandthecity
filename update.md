@@ -167,3 +167,8 @@ Idempotent; `--check` exits 1 when a page is not stamped with the current build.
 - Never invent data; when in doubt use `unknown` + a note in `dataConflict`.
 - Be polite to sites: ≤1 request/second, own User-Agent, no login pages.
 - No restaurant photos without permission or a free licence (Commons CC BY/BY-SA/CC0/PD, credited); Instagram only via the official embed. Category/hero images in `img/` are Unsplash License (see `img/CREDITS.json`).
+
+## Languages (EN default · NL · DE · FR · ES)
+- UI text lives in `scripts/i18n_strings.txt` (English key | nl | de | fr | es). After editing: `python3 scripts/i18n_build.py` (writes `js/i18n/<lang>.js`), then `python3 scripts/stamp_assets.py`.
+- `js/i18n.js` picks the language from `?lang=xx` (remembered in localStorage), never from the browser; missing strings stay English. Restaurant names, addresses and curated descriptions are never translated.
+- Check: `python3 scripts/test_i18n.py http://localhost:8765/` (every language loads landing/guide/place, no console errors, no English UI string left).

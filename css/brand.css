@@ -351,3 +351,22 @@ html,body{overflow-x:clip}
 
 /* iOS Safari: keep rounded corners while carousel scrolls */
 .pillcard{-webkit-mask-image:-webkit-radial-gradient(white,black);mask-image:radial-gradient(white,black);transform:translateZ(0)}
+
+/* language switcher (js/i18n.js): a small "EN ▾" pill in the header, menu of the five languages */
+.i18n-pending body{visibility:hidden}
+.langsel{position:relative;flex:none;font-family:var(--sans,Montserrat,sans-serif)}
+.langsel__btn{display:inline-flex;align-items:center;gap:6px;height:30px;padding:0 10px 0 12px;border-radius:999px;border:1px solid rgba(255,255,255,.4);background:transparent;color:inherit;color:#fff;font:500 10.5px/1 var(--sans,Montserrat,sans-serif);letter-spacing:.14em;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.langsel__btn:hover,.langsel__btn[aria-expanded="true"]{background:#fff;color:#111;border-color:#fff}
+.langsel__btn svg{width:8px;height:5px;fill:none;stroke:currentColor;stroke-width:1.4}
+.langsel__menu{position:absolute;right:0;top:calc(100% + 8px);z-index:1200;min-width:168px;margin:0;padding:6px;list-style:none;background:#0b0b0b;border:1px solid rgba(255,255,255,.18);border-radius:14px;box-shadow:0 12px 32px rgba(0,0,0,.35)}
+.langsel__menu[hidden]{display:none}
+.langsel__menu a{display:flex;gap:12px;align-items:baseline;padding:9px 12px;border-radius:9px;color:#f4efe4;text-decoration:none;font-size:13px;letter-spacing:.02em}
+.langsel__menu a b{width:22px;font-weight:600;font-size:10.5px;letter-spacing:.14em;opacity:.6}
+.langsel__menu a:hover,.langsel__menu a:focus-visible{background:rgba(255,255,255,.1)}
+.langsel__menu a[aria-current]{color:#c9a96e}
+.langsel__menu a[aria-current] b{opacity:1}
+.wl-top__right .langsel__btn{height:36px;padding:0 12px 0 14px;background:rgba(4,5,6,.35);border-color:rgba(244,239,228,.45);color:#f4efe4}
+.wl-top__right .langsel__btn:hover,.wl-top__right .langsel__btn[aria-expanded="true"]{background:#f4efe4;color:#111}
+@media (max-width:760px){.wl-top__right .langsel__btn{height:34px;padding:0 10px}}
+.wl-lb-short{display:none}
+@media (max-width:480px){.wl-top__right .langsel__btn{padding:0 8px 0 10px;gap:4px}html:not([lang="en"]) .wl-lb-full{display:none}html:not([lang="en"]) .wl-lb-short{display:inline}html:not([lang="en"]) .wl-listbtn{white-space:nowrap}}

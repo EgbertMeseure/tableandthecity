@@ -10,7 +10,7 @@ import hashlib, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FILES = sorted([*ROOT.glob('css/*.css'), *ROOT.glob('js/*.js'), ROOT / 'data' / 'cities.json', *ROOT.glob('data/cities/*.json')])
+FILES = sorted([*ROOT.glob('css/*.css'), *ROOT.glob('js/*.js'), *ROOT.glob('js/i18n/*.js'), ROOT / 'data' / 'cities.json', *ROOT.glob('data/cities/*.json')])
 h = hashlib.sha256()
 for f in FILES: h.update(f.relative_to(ROOT).as_posix().encode()); h.update(f.read_bytes())
 BUILD = h.hexdigest()[:10]

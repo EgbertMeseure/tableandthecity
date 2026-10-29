@@ -1,0 +1,535 @@
+# UI strings: English key | nl | de | fr | es   (build: python3 scripts/i18n_build.py → js/i18n/<lang>.js; empty cell = English)
+# keys are the exact English text the pages render; {n} {city} {x} {date} {raw} … are filled in by js/i18n.js
+## header, nav, footer
+Beta | Bèta | Beta | Bêta | Beta
+This guide is in beta: some info may not be fully accurate yet. | Deze gids is in bèta: sommige info klopt misschien nog niet helemaal. | Dieser Guide ist in der Beta: manche Angaben stimmen vielleicht noch nicht ganz. | Ce guide est en bêta : certaines infos ne sont peut-être pas encore tout à fait exactes. | Esta guía está en beta: algunos datos pueden no ser del todo exactos todavía.
+Language | Taal | Sprache | Langue | Idioma
+Search | Zoeken | Suchen | Rechercher | Buscar
+Search restaurant, chef, cuisine, event… | Zoek restaurant, chef, keuken, event… | Restaurant, Koch, Küche, Event suchen… | Restaurant, chef, cuisine, événement… | Busca restaurante, chef, cocina, evento…
+Search a restaurant, chef, dish or cuisine | Zoek een restaurant, chef, gerecht of keuken | Restaurant, Koch, Gericht oder Küche suchen | Cherchez un restaurant, un chef, un plat ou une cuisine | Busca un restaurante, chef, plato o cocina
+Search restaurants | Zoek restaurants | Restaurants suchen | Rechercher des restaurants | Buscar restaurantes
+Menu | Menu | Menü | Menu | Menú
+Close | Sluiten | Schließen | Fermer | Cerrar
+Categories | Categorieën | Kategorien | Catégories | Categorías
+Map & list | Kaart & lijst | Karte & Liste | Carte & liste | Mapa y lista
+Events | Events | Events | Événements | Eventos
+About the data | Over de gegevens | Über die Daten | À propos des données | Sobre los datos
+Suggest a place | Tip een adres | Ort vorschlagen | Proposer une adresse | Sugiere un sitio
+All destinations | Alle bestemmingen | Alle Reiseziele | Toutes les destinations | Todos los destinos
+Destinations | Steden | Reiseziele | Destinations | Destinos
+All destinations · globe | Alle bestemmingen · wereldbol | Alle Reiseziele · Globus | Toutes les destinations · globe | Todos los destinos · globo
+Part of the … and the City family | Deel van de … and the City-familie | Teil der … and the City-Familie | Membre de la famille … and the City | Parte de la familia … and the City
+Home | Home | Start | Accueil | Inicio
+Table and the City – home | Table and the City – home | Table and the City – Startseite | Table and the City – accueil | Table and the City – inicio
+Request your city | Vraag je stad aan | Deine Stadt anfragen | Demandez votre ville | Pide tu ciudad
+soon | binnenkort | bald | bientôt | pronto
+coming soon | binnenkort | demnächst | bientôt | muy pronto
+{x} · coming soon | {x} · binnenkort | {x} · demnächst | {x} · bientôt | {x} · muy pronto
+{x}, coming soon | {x}, binnenkort | {x}, demnächst | {x}, bientôt | {x}, muy pronto
+{x} — coming soon | {x} — binnenkort | {x} — demnächst | {x} — bientôt | {x} — muy pronto
+Choose country | Kies een land | Land wählen | Choisir un pays | Elige país
+Choose city | Kies een stad | Stadt wählen | Choisir une ville | Elige ciudad
+Scroll | Scroll | Scrollen | Défiler | Desliza
+Scroll to categories | Scroll naar de categorieën | Zu den Kategorien scrollen | Aller aux catégories | Ir a las categorías
+## countries and cities
+Belgium | België | Belgien | Belgique | Bélgica
+Netherlands | Nederland | Niederlande | Pays-Bas | Países Bajos
+France | Frankrijk | Frankreich | France | Francia
+Italy | Italië | Italien | Italie | Italia
+Spain | Spanje | Spanien | Espagne | España
+United Kingdom | Verenigd Koninkrijk | Vereinigtes Königreich | Royaume-Uni | Reino Unido
+Germany | Duitsland | Deutschland | Allemagne | Alemania
+Ghent | Gent | Gent | Gand | Gante
+Antwerp | Antwerpen | Antwerpen | Anvers | Amberes
+Bruges | Brugge | Brügge | Bruges | Brujas
+Ostend | Oostende | Ostende | Ostende | Ostende
+Brussels | Brussel | Brüssel | Bruxelles | Bruselas
+## hero
+Taste the city | Proef de stad | Schmeck die Stadt | Goûtez la ville | Saborea la ciudad
+at its finest tables | aan haar beste tafels | an ihren besten Tischen | à ses plus belles tables | en sus mejores mesas
+Explore | Ontdek | Entdecken | Explorer | Explorar
+Find my table | Vind mijn tafel | Finde meinen Tisch | Trouver ma table | Encuentra mi mesa
+Answer a few quick questions and we’ll suggest places that fit. | Beantwoord een paar korte vragen en wij tippen adressen die passen. | Beantworte ein paar kurze Fragen und wir schlagen passende Adressen vor. | Répondez à quelques questions et nous vous proposons des adresses qui vous ressemblent. | Responde unas preguntas rápidas y te sugerimos sitios a tu medida.
+Restaurants | Restaurants | Restaurants | Restaurants | Restaurantes
+Veggie & vegan | Veggie & vegan | Veggie & vegan | Végé & vegan | Veggie y vegano
+Events & collaborations | Events & samenwerkingen | Events & Kollaborationen | Événements & collaborations | Eventos y colaboraciones
+{n} places in {city} | {n} adressen in {city} | {n} Adressen in {city} | {n} adresses à {city} | {n} sitios en {city}
+{a} fully vegan · {b} vegetarian · {c} with veggie options | {a} volledig vegan · {b} vegetarisch · {c} met veggie opties | {a} komplett vegan · {b} vegetarisch · {c} mit Veggie-Optionen | {a} 100 % vegan · {b} végétariens · {c} avec options végé | {a} 100 % veganos · {b} vegetarianos · {c} con opciones veggie
+{n} upcoming events & collaborations | {n} komende events & samenwerkingen | {n} kommende Events & Kollaborationen | {n} événements & collaborations à venir | {n} próximos eventos y colaboraciones
+## choose your table (tiles)
+Choose your table | Kies je tafel | Wähle deinen Tisch | Choisissez votre table | Elige tu mesa
+Previous categories | Vorige categorieën | Vorherige Kategorien | Catégories précédentes | Categorías anteriores
+Next categories | Volgende categorieën | Nächste Kategorien | Catégories suivantes | Categorías siguientes
+Categories (scroll horizontally) | Categorieën (horizontaal scrollen) | Kategorien (horizontal scrollen) | Catégories (défilement horizontal) | Categorías (desliza en horizontal)
+New | Nieuw | Neu | Nouveau | Nuevo
+{n} places | {n} adressen | {n} Adressen | {n} adresses | {n} sitios
+{n} cuisines | {n} keukens | {n} Küchen | {n} cuisines | {n} cocinas
+{n} upcoming | {n} gepland | {n} kommende | {n} à venir | {n} próximos
+All {x}, {n} | Alle {x}, {n} | Alle {x}, {n} | Tout : {x}, {n} | Todo: {x}, {n}
+All | Alle | Alle | Tout | Todo
+Just opened | Net geopend | Neu eröffnet | Tout juste ouvert | Recién abierto
+Opening soon | Opent binnenkort | Eröffnet bald | Ouverture prochaine | Abre pronto
+Fine dining | Fine dining | Fine Dining | Gastronomique | Alta cocina
+Gastro-bistro | Gastrobistro | Gastro-Bistro | Bistronomie | Gastrobistró
+Bistro | Bistro | Bistro | Bistrot | Bistró
+Brasserie | Brasserie | Brasserie | Brasserie | Brasserie
+Casual | Ongedwongen | Locker | Décontracté | Informal
+Michelin | Michelin | Michelin | Michelin | Michelin
+By cuisine | Per keuken | Nach Küche | Par cuisine | Por cocina
+Bakeries | Bakkers | Bäckereien | Boulangeries | Panaderías
+Patisseries | Patisserieën | Konditoreien | Pâtisseries | Pastelerías
+Sourdough | Zuurdesem | Sauerteig | Levain | Masa madre
+Breakfast & Brunch | Ontbijt & brunch | Frühstück & Brunch | Petit-déj & brunch | Desayuno y brunch
+Breakfast & brunch | Ontbijt & brunch | Frühstück & Brunch | Petit-déj & brunch | Desayuno y brunch
+breakfast & brunch | ontbijt & brunch | Frühstück & Brunch | petit-déj & brunch | desayuno y brunch
+Breakfast | Ontbijt | Frühstück | Petit-déjeuner | Desayuno
+Brunch | Brunch | Brunch | Brunch | Brunch
+Weekend brunch | Weekendbrunch | Wochenend-Brunch | Brunch du week-end | Brunch de fin de semana
+Opens early | Vroeg open | Früh geöffnet | Ouvre tôt | Abre temprano
+Open early | Vroeg open | Früh geöffnet | Ouvre tôt | Abre temprano
+Cafés & bars | Cafés & bars | Cafés & Bars | Cafés & bars | Cafés y bares
+Dance cafés | Danscafés | Tanzcafés | Cafés dansants | Cafés con baile
+Brown cafés | Bruine kroegen | Braune Kneipen | Cafés bruns | Bares de toda la vida
+Irish pubs | Ierse pubs | Irish Pubs | Pubs irlandais | Pubs irlandeses
+Cocktail bars | Cocktailbars | Cocktailbars | Bars à cocktails | Coctelerías
+Wine bars | Wijnbars | Weinbars | Bars à vin | Bares de vinos
+Coffee | Koffie | Kaffee | Café | Café
+Specialty coffee | Specialty coffee | Specialty Coffee | Café de spécialité | Café de especialidad
+Shops & roasters | Winkels & branders | Läden & Röstereien | Boutiques & torréfacteurs | Tiendas y tostadores
+Veggie | Veggie | Veggie | Végé | Veggie
+100% vegan | 100% vegan | 100 % vegan | 100 % vegan | 100 % vegano
+Fully vegan or vegetarian, or clear veggie/vegan options | Volledig vegan of vegetarisch, of duidelijke veggie/vegan opties | Komplett vegan oder vegetarisch oder klare Veggie-/Vegan-Optionen | 100 % vegan ou végétarien, ou de vraies options végé/vegan | 100 % vegano o vegetariano, o con opciones veggie/veganas claras
+Fully vegan places only | Alleen volledig vegan adressen | Nur komplett vegane Adressen | Uniquement des adresses 100 % vegan | Solo sitios 100 % veganos
+## cuisines
+Asian | Aziatisch | Asiatisch | Asiatique | Asiática
+Belgian & Flemish | Belgisch & Vlaams | Belgisch & flämisch | Belge & flamande | Belga y flamenca
+French | Frans | Französisch | Française | Francesa
+Italian & pizza | Italiaans & pizza | Italienisch & Pizza | Italienne & pizza | Italiana y pizza
+Spanish & Mediterranean | Spaans & mediterraan | Spanisch & mediterran | Espagnole & méditerranéenne | Española y mediterránea
+Modern & creative | Modern & creatief | Modern & kreativ | Moderne & créative | Moderna y creativa
+Japanese & sushi | Japans & sushi | Japanisch & Sushi | Japonaise & sushi | Japonesa y sushi
+Chinese | Chinees | Chinesisch | Chinoise | China
+Thai | Thais | Thailändisch | Thaïe | Tailandesa
+Vietnamese | Vietnamees | Vietnamesisch | Vietnamienne | Vietnamita
+Korean | Koreaans | Koreanisch | Coréenne | Coreana
+Other Asian | Ander Aziatisch | Weitere asiatische | Autres asiatiques | Otras asiáticas
+Indian & Nepalese | Indisch & Nepalees | Indisch & nepalesisch | Indienne & népalaise | India y nepalí
+Turkish & kebab | Turks & kebab | Türkisch & Kebab | Turque & kebab | Turca y kebab
+Middle Eastern | Midden-Oosters | Nahöstlich | Moyen-Orient | Oriente Medio
+African & Moroccan | Afrikaans & Marokkaans | Afrikanisch & marokkanisch | Africaine & marocaine | Africana y marroquí
+Mexican & Latin American | Mexicaans & Latijns-Amerikaans | Mexikanisch & lateinamerikanisch | Mexicaine & latino | Mexicana y latinoamericana
+Burgers & American | Burgers & Amerikaans | Burger & amerikanisch | Burgers & américaine | Hamburguesas y americana
+Steak & grill | Steak & grill | Steak & Grill | Steak & grill | Carnes y parrilla
+Fish & seafood | Vis & zeevruchten | Fisch & Meeresfrüchte | Poisson & fruits de mer | Pescado y marisco
+Sandwiches & soup | Broodjes & soep | Sandwiches & Suppe | Sandwichs & soupe | Bocadillos y sopa
+Sandwich & soup spots | Broodjes- & soepzaken | Sandwich- & Suppenläden | Sandwichs & soupes | Bocadillos y sopas
+Spanish | Spaans | Spanisch | Espagnole | Española
+Modern | Modern | Modern | Moderne | Moderna
+Japanese | Japans | Japanisch | Japonaise | Japonesa
+Mediterranean | Mediterraan | Mediterran | Méditerranéenne | Mediterránea
+Belgian | Belgisch | Belgisch | Belge | Belga
+Italian | Italiaans | Italienisch | Italienne | Italiana
+## place types
+Restaurant | Restaurant | Restaurant | Restaurant | Restaurante
+Quick bites | Snelle hap | Kleine Happen | Sur le pouce | Para picar
+Dance café | Danscafé | Tanzcafé | Café dansant | Café con baile
+Brown café | Bruine kroeg | Braune Kneipe | Café brun | Bar de toda la vida
+Irish pub | Ierse pub | Irish Pub | Pub irlandais | Pub irlandés
+Café | Café | Café | Café | Café
+Bar | Bar | Bar | Bar | Bar
+Cocktail bar | Cocktailbar | Cocktailbar | Bar à cocktails | Coctelería
+Wine bar | Wijnbar | Weinbar | Bar à vin | Bar de vinos
+Beer bar | Bierbar | Bierbar | Bar à bières | Cervecería
+Coffee house | Koffiehuis | Kaffeehaus | Coffee shop | Cafetería
+Coffee shop / roaster | Koffiebar / branderij | Café / Rösterei | Coffee shop / torréfacteur | Cafetería / tostador
+Bakery | Bakker | Bäckerei | Boulangerie | Panadería
+Patisserie | Patisserie | Konditorei | Pâtisserie | Pastelería
+Café & bar | Café & bar | Café & Bar | Café & bar | Café y bar
+## list, filters, map
+All addresses | Alle adressen | Alle Adressen | Toutes les adresses | Todas las direcciones
+← All addresses | ← Alle adressen | ← Alle Adressen | ← Toutes les adresses | ← Todas las direcciones
+All places in {city} | Alle adressen in {city} | Alle Adressen in {city} | Toutes les adresses à {city} | Todos los sitios en {city}
+All places | Alle adressen | Alle Adressen | Toutes les adresses | Todos los sitios
+All restaurants | Alle restaurants | Alle Restaurants | Tous les restaurants | Todos los restaurantes
+Quick filters | Snelle filters | Schnellfilter | Filtres rapides | Filtros rápidos
+Near me | In de buurt | In meiner Nähe | Près de moi | Cerca de mí
+Open now | Nu open | Jetzt geöffnet | Ouvert maintenant | Abierto ahora
+Only places open right now (Brussels time, from known opening hours) | Alleen adressen die nu open zijn (Brusselse tijd, volgens de gekende openingsuren) | Nur Adressen, die gerade geöffnet sind (Brüsseler Zeit, laut bekannten Öffnungszeiten) | Uniquement les adresses ouvertes maintenant (heure de Bruxelles, d’après les horaires connus) | Solo sitios abiertos ahora (hora de Bruselas, según los horarios conocidos)
+Reset | Wissen | Zurücksetzen | Réinitialiser | Restablecer
+{n} results | {n} resultaten | {n} Ergebnisse | {n} résultats | {n} resultados
+Map | Kaart | Karte | Carte | Mapa
+Click the map to sort by distance | Klik op de kaart om op afstand te sorteren | Klicke auf die Karte, um nach Entfernung zu sortieren | Cliquez sur la carte pour trier par distance | Toca el mapa para ordenar por distancia
+Location unavailable — click the map instead | Locatie niet beschikbaar — klik op de kaart | Standort nicht verfügbar — klicke stattdessen auf die Karte | Position indisponible — cliquez plutôt sur la carte | Ubicación no disponible — toca el mapa
+Locating… | Locatie zoeken… | Standort wird gesucht… | Localisation… | Buscando ubicación…
+My location | Mijn locatie | Mein Standort | Ma position | Mi ubicación
+Starting point | Vertrekpunt | Startpunkt | Point de départ | Punto de partida
+Distance from {x} | Afstand vanaf {x} | Entfernung von {x} | Distance depuis {x} | Distancia desde {x}
+contributors | bijdragers | Mitwirkende | contributeurs | colaboradores
+Show more | Toon meer | Mehr anzeigen | Voir plus | Ver más
+Show more ({a} of {b} more) | Toon meer ({a} van nog {b}) | Mehr anzeigen ({a} von {b} weiteren) | Voir plus ({a} sur {b} de plus) | Ver más ({a} de {b} más)
+Show more places | Toon meer adressen | Mehr Adressen anzeigen | Voir plus d’adresses | Ver más sitios
++{a} · {b} more | +{a} · nog {b} | +{a} · {b} weitere | +{a} · {b} de plus | +{a} · {b} más
+Missing a place? | Mis je een adres? | Fehlt eine Adresse? | Une adresse manque ? | ¿Falta algún sitio?
+Suggest it | Tip het | Schlag sie vor | Proposez-la | Sugiérelo
+Nothing matches these filters. | Niets past bij deze filters. | Nichts passt zu diesen Filtern. | Rien ne correspond à ces filtres. | Nada coincide con estos filtros.
+Website ↗ | Website ↗ | Website ↗ | Site web ↗ | Web ↗
+Reserve ↗ | Reserveer ↗ | Reservieren ↗ | Réserver ↗ | Reservar ↗
+Reserve | Reserveer | Reservieren | Réserver | Reservar
+Reserve at {raw} (opens booking page) | Reserveer bij {raw} (opent de boekingspagina) | Bei {raw} reservieren (öffnet die Buchungsseite) | Réserver chez {raw} (ouvre la page de réservation) | Reservar en {raw} (abre la página de reservas)
+Bookable | Reserveerbaar | Reservierbar | Réservable | Con reserva
+Check availability | Bekijk beschikbaarheid | Verfügbarkeit prüfen | Voir les disponibilités | Ver disponibilidad
+Check availability ↗ | Bekijk beschikbaarheid ↗ | Verfügbarkeit prüfen ↗ | Voir les disponibilités ↗ | Ver disponibilidad ↗
+Reservation by phone | Reserveren via telefoon | Reservierung per Telefon | Réservation par téléphone | Reserva por teléfono
+Walk-in only | Enkel binnenlopen | Nur ohne Reservierung | Sans réservation | Sin reserva
+Call to reserve | Bel om te reserveren | Zum Reservieren anrufen | Appelez pour réserver | Llama para reservar
+## badges, features (At a glance)
+Veggie options | Veggie opties | Veggie-Optionen | Options végé | Opciones veggie
+Vegan options | Vegan opties | Vegane Optionen | Options vegan | Opciones veganas
+Vegetarian | Vegetarisch | Vegetarisch | Végétarien | Vegetariano
+Vegan | Vegan | Vegan | Vegan | Vegano
+Fully vegan | Volledig vegan | Komplett vegan | 100 % vegan | 100 % vegano
+Fully vegetarian | Volledig vegetarisch | Komplett vegetarisch | 100 % végétarien | 100 % vegetariano
+Fully vegetarian · vegan options | Volledig vegetarisch · vegan opties | Komplett vegetarisch · vegane Optionen | 100 % végétarien · options vegan | 100 % vegetariano · opciones veganas
+2 Michelin stars | 2 Michelinsterren | 2 Michelin-Sterne | 2 étoiles Michelin | 2 estrellas Michelin
+1 Michelin star | 1 Michelinster | 1 Michelin-Stern | 1 étoile Michelin | 1 estrella Michelin
+Michelin selection | Michelin-selectie | Michelin-Auswahl | Sélection Michelin | Selección Michelin
+Bib Gourmand | Bib Gourmand | Bib Gourmand | Bib Gourmand | Bib Gourmand
+Event | Event | Event | Événement | Evento
+At a glance | In een oogopslag | Auf einen Blick | En bref | De un vistazo
+Confirmed features | Bevestigde kenmerken | Bestätigte Merkmale | Caractéristiques confirmées | Características confirmadas
+Features | Kenmerken | Merkmale | Caractéristiques | Características
+Features ({n} confirmed) | Kenmerken ({n} bevestigd) | Merkmale ({n} bestätigt) | Caractéristiques ({n} confirmées) | Características ({n} confirmadas)
+confirmed | bevestigd | bestätigt | confirmé | confirmado
+no / not confirmed | nee / niet bevestigd | nein / nicht bestätigt | non / pas confirmé | no / sin confirmar
+Confirmed | Bevestigd | Bestätigt | Confirmé | Confirmado
+Confirmed — {raw} | Bevestigd — {raw} | Bestätigt — {raw} | Confirmé — {raw} | Confirmado — {raw}
+Not confirmed | Niet bevestigd | Nicht bestätigt | Pas confirmé | Sin confirmar
+No | Nee | Nein | Non | No
+Groups of 6+ only | Enkel groepen van 6+ | Nur Gruppen ab 6 | Groupes de 6+ uniquement | Solo grupos de 6+
+Gluten-free | Glutenvrij | Glutenfrei | Sans gluten | Sin gluten
+Gluten-free options | Glutenvrije opties | Glutenfreie Optionen | Options sans gluten | Opciones sin gluten
+Wheelchair | Rolstoel | Rollstuhl | Fauteuil roulant | Silla de ruedas
+Wheelchair accessible | Rolstoeltoegankelijk | Rollstuhlgerecht | Accessible en fauteuil | Accesible en silla de ruedas
+Chef collabs | Chef-samenwerkingen | Koch-Kollabos | Collabs de chefs | Colaboraciones de chefs
+Live music | Livemuziek | Livemusik | Musique live | Música en directo
+Terrace | Terras | Terrasse | Terrasse | Terraza
+Food | Eten | Essen | Cuisine | Comida
+Food served | Eten verkrijgbaar | Mit Essen | On y mange | Sirven comida
+Drinks | Drank | Getränke | Boissons | Bebidas
+Wifi | Wifi | WLAN | Wi-Fi | Wifi
+Open Monday | Open op maandag | Montags geöffnet | Ouvert le lundi | Abre los lunes
+Open Sunday | Open op zondag | Sonntags geöffnet | Ouvert le dimanche | Abre los domingos
+Seating | Zitplaatsen | Sitzplätze | Places assises | Para sentarse
+Takeaway | Afhalen | Zum Mitnehmen | À emporter | Para llevar
+Signature cocktails | Signature cocktails | Signature-Cocktails | Cocktails signature | Cócteles de autor
+Mocktails / alcohol-free | Mocktails / alcoholvrij | Mocktails / alkoholfrei | Mocktails / sans alcool | Mocktails / sin alcohol
+Late night | Tot laat | Bis spät | Tard le soir | Hasta tarde
+Reservations | Reservaties | Reservierungen | Réservations | Reservas
+Walk-in | Binnenlopen | Ohne Reservierung | Sans réservation | Sin reserva
+Kids welcome | Kinderen welkom | Kinder willkommen | Enfants bienvenus | Niños bienvenidos
+Lunch | Lunch | Mittagessen | Déjeuner | Almuerzo
+Dinner | Diner | Abendessen | Dîner | Cena
+Set menu | Vast menu | Menü | Menu | Menú cerrado
+À la carte | À la carte | À la carte | À la carte | A la carta
+Wine pairing | Wijnarrangement | Weinbegleitung | Accord mets-vins | Maridaje de vinos
+Non-alcoholic pairing | Alcoholvrij arrangement | Alkoholfreie Begleitung | Accord sans alcool | Maridaje sin alcohol
+Gault&Millau | Gault&Millau | Gault&Millau | Gault&Millau | Gault&Millau
+Monday | Maandag | Montag | Lundi | Lunes
+Tuesday | Dinsdag | Dienstag | Mardi | Martes
+Wednesday | Woensdag | Mittwoch | Mercredi | Miércoles
+Thursday | Donderdag | Donnerstag | Jeudi | Jueves
+Friday | Vrijdag | Freitag | Vendredi | Viernes
+Saturday | Zaterdag | Samstag | Samedi | Sábado
+Sunday | Zondag | Sonntag | Dimanche | Domingo
+## opening hours, dates
+Mon | ma | Mo | lun. | lun
+Tue | di | Di | mar. | mar
+Wed | wo | Mi | mer. | mié
+Thu | do | Do | jeu. | jue
+Fri | vr | Fr | ven. | vie
+Sat | za | Sa | sam. | sáb
+Sun | zo | So | dim. | dom
+Mo | ma | Mo | lu | lu
+Tu | di | Di | ma | ma
+We | wo | Mi | me | mi
+Th | do | Do | je | ju
+Fr | vr | Fr | ve | vi
+Sa | za | Sa | sa | sá
+Su | zo | So | di | do
+closed | gesloten | geschlossen | fermé | cerrado
+Closed | Gesloten | Geschlossen | Fermé | Cerrado
+Daily | Dagelijks | Täglich | Tous les jours | Todos los días
+and holidays | en feestdagen | und Feiertage | et jours fériés | y festivos
+Opens {date} | Opent {date} | Öffnet {date} | Ouvre {date} | Abre {date}
+Closed · opens {date} | Gesloten · opent {date} | Geschlossen · öffnet {date} | Fermé · ouvre {date} | Cerrado · abre {date}
+· until {x} | · tot {x} | · bis {x} | · jusqu’à {x} | · hasta las {x}
+Open now · {x} | Nu open · {x} | Jetzt geöffnet · {x} | Ouvert maintenant · {x} | Abierto ahora · {x}
+Hours not confirmed | Uren niet bevestigd | Zeiten nicht bestätigt | Horaires non confirmés | Horario sin confirmar
+Jan | jan | Jan | janv. | ene
+Feb | feb | Feb | févr. | feb
+Mar | mrt | Mär | mars | mar
+Apr | apr | Apr | avr. | abr
+May | mei | Mai | mai | may
+Jun | jun | Jun | juin | jun
+Jul | jul | Jul | juil. | jul
+Aug | aug | Aug | août | ago
+Sep | sep | Sep | sept. | sept
+Oct | okt | Okt | oct. | oct
+Nov | nov | Nov | nov. | nov
+Dec | dec | Dez | déc. | dic
+January | januari | Januar | janvier | enero
+February | februari | Februar | février | febrero
+March | maart | März | mars | marzo
+April | april | April | avril | abril
+June | juni | Juni | juin | junio
+July | juli | Juli | juillet | julio
+August | augustus | August | août | agosto
+September | september | September | septembre | septiembre
+October | oktober | Oktober | octobre | octubre
+November | november | November | novembre | noviembre
+December | december | Dezember | décembre | diciembre
+{x} {y} | {x} {y} | {x} {y} | {x} {y} | {x} de {y}
+New since {date} | Nieuw sinds {date} | Neu seit {date} | Nouveau depuis {date} | Nuevo desde {date}
+Opening soon · {x} | Opent binnenkort · {x} | Eröffnet bald · {x} | Ouverture prochaine · {x} | Abre pronto · {x}
+Opening soon: | Opent binnenkort: | Eröffnet bald: | Ouverture prochaine : | Abre pronto:
+Just opened: | Net geopend: | Neu eröffnet: | Tout juste ouvert : | Recién abierto:
+from €{n} | vanaf €{n} | ab {n} € | dès {n} € | desde {n} €
+## place page
+Not found | Niet gevonden | Nicht gefunden | Introuvable | No encontrado
+Back to the overview | Terug naar het overzicht | Zurück zur Übersicht | Retour à la liste | Volver al listado
+Address | Adres | Adresse | Adresse | Dirección
+Phone | Telefoon | Telefon | Téléphone | Teléfono
+Website | Website | Website | Site web | Web
+Price | Prijs | Preis | Prix | Precio
+Hours | Openingsuren | Öffnungszeiten | Horaires | Horario
+Menu type | Soort menu | Menüart | Type de menu | Tipo de menú
+Cuisine | Keuken | Küche | Cuisine | Cocina
+Neighbourhood | Wijk | Viertel | Quartier | Barrio
+Instagram ↗ | Instagram ↗ | Instagram ↗ | Instagram ↗ | Instagram ↗
+Directions ↗ | Route ↗ | Route ↗ | Itinéraire ↗ | Cómo llegar ↗
+Directions to {raw} in Google Maps (new tab) | Route naar {raw} in Google Maps (nieuw tabblad) | Route zu {raw} in Google Maps (neuer Tab) | Itinéraire vers {raw} dans Google Maps (nouvel onglet) | Cómo llegar a {raw} en Google Maps (pestaña nueva)
+Sources | Bronnen | Quellen | Sources | Fuentes
+Last changed {date} | Laatst gewijzigd {date} | Zuletzt geändert {date} | Mis à jour le {date} | Actualizado el {date}
+Coordinates: {raw} | Coördinaten: {raw} | Koordinaten: {raw} | Coordonnées : {raw} | Coordenadas: {raw}
+Hours: {raw} | Uren: {raw} | Zeiten: {raw} | Horaires : {raw} | Horario: {raw}
+Photo: {raw} | Foto: {raw} | Foto: {raw} | Photo : {raw} | Foto: {raw}
+Photo: | Foto: | Foto: | Photo : | Foto:
+on Instagram | op Instagram | auf Instagram | sur Instagram | en Instagram
+Expected opening | Verwachte opening | Erwartete Eröffnung | Ouverture prévue | Apertura prevista
+Opened | Geopend | Eröffnet | Ouvert depuis | Abierto desde
+Soon — date not announced yet | Binnenkort — datum nog niet bekend | Bald — Datum noch nicht bekannt | Bientôt — date pas encore annoncée | Pronto — fecha aún sin anunciar
+unknown | onbekend | unbekannt | inconnu | desconocido
+Note: | Let op: | Hinweis: | Note : | Nota:
+No upcoming events or collaborations listed right now. | Momenteel geen komende events of samenwerkingen. | Gerade keine kommenden Events oder Kollaborationen. | Aucun événement ni collaboration à venir pour l’instant. | Ahora mismo no hay eventos ni colaboraciones próximos.
+Gallery | Galerij | Galerie | Galerie | Galería
+Photo category | Fotocategorie | Fotokategorie | Catégorie de photos | Categoría de fotos
+Previous photos | Vorige foto’s | Vorherige Fotos | Photos précédentes | Fotos anteriores
+Next photos | Volgende foto’s | Nächste Fotos | Photos suivantes | Fotos siguientes
+Gallery (scroll horizontally) | Galerij (horizontaal scrollen) | Galerie (horizontal scrollen) | Galerie (défilement horizontal) | Galería (desliza en horizontal)
+Photo viewer | Fotoweergave | Fotoansicht | Visionneuse | Visor de fotos
+Previous photo | Vorige foto | Vorheriges Foto | Photo précédente | Foto anterior
+Next photo | Volgende foto | Nächstes Foto | Photo suivante | Foto siguiente
+Photos from the place’s own Instagram | Foto’s van de eigen Instagram van de zaak | Fotos vom eigenen Instagram des Lokals | Photos du propre Instagram de l’adresse | Fotos del propio Instagram del local
+, shown with Instagram’s embed — tap a photo to open the post. | , getoond via Instagram — tik op een foto om de post te openen. | , über Instagram eingebettet — tippe auf ein Foto, um den Post zu öffnen. | , via l’intégration Instagram — touchez une photo pour ouvrir la publication. | , mostradas con Instagram — toca una foto para abrir la publicación.
+Close popup | Popup sluiten | Popup schließen | Fermer | Cerrar
+Know this place? | Ken je deze zaak? | Kennst du dieses Lokal? | Vous connaissez l’adresse ? | ¿Conoces este sitio?
+Help us keep it right | Help ons het juist te houden | Hilf uns, es aktuell zu halten | Aidez-nous à rester exacts | Ayúdanos a mantenerlo al día
+Tap once = has it, twice = doesn’t have it, three times = not sure. | Eén keer tikken = heeft het, twee keer = heeft het niet, drie keer = niet zeker. | Einmal tippen = gibt es, zweimal = gibt es nicht, dreimal = nicht sicher. | Un toucher = oui, deux = non, trois = pas sûr. | Un toque = lo tiene, dos = no lo tiene, tres = no estoy seguro.
+{x}: not sure | {x}: niet zeker | {x}: nicht sicher | {x} : pas sûr | {x}: no estoy seguro
+Add a note (optional) | Voeg een opmerking toe (optioneel) | Notiz hinzufügen (optional) | Ajouter une note (facultatif) | Añade una nota (opcional)
+Note (optional) | Opmerking (optioneel) | Notiz (optional) | Note (facultatif) | Nota (opcional)
+e.g. closed on Mondays now | bv. nu op maandag gesloten | z. B. montags jetzt geschlossen | ex. fermé le lundi désormais | p. ej. ahora cierra los lunes
+Spotted something off? Help us keep this accurate. | Klopt er iets niet? Help ons dit juist te houden. | Stimmt etwas nicht? Hilf uns, es genau zu halten. | Une erreur ? Aidez-nous à garder tout ça exact. | ¿Algo no cuadra? Ayúdanos a mantenerlo exacto.
+Spotted something off? Let us know | Klopt er iets niet? Laat het ons weten | Stimmt etwas nicht? Sag uns Bescheid | Une erreur ? Dites-le-nous | ¿Algo no cuadra? Avísanos
+Let us know | Laat het ons weten | Sag uns Bescheid | Dites-le-nous | Avísanos
+Send | Verstuur | Senden | Envoyer | Enviar
+Thanks! | Bedankt! | Danke! | Merci ! | ¡Gracias!
+## events
+Previous events | Vorige events | Vorherige Events | Événements précédents | Eventos anteriores
+Next events | Volgende events | Nächste Events | Événements suivants | Eventos siguientes
+Event type | Soort event | Art des Events | Type d’événement | Tipo de evento
+Upcoming events (scroll horizontally) | Komende events (horizontaal scrollen) | Kommende Events (horizontal scrollen) | Événements à venir (défilement horizontal) | Próximos eventos (desliza en horizontal)
+Pop-ups | Pop-ups | Pop-ups | Pop-ups | Pop-ups
+Festivals | Festivals | Festivals | Festivals | Festivales
+Tastings | Proeverijen | Verkostungen | Dégustations | Catas
+Concerts & club nights | Concerten & clubnachten | Konzerte & Clubnächte | Concerts & soirées club | Conciertos y noches de club
+More info – visit the page ↗ | Meer info – bezoek de pagina ↗ | Mehr Infos – zur Seite ↗ | Plus d’infos – voir la page ↗ | Más info – visita la página ↗
+Get tickets ↗ | Tickets ↗ | Tickets ↗ | Billets ↗ | Entradas ↗
+Know an event? | Ken je een event? | Kennst du ein Event? | Vous connaissez un événement ? | ¿Conoces un evento?
+Tell us | Vertel het ons | Erzähl es uns | Dites-le-nous | Cuéntanoslo
+No upcoming events match. | Geen komende events gevonden. | Keine passenden Events. | Aucun événement ne correspond. | Ningún evento coincide.
+Try “All” or clear the search. | Probeer “Alle” of wis de zoekopdracht. | Probiere „Alle“ oder lösche die Suche. | Essayez « Tout » ou effacez la recherche. | Prueba «Todo» o borra la búsqueda.
+## about, footer
+Latest changes | Laatste wijzigingen | Letzte Änderungen | Dernières modifications | Últimos cambios
+Coordinates: | Coördinaten: | Koordinaten: | Coordonnées : | Coordenadas:
+Mood images: | Sfeerbeelden: | Stimmungsbilder: | Images d’ambiance : | Imágenes de ambiente:
+## quiz
+What’s the mood? | Waar heb je zin in? | Worauf hast du Lust? | Quelle envie ? | ¿Qué te apetece?
+Back | Terug | Zurück | Retour | Atrás
+{n} matches | {n} resultaten | {n} Treffer | {n} résultats | {n} resultados
+{x} · {a} of {b} | {x} · {a} van {b} | {x} · {a} von {b} | {x} · {a} sur {b} | {x} · {a} de {b}
+{x} · your picks | {x} · jouw keuze | {x} · deine Auswahl | {x} · votre sélection | {x} · tu selección
+Lunch or dinner | Lunch of diner | Mittag- oder Abendessen | Déjeuner ou dîner | Almuerzo o cena
+Cocktails, wine, brown cafés, pubs, dancing | Cocktails, wijn, bruine kroegen, pubs, dansen | Cocktails, Wein, braune Kneipen, Pubs, Tanzen | Cocktails, vin, cafés bruns, pubs, danse | Cócteles, vino, bares clásicos, pubs, baile
+Specialty coffee, brunch, laptop spots | Specialty coffee, brunch, laptopplekken | Specialty Coffee, Brunch, Laptop-Plätze | Café de spécialité, brunch, coins laptop | Café de especialidad, brunch, sitios para el portátil
+Bread, viennoiserie, patisserie | Brood, viennoiserie, patisserie | Brot, Feingebäck, Konditorei | Pain, viennoiseries, pâtisserie | Pan, bollería, pastelería
+Chef collabs, pop-ups, nights out | Chef-samenwerkingen, pop-ups, avondjes uit | Koch-Kollabos, Pop-ups, Ausgehabende | Collabs de chefs, pop-ups, sorties | Colaboraciones, pop-ups, noches de salida
+Any dietary wishes? | Dieetwensen? | Ernährungswünsche? | Des préférences alimentaires ? | ¿Alguna preferencia alimentaria?
+Everything, meat and fish included | Alles, ook vlees en vis | Alles, auch Fleisch und Fisch | Tout, viande et poisson compris | De todo, carne y pescado incluidos
+Any diet | Alles | Alles | Tout | De todo
+Vegetarian, vegan or clear veggie options | Vegetarisch, vegan of duidelijke veggie opties | Vegetarisch, vegan oder klare Veggie-Optionen | Végétarien, vegan ou vraies options végé | Vegetariano, vegano o con opciones veggie claras
+Fully vegan or clear vegan options | Volledig vegan of duidelijke vegan opties | Komplett vegan oder klare vegane Optionen | 100 % vegan ou vraies options vegan | 100 % vegano o con opciones veganas claras
+What kind of food? | Welk soort eten? | Welche Küche? | Quel type de cuisine ? | ¿Qué tipo de comida?
+Any | Maakt niet uit | Egal | Peu importe | Me da igual
+Any food | Alle keukens | Jede Küche | Toutes cuisines | Cualquier cocina
+No preference | Geen voorkeur | Egal | Pas de préférence | Sin preferencia
+When? | Wanneer? | Wann? | Quand ? | ¿Cuándo?
+Right now | Nu meteen | Jetzt sofort | Tout de suite | Ahora mismo
+Today | Vandaag | Heute | Aujourd’hui | Hoy
+Open now or later today | Nu open of later vandaag | Jetzt oder später heute geöffnet | Ouvert maintenant ou plus tard aujourd’hui | Abierto ahora o más tarde hoy
+Now / tonight | Nu / vanavond | Jetzt / heute Abend | Maintenant / ce soir | Ahora / esta noche
+Open now or after 20:00 | Nu open of na 20:00 | Jetzt oder nach 20:00 geöffnet | Ouvert maintenant ou après 20 h | Abierto ahora o después de las 20:00
+Tomorrow | Morgen | Morgen | Demain | Mañana
+This weekend | Dit weekend | Dieses Wochenende | Ce week-end | Este fin de semana
+Next weekend | Volgend weekend | Nächstes Wochenende | Le week-end prochain | El próximo fin de semana
+This week | Deze week | Diese Woche | Cette semaine | Esta semana
+Later | Later | Später | Plus tard | Más adelante
+From {date} | Vanaf {date} | Ab {date} | À partir du {date} | Desde el {date}
+Pick a date | Kies een datum | Datum wählen | Choisir une date | Elige una fecha
+Any day until {date} | Elke dag tot {date} | Jeder Tag bis {date} | N’importe quel jour jusqu’au {date} | Cualquier día hasta el {date}
+Choose a day | Kies een dag | Tag wählen | Choisir un jour | Elige un día
+Previous month | Vorige maand | Vorheriger Monat | Mois précédent | Mes anterior
+Next month | Volgende maand | Nächster Monat | Mois suivant | Mes siguiente
+What style? | Welke stijl? | Welcher Stil? | Quel style ? | ¿Qué estilo?
+Easy-going, all kinds of kitchens | Ongedwongen, allerlei keukens | Entspannt, alle möglichen Küchen | Décontracté, toutes les cuisines | Informal, todo tipo de cocinas
+Moderate | Gemiddeld | Mittel | Modéré | Moderado
+Bistros, brasseries, gastro-bistros | Bistro’s, brasserieën, gastrobistro’s | Bistros, Brasserien, Gastro-Bistros | Bistrots, brasseries, bistronomie | Bistrós, brasseries, gastrobistrós
+Fancy | Chic | Schick | Chic | Elegante
+Fine dining, gastro-bistros, Michelin stars | Fine dining, gastrobistro’s, Michelinsterren | Fine Dining, Gastro-Bistros, Michelin-Sterne | Gastronomique, bistronomie, étoiles Michelin | Alta cocina, gastrobistrós, estrellas Michelin
+How many people? | Met hoeveel? | Wie viele Personen? | Combien de personnes ? | ¿Cuántas personas?
+What’s the occasion? | Wat is de gelegenheid? | Was ist der Anlass? | Quelle occasion ? | ¿Cuál es la ocasión?
+Nothing fancy | Niets bijzonders | Nichts Besonderes | Rien de spécial | Nada especial
+Date night | Date night | Date Night | Dîner en amoureux | Cita
+Fine dining & intimate bistros first | Eerst fine dining & intieme bistro’s | Zuerst Fine Dining & intime Bistros | D’abord gastronomique & bistrots intimes | Primero alta cocina y bistrós íntimos
+A good meal out, no fuss | Gewoon lekker uit eten | Gut essen gehen, ganz entspannt | Un bon repas, sans chichis | Comer bien, sin complicaciones
+A new experience | Iets nieuws | Etwas Neues erleben | Une nouvelle expérience | Una experiencia nueva
+New openings, chef events, distinctions | Nieuwe openingen, chef-events, onderscheidingen | Neueröffnungen, Koch-Events, Auszeichnungen | Nouvelles adresses, événements de chefs, distinctions | Aperturas, eventos de chefs, distinciones
+Big group: places you can book online or by phone come first — check availability with them. | Grote groep: adressen die je online of telefonisch kunt boeken staan eerst — check de beschikbaarheid bij hen. | Große Gruppe: Adressen, die online oder telefonisch buchbar sind, zuerst — frag dort nach Verfügbarkeit. | Grand groupe : les adresses réservables en ligne ou par téléphone d’abord — vérifiez les disponibilités avec elles. | Grupo grande: primero los sitios que se reservan online o por teléfono — consulta su disponibilidad.
+What kind of bar? | Welk soort bar? | Was für eine Bar? | Quel genre de bar ? | ¿Qué tipo de bar?
+Signature drinks, mocktails | Signature drinks, mocktails | Signature-Drinks, Mocktails | Créations maison, mocktails | Cócteles de autor, mocktails
+Wine by the glass, small plates | Wijn per glas, kleine gerechtjes | Wein im Glas, kleine Teller | Vin au verre, petites assiettes | Vino por copas, platillos
+Pints & sport | Pinten & sport | Pints & Sport | Pintes & sport | Pintas y deporte
+DJ, late nights | DJ, tot laat | DJ, lange Nächte | DJ, jusqu’au bout de la nuit | DJ, hasta tarde
+Terrace? | Terras? | Terrasse? | Terrasse ? | ¿Terraza?
+Yes, a terrace | Ja, een terras | Ja, eine Terrasse | Oui, une terrasse | Sí, una terraza
+Confirmed terrace | Bevestigd terras | Bestätigte Terrasse | Terrasse confirmée | Terraza confirmada
+What for? | Waarvoor? | Wofür? | Pour quoi faire ? | ¿Para qué?
+A quick specialty coffee | Snel een goede koffie | Schnell ein guter Kaffee | Un bon café, vite fait | Un buen café rápido
+Specialty coffee bars | Specialty coffee bars | Specialty-Coffee-Bars | Bars à café de spécialité | Cafeterías de especialidad
+Coffee + something to eat | Koffie + iets te eten | Kaffee + etwas zu essen | Café + un petit quelque chose | Café + algo de comer
+Food served, breakfast or brunch | Met eten, ontbijt of brunch | Mit Essen, Frühstück oder Brunch | On y mange, petit-déj ou brunch | Con comida, desayuno o brunch
+Work with my laptop | Werken met mijn laptop | Mit dem Laptop arbeiten | Travailler sur mon laptop | Trabajar con el portátil
+Wifi confirmed | Wifi bevestigd | WLAN bestätigt | Wi-Fi confirmé | Wifi confirmado
+Bread or something sweet? | Brood of iets zoets? | Brot oder etwas Süßes? | Du pain ou quelque chose de sucré ? | ¿Pan o algo dulce?
+Bread & viennoiserie | Brood & viennoiserie | Brot & Feingebäck | Pain & viennoiseries | Pan y bollería
+Sourdough, croissants | Zuurdesem, croissants | Sauerteig, Croissants | Levain, croissants | Masa madre, cruasanes
+Patisserie & sweet | Patisserie & zoet | Konditorei & Süßes | Pâtisserie & douceurs | Pastelería y dulces
+Cakes, tarts, pastries | Taart, gebak, koekjes | Kuchen, Torten, Gebäck | Gâteaux, tartes, pâtisseries | Tartas, pasteles, bollos
+What kind? | Welk soort? | Welche Art? | Quel genre ? | ¿De qué tipo?
+Food & chefs | Eten & chefs | Essen & Köche | Cuisine & chefs | Comida y chefs
+Pop-ups, chef collabs, dinners, festivals | Pop-ups, chef-samenwerkingen, diners, festivals | Pop-ups, Koch-Kollabos, Dinner, Festivals | Pop-ups, collabs de chefs, dîners, festivals | Pop-ups, colaboraciones, cenas, festivales
+Night out | Avondje uit | Ausgehen | Sortie | Noche de salida
+Loading places… | Adressen laden… | Adressen werden geladen… | Chargement des adresses… | Cargando sitios…
+All of these are fully vegan. | Deze zijn allemaal volledig vegan. | Alle sind komplett vegan. | Toutes sont 100 % vegan. | Todos son 100 % veganos.
+All of these are fully vegetarian. | Deze zijn allemaal volledig vegetarisch. | Alle sind komplett vegetarisch. | Toutes sont 100 % végétariennes. | Todos son 100 % vegetarianos.
+Nothing matches | Niets gevonden | Nichts passt | Rien ne correspond | Nada coincide
+No confirmed veggie options | Geen bevestigde veggie opties | Keine bestätigten Veggie-Optionen | Pas d’options végé confirmées | Sin opciones veggie confirmadas
+Show all {n} matches | Toon alle {n} resultaten | Alle {n} Treffer anzeigen | Voir les {n} résultats | Ver los {n} resultados
+All {n} upcoming events | Alle {n} komende events | Alle {n} kommenden Events | Les {n} événements à venir | Los {n} próximos eventos
+Only {n} exact matches — we relaxed “{x}”. | Maar {n} exacte treffers — we hebben “{x}” losgelaten. | Nur {n} genaue Treffer — wir haben „{x}“ gelockert. | Seulement {n} résultats exacts — nous avons assoupli « {x} ». | Solo {n} coincidencias exactas — hemos relajado «{x}».
+Nothing on {date} — here are the nearest events. | Niets op {date} — dit zijn de dichtstbijzijnde events. | Nichts am {date} — hier die nächsten Events. | Rien le {date} — voici les événements les plus proches. | Nada el {date} — estos son los eventos más cercanos.
+Only {n} on {date} — nearest dates added. | Maar {n} op {date} — dichtstbijzijnde data toegevoegd. | Nur {n} am {date} — nächste Termine ergänzt. | Seulement {n} le {date} — dates proches ajoutées. | Solo {n} el {date} — añadidas las fechas más cercanas.
+Find my table – first question: {x} | Vind mijn tafel – eerste vraag: {x} | Finde meinen Tisch – erste Frage: {x} | Trouver ma table – première question : {x} | Encuentra mi mesa – primera pregunta: {x}
+Find my table in {city} | Vind mijn tafel in {city} | Finde meinen Tisch in {city} | Trouver ma table à {city} | Encuentra mi mesa en {city}
+## forms
+Know a table we’re missing? Tell us about it. | Ken je een tafel die we missen? Vertel het ons. | Kennst du einen Tisch, der uns fehlt? Erzähl uns davon. | Vous connaissez une table qui nous manque ? Parlez-nous-en. | ¿Conoces una mesa que nos falta? Cuéntanoslo.
+Place name | Naam van de zaak | Name des Lokals | Nom de l’adresse | Nombre del sitio
+City | Stad | Stadt | Ville | Ciudad
+Country | Land | Land | Pays | País
+Type | Type | Art | Type | Tipo
+Other | Andere | Sonstiges | Autre | Otro
+Address or Google Maps link | Adres of Google Maps-link | Adresse oder Google-Maps-Link | Adresse ou lien Google Maps | Dirección o enlace de Google Maps
+(optional) | (optioneel) | (optional) | (facultatif) | (opcional)
+Why it’s great | Waarom het zo goed is | Warum es so gut ist | Pourquoi c’est bien | Por qué es genial
+Your email | Je e-mail | Deine E-Mail | Votre e-mail | Tu email
+Email | E-mail | E-Mail | E-mail | Email
+Goes straight to our team. | Gaat rechtstreeks naar ons team. | Geht direkt an unser Team. | Arrive directement chez notre équipe. | Llega directamente a nuestro equipo.
+Done | Klaar | Fertig | Terminé | Listo
+The dish, the wine list, the room… | Het gerecht, de wijnkaart, de zaal… | Das Gericht, die Weinkarte, der Raum… | Le plat, la carte des vins, la salle… | El plato, la carta de vinos, el local…
+Only if you’d like a reply | Alleen als je een antwoord wilt | Nur wenn du eine Antwort möchtest | Seulement si vous souhaitez une réponse | Solo si quieres respuesta
+A pop-up, a chef collab, a tasting or a food festival in | Een pop-up, een chef-samenwerking, een proeverij of een foodfestival in | Ein Pop-up, eine Koch-Kollabo, eine Verkostung oder ein Food-Festival in | Un pop-up, une collab de chefs, une dégustation ou un festival culinaire à | ¿Un pop-up, una colaboración de chefs, una cata o un festival gastronómico en
+? Tell us about it. | ? Vertel het ons. | ? Erzähl uns davon. | ? Parlez-nous-en. | ? Cuéntanoslo.
+Event name | Naam van het event | Name des Events | Nom de l’événement | Nombre del evento
+Date(s) | Datum/data | Datum | Date(s) | Fecha(s)
+Venue or place | Locatie of zaak | Ort oder Lokal | Lieu ou adresse | Lugar o sitio
+Link | Link | Link | Lien | Enlace
+Short description | Korte beschrijving | Kurze Beschreibung | Courte description | Descripción breve
+e.g. Fri 6 – Sat 7 Nov | bv. vr 6 – za 7 nov | z. B. Fr 6. – Sa 7. Nov | ex. ven. 6 – sam. 7 nov. | p. ej. vie 6 – sáb 7 nov
+Website, Instagram or tickets | Website, Instagram of tickets | Website, Instagram oder Tickets | Site web, Instagram ou billetterie | Web, Instagram o entradas
+Who’s cooking, what’s on the menu… | Wie kookt er, wat staat er op het menu… | Wer kocht, was steht auf der Karte… | Qui cuisine, ce qu’il y a au menu… | Quién cocina, qué hay en el menú…
+Spotted something off? | Klopt er iets niet? | Stimmt etwas nicht? | Une erreur ? | ¿Algo no cuadra?
+Tell us what’s not right about | Vertel ons wat er niet klopt aan | Sag uns, was nicht stimmt bei | Dites-nous ce qui ne va pas pour | Cuéntanos qué no cuadra en
+Reason | Reden | Grund | Raison | Motivo
+Choose… | Kies… | Wählen… | Choisir… | Elige…
+Doesn’t belong in the guide | Hoort niet in de gids | Gehört nicht in den Guide | N’a pas sa place dans le guide | No debería estar en la guía
+Info is wrong (e.g. hours, price level, quality) | Info klopt niet (bv. uren, prijsniveau, kwaliteit) | Angaben falsch (z. B. Zeiten, Preisniveau, Qualität) | Info erronée (ex. horaires, niveau de prix, qualité) | Datos incorrectos (p. ej. horario, precio, calidad)
+Note | Opmerking | Notiz | Note | Nota
+What should it say? | Wat zou er moeten staan? | Was sollte dort stehen? | Que faudrait-il indiquer ? | ¿Qué debería decir?
+Thank you! We’ll take a look. | Bedankt! We bekijken het. | Danke! Wir sehen es uns an. | Merci ! Nous allons vérifier. | ¡Gracias! Le echaremos un vistazo.
+Please choose a reason. | Kies een reden. | Bitte wähle einen Grund. | Choisissez une raison. | Elige un motivo.
+Please add the name of the place. | Vul de naam van de zaak in. | Bitte gib den Namen des Lokals an. | Indiquez le nom de l’adresse. | Añade el nombre del sitio.
+Please add the city. | Vul de stad in. | Bitte gib die Stadt an. | Indiquez la ville. | Añade la ciudad.
+Please add the name of the event. | Vul de naam van het event in. | Bitte gib den Namen des Events an. | Indiquez le nom de l’événement. | Añade el nombre del evento.
+Please add the date(s). | Vul de datum in. | Bitte gib das Datum an. | Indiquez la ou les dates. | Añade la(s) fecha(s).
+Please fill in both country and city. | Vul zowel land als stad in. | Bitte gib Land und Stadt an. | Indiquez le pays et la ville. | Rellena el país y la ciudad.
+That email doesn’t look right. | Dat e-mailadres lijkt niet te kloppen. | Diese E-Mail-Adresse sieht nicht richtig aus. | Cette adresse e-mail semble incorrecte. | Ese email no parece correcto.
+Sending… | Versturen… | Wird gesendet… | Envoi… | Enviando…
+Couldn’t send, please try again. | Versturen lukte niet, probeer opnieuw. | Senden fehlgeschlagen, bitte versuch es nochmal. | Envoi impossible, réessayez. | No se pudo enviar, inténtalo de nuevo.
+Thank you! Your request for | Bedankt! Je aanvraag voor | Danke! Deine Anfrage für | Merci ! Votre demande pour | ¡Gracias! Tu petición para
+Thank you! Your suggestion for | Bedankt! Je tip voor | Danke! Dein Vorschlag für | Merci ! Votre suggestion pour | ¡Gracias! Tu sugerencia para
+Thank you! | Bedankt! | Danke! | Merci ! | ¡Gracias!
+is on its way to our team. | is onderweg naar ons team. | ist unterwegs zu unserem Team. | est en route vers notre équipe. | va de camino a nuestro equipo.
+## landing (globe)
+Skip to the list of cities | Ga naar de lijst met steden | Zur Liste der Städte | Aller à la liste des villes | Ir a la lista de ciudades
+{n} cities | {n} steden | {n} Städte | {n} villes | {n} ciudades
+{x}: {n} cities | {x}: {n} steden | {x}: {n} Städte | {x} : {n} villes | {x}: {n} ciudades
+Continue | Verder | Weiter | Continuer | Continuar
+Continue to {city} | Verder naar {city} | Weiter nach {city} | Continuer vers {city} | Continuar a {city}
+A curated guide, city by city | Een zorgvuldig samengestelde gids, stad per stad | Ein kuratierter Guide, Stadt für Stadt | Un guide choisi avec soin, ville par ville | Una guía seleccionada, ciudad a ciudad
+Where shall we | Waar gaan we | Wo essen wir | Où dîner | ¿Dónde cenamos
+dine tonight? | vanavond eten? | heute Abend? | ce soir ? | esta noche?
+We start in Belgium and grow, city by city, to every great food city in the world. | We beginnen in België en groeien, stad per stad, naar elke grote foodstad ter wereld. | Wir starten in Belgien und wachsen Stadt für Stadt – bis zu jeder großen Food-Stadt der Welt. | Nous commençons en Belgique et grandissons, ville par ville, vers toutes les grandes villes gourmandes du monde. | Empezamos en Bélgica y crecemos, ciudad a ciudad, hasta cada gran ciudad gastronómica del mundo.
+Explore Belgium | Ontdek België | Belgien entdecken | Explorer la Belgique | Explora Bélgica
+Drag to spin the globe · tap the gold light | Sleep om de wereldbol te draaien · tik op het gouden licht | Ziehen, um den Globus zu drehen · tippe auf das goldene Licht | Faites tourner le globe · touchez la lumière dorée | Arrastra para girar el globo · toca la luz dorada
+Choose your city | Kies je stad | Wähle deine Stadt | Choisissez votre ville | Elige tu ciudad
+More countries are on their way. | Er komen nog meer landen aan. | Weitere Länder folgen. | D’autres pays arrivent bientôt. | Pronto llegarán más países.
+Back to the globe | Terug naar de wereldbol | Zurück zum Globus | Retour au globe | Volver al globo
+Starting in Belgium, growing to every great food city in the world. | We starten in België en groeien naar elke grote foodstad ter wereld. | Start in Belgien, Wachstum bis zu jeder großen Food-Stadt der Welt. | D’abord la Belgique, puis toutes les grandes villes gourmandes du monde. | Empezando en Bélgica, creciendo hacia cada gran ciudad gastronómica del mundo.
+Globe: NASA Earth Observatory, Black Marble & Blue Marble (public domain) · | Wereldbol: NASA Earth Observatory, Black Marble & Blue Marble (publiek domein) · | Globus: NASA Earth Observatory, Black Marble & Blue Marble (gemeinfrei) · | Globe : NASA Earth Observatory, Black Marble & Blue Marble (domaine public) · | Globo: NASA Earth Observatory, Black Marble y Blue Marble (dominio público) ·
+Photo credits | Fotocredits | Bildnachweise | Crédits photo | Créditos de las fotos
+Loading… | Laden… | Wird geladen… | Chargement… | Cargando…
+All credits & licences (JSON) | Alle credits & licenties (JSON) | Alle Nachweise & Lizenzen (JSON) | Tous les crédits & licences (JSON) | Todos los créditos y licencias (JSON)
+The globe | De wereldbol | Der Globus | Le globe | El globo
+Globe unavailable, showing the list | Wereldbol niet beschikbaar, we tonen de lijst | Globus nicht verfügbar, Liste wird angezeigt | Globe indisponible, voici la liste | Globo no disponible, mostramos la lista
+Interactive globe of the cities in the guide. Arrow keys spin it, plus and minus zoom. Use the Belgium button or All destinations to choose a city. | Interactieve wereldbol met de steden in de gids. Pijltjestoetsen draaien, plus en min zoomen. Kies een stad via de knop België of Alle bestemmingen. | Interaktiver Globus mit den Städten im Guide. Pfeiltasten drehen, Plus und Minus zoomen. Wähle eine Stadt über „Belgien“ oder „Alle Reiseziele“. | Globe interactif des villes du guide. Les flèches le font tourner, plus et moins zooment. Choisissez une ville via le bouton Belgique ou Toutes les destinations. | Globo interactivo de las ciudades de la guía. Las flechas lo giran, más y menos hacen zoom. Elige una ciudad con el botón Bélgica o Todos los destinos.
+## page titles and descriptions
+Table and the City — {city}: restaurants, cafés, coffee & bakeries | Table and the City — {city}: restaurants, cafés, koffie & bakkers | Table and the City — {city}: Restaurants, Cafés, Kaffee & Bäckereien | Table and the City — {city} : restaurants, cafés, coffee shops & boulangeries | Table and the City — {city}: restaurantes, cafés, café y panaderías
+Table and the City — choose your city | Table and the City — kies je stad | Table and the City — wähle deine Stadt | Table and the City — choisissez votre ville | Table and the City — elige tu ciudad
+{raw} — {city} — Table and the City | {raw} — {city} — Table and the City | {raw} — {city} — Table and the City | {raw} — {city} — Table and the City | {raw} — {city} — Table and the City
+{city} — Table and the City | {city} — Table and the City | {city} — Table and the City | {city} — Table and the City | {city} — Table and the City
+Table and the City: curated guides to the finest tables, city by city. Spin the globe, pick a country and a city, and find restaurants, cafés, coffee and bakeries. | Table and the City: zorgvuldig samengestelde gidsen naar de beste tafels, stad per stad. Draai de wereldbol, kies een land en een stad, en vind restaurants, cafés, koffie en bakkers. | Table and the City: kuratierte Guides zu den besten Tischen, Stadt für Stadt. Dreh den Globus, wähle Land und Stadt und finde Restaurants, Cafés, Kaffee und Bäckereien. | Table and the City : des guides choisis avec soin vers les plus belles tables, ville par ville. Faites tourner le globe, choisissez un pays et une ville, et trouvez restaurants, cafés, coffee shops et boulangeries. | Table and the City: guías seleccionadas de las mejores mesas, ciudad a ciudad. Gira el globo, elige país y ciudad y encuentra restaurantes, cafés, café y panaderías.
+## footer (∅ = empty)
+Back to top ↑ | Naar boven ↑ | Nach oben ↑ | Haut de page ↑ | Volver arriba ↑
+Part of the | Deel van de | Teil der | Membre de la famille | Parte de la familia
+family | familie | Familie | ∅ | ∅
+Dinners | Diners | Dinner-Events | Dîners | Cenas
