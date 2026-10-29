@@ -502,6 +502,26 @@
   "used_for": "faint land/ocean base + sunlit edge of the globe (world.html)"
  },
  {
+  "file": "img/world/benelux-night-{1600,2400}.webp",
+  "title": "Earth at Night (Black Marble 2016), 500 m tile C1 — cropped to Benelux (0–10°E, 47–55°N)",
+  "photographer": "NASA Earth Observatory (Joshua Stevens), Suomi NPP VIIRS data from Miguel Román, NASA GSFC",
+  "source": "https://earthobservatory.nasa.gov/features/NightLights/page3.php",
+  "download": "https://eoimages.gsfc.nasa.gov/images/imagerecords/144000/144898/BlackMarble_2016_C1.jpg",
+  "license": "Public domain (NASA imagery, not copyrighted in the US; credit requested)",
+  "changes": "cropped 2400×1920 at native 500 m, 1600×1280 resize, WebP",
+  "used_for": "high-res night overlay, lazy-loaded when Belgium is opened on the globe (index.html)"
+ },
+ {
+  "file": "img/world/benelux-day-1200.webp",
+  "title": "Blue Marble Next Generation, December 2004, 500 m tile C1 — cropped to Benelux (0–10°E, 47–55°N)",
+  "photographer": "NASA Earth Observatory (Reto Stöckli, NASA GSFC)",
+  "source": "https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry",
+  "download": "https://eoimages.gsfc.nasa.gov/images/imagerecords/73000/73909/world.topo.bathy.200412.3x21600x21600.C1.jpg",
+  "license": "Public domain (NASA imagery, credit requested)",
+  "changes": "cropped, resized to 1200×960, WebP",
+  "used_for": "high-res land base overlay, lazy-loaded when Belgium is opened on the globe (index.html)"
+ },
+ {
   "file": "img/cities/antwerpen/landing/hl-mas-{900,1600}.webp",
   "title": "Belgie Antwerpen MAS Museum aan de stroom 01.jpg",
   "photographer": "Calips",
