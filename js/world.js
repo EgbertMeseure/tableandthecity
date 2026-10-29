@@ -96,17 +96,39 @@ async function initGlobe() {
   const big = !small() && renderer.capabilities.maxTextureSize >= 4096;
   const [night, day] = await Promise.all([tex(big ? 'img/world/earth-night-4096.jpg' : 'img/world/earth-night-2048.jpg'), tex('img/world/earth-day-2048.jpg')]);
 
+  /* regional high-res overlay (Black Marble / Blue Marble 500 m tiles, cropped): fetched only once a country is opened, then faded in */
+  const HI = { be: { box: [0, 47, 10, 55], night: small() ? 'img/world/benelux-night-1600.webp' : 'img/world/benelux-night-2400.webp', day: 'img/world/benelux-day-1200.webp' } };
+  const hiDone = {};
+  let hiAmt = 0, hiTarget = 0, hiFor = null;
+  function loadHi(id) {
+    const h = HI[id]; if (!h || hiDone[id]) { if (h && hiDone[id] === 'ok') showHi(id); return; } hiDone[id] = 'loading';
+    Promise.all([tex(h.night), tex(h.day)]).then(([n, d]) => {
+      for (const t of [n, d]) { t.anisotropy = renderer.capabilities.getMaxAnisotropy(); t.needsUpdate = true; }
+      h.tN = n; h.tD = d; hiDone[id] = 'ok'; renderer.initTexture && (renderer.initTexture(n), renderer.initTexture(d)); showHi(id);
+    }).catch(() => { hiDone[id] = 'failed'; });
+  }
+  function showHi(id) {
+    const h = HI[id], [lo0, la0, lo1, la1] = h.box, U = earthMat.uniforms;
+    if (hiFor !== id) { hiAmt = 0; hiFor = id; U.uNightHi.value = h.tN; U.uDayHi.value = h.tD; U.uHiMin.value.set((lo0 + 180) / 360, (la0 + 90) / 180); U.uHiMax.value.set((lo1 + 180) / 360, (la1 + 90) / 180); }
+    if (mode === 'country' && focusCountry && focusCountry.id === id) hiTarget = 1;
+  }
+
   const sun = new THREE.Vector3(0.62, 0.55, -0.56).normalize();   // fixed relative to the camera: the lit rim sits top-right, like the reference
   const globe = new THREE.Group(); scene.add(globe);
   const earthMat = new THREE.ShaderMaterial({
-    uniforms: { uNight: { value: night }, uDay: { value: day }, uSun: { value: sun }, uFocus: { value: new THREE.Vector3(0, 0, 1) }, uFocusAmt: { value: 0 } },
+    uniforms: { uNight: { value: night }, uDay: { value: day }, uSun: { value: sun }, uFocus: { value: new THREE.Vector3(0, 0, 1) }, uFocusAmt: { value: 0 },
+      uNightHi: { value: night }, uDayHi: { value: day }, uHiMin: { value: new THREE.Vector2(0, 0) }, uHiMax: { value: new THREE.Vector2(1, 1) }, uHiAmt: { value: 0 } },
     vertexShader: `varying vec2 vUv; varying vec3 vN; varying vec3 vP; varying vec3 vL;
       void main(){ vUv=uv; vL=normalize(position); vN=normalize(mat3(modelMatrix)*normal); vec4 w=modelMatrix*vec4(position,1.); vP=w.xyz; gl_Position=projectionMatrix*viewMatrix*w; }`,
     fragmentShader: `uniform sampler2D uNight; uniform sampler2D uDay; uniform vec3 uSun; uniform vec3 uFocus; uniform float uFocusAmt;
+      uniform sampler2D uNightHi; uniform sampler2D uDayHi; uniform vec2 uHiMin; uniform vec2 uHiMax; uniform float uHiAmt;
       varying vec2 vUv; varying vec3 vN; varying vec3 vP; varying vec3 vL;
       void main(){
         vec3 N=normalize(vN); vec3 V=normalize(cameraPosition-vP);
         vec3 nt=texture2D(uNight,vUv).rgb; vec3 dy=texture2D(uDay,vUv).rgb;
+        if(uHiAmt>0.001){ vec2 q=(vUv-uHiMin)/(uHiMax-uHiMin);
+          if(q.x>0.&&q.x<1.&&q.y>0.&&q.y<1.){ vec2 e=smoothstep(0.,.12,q)*smoothstep(0.,.12,1.-q); float m=e.x*e.y*uHiAmt;   /* feathered edges: no seam */
+            nt=mix(nt,pow(texture2D(uNightHi,q).rgb,vec3(1.12))*.9,m);   /* 500 m tile is crisper/brighter than the 3 km global: tone it to match */ dy=mix(dy,texture2D(uDayHi,q).rgb,m); } }
         float L=dot(nt,vec3(.299,.587,.114));
         float lit=pow(smoothstep(.08,.9,L),1.15);
         vec3 lights=mix(vec3(1.,.70,.34),vec3(1.,.93,.78),smoothstep(.55,1.,L))*lit*1.85;
@@ -164,7 +186,7 @@ async function initGlobe() {
   let mode = 'globe', vx = 0, vy = 0, drag = null, lastInteract = 0, W = 1, H = 1, focusCountry = null;
   const fovT = Math.tan(17.5 * D2R);
   const distFor = rpx => Math.sqrt(Math.pow(R * (H / (2 * fovT)) / rpx, 2) + R * R);
-  const zoomRange = () => mode === 'country' ? [1.12, 3.2] : [distFor(Math.min(H * .62, W * .62)), distFor(Math.min(H, W) * .2)];
+  const zoomRange = () => mode === 'country' ? [1.09, 3.2] : [distFor(Math.min(H * .62, W * .62)), distFor(Math.min(H, W) * .2)];
   function layout(snap) {
     if (mode === 'globe') {
       if (small()) { T.dist = distFor(W * .47); T.ox = 0; T.oy = H * .5 - H * .33; }
@@ -253,6 +275,8 @@ async function initGlobe() {
     camera.position.set(0, 0, S.dist); camera.lookAt(0, 0, 0);
     camera.setViewOffset(W, H, S.ox, S.oy, W, H); camera.updateProjectionMatrix();
     earthMat.uniforms.uFocusAmt.value = S.focus;
+    hiAmt = REDUCED ? hiTarget : hiAmt + (hiTarget - hiAmt) * Math.min(1, dt * 2.2); if (Math.abs(hiTarget - hiAmt) < .002) hiAmt = hiTarget;
+    earthMat.uniforms.uHiAmt.value = hiAmt;
     /* flare on the silhouette, top-right */
     const a = Math.acos(R / S.dist), u = new THREE.Vector3(.72, .69, 0).normalize();
     flare.position.copy(u.clone().multiplyScalar(R * Math.sin(a) * 1.012)).add(new THREE.Vector3(0, 0, R * Math.cos(a) * .98 - .04));
@@ -266,10 +290,10 @@ async function initGlobe() {
   function setRunning(r) { if (r && !running) { running = true; lt = performance.now(); requestAnimationFrame(frame); } else if (!r) running = false; }
 
   return {
-    toGlobe() { mode = 'globe'; focusCountry = null; T.focus = 0; T.rx = clampX(.42); layout(false); lastInteract = performance.now(); },
+    toGlobe() { mode = 'globe'; focusCountry = null; hiTarget = 0; T.focus = 0; T.rx = clampX(.42); layout(false); lastInteract = performance.now(); },
     toCountry(co) { mode = 'country'; focusCountry = co; const f = facing(co.dot[0], co.dot[1]); T.rx = f.x;
       let d = f.y - S.ry; d = ((d + Math.PI) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) - Math.PI; T.ry = S.ry + d; vx = vy = 0;
-      earthMat.uniforms.uFocus.value.copy(ll2v(co.dot[0], co.dot[1]).normalize()); T.focus = 1; layout(false); },
+      earthMat.uniforms.uFocus.value.copy(ll2v(co.dot[0], co.dot[1]).normalize()); T.focus = 1; layout(false); loadHi(co.id); },
     relayout() { layout(false); },
     pause(p) { setRunning(!p); }
   };
