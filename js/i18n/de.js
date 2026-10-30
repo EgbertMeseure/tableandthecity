@@ -627,7 +627,6 @@
 "Been here": "Schon da gewesen",
 "Your score": "Deine Bewertung",
 "Your score: {n}": "Deine Bewertung: {n}",
-"Visited on": "Besucht am",
 "Only you see this, on this device.": "Nur du siehst das, auf diesem Gerät.",
 "Moved to Been here: give it your score on its page": "Zu „Schon da gewesen“ verschoben: bewerte es auf seiner Seite",
 "Nothing on My table in {city} yet. Tap the logo on a place to add it, also offline.": "Noch nichts auf „Mein Tisch“ in {city}. Tippe bei einem Ort auf das Logo, um ihn hinzuzufügen, auch offline.",
@@ -647,5 +646,5 @@
 "Notifications are off for this app. Turn them on in your phone settings to get reminders.": "Mitteilungen sind für diese App aus. Schalte sie in den Telefoneinstellungen ein, um Erinnerungen zu bekommen.",
 "Open now, nearest first. Places without confirmed hours are left out.": "Jetzt offen, nächste zuerst. Orte ohne bestätigte Öffnungszeiten fehlen.",
 "Location is off. Allow location to see what is open near you, or click the map to pick a starting point.": "Standort ist aus. Erlaube den Standort, um zu sehen, was in deiner Nähe offen ist, oder klicke auf die Karte für einen Startpunkt.",
-"My table (your Want to go and Been here places, with your own scores and visit dates) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "„Mein Tisch“ (deine Orte unter „Will ich hin“ und „Schon da gewesen“, mit deinen eigenen Bewertungen und Besuchsdaten) und Event-Erinnerungen bleiben ebenfalls nur auf deinem Gerät: Sie werden nie an uns oder andere gesendet und funktionieren offline. Erinnerungen in der App sind Mitteilungen, die dein Telefon selbst plant (auf der Website eine Kalenderdatei zum Herunterladen); es wird kein Push-Dienst genutzt."
+"My table (your Want to go and Been here places, with your own scores) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "„Mein Tisch“ (deine Orte unter „Will ich hin“ und „Schon da gewesen“, mit deinen eigenen Bewertungen) und Event-Erinnerungen bleiben ebenfalls nur auf deinem Gerät: Sie werden nie an uns oder andere gesendet und funktionieren offline. Erinnerungen in der App sind Mitteilungen, die dein Telefon selbst plant (auf der Website eine Kalenderdatei zum Herunterladen); es wird kein Push-Dienst genutzt."
 };

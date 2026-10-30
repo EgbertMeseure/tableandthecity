@@ -627,7 +627,6 @@
 "Been here": "Ya he ido",
 "Your score": "Tu nota",
 "Your score: {n}": "Tu nota: {n}",
-"Visited on": "Visitado el",
 "Only you see this, on this device.": "Solo tú lo ves, en este dispositivo.",
 "Moved to Been here: give it your score on its page": "Movido a Ya he ido: ponle tu nota en su página",
 "Nothing on My table in {city} yet. Tap the logo on a place to add it, also offline.": "Aún no hay nada en Mi mesa en {city}. Toca el logo de un sitio para añadirlo, también sin conexión.",
@@ -647,5 +646,5 @@
 "Notifications are off for this app. Turn them on in your phone settings to get reminders.": "Las notificaciones están desactivadas para esta app. Actívalas en los ajustes del teléfono para recibir recordatorios.",
 "Open now, nearest first. Places without confirmed hours are left out.": "Abierto ahora, el más cercano primero. Los sitios sin horario confirmado no aparecen.",
 "Location is off. Allow location to see what is open near you, or click the map to pick a starting point.": "La ubicación está desactivada. Permítela para ver qué está abierto cerca de ti, o haz clic en el mapa para elegir un punto de partida.",
-"My table (your Want to go and Been here places, with your own scores and visit dates) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "Mi mesa (tus sitios en Quiero ir y Ya he ido, con tus propias notas y fechas de visita) y los recordatorios de eventos también se quedan solo en tu dispositivo: nunca se nos envían a nosotros ni a nadie, y funcionan sin conexión. En la app, los recordatorios son notificaciones que programa tu propio teléfono (en la web, un archivo de calendario que descargas); no se usa ningún servicio push."
+"My table (your Want to go and Been here places, with your own scores) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "Mi mesa (tus sitios en Quiero ir y Ya he ido, con tus propias notas) y los recordatorios de eventos también se quedan solo en tu dispositivo: nunca se nos envían a nosotros ni a nadie, y funcionan sin conexión. En la app, los recordatorios son notificaciones que programa tu propio teléfono (en la web, un archivo de calendario que descargas); no se usa ningún servicio push."
 };
