@@ -5477,9 +5477,6 @@
     "url": "https://www.instagram.com/p/DebnPxRICFQ/"
    }
   },
-  "osm-kantien-n7628196641": {
-   "hold": "no people-free photo found (research): Own IG/site: people in most shots; food shot wrapped in printed newspaper with illustrations, can label with portrait"
-  },
   "osm-karoot-n9665581800": {
    "posts": [
     {
@@ -6118,26 +6115,6 @@
    "pick": {
     "type": "post",
     "url": "https://www.instagram.com/p/DWGhQHMjYA3/"
-   }
-  },
-  "osm-midpoint-n5918274971": {
-   "photos": [
-    {
-     "src": "https://midpoint.be/images/gallery/interior-3.jpg",
-     "thumb": "https://midpoint.be/images/gallery/interior-3.jpg",
-     "w": 768,
-     "h": 768,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
-     "credit": "midpoint.be",
-     "credit_url": "https://midpoint.be/",
-     "alt": ""
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "https://midpoint.be/images/gallery/interior-3.jpg"
    }
   },
   "osm-midtown-grill-n5276097616": {
@@ -8100,19 +8077,6 @@
    "pick": {
     "type": "photo",
     "src": "https://umamarisqueira.com/images/123135512_165916345198030_3413861531082868968_n.jpg"
-   }
-  },
-  "osm-uncle-sam-s-n12703057611": {
-   "posts": [
-    {
-     "url": "https://www.instagram.com/p/DOoU4MDDVvg/",
-     "category": "food",
-     "origin": "research"
-    }
-   ],
-   "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DOoU4MDDVvg/"
    }
   },
   "osm-veggi-en-grill-n9230929147": {

@@ -167,6 +167,30 @@
    "reason": "burger chain (greenmango.be: \"nos burgers délicieux\"); the other Green Mango branch is tagged cuisine=burger",
    "source": "https://www.greenmango.be",
    "added": "2026-10-29"
+  },
+  "node/7628196641": {
+   "id": "osm-kantien-n7628196641",
+   "name": "Kantien",
+   "kind": "junk",
+   "reason": "OSM cuisine regional;burger;spanish; shown in the new 'Burgers & American' cuisine group; user decision 30 Oct 2026: remove the 3 Gent burger places",
+   "source": "https://www.openstreetmap.org/node/7628196641",
+   "added": "2026-10-30"
+  },
+  "node/5918274971": {
+   "id": "osm-midpoint-n5918274971",
+   "name": "Midpoint",
+   "kind": "junk",
+   "reason": "burger restaurant (own site: 'Midpoint Gourmet Burgers Ghent — Homemade Burgers & Charcoal Grill'); OSM amenity=fast_food; user decision 30 Oct 2026: remove the 3 Gent burger places",
+   "source": "https://www.openstreetmap.org/node/5918274971",
+   "added": "2026-10-30"
+  },
+  "node/12703057611": {
+   "id": "osm-uncle-sam-s-n12703057611",
+   "name": "Uncle Sam's",
+   "kind": "junk",
+   "reason": "OSM cuisine=american (burger / American diner); user decision 30 Oct 2026: remove the 3 Gent burger places",
+   "source": "https://www.openstreetmap.org/node/12703057611",
+   "added": "2026-10-30"
   }
  },
  "pizzaKebabKeep": {

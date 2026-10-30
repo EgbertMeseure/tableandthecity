@@ -77,7 +77,7 @@
     { v: 'veggie', l: 'Veggie', s: 'Vegetarian, vegan or clear veggie options', f: DIET.veggie },
     { v: 'vegan', l: 'Vegan', s: 'Fully vegan or clear vegan options', f: DIET.vegan }] };
   /* restaurant path (see handoff/quiz-redesign/proposal.md): 'Something regular' or 'A specific cuisine' first; the cuisine path asks one of
-     8 families (TG.CZ_FAMILIES), then a sub-cuisine only when the family still splits. Places without a known cuisine stay in the regular path. */
+     7 broad groups (TG.CZ_GROUPS: European, Asian, …), then a detailed cuisine only when the group still splits (adaptive rule). Places without a known cuisine stay in the regular path. */
   const KIND_Q = { id: 'kind', q: 'What are you in the mood for?', hard: true, noSkip: true, minViable: 1, opts: [
     { v: 'regular', l: 'Something regular', s: 'Good food, any kitchen', chip: 'Any kitchen', all: true },
     { v: 'cuisine', l: 'A specific cuisine', s: 'Pick a kitchen', f: r => TG.hasCuisine(r) }] };

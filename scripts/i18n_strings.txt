@@ -129,6 +129,24 @@ Japanese | Japans | Japanisch | Japonaise | Japonesa
 Mediterranean | Mediterraan | Mediterran | Méditerranéenne | Mediterránea
 Belgian | Belgisch | Belgisch | Belge | Belga
 Italian | Italiaans | Italienisch | Italienne | Italiana
+## cuisine groups (30 Oct 2026: broad groups + detailed sub-chips)
+European | Europees | Europäisch | Européenne | Europea
+Middle Eastern & North African | Midden-Oosters & Noord-Afrikaans | Nahost & Nordafrika | Moyen-Orient & Afrique du Nord | Oriente Medio y norte de África
+African | Afrikaans | Afrikanisch | Africaine | Africana
+Latin American | Latijns-Amerikaans | Lateinamerikanisch | Latino-américaine | Latinoamericana
+Fish, meat & grill | Vis, vlees & grill | Fisch, Fleisch & Grill | Poisson, viande & grill | Pescado, carne y parrilla
+Moroccan & North African | Marokkaans & Noord-Afrikaans | Marokkanisch & nordafrikanisch | Marocaine & nord-africaine | Marroquí y norteafricana
+Belgian, French, Italian, Spanish, modern | Belgisch, Frans, Italiaans, Spaans, modern | Belgisch, französisch, italienisch, spanisch, modern | Belge, française, italienne, espagnole, moderne | Belga, francesa, italiana, española, moderna
+Japanese, Chinese, Thai, Vietnamese, Indian… | Japans, Chinees, Thais, Vietnamees, Indisch… | Japanisch, chinesisch, thailändisch, vietnamesisch, indisch… | Japonaise, chinoise, thaïe, vietnamienne, indienne… | Japonesa, china, tailandesa, vietnamita, india…
+Lebanese, Turkish, Moroccan… | Libanees, Turks, Marokkaans… | Libanesisch, türkisch, marokkanisch… | Libanaise, turque, marocaine… | Libanesa, turca, marroquí…
+Ethiopian, West & Central African | Ethiopisch, West- & Centraal-Afrikaans | Äthiopisch, west- & zentralafrikanisch | Éthiopienne, d’Afrique de l’Ouest & centrale | Etíope, de África occidental y central
+Mexican, Peruvian, Brazilian… | Mexicaans, Peruviaans, Braziliaans… | Mexikanisch, peruanisch, brasilianisch… | Mexicaine, péruvienne, brésilienne… | Mexicana, peruana, brasileña…
+Seafood, steak, grill | Zeevruchten, steak, grill | Meeresfrüchte, Steak, Grill | Fruits de mer, steak, grill | Marisco, carne, parrilla
+All European | Alle Europese | Alle europäischen | Toutes les européennes | Todas las europeas
+All Asian | Alle Aziatische | Alle asiatischen | Toutes les asiatiques | Todas las asiáticas
+All Middle Eastern & North African | Alle Midden-Oosterse & Noord-Afrikaanse | Alle aus Nahost & Nordafrika | Tout Moyen-Orient & Afrique du Nord | Todo Oriente Medio y norte de África
+All Fish, meat & grill | Alle vis, vlees & grill | Alles Fisch, Fleisch & Grill | Tout poisson, viande & grill | Todo pescado, carne y parrilla
+{x} restaurants in {city} | Restaurants in {city}: {x} | Restaurants in {city}: {x} | Restaurants à {city} : {x} | Restaurantes en {city}: {x}
 ## place types
 Restaurant | Restaurant | Restaurant | Restaurant | Restaurante
 Quick bites | Snelle hap | Kleine Happen | Sur le pouce | Para picar

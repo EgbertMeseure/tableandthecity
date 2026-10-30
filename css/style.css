@@ -781,3 +781,12 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 /* phone uses the same card padding (22px), so the same full-bleed margins apply */
 .evlist .ev__ph{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 40%,#2a2a2a,#161616 75%);border-bottom:1px solid rgba(255,255,255,.12)}
 .evlist .ev__ph span{font:600 10px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--accent);opacity:.7;text-align:center;padding:0 24px}
+
+/* broad cuisine group (js/app.js czSub): detailed cuisines as one row of oval chips; scrolls sideways, the last chip is cut at the edge as a cue */
+.czsub{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-top:12px;padding-bottom:2px}
+.czsub::-webkit-scrollbar{display:none}
+.czsub[hidden]{display:none}
+.czsub .chip{flex:none;display:inline-flex;align-items:center;white-space:nowrap}
+.czsub .chip .cnt{margin-left:7px;opacity:.6;font-size:10px;letter-spacing:0}
+.czsub .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+@media (max-width:900px){.czsub{margin:10px calc(-1 * var(--gutter)) 0;padding:0 var(--gutter) 2px}.czsub .chip{padding:0 12px;letter-spacing:.1em}}

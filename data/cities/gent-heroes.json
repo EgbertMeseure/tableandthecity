@@ -2137,10 +2137,6 @@
    "why": "not landscape (820x1024)",
    "checked": "2026-10-20"
   },
-  "osm-kantien-n7628196641": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
   "osm-karoot-n9665581800": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
@@ -2293,10 +2289,6 @@
   },
   "osm-mexcalli-n12052382373": {
    "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-midpoint-n5918274971": {
-   "why": "image HTTP 404 text/html; charset=iso-8859-1",
    "checked": "2026-10-20"
   },
   "osm-midtown-grill-n5276097616": {
@@ -2978,10 +2970,6 @@
    "checked": "2026-10-20"
   },
   "osm-uma-marisqueira-n11595390054": {
-   "why": "no og:image / twitter:image",
-   "checked": "2026-10-20"
-  },
-  "osm-uncle-sam-s-n12703057611": {
    "why": "no og:image / twitter:image",
    "checked": "2026-10-20"
   },

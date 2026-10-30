@@ -790,15 +790,6 @@
    ],
    "basis": "OpenStreetMap diet tags"
   },
-  "osm-midpoint-n5918274971": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Midpoint Gourmet Burgers",
-   "hcInfo": "Serves meat, vegan options available. Gourmet burger restaurant offering three types of vegan burgers - pulled vegan meat, cajun and \"Red Velvet\".  Tue-Sun 17:00-21:30"
-  },
   "osm-mistafluut-n10743751308": {
    "veggieLevel": "vegan-friendly",
    "sources": [
@@ -1205,15 +1196,6 @@
     "https://www.openstreetmap.org/node/1997298037"
    ],
    "basis": "OpenStreetMap diet tags"
-  },
-  "osm-uncle-sam-s-n12703057611": {
-   "veggieLevel": "vegan-friendly",
-   "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?"
-   ],
-   "basis": "HappyCow listing",
-   "hcName": "Uncle Sam's",
-   "hcInfo": "Serves meat, vegan options available. American style diner offering labeled vegan burgers.  Thu-Fri 12:00-13:30, Thu-Sat 18:00-21:00, Sun 12:00-21:00"
   },
   "osm-veggi-en-grill-n9230929147": {
    "veggieLevel": "vegan-friendly",

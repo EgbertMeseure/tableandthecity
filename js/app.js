@@ -33,7 +33,7 @@
   if (!/^[a-z-]{0,20}$/.test(state.style)) state.style = '';
   if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
-  ['area', 'price'].forEach(k => state[k] = ''); if (!TG.CZ_BY[state.cuisine]) state.cuisine = '';   // cuisine = a TG.CUISINES id (By cuisine card, quiz) if (state.dist !== 'michelin') state.dist = '';   // filter panel removed: only what the cards can set
+  ['area', 'price'].forEach(k => state[k] = ''); if (!TG.CZ_BY[state.cuisine]) state.cuisine = '';   // cuisine = a TG.CZ_BY id: broad group or detailed cuisine (By cuisine card, sub-chips, quiz) if (state.dist !== 'michelin') state.dist = '';   // filter panel removed: only what the cards can set
   if (state.sort !== 'dist') state.sort = 'rec';                         // no sort menu: recommended order, or distance once Near me / a map point is set
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
@@ -371,6 +371,7 @@
   function render(keep = 0) {                                             // keep: show at least this many cards (Open-now refresh keeps the expanded list)
     syncUrl(); $('#explore-title').textContent = listTitle();
     const list = filtered();
+    czSub();
     $('#count').textContent = `${list.length} result${list.length === 1 ? '' : 's'}`;
     $('#reset').hidden = !anyActive();
     // list: first PAGE cards, "Show more" appends the next PAGE (keeps the DOM small with ~1,500 places);
@@ -382,6 +383,20 @@
     layer.addLayers ? layer.addLayers(list.filter(r => r.lat).map(marker)) : list.filter(r => r.lat).forEach(r => marker(r).addTo(layer));
     renderEvents();
   }
+  /* broad cuisine group chosen ('By cuisine' / quiz): its detailed cuisines as optional sub-filter chips above the list ('All' = the group);
+     counts follow the other filters. Hidden for one-cuisine groups or when only one detailed cuisine has places. */
+  function czSub() {
+    const box = $('#czsub'); if (!box) return;
+    const c = TG.CZ_BY[state.cuisine], gid = c ? (c.group ? c.id : c.parent) : '';
+    const keep = state.cuisine, subs = gid ? TG.czSubs(R, gid).map(m => { state.cuisine = m.id; return { m, n: filtered().length }; }).filter(x => x.n) : [];
+    state.cuisine = keep;
+    if (subs.length < 2) { box.hidden = true; box.innerHTML = ''; return; }
+    state.cuisine = gid; const all = filtered().length; state.cuisine = keep;
+    box.innerHTML = `<button class="chip" type="button" data-czsub="${esc(gid)}" aria-pressed="${keep === gid}">All ${esc(TG.CZ_BY[gid].label)}<span class="cnt">${all}</span></button>` +
+      subs.map(({ m, n }) => `<button class="chip" type="button" data-czsub="${esc(m.id)}" aria-pressed="${keep === m.id}">${esc(m.label)}<span class="cnt">${n}</span></button>`).join('');
+    box.hidden = false;
+  }
+  if ($('#czsub')) $('#czsub').addEventListener('click', e => { const b = e.target.closest('[data-czsub]'); if (!b) return; state.cuisine = b.dataset.czsub; render(); });
   const PAGE = 24, PHONE = matchMedia('(max-width: 900px)'), PH_FIRST = 8, PH_STEP = 16; let LIST = [], shown = 0;
   const first = () => PHONE.matches ? PH_FIRST : PAGE, step = () => PHONE.matches ? PH_STEP : PAGE;
   function moreBtn() {

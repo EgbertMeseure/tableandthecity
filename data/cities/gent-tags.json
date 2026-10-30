@@ -1,7 +1,7 @@
 {
  "about": "Tag layer (applied in js/common.js load()): fills MISSING values only, never overrides curated or OSM data. cuisineTags: added to a restaurant's cuisine tags when it has no tag that maps to a 'By cuisine' / quiz group (TG.CUISINES); sources in order: current OpenStreetMap cuisine tag, the place's name, curated cuisine text, its own website (title / meta description). Left out when unsure. features: OpenStreetMap tags added since the import (outdoor_seating, wheelchair, takeaway). Checked 30 Oct 2026.",
  "city": "gent",
- "count": 43,
+ "count": 42,
  "places": {
   "bianca": {
    "cuisineTags": [
@@ -208,15 +208,6 @@
    "cuisineSource": "own website",
    "cuisineBasis": "site head: Bekend als het beste Syrisch-Libanees restaurant van Gent | Mazaya Gent brengt de rijke smaken van de Midden-Oosterse keuken naar jouw tafel. Met authentieke recepten, warme gastvrijheid en oog voor detail mak",
    "cuisineUrl": "https://mazaya.be/"
-  },
-  "osm-midpoint-n5918274971": {
-   "cuisineTags": [
-    "Grill",
-    "Burgers"
-   ],
-   "cuisineSource": "own website",
-   "cuisineBasis": "site head: Midpoint Gourmet Burgers Ghent — Homemade Burgers & Charcoal Grill | The best homemade gourmet burgers in Ghent. Charcoal grilled, fresh daily. Happy Hour every evening. Nederkouter 59 — Open Tue–Sun from 17:0",
-   "cuisineUrl": "https://midpoint.be/"
   },
   "osm-midtown-grill-n5276097616": {
    "cuisineTags": [
