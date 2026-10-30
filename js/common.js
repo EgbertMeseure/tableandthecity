@@ -527,7 +527,9 @@ const TG = (() => {
       const x = PH[r.id]; if (!x) return;
       if (x.hold) { r.photoHold = x.hold; r.photos = []; r.google_photos = []; r.instagram_posts = []; delete r.heroImage; r.igEmbed = false; return; }
       const posts = (x.posts || []), seen = new Set(posts.map(p => p.url.replace(/\/$/, '')));
-      r.photos = [...(x.photos || []), ...(r.photos || [])];
+      // only: the reworked, self-hosted set (scripts/apply_photos_all.py) replaces older photos and the hotlinked website og:image
+      if (x.only) { r.photos = (x.photos || []).slice(); r.google_photos = []; delete r.heroImage; }
+      else r.photos = [...(x.photos || []), ...(r.photos || [])];
       r.instagram_posts = [...posts, ...igPostsOf(r).filter(p => !seen.has(p.url.replace(/\/$/, '')))];
       if (x.pick) r.photoPick = x.pick;
     });
