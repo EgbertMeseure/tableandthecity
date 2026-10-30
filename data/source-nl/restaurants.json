@@ -2392,7 +2392,15 @@
      "https://sensumgent.be/menu/"
     ],
     "note": "Terugkerend; datum = eerstvolgende 2de zaterdag (berekend).",
-    "id": "sensum-1"
+    "id": "sensum-1",
+    "image": {
+     "src": "img/events/sensum-second-saturday.webp",
+     "w": 960,
+     "h": 540,
+     "alt": "A Sensum dish on a white plate (event image)",
+     "credit": "Sensum — photo Kris Vlegels",
+     "credit_url": "https://sensumgent.be/menu/"
+    }
    }
   ],
   "sources": [

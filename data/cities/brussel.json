@@ -49,7 +49,15 @@
     "https://specialtyatlas.com/events/festivals/"
    ],
    "note": "Three-day specialty coffee (and bean-to-bar chocolate) show with roasting masterclasses, Barista Masters, Origami Cup Belgium and latte-art battles; includes a PRO day. Entry €15 per Specialty Atlas; opening times not confirmed on the organiser page.",
-   "id": "extra-0"
+   "id": "extra-0",
+   "image": {
+    "src": "img/events/brussels-coffee-show.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Pour-over coffee being brewed (Brussels Coffee Show) (event image)",
+    "credit": "Brussels Coffee Show (brusselscoffee.show)",
+    "credit_url": "https://brusselscoffee.show/en/"
+   }
   },
   {
    "title": "DÉGUST' 2026 – collaborative salon of wine, saké and alcohol-free importers",
@@ -67,7 +75,15 @@
     "https://www.raisin.digital/fr/decouvrir/salons-vin-naturel-degustation-evenements/salons/degust-salon-des-importateurs-5359/"
    ],
    "note": "11:00–18:00 per the Raisin salon listing. Brussels natural-wine importers present their winemakers (also saké and no/low).",
-   "id": "extra-1"
+   "id": "extra-1",
+   "image": {
+    "src": "img/events/degust-2026.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "DÉGUST' 2026 poster",
+    "credit": "DÉGUST' (via Raisin)",
+    "credit_url": "https://www.raisin.digital/fr/decouvrir/salons-vin-naturel-degustation-evenements/salons/degust-salon-des-importateurs-5359/"
+   }
   },
   {
    "title": "Spirits in the Sky 2026 – spirits festival",
@@ -100,7 +116,15 @@
     "https://www.brussels-expo.com/en/event/gault-millau-2027/"
    ],
    "note": "Trade/invitation event where the 2027 scores and awards are revealed; relevant because several Brussels scores in this dataset (G&M 2026) will change that day.",
-   "id": "extra-3"
+   "id": "extra-3",
+   "image": {
+    "src": "img/events/gault-millau-2027-launch.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Glasses of wine and spirits on a white table (Gault&Millau guide launch) (event image)",
+    "credit": "Gault&Millau Belux",
+    "credit_url": "https://www.gaultmillau.be/en/news/9-nov-2026-launch-gaultmillau-belux-guide-edition-2027"
+   }
   },
   {
    "title": "Restaurant Week 2026 (Brussels participants)",
@@ -115,7 +139,15 @@
     "https://restaurantweek.be/fr"
    ],
    "note": "Three-course dinner from €34.95 at participating restaurants; bookings open 30 October 2026. National event; the Brussels line-up is on the site (e.g. Le Passage, Uccle, shown in the preview).",
-   "id": "extra-4"
+   "id": "extra-4",
+   "image": {
+    "src": "img/events/restaurant-week-brussel.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "'Restaurants in Brussel' — Grand-Place skyline (Restaurant Week) (event image)",
+    "credit": "Restaurant Week (restaurantweek.be)",
+    "credit_url": "https://restaurantweek.be/fr"
+   }
   },
   {
    "title": "Cantillon public brew (Brassin public)",
@@ -148,7 +180,15 @@
    ],
    "note": "4th edition. Tastings, sales, talks, food trucks and concerts; Sat 14 Nov from 10:00, Sun 15 Nov until 18:00 (Billetweb); Saturday food and concerts run into the night per the programme.",
    "id": "extra-6",
-   "tickets": "https://www.billetweb.fr/grrrabuge-2026-natural-wine-festival"
+   "tickets": "https://www.billetweb.fr/grrrabuge-2026-natural-wine-festival",
+   "image": {
+    "src": "img/events/grrrabuge-2026.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Grrrabuge 2026 natural-wine festival banner",
+    "credit": "Grrrabuge (via Raisin)",
+    "credit_url": "https://www.billetweb.fr/grrrabuge-2026-natural-wine-festival"
+   }
   },
   {
    "title": "Marché de Noël d'Ixelles (Place Flagey)",
@@ -164,7 +204,15 @@
     "https://marchedenoelixelles.be/infos-pratiques/"
    ],
    "note": "Under heated marquees; free entry. Thu 26 & Fri 27 Nov 15:00–22:00, Sat 28 Nov 10:30–22:00, Sun 29 Nov 10:30–19:00. 80+ exhibitors incl. food and drink.",
-   "id": "extra-8"
+   "id": "extra-8",
+   "image": {
+    "src": "img/events/marche-de-noel-ixelles.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Handmade ceramic teapot and cup from a Marché de Noël d'Ixelles maker (event image)",
+    "credit": "Marché de Noël d'Ixelles",
+    "credit_url": "https://marchedenoelixelles.be/"
+   }
   },
   {
    "title": "Winter Wonders / Plaisirs d'Hiver / Winterpret 2026 – Christmas market and winter food stalls",
@@ -181,7 +229,15 @@
     "https://www.brussels.be/winter-wonders"
    ],
    "note": "Fri 27 Nov 2026 – Sun 3 Jan 2027. Christmas market stalls (food, mulled wine, gifts) from the Bourse to Sainte-Catherine and the Fish Market, plus the Grand-Place light show. Daily hours and programme to be published in November 2026.",
-   "id": "extra-9"
+   "id": "extra-9",
+   "image": {
+    "src": "img/events/winter-wonders-brussels.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "A lit Christmas-market stall (Winter Wonders Brussels) (event image)",
+    "credit": "Winter Wonders (winterpret.be)",
+    "credit_url": "https://winterpret.be/en"
+   }
   },
   {
    "title": "Festival Alimenterre 2027 – films and debates on food systems",
@@ -212,7 +268,15 @@
     "https://www.brusselsrhumfestival.be/"
    ],
    "note": "Masterclasses both days; street-food catering. Ticket prices and hours \"coming soon\" on the organiser site.",
-   "id": "extra-11"
+   "id": "extra-11",
+   "image": {
+    "src": "img/events/brussels-rhum-festival.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "A bottle of Brussels Rhum Festival rum (event image)",
+    "credit": "Brussels Rhum Festival",
+    "credit_url": "https://www.brusselsrhumfestival.be/"
+   }
   },
   {
    "title": "Brussels Bar Show 2027",
@@ -227,7 +291,15 @@
     "https://brusselsbarshow.com/"
    ],
    "note": "Belgium's cocktail and bar trade show (theme: The Architecture of Cocktails), seminars programme; tickets 'coming soon'. Mainly for the trade.",
-   "id": "extra-12"
+   "id": "extra-12",
+   "image": {
+    "src": "img/events/brussels-bar-show.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "A cocktail being poured (Brussels Bar Show) (event image)",
+    "credit": "Brussels Bar Show",
+    "credit_url": "https://brusselsbarshow.com/"
+   }
   },
   {
    "title": "Kanal – Centre Pompidou opens, with vegetarian gastronomic restaurant Jeanne",
@@ -245,7 +317,15 @@
     "https://kanal.brussels/en"
    ],
    "note": "Opening day of Kanal; Jeanne then serves Wed–Thu 19:00–24:00 and Fri–Sat 17:30–24:00 (6 courses €95 / 4 courses €75). See brussel-upcoming.json.",
-   "id": "jeanne-0"
+   "id": "jeanne-0",
+   "image": {
+    "src": "img/events/kanal-jeanne.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "The dining room at Kanal – Centre Pompidou (event image)",
+    "credit": "Kanal – Centre Pompidou (kanal.brussels)",
+    "credit_url": "https://kanal.brussels/en/jeanne"
+   }
   },
   {
    "title": "Kanal – Centre Pompidou opens, with all-day restaurant Carrosserie",
@@ -263,7 +343,15 @@
     "https://kanal.brussels/en"
    ],
    "note": "Opening day of Kanal; Carrosserie then opens Wed–Sun 12:00–24:00. See brussel-upcoming.json.",
-   "id": "carrosserie-0"
+   "id": "carrosserie-0",
+   "image": {
+    "src": "img/events/kanal-carrosserie.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Illustration of the Carrosserie restaurant hall at Kanal (event image)",
+    "credit": "Kanal – Centre Pompidou (kanal.brussels)",
+    "credit_url": "https://www.horecabrussels.be/actu-horeca/restauration/pole-food-kanal-bruxelles/"
+   }
   }
  ],
  "changelog": [],
@@ -1096,7 +1184,15 @@
       "https://menssa.be"
      ],
      "note": "Announced on Menssa's own Instagram (\"Notre dernier service aura lieu le 14 novembre prochain\"). Book now if you want to go before it closes.",
-     "id": "menssa-0"
+     "id": "menssa-0",
+     "image": {
+      "src": "img/events/menssa-last-service.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A Menssa dish — prawns with herbs (event image)",
+      "credit": "Menssa (menssa.be)",
+      "credit_url": "https://menssa.be"
+     }
     }
    ],
    "sources": [
@@ -8477,7 +8573,15 @@
       "https://les4jeudis.be/en/events/diners-gastronomiques"
      ],
      "note": "Plant-based fine dining by Aromatique's chef Denis Carpentier as a guest at vegan restaurant Les 4 Jeudis, on the first weekend of the month: Friday 6 and Saturday 7 November, from 19:00. Four-course menu (plant-based and gluten-free) €60, optional wine pairing €28. Book via the restaurant's website: les4jeudis.be/en/reservation or +32 2 721 10 49.",
-     "id": "aromatique-0"
+     "id": "aromatique-0",
+     "image": {
+      "src": "img/events/aromatique-les-4-jeudis.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "The dining room of Les 4 Jeudis (event image)",
+      "credit": "Aromatique (aromatique.be)",
+      "credit_url": "https://www.aromatique.be/en/4jeudis"
+     }
     },
     {
      "title": "Dîners gastronomiques: Aromatique at Les 4 Jeudis",
@@ -8493,7 +8597,15 @@
       "https://les4jeudis.be/en/events/diners-gastronomiques"
      ],
      "note": "Plant-based fine dining by Aromatique's chef Denis Carpentier as a guest at vegan restaurant Les 4 Jeudis, on the first weekend of the month: Friday 4 and Saturday 5 December, from 19:00. Four-course menu (plant-based and gluten-free) €60, optional wine pairing €28. Book via the restaurant's website: les4jeudis.be/en/reservation or +32 2 721 10 49.",
-     "id": "aromatique-1"
+     "id": "aromatique-1",
+     "image": {
+      "src": "img/events/aromatique-les-4-jeudis.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "The dining room of Les 4 Jeudis (event image)",
+      "credit": "Aromatique (aromatique.be)",
+      "credit_url": "https://www.aromatique.be/en/4jeudis"
+     }
     }
    ],
    "sources": [

@@ -11,7 +11,15 @@
   "sources": [
    "https://stad.gent/nl/puur-gent/nieuws-evenementen/neem-deel-aan-gand-gourmand"
   ],
-  "id": "extra-0"
+  "id": "extra-0",
+  "image": {
+   "src": "img/events/gand-gourmand.webp",
+   "w": 960,
+   "h": 540,
+   "alt": "A plated dessert on a sculptural stand (Gand Gourmand) (event image)",
+   "credit": "Stad Gent",
+   "credit_url": "https://stad.gent/nl/puur-gent/nieuws-evenementen/neem-deel-aan-gand-gourmand"
+  }
  },
  {
   "title": "Yasai – herfst pop-up: plant-based 6-gangenmenu (12 plaatsen)",
@@ -26,7 +34,15 @@
    "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
   ],
   "note": "Tweede reeks 5–7 november 2026.",
-  "id": "extra-1"
+  "id": "extra-1",
+  "image": {
+   "src": "img/events/yasai-autumn-popup.webp",
+   "w": 960,
+   "h": 540,
+   "alt": "A plant-based Yasai dish in a bowl (event image)",
+   "credit": "Yasai (yasai.be)",
+   "credit_url": "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
+  }
  },
  {
   "title": "Yasai – herfst pop-up (tweede reeks)",
@@ -40,7 +56,15 @@
   "sources": [
    "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
   ],
-  "id": "extra-2"
+  "id": "extra-2",
+  "image": {
+   "src": "img/events/yasai-autumn-popup.webp",
+   "w": 960,
+   "h": 540,
+   "alt": "A plant-based Yasai dish in a bowl (event image)",
+   "credit": "Yasai (yasai.be)",
+   "credit_url": "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
+  }
  },
  {
   "title": "Chaji omakase – thee- en kaiseki-ervaring met chef Nick Hofman",
@@ -55,7 +79,15 @@
   "sources": [
    "https://zuruzuru-ramen.be/events/chaji-omakase-thee-en-kaiseki-ervaring/"
   ],
-  "id": "extra-3"
+  "id": "extra-3",
+  "image": {
+   "src": "img/events/chaji-omakase.webp",
+   "w": 960,
+   "h": 540,
+   "alt": "Matcha and tea-ceremony setting (Chaji omakase) (event image)",
+   "credit": "Zuru Zuru (zuruzuru-ramen.be)",
+   "credit_url": "https://zuruzuru-ramen.be/events/chaji-omakase-thee-en-kaiseki-ervaring/"
+  }
  },
  {
   "title": "BROER @ Red Loft – Røk neemt de keuken over",

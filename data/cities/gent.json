@@ -5366,6 +5366,14 @@
       "nth": 2,
       "weekday": 6,
       "until": null
+     },
+     "image": {
+      "src": "img/events/sensum-second-saturday.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A Sensum dish on a white plate (event image)",
+      "credit": "Sensum — photo Kris Vlegels",
+      "credit_url": "https://sensumgent.be/menu/"
      }
     }
    ],
@@ -6835,7 +6843,15 @@
      "partners": [],
      "sources": [
       "https://www.demaecht.be/events"
-     ]
+     ],
+     "image": {
+      "src": "img/events/de-maecht-night-of-the-dancing-dead.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "'Night of the Dancing Dead' poster (event image)",
+      "credit": "De Maecht van Ghent (demaecht.be)",
+      "credit_url": "https://www.demaecht.be/events"
+     }
     }
    ],
    "sources": [
@@ -7269,7 +7285,15 @@
      "partners": [],
      "sources": [
       "https://funke.gent/program"
-     ]
+     ],
+     "image": {
+      "src": "img/events/funke-programme.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Funke programme image of the month — a stone sculpture against the sky (venue image)",
+      "credit": "Funke (funke.gent)",
+      "credit_url": "https://funke.gent/program"
+     }
     },
     {
      "id": "funke-ev3",
@@ -7281,7 +7305,15 @@
      "partners": [],
      "sources": [
       "https://funke.gent/program"
-     ]
+     ],
+     "image": {
+      "src": "img/events/funke-programme.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Funke programme image of the month — a stone sculpture against the sky (venue image)",
+      "credit": "Funke (funke.gent)",
+      "credit_url": "https://funke.gent/program"
+     }
     }
    ],
    "sources": [
@@ -15081,7 +15113,15 @@
    "sources": [
     "https://stad.gent/nl/puur-gent/nieuws-evenementen/neem-deel-aan-gand-gourmand"
    ],
-   "id": "extra-0"
+   "id": "extra-0",
+   "image": {
+    "src": "img/events/gand-gourmand.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "A plated dessert on a sculptural stand (Gand Gourmand) (event image)",
+    "credit": "Stad Gent",
+    "credit_url": "https://stad.gent/nl/puur-gent/nieuws-evenementen/neem-deel-aan-gand-gourmand"
+   }
   },
   {
    "title": "Yasai – autumn pop-up: plant-based 6-course menu (12 seats)",
@@ -15096,7 +15136,15 @@
     "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
    ],
    "note": "Second run 5–7 November 2026.",
-   "id": "extra-1"
+   "id": "extra-1",
+   "image": {
+    "src": "img/events/yasai-autumn-popup.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "A plant-based Yasai dish in a bowl (event image)",
+    "credit": "Yasai (yasai.be)",
+    "credit_url": "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
+   }
   },
   {
    "title": "Yasai – autumn pop-up (second run)",
@@ -15110,7 +15158,15 @@
    "sources": [
     "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
    ],
-   "id": "extra-2"
+   "id": "extra-2",
+   "image": {
+    "src": "img/events/yasai-autumn-popup.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "A plant-based Yasai dish in a bowl (event image)",
+    "credit": "Yasai (yasai.be)",
+    "credit_url": "https://www.yasai.be/evenementgegevens/herfst-pop-up-brunch-diner-2026-10-29-18-30"
+   }
   },
   {
    "title": "Chaji omakase – tea and kaiseki experience with chef Nick Hofman",
@@ -15125,7 +15181,15 @@
    "sources": [
     "https://zuruzuru-ramen.be/events/chaji-omakase-thee-en-kaiseki-ervaring/"
    ],
-   "id": "extra-3"
+   "id": "extra-3",
+   "image": {
+    "src": "img/events/chaji-omakase.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Matcha and tea-ceremony setting (Chaji omakase) (event image)",
+    "credit": "Zuru Zuru (zuruzuru-ramen.be)",
+    "credit_url": "https://zuruzuru-ramen.be/events/chaji-omakase-thee-en-kaiseki-ervaring/"
+   }
   }
  ],
  "changelog": [

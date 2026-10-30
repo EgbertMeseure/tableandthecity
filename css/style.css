@@ -771,3 +771,13 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .dev .ev__img img{background:#eee9df}
 /* ---- guide: 'Show more' sits directly under the list of places (PC: the right-hand column, not under the map) ---- */
 @media (min-width:901px){.explorer>.list-more{grid-column:2;grid-row:2}.explorer>.mapwrap{grid-row:1 / span 2;align-self:stretch}}
+/* ---- city/guide event list: picture on top of the card, credit over the picture, equal-height cards in a row ---- */
+.evlist .ev--img{padding-top:0;overflow:hidden}
+.evlist .ev--img>.ev__img{position:relative;margin:0 -22px 6px}
+.evlist .ev--img>.ev__img img{border-radius:0;aspect-ratio:16/9}
+.evlist .ev--img>.ev__img .ev__credit{position:absolute;right:8px;bottom:8px;margin:0;padding:3px 8px;border-radius:999px;background:rgba(0,0,0,.55);color:#fff;opacity:1;font-size:8.5px;max-width:calc(100% - 16px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.evlist .ev{align-self:stretch}
+.evlist .ev>.ev__links{margin-top:auto}
+/* phone uses the same card padding (22px), so the same full-bleed margins apply */
+.evlist .ev__ph{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;background:radial-gradient(ellipse at 50% 40%,#2a2a2a,#161616 75%);border-bottom:1px solid rgba(255,255,255,.12)}
+.evlist .ev__ph span{font:600 10px/1.3 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--accent);opacity:.7;text-align:center;padding:0 24px}

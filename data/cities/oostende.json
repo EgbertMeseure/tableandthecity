@@ -31,7 +31,15 @@
    ],
    "note": "18:00–20:00. Free (registration via Eventbrite). Fresh croquettes, drinks; for guests and locals. The Eventbrite page says \"multiple dates\", but only 30 Oct 2026 is listed.",
    "id": "extra-0",
-   "tickets": "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695643554"
+   "tickets": "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695643554",
+   "image": {
+    "src": "img/events/soiree-crevette.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "A glass of wine by lantern light (Soirée Crevette) (event image)",
+    "credit": "The Bakery of Les Cabanes (Eventbrite)",
+    "credit_url": "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695643554"
+   }
   },
   {
    "title": "Art & Wine Tasting (2nd edition) – wines, art and bites by Willem Hiele, Kaas of Zo and Bruggraeve",
@@ -52,7 +60,15 @@
    ],
    "note": "Sunday. €40 presale / €50 at the door; ticket includes a charcuterie plate (Bruggraeve), a cheese plate (Kaas of Zo) and a signature dish by one-star chef Willem Hiele. Tickets via screwit.be or info@screwit.be. No start time published.",
    "id": "extra-1",
-   "tickets": "https://screwit.be/products/tickets-art-wine-tasting"
+   "tickets": "https://screwit.be/products/tickets-art-wine-tasting",
+   "image": {
+    "src": "img/events/art-wine-tasting.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Art & Wine Tasting poster",
+    "credit": "Art & Wine Tasting (screwit.be)",
+    "credit_url": "https://screwit.be/products/tickets-art-wine-tasting"
+   }
   },
   {
    "title": "Winter in Oostende – Christmas market with local food & drink stalls and ice rink",
@@ -155,7 +171,15 @@
       "https://jongkeukengeweld.be/chefs"
      ],
      "note": "Running now (started 1 Oct). Guests aged 18–35 get a three-course menu at €69 or €79 incl. drinks pairing at participating restaurants; in Oostende: Haut (Dimitri Proost), Paroles Paroles (Terence McGarrity) and Ristorante Marina (Sam Filippusson). Reservation via jongkeukengeweld.be.",
-     "id": "haut-0"
+     "id": "haut-0",
+     "image": {
+      "src": "img/events/jong-keukengeweld-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Colourful plates of food on a pink table (Jong Keukengeweld event image)",
+      "credit": "Jong Keukengeweld (jongkeukengeweld.be)",
+      "credit_url": "https://jongkeukengeweld.be/"
+     }
     }
    ],
    "sources": [
@@ -435,7 +459,15 @@
       "https://jongkeukengeweld.be/chefs"
      ],
      "note": "Running now (started 1 Oct). Guests aged 18–35 get a three-course menu at €69 or €79 incl. drinks pairing at participating restaurants; in Oostende: Haut (Dimitri Proost), Paroles Paroles (Terence McGarrity) and Ristorante Marina (Sam Filippusson). Reservation via jongkeukengeweld.be.",
-     "id": "marina-0"
+     "id": "marina-0",
+     "image": {
+      "src": "img/events/jong-keukengeweld-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Colourful plates of food on a pink table (Jong Keukengeweld event image)",
+      "credit": "Jong Keukengeweld (jongkeukengeweld.be)",
+      "credit_url": "https://jongkeukengeweld.be/"
+     }
     },
     {
      "title": "Goût – Sense & Taste: walking dinner & show (Piet Huysentruyt)",
@@ -457,7 +489,15 @@
       "https://culinaireambiance.com/nl/articles/piet-huysentruyt-en-thijs-meliefste-koken-in-de-wellington-hippodroom-gout-keert-terug-naar-oostende"
      ],
      "note": "19:00–03:00. Line-up: Piet Huysentruyt, with Ristorante Marina, Bistro Mathilda, Atelier D and Kevin Teugels. €179 p.p. (food, drinks and entertainment). Saturday 7 Nov and Tuesday 10 Nov are separate evenings.",
-     "id": "marina-1"
+     "id": "marina-1",
+     "image": {
+      "src": "img/events/gout-sense-taste-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A plated dish being finished at Goût – Sense & Taste (event image)",
+      "credit": "Goût – Sense & Taste (via Visit Oostende)",
+      "credit_url": "https://www.visitoostende.be/nl/gout-sense-taste-1"
+     }
     },
     {
      "title": "A-Wines wine tasting weekend at Ristorante Marina (150+ wines)",
@@ -474,7 +514,15 @@
      ],
      "note": "11:30–18:00 each day. Free, registration via Eventbrite.",
      "id": "marina-2",
-     "tickets": "https://www.eventbrite.be/e/tickets-a-wines-wijndegustatie-weekend-2026-1991299999904"
+     "tickets": "https://www.eventbrite.be/e/tickets-a-wines-wijndegustatie-weekend-2026-1991299999904",
+     "image": {
+      "src": "img/events/a-wines-tasting-weekend.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A-Wines wine tasting weekend poster — 21–23 November, Ristorante Marina (event image)",
+      "credit": "A-Wines (Eventbrite)",
+      "credit_url": "https://www.eventbrite.be/e/tickets-a-wines-wijndegustatie-weekend-2026-1991299999904"
+     }
     }
    ],
    "sources": [
@@ -636,7 +684,15 @@
       "https://www.savarin.be/nl"
      ],
      "note": "€495 all-in (dinner with overnight stay). Three dates: 29 Oct, 12 Nov, 10 Dec 2026. Booking by phone or info@savarin.be only. Savarin gives no further detail on the Monarc side.",
-     "id": "savarin-1"
+     "id": "savarin-1",
+     "image": {
+      "src": "img/events/savarin-monarc-escapade.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Savarin dining room with a view of the sea (event image)",
+      "credit": "Savarin (savarin.be)",
+      "credit_url": "https://www.savarin.be/nl"
+     }
     },
     {
      "title": "Culinaire escapade Savarin x Monarc – dinner with overnight stay",
@@ -652,7 +708,15 @@
       "https://www.savarin.be/nl"
      ],
      "note": "€495 all-in (dinner with overnight stay). Three dates: 29 Oct, 12 Nov, 10 Dec 2026. Booking by phone or info@savarin.be only. Savarin gives no further detail on the Monarc side.",
-     "id": "savarin-2"
+     "id": "savarin-2",
+     "image": {
+      "src": "img/events/savarin-monarc-escapade.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Savarin dining room with a view of the sea (event image)",
+      "credit": "Savarin (savarin.be)",
+      "credit_url": "https://www.savarin.be/nl"
+     }
     },
     {
      "title": "Savarin Christmas Day and New Year's Day menus",
@@ -667,7 +731,15 @@
       "https://www.savarin.be/nl"
      ],
      "note": "Christmas menu on 25 Dec and New Year menu on 1 Jan 2027 (closed 24 and 31 Dec). Prices not published at time of research.",
-     "id": "savarin-3"
+     "id": "savarin-3",
+     "image": {
+      "src": "img/events/savarin-festive-menus.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A colourful Savarin starter on a white plate (event image)",
+      "credit": "Savarin (savarin.be)",
+      "credit_url": "https://www.savarin.be/nl"
+     }
     }
    ],
    "sources": [
@@ -939,7 +1011,15 @@
       "https://restaurantmangetout.be/nl/home/"
      ],
      "note": "Seatings 24 Dec 19:00, 25 Dec 12:00 and 31 Dec 19:00 only. €195–225; New Year's Eve €260 all-in.",
-     "id": "mange-tout-0"
+     "id": "mange-tout-0",
+     "image": {
+      "src": "img/events/mange-tout-festive.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Mange Tout interior with the wine wall (event image)",
+      "credit": "Mange Tout (restaurantmangetout.be)",
+      "credit_url": "https://restaurantmangetout.be/nl/home/"
+     }
     }
    ],
    "sources": [
@@ -1443,7 +1523,15 @@
       "https://culinaireambiance.com/nl/articles/piet-huysentruyt-en-thijs-meliefste-koken-in-de-wellington-hippodroom-gout-keert-terug-naar-oostende"
      ],
      "note": "19:00–03:00. Line-up: Piet Huysentruyt, with Ristorante Marina, Bistro Mathilda, Atelier D and Kevin Teugels. €179 p.p. (food, drinks and entertainment). Saturday 7 Nov and Tuesday 10 Nov are separate evenings.",
-     "id": "bistro-mathilda-0"
+     "id": "bistro-mathilda-0",
+     "image": {
+      "src": "img/events/gout-sense-taste-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A plated dish being finished at Goût – Sense & Taste (event image)",
+      "credit": "Goût – Sense & Taste (via Visit Oostende)",
+      "credit_url": "https://www.visitoostende.be/nl/gout-sense-taste-1"
+     }
     }
    ],
    "sources": [
@@ -2047,7 +2135,15 @@
       "https://jongkeukengeweld.be/chefs"
      ],
      "note": "Running now (started 1 Oct). Guests aged 18–35 get a three-course menu at €69 or €79 incl. drinks pairing at participating restaurants; in Oostende: Haut (Dimitri Proost), Paroles Paroles (Terence McGarrity) and Ristorante Marina (Sam Filippusson). Reservation via jongkeukengeweld.be.",
-     "id": "paroles-paroles-0"
+     "id": "paroles-paroles-0",
+     "image": {
+      "src": "img/events/jong-keukengeweld-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Colourful plates of food on a pink table (Jong Keukengeweld event image)",
+      "credit": "Jong Keukengeweld (jongkeukengeweld.be)",
+      "credit_url": "https://jongkeukengeweld.be/"
+     }
     },
     {
      "title": "MIDNIGHT – New Year's Eve at Paroles Paroles x The Ostendian",
@@ -3574,7 +3670,15 @@
       "https://culinaireambiance.com/nl/articles/piet-huysentruyt-en-thijs-meliefste-koken-in-de-wellington-hippodroom-gout-keert-terug-naar-oostende"
      ],
      "note": "19:00–03:00. Line-up: Piet Huysentruyt, with Ristorante Marina, Bistro Mathilda, Atelier D and Kevin Teugels. €179 p.p. (food, drinks and entertainment). Saturday 7 Nov and Tuesday 10 Nov are separate evenings.",
-     "id": "atelier-d-0"
+     "id": "atelier-d-0",
+     "image": {
+      "src": "img/events/gout-sense-taste-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A plated dish being finished at Goût – Sense & Taste (event image)",
+      "credit": "Goût – Sense & Taste (via Visit Oostende)",
+      "credit_url": "https://www.visitoostende.be/nl/gout-sense-taste-1"
+     }
     },
     {
      "title": "Atelier D festive programme – Christmas menu, New Year's Eve with DJ, New Year menu",
@@ -3589,7 +3693,15 @@
       "https://www.brassi.be/brassigrandcafe-events/"
      ],
      "note": "Christmas menu 24–28 Dec (€99, wine pairing +€49); New Year's Eve 31 Dec from 19:30 with DJ Olivier Lemaire; New Year menu 1–4 Jan.",
-     "id": "atelier-d-1"
+     "id": "atelier-d-1",
+     "image": {
+      "src": "img/events/brassi-festive.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "'Eindejaar bij Brassi Grand Café' festive menu card (event image)",
+      "credit": "Brassi Grand Café (brassi.be)",
+      "credit_url": "https://www.brassi.be/brassigrandcafe-events/"
+     }
     }
    ],
    "sources": [
@@ -3963,7 +4075,15 @@
       "https://culinaireambiance.com/nl/articles/piet-huysentruyt-en-thijs-meliefste-koken-in-de-wellington-hippodroom-gout-keert-terug-naar-oostende"
      ],
      "note": "19:00–03:00. Line-up: Thijs Meliefste, with Commootie (Thomas Gellynck), Kevin Teugels, LOMA, Bottarga and Le Bar du Bassin. €179 p.p. (food, drinks and entertainment). Saturday 7 Nov and Tuesday 10 Nov are separate evenings.",
-     "id": "loma-0"
+     "id": "loma-0",
+     "image": {
+      "src": "img/events/gout-sense-taste-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A plated dish being finished at Goût – Sense & Taste (event image)",
+      "credit": "Goût – Sense & Taste (via Visit Oostende)",
+      "credit_url": "https://www.visitoostende.be/nl/gout-sense-taste-1"
+     }
     }
    ],
    "sources": [
@@ -4627,7 +4747,15 @@
       "https://www.thewinegallery.be/etn/masterclass-italie-met-gianluca-di-taranto-reeks-van-3-masterclasses/"
      ],
      "note": "19:30–22:30. Series of three masterclasses on Italian wine with Gianluca Di Taranto (Best Sommelier of Belgium 2019/2020). €125 per evening or €300 for the series.",
-     "id": "the-wine-gallery-0"
+     "id": "the-wine-gallery-0",
+     "image": {
+      "src": "img/events/the-wine-gallery.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Wine bottles above a vineyard — The Wine Gallery (venue image)",
+      "credit": "The Wine Gallery (thewinegallery.be)",
+      "credit_url": "https://www.thewinegallery.be/"
+     }
     },
     {
      "title": "Masterclass Italy with Gianluca Di Taranto (part 2/3)",
@@ -4643,7 +4771,15 @@
       "https://www.thewinegallery.be/etn/masterclass-italie-met-gianluca-di-taranto-reeks-van-3-masterclasses/"
      ],
      "note": "19:30–22:30. Series of three masterclasses on Italian wine with Gianluca Di Taranto (Best Sommelier of Belgium 2019/2020). €125 per evening or €300 for the series.",
-     "id": "the-wine-gallery-1"
+     "id": "the-wine-gallery-1",
+     "image": {
+      "src": "img/events/the-wine-gallery.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Wine bottles above a vineyard — The Wine Gallery (venue image)",
+      "credit": "The Wine Gallery (thewinegallery.be)",
+      "credit_url": "https://www.thewinegallery.be/"
+     }
     },
     {
      "title": "Masterclass Italy with Gianluca Di Taranto (part 3/3)",
@@ -4659,7 +4795,15 @@
       "https://www.thewinegallery.be/etn/masterclass-italie-met-gianluca-di-taranto-reeks-van-3-masterclasses/"
      ],
      "note": "19:30–22:30. Series of three masterclasses on Italian wine with Gianluca Di Taranto (Best Sommelier of Belgium 2019/2020). €125 per evening or €300 for the series.",
-     "id": "the-wine-gallery-2"
+     "id": "the-wine-gallery-2",
+     "image": {
+      "src": "img/events/the-wine-gallery.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Wine bottles above a vineyard — The Wine Gallery (venue image)",
+      "credit": "The Wine Gallery (thewinegallery.be)",
+      "credit_url": "https://www.thewinegallery.be/"
+     }
     },
     {
      "title": "The Art of Cheese & Wine – an evening with Frederic Van Tricht",
@@ -4675,7 +4819,15 @@
       "https://www.thewinegallery.be/etn/the-art-of-cheese-wine-an-exclusive-evening-with-frederic-van-tricht/"
      ],
      "note": "19:30–22:30. €120.",
-     "id": "the-wine-gallery-3"
+     "id": "the-wine-gallery-3",
+     "image": {
+      "src": "img/events/the-wine-gallery.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Wine bottles above a vineyard — The Wine Gallery (venue image)",
+      "credit": "The Wine Gallery (thewinegallery.be)",
+      "credit_url": "https://www.thewinegallery.be/"
+     }
     }
    ],
    "sources": [
@@ -6186,7 +6338,15 @@
       "https://culinaireambiance.com/nl/articles/piet-huysentruyt-en-thijs-meliefste-koken-in-de-wellington-hippodroom-gout-keert-terug-naar-oostende"
      ],
      "note": "19:00–03:00. Line-up: Thijs Meliefste, with Commootie (Thomas Gellynck), Kevin Teugels, LOMA, Bottarga and Le Bar du Bassin. €179 p.p. (food, drinks and entertainment). Saturday 7 Nov and Tuesday 10 Nov are separate evenings.",
-     "id": "le-bar-du-bassin-0"
+     "id": "le-bar-du-bassin-0",
+     "image": {
+      "src": "img/events/gout-sense-taste-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "A plated dish being finished at Goût – Sense & Taste (event image)",
+      "credit": "Goût – Sense & Taste (via Visit Oostende)",
+      "credit_url": "https://www.visitoostende.be/nl/gout-sense-taste-1"
+     }
     }
    ],
    "sources": [

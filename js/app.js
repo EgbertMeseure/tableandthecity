@@ -450,10 +450,11 @@
       const links = e.restaurantIds.map((id, i) => `<a href="${detailUrl(id)}">${esc(e.restaurantNames[i])}</a>`).join('');
       // hierarchy: small date/type line → event NAME (dominant, max 3 lines) → venue small
       const eh = TG.evHref(e);
-      return `<article class="ev${eh ? ' ev--link' : ''}"${eh ? ` data-ev-href="${esc(eh)}"` : ''}><div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
+      // picture on top of the card (compact city list); without a picture a quiet same-size block keeps the row even
+      const im = TG.evImg(e) || `<div class="ev__img ev__ph" aria-hidden="true"><span>${esc(e.type || '')}</span></div>`;
+      return `<article class="ev${eh ? ' ev--link' : ''} ev--img"${eh ? ` data-ev-href="${esc(eh)}"` : ''}>${im}<div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
         <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
         <div class="ev__desc" title="${esc(e.note || '')}">${esc(TG.evDesc(e))}</div>
-        ${TG.evImg(e)}
         <div class="ev__links">${links}</div><div class="ev__btns">${TG.evButtons(e)}</div></article>`;
     }).join('') : '<div class="ev-empty"><p>No upcoming events match.</p><p class="sub">Try “All” or clear the search.</p></div>';
   }

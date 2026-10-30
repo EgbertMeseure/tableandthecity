@@ -16,7 +16,7 @@ city, src = sys.argv[1], sys.argv[2]
 today = datetime.datetime.now(ZoneInfo('Europe/Brussels')).date().isoformat()
 H = json.load(open(src)); path = f'data/cities/{city}.json'; D = json.load(open(path))
 DET = H.get('eventDetails', {})
-FIELDS = ['title', 'dateStart', 'dateEnd', 'type', 'location', 'partners', 'sources', 'note', 'id']
+FIELDS = ['title', 'dateStart', 'dateEnd', 'type', 'location', 'partners', 'sources', 'note', 'id', 'image']
 def live(e): return bool(e.get('dateStart')) and (e.get('dateEnd') or e['dateStart']) >= today
 def clean(e):
     x = {k: e[k] for k in FIELDS if k in e and e[k] is not None or k == 'dateEnd'}

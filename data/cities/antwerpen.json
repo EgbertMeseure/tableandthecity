@@ -30,7 +30,15 @@
    ],
    "note": "12:00–13:30. Six wines, one starter (Chicken 65, Cauliflower 65 or Chettinad crab rolls) and a final glass. €35 (+€0.99 fee); 20 places. Earlier editions ran 6 Sep and 4 Oct 2026; no later dates published.",
    "id": "extra-0",
-   "tickets": "https://my.weezevent.com/dabba-king-kantine-sundays-wine-tasting-2"
+   "tickets": "https://my.weezevent.com/dabba-king-kantine-sundays-wine-tasting-2",
+   "image": {
+    "src": "img/events/dabba-king-kantine-sundays.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "'Kantine Sundays' wine-tasting poster with South Indian dishes",
+    "credit": "Dabba King (Weezevent)",
+    "credit_url": "https://my.weezevent.com/dabba-king-kantine-sundays-wine-tasting-2"
+   }
   },
   {
    "title": "By the glass: Château Cheval Blanc – open wine evening at August",
@@ -64,7 +72,15 @@
     "https://lascoperta.be/product/masterclass-degustatie-vrijdag-6-november-2026/"
    ],
    "note": "19:30. €60. Opens the year-end tasting weekend.",
-   "id": "extra-2"
+   "id": "extra-2",
+   "image": {
+    "src": "img/events/la-scoperta-masterclass.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Two glasses of red wine raised in a toast (event image)",
+    "credit": "La Scoperta (lascoperta.be)",
+    "credit_url": "https://lascoperta.be/product/masterclass-degustatie-vrijdag-6-november-2026/"
+   }
   },
   {
    "title": "La Scoperta – year-end Italian wine tasting weekend (≈30 wines)",
@@ -80,7 +96,15 @@
     "https://lascoperta.be/degustatiedagen-november-2025/"
    ],
    "note": "Sat 12:00–20:00, Sun 12:00–18:00; no booking. €10, refunded with purchases from €100. Page URL slug says 2025 but content is the 2026 edition.",
-   "id": "extra-3"
+   "id": "extra-3",
+   "image": {
+    "src": "img/events/la-scoperta-tasting-weekend.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Italian wines and antipasti on a table at La Scoperta (event image)",
+    "credit": "La Scoperta (lascoperta.be)",
+    "credit_url": "https://lascoperta.be/degustatiedagen-november-2025/"
+   }
   },
   {
    "title": "Diwali Brunch by Mission Masala",
@@ -96,7 +120,15 @@
     "https://wolf.be/en/events-ant/diwali-brunch-by-mission-masala-08-11/"
    ],
    "note": "11:30–14:00. €34.",
-   "id": "extra-4"
+   "id": "extra-4",
+   "image": {
+    "src": "img/events/wolf-diwali-brunch.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "'Diwali Brunch by Mission Masala' poster",
+    "credit": "WOLF Antwerp (wolf.be)",
+    "credit_url": "https://wolf.be/en/events-ant/diwali-brunch-by-mission-masala-08-11/"
+   }
   },
   {
    "title": "Antwerps BierCollege – beer & food pairing with the Pirate Chef (Wannes Huygh)",
@@ -130,7 +162,15 @@
     "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
    ],
    "note": "€110 p.p.",
-   "id": "extra-6"
+   "id": "extra-6",
+   "image": {
+    "src": "img/events/botanic-afternoon-tea.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Festive afternoon-tea stand with pastries at Botanic Sanctuary Antwerp (event image)",
+    "credit": "Botanic Sanctuary Antwerp",
+    "credit_url": "https://www.botanicantwerp.be/festive-season/"
+   }
   },
   {
    "title": "Chef's Table by Local Dealer – five-course Latin-fusion dinner",
@@ -148,7 +188,15 @@
    ],
    "note": "19:00. Five dishes and three drinks. €69.",
    "id": "extra-7",
-   "tickets": "https://my.weezevent.com/chef'stable-localdealer"
+   "tickets": "https://my.weezevent.com/chef'stable-localdealer",
+   "image": {
+    "src": "img/events/wolf-chefs-table-local-dealer.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "'Chef's Table — Local Dealer' poster",
+    "credit": "WOLF Antwerp / Local Dealer",
+    "credit_url": "https://my.weezevent.com/chef'stable-localdealer"
+   }
   },
   {
    "title": "Hedone's Dinner – multisensory dinner-performance",
@@ -164,7 +212,15 @@
     "https://www.hetbos.be/programma/evenement/2026-12-03-hedone-s-dinner"
    ],
    "note": "19:00.",
-   "id": "extra-8"
+   "id": "extra-8",
+   "image": {
+    "src": "img/events/hedones-dinner.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "'Hedone's Dinner' poster",
+    "credit": "Het Bos (hetbos.be)",
+    "credit_url": "https://www.hetbos.be/programma/evenement/2026-12-03-hedone-s-dinner"
+   }
   },
   {
    "title": "Antwerps BierCollege – fresh-hop beer tasting",
@@ -228,7 +284,15 @@
     "https://lascoperta.be/product/feestwijnen-donderdag-10-december-2026/"
    ],
    "note": "€60.",
-   "id": "extra-12"
+   "id": "extra-12",
+   "image": {
+    "src": "img/events/la-scoperta-feestwijnen.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Champagne bottles and glasses for La Scoperta's festive wine evening (event image)",
+    "credit": "La Scoperta (lascoperta.be)",
+    "credit_url": "https://lascoperta.be/product/feestwijnen-donderdag-10-december-2026/"
+   }
   },
   {
    "title": "Chocolade- en Pateekesweek – Antwerp chocolate and pastry week (15th edition)",
@@ -243,7 +307,15 @@
     "https://koekenstad.be/chocolade-en-pateekesweek-2027/"
    ],
    "note": "Runs Mon 1 Mar to Mon 15 Mar 2027.",
-   "id": "extra-13"
+   "id": "extra-13",
+   "image": {
+    "src": "img/events/koekenstad-chocolade-pateekesweek.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Koekenstad — Antwerp chocolate and pastry week (event image)",
+    "credit": "Koekenstad (koekenstad.be)",
+    "credit_url": "https://koekenstad.be/chocolade-en-pateekesweek-2027/"
+   }
   },
   {
    "title": "Langbeen Duitse Topwijn – German fine-wine fair",
@@ -260,7 +332,15 @@
     "https://tonijost.de/messe-antwerpen-26/"
    ],
    "note": "Sat 11:00–18:00, Sun 11:00–17:00 (times per Toni Jost). Over 10 top German estates. Street address from OSM, not the organiser.",
-   "id": "extra-14"
+   "id": "extra-14",
+   "image": {
+    "src": "img/events/langbeen-duitse-topwijn.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Oak wine barrels in a cellar (German fine-wine fair) (event image)",
+    "credit": "Langbeen Duitse Topwijn",
+    "credit_url": "https://www.langbeenduitsetopwijn.be/"
+   }
   },
   {
    "title": "Antwerpen Proeft – culinary festival with ~50 restaurants and 100 dishes",
@@ -468,7 +548,15 @@
       "https://www.antwerp-diner.be/reservatie"
      ],
      "note": "Six-course dinner; €3,250 per table of 10. Proceeds to ITG, Sensoa and Tomorrow4isibani (HIV/AIDS). Gustaph performs. Full chef line-up on antwerp-diner.be/chefs.",
-     "id": "the-jane-0"
+     "id": "the-jane-0",
+     "image": {
+      "src": "img/events/antwerp-diner-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Antwerp Diner — the venue with the illuminated 'Antwerp Diner' letters (event image)",
+      "credit": "Antwerp Diner (antwerp-diner.be)",
+      "credit_url": "https://antwerp-diner.be/"
+     }
     }
    ],
    "sources": [
@@ -1077,7 +1165,15 @@
       "https://www.antwerp-diner.be/reservatie"
      ],
      "note": "Six-course dinner; €3,250 per table of 10. Proceeds to ITG, Sensoa and Tomorrow4isibani (HIV/AIDS). Gustaph performs. Full chef line-up on antwerp-diner.be/chefs.",
-     "id": "fine-fleur-0"
+     "id": "fine-fleur-0",
+     "image": {
+      "src": "img/events/antwerp-diner-2026.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Antwerp Diner — the venue with the illuminated 'Antwerp Diner' letters (event image)",
+      "credit": "Antwerp Diner (antwerp-diner.be)",
+      "credit_url": "https://antwerp-diner.be/"
+     }
     }
    ],
    "sources": [
@@ -5175,7 +5271,15 @@
       "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
      ],
      "note": "Arrival 18:00–19:30. €245 p.p. excl. drinks (6–11 yrs €125).",
-     "id": "sanctus-0"
+     "id": "sanctus-0",
+     "image": {
+      "src": "img/events/botanic-christmas-eve.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Festive dining hall at Botanic Sanctuary Antwerp, laid for Christmas (event image)",
+      "credit": "Botanic Sanctuary Antwerp",
+      "credit_url": "https://www.botanicantwerp.be/festive-season/"
+     }
     },
     {
      "title": "New Year's Eve – eight-course menu by Yves Mattagne",
@@ -5193,7 +5297,15 @@
       "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
      ],
      "note": "Arrival 18:00–19:30. €295 p.p. excl. drinks (6–11 yrs €145).",
-     "id": "sanctus-1"
+     "id": "sanctus-1",
+     "image": {
+      "src": "img/events/botanic-new-years-eve.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Rows of champagne glasses for New Year's Eve at Botanic Sanctuary Antwerp (event image)",
+      "credit": "Botanic Sanctuary Antwerp",
+      "credit_url": "https://www.botanicantwerp.be/festive-season/"
+     }
     }
    ],
    "sources": [
@@ -5306,7 +5418,15 @@
       "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
      ],
      "note": "Arrival 18:00–19:30. €245 p.p. excl. drinks (6–11 yrs €125).",
-     "id": "hidden-garden-0"
+     "id": "hidden-garden-0",
+     "image": {
+      "src": "img/events/botanic-christmas-eve.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Festive dining hall at Botanic Sanctuary Antwerp, laid for Christmas (event image)",
+      "credit": "Botanic Sanctuary Antwerp",
+      "credit_url": "https://www.botanicantwerp.be/festive-season/"
+     }
     },
     {
      "title": "New Year's Eve – eight-course menu by Yves Mattagne",
@@ -5324,7 +5444,15 @@
       "https://www.botanicantwerp.be/media/24fnd3km/botanic-sanctuary-antwerp-festive-season-digital.pdf"
      ],
      "note": "Arrival 18:00–19:30. €295 p.p. excl. drinks (6–11 yrs €145).",
-     "id": "hidden-garden-1"
+     "id": "hidden-garden-1",
+     "image": {
+      "src": "img/events/botanic-new-years-eve.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Rows of champagne glasses for New Year's Eve at Botanic Sanctuary Antwerp (event image)",
+      "credit": "Botanic Sanctuary Antwerp",
+      "credit_url": "https://www.botanicantwerp.be/festive-season/"
+     }
     }
    ],
    "sources": [
@@ -6520,7 +6648,15 @@
       "https://djangoantwerp.be/"
      ],
      "note": "Slots 13:00–16:00 and 16:00–19:00 both days. €5 early bird (until 15 Nov), €10 from 16 Nov. Bottleneck lists \"Lange Leemsraat 334\"; Django's own site says Lange Leemstraat 443 (used here).",
-     "id": "django-0"
+     "id": "django-0",
+     "image": {
+      "src": "img/events/bottleneck-year-end-tasting.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Bottleneck year-end wine tasting poster — 5 & 6 December at Django (event image)",
+      "credit": "Bottleneck (bottleneck.be)",
+      "credit_url": "https://www.bottleneck.be/en/event/eindejaarsdegustatie-9/register"
+     }
     }
    ],
    "sources": [
@@ -7872,7 +8008,15 @@
       "https://inhetarchief.be/proeverijen"
      ],
      "note": "18:30–21:30. €42.50 p.p.; nine wines with cheese and charcuterie. Pre-registration and bank transfer.",
-     "id": "het-archief-0"
+     "id": "het-archief-0",
+     "image": {
+      "src": "img/events/het-archief-tasting.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Wine flight with cheese and charcuterie at Het Archief (event image)",
+      "credit": "Het Archief (inhetarchief.be)",
+      "credit_url": "https://inhetarchief.be/proeverijen"
+     }
     },
     {
      "title": "Het Archief – guided \"Spring Tasting\"",
@@ -7887,7 +8031,15 @@
       "https://inhetarchief.be/proeverijen"
      ],
      "note": "18:30–21:30. €42.50 p.p.; nine wines with cheese and charcuterie. Pre-registration and bank transfer.",
-     "id": "het-archief-1"
+     "id": "het-archief-1",
+     "image": {
+      "src": "img/events/het-archief-tasting.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Wine flight with cheese and charcuterie at Het Archief (event image)",
+      "credit": "Het Archief (inhetarchief.be)",
+      "credit_url": "https://inhetarchief.be/proeverijen"
+     }
     },
     {
      "title": "Het Archief – guided \"April Fools Tasting\"",
@@ -7902,7 +8054,15 @@
       "https://inhetarchief.be/proeverijen"
      ],
      "note": "18:30–21:30. €42.50 p.p.; nine wines with cheese and charcuterie. Pre-registration and bank transfer.",
-     "id": "het-archief-2"
+     "id": "het-archief-2",
+     "image": {
+      "src": "img/events/het-archief-tasting.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Wine flight with cheese and charcuterie at Het Archief (event image)",
+      "credit": "Het Archief (inhetarchief.be)",
+      "credit_url": "https://inhetarchief.be/proeverijen"
+     }
     }
    ],
    "sources": [

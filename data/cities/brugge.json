@@ -28,7 +28,15 @@
     "https://www.hetnieuwsvandaag.be/nl/nieuws/regio/dankbar-heropent-op-6-november-op-zelfde-locatie/"
    ],
    "note": "Seasonal pop-up winter bar near Simon Stevinplein; reopens 6 Nov 2026 with a live gig; drinks and small bites. End date not published by the source (a bar-listing aggregator says until 12 Jan; not used).",
-   "id": "extra-6"
+   "id": "extra-6",
+   "image": {
+    "src": "img/events/dankbar-winter-bar.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Dankbar pop-up winter bar — the brick entrance with Christmas wreaths (event image)",
+    "credit": "Dankbar (via Het Nieuws Vandaag)",
+    "credit_url": "https://www.hetnieuwsvandaag.be/nl/nieuws/regio/dankbar-heropent-op-6-november-op-zelfde-locatie/"
+   }
   },
   {
    "title": "Wijnen Van Maele – Winterdegustatie (winter wine tasting with winemakers)",
@@ -103,7 +111,15 @@
     "https://www.brugge.be/nieuws/wintergloed-2026-2027-brengt-winterse-sfeer-ontmoeting-en-nieuwe-activiteiten-naar-brugge"
    ],
    "note": "Sun–Thu 11:00–22:00, Fri–Sat 11:00–23:30; New Year's Eve until 03:00. Part of Wintergloed (20 Nov 2026–31 Jan 2027).",
-   "id": "extra-10"
+   "id": "extra-10",
+   "image": {
+    "src": "img/events/wintergloed-christmas-markets.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Christmas market with a lit tree in Bruges (Wintergloed) (event image)",
+    "credit": "Visit Bruges",
+    "credit_url": "https://www.brugge.be/nieuws/wintergloed-2026-2027-brengt-winterse-sfeer-ontmoeting-en-nieuwe-activiteiten-naar-brugge"
+   }
   },
   {
    "title": "Winterbar IJsgloed by the skating rink (Wintergloed)",
@@ -120,7 +136,15 @@
     "https://www.visitbruges.be/en/whats-on/events-calendar/winter-glow-ijsgloed-winter-bar"
    ],
    "note": "Daily 10:00–00:00; 24 & 31 Dec 10:00–17:30; 25 Dec & 1 Jan 12:00–22:00. Covered bar with local drinks and snacks overlooking the ice rink.",
-   "id": "extra-11"
+   "id": "extra-11",
+   "image": {
+    "src": "img/events/winterbar-ijsgloed.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Winterbar IJsgloed — the festive wooden bar under lights (event image)",
+    "credit": "Visit Bruges",
+    "credit_url": "https://www.visitbruges.be/nl/wintergloed/winterbar-ijsgloed"
+   }
   },
   {
    "title": "BAB (Brugse Autonome Bierproevers) – beer & food pairing evening",
@@ -151,7 +175,15 @@
     "https://www.hln.be/brugge/brugse-hotelschool-spermalie-opent-gloednieuw-pop-uprestaurant-voor-leerlingen-op-eigen-domein-het-onderwijs-van-vandaag-vraagt-om-meer-praktijk~ad7b05ff/"
    ],
    "note": "One of three game-menu Wednesday evenings (25 Nov, 2 Dec, 9 Dec 2026). The school's new practice restaurant in a renovated 16th–17th-century farmhouse opened in Oct 2026 (30 covers). Book via Spermalie.",
-   "id": "extra-0"
+   "id": "extra-0",
+   "image": {
+    "src": "img/events/hoeve-hemelrycke.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Bottles of bubbly on ice at Spermalie's Hoeve Hemelrycke (event image)",
+    "credit": "Spermalie (spermalie.be)",
+    "credit_url": "https://spermalie.be/restaurants/restaurant-stuvenberghe/"
+   }
   },
   {
    "title": "Hoeve Hemelrycke – bistro lunch by Spermalie's 4th-year students",
@@ -167,7 +199,15 @@
     "https://www.hln.be/brugge/brugse-hotelschool-spermalie-opent-gloednieuw-pop-uprestaurant-voor-leerlingen-op-eigen-domein-het-onderwijs-van-vandaag-vraagt-om-meer-praktijk~ad7b05ff/"
    ],
    "note": "One of three lunch dates (26 Nov, 1 Dec, 3 Dec 2026): simple home-made lunch with fresh produce. Book via Spermalie.",
-   "id": "extra-3"
+   "id": "extra-3",
+   "image": {
+    "src": "img/events/hoeve-hemelrycke.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Bottles of bubbly on ice at Spermalie's Hoeve Hemelrycke (event image)",
+    "credit": "Spermalie (spermalie.be)",
+    "credit_url": "https://spermalie.be/restaurants/restaurant-stuvenberghe/"
+   }
   },
   {
    "title": "Davidsfonds – Hungarian wine tasting (Tokaj & more) with sommelier Dominique Van de Velde",
@@ -182,7 +222,15 @@
     "https://dfinbrugge.davidsfonds.be/activiteiten-detail/15703/hongaarse-wijnproeverij/location"
    ],
    "note": "19:30–22:00. €27 members / €30 non-members. Registration required by Mon 23 Nov via dfinbrugge@gmail.com; max 25 participants.",
-   "id": "extra-13"
+   "id": "extra-13",
+   "image": {
+    "src": "img/events/davidsfonds-hungarian-wine.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Glasses of white wine, grapes and a barrel (wine-tasting image) (event image)",
+    "credit": "Davidsfonds Brugge",
+    "credit_url": "https://dfinbrugge.davidsfonds.be/activiteiten-detail/15703/hongaarse-wijnproeverij/location"
+   }
   },
   {
    "title": "Hoeve Hemelrycke – bistro lunch by Spermalie's 4th-year students",
@@ -198,7 +246,15 @@
     "https://www.hln.be/brugge/brugse-hotelschool-spermalie-opent-gloednieuw-pop-uprestaurant-voor-leerlingen-op-eigen-domein-het-onderwijs-van-vandaag-vraagt-om-meer-praktijk~ad7b05ff/"
    ],
    "note": "One of three lunch dates (26 Nov, 1 Dec, 3 Dec 2026): simple home-made lunch with fresh produce. Book via Spermalie.",
-   "id": "extra-4"
+   "id": "extra-4",
+   "image": {
+    "src": "img/events/hoeve-hemelrycke.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Bottles of bubbly on ice at Spermalie's Hoeve Hemelrycke (event image)",
+    "credit": "Spermalie (spermalie.be)",
+    "credit_url": "https://spermalie.be/restaurants/restaurant-stuvenberghe/"
+   }
   },
   {
    "title": "Hoeve Hemelrycke – game menu by Spermalie's 7th-year chef students",
@@ -214,7 +270,15 @@
     "https://www.hln.be/brugge/brugse-hotelschool-spermalie-opent-gloednieuw-pop-uprestaurant-voor-leerlingen-op-eigen-domein-het-onderwijs-van-vandaag-vraagt-om-meer-praktijk~ad7b05ff/"
    ],
    "note": "One of three game-menu Wednesday evenings (25 Nov, 2 Dec, 9 Dec 2026). The school's new practice restaurant in a renovated 16th–17th-century farmhouse opened in Oct 2026 (30 covers). Book via Spermalie.",
-   "id": "extra-1"
+   "id": "extra-1",
+   "image": {
+    "src": "img/events/hoeve-hemelrycke.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Bottles of bubbly on ice at Spermalie's Hoeve Hemelrycke (event image)",
+    "credit": "Spermalie (spermalie.be)",
+    "credit_url": "https://spermalie.be/restaurants/restaurant-stuvenberghe/"
+   }
   },
   {
    "title": "Hoeve Hemelrycke – bistro lunch by Spermalie's 4th-year students",
@@ -230,7 +294,15 @@
     "https://www.hln.be/brugge/brugse-hotelschool-spermalie-opent-gloednieuw-pop-uprestaurant-voor-leerlingen-op-eigen-domein-het-onderwijs-van-vandaag-vraagt-om-meer-praktijk~ad7b05ff/"
    ],
    "note": "One of three lunch dates (26 Nov, 1 Dec, 3 Dec 2026): simple home-made lunch with fresh produce. Book via Spermalie.",
-   "id": "extra-5"
+   "id": "extra-5",
+   "image": {
+    "src": "img/events/hoeve-hemelrycke.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Bottles of bubbly on ice at Spermalie's Hoeve Hemelrycke (event image)",
+    "credit": "Spermalie (spermalie.be)",
+    "credit_url": "https://spermalie.be/restaurants/restaurant-stuvenberghe/"
+   }
   },
   {
    "title": "Festival des Gourmandises – gastronomy & wine salon in the Stadshallen",
@@ -246,7 +318,15 @@
     "https://www.visitbruges.be/nl/agenda/evenementenkalender/festival-des-gourmandises-salon-gastronomique"
    ],
    "note": "11:00–22:00 per Visit Bruges; free entry. Tastings and sales of fine products, wines and champagne, producers and exhibitors; part of Wintergloed.",
-   "id": "extra-14"
+   "id": "extra-14",
+   "image": {
+    "src": "img/events/festival-des-gourmandises.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Festival des Gourmandises poster — Bruges, 4–6 December",
+    "credit": "Visit Bruges",
+    "credit_url": "https://www.visitbruges.be/nl/agenda/evenementenkalender/festival-des-gourmandises-salon-gastronomique"
+   }
   },
   {
    "title": "Hoeve Hemelrycke – game menu by Spermalie's 7th-year chef students",
@@ -262,7 +342,15 @@
     "https://www.hln.be/brugge/brugse-hotelschool-spermalie-opent-gloednieuw-pop-uprestaurant-voor-leerlingen-op-eigen-domein-het-onderwijs-van-vandaag-vraagt-om-meer-praktijk~ad7b05ff/"
    ],
    "note": "One of three game-menu Wednesday evenings (25 Nov, 2 Dec, 9 Dec 2026). The school's new practice restaurant in a renovated 16th–17th-century farmhouse opened in Oct 2026 (30 covers). Book via Spermalie.",
-   "id": "extra-2"
+   "id": "extra-2",
+   "image": {
+    "src": "img/events/hoeve-hemelrycke.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Bottles of bubbly on ice at Spermalie's Hoeve Hemelrycke (event image)",
+    "credit": "Spermalie (spermalie.be)",
+    "credit_url": "https://spermalie.be/restaurants/restaurant-stuvenberghe/"
+   }
   },
   {
    "title": "Santé Wines – Christmas tasting (Champagne Laurent Lequart & more)",
@@ -298,7 +386,15 @@
     "https://www.visitbruges.be/nl/agenda/evenementenkalender/kerstmarkten-1"
    ],
    "note": "Three-day makers' market with handmade goods and local products, plus coffee and treats. Food angle: Handmade in Brugge includes local food makers; non-food stalls too.",
-   "id": "extra-16"
+   "id": "extra-16",
+   "image": {
+    "src": "img/events/makersmarkt-wintergloed.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Market stalls under string lights (Handmade in Brugge MAKERSmarkt) (event image)",
+    "credit": "Visit Bruges",
+    "credit_url": "https://www.visitbruges.be/nl/agenda/evenementenkalender/kerstmarkten-1"
+   }
   },
   {
    "title": "BAB – winter beer tasting (Winterbierenproeverij)",
