@@ -211,7 +211,8 @@
             "breakfastPlacePhoto": false
           },
           "veggie": "data/cities/oostende-veggie.json",
-          "breakfast": "data/cities/oostende-breakfast.json"
+          "breakfast": "data/cities/oostende-breakfast.json",
+          "photos": "data/cities/oostende-photos.json"
         }
       ],
       "id": "be",

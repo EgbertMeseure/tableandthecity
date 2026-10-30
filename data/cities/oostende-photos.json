@@ -1,0 +1,3137 @@
+{
+ "places": {
+  "atelier-d": {
+   "photos": [
+    {
+     "src": "img/places/oostende/atelier-d/p1-1400.webp",
+     "thumb": "img/places/oostende/atelier-d/p1-700.webp",
+     "srcset": "img/places/oostende/atelier-d/p1-700.webp 700w, img/places/oostende/atelier-d/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Atelier D: the interior",
+     "credit": "brassi.be",
+     "credit_url": "https://www.brassi.be/atelier-d/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/atelier-d/p2-800.webp",
+     "thumb": "img/places/oostende/atelier-d/p2-400.webp",
+     "srcset": "img/places/oostende/atelier-d/p2-400.webp 400w, img/places/oostende/atelier-d/p2-800.webp 800w",
+     "w": 800,
+     "h": 447,
+     "category": "food",
+     "alt": "Atelier D: food",
+     "credit": "brassi.be",
+     "credit_url": "https://www.brassi.be/atelier-d/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/atelier-d/p3-800.webp",
+     "thumb": "img/places/oostende/atelier-d/p3-400.webp",
+     "srcset": "img/places/oostende/atelier-d/p3-400.webp 400w, img/places/oostende/atelier-d/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Atelier D: food",
+     "credit": "brassi.be",
+     "credit_url": "https://www.brassi.be/atelier-d/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/atelier-d/p4-800.webp",
+     "thumb": "img/places/oostende/atelier-d/p4-400.webp",
+     "srcset": "img/places/oostende/atelier-d/p4-400.webp 400w, img/places/oostende/atelier-d/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Atelier D: food",
+     "credit": "brassi.be",
+     "credit_url": "https://www.brassi.be/atelier-d/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/atelier-d/p5-800.webp",
+     "thumb": "img/places/oostende/atelier-d/p5-400.webp",
+     "srcset": "img/places/oostende/atelier-d/p5-400.webp 400w, img/places/oostende/atelier-d/p5-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "interior",
+     "alt": "Atelier D: the interior",
+     "credit": "@atelierdbybrassi on Instagram",
+     "credit_url": "https://www.instagram.com/atelierdbybrassi/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/atelier-d/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "bakkerij-decock": {
+   "photos": [
+    {
+     "src": "img/places/oostende/bakkerij-decock/p1-1400.webp",
+     "thumb": "img/places/oostende/bakkerij-decock/p1-700.webp",
+     "srcset": "img/places/oostende/bakkerij-decock/p1-700.webp 700w, img/places/oostende/bakkerij-decock/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 720,
+     "category": "food",
+     "alt": "Bakkerij De Cock: food",
+     "credit": "@bakkerij_decock on Instagram",
+     "credit_url": "https://www.instagram.com/bakkerij_decock/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bakkerij-decock/p2-800.webp",
+     "thumb": "img/places/oostende/bakkerij-decock/p2-400.webp",
+     "srcset": "img/places/oostende/bakkerij-decock/p2-400.webp 400w, img/places/oostende/bakkerij-decock/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Bakkerij De Cock: food",
+     "credit": "@bakkerij_decock on Instagram",
+     "credit_url": "https://www.instagram.com/bakkerij_decock/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bakkerij-decock/p3-800.webp",
+     "thumb": "img/places/oostende/bakkerij-decock/p3-400.webp",
+     "srcset": "img/places/oostende/bakkerij-decock/p3-400.webp 400w, img/places/oostende/bakkerij-decock/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "exterior",
+     "alt": "Bakkerij De Cock: the outside",
+     "credit": "@bakkerij_decock on Instagram",
+     "credit_url": "https://www.instagram.com/bakkerij_decock/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/bakkerij-decock/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "bar-bristol": {
+   "photos": [
+    {
+     "src": "img/places/oostende/bar-bristol/p1-1400.webp",
+     "thumb": "img/places/oostende/bar-bristol/p1-700.webp",
+     "srcset": "img/places/oostende/bar-bristol/p1-700.webp 700w, img/places/oostende/bar-bristol/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Bar Bristol: food",
+     "credit": "@barbristol.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/barbristol.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bar-bristol/p2-800.webp",
+     "thumb": "img/places/oostende/bar-bristol/p2-400.webp",
+     "srcset": "img/places/oostende/bar-bristol/p2-400.webp 400w, img/places/oostende/bar-bristol/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bar Bristol: food",
+     "credit": "@barbristol.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/barbristol.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/bar-bristol/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "bar-foubert": {
+   "photos": [
+    {
+     "src": "img/places/oostende/bar-foubert/p1-1400.webp",
+     "thumb": "img/places/oostende/bar-foubert/p1-700.webp",
+     "srcset": "img/places/oostende/bar-foubert/p1-700.webp 700w, img/places/oostende/bar-foubert/p1-1400.webp 1400w",
+     "w": 1050,
+     "h": 700,
+     "category": "interior",
+     "alt": "Bar Foubert: the interior",
+     "credit": "barfoubert.be",
+     "credit_url": "https://www.barfoubert.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bar-foubert/p2-800.webp",
+     "thumb": "img/places/oostende/bar-foubert/p2-400.webp",
+     "srcset": "img/places/oostende/bar-foubert/p2-400.webp 400w, img/places/oostende/bar-foubert/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Bar Foubert: the interior",
+     "credit": "barfoubert.be",
+     "credit_url": "https://www.barfoubert.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/bar-foubert/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "belle-de-jour": {
+   "photos": [
+    {
+     "src": "img/places/oostende/belle-de-jour/p1-1400.webp",
+     "thumb": "img/places/oostende/belle-de-jour/p1-700.webp",
+     "srcset": "img/places/oostende/belle-de-jour/p1-700.webp 700w, img/places/oostende/belle-de-jour/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Belle de Jour: the interior",
+     "credit": "belledejour.be",
+     "credit_url": "https://belledejour.be/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/belle-de-jour/p2-800.webp",
+     "thumb": "img/places/oostende/belle-de-jour/p2-400.webp",
+     "srcset": "img/places/oostende/belle-de-jour/p2-400.webp 400w, img/places/oostende/belle-de-jour/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Belle de Jour: the interior",
+     "credit": "belledejour.be",
+     "credit_url": "https://belledejour.be/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/belle-de-jour/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "bierrestaurant-heerlijk": {
+   "photos": [
+    {
+     "src": "img/places/oostende/bierrestaurant-heerlijk/p1-1400.webp",
+     "thumb": "img/places/oostende/bierrestaurant-heerlijk/p1-700.webp",
+     "srcset": "img/places/oostende/bierrestaurant-heerlijk/p1-700.webp 700w, img/places/oostende/bierrestaurant-heerlijk/p1-1400.webp 1400w",
+     "w": 1090,
+     "h": 1600,
+     "category": "drink",
+     "alt": "Bierrestaurant Heerlijk: drinks",
+     "credit": "bierrestaurantheerlijk.be",
+     "credit_url": "https://bierrestaurantheerlijk.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bierrestaurant-heerlijk/p2-800.webp",
+     "thumb": "img/places/oostende/bierrestaurant-heerlijk/p2-400.webp",
+     "srcset": "img/places/oostende/bierrestaurant-heerlijk/p2-400.webp 400w, img/places/oostende/bierrestaurant-heerlijk/p2-800.webp 800w",
+     "w": 640,
+     "h": 1136,
+     "category": "drink",
+     "alt": "Bierrestaurant Heerlijk: drinks",
+     "credit": "@restaurant_heerlijk_oostende on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_heerlijk_oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/bierrestaurant-heerlijk/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "bistro-mathilda": {
+   "photos": [
+    {
+     "src": "img/places/oostende/bistro-mathilda/p1-1400.webp",
+     "thumb": "img/places/oostende/bistro-mathilda/p1-700.webp",
+     "srcset": "img/places/oostende/bistro-mathilda/p1-700.webp 700w, img/places/oostende/bistro-mathilda/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Bistro Mathilda: the interior",
+     "credit": "bistromathilda.be",
+     "credit_url": "https://bistromathilda.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bistro-mathilda/p2-800.webp",
+     "thumb": "img/places/oostende/bistro-mathilda/p2-400.webp",
+     "srcset": "img/places/oostende/bistro-mathilda/p2-400.webp 400w, img/places/oostende/bistro-mathilda/p2-800.webp 800w",
+     "w": 800,
+     "h": 262,
+     "category": "food",
+     "alt": "Bistro Mathilda: food",
+     "credit": "bistromathilda.be",
+     "credit_url": "https://bistromathilda.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bistro-mathilda/p3-800.webp",
+     "thumb": "img/places/oostende/bistro-mathilda/p3-400.webp",
+     "srcset": "img/places/oostende/bistro-mathilda/p3-400.webp 400w, img/places/oostende/bistro-mathilda/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bistro Mathilda: food",
+     "credit": "@bistro_mathilda on Instagram",
+     "credit_url": "https://www.instagram.com/bistro_mathilda/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bistro-mathilda/p4-800.webp",
+     "thumb": "img/places/oostende/bistro-mathilda/p4-400.webp",
+     "srcset": "img/places/oostende/bistro-mathilda/p4-400.webp 400w, img/places/oostende/bistro-mathilda/p4-800.webp 800w",
+     "w": 683,
+     "h": 855,
+     "category": "food",
+     "alt": "Bistro Mathilda: food",
+     "credit": "bistromathilda.be",
+     "credit_url": "https://bistromathilda.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/bistro-mathilda/p5-800.webp",
+     "thumb": "img/places/oostende/bistro-mathilda/p5-400.webp",
+     "srcset": "img/places/oostende/bistro-mathilda/p5-400.webp 400w, img/places/oostende/bistro-mathilda/p5-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Bistro Mathilda: the outside",
+     "credit": "@bistro_mathilda on Instagram",
+     "credit_url": "https://www.instagram.com/bistro_mathilda/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/bistro-mathilda/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "brasserie-david": {
+   "photos": [
+    {
+     "src": "img/places/oostende/brasserie-david/p1-1400.webp",
+     "thumb": "img/places/oostende/brasserie-david/p1-700.webp",
+     "srcset": "img/places/oostende/brasserie-david/p1-700.webp 700w, img/places/oostende/brasserie-david/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Brasserie David: the interior",
+     "credit": "brasseriedavid.com",
+     "credit_url": "https://www.brasseriedavid.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/brasserie-david/p2-800.webp",
+     "thumb": "img/places/oostende/brasserie-david/p2-400.webp",
+     "srcset": "img/places/oostende/brasserie-david/p2-400.webp 400w, img/places/oostende/brasserie-david/p2-800.webp 800w",
+     "w": 640,
+     "h": 480,
+     "category": "interior",
+     "alt": "Brasserie David: the interior",
+     "credit": "brasseriedavid.com",
+     "credit_url": "https://www.brasseriedavid.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/brasserie-david/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "brassi-casino": {
+   "photos": [
+    {
+     "src": "img/places/oostende/brassi-casino/p1-1400.webp",
+     "thumb": "img/places/oostende/brassi-casino/p1-700.webp",
+     "srcset": "img/places/oostende/brassi-casino/p1-700.webp 700w, img/places/oostende/brassi-casino/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Brassi Casino Restaurant: the interior",
+     "credit": "brassi.be",
+     "credit_url": "https://www.brassi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/brassi-casino/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-du-parc": {
+   "photos": [
+    {
+     "src": "img/places/oostende/cafe-du-parc/p1-1400.webp",
+     "thumb": "img/places/oostende/cafe-du-parc/p1-700.webp",
+     "srcset": "img/places/oostende/cafe-du-parc/p1-700.webp 700w, img/places/oostende/cafe-du-parc/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 560,
+     "category": "food",
+     "alt": "Café du Parc: food",
+     "credit": "hotelduparc.be",
+     "credit_url": "https://www.hotelduparc.be/nl/cafe-du-parc",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/cafe-du-parc/p2-800.webp",
+     "thumb": "img/places/oostende/cafe-du-parc/p2-400.webp",
+     "srcset": "img/places/oostende/cafe-du-parc/p2-400.webp 400w, img/places/oostende/cafe-du-parc/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Café du Parc: food",
+     "credit": "@hotelduparcoostende on Instagram",
+     "credit_url": "https://www.instagram.com/hotelduparcoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/cafe-du-parc/p3-800.webp",
+     "thumb": "img/places/oostende/cafe-du-parc/p3-400.webp",
+     "srcset": "img/places/oostende/cafe-du-parc/p3-400.webp 400w, img/places/oostende/cafe-du-parc/p3-800.webp 800w",
+     "w": 800,
+     "h": 1201,
+     "category": "food",
+     "alt": "Café du Parc: food",
+     "credit": "hotelduparc.be",
+     "credit_url": "https://www.hotelduparc.be/nl/cafe-du-parc",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/cafe-du-parc/p4-800.webp",
+     "thumb": "img/places/oostende/cafe-du-parc/p4-400.webp",
+     "srcset": "img/places/oostende/cafe-du-parc/p4-400.webp 400w, img/places/oostende/cafe-du-parc/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Café du Parc: the interior",
+     "credit": "@hotelduparcoostende on Instagram",
+     "credit_url": "https://www.instagram.com/hotelduparcoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/cafe-du-parc/p5-800.webp",
+     "thumb": "img/places/oostende/cafe-du-parc/p5-400.webp",
+     "srcset": "img/places/oostende/cafe-du-parc/p5-400.webp 400w, img/places/oostende/cafe-du-parc/p5-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Café du Parc: the outside",
+     "credit": "@hotelduparcoostende on Instagram",
+     "credit_url": "https://www.instagram.com/hotelduparcoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/cafe-du-parc/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "carte-blanche": {
+   "photos": [
+    {
+     "src": "img/places/oostende/carte-blanche/p1-1400.webp",
+     "thumb": "img/places/oostende/carte-blanche/p1-700.webp",
+     "srcset": "img/places/oostende/carte-blanche/p1-700.webp 700w, img/places/oostende/carte-blanche/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Carte Blanche: food",
+     "credit": "carteblancheoostende.be",
+     "credit_url": "https://www.carteblancheoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/carte-blanche/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "de-vishoek": {
+   "photos": [
+    {
+     "src": "img/places/oostende/de-vishoek/p1-1400.webp",
+     "thumb": "img/places/oostende/de-vishoek/p1-700.webp",
+     "srcset": "img/places/oostende/de-vishoek/p1-700.webp 700w, img/places/oostende/de-vishoek/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 682,
+     "category": "interior",
+     "alt": "De Vishoek: the interior",
+     "credit": "vishoek.be",
+     "credit_url": "https://vishoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/de-vishoek/p2-800.webp",
+     "thumb": "img/places/oostende/de-vishoek/p2-400.webp",
+     "srcset": "img/places/oostende/de-vishoek/p2-400.webp 400w, img/places/oostende/de-vishoek/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "De Vishoek: food",
+     "credit": "vishoek.be",
+     "credit_url": "https://vishoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/de-vishoek/p3-800.webp",
+     "thumb": "img/places/oostende/de-vishoek/p3-400.webp",
+     "srcset": "img/places/oostende/de-vishoek/p3-400.webp 400w, img/places/oostende/de-vishoek/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "De Vishoek: food",
+     "credit": "vishoek.be",
+     "credit_url": "https://vishoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/de-vishoek/p4-800.webp",
+     "thumb": "img/places/oostende/de-vishoek/p4-400.webp",
+     "srcset": "img/places/oostende/de-vishoek/p4-400.webp 400w, img/places/oostende/de-vishoek/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "De Vishoek: food",
+     "credit": "vishoek.be",
+     "credit_url": "https://vishoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/de-vishoek/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "eaust": {
+   "photos": [
+    {
+     "src": "img/places/oostende/eaust/p1-1400.webp",
+     "thumb": "img/places/oostende/eaust/p1-700.webp",
+     "srcset": "img/places/oostende/eaust/p1-700.webp 700w, img/places/oostende/eaust/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Eaust: the interior",
+     "credit": "eaust.be",
+     "credit_url": "https://www.eaust.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/eaust/p2-800.webp",
+     "thumb": "img/places/oostende/eaust/p2-400.webp",
+     "srcset": "img/places/oostende/eaust/p2-400.webp 400w, img/places/oostende/eaust/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Eaust: food",
+     "credit": "@eaust.be on Instagram",
+     "credit_url": "https://www.instagram.com/eaust.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/eaust/p3-800.webp",
+     "thumb": "img/places/oostende/eaust/p3-400.webp",
+     "srcset": "img/places/oostende/eaust/p3-400.webp 400w, img/places/oostende/eaust/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Eaust: food",
+     "credit": "@eaust.be on Instagram",
+     "credit_url": "https://www.instagram.com/eaust.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/eaust/p4-800.webp",
+     "thumb": "img/places/oostende/eaust/p4-400.webp",
+     "srcset": "img/places/oostende/eaust/p4-400.webp 400w, img/places/oostende/eaust/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "Eaust: the interior",
+     "credit": "eaust.be",
+     "credit_url": "https://www.eaust.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/eaust/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "expo-kafie": {
+   "photos": [
+    {
+     "src": "img/places/oostende/expo-kafie/p1-1400.webp",
+     "thumb": "img/places/oostende/expo-kafie/p1-700.webp",
+     "srcset": "img/places/oostende/expo-kafie/p1-700.webp 700w, img/places/oostende/expo-kafie/p1-1400.webp 1400w",
+     "w": 900,
+     "h": 600,
+     "category": "exterior",
+     "alt": "Expo & Kafie: the outside",
+     "credit": "expo-kafie.be",
+     "credit_url": "https://www.expo-kafie.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/expo-kafie/p2-800.webp",
+     "thumb": "img/places/oostende/expo-kafie/p2-400.webp",
+     "srcset": "img/places/oostende/expo-kafie/p2-400.webp 400w, img/places/oostende/expo-kafie/p2-800.webp 800w",
+     "w": 800,
+     "h": 1056,
+     "category": "food",
+     "alt": "Expo & Kafie: food",
+     "credit": "@expokafie on Instagram",
+     "credit_url": "https://www.instagram.com/expokafie/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/expo-kafie/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "fogato": {
+   "photos": [
+    {
+     "src": "img/places/oostende/fogato/p1-1400.webp",
+     "thumb": "img/places/oostende/fogato/p1-700.webp",
+     "srcset": "img/places/oostende/fogato/p1-700.webp 700w, img/places/oostende/fogato/p1-1400.webp 1400w",
+     "w": 1366,
+     "h": 1080,
+     "category": "food",
+     "alt": "Fogato: food",
+     "credit": "fogato.be",
+     "credit_url": "https://www.fogato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/fogato/p2-800.webp",
+     "thumb": "img/places/oostende/fogato/p2-400.webp",
+     "srcset": "img/places/oostende/fogato/p2-400.webp 400w, img/places/oostende/fogato/p2-800.webp 800w",
+     "w": 800,
+     "h": 611,
+     "category": "drink",
+     "alt": "Fogato: drinks",
+     "credit": "fogato.be",
+     "credit_url": "https://www.fogato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/fogato/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "haut": {
+   "photos": [
+    {
+     "src": "img/places/oostende/haut/p1-1400.webp",
+     "thumb": "img/places/oostende/haut/p1-700.webp",
+     "srcset": "img/places/oostende/haut/p1-700.webp 700w, img/places/oostende/haut/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 630,
+     "category": "food",
+     "alt": "Haut: food",
+     "credit": "hautrestaurant.be",
+     "credit_url": "https://hautrestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/haut/p2-800.webp",
+     "thumb": "img/places/oostende/haut/p2-400.webp",
+     "srcset": "img/places/oostende/haut/p2-400.webp 400w, img/places/oostende/haut/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Haut: food",
+     "credit": "@hautoostende on Instagram",
+     "credit_url": "https://www.instagram.com/hautoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/haut/p3-800.webp",
+     "thumb": "img/places/oostende/haut/p3-400.webp",
+     "srcset": "img/places/oostende/haut/p3-400.webp 400w, img/places/oostende/haut/p3-800.webp 800w",
+     "w": 800,
+     "h": 1201,
+     "category": "food",
+     "alt": "Haut: food",
+     "credit": "hautrestaurant.be",
+     "credit_url": "https://hautrestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/haut/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "kiss-the-chef": {
+   "photos": [
+    {
+     "src": "img/places/oostende/kiss-the-chef/p1-1400.webp",
+     "thumb": "img/places/oostende/kiss-the-chef/p1-700.webp",
+     "srcset": "img/places/oostende/kiss-the-chef/p1-700.webp 700w, img/places/oostende/kiss-the-chef/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 884,
+     "category": "food",
+     "alt": "Kiss The Chef: food",
+     "credit": "kissthechef.be",
+     "credit_url": "https://www.kissthechef.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/kiss-the-chef/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "loma": {
+   "photos": [
+    {
+     "src": "img/places/oostende/loma/p1-1400.webp",
+     "thumb": "img/places/oostende/loma/p1-700.webp",
+     "srcset": "img/places/oostende/loma/p1-700.webp 700w, img/places/oostende/loma/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "LOMA: food",
+     "credit": "lomabistro.be",
+     "credit_url": "https://www.lomabistro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/loma/p2-800.webp",
+     "thumb": "img/places/oostende/loma/p2-400.webp",
+     "srcset": "img/places/oostende/loma/p2-400.webp 400w, img/places/oostende/loma/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "LOMA: food",
+     "credit": "@lomabistro on Instagram",
+     "credit_url": "https://www.instagram.com/lomabistro/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/loma/p3-800.webp",
+     "thumb": "img/places/oostende/loma/p3-400.webp",
+     "srcset": "img/places/oostende/loma/p3-400.webp 400w, img/places/oostende/loma/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "LOMA: food",
+     "credit": "@lomabistro on Instagram",
+     "credit_url": "https://www.instagram.com/lomabistro/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/loma/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "la-pompette": {
+   "photos": [
+    {
+     "src": "img/places/oostende/la-pompette/p1-1400.webp",
+     "thumb": "img/places/oostende/la-pompette/p1-700.webp",
+     "srcset": "img/places/oostende/la-pompette/p1-700.webp 700w, img/places/oostende/la-pompette/p1-1400.webp 1400w",
+     "w": 1066,
+     "h": 710,
+     "category": "interior",
+     "alt": "La Pompette: the interior",
+     "credit": "@restaurant.lapompette on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.lapompette/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/la-pompette/p2-800.webp",
+     "thumb": "img/places/oostende/la-pompette/p2-400.webp",
+     "srcset": "img/places/oostende/la-pompette/p2-400.webp 400w, img/places/oostende/la-pompette/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "La Pompette: food",
+     "credit": "@restaurant.lapompette on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.lapompette/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/la-pompette/p3-800.webp",
+     "thumb": "img/places/oostende/la-pompette/p3-400.webp",
+     "srcset": "img/places/oostende/la-pompette/p3-400.webp 400w, img/places/oostende/la-pompette/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "La Pompette: food",
+     "credit": "@restaurant.lapompette on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.lapompette/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/la-pompette/p4-800.webp",
+     "thumb": "img/places/oostende/la-pompette/p4-400.webp",
+     "srcset": "img/places/oostende/la-pompette/p4-400.webp 400w, img/places/oostende/la-pompette/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "La Pompette: the interior",
+     "credit": "@restaurant.lapompette on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.lapompette/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/la-pompette/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "lafayette": {
+   "photos": [
+    {
+     "src": "img/places/oostende/lafayette/p1-1400.webp",
+     "thumb": "img/places/oostende/lafayette/p1-700.webp",
+     "srcset": "img/places/oostende/lafayette/p1-700.webp 700w, img/places/oostende/lafayette/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Lafayette: the interior",
+     "credit": "lafayette.be",
+     "credit_url": "https://lafayette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/lafayette/p2-800.webp",
+     "thumb": "img/places/oostende/lafayette/p2-400.webp",
+     "srcset": "img/places/oostende/lafayette/p2-400.webp 400w, img/places/oostende/lafayette/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "interior",
+     "alt": "Lafayette: the interior",
+     "credit": "lafayette.be",
+     "credit_url": "https://lafayette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/lafayette/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "le-bar-du-bassin": {
+   "photos": [
+    {
+     "src": "img/places/oostende/le-bar-du-bassin/p1-1400.webp",
+     "thumb": "img/places/oostende/le-bar-du-bassin/p1-700.webp",
+     "srcset": "img/places/oostende/le-bar-du-bassin/p1-700.webp 700w, img/places/oostende/le-bar-du-bassin/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 800,
+     "category": "interior",
+     "alt": "Le Bar du Bassin: the interior",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/p/tapas-en-wijnbar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/le-bar-du-bassin/p2-800.webp",
+     "thumb": "img/places/oostende/le-bar-du-bassin/p2-400.webp",
+     "srcset": "img/places/oostende/le-bar-du-bassin/p2-400.webp 400w, img/places/oostende/le-bar-du-bassin/p2-800.webp 800w",
+     "w": 800,
+     "h": 457,
+     "category": "food",
+     "alt": "Le Bar du Bassin: food",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/p/tapas-en-wijnbar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/le-bar-du-bassin/p3-800.webp",
+     "thumb": "img/places/oostende/le-bar-du-bassin/p3-400.webp",
+     "srcset": "img/places/oostende/le-bar-du-bassin/p3-400.webp 400w, img/places/oostende/le-bar-du-bassin/p3-800.webp 800w",
+     "w": 800,
+     "h": 457,
+     "category": "drink",
+     "alt": "Le Bar du Bassin: drinks",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/p/tapas-en-wijnbar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/le-bar-du-bassin/p4-800.webp",
+     "thumb": "img/places/oostende/le-bar-du-bassin/p4-400.webp",
+     "srcset": "img/places/oostende/le-bar-du-bassin/p4-400.webp 400w, img/places/oostende/le-bar-du-bassin/p4-800.webp 800w",
+     "w": 800,
+     "h": 457,
+     "category": "exterior",
+     "alt": "Le Bar du Bassin: the outside",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/p/tapas-en-wijnbar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/le-bar-du-bassin/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "le-bassin": {
+   "photos": [
+    {
+     "src": "img/places/oostende/le-bassin/p1-1400.webp",
+     "thumb": "img/places/oostende/le-bassin/p1-700.webp",
+     "srcset": "img/places/oostende/le-bassin/p1-700.webp 700w, img/places/oostende/le-bassin/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 689,
+     "category": "interior",
+     "alt": "Le Bassin: the interior",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/le-bassin/p2-800.webp",
+     "thumb": "img/places/oostende/le-bassin/p2-400.webp",
+     "srcset": "img/places/oostende/le-bassin/p2-400.webp 400w, img/places/oostende/le-bassin/p2-800.webp 800w",
+     "w": 800,
+     "h": 394,
+     "category": "interior",
+     "alt": "Le Bassin: the interior",
+     "credit": "hoteldubassin.be",
+     "credit_url": "https://www.hoteldubassin.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/le-bassin/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "lusitania": {
+   "photos": [
+    {
+     "src": "img/places/oostende/lusitania/p1-1400.webp",
+     "thumb": "img/places/oostende/lusitania/p1-700.webp",
+     "srcset": "img/places/oostende/lusitania/p1-700.webp 700w, img/places/oostende/lusitania/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 853,
+     "category": "food",
+     "alt": "Lusitania: food",
+     "credit": "restaurant-lusitania.be",
+     "credit_url": "https://restaurant-lusitania.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/lusitania/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "mange-tout": {
+   "photos": [
+    {
+     "src": "img/places/oostende/mange-tout/p1-1400.webp",
+     "thumb": "img/places/oostende/mange-tout/p1-700.webp",
+     "srcset": "img/places/oostende/mange-tout/p1-700.webp 700w, img/places/oostende/mange-tout/p1-1400.webp 1400w",
+     "w": 1094,
+     "h": 1600,
+     "category": "exterior",
+     "alt": "Mange Tout: the outside",
+     "credit": "restaurantmangetout.be",
+     "credit_url": "https://restaurantmangetout.be/nl/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/mange-tout/p2-800.webp",
+     "thumb": "img/places/oostende/mange-tout/p2-400.webp",
+     "srcset": "img/places/oostende/mange-tout/p2-400.webp 400w, img/places/oostende/mange-tout/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "drink",
+     "alt": "Mange Tout: drinks",
+     "credit": "restaurantmangetout.be",
+     "credit_url": "https://restaurantmangetout.be/nl/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/mange-tout/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "mommys-bastards": {
+   "photos": [
+    {
+     "src": "img/places/oostende/mommys-bastards/p1-1400.webp",
+     "thumb": "img/places/oostende/mommys-bastards/p1-700.webp",
+     "srcset": "img/places/oostende/mommys-bastards/p1-700.webp 700w, img/places/oostende/mommys-bastards/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Mommy's Bastards: the interior",
+     "credit": "mommysbastards.be",
+     "credit_url": "https://www.mommysbastards.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/mommys-bastards/p2-800.webp",
+     "thumb": "img/places/oostende/mommys-bastards/p2-400.webp",
+     "srcset": "img/places/oostende/mommys-bastards/p2-400.webp 400w, img/places/oostende/mommys-bastards/p2-800.webp 800w",
+     "w": 800,
+     "h": 976,
+     "category": "food",
+     "alt": "Mommy's Bastards: food",
+     "credit": "@mommysbastards on Instagram",
+     "credit_url": "https://www.instagram.com/mommysbastards/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/mommys-bastards/p3-800.webp",
+     "thumb": "img/places/oostende/mommys-bastards/p3-400.webp",
+     "srcset": "img/places/oostende/mommys-bastards/p3-400.webp 400w, img/places/oostende/mommys-bastards/p3-800.webp 800w",
+     "w": 800,
+     "h": 1050,
+     "category": "food",
+     "alt": "Mommy's Bastards: food",
+     "credit": "@mommysbastards on Instagram",
+     "credit_url": "https://www.instagram.com/mommysbastards/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/mommys-bastards/p4-800.webp",
+     "thumb": "img/places/oostende/mommys-bastards/p4-400.webp",
+     "srcset": "img/places/oostende/mommys-bastards/p4-400.webp 400w, img/places/oostende/mommys-bastards/p4-800.webp 800w",
+     "w": 800,
+     "h": 973,
+     "category": "food",
+     "alt": "Mommy's Bastards: food",
+     "credit": "@mommysbastards on Instagram",
+     "credit_url": "https://www.instagram.com/mommysbastards/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/mommys-bastards/p5-800.webp",
+     "thumb": "img/places/oostende/mommys-bastards/p5-400.webp",
+     "srcset": "img/places/oostende/mommys-bastards/p5-400.webp 400w, img/places/oostende/mommys-bastards/p5-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "exterior",
+     "alt": "Mommy's Bastards: the outside",
+     "credit": "mommysbastards.be",
+     "credit_url": "https://www.mommysbastards.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/mommys-bastards/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "nieuw-stene": {
+   "photos": [
+    {
+     "src": "img/places/oostende/nieuw-stene/p1-1400.webp",
+     "thumb": "img/places/oostende/nieuw-stene/p1-700.webp",
+     "srcset": "img/places/oostende/nieuw-stene/p1-700.webp 700w, img/places/oostende/nieuw-stene/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Nieuw Stene: food",
+     "credit": "nieuwstene.be",
+     "credit_url": "https://nieuwstene.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/nieuw-stene/p2-800.webp",
+     "thumb": "img/places/oostende/nieuw-stene/p2-400.webp",
+     "srcset": "img/places/oostende/nieuw-stene/p2-400.webp 400w, img/places/oostende/nieuw-stene/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Nieuw Stene: food",
+     "credit": "nieuwstene.be",
+     "credit_url": "https://nieuwstene.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/nieuw-stene/p3-800.webp",
+     "thumb": "img/places/oostende/nieuw-stene/p3-400.webp",
+     "srcset": "img/places/oostende/nieuw-stene/p3-400.webp 400w, img/places/oostende/nieuw-stene/p3-800.webp 800w",
+     "w": 800,
+     "h": 1280,
+     "category": "food",
+     "alt": "Nieuw Stene: food",
+     "credit": "nieuwstene.be",
+     "credit_url": "https://nieuwstene.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/nieuw-stene/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "oode": {
+   "photos": [
+    {
+     "src": "img/places/oostende/oode/p1-1400.webp",
+     "thumb": "img/places/oostende/oode/p1-700.webp",
+     "srcset": "img/places/oostende/oode/p1-700.webp 700w, img/places/oostende/oode/p1-1400.webp 1400w",
+     "w": 960,
+     "h": 640,
+     "category": "interior",
+     "alt": "Oode: the interior",
+     "credit": "oode.be",
+     "credit_url": "https://www.oode.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/oode/p2-800.webp",
+     "thumb": "img/places/oostende/oode/p2-400.webp",
+     "srcset": "img/places/oostende/oode/p2-400.webp 400w, img/places/oostende/oode/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Oode: food",
+     "credit": "@oode8400 on Instagram",
+     "credit_url": "https://www.instagram.com/oode8400/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/oode/p3-800.webp",
+     "thumb": "img/places/oostende/oode/p3-400.webp",
+     "srcset": "img/places/oostende/oode/p3-400.webp 400w, img/places/oostende/oode/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Oode: food",
+     "credit": "@oode8400 on Instagram",
+     "credit_url": "https://www.instagram.com/oode8400/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/oode/p4-800.webp",
+     "thumb": "img/places/oostende/oode/p4-400.webp",
+     "srcset": "img/places/oostende/oode/p4-400.webp 400w, img/places/oostende/oode/p4-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Oode: food",
+     "credit": "@oode8400 on Instagram",
+     "credit_url": "https://www.instagram.com/oode8400/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/oode/p5-800.webp",
+     "thumb": "img/places/oostende/oode/p5-400.webp",
+     "srcset": "img/places/oostende/oode/p5-400.webp 400w, img/places/oostende/oode/p5-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "Oode: the outside",
+     "credit": "@oode8400 on Instagram",
+     "credit_url": "https://www.instagram.com/oode8400/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/oode/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osteria-marina": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osteria-marina/p1-1400.webp",
+     "thumb": "img/places/oostende/osteria-marina/p1-700.webp",
+     "srcset": "img/places/oostende/osteria-marina/p1-700.webp 700w, img/places/oostende/osteria-marina/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 719,
+     "category": "interior",
+     "alt": "Osteria Marina: the interior",
+     "credit": "@osteria.marina.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/osteria.marina.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osteria-marina/p2-800.webp",
+     "thumb": "img/places/oostende/osteria-marina/p2-400.webp",
+     "srcset": "img/places/oostende/osteria-marina/p2-400.webp 400w, img/places/oostende/osteria-marina/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Osteria Marina: the interior",
+     "credit": "@osteria.marina.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/osteria.marina.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osteria-marina/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "passe-vite": {
+   "photos": [
+    {
+     "src": "img/places/oostende/passe-vite/p1-1400.webp",
+     "thumb": "img/places/oostende/passe-vite/p1-700.webp",
+     "srcset": "img/places/oostende/passe-vite/p1-700.webp 700w, img/places/oostende/passe-vite/p1-1400.webp 1400w",
+     "w": 788,
+     "h": 525,
+     "category": "interior",
+     "alt": "Passe Vite: the interior",
+     "credit": "passeviteoostende.be",
+     "credit_url": "https://passeviteoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/passe-vite/p2-800.webp",
+     "thumb": "img/places/oostende/passe-vite/p2-400.webp",
+     "srcset": "img/places/oostende/passe-vite/p2-400.webp 400w, img/places/oostende/passe-vite/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "drink",
+     "alt": "Passe Vite: drinks",
+     "credit": "@passeviteoostende on Instagram",
+     "credit_url": "https://www.instagram.com/passeviteoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/passe-vite/p3-800.webp",
+     "thumb": "img/places/oostende/passe-vite/p3-400.webp",
+     "srcset": "img/places/oostende/passe-vite/p3-400.webp 400w, img/places/oostende/passe-vite/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "Passe Vite: the interior",
+     "credit": "passeviteoostende.be",
+     "credit_url": "https://passeviteoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/passe-vite/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "restaurant-north": {
+   "photos": [
+    {
+     "src": "img/places/oostende/restaurant-north/p1-1400.webp",
+     "thumb": "img/places/oostende/restaurant-north/p1-700.webp",
+     "srcset": "img/places/oostende/restaurant-north/p1-700.webp 700w, img/places/oostende/restaurant-north/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Restaurant North: the interior",
+     "credit": "restaurant-north.be",
+     "credit_url": "https://www.restaurant-north.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/restaurant-north/p2-800.webp",
+     "thumb": "img/places/oostende/restaurant-north/p2-400.webp",
+     "srcset": "img/places/oostende/restaurant-north/p2-400.webp 400w, img/places/oostende/restaurant-north/p2-800.webp 800w",
+     "w": 800,
+     "h": 964,
+     "category": "food",
+     "alt": "Restaurant North: food",
+     "credit": "@restaurant_north on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_north/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/restaurant-north/p3-800.webp",
+     "thumb": "img/places/oostende/restaurant-north/p3-400.webp",
+     "srcset": "img/places/oostende/restaurant-north/p3-400.webp 400w, img/places/oostende/restaurant-north/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Restaurant North: food",
+     "credit": "restaurant-north.be",
+     "credit_url": "https://www.restaurant-north.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/restaurant-north/p4-800.webp",
+     "thumb": "img/places/oostende/restaurant-north/p4-400.webp",
+     "srcset": "img/places/oostende/restaurant-north/p4-400.webp 400w, img/places/oostende/restaurant-north/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Restaurant North: food",
+     "credit": "restaurant-north.be",
+     "credit_url": "https://www.restaurant-north.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/restaurant-north/p5-800.webp",
+     "thumb": "img/places/oostende/restaurant-north/p5-400.webp",
+     "srcset": "img/places/oostende/restaurant-north/p5-400.webp 400w, img/places/oostende/restaurant-north/p5-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "Restaurant North: the outside",
+     "credit": "restaurant-north.be",
+     "credit_url": "https://www.restaurant-north.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/restaurant-north/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "rhumerie-louis": {
+   "photos": [
+    {
+     "src": "img/places/oostende/rhumerie-louis/p1-1400.webp",
+     "thumb": "img/places/oostende/rhumerie-louis/p1-700.webp",
+     "srcset": "img/places/oostende/rhumerie-louis/p1-700.webp 700w, img/places/oostende/rhumerie-louis/p1-1400.webp 1400w",
+     "w": 1344,
+     "h": 768,
+     "category": "drink",
+     "alt": "Rhumerie Louis: drinks",
+     "credit": "rhumerielouis.be",
+     "credit_url": "https://rhumerielouis.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/rhumerie-louis/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "marina": {
+   "photos": [
+    {
+     "src": "img/places/oostende/marina/p1-1400.webp",
+     "thumb": "img/places/oostende/marina/p1-700.webp",
+     "srcset": "img/places/oostende/marina/p1-700.webp 700w, img/places/oostende/marina/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 900,
+     "category": "food",
+     "alt": "Ristorante Marina: food",
+     "credit": "resto-marina.be",
+     "credit_url": "https://www.resto-marina.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/marina/p2-800.webp",
+     "thumb": "img/places/oostende/marina/p2-400.webp",
+     "srcset": "img/places/oostende/marina/p2-400.webp 400w, img/places/oostende/marina/p2-800.webp 800w",
+     "w": 800,
+     "h": 532,
+     "category": "food",
+     "alt": "Ristorante Marina: food",
+     "credit": "@resto.marina.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/resto.marina.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/marina/p3-800.webp",
+     "thumb": "img/places/oostende/marina/p3-400.webp",
+     "srcset": "img/places/oostende/marina/p3-400.webp 400w, img/places/oostende/marina/p3-800.webp 800w",
+     "w": 681,
+     "h": 452,
+     "category": "food",
+     "alt": "Ristorante Marina: food",
+     "credit": "@resto.marina.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/resto.marina.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/marina/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "rocco-eats": {
+   "photos": [
+    {
+     "src": "img/places/oostende/rocco-eats/p1-1400.webp",
+     "thumb": "img/places/oostende/rocco-eats/p1-700.webp",
+     "srcset": "img/places/oostende/rocco-eats/p1-700.webp 700w, img/places/oostende/rocco-eats/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "exterior",
+     "alt": "Rocco Eats Foodbar: the outside",
+     "credit": "@roccoeats.foodbar on Instagram",
+     "credit_url": "https://www.instagram.com/roccoeats.foodbar/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rocco-eats/p2-800.webp",
+     "thumb": "img/places/oostende/rocco-eats/p2-400.webp",
+     "srcset": "img/places/oostende/rocco-eats/p2-400.webp 400w, img/places/oostende/rocco-eats/p2-800.webp 800w",
+     "w": 733,
+     "h": 900,
+     "category": "food",
+     "alt": "Rocco Eats Foodbar: food",
+     "credit": "rocco-eats.com",
+     "credit_url": "https://www.rocco-eats.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rocco-eats/p3-800.webp",
+     "thumb": "img/places/oostende/rocco-eats/p3-400.webp",
+     "srcset": "img/places/oostende/rocco-eats/p3-400.webp 400w, img/places/oostende/rocco-eats/p3-800.webp 800w",
+     "w": 712,
+     "h": 900,
+     "category": "food",
+     "alt": "Rocco Eats Foodbar: food",
+     "credit": "rocco-eats.com",
+     "credit_url": "https://www.rocco-eats.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rocco-eats/p4-800.webp",
+     "thumb": "img/places/oostende/rocco-eats/p4-400.webp",
+     "srcset": "img/places/oostende/rocco-eats/p4-400.webp 400w, img/places/oostende/rocco-eats/p4-800.webp 800w",
+     "w": 652,
+     "h": 900,
+     "category": "food",
+     "alt": "Rocco Eats Foodbar: food",
+     "credit": "rocco-eats.com",
+     "credit_url": "https://www.rocco-eats.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/rocco-eats/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "savarin": {
+   "photos": [
+    {
+     "src": "img/places/oostende/savarin/p1-1400.webp",
+     "thumb": "img/places/oostende/savarin/p1-700.webp",
+     "srcset": "img/places/oostende/savarin/p1-700.webp 700w, img/places/oostende/savarin/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Savarin: the interior",
+     "credit": "savarin.be",
+     "credit_url": "https://www.savarin.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/savarin/p2-800.webp",
+     "thumb": "img/places/oostende/savarin/p2-400.webp",
+     "srcset": "img/places/oostende/savarin/p2-400.webp 400w, img/places/oostende/savarin/p2-800.webp 800w",
+     "w": 800,
+     "h": 538,
+     "category": "food",
+     "alt": "Savarin: food",
+     "credit": "@savarin_oostende on Instagram",
+     "credit_url": "https://www.instagram.com/savarin_oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/savarin/p3-800.webp",
+     "thumb": "img/places/oostende/savarin/p3-400.webp",
+     "srcset": "img/places/oostende/savarin/p3-400.webp 400w, img/places/oostende/savarin/p3-800.webp 800w",
+     "w": 643,
+     "h": 1145,
+     "category": "food",
+     "alt": "Savarin: food",
+     "credit": "@savarin_oostende on Instagram",
+     "credit_url": "https://www.instagram.com/savarin_oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/savarin/p4-800.webp",
+     "thumb": "img/places/oostende/savarin/p4-400.webp",
+     "srcset": "img/places/oostende/savarin/p4-400.webp 400w, img/places/oostende/savarin/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Savarin: the interior",
+     "credit": "savarin.be",
+     "credit_url": "https://www.savarin.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/savarin/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "sofia": {
+   "photos": [
+    {
+     "src": "img/places/oostende/sofia/p1-1400.webp",
+     "thumb": "img/places/oostende/sofia/p1-700.webp",
+     "srcset": "img/places/oostende/sofia/p1-700.webp 700w, img/places/oostende/sofia/p1-1400.webp 1400w",
+     "w": 1365,
+     "h": 972,
+     "category": "food",
+     "alt": "Sofia: food",
+     "credit": "sofiaoostende.be",
+     "credit_url": "https://www.sofiaoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/sofia/p2-800.webp",
+     "thumb": "img/places/oostende/sofia/p2-400.webp",
+     "srcset": "img/places/oostende/sofia/p2-400.webp 400w, img/places/oostende/sofia/p2-800.webp 800w",
+     "w": 738,
+     "h": 491,
+     "category": "food",
+     "alt": "Sofia: food",
+     "credit": "sofiaoostende.be",
+     "credit_url": "https://www.sofiaoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/sofia/p3-800.webp",
+     "thumb": "img/places/oostende/sofia/p3-400.webp",
+     "srcset": "img/places/oostende/sofia/p3-400.webp 400w, img/places/oostende/sofia/p3-800.webp 800w",
+     "w": 800,
+     "h": 1201,
+     "category": "drink",
+     "alt": "Sofia: drinks",
+     "credit": "sofiaoostende.be",
+     "credit_url": "https://www.sofiaoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/sofia/p4-800.webp",
+     "thumb": "img/places/oostende/sofia/p4-400.webp",
+     "srcset": "img/places/oostende/sofia/p4-400.webp 400w, img/places/oostende/sofia/p4-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "exterior",
+     "alt": "Sofia: the outside",
+     "credit": "@sofiaoostende on Instagram",
+     "credit_url": "https://www.instagram.com/sofiaoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/sofia/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "storm": {
+   "photos": [
+    {
+     "src": "img/places/oostende/storm/p1-1400.webp",
+     "thumb": "img/places/oostende/storm/p1-700.webp",
+     "srcset": "img/places/oostende/storm/p1-700.webp 700w, img/places/oostende/storm/p1-1400.webp 1400w",
+     "w": 1100,
+     "h": 490,
+     "category": "exterior",
+     "alt": "Storm: the outside",
+     "credit": "stormoostende.be",
+     "credit_url": "https://www.stormoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/storm/p2-800.webp",
+     "thumb": "img/places/oostende/storm/p2-400.webp",
+     "srcset": "img/places/oostende/storm/p2-400.webp 400w, img/places/oostende/storm/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Storm: food",
+     "credit": "@restaurantstorm on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantstorm/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/storm/p3-800.webp",
+     "thumb": "img/places/oostende/storm/p3-400.webp",
+     "srcset": "img/places/oostende/storm/p3-400.webp 400w, img/places/oostende/storm/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Storm: food",
+     "credit": "@restaurantstorm on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantstorm/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/storm/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "tatemado": {
+   "photos": [
+    {
+     "src": "img/places/oostende/tatemado/p1-1400.webp",
+     "thumb": "img/places/oostende/tatemado/p1-700.webp",
+     "srcset": "img/places/oostende/tatemado/p1-700.webp 700w, img/places/oostende/tatemado/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Tatemado: food",
+     "credit": "tatemado.be",
+     "credit_url": "https://tatemado.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/tatemado/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "villa-ostinato": {
+   "photos": [
+    {
+     "src": "img/places/oostende/villa-ostinato/p1-1400.webp",
+     "thumb": "img/places/oostende/villa-ostinato/p1-700.webp",
+     "srcset": "img/places/oostende/villa-ostinato/p1-700.webp 700w, img/places/oostende/villa-ostinato/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Villa Ostinato: the interior",
+     "credit": "villaostinato.be",
+     "credit_url": "https://villaostinato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/villa-ostinato/p2-800.webp",
+     "thumb": "img/places/oostende/villa-ostinato/p2-400.webp",
+     "srcset": "img/places/oostende/villa-ostinato/p2-400.webp 400w, img/places/oostende/villa-ostinato/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Villa Ostinato: food",
+     "credit": "villaostinato.be",
+     "credit_url": "https://villaostinato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/villa-ostinato/p3-800.webp",
+     "thumb": "img/places/oostende/villa-ostinato/p3-400.webp",
+     "srcset": "img/places/oostende/villa-ostinato/p3-400.webp 400w, img/places/oostende/villa-ostinato/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Villa Ostinato: food",
+     "credit": "@villaostinato on Instagram",
+     "credit_url": "https://www.instagram.com/villaostinato/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/villa-ostinato/p4-800.webp",
+     "thumb": "img/places/oostende/villa-ostinato/p4-400.webp",
+     "srcset": "img/places/oostende/villa-ostinato/p4-400.webp 400w, img/places/oostende/villa-ostinato/p4-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Villa Ostinato: food",
+     "credit": "villaostinato.be",
+     "credit_url": "https://villaostinato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/villa-ostinato/p5-800.webp",
+     "thumb": "img/places/oostende/villa-ostinato/p5-400.webp",
+     "srcset": "img/places/oostende/villa-ostinato/p5-400.webp 400w, img/places/oostende/villa-ostinato/p5-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "interior",
+     "alt": "Villa Ostinato: the interior",
+     "credit": "villaostinato.be",
+     "credit_url": "https://villaostinato.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/villa-ostinato/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "vinclo": {
+   "photos": [
+    {
+     "src": "img/places/oostende/vinclo/p1-1400.webp",
+     "thumb": "img/places/oostende/vinclo/p1-700.webp",
+     "srcset": "img/places/oostende/vinclo/p1-700.webp 700w, img/places/oostende/vinclo/p1-1400.webp 1400w",
+     "w": 712,
+     "h": 739,
+     "category": "food",
+     "alt": "Vincl'O: food",
+     "credit": "vinclo.be",
+     "credit_url": "https://www.vinclo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/vinclo/p2-800.webp",
+     "thumb": "img/places/oostende/vinclo/p2-400.webp",
+     "srcset": "img/places/oostende/vinclo/p2-400.webp 400w, img/places/oostende/vinclo/p2-800.webp 800w",
+     "w": 712,
+     "h": 786,
+     "category": "drink",
+     "alt": "Vincl'O: drinks",
+     "credit": "vinclo.be",
+     "credit_url": "https://www.vinclo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/vinclo/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "yuzu": {
+   "photos": [
+    {
+     "src": "img/places/oostende/yuzu/p1-1400.webp",
+     "thumb": "img/places/oostende/yuzu/p1-700.webp",
+     "srcset": "img/places/oostende/yuzu/p1-700.webp 700w, img/places/oostende/yuzu/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 720,
+     "category": "interior",
+     "alt": "Yuzu: the interior",
+     "credit": "yuzuoostende.be",
+     "credit_url": "https://yuzuoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/yuzu/p2-800.webp",
+     "thumb": "img/places/oostende/yuzu/p2-400.webp",
+     "srcset": "img/places/oostende/yuzu/p2-400.webp 400w, img/places/oostende/yuzu/p2-800.webp 800w",
+     "w": 800,
+     "h": 896,
+     "category": "food",
+     "alt": "Yuzu: food",
+     "credit": "@yuzuoostende on Instagram",
+     "credit_url": "https://www.instagram.com/yuzuoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/yuzu/p3-800.webp",
+     "thumb": "img/places/oostende/yuzu/p3-400.webp",
+     "srcset": "img/places/oostende/yuzu/p3-400.webp 400w, img/places/oostende/yuzu/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Yuzu: food",
+     "credit": "@yuzuoostende on Instagram",
+     "credit_url": "https://www.instagram.com/yuzuoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/yuzu/p4-800.webp",
+     "thumb": "img/places/oostende/yuzu/p4-400.webp",
+     "srcset": "img/places/oostende/yuzu/p4-400.webp 400w, img/places/oostende/yuzu/p4-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Yuzu: food",
+     "credit": "@yuzuoostende on Instagram",
+     "credit_url": "https://www.instagram.com/yuzuoostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/yuzu/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "zuske": {
+   "photos": [
+    {
+     "src": "img/places/oostende/zuske/p1-1400.webp",
+     "thumb": "img/places/oostende/zuske/p1-700.webp",
+     "srcset": "img/places/oostende/zuske/p1-700.webp 700w, img/places/oostende/zuske/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Zuske: food",
+     "credit": "@zuske.be on Instagram",
+     "credit_url": "https://www.instagram.com/zuske.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/zuske/p2-800.webp",
+     "thumb": "img/places/oostende/zuske/p2-400.webp",
+     "srcset": "img/places/oostende/zuske/p2-400.webp 400w, img/places/oostende/zuske/p2-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "Zuske: food",
+     "credit": "@zuske.be on Instagram",
+     "credit_url": "https://www.instagram.com/zuske.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/zuske/p3-800.webp",
+     "thumb": "img/places/oostende/zuske/p3-400.webp",
+     "srcset": "img/places/oostende/zuske/p3-400.webp 400w, img/places/oostende/zuske/p3-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "Zuske: food",
+     "credit": "@zuske.be on Instagram",
+     "credit_url": "https://www.instagram.com/zuske.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/zuske/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-al-amira-w1052981449": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-al-amira-w1052981449/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-al-amira-w1052981449/p1-700.webp",
+     "srcset": "img/places/oostende/osm-al-amira-w1052981449/p1-700.webp 700w, img/places/oostende/osm-al-amira-w1052981449/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 940,
+     "category": "food",
+     "alt": "Al Amira: food",
+     "credit": "al-amira-oostende.be",
+     "credit_url": "https://www.al-amira-oostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-al-amira-w1052981449/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-bottarga-n12759963546": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-bistro-bottarga-n12759963546/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-bistro-bottarga-n12759963546/p1-700.webp",
+     "srcset": "img/places/oostende/osm-bistro-bottarga-n12759963546/p1-700.webp 700w, img/places/oostende/osm-bistro-bottarga-n12759963546/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Bistro Bottarga: the interior",
+     "credit": "bottarga.be",
+     "credit_url": "https://bottarga.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-bistro-bottarga-n12759963546/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-van-gogh-n5087378832": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-bistro-van-gogh-n5087378832/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-bistro-van-gogh-n5087378832/p1-700.webp",
+     "srcset": "img/places/oostende/osm-bistro-van-gogh-n5087378832/p1-700.webp 700w, img/places/oostende/osm-bistro-van-gogh-n5087378832/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "exterior",
+     "alt": "Bistro Van Gogh: the outside",
+     "credit": "bistrovangogh.be",
+     "credit_url": "https://www.bistrovangogh.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-bistro-van-gogh-n5087378832/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-brasserie-saint-tropez-n12051050910": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-brasserie-saint-tropez-n12051050910/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-brasserie-saint-tropez-n12051050910/p1-700.webp",
+     "srcset": "img/places/oostende/osm-brasserie-saint-tropez-n12051050910/p1-700.webp 700w, img/places/oostende/osm-brasserie-saint-tropez-n12051050910/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Brasserie Saint-Tropez: food",
+     "credit": "sainttropez.be",
+     "credit_url": "https://www.sainttropez.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-brasserie-saint-tropez-n12051050910/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-foyer-n6030384851": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-de-foyer-n6030384851/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-de-foyer-n6030384851/p1-700.webp",
+     "srcset": "img/places/oostende/osm-de-foyer-n6030384851/p1-700.webp 700w, img/places/oostende/osm-de-foyer-n6030384851/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "De Foyer: the interior",
+     "credit": "foyeroostende.be",
+     "credit_url": "https://www.foyeroostende.be/nl/be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-de-foyer-n6030384851/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-eclips-n5515666944": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-eclips-n5515666944/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-eclips-n5515666944/p1-700.webp",
+     "srcset": "img/places/oostende/osm-eclips-n5515666944/p1-700.webp 700w, img/places/oostende/osm-eclips-n5515666944/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 930,
+     "category": "interior",
+     "alt": "Eclips: the interior",
+     "credit": "eclips-at-sea.be",
+     "credit_url": "https://eclips-at-sea.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eclips-n5515666944/p2-800.webp",
+     "thumb": "img/places/oostende/osm-eclips-n5515666944/p2-400.webp",
+     "srcset": "img/places/oostende/osm-eclips-n5515666944/p2-400.webp 400w, img/places/oostende/osm-eclips-n5515666944/p2-800.webp 800w",
+     "w": 800,
+     "h": 531,
+     "category": "food",
+     "alt": "Eclips: food",
+     "credit": "eclips-at-sea.be",
+     "credit_url": "https://eclips-at-sea.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eclips-n5515666944/p3-800.webp",
+     "thumb": "img/places/oostende/osm-eclips-n5515666944/p3-400.webp",
+     "srcset": "img/places/oostende/osm-eclips-n5515666944/p3-400.webp 400w, img/places/oostende/osm-eclips-n5515666944/p3-800.webp 800w",
+     "w": 800,
+     "h": 531,
+     "category": "food",
+     "alt": "Eclips: food",
+     "credit": "eclips-at-sea.be",
+     "credit_url": "https://eclips-at-sea.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eclips-n5515666944/p4-800.webp",
+     "thumb": "img/places/oostende/osm-eclips-n5515666944/p4-400.webp",
+     "srcset": "img/places/oostende/osm-eclips-n5515666944/p4-400.webp 400w, img/places/oostende/osm-eclips-n5515666944/p4-800.webp 800w",
+     "w": 800,
+     "h": 1098,
+     "category": "food",
+     "alt": "Eclips: food",
+     "credit": "eclips-at-sea.be",
+     "credit_url": "https://eclips-at-sea.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eclips-n5515666944/p5-800.webp",
+     "thumb": "img/places/oostende/osm-eclips-n5515666944/p5-400.webp",
+     "srcset": "img/places/oostende/osm-eclips-n5515666944/p5-400.webp 400w, img/places/oostende/osm-eclips-n5515666944/p5-800.webp 800w",
+     "w": 800,
+     "h": 510,
+     "category": "interior",
+     "alt": "Eclips: the interior",
+     "credit": "eclips-at-sea.be",
+     "credit_url": "https://eclips-at-sea.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-eclips-n5515666944/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-falstaff-n13201618828": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-falstaff-n13201618828/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-falstaff-n13201618828/p1-700.webp",
+     "srcset": "img/places/oostende/osm-falstaff-n13201618828/p1-700.webp 700w, img/places/oostende/osm-falstaff-n13201618828/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Falstaff: the interior",
+     "credit": "restaurant-falstaff-oostende.be",
+     "credit_url": "https://www.restaurant-falstaff-oostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-falstaff-n13201618828/p2-800.webp",
+     "thumb": "img/places/oostende/osm-falstaff-n13201618828/p2-400.webp",
+     "srcset": "img/places/oostende/osm-falstaff-n13201618828/p2-400.webp 400w, img/places/oostende/osm-falstaff-n13201618828/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Falstaff: food",
+     "credit": "restaurant-falstaff-oostende.be",
+     "credit_url": "https://www.restaurant-falstaff-oostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-falstaff-n13201618828/p3-800.webp",
+     "thumb": "img/places/oostende/osm-falstaff-n13201618828/p3-400.webp",
+     "srcset": "img/places/oostende/osm-falstaff-n13201618828/p3-400.webp 400w, img/places/oostende/osm-falstaff-n13201618828/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Falstaff: food",
+     "credit": "restaurant-falstaff-oostende.be",
+     "credit_url": "https://www.restaurant-falstaff-oostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-falstaff-n13201618828/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-il-gusto-di-sorrento-n6779709387": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p1-700.webp",
+     "srcset": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p1-700.webp 700w, img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "Il gusto di sorrento: the interior",
+     "credit": "ilgustodisorrento.be",
+     "credit_url": "https://ilgustodisorrento.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p2-800.webp",
+     "thumb": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p2-400.webp",
+     "srcset": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p2-400.webp 400w, img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p2-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "Il gusto di sorrento: food",
+     "credit": "ilgustodisorrento.be",
+     "credit_url": "https://ilgustodisorrento.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p3-800.webp",
+     "thumb": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p3-400.webp",
+     "srcset": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p3-400.webp 400w, img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p3-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "Il gusto di sorrento: food",
+     "credit": "ilgustodisorrento.be",
+     "credit_url": "https://ilgustodisorrento.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p4-800.webp",
+     "thumb": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p4-400.webp",
+     "srcset": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p4-400.webp 400w, img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p4-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Il gusto di sorrento: food",
+     "credit": "@ilgustodisorrento on Instagram",
+     "credit_url": "https://www.instagram.com/ilgustodisorrento/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p5-800.webp",
+     "thumb": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p5-400.webp",
+     "srcset": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p5-400.webp 400w, img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p5-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "exterior",
+     "alt": "Il gusto di sorrento: the outside",
+     "credit": "ilgustodisorrento.be",
+     "credit_url": "https://ilgustodisorrento.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-il-gusto-di-sorrento-n6779709387/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-koekoek-n4537351791": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-koekoek-n4537351791/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-koekoek-n4537351791/p1-700.webp",
+     "srcset": "img/places/oostende/osm-koekoek-n4537351791/p1-700.webp 700w, img/places/oostende/osm-koekoek-n4537351791/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Koekoek: the interior",
+     "credit": "tavernekoekoek.be",
+     "credit_url": "https://www.tavernekoekoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-koekoek-n4537351791/p2-800.webp",
+     "thumb": "img/places/oostende/osm-koekoek-n4537351791/p2-400.webp",
+     "srcset": "img/places/oostende/osm-koekoek-n4537351791/p2-400.webp 400w, img/places/oostende/osm-koekoek-n4537351791/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Koekoek: food",
+     "credit": "tavernekoekoek.be",
+     "credit_url": "https://www.tavernekoekoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-koekoek-n4537351791/p3-800.webp",
+     "thumb": "img/places/oostende/osm-koekoek-n4537351791/p3-400.webp",
+     "srcset": "img/places/oostende/osm-koekoek-n4537351791/p3-400.webp 400w, img/places/oostende/osm-koekoek-n4537351791/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Koekoek: food",
+     "credit": "tavernekoekoek.be",
+     "credit_url": "https://www.tavernekoekoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-koekoek-n4537351791/p4-800.webp",
+     "thumb": "img/places/oostende/osm-koekoek-n4537351791/p4-400.webp",
+     "srcset": "img/places/oostende/osm-koekoek-n4537351791/p4-400.webp 400w, img/places/oostende/osm-koekoek-n4537351791/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Koekoek: the outside",
+     "credit": "tavernekoekoek.be",
+     "credit_url": "https://www.tavernekoekoek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-koekoek-n4537351791/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-le-basque-n10733267005": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-le-basque-n10733267005/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-le-basque-n10733267005/p1-700.webp",
+     "srcset": "img/places/oostende/osm-le-basque-n10733267005/p1-700.webp 700w, img/places/oostende/osm-le-basque-n10733267005/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Le Basque: the interior",
+     "credit": "lebasqueoostende.be",
+     "credit_url": "https://www.lebasqueoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-le-basque-n10733267005/p2-800.webp",
+     "thumb": "img/places/oostende/osm-le-basque-n10733267005/p2-400.webp",
+     "srcset": "img/places/oostende/osm-le-basque-n10733267005/p2-400.webp 400w, img/places/oostende/osm-le-basque-n10733267005/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "exterior",
+     "alt": "Le Basque: the outside",
+     "credit": "lebasqueoostende.be",
+     "credit_url": "https://www.lebasqueoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-le-basque-n10733267005/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-lhamo-bistro-n13968719538": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-lhamo-bistro-n13968719538/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-lhamo-bistro-n13968719538/p1-700.webp",
+     "srcset": "img/places/oostende/osm-lhamo-bistro-n13968719538/p1-700.webp 700w, img/places/oostende/osm-lhamo-bistro-n13968719538/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 735,
+     "category": "exterior",
+     "alt": "Lhamo Bistro: the outside",
+     "credit": "lhamobistro.be",
+     "credit_url": "https://lhamobistro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-lhamo-bistro-n13968719538/p2-800.webp",
+     "thumb": "img/places/oostende/osm-lhamo-bistro-n13968719538/p2-400.webp",
+     "srcset": "img/places/oostende/osm-lhamo-bistro-n13968719538/p2-400.webp 400w, img/places/oostende/osm-lhamo-bistro-n13968719538/p2-800.webp 800w",
+     "w": 800,
+     "h": 651,
+     "category": "food",
+     "alt": "Lhamo Bistro: food",
+     "credit": "@lhamobistro28 on Instagram",
+     "credit_url": "https://www.instagram.com/lhamobistro28/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-lhamo-bistro-n13968719538/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-madam-kroket-n10807059785": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-madam-kroket-n10807059785/p1-700.webp",
+     "srcset": "img/places/oostende/osm-madam-kroket-n10807059785/p1-700.webp 700w, img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1919,
+     "category": "exterior",
+     "alt": "Madam Kroket: the outside",
+     "credit": "@madamkroket on Instagram",
+     "credit_url": "https://www.instagram.com/madamkroket/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-marebello-n6030384849": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-marebello-n6030384849/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-marebello-n6030384849/p1-700.webp",
+     "srcset": "img/places/oostende/osm-marebello-n6030384849/p1-700.webp 700w, img/places/oostende/osm-marebello-n6030384849/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Marebello: the interior",
+     "credit": "marebello.be",
+     "credit_url": "https://marebello.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-marebello-n6030384849/p2-800.webp",
+     "thumb": "img/places/oostende/osm-marebello-n6030384849/p2-400.webp",
+     "srcset": "img/places/oostende/osm-marebello-n6030384849/p2-400.webp 400w, img/places/oostende/osm-marebello-n6030384849/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "exterior",
+     "alt": "Marebello: the outside",
+     "credit": "marebello.be",
+     "credit_url": "https://marebello.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-marebello-n6030384849/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-no-nonsense-n1115063555": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-no-nonsense-n1115063555/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-no-nonsense-n1115063555/p1-700.webp",
+     "srcset": "img/places/oostende/osm-no-nonsense-n1115063555/p1-700.webp 700w, img/places/oostende/osm-no-nonsense-n1115063555/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "No Nonsense: the interior",
+     "credit": "nononsense-oostende.be",
+     "credit_url": "https://www.nononsense-oostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-no-nonsense-n1115063555/p2-800.webp",
+     "thumb": "img/places/oostende/osm-no-nonsense-n1115063555/p2-400.webp",
+     "srcset": "img/places/oostende/osm-no-nonsense-n1115063555/p2-400.webp 400w, img/places/oostende/osm-no-nonsense-n1115063555/p2-800.webp 800w",
+     "w": 800,
+     "h": 768,
+     "category": "exterior",
+     "alt": "No Nonsense: the outside",
+     "credit": "@nononsense.oostende on Instagram",
+     "credit_url": "https://www.instagram.com/nononsense.oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-no-nonsense-n1115063555/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-ostend-sailing-phare-east-n5848254463": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-ostend-sailing-phare-east-n5848254463/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-ostend-sailing-phare-east-n5848254463/p1-700.webp",
+     "srcset": "img/places/oostende/osm-ostend-sailing-phare-east-n5848254463/p1-700.webp 700w, img/places/oostende/osm-ostend-sailing-phare-east-n5848254463/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 768,
+     "category": "food",
+     "alt": "Ostend Sailing & Phare East: food",
+     "credit": "phareeast.be",
+     "credit_url": "https://www.phareeast.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-ostend-sailing-phare-east-n5848254463/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-phuang-malai-thai-n10807167340": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p1-700.webp",
+     "srcset": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p1-700.webp 700w, img/places/oostende/osm-phuang-malai-thai-n10807167340/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 935,
+     "category": "food",
+     "alt": "Phuang Malai Thai: food",
+     "credit": "phuangmalai.be",
+     "credit_url": "https://phuangmalai.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p2-800.webp",
+     "thumb": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p2-400.webp",
+     "srcset": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p2-400.webp 400w, img/places/oostende/osm-phuang-malai-thai-n10807167340/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Phuang Malai Thai: food",
+     "credit": "phuangmalai.be",
+     "credit_url": "https://phuangmalai.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p3-800.webp",
+     "thumb": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p3-400.webp",
+     "srcset": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p3-400.webp 400w, img/places/oostende/osm-phuang-malai-thai-n10807167340/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Phuang Malai Thai: food",
+     "credit": "phuangmalai.be",
+     "credit_url": "https://phuangmalai.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-phuang-malai-thai-n10807167340/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-picobello-oostende-n12849316947": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-picobello-oostende-n12849316947/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-picobello-oostende-n12849316947/p1-700.webp",
+     "srcset": "img/places/oostende/osm-picobello-oostende-n12849316947/p1-700.webp 700w, img/places/oostende/osm-picobello-oostende-n12849316947/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Picobello Oostende: the interior",
+     "credit": "pizzeria-picobello.eatbu.com",
+     "credit_url": "https://pizzeria-picobello.eatbu.com/?lang=nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-picobello-oostende-n12849316947/p2-800.webp",
+     "thumb": "img/places/oostende/osm-picobello-oostende-n12849316947/p2-400.webp",
+     "srcset": "img/places/oostende/osm-picobello-oostende-n12849316947/p2-400.webp 400w, img/places/oostende/osm-picobello-oostende-n12849316947/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Picobello Oostende: food",
+     "credit": "@picobello_oostende on Instagram",
+     "credit_url": "https://www.instagram.com/picobello_oostende/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-picobello-oostende-n12849316947/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-restaurant-lobster-n5516061799": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-restaurant-lobster-n5516061799/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-restaurant-lobster-n5516061799/p1-700.webp",
+     "srcset": "img/places/oostende/osm-restaurant-lobster-n5516061799/p1-700.webp 700w, img/places/oostende/osm-restaurant-lobster-n5516061799/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 958,
+     "category": "interior",
+     "alt": "Restaurant Lobster: the interior",
+     "credit": "lobster.be",
+     "credit_url": "https://lobster.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-restaurant-lobster-n5516061799/p2-800.webp",
+     "thumb": "img/places/oostende/osm-restaurant-lobster-n5516061799/p2-400.webp",
+     "srcset": "img/places/oostende/osm-restaurant-lobster-n5516061799/p2-400.webp 400w, img/places/oostende/osm-restaurant-lobster-n5516061799/p2-800.webp 800w",
+     "w": 800,
+     "h": 506,
+     "category": "food",
+     "alt": "Restaurant Lobster: food",
+     "credit": "lobster.be",
+     "credit_url": "https://lobster.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-restaurant-lobster-n5516061799/p3-800.webp",
+     "thumb": "img/places/oostende/osm-restaurant-lobster-n5516061799/p3-400.webp",
+     "srcset": "img/places/oostende/osm-restaurant-lobster-n5516061799/p3-400.webp 400w, img/places/oostende/osm-restaurant-lobster-n5516061799/p3-800.webp 800w",
+     "w": 800,
+     "h": 622,
+     "category": "food",
+     "alt": "Restaurant Lobster: food",
+     "credit": "lobster.be",
+     "credit_url": "https://lobster.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-restaurant-lobster-n5516061799/p4-800.webp",
+     "thumb": "img/places/oostende/osm-restaurant-lobster-n5516061799/p4-400.webp",
+     "srcset": "img/places/oostende/osm-restaurant-lobster-n5516061799/p4-400.webp 400w, img/places/oostende/osm-restaurant-lobster-n5516061799/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Restaurant Lobster: food",
+     "credit": "lobster.be",
+     "credit_url": "https://lobster.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-restaurant-lobster-n5516061799/p5-800.webp",
+     "thumb": "img/places/oostende/osm-restaurant-lobster-n5516061799/p5-400.webp",
+     "srcset": "img/places/oostende/osm-restaurant-lobster-n5516061799/p5-400.webp 400w, img/places/oostende/osm-restaurant-lobster-n5516061799/p5-800.webp 800w",
+     "w": 800,
+     "h": 578,
+     "category": "interior",
+     "alt": "Restaurant Lobster: the interior",
+     "credit": "lobster.be",
+     "credit_url": "https://lobster.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-restaurant-lobster-n5516061799/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-restaurant-runway-26-08-n543865543": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p1-700.webp",
+     "srcset": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p1-700.webp 700w, img/places/oostende/osm-restaurant-runway-26-08-n543865543/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 800,
+     "category": "interior",
+     "alt": "Restaurant Runway 26=08: the interior",
+     "credit": "runway2608.be",
+     "credit_url": "https://runway2608.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p2-800.webp",
+     "thumb": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p2-400.webp",
+     "srcset": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p2-400.webp 400w, img/places/oostende/osm-restaurant-runway-26-08-n543865543/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Restaurant Runway 26=08: food",
+     "credit": "@restaurantrunway2608 on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantrunway2608/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p3-800.webp",
+     "thumb": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p3-400.webp",
+     "srcset": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p3-400.webp 400w, img/places/oostende/osm-restaurant-runway-26-08-n543865543/p3-800.webp 800w",
+     "w": 622,
+     "h": 640,
+     "category": "food",
+     "alt": "Restaurant Runway 26=08: food",
+     "credit": "@restaurantrunway2608 on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantrunway2608/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-restaurant-runway-26-08-n543865543/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-sizzler-w160443054": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-sizzler-w160443054/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-sizzler-w160443054/p1-700.webp",
+     "srcset": "img/places/oostende/osm-sizzler-w160443054/p1-700.webp 700w, img/places/oostende/osm-sizzler-w160443054/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "Sizzler: the outside",
+     "credit": "sizzler.be",
+     "credit_url": "https://www.sizzler.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-sizzler-w160443054/p2-800.webp",
+     "thumb": "img/places/oostende/osm-sizzler-w160443054/p2-400.webp",
+     "srcset": "img/places/oostende/osm-sizzler-w160443054/p2-400.webp 400w, img/places/oostende/osm-sizzler-w160443054/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "drink",
+     "alt": "Sizzler: drinks",
+     "credit": "sizzler.be",
+     "credit_url": "https://www.sizzler.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-sizzler-w160443054/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-sorrento-n11363078548": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-sorrento-n11363078548/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-sorrento-n11363078548/p1-700.webp",
+     "srcset": "img/places/oostende/osm-sorrento-n11363078548/p1-700.webp 700w, img/places/oostende/osm-sorrento-n11363078548/p1-1400.webp 1400w",
+     "w": 705,
+     "h": 470,
+     "category": "interior",
+     "alt": "Sorrento: the interior",
+     "credit": "sorrentoresto.com",
+     "credit_url": "https://www.sorrentoresto.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-sorrento-n11363078548/p2-800.webp",
+     "thumb": "img/places/oostende/osm-sorrento-n11363078548/p2-400.webp",
+     "srcset": "img/places/oostende/osm-sorrento-n11363078548/p2-400.webp 400w, img/places/oostende/osm-sorrento-n11363078548/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Sorrento: food",
+     "credit": "sorrentoresto.com",
+     "credit_url": "https://www.sorrentoresto.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-sorrento-n11363078548/p3-800.webp",
+     "thumb": "img/places/oostende/osm-sorrento-n11363078548/p3-400.webp",
+     "srcset": "img/places/oostende/osm-sorrento-n11363078548/p3-400.webp 400w, img/places/oostende/osm-sorrento-n11363078548/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Sorrento: food",
+     "credit": "sorrentoresto.com",
+     "credit_url": "https://www.sorrentoresto.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-sorrento-n11363078548/p4-800.webp",
+     "thumb": "img/places/oostende/osm-sorrento-n11363078548/p4-400.webp",
+     "srcset": "img/places/oostende/osm-sorrento-n11363078548/p4-400.webp 400w, img/places/oostende/osm-sorrento-n11363078548/p4-800.webp 800w",
+     "w": 615,
+     "h": 615,
+     "category": "food",
+     "alt": "Sorrento: food",
+     "credit": "sorrentoresto.com",
+     "credit_url": "https://www.sorrentoresto.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-sorrento-n11363078548/p5-800.webp",
+     "thumb": "img/places/oostende/osm-sorrento-n11363078548/p5-400.webp",
+     "srcset": "img/places/oostende/osm-sorrento-n11363078548/p5-400.webp 400w, img/places/oostende/osm-sorrento-n11363078548/p5-800.webp 800w",
+     "w": 705,
+     "h": 470,
+     "category": "exterior",
+     "alt": "Sorrento: the outside",
+     "credit": "sorrentoresto.com",
+     "credit_url": "https://www.sorrentoresto.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-sorrento-n11363078548/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-toi-moi-et-la-mer-n11244210266": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p1-700.webp",
+     "srcset": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p1-700.webp 700w, img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 932,
+     "category": "food",
+     "alt": "Toi, moi et la Mer: food",
+     "credit": "toimoietlamer.be",
+     "credit_url": "https://toimoietlamer.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p2-800.webp",
+     "thumb": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p2-400.webp",
+     "srcset": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p2-400.webp 400w, img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Toi, moi et la Mer: food",
+     "credit": "toimoietlamer.be",
+     "credit_url": "https://toimoietlamer.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p3-800.webp",
+     "thumb": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p3-400.webp",
+     "srcset": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p3-400.webp 400w, img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p3-800.webp 800w",
+     "w": 800,
+     "h": 718,
+     "category": "food",
+     "alt": "Toi, moi et la Mer: food",
+     "credit": "toimoietlamer.be",
+     "credit_url": "https://toimoietlamer.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-toi-moi-et-la-mer-n11244210266/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-el-castillo-n2330774516": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-el-castillo-n2330774516/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-el-castillo-n2330774516/p1-700.webp",
+     "srcset": "img/places/oostende/osm-el-castillo-n2330774516/p1-700.webp 700w, img/places/oostende/osm-el-castillo-n2330774516/p1-1400.webp 1400w",
+     "w": 1366,
+     "h": 900,
+     "category": "food",
+     "alt": "el-Castillo: food",
+     "credit": "belegdebroodjes-elcastillo.be",
+     "credit_url": "https://www.belegdebroodjes-elcastillo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-el-castillo-n2330774516/p2-800.webp",
+     "thumb": "img/places/oostende/osm-el-castillo-n2330774516/p2-400.webp",
+     "srcset": "img/places/oostende/osm-el-castillo-n2330774516/p2-400.webp 400w, img/places/oostende/osm-el-castillo-n2330774516/p2-800.webp 800w",
+     "w": 800,
+     "h": 527,
+     "category": "food",
+     "alt": "el-Castillo: food",
+     "credit": "belegdebroodjes-elcastillo.be",
+     "credit_url": "https://www.belegdebroodjes-elcastillo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-el-castillo-n2330774516/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  }
+ },
+ "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
+}
