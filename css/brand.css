@@ -126,15 +126,14 @@ button,input,select{font-family:inherit}
 .pillcard:hover img{transform:scale(1.04)}
 
 /* ---- footer with family line ---- */
-.site-footer{background:#000;color:#fff;padding:44px var(--gutter);display:grid;grid-template-columns:auto 1fr auto;gap:24px 40px;align-items:center;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase}
+/* short footer: logo · family line · one row of small links · one quiet credit line, centred on every width */
+.site-footer{background:#000;color:#fff;padding:40px var(--gutter) 28px;display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
 .site-footer a{color:#fff}
 .site-footer .wordmark{font-size:24px;color:#fff}
-.site-footer .family{text-align:center;line-height:1.9}
-.site-footer .family .wordmark{font-size:16px;opacity:.9}
-.site-footer .family a{text-decoration:none;border-bottom:1px solid rgba(255,255,255,.4)}
-.site-footer .family a:hover{border-color:var(--accent);color:var(--accent)}
-.site-footer .meta{grid-column:1/-1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;opacity:.65;border-top:1px solid rgba(255,255,255,.2);padding-top:18px}
-@media (max-width:900px){.site-footer{grid-template-columns:1fr}.site-footer .family{text-align:left}}
+.site-footer .family{font-size:9px;letter-spacing:.14em;opacity:.7;line-height:1.6}
+.site-footer .family i{font-family:var(--serif-it);text-transform:none;font-size:12.5px;letter-spacing:.02em}
+.site-footer .meta{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 10px;font-size:9px;opacity:.6;border-top:1px solid rgba(255,255,255,.2);padding-top:14px;margin-top:2px;width:100%;max-width:560px}
+@media (max-width:640px){.site-footer .meta{flex-direction:column;align-items:center}.site-footer .meta>span[aria-hidden]{display:none}}
 
 /* ---- readable content typography (shared by home, events, detail) ---- */
 .chip,.fsel,.pill-btn,.citysel>button{font-weight:500}

@@ -474,13 +474,14 @@ const TG = (() => {
   const czSubs = (R, gid) => ((CZ_BY[gid] && CZ_BY[gid].group && CZ_BY[gid].members) || []).map(m => ({ ...CZ_BY[m], n: czCount(R, m) })).filter(c => c.n > 0);
   /* small 0-10 score next to a name (Google rating x 2); nothing when there is no confident match */
   const scoreBadge = r => r && r.gscore ? `<span class="gscore" title="Google rating ${(r.gscore / 2).toFixed(1)}/5, shown out of 10" aria-label="Google rating ${r.gscore.toFixed(1)} out of 10">${r.gscore.toFixed(1)}</span>` : '';
-  function renderFooter(cfg, city, extra = '') {
-    const fam = cfg.brand.family.map(f => `<a href="https://${esc(f.domain)}" rel="noopener" title="${esc(f.domain)} – ${esc(f.status)}"><span class="wordmark"><span class="wm-main">${esc(f.name.split(' ')[0])}</span><span class="wm-sub">and the City</span></span></a> <span style="opacity:.6">(${esc(f.status)})</span>`).join(' · ');
+  /* short footer: logo, the family line, one row of small links and one quiet credit line (the OSM credit + link stays for the ODbL);
+     the full source list (guides, own websites, press, HappyCow, Google ratings) lives on about.html */
+  function renderFooter(cfg, city) {
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
       <a class="logo logo--foot" href="${cityUrl('guide.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
-      <div class="family">Part of the <i style="font-family:var(--serif-it);text-transform:none;font-size:15px;letter-spacing:.02em">… and the City</i> family<br>${fam}</div>
-      <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data &amp; changes</a><a href="#top">Back to top</a><a href="privacy.html" class="foot-privacy">Privacy</a></div>
-      <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span><span>Ratings: Google</span><span class="visits" data-visits hidden></span></div>`);
+      <div class="family">Part of the <i>… and the City</i> family</div>
+      <nav class="foot-links" aria-label="Footer"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><span aria-hidden="true">·</span><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data</a><span aria-hidden="true">·</span><a href="privacy.html" class="foot-privacy">Privacy</a></nav>
+      <div class="meta"><span>© Table and the City</span><span aria-hidden="true">·</span><span><span>Data:</span> <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors</a></span></div>`);
   }
 
   /* ---- data ---- */

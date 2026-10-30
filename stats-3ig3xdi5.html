@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="build" content="ae7dce72de">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="referrer" content="no-referrer">
+<title>Visits — Table and the City</title>
+<link rel="icon" href="img/brand/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Private, unlinked stats page (not in any menu, the service worker precache, the app bundle or a sitemap).
+     Reads the anonymous visit counters from Abacus with /get only, so opening it never adds a visit. Keys: see js/visits.js. -->
+<style>
+  :root{--ink:#111;--paper:#f7f5f0;--petrol:#2a6474;--line:rgba(0,0,0,.12)}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 Montserrat,system-ui,sans-serif}
+  header{background:#000;color:#fff;padding:28px 24px;text-align:center}
+  header img{height:30px;width:auto}
+  main{max-width:560px;margin:0 auto;padding:32px 20px 48px}
+  h1{font:500 30px/1.2 "Playfair Display",Georgia,serif;margin:0 0 4px}
+  .sub{margin:0 0 26px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.6}
+  .total{background:var(--petrol);color:#fff;border-radius:22px;padding:22px 24px;margin-bottom:14px}
+  .total b{display:block;font:500 46px/1.1 "Playfair Display",Georgia,serif}
+  .lbl{font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+  .tile{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 14px}
+  .tile b{display:block;font:500 26px/1.2 "Playfair Display",Georgia,serif;margin-top:4px}
+  .note{font-size:12.5px;opacity:.7;margin-top:22px}
+  button{margin-top:18px;height:40px;padding:0 22px;border-radius:999px;border:1.5px solid var(--ink);background:#fff;color:var(--ink);font:600 11px Montserrat,sans-serif;letter-spacing:.12em;text-transform:uppercase;cursor:pointer}
+  button:hover,button:focus-visible{background:var(--ink);color:#fff}
+  @media (max-width:420px){.grid{grid-template-columns:1fr}.tile{display:flex;justify-content:space-between;align-items:center}.tile b{margin:0}}
+</style>
+</head>
+<body>
+<header><img src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></header>
+<main>
+  <h1>Visits</h1>
+  <p class="sub" id="when">Loading…</p>
+  <div class="total"><span class="lbl">All platforms</span><b id="v-total">…</b></div>
+  <div class="grid">
+    <div class="tile"><span class="lbl">Website</span><b id="v-web">…</b></div>
+    <div class="tile"><span class="lbl">iPhone</span><b id="v-ios">…</b></div>
+    <div class="tile"><span class="lbl">Android</span><b id="v-android">…</b></div>
+  </div>
+  <button type="button" id="refresh">Refresh</button>
+  <p class="note">One visit = one device on one day. The total also includes the website visits counted before 30 October 2026, when the per-platform counts started, so it is higher than the three counts added up. Anonymous: no cookies, no personal data.</p>
+</main>
+<script>
+(function () {
+  'use strict';
+  var API = 'https://abacus.jasoncameron.dev/get/tableandthecity.com/';
+  var KEYS = { total: 'visits', web: 'visits-web', ios: 'visits-ios', android: 'visits-android' };
+  var fmt = function (n) { return n.toLocaleString('en-GB'); };
+  function get(key) {   // read only: /get never increments; a key nobody has hit yet answers 404 = 0
+    return fetch(API + key, { credentials: 'omit', referrerPolicy: 'no-referrer', cache: 'no-store' })
+      .then(function (r) { return r.status === 404 ? { value: 0 } : r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (j) { return typeof j.value === 'number' && j.value > 0 ? j.value : 0; });
+  }
+  function load() {
+    document.getElementById('when').textContent = 'Loading…';
+    Promise.all(Object.keys(KEYS).map(function (k) {
+      return get(KEYS[k]).then(function (n) { document.getElementById('v-' + k).textContent = fmt(n); return true; })
+        .catch(function () { document.getElementById('v-' + k).textContent = 'n/a'; return false; });
+    })).then(function (ok) {
+      var t = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Brussels', dateStyle: 'medium', timeStyle: 'short' }).format(new Date());
+      document.getElementById('when').textContent = (ok.every(Boolean) ? 'Updated ' : 'Partly updated ') + t + ' (Brussels time)';
+    });
+  }
+  document.getElementById('refresh').addEventListener('click', load);
+  load();
+})();
+</script>
+</body>
+</html>

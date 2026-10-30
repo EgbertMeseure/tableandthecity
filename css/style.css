@@ -643,12 +643,12 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 @media (prefers-reduced-motion:reduce){.crq__sheet,.crq__scrim{transition:none}}
 
 /* ---- Suggest a place (js/suggest.js; sheet = .crq) + footer visit counter (js/visits.js) ---- */
-.foot-links{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.foot-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px}
+.foot-links span{opacity:.45}
+.ipage__sources{font-size:13px;opacity:.85}
 .foot-links a{text-decoration:none}
 .foot-suggest{border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:2px}
 @media (hover:hover){.foot-suggest:hover{color:var(--accent);border-color:var(--accent)}}
-.site-footer .visits{font-family:var(--sans);letter-spacing:.12em;opacity:.85;white-space:nowrap}
-.site-footer .visits[hidden]{display:none}
 .navdrawer a.nav-suggest{font-family:var(--serif-it);font-style:italic;font-size:22px;color:var(--accent)}
 .list-more{flex-wrap:wrap}
 .suggest-line{flex:1 1 100%;margin:14px 0 4px;text-align:center;font-size:12px;letter-spacing:.06em;color:var(--text-2)}
@@ -668,7 +668,7 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .sgp__hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
 .sgp .crq__sheet{width:min(480px,100%)}
 .sgp .crq__form{gap:10px}
-@media (max-width:640px){.sgp__row{grid-template-columns:1fr 1fr;gap:10px}.foot-links{align-items:flex-start}}
+@media (max-width:640px){.sgp__row{grid-template-columns:1fr 1fr;gap:10px}}
 
 /* ---------- Logo: "Flat C" lockup (img/brand/*.svg). Sized by height only; the SVG has ~18.5% built-in clear space,
    pulled back with negative margins so the artwork lines up where the old text wordmark sat. White variant: every
@@ -924,9 +924,8 @@ a.card.bw-host{position:relative}
 .info--quiet .ipage__lede{font-size:13px!important;opacity:.7;margin:0 0 14px!important}
 .info--quiet .clog-month h3{font-size:11px;margin-top:28px}
 .info--quiet .clog p{font-size:13.5px!important}
-.site-footer .foot-about{opacity:.8}
 @media (max-width:640px){.ihero--quiet .ihero__body{padding-top:20px}.ihero--quiet{padding-bottom:22px}.info--quiet .ipage{padding-top:26px}.ipage__sec{margin-top:34px;padding-top:22px}.ipage__h{font-size:18px}}
-.site-footer .foot-credit{text-transform:none;letter-spacing:.04em}
+.site-footer .foot-credit{text-transform:none;letter-spacing:.04em;flex-basis:100%}
 @media (max-width:640px){
   .ihero{padding-bottom:36px}
   .ihero__body{padding-top:40px}
