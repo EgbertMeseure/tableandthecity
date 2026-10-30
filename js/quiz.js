@@ -150,6 +150,10 @@
     bar: {
       label: 'Bar', sub: 'Cocktails, wine, brown cafés, pubs, dancing', noun: ['bar', 'bars'], pool: r => r.group === 'cafes_bars',
       questions: [
+        /* live music (data/cities/<city>-livemusic.json): asked whenever at least one bar has it (`always`); too few exact matches → results() relaxes it last, live places stay on top */
+        { id: 'live', q: 'Do you want live music?', short: 'Live music', hard: true, relax: 'live', noSkip: true, always: true, opts: [
+          { v: 'yes', l: 'Yes, live music', s: 'Concerts, jazz nights, jam sessions', f: r => !!r.liveMusic },
+          { v: 'any', l: 'Doesn’t matter', s: 'All bars', chip: 'Any bar', all: true }] },
         { id: 'type', q: 'What kind of bar?', short: 'Kind of bar', hard: true, relax: 'type', opts: [
           { v: 'cocktail_bar', l: 'Cocktail bar', s: 'Signature drinks, mocktails' }, { v: 'brown_cafe', l: 'Brown café', s: () => `Classic ${(APP && APP.city && APP.city.name) || 'local'} pub` },
           { v: 'wine_bar', l: 'Wine bar', s: 'Wine by the glass, small plates' },
@@ -157,9 +161,9 @@
         whenQ('When?', [W.tonight(), W.tomorrow(), W.weekend(), W.pick()]),
         { id: 'terrace', q: 'Terrace?', short: 'Terrace', hard: true, relax: 'terrace', minViable: 1, opts: [{ v: 'yes', l: 'Yes, a terrace', s: 'Confirmed terrace', f: r => r.features.terrace === true }] }
       ],
-      relaxOrder: ['terrace', 'type'], adaptive: true,
-      score: (r, a) => base(r) + (r.features.terrace === true ? 1 : 0) + (r.features.lateNight === true && a.when === 'tonight' ? 2 : 0),
-      list: a => ({ group: 'cafes_bars', ...(a.type ? { type: a.type } : {}), ...(a.when === 'now' ? { open: true } : {}) })
+      relaxOrder: ['terrace', 'type', 'live'], adaptive: true,
+      score: (r, a) => base(r) + (a.live === 'yes' && r.liveMusic ? 30 : 0) + (r.features.terrace === true ? 1 : 0) + (r.features.lateNight === true && a.when === 'tonight' ? 2 : 0),
+      list: a => ({ group: 'cafes_bars', ...(a.live === 'yes' ? { live: true } : {}), ...(a.type ? { type: a.type } : {}), ...(a.when === 'now' ? { open: true } : {}) })
     },
     coffee: {
       label: 'Coffee', sub: 'Specialty coffee, brunch, laptop spots', noun: ['coffee spot', 'coffee spots'], pool: r => r.group === 'coffee',
@@ -265,7 +269,7 @@
     } else {
       list.forEach(r => { r._w = whenState(r, a.when, C); r._s = sec.score(r, a) + (ok.has(r) ? 50 : 0); });
       const tier = r => r._w.now ? 0 : RANK[r._w.s] + 1;                  // open now › open that day › unknown hours
-      list = list.slice().sort((x, y) => (a.when && a.when !== 'now' && a.when !== 'today' ? RANK[x._w.s] - RANK[y._w.s] : tier(x) - tier(y)) || y._s - x._s || x.name.localeCompare(y.name, 'en'));
+      list = list.slice().sort((x, y) => (relaxed === 'live' ? ok.has(y) - ok.has(x) : 0) || (a.when && a.when !== 'now' && a.when !== 'today' ? RANK[x._w.s] - RANK[y._w.s] : tier(x) - tier(y)) || y._s - x._s || x.name.localeCompare(y.name, 'en'));
     }
     return { list, exactN: exact.length, relaxed, near, dietMsg, dietTo };
   }
@@ -341,6 +345,7 @@
       if (!opts.length || (q.hard && !q.when && opts.every(o => o.n === matches(sec, prev, C).length))) return { skip: 'rule' };
       return { opts };
     }
+    if (q.always) return opts.some(o => !o.all) ? { opts } : { skip: 'rule' };   // e.g. live music: asked as long as one place has it
     const L = matches(sec, prev, C), n = L.length;
     if (q.when) return n <= 3 ? { skip: 'rule' } : { opts };
     if (n <= 6) return { skip: 'rule' };

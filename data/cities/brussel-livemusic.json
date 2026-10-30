@@ -1,7 +1,7 @@
 {
  "about": "Live music layer: places already on the guide with sourced RECURRING live music (concerts, jazz nights, jam sessions); dated gigs (Nov 2026 on) are added to the place's events. Never overrides curated / OSM data. Built 30 Oct 2026 (preview-live-music).",
  "city": "brussel",
- "count": 4,
+ "count": 6,
  "places": {
   "l-archiduc": {
    "note": "Live jazz every weekend",
@@ -25,6 +25,152 @@
    "note": "Regular free concerts",
    "source": "https://lasourcebeer.be/",
    "basis": "Own site: 'free concerts are regularly organized'",
+   "checked": "2026-10-30"
+  },
+  "sounds-jazz-club": {
+   "note": "Live jazz Thursday to Sunday",
+   "source": "https://www.sounds.brussels/visit/",
+   "basis": "Own site: 'Live music Thursday to Sunday'",
+   "events": [
+    {
+     "id": "lm-sounds-jazz-club-1",
+     "title": "Grant Green tribute",
+     "dateStart": "2026-11-06",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €12"
+    },
+    {
+     "id": "lm-sounds-jazz-club-2",
+     "title": "Lucid Lucia / DJ Grazzhoppa",
+     "dateStart": "2026-11-13",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €15"
+    },
+    {
+     "id": "lm-sounds-jazz-club-3",
+     "title": "Tribute to Art Blakey and the Jazz Messengers",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €10"
+    },
+    {
+     "id": "lm-sounds-jazz-club-4",
+     "title": "Manouchedrome",
+     "dateStart": "2026-11-21",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €10"
+    },
+    {
+     "id": "lm-sounds-jazz-club-5",
+     "title": "Wayne Shorter tribute",
+     "dateStart": "2026-11-27",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €12"
+    }
+   ],
+   "checked": "2026-10-30"
+  },
+  "osm-the-music-village-n4413933705": {
+   "note": "Jazz concerts six to seven nights a week",
+   "source": "https://www.themusicvillage.com/en",
+   "basis": "Own site: 'live music six to seven days a week, all year long, with more than 300 live concerts per year'",
+   "events": [
+    {
+     "id": "lm-music-village-1",
+     "title": "Tribute to Ella, Nina and many more",
+     "dateStart": "2026-11-02",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30)"
+    },
+    {
+     "id": "lm-music-village-2",
+     "title": "TUTU (Miles Electric Sextet)",
+     "dateStart": "2026-11-04",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · tribute to Miles Davis"
+    },
+    {
+     "id": "lm-music-village-3",
+     "title": "Michel Mainil / Greg Houben Reunion 5tet",
+     "dateStart": "2026-11-06",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · jazz standards"
+    },
+    {
+     "id": "lm-music-village-4",
+     "title": "Phil Abraham invites Stéphane Mercier 5tet",
+     "dateStart": "2026-11-07",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · jazz standards"
+    },
+    {
+     "id": "lm-music-village-5",
+     "title": "Gaju and The Groovy Stones",
+     "dateStart": "2026-11-11",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · Groove Week"
+    }
+   ],
    "checked": "2026-10-30"
   }
  }

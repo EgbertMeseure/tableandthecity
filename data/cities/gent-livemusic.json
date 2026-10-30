@@ -1,7 +1,7 @@
 {
  "about": "Live music layer: places already on the guide with sourced RECURRING live music (concerts, jazz nights, jam sessions); dated gigs (Nov 2026 on) are added to the place's events. Never overrides curated / OSM data. Built 30 Oct 2026 (preview-live-music).",
  "city": "gent",
- "count": 3,
+ "count": 5,
  "places": {
   "charlatan": {
    "note": "Concerts on Wednesday and Thursday",
@@ -219,6 +219,165 @@
       "credit": "De Salopette (de-salopette.be)",
       "credit_url": "https://de-salopette.be"
      }
+    }
+   ],
+   "checked": "2026-10-30"
+  },
+  "hot-club-gent": {
+   "note": "Concerts and jam sessions most nights",
+   "source": "https://www.hotclub.gent/programma.php",
+   "basis": "Own agenda: concerts + jam sessions Mon–Thu and Sun every week (Nov 2026)",
+   "events": [
+    {
+     "id": "lm-hot-club-gent-1",
+     "title": "Classic Jazz Sessions: Dancehall Shakin' + jam",
+     "dateStart": "2026-11-02",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · concert & jam session"
+    },
+    {
+     "id": "lm-hot-club-gent-2",
+     "title": "Mercredis Libres: Exit Wound",
+     "dateStart": "2026-11-04",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · concert & jam session"
+    },
+    {
+     "id": "lm-hot-club-gent-3",
+     "title": "Hot Cats de Gand: Goeie Vraag",
+     "dateStart": "2026-11-05",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · concert & jam session"
+    },
+    {
+     "id": "lm-hot-club-gent-4",
+     "title": "Hot Cats de Gand: Frie Mechele invites",
+     "dateStart": "2026-11-12",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · concert & jam session"
+    },
+    {
+     "id": "lm-hot-club-gent-5",
+     "title": "Hot Cats de Gand: Artan Buleshkaj invites",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · concert & jam session"
+    },
+    {
+     "id": "lm-hot-club-gent-6",
+     "title": "Hot Cats de Gand: Robin Elsmoortel Trio",
+     "dateStart": "2026-11-26",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · concert & jam session"
+    }
+   ],
+   "checked": "2026-10-30"
+  },
+  "missy-sippy": {
+   "note": "Weekly blues and roots concerts and jams",
+   "source": "https://missy-sippy.be/",
+   "basis": "Own site: 'wekelijks passeren concerten, jams, dj-sets en dansavonden de revue'",
+   "events": [
+    {
+     "id": "lm-missy-sippy-1",
+     "title": "Memphis Moon – the songs of John Hiatt",
+     "dateStart": "2026-11-03",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.eventbrite.be/e/memphis-moon-the-songs-of-john-hiatt-clubshow-missy-sippy-tickets-2002271606274"
+     ],
+     "note": "20:30 · club show"
+    },
+    {
+     "id": "lm-missy-sippy-2",
+     "title": "Blues & roots jam",
+     "dateStart": "2026-11-05",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://jamodyssey.net/en/events/be-gent-missy-sippy-blues-roots-jam-2026-11-05"
+     ],
+     "note": "20:30 · free"
+    },
+    {
+     "id": "lm-missy-sippy-3",
+     "title": "Monkey Mask",
+     "dateStart": "2026-11-10",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.eventbrite.be/e/monkey-mask-missy-sippy-tickets-2003963882919"
+     ],
+     "note": "21:00 · free, voluntary contribution"
+    },
+    {
+     "id": "lm-missy-sippy-4",
+     "title": "Missy Sippy All Stars – Muddy Sippy Sessions",
+     "dateStart": "2026-11-15",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.eventbrite.be/e/missy-sippy-all-stars-muddy-sippy-sessions-tickets-2003293395473"
+     ],
+     "note": "20:30 · every 3rd Sunday"
+    },
+    {
+     "id": "lm-missy-sippy-5",
+     "title": "Cardboard Cabin",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://open.spotify.com/concert/1RNn9Bx34grdIpgfn6jCH3"
+     ],
+     "note": "21:00"
     }
    ],
    "checked": "2026-10-30"

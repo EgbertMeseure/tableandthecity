@@ -361,6 +361,13 @@
    "field": "new",
    "change": "Added 4 vegan/vegetarian places found via HappyCow and checked on their own sites: Lil Bao, Nöje, Taylor's Café, NK Arya Bhavan.",
    "source": "https://www.happycow.net/"
+  },
+  {
+   "date": "2026-10-30",
+   "restaurant": "Sounds Jazz Club",
+   "field": "new",
+   "change": "Added music café(s) with clearly recurring live music, checked on their own site and current agenda: Sounds Jazz Club.",
+   "source": "https://www.sounds.brussels/agenda/"
   }
  ],
  "restaurants": [
@@ -15288,6 +15295,73 @@
    "category": "restaurant",
    "notes": "Added from the HappyCow check of 30 Oct 2026; open status checked on the place's own site or recent listings. No photos yet.",
    "origin": "research-2026-10-30-happycow"
+  },
+  {
+   "id": "sounds-jazz-club",
+   "name": "Sounds Jazz Club",
+   "group": "cafes_bars",
+   "category": "cafe",
+   "type": null,
+   "cuisine": "Jazz club",
+   "cuisineTags": [],
+   "chef": null,
+   "address": "Rue de la Tulipe 28, 1050 Ixelles",
+   "postalCode": "1050",
+   "district": "Ixelles",
+   "neighbourhood": "Saint-Boniface",
+   "lat": 50.83431,
+   "lng": 4.3669354,
+   "geoSource": "OpenStreetMap Nominatim (way/111692011 (address))",
+   "geoPrecision": "address",
+   "priceLevel": null,
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": "unknown",
+   "openingDate": "unknown",
+   "isNew": false,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "dietNote": "",
+   "menuType": "",
+   "menuChanges": "unknown",
+   "currentMenuNote": "",
+   "status": "open",
+   "statusNote": "Current concert agenda online (checked 30 Oct 2026).",
+   "website": "https://www.sounds.brussels/",
+   "instagram": null,
+   "instagram_handle": null,
+   "phone": null,
+   "summary": "Intimate Ixelles jazz club (since 1986): dark walls, the stage a few steps away, live jazz, Latin and jam sessions Thursday to Sunday.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://www.sounds.brussels/agenda/",
+    "https://www.sounds.brussels/visit/"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-30",
+   "lastChanged": "2026-10-30",
+   "city": "brussel",
+   "country": "BE",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "photos": [],
+   "features": {
+    "liveMusic": true
+   },
+   "features_evidence": {
+    "liveMusic": "https://www.sounds.brussels/agenda/"
+   },
+   "openingHours": null,
+   "openingHoursSource": null,
+   "notes": "Added from the live-music check of 30 Oct 2026 (own site + current agenda). No photo: the site's own images show people.",
+   "origin": "research-2026-10-30-livemusic",
+   "osm": "way/111692011"
   }
  ],
  "eventDetails": {
