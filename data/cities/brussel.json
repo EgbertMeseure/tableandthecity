@@ -472,37 +472,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/9329458660",
-   "photos": [
-    {
-     "src": "img/places/brussel/bozar-restaurant/1-food-1600.webp",
-     "thumb": "img/places/brussel/bozar-restaurant/1-food-800.webp",
-     "srcset": "img/places/brussel/bozar-restaurant/1-food-800.webp 800w, img/places/brussel/bozar-restaurant/1-food-1600.webp 1600w",
-     "w": 1260,
-     "h": 690,
-     "category": "food",
-     "alt": "Bozar Restaurant: food",
-     "credit": "bozarrestaurant.be",
-     "credit_url": "https://bozarrestaurant.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/bozar-restaurant/2-interior-1600.webp",
-     "thumb": "img/places/brussel/bozar-restaurant/2-interior-800.webp",
-     "srcset": "img/places/brussel/bozar-restaurant/2-interior-800.webp 800w, img/places/brussel/bozar-restaurant/2-interior-1600.webp 1600w",
-     "w": 960,
-     "h": 1350,
-     "category": "interior",
-     "alt": "Bozar Restaurant: interior",
-     "credit": "bozarrestaurant.be",
-     "credit_url": "https://bozarrestaurant.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/9329458660"
   },
   {
    "id": "comme-chez-soi",
@@ -600,37 +570,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/12531627112",
-   "photos": [
-    {
-     "src": "img/places/brussel/comme-chez-soi/1-food-1600.webp",
-     "thumb": "img/places/brussel/comme-chez-soi/1-food-800.webp",
-     "srcset": "img/places/brussel/comme-chez-soi/1-food-800.webp 800w, img/places/brussel/comme-chez-soi/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Comme chez Soi: food",
-     "credit": "@commechezsoibrussels on Instagram",
-     "credit_url": "https://www.instagram.com/commechezsoibrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/comme-chez-soi/2-food-1600.webp",
-     "thumb": "img/places/brussel/comme-chez-soi/2-food-800.webp",
-     "srcset": "img/places/brussel/comme-chez-soi/2-food-800.webp 800w, img/places/brussel/comme-chez-soi/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Comme chez Soi: food",
-     "credit": "@commechezsoibrussels on Instagram",
-     "credit_url": "https://www.instagram.com/commechezsoibrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/12531627112"
   },
   {
    "id": "le-chalet-de-la-foret",
@@ -728,37 +668,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/le-chalet-de-la-foret/1-interior-1600.webp",
-     "thumb": "img/places/brussel/le-chalet-de-la-foret/1-interior-800.webp",
-     "srcset": "img/places/brussel/le-chalet-de-la-foret/1-interior-800.webp 800w, img/places/brussel/le-chalet-de-la-foret/1-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "interior",
-     "alt": "Le Chalet de la Forêt: interior",
-     "credit": "@lechaletdelaforet on Instagram",
-     "credit_url": "https://www.instagram.com/lechaletdelaforet/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/le-chalet-de-la-foret/2-food-1600.webp",
-     "thumb": "img/places/brussel/le-chalet-de-la-foret/2-food-800.webp",
-     "srcset": "img/places/brussel/le-chalet-de-la-foret/2-food-800.webp 800w, img/places/brussel/le-chalet-de-la-foret/2-food-1600.webp 1600w",
-     "w": 1024,
-     "h": 1365,
-     "category": "food",
-     "alt": "Le Chalet de la Forêt: food",
-     "credit": "@lechaletdelaforet on Instagram",
-     "credit_url": "https://www.instagram.com/lechaletdelaforet/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "la-paix",
@@ -856,37 +766,7 @@
    "notes": "Relocated 15 Sep 2026 from Rue Ropsy-Chaudron 49 (Anderlecht) to the Corinthia; Michelin 2026 stars were awarded at the old address and the new address is not yet listed by Michelin.",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/2696597856",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-paix/1-food-1600.webp",
-     "thumb": "img/places/brussel/la-paix/1-food-800.webp",
-     "srcset": "img/places/brussel/la-paix/1-food-800.webp 800w, img/places/brussel/la-paix/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "La Paix: food",
-     "credit": "@restaurantlapaix on Instagram",
-     "credit_url": "https://www.instagram.com/restaurantlapaix/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/la-paix/2-food-1600.webp",
-     "thumb": "img/places/brussel/la-paix/2-food-800.webp",
-     "srcset": "img/places/brussel/la-paix/2-food-800.webp 800w, img/places/brussel/la-paix/2-food-1600.webp 1600w",
-     "w": 843,
-     "h": 556,
-     "category": "food",
-     "alt": "La Paix: food",
-     "credit": "corinthia.com",
-     "credit_url": "https://www.corinthia.com/en-gb/brussels/la-paix/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/2696597856"
   },
   {
    "id": "eliane",
@@ -985,37 +865,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/5934700268",
-   "photos": [
-    {
-     "src": "img/places/brussel/eliane/1-interior-1600.webp",
-     "thumb": "img/places/brussel/eliane/1-interior-800.webp",
-     "srcset": "img/places/brussel/eliane/1-interior-800.webp 800w, img/places/brussel/eliane/1-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "interior",
-     "alt": "Eliane: interior",
-     "credit": "@elianerestaurant on Instagram",
-     "credit_url": "https://www.instagram.com/elianerestaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/eliane/2-food-1600.webp",
-     "thumb": "img/places/brussel/eliane/2-food-800.webp",
-     "srcset": "img/places/brussel/eliane/2-food-800.webp 800w, img/places/brussel/eliane/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Eliane: food",
-     "credit": "@elianerestaurant on Instagram",
-     "credit_url": "https://www.instagram.com/elianerestaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5934700268"
   },
   {
    "id": "la-villa-in-the-sky",
@@ -1113,37 +963,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4388784730",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-villa-in-the-sky/1-food-1600.webp",
-     "thumb": "img/places/brussel/la-villa-in-the-sky/1-food-800.webp",
-     "srcset": "img/places/brussel/la-villa-in-the-sky/1-food-800.webp 800w, img/places/brussel/la-villa-in-the-sky/1-food-1600.webp 1600w",
-     "w": 1600,
-     "h": 900,
-     "category": "food",
-     "alt": "La Villa in the Sky: food",
-     "credit": "lavillainthesky.be",
-     "credit_url": "https://www.lavillainthesky.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/la-villa-in-the-sky/2-food-1600.webp",
-     "thumb": "img/places/brussel/la-villa-in-the-sky/2-food-800.webp",
-     "srcset": "img/places/brussel/la-villa-in-the-sky/2-food-800.webp 800w, img/places/brussel/la-villa-in-the-sky/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "La Villa in the Sky: food",
-     "credit": "@villainthesky on Instagram",
-     "credit_url": "https://www.instagram.com/villainthesky/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4388784730"
   },
   {
    "id": "menssa",
@@ -1265,37 +1085,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/menssa/1-interior-1600.webp",
-     "thumb": "img/places/brussel/menssa/1-interior-800.webp",
-     "srcset": "img/places/brussel/menssa/1-interior-800.webp 800w, img/places/brussel/menssa/1-interior-1600.webp 1600w",
-     "w": 1066,
-     "h": 1600,
-     "category": "interior",
-     "alt": "Menssa: interior",
-     "credit": "menssa.be",
-     "credit_url": "https://www.menssa.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/menssa/2-food-1600.webp",
-     "thumb": "img/places/brussel/menssa/2-food-800.webp",
-     "srcset": "img/places/brussel/menssa/2-food-800.webp 800w, img/places/brussel/menssa/2-food-1600.webp 1600w",
-     "w": 1066,
-     "h": 1600,
-     "category": "food",
-     "alt": "Menssa: food",
-     "credit": "menssa.be",
-     "credit_url": "https://www.menssa.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "humus-x-hortense",
@@ -1396,37 +1186,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/2459867484",
-   "photos": [
-    {
-     "src": "img/places/brussel/humus-x-hortense/1-food-1600.webp",
-     "thumb": "img/places/brussel/humus-x-hortense/1-food-800.webp",
-     "srcset": "img/places/brussel/humus-x-hortense/1-food-800.webp 800w, img/places/brussel/humus-x-hortense/1-food-1600.webp 1600w",
-     "w": 833,
-     "h": 1250,
-     "category": "food",
-     "alt": "Humus x Hortense: food",
-     "credit": "humushortense.be",
-     "credit_url": "https://humushortense.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/humus-x-hortense/2-food-1600.webp",
-     "thumb": "img/places/brussel/humus-x-hortense/2-food-800.webp",
-     "srcset": "img/places/brussel/humus-x-hortense/2-food-800.webp 800w, img/places/brussel/humus-x-hortense/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Humus x Hortense: food",
-     "credit": "@humushortense on Instagram",
-     "credit_url": "https://www.instagram.com/humushortense/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/2459867484"
   },
   {
    "id": "kamo",
@@ -1524,37 +1284,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/5092104510",
-   "photos": [
-    {
-     "src": "img/places/brussel/kamo/1-food-1600.webp",
-     "thumb": "img/places/brussel/kamo/1-food-800.webp",
-     "srcset": "img/places/brussel/kamo/1-food-800.webp 800w, img/places/brussel/kamo/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Kamo: food",
-     "credit": "@restaurantkamo on Instagram",
-     "credit_url": "https://www.instagram.com/restaurantkamo/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/kamo/2-food-1600.webp",
-     "thumb": "img/places/brussel/kamo/2-food-800.webp",
-     "srcset": "img/places/brussel/kamo/2-food-800.webp 800w, img/places/brussel/kamo/2-food-1600.webp 1600w",
-     "w": 821,
-     "h": 1024,
-     "category": "food",
-     "alt": "Kamo: food",
-     "credit": "restaurant-kamo.be",
-     "credit_url": "https://www.restaurant-kamo.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5092104510"
   },
   {
    "id": "petricor",
@@ -1648,37 +1378,7 @@
    "notes": "Gault&Millau lists service days: We-Fr dinner; Sa lunch & dinner; Su lunch; closed Mo,Tu (no times published; openingHours left null).",
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/petricor/1-food-1600.webp",
-     "thumb": "img/places/brussel/petricor/1-food-800.webp",
-     "srcset": "img/places/brussel/petricor/1-food-800.webp 800w, img/places/brussel/petricor/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Petricor: food",
-     "credit": "@restaurant.petricor on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant.petricor/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/petricor/2-food-1600.webp",
-     "thumb": "img/places/brussel/petricor/2-food-800.webp",
-     "srcset": "img/places/brussel/petricor/2-food-800.webp 800w, img/places/brussel/petricor/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1441,
-     "category": "food",
-     "alt": "Petricor: food",
-     "credit": "@restaurant.petricor on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant.petricor/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "barge",
@@ -1778,36 +1478,6 @@
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
    "osm": "node/2501834384",
-   "photos": [
-    {
-     "src": "img/places/brussel/barge/1-interior-1600.webp",
-     "thumb": "img/places/brussel/barge/1-interior-800.webp",
-     "srcset": "img/places/brussel/barge/1-interior-800.webp 800w, img/places/brussel/barge/1-interior-1600.webp 1600w",
-     "w": 1067,
-     "h": 1600,
-     "category": "interior",
-     "alt": "Barge: interior",
-     "credit": "bargerestaurant.be",
-     "credit_url": "https://bargerestaurant.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/barge/2-food-1600.webp",
-     "thumb": "img/places/brussel/barge/2-food-800.webp",
-     "srcset": "img/places/brussel/barge/2-food-800.webp 800w, img/places/brussel/barge/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Barge: food",
-     "credit": "@bargebrussels on Instagram",
-     "credit_url": "https://www.instagram.com/bargebrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
    "statusUntil": "2026-11-04"
   },
   {
@@ -1905,37 +1575,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/chaga/1-interior-1600.webp",
-     "thumb": "img/places/brussel/chaga/1-interior-800.webp",
-     "srcset": "img/places/brussel/chaga/1-interior-800.webp 800w, img/places/brussel/chaga/1-interior-1600.webp 1600w",
-     "w": 819,
-     "h": 1024,
-     "category": "interior",
-     "alt": "Chaga: interior",
-     "credit": "chagarestaurant.com",
-     "credit_url": "https://chagarestaurant.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/chaga/2-food-1600.webp",
-     "thumb": "img/places/brussel/chaga/2-food-800.webp",
-     "srcset": "img/places/brussel/chaga/2-food-800.webp 800w, img/places/brussel/chaga/2-food-1600.webp 1600w",
-     "w": 1600,
-     "h": 909,
-     "category": "food",
-     "alt": "Chaga: food",
-     "credit": "chagarestaurant.com",
-     "credit_url": "https://chagarestaurant.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "da-mimmo",
@@ -2032,37 +1672,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/da-mimmo/1-interior-1600.webp",
-     "thumb": "img/places/brussel/da-mimmo/1-interior-800.webp",
-     "srcset": "img/places/brussel/da-mimmo/1-interior-800.webp 800w, img/places/brussel/da-mimmo/1-interior-1600.webp 1600w",
-     "w": 1536,
-     "h": 1138,
-     "category": "interior",
-     "alt": "Da Mimmo: interior",
-     "credit": "da-mimmo.be",
-     "credit_url": "https://www.da-mimmo.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/da-mimmo/2-food-1600.webp",
-     "thumb": "img/places/brussel/da-mimmo/2-food-800.webp",
-     "srcset": "img/places/brussel/da-mimmo/2-food-800.webp 800w, img/places/brussel/da-mimmo/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Da Mimmo: food",
-     "credit": "@da.mimmo on Instagram",
-     "credit_url": "https://www.instagram.com/da.mimmo/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "stirwen",
@@ -2159,37 +1769,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/stirwen/1-food-1600.webp",
-     "thumb": "img/places/brussel/stirwen/1-food-800.webp",
-     "srcset": "img/places/brussel/stirwen/1-food-800.webp 800w, img/places/brussel/stirwen/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Stirwen: food",
-     "credit": "@lestirwen on Instagram",
-     "credit_url": "https://www.instagram.com/lestirwen/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/stirwen/2-food-1600.webp",
-     "thumb": "img/places/brussel/stirwen/2-food-800.webp",
-     "srcset": "img/places/brussel/stirwen/2-food-800.webp 800w, img/places/brussel/stirwen/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Stirwen: food",
-     "credit": "@lestirwen on Instagram",
-     "credit_url": "https://www.instagram.com/lestirwen/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "quartz",
@@ -2287,37 +1867,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/11906755001",
-   "photos": [
-    {
-     "src": "img/places/brussel/quartz/1-food-1600.webp",
-     "thumb": "img/places/brussel/quartz/1-food-800.webp",
-     "srcset": "img/places/brussel/quartz/1-food-800.webp 800w, img/places/brussel/quartz/1-food-1600.webp 1600w",
-     "w": 1066,
-     "h": 1600,
-     "category": "food",
-     "alt": "Quartz: food",
-     "credit": "quartzrestaurant.be",
-     "credit_url": "https://quartzrestaurant.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/quartz/2-food-1600.webp",
-     "thumb": "img/places/brussel/quartz/2-food-800.webp",
-     "srcset": "img/places/brussel/quartz/2-food-800.webp 800w, img/places/brussel/quartz/2-food-1600.webp 1600w",
-     "w": 1066,
-     "h": 1600,
-     "category": "food",
-     "alt": "Quartz: food",
-     "credit": "quartzrestaurant.be",
-     "credit_url": "https://quartzrestaurant.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/11906755001"
   },
   {
    "id": "amen",
@@ -2416,37 +1966,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/9239844695",
-   "photos": [
-    {
-     "src": "img/places/brussel/amen/1-interior-1600.webp",
-     "thumb": "img/places/brussel/amen/1-interior-800.webp",
-     "srcset": "img/places/brussel/amen/1-interior-800.webp 800w, img/places/brussel/amen/1-interior-1600.webp 1600w",
-     "w": 1600,
-     "h": 1068,
-     "category": "interior",
-     "alt": "Amen: interior",
-     "credit": "amen.restaurant",
-     "credit_url": "https://amen.restaurant/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/amen/2-food-1600.webp",
-     "thumb": "img/places/brussel/amen/2-food-800.webp",
-     "srcset": "img/places/brussel/amen/2-food-800.webp 800w, img/places/brussel/amen/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Amen: food",
-     "credit": "@amenrestaurant on Instagram",
-     "credit_url": "https://www.instagram.com/amenrestaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/9239844695"
   },
   {
    "id": "ciao",
@@ -2544,37 +2064,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/12512059105",
-   "photos": [
-    {
-     "src": "img/places/brussel/ciao/1-interior-1600.webp",
-     "thumb": "img/places/brussel/ciao/1-interior-800.webp",
-     "srcset": "img/places/brussel/ciao/1-interior-800.webp 800w, img/places/brussel/ciao/1-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1442,
-     "category": "interior",
-     "alt": "Ciao: interior",
-     "credit": "@ciao.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/ciao.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/ciao/2-food-1600.webp",
-     "thumb": "img/places/brussel/ciao/2-food-800.webp",
-     "srcset": "img/places/brussel/ciao/2-food-800.webp 800w, img/places/brussel/ciao/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Ciao: food",
-     "credit": "@ciao.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/ciao.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/12512059105"
   },
   {
    "id": "jayu",
@@ -2668,37 +2158,7 @@
    "notes": "Gault&Millau lists service days: Tu-Sa dinner; closed Mo,Su (no times published; openingHours left null).",
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/jayu/1-food-1600.webp",
-     "thumb": "img/places/brussel/jayu/1-food-800.webp",
-     "srcset": "img/places/brussel/jayu/1-food-800.webp 800w, img/places/brussel/jayu/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Jayu: food",
-     "credit": "@jayu.bxl on Instagram",
-     "credit_url": "https://www.instagram.com/jayu.bxl/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/jayu/2-food-1600.webp",
-     "thumb": "img/places/brussel/jayu/2-food-800.webp",
-     "srcset": "img/places/brussel/jayu/2-food-800.webp 800w, img/places/brussel/jayu/2-food-1600.webp 1600w",
-     "w": 1600,
-     "h": 900,
-     "category": "food",
-     "alt": "Jayu: food",
-     "credit": "jayubxl.be",
-     "credit_url": "https://www.jayubxl.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "la-belle-maraichere",
@@ -2797,23 +2257,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "origin": "research-2026-10-25",
-   "osm": "node/4329817770",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-belle-maraichere/1-food-1600.webp",
-     "thumb": "img/places/brussel/la-belle-maraichere/1-food-800.webp",
-     "srcset": "img/places/brussel/la-belle-maraichere/1-food-800.webp 800w, img/places/brussel/la-belle-maraichere/1-food-1600.webp 1600w",
-     "w": 1024,
-     "h": 576,
-     "category": "food",
-     "alt": "La Belle Maraîchère: food",
-     "credit": "labellemaraichere.be",
-     "credit_url": "https://labellemaraichere.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4329817770"
   },
   {
    "id": "la-buvette",
@@ -2912,37 +2356,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/11078075453",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-buvette/1-interior-1600.webp",
-     "thumb": "img/places/brussel/la-buvette/1-interior-800.webp",
-     "srcset": "img/places/brussel/la-buvette/1-interior-800.webp 800w, img/places/brussel/la-buvette/1-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "interior",
-     "alt": "La Buvette: interior",
-     "credit": "@labuvettebruxelles on Instagram",
-     "credit_url": "https://www.instagram.com/labuvettebruxelles/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/la-buvette/2-food-1600.webp",
-     "thumb": "img/places/brussel/la-buvette/2-food-800.webp",
-     "srcset": "img/places/brussel/la-buvette/2-food-800.webp 800w, img/places/brussel/la-buvette/2-food-1600.webp 1600w",
-     "w": 1200,
-     "h": 749,
-     "category": "food",
-     "alt": "La Buvette: food",
-     "credit": "la-buvette.be",
-     "credit_url": "https://la-buvette.be/en",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/11078075453"
   },
   {
    "id": "le-monde-est-petit",
@@ -3040,37 +2454,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/le-monde-est-petit/1-food-1600.webp",
-     "thumb": "img/places/brussel/le-monde-est-petit/1-food-800.webp",
-     "srcset": "img/places/brussel/le-monde-est-petit/1-food-800.webp 800w, img/places/brussel/le-monde-est-petit/1-food-1600.webp 1600w",
-     "w": 1024,
-     "h": 1024,
-     "category": "food",
-     "alt": "Le Monde est Petit: food",
-     "credit": "lemondeestpetit.be",
-     "credit_url": "https://www.lemondeestpetit.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/le-monde-est-petit/2-interior-1600.webp",
-     "thumb": "img/places/brussel/le-monde-est-petit/2-interior-800.webp",
-     "srcset": "img/places/brussel/le-monde-est-petit/2-interior-800.webp 800w, img/places/brussel/le-monde-est-petit/2-interior-1600.webp 1600w",
-     "w": 1024,
-     "h": 1024,
-     "category": "interior",
-     "alt": "Le Monde est Petit: interior",
-     "credit": "lemondeestpetit.be",
-     "credit_url": "https://www.lemondeestpetit.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "le-pigeon-noir",
@@ -3265,37 +2649,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/7324815285",
-   "photos": [
-    {
-     "src": "img/places/brussel/racines/1-interior-1600.webp",
-     "thumb": "img/places/brussel/racines/1-interior-800.webp",
-     "srcset": "img/places/brussel/racines/1-interior-800.webp 800w, img/places/brussel/racines/1-interior-1600.webp 1600w",
-     "w": 960,
-     "h": 1200,
-     "category": "interior",
-     "alt": "Racines: interior",
-     "credit": "@racines_bruxelles on Instagram",
-     "credit_url": "https://www.instagram.com/racines_bruxelles/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/racines/2-food-1600.webp",
-     "thumb": "img/places/brussel/racines/2-food-800.webp",
-     "srcset": "img/places/brussel/racines/2-food-800.webp 800w, img/places/brussel/racines/2-food-1600.webp 1600w",
-     "w": 960,
-     "h": 1200,
-     "category": "food",
-     "alt": "Racines: food",
-     "credit": "@racines_bruxelles on Instagram",
-     "credit_url": "https://www.instagram.com/racines_bruxelles/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/7324815285"
   },
   {
    "id": "nonbe-daigaku",
@@ -3395,23 +2749,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/11298155729",
-   "photos": [
-    {
-     "src": "img/places/brussel/nonbe-daigaku/1-food-1600.webp",
-     "thumb": "img/places/brussel/nonbe-daigaku/1-food-800.webp",
-     "srcset": "img/places/brussel/nonbe-daigaku/1-food-800.webp 800w, img/places/brussel/nonbe-daigaku/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 809,
-     "category": "food",
-     "alt": "Nonbe Daigaku: food",
-     "credit": "@nonbe_daigaku on Instagram",
-     "credit_url": "https://www.instagram.com/nonbe_daigaku/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/11298155729"
   },
   {
    "id": "brugmann",
@@ -3509,37 +2847,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/brugmann/1-food-1600.webp",
-     "thumb": "img/places/brussel/brugmann/1-food-800.webp",
-     "srcset": "img/places/brussel/brugmann/1-food-800.webp 800w, img/places/brussel/brugmann/1-food-1600.webp 1600w",
-     "w": 800,
-     "h": 533,
-     "category": "food",
-     "alt": "Brugmann: food",
-     "credit": "brugmann.com",
-     "credit_url": "https://brugmann.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/brugmann/2-food-1600.webp",
-     "thumb": "img/places/brussel/brugmann/2-food-800.webp",
-     "srcset": "img/places/brussel/brugmann/2-food-800.webp 800w, img/places/brussel/brugmann/2-food-1600.webp 1600w",
-     "w": 1600,
-     "h": 1067,
-     "category": "food",
-     "alt": "Brugmann: food",
-     "credit": "brugmann.com",
-     "credit_url": "https://brugmann.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "fico",
@@ -3637,37 +2945,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/13007200519",
-   "photos": [
-    {
-     "src": "img/places/brussel/fico/1-interior-1600.webp",
-     "thumb": "img/places/brussel/fico/1-interior-800.webp",
-     "srcset": "img/places/brussel/fico/1-interior-800.webp 800w, img/places/brussel/fico/1-interior-1600.webp 1600w",
-     "w": 1280,
-     "h": 853,
-     "category": "interior",
-     "alt": "Fico: interior",
-     "credit": "ficosteria.be",
-     "credit_url": "https://www.ficosteria.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/fico/2-food-1600.webp",
-     "thumb": "img/places/brussel/fico/2-food-800.webp",
-     "srcset": "img/places/brussel/fico/2-food-800.webp 800w, img/places/brussel/fico/2-food-1600.webp 1600w",
-     "w": 1280,
-     "h": 853,
-     "category": "food",
-     "alt": "Fico: food",
-     "credit": "ficosteria.be",
-     "credit_url": "https://www.ficosteria.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/13007200519"
   },
   {
    "id": "gus",
@@ -3766,37 +3044,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/3863812078",
-   "photos": [
-    {
-     "src": "img/places/brussel/gus/1-food-1600.webp",
-     "thumb": "img/places/brussel/gus/1-food-800.webp",
-     "srcset": "img/places/brussel/gus/1-food-800.webp 800w, img/places/brussel/gus/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Gus: food",
-     "credit": "@gus_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/gus_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/gus/2-food-1600.webp",
-     "thumb": "img/places/brussel/gus/2-food-800.webp",
-     "srcset": "img/places/brussel/gus/2-food-800.webp 800w, img/places/brussel/gus/2-food-1600.webp 1600w",
-     "w": 620,
-     "h": 1102,
-     "category": "food",
-     "alt": "Gus: food",
-     "credit": "@gus_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/gus_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/3863812078"
   },
   {
    "id": "henri",
@@ -3994,37 +3242,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/11046983222",
-   "photos": [
-    {
-     "src": "img/places/brussel/kline/1-interior-1600.webp",
-     "thumb": "img/places/brussel/kline/1-interior-800.webp",
-     "srcset": "img/places/brussel/kline/1-interior-800.webp 800w, img/places/brussel/kline/1-interior-1600.webp 1600w",
-     "w": 1279,
-     "h": 1600,
-     "category": "interior",
-     "alt": "KLINE: interior",
-     "credit": "kline.brussels",
-     "credit_url": "https://kline.brussels/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/kline/2-interior-1600.webp",
-     "thumb": "img/places/brussel/kline/2-interior-800.webp",
-     "srcset": "img/places/brussel/kline/2-interior-800.webp 800w, img/places/brussel/kline/2-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "interior",
-     "alt": "KLINE: interior",
-     "credit": "@kline.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/kline.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/11046983222"
   },
   {
    "id": "selecto",
@@ -4215,23 +3433,7 @@
    "notes": "Gault&Millau lists service days: Mo lunch & dinner; Tu lunch; Th,Fr lunch & dinner; Sa dinner; closed We,Su (no times published; openingHours left null).",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4416858289",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-table-de-mus/1-food-1600.webp",
-     "thumb": "img/places/brussel/la-table-de-mus/1-food-800.webp",
-     "srcset": "img/places/brussel/la-table-de-mus/1-food-800.webp 800w, img/places/brussel/la-table-de-mus/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "La Table de Mus: food",
-     "credit": "@latabledemus on Instagram",
-     "credit_url": "https://www.instagram.com/latabledemus/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4416858289"
   },
   {
    "id": "les-brigittines",
@@ -4329,37 +3531,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/8450305006",
-   "photos": [
-    {
-     "src": "img/places/brussel/les-brigittines/1-food-1600.webp",
-     "thumb": "img/places/brussel/les-brigittines/1-food-800.webp",
-     "srcset": "img/places/brussel/les-brigittines/1-food-800.webp 800w, img/places/brussel/les-brigittines/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Les Brigittines: food",
-     "credit": "@restaurant.les.brigittines on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant.les.brigittines/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/les-brigittines/2-food-1600.webp",
-     "thumb": "img/places/brussel/les-brigittines/2-food-800.webp",
-     "srcset": "img/places/brussel/les-brigittines/2-food-800.webp 800w, img/places/brussel/les-brigittines/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1137,
-     "category": "food",
-     "alt": "Les Brigittines: food",
-     "credit": "@restaurant.les.brigittines on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant.les.brigittines/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/8450305006"
   },
   {
    "id": "maru",
@@ -4457,23 +3629,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/5907172885",
-   "photos": [
-    {
-     "src": "img/places/brussel/maru/1-food-1600.webp",
-     "thumb": "img/places/brussel/maru/1-food-800.webp",
-     "srcset": "img/places/brussel/maru/1-food-800.webp 800w, img/places/brussel/maru/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Maru: food",
-     "credit": "@marubru on Instagram",
-     "credit_url": "https://www.instagram.com/marubru/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5907172885"
   },
   {
    "id": "odette-en-ville",
@@ -4571,37 +3727,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/odette-en-ville/1-food-1600.webp",
-     "thumb": "img/places/brussel/odette-en-ville/1-food-800.webp",
-     "srcset": "img/places/brussel/odette-en-ville/1-food-800.webp 800w, img/places/brussel/odette-en-ville/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Odette en Ville: food",
-     "credit": "@odetteenville on Instagram",
-     "credit_url": "https://www.instagram.com/odetteenville/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/odette-en-ville/2-food-1600.webp",
-     "thumb": "img/places/brussel/odette-en-ville/2-food-800.webp",
-     "srcset": "img/places/brussel/odette-en-ville/2-food-800.webp 800w, img/places/brussel/odette-en-ville/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Odette en Ville: food",
-     "credit": "@odetteenville on Instagram",
-     "credit_url": "https://www.instagram.com/odetteenville/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "old-boy",
@@ -4700,37 +3826,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/5951134953",
-   "photos": [
-    {
-     "src": "img/places/brussel/old-boy/1-food-1600.webp",
-     "thumb": "img/places/brussel/old-boy/1-food-800.webp",
-     "srcset": "img/places/brussel/old-boy/1-food-800.webp 800w, img/places/brussel/old-boy/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Old Boy: food",
-     "credit": "@oldboyrestaurant on Instagram",
-     "credit_url": "https://www.instagram.com/oldboyrestaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/old-boy/2-food-1600.webp",
-     "thumb": "img/places/brussel/old-boy/2-food-800.webp",
-     "srcset": "img/places/brussel/old-boy/2-food-800.webp 800w, img/places/brussel/old-boy/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Old Boy: food",
-     "credit": "@oldboyrestaurant on Instagram",
-     "credit_url": "https://www.instagram.com/oldboyrestaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5951134953"
   },
   {
    "id": "origine",
@@ -4829,37 +3925,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/origine/1-food-1600.webp",
-     "thumb": "img/places/brussel/origine/1-food-800.webp",
-     "srcset": "img/places/brussel/origine/1-food-800.webp 800w, img/places/brussel/origine/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Origine: food",
-     "credit": "@originerestaurant on Instagram",
-     "credit_url": "https://www.instagram.com/originerestaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/origine/2-food-1600.webp",
-     "thumb": "img/places/brussel/origine/2-food-800.webp",
-     "srcset": "img/places/brussel/origine/2-food-800.webp 800w, img/places/brussel/origine/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 720,
-     "category": "food",
-     "alt": "Origine: food",
-     "credit": "@originerestaurant on Instagram",
-     "credit_url": "https://www.instagram.com/originerestaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "ptitbeur",
@@ -5068,37 +4134,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4326817089",
-   "photos": [
-    {
-     "src": "img/places/brussel/savage/1-food-1600.webp",
-     "thumb": "img/places/brussel/savage/1-food-800.webp",
-     "srcset": "img/places/brussel/savage/1-food-800.webp 800w, img/places/brussel/savage/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Savage: food",
-     "credit": "@savage.restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/savage.restaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/savage/2-interior-1600.webp",
-     "thumb": "img/places/brussel/savage/2-interior-800.webp",
-     "srcset": "img/places/brussel/savage/2-interior-800.webp 800w, img/places/brussel/savage/2-interior-1600.webp 1600w",
-     "w": 1500,
-     "h": 1125,
-     "category": "interior",
-     "alt": "Savage: interior",
-     "credit": "savage.restaurant",
-     "credit_url": "https://www.savage.restaurant/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4326817089"
   },
   {
    "id": "anju",
@@ -5198,37 +4234,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/8757831476",
-   "photos": [
-    {
-     "src": "img/places/brussel/anju/1-food-1600.webp",
-     "thumb": "img/places/brussel/anju/1-food-800.webp",
-     "srcset": "img/places/brussel/anju/1-food-800.webp 800w, img/places/brussel/anju/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Anju: food",
-     "credit": "@anju_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/anju_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/anju/2-interior-1600.webp",
-     "thumb": "img/places/brussel/anju/2-interior-800.webp",
-     "srcset": "img/places/brussel/anju/2-interior-800.webp 800w, img/places/brussel/anju/2-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1441,
-     "category": "interior",
-     "alt": "Anju: interior",
-     "credit": "@anju_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/anju_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/8757831476"
   },
   {
    "id": "nenu",
@@ -5327,37 +4333,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/11663750418",
-   "photos": [
-    {
-     "src": "img/places/brussel/nenu/1-food-1600.webp",
-     "thumb": "img/places/brussel/nenu/1-food-800.webp",
-     "srcset": "img/places/brussel/nenu/1-food-800.webp 800w, img/places/brussel/nenu/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Nénu: food",
-     "credit": "@nenubrussels on Instagram",
-     "credit_url": "https://www.instagram.com/nenubrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/nenu/2-food-1600.webp",
-     "thumb": "img/places/brussel/nenu/2-food-800.webp",
-     "srcset": "img/places/brussel/nenu/2-food-800.webp 800w, img/places/brussel/nenu/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Nénu: food",
-     "credit": "@nenubrussels on Instagram",
-     "credit_url": "https://www.instagram.com/nenubrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/11663750418"
   },
   {
    "id": "strofilia",
@@ -5455,37 +4431,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4200114214",
-   "photos": [
-    {
-     "src": "img/places/brussel/strofilia/1-food-1600.webp",
-     "thumb": "img/places/brussel/strofilia/1-food-800.webp",
-     "srcset": "img/places/brussel/strofilia/1-food-800.webp 800w, img/places/brussel/strofilia/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Strofilia: food",
-     "credit": "@strofiliabrussels on Instagram",
-     "credit_url": "https://www.instagram.com/strofiliabrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/strofilia/2-interior-1600.webp",
-     "thumb": "img/places/brussel/strofilia/2-interior-800.webp",
-     "srcset": "img/places/brussel/strofilia/2-interior-800.webp 800w, img/places/brussel/strofilia/2-interior-1600.webp 1600w",
-     "w": 768,
-     "h": 1152,
-     "category": "interior",
-     "alt": "Strofilia: interior",
-     "credit": "strofilia.brussels",
-     "credit_url": "https://strofilia.brussels/en/home/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4200114214"
   },
   {
    "id": "le-vismet",
@@ -5675,23 +4621,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4426898813",
-   "photos": [
-    {
-     "src": "img/places/brussel/ongba/1-drink-1600.webp",
-     "thumb": "img/places/brussel/ongba/1-drink-800.webp",
-     "srcset": "img/places/brussel/ongba/1-drink-800.webp 800w, img/places/brussel/ongba/1-drink-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Ôngbà: drink",
-     "credit": "@ongba.family on Instagram",
-     "credit_url": "https://www.instagram.com/ongba.family/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4426898813"
   },
   {
    "id": "yoka-tomo",
@@ -5788,37 +4718,7 @@
    "notes": null,
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/yoka-tomo/1-food-1600.webp",
-     "thumb": "img/places/brussel/yoka-tomo/1-food-800.webp",
-     "srcset": "img/places/brussel/yoka-tomo/1-food-800.webp 800w, img/places/brussel/yoka-tomo/1-food-1600.webp 1600w",
-     "w": 819,
-     "h": 819,
-     "category": "food",
-     "alt": "YokaTomo: food",
-     "credit": "@yoka.tomo on Instagram",
-     "credit_url": "https://www.instagram.com/yoka.tomo/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/yoka-tomo/2-food-1600.webp",
-     "thumb": "img/places/brussel/yoka-tomo/2-food-800.webp",
-     "srcset": "img/places/brussel/yoka-tomo/2-food-800.webp 800w, img/places/brussel/yoka-tomo/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "YokaTomo: food",
-     "credit": "@yoka.tomo on Instagram",
-     "credit_url": "https://www.instagram.com/yoka.tomo/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "groseille",
@@ -5910,37 +4810,7 @@
    "category": "restaurant",
    "notes": "Gault&Millau lists service days: We,Th dinner; Fr lunch & dinner; Sa dinner; closed Mo,Tu,Su (no times published; openingHours left null).",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/groseille/1-food-1600.webp",
-     "thumb": "img/places/brussel/groseille/1-food-800.webp",
-     "srcset": "img/places/brussel/groseille/1-food-800.webp 800w, img/places/brussel/groseille/1-food-1600.webp 1600w",
-     "w": 1600,
-     "h": 1202,
-     "category": "food",
-     "alt": "Groseille: food",
-     "credit": "groseille.brussels",
-     "credit_url": "https://groseille.brussels/fr",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/groseille/2-food-1600.webp",
-     "thumb": "img/places/brussel/groseille/2-food-800.webp",
-     "srcset": "img/places/brussel/groseille/2-food-800.webp 800w, img/places/brussel/groseille/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Groseille: food",
-     "credit": "@groseille_restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/groseille_restaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "stone-dial",
@@ -6034,37 +4904,7 @@
    "category": "restaurant",
    "notes": null,
    "addressSource": "Michelin",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/stone-dial/2-food-1600.webp",
-     "thumb": "img/places/brussel/stone-dial/2-food-800.webp",
-     "srcset": "img/places/brussel/stone-dial/2-food-800.webp 800w, img/places/brussel/stone-dial/2-food-1600.webp 1600w",
-     "w": 1600,
-     "h": 1067,
-     "category": "food",
-     "alt": "Stone Dial: food",
-     "credit": "stonedial.be",
-     "credit_url": "https://stonedial.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/stone-dial/3-food-1600.webp",
-     "thumb": "img/places/brussel/stone-dial/3-food-800.webp",
-     "srcset": "img/places/brussel/stone-dial/3-food-800.webp 800w, img/places/brussel/stone-dial/3-food-1600.webp 1600w",
-     "w": 900,
-     "h": 1200,
-     "category": "food",
-     "alt": "Stone Dial: food",
-     "credit": "stonedial.be",
-     "credit_url": "https://stonedial.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "car-bon",
@@ -6162,23 +5002,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/5092107887",
-   "photos": [
-    {
-     "src": "img/places/brussel/car-bon/1-interior-1600.webp",
-     "thumb": "img/places/brussel/car-bon/1-interior-800.webp",
-     "srcset": "img/places/brussel/car-bon/1-interior-800.webp 800w, img/places/brussel/car-bon/1-interior-1600.webp 1600w",
-     "w": 900,
-     "h": 1600,
-     "category": "interior",
-     "alt": "Car Bon: interior",
-     "credit": "@carbon_ixelles on Instagram",
-     "credit_url": "https://www.instagram.com/carbon_ixelles/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5092107887"
   },
   {
    "id": "chou",
@@ -6276,37 +5100,7 @@
    "addressSource": "Michelin",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/8617596347",
-   "photos": [
-    {
-     "src": "img/places/brussel/chou/1-food-1600.webp",
-     "thumb": "img/places/brussel/chou/1-food-800.webp",
-     "srcset": "img/places/brussel/chou/1-food-800.webp 800w, img/places/brussel/chou/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Chou: food",
-     "credit": "@restaurantchou on Instagram",
-     "credit_url": "https://www.instagram.com/restaurantchou/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/chou/2-food-1600.webp",
-     "thumb": "img/places/brussel/chou/2-food-800.webp",
-     "srcset": "img/places/brussel/chou/2-food-800.webp 800w, img/places/brussel/chou/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Chou: food",
-     "credit": "@restaurantchou on Instagram",
-     "credit_url": "https://www.instagram.com/restaurantchou/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/8617596347"
   },
   {
    "id": "cosmos",
@@ -6407,23 +5201,7 @@
    "notes": null,
    "opened": "2026-03",
    "origin": "research-2026-10-25",
-   "osm": "node/4415645090",
-   "photos": [
-    {
-     "src": "img/places/brussel/cosmos/1-food-1600.webp",
-     "thumb": "img/places/brussel/cosmos/1-food-800.webp",
-     "srcset": "img/places/brussel/cosmos/1-food-800.webp 800w, img/places/brussel/cosmos/1-food-1600.webp 1600w",
-     "w": 1200,
-     "h": 1600,
-     "category": "food",
-     "alt": "Cosmos: food",
-     "credit": "cosmosrestaurant.be",
-     "credit_url": "https://www.cosmosrestaurant.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4415645090"
   },
   {
    "id": "ralph",
@@ -6515,23 +5293,7 @@
    "category": "restaurant",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/ralph/1-interior-1600.webp",
-     "thumb": "img/places/brussel/ralph/1-interior-800.webp",
-     "srcset": "img/places/brussel/ralph/1-interior-800.webp 800w, img/places/brussel/ralph/1-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "interior",
-     "alt": "Ralph: interior",
-     "credit": "@ralphbrussels on Instagram",
-     "credit_url": "https://www.instagram.com/ralphbrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "le-guepard",
@@ -6729,23 +5491,7 @@
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "opened": "2025-10",
    "origin": "research-2026-10-25",
-   "osm": "node/13525137887",
-   "photos": [
-    {
-     "src": "img/places/brussel/mome/1-food-1600.webp",
-     "thumb": "img/places/brussel/mome/1-food-800.webp",
-     "srcset": "img/places/brussel/mome/1-food-800.webp 800w, img/places/brussel/mome/1-food-1600.webp 1600w",
-     "w": 640,
-     "h": 1136,
-     "category": "food",
-     "alt": "MOme: food",
-     "credit": "@momebrussels on Instagram",
-     "credit_url": "https://www.instagram.com/momebrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/13525137887"
   },
   {
    "id": "madame-beta",
@@ -6937,37 +5683,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "opened": "2025-11",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/flane/1-food-1600.webp",
-     "thumb": "img/places/brussel/flane/1-food-800.webp",
-     "srcset": "img/places/brussel/flane/1-food-800.webp 800w, img/places/brussel/flane/1-food-1600.webp 1600w",
-     "w": 901,
-     "h": 1600,
-     "category": "food",
-     "alt": "Flâne: food",
-     "credit": "@flane_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/flane_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/flane/2-food-1600.webp",
-     "thumb": "img/places/brussel/flane/2-food-800.webp",
-     "srcset": "img/places/brussel/flane/2-food-800.webp 800w, img/places/brussel/flane/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Flâne: food",
-     "credit": "@flane_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/flane_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "affable",
@@ -7063,37 +5779,7 @@
    "category": "restaurant",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/affable/1-food-1600.webp",
-     "thumb": "img/places/brussel/affable/1-food-800.webp",
-     "srcset": "img/places/brussel/affable/1-food-800.webp 800w, img/places/brussel/affable/1-food-1600.webp 1600w",
-     "w": 901,
-     "h": 1600,
-     "category": "food",
-     "alt": "Affable: food",
-     "credit": "@affable.restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/affable.restaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/affable/2-interior-1600.webp",
-     "thumb": "img/places/brussel/affable/2-interior-800.webp",
-     "srcset": "img/places/brussel/affable/2-interior-800.webp 800w, img/places/brussel/affable/2-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1425,
-     "category": "interior",
-     "alt": "Affable: interior",
-     "credit": "@affable.restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/affable.restaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "carte-blanche",
@@ -7372,23 +6058,7 @@
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "opened": "2025-12",
    "origin": "research-2026-10-25",
-   "osm": "node/5301940180",
-   "photos": [
-    {
-     "src": "img/places/brussel/alley-mian/1-food-1600.webp",
-     "thumb": "img/places/brussel/alley-mian/1-food-800.webp",
-     "srcset": "img/places/brussel/alley-mian/1-food-800.webp 800w, img/places/brussel/alley-mian/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Alley Mian: food",
-     "credit": "@alley_mian on Instagram",
-     "credit_url": "https://www.instagram.com/alley_mian/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5301940180"
   },
   {
    "id": "largo",
@@ -7481,37 +6151,7 @@
    "category": "restaurant",
    "notes": "Gault&Millau lists service days: Mo-Su lunch & dinner (no times published; openingHours left null).",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/largo/1-exterior-1600.webp",
-     "thumb": "img/places/brussel/largo/1-exterior-800.webp",
-     "srcset": "img/places/brussel/largo/1-exterior-800.webp 800w, img/places/brussel/largo/1-exterior-1600.webp 1600w",
-     "w": 960,
-     "h": 1280,
-     "category": "exterior",
-     "alt": "Largo: exterior",
-     "credit": "largobrussels.be",
-     "credit_url": "https://www.largobrussels.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/largo/2-exterior-1600.webp",
-     "thumb": "img/places/brussel/largo/2-exterior-800.webp",
-     "srcset": "img/places/brussel/largo/2-exterior-800.webp 800w, img/places/brussel/largo/2-exterior-1600.webp 1600w",
-     "w": 1086,
-     "h": 1448,
-     "category": "exterior",
-     "alt": "Largo: exterior",
-     "credit": "largobrussels.be",
-     "credit_url": "https://www.largobrussels.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "wantan",
@@ -7790,37 +6430,7 @@
    "notes": "Gault&Millau lists service days: Tu-Su lunch & dinner; closed Mo (no times published; openingHours left null).",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "opened": "2026-10",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/big-trouble-in-chinatown/1-food-1600.webp",
-     "thumb": "img/places/brussel/big-trouble-in-chinatown/1-food-800.webp",
-     "srcset": "img/places/brussel/big-trouble-in-chinatown/1-food-800.webp 800w, img/places/brussel/big-trouble-in-chinatown/1-food-1600.webp 1600w",
-     "w": 1600,
-     "h": 1067,
-     "category": "food",
-     "alt": "Big Trouble in Chinatown: food",
-     "credit": "bigtroubleinchinatown.com",
-     "credit_url": "https://bigtroubleinchinatown.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/big-trouble-in-chinatown/2-interior-1600.webp",
-     "thumb": "img/places/brussel/big-trouble-in-chinatown/2-interior-800.webp",
-     "srcset": "img/places/brussel/big-trouble-in-chinatown/2-interior-800.webp 800w, img/places/brussel/big-trouble-in-chinatown/2-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "interior",
-     "alt": "Big Trouble in Chinatown: interior",
-     "credit": "@bigtroubleinchinatown on Instagram",
-     "credit_url": "https://www.instagram.com/bigtroubleinchinatown/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "the-vault",
@@ -8019,37 +6629,7 @@
    "category": "restaurant",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-belle-equipe/1-food-1600.webp",
-     "thumb": "img/places/brussel/la-belle-equipe/1-food-800.webp",
-     "srcset": "img/places/brussel/la-belle-equipe/1-food-800.webp 800w, img/places/brussel/la-belle-equipe/1-food-1600.webp 1600w",
-     "w": 1024,
-     "h": 1280,
-     "category": "food",
-     "alt": "La Belle Équipe: food",
-     "credit": "@labelleequipe.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/labelleequipe.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/la-belle-equipe/2-food-1600.webp",
-     "thumb": "img/places/brussel/la-belle-equipe/2-food-800.webp",
-     "srcset": "img/places/brussel/la-belle-equipe/2-food-800.webp 800w, img/places/brussel/la-belle-equipe/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "La Belle Équipe: food",
-     "credit": "@labelleequipe.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/labelleequipe.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "sun",
@@ -8135,37 +6715,7 @@
    "category": "coffee_bar",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/sun/1-food-1600.webp",
-     "thumb": "img/places/brussel/sun/1-food-800.webp",
-     "srcset": "img/places/brussel/sun/1-food-800.webp 800w, img/places/brussel/sun/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "SŪN: food",
-     "credit": "@sun.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/sun.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/sun/2-food-1600.webp",
-     "thumb": "img/places/brussel/sun/2-food-800.webp",
-     "srcset": "img/places/brussel/sun/2-food-800.webp 800w, img/places/brussel/sun/2-food-1600.webp 1600w",
-     "w": 900,
-     "h": 1600,
-     "category": "food",
-     "alt": "SŪN: food",
-     "credit": "@sun.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/sun.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "daily-3000",
@@ -8255,37 +6805,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "opened": "2026-07",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/daily-3000/1-food-1600.webp",
-     "thumb": "img/places/brussel/daily-3000/1-food-800.webp",
-     "srcset": "img/places/brussel/daily-3000/1-food-800.webp 800w, img/places/brussel/daily-3000/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Daily 3000: food",
-     "credit": "@daily_3000 on Instagram",
-     "credit_url": "https://www.instagram.com/daily_3000/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/daily-3000/2-drink-1600.webp",
-     "thumb": "img/places/brussel/daily-3000/2-drink-800.webp",
-     "srcset": "img/places/brussel/daily-3000/2-drink-800.webp 800w, img/places/brussel/daily-3000/2-drink-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Daily 3000: drink",
-     "credit": "@daily_3000 on Instagram",
-     "credit_url": "https://www.instagram.com/daily_3000/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "munch",
@@ -8386,37 +6906,7 @@
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "opened": "2026-03",
    "origin": "research-2026-10-25",
-   "osm": "node/5781359285",
-   "photos": [
-    {
-     "src": "img/places/brussel/munch/1-food-1600.webp",
-     "thumb": "img/places/brussel/munch/1-food-800.webp",
-     "srcset": "img/places/brussel/munch/1-food-800.webp 800w, img/places/brussel/munch/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Munch: food",
-     "credit": "@munch.be on Instagram",
-     "credit_url": "https://www.instagram.com/munch.be/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/munch/2-food-1600.webp",
-     "thumb": "img/places/brussel/munch/2-food-800.webp",
-     "srcset": "img/places/brussel/munch/2-food-800.webp 800w, img/places/brussel/munch/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Munch: food",
-     "credit": "@munch.be on Instagram",
-     "credit_url": "https://www.instagram.com/munch.be/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5781359285"
   },
   {
    "id": "yassou",
@@ -8513,23 +7003,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "opened": "2026-03",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/yassou/1-food-1600.webp",
-     "thumb": "img/places/brussel/yassou/1-food-800.webp",
-     "srcset": "img/places/brussel/yassou/1-food-800.webp 800w, img/places/brussel/yassou/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1425,
-     "category": "food",
-     "alt": "Yassou: food",
-     "credit": "@yassou.bistro on Instagram",
-     "credit_url": "https://www.instagram.com/yassou.bistro/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "les-4-jeudis",
@@ -8685,37 +7159,7 @@
    "category": "restaurant",
    "notes": "Host venue of the Aromatique 'Dîners gastronomiques' (events moved here from the city-wide extra events).",
    "instagramSource": "Postcard listing / own Instagram embed",
-   "origin": "research-2026-10-26",
-   "photos": [
-    {
-     "src": "img/places/brussel/les-4-jeudis/1-food-1600.webp",
-     "thumb": "img/places/brussel/les-4-jeudis/1-food-800.webp",
-     "srcset": "img/places/brussel/les-4-jeudis/1-food-800.webp 800w, img/places/brussel/les-4-jeudis/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1426,
-     "category": "food",
-     "alt": "Les 4 Jeudis: food",
-     "credit": "@les4jeudis on Instagram",
-     "credit_url": "https://www.instagram.com/les4jeudis/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/les-4-jeudis/2-interior-1600.webp",
-     "thumb": "img/places/brussel/les-4-jeudis/2-interior-800.webp",
-     "srcset": "img/places/brussel/les-4-jeudis/2-interior-800.webp 800w, img/places/brussel/les-4-jeudis/2-interior-1600.webp 1600w",
-     "w": 1080,
-     "h": 1116,
-     "category": "interior",
-     "alt": "Les 4 Jeudis: interior",
-     "credit": "@les4jeudis on Instagram",
-     "credit_url": "https://www.instagram.com/les4jeudis/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-26"
   },
   {
    "id": "life-is-beautiful",
@@ -8889,37 +7333,7 @@
    "notes": null,
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/lary/1-drink-1600.webp",
-     "thumb": "img/places/brussel/lary/1-drink-800.webp",
-     "srcset": "img/places/brussel/lary/1-drink-800.webp 800w, img/places/brussel/lary/1-drink-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Lary: drink",
-     "credit": "@lary.bar.bxl on Instagram",
-     "credit_url": "https://www.instagram.com/lary.bar.bxl/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/lary/2-drink-1600.webp",
-     "thumb": "img/places/brussel/lary/2-drink-800.webp",
-     "srcset": "img/places/brussel/lary/2-drink-800.webp 800w, img/places/brussel/lary/2-drink-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Lary: drink",
-     "credit": "@lary.bar.bxl on Instagram",
-     "credit_url": "https://www.instagram.com/lary.bar.bxl/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "plumette",
@@ -9006,37 +7420,7 @@
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/2665166030",
-   "photos": [
-    {
-     "src": "img/places/brussel/plumette/1-drink-1600.webp",
-     "thumb": "img/places/brussel/plumette/1-drink-800.webp",
-     "srcset": "img/places/brussel/plumette/1-drink-800.webp 800w, img/places/brussel/plumette/1-drink-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Plumette: drink",
-     "credit": "@plumettebar on Instagram",
-     "credit_url": "https://www.instagram.com/plumettebar/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/plumette/2-drink-1600.webp",
-     "thumb": "img/places/brussel/plumette/2-drink-800.webp",
-     "srcset": "img/places/brussel/plumette/2-drink-800.webp 800w, img/places/brussel/plumette/2-drink-1600.webp 1600w",
-     "w": 960,
-     "h": 1280,
-     "category": "food",
-     "alt": "Plumette: drink",
-     "credit": "@plumettebar on Instagram",
-     "credit_url": "https://www.instagram.com/plumettebar/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/2665166030"
   },
   {
    "id": "fox-den",
@@ -9227,37 +7611,7 @@
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/6815859419",
-   "photos": [
-    {
-     "src": "img/places/brussel/confessions/1-drink-1600.webp",
-     "thumb": "img/places/brussel/confessions/1-drink-800.webp",
-     "srcset": "img/places/brussel/confessions/1-drink-800.webp 800w, img/places/brussel/confessions/1-drink-1600.webp 1600w",
-     "w": 1500,
-     "h": 842,
-     "category": "food",
-     "alt": "Confessions: drink",
-     "credit": "confessionscocktail.com",
-     "credit_url": "https://www.confessionscocktail.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/confessions/2-drink-1600.webp",
-     "thumb": "img/places/brussel/confessions/2-drink-800.webp",
-     "srcset": "img/places/brussel/confessions/2-drink-800.webp 800w, img/places/brussel/confessions/2-drink-1600.webp 1600w",
-     "w": 750,
-     "h": 770,
-     "category": "food",
-     "alt": "Confessions: drink",
-     "credit": "confessionscocktail.com",
-     "credit_url": "https://www.confessionscocktail.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/6815859419"
   },
   {
    "id": "the-modern-alchemist",
@@ -9434,23 +7788,7 @@
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4706357837",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-pharmacie-anglaise/1-drink-1600.webp",
-     "thumb": "img/places/brussel/la-pharmacie-anglaise/1-drink-800.webp",
-     "srcset": "img/places/brussel/la-pharmacie-anglaise/1-drink-800.webp 800w, img/places/brussel/la-pharmacie-anglaise/1-drink-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "La Pharmacie Anglaise: drink",
-     "credit": "@lapharmacieanglaise on Instagram",
-     "credit_url": "https://www.instagram.com/lapharmacieanglaise/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4706357837"
   },
   {
    "id": "le-stoefer",
@@ -9624,23 +7962,7 @@
    "notes": null,
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/bar-magritte/1-drink-1600.webp",
-     "thumb": "img/places/brussel/bar-magritte/1-drink-800.webp",
-     "srcset": "img/places/brussel/bar-magritte/1-drink-800.webp 800w, img/places/brussel/bar-magritte/1-drink-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Bar Magritte: drink",
-     "credit": "@barmagritte on Instagram",
-     "credit_url": "https://www.instagram.com/barmagritte/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "vertigo",
@@ -9728,37 +8050,7 @@
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/5787040151",
-   "photos": [
-    {
-     "src": "img/places/brussel/vertigo/1-food-1600.webp",
-     "thumb": "img/places/brussel/vertigo/1-food-800.webp",
-     "srcset": "img/places/brussel/vertigo/1-food-800.webp 800w, img/places/brussel/vertigo/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1435,
-     "category": "food",
-     "alt": "Vertigo: food",
-     "credit": "@vertigo_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/vertigo_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/vertigo/2-food-1600.webp",
-     "thumb": "img/places/brussel/vertigo/2-food-800.webp",
-     "srcset": "img/places/brussel/vertigo/2-food-800.webp 800w, img/places/brussel/vertigo/2-food-1600.webp 1600w",
-     "w": 720,
-     "h": 1280,
-     "category": "food",
-     "alt": "Vertigo: food",
-     "credit": "@vertigo_brussels on Instagram",
-     "credit_url": "https://www.instagram.com/vertigo_brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5787040151"
   },
   {
    "id": "chemistry-and-botanics",
@@ -9931,23 +8223,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/10931797363",
-   "photos": [
-    {
-     "src": "img/places/brussel/l-archiduc/2-interior-1600.webp",
-     "thumb": "img/places/brussel/l-archiduc/2-interior-800.webp",
-     "srcset": "img/places/brussel/l-archiduc/2-interior-800.webp 800w, img/places/brussel/l-archiduc/2-interior-1600.webp 1600w",
-     "w": 720,
-     "h": 720,
-     "category": "interior",
-     "alt": "L'Archiduc: interior",
-     "credit": "archiduc.com",
-     "credit_url": "https://archiduc.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/10931797363"
   },
   {
    "id": "le-cirio",
@@ -10118,23 +8394,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4480414658",
-   "photos": [
-    {
-     "src": "img/places/brussel/a-la-mort-subite/1-exterior-1600.webp",
-     "thumb": "img/places/brussel/a-la-mort-subite/1-exterior-800.webp",
-     "srcset": "img/places/brussel/a-la-mort-subite/1-exterior-800.webp 800w, img/places/brussel/a-la-mort-subite/1-exterior-1600.webp 1600w",
-     "w": 720,
-     "h": 720,
-     "category": "exterior",
-     "alt": "À la Mort Subite: exterior",
-     "credit": "@alamortsubitebe on Instagram",
-     "credit_url": "https://www.instagram.com/alamortsubitebe/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4480414658"
   },
   {
    "id": "goupil-le-fol",
@@ -10490,23 +8750,7 @@
    "category": "brown_cafe",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "node/1356774871",
-   "photos": [
-    {
-     "src": "img/places/brussel/la-fleur-en-papier-dore/1-exterior-1600.webp",
-     "thumb": "img/places/brussel/la-fleur-en-papier-dore/1-exterior-800.webp",
-     "srcset": "img/places/brussel/la-fleur-en-papier-dore/1-exterior-800.webp 800w, img/places/brussel/la-fleur-en-papier-dore/1-exterior-1600.webp 1600w",
-     "w": 800,
-     "h": 600,
-     "category": "exterior",
-     "alt": "La Fleur en Papier Doré: exterior",
-     "credit": "goudblommekeinpapier.be",
-     "credit_url": "https://goudblommekeinpapier.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/1356774871"
   },
   {
    "id": "moeder-lambic",
@@ -10862,37 +9106,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/234524306",
-   "photos": [
-    {
-     "src": "img/places/brussel/ultime-atome/1-food-1600.webp",
-     "thumb": "img/places/brussel/ultime-atome/1-food-800.webp",
-     "srcset": "img/places/brussel/ultime-atome/1-food-800.webp 800w, img/places/brussel/ultime-atome/1-food-1600.webp 1600w",
-     "w": 800,
-     "h": 800,
-     "category": "food",
-     "alt": "L'Ultime Atome: food",
-     "credit": "ultimeatome.be",
-     "credit_url": "https://ultimeatome.be/en",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/ultime-atome/2-food-1600.webp",
-     "thumb": "img/places/brussel/ultime-atome/2-food-800.webp",
-     "srcset": "img/places/brussel/ultime-atome/2-food-800.webp 800w, img/places/brussel/ultime-atome/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1335,
-     "category": "food",
-     "alt": "L'Ultime Atome: food",
-     "credit": "@_ultime_atome_ on Instagram",
-     "credit_url": "https://www.instagram.com/_ultime_atome_/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/234524306"
   },
   {
    "id": "brasserie-de-l-union",
@@ -11064,37 +9278,7 @@
    "addressSource": "Gault&Millau",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/9529617025",
-   "photos": [
-    {
-     "src": "img/places/brussel/nightshop/1-food-1600.webp",
-     "thumb": "img/places/brussel/nightshop/1-food-800.webp",
-     "srcset": "img/places/brussel/nightshop/1-food-800.webp 800w, img/places/brussel/nightshop/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1349,
-     "category": "food",
-     "alt": "Nightshop: food",
-     "credit": "@nightshop.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/nightshop.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/nightshop/2-food-1600.webp",
-     "thumb": "img/places/brussel/nightshop/2-food-800.webp",
-     "srcset": "img/places/brussel/nightshop/2-food-800.webp 800w, img/places/brussel/nightshop/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Nightshop: food",
-     "credit": "@nightshop.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/nightshop.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/9529617025"
   },
   {
    "id": "le-wine-bar-des-marolles",
@@ -12302,23 +10486,7 @@
    "notes": "Own site is JS-only; address and hours from European Coffee Trip (coffee guide).",
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/4119669190",
-   "photos": [
-    {
-     "src": "img/places/brussel/kaffabar/1-food-1600.webp",
-     "thumb": "img/places/brussel/kaffabar/1-food-800.webp",
-     "srcset": "img/places/brussel/kaffabar/1-food-800.webp 800w, img/places/brussel/kaffabar/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Kaffabar: food",
-     "credit": "@kaffabar on Instagram",
-     "credit_url": "https://www.instagram.com/kaffabar/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/4119669190"
   },
   {
    "id": "belga-co",
@@ -13092,37 +11260,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/7684321685",
-   "photos": [
-    {
-     "src": "img/places/brussel/boulengier/1-food-1600.webp",
-     "thumb": "img/places/brussel/boulengier/1-food-800.webp",
-     "srcset": "img/places/brussel/boulengier/1-food-800.webp 800w, img/places/brussel/boulengier/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1352,
-     "category": "food",
-     "alt": "Boulengier: food",
-     "credit": "@monboulengier on Instagram",
-     "credit_url": "https://www.instagram.com/monboulengier/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/boulengier/2-food-1600.webp",
-     "thumb": "img/places/brussel/boulengier/2-food-800.webp",
-     "srcset": "img/places/brussel/boulengier/2-food-800.webp 800w, img/places/brussel/boulengier/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Boulengier: food",
-     "credit": "@monboulengier on Instagram",
-     "credit_url": "https://www.instagram.com/monboulengier/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/7684321685"
   },
   {
    "id": "hopla-geiss",
@@ -13291,37 +11429,7 @@
    "category": "bakery",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/aube/1-food-1600.webp",
-     "thumb": "img/places/brussel/aube/1-food-800.webp",
-     "srcset": "img/places/brussel/aube/1-food-800.webp 800w, img/places/brussel/aube/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Aube: food",
-     "credit": "@aube.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/aube.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/aube/2-food-1600.webp",
-     "thumb": "img/places/brussel/aube/2-food-800.webp",
-     "srcset": "img/places/brussel/aube/2-food-800.webp 800w, img/places/brussel/aube/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Aube: food",
-     "credit": "@aube.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/aube.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "grain",
@@ -13407,37 +11515,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/11638726024",
-   "photos": [
-    {
-     "src": "img/places/brussel/grain/1-food-1600.webp",
-     "thumb": "img/places/brussel/grain/1-food-800.webp",
-     "srcset": "img/places/brussel/grain/1-food-800.webp 800w, img/places/brussel/grain/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Grain: food",
-     "credit": "@grainbakerybxl on Instagram",
-     "credit_url": "https://www.instagram.com/grainbakerybxl/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/grain/2-food-1600.webp",
-     "thumb": "img/places/brussel/grain/2-food-800.webp",
-     "srcset": "img/places/brussel/grain/2-food-800.webp 800w, img/places/brussel/grain/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Grain: food",
-     "credit": "@grainbakerybxl on Instagram",
-     "credit_url": "https://www.instagram.com/grainbakerybxl/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/11638726024"
   },
   {
    "id": "brood",
@@ -13522,37 +11600,7 @@
    "category": "bakery",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/brood/1-food-1600.webp",
-     "thumb": "img/places/brussel/brood/1-food-800.webp",
-     "srcset": "img/places/brussel/brood/1-food-800.webp 800w, img/places/brussel/brood/1-food-1600.webp 1600w",
-     "w": 720,
-     "h": 960,
-     "category": "food",
-     "alt": "Brood: food",
-     "credit": "@broodboulangerie on Instagram",
-     "credit_url": "https://www.instagram.com/broodboulangerie/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/brood/2-interior-1600.webp",
-     "thumb": "img/places/brussel/brood/2-interior-800.webp",
-     "srcset": "img/places/brussel/brood/2-interior-800.webp 800w, img/places/brussel/brood/2-interior-1600.webp 1600w",
-     "w": 720,
-     "h": 960,
-     "category": "interior",
-     "alt": "Brood: interior",
-     "credit": "@broodboulangerie on Instagram",
-     "credit_url": "https://www.instagram.com/broodboulangerie/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "soleil-bakery",
@@ -13637,23 +11685,7 @@
    "category": "bakery",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/soleil-bakery/1-food-1600.webp",
-     "thumb": "img/places/brussel/soleil-bakery/1-food-800.webp",
-     "srcset": "img/places/brussel/soleil-bakery/1-food-800.webp 800w, img/places/brussel/soleil-bakery/1-food-1600.webp 1600w",
-     "w": 720,
-     "h": 1280,
-     "category": "food",
-     "alt": "Soleil Bakery: food",
-     "credit": "@soleil.bakery on Instagram",
-     "credit_url": "https://www.instagram.com/soleil.bakery/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "simple",
@@ -13738,23 +11770,7 @@
    "category": "bakery",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/simple/1-food-1600.webp",
-     "thumb": "img/places/brussel/simple/1-food-800.webp",
-     "srcset": "img/places/brussel/simple/1-food-800.webp 800w, img/places/brussel/simple/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Simple: food",
-     "credit": "@simple.boulangerie on Instagram",
-     "credit_url": "https://www.instagram.com/simple.boulangerie/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "succulente",
@@ -13846,37 +11862,7 @@
    "notes": "Anderlecht (Brussels-Capital Region), not Dilbeek. succulente.be currently shows an empty page; the shop's own site is srl-succulente.odoo.com.",
    "instagramSource": "own website link",
    "opened": "2018",
-   "origin": "research-2026-10-26",
-   "photos": [
-    {
-     "src": "img/places/brussel/succulente/1-food-1600.webp",
-     "thumb": "img/places/brussel/succulente/1-food-800.webp",
-     "srcset": "img/places/brussel/succulente/1-food-800.webp 800w, img/places/brussel/succulente/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Succulente: food",
-     "credit": "@succulentepatisserievegetale on Instagram",
-     "credit_url": "https://www.instagram.com/succulentepatisserievegetale/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/succulente/2-food-1600.webp",
-     "thumb": "img/places/brussel/succulente/2-food-800.webp",
-     "srcset": "img/places/brussel/succulente/2-food-800.webp 800w, img/places/brussel/succulente/2-food-1600.webp 1600w",
-     "w": 1440,
-     "h": 1919,
-     "category": "food",
-     "alt": "Succulente: food",
-     "credit": "srl-succulente.odoo.com",
-     "credit_url": "https://srl-succulente.odoo.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-26"
   },
   {
    "id": "pepite",
@@ -13969,37 +11955,7 @@
    "notes": "Own site notes adjusted hours during the holiday season.",
    "instagramSource": "own website link",
    "opened": "2024-02",
-   "origin": "research-2026-10-26",
-   "photos": [
-    {
-     "src": "img/places/brussel/pepite/1-food-1600.webp",
-     "thumb": "img/places/brussel/pepite/1-food-800.webp",
-     "srcset": "img/places/brussel/pepite/1-food-800.webp 800w, img/places/brussel/pepite/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Pépite: food",
-     "credit": "@pepite.patisserie on Instagram",
-     "credit_url": "https://www.instagram.com/pepite.patisserie/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/pepite/2-food-1600.webp",
-     "thumb": "img/places/brussel/pepite/2-food-800.webp",
-     "srcset": "img/places/brussel/pepite/2-food-800.webp 800w, img/places/brussel/pepite/2-food-1600.webp 1600w",
-     "w": 2560,
-     "h": 1707,
-     "category": "food",
-     "alt": "Pépite: food",
-     "credit": "pepitepatisserie.com",
-     "credit_url": "https://pepitepatisserie.com/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-26"
   },
   {
    "id": "frank",
@@ -14261,37 +12217,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/5787074314",
-   "photos": [
-    {
-     "src": "img/places/brussel/creme/1-food-1600.webp",
-     "thumb": "img/places/brussel/creme/1-food-800.webp",
-     "srcset": "img/places/brussel/creme/1-food-800.webp 800w, img/places/brussel/creme/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1425,
-     "category": "food",
-     "alt": "Crème: food",
-     "credit": "@cremebrussels on Instagram",
-     "credit_url": "https://www.instagram.com/cremebrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/creme/2-food-1600.webp",
-     "thumb": "img/places/brussel/creme/2-food-800.webp",
-     "srcset": "img/places/brussel/creme/2-food-800.webp 800w, img/places/brussel/creme/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Crème: food",
-     "credit": "@cremebrussels on Instagram",
-     "credit_url": "https://www.instagram.com/cremebrussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/5787074314"
   },
   {
    "id": "damn-good-cafe",
@@ -14465,37 +12391,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/11967448169",
-   "photos": [
-    {
-     "src": "img/places/brussel/kosto/1-interior-1600.webp",
-     "thumb": "img/places/brussel/kosto/1-interior-800.webp",
-     "srcset": "img/places/brussel/kosto/1-interior-800.webp 800w, img/places/brussel/kosto/1-interior-1600.webp 1600w",
-     "w": 900,
-     "h": 961,
-     "category": "interior",
-     "alt": "Kosto: interior",
-     "credit": "kosto.cafe",
-     "credit_url": "https://www.kosto.cafe/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/kosto/2-drink-1600.webp",
-     "thumb": "img/places/brussel/kosto/2-drink-800.webp",
-     "srcset": "img/places/brussel/kosto/2-drink-800.webp 800w, img/places/brussel/kosto/2-drink-1600.webp 1600w",
-     "w": 901,
-     "h": 960,
-     "category": "food",
-     "alt": "Kosto: drink",
-     "credit": "kosto.cafe",
-     "credit_url": "https://www.kosto.cafe/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/11967448169"
   },
   {
    "id": "koul",
@@ -14667,37 +12563,7 @@
    "category": "cafe",
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/brussel/seven/1-food-1600.webp",
-     "thumb": "img/places/brussel/seven/1-food-800.webp",
-     "srcset": "img/places/brussel/seven/1-food-800.webp 800w, img/places/brussel/seven/1-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "Seven: food",
-     "credit": "@seven.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/seven.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/seven/2-food-1600.webp",
-     "thumb": "img/places/brussel/seven/2-food-800.webp",
-     "srcset": "img/places/brussel/seven/2-food-800.webp 800w, img/places/brussel/seven/2-food-1600.webp 1600w",
-     "w": 1080,
-     "h": 1437,
-     "category": "food",
-     "alt": "Seven: food",
-     "credit": "@seven.brussels on Instagram",
-     "credit_url": "https://www.instagram.com/seven.brussels/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "pinotte",
@@ -14873,37 +12739,7 @@
    "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/6502305994",
-   "photos": [
-    {
-     "src": "img/places/brussel/bisous/1-interior-1600.webp",
-     "thumb": "img/places/brussel/bisous/1-interior-800.webp",
-     "srcset": "img/places/brussel/bisous/1-interior-800.webp 800w, img/places/brussel/bisous/1-interior-1600.webp 1600w",
-     "w": 1024,
-     "h": 683,
-     "category": "interior",
-     "alt": "Bisou: interior",
-     "credit": "bisoubrussels.be",
-     "credit_url": "https://www.bisoubrussels.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/bisous/2-food-1600.webp",
-     "thumb": "img/places/brussel/bisous/2-food-800.webp",
-     "srcset": "img/places/brussel/bisous/2-food-800.webp 800w, img/places/brussel/bisous/2-food-1600.webp 1600w",
-     "w": 850,
-     "h": 900,
-     "category": "food",
-     "alt": "Bisou: food",
-     "credit": "bisoubrussels.be",
-     "credit_url": "https://www.bisoubrussels.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/6502305994"
   },
   {
    "id": "le-dillens",

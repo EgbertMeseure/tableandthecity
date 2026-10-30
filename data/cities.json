@@ -1,313 +1,320 @@
 {
- "brand": {
-  "name": "Table and the City",
-  "domain": "tableandthecity.com",
-  "family": [
-   {
-    "name": "Arts and the City",
-    "domain": "artsandthecity.com",
-    "status": "coming soon"
-   }
-  ]
- },
- "defaultCity": "gent",
- "countries": [
-  {
-   "code": "BE",
-   "name": "Belgium",
-   "cities": [
-    {
-     "id": "gent",
-     "name": "Ghent",
-     "nameNl": "Gent",
-     "nameEn": "Ghent",
-     "active": true,
-     "data": "data/cities/gent.json",
-     "center": [
-      51.051,
-      3.725
-     ],
-     "zoom": 13,
-     "upcoming": "data/cities/gent-upcoming.json",
-     "osm": "data/cities/gent-osm.json",
-     "tags": "data/cities/gent-tags.json",
-     "livemusic": "data/cities/gent-livemusic.json",
-     "veggie": "data/cities/gent-veggie.json",
-     "heroes": "data/cities/gent-heroes.json",
-     "breakfast": "data/cities/gent-breakfast.json",
-     "instagram": "data/cities/gent-instagram.json",
-     "ratings": "data/cities/gent-ratings.json",
-     "images": {
-      "hero": "img/cities/gent/hero-gravensteen",
-      "cards": {
-       "new": "plated",
-       "breakfast": "coffee",
-       "restaurants": "finedining",
-       "cafes_bars": "bar",
-       "coffee": "coffee",
-       "bakeries": "bakery",
-       "cuisine": "casual",
-       "events": "events"
+  "brand": {
+    "name": "Table and the City",
+    "domain": "tableandthecity.com",
+    "family": [
+      {
+        "name": "Arts and the City",
+        "domain": "artsandthecity.com",
+        "status": "coming soon"
       }
-     },
-     "photos": "data/cities/gent-photos.json"
-    },
-    {
-     "id": "antwerpen",
-     "name": "Antwerp",
-     "nameNl": "Antwerpen",
-     "nameEn": "Antwerp",
-     "active": true,
-     "data": "data/cities/antwerpen.json",
-     "center": [
-      51.2125,
-      4.4125
-     ],
-     "zoom": 13,
-     "upcoming": "data/cities/antwerpen-upcoming.json",
-     "osm": "data/cities/antwerpen-osm.json",
-     "tags": "data/cities/antwerpen-tags.json",
-     "livemusic": "data/cities/antwerpen-livemusic.json",
-     "ratings": "data/cities/antwerpen-ratings.json",
-     "area": "Central Antwerp: the districts Antwerpen, Berchem (incl. Zurenborg) and Borgerhout",
-     "description": "Table and the City: a curated, filterable guide to Antwerp's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
-     "about": "<span id=\"about-city\">Antwerp</span> is the second city in the guide. The base list covers central Antwerp (the districts Antwerpen, Berchem with Zurenborg, and Borgerhout) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries or student cafés, no generic cafés or coffee houses, artisan bakeries only. Ratings come from Google; permanently closed places are left out. On top of that come 136 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
-     "veggie": "data/cities/antwerpen-veggie.json",
-     "heroes": "data/cities/antwerpen-heroes.json",
-     "breakfast": "data/cities/antwerpen-breakfast.json",
-     "images": {
-      "hero": "img/cities/antwerpen/hero-centraal",
-      "cards": {
-       "new": "cities/antwerpen/new",
-       "breakfast": "cities/antwerpen/breakfast",
-       "restaurants": "cities/antwerpen/restaurants",
-       "cafes_bars": "cities/antwerpen/cafes_bars",
-       "coffee": "cities/antwerpen/coffee",
-       "bakeries": "cities/antwerpen/bakeries",
-       "cuisine": "cities/antwerpen/cuisine",
-       "events": "cities/antwerpen/events"
-      },
-      "breakfastPlacePhoto": false
-     },
-     "photos": "data/cities/antwerpen-photos.json"
-    },
-    {
-     "id": "brussel",
-     "name": "Brussels",
-     "nameEn": "Brussels",
-     "nameNl": "Brussel",
-     "nameFr": "Bruxelles",
-     "active": true,
-     "data": "data/cities/brussel.json",
-     "center": [
-      50.844,
-      4.356
-     ],
-     "zoom": 13,
-     "upcoming": "data/cities/brussel-upcoming.json",
-     "osm": "data/cities/brussel-osm.json",
-     "tags": "data/cities/brussel-tags.json",
-     "livemusic": "data/cities/brussel-livemusic.json",
-     "ratings": "data/cities/brussel-ratings.json",
-     "area": "Central Brussels: the City of Brussels (incl. Laeken and the European Quarter), Ixelles and Saint-Gilles",
-     "description": "Table and the City: a curated, filterable guide to Brussels' best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
-     "about": "<span id=\"about-city\">Brussels</span>: the base list covers the City of Brussels (with Laeken and the European Quarter), Ixelles and Saint-Gilles and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. On top of that come 138 hand-picked places from across the Brussels region from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
-     "images": {
-      "hero": "img/cities/brussel/hero-grand-place",
-      "cards": {
-       "new": "cities/brussel/new",
-       "breakfast": "cities/brussel/breakfast",
-       "restaurants": "cities/brussel/restaurants",
-       "cafes_bars": "cities/brussel/cafes_bars",
-       "coffee": "cities/brussel/coffee",
-       "bakeries": "cities/brussel/bakeries",
-       "cuisine": "cities/brussel/cuisine",
-       "events": "cities/brussel/events"
-      },
-      "breakfastPlacePhoto": false
-     },
-     "veggie": "data/cities/brussel-veggie.json",
-     "breakfast": "data/cities/brussel-breakfast.json"
-    },
-    {
-     "id": "brugge",
-     "name": "Bruges",
-     "nameNl": "Brugge",
-     "nameEn": "Bruges",
-     "active": true,
-     "data": "data/cities/brugge.json",
-     "center": [
-      51.2085,
-      3.2245
-     ],
-     "zoom": 14,
-     "upcoming": "data/cities/brugge-upcoming.json",
-     "osm": "data/cities/brugge-osm.json",
-     "tags": "data/cities/brugge-tags.json",
-     "livemusic": "data/cities/brugge-livemusic.json",
-     "ratings": "data/cities/brugge-ratings.json",
-     "area": "Bruges: the whole municipality, from the historic centre to Sint-Andries, Sint-Kruis, Assebroek and Zeebrugge",
-     "description": "Table and the City: a curated, filterable guide to Bruges's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
-     "about": "<span id=\"about-city\">Bruges</span>: the base list covers the whole municipality (the historic centre and the surrounding boroughs, Zeebrugge included) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. On top of that come 106 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
-     "images": {
-      "hero": "img/cities/brugge/hero-rozenhoedkaai",
-      "cards": {
-       "new": "cities/brugge/new",
-       "breakfast": "cities/brugge/breakfast",
-       "restaurants": "cities/brugge/restaurants",
-       "cafes_bars": "cities/brugge/cafes_bars",
-       "coffee": "cities/brugge/coffee",
-       "bakeries": "cities/brugge/bakeries",
-       "cuisine": "cities/brugge/cuisine",
-       "events": "cities/brugge/events"
-      },
-      "breakfastPlacePhoto": false
-     },
-     "veggie": "data/cities/brugge-veggie.json",
-     "breakfast": "data/cities/brugge-breakfast.json"
-    },
-    {
-     "id": "oostende",
-     "name": "Ostend",
-     "nameEn": "Ostend",
-     "nameNl": "Oostende",
-     "active": true,
-     "data": "data/cities/oostende.json",
-     "center": [
-      51.23,
-      2.915
-     ],
-     "zoom": 14,
-     "upcoming": "data/cities/oostende-upcoming.json",
-     "osm": "data/cities/oostende-osm.json",
-     "tags": "data/cities/oostende-tags.json",
-     "livemusic": "data/cities/oostende-livemusic.json",
-     "ratings": "data/cities/oostende-ratings.json",
-     "area": "Ostend: the whole municipality, from the centre and the seafront to Mariakerke, Raversijde and Stene",
-     "description": "Table and the City: a curated, filterable guide to Ostend's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
-     "about": "<span id=\"about-city\">Ostend</span>: the base list covers the whole municipality (the centre, the seafront and the surrounding boroughs) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. On top of that come 68 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
-     "images": {
-      "hero": "img/cities/oostende/hero-mercator",
-      "heroFocus": "12% 50%",
-      "heroCredit": {"title": "Mercator ship at night", "author": "Ward De Ridder", "source": "https://commons.wikimedia.org/wiki/File:Mercator_ship_at_night.jpg", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"},
-      "cards": {
-       "new": "cities/oostende/new",
-       "breakfast": "cities/oostende/breakfast",
-       "restaurants": "cities/oostende/restaurants",
-       "cafes_bars": "cities/oostende/cafes_bars",
-       "coffee": "cities/oostende/coffee",
-       "bakeries": "cities/oostende/bakeries",
-       "cuisine": "cities/oostende/cuisine",
-       "events": "cities/oostende/events"
-      },
-      "breakfastPlacePhoto": false
-     },
-     "veggie": "data/cities/oostende-veggie.json",
-     "breakfast": "data/cities/oostende-breakfast.json"
-    }
-   ],
-   "id": "be",
-   "active": true
+    ]
   },
-  {
-   "id": "nl",
-   "code": "NL",
-   "name": "Netherlands",
-   "active": false,
-   "cities": [
+  "defaultCity": "gent",
+  "countries": [
     {
-     "id": "amsterdam",
-     "name": "Amsterdam",
-     "active": false
+      "code": "BE",
+      "name": "Belgium",
+      "cities": [
+        {
+          "id": "gent",
+          "name": "Ghent",
+          "nameNl": "Gent",
+          "nameEn": "Ghent",
+          "active": true,
+          "data": "data/cities/gent.json",
+          "center": [
+            51.051,
+            3.725
+          ],
+          "zoom": 13,
+          "upcoming": "data/cities/gent-upcoming.json",
+          "osm": "data/cities/gent-osm.json",
+          "tags": "data/cities/gent-tags.json",
+          "livemusic": "data/cities/gent-livemusic.json",
+          "veggie": "data/cities/gent-veggie.json",
+          "heroes": "data/cities/gent-heroes.json",
+          "breakfast": "data/cities/gent-breakfast.json",
+          "instagram": "data/cities/gent-instagram.json",
+          "ratings": "data/cities/gent-ratings.json",
+          "images": {
+            "hero": "img/cities/gent/hero-gravensteen",
+            "cards": {
+              "new": "plated",
+              "breakfast": "coffee",
+              "restaurants": "finedining",
+              "cafes_bars": "bar",
+              "coffee": "coffee",
+              "bakeries": "bakery",
+              "cuisine": "casual",
+              "events": "events"
+            }
+          },
+          "photos": "data/cities/gent-photos.json"
+        },
+        {
+          "id": "antwerpen",
+          "name": "Antwerp",
+          "nameNl": "Antwerpen",
+          "nameEn": "Antwerp",
+          "active": true,
+          "data": "data/cities/antwerpen.json",
+          "center": [
+            51.2125,
+            4.4125
+          ],
+          "zoom": 13,
+          "upcoming": "data/cities/antwerpen-upcoming.json",
+          "osm": "data/cities/antwerpen-osm.json",
+          "tags": "data/cities/antwerpen-tags.json",
+          "livemusic": "data/cities/antwerpen-livemusic.json",
+          "ratings": "data/cities/antwerpen-ratings.json",
+          "area": "Central Antwerp: the districts Antwerpen, Berchem (incl. Zurenborg) and Borgerhout",
+          "description": "Table and the City: a curated, filterable guide to Antwerp's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+          "about": "<span id=\"about-city\">Antwerp</span> is the second city in the guide. The base list covers central Antwerp (the districts Antwerpen, Berchem with Zurenborg, and Borgerhout) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries or student cafés, no generic cafés or coffee houses, artisan bakeries only. Ratings come from Google; permanently closed places are left out. On top of that come 136 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+          "veggie": "data/cities/antwerpen-veggie.json",
+          "heroes": "data/cities/antwerpen-heroes.json",
+          "breakfast": "data/cities/antwerpen-breakfast.json",
+          "images": {
+            "hero": "img/cities/antwerpen/hero-centraal",
+            "cards": {
+              "new": "cities/antwerpen/new",
+              "breakfast": "cities/antwerpen/breakfast",
+              "restaurants": "cities/antwerpen/restaurants",
+              "cafes_bars": "cities/antwerpen/cafes_bars",
+              "coffee": "cities/antwerpen/coffee",
+              "bakeries": "cities/antwerpen/bakeries",
+              "cuisine": "cities/antwerpen/cuisine",
+              "events": "cities/antwerpen/events"
+            },
+            "breakfastPlacePhoto": false
+          },
+          "photos": "data/cities/antwerpen-photos.json"
+        },
+        {
+          "id": "brussel",
+          "name": "Brussels",
+          "nameEn": "Brussels",
+          "nameNl": "Brussel",
+          "nameFr": "Bruxelles",
+          "active": true,
+          "data": "data/cities/brussel.json",
+          "center": [
+            50.844,
+            4.356
+          ],
+          "zoom": 13,
+          "upcoming": "data/cities/brussel-upcoming.json",
+          "osm": "data/cities/brussel-osm.json",
+          "tags": "data/cities/brussel-tags.json",
+          "livemusic": "data/cities/brussel-livemusic.json",
+          "ratings": "data/cities/brussel-ratings.json",
+          "area": "Central Brussels: the City of Brussels (incl. Laeken and the European Quarter), Ixelles and Saint-Gilles",
+          "description": "Table and the City: a curated, filterable guide to Brussels' best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+          "about": "<span id=\"about-city\">Brussels</span>: the base list covers the City of Brussels (with Laeken and the European Quarter), Ixelles and Saint-Gilles and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. On top of that come 138 hand-picked places from across the Brussels region from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+          "images": {
+            "hero": "img/cities/brussel/hero-grand-place",
+            "cards": {
+              "new": "cities/brussel/new",
+              "breakfast": "cities/brussel/breakfast",
+              "restaurants": "cities/brussel/restaurants",
+              "cafes_bars": "cities/brussel/cafes_bars",
+              "coffee": "cities/brussel/coffee",
+              "bakeries": "cities/brussel/bakeries",
+              "cuisine": "cities/brussel/cuisine",
+              "events": "cities/brussel/events"
+            },
+            "breakfastPlacePhoto": false
+          },
+          "veggie": "data/cities/brussel-veggie.json",
+          "breakfast": "data/cities/brussel-breakfast.json",
+          "photos": "data/cities/brussel-photos.json"
+        },
+        {
+          "id": "brugge",
+          "name": "Bruges",
+          "nameNl": "Brugge",
+          "nameEn": "Bruges",
+          "active": true,
+          "data": "data/cities/brugge.json",
+          "center": [
+            51.2085,
+            3.2245
+          ],
+          "zoom": 14,
+          "upcoming": "data/cities/brugge-upcoming.json",
+          "osm": "data/cities/brugge-osm.json",
+          "tags": "data/cities/brugge-tags.json",
+          "livemusic": "data/cities/brugge-livemusic.json",
+          "ratings": "data/cities/brugge-ratings.json",
+          "area": "Bruges: the whole municipality, from the historic centre to Sint-Andries, Sint-Kruis, Assebroek and Zeebrugge",
+          "description": "Table and the City: a curated, filterable guide to Bruges's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+          "about": "<span id=\"about-city\">Bruges</span>: the base list covers the whole municipality (the historic centre and the surrounding boroughs, Zeebrugge included) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. On top of that come 106 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+          "images": {
+            "hero": "img/cities/brugge/hero-rozenhoedkaai",
+            "cards": {
+              "new": "cities/brugge/new",
+              "breakfast": "cities/brugge/breakfast",
+              "restaurants": "cities/brugge/restaurants",
+              "cafes_bars": "cities/brugge/cafes_bars",
+              "coffee": "cities/brugge/coffee",
+              "bakeries": "cities/brugge/bakeries",
+              "cuisine": "cities/brugge/cuisine",
+              "events": "cities/brugge/events"
+            },
+            "breakfastPlacePhoto": false
+          },
+          "veggie": "data/cities/brugge-veggie.json",
+          "breakfast": "data/cities/brugge-breakfast.json"
+        },
+        {
+          "id": "oostende",
+          "name": "Ostend",
+          "nameEn": "Ostend",
+          "nameNl": "Oostende",
+          "active": true,
+          "data": "data/cities/oostende.json",
+          "center": [
+            51.23,
+            2.915
+          ],
+          "zoom": 14,
+          "upcoming": "data/cities/oostende-upcoming.json",
+          "osm": "data/cities/oostende-osm.json",
+          "tags": "data/cities/oostende-tags.json",
+          "livemusic": "data/cities/oostende-livemusic.json",
+          "ratings": "data/cities/oostende-ratings.json",
+          "area": "Ostend: the whole municipality, from the centre and the seafront to Mariakerke, Raversijde and Stene",
+          "description": "Table and the City: a curated, filterable guide to Ostend's best tables: restaurants, cafés & bars, coffee and artisan bakeries, with opening hours and ratings.",
+          "about": "<span id=\"about-city\">Ostend</span>: the base list covers the whole municipality (the centre, the seafront and the surrounding boroughs) and comes from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\" rel=\"noopener\">OpenStreetMap</a>, with the guide’s usual rules: no chains, fast food, friteries, pizza or kebab places, no student cafés, generic cafés or coffee houses, artisan bakeries only. Opening hours come from Google Maps where available, otherwise from OpenStreetMap; permanently closed places are left out. On top of that come 68 hand-picked places from the Michelin Guide, Gault&amp;Millau 2026, local press and the places’ own websites, plus announced openings. Nothing is invented: anything we could not verify is shown as <em>unknown</em>.",
+          "images": {
+            "hero": "img/cities/oostende/hero-mercator",
+            "heroFocus": "12% 50%",
+            "heroCredit": {
+              "title": "Mercator ship at night",
+              "author": "Ward De Ridder",
+              "source": "https://commons.wikimedia.org/wiki/File:Mercator_ship_at_night.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+            },
+            "cards": {
+              "new": "cities/oostende/new",
+              "breakfast": "cities/oostende/breakfast",
+              "restaurants": "cities/oostende/restaurants",
+              "cafes_bars": "cities/oostende/cafes_bars",
+              "coffee": "cities/oostende/coffee",
+              "bakeries": "cities/oostende/bakeries",
+              "cuisine": "cities/oostende/cuisine",
+              "events": "cities/oostende/events"
+            },
+            "breakfastPlacePhoto": false
+          },
+          "veggie": "data/cities/oostende-veggie.json",
+          "breakfast": "data/cities/oostende-breakfast.json"
+        }
+      ],
+      "id": "be",
+      "active": true
     },
     {
-     "id": "rotterdam",
-     "name": "Rotterdam",
-     "active": false
-    }
-   ]
-  },
-  {
-   "id": "fr",
-   "code": "FR",
-   "name": "France",
-   "active": false,
-   "cities": [
-    {
-     "id": "paris",
-     "name": "Paris",
-     "active": false
+      "id": "nl",
+      "code": "NL",
+      "name": "Netherlands",
+      "active": false,
+      "cities": [
+        {
+          "id": "amsterdam",
+          "name": "Amsterdam",
+          "active": false
+        },
+        {
+          "id": "rotterdam",
+          "name": "Rotterdam",
+          "active": false
+        }
+      ]
     },
     {
-     "id": "lyon",
-     "name": "Lyon",
-     "active": false
-    }
-   ]
-  },
-  {
-   "id": "it",
-   "code": "IT",
-   "name": "Italy",
-   "active": false,
-   "cities": [
-    {
-     "id": "milano",
-     "name": "Milano",
-     "active": false
+      "id": "fr",
+      "code": "FR",
+      "name": "France",
+      "active": false,
+      "cities": [
+        {
+          "id": "paris",
+          "name": "Paris",
+          "active": false
+        },
+        {
+          "id": "lyon",
+          "name": "Lyon",
+          "active": false
+        }
+      ]
     },
     {
-     "id": "roma",
-     "name": "Roma",
-     "active": false
-    }
-   ]
-  },
-  {
-   "id": "es",
-   "code": "ES",
-   "name": "Spain",
-   "active": false,
-   "cities": [
-    {
-     "id": "barcelona",
-     "name": "Barcelona",
-     "active": false
+      "id": "it",
+      "code": "IT",
+      "name": "Italy",
+      "active": false,
+      "cities": [
+        {
+          "id": "milano",
+          "name": "Milano",
+          "active": false
+        },
+        {
+          "id": "roma",
+          "name": "Roma",
+          "active": false
+        }
+      ]
     },
     {
-     "id": "madrid",
-     "name": "Madrid",
-     "active": false
-    }
-   ]
-  },
-  {
-   "id": "gb",
-   "code": "GB",
-   "name": "United Kingdom",
-   "active": false,
-   "cities": [
+      "id": "es",
+      "code": "ES",
+      "name": "Spain",
+      "active": false,
+      "cities": [
+        {
+          "id": "barcelona",
+          "name": "Barcelona",
+          "active": false
+        },
+        {
+          "id": "madrid",
+          "name": "Madrid",
+          "active": false
+        }
+      ]
+    },
     {
-     "id": "london",
-     "name": "London",
-     "active": false
-    }
-   ]
-  },
-  {
-   "id": "de",
-   "code": "DE",
-   "name": "Germany",
-   "active": false,
-   "cities": [
+      "id": "gb",
+      "code": "GB",
+      "name": "United Kingdom",
+      "active": false,
+      "cities": [
+        {
+          "id": "london",
+          "name": "London",
+          "active": false
+        }
+      ]
+    },
     {
-     "id": "berlin",
-     "name": "Berlin",
-     "active": false
+      "id": "de",
+      "code": "DE",
+      "name": "Germany",
+      "active": false,
+      "cities": [
+        {
+          "id": "berlin",
+          "name": "Berlin",
+          "active": false
+        }
+      ]
     }
-   ]
-  }
- ],
- "defaultCountry": "be",
- "imagesNote": "Per-city photos: images.hero = base path (<base>-{1000,1600,2400}.webp + <base>-1600.jpg); images.cards = image keys under img/ (<key>-{800,1600,2400}.webp + <key>.jpg) for the 'Choose your table' cards new, breakfast, restaurants, cafes_bars, coffee, bakeries, cuisine, events (missing → Gent's). breakfastPlacePhoto:false = no place photo over the Breakfast & Brunch card. Make the sizes with scripts/make_city_images.py; credit in img/CREDITS.json."
+  ],
+  "defaultCountry": "be",
+  "imagesNote": "Per-city photos: images.hero = base path (<base>-{1000,1600,2400}.webp + <base>-1600.jpg); images.cards = image keys under img/ (<key>-{800,1600,2400}.webp + <key>.jpg) for the 'Choose your table' cards new, breakfast, restaurants, cafes_bars, coffee, bakeries, cuisine, events (missing → Gent's). breakfastPlacePhoto:false = no place photo over the Breakfast & Brunch card. Make the sizes with scripts/make_city_images.py; credit in img/CREDITS.json."
 }
