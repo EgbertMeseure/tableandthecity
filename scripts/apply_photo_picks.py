@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Self-host the eye-checked photo set per place (photo layout 'mix': hero + food row + inside / outside pair), max 5 per place.
   python3 scripts/apply_photo_picks.py <city> <picks.json> [--skip=id,id] [--dry]
-picks.json = {id: [{path, cat food|drink|interior|exterior, staff?, source_type website|instagram|commons, page_url, source_url,
+picks.json = {id: [{path, cat food|drink|interior|exterior, staff?, source_type website|instagram|facebook|tiktok|commons, page_url, source_url,
 author/author_url/license/license_url (commons)}, ...]}; the first is the hero.
 Writes img/places/<city>/<id>/p<k>-{1400,700}.webp (hero) / p<k>-{800,400}.webp (the others) and data/cities/<city>-photos.json places[id] =
 {photos, pick, only: true, layout: 'mix', posts (kept)}. 'only' = this set replaces the place's older photos (also dropped from <city>.json)."""
@@ -54,6 +54,11 @@ for pid, picks in PICKS.items():
         what = 'staff at work' if x.get('staff') else dict(food='food', drink='drinks', interior='the interior', exterior='the outside')[x['cat']]
         cred = {'credit': f'@{handle} on Instagram' if handle else (host or r_name), 'credit_url': page, 'license': "the place's own photo",
                 'source': 'own_instagram' if ig else 'own_website'}
+        if st in ('facebook', 'tiktok'):   # the place's own public Facebook page / TikTok profile (og:image, no login)
+            net = 'Facebook' if st == 'facebook' else 'TikTok'
+            who = (re.search(r'tiktok\.com/@([A-Za-z0-9_.]+)', page) or [None, None])[1] if st == 'tiktok' else None
+            cred = {'credit': f'@{who} on TikTok' if who else f'{r_name} on {net}', 'credit_url': page, 'license': "the place's own photo",
+                    'source': 'own_' + st}
         if st == 'commons':
             cred = {'credit': x.get('author') or 'Wikimedia Commons', 'credit_url': x.get('author_url') or page, 'license': x.get('license') or '',
                     **({'license_url': x['license_url']} if x.get('license_url') else {}), 'source_url': page, 'source': 'commons'}
