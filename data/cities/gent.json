@@ -15332,843 +15332,978 @@
    "restaurant": "(all)",
    "field": "dataset",
    "change": "Initial import: 52 addresses from the Michelin Guide 2026, Gault&Millau 2026 and recent press; each restaurant’s own website checked.",
-   "source": "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurants"
+   "source": "https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurants",
+   "public": "First version of the guide: 52 addresses from the Michelin Guide 2026, Gault&Millau 2026 and local press, each checked on its own website."
   },
   {
    "date": "2026-10-19",
    "restaurant": "DOOR73",
    "field": "status",
    "change": "Not included: permanently closed (last service end of July 2026); team moved to Le Chouchou.",
-   "source": "https://www.hln.be/gent/marcelo-ballardin-en-dominik-dhooge-sluiten-na-acht-jaar-door73-in-gent-een-mooi-verhaal-maar-het-is-tijd-voor-een-nieuw-concept~a48dd0cd/"
+   "source": "https://www.hln.be/gent/marcelo-ballardin-en-dominik-dhooge-sluiten-na-acht-jaar-door73-in-gent-een-mooi-verhaal-maar-het-is-tijd-voor-een-nieuw-concept~a48dd0cd/",
+   "public": "Not included: closed permanently."
   },
   {
    "date": "2026-10-19",
    "restaurant": "Souvenir",
    "field": "status",
    "change": "Not included: permanently closed after summer 2025 (team now runs Lubbi).",
-   "source": "https://souvenir.gent/"
+   "source": "https://souvenir.gent/",
+   "public": "Not included: closed permanently."
   },
   {
    "date": "2026-10-19",
    "restaurant": "Le Chouchou",
    "field": "isNew",
    "change": "New (opened early August 2026) – Burgstraat 20.",
-   "source": "https://www.hln.be/gent/net-open-met-le-chouchou-starten-marcelo-ballardin-en-dominik-dhooge-een-nieuw-avontuur-we-hopen-een-echt-buurtrestaurant-te-worden~a5c850d0/"
+   "source": "https://www.hln.be/gent/net-open-met-le-chouchou-starten-marcelo-ballardin-en-dominik-dhooge-een-nieuw-avontuur-we-hopen-een-echt-buurtrestaurant-te-worden~a5c850d0/",
+   "public": "Added: new opening (August 2026)."
   },
   {
    "date": "2026-10-19",
    "restaurant": "Lubbi",
    "field": "status",
    "change": "Temporarily closed due to illness (notice on own website).",
-   "source": "https://lubbi.be/"
+   "source": "https://lubbi.be/",
+   "public": "Temporarily closed."
   },
   {
    "date": "2026-10-19",
    "restaurant": "DEBRA",
    "field": "address",
    "change": "Address conflict: G&M reports a move to Zuidstationstraat 14; own website and Michelin list Lange Steenstraat 10 (used).",
-   "source": "https://debragent.be/"
+   "source": "https://debragent.be/",
+   "public": "Address checked."
   },
   {
    "date": "2026-10-19",
    "restaurant": "Boris & Maurice",
    "field": "currentMenuNote",
    "change": "New menu October–November 2026 (13/10–20/11).",
-   "source": "https://boris-maurice.be/menu/"
+   "source": "https://boris-maurice.be/menu/",
+   "public": "New menu for October–November 2026."
   },
   {
    "date": "2026-10-19",
    "restaurant": "Talloor d'Or",
    "field": "currentMenuNote",
    "change": "Weekly lunch 20–23/10/2026 and Chef's Choice dinner 16/10–20/11/2026 published.",
-   "source": "https://talloordor.be/menu"
+   "source": "https://talloordor.be/menu",
+   "public": "Current lunch and dinner menus added."
   },
   {
    "date": "2026-10-19",
    "restaurant": "(all)",
    "field": "events",
    "change": "Archived 9 past or undated event(s).",
-   "source": "scripts/prune_events.py"
+   "source": "scripts/prune_events.py",
+   "public": "Past events removed."
   },
   {
    "date": "2026-10-20",
    "restaurant": "A Food Affair",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://afoodaffair.be/contact/"
+   "source": "https://afoodaffair.be/contact/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Afsnis",
    "change": "Research update: openMonday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/afsnis"
+   "source": "https://visit.gent.be/nl/eten-drinken/afsnis",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Alberte",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://alberte-gent.be"
+   "source": "https://alberte-gent.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Arbane",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://arbane.be"
+   "source": "https://arbane.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "ARNO ristorante",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://arno-ristorante.be/contact/"
+   "source": "https://arno-ristorante.be/contact/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Bakker Klaas (Wintercircus)",
    "change": "Research update: seating",
-   "source": "https://www.bakkerklaas.be/"
+   "source": "https://www.bakkerklaas.be/",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Baptist",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://www.baptist-wondelgem.be/nl/contact"
+   "source": "https://www.baptist-wondelgem.be/nl/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Bar Bidon",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/bar-bidon"
+   "source": "https://visit.gent.be/nl/eten-drinken/bar-bidon",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Bask",
    "change": "Research update: openMonday, openSunday, opening hours, vegan, veggie",
-   "source": "https://bask.be/praktisch"
+   "source": "https://bask.be/praktisch",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Bianca",
    "change": "Research update: openMonday, opening hours, price level, website",
-   "source": "https://www.biancagent.be/"
+   "source": "https://www.biancagent.be/",
+   "public": "Opening hours, price level, website updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Bistro Bastien",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://bistrobastien.be"
+   "source": "https://bistrobastien.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Bistro Chó",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://bistrocho.be/contact"
+   "source": "https://bistrocho.be/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Boris & Maurice",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://boris-maurice.be/info/"
+   "source": "https://boris-maurice.be/info/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Café Albatros",
    "change": "Research update: foodServed, openMonday, openSunday, opening hours, website",
-   "source": "https://cafealbatros.be/contact"
+   "source": "https://cafealbatros.be/contact",
+   "public": "Opening hours, website, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Café Copines",
    "change": "Research update: opening hours",
-   "source": "https://www.cafecopines.be/"
+   "source": "https://www.cafecopines.be/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Café Den Turk",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/cafe-den-turk"
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-den-turk",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Café Gitane",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/cafe-gitane"
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Cafe Recup",
    "change": "Research update: kidsWelcome, terrace, wheelchair",
-   "source": "https://www.caferecup.eu/faq"
+   "source": "https://www.caferecup.eu/faq",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Café Romain",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/cafe-romain"
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Café Ventura",
    "change": "Research update: foodServed, openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/cafe-ventura"
+   "source": "https://visit.gent.be/nl/eten-drinken/cafe-ventura",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Charlatan",
    "change": "Research update: openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/charlatan"
+   "source": "https://visit.gent.be/nl/eten-drinken/charlatan",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Commotie",
    "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
-   "source": "https://commotiegent.be/contact"
+   "source": "https://commotiegent.be/contact",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Dapper.",
    "change": "Research update: openMonday, openSunday, opening hours, veggie",
-   "source": "https://restaurantdapper.com/contact"
+   "source": "https://restaurantdapper.com/contact",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "De Geus van Gent",
    "change": "Research update: openMonday, openSunday, opening hours, terrace",
-   "source": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent"
+   "source": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "De Rave",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://restaurantderave.be/contact"
+   "source": "https://restaurantderave.be/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "DEBRA",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://debragent.be"
+   "source": "https://debragent.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "één twee vijf",
    "change": "Research update: openMonday, openSunday, opening hours, veggie",
-   "source": "https://eentweevijf.be"
+   "source": "https://eentweevijf.be",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Elders",
    "change": "Research update: openMonday, openSunday, opening hours, terrace",
-   "source": "https://elders.gent"
+   "source": "https://elders.gent",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Fari",
    "change": "Research update: openMonday, opening hours, website",
-   "source": "https://www.farigent.com/"
+   "source": "https://www.farigent.com/",
+   "public": "Opening hours, website updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Ferri",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/ferri"
+   "source": "https://visit.gent.be/nl/eten-drinken/ferri",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Fine N Fast",
    "change": "Research update: openMonday, opening hours",
-   "source": "https://finenfast.be/contact/"
+   "source": "https://finenfast.be/contact/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Fou d'O",
    "change": "Research update: glutenFree, openMonday, openSunday, opening hours, price level",
-   "source": "https://foudo.be/contact/"
+   "source": "https://foudo.be/contact/",
+   "public": "Opening hours, price level, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Frankies",
    "change": "Research update: openMonday, opening hours, website",
-   "source": "https://www.frankiesgent.be/en/find-us"
+   "source": "https://www.frankiesgent.be/en/find-us",
+   "public": "Opening hours, website updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Full Circle Coffee",
    "change": "Research update: glutenFree, seating, wifi",
-   "source": "https://www.fullcircleghent.com/faq"
+   "source": "https://www.fullcircleghent.com/faq",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Gillis",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://gillisgent.be"
+   "source": "https://gillisgent.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Goya",
    "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
-   "source": "https://www.goyacoffee.be/contact"
+   "source": "https://www.goyacoffee.be/contact",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Bakkerij Himschoot",
    "change": "Research update: seating",
-   "source": "https://www.bakkerijhimschoot.be/"
+   "source": "https://www.bakkerijhimschoot.be/",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Il Mezzogiorno",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://www.ilmezzogiorno.be/info/"
+   "source": "https://www.ilmezzogiorno.be/info/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Jour de Fête",
    "change": "Research update: openMonday, openSunday, opening hours, terrace",
-   "source": "https://visit.gent.be/nl/eten-drinken/jour-de-fete"
+   "source": "https://visit.gent.be/nl/eten-drinken/jour-de-fete",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Julie's House",
    "change": "Research update: openMonday, openSunday, opening hours, seating",
-   "source": "https://visit.gent.be/nl/eten-drinken/julies-house"
+   "source": "https://visit.gent.be/nl/eten-drinken/julies-house",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Kaffee Krevet",
    "change": "Research update: openMonday, opening hours, website",
-   "source": "https://www.krevet.be/"
+   "source": "https://www.krevet.be/",
+   "public": "Opening hours, website updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Karel de Stoute",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://restkareldestoute.be/contact"
+   "source": "https://restkareldestoute.be/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Kin Khao - Thai Eatery",
    "change": "Research update: openMonday, openSunday, opening hours, price level",
-   "source": "https://www.kinkhao.be/gent/menu/"
+   "source": "https://www.kinkhao.be/gent/menu/",
+   "public": "Opening hours, price level updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Kinky Star",
    "change": "Research update: terrace",
-   "source": "https://www.kinkystar.com/nl/about"
+   "source": "https://www.kinkystar.com/nl/about",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Klaar",
    "change": "Research update: openMonday, openSunday, opening hours, price level",
-   "source": "https://klaargent.be"
+   "source": "https://klaargent.be",
+   "public": "Opening hours, price level updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Koffeine",
    "change": "Research update: openMonday, openSunday, opening hours, seating",
-   "source": "https://visit.gent.be/nl/eten-drinken/koffeine"
+   "source": "https://visit.gent.be/nl/eten-drinken/koffeine",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Kruidtuin",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://kruidtuingent.be"
+   "source": "https://kruidtuingent.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Le Baan Thaï",
    "change": "Research update: openMonday, openSunday, opening hours, veggie",
-   "source": "https://www.lebaanthai.be/nl/contact"
+   "source": "https://www.lebaanthai.be/nl/contact",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Le Chouchou",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://lechouchou.be/contact/"
+   "source": "https://lechouchou.be/contact/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Le Jeu est Jambon",
    "change": "Research update: openMonday, openSunday, opening hours, price level, terrace",
-   "source": "https://www.lejeujambon.be/"
+   "source": "https://www.lejeujambon.be/",
+   "public": "Opening hours, price level, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "LOF",
    "change": "Research update: openMonday, opening hours",
-   "source": "https://lofrestaurant.com"
+   "source": "https://lofrestaurant.com",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Lubbi",
    "change": "Research update: openMonday, openSunday, opening hours, terrace, temporarily closed (illness)",
-   "source": "https://lubbi.be/"
+   "source": "https://lubbi.be/",
+   "public": "Opening hours updated; temporarily closed."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Lys d'Or",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://www.lysdor.be/nl/contact"
+   "source": "https://www.lysdor.be/nl/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Madam Bakster",
    "change": "Research update: seating",
-   "source": "https://www.madambakster.be/reserveren/"
+   "source": "https://www.madambakster.be/reserveren/",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Mémé Gusta",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://www.meme-gusta.be/nl/contact"
+   "source": "https://www.meme-gusta.be/nl/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Midi",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://brasseriemidi.be"
+   "source": "https://brasseriemidi.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Mokabon",
    "change": "Research update: seating",
-   "source": "https://visit.gent.be/nl/eten-drinken/mokabon"
+   "source": "https://visit.gent.be/nl/eten-drinken/mokabon",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "MORGEN bakkerij",
    "change": "Research update: wheelchair",
-   "source": "https://morgen-bakkerij.be/pages/over-ons"
+   "source": "https://morgen-bakkerij.be/pages/over-ons",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Moscou by Danny Horseele",
    "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
-   "source": "https://www.restaurantmoscou.be/contact"
+   "source": "https://www.restaurantmoscou.be/contact",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Nonam",
    "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
-   "source": "https://nonam.be/contact-us/"
+   "source": "https://nonam.be/contact-us/",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "OAK",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://oakgent.be"
+   "source": "https://oakgent.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Otium Cucina Italiana",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://otium.gent/contact"
+   "source": "https://otium.gent/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Patrick Foley's Irish Pub",
    "change": "Research update: price level",
-   "source": "https://www.foleys.be/"
+   "source": "https://www.foleys.be/",
+   "public": "Price level updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Patyntje",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://www.patyntje.com/contact"
+   "source": "https://www.patyntje.com/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Peaberry Coffeebar",
    "change": "Research update: seating, vegan, wifi",
-   "source": "https://peaberrycoffeebar.be/"
+   "source": "https://peaberrycoffeebar.be/",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Porter House",
    "change": "Research update: foodServed",
-   "source": "https://www.porterhousegent.be/"
+   "source": "https://www.porterhousegent.be/",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Publiek",
    "change": "Research update: openMonday, openSunday, opening hours, wheelchair",
-   "source": "https://publiekgent.be/nl/reserveren"
+   "source": "https://publiekgent.be/nl/reserveren",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Pulpo",
    "change": "Research update: openMonday, openSunday, opening hours, price level, terrace, vegan, veggie",
-   "source": "https://restopulpo.com/pulpolatem/contactlatem"
+   "source": "https://restopulpo.com/pulpolatem/contactlatem",
+   "public": "Opening hours, price level, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Raaf",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://raafgent.be"
+   "source": "https://raafgent.be",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Rizoom",
    "change": "Research update: glutenFree, openMonday, openSunday, opening hours",
-   "source": "https://www.rizoomgent.be/contact"
+   "source": "https://www.rizoomgent.be/contact",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Sākas",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://sakaswintercircusbe.eu/contact"
+   "source": "https://sakaswintercircusbe.eu/contact",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Sensum",
    "change": "Research update: openMonday, openSunday, opening hours, terrace",
-   "source": "https://sensumgent.be/contact/"
+   "source": "https://sensumgent.be/contact/",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "SMØRBRØD",
    "change": "Research update: seating",
-   "source": "https://smorbrod.gent/"
+   "source": "https://smorbrod.gent/",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Steendam 66",
    "change": "Research update: openMonday, openSunday, opening hours, price level, terrace",
-   "source": "https://steendam66.be"
+   "source": "https://steendam66.be",
+   "public": "Opening hours, price level, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "'t Galgenhuisje",
    "change": "Research update: openMonday, openSunday, opening hours, terrace",
-   "source": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje"
+   "source": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Taberna Bask",
    "change": "Research update: kidsWelcome, openMonday, opening hours, vegan, veggie",
-   "source": "https://tabernabask.be/faq"
+   "source": "https://tabernabask.be/faq",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Talloor d'Or",
    "change": "Research update: openMonday, openSunday, opening hours, terrace",
-   "source": "https://talloordor.be/contact"
+   "source": "https://talloordor.be/contact",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "The Celtic Towers",
    "change": "Research update: liveMusic, openMonday, openSunday, opening hours, price level",
-   "source": "https://celtictowers.be/contact/"
+   "source": "https://celtictowers.be/contact/",
+   "public": "Opening hours, price level, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Trattoria della mamma",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://trattoriadellamamma.be/reserveer/"
+   "source": "https://trattoriadellamamma.be/reserveer/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Tribune",
    "change": "Research update: openMonday, openSunday, opening hours, terrace",
-   "source": "https://tribunegent.be"
+   "source": "https://tribunegent.be",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Trollekelder",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/trollekelder"
+   "source": "https://visit.gent.be/nl/eten-drinken/trollekelder",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Vandekerckhove & Bar",
    "change": "Research update: opening hours, openSunday → unknown (sources conflict)",
-   "source": "https://vandekerckhove1854.be/Contact/"
+   "source": "https://vandekerckhove1854.be/Contact/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Vrijmoed",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://vrijmoed.be/nl/reserveren"
+   "source": "https://vrijmoed.be/nl/reserveren",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Waterhuis aan de Bierkant",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant"
+   "source": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "WAY Specialty Coffee Bakery (Keizerpoort)",
    "change": "Research update: seating, wifi",
-   "source": "https://www.way.gent/pages/faq"
+   "source": "https://www.way.gent/pages/faq",
+   "public": "Features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "WAY Specialty Coffee Roasters (Dok Noord)",
    "change": "Research update: openMonday, openSunday, opening hours, seating, wifi",
-   "source": "https://www.way.gent/pages/faq"
+   "source": "https://www.way.gent/pages/faq",
+   "public": "Opening hours, features updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Yalo",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://www.yalohotel.com/en/faq/"
+   "source": "https://www.yalohotel.com/en/faq/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Yusu",
    "change": "Research update: openMonday, openSunday, opening hours",
-   "source": "https://www.yusu.be/"
+   "source": "https://www.yusu.be/",
+   "public": "Opening hours updated."
   },
   {
    "date": "2026-10-20",
    "restaurant": "Shamrock Irish Bar",
    "change": "Research update: verified as existing (Zuidstationstraat 46; no official website)",
-   "source": ""
+   "source": "",
+   "public": "Details checked."
   },
   {
    "date": "2026-10-20",
    "change": "Cocktail bars: 14 added, 0 updated from research handoff",
-   "source": "gent-cocktailbars-research.json"
+   "source": "gent-cocktailbars-research.json",
+   "public": "Added: 14 cocktail bars."
   },
   {
    "date": "2026-10-20",
    "change": "Removed Bloch (bloch-gent) from Bakeries: the name belongs to the industrial producer Culinor (Destelbergen), sold via Delhaize — not an artisan bakery",
-   "source": "https://www.gondola.be/nl/news/bakkerij-bloch-krijgt-tweede-leven-bij-delhaize"
+   "source": "https://www.gondola.be/nl/news/bakkerij-bloch-krijgt-tweede-leven-bij-delhaize",
+   "public": "Removed Bloch: not a fit for the guide (not an artisan bakery)."
   },
   {
    "date": "2026-10-20",
    "change": "Fourth Wave: website added (fourthwave.be, the own site linking @fourthwave.gent)",
-   "source": "https://fourthwave.be/"
+   "source": "https://fourthwave.be/",
+   "public": "Fourth Wave: website added."
   },
   {
    "date": "2026-10-20",
    "change": "Removed Pallieter (pallieter): student café — the site never shows student / university cafés (excluded permanently in data/never-exclude.json)",
-   "source": "https://www.overpoort-gent.be/lid-overpoort/pallieter/"
+   "source": "https://www.overpoort-gent.be/lid-overpoort/pallieter/",
+   "public": "Removed Pallieter: not a fit for the guide."
   },
   {
    "date": "2026-10-20",
    "change": "Removed LUXX (luxx): student café — the site never shows student / university cafés (excluded permanently in data/never-exclude.json)",
-   "source": "https://www.overpoort-gent.be/lid-overpoort/luxx/"
+   "source": "https://www.overpoort-gent.be/lid-overpoort/luxx/",
+   "public": "Removed LUXX: not a fit for the guide."
   },
   {
    "date": "2026-10-23",
    "restaurant": "Cocktail bars",
    "change": "Opening hours updated from Google Maps (read 2026-10-23): Jigger's, The Cobbler, SOAN, Bar Dada, Limonada, The Mix, Boutique & Boissons, Mexcalli",
-   "source": "Google Maps"
+   "source": "Google Maps",
+   "public": "Opening hours updated: Jigger's, The Cobbler, SOAN, Bar Dada, Limonada, The Mix, Boutique & Boissons, Mexcalli."
   },
   {
    "date": "2026-10-23",
    "restaurant": "Bovary",
    "change": "Temporarily closed (Google Maps)",
-   "source": "Google Maps, 2026-10-23"
+   "source": "Google Maps, 2026-10-23",
+   "public": "Temporarily closed."
   },
   {
    "date": "2026-10-23",
    "restaurant": "Hollywood",
    "change": "Permanently closed (Google Maps), removed",
-   "source": "Google Maps shows Permanently closed, 2026-10-23"
+   "source": "Google Maps shows Permanently closed, 2026-10-23",
+   "public": "Removed: closed permanently."
   },
   {
    "date": "2026-10-25",
    "restaurant": "ARNO ristorante",
    "field": "status",
    "change": "Removed: permanently closed (Google Places lists it as permanently closed, closed 31 August 2026).",
-   "source": "https://www.linkedin.com/posts/arno-ristorante-gent_as-of-31-august-2026-arno-ristorante-has-activity-7503713682724511745-F1vT"
+   "source": "https://www.linkedin.com/posts/arno-ristorante-gent_as-of-31-august-2026-arno-ristorante-has-activity-7503713682724511745-F1vT",
+   "public": "Removed: closed permanently."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Shamrock Irish Bar",
    "field": "status",
    "change": "Removed: permanently closed (Google Places lists it as permanently closed, operating company bankrupt).",
-   "source": "https://busibee.be/en/0699829165-petal"
+   "source": "https://busibee.be/en/0699829165-petal",
+   "public": "Removed: closed permanently."
   },
   {
    "date": "2026-10-25",
    "restaurant": "(OpenStreetMap base list)",
    "field": "status",
    "change": "Removed 44 OSM places that Google Places lists as permanently closed (added to data/osm/closed.json) and 2 duplicates (Sensum Gent = curated Sensum; Hola Food listed twice).",
-   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)",
+   "public": "Removed 44 places that have closed permanently, and 2 duplicates."
   },
   {
    "date": "2026-10-25",
    "restaurant": "De Woestijn",
    "field": "openingDate",
    "change": "Opened early September 2026 (Nieuwsblad, mid-Sept 2026: opened two weeks earlier; company founded 10 Aug 2026).",
-   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/bruine-kroeg-van-sam-36-en-tijl-23-lijkt-vijftig-jaar-oud-maar-is-gloednieuw-het-voelt-als-een-warm-dekentje/161443866.html"
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/bruine-kroeg-van-sam-36-en-tijl-23-lijkt-vijftig-jaar-oud-maar-is-gloednieuw-het-voelt-als-een-warm-dekentje/161443866.html",
+   "public": "Opening date added (September 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Le Jeu est Jambon",
    "field": "opened",
    "change": "Opened 2026-10 (new-openings research, 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-in-le-jeu-est-jambon-in-het-patershol-serveren-quinten-31-en-elizabeth-30-gerechtjes-om-te-delen-herkenbaar-maar-met-een-eigen-stijl~adb19179/"
+   "source": "https://www.hln.be/gent/net-open-in-le-jeu-est-jambon-in-het-patershol-serveren-quinten-31-en-elizabeth-30-gerechtjes-om-te-delen-herkenbaar-maar-met-een-eigen-stijl~adb19179/",
+   "public": "Opening date added (October 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "The Gentle",
    "field": "added",
    "change": "Added (opened 2026-10-03; research 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-dirk-59-en-lode-54-openen-na-pop-up-nu-een-eigen-loungebar-in-de-hoogpoort-mensen-mogen-hier-hun-tijd-nemen-en-blijven-plakken~a297d68e/"
+   "source": "https://www.hln.be/gent/net-open-dirk-59-en-lode-54-openen-na-pop-up-nu-een-eigen-loungebar-in-de-hoogpoort-mensen-mogen-hier-hun-tijd-nemen-en-blijven-plakken~a297d68e/",
+   "public": "Added: new opening (October 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Tshiela",
    "field": "added",
    "change": "Added (opened 2026-10; research 2026-10-25).",
-   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/eva-en-ken-openen-buurtcafe-in-stijl-van-parijse-bistro-onze-steak-tartare-is-een-topper/163305775.html"
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/eva-en-ken-openen-buurtcafe-in-stijl-van-parijse-bistro-onze-steak-tartare-is-een-topper/163305775.html",
+   "public": "Added: new opening (October 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Café Guido",
    "field": "added",
    "change": "Added (opened 2026-09; research 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-ze-deden-het-al-even-tijdens-de-gentse-feesten-maar-nu-openen-sara-25-en-maarten-25-echt-de-deuren-guido-is-onze-roepnaam-voor-elkaar~aa736fef/"
+   "source": "https://www.hln.be/gent/net-open-ze-deden-het-al-even-tijdens-de-gentse-feesten-maar-nu-openen-sara-25-en-maarten-25-echt-de-deuren-guido-is-onze-roepnaam-voor-elkaar~aa736fef/",
+   "public": "Added: new opening (September 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Vicino",
    "field": "added",
    "change": "Added (opened 2026-03; research 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-oreste-40-en-jason-37-openen-samen-wijnbar-vicino-in-gent-hier-blijf-je-een-hele-avond-zitten-en-proef-je-meer-dan-80-wijnen~a1fc3c4c/"
+   "source": "https://www.hln.be/gent/net-open-oreste-40-en-jason-37-openen-samen-wijnbar-vicino-in-gent-hier-blijf-je-een-hele-avond-zitten-en-proef-je-meer-dan-80-wijnen~a1fc3c4c/",
+   "public": "Added: new opening (March 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "The Generous",
    "field": "added",
    "change": "Added (opened 2026-07; research 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-pieter-38-opent-wijnbar-the-generous-op-unieke-historische-site-met-een-algoritme-ontdekken-klanten-hun-perfecte-wijn~a3fc9dfc/"
+   "source": "https://www.hln.be/gent/net-open-pieter-38-opent-wijnbar-the-generous-op-unieke-historische-site-met-een-algoritme-ontdekken-klanten-hun-perfecte-wijn~a3fc9dfc/",
+   "public": "Added: new opening (July 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "La Matta",
    "field": "added",
    "change": "Added (opened 2026-07; research 2026-10-25).",
-   "source": "https://www.hln.be/eten-en-drinken-gent/net-open-jules-steven-en-ahmed-van-t-kanon-zoeken-rust-op-met-nieuwe-gelato-en-wijnbar-la-matta-vernoemd-naar-dulle-griet~adc64c4b/"
+   "source": "https://www.hln.be/eten-en-drinken-gent/net-open-jules-steven-en-ahmed-van-t-kanon-zoeken-rust-op-met-nieuwe-gelato-en-wijnbar-la-matta-vernoemd-naar-dulle-griet~adc64c4b/",
+   "public": "Added: new opening (July 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Bovary",
    "field": "opened",
    "change": "Opened 2026-04 (new-openings research, 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-gastrobar-bovary-zet-deelgerechtjes-en-cocktails-op-de-kaart-in-opulent-decor-samen-genieten-van-aziatische-europese-keuken~aa1a25e4/"
+   "source": "https://www.hln.be/gent/net-open-gastrobar-bovary-zet-deelgerechtjes-en-cocktails-op-de-kaart-in-opulent-decor-samen-genieten-van-aziatische-europese-keuken~aa1a25e4/",
+   "public": "Opening date added (April 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Pica Beans",
    "field": "added",
    "change": "Added (opened 2026-08; research 2026-10-25).",
-   "source": "https://www.pzc.nl/gent/net-open-shoukri-36-opent-palestijnse-eet-en-koffiebar-in-gaza-verliezen-we-land-familie-alles-hier-kan-ik-dat-heel-even-vergeten~af98dcbe/"
+   "source": "https://www.pzc.nl/gent/net-open-shoukri-36-opent-palestijnse-eet-en-koffiebar-in-gaza-verliezen-we-land-familie-alles-hier-kan-ik-dat-heel-even-vergeten~af98dcbe/",
+   "public": "Added: new opening (August 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Bar Martine",
    "field": "added",
    "change": "Added (opened 2026-01; research 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-bar-martine-brengt-new-yorkse-allures-naar-gent-eerbetoon-aan-overleden-vriendin~a44f9bd3/"
+   "source": "https://www.hln.be/gent/net-open-bar-martine-brengt-new-yorkse-allures-naar-gent-eerbetoon-aan-overleden-vriendin~a44f9bd3/",
+   "public": "Added: new opening (January 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Rendez-Vous",
    "field": "added",
    "change": "Added (opened 2026-06; research 2026-10-25).",
-   "source": "https://www.hln.be/gent/lino-47-en-els-48-openen-cafe-rendez-vous-tegenover-het-glazen-straatje-we-zien-het-geweldig-goed-zitten~a9d962b6/"
+   "source": "https://www.hln.be/gent/lino-47-en-els-48-openen-cafe-rendez-vous-tegenover-het-glazen-straatje-we-zien-het-geweldig-goed-zitten~a9d962b6/",
+   "public": "Added: new opening (June 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "SOAN",
    "field": "opened",
    "change": "Opened 2025-11-20 (new-openings research, 2026-10-25).",
-   "source": "https://www.hln.be/gent/cocktailbar-soan-opent-binnenkort-in-het-marriott-hotel-in-hartje-gent-hier-kom-je-niet-gewoon-snel-iets-drinken~a7d38bf7/"
+   "source": "https://www.hln.be/gent/cocktailbar-soan-opent-binnenkort-in-het-marriott-hotel-in-hartje-gent-hier-kom-je-niet-gewoon-snel-iets-drinken~a7d38bf7/",
+   "public": "Opening date added (November 2025)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Fourth Wave",
    "field": "opened",
    "change": "Opened 2026-06 (new-openings research, 2026-10-25).",
-   "source": "https://www.hln.be/gent/hakan-34-opent-eerste-specialty-tea-bar-van-vlaanderen-s-avonds-ook-gewoon-cocktails~a728d228/"
+   "source": "https://www.hln.be/gent/hakan-34-opent-eerste-specialty-tea-bar-van-vlaanderen-s-avonds-ook-gewoon-cocktails~a728d228/",
+   "public": "Opening date added (June 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Klaar",
    "field": "opened",
    "change": "Opened 2026-08 (new-openings research, 2026-10-25).",
-   "source": "https://klaargent.be"
+   "source": "https://klaargent.be",
+   "public": "Opening date added (August 2026)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "ONA Nederkouter",
    "field": "added",
    "change": "Added (wine bar; research 2026-10-25).",
-   "source": "https://www.ona.gent/"
+   "source": "https://www.ona.gent/",
+   "public": "Added: wine bar."
   },
   {
    "date": "2026-10-25",
    "restaurant": "ONA Belfort",
    "field": "added",
    "change": "Added (wine bar; research 2026-10-25).",
-   "source": "https://www.ona.gent/contact"
+   "source": "https://www.ona.gent/contact",
+   "public": "Added: wine bar."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Hey Frankie",
    "field": "added",
    "change": "Added (wine bar; research 2026-10-25).",
-   "source": "https://www.heyfrankie.be/contact"
+   "source": "https://www.heyfrankie.be/contact",
+   "public": "Added: wine bar."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Vinogradoff",
    "field": "added",
    "change": "Added (wine bar; research 2026-10-25).",
-   "source": "https://vinogradoff.gent/"
+   "source": "https://vinogradoff.gent/",
+   "public": "Added: wine bar."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Parole",
    "field": "added",
    "change": "Added (wine bar; research 2026-10-25).",
-   "source": "https://parole.gent/"
+   "source": "https://parole.gent/",
+   "public": "Added: wine bar."
   },
   {
    "date": "2026-10-25",
    "restaurant": "Café Copain",
    "field": "added",
    "change": "Added (opened 2026-02; research 2026-10-25).",
-   "source": "https://www.hln.be/gent/net-open-jonge-ondernemers-brengen-met-cafe-copain-nieuw-leven-op-de-oude-beestenmarkt-in-gent-dit-plein-is-nu-onderbenut~a97b746f/"
+   "source": "https://www.hln.be/gent/net-open-jonge-ondernemers-brengen-met-cafe-copain-nieuw-leven-op-de-oude-beestenmarkt-in-gent-dit-plein-is-nu-onderbenut~a97b746f/",
+   "public": "Added: new opening (February 2026)."
   },
   {
    "date": "2026-10-26",
    "restaurant": "DarBodé",
    "field": "added",
    "change": "Added (Moroccan lunch & cocktails, opened 2026-05; weekly research 2026-10-26).",
-   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html"
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html",
+   "public": "Added: new opening (May 2026)."
   },
   {
    "date": "2026-10-26",
    "restaurant": "Foodbar JEF",
    "field": "opened",
    "change": "Opened 2026-03 (12 March 2026); exact address added (weekly research 2026-10-26).",
-   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html"
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html",
+   "public": "Opening date added (March 2026)."
   },
   {
    "date": "2026-10-26",
    "restaurant": "Barr 34",
    "field": "added",
    "change": "Added (lounge & tapas bar, Onderbergen 34, opened 2026-10; user request 2026-10-26).",
-   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-kroketten-miniburgers-en-aperoplanken-van-bahonya-en-filip-slaan-meteen-aan-we-zagen-een-kans/163448232.html"
+   "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-kroketten-miniburgers-en-aperoplanken-van-bahonya-en-filip-slaan-meteen-aan-we-zagen-een-kans/163448232.html",
+   "public": "Added: new opening (October 2026)."
   },
   {
    "date": "2026-10-26",
    "restaurant": "Golden Potato",
    "field": "removed",
    "change": "Removed (kebab wraps + student discounts break the no-kebab / no-student rules; user decision 2026-10-26; data/never-exclude.json node/6799991954).",
-   "source": "https://www.hln.be/eten-en-drinken-gent/net-open-ahmad-40-opent-golden-potato-in-de-overpoort-zelfs-mijn-chili-sin-carne-komt-met-aardappelpartjes~a1a3f88f/"
+   "source": "https://www.hln.be/eten-en-drinken-gent/net-open-ahmad-40-opent-golden-potato-in-de-overpoort-zelfs-mijn-chili-sin-carne-komt-met-aardappelpartjes~a1a3f88f/",
+   "public": "Removed: not a fit for the guide."
   },
   {
    "date": "2026-10-30",
    "restaurant": "Hot Club Gent, Missy Sippy",
    "field": "new",
    "change": "Added music café(s) with clearly recurring live music, checked on their own site and current agenda: Hot Club Gent, Missy Sippy.",
-   "source": "https://www.hotclub.gent/programma.php"
+   "source": "https://www.hotclub.gent/programma.php",
+   "public": "Added: music café with regular live music."
   }
  ]
 }

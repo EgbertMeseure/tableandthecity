@@ -1,5 +1,5 @@
 /* Table and the City – app-like features, the same code on the website and inside the Capacitor app:
-   A. saved places ("♡ Save"), per city (cities strictly separate), kept on the device (localStorage, mirrored to Capacitor Preferences
+   A. saved places (a small heart button), per city (cities strictly separate), kept on the device (localStorage, mirrored to Capacitor Preferences
       in the app); saving also asks the service worker to keep that place page + its data for offline use
    B. location helper for "Near me · open now" (js/app.js): Capacitor Geolocation in the app, browser geolocation on the web;
       the position never leaves the device
@@ -54,8 +54,8 @@
   const HEART = on => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3 4.6 13a4.7 4.7 0 0 1 6.6-6.7l.8.8.8-.8a4.7 4.7 0 0 1 6.6 6.7z"${on ? ' class="on"' : ''}/></svg>`;
   function setBtn(b, on) {
     b.setAttribute('aria-pressed', on); b.classList.toggle('is-on', on);
-    const l = b.querySelector('.fav__l'); if (l) l.textContent = on ? T('Saved') : T('Save');
-    b.querySelector('svg').outerHTML = HEART(on); b.setAttribute('aria-label', on ? T('Remove from saved') : T('Save this place'));
+    b.querySelector('svg').outerHTML = HEART(on);                    // heart only (filled = saved, outline = not); the word lives in aria-label / title
+    const t = on ? T('Saved') : T('Save'); b.setAttribute('aria-label', t); b.title = t;
   }
   function decorate() {
     document.querySelectorAll('a.card[data-id]').forEach(a => {
@@ -66,8 +66,8 @@
     });
     const cta = document.querySelector('#right .dcta'), id = qp(location.href, 'id');
     if (cta && id && !cta.querySelector('.fav-pill')) {
-      const b = document.createElement('button'); b.type = 'button'; b.className = 'pill-btn dark fav-pill';
-      b.innerHTML = HEART(false) + '<span class="fav__l">Save</span>'; cta.appendChild(b); setBtn(b, isFav(pageCity(), id));
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'pill-btn dark fav-pill'; b.dataset.i18nSkip = '';
+      b.innerHTML = HEART(false); cta.appendChild(b); setBtn(b, isFav(pageCity(), id));
     }
     remButtons();
     savedNote();

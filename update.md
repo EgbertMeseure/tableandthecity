@@ -145,6 +145,10 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
 6. **Distinctions** – replace all scores when a new Michelin (spring) or Gault&Millau (November) edition appears.
 7. **Photos & links** – no stock gallery images any more. Weekly: re-check `instagram_posts` (only permalinks from the official profile), `reservation_url` (still linked from the restaurant's own site, HTTP 200) and Wikimedia Commons for new freely licensed photos. Then `python3 scripts/build_features.py gent`. Optional (only if a key is configured): `GOOGLE_MAPS_API_KEY=… python3 scripts/fetch_google_photos.py gent` daily, since photo names expire.
 8. **Finish** – set `dateChecked` (and `lastChanged` if content changed); add one `changelog` entry per change (with source URL);
+   entry format `{ date, restaurant, field, change, source, public }`: `public` is the only text shown on changes.html —
+   one short plain line for visitors ("Added: new opening (October 2026).", "Removed: not a fit for the guide.", "Opening hours updated.",
+   "Removed: closed permanently."), never file names, node ids, script names, "user decision"/"research" notes or decision dates;
+   keep the internal why/how in `change` (not rendered); `source` is linked only when it is a public http(s) URL;
    regenerate the CSV; test locally: `python3 -m http.server 8765` → `python3 scripts/screenshots.py` (fails on any console error).
 
 ## Before every commit / zip: cache-busting (always)

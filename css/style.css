@@ -797,7 +797,8 @@ a.card.bw-host{position:relative}
 .fav:hover,.fav.is-on{opacity:1}
 .fav svg,.fav-pill svg{width:16px;height:16px;fill:none;stroke:#111;stroke-width:1.6;stroke-linejoin:round}
 .fav svg .on{fill:#c8a96a;stroke:#c8a96a}
-.fav-pill{display:inline-flex;align-items:center;gap:8px;cursor:pointer;border:0;font:inherit}
+.fav-pill{display:inline-flex;align-items:center;justify-content:center;gap:0;cursor:pointer;border:0;font:inherit}
+.dcta .fav-pill{padding:0;aspect-ratio:1/1;min-width:0}.dcta .pill-btn.dark.fav-pill:hover,.dcta .pill-btn.dark.fav-pill:focus,.dcta .pill-btn.dark.fav-pill:active{background:#111;border-color:#111;color:#fff}.dcta .fav-pill:hover svg path:not(.on){stroke:var(--accent)}.dcta .fav-pill svg{width:18px;height:18px}
 .fav-pill svg{stroke:#fff}.fav-pill svg .on{fill:#c8a96a;stroke:#c8a96a}
 .fav-note{margin:0 0 14px;font-size:13px;color:#555;line-height:1.6}
 .fav-note p{margin:0 0 6px}.fav-note ul{list-style:none;margin:0;padding:0}.fav-note li{margin:2px 0}

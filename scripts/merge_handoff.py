@@ -72,7 +72,7 @@ def main():
     log = d.setdefault('changelog', [])
     for pid, what in changed.items():
         r = by[pid]; r['lastChanged'] = TODAY
-        entry = {'date': TODAY, 'restaurant': r['name'], 'change': 'Research update: ' + ', '.join(dict.fromkeys(what)), 'source': next((v.get('source') for v in places.get(pid, {}).values() if v.get('source')), '')}
+        entry = {'date': TODAY, 'restaurant': r['name'], 'change': 'Research update: ' + ', '.join(dict.fromkeys(what)), 'source': next((v.get('source') for v in places.get(pid, {}).values() if v.get('source')), ''), 'public': 'Details updated.'}
         if entry not in log: log.append(entry)
     CUR.write_text(json.dumps(d, ensure_ascii=False, indent=1) + '\n')
     print(f'{len(changed)} places updated, {sum(len(v) for v in changed.values())} field changes')

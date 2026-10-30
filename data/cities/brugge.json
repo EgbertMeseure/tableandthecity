@@ -448,7 +448,8 @@
    "restaurant": "Kosmopoliet, Magpies",
    "field": "new",
    "change": "Added 2 vegan/vegetarian places found via HappyCow and checked on their own sites: Kosmopoliet, Magpies.",
-   "source": "https://www.happycow.net/"
+   "source": "https://www.happycow.net/",
+   "public": "Added: 2 vegan/vegetarian places."
   }
  ],
  "restaurants": [

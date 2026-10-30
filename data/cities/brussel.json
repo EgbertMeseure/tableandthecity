@@ -360,14 +360,16 @@
    "restaurant": "Lil Bao, Nöje, Taylor's Café, NK Arya Bhavan",
    "field": "new",
    "change": "Added 4 vegan/vegetarian places found via HappyCow and checked on their own sites: Lil Bao, Nöje, Taylor's Café, NK Arya Bhavan.",
-   "source": "https://www.happycow.net/"
+   "source": "https://www.happycow.net/",
+   "public": "Added: 4 vegan/vegetarian places."
   },
   {
    "date": "2026-10-30",
    "restaurant": "Sounds Jazz Club",
    "field": "new",
    "change": "Added music café(s) with clearly recurring live music, checked on their own site and current agenda: Sounds Jazz Club.",
-   "source": "https://www.sounds.brussels/agenda/"
+   "source": "https://www.sounds.brussels/agenda/",
+   "public": "Added: music café with regular live music."
   }
  ],
  "restaurants": [

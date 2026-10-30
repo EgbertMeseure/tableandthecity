@@ -23,6 +23,6 @@ D['extraEvents'] = [e for e in ex if live(e)]
 moved += [{**e, 'restaurant': None, 'archived': today} for e in ex if not live(e)]
 if moved:
     A += moved
-    D.setdefault('changelog', []).append({'date': today, 'restaurant': '(all)', 'field': 'events', 'change': f'Archived {len(moved)} past or undated event(s).', 'source': 'scripts/prune_events.py'})
+    D.setdefault('changelog', []).append({'date': today, 'restaurant': '(all)', 'field': 'events', 'change': f'Archived {len(moved)} past or undated event(s).', 'source': 'scripts/prune_events.py', 'public': 'Past events removed.'})
 json.dump(D, open(path, 'w'), ensure_ascii=False, indent=1); json.dump(A, open(apath, 'w'), ensure_ascii=False, indent=1)
 print(f'{today}: archived {len(moved)} event(s) -> {apath}')

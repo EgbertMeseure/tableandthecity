@@ -367,35 +367,40 @@
    "restaurant": "(all)",
    "field": "events",
    "change": "Events added: 24 upcoming events (1 Nov 2026 – 9 May 2027) — 16 city/extra events and 11 place-linked entries on 7 places (collaborations listed under each partner place). Extra details (venue, address, coordinates, time, price, ticket link) kept in eventDetails; ticket links added to sources. 1 undated event (Smaakmeesters Deluxe 2027) not imported until it has a date.",
-   "source": "research 2026-10-25"
+   "source": "research 2026-10-25",
+   "public": "Added: 24 upcoming events and collaborations (November 2026 – May 2027)."
   },
   {
    "date": "2026-10-25",
    "restaurant": "(all)",
    "field": "dataset",
    "change": "131 hand-picked places added (Michelin Guide, Gault&Millau 2026, local press, own websites): fine dining, restaurants, new openings, cafés & bars, coffee, bakeries, breakfast & brunch; 82 of them merged with their OpenStreetMap entry, base list now 625 places. 3 announced openings, veggie levels for 17 places, breakfast/brunch details for 10, 7 photos from the places' own websites. Hours for Tazu, Dogma, Fuel and Briquet from Google Maps; Sanctus hours left empty (sources disagree).",
-   "source": "research 2026-10-25"
+   "source": "research 2026-10-25",
+   "public": "131 hand-picked places added (Michelin Guide, Gault&Millau 2026, local press, own websites): fine dining, restaurants, new openings, cafés & bars, coffee, bakeries, breakfast & brunch."
   },
   {
    "date": "2026-10-25",
    "restaurant": "(all)",
    "field": "dataset",
    "change": "Antwerpen added: base list of 676 places in central Antwerp (districts Antwerpen, Berchem, Borgerhout) from OpenStreetMap, same exclusion rules as the rest of the guide; Google ratings for 572 places; 110 places Google marks as permanently closed left out.",
-   "source": "https://www.openstreetmap.org/copyright"
+   "source": "https://www.openstreetmap.org/copyright",
+   "public": "Antwerp added to the guide: a base list of places in central Antwerp (Antwerpen, Berchem, Borgerhout)."
   },
   {
    "date": "2026-10-30",
    "restaurant": "Ecocafé Borgerhout, MoMu Café, Piano & Sano, Foelie, Antoinette",
    "field": "new",
    "change": "Added 5 vegan/vegetarian places found via HappyCow and checked on their own sites: Ecocafé Borgerhout, MoMu Café, Piano & Sano, Foelie, Antoinette.",
-   "source": "https://www.happycow.net/"
+   "source": "https://www.happycow.net/",
+   "public": "Added: 5 vegan/vegetarian places."
   },
   {
    "date": "2026-10-30",
    "restaurant": "Jazzcafé De Muze",
    "field": "new",
    "change": "Added music café(s) with clearly recurring live music, checked on their own site and current agenda: Jazzcafé De Muze.",
-   "source": "https://jazzcafedemuze.be/programma/"
+   "source": "https://jazzcafedemuze.be/programma/",
+   "public": "Added: music café with regular live music."
   }
  ],
  "restaurants": [

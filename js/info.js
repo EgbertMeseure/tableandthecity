@@ -22,6 +22,17 @@
     return;
   }
   // ---- changes.html: the city's full changelog, newest first, grouped by month ----
+  /* Changelog entry format (data/cities/<city>.json → changelog[]), also written by the weekly update routine (update.md):
+       { date: 'YYYY-MM-DD', restaurant: 'Place name' | '(all)' | null, field, change, source, public }
+     - public  = the ONLY text shown on changes.html: one short plain line for visitors, e.g. "Added: new opening (October 2026).",
+                 "Removed: not a fit for the guide.", "Opening hours updated.", "Removed: closed permanently.".
+                 No file names, node ids, script names, "user decision"/"research" notes or decision dates.
+     - change  = internal note (why/how, files, ids); never rendered.
+     - source  = shown as a "Source" link only when it is a public http(s) URL.
+     - restaurant is shown in bold (linked when it is a place of this city), except '(all)' / '(…)' group labels.
+     Entries without `public` fall back to a generic line by `field`, so internal notes never leak. */
+  const GENERIC = { added: 'Added.', new: 'Added.', isNew: 'Added: new opening.', removed: 'Removed.', status: 'Status updated.', opened: 'Opening date added.', openingDate: 'Opening date added.', address: 'Address updated.', events: 'Events updated.', dataset: 'Places updated.', currentMenuNote: 'Menu updated.' };
+  const publicText = c => (typeof c.public === 'string' && c.public.trim()) || GENERIC[c.field] || 'Details updated.';
   document.title = `Latest changes · ${city.name} — Table and the City`;
   document.body.classList.add('is-ready');
   let d = {};
@@ -36,5 +47,5 @@
   list.forEach(c => { const m = c.date.slice(0, 7); if (!months.length || months[months.length - 1].m !== m) months.push({ m, items: [] }); months[months.length - 1].items.push(c); });
   const place = name => { const id = names.get(name); return id ? `<a href="${cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id))}">${esc(name)}</a>` : esc(name); };
   $('#clog').innerHTML = months.map(g => `<section class="clog-month"><h2>${esc(fmtDate(g.m))}</h2><ul class="clog">${g.items.map(c => `
-    <li><time datetime="${esc(c.date)}">${esc(fmtDate(c.date))}</time><p><span data-i18n-skip>${c.restaurant ? `<strong>${place(c.restaurant)}</strong>: ` : ''}${esc(c.change || '')}</span>${/^https?:\/\//.test(c.source || '') ? ` <a class="clog__src" href="${esc(c.source)}" target="_blank" rel="noopener">Source</a>` : ''}</p></li>`).join('')}</ul></section>`).join('');
+    <li><time datetime="${esc(c.date)}">${esc(fmtDate(c.date))}</time><p><span data-i18n-skip>${c.restaurant && !/^\(/.test(c.restaurant) ? `<strong>${place(c.restaurant)}</strong>: ` : ''}${esc(publicText(c))}</span>${/^https?:\/\//.test(c.source || '') ? ` <a class="clog__src" href="${esc(c.source)}" target="_blank" rel="noopener">Source</a>` : ''}</p></li>`).join('')}</ul></section>`).join('');
 })();
