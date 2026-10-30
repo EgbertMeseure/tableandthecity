@@ -344,6 +344,17 @@ Spotted something off? Let us know | Klopt er iets niet? Laat het ons weten | St
 Let us know | Laat het ons weten | Sag uns Bescheid | Dites-le-nous | Avísanos
 Send | Verstuur | Senden | Envoyer | Enviar
 Thanks! | Bedankt! | Danke! | Merci ! | ¡Gracias!
+Suggest a change | Stel een wijziging voor | Änderung vorschlagen | Proposer une modification | Sugerir un cambio
+Not known | Onbekend | Unbekannt | Inconnu | Desconocido
+Public holidays may differ. | Op feestdagen kan dit afwijken. | An Feiertagen kann es abweichen. | Les jours fériés peuvent différer. | Los festivos pueden variar.
+Opening hours | Openingsuren | Öffnungszeiten | Horaires d’ouverture | Horario
+Photos | Foto’s | Fotos | Photos | Fotos
+Photos: | Foto’s: | Fotos: | Photos : | Fotos:
+Open photo | Open foto | Foto öffnen | Ouvrir la photo | Abrir foto
+1 photo | 1 foto | 1 Foto | 1 photo | 1 foto
+{n} photos | {n} foto’s | {n} Fotos | {n} photos | {n} fotos
+All {n} | Alle {n} | Alle {n} | Toutes ({n}) | Todas ({n})
+View all {n} | Bekijk alle {n} | Alle {n} ansehen | Voir les {n} | Ver las {n}
 ## events
 Previous events | Vorige events | Vorherige Events | Événements précédents | Eventos anteriores
 Next events | Volgende events | Nächste Events | Événements suivants | Eventos siguientes

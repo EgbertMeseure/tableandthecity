@@ -820,5 +820,13 @@
   "license_url": "https://creativecommons.org/licenses/by/3.0",
   "changes": "cropped to 3:2, resized, converted to WebP",
   "used_for": "oostende landing showcase (world.html)"
+ },
+ {
+  "file": "img/events/fourchette-2026.webp",
+  "title": "Fourchette 2026 — an immersive culinary experience (event share image: truffle close-up with the Fourchette mark; no people)",
+  "photographer": "Fourchette (organiser)",
+  "photographer_url": "https://thisisfourchette.be/",
+  "source": "https://storage.googleapis.com/fourchette-2026/Home/_1200x630_crop_center-center_82_none/Fourchette-2026-an-immersive-culinary-experience.jpg (og:image of https://thisisfourchette.be/)",
+  "license": "Organiser's own promotional image for the event, credited and linked in the event box; cropped to 16:9, 960×540 webp"
  }
 ]

@@ -453,6 +453,7 @@
       return `<article class="ev${eh ? ' ev--link' : ''}"${eh ? ` data-ev-href="${esc(eh)}"` : ''}><div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
         <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
         <div class="ev__desc" title="${esc(e.note || '')}">${esc(TG.evDesc(e))}</div>
+        ${TG.evImg(e)}
         <div class="ev__links">${links}</div><div class="ev__btns">${TG.evButtons(e)}</div></article>`;
     }).join('') : '<div class="ev-empty"><p>No upcoming events match.</p><p class="sub">Try “All” or clear the search.</p></div>';
   }

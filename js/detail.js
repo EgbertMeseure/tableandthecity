@@ -73,6 +73,19 @@
   const priceTxt = [known(r.priceLevel) ? esc(r.priceLevel) : '', r.priceFrom ? `from ${eur(r.priceFrom)}` : ''].filter(Boolean).join(' · ') || '<span class="unk">unknown</span>';
   const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
   const hours = r.openingHours && known(r.openingHours) ? esc(r.openingHours) : '';
+  // ---- opening hours as a week table (Mon–Sun), read with the site's own parser (js/hours.js); anything it can't read stays the raw text ----
+  const HP = hours && window.TGHours ? TGHours.parse(r.openingHours) : null;
+  const hhm = m => `${String(Math.floor(m / 60) % 24).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}`;
+  const WEEKD = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+  const dayCell = d => {
+    if (d === null) return '<span class="hweek__unk">Not known</span>';
+    if (!d.length) return '<span class="hweek__closed">Closed</span>';
+    const out = [];
+    d.forEach(x => { if (x.e == null && 'wrap' in x && out.length) out[out.length - 1] += '+'; else out.push(x.e == null ? `${hhm(x.s)}+` : `${hhm(x.s)}–${hhm(x.e)}`); });
+    return out.map(t => `<span class="hweek__t">${t}</span>`).join('<span class="hweek__sep"> · </span>');
+  };
+  const todayDow = window.TGHours ? TGHours.brussels().dow : -1;
+  const hoursHtml = HP && HP.ok ? `<table class="hweek" aria-label="Opening hours"><tbody>${HP.days.map((d, i) => `<tr${i === todayDow ? ' class="is-today" aria-current="date"' : ''}><th scope="row">${WEEKD[i]}</th><td>${dayCell(d)}</td></tr>`).join('')}</tbody></table>${HP.ph ? '<p class="hweek__note">Public holidays may differ.</p>' : ''}` : hours;
   // ---- feature tiles: green only when verified "yes" in sourced data ----
   const { F, EV, TILES } = TG.featureTiles(r);
   const MEALF = TG.mealOf(r);
@@ -87,6 +100,7 @@
   // ---- "Know this place?" visitor feedback: tap pills (has it / doesn't / neutral), optional note, one Send. Never changes data. ----
   const FB_SKIP = new Set(['events', 'chefCollabs', 'michelin', 'gaultMillau', 'new']);   // computed or editorial, not for visitors
   const FB = TILES.filter(([k]) => !FB_SKIP.has(k));
+  const formsOn = !!(window.TGForms && TGForms.ready);
   const feedbackBlock = `<section class="fb" id="fb" aria-labelledby="fb-h">
       <h3 id="fb-h">Know this place? <span>Help us keep it right</span></h3>
       <p class="fb__hint">Tap once = has it, twice = doesn’t have it, three times = not sure.</p>
@@ -95,6 +109,10 @@
       <input type="text" id="fb-hp" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" class="fb__hp">
       <div class="fb__actions"><button type="button" class="pill-btn sm fb-send" id="fb-send" disabled>Send</button></div>
       <p class="fb__msg" id="fb-msg" role="status" aria-live="polite"></p></section>`;
+  // both feedback blocks fold into one closed row ('Know this place? Suggest a change ▾') so the page stays calm
+  const rptLine = formsOn ? `<p class="rpt-line">Spotted something off? Help us keep this accurate. <button class="pill-btn sm rpt-btn" type="button" data-report data-place="${esc(r.name)}" data-city="${esc(city.name)}">Let us know</button></p>` : '';
+  const suggBlock = formsOn ? `<details class="sugg" id="sugg"><summary><span class="sugg__t"><span>Know this place?</span> <span>Suggest a change</span></span><span class="sugg__sub">Help us keep it right</span><svg class="sugg__chev" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg></summary>
+      <div class="sugg__body">${feedbackBlock}${rptLine}</div></details>` : '';
   // ---- reserve: own booking URL (verified) > website > phone ----
   const resv = !isR(r) || r.fromUpcoming ? null : r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : r.website ? { href: r.website, label: 'Reserve' } : r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
   // ---- announced openings (data/cities/<city>-upcoming.json): expected date + the announcement itself ----
@@ -127,19 +145,17 @@
       ${r.website ? `<div><dt>Website</dt><dd><a href="${esc(r.website)}" target="_blank" rel="noopener">${esc(host(r.website))}</a></dd></div>` : ''}
       ${(isR(r) && !r.upcoming) || known(r.priceLevel) ? `<div><dt>Price</dt><dd>${priceTxt}</dd></div>` : ''}
       ${!hours && r.openingHoursNote ? `<div><dt>Hours</dt><dd>${esc(r.openingHoursNote)}</dd></div>` : ''}
-      ${hours ? `<div><dt>Hours</dt><dd>${hours}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
       ${MEALF.any ? `<div><dt>${MEALF.bf && MEALF.br ? 'Breakfast &amp; brunch' : MEALF.bf ? 'Breakfast' : 'Brunch'}</dt><dd>Yes${r.breakfastHours ? ` · breakfast ${esc(r.breakfastHours)}` : ''}${r.brunchDays ? ` · brunch ${esc(r.brunchDays)}` : ''}${(r.mealSources || []).length ? ` <span class="unk">(${[...new Map(r.mealSources.map(u => [host(u), u])).entries()].map(([h, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(h)}</a>`).join(' · ')})</span>` : ''}</dd></div>` : ''}
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
+      ${hours ? `<div class="ess-hours"><dt>Hours</dt><dd>${hoursHtml}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
     </dl>
     <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
     <ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>
-    ${window.TGForms && TGForms.ready ? `<p class="rpt-line">Spotted something off? Help us keep this accurate. <button class="pill-btn sm rpt-btn" type="button" data-report data-place="${esc(r.name)}" data-city="${esc(city.name)}">Let us know</button></p>` : ''}
     ${vegBox}
-    ${feedbackBlock}
-    <h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>
-    ${live.length ? live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev${TG.evHref(e) ? ' ev--link' : ''}"${TG.evHref(e) ? ` data-ev-href="${esc(TG.evHref(e))}"` : ''}><div class="ev__when"><span class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</span><span class="ev__type">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</span></div>
+    ${suggBlock}
+    ${live.length ? `<h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>` + live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev${TG.evHref(e) ? ' ev--link' : ''}"${TG.evHref(e) ? ` data-ev-href="${esc(TG.evHref(e))}"` : ''}><div class="ev__when"><span class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</span><span class="ev__type">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</span></div>
       <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
-      <div class="ev__desc">${esc(TG.evDesc(e))}</div><div class="ev__btns">${TG.evButtons(e)}</div></div>`).join('') : `<p class="unk">No upcoming ${isR(r) ? 'events or collaborations' : 'events'} listed right now.</p>`}
+      <div class="ev__desc">${esc(TG.evDesc(e))}</div>${TG.evImg(e)}<div class="ev__btns">${TG.evButtons(e)}</div></div>`).join('') : ''}
     ${sourcesLine}`;
   bindFeedback();
   function bindFeedback() {
@@ -189,6 +205,21 @@
   // the website og:image (hotlinked from the place's own site, credited) is a photo tile too
   const webPhoto = HI && HI.url ? [{ src: HI.url, thumb: HI.url, w: HI.w, h: HI.h, category: 'other', hotlink: true, alt: `${r.name} — photo from ${heroHost}`, credit: heroHost, credit_url: HI.source }] : [];
   const photos = [...own.filter(p => CATL[p.category]), ...webPhoto];
+  // ---- photos under the facts: the hero is the best photo; up to 3 more as thumbnails + the count; all of them open in the light box ----
+  const heroSrc = r.photoHold || pk.post ? '' : heroP ? heroP.src : HI ? HI.url : '';
+  const heroPh = photos.find(p => p.src === heroSrc);
+  const lbList = heroPh ? [heroPh, ...photos.filter(p => p !== heroPh)] : photos.slice();
+  const nPh = lbList.length, t0 = heroPh ? 1 : 0, thumbs = lbList.slice(t0, t0 + 3);
+  const nTxt = n => n === 1 ? '1 photo' : `${n} photos`;
+  if (thumbs.length) {
+    const creds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()].map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
+    $('#left dl.essentials').insertAdjacentHTML('afterend', `<section class="dphotos" aria-labelledby="dphotos-h"><h2 id="dphotos-h">Photos</h2>
+      <div class="dphotos__row">${thumbs.map((p, i) => { const k = t0 + i, more = i === thumbs.length - 1 && nPh > k + 1;
+        return `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(p.thumb || p.src)}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${more ? `<span class="dphotos__more">All ${nPh}</span>` : ''}</button>`; }).join('')}</div>
+      <div class="dphotos__foot">${creds ? `<span class="dphotos__cr"><span>Photos:</span> ${creds}</span>` : '<span></span>'}${nPh > 1 ? `<button type="button" class="dphotos__all" data-pi="0">View all ${nPh}</button>` : ''}</div></section>`);
+  }
+  if (nPh > 1 || (nPh && !heroPh)) $('.dhero').insertAdjacentHTML('beforeend', `<button type="button" class="dhero__photos" data-pi="0"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg><span>${nTxt(nPh)}</span></button>`);
+  const railPhotos = nPh ? [] : photos;   // the photos live in the row above; the gallery below keeps only Instagram
   const PR = { food: 0, drink: 0, interior: 0 };
   const posts = igPosts.map((p, i) => [p, i]).sort((a, b) => (PR[a[0].category] ?? 1) - (PR[b[0].category] ?? 1) || a[1] - b[1]).map(x => x[0]).slice(0, 8);   // food / drinks / interior first; max 8 Instagram tiles
   const handle = igHandle;
@@ -197,10 +228,10 @@
   // Instagram posts first (the place's own photos, via Instagram's official embed iframe — never downloaded or rehosted), then free-licence photos
   // no posts collected but the profile embed renders: Instagram's own profile widget (recent photo grid, each tile links to the post)
   const prof = !posts.length && r.igEmbed ? [{ kind: 'igprofile', cat: 'profile', p: { url: `https://www.instagram.com/${igHandle}/` } }] : [];
-  const all = [...posts.map(p => ({ kind: 'ig', cat: CATL[p.category] ? p.category : '', p })), ...prof, ...photos.map(p => ({ kind: 'photo', cat: p.category, p }))];
+  const all = [...posts.map(p => ({ kind: 'ig', cat: CATL[p.category] ? p.category : '', p })), ...prof, ...railPhotos.map(p => ({ kind: 'photo', cat: p.category, p }))];
   const cats = Object.keys(CATL).filter(c => all.some(x => x.cat === c));
   $('#gal-chips').innerHTML = all.length > 1 && cats.length > 1 ? [['', 'All'], ...cats.map(c => [c, CATL[c]])].map(([c, l]) => `<button class="chip" data-gc="${c}" aria-pressed="${c === ''}">${l}<span class="cnt">${c ? all.filter(x => x.cat === c).length : all.length}</span></button>`).join('') : '';
-  $('#gal-note').innerHTML = prof.length ? `Recent photos from the place’s own Instagram <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>, shown with Instagram’s profile embed — tap a photo to open it on Instagram.${photos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : posts.length ? `Photos from the place’s own Instagram${handle ? ` <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>` : ''}, shown with Instagram’s embed — tap a photo to open the post.${photos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : (photos.length ? (webPhoto.length && photos.length === 1 ? `Photo from the place’s own website (${esc(heroHost)}).` : 'Photos from the place’s own website or under a free licence, credited per image.') : '');
+  $('#gal-note').innerHTML = prof.length ? `Recent photos from the place’s own Instagram <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>, shown with Instagram’s profile embed — tap a photo to open it on Instagram.${railPhotos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : posts.length ? `Photos from the place’s own Instagram${handle ? ` <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>` : ''}, shown with Instagram’s embed — tap a photo to open the post.${railPhotos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : (railPhotos.length ? (webPhoto.length && railPhotos.length === 1 ? `Photo from the place’s own website (${esc(heroHost)}).` : 'Photos from the place’s own website or under a free licence, credited per image.') : '');
   const igTile = x => { const u = x.p.url.replace(/\/$/, ''), kind = /\/reel\//.test(u) ? 'Reel' : 'Post';
     return `<figure class="gtile gtile--ig"><div class="gtile__clip"><iframe data-src="${esc(u)}/embed/" title="${esc(kind)} by ${handle ? '@' + esc(handle) : esc(r.name)} on Instagram" loading="lazy" scrolling="no" allowtransparency="true"></iframe></div>
       <figcaption><a href="${esc(x.p.url)}" target="_blank" rel="noopener">View on Instagram${handle ? ` @${esc(handle)}` : ''} ↗</a></figcaption></figure>`; };
@@ -230,6 +261,8 @@
     // no posts collected yet, but a known Instagram account: one tile linking to the profile (no embed, nothing copied)
     $('#gal-grid').innerHTML = `<figure class="gtile gtile--profile"><a href="${igProfile}" target="_blank" rel="noopener"><span class="gtile__ig" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span><strong>See photos on Instagram</strong><span>@${esc(handle)} ↗</span></a></figure>`;
     $('#gal-grid').classList.add('gal-rail--single');
+  } else if (!all.length && nPh) {
+    $('#gallery').style.display = 'none';   // every photo is already in the row under the facts
   } else if (!all.length) {
     $('#gal-grid').outerHTML = `<div class="gal-empty"><p class="gal-empty__t">Photos coming soon</p><p>We only show photos from the place itself or under a free licence. Until then, see ${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">their website</a>` : 'their own channels'}.</p></div>`;
   } else renderGallery();
@@ -244,6 +277,7 @@
   function openLb(i) { lastFocus = document.activeElement; lb.hidden = false; document.body.classList.add('noscroll'); show(i); $('#lb-close').focus(); }
   function closeLb() { lb.hidden = true; document.body.classList.remove('noscroll'); if (lastFocus) lastFocus.focus(); }
   document.addEventListener('click', e => { const b = e.target.closest('#gal-grid [data-i]'); if (b) openLb(+b.dataset.i); });
+  document.addEventListener('click', e => { const b = e.target.closest('[data-pi]'); if (b && lbList.length) { shown = lbList; openLb(Math.min(+b.dataset.pi, lbList.length - 1)); } });
   $('#lb-prev').addEventListener('click', () => show(idx - 1)); $('#lb-next').addEventListener('click', () => show(idx + 1));
   $('#lb-close').addEventListener('click', closeLb);
   lb.addEventListener('click', e => { if (e.target === lb) closeLb(); });
