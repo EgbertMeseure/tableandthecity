@@ -694,6 +694,9 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 @media (max-width:640px){#carousel>.pillcard{--n:4;flex-basis:calc((100% + 16px - var(--n) * 10px) / (var(--n) + .5))}}
 @media (max-width:499px){#carousel>.pillcard{--n:3}}
 /* Beta marker next to the logo (tap / hover shows the note) */
+/* 'Back' in place of the logo on the subpages (js/back.js): the header's pill, text only */
+.backbtn{flex:none;background:rgba(0,0,0,.22);padding:0 22px}
+@media (max-width:640px){.backbtn{padding:0 18px}}
 .logo-wrap{position:relative;display:inline-flex;align-items:center;gap:10px;flex:none}
 .beta-tag{font:600 9px/1 var(--sans,inherit);letter-spacing:.18em;text-transform:uppercase;color:#d8b871;background:rgba(0,0,0,.25);border:1px solid rgba(216,184,113,.7);border-radius:999px;padding:4px 8px 4px 9px;cursor:help}
 .beta-tip{position:absolute;left:0;top:calc(100% + 8px);z-index:20;width:max-content;max-width:min(280px,80vw);padding:8px 12px;border-radius:12px;background:#111;color:#fff;font-size:12px;line-height:1.4;letter-spacing:.02em;box-shadow:0 4px 18px rgba(0,0,0,.3);opacity:0;visibility:hidden;transition:opacity .2s}
@@ -834,6 +837,7 @@ a.card.bw-host{position:relative}
 .mt-withnote{font-style:italic;font-family:var(--serif);text-transform:none;letter-spacing:0;font-size:12.5px;color:#8a6d2f}
 @media (max-width:640px){.mt-withnote{flex-basis:100%}}
 .mt-with{font-style:italic;font-family:var(--serif);font-size:14px;color:#8a6d2f}
+.mt-iv__hint{margin:-4px 0 2px 4px;font-size:12px;line-height:1.4;color:var(--text-2)}
 .mt-iv__acts{display:flex;gap:10px;margin-top:6px}
 .mt-iv__acts .pill-btn{flex:1;height:52px;margin:0;padding:0 16px}
 .pill-btn.dark.mt-iv__wa{background:#fff;color:var(--ink);font-weight:600}

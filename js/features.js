@@ -17,6 +17,14 @@
   const qp = (u, k) => { try { return new URL(u, location.href).searchParams.get(k); } catch (e) { return null; } };
   /* a first name from a link or a field: letters, digits, space . ' - only, single spaces, at most 30 characters */
   const cleanName = v => Array.from(String(v == null ? '' : v).normalize('NFC').replace(/[^\p{L}\p{M}\p{N} .'’-]+/gu, ' ').replace(/\s+/g, ' ').trim()).slice(0, 30).join('').trim();
+  /* 'Going with' accepts several names (comma separated): a clean list, no duplicates, max 12; legacy entries keep one name as a string */
+  const cleanNames = v => { const out = [];
+    (Array.isArray(v) ? v : String(v == null ? '' : v).split(/[,;\n]+/)).forEach(x => { const n = cleanName(x); if (n && !out.some(o => o.toLowerCase() === n.toLowerCase())) out.push(n); });
+    return out.slice(0, 12); };
+  /* 'Sofie, Tom' while it stays short, else 'Sofie +2' */
+  const withLabel = v => { const n = cleanNames(v); if (!n.length) return ''; let k = 1;
+    while (k < n.length && n.slice(0, k + 1).join(', ').length <= 24) k++;
+    return n.slice(0, k).join(', ') + (k < n.length ? ` +${n.length - k}` : ''); };
   const pageCity = () => qp(location.href, 'city') || (document.querySelector('[data-city]') || {}).dataset?.city || 'gent';
 
   /* ---------- storage (localStorage first; Preferences mirror so iOS/Android cannot silently drop it) ---------- */
@@ -29,7 +37,7 @@
       if (value && localStorage.getItem(k) == null) { try { localStorage.setItem(k, value); } catch (e) {} }
     })))).then(() => { document.dispatchEvent(new CustomEvent('tg:favchange')); decorate(); }).catch(() => {});
   }
-  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), d: '' | 'YYYY-MM-DD' (visited), t: added ms, w: '' | first name ('Want to go with…') } }
+  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), d: '' | 'YYYY-MM-DD' (visited), t: added ms, w: [first names] ('Want to go with…'; older entries: one name as a string) } }
      The older 'tatc-fav:<city>' id list (the former "Saved" places) is migrated once into 'want'. */
   const MKEY = c => 'tatc-mytable:' + c;
   function mt(c) {
@@ -48,7 +56,7 @@
     const m = mt(c), cur = m[id] || { s: 'want', r: 0, d: '', t: Date.now() }, e = { ...cur, ...patch };
     if (e.s !== 'been') { e.r = 0; e.d = ''; }
     e.r = Math.max(0, Math.min(10, Math.round(+e.r || 0))); if (!/^\d{4}-\d{2}-\d{2}$/.test(e.d || '')) e.d = '';
-    e.w = cleanName(e.w); if (!e.w) delete e.w;
+    e.w = cleanNames(e.w); if (!e.w.length) delete e.w;
     m[id] = e; LS.set(MKEY(c), m); changed(c, id, true); return e;
   }
   function removeEntry(c, id) { const m = mt(c); delete m[id]; LS.set(MKEY(c), m); changed(c, id, false); }
@@ -59,7 +67,7 @@
     return on;
   }
   /* the My table view in the guide (chip [data-toggle="saved"]): which tab is open; js/app.js asks mtShows() per place */
-  let tab = 'want';
+  let tab = 'want'; try { if (sessionStorage.getItem('tatc-mt-tab') === 'been') tab = 'been'; } catch (e) {}   // kept for the session, so Back from a place reopens the same tab
   const mtShows = (c, id) => { const e = entry(c, id); return !!e && e.s === tab; };
   /* offline: hand the service worker the place page + this page's data / script / image URLs (it skips map tiles and cross-site hosts it should not keep) */
   function keepOffline(urls) {
@@ -94,7 +102,7 @@
         <div class="mt-row"><label class="mt-lab" for="mt-date">${esc(T('Visited on'))}</label><input class="mt-date" id="mt-date" type="date" max="${today()}" value="${esc(e.d)}" data-mt-d></div>
         <p class="mt-hint">${esc(T('Only you see this, on this device.'))}</p>`;
     }
-    const w = e.w ? `<p class="mt-hint mt-with">${esc(T('with {name}', { name: e.w }))}</p>` : '';
+    const wl = withLabel(e.w), w = wl ? `<p class="mt-hint mt-with" title="${esc(cleanNames(e.w).join(', '))}">${esc(T('with {name}', { name: wl }))}</p>` : '';
     const inv = e.s === 'want' ? `<button type="button" class="pill-btn dark mt-invite" data-invite>${esc(T('Want to go with…'))}</button>` : '';   // only while in Want to go; the button row above stays as it was
     return `<div class="mt-top"><div class="mt-seg" role="group" aria-label="${esc(T('My table'))}">${seg}</div>${inv}</div>${w}${been}`;
   }
@@ -118,9 +126,9 @@
   /* in the My table view, 'Want to go' cards get a quiet "Been here" button (moves the place; the score is given on its page) */
   function viewBtn(a, c, e, inView) {
     const foot = a.querySelector('.card__foot') || a;
-    let n = a.querySelector('.mt-withnote'); const note = inView && e && e.w ? T('with {name}', { name: e.w }) : '';
+    let n = a.querySelector('.mt-withnote'); const wl = inView && e ? withLabel(e.w) : '', note = wl ? T('with {name}', { name: wl }) : '';
     if (!note) { if (n) n.remove(); }
-    else { if (!n) { n = document.createElement('span'); n.className = 'mt-withnote'; n.dataset.i18nSkip = ''; foot.prepend(n); } if (n.textContent !== note) n.textContent = note; }
+    else { if (!n) { n = document.createElement('span'); n.className = 'mt-withnote'; n.dataset.i18nSkip = ''; foot.prepend(n); } if (n.textContent !== note) { n.textContent = note; n.title = cleanNames(e.w).join(', '); } }
     let b = a.querySelector('.mt-been'), w = a.querySelector('.mt-withbtn'); const show = inView && e && e.s === 'want';
     if (!show) { if (b) b.remove(); if (w) w.remove(); return; }
     if (!b) { b = document.createElement('button'); b.type = 'button'; b.className = 'mt-been'; b.dataset.i18nSkip = ''; b.textContent = T('Been here'); foot.appendChild(b); }
@@ -152,7 +160,7 @@
   const where = el => { const a = cardOf(el); return { a, c: a ? (qp(a.href, 'city') || pageCity()) : pageCity(), id: a ? a.dataset.id : qp(location.href, 'id') }; };
   document.addEventListener('click', ev => {
     const t = ev.target;
-    const tb = t.closest('[data-mt-tab]'); if (tb) { ev.preventDefault(); tab = tb.dataset.mtTab; changed(pageCity(), '', true); return; }
+    const tb = t.closest('[data-mt-tab]'); if (tb) { ev.preventDefault(); tab = tb.dataset.mtTab; try { sessionStorage.setItem('tatc-mt-tab', tab); } catch (_) {} changed(pageCity(), '', true); return; }
     const ib = t.closest('[data-invite]'); if (ib) { ev.preventDefault(); ev.stopPropagation(); const { a, c, id } = where(ib); openInvite(ib, c, id, a); return; }
     const vb = t.closest('.mt-been'); if (vb) { ev.preventDefault(); ev.stopPropagation(); const { c, id } = where(vb); setEntry(c, id, { s: 'been' }); toast(T('Moved to Been here: give it your score on its page')); return; }
     const sb = t.closest('[data-mt-s]'); if (sb) { ev.preventDefault(); const { c, id } = where(sb); setEntry(c, id, { s: sb.dataset.mtS }); return; }
@@ -208,7 +216,8 @@
         <p class="crq__lead">${esc(T('Send a link so a friend can add this place to their Want to go.'))}</p>
         <form class="crq__form" novalidate>
           <label class="crq__f"><span>${esc(T('Your first name'))} <i>${esc(T('(optional)'))}</i></span><input name="from" type="text" autocomplete="given-name" maxlength="30" value="${esc(me)}"></label>
-          <label class="crq__f"><span>${esc(T('Going with'))} <i>${esc(T('(optional)'))}</i></span><input name="with" type="text" autocomplete="off" maxlength="30" value="${esc(e.w || '')}"></label>
+          <label class="crq__f"><span>${esc(T('Going with'))} <i>${esc(T('(optional)'))}</i></span><input name="with" type="text" autocomplete="off" maxlength="300" placeholder="Sofie, Tom" aria-describedby="mt-iv-wh" value="${esc(cleanNames(e.w).join(', '))}"></label>
+          <p class="mt-iv__hint" id="mt-iv-wh">${esc(T('Several names? Separate them with a comma. The one link works for all of them.'))}</p>
           <div class="mt-iv__acts">${acts}</div>
           <input class="mt-iv__link" type="text" readonly hidden aria-label="${esc(T('Select and copy this link.'))}">
           <p class="crq__note">${esc(T('Your name is only put in the link and remembered on this device.'))}</p>
@@ -217,8 +226,8 @@
     document.body.appendChild(iv); document.documentElement.classList.add('crq-lock');
     const f = iv.querySelector('form');
     const go = () => {                                                  // remember the name, mark the own entry, build the link + the message
-      const from = cleanName(f.elements.from.value), w = cleanName(f.elements.with.value);
-      f.elements.from.value = from; f.elements.with.value = w; LS.set(NKEY, from);
+      const from = cleanName(f.elements.from.value), w = cleanNames(f.elements.with.value);
+      f.elements.from.value = from; f.elements.with.value = w.join(', '); LS.set(NKEY, from);
       if (isFav(c, id)) setEntry(c, id, { w });
       const url = inviteUrl(c, id, a, from);
       return { url, text: place ? T('Want to go to {place} with me?', { place }) : T('Want to go here with me?') };
@@ -264,7 +273,7 @@
       const b = ev.target.closest('[data-ivc]'); if (!b) return; ev.preventDefault();
       if (b.dataset.ivc === 'yes') {
         const had = isFav(c, id);
-        setEntry(c, id, { s: 'want', ...(had ? {} : { t: Date.now() }), ...(from ? { w: from } : {}) });
+        setEntry(c, id, { s: 'want', ...(had ? {} : { t: Date.now() }), ...(from ? { w: [...cleanNames(had ? entry(c, id).w : []), from] } : {}) });   // added to anyone already noted
         if (!had) { const img = document.querySelector('.dhero img, #hero img'); keepOffline([location.href, img && img.currentSrc].filter(Boolean)); }
         toast(from ? T('Added to Want to go, with {name}', { name: from }) : T('Added to Want to go'));
       }

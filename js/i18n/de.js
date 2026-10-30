@@ -666,5 +666,6 @@
 "with {name}": "mit {name}",
 "Added to Want to go, with {name}": "Zu „Will ich hin“ hinzugefügt, mit {name}",
 "Added to Want to go": "Zu „Will ich hin“ hinzugefügt",
-"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Mit „Will ich hin mit…“ schickst du jemandem einen Link zu einem Ort. Der Vorname, den du eingibst, steht nur in diesem Link und wird auf deinem Gerät gespeichert; er wird nie an uns gesendet."
+"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Mit „Will ich hin mit…“ schickst du jemandem einen Link zu einem Ort. Der Vorname, den du eingibst, steht nur in diesem Link und wird auf deinem Gerät gespeichert; er wird nie an uns gesendet.",
+"Several names? Separate them with a comma. The one link works for all of them.": "Mehrere Namen? Trenne sie mit einem Komma. Ein Link gilt für alle."
 };

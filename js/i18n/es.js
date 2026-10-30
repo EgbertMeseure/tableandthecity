@@ -666,5 +666,6 @@
 "with {name}": "con {name}",
 "Added to Want to go, with {name}": "Añadido a Quiero ir, con {name}",
 "Added to Want to go": "Añadido a Quiero ir",
-"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Con «Quiero ir con…» envías a alguien un enlace a un sitio. El nombre que escribes solo va en ese enlace y se guarda en tu dispositivo; nunca se nos envía."
+"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Con «Quiero ir con…» envías a alguien un enlace a un sitio. El nombre que escribes solo va en ese enlace y se guarda en tu dispositivo; nunca se nos envía.",
+"Several names? Separate them with a comma. The one link works for all of them.": "¿Varios nombres? Sepáralos con una coma. Un solo enlace sirve para todos."
 };

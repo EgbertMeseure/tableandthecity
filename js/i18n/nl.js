@@ -666,5 +666,6 @@
 "with {name}": "met {name}",
 "Added to Want to go, with {name}": "Bij Wil ik heen gezet, met {name}",
 "Added to Want to go": "Bij Wil ik heen gezet",
-"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Met “Wil ik heen met…” stuur je iemand een link naar een adres. De voornaam die je typt staat alleen in die link en wordt op je toestel bewaard; hij wordt nooit naar ons gestuurd."
+"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Met “Wil ik heen met…” stuur je iemand een link naar een adres. De voornaam die je typt staat alleen in die link en wordt op je toestel bewaard; hij wordt nooit naar ons gestuurd.",
+"Several names? Separate them with a comma. The one link works for all of them.": "Meerdere namen? Scheid ze met een komma. Eén link werkt voor iedereen."
 };
