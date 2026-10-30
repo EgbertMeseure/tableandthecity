@@ -326,10 +326,11 @@ body.noscroll{overflow:hidden}
 /* booking button on list cards (categories in TG_CONFIG.BOOKING_BUTTON_TYPES, js/config.js) */
 .card__foot .bk{display:inline-flex;align-items:center;justify-content:center;gap:7px;height:36px;padding:0 18px;border:1.5px solid var(--ink);border-radius:var(--pill);
   font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;cursor:pointer;max-width:100%;transition:background .2s,color .2s}
-.card__foot .bk--online{background:var(--ink);color:#fff}
-.card__foot .bk--online:hover,.card__foot .bk--online:focus-visible{background:#fff;color:var(--ink)}
-.card__foot .bk--phone{background:#fff;color:var(--ink)}
-.card__foot .bk--phone:hover,.card__foot .bk--phone:focus-visible{background:var(--ink);color:#fff}
+/* Reserve on a card: petrol (online = filled, by phone = petrol outline that fills on hover) */
+.card__foot .bk--online{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.card__foot .bk--online:hover,.card__foot .bk--online:focus-visible{background:var(--blue-deep);border-color:var(--blue-deep);color:var(--blue-ink)}
+.card__foot .bk--phone{background:#fff;border-color:var(--blue);color:var(--blue)}
+.card__foot .bk--phone:hover,.card__foot .bk--phone:focus-visible{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
 .card__foot .bk i{font-style:normal}
 .card__foot .bk__n{display:none;letter-spacing:.06em}
 @media (hover:hover){.card__foot .bk--phone:hover .bk__l,.card__foot .bk--phone:focus-visible .bk__l{display:none}.card__foot .bk--phone:hover .bk__n,.card__foot .bk--phone:focus-visible .bk__n{display:inline}}
@@ -534,8 +535,9 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz-card__foot .ext{border-bottom:1px solid #000;cursor:pointer}
 .qz-card__foot .bk{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:34px;padding:0 16px;border:1.5px solid var(--ink);border-radius:var(--pill);
   font-size:10px;font-weight:700;letter-spacing:.1em;white-space:nowrap;cursor:pointer;max-width:100%}
-.qz-card__foot .bk--online{background:var(--ink);color:#fff}
-.qz-card__foot .bk--phone{background:#fff;color:var(--ink)}
+.qz-card__foot .bk--online{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.qz-card__foot .bk--phone{background:#fff;border-color:var(--blue);color:var(--blue)}
+@media (hover:hover){.qz-card__foot .bk--online:hover{background:var(--blue-deep);border-color:var(--blue-deep)}.qz-card__foot .bk--phone:hover{background:var(--blue);color:var(--blue-ink)}}
 .qz-card__foot .bk i{font-style:normal}
 .qz-card__foot .bk__n{display:none}
 .qz-card__foot .bk-chip{border:1px solid var(--line-d);border-radius:var(--pill);padding:3px 9px;font-size:9px;font-weight:600}

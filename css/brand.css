@@ -18,6 +18,7 @@
   --blue-petrol:#2a6474;     /* muted steel / petrol */
   --blue:var(--blue-petrol);
   --blue-ink:#fff;           /* text on --blue */
+  --blue-deep:#1f4d5a;       /* hover / pressed on --blue (Reserve) */
   --blue-hover:color-mix(in srgb,var(--blue) 82%,#000);
   /* type */
   --display:'Bodoni Moda','Playfair Display',Didot,'Times New Roman',serif;   /* Didone wordmark */
@@ -226,8 +227,9 @@ button,input,select{font-family:inherit}
 .srcline summary::before{content:"+";display:inline-grid;place-items:center;width:18px;height:18px;border:1px solid currentColor;border-radius:50%;font-size:12px}
 .srcline[open] summary::before{content:"–"}
 .srcline .sources{margin:12px 0 6px}
-.pill-btn.reserve{background:var(--accent);border-color:var(--accent);color:#111;font-weight:600;padding-inline:30px}
-.pill-btn.reserve:hover,.pill-btn.reserve:focus-visible{background:#111;border-color:#111;color:#fff}
+/* Reserve = the main action: petrol blue with white text, a darker petrol on hover */
+.pill-btn.reserve{background:var(--blue);border-color:var(--blue);color:var(--blue-ink);font-weight:600;padding-inline:30px}
+.pill-btn.reserve:hover,.pill-btn.reserve:focus-visible{background:var(--blue-deep);border-color:var(--blue-deep);color:var(--blue-ink)}
 .resv-note{font-size:13px;color:var(--text-3);margin:10px 0 0}
 .dmap-cap{font-size:13px;color:var(--text-3);margin:12px 0 4px;padding-left:4px}
 .card__foot .ext.resv{font-weight:600;color:var(--text)}
