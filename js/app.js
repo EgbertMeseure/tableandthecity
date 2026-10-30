@@ -235,7 +235,8 @@
   function filtered() {
     const t = terms(), now0 = new Date();
     let list = R.filter(r => {
-      if (state.open && TG.openState(r, now0).state !== 'open') return false;   // "Open now" pill (js/hours.js, Europe/Brussels)
+      if (state.open && TG.openState(r, now0).state !== 'open') return false;
+      if (state.saved && !(window.TGFeat && TGFeat.isFav(city.id, r.id))) return false;   // "♡ Saved" (js/features.js; this city only)   // "Open now" pill (js/hours.js, Europe/Brussels)
       if (t.length && !t.every(w => r._hay.includes(w))) return false;
       if (state.group && r.group !== state.group) return false;
       if (state.type && !state.type.split('+').includes(r.category)) return false;
@@ -327,6 +328,24 @@
     navigator.geolocation.getCurrentPosition(p => { $('#btn-loc').textContent = 'Near me'; setOrigin([p.coords.latitude, p.coords.longitude], 'my location'); map.setView([p.coords.latitude, p.coords.longitude], 13); },
       () => { $('#btn-loc').textContent = 'Near me'; $('#maphint').textContent = 'Location unavailable — click the map instead'; applyUI(); }, { timeout: 8000 });
   }
+  document.addEventListener('tg:favchange', () => { if (state.saved) render(); });
+  /* "Near me · open now": device location (Capacitor Geolocation in the app, browser geolocation on the web, js/features.js),
+     nearest first, only places that are open right now by known hours (unknown hours are left out, like the "Open now" pill) */
+  const NEAR = $('#btn-nearopen'), NEAR_L = 'Near me · open now';
+  if (NEAR) NEAR.addEventListener('click', async () => {
+    if (NEAR.getAttribute('aria-pressed') === 'true') { NEAR.setAttribute('aria-pressed', 'false'); clearOrigin(); state.open = false; if (state.sort === 'dist') state.sort = 'rec'; applyUI(); render(); return; }
+    NEAR.textContent = 'Locating…';
+    try {
+      const ll = await (window.TGFeat ? TGFeat.locate() : Promise.reject({}));
+      NEAR.textContent = NEAR_L; state.open = true; setOrigin(ll, 'my location'); map.setView(ll, 15); NEAR.setAttribute('aria-pressed', 'true');
+      $('#maphint').textContent = 'Open now, nearest first. Places without confirmed hours are left out.';
+      if (window.TGFeat) TGFeat.toast(window.TG_I18N && TG_I18N.t ? TG_I18N.t('Open now, nearest first. Places without confirmed hours are left out.') : 'Open now, nearest first. Places without confirmed hours are left out.');
+    } catch (err) {
+      NEAR.textContent = NEAR_L;
+      const m = err && err.denied ? 'Location is off. Allow location to see what is open near you, or click the map to pick a starting point.' : 'Location unavailable — click the map instead';
+      $('#maphint').textContent = m; if (window.TGFeat) TGFeat.toast(window.TG_I18N && TG_I18N.t ? TG_I18N.t(m) : m);
+    }
+  });
   $('#btn-loc').addEventListener('click', () => { if (state.origin) { clearOrigin(); if (state.sort === 'dist') state.sort = 'rec'; applyUI(); render(); } else locate(); });
 
   // ---- render list + markers ----

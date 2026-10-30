@@ -55,3 +55,14 @@ Also required: privacy policy URL (done), App Privacy questionnaire, a demo/revi
 export JAVA_HOME=/workspace/android-sdk/jdk ANDROID_HOME=/workspace/android-sdk PATH=$JAVA_HOME/bin:$PATH
 cd /workspace/wt-app/app && npm run android:debug     # → android/app/build/outputs/apk/debug/app-debug.apk
 ```
+
+## Features A, B, C (preview-app, 30 Oct 2026)
+
+| Feature | Website (browser) | App (Capacitor) |
+|---|---|---|
+| A. Save / Favourites | Heart on list cards and place pages, "♡ Saved" chip in the guide shows only saved places of that city (cities kept apart). Stored in localStorage; the saved place page and its data are cached by the service worker for offline. | Same, plus mirrored to Capacitor Preferences (survives WebView storage clears). Photos are bundled in the APK, so saved places work fully offline. |
+| B. Near me · open now | Browser geolocation, sorted by distance, only places with confirmed "open" hours (unknown hours left out, as with the existing Open now chip). Friendly message on deny. Location never leaves the device. | Capacitor Geolocation (asks Android/iOS permission). |
+| C. Remind me (events) | Downloads an .ics calendar file with an alarm (evening before for all-day events, 3 h before for timed ones). Web reminders can't be tracked or cancelled by the site, so they're managed in your calendar. | Local notification scheduled on the phone: "The day before, 10:00", "On the day, 10:00" or "3 hours before". Managed/cancelled from the button menu or the "Your reminders" list in the Saved view. No push service. |
+
+Privacy page updated (saved places and reminders stay on the device). Debug APK: `table-and-the-city-debug.apk` (~117 MB, photos bundled; loading photos from the live site would shrink it but break offline favourites, so not done).
+Plugins: @capacitor/geolocation 8.2.4, @capacitor/local-notifications 8.3.1, @capacitor/preferences 8.0.1.

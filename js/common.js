@@ -637,14 +637,18 @@ const TG = (() => {
     return `${ty[0].toUpperCase() + ty.slice(1)}${at ? ` at ${at}` : ''}`;
   }
   const evHref = e => (e.sources || []).find(s => s !== e.tickets) || e.tickets || (e.sources || [])[0] || '';
-  const evButtons = e => { const h = evHref(e); return (h && h !== e.tickets ? `<a class="ev-btn" href="${_evEsc(h)}" target="_blank" rel="noopener">More info – visit the page ↗</a>` : '') +
-    (e.tickets ? `<a class="ev-btn ev-btn--tix" href="${_evEsc(e.tickets)}" target="_blank" rel="noopener">Get tickets ↗</a>` : ''); };
+  /* "Remind me" (js/features.js): every event box gets a reminder button; EVREG maps its key back to the event */
+  const EVREG = {};
+  const evKey = e => String(e.id || ((e.title || '') + '|' + (e.dateStart || ''))).replace(/[^\w|-]+/g, '-').slice(0, 90);
+  const remBtn = e => { if (!e.dateStart) return ''; const k = evKey(e); EVREG[k] = e; return `<button type="button" class="ev-btn ev-btn--rem" data-rem="${_evEsc(k)}">Remind me</button>`; };
+  const evButtons = e => remBtn(e) + (() => { const h = evHref(e); return (h && h !== e.tickets ? `<a class="ev-btn" href="${_evEsc(h)}" target="_blank" rel="noopener">More info – visit the page ↗</a>` : '') +
+    (e.tickets ? `<a class="ev-btn ev-btn--tix" href="${_evEsc(e.tickets)}" target="_blank" rel="noopener">Get tickets ↗</a>` : ''); })();
   // optional picture in the box (e.image: { src, w, h, alt, credit, credit_url }) — a calm landscape image saved under img/events/; no image = box unchanged
   const evImg = e => { const m = e.image; if (!m || !m.src) return '';
     return `<figure class="ev__img"><img src="${_evEsc(m.src)}" width="${+m.w || 960}" height="${+m.h || 540}" loading="lazy" decoding="async" alt="${_evEsc(m.alt || '')}">${m.credit ? `<figcaption class="ev__credit">Photo: ${m.credit_url ? `<a href="${_evEsc(m.credit_url)}" target="_blank" rel="noopener">${_evEsc(m.credit)}</a>` : _evEsc(m.credit)}</figcaption>` : ''}</figure>`; };
   // the whole box opens the event page (links / buttons inside keep their own target)
   document.addEventListener('click', ev => { const b = ev.target.closest('[data-ev-href]'); if (!b || ev.target.closest('a, button') || (getSelection && String(getSelection()))) return;
     window.open(b.dataset.evHref, '_blank', 'noopener'); });
-  return { CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { EVREG, CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav };
 })();
