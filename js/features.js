@@ -148,8 +148,8 @@
       let b = cta.querySelector('.fav-pill');
       if (!b) {
         b = document.createElement('button'); b.type = 'button'; b.className = 'pill-btn dark fav-pill'; b.dataset.i18nSkip = '';
-        const after = cta.querySelector('[data-cta="website"]') || cta.querySelector('#reserve');   // right after Website (or where it would be)
-        if (after) after.after(b); else cta.prepend(b); setBtn(b, isFav(pageCity(), id));
+        const after = cta.querySelector('[data-cta="website"]') || cta.querySelector('#reserve');   // row 1: right after Website (or Reserve)
+        if (after) after.after(b); else (cta.querySelector('.dcta__row:last-child') || cta).prepend(b);   // no row 1: first on the Instagram / Directions row setBtn(b, isFav(pageCity(), id));
       } else if (b.getAttribute('aria-pressed') !== String(isFav(pageCity(), id))) setBtn(b, isFav(pageCity(), id));
       panel();
     }

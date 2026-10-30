@@ -45,7 +45,7 @@
     const src = prof ? `https://www.instagram.com/${igHandle}/embed/` : hp.url.replace(/\/$/, '') + '/embed/';
     top.insertAdjacentHTML('afterbegin', `<div class="dhero__ig" aria-hidden="true"><iframe src="${esc(src)}" title="" tabindex="-1" loading="eager" scrolling="no"></iframe></div>`);
     const box = top.querySelector('.dhero__ig'), fr = box.querySelector('iframe');
-    const fit = () => TG.fitIg(box, fr, prof ? 'igprofile' : 'igpost');
+    const fit = () => TG.fitIg(box, fr, prof ? 'igprofile' : 'ighero');
     fit(); addEventListener('resize', fit);
     const cr = $('.dhero .credit'); if (cr) cr.innerHTML = `Photo: <a href="${esc(prof ? `https://www.instagram.com/${igHandle}/` : hp.url)}" target="_blank" rel="noopener">${igHandle ? '@' + esc(igHandle) : 'Instagram'}</a> on Instagram`;
   };
@@ -191,11 +191,11 @@
     });
   }
   $('#right').innerHTML = `
-    <div class="dcta">
+    <div class="dcta"><div class="dcta__row">
       ${resv ? `<a class="pill-btn reserve" id="reserve" href="${esc(resv.href)}" ${resv.href.startsWith('tel:') ? '' : 'target="_blank" rel="noopener"'}>${resv.label}</a>` : ''}
-      ${r.website ? `<a class="pill-btn dark" data-cta="website" href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : ''}
-      ${r.instagram ? `<a class="pill-btn dark" href="${esc(r.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ''}
-      <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions</a></div>
+      ${r.website ? `<a class="pill-btn dark" data-cta="website" href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : ''}</div><div class="dcta__row">
+      ${r.instagram ? `<a class="pill-btn dark" data-cta="instagram" href="${esc(r.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ''}
+      <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions</a></div></div>
     ${r.reservation_url ? `<p class="resv-note">Books via ${esc(r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url))}, as linked on the restaurant's own website.</p>` : (resv ? `<p class="resv-note">No online booking link found — ${resv.href.startsWith('tel:') ? 'book by phone' : 'see the restaurant’s website'}.</p>` : '')}
     <div class="dmap" id="dmap"></div>
     <p class="dmap-cap">${esc(hoodLine)}</p>`;

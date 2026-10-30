@@ -266,7 +266,7 @@
     root.innerHTML = `<div class="qz__scrim" data-qz-close></div>
       <div class="qz__sheet" role="dialog" aria-modal="true" aria-labelledby="qz-title">
         <div class="qz__bar">
-          <button class="qz__back" type="button" data-qz-back aria-label="Back"><svg viewBox="0 0 46 12" aria-hidden="true"><path d="M46 6H1M6 1 1 6l5 5"/></svg><span>Back</span></button>
+          <button class="qz__back" type="button" data-qz-back aria-label="Back"><span>Back</span></button>
           <div class="qz__dots" aria-hidden="true"></div>
           <button class="qz__x" type="button" data-qz-close aria-label="Close">Close</button>
         </div>

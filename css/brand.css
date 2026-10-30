@@ -189,6 +189,9 @@ button,input,select{font-family:inherit}
 .arrow:hover:not(:disabled){border-color:currentColor}
 .arrow:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .arrow:disabled{opacity:.25;cursor:default}
+/* carousel controls are plain words (no arrows): small caps like the other text buttons; phones swipe instead (the next card peeks in) */
+.arrow span{display:block;padding:0 10px;font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase;line-height:1}
+@media (max-width:640px){.section__head .arrow{display:none}.section__head{justify-content:center}}
 .rule{display:block;width:46px;height:1px;background:currentColor;opacity:.6}
 .carousel,.carousel-x{cursor:grab;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
 .carousel.dragging,.carousel-x.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto;user-select:none}

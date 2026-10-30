@@ -74,6 +74,7 @@ const TG = (() => {
     const W = box.clientWidth, H = box.clientHeight; if (!W || !H) return;
     let k, x, y;
     if (kind === 'igprofile') { k = Math.max(W / 179, H / 130); x = W / 2 - 89.5 * k; y = H / 2 - 247 * k; fr.style.height = '700px'; }
+    else if (kind === 'ighero') { k = Math.max(W / 540, H / 540); x = (W - 540 * k) / 2; y = (H - 540 * k) / 2 - 54 * k; fr.style.height = (54 + 675 + 260) + 'px'; }   // place hero: cover a square, so a square post never shows the embed's caption bar below the photo on tall phone screens
     else { k = Math.max(W / 540, H / 675); x = (W - 540 * k) / 2; y = (H - 675 * k) / 2 - 54 * k; fr.style.height = (54 + 675 + 260) + 'px'; }
     fr.style.width = '540px'; fr.style.transform = `translate(${x}px, ${y}px) scale(${k})`;
   }

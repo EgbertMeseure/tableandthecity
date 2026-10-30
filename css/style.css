@@ -115,7 +115,22 @@ body.detail{background:#faf8f4}
 .soonbox{border:1px dashed var(--ink,#111);border-radius:18px;padding:12px 16px;font-size:13px;margin:16px 0;line-height:1.5}
 .soonbox a{display:inline-block;margin-top:4px}
 .conflict{border:1px dashed #a33;border-radius:18px;padding:12px 16px;font-size:13px;margin:16px 0;background:#fff6f4}
-.dcta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+/* place page actions: two fixed rows (js/detail.js), row 1 Reserve · Website · My table icon, row 2 Instagram · Directions;
+   desktop keeps the natural pill widths, phones share each row's width so it never wraps into a third row */
+.dcta{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:18px}
+.dcta__row{display:flex;gap:12px;flex-wrap:nowrap;max-width:100%}
+.dcta__row:not(:has(*)){display:none}
+@media (max-width:640px){
+  .dcta{align-items:stretch;gap:10px}
+  .dcta__row{gap:10px}
+  .dcta .dcta__row>.pill-btn{flex:1 1 auto;min-width:0;padding:0 14px;white-space:nowrap}
+  .dcta .dcta__row>.pill-btn:not(.fav-pill){overflow:hidden;text-overflow:ellipsis;display:block;line-height:42px;text-align:center}
+  .dcta .dcta__row>.fav-pill{flex:0 0 64px;padding:0}
+}
+/* very narrow phones (320–370px) with long labels (e.g. German 'Schon da gewesen'): the place column never grows past the screen */
+@media (max-width:640px){#right{min-width:0;max-width:100%}.mt-seg{max-width:100%}div.mt-seg button{min-width:0}}
+@media (max-width:370px){div.mt-seg button{flex:1 1 auto;padding:4px 10px;height:auto;min-height:34px;white-space:normal;line-height:1.2;letter-spacing:.05em}}
+@media (max-width:370px){.dcta__row{gap:8px}.dcta .dcta__row>.pill-btn{padding:0 8px;font-size:10.5px;letter-spacing:.08em}.dcta .dcta__row>.fav-pill{flex-basis:52px}}
 .dcta .pill-btn.dark{background:#111;color:#fff}
 .dcta .pill-btn.dark:hover{background:var(--accent);color:#111;border-color:var(--accent)}
 
@@ -462,7 +477,6 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz__bar{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;padding:16px 20px;border-bottom:1px solid var(--hairline);flex:none}
 .qz__back,.qz__x{background:none;border:0;cursor:pointer;color:inherit;font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase;padding:8px 0;display:inline-flex;align-items:center;gap:8px;min-height:40px}
 .qz__back{justify-self:start}.qz__x{justify-self:end}
-.qz__back svg{width:30px;height:10px;stroke:currentColor;fill:none;stroke-width:1}
 .qz__dots{display:flex;gap:7px}
 .qz__dots i{width:7px;height:7px;border-radius:50%;border:1px solid var(--ink)}
 .qz__dots i.done{background:var(--ink)}
