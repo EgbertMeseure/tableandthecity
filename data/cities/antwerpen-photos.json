@@ -2154,26 +2154,6 @@
     "src": "https://aahaar.com/res-img/web-upload/s1.jpg"
    }
   },
-  "osm-aan-het-strand-van-oostende-n5051913247": {
-   "photos": [
-    {
-     "src": "https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg",
-     "thumb": "https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg",
-     "w": 756,
-     "h": 1134,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
-     "credit": "aanhetstrandvanoostende.be",
-     "credit_url": "https://aanhetstrandvanoostende.be/",
-     "alt": ""
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "https://aanhetstrandvanoostende.be/wp-content/uploads/2024/07/11.jpg"
-   }
-  },
   "osm-aari-thai-n4434106317": {
    "hold": "no people-free photo found (research): website has no usable large images (only a wallpaper pattern)"
   },
@@ -8039,9 +8019,6 @@
   },
   "osm-the-coffee-corner-n13514726697": {
    "hold": "no people-free photo found (research): no source in data; quick search found none"
-  },
-  "osm-the-dough-bar-n6253448922": {
-   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_COMMON_NAME_INVALID); no Instagram on record"
   },
   "osm-the-garden-n13517338099": {
    "hold": "no people-free photo found (research): no usable photos: website images look AI-generated/render; site match also unsure"

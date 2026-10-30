@@ -191,6 +191,86 @@
    "reason": "OSM cuisine=american (burger / American diner); user decision 30 Oct 2026: remove the 3 Gent burger places",
    "source": "https://www.openstreetmap.org/node/12703057611",
    "added": "2026-10-30"
+  },
+  "node/6253448922": {
+   "id": "osm-the-dough-bar-n6253448922",
+   "name": "The Dough Bar",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: American); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/6253448922",
+   "added": "2026-10-30"
+  },
+  "node/5051913247": {
+   "id": "osm-aan-het-strand-van-oostende-n5051913247",
+   "name": "Aan het strand van Oostende",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Burgers, Pasta, International, Tapas); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/5051913247",
+   "added": "2026-10-30"
+  },
+  "node/5343845810": {
+   "id": "osm-broebbeleir-n5343845810",
+   "name": "Broebbeleir",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Burgers); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/5343845810",
+   "added": "2026-10-30"
+  },
+  "node/4030010491": {
+   "id": "osm-l-amour-fou-n4030010491",
+   "name": "L'Amour Fou",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Burgers); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/4030010491",
+   "added": "2026-10-30"
+  },
+  "node/10795142257": {
+   "id": "osm-tasty-break-n10795142257",
+   "name": "Tasty Break",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Regional, Burgers); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/10795142257",
+   "added": "2026-10-30"
+  },
+  "node/12558864301": {
+   "id": "osm-zouzou-n12558864301",
+   "name": "ZouZou",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Brunch, Burgers); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/12558864301",
+   "added": "2026-10-30"
+  },
+  "node/2514211608": {
+   "id": "osm-eat-well-n2514211608",
+   "name": "Eat Well",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Sandwiches, Burgers, Pasta); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/2514211608",
+   "added": "2026-10-30"
+  },
+  "node/2471872601": {
+   "id": "osm-emile-bistro-n2471872601",
+   "name": "Émile Bistro",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Belgian, Breakfast, Lunch, Burgers, Regional, Fish and chips, Bistro); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/2471872601",
+   "added": "2026-10-30"
+  },
+  "node/4262247207": {
+   "id": "osm-quartier-leopold-n4262247207",
+   "name": "Quartier Leopold",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Brasserie, French, Burgers); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/4262247207",
+   "added": "2026-10-30"
+  },
+  "node/10764515717": {
+   "id": "osm-fernand-obb-delicatessen-n10764515717",
+   "name": "Fernand Obb Delicatessen",
+   "kind": "junk",
+   "reason": "burger place (cuisine tags: Burgers, Belgian); user decision 30 Oct 2026: remove the remaining burger places in Brussels and Antwerp",
+   "source": "https://www.openstreetmap.org/node/10764515717",
+   "added": "2026-10-30"
   }
  },
  "pizzaKebabKeep": {
@@ -198,11 +278,6 @@
    "id": "osm-graan-n4477832548",
    "name": "Graan",
    "reason": "OSM cuisine=pizza, but graan.info shows no pizza (menu page 404); kept until a source shows pizza is the main thing (decision 26 Oct 2026)"
-  },
-  "node/5051913247": {
-   "id": "osm-aan-het-strand-van-oostende-n5051913247",
-   "name": "Aan het strand van Oostende",
-   "reason": "beach restaurant with a broad menu (burger;pasta;international;tapas); sit-down, kept (decision 29 Oct 2026)"
   },
   "node/13641109374": {
    "id": "osm-kiekenpaleis-n13641109374",
@@ -218,21 +293,6 @@
    "id": "osm-de-poulin-w146607701",
    "name": "De Poulin",
    "reason": "sit-down chicken restaurant, not a fried-chicken shop; kept (decision 29 Oct 2026)"
-  },
-  "node/10764515717": {
-   "id": "osm-fernand-obb-delicatessen-n10764515717",
-   "name": "Fernand Obb Delicatessen",
-   "reason": "delicatessen known for croquettes, not a burger joint; kept (decision 29 Oct 2026)"
-  },
-  "node/4030010491": {
-   "id": "osm-l-amour-fou-n4030010491",
-   "name": "L'Amour Fou",
-   "reason": "café-brasserie that also serves burgers; kept (decision 29 Oct 2026)"
-  },
-  "node/5343845810": {
-   "id": "osm-broebbeleir-n5343845810",
-   "name": "Broebbeleir",
-   "reason": "beer café-restaurant that also serves burgers; kept (decision 29 Oct 2026)"
   }
  }
 }
