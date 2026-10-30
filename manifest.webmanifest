@@ -1,0 +1,22 @@
+{
+ "id": "./",
+ "name": "Table and the City",
+ "short_name": "Table & City",
+ "description": "A curated guide to the city's best tables: fine dining, bistros, new openings, veggie & vegan and chef events.",
+ "lang": "en",
+ "dir": "ltr",
+ "start_url": "./?source=pwa",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "theme_color": "#0b0b0b",
+ "background_color": "#0b0b0b",
+ "categories": ["food", "travel", "lifestyle"],
+ "icons": [
+  {"src": "img/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+  {"src": "img/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+  {"src": "img/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+  {"src": "img/icons/icon-maskable-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "maskable"},
+  {"src": "img/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+ ]
+}

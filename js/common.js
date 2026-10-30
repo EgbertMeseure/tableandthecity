@@ -477,7 +477,7 @@ const TG = (() => {
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
       <a class="logo logo--foot" href="${cityUrl('guide.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
       <div class="family">Part of the <i style="font-family:var(--serif-it);text-transform:none;font-size:15px;letter-spacing:.02em">… and the City</i> family<br>${fam}</div>
-      <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="#top">Back to top ↑</a></div>
+      <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="#top">Back to top ↑</a><a href="privacy.html" class="foot-privacy">Privacy</a></div>
       <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span><span>Ratings: Google</span><span class="visits" data-visits hidden></span></div>`);
   }
 
