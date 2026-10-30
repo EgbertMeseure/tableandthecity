@@ -200,7 +200,7 @@
   const nPh = lbList.length, t0 = heroPh ? 1 : 0, thumbs = lbList.slice(t0, t0 + 3);
   const nTxt = n => n === 1 ? '1 photo' : `${n} photos`;
   const tile = (p, k, lab) => `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(p.thumb || p.src)}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${lab ? `<span class="dphotos__lab">${lab}</span>` : ''}</button>`;
-  if (r.photoLayout === 'mix' && nPh) {
+  if (r.photoLayout === 'mix' && nPh > 1) {   // a single photo is the hero already: no section
     // food first (up to 3 side by side), then the inside (or staff at work) and the outside next to each other; every tile opens the light box
     const ix = lbList.map((p, k) => [p, k]);
     const food = ix.filter(([p]) => p.category === 'food' || p.category === 'drink').slice(0, 3);

@@ -910,3 +910,4 @@ a.card.bw-host{position:relative}
   .clog li{grid-template-columns:1fr;gap:2px;padding:12px 0}
   .clog time{padding-top:0}
 }
+.dhero__ig{display:none!important}   /* an Instagram embed is never the hero (it showed through under the hero on phones) */
