@@ -606,7 +606,7 @@
 "“Near me” asks for your location only when you tap it and you allow it. The position is used on your device to sort places by distance and is never sent to us.": "“In de buurt” vraagt je locatie alleen als je erop tikt en het toestaat. De positie wordt op je toestel gebruikt om adressen op afstand te sorteren en wordt nooit naar ons gestuurd.",
 "The Directions button opens Google Maps; from there, Google’s own privacy policy applies.": "De knop Route opent Google Maps; vanaf dan geldt het privacybeleid van Google.",
 "Visit counter": "Bezoekersteller",
-"The footer shows a public visit counter run by Abacus (abacus.jasoncameron.dev). At most once a day your browser sends an anonymous request that adds one to the total. No cookie or identifier is used; like any web server, Abacus sees your IP address.": "Onderaan staat een publieke bezoekersteller van Abacus (abacus.jasoncameron.dev). Hoogstens één keer per dag stuurt je browser een anoniem verzoek dat het totaal met één verhoogt. Er wordt geen cookie of ID gebruikt; zoals elke webserver ziet Abacus je IP-adres.",
+"We keep an anonymous visit counter run by Abacus (abacus.jasoncameron.dev); it is not shown on the site. At most once a day your browser sends an anonymous request that adds one to the total. No cookie or identifier is used; like any web server, Abacus sees your IP address.": "We houden een anonieme bezoekersteller bij via Abacus (abacus.jasoncameron.dev); die wordt niet op de site getoond. Hoogstens één keer per dag stuurt je browser een anoniem verzoek dat het totaal met één verhoogt. Er wordt geen cookie of ID gebruikt; zoals elke webserver ziet Abacus je IP-adres.",
 "Other content from third parties": "Andere inhoud van derden",
 "Fonts load from Google Fonts and the map library from unpkg.com. Some restaurant photos load from Google (Places photos), and some place pages embed Instagram posts or profiles; Instagram (Meta) may set its own cookies inside that embed. These providers receive your IP address when your browser loads their content.": "Lettertypes komen van Google Fonts en de kaartbibliotheek van unpkg.com. Sommige restaurantfoto’s worden van Google geladen (Places-foto’s) en sommige adrespagina’s tonen ingesloten Instagram-posts of -profielen; Instagram (Meta) kan daarin eigen cookies plaatsen. Deze aanbieders ontvangen je IP-adres wanneer je browser hun inhoud laadt.",
 "Stored on your device": "Opgeslagen op je toestel",
@@ -669,5 +669,13 @@
 "With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Met “Wil ik heen met…” stuur je iemand een link naar een adres. De voornaam die je typt staat alleen in die link en wordt op je toestel bewaard; hij wordt nooit naar ons gestuurd.",
 "Several names? Separate them with a comma. The one link works for all of them.": "Meerdere namen? Scheid ze met een komma. Eén link werkt voor iedereen.",
 "Previous": "Vorige",
-"Next": "Volgende"
+"Next": "Volgende",
+"Data:": "Gegevens:",
+"© OpenStreetMap contributors": "© OpenStreetMap-bijdragers",
+"Footer": "Voettekst",
+"Sources:": "Bronnen:",
+"MICHELIN Guide, Gault&Millau, the places’ own websites and local press.": "MICHELIN-gids, Gault&Millau, de eigen websites van de zaken en de lokale pers.",
+"Base list:": "Basislijst:",
+"Veggie levels: our own checks plus HappyCow.": "Veggie-niveaus: eigen controles plus HappyCow.",
+"Ratings: Google, shown as a score out of 10.": "Beoordelingen: Google, getoond als score op 10."
 };

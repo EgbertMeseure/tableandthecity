@@ -606,7 +606,7 @@
 "“Near me” asks for your location only when you tap it and you allow it. The position is used on your device to sort places by distance and is never sent to us.": "« Près de moi » ne demande votre position que si vous appuyez dessus et l’autorisez. Elle sert sur votre appareil à trier les adresses par distance et ne nous est jamais envoyée.",
 "The Directions button opens Google Maps; from there, Google’s own privacy policy applies.": "Le bouton Itinéraire ouvre Google Maps ; la politique de confidentialité de Google s’applique alors.",
 "Visit counter": "Compteur de visites",
-"The footer shows a public visit counter run by Abacus (abacus.jasoncameron.dev). At most once a day your browser sends an anonymous request that adds one to the total. No cookie or identifier is used; like any web server, Abacus sees your IP address.": "Le pied de page affiche un compteur de visites public géré par Abacus (abacus.jasoncameron.dev). Au plus une fois par jour, votre navigateur envoie une requête anonyme qui ajoute un au total. Aucun cookie ni identifiant n’est utilisé ; comme tout serveur web, Abacus voit votre adresse IP.",
+"We keep an anonymous visit counter run by Abacus (abacus.jasoncameron.dev); it is not shown on the site. At most once a day your browser sends an anonymous request that adds one to the total. No cookie or identifier is used; like any web server, Abacus sees your IP address.": "Nous tenons un compteur de visites anonyme géré par Abacus (abacus.jasoncameron.dev) ; il n’est pas affiché sur le site. Au plus une fois par jour, votre navigateur envoie une requête anonyme qui ajoute un au total. Aucun cookie ni identifiant n’est utilisé ; comme tout serveur web, Abacus voit votre adresse IP.",
 "Other content from third parties": "Autres contenus de tiers",
 "Fonts load from Google Fonts and the map library from unpkg.com. Some restaurant photos load from Google (Places photos), and some place pages embed Instagram posts or profiles; Instagram (Meta) may set its own cookies inside that embed. These providers receive your IP address when your browser loads their content.": "Les polices viennent de Google Fonts et la bibliothèque de cartes d’unpkg.com. Certaines photos de restaurants sont chargées depuis Google (photos Places) et certaines fiches intègrent des publications ou profils Instagram ; Instagram (Meta) peut y déposer ses propres cookies. Ces fournisseurs reçoivent votre adresse IP lorsque votre navigateur charge leur contenu.",
 "Stored on your device": "Stocké sur votre appareil",
@@ -669,5 +669,13 @@
 "With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Avec « À découvrir avec… », vous envoyez à un ami le lien d’une adresse. Le prénom que vous saisissez figure seulement dans ce lien et est enregistré sur votre appareil ; il ne nous est jamais envoyé.",
 "Several names? Separate them with a comma. The one link works for all of them.": "Plusieurs prénoms ? Séparez-les par une virgule. Un seul lien suffit pour tous.",
 "Previous": "Précédent",
-"Next": "Suivant"
+"Next": "Suivant",
+"Data:": "Données :",
+"© OpenStreetMap contributors": "© les contributeurs d’OpenStreetMap",
+"Footer": "Pied de page",
+"Sources:": "Sources :",
+"MICHELIN Guide, Gault&Millau, the places’ own websites and local press.": "Guide MICHELIN, Gault&Millau, les sites des établissements et la presse locale.",
+"Base list:": "Liste de base :",
+"Veggie levels: our own checks plus HappyCow.": "Niveaux veggie : nos propres vérifications et HappyCow.",
+"Ratings: Google, shown as a score out of 10.": "Notes : Google, affichées sur 10."
 };

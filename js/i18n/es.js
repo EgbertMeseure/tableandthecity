@@ -606,7 +606,7 @@
 "“Near me” asks for your location only when you tap it and you allow it. The position is used on your device to sort places by distance and is never sent to us.": "“Cerca de mí” solo pide tu ubicación cuando lo pulsas y lo permites. La posición se usa en tu dispositivo para ordenar los sitios por distancia y nunca se nos envía.",
 "The Directions button opens Google Maps; from there, Google’s own privacy policy applies.": "El botón Cómo llegar abre Google Maps; a partir de ahí se aplica la política de privacidad de Google.",
 "Visit counter": "Contador de visitas",
-"The footer shows a public visit counter run by Abacus (abacus.jasoncameron.dev). At most once a day your browser sends an anonymous request that adds one to the total. No cookie or identifier is used; like any web server, Abacus sees your IP address.": "El pie de página muestra un contador de visitas público de Abacus (abacus.jasoncameron.dev). Como máximo una vez al día tu navegador envía una petición anónima que suma uno al total. No se usa ninguna cookie ni identificador; como cualquier servidor web, Abacus ve tu dirección IP.",
+"We keep an anonymous visit counter run by Abacus (abacus.jasoncameron.dev); it is not shown on the site. At most once a day your browser sends an anonymous request that adds one to the total. No cookie or identifier is used; like any web server, Abacus sees your IP address.": "Llevamos un contador de visitas anónimo de Abacus (abacus.jasoncameron.dev); no se muestra en la web. Como máximo una vez al día tu navegador envía una petición anónima que suma uno al total. No se usa ninguna cookie ni identificador; como cualquier servidor web, Abacus ve tu dirección IP.",
 "Other content from third parties": "Otros contenidos de terceros",
 "Fonts load from Google Fonts and the map library from unpkg.com. Some restaurant photos load from Google (Places photos), and some place pages embed Instagram posts or profiles; Instagram (Meta) may set its own cookies inside that embed. These providers receive your IP address when your browser loads their content.": "Las fuentes se cargan desde Google Fonts y la librería de mapas desde unpkg.com. Algunas fotos de restaurantes vienen de Google (fotos de Places) y algunas fichas incluyen publicaciones o perfiles de Instagram; Instagram (Meta) puede poner sus propias cookies en ese contenido. Estos proveedores reciben tu dirección IP cuando tu navegador carga su contenido.",
 "Stored on your device": "Guardado en tu dispositivo",
@@ -669,5 +669,13 @@
 "With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Con «Quiero ir con…» envías a alguien un enlace a un sitio. El nombre que escribes solo va en ese enlace y se guarda en tu dispositivo; nunca se nos envía.",
 "Several names? Separate them with a comma. The one link works for all of them.": "¿Varios nombres? Sepáralos con una coma. Un solo enlace sirve para todos.",
 "Previous": "Anterior",
-"Next": "Siguiente"
+"Next": "Siguiente",
+"Data:": "Datos:",
+"© OpenStreetMap contributors": "© colaboradores de OpenStreetMap",
+"Footer": "Pie de página",
+"Sources:": "Fuentes:",
+"MICHELIN Guide, Gault&Millau, the places’ own websites and local press.": "Guía MICHELIN, Gault&Millau, las webs de los propios locales y la prensa local.",
+"Base list:": "Lista base:",
+"Veggie levels: our own checks plus HappyCow.": "Niveles veggie: comprobaciones propias y HappyCow.",
+"Ratings: Google, shown as a score out of 10.": "Valoraciones: Google, mostradas como nota sobre 10."
 };
