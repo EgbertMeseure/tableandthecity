@@ -1236,5 +1236,21 @@
   "photographer_url": "https://screwit.be/products/tickets-art-wine-tasting",
   "source": "https://screwit.be/cdn/shop/files/1080x1350_Winetasting-InstaBericht_1500x.jpg?v=1789475041 (from https://screwit.be/products/tickets-art-wine-tasting)",
   "license": "Organiser's / event page's own promotional image, credited and linked in the event box; cropped to 16:9, 960×540 webp"
+ },
+ {
+  "file": "img/events/kinky-star-concerts.webp",
+  "title": "Kinky Star logo card (no people)",
+  "photographer": "Kinky Star (kinkystar.com)",
+  "photographer_url": "https://www.kinkystar.com/",
+  "source": "https://www.kinkystar.com/static/images/og-default.png (site share image)",
+  "license": "Venue's own promotional image, credited and linked in the event box; cropped to 16:9, 960×540 webp"
+ },
+ {
+  "file": "img/events/de-salopette-concerts.webp",
+  "title": "De Salopette logo (no people)",
+  "photographer": "De Salopette (de-salopette.be)",
+  "photographer_url": "https://de-salopette.be",
+  "source": "https://primary.jwwb.nl/public/p/j/u/temp-tojorieqhhyhpqhsmjgm/img_5722-high.jpg (site share image)",
+  "license": "Venue's own promotional image, credited and linked in the event box; placed on a light 16:9 background, 960×540 webp"
  }
 ]

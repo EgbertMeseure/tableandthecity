@@ -1,0 +1,19 @@
+{
+ "about": "Live music layer: places already on the guide with sourced RECURRING live music (concerts, jazz nights, jam sessions); dated gigs (Nov 2026 on) are added to the place's events. Never overrides curated / OSM data. Built 30 Oct 2026 (preview-live-music).",
+ "city": "antwerpen",
+ "count": 2,
+ "places": {
+  "kellys": {
+   "note": "Live music every weekend",
+   "source": "https://www.kellysantwerp.be/",
+   "basis": "Own site: 'Every weekend live music at Kelly's'",
+   "checked": "2026-10-30"
+  },
+  "osm-hopper-n1635538634": {
+   "note": "Monthly jazz concerts",
+   "source": "https://www.cafehopper.be",
+   "basis": "Own site: jazz line-ups and a monthly mailing list 'van al onze concerten'",
+   "checked": "2026-10-30"
+  }
+ }
+}

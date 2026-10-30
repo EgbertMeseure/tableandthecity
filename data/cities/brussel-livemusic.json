@@ -1,0 +1,31 @@
+{
+ "about": "Live music layer: places already on the guide with sourced RECURRING live music (concerts, jazz nights, jam sessions); dated gigs (Nov 2026 on) are added to the place's events. Never overrides curated / OSM data. Built 30 Oct 2026 (preview-live-music).",
+ "city": "brussel",
+ "count": 4,
+ "places": {
+  "l-archiduc": {
+   "note": "Live jazz every weekend",
+   "source": "https://www.archiduc.net/",
+   "basis": "Own site: 'Live Music Every Weekend' — Saturday's Jazz After Shopping 17:00–19:00 and Sunday concerts",
+   "checked": "2026-10-30"
+  },
+  "le-corbeau": {
+   "note": "Concerts on Friday and Saturday nights",
+   "source": "https://lecorbeau1875.be/",
+   "basis": "Own site: 'Les vendredis et samedis soirs … concerts'",
+   "checked": "2026-10-30"
+  },
+  "osm-cafe-central-n11390036402": {
+   "note": "Concerts and DJ sets most nights",
+   "source": "https://www.brusselslife.be/en/le-cafe-central",
+   "basis": "brusselslife.be: 'concerts que de sets de DJ, chaque jour de la semaine'",
+   "checked": "2026-10-30"
+  },
+  "osm-la-source-n8586364197": {
+   "note": "Regular free concerts",
+   "source": "https://lasourcebeer.be/",
+   "basis": "Own site: 'free concerts are regularly organized'",
+   "checked": "2026-10-30"
+  }
+ }
+}

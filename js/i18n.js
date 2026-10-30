@@ -40,6 +40,7 @@
     [/^([\d,.]+) upcoming events & collaborations$/, '{n} upcoming events & collaborations', ['n']],
     [/^([\d,.]+) fully vegan · ([\d,.]+) vegetarian · ([\d,.]+) with veggie options$/, '{a} fully vegan · {b} vegetarian · {c} with veggie options', ['a', 'b', 'c']],
     [/^All places in (.+)$/, 'All places in {city}', ['city']],
+    [/^Live music in (.+)$/, 'Live music in {city}', ['city']],
     [/^(.+) restaurants in (.+)$/, '{x} restaurants in {city}', ['x', 'city']],
     [/^All (.+), ([\d,.]+)$/, 'All {x}, {n}', ['x', 'n']],
     [/^([\d,.]+) photos$/, '{n} photos', ['n']],

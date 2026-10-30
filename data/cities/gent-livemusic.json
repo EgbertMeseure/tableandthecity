@@ -1,0 +1,227 @@
+{
+ "about": "Live music layer: places already on the guide with sourced RECURRING live music (concerts, jazz nights, jam sessions); dated gigs (Nov 2026 on) are added to the place's events. Never overrides curated / OSM data. Built 30 Oct 2026 (preview-live-music).",
+ "city": "gent",
+ "count": 3,
+ "places": {
+  "charlatan": {
+   "note": "Concerts on Wednesday and Thursday",
+   "source": "https://www.charlatan.be/praktisch-yblx",
+   "basis": "Own site: 'concerten op woensdag en donderdag' (plus comedy on Tuesday, DJ nights Wed–Sat)",
+   "events": [
+    {
+     "id": "lm-charlatan-1",
+     "title": "Floris Francis Arthur (band) + Maya Teklal",
+     "dateStart": "2026-11-04",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Charlatan, Vlasmarkt 6, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.charlatan.be/agenda",
+      "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
+     ],
+     "note": "21:00 · release show of the third album"
+    },
+    {
+     "id": "lm-charlatan-2",
+     "title": "West Coast Caravan + Prekowski",
+     "dateStart": "2026-11-11",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Charlatan, Vlasmarkt 6, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.charlatan.be/agenda",
+      "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
+     ],
+     "note": "20:00"
+    },
+    {
+     "id": "lm-charlatan-3",
+     "title": "Wies",
+     "dateStart": "2026-11-12",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Charlatan, Vlasmarkt 6, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.charlatan.be/agenda",
+      "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
+     ],
+     "note": "Concert"
+    },
+    {
+     "id": "lm-charlatan-4",
+     "title": "Elle Fray + Eno",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Charlatan, Vlasmarkt 6, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.charlatan.be/agenda",
+      "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
+     ],
+     "note": "20:30"
+    },
+    {
+     "id": "lm-charlatan-5",
+     "title": "Hollywood Bowl – The Doors tribute",
+     "dateStart": "2026-12-10",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Charlatan, Vlasmarkt 6, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.charlatan.be/agenda",
+      "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
+     ],
+     "note": "21:00"
+    }
+   ],
+   "checked": "2026-10-30"
+  },
+  "kinky-star": {
+   "note": "Free concerts several nights a week",
+   "source": "https://www.kinkystar.com/nl",
+   "basis": "Own agenda: concerts most nights, entry 'Gratis'",
+   "events": [
+    {
+     "id": "lm-kinky-star-1",
+     "title": "Luminous Fest: Saumon Sauvage (BE) + People Who Died (BE)",
+     "dateStart": "2026-11-06",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl"
+     ],
+     "note": "21:00 · free",
+     "image": {
+      "src": "img/events/kinky-star-concerts.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Kinky Star logo (event image)",
+      "credit": "Kinky Star (kinkystar.com)",
+      "credit_url": "https://www.kinkystar.com/"
+     }
+    },
+    {
+     "id": "lm-kinky-star-2",
+     "title": "Dark Entries: Darkvolt (BE) + The Ordure (BE)",
+     "dateStart": "2026-11-07",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl"
+     ],
+     "note": "21:00 · free",
+     "image": {
+      "src": "img/events/kinky-star-concerts.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Kinky Star logo (event image)",
+      "credit": "Kinky Star (kinkystar.com)",
+      "credit_url": "https://www.kinkystar.com/"
+     }
+    },
+    {
+     "id": "lm-kinky-star-3",
+     "title": "KINKY KAPOT: Narkose (DE) + Landrot (BE)",
+     "dateStart": "2026-11-08",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl"
+     ],
+     "note": "21:00 · free",
+     "image": {
+      "src": "img/events/kinky-star-concerts.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Kinky Star logo (event image)",
+      "credit": "Kinky Star (kinkystar.com)",
+      "credit_url": "https://www.kinkystar.com/"
+     }
+    },
+    {
+     "id": "lm-kinky-star-4",
+     "title": "STAR TRIP: Unkle Kook (IT)",
+     "dateStart": "2026-11-12",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl"
+     ],
+     "note": "21:00 · free",
+     "image": {
+      "src": "img/events/kinky-star-concerts.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "Kinky Star logo (event image)",
+      "credit": "Kinky Star (kinkystar.com)",
+      "credit_url": "https://www.kinkystar.com/"
+     }
+    }
+   ],
+   "checked": "2026-10-30"
+  },
+  "osm-de-salopette-n6942598387": {
+   "note": "Thursday-evening concerts, about monthly",
+   "source": "https://de-salopette.be",
+   "basis": "Own site lists 'optredens' on Thursday evenings (5 Nov, 3 Dec 2026)",
+   "events": [
+    {
+     "id": "lm-de-salopette-1",
+     "title": "Silke Hamers",
+     "dateStart": "2026-11-05",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "De Salopette, Steendam 57, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://de-salopette.be"
+     ],
+     "note": "20:30",
+     "image": {
+      "src": "img/events/de-salopette-concerts.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "De Salopette logo (event image)",
+      "credit": "De Salopette (de-salopette.be)",
+      "credit_url": "https://de-salopette.be"
+     }
+    },
+    {
+     "id": "lm-de-salopette-2",
+     "title": "Line De Dauw",
+     "dateStart": "2026-12-03",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "De Salopette, Steendam 57, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://de-salopette.be"
+     ],
+     "note": "20:30",
+     "image": {
+      "src": "img/events/de-salopette-concerts.webp",
+      "w": 960,
+      "h": 540,
+      "alt": "De Salopette logo (event image)",
+      "credit": "De Salopette (de-salopette.be)",
+      "credit_url": "https://de-salopette.be"
+     }
+    }
+   ],
+   "checked": "2026-10-30"
+  }
+ }
+}
