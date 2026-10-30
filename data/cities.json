@@ -165,7 +165,8 @@
             "breakfastPlacePhoto": false
           },
           "veggie": "data/cities/brugge-veggie.json",
-          "breakfast": "data/cities/brugge-breakfast.json"
+          "breakfast": "data/cities/brugge-breakfast.json",
+          "photos": "data/cities/brugge-photos.json"
         },
         {
           "id": "oostende",
