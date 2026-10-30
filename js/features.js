@@ -67,7 +67,9 @@
     const cta = document.querySelector('#right .dcta'), id = qp(location.href, 'id');
     if (cta && id && !cta.querySelector('.fav-pill')) {
       const b = document.createElement('button'); b.type = 'button'; b.className = 'pill-btn dark fav-pill'; b.dataset.i18nSkip = '';
-      b.innerHTML = HEART(false); cta.appendChild(b); setBtn(b, isFav(pageCity(), id));
+      b.innerHTML = HEART(false);
+      const after = cta.querySelector('[data-cta="website"]') || cta.querySelector('#reserve');   // right after Website (or where it would be)
+      if (after) after.after(b); else cta.prepend(b); setBtn(b, isFav(pageCity(), id));
     }
     remButtons();
     savedNote();

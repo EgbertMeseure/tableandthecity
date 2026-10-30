@@ -470,15 +470,6 @@ Moderate | Gemiddeld | Mittel | Modéré | Moderado
 Bistros, brasseries, gastro-bistros | Bistro’s, brasserieën, gastrobistro’s | Bistros, Brasserien, Gastro-Bistros | Bistrots, brasseries, bistronomie | Bistrós, brasseries, gastrobistrós
 Fancy | Chic | Schick | Chic | Elegante
 Fine dining, gastro-bistros, Michelin stars | Fine dining, gastrobistro’s, Michelinsterren | Fine Dining, Gastro-Bistros, Michelin-Sterne | Gastronomique, bistronomie, étoiles Michelin | Alta cocina, gastrobistrós, estrellas Michelin
-How many people? | Met hoeveel? | Wie viele Personen? | Combien de personnes ? | ¿Cuántas personas?
-What’s the occasion? | Wat is de gelegenheid? | Was ist der Anlass? | Quelle occasion ? | ¿Cuál es la ocasión?
-Nothing fancy | Niets bijzonders | Nichts Besonderes | Rien de spécial | Nada especial
-Date night | Date night | Date Night | Dîner en amoureux | Cita
-Fine dining & intimate bistros first | Eerst fine dining & intieme bistro’s | Zuerst Fine Dining & intime Bistros | D’abord gastronomique & bistrots intimes | Primero alta cocina y bistrós íntimos
-A good meal out, no fuss | Gewoon lekker uit eten | Gut essen gehen, ganz entspannt | Un bon repas, sans chichis | Comer bien, sin complicaciones
-A new experience | Iets nieuws | Etwas Neues erleben | Une nouvelle expérience | Una experiencia nueva
-New openings, chef events, distinctions | Nieuwe openingen, chef-events, onderscheidingen | Neueröffnungen, Koch-Events, Auszeichnungen | Nouvelles adresses, événements de chefs, distinctions | Aperturas, eventos de chefs, distinciones
-Big group: places you can book online or by phone come first — check availability with them. | Grote groep: adressen die je online of telefonisch kunt boeken staan eerst — check de beschikbaarheid bij hen. | Große Gruppe: Adressen, die online oder telefonisch buchbar sind, zuerst — frag dort nach Verfügbarkeit. | Grand groupe : les adresses réservables en ligne ou par téléphone d’abord — vérifiez les disponibilités avec elles. | Grupo grande: primero los sitios que se reservan online o por teléfono — consulta su disponibilidad.
 What kind of bar? | Welk soort bar? | Was für eine Bar? | Quel genre de bar ? | ¿Qué tipo de bar?
 Signature drinks, mocktails | Signature drinks, mocktails | Signature-Drinks, Mocktails | Créations maison, mocktails | Cócteles de autor, mocktails
 Wine by the glass, small plates | Wijn per glas, kleine gerechtjes | Wein im Glas, kleine Teller | Vin au verre, petites assiettes | Vino por copas, platillos
@@ -539,8 +530,6 @@ Mexican, Peruvian | Mexicaans, Peruviaans | Mexikanisch, Peruanisch | Mexicaine,
 Not asked — wouldn’t change these results: | Niet gevraagd — zou deze resultaten niet veranderen: | Nicht gefragt – würde diese Ergebnisse nicht ändern: | Pas demandé — cela ne changerait pas ces résultats : | No preguntado: no cambiaría estos resultados:
 Diet | Dieet | Ernährung | Régime | Dieta
 Style | Stijl | Stil | Style | Estilo
-Group size | Groepsgrootte | Gruppengröße | Taille du groupe | Tamaño del grupo
-Occasion | Gelegenheid | Anlass | Occasion | Ocasión
 Kind of bar | Soort bar | Art der Bar | Type de bar | Tipo de bar
 What for | Waarvoor | Wofür | Pour quoi | Para qué
 Bread or sweet | Brood of zoet | Brot oder Süßes | Pain ou sucré | Pan o dulce

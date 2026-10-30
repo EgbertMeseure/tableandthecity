@@ -1,9 +1,9 @@
-/* "Find my table" – a short quiz (mood → 2–4 questions) that returns a handful of matching places.
+/* "Find my table" – a short quiz (mood → up to 6 questions, most skipped adaptively) that returns a handful of matching places.
    Lives entirely in this file + the "Find my table" section of css/style.css. Hooks: the hero button [data-quiz-open] (index.html)
    and window.TGApp (set by js/app.js once the data is loaded: places, events, the list's own filters and booking button).
    Data rules are the site's own: same place list (exclusions unchanged), veggie/vegan = the Veggie & vegan / Vegan options chips,
    opening hours via js/hours.js in Europe/Brussels (known closed on the chosen day → never shown; unknown hours → ranked lower).
-   Party size and occasion only re-rank; nothing here claims a table is available. */
+   Nothing here claims a table is available. */
 (function () {
   'use strict';
   const H = window.TGHours, esc = TG.esc;
@@ -114,15 +114,6 @@
           { v: 'fancy', l: 'Fancy', s: 'Fine dining, gastro-bistros, Michelin stars', f: STYLE.fancy }] },
         DIET_Q,
         whenQ('When?', [W.today(), W.tomorrow(), W.weekend(), W.pick()]),
-        { id: 'people', q: 'How many people?', short: 'Group size', grid: true, opts: [{ v: '2', l: '1–2' }, { v: '4', l: '3–4' }, { v: '8', l: '5–8' }, { v: '9', l: '8+' }],
-          // re-rank only: worth asking when the places left mix bookable and non-bookable ones
-          ask: L => { const b = L.filter(r => r.reservation_url).length, sh = b / L.length; return sh <= .85 && (sh >= .15 || (L.length >= 20 && b >= 5)); } },
-        { id: 'occasion', q: 'What’s the occasion?', short: 'Occasion', opts: [
-          { v: 'casual', l: 'Casual', s: 'Nothing fancy', has: r => ['casual', 'restaurant', 'brasserie'].includes(r.category) },
-          { v: 'date', l: 'Date night', s: 'Fine dining & intimate bistros first', has: r => ['fine dining', 'gastro-bistro', 'bistro'].includes(r.category) },
-          { v: 'moderate', l: 'Moderate', s: 'A good meal out, no fuss', has: r => ['bistro', 'brasserie', 'gastro-bistro'].includes(r.category) },
-          { v: 'new', l: 'A new experience', s: 'New openings, chef events, distinctions', has: r => r.isNew || r.events.length > 0 }],
-          ask: L => L.filter(r => ['casual', 'restaurant'].includes(r.category)).length / L.length <= .85 }
       ],
       relaxOrder: ['style', 'sub', 'diet'],
       adaptive: true,
@@ -131,12 +122,6 @@
         let s = base(r);
         if (a.style === 'fancy') s += (c === 'fine dining' ? 6 : c === 'gastro-bistro' ? 4 : 0) + (star ? 4 : 0);
         if (a.style === 'moderate') s += c === 'gastro-bistro' ? 3 : 2;
-        if (a.occasion === 'date') s += { 'fine dining': 5, 'gastro-bistro': 4, bistro: 3, brasserie: 1 }[c] || 0;
-        if (a.occasion === 'new') s += (r.isNew ? 10 : 0) + (r.events.length ? 4 : 0) + (['fine dining', 'gastro-bistro'].includes(c) ? 2 : 0) + (r.distinctions.michelin ? 2 : 0);
-        if (a.occasion === 'moderate') s += ['bistro', 'brasserie', 'gastro-bistro'].includes(c) ? 3 : 0;
-        if (a.occasion === 'casual') s += ['casual', 'restaurant', 'brasserie'].includes(c) ? 3 : -2;
-        if (+a.people >= 8) s += r.reservation_url ? 5 : (TG.known(r.phone) && r.phone ? 3 : 0);
-        else if (+a.people === 4) s += r.reservation_url ? 1 : 0;
         if (DIET_ON(a)) s += VR(r);
         return s;
       },
@@ -144,8 +129,7 @@
         const type = { casual: 'casual+restaurant', moderate: 'bistro+brasserie+gastro-bistro', fancy: 'fine dining+gastro-bistro' }[a.style];
         const cz = a.sub && a.sub !== 'any' ? a.sub : a.family;
         return { group: 'restaurants', ...(type ? { type } : {}), ...(cz ? { cuisine: cz } : {}), ...dietF(a) };
-      },
-      note: a => +a.people >= 8 ? 'Big group: places you can book online or by phone come first — check availability with them.' : ''
+      }
     },
     bar: {
       label: 'Bar', sub: 'Cocktails, wine, brown cafés, pubs, dancing', noun: ['bar', 'bars'], pool: r => r.group === 'cafes_bars',
@@ -382,7 +366,7 @@
     const hasPick = opts.some(o => o.pick);
     if (hasPick && !st.pick && isPick(st.a[q.id])) st.pick = { iso: st.a[q.id].slice(2), month: st.a[q.id].slice(2, 9) };   // back to a picked date
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${asked} of ${of}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
-      <div class="qz__opts${q.grid ? ' qz__opts--grid' : ''}${q.compact ? ' qz__opts--compact' : ''}">${opts.map(o => optBtn(o, q.id, C)).join('')}</div>
+      <div class="qz__opts${q.compact ? ' qz__opts--compact' : ''}">${opts.map(o => optBtn(o, q.id, C)).join('')}</div>
       ${hasPick && st.pick ? `<div class="qz-cal" role="group" aria-label="Pick a date">${calHtml(sec, q, C)}</div>` : ''}
       ${q.noSkip ? '' : '<button class="qz__skip" type="button" data-qz-skip>No preference</button>'}`);
     const cal = root.querySelector('.qz-cal');
@@ -437,7 +421,7 @@
     const { list, exactN, relaxed, near, dietMsg, dietTo } = results(sec, a, C);
     const top = list.slice(0, 6);
     const allFully = !sec.events && top.length > 1 && top.every(FULLY) ? (top.every(r => r.veggieLevel === 'vegan') ? 'All of these are fully vegan.' : 'All of these are fully vegetarian.') : '';
-    const chips = st.steps.filter(q => a[q.id] && !(q.id === 'kind' && a.kind === 'cuisine')).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') || (dietMsg && q.id === 'diet') ? ' class="relaxed"' : ''}>${esc(q.id === 'people' ? `${val(o.l, C)} people` : o.chip || val(o.l, C))}</li>`; }).join('');
+    const chips = st.steps.filter(q => a[q.id] && !(q.id === 'kind' && a.kind === 'cuisine')).map(q => { const o = isPick(a[q.id]) ? qOpt(sec, q.id, a[q.id]) : q.opts.find(x => x.v === a[q.id]); return `<li${q.relax === relaxed || (near && q.id === 'ewhen') || (dietMsg && q.id === 'diet') ? ' class="relaxed"' : ''}>${esc(o.chip || val(o.l, C))}</li>`; }).join('');
     const rq = relaxed && st.steps.find(q => q.relax === relaxed);
     const relaxLine = (dietMsg ? `<p class="qz__relax qz__relax--diet">${esc(dietMsg)}</p>` : '') + (allFully ? `<p class="qz__note qz__note--diet">${esc(allFully)}</p>` : '') + (near ? `<p class="qz__relax">${esc(near)}</p>` : rq ? `<p class="qz__relax">Only ${exactN} exact match${exactN === 1 ? '' : 'es'} — we relaxed “${esc(val(qOpt(sec, relaxed, a[relaxed]).l, C))}”.</p>` : '');
     const note = sec.note ? sec.note(a) : '';
