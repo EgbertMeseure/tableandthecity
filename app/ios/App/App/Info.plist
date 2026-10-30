@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Your location is used only when you tap “Near me”, to sort restaurants by distance. It is never sent to us.</string>
+	<string>Used to show places near you that are open now. Your location stays on your device.</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
   <key>CAPACITOR_DEBUG</key>
@@ -53,7 +53,7 @@
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
-		<string>armv7</string>
+		<string>arm64</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
