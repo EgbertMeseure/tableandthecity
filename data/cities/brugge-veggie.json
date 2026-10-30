@@ -1,15 +1,17 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "brugge",
- "count": 19,
+ "count": 23,
  "places": {
   "blackbird": {
-   "veggieLevel": "vegan-friendly",
+   "veggieLevel": "vegan",
    "sources": [
     "https://www.blackbird-bruges.com/",
-    "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/blackbird"
+    "https://brugesvegan.com/2021/08/17/295-blackbird-bruges/",
+    "https://www.happycow.net/reviews/blackbird-bruges-117705"
    ],
-   "basis": "own site: plant-based focus; Visit Bruges tag \"Vegan\""
+   "basis": "Own site / The Bruges Vegan: 100% plant-based menu",
+   "checked": "2026-10-30"
   },
   "boho-brunch": {
    "veggieLevel": "vegan-friendly",
@@ -153,6 +155,39 @@
     "https://www.gaultmillau.be/nl/restaurants/zet-joe-brugge"
    ],
    "basis": "Visit Bruges listing tag \"Vegetarian\""
+  },
+  "kosmopoliet": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.kosmopoliet.com"
+   ],
+   "basis": "Own site: 100% plant-based"
+  },
+  "magpies": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.magpies.be",
+    "https://www.openstreetmap.org/way/699786398"
+   ],
+   "basis": "Own site: 100% vegan bakery"
+  },
+  "osm-garlic-n-green-n9848715303": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://garlicngreens.com/",
+    "https://www.happycow.net/reviews/garlic-n-greens-bruges-217845"
+   ],
+   "basis": "Own site: vegan and vegetarian Indian restaurant (no meat or fish)",
+   "checked": "2026-10-30"
+  },
+  "postbar": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.happycow.net/reviews/postbar-bruges-197440",
+    "https://brugesvegan.com/2020/07/02/postbar-bruges/"
+   ],
+   "basis": "HappyCow / The Bruges Vegan: vegan soup, toast, vegan cake and oat milk",
+   "checked": "2026-10-30"
   }
  }
 }

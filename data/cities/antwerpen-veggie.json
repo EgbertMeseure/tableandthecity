@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "antwerpen",
- "count": 17,
+ "count": 32,
  "places": {
   "album": {
    "veggieLevel": "veggie-friendly",
@@ -67,12 +67,13 @@
    "basis": "Own menu page: veggie and vegan variants available"
   },
   "funk": {
-   "veggieLevel": "vegan-friendly",
+   "veggieLevel": "vegan",
    "sources": [
-    "https://visit.antwerpen.be/koffie-en-gebak",
-    "https://weekend.knack.be/lifestyle/culinair/nieuwe-koffiebars-antwerpen/"
+    "https://bakkerijfunk.com/",
+    "https://spinach.guide/venues/bakkerij-funk-114861/"
    ],
-   "basis": "Plant-based bakery (Knack, own site)"
+   "basis": "Own site: 100% plant-based bakery",
+   "checked": "2026-10-30"
   },
   "funk-berchem": {
    "veggieLevel": "vegan-friendly",
@@ -135,6 +136,138 @@
     "https://www.gaultmillau.be/ (Gault&Millau 2026 Antwerp scores)"
    ],
    "basis": "Own menu page: vegetarian tasting menus (Prikkelend/Puur Vegetarisch)"
+  },
+  "ecocafe-borgerhout": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://ecocafeborgerhout.be/",
+    "https://enchantevzw.be/nl/hartelijke-plekken/ecocafe/",
+    "https://www.happycow.net/reviews/ecocafe-antwerpen-9848"
+   ],
+   "basis": "Own site / Enchanté: fully plant-based café"
+  },
+  "momu-cafe": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.momu.be/en/cafe",
+    "https://www.happycow.net/reviews/momu-cafe-antwerpen-392615"
+   ],
+   "basis": "Fully vegan café (MoMu site, HappyCow)"
+  },
+  "piano-sano": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.happycow.net/best-vegan-restaurants/antwerpen-belgium",
+    "https://www.plantspack.com/place/vegetal-food-by-grace-antwerp",
+    "https://spinach.guide/venues/piano-sano-96545/"
+   ],
+   "basis": "Fully vegan Italian restaurant (HappyCow, PlantsPack)"
+  },
+  "foelie": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.happycow.net/reviews/foelie-antwerpen-365817",
+    "https://spinach.guide/venues/foelie-114751/",
+    "https://enchantevzw.be/nl/hartelijke-plekken/foelie/"
+   ],
+   "basis": "Vegetarian menu with many vegan options (HappyCow, Spinach)"
+  },
+  "antoinette": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.antoinette.store/",
+    "https://www.antoinette.store/aanbod"
+   ],
+   "basis": "Own site: fully vegan cakes and pastries"
+  },
+  "osm-humm-n7235151164": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.humm.love",
+    "https://www.happycow.net/europe/belgium/antwerpen/print?"
+   ],
+   "basis": "Own site: fully plant-based restaurant",
+   "checked": "2026-10-30"
+  },
+  "osm-planttrekkerij-n13607927401": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.planttrekkerij.be",
+    "https://www.happycow.net/europe/belgium/antwerpen/print?"
+   ],
+   "basis": "Own site: 100% plant-based restaurant",
+   "checked": "2026-10-30"
+  },
+  "osm-clo-n11435066279": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://clo-antwerp.be",
+    "https://www.happycow.net/europe/belgium/antwerpen/print?"
+   ],
+   "basis": "Own site: fully plant-based breakfast & lunch",
+   "checked": "2026-10-30"
+  },
+  "osm-extra-fika-n9088560699": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.extrafika.be",
+    "https://www.happycow.net/europe/belgium/antwerpen/print?"
+   ],
+   "basis": "Own site: vegetarian restaurant",
+   "checked": "2026-10-30"
+  },
+  "osm-circus-n5731284481": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://circusrestaurant.be",
+    "https://www.happycow.net/europe/belgium/antwerpen/print?"
+   ],
+   "basis": "Own site: vegetarian breakfast & lunch",
+   "checked": "2026-10-30"
+  },
+  "osm-simone-s-kitchen-n13608000901": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://simoneskitchen.com/",
+    "https://www.plantspack.com/place/simone-s-kitchen-antwerpen"
+   ],
+   "basis": "Own site: vegan, organic, plant-based menus",
+   "checked": "2026-10-30"
+  },
+  "osm-de-broers-van-julienne-n385181288": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.debroersvanjulienne.be/",
+    "https://www.debroersvanjulienne.be/locatie"
+   ],
+   "basis": "Own site: vegetarian & vegan restaurant",
+   "checked": "2026-10-30"
+  },
+  "osm-de-broers-van-julienne-n4395151353": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.debroersvanjulienne.be/locatie"
+   ],
+   "basis": "Own site: vegetarian & vegan deli (IJzerenwaag)",
+   "checked": "2026-10-30"
+  },
+  "osm-aahaar-n4592515603": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://aahaar.com/orderonline",
+    "https://www.happycow.net/reviews/aahaar-indian-cuisine-antwerpen-17022"
+   ],
+   "basis": "Own menu: vegetarian Indian cuisine (Jain/vegan options)",
+   "checked": "2026-10-30"
+  },
+  "osm-caffenation-goes-koco-n11515053186": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://caffenation.be/pages/koco-eat-dust",
+    "https://caffenation.be/blogs/news/new-bar-in-town-eat-dust-drink-coffee-plant-based"
+   ],
+   "basis": "Caffènation: fully plant-based coffee bar (KOCO)",
+   "checked": "2026-10-30"
   }
  }
 }
