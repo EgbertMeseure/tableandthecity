@@ -15,6 +15,8 @@ OPT = {a.split('=', 1)[0]: (a.split('=', 1)[1] if '=' in a else True) for a in s
 SEL = json.load(open(OPT['--sel'])); DRY = '--dry' in OPT
 BUDGET = float(OPT.get('--budget-mb', 1e9)) * 1e6
 MAXN = int(OPT.get('--max', 3))  # photos per place (hero included)
+MIX = '--mix' in OPT   # food / interior / exterior set
+ONLY = set(OPT['--ids'].split(',')) if '--ids' in OPT else None   # only rebuild these places, keep the rest as is
 REJ = {}
 for line in open(OPT['--review']) if os.path.exists(OPT.get('--review', '')) else []:
     if ':' in line and not line.lstrip().startswith('#'):
@@ -39,6 +41,7 @@ def enc(im, base, W):
     return x.size, (f.stat().st_size if not DRY else 0)
 keep_files = set()
 for pid, s in SEL.items():
+    if ONLY is not None and pid not in ONLY: continue
     rej = REJ.get(pid, set())
     if 'all' in rej or not s['show']:
         if 'all' in rej and s['show']: stats['placeholder_rejected'] += 1
@@ -46,8 +49,27 @@ for pid, s in SEL.items():
     ok = [x for x in s['show'] if str(x['n']) not in rej]
     if not ok: continue
     # hero: the first remaining landscape photo (not the exterior if there is a choice), else the first remaining one
-    land = [x for x in ok if x['w'] >= x['h'] * 1.2 and x['cat'] != 'exterior'] or [x for x in ok if x['w'] >= x['h'] * 1.2]
-    hero = (land or ok)[0]; rest = [x for x in ok if x is not hero][:MAXN - 1]
+    if MIX:   # hero = the place itself (room or outside; a landscape dish when there is no landscape venue photo);
+        # the row under the facts = food, the inside, the outside; then a drink / vibe photo as an optional extra; a 2nd of a type only when nothing else is left
+        slot = lambda x: 'food' if x['cat'] in ('food', 'drink') else x['cat']
+        L = lambda x: x['w'] >= x['h'] * 1.2
+        V = lambda x: x['cat'] in ('interior', 'exterior')
+        hero = next((x for x in ok if L(x) and x['cat'] == 'interior'), None) or next((x for x in ok if L(x) and V(x)), None) \
+            or next((x for x in ok if L(x) and x['cat'] == 'food'), None) or next((x for x in ok if V(x)), None) or ok[0]
+        rest = []
+        for want in ('food', 'interior', 'exterior'):
+            c = [x for x in ok if x['cat'] == want and x is not hero and x not in rest]
+            x = next((x for x in c if want == 'exterior' and L(x)), None) or (c or [None])[0]   # a landscape outside shot shows more of the street
+            if not x and want == 'food': x = next((x for x in ok if x['cat'] == 'drink' and x is not hero), None)
+            if x: rest.append(x)
+        rest += [x for x in ok if x is not hero and x not in rest and x['cat'] == 'drink'][:1]
+        rest += [x for x in ok if x is not hero and x not in rest and slot(x) not in {slot(y) for y in rest + [hero]}]
+        rest += [x for x in ok if x is not hero and x not in rest]
+        rest = rest[:MAXN - 1]
+    else:
+        land = [x for x in ok if x['w'] >= x['h'] * 1.2 and x['cat'] != 'exterior'] or [x for x in ok if x['w'] >= x['h'] * 1.2]
+        hero = (land or ok)[0]; rest = [x for x in ok if x is not hero][:MAXN - 1]
+    if ONLY is not None: print(pid, [(x['n'], x['cat'], f"{x['w']}x{x['h']}") for x in [hero] + rest])
     out = []; d = f'img/places/{CITY}/{pid}'
     if not DRY: os.makedirs(ROOT / d, exist_ok=True)
     for k, x in enumerate([hero] + rest, 1):

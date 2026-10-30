@@ -71,10 +71,10 @@
      "src": "img/places/gent/alberte/p1-1600.webp",
      "thumb": "img/places/gent/alberte/p1-800.webp",
      "srcset": "img/places/gent/alberte/p1-800.webp 800w, img/places/gent/alberte/p1-1600.webp 1600w",
-     "w": 1000,
-     "h": 667,
-     "category": "drink",
-     "alt": "Alberte: drinks",
+     "w": 1500,
+     "h": 1000,
+     "category": "interior",
+     "alt": "Alberte: the interior",
      "credit": "alberte-gent.be",
      "credit_url": "https://www.alberte-gent.be/",
      "license": "the place's own photo",
@@ -100,9 +100,23 @@
      "thumb": "img/places/gent/alberte/p3-500.webp",
      "srcset": "img/places/gent/alberte/p3-500.webp 500w, img/places/gent/alberte/p3-1000.webp 1000w",
      "w": 1000,
-     "h": 1333,
-     "category": "interior",
-     "alt": "Alberte: the interior",
+     "h": 667,
+     "category": "drink",
+     "alt": "Alberte: drinks",
+     "credit": "alberte-gent.be",
+     "credit_url": "https://www.alberte-gent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/alberte/p4-1000.webp",
+     "thumb": "img/places/gent/alberte/p4-500.webp",
+     "srcset": "img/places/gent/alberte/p4-500.webp 500w, img/places/gent/alberte/p4-1000.webp 1000w",
+     "w": 1000,
+     "h": 1250,
+     "category": "exterior",
+     "alt": "Alberte: the outside",
      "credit": "@alberte_gent on Instagram",
      "credit_url": "https://www.instagram.com/alberte_gent/",
      "license": "the place's own photo",
@@ -114,7 +128,8 @@
     "type": "photo",
     "src": "img/places/gent/alberte/p1-1600.webp"
    },
-   "only": true
+   "only": true,
+   "layout": "mix"
   },
   "arbane": {
    "photos": [
@@ -151,9 +166,37 @@
      "thumb": "img/places/gent/arbane/p3-500.webp",
      "srcset": "img/places/gent/arbane/p3-500.webp 500w, img/places/gent/arbane/p3-1000.webp 1000w",
      "w": 1000,
+     "h": 1499,
+     "category": "food",
+     "alt": "Arbane: food",
+     "credit": "arbane.be",
+     "credit_url": "https://www.arbane.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/arbane/p4-1000.webp",
+     "thumb": "img/places/gent/arbane/p4-500.webp",
+     "srcset": "img/places/gent/arbane/p4-500.webp 500w, img/places/gent/arbane/p4-1000.webp 1000w",
+     "w": 1000,
      "h": 1500,
-     "category": "interior",
-     "alt": "Arbane: the interior",
+     "category": "food",
+     "alt": "Arbane: food",
+     "credit": "arbane.be",
+     "credit_url": "https://www.arbane.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/arbane/p5-1000.webp",
+     "thumb": "img/places/gent/arbane/p5-500.webp",
+     "srcset": "img/places/gent/arbane/p5-500.webp 500w, img/places/gent/arbane/p5-1000.webp 1000w",
+     "w": 1000,
+     "h": 1364,
+     "category": "exterior",
+     "alt": "Arbane: the outside",
      "credit": "arbane.be",
      "credit_url": "https://www.arbane.be/",
      "license": "the place's own photo",
@@ -165,7 +208,8 @@
     "type": "photo",
     "src": "img/places/gent/arbane/p1-1600.webp"
    },
-   "only": true
+   "only": true,
+   "layout": "mix"
   },
   "atelier-joost-arijs": {
    "photos": [
@@ -1088,8 +1132,8 @@
      "src": "img/places/gent/dapper/p1-1600.webp",
      "thumb": "img/places/gent/dapper/p1-800.webp",
      "srcset": "img/places/gent/dapper/p1-800.webp 800w, img/places/gent/dapper/p1-1600.webp 1600w",
-     "w": 1500,
-     "h": 1500,
+     "w": 1600,
+     "h": 1600,
      "category": "food",
      "alt": "Dapper.: food",
      "credit": "restaurantdapper.com",
@@ -1111,13 +1155,43 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/dapper/p3-1000.webp",
+     "thumb": "img/places/gent/dapper/p3-500.webp",
+     "srcset": "img/places/gent/dapper/p3-500.webp 500w, img/places/gent/dapper/p3-1000.webp 1000w",
+     "w": 1000,
+     "h": 1250,
+     "category": "food",
+     "alt": "Dapper.: food",
+     "credit": "@restaurant_dapper on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_dapper/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/dapper/p4-1000.webp",
+     "thumb": "img/places/gent/dapper/p4-500.webp",
+     "srcset": "img/places/gent/dapper/p4-500.webp 500w, img/places/gent/dapper/p4-1000.webp 1000w",
+     "w": 1000,
+     "h": 1250,
+     "category": "interior",
+     "staff": true,
+     "alt": "Dapper.: staff at work",
+     "credit": "@restaurant_dapper on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_dapper/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
     "src": "img/places/gent/dapper/p1-1600.webp"
    },
-   "only": true
+   "only": true,
+   "layout": "mix"
   },
   "de-broodstokerij-gent": {
    "hold": "no people-free photo found (research): retry returned no images from IG or website"
@@ -1413,10 +1487,38 @@
      "src": "img/places/gent/elders/p3-1000.webp",
      "thumb": "img/places/gent/elders/p3-500.webp",
      "srcset": "img/places/gent/elders/p3-500.webp 500w, img/places/gent/elders/p3-1000.webp 1000w",
+     "w": 1000,
+     "h": 1000,
+     "category": "food",
+     "alt": "Elders: food",
+     "credit": "@elders.gent on Instagram",
+     "credit_url": "https://www.instagram.com/elders.gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/elders/p4-1000.webp",
+     "thumb": "img/places/gent/elders/p4-500.webp",
+     "srcset": "img/places/gent/elders/p4-500.webp 500w, img/places/gent/elders/p4-1000.webp 1000w",
      "w": 819,
      "h": 1024,
      "category": "interior",
      "alt": "Elders: the interior",
+     "credit": "elders.gent",
+     "credit_url": "https://elders.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/elders/p5-1000.webp",
+     "thumb": "img/places/gent/elders/p5-500.webp",
+     "srcset": "img/places/gent/elders/p5-500.webp 500w, img/places/gent/elders/p5-1000.webp 1000w",
+     "w": 768,
+     "h": 1024,
+     "category": "exterior",
+     "alt": "Elders: the outside",
      "credit": "elders.gent",
      "credit_url": "https://elders.gent/",
      "license": "the place's own photo",
@@ -1428,7 +1530,8 @@
     "type": "photo",
     "src": "img/places/gent/elders/p1-1600.webp"
    },
-   "only": true
+   "only": true,
+   "layout": "mix"
   },
   "ex-club-69-apero-dance-bar": {
    "hold": "no people-free photo found (research): Own IG/site: only party/crowd photos with people and a logo"
@@ -5288,10 +5391,38 @@
      "src": "img/places/gent/osm-boon-n5569907420/p3-1000.webp",
      "thumb": "img/places/gent/osm-boon-n5569907420/p3-500.webp",
      "srcset": "img/places/gent/osm-boon-n5569907420/p3-500.webp 500w, img/places/gent/osm-boon-n5569907420/p3-1000.webp 1000w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "Boon: food",
+     "credit": "@boon.gent on Instagram",
+     "credit_url": "https://www.instagram.com/boon.gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-boon-n5569907420/p4-1000.webp",
+     "thumb": "img/places/gent/osm-boon-n5569907420/p4-500.webp",
+     "srcset": "img/places/gent/osm-boon-n5569907420/p4-500.webp 500w, img/places/gent/osm-boon-n5569907420/p4-1000.webp 1000w",
      "w": 1000,
      "h": 1333,
-     "category": "interior",
-     "alt": "Boon: the interior",
+     "category": "food",
+     "alt": "Boon: food",
+     "credit": "@boon.gent on Instagram",
+     "credit_url": "https://www.instagram.com/boon.gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-boon-n5569907420/p5-1000.webp",
+     "thumb": "img/places/gent/osm-boon-n5569907420/p5-500.webp",
+     "srcset": "img/places/gent/osm-boon-n5569907420/p5-500.webp 500w, img/places/gent/osm-boon-n5569907420/p5-1000.webp 1000w",
+     "w": 1000,
+     "h": 1333,
+     "category": "exterior",
+     "alt": "Boon: the outside",
      "credit": "@boon.gent on Instagram",
      "credit_url": "https://www.instagram.com/boon.gent/",
      "license": "the place's own photo",
@@ -5303,7 +5434,8 @@
     "type": "photo",
     "src": "img/places/gent/osm-boon-n5569907420/p1-1600.webp"
    },
-   "only": true
+   "only": true,
+   "layout": "mix"
   },
   "osm-borsalino-san-marino-n3394539390": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
@@ -5654,13 +5786,41 @@
      "thumb": "img/places/gent/osm-brasserie-nanou-n13325635488/p3-500.webp",
      "srcset": "img/places/gent/osm-brasserie-nanou-n13325635488/p3-500.webp 500w, img/places/gent/osm-brasserie-nanou-n13325635488/p3-1000.webp 1000w",
      "w": 1000,
-     "h": 1778,
-     "category": "exterior",
-     "alt": "Brasserie Nanou: the outside",
+     "h": 1250,
+     "category": "food",
+     "alt": "Brasserie Nanou: food",
      "credit": "@brasserienanou on Instagram",
      "credit_url": "https://www.instagram.com/brasserienanou/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-brasserie-nanou-n13325635488/p4-1000.webp",
+     "thumb": "img/places/gent/osm-brasserie-nanou-n13325635488/p4-500.webp",
+     "srcset": "img/places/gent/osm-brasserie-nanou-n13325635488/p4-500.webp 500w, img/places/gent/osm-brasserie-nanou-n13325635488/p4-1000.webp 1000w",
+     "w": 1000,
+     "h": 667,
+     "category": "food",
+     "alt": "Brasserie Nanou: food",
+     "credit": "brasserienanou.be",
+     "credit_url": "https://www.brasserienanou.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-brasserie-nanou-n13325635488/p5-1000.webp",
+     "thumb": "img/places/gent/osm-brasserie-nanou-n13325635488/p5-500.webp",
+     "srcset": "img/places/gent/osm-brasserie-nanou-n13325635488/p5-500.webp 500w, img/places/gent/osm-brasserie-nanou-n13325635488/p5-1000.webp 1000w",
+     "w": 700,
+     "h": 507,
+     "category": "exterior",
+     "alt": "Brasserie Nanou: the outside",
+     "credit": "brasserienanou.be",
+     "credit_url": "https://www.brasserienanou.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -5668,7 +5828,8 @@
     "type": "photo",
     "src": "img/places/gent/osm-brasserie-nanou-n13325635488/p1-1600.webp"
    },
-   "only": true
+   "only": true,
+   "layout": "mix"
   },
   "osm-brasserie-noordhof-n13625580253": {
    "photos": [
@@ -11971,20 +12132,6 @@
      "src": "img/places/gent/osm-miss-yu-n6828974429/p1-1600.webp",
      "thumb": "img/places/gent/osm-miss-yu-n6828974429/p1-800.webp",
      "srcset": "img/places/gent/osm-miss-yu-n6828974429/p1-800.webp 800w, img/places/gent/osm-miss-yu-n6828974429/p1-1600.webp 1600w",
-     "w": 1080,
-     "h": 1080,
-     "category": "food",
-     "alt": "Miss Yu: food",
-     "credit": "@missyugent on Instagram",
-     "credit_url": "https://www.instagram.com/missyugent/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/osm-miss-yu-n6828974429/p2-1000.webp",
-     "thumb": "img/places/gent/osm-miss-yu-n6828974429/p2-500.webp",
-     "srcset": "img/places/gent/osm-miss-yu-n6828974429/p2-500.webp 500w, img/places/gent/osm-miss-yu-n6828974429/p2-1000.webp 1000w",
      "w": 957,
      "h": 954,
      "category": "interior",
@@ -11996,9 +12143,37 @@
      "noPeopleChecked": true
     },
     {
+     "src": "img/places/gent/osm-miss-yu-n6828974429/p2-1000.webp",
+     "thumb": "img/places/gent/osm-miss-yu-n6828974429/p2-500.webp",
+     "srcset": "img/places/gent/osm-miss-yu-n6828974429/p2-500.webp 500w, img/places/gent/osm-miss-yu-n6828974429/p2-1000.webp 1000w",
+     "w": 640,
+     "h": 426,
+     "category": "food",
+     "alt": "Miss Yu: food",
+     "credit": "@missyugent on Instagram",
+     "credit_url": "https://www.instagram.com/missyugent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
      "src": "img/places/gent/osm-miss-yu-n6828974429/p3-1000.webp",
      "thumb": "img/places/gent/osm-miss-yu-n6828974429/p3-500.webp",
      "srcset": "img/places/gent/osm-miss-yu-n6828974429/p3-500.webp 500w, img/places/gent/osm-miss-yu-n6828974429/p3-1000.webp 1000w",
+     "w": 1000,
+     "h": 1000,
+     "category": "food",
+     "alt": "Miss Yu: food",
+     "credit": "@missyugent on Instagram",
+     "credit_url": "https://www.instagram.com/missyugent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-miss-yu-n6828974429/p4-1000.webp",
+     "thumb": "img/places/gent/osm-miss-yu-n6828974429/p4-500.webp",
+     "srcset": "img/places/gent/osm-miss-yu-n6828974429/p4-500.webp 500w, img/places/gent/osm-miss-yu-n6828974429/p4-1000.webp 1000w",
      "w": 1000,
      "h": 1000,
      "category": "exterior",
@@ -12014,7 +12189,8 @@
     "type": "photo",
     "src": "img/places/gent/osm-miss-yu-n6828974429/p1-1600.webp"
    },
-   "only": true
+   "only": true,
+   "layout": "mix"
   },
   "osm-mistafluut-n10743751308": {
    "posts": [
@@ -17352,10 +17528,85 @@
      "origin": "research"
     }
    ],
+   "photos": [
+    {
+     "src": "img/places/gent/vrijmoed/p1-1600.webp",
+     "thumb": "img/places/gent/vrijmoed/p1-800.webp",
+     "srcset": "img/places/gent/vrijmoed/p1-800.webp 800w, img/places/gent/vrijmoed/p1-1600.webp 1600w",
+     "w": 1378,
+     "h": 919,
+     "category": "interior",
+     "alt": "Vrijmoed: the interior",
+     "credit": "vrijmoed.be",
+     "credit_url": "https://vrijmoed.be/nl/vrijmoed",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/vrijmoed/p2-1000.webp",
+     "thumb": "img/places/gent/vrijmoed/p2-500.webp",
+     "srcset": "img/places/gent/vrijmoed/p2-500.webp 500w, img/places/gent/vrijmoed/p2-1000.webp 1000w",
+     "w": 1000,
+     "h": 1000,
+     "category": "food",
+     "alt": "Vrijmoed: food",
+     "credit": "vrijmoed.be",
+     "credit_url": "https://vrijmoed.be/nl/vrijmoed",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/vrijmoed/p3-1000.webp",
+     "thumb": "img/places/gent/vrijmoed/p3-500.webp",
+     "srcset": "img/places/gent/vrijmoed/p3-500.webp 500w, img/places/gent/vrijmoed/p3-1000.webp 1000w",
+     "w": 1000,
+     "h": 1000,
+     "category": "food",
+     "alt": "Vrijmoed: food",
+     "credit": "vrijmoed.be",
+     "credit_url": "https://vrijmoed.be/nl/vrijmoed",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/vrijmoed/p4-1000.webp",
+     "thumb": "img/places/gent/vrijmoed/p4-500.webp",
+     "srcset": "img/places/gent/vrijmoed/p4-500.webp 500w, img/places/gent/vrijmoed/p4-1000.webp 1000w",
+     "w": 1000,
+     "h": 1000,
+     "category": "food",
+     "alt": "Vrijmoed: food",
+     "credit": "vrijmoed.be",
+     "credit_url": "https://vrijmoed.be/nl/vrijmoed",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/vrijmoed/p5-1000.webp",
+     "thumb": "img/places/gent/vrijmoed/p5-500.webp",
+     "srcset": "img/places/gent/vrijmoed/p5-500.webp 500w, img/places/gent/vrijmoed/p5-1000.webp 1000w",
+     "w": 1000,
+     "h": 667,
+     "category": "interior",
+     "staff": true,
+     "alt": "Vrijmoed: staff at work",
+     "credit": "vrijmoed.be",
+     "credit_url": "https://vrijmoed.be/nl/vrijmoed",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
    "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DeKJl2NthCu/"
-   }
+    "type": "photo",
+    "src": "img/places/gent/vrijmoed/p1-1600.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "waterhuis-aan-de-bierkant": {
    "hold": "no people-free photo found: website unreachable, no Instagram"

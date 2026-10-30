@@ -26,7 +26,7 @@
   // ---- hero: a real, freely licensed photo of the restaurant if we have one; otherwise a neutral typographic hero ----
   const own = TG.realPhotos(r);
   const pk = r.photoHold ? {} : TG.pickOf(r);   // the photo research's pick (own website photo or own Instagram post) leads
-  const heroP = r.photoHold || pk.post ? null : (pk.photo || TG.bestPhoto(own));
+  const heroP = r.photoHold ? null : (pk.photo || TG.bestPhoto(own));   // never an Instagram post / embed as the hero (they show up empty or as text graphics)
   const igPosts = TG.igPostsOf(r);
   const igHandle = r.igHandle || '';
   const HI = r.heroImage, heroHost = HI ? HI.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0] : '';
@@ -35,30 +35,17 @@
     top.querySelectorAll('.dhero__ig').forEach(x => x.remove());
     if (!top.querySelector('.dhero__mono')) top.insertAdjacentHTML('afterbegin', `<span class="dhero__mono" aria-hidden="true">${esc((r.name.match(/[A-Za-zÀ-ž]/) || ['T'])[0].toUpperCase())}</span>`);
   };
-  // Instagram as the hero: the first photo post (official embed), else — when the profile embed renders without a login — the first tile of
-  // the place's own profile grid; scaled to cover and clipped to the hero (not clickable here; the credit links to Instagram)
-  const igHero = () => {
-    const prof = !igPosts.length && r.igEmbed;
-    if (!igPosts.length && !prof) { $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); return; }
-    const top = document.querySelector('.dhero'); top.classList.add('dhero--ig');
-    const hp = pk.post || TG.bestPost(igPosts);   // a photo post rather than a reel (no play button): food / drinks / interior first
-    const src = prof ? `https://www.instagram.com/${igHandle}/embed/` : hp.url.replace(/\/$/, '') + '/embed/';
-    top.insertAdjacentHTML('afterbegin', `<div class="dhero__ig" aria-hidden="true"><iframe src="${esc(src)}" title="" tabindex="-1" loading="eager" scrolling="no"></iframe></div>`);
-    const box = top.querySelector('.dhero__ig'), fr = box.querySelector('iframe');
-    const fit = () => TG.fitIg(box, fr, prof ? 'igprofile' : 'igpost');
-    fit(); addEventListener('resize', fit);
-    const cr = $('.dhero .credit'); if (cr) cr.innerHTML = `Photo: <a href="${esc(prof ? `https://www.instagram.com/${igHandle}/` : hp.url)}" target="_blank" rel="noopener">${igHandle ? '@' + esc(igHandle) : 'Instagram'}</a> on Instagram`;
-  };
+  // no real photo of the place: the neutral typographic hero (an Instagram embed is never the hero; the posts stay in the gallery below)
+  const igHero = () => { $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); };
   if (r.photoHold) { $('#himg').remove(); $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); }   // only photos with people exist: neutral
-  else if (pk.post) { $('#himg').remove(); igHero(); }
   else if (!heroP && HI) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(HI.url)}" alt="${esc(r.name)}" referrerpolicy="no-referrer" fetchpriority="high" loading="eager" decoding="async">`;
     $('.dhero .credit').innerHTML = `Photo: <a href="${esc(HI.source)}" target="_blank" rel="noopener">${esc(heroHost)}</a>`;
-    $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → Instagram → monogram
+    $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
   } else if (!heroP && (igPosts.length || r.igEmbed)) { $('#himg').remove(); igHero(); }
   else if (heroP) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(heroP.src)}" ${heroP.srcset ? `srcset="${esc(heroP.srcset)}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
-    if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → Instagram → monogram
+    if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
     $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}`;
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
@@ -207,12 +194,24 @@
   const webPhoto = HI && HI.url ? [{ src: HI.url, thumb: HI.url, w: HI.w, h: HI.h, category: 'other', hotlink: true, alt: `${r.name} — photo from ${heroHost}`, credit: heroHost, credit_url: HI.source }] : [];
   const photos = [...own.filter(p => CATL[p.category]), ...webPhoto];
   // ---- photos under the facts: the hero is the best photo; up to 3 more as thumbnails + the count; all of them open in the light box ----
-  const heroSrc = r.photoHold || pk.post ? '' : heroP ? heroP.src : HI ? HI.url : '';
+  const heroSrc = r.photoHold ? '' : heroP ? heroP.src : HI ? HI.url : '';
   const heroPh = photos.find(p => p.src === heroSrc);
   const lbList = heroPh ? [heroPh, ...photos.filter(p => p !== heroPh)] : photos.slice();
   const nPh = lbList.length, t0 = heroPh ? 1 : 0, thumbs = lbList.slice(t0, t0 + 3);
   const nTxt = n => n === 1 ? '1 photo' : `${n} photos`;
-  if (thumbs.length) {
+  const tile = (p, k, lab) => `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(p.thumb || p.src)}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${lab ? `<span class="dphotos__lab">${lab}</span>` : ''}</button>`;
+  if (r.photoLayout === 'mix' && nPh) {
+    // food first (up to 3 side by side), then the inside (or staff at work) and the outside next to each other; every tile opens the light box
+    const ix = lbList.map((p, k) => [p, k]);
+    const food = ix.filter(([p]) => p.category === 'food' || p.category === 'drink').slice(0, 3);
+    const inside = ix.find(([p]) => p.category === 'interior' && !p.staff) || ix.find(([p]) => p.category === 'interior');
+    const place = [inside, ix.find(([p]) => p.category === 'exterior') || ix.find(e => e !== inside && e[0].category === 'interior')].filter(Boolean);   // no outside photo → staff at work / a second room photo
+    const creds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()].map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
+    $('#left dl.essentials').insertAdjacentHTML('afterend', `<section class="dphotos dphotos--mix" aria-labelledby="dphotos-h"><h2 id="dphotos-h">Photos</h2>
+      ${food.length ? `<div class="dphotos__row dphotos__food" data-n="${food.length}">${food.map(([p, k], i) => tile(p, k, i ? '' : 'Food')).join('')}</div>` : ''}
+      ${place.length ? `<div class="dphotos__row dphotos__place" data-n="${place.length}">${place.map(([p, k]) => tile(p, k, p.category === 'exterior' ? 'Outside' : p.staff ? 'At work' : 'Inside')).join('')}</div>` : ''}
+      <div class="dphotos__foot">${creds ? `<span class="dphotos__cr"><span>Photos:</span> ${creds}</span>` : '<span></span>'}${nPh > 1 ? `<button type="button" class="dphotos__all" data-pi="0">View all ${nPh}</button>` : ''}</div></section>`);
+  } else if (thumbs.length) {
     const creds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()].map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
     $('#left dl.essentials').insertAdjacentHTML('afterend', `<section class="dphotos" aria-labelledby="dphotos-h"><h2 id="dphotos-h">Photos</h2>
       <div class="dphotos__row">${thumbs.map((p, i) => { const k = t0 + i, more = i === thumbs.length - 1 && nPh > k + 1;

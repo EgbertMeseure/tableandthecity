@@ -532,6 +532,7 @@ const TG = (() => {
       else r.photos = [...(x.photos || []), ...(r.photos || [])];
       r.instagram_posts = [...posts, ...igPostsOf(r).filter(p => !seen.has(p.url.replace(/\/$/, '')))];
       if (x.pick) r.photoPick = x.pick;
+      if (x.layout) r.photoLayout = x.layout;   // 'mix': the Photos section groups food, then inside + outside
     });
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
