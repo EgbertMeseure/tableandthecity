@@ -1,0 +1,113 @@
+{
+ "about": "Tag layer (applied in js/common.js load()): fills MISSING values only, never overrides curated or OSM data. cuisineTags: added to a restaurant's cuisine tags when it has no tag that maps to a 'By cuisine' / quiz group (TG.CUISINES); sources in order: current OpenStreetMap cuisine tag, the place's name, curated cuisine text, its own website (title / meta description). Left out when unsure. features: OpenStreetMap tags added since the import (outdoor_seating, wheelchair, takeaway). Checked 30 Oct 2026.",
+ "city": "oostende",
+ "count": 14,
+ "places": {
+  "atelier-d": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Gastronomisch restaurant Oostende | Atelier D | Ontdek Atelier D, hét gastronomisch restaurant met zeezicht in Oostende. Geniet van fine dining bij het Kursaal met chef Diego De Baets. | Fijne gastronomie bij ",
+   "cuisineUrl": "https://www.brassi.be/atelier-d/"
+  },
+  "carte-blanche": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"onze creatieve keuken\"",
+   "cuisineUrl": "https://www.carteblancheoostende.be/"
+  },
+  "de-charlou": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Josper grill\"",
+   "cuisineUrl": "https://www.decharlou.be/"
+  },
+  "de-vishoek": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: North Sea fish and seafood"
+  },
+  "loma": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Bistro: classics and creative seafood"
+  },
+  "mange-tout": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Seasonal, seafood"
+  },
+  "osm-belair-n543394315": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Vlaamse klassiekers\"",
+   "cuisineUrl": "https://www.belair.be/"
+  },
+  "osm-de-oesterput-n13808262157": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: De Oesterput"
+  },
+  "osm-marebello-n6030384849": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Marebello – Traditionele Italiaanse specialiteiten |  |  | ",
+   "cuisineUrl": "https://marebello.be/"
+  },
+  "osm-restaurant-lobster-n5516061799": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Lobster – Visrestaurant Lobster in Oostende |  |  | ",
+   "cuisineUrl": "https://lobster.be/"
+  },
+  "passe-vite": {
+   "cuisineTags": [
+    "Salads"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=salad",
+   "cuisineUrl": "https://www.openstreetmap.org/node/7740425521"
+  },
+  "savarin": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Classic French, seafood"
+  },
+  "storm": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant STORM - Oostende - video | Restaurant STORM - Oostende I Het resultaat van een voorliefde voor het vak, de zee en thuisstad Oostende. | Restaurant STORM - Oostende I Het resultaat van een voorliefde",
+   "cuisineUrl": "https://www.stormoostende.be/"
+  },
+  "tatemado": {
+   "cuisineTags": [
+    "Latin American"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Gastronomic Mexican"
+  }
+ }
+}

@@ -1,0 +1,348 @@
+{
+ "about": "Tag layer (applied in js/common.js load()): fills MISSING values only, never overrides curated or OSM data. cuisineTags: added to a restaurant's cuisine tags when it has no tag that maps to a 'By cuisine' / quiz group (TG.CUISINES); sources in order: current OpenStreetMap cuisine tag, the place's name, curated cuisine text, its own website (title / meta description). Left out when unsure. features: OpenStreetMap tags added since the import (outdoor_seating, wheelchair, takeaway). Checked 30 Oct 2026.",
+ "city": "gent",
+ "count": 43,
+ "places": {
+  "bianca": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=italian",
+   "cuisineUrl": "https://www.openstreetmap.org/node/11156941450"
+  },
+  "caracalla": {
+   "cuisineTags": [
+    "Syrian"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=syrian",
+   "cuisineUrl": "https://www.openstreetmap.org/node/14125387752"
+  },
+  "fou-d-o": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Brasserie, grill, sharing"
+  },
+  "fourth-wave": {
+   "features": {
+    "wheelchair": false
+   },
+   "features_evidence": {
+    "wheelchair": "OpenStreetMap: wheelchair=no"
+   }
+  },
+  "frankies": {
+   "cuisineTags": [
+    "Mexican"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=mexican",
+   "cuisineUrl": "https://www.openstreetmap.org/node/14133625075"
+  },
+  "kaffee-krevet": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Kaffee Krevet – Visbar Aalst | De gezelligste visbar op het Vredeplein in Aalst. Kom genieten van seafood, sfeer en een goed glas! Geen reservaties, spring gewoon binnen... |  | ",
+   "cuisineUrl": "https://www.krevet.be/"
+  },
+  "osm-arthe2-n12462539697": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant Arthe² | Gent | In restaurant Arthe². creëert Chef Geoffrey Devriendt samen met zijn team een unieke gastronomische ervaring. Het menu combineert Gentse invloeden met wereldse smaken. Verwacht creat",
+   "cuisineUrl": "https://www.restaurantarthe.be/nl"
+  },
+  "osm-asian-king-n1804185553": {
+   "cuisineTags": [
+    "Japanese",
+    "Thai",
+    "Asian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: OFFICIAL WEBSITE - Asian King | Nieuw geopend restaurant in Nederkouter door de vorige eigenaren van het Uzumesushi restaurant in Gent. Wij serveren verschillende soorten verse sushi’s, gemengd met andere Azia",
+   "cuisineUrl": "https://asianking.be"
+  },
+  "osm-basic-italian-n12702756861": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: basic Italian"
+  },
+  "osm-beroia-n13950447752": {
+   "cuisineTags": [
+    "Middle eastern"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: lebanese food ghent – Beroia Restaurant, Ghent | Discover lebanese food ghent at Beroia Restaurant in Ghent; book your table now for warm hospitality and authentic Eastern flavours. | Discover lebanese food gh",
+   "cuisineUrl": "https://www.beroia.be"
+  },
+  "osm-boon-n5569907420": {
+   "cuisineTags": [
+    "Sandwiches"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Vegetarische Lunchbar | BOON | Gent | U kan bij BOON terecht voor koude vegetarische catering, lunchmeetings, heerlijke salades, ontbijtbuffetten, desserten. Binnenkort opent de BOON lunchbar! | U kan bij BOON",
+   "cuisineUrl": "https://www.boon.gent"
+  },
+  "osm-borek-simit-huis-n11613223411": {
+   "cuisineTags": [
+    "Turkish"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: börek and simit are Turkish pastries/breakfast (OSM also tags it shop=bakery, cuisine=breakfast)"
+  },
+  "osm-brasserie-onglet-w289225387": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Brasserie Onglet | Restaurant in Drongen bij Gent | Brasserie Onglet in Drongen serveert pure belgische keuken, verfijnde seizoensgerechten en topservice in een warm, stijlvol interieur. | Brasserie Onglet in ",
+   "cuisineUrl": "https://brasserieonglet.be/"
+  },
+  "osm-brasserie-paradijs-n818880406": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Brasserie Paradijs | Vleesrestaurant | Sint-Veerleplein 3, Ghent, Belgium | Welkom in Brasserie Paradijs aan het Gravensteen in Gent. Een familiebedrijf met liefde voor het vak. Wij werken uitsluitend met dagv",
+   "cuisineUrl": "https://www.brasserieparadijs.be"
+  },
+  "osm-bridge-brasserie-n12830913043": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Brasserie Bridge Gent | Restaurant Sint Baafsplein | Gezellige brasserie op het Sint-Baafsplein in Gent. Belgische klassiekers, mosselen, streekbieren en een prachtig terras. Open donderdag t.e.m. maandag | Ge",
+   "cuisineUrl": "https://www.brasseriebridge.be/"
+  },
+  "osm-de-lachende-monnik-w996842002": {
+   "cuisineTags": [
+    "Thai"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Thaise gerechten\"",
+   "cuisineUrl": "https://www.delachendemonnik.be/"
+  },
+  "osm-flordi-n11640842891": {
+   "features": {
+    "terrace": true
+   },
+   "features_evidence": {
+    "terrace": "OpenStreetMap: outdoor_seating=yes"
+   }
+  },
+  "osm-gohan-n9458004317": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: 7x Japanese keywords",
+   "cuisineUrl": "https://gohan.be/"
+  },
+  "osm-haotian-asian-snacks-n13570475860": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: HAOTIAN ASIAN SNACKS – official site – order online | Heerlijke en verfijnde Aziatische gerechten in Gent |  | ",
+   "cuisineUrl": "https://www.haotian.be"
+  },
+  "osm-hola-food-n7004497033": {
+   "cuisineTags": [
+    "Sandwiches"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: TASTE THE LOVE - Hola Food | Hola is een hippe foodbar in Dok Noord – Gent met een hart voor huisgemaakte producten en heerlijk gezonde gerechten. Kom langs, reserveer je tafeltje of bestel jouw take-away onmi",
+   "cuisineUrl": "https://www.holafood.be/"
+  },
+  "osm-illyrian-n7079394606": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Mediterraans restaurant in Gent | Bistro Illyrian | Illyrian is een Albanees restaurant in het hart van Gent, gebouwd rond vuur, delen en warme gastvrijheid. Onze keuken brengt eerlijke ingrediënten, krachtige",
+   "cuisineUrl": "https://illyrian.be/nl"
+  },
+  "osm-in-bocca-lupo-n3842499429": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: In Bocca 'Lupo | Welkom bij In Bocca 'Lupo in Gent - Italiaans restaurant met focus op pasta en eerlijke producten, lokaal waar het kan, Italiaans waar het hoort. |  | ",
+   "cuisineUrl": "https://www.inboccalupo.be/"
+  },
+  "osm-le-petit-grill-n2275104992": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Le petit Grill"
+  },
+  "osm-le-piranha-n1628067364": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Le Piranha Gent - Restaurant Le Piranha Gent | Sinds 1977 vleesrestaurant Le Piranha is de referentie in Gent voor wie graag vlees eet. Kom genieten bij Le Piranha. | Sinds 1977 vleesrestaurant Le Piranha is d",
+   "cuisineUrl": "https://lepiranha.weebly.com/"
+  },
+  "osm-little-asia-n11352130048": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Little Asia - Authentic Asian Flavors in Belgium | SaborZen | Savor the rich tastes of Asia at Little Asia, with inviting dishes and warm ambiance in Bruges and Ghent. Choose your location and enjoy a memorabl",
+   "cuisineUrl": "https://restaurantlittleasia.be/"
+  },
+  "osm-mazaya-n6942598586": {
+   "cuisineTags": [
+    "Middle eastern"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Bekend als het beste Syrisch-Libanees restaurant van Gent | Mazaya Gent brengt de rijke smaken van de Midden-Oosterse keuken naar jouw tafel. Met authentieke recepten, warme gastvrijheid en oog voor detail mak",
+   "cuisineUrl": "https://mazaya.be/"
+  },
+  "osm-midpoint-n5918274971": {
+   "cuisineTags": [
+    "Grill",
+    "Burgers"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Midpoint Gourmet Burgers Ghent — Homemade Burgers & Charcoal Grill | The best homemade gourmet burgers in Ghent. Charcoal grilled, fresh daily. Happy Hour every evening. Nederkouter 59 — Open Tue–Sun from 17:0",
+   "cuisineUrl": "https://midpoint.be/"
+  },
+  "osm-midtown-grill-n5276097616": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Midtown Grill"
+  },
+  "osm-nepal-delight-n11047205650": {
+   "cuisineTags": [
+    "Indian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Nepal Delight"
+  },
+  "osm-neptune-n1212144793": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: RESTAURANT NEPTUNE - Frans Restaurant - Gent 9000 | Ontdek het restaurant RESTAURANT NEPTUNE in Gent: foto | Ontdek het restaurant RESTAURANT NEPTUNE in Gent: foto | ",
+   "cuisineUrl": "https://nl.resto.be/restaurant/gent/9000-gent/7091-restaurant-neptune/"
+  },
+  "osm-pani-n1804211176": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: PANI – Klassieke focacceria in Gent | PANI is een focacceria in Gent (Sint-Pietersnieuwstraat). Echte focaccia, Panì, antipasti en Italiaanse aperitivo. Open dagelijks behalve zondag. |  | ",
+   "cuisineUrl": "https://pani.gent/nl"
+  },
+  "osm-per-bacco-n7158632586": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: PER BACCO | Italiaanse keuken |  |  | ",
+   "cuisineUrl": "https://www.perbacco.be/"
+  },
+  "osm-pietje-pek-w909712432": {
+   "cuisineTags": [
+    "Belgian",
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Frans Belgische klassiekers\"",
+   "cuisineUrl": "https://www.pietjepekdrongen.be/nl"
+  },
+  "osm-resto-leo-n13355672924": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: resto Leo - lekker Oost-Vlaams | Geniet van Oost-Vlaams streekproducten in resto Leo, het provincierestaurant van de provincie Oost-Vlaanderen. | Geniet van Oost-Vlaams streekproducten in resto Leo, het provin",
+   "cuisineUrl": "https://restoleo.be"
+  },
+  "osm-sushi-poel-n3931156537": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Sushi Poel"
+  },
+  "osm-taco-santo-n6920767887": {
+   "cuisineTags": [
+    "Latin American"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Taco Santo"
+  },
+  "osm-tampopo-n499978423": {
+   "features": {
+    "terrace": false
+   },
+   "features_evidence": {
+    "terrace": "OpenStreetMap: outdoor_seating=no"
+   }
+  },
+  "osm-toi-et-moi-n3842784242": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Gastronomisch restaurant in centrum Gent • Toi et Moi |  |  | ",
+   "cuisineUrl": "https://www.restotoietmoi.be/nl/"
+  },
+  "osm-twilight-sushi-n1628067381": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Twilight Sushi"
+  },
+  "osm-verz-w630349191": {
+   "cuisineTags": [
+    "Sandwiches"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Belegde broodjes Koffie-en Theehuis Bistro te Mariakerke - VerZ. | Bistro, Eet- en Koffiehuis, Ontbijten, Verse Soepen, Broodlunches en Patisserie. Voor vroege bezoekers, broodlunches of hapjes met een biertje",
+   "cuisineUrl": "https://www.verz.be/"
+  },
+  "publiek": {
+   "features": {
+    "takeaway": false
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=no"
+   }
+  },
+  "the-cobbler": {
+   "features": {
+    "wheelchair": false
+   },
+   "features_evidence": {
+    "wheelchair": "OpenStreetMap: wheelchair=no"
+   }
+  },
+  "way-bakery-keizerpoort": {
+   "features": {
+    "terrace": true,
+    "wheelchair": false
+   },
+   "features_evidence": {
+    "terrace": "OpenStreetMap: outdoor_seating=yes",
+    "wheelchair": "OpenStreetMap: wheelchair=no"
+   }
+  }
+ }
+}

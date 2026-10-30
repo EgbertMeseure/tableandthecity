@@ -235,6 +235,14 @@ const TG = (() => {
       features: { ...(o.features || {}) }, features_evidence: { ...(o.features_evidence || {}) }
     };
   }
+  /* tag layer (data/cities/<city>-tags.json, sourced): adds cuisine tags to a place without a usable one and fills features that are
+     still null; never overrides curated or OSM values */
+  function applyTags(r, t) {
+    if (!t) return;
+    if ((t.cuisineTags || []).length) { r.cuisineTags = [...new Set([...(r.cuisineTags || []), ...t.cuisineTags])]; if (!r.cuisine) r.cuisine = t.cuisineTags.join(', '); r.cuisineInfo = t; }
+    if (t.features) { r.features = { ...(r.features || {}) }; r.features_evidence = { ...(r.features_evidence || {}) };
+      Object.entries(t.features).forEach(([k, v]) => { if (r.features[k] == null) { r.features[k] = v; r.features_evidence[k] = (t.features_evidence || {})[k] || 'OpenStreetMap'; } }); }
+  }
   /* apply the veggie layer: one level per place, sourced; curated diet fields without a layer entry map to *-friendly */
   function applyVeg(r, v) {
     if (v) { r.veggieLevel = v.veggieLevel; r.veggieInfo = v; }
@@ -406,27 +414,29 @@ const TG = (() => {
   }
   /* cuisine groups for the quiz's 'What kind of food?' step and the 'By cuisine' card. `t` is tested on each cuisine tag
      (OSM + curated), `x` (optional) on the curated free-text cuisine line (curated tags are coarse, e.g. Thai → 'Asian').
-     Only restaurants count; groups with fewer than 3 places are not offered (see cuisineList) */
+     Only restaurants count; groups with fewer than 3 places are not offered (see cuisineList). The alternatives after the first ones are
+     synonyms (e.g. Portuguese → Mediterranean, Pakistani / Tibetan → Indian & Nepalese, Modern French → French); missing cuisines come from
+     the sourced tag layer data/cities/<city>-tags.json (applyTags) */
   const CUISINES = [
-    { id: 'belgian', label: 'Belgian & Flemish', t: /^(belgian|belgian \/ flemish|flemish|regional)$/i, x: /\b(belgian|flemish)\b/i },
-    { id: 'french', label: 'French', t: /^french$/i },
+    { id: 'belgian', label: 'Belgian & Flemish', t: /^(belgian|belgian \/ flemish|flemish|regional|belgian classics|flemish classics|traditional belgian)$/i, x: /\b(belgian|flemish)\b/i },
+    { id: 'french', label: 'French', t: /^(french|modern french|classic french|french contemporary|creative french|french market cuisine)$/i },
     { id: 'italian', label: 'Italian & pizza', t: /^(italian|italian pizza|pizza|pasta|spaghetti)$/i, x: /\b(italian|sicilian|tuscan)\b/i },
-    { id: 'mediterranean', label: 'Spanish & Mediterranean', t: /^(spanish|tapas|mediterranean|greek|spanish \/ mediterranean)$/i },
-    { id: 'modern', label: 'Modern & creative', t: /^modern \/ creative$/i },
+    { id: 'mediterranean', label: 'Spanish & Mediterranean', t: /^(spanish|tapas|mediterranean|greek|spanish \/ mediterranean|portuguese|italian \/ mediterranean)$/i },
+    { id: 'modern', label: 'Modern & creative', t: /^(modern \/ creative|modern|modern cuisine|creative|contemporary|bistronomy|fine dining|gastronomic)$/i },
     { id: 'japanese', label: 'Japanese & sushi', t: /^(japanese|sushi|ramen)$/i, x: /\b(japanese|omakase)\b/i },
-    { id: 'chinese', label: 'Chinese', t: /^(chinese|dumplings)$/i },
+    { id: 'chinese', label: 'Chinese', t: /^(chinese|dumplings|hot pot|cantonese|sichuan|szechuan|taiwanese|hong kong)$/i },
     { id: 'thai', label: 'Thai', t: /^thai$/i, x: /\bthai\b/i },
     { id: 'vietnamese', label: 'Vietnamese', t: /^vietnamese$/i },
-    { id: 'korean', label: 'Korean', t: /^korean$/i },
-    { id: 'asian', label: 'Other Asian', t: /^(asian|asian fusion|filipino|noodles|poke)$/i },
-    { id: 'indian', label: 'Indian & Nepalese', t: /^(indian|nepalese)$/i },
+    { id: 'korean', label: 'Korean', t: /^(korean|contemporary korean)$/i },
+    { id: 'asian', label: 'Other Asian', t: /^(asian|asian fusion|filipino|noodles|poke|hawaiian|poke bowl|indonesian|malaysian|singaporean|southeast asian|pan-asian)$/i },
+    { id: 'indian', label: 'Indian & Nepalese', t: /^(indian|nepalese|pakistani|tibetan|sri lankan|bangladeshi)$/i },
     { id: 'turkish', label: 'Turkish & kebab', t: /^(turkish|kebab|döner|pita)$/i },
-    { id: 'middle-eastern', label: 'Middle Eastern', t: /^(middle eastern|syrian|lebanese|palestinian|persian|arab|arabic|oriental)$/i },
-    { id: 'african', label: 'African & Moroccan', t: /^(african|ethiopian|moroccan)$/i },
-    { id: 'latin', label: 'Mexican & Latin American', t: /^(mexican|latin american|peruvian)$/i },
+    { id: 'middle-eastern', label: 'Middle Eastern', t: /^(middle eastern|syrian|lebanese|palestinian|persian|arab|arabic|oriental|falafel|afghan|iranian|israeli|kurdish)$/i },
+    { id: 'african', label: 'African & Moroccan', t: /^(african|ethiopian|moroccan|libyan|cameroonian|malagasy|maroccan|tunisian|algerian|senegalese|congolese|eritrean|cape verdean|west african|north african)$/i },
+    { id: 'latin', label: 'Mexican & Latin American', t: /^(mexican|latin american|peruvian|bolivian|empanadas?|brazilian|argentinian|colombian|venezuelan|chilean|tex-mex|cuban)$/i },
     { id: 'burgers', label: 'Burgers & American', t: /^(burgers?|american)$/i },
-    { id: 'grill', label: 'Steak & grill', t: /^(steakhouse|grill|barbecue|spare ribs|fire \/ meat)$/i },
-    { id: 'fish', label: 'Fish & seafood', t: /^(seafood|fish|fish \/ north sea)$/i },
+    { id: 'grill', label: 'Steak & grill', t: /^(steakhouse|grill|barbecue|spare ribs|fire \/ meat|steak|steaks|rotisserie)$/i },
+    { id: 'fish', label: 'Fish & seafood', t: /^(seafood|fish|fish \/ north sea|fish and seafood|north sea|seafood restaurant|oysters)$/i },
     { id: 'lunch', label: 'Sandwiches & soup', title: 'Sandwich & soup spots', t: /^(sandwiches|soup|soep|salads|bagels|wrap|bowl)$/i }
   ];
   const ASIAN = ['japanese', 'chinese', 'thai', 'vietnamese', 'korean'];
@@ -467,8 +477,8 @@ const TG = (() => {
   /* ---- data ---- */
   async function load(city) {
     const opt = (url, empty) => url ? fetch(bust(url), { cache: 'no-cache' }).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg, hz, bk, ig, gr, ph] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
-      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} })]);
+    const [d, up, om, vg, hz, bk, ig, gr, ph, tg] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} }), opt(city.tags, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
@@ -477,6 +487,7 @@ const TG = (() => {
     // a temporary status (e.g. closed for renovation / holidays) ends by itself: statusUntil = last closed day (Europe/Brussels), curated and OSM alike
     rs.forEach(r => { if (r.statusUntil && TODAY > r.statusUntil) { r.status = 'open'; r.statusNote = ''; } });
     rs.forEach(r => { r.opened = openedOf(r); r.isNew = !r.upcoming && isRecent(r.opened); });   // the stored isNew flag is ignored
+    rs.forEach(r => applyTags(r, (tg.places || {})[r.id]));
     rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
     rs.forEach(r => { const g = (gr.places || {})[r.id]; r.gscore = g && g.score > 0 ? g.score : null; });   // <city>-ratings.json: Google rating x 2 (0-10), only confident matches
     rs.forEach(r => { const h = (hz.places || {})[r.id]; if (h && !r.heroImage) r.heroImage = h; applyMeal(r, (bk.places || {})[r.id]); });

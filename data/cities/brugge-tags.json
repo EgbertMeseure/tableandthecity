@@ -1,0 +1,227 @@
+{
+ "about": "Tag layer (applied in js/common.js load()): fills MISSING values only, never overrides curated or OSM data. cuisineTags: added to a restaurant's cuisine tags when it has no tag that maps to a 'By cuisine' / quiz group (TG.CUISINES); sources in order: current OpenStreetMap cuisine tag, the place's name, curated cuisine text, its own website (title / meta description). Left out when unsure. features: OpenStreetMap tags added since the import (outdoor_seating, wheelchair, takeaway). Checked 30 Oct 2026.",
+ "city": "brugge",
+ "count": 27,
+ "places": {
+  "assiette-blanche": {
+   "features": {
+    "takeaway": false
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=no"
+   }
+  },
+  "cantine-copine": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=french",
+   "cuisineUrl": "https://www.openstreetmap.org/node/9044161931"
+  },
+  "cult": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Cult Brugge | Restaurant & Wijnbar – Lunch & Diner in Brugge | Restaurant CULT Brugge, steakhouse en wijnbar op ’t Zand 15. Geniet dagelijks van onze lunch (32€) of kies à la carte. Ontdek onze wijnkaart met m",
+   "cuisineUrl": "https://www.cultbrugge.be/nl"
+  },
+  "floris": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Fijne lekkere Vlaamse keuken | Floris Restaurant | Restaurant Floris is een modern restaurant in Sint Andries op 5 km van Stadscentrum Brugge met ruime parking. Er wordt een hedendaagse product keuken geservee",
+   "cuisineUrl": "https://www.florisrestaurant.be/"
+  },
+  "foodbar-est": {
+   "cuisineTags": [
+    "Latin American"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Mexican sharing"
+  },
+  "kaffee-kamiel": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "magpies": {
+   "features": {
+    "wheelchair": true
+   },
+   "features_evidence": {
+    "wheelchair": "OpenStreetMap: wheelchair=yes"
+   }
+  },
+  "mas": {
+   "cuisineTags": [
+    "Tapas"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=tapas",
+   "cuisineUrl": "https://www.openstreetmap.org/node/12265889938"
+  },
+  "ocho": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Spanish tapas & apéro"
+  },
+  "osm-cafe-francais-w101739266": {
+   "cuisineTags": [
+    "Belgian",
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Frans Belgische keuken\"",
+   "cuisineUrl": "https://www.weinebrugge.be/nl/"
+  },
+  "osm-de-roopoorte-n2418768045": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: De Roopoorte — Restaurant Brugge | Ontbijt, lunch & diner | Restaurant De Roopoorte in het hart van Brugge. Traditionele Brugse keuken met lokale ingrediënten. Elke dag geopend vanaf 8u30 voor ontbijt, lunch e",
+   "cuisineUrl": "https://www.deroopoortebrugge.be/"
+  },
+  "osm-fort-van-beieren-n1495135033": {
+   "cuisineTags": [
+    "Belgian",
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"klassiekers uit de Frans – Belgische keuken\"",
+   "cuisineUrl": "https://www.fortvanbeieren.be/"
+  },
+  "osm-gran-kaffee-de-passage-n2084948900": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Hotel & Gran Kaffee de Passage Brugge | Verblijf in het hart van het historische Brugge in Gran Hotel de Passage en geniet van authentieke Vlaamse keuken in Gran Kaffee de Passage. Ontdek onze kamers, restaura",
+   "cuisineUrl": "https://www.passagebruges.com/"
+  },
+  "osm-het-visioen-n10246191375": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Het Visioen — Fusion food, funky mood | Brugge | Aziatisch-Belgische fusionkeuken aan het water in Brugge. Noordzeevis, premium vlees, sharing dishes, cocktails en een zonnig terras. Reserveren via Zenchef. | ",
+   "cuisineUrl": "https://www.hetvisioen.com/"
+  },
+  "osm-huidevettershuis-n5494596521": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"traditionele Belgische keuken\"",
+   "cuisineUrl": "https://www.huidevettershuis.be/"
+  },
+  "osm-huyze-saeftinghe-n10295385151": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"stoofvlees, verse vispannetjes\"",
+   "cuisineUrl": "https://www.huyzesaeftinghe.be/"
+  },
+  "osm-in-t-nieuw-museum-n5916326275": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Bij Koen & Marijke | Open vuur & bier in Brugge | Steaks van de houtgestookte grill, midden in de zaal. Gebakken camembert vooraf, Belgisch bier van kleine brouwers erbij. 20 gasten per avond in Brugge, ma-vr ",
+   "cuisineUrl": "https://koen-marijke.be/"
+  },
+  "osm-irara-sushi-n8929456945": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Irara Sushi"
+  },
+  "osm-le-chef-et-moi-n1240771483": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Keukentype: Bistro, Seizoensgebonden, Visgerechten\"",
+   "cuisineUrl": "https://lechefetmoi.be/"
+  },
+  "osm-mozarthuys-n4383695590": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: \"Vlaamse klassiekers, salades, desserts, pannenkoeken en wafels\"",
+   "cuisineUrl": "https://www.mozarthuys.com/"
+  },
+  "osm-restaurant-t-gezelleke-n3926658559": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Vlaamse klassiekers\"",
+   "cuisineUrl": "https://tgezelleke.be/"
+  },
+  "osm-soup-plus-w102150153": {
+   "cuisineTags": [
+    "Sandwiches"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Soup Plus"
+  },
+  "osm-trattoria-murano-w114994756": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Trattoria Murano"
+  },
+  "osm-vlaminck-14-n12688176302": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Vlaminck'14 – Traditional Flemish dishes in center of Bruges |  |  | ",
+   "cuisineUrl": "https://www.vlaminck14.be/"
+  },
+  "reliva": {
+   "cuisineTags": [
+    "Regional",
+    "Seafood"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=regional;seafood",
+   "cuisineUrl": "https://www.openstreetmap.org/node/6581146585"
+  },
+  "tou-gou": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=french",
+   "cuisineUrl": "https://www.openstreetmap.org/node/13513943276",
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "zet-joe": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=french",
+   "cuisineUrl": "https://www.openstreetmap.org/node/4555593249"
+  }
+ }
+}

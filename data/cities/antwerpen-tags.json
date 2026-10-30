@@ -1,0 +1,314 @@
+{
+ "about": "Tag layer (applied in js/common.js load()): fills MISSING values only, never overrides curated or OSM data. cuisineTags: added to a restaurant's cuisine tags when it has no tag that maps to a 'By cuisine' / quiz group (TG.CUISINES); sources in order: current OpenStreetMap cuisine tag, the place's name, curated cuisine text, its own website (title / meta description). Left out when unsure. features: OpenStreetMap tags added since the import (outdoor_seating, wheelchair, takeaway). Checked 30 Oct 2026.",
+ "city": "antwerpen",
+ "count": 39,
+ "places": {
+  "bar-bulot-at-botanic": {
+   "cuisineTags": [
+    "Seafood",
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Brasserie Bar Bulot | Bar Bulot is a stylish and accessible French brasserie concept where classic French cuisine, Belgian hospitality and a touch of Parisian elegance come together. Inspired by the timeless a",
+   "cuisineUrl": "https://barbulot.be/"
+  },
+  "bistrot-du-nord": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: 4x French keywords",
+   "cuisineUrl": "https://www.bistrotdunord.be/"
+  },
+  "boe": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=asian",
+   "cuisineUrl": "https://www.openstreetmap.org/node/14252932115"
+  },
+  "briquet": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: French bistro"
+  },
+  "de-balans": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"passie voor de Vlaamse keuken\"",
+   "cuisineUrl": "https://www.bistrodebalans.be/nl"
+  },
+  "den-bourgondier": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant den Bourgondiër | Welkom | Geniet bij Den Bourgondier in Wilrijk van klassieke Frans-Belgische keuken, ongedwongen sfeer en verfijnde zaalbereidingen met pure ambacht. |  | Restaurant Wilrijk, Den B",
+   "cuisineUrl": "https://www.denbourgondier.be/"
+  },
+  "flatons": {
+   "cuisineTags": [
+    "Indian",
+    "Middle eastern"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Indian and Iraqi street food"
+  },
+  "l-amitie": {
+   "cuisineTags": [
+    "Regional"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=regional",
+   "cuisineUrl": "https://www.openstreetmap.org/node/1620771343"
+  },
+  "lito": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Lito Antwerp - Fine dining Restaurant in Antwerp | Lito is an intimate restaurant in the heart of Antwerp, where French culinary tradition meets subtle Ukrainian influences. |  | ",
+   "cuisineUrl": "https://www.litoantwerp.be/"
+  },
+  "mero": {
+   "cuisineTags": [
+    "Mediterranean",
+    "Asian",
+    "Fine dining"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=mediterranean;asian;fine_dining",
+   "cuisineUrl": "https://www.openstreetmap.org/node/14178516395"
+  },
+  "mouton": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Classic French bistro"
+  },
+  "osm-aari-thai-n4434106317": {
+   "cuisineTags": [
+    "Thai"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Aari thai"
+  },
+  "osm-brasseurs-n6448401485": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Frans restaurant - brasserie - Antwerpen | Brasseurs | Restaurant Brasseurs in Antwerpen is expert in de Zuiderse en Franse keuken. Kom eens langs of contacteer ons voor reservatie! | Restaurant Brasseurs in A",
+   "cuisineUrl": "https://www.restaurantbrasseurs.be"
+  },
+  "osm-brewers-kitchen-n5693449274": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Belgische gerechten\"",
+   "cuisineUrl": "https://www.brewerskitchen.be/"
+  },
+  "osm-cece-is-hungry-n12848458802": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Home | Cece is hungry | French cuisine with an Asian touch. | French cuisine with an Asian touch. | ",
+   "cuisineUrl": "https://www.ceceishungry.com/"
+  },
+  "osm-de-arme-duivel-n1523415912": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: De Arme Duivel | Restaurant in Antwerpen voor Klassiekers | Uit eten in Antwerpen? Bij De Arme Duivel geniet je van klassieke Vlaamse gerechten met een eigen twist. Reserveer nu je tafel! | Uit eten in Antwerp",
+   "cuisineUrl": "https://www.armeduivel.be"
+  },
+  "osm-de-artiest-n6919675756": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"typisch Belgische gerechten\"",
+   "cuisineUrl": "https://www.brasseriedenartist.be/nl"
+  },
+  "osm-de-merode-n2329196231": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Belgische klassiekers\"",
+   "cuisineUrl": "https://www.demerodeberchem.be"
+  },
+  "osm-de-peerdestal-n1523311076": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"\"Dry Aged\" meats from our Ripening Cabinet\"",
+   "cuisineUrl": "https://depeerdestal.be/en/"
+  },
+  "osm-de-reddende-engel-n1775392355": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant De Reddende Engel - Franse keuken in het hart van Antwerpen | In de schaduw van de kathedraal van Antwerpen laat Restaurant De Reddende Engel u kennismaken met de rijkdom van de Zuid-Franse keuken. ",
+   "cuisineUrl": "https://www.de-reddende-engel.be"
+  },
+  "osm-filet-d-anvers-n4946000114": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Vleesrestaurant Antwerpen | Filet d’Anvers: AFAS Dome Lotto Arena | Filet d’Anvers is een vleesrestaurant uit Antwerpen. De zaak biedt u authentiek vlees. | Filet d’Anvers is een vleesrestaurant uit Antwerpen.",
+   "cuisineUrl": "https://www.filetdanvers.be/"
+  },
+  "osm-kai-thai-n7742742654": {
+   "cuisineTags": [
+    "Thai"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Kai Thai"
+  },
+  "osm-la-trattoria-italiana-n6533875273": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: La Trattoria Italiana"
+  },
+  "osm-little-ethiopian-n5236118810": {
+   "cuisineTags": [
+    "African"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Little Ethiopian"
+  },
+  "osm-matiate-n5673441159": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Home - Matiate | Café, Bar & Restaurant | Bij Matiate geniet je van een zeer snelle service en een heerlijke Mediterraanse keuken met een Westerse toets in een stijlvol en trendy interieur. | Bij Matiate genie",
+   "cuisineUrl": "https://www.matiate.be/"
+  },
+  "osm-morso-n6864934622": {
+   "cuisineTags": [
+    "Belgian",
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"Frans-Belgische keuken\"",
+   "cuisineUrl": "https://morso-antwerp.be/"
+  },
+  "osm-napo-s-n4416692889": {
+   "cuisineTags": [
+    "Middle eastern",
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Napo’s Antwerpen | Middle Eastern Grill & Mezze aan het MAS | Napo’s is een Middle Eastern Grill & Mezze restaurant op het Eilandje in Antwerpen, vlak bij het MAS. Ontspannen sfeer, royale porties. | Napo’s is",
+   "cuisineUrl": "https://www.napos.be"
+  },
+  "osm-piadina-italiana-w498298233": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Piadina Italiana"
+  },
+  "osm-riku-ramen-n12672542701": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Riku Ramen"
+  },
+  "osm-ruba-fresh-food-n13284692647": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Ruba | Healthy & Fresh Mediterranean Bowls in Belgium | Enjoy healthy, fresh Mediterranean bowls at Ruba in Leuven, Ghent, Antwerp and Brussels. Choose warm bowls with rice or salad bowls with a seasonal salad",
+   "cuisineUrl": "https://www.rubafood.com/"
+  },
+  "osm-satay-n5991458052": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Zuidoost-Aziatisch restaurant in Antwerpen | Satay | Beleef bij Satay een culinaire reis doorheen Zuidoost-Azië. Onze fusion gerechten, geïnspireerd door chef Christophe's reizen doorheen de regio, combineren…",
+   "cuisineUrl": "https://satay.be/nl"
+  },
+  "osm-sei7en-steakhouse-n6990975896": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Sei7en Steakhouse"
+  },
+  "osm-sushi-omega-n6001950069": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: sushi Omega"
+  },
+  "osm-t-hof-van-eden-n1783469363": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Heerlijk tafelen in hartje Antwerpen met zicht op de kathedraal | Mortsel | Welkom in ’t Hof van Eden, de oase van rust op de Groenplaats. Kom in goed gezelschap genieten van onze gemoedelijke sfeer en de eerl",
+   "cuisineUrl": "https://thofvaneden.be/"
+  },
+  "osm-tandoori-pasta-n6938241234": {
+   "cuisineTags": [
+    "Indian",
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Tandoori Pasta"
+  },
+  "osm-xaverius-n2407511231": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant Xaverius NL - Restaurant Xaverius |  | BEST VIEW IN THE HEART OF ANTWERP Fine Dining experience Join us in the very heart of Antwerp and dine or lunch with a view on the stunning Antwerp Cathedral. ",
+   "cuisineUrl": "https://www.restaurant-xaverius.be/nl/restaurant-xaverius-nl/"
+  },
+  "osm-zagreb-n4770711616": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant Zagreb - A taste of the mediterranean as it once was | Kroatisch-Mediteraans Restaurant | Londenstraat - Eilandje - Antwerpen | Kroatisch-Mediteraans Restaurant | Londenstraat - Eilandje - Antwerpen",
+   "cuisineUrl": "https://restaurantzagreb.be/"
+  },
+  "t-fornuis": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=french",
+   "cuisineUrl": "https://www.openstreetmap.org/node/5287299392"
+  },
+  "viggos": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  }
+ }
+}

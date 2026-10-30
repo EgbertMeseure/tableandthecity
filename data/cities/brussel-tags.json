@@ -1,0 +1,544 @@
+{
+ "about": "Tag layer (applied in js/common.js load()): fills MISSING values only, never overrides curated or OSM data. cuisineTags: added to a restaurant's cuisine tags when it has no tag that maps to a 'By cuisine' / quiz group (TG.CUISINES); sources in order: current OpenStreetMap cuisine tag, the place's name, curated cuisine text, its own website (title / meta description). Left out when unsure. features: OpenStreetMap tags added since the import (outdoor_seating, wheelchair, takeaway). Checked 30 Oct 2026.",
+ "city": "brussel",
+ "count": 68,
+ "places": {
+  "alley-mian": {
+   "cuisineTags": [
+    "Noodles"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=noodle",
+   "cuisineUrl": "https://www.openstreetmap.org/node/5301940180"
+  },
+  "amen": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=mediterranean",
+   "cuisineUrl": "https://www.openstreetmap.org/node/9239844695"
+  },
+  "barge": {
+   "cuisineTags": [
+    "French",
+    "Regional"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=french;regional",
+   "cuisineUrl": "https://www.openstreetmap.org/node/2501834384"
+  },
+  "barkboy": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "bisous": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "boulengier": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=only"
+   }
+  },
+  "cafe-capitale": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "car-bon": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "chaga": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Chaga | Fine Dining Restaurant in Brussels – An Immersive Culinary Experience | Embark on a bold and refined culinary journey with Chef Kevin Lejeune. A fine dining experience in Brussels that awakens the sens",
+   "cuisineUrl": "https://chagarestaurant.com/"
+  },
+  "chou": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Mediterranean gastro-bistro"
+  },
+  "frank": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "groseille": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Cuisine française moderne à Schaerbeek | Groseille | Notre cuisine évolue au rythme des saisons et de l’inspiration de notre cheffe Camille Cosnefroy. Nous vous accueillons du mardi au samedi soir, et le… | No",
+   "cuisineUrl": "https://groseille.brussels/fr"
+  },
+  "henri": {
+   "features": {
+    "takeaway": false
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=no"
+   }
+  },
+  "humus-x-hortense": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: humus × hortense | Humus x humus in brussels is the first plant-based restaurant in Belgium receiving a Michelin star. We stand for sustainable fine dining and botanical gastronomy. | Botanical gastronomy sinc",
+   "cuisineUrl": "https://humushortense.be/"
+  },
+  "les-brigittines": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=belgian",
+   "cuisineUrl": "https://www.openstreetmap.org/node/8450305006",
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "madame-beta": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Greek neo-taverna"
+  },
+  "munch": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=asian",
+   "cuisineUrl": "https://www.openstreetmap.org/node/5781359285"
+  },
+  "nenu": {
+   "cuisineTags": [
+    "Vietnamese"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=vietnamese",
+   "cuisineUrl": "https://www.openstreetmap.org/node/11663750418"
+  },
+  "old-boy": {
+   "cuisineTags": [
+    "Asian",
+    "Grill"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: South-East Asian grill"
+  },
+  "ongba": {
+   "cuisineTags": [
+    "Vietnamese"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Vietnamese street food"
+  },
+  "osm-65degres-n6060218217": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: 65 degrés - Gastronomie et Handicap | Restaurant Inclusif à l'Avenue Louise, Bruxelles | Découvrez le restaurant gastronomique inclusif 65 Degrés, qui propose une cuisine délicate et de saison dans un cadre sp",
+   "cuisineUrl": "https://www.65degres.be"
+  },
+  "osm-bar-brussels-tapas-n3874925140": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Bar Brussels Tapas"
+  },
+  "osm-belga-queen-n8914797662": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Welcome - Belga Queen Brussels | Welcome to Belga Queen Brussels — where historic elegance meets authentic Belgian cuisine in the heart of the city. | Welcome to Belga Queen Brussels — where historic elegance ",
+   "cuisineUrl": "https://www.belgaqueenbrussels.be"
+  },
+  "osm-boma-n4148858472": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Boma Steak House Halal | Restauration 100% halal | Steakhouse | Situé dans la Upsite Tower de Bruxelles, un lieu inédit offrant une vue directe sur le canal. Le Boma vous propose une restauration 100% halal ba",
+   "cuisineUrl": "https://boma-restaurant.be/"
+  },
+  "osm-bouillon-bruxelles-n4418285721": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Belgisch restaurant in Brussel | Bouillon Bruxelles | Ontdek Bouillon Brussel, uw authentieke brasserie in het hartje van Brussel, waar de lekkere, vriendelijke Belgische keuken samenkomt met populaire Belgisc",
+   "cuisineUrl": "https://bouillonbruxelles.com/nl"
+  },
+  "osm-brighton-restaurant-n3991415854": {
+   "cuisineTags": [
+    "French",
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Brighton Restaurant | Stanhope Hotel Brussels by Thon Hotels | L’un des meilleurs restaurants de Bruxelles. Le Brighton Restaurant est un restaurant gastronomique qui sert des plats de cuisine fran&#231;aise e",
+   "cuisineUrl": "https://www.thonhotels.com/fr/hotels/belgique/bruxelles/stanhope-hotel/brighton-restaurant/"
+  },
+  "osm-brussels-grill-n4418285530": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Brussels Grill"
+  },
+  "osm-cafe-novo-n11463894762": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Belgian Restaurant in Bruxelles | Café Novo | Café NOVO offers gourmet, affordable Belgian cuisine in a friendly atmosphere. Enjoy a dish of the day, excellent coffee and a weekly music program: acoustic… | Ca",
+   "cuisineUrl": "https://cafenovo.be/en"
+  },
+  "osm-chaba-thai-n12926451892": {
+   "cuisineTags": [
+    "Thai"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Chaba Thai"
+  },
+  "osm-ciccio-n12173735214": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: CICCIOMATTO - Trattoria Italo bistro à Ixelles | CICCIOMATTO est un restaurant italien situé à Ixelles (Bruxelles), proposant une cuisine de trattoria bistro moderne et généreuse inspirée des traditions italie",
+   "cuisineUrl": "https://www.cicciomatto.com"
+  },
+  "osm-comptoir-rodin-n6234407427": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Venez découvrir notre cuisine belgo-méditerranéenne - Le comptoir Rodin | Cuisine Belgo – méditerranéenne. À première vue on en connaît le goût, mais il y ce petit twist qui fait toute la différence. | Cuisine",
+   "cuisineUrl": "https://www.comptoir-rodin.be/"
+  },
+  "osm-correspondance-n12400799950": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Fine Dining Restaurant Brussels - Two Concepts Under One Roof | Correspondance Restaurant | Correspondance offers two unique dining experiences: The Living Room for social dining and The Dining Room for refine",
+   "cuisineUrl": "https://correspondance.brussels/"
+  },
+  "osm-khayma-grill-n1286089058": {
+   "cuisineTags": [
+    "Grill"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Khayma Grill"
+  },
+  "osm-l-everest-n4438541893": {
+   "cuisineTags": [
+    "Indian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: L'Everest | Brussel | Chau. de Vleurgat 153, 1050 Ixelles | Indian & Nepali Restaurant |  |  | ",
+   "cuisineUrl": "https://leverest.be/"
+  },
+  "osm-l-improbable-n4415251355": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Frans restaurant in Elsene | L'Improbable | Frans restaurant in Elsene | Frans restaurant in Elsene | ",
+   "cuisineUrl": "https://restaurant-limprobable.be/nl"
+  },
+  "osm-la-boutique-alimentaire-n10821816421": {
+   "cuisineTags": [
+    "Sandwiches"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Accueil | La Boutique Alimentaire est un concept de « cantine-casse-croûte de qualité » qui évoque à la fois un restaurant, une cantine, un bar à salade, une sandwicherie raffinée dans une ambiance de loft New",
+   "cuisineUrl": "https://www.laboutiquealimentaire.be"
+  },
+  "osm-la-patinoire-n4880247808": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant Ecailler - La Brasserie de La Patinoire Bruxelles - Bois de la Cambre | Au centre de Bruxelles, à l’entrée du bois de la Cambre et juste devant le Théâtre de Poche, la Brasserie de la Patinoire vous",
+   "cuisineUrl": "https://www.brasseriedelapatinoire.be"
+  },
+  "osm-le-conteur-n9424855177": {
+   "cuisineTags": [
+    "Middle eastern",
+    "Mediterranean"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Midden-Oosters restaurant in Brussel | Le Conteur | Bij Le Conteur is elk diner een feest. Op een steenworp van de Grote Markt en de Beurs serveren we genereuze mediterrane keuken — tapas, deelgerechten en… | ",
+   "cuisineUrl": "https://le-conteur.com/nl"
+  },
+  "osm-le-iiieme-acte-n10106887628": {
+   "cuisineTags": [
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Frans restaurant in Brussel | Le Troisième Acte | Sinds 2000 is Le Troisième Acte een niet te missen adres op de Zavel. Ontdek in een warm decor van treinbanken en rode bakstenen de creatieve Franse keuken… | ",
+   "cuisineUrl": "https://troisiemeacte.be/nl"
+  },
+  "osm-le-petit-bon-bon-n12787866923": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Le Petit bon bon Brussels | Belgian Brasserie by Christophe Hardiquest | Corinthia Brussels | Corinthia | Discover Le Petit bon bon at Corinthia Brussels, where Belgian classics meet seasonal creativity in a l",
+   "cuisineUrl": "https://www.corinthia.com/en-gb/brussels/le-petit-bon-bon/"
+  },
+  "osm-le-varietes-n2466653916": {
+   "cuisineTags": [
+    "Belgian"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"les grands classiques de la cuisine belge\"",
+   "cuisineUrl": "https://www.levarietes.be/"
+  },
+  "osm-ma-jolie-n8118974586": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"cuisine créative\"",
+   "cuisineUrl": "https://www.majolie.brussels"
+  },
+  "osm-makisu-n5340841321": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Makisu | The sunny side of Sushi | Good natured eatery, good natured company. |  | ",
+   "cuisineUrl": "https://makisu.be/"
+  },
+  "osm-meeus-n4850273427": {
+   "cuisineTags": [
+    "Belgian",
+    "French"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: \"cuisine belge et française authentique\"",
+   "cuisineUrl": "https://brasseriemeeus.be/"
+  },
+  "osm-meni-n9238625768": {
+   "cuisineTags": [
+    "Sandwiches"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Tasty Sálata Lab | Custom salads, made fresh every day in Ixelles. |  |  | ",
+   "cuisineUrl": "https://www.meni.brussels/"
+  },
+  "osm-mili-asian-kitchen-n5749755356": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Mili Asian Kitchen"
+  },
+  "osm-mille-et-une-nuits-n6815904448": {
+   "cuisineTags": [
+    "African"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Couscous | Saint-Gilles | Restaurant Les Mille et Une Nuits Bruxelles | Venez savourer les saveurs de l | Venez savourer les saveurs de l | couscous, cuisine marocaine, cuisine tunisienne, grillade, tajine",
+   "cuisineUrl": "https://www.milleetunenuits.be"
+  },
+  "osm-nami-n11587783988": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site text: 5x Japanese keywords",
+   "cuisineUrl": "https://nami-roll.com/"
+  },
+  "osm-noumidia-n9940223128": {
+   "cuisineTags": [
+    "Seafood"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Restaurant - Friture de poisson à Laeken - Restaurant Noumidia | Restaurant Laeken - Noumidia - Fritures - Poissons - Spécialités - Restaurant Noumidia à Laeken | Restaurant Laeken - Noumidia - Fritures - Pois",
+   "cuisineUrl": "https://www.restaurant-noumidia.be/"
+  },
+  "osm-olivio-piadineria-n4268177828": {
+   "cuisineTags": [
+    "Italian",
+    "Sandwiches"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Olivio Piadineria | Piadina, Soupe, Tiramisu, Traiteur. Rue d'Arlon 35, 1000 Bruxelles | Olivio Piadineria - Italian Piadina Restaurant in Brussels, in the European district. Eat in or take away. Come enjoy ou",
+   "cuisineUrl": "https://www.oliviopiadineria.be/"
+  },
+  "osm-pasta-soultana-n10905595496": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Pasta Soultana"
+  },
+  "osm-pho-799-n11298203502": {
+   "cuisineTags": [
+    "Vietnamese"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Pho 799"
+  },
+  "osm-poke-go-n6216937632": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Poke Go"
+  },
+  "osm-souto-brasil-n3100698156": {
+   "cuisineTags": [
+    "Latin American"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Souto Brasil"
+  },
+  "osm-surfside-poke-n4262247204": {
+   "cuisineTags": [
+    "Asian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Surfside Poké"
+  },
+  "osm-sushi-wa-n6533611953": {
+   "cuisineTags": [
+    "Japanese"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Sushi Wa"
+  },
+  "osm-tae-s-sandwich-n6292978996": {
+   "cuisineTags": [
+    "Sandwiches"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Tae's Sandwich"
+  },
+  "osm-vedat-n10271198468": {
+   "cuisineTags": [
+    "Mediterranean",
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Vedat | Restaurant & Traiteur | Découvrez le restaurant Vedat et son service traiteur à Ixelles. Une cuisine du Sud aux inspirations du Monde. Des plats délicieux, frais, naturels et bio préparés par le chef V",
+   "cuisineUrl": "https://traiteur-vedat.be/"
+  },
+  "osm-winehouse-osteria-le-delizie-n2451989334": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Winehouse Osteria – Le Delizie"
+  },
+  "osteria-guitare": {
+   "cuisineTags": [
+    "Italian"
+   ],
+   "cuisineSource": "name",
+   "cuisineBasis": "name: Osteria Guitare"
+  },
+  "pinpin": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=only"
+   }
+  },
+  "ptitbeur": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=mediterranean",
+   "cuisineUrl": "https://www.openstreetmap.org/node/10908419020"
+  },
+  "quartz": {
+   "cuisineTags": [
+    "Modern / creative"
+   ],
+   "cuisineSource": "own website",
+   "cuisineBasis": "site head: Quartz - Restaurant gastronomique à Ixelles | Une Gastronomie décomplexée qui célèbre les producteurs belges et leurs produits du terroir. | Une Gastronomie décomplexée qui célèbre les producteurs belges et le",
+   "cuisineUrl": "https://quartzrestaurant.be/"
+  },
+  "ralph": {
+   "cuisineTags": [
+    "Mediterranean",
+    "Grill"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Mediterranean wood-fire grill"
+  },
+  "stella": {
+   "features": {
+    "takeaway": true
+   },
+   "features_evidence": {
+    "takeaway": "OpenStreetMap: takeaway=yes"
+   }
+  },
+  "stone-dial": {
+   "cuisineTags": [
+    "Chinese"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Contemporary Chinese"
+  },
+  "wantan": {
+   "cuisineTags": [
+    "Chinese"
+   ],
+   "cuisineSource": "OpenStreetMap (current tag)",
+   "cuisineBasis": "OSM cuisine=chinese",
+   "cuisineUrl": "https://www.openstreetmap.org/node/14293204310"
+  },
+  "yassou": {
+   "cuisineTags": [
+    "Mediterranean"
+   ],
+   "cuisineSource": "curated cuisine text",
+   "cuisineBasis": "curated cuisine: Greek home cooking"
+  }
+ }
+}
