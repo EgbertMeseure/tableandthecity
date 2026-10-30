@@ -146,6 +146,7 @@
       ${(isR(r) && !r.upcoming) || known(r.priceLevel) ? `<div><dt>Price</dt><dd>${priceTxt}</dd></div>` : ''}
       ${!hours && r.openingHoursNote ? `<div><dt>Hours</dt><dd>${esc(r.openingHoursNote)}</dd></div>` : ''}
       ${MEALF.any ? `<div><dt>${MEALF.bf && MEALF.br ? 'Breakfast &amp; brunch' : MEALF.bf ? 'Breakfast' : 'Brunch'}</dt><dd>Yes${r.breakfastHours ? ` · breakfast ${esc(r.breakfastHours)}` : ''}${r.brunchDays ? ` · brunch ${esc(r.brunchDays)}` : ''}${(r.mealSources || []).length ? ` <span class="unk">(${[...new Map(r.mealSources.map(u => [host(u), u])).entries()].map(([h, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(h)}</a>`).join(' · ')})</span>` : ''}</dd></div>` : ''}
+      ${r.liveMusic ? `<div class="ess-live"><dt>Live music</dt><dd>${r.liveMusic.note ? esc(r.liveMusic.note) : 'Yes'}${r.liveMusic.source ? ` <span class="unk">(<a href="${esc(r.liveMusic.source)}" target="_blank" rel="noopener">${esc(host(r.liveMusic.source))}</a>)</span>` : ''}</dd></div>` : ''}
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
       ${hours ? `<div class="ess-hours"><dt>Hours</dt><dd>${hoursHtml}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
     </dl>

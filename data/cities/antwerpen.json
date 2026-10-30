@@ -389,6 +389,13 @@
    "field": "new",
    "change": "Added 5 vegan/vegetarian places found via HappyCow and checked on their own sites: Ecocafé Borgerhout, MoMu Café, Piano & Sano, Foelie, Antoinette.",
    "source": "https://www.happycow.net/"
+  },
+  {
+   "date": "2026-10-30",
+   "restaurant": "Jazzcafé De Muze",
+   "field": "new",
+   "change": "Added music café(s) with clearly recurring live music, checked on their own site and current agenda: Jazzcafé De Muze.",
+   "source": "https://jazzcafedemuze.be/programma/"
   }
  ],
  "restaurants": [
@@ -12734,6 +12741,73 @@
    "category": "patisserie",
    "notes": "Added from the HappyCow check of 30 Oct 2026; open status checked on the place's own site or recent listings. No photos yet.",
    "origin": "research-2026-10-30-happycow"
+  },
+  {
+   "id": "jazzcafe-de-muze",
+   "name": "Jazzcafé De Muze",
+   "group": "cafes_bars",
+   "category": "cafe",
+   "type": null,
+   "cuisine": "Jazz café",
+   "cuisineTags": [],
+   "chef": null,
+   "address": "Melkmarkt 15, 2000 Antwerpen",
+   "postalCode": "2000",
+   "district": "Antwerpen",
+   "neighbourhood": "Historisch Centrum",
+   "lat": 51.2204891,
+   "lng": 4.4029208,
+   "geoSource": "OpenStreetMap Nominatim (way/497378588 (address))",
+   "geoPrecision": "address",
+   "priceLevel": null,
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": "unknown",
+   "openingDate": "unknown",
+   "isNew": false,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "dietNote": "",
+   "menuType": "",
+   "menuChanges": "unknown",
+   "currentMenuNote": "",
+   "status": "open",
+   "statusNote": "Current concert agenda online (checked 30 Oct 2026).",
+   "website": "https://jazzcafedemuze.be/",
+   "instagram": null,
+   "instagram_handle": null,
+   "phone": null,
+   "summary": "Classic multi-level jazz café in the old centre: free live jazz most evenings (Mon–Thu 21:00, Fri–Sat 22:00, Sun 15:00; no Sunday/Monday concerts May–September). No food, just drinks and music; no reservations.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://jazzcafedemuze.be/programma/",
+    "https://jazzcafedemuze.be/informatie/"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-30",
+   "lastChanged": "2026-10-30",
+   "city": "antwerpen",
+   "country": "BE",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "photos": [],
+   "features": {
+    "liveMusic": true
+   },
+   "features_evidence": {
+    "liveMusic": "https://jazzcafedemuze.be/programma/"
+   },
+   "openingHours": null,
+   "openingHoursSource": null,
+   "notes": "Added from the live-music check of 30 Oct 2026 (own site + current agenda). No photo: the site's own images show people.",
+   "origin": "research-2026-10-30-livemusic",
+   "osm": "way/497378588"
   }
  ],
  "eventDetails": {

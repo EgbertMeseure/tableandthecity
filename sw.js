@@ -10,7 +10,7 @@
      the OSM tile usage policy discourages bulk/offline caching; the browser's normal HTTP cache still applies.
    All paths are relative to this file, so the same worker runs under /tableandthecity/ (GitHub Pages), at a domain root,
    or inside a Capacitor wrapper. */
-const VERSION = 'ef9e8eba00'; // stamped
+const VERSION = '2edf9cae71'; // stamped
 const PRECACHE = [
  "./",
  "index.html",
@@ -20,30 +20,30 @@ const PRECACHE = [
  "offline.html",
  "manifest.webmanifest",
  "favicon.ico",
- "js/i18n.js?v=ef9e8eba00",
+ "js/i18n.js?v=2edf9cae71",
  "vendor/three/three.custom.min.js",
- "css/brand.css?v=ef9e8eba00",
- "css/world.css?v=ef9e8eba00",
- "js/world.js?v=ef9e8eba00",
- "js/pwa.js?v=ef9e8eba00",
+ "css/brand.css?v=2edf9cae71",
+ "css/world.css?v=2edf9cae71",
+ "js/world.js?v=2edf9cae71",
+ "js/pwa.js?v=2edf9cae71",
  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
  "vendor/leaflet.markercluster/MarkerCluster.css",
- "css/style.css?v=ef9e8eba00",
+ "css/style.css?v=2edf9cae71",
  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
  "vendor/leaflet.markercluster/leaflet.markercluster.js",
- "js/config.js?v=ef9e8eba00",
- "js/forms.js?v=ef9e8eba00",
- "js/hours.js?v=ef9e8eba00",
- "js/common.js?v=ef9e8eba00",
- "js/quotes.js?v=ef9e8eba00",
- "js/app.js?v=ef9e8eba00",
- "js/quiz.js?v=ef9e8eba00",
- "js/suggest.js?v=ef9e8eba00",
- "js/eventreq.js?v=ef9e8eba00",
- "js/visits.js?v=ef9e8eba00",
- "js/cityreq.js?v=ef9e8eba00",
- "js/detail.js?v=ef9e8eba00",
- "js/report.js?v=ef9e8eba00",
+ "js/config.js?v=2edf9cae71",
+ "js/forms.js?v=2edf9cae71",
+ "js/hours.js?v=2edf9cae71",
+ "js/common.js?v=2edf9cae71",
+ "js/quotes.js?v=2edf9cae71",
+ "js/app.js?v=2edf9cae71",
+ "js/quiz.js?v=2edf9cae71",
+ "js/suggest.js?v=2edf9cae71",
+ "js/eventreq.js?v=2edf9cae71",
+ "js/visits.js?v=2edf9cae71",
+ "js/cityreq.js?v=2edf9cae71",
+ "js/detail.js?v=2edf9cae71",
+ "js/report.js?v=2edf9cae71",
  "img/icons/apple-touch-icon.png",
  "img/icons/favicon-16.png",
  "img/icons/favicon-32.png",
@@ -52,7 +52,7 @@ const PRECACHE = [
  "img/icons/icon-512.png",
  "img/icons/icon-maskable-1024.png",
  "img/icons/icon-maskable-512.png",
- "data/cities.json?v=ef9e8eba00"
+ "data/cities.json?v=2edf9cae71"
 ]; // stamped
 const SHELL = `tatc-shell-${VERSION}`, RUNTIME = `tatc-runtime-${VERSION}`;
 const SWR_HOSTS = ['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com'];

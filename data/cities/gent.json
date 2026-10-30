@@ -15098,6 +15098,140 @@
    "notes": "Opened ~early October 2026 (Nieuwsblad 26 Oct 2026: 'enkele weken geleden'); exact date not published. Run by Bakytgul 'Bahonya' Pochinkova (Beautybar Bahonya) and Filip De Schaapmeester. Google Maps lists barr34.com and 0468 02 73 62; barr34.com sits behind a bot check (not readable 2026-10-26). Temporarily closed 30 Oct – 6 Nov 2026.",
    "otherLocations": null,
    "origin": "research-2026-10-26"
+  },
+  {
+   "id": "hot-club-gent",
+   "name": "Hot Club Gent",
+   "group": "cafes_bars",
+   "category": "cafe",
+   "type": null,
+   "cuisine": "Jazz café",
+   "cuisineTags": [],
+   "chef": null,
+   "address": "Schuddevisstraatje 2, 9000 Gent",
+   "postalCode": "9000",
+   "district": "Gent (9000)",
+   "neighbourhood": "Patershol",
+   "lat": 51.0563166,
+   "lng": 3.7226405,
+   "geoSource": "OpenStreetMap Nominatim (node/1381910690 (address))",
+   "geoPrecision": "address",
+   "priceLevel": null,
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": "unknown",
+   "openingDate": "unknown",
+   "isNew": false,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "dietNote": "",
+   "menuType": "",
+   "menuChanges": "unknown",
+   "currentMenuNote": "",
+   "status": "open",
+   "statusNote": "Current concert agenda online (checked 30 Oct 2026).",
+   "website": "https://www.hotclub.gent/",
+   "instagram": null,
+   "instagram_handle": null,
+   "phone": null,
+   "summary": "Tiny jazz café in an alley off the Groentenmarkt, reopened by musicians in the spirit of the original Hot Club de Gand (2005): concerts and jam sessions almost every night, from swing and gypsy jazz to contemporary.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://www.hotclub.gent/programma.php",
+    "https://www.hotclub.gent/info.php"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-30",
+   "lastChanged": "2026-10-30",
+   "city": "gent",
+   "country": "BE",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "photos": [],
+   "features": {
+    "liveMusic": true
+   },
+   "features_evidence": {
+    "liveMusic": "https://www.hotclub.gent/programma.php"
+   },
+   "openingHours": null,
+   "openingHoursSource": null,
+   "notes": "Added from the live-music check of 30 Oct 2026 (own site + current agenda). No photo: the site's own images show people.",
+   "origin": "research-2026-10-30-livemusic",
+   "osm": "node/1381910690"
+  },
+  {
+   "id": "missy-sippy",
+   "name": "Missy Sippy",
+   "group": "cafes_bars",
+   "category": "cafe",
+   "type": null,
+   "cuisine": "Blues & roots café",
+   "cuisineTags": [],
+   "chef": null,
+   "address": "Klein Turkije 16, 9000 Gent",
+   "postalCode": "9000",
+   "district": "Gent (9000)",
+   "neighbourhood": "Centrum",
+   "lat": 51.0543869,
+   "lng": 3.7227163,
+   "geoSource": "OpenStreetMap Nominatim (way/97507956 (address))",
+   "geoPrecision": "address",
+   "priceLevel": null,
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": "unknown",
+   "openingDate": "unknown",
+   "isNew": false,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "dietNote": "",
+   "menuType": "",
+   "menuChanges": "unknown",
+   "currentMenuNote": "",
+   "status": "open",
+   "statusNote": "Current concert agenda online (checked 30 Oct 2026).",
+   "website": "https://missy-sippy.be/",
+   "instagram": null,
+   "instagram_handle": null,
+   "phone": null,
+   "summary": "Blues & roots club in a centuries-old house between the Korenmarkt and the Stadshal: a juke-joint style café, open 7 days, with weekly concerts, jams, DJ sets and dance nights.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://missy-sippy.be/"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-30",
+   "lastChanged": "2026-10-30",
+   "city": "gent",
+   "country": "BE",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "photos": [],
+   "features": {
+    "liveMusic": true,
+    "openSunday": true
+   },
+   "features_evidence": {
+    "liveMusic": "https://missy-sippy.be/"
+   },
+   "openingHours": null,
+   "openingHoursSource": null,
+   "notes": "Added from the live-music check of 30 Oct 2026 (own site + current agenda). No photo: the site's own images show people.",
+   "origin": "research-2026-10-30-livemusic",
+   "osm": "way/97507956"
   }
  ],
  "extraEvents": [
@@ -16028,6 +16162,13 @@
    "field": "removed",
    "change": "Removed (kebab wraps + student discounts break the no-kebab / no-student rules; user decision 2026-10-26; data/never-exclude.json node/6799991954).",
    "source": "https://www.hln.be/eten-en-drinken-gent/net-open-ahmad-40-opent-golden-potato-in-de-overpoort-zelfs-mijn-chili-sin-carne-komt-met-aardappelpartjes~a1a3f88f/"
+  },
+  {
+   "date": "2026-10-30",
+   "restaurant": "Hot Club Gent, Missy Sippy",
+   "field": "new",
+   "change": "Added music café(s) with clearly recurring live music, checked on their own site and current agenda: Hot Club Gent, Missy Sippy.",
+   "source": "https://www.hotclub.gent/programma.php"
   }
  ]
 }

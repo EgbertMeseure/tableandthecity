@@ -1,0 +1,19 @@
+{
+ "about": "Live music layer: places already on the guide with sourced RECURRING live music (concerts, jazz nights, jam sessions); dated gigs (Nov 2026 on) are added to the place's events. Never overrides curated / OSM data. Built 30 Oct 2026 (preview-live-music).",
+ "city": "brugge",
+ "count": 2,
+ "places": {
+  "27b-flat": {
+   "note": "Jazz or blues on Friday and Saturday",
+   "source": "https://www.27bflat.be/nl/",
+   "basis": "Own site: 'Kom vrijdag en zaterdag naar één van onze unieke jazz- of blues concerten'",
+   "checked": "2026-10-30"
+  },
+  "delaneys": {
+   "note": "Live music on Friday and Saturday",
+   "source": "https://www.delaneys.be/",
+   "basis": "Own site: 'regularly hosts live music on Friday and Saturday night'",
+   "checked": "2026-10-30"
+  }
+ }
+}

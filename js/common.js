@@ -484,8 +484,8 @@ const TG = (() => {
   /* ---- data ---- */
   async function load(city) {
     const opt = (url, empty) => url ? fetch(bust(url), { cache: 'no-cache' }).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg, hz, bk, ig, gr, ph, tg] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
-      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} }), opt(city.tags, { places: {} })]);
+    const [d, up, om, vg, hz, bk, ig, gr, ph, tg, lm] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} }), opt(city.tags, { places: {} }), opt(city.livemusic, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
@@ -495,6 +495,11 @@ const TG = (() => {
     rs.forEach(r => { if (r.statusUntil && TODAY > r.statusUntil) { r.status = 'open'; r.statusNote = ''; } });
     rs.forEach(r => { r.opened = openedOf(r); r.isNew = !r.upcoming && isRecent(r.opened); });   // the stored isNew flag is ignored
     rs.forEach(r => applyTags(r, (tg.places || {})[r.id]));
+    /* live music layer (data/cities/<city>-livemusic.json, sourced): recurring concerts / jazz nights / jam sessions → r.liveMusic
+       (note + source, place page and the 'Live music' tile); its dated gigs join the place's events */
+    rs.forEach(r => { const x = (lm.places || {})[r.id]; if (!x) return;
+      r.liveMusic = { note: x.note || '', source: x.source || '' };
+      if ((x.events || []).length) r.events = [...(r.events || []), ...x.events]; });
     rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
     rs.forEach(r => { const g = (gr.places || {})[r.id]; r.gscore = g && g.score > 0 ? g.score : null; });   // <city>-ratings.json: Google rating x 2 (0-10), only confident matches
     rs.forEach(r => { const h = (hz.places || {})[r.id]; if (h && !r.heroImage) r.heroImage = h; applyMeal(r, (bk.places || {})[r.id]); });

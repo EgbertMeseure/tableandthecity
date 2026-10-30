@@ -147,6 +147,34 @@ All Asian | Alle Aziatische | Alle asiatischen | Toutes les asiatiques | Todas l
 All Middle Eastern & North African | Alle Midden-Oosterse & Noord-Afrikaanse | Alle aus Nahost & Nordafrika | Tout Moyen-Orient & Afrique du Nord | Todo Oriente Medio y norte de África
 All Fish, meat & grill | Alle vis, vlees & grill | Alles Fisch, Fleisch & Grill | Tout poisson, viande & grill | Todo pescado, carne y parrilla
 {x} restaurants in {city} | Restaurants in {city}: {x} | Restaurants in {city}: {x} | Restaurants à {city} : {x} | Restaurantes en {city}: {x}
+## live music (30 Oct 2026, preview-live-music)
+Live music | Livemuziek | Livemusik | Musique live | Música en directo
+Live music in {city} | Livemuziek in {city} | Livemusik in {city} | Musique live à {city} | Música en directo en {city}
+Concerts on Wednesday and Thursday | Concerten op woensdag en donderdag | Konzerte mittwochs und donnerstags | Concerts le mercredi et le jeudi | Conciertos los miércoles y jueves
+Free concerts several nights a week | Gratis concerten, meerdere avonden per week | Gratis Konzerte an mehreren Abenden pro Woche | Concerts gratuits plusieurs soirs par semaine | Conciertos gratuitos varias noches por semana
+Thursday-evening concerts, about monthly | Optredens op donderdagavond, ongeveer maandelijks | Konzerte am Donnerstagabend, etwa monatlich | Concerts le jeudi soir, environ une fois par mois | Conciertos los jueves por la noche, más o menos cada mes
+Live jazz every weekend | Elk weekend live jazz | Jedes Wochenende Live-Jazz | Jazz live chaque week-end | Jazz en directo cada fin de semana
+Concerts on Friday and Saturday nights | Concerten op vrijdag- en zaterdagavond | Konzerte am Freitag- und Samstagabend | Concerts le vendredi et le samedi soir | Conciertos los viernes y sábados por la noche
+Concerts and DJ sets most nights | Bijna elke avond concerten en dj-sets | Fast jeden Abend Konzerte und DJ-Sets | Concerts et DJ sets presque tous les soirs | Conciertos y sesiones de DJ casi todas las noches
+Regular free concerts | Regelmatig gratis concerten | Regelmäßig gratis Konzerte | Concerts gratuits réguliers | Conciertos gratuitos con regularidad
+Live music every weekend | Elk weekend livemuziek | Jedes Wochenende Livemusik | Musique live chaque week-end | Música en directo cada fin de semana
+Monthly jazz concerts | Maandelijkse jazzconcerten | Monatliche Jazzkonzerte | Concerts de jazz mensuels | Conciertos de jazz mensuales
+Jazz or blues on Friday and Saturday | Jazz of blues op vrijdag en zaterdag | Jazz oder Blues freitags und samstags | Jazz ou blues le vendredi et le samedi | Jazz o blues los viernes y sábados
+Live music on Friday and Saturday | Livemuziek op vrijdag en zaterdag | Livemusik freitags und samstags | Musique live le vendredi et le samedi | Música en directo los viernes y sábados
+Do you want live music? | Wil je livemuziek? | Möchtest du Livemusik? | Tu veux de la musique live ? | ¿Quieres música en directo?
+Yes, live music | Ja, livemuziek | Ja, Livemusik | Oui, musique live | Sí, música en directo
+Concerts, jazz nights, jam sessions | Concerten, jazzavonden, jamsessies | Konzerte, Jazzabende, Jamsessions | Concerts, soirées jazz, jam sessions | Conciertos, noches de jazz, jam sessions
+Doesn’t matter | Maakt niet uit | Egal | Peu importe | Me da igual
+All bars | Alle bars | Alle Bars | Tous les bars | Todos los bares
+Any bar | Elke bar | Jede Bar | N’importe quel bar | Cualquier bar
+Concerts and jam sessions most nights | Bijna elke avond concerten en jamsessies | Fast jeden Abend Konzerte und Jamsessions | Concerts et jam sessions presque tous les soirs | Conciertos y jam sessions casi todas las noches
+Weekly blues and roots concerts and jams | Wekelijks blues- en rootsconcerten en jams | Wöchentlich Blues- und Roots-Konzerte und Jams | Concerts et jams blues et roots chaque semaine | Conciertos y jams de blues y roots cada semana
+Free live jazz most evenings | Bijna elke avond gratis live jazz | Fast jeden Abend gratis Live-Jazz | Jazz live gratuit presque tous les soirs | Jazz en directo gratis casi todas las noches
+Live jazz Thursday to Sunday | Live jazz van donderdag tot zondag | Live-Jazz von Donnerstag bis Sonntag | Jazz live du jeudi au dimanche | Jazz en directo de jueves a domingo
+Jazz concerts six to seven nights a week | Jazzconcerten zes tot zeven avonden per week | Jazzkonzerte an sechs bis sieben Abenden pro Woche | Concerts de jazz six à sept soirs par semaine | Conciertos de jazz seis o siete noches por semana
+Jazz café | Jazzcafé | Jazzcafé | Café jazz | Café de jazz
+Blues & roots café | Blues- & rootscafé | Blues- & Roots-Café | Café blues & roots | Café de blues y roots
+Jazz club | Jazzclub | Jazzclub | Club de jazz | Club de jazz
 ## place types
 Restaurant | Restaurant | Restaurant | Restaurant | Restaurante
 Quick bites | Snelle hap | Kleine Happen | Sur le pouce | Para picar
