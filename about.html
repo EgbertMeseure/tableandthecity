@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="8c8be983b6">
-<script src="js/i18n.js?v=8c8be983b6"></script>
+<meta name="build" content="e07ddcb0c9">
+<script src="js/i18n.js?v=e07ddcb0c9"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>About the data — Table and the City</title>
+<title>About the data &amp; changes — Table and the City</title>
 <meta name="description" content="Where the information in Table and the City comes from: guides, the places’ own websites, local press and OpenStreetMap; nothing is invented.">
 <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
 <link rel="icon" href="img/brand/favicon.svg" type="image/svg+xml">
@@ -16,7 +16,7 @@
 <meta name="theme-color" content="#0b0b0b">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Table and the City">
-<meta property="og:title" content="About the data — Table and the City">
+<meta property="og:title" content="About the data &amp; changes — Table and the City">
 <meta property="og:description" content="Where the information in Table and the City comes from: guides, the places’ own websites, local press and OpenStreetMap; nothing is invented.">
 <meta property="og:image" content="https://www.tableandthecity.com/img/share-card.jpg">
 <meta property="og:image:width" content="1200">
@@ -25,12 +25,13 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/brand.css?v=8c8be983b6">
-<link rel="stylesheet" href="css/style.css?v=8c8be983b6">
+<link rel="stylesheet" href="css/brand.css?v=e07ddcb0c9">
+<link rel="stylesheet" href="css/style.css?v=e07ddcb0c9">
 </head>
-<body class="detail info" data-page="about">
-<!-- About the data: its own page per city (about.html?country=&city=), filled by js/info.js; the guide's old #about link forwards here -->
-<header class="ihero grain" id="top">
+<body class="detail info info--quiet" data-page="about">
+<!-- About the data + Latest changes, one quiet page per city (about.html?country=&city=, changes at #changes), filled by js/info.js;
+     changes.html and the guide's old #about / #changelog links forward here -->
+<header class="ihero ihero--quiet grain" id="top">
   <div class="topbar">
     <span class="logo-wrap"><a class="logo" href="/"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City – home" width="190" height="40"></a><button class="beta-tag" type="button" aria-describedby="beta-tip">Beta</button><span class="beta-tip" id="beta-tip" role="tooltip">This guide is in beta: some info may not be fully accurate yet.</span></span>
     <div class="topbar__right">
@@ -47,23 +48,28 @@
 </header>
 <nav class="navdrawer" id="nav" aria-hidden="true">
   <button class="close up" data-close-nav>Close</button>
-  <a data-home href="guide.html">Home</a><a data-home="#explore" href="guide.html#explore">Map &amp; list</a><a data-home="#events" href="guide.html#events">Events</a><a data-city-page="about.html" href="about.html" aria-current="page">About the data</a><a data-city-page="changes.html" href="changes.html">Latest changes</a><a href="#suggest" class="nav-suggest" data-suggest data-close-nav>Suggest a place</a>
+  <a data-home href="guide.html">Home</a><a data-home="#explore" href="guide.html#explore">Map &amp; list</a><a data-home="#events" href="guide.html#events">Events</a><a href="#suggest" class="nav-suggest" data-suggest data-close-nav>Suggest a place</a>
   <span class="family">Part of the … and the City family</span>
 </nav>
 <main class="ipage" id="main">
     <p id="about-text"><span id="about-city">Ghent</span> is the first city in the guide. The selection is based on the <a href="https://guide.michelin.com/be/nl/oost-vlaanderen/gent/restaurants" target="_blank" rel="noopener">MICHELIN Guide 2026</a>, <a href="https://www.gaultmillau.be/nl/restaurants?q=gent" target="_blank" rel="noopener">Gault&amp;Millau 2026</a>, the restaurants’ own websites and local press (HLN, Nieuwsblad, Made in). Nothing is invented: anything we could not verify is shown as <em>unknown</em>. Price level (€–€€€€) comes only from the Michelin Guide; “from €” is the lowest menu/lunch price found in a source. Sources are mostly in Dutch; menu notes are translated faithfully, guide descriptions are shown in the original Dutch.</p>
     <p>Coordinates: <a href="https://nominatim.openstreetmap.org/" target="_blank" rel="noopener">Nominatim / OpenStreetMap</a>. Map © OpenStreetMap contributors (greyscale on the home page, colour on the detail page). Mood images: <a href="img/CREDITS.json">Unsplash (Unsplash License)</a><span id="hero-credit"></span> – they are not photos of the restaurants themselves.</p>
-  <p class="ipage__more"><a class="pill-btn dark sm" data-city-page="changes.html" href="changes.html">Latest changes</a></p>
+  <section class="ipage__sec" id="changes" aria-labelledby="changes-h">
+    <h2 class="ipage__h" id="changes-h">Latest changes</h2>
+    <p class="ipage__lede">What we added, corrected or removed for this city, newest first.</p>
+    <p class="clog-count" id="clog-count" aria-live="polite"></p>
+    <div id="clog"></div>
+  </section>
 </main>
 <footer class="site-footer" data-footer></footer>
-<script src="js/config.js?v=8c8be983b6"></script>
-<script src="js/forms.js?v=8c8be983b6"></script>
-<script src="js/hours.js?v=8c8be983b6"></script>
-<script src="js/common.js?v=8c8be983b6"></script>
-<script src="js/info.js?v=8c8be983b6"></script>
-<script src="js/suggest.js?v=8c8be983b6"></script>
-<script src="js/visits.js?v=8c8be983b6"></script>
-<script src="js/cityreq.js?v=8c8be983b6"></script>
-<script src="js/pwa.js?v=8c8be983b6"></script>
+<script src="js/config.js?v=e07ddcb0c9"></script>
+<script src="js/forms.js?v=e07ddcb0c9"></script>
+<script src="js/hours.js?v=e07ddcb0c9"></script>
+<script src="js/common.js?v=e07ddcb0c9"></script>
+<script src="js/info.js?v=e07ddcb0c9"></script>
+<script src="js/suggest.js?v=e07ddcb0c9"></script>
+<script src="js/visits.js?v=e07ddcb0c9"></script>
+<script src="js/cityreq.js?v=e07ddcb0c9"></script>
+<script src="js/pwa.js?v=e07ddcb0c9"></script>
 </body>
 </html>

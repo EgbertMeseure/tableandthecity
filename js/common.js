@@ -380,7 +380,7 @@ const TG = (() => {
     return `${page}?country=${encodeURIComponent(c ? c.countryId : 'be')}&city=${encodeURIComponent(cityId)}${extra}`;
   };
   /* two pills: Country ▾  City ▾ (city list filtered by the chosen country) */
-  function renderCitySel(cfg, city, page = 'guide.html') {   // page: where a picked city goes (about.html / changes.html stay on their page)
+  function renderCitySel(cfg, city, page = 'guide.html') {   // page: where a picked city goes (about.html stays on its page)
     CUR = city; try { localStorage.setItem('tatc.lastCity', city.id); } catch (e) {}   // the landing (index.html, site root) offers 'Continue to <city>'
     const cityItems = co => co.cities.map(c => c.active
       ? `<li role="option" aria-current="${c.id === city.id}"><a class="ci" href="${cityUrl(page, c.id)}">${esc(c.name)}<em>${c.id === city.id ? '●' : ''}</em></a></li>`
@@ -411,7 +411,7 @@ const TG = (() => {
     });
     document.addEventListener('click', () => document.querySelectorAll('.citysel.open').forEach(d => { d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded', 'false'); }));
     document.querySelectorAll('[data-home]').forEach(a => a.href = cityUrl('guide.html', city.id) + (a.dataset.home || ''));
-    document.querySelectorAll('[data-city-page]').forEach(a => a.href = cityUrl(a.dataset.cityPage, city.id));   // about.html / changes.html for this city
+    document.querySelectorAll('[data-city-page]').forEach(a => a.href = cityUrl(a.dataset.cityPage, city.id));   // city-specific page links ([data-city-page]) for this city
   }
   /* cuisine groups for the quiz's 'What kind of food?' step and the 'By cuisine' card. `t` is tested on each cuisine tag
      (OSM + curated), `x` (optional) on the curated free-text cuisine line (curated tags are coarse, e.g. Thai → 'Asian').
@@ -478,7 +478,7 @@ const TG = (() => {
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
       <a class="logo logo--foot" href="${cityUrl('guide.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
       <div class="family">Part of the <i style="font-family:var(--serif-it);text-transform:none;font-size:15px;letter-spacing:.02em">… and the City</i> family<br>${fam}</div>
-      <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data</a><a href="${cityUrl('changes.html', city.id)}" class="foot-changes">Latest changes</a><a href="#top">Back to top</a><a href="privacy.html" class="foot-privacy">Privacy</a></div>
+      <div class="foot-links"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data &amp; changes</a><a href="#top">Back to top</a><a href="privacy.html" class="foot-privacy">Privacy</a></div>
       <div class="meta"><span>${esc(cfg.brand.domain)} · prototype</span><span>${esc(city.name)}, ${esc(city.country)}</span><span>${extra || 'Data: Michelin · Gault&amp;Millau · own websites · press'}</span><span>Base list: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> (ODbL) · veggie levels: own checks + HappyCow</span><span>Ratings: Google</span><span class="visits" data-visits hidden></span></div>`);
   }
 

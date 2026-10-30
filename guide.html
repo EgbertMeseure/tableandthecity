@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="8c8be983b6">
-<script src="js/i18n.js?v=8c8be983b6"></script>
+<meta name="build" content="e07ddcb0c9">
+<script src="js/i18n.js?v=e07ddcb0c9"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Table and the City</title>
 <meta name="description" content="Table and the City: a curated, filterable guide to the city's best tables — restaurants, bistros, cafés, coffee, bakeries, new openings and vegetarian &amp; vegan options.">
@@ -27,7 +27,7 @@
 <meta property="og:image:alt" content="Table and the City logo">
 <meta name="twitter:card" content="summary_large_image">
 <script>/* old links to the former bottom sections (guide.html#about / #changelog) go to their own pages, same city + language */
-(function(){var h=location.hash,p=h==='#about'?'about.html':(h==='#changelog'||h==='#changes')?'changes.html':'';if(p)location.replace(p+location.search);})();</script>
+(function(){var h=location.hash,p=h==='#about'?'':(h==='#changelog'||h==='#changes')?'#changes':null;if(p!==null)location.replace('about.html'+location.search+p);})();</script>
 <script>/* static hero = default city (Gent); another ?city= gets its own hero from data/cities.json (js/app.js), so don't preload or show Gent's */
 (function(){var c=(new URLSearchParams(location.search).get('city')||'').toLowerCase();document.documentElement.setAttribute('data-city',c||'gent');
 if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='image';l.href='img/cities/gent/hero-gravensteen-1600.webp';l.setAttribute('imagesrcset','img/cities/gent/hero-gravensteen-1000.webp 1000w, img/cities/gent/hero-gravensteen-1600.webp 1600w, img/cities/gent/hero-gravensteen-2400.webp 2400w');l.setAttribute('imagesizes','100vw');document.head.appendChild(l);}})();</script>
@@ -35,8 +35,8 @@ if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='im
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
-<link rel="stylesheet" href="css/brand.css?v=8c8be983b6">
-<link rel="stylesheet" href="css/style.css?v=8c8be983b6">
+<link rel="stylesheet" href="css/brand.css?v=e07ddcb0c9">
+<link rel="stylesheet" href="css/style.css?v=e07ddcb0c9">
 </head>
 <body>
 <header class="hero grain" id="top">
@@ -69,8 +69,6 @@ if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='im
   <a href="#categories" data-close-nav>Categories</a>
   <a href="#explore" data-close-nav>Map &amp; list</a>
   <a href="#events" data-close-nav>Events</a>
-  <a data-city-page="about.html" href="about.html?country=be&amp;city=gent">About the data</a>
-  <a data-city-page="changes.html" href="changes.html?country=be&amp;city=gent">Latest changes</a>
   <a href="#suggest" class="nav-suggest" data-suggest data-close-nav>Suggest a place</a>
   <a href="./">All destinations</a>
   <span class="family">Part of the … and the City family</span>
@@ -101,7 +99,7 @@ if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='im
       <div class="chips" role="group" aria-label="Quick filters">
         <button class="chip" id="btn-loc" aria-pressed="false">Near me</button>
         <button class="chip" id="btn-nearopen" aria-pressed="false">Near me · open now</button>
-        <button class="chip chip--saved" data-toggle="saved" aria-pressed="false"><span aria-hidden="true">♡ </span>Saved</button>
+        <button class="chip chip--saved" data-toggle="saved" aria-pressed="false"><svg class="mt-mark mt-mark--chip" viewBox="3 4.5 26 24" aria-hidden="true"><ellipse class="mt-mark__fill" cx="16" cy="23.1" rx="10.6" ry="3.4"/><path d="M5 7H27M16 7V22.4"/><path d="M22.8 26.6C26 25.8 27.6 24.6 27 23.2 26.2 21 21.4 19.5 16 19.5S5.8 21 5 23.2C4.4 24.6 6 25.8 9.2 26.6"/></svg>My table</button>
         <button class="chip chip--open" data-toggle="open" aria-pressed="false" title="Only places open right now (Brussels time, from known opening hours)">Open now</button>
         <button class="chip" data-toggle="new" aria-pressed="false">New</button>
         <button class="chip" data-toggle="events" aria-pressed="false">Events</button>
@@ -135,18 +133,18 @@ if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='im
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
-<script src="js/config.js?v=8c8be983b6"></script>
-<script src="js/forms.js?v=8c8be983b6"></script>
-<script src="js/hours.js?v=8c8be983b6"></script>
-<script src="js/common.js?v=8c8be983b6"></script>
-<script src="js/quotes.js?v=8c8be983b6"></script>
-<script src="js/app.js?v=8c8be983b6"></script>
-<script src="js/quiz.js?v=8c8be983b6"></script>
-<script src="js/suggest.js?v=8c8be983b6"></script>
-<script src="js/eventreq.js?v=8c8be983b6"></script>
-<script src="js/visits.js?v=8c8be983b6"></script>
-<script src="js/cityreq.js?v=8c8be983b6"></script>
-<script src="js/features.js?v=8c8be983b6"></script>
-<script src="js/pwa.js?v=8c8be983b6"></script>
+<script src="js/config.js?v=e07ddcb0c9"></script>
+<script src="js/forms.js?v=e07ddcb0c9"></script>
+<script src="js/hours.js?v=e07ddcb0c9"></script>
+<script src="js/common.js?v=e07ddcb0c9"></script>
+<script src="js/quotes.js?v=e07ddcb0c9"></script>
+<script src="js/app.js?v=e07ddcb0c9"></script>
+<script src="js/quiz.js?v=e07ddcb0c9"></script>
+<script src="js/suggest.js?v=e07ddcb0c9"></script>
+<script src="js/eventreq.js?v=e07ddcb0c9"></script>
+<script src="js/visits.js?v=e07ddcb0c9"></script>
+<script src="js/cityreq.js?v=e07ddcb0c9"></script>
+<script src="js/features.js?v=e07ddcb0c9"></script>
+<script src="js/pwa.js?v=e07ddcb0c9"></script>
 </body>
 </html>

@@ -53,7 +53,7 @@
   const nLv = l => OPEN.filter(r => r.veggieLevel === l).length;
   $('#lbl-veg').textContent = `${nLv('vegan')} fully vegan · ${nLv('vegetarian')} vegetarian · ${OPEN.filter(r => r.veggieLevel).length} with veggie options`;
   $('#lbl-ev').textContent = `${E.filter(isUpcoming).length} upcoming events & collaborations`;
-  $('#explore-title').textContent = `All places in ${CITY}`;   // "About the data" and "Latest changes" have their own pages (about.html / changes.html, js/info.js)
+  $('#explore-title').textContent = `All places in ${CITY}`;   // "About the data" + "Latest changes" live on about.html (js/info.js)
   { const md = document.querySelector('meta[name="description"]'); if (md && city.description) md.content = city.description; }
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
 
@@ -235,7 +235,7 @@
     const t = terms(), now0 = new Date();
     let list = R.filter(r => {
       if (state.open && TG.openState(r, now0).state !== 'open') return false;
-      if (state.saved && !(window.TGFeat && TGFeat.isFav(city.id, r.id))) return false;   // "♡ Saved" (js/features.js; this city only)   // "Open now" pill (js/hours.js, Europe/Brussels)
+      if (state.saved && !(window.TGFeat && TGFeat.mtShows(city.id, r.id))) return false;   // "My table" view, open tab Want to go / Been here (js/features.js; this city only)   // "Open now" pill (js/hours.js, Europe/Brussels)
       if (t.length && !t.every(w => r._hay.includes(w))) return false;
       if (state.group && r.group !== state.group) return false;
       if (state.type && !state.type.split('+').includes(r.category)) return false;

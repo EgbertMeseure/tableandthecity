@@ -1,30 +1,27 @@
-/* Table and the City – the per-city info pages: about.html ("About the data") and changes.html ("Latest changes").
+/* Table and the City – the per-city info page about.html: "About the data" first, then "Latest changes" (#changes; changes.html forwards here).
    Same header / nav / footer / language switcher as the guide; the city comes from ?country=&city= (cities strictly separate:
    only that city's data/cities.json entry and its own data/cities/<city>.json changelog are read).
    Data content (the about text, place names, change notes) stays in the original English (#about-text / [data-i18n-skip], js/i18n.js). */
 (async function () {
   const { esc, fmtDate, cityUrl } = TG;
-  const PAGE = document.body.dataset.page;                                 // 'about' | 'changes'
   TG.bindNav();
   const { cfg, city, notice } = await TG.currentCity();
-  TG.renderCitySel(cfg, city, PAGE + '.html'); TG.renderFooter(cfg, city);
+  TG.renderCitySel(cfg, city, 'about.html'); TG.renderFooter(cfg, city);
   const $ = s => document.querySelector(s);
   $('#back').href = cityUrl('guide.html', city.id);
   $('#ih-city').textContent = city.name;
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
-  if (PAGE === 'about') {
-    document.title = `About the data · ${city.name} — Table and the City`;
+  {
+    document.title = `About the data & changes · ${city.name} — Table and the City`;
     if (city.about) $('#about-text').innerHTML = city.about;             // per-city text (data/cities.json); the static text is Gent's
     const ac = $('#about-city'); if (ac) ac.textContent = city.name;
     const c = (city.images || {}).heroCredit, el = $('#hero-credit');      // CC BY(-SA) city hero photo on the guide: author, licence, source
     if (c && el) el.innerHTML = `; city photo: <a href="${esc(c.source)}" target="_blank" rel="noopener">“${esc(c.title)}”</a> by ${esc(c.author)}, <a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a> (cropped, greyscale; the crop is also ${esc(c.license)})`;
-    document.body.classList.add('is-ready');
-    return;
   }
-  // ---- changes.html: the city's full changelog, newest first, grouped by month ----
+  // ---- Latest changes (#changes): the city's full changelog, newest first, grouped by month ----
   /* Changelog entry format (data/cities/<city>.json → changelog[]), also written by the weekly update routine (update.md):
        { date: 'YYYY-MM-DD', restaurant: 'Place name' | '(all)' | null, field, change, source, public }
-     - public  = the ONLY text shown on changes.html: one short plain line for visitors, e.g. "Added: new opening (October 2026).",
+     - public  = the ONLY text shown under Latest changes (about.html#changes): one short plain line for visitors, e.g. "Added: new opening (October 2026).",
                  "Removed: not a fit for the guide.", "Opening hours updated.", "Removed: closed permanently.".
                  No file names, node ids, script names, "user decision"/"research" notes or decision dates.
      - change  = internal note (why/how, files, ids); never rendered.
@@ -33,7 +30,6 @@
      Entries without `public` fall back to a generic line by `field`, so internal notes never leak. */
   const GENERIC = { added: 'Added.', new: 'Added.', isNew: 'Added: new opening.', removed: 'Removed.', status: 'Status updated.', opened: 'Opening date added.', openingDate: 'Opening date added.', address: 'Address updated.', events: 'Events updated.', dataset: 'Places updated.', currentMenuNote: 'Menu updated.' };
   const publicText = c => (typeof c.public === 'string' && c.public.trim()) || GENERIC[c.field] || 'Details updated.';
-  document.title = `Latest changes · ${city.name} — Table and the City`;
   document.body.classList.add('is-ready');
   let d = {};
   try { d = await fetch(TG.bust(city.data), { cache: 'no-cache' }).then(r => r.json()); } catch (e) { d = {}; }
@@ -46,6 +42,7 @@
   const months = [];
   list.forEach(c => { const m = c.date.slice(0, 7); if (!months.length || months[months.length - 1].m !== m) months.push({ m, items: [] }); months[months.length - 1].items.push(c); });
   const place = name => { const id = names.get(name); return id ? `<a href="${cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id))}">${esc(name)}</a>` : esc(name); };
-  $('#clog').innerHTML = months.map(g => `<section class="clog-month"><h2>${esc(fmtDate(g.m))}</h2><ul class="clog">${g.items.map(c => `
+  $('#clog').innerHTML = months.map(g => `<section class="clog-month"><h3>${esc(fmtDate(g.m))}</h3><ul class="clog">${g.items.map(c => `
     <li><time datetime="${esc(c.date)}">${esc(fmtDate(c.date))}</time><p><span data-i18n-skip>${c.restaurant && !/^\(/.test(c.restaurant) ? `<strong>${place(c.restaurant)}</strong>: ` : ''}${esc(publicText(c))}</span>${/^https?:\/\//.test(c.source || '') ? ` <a class="clog__src" href="${esc(c.source)}" target="_blank" rel="noopener">Source</a>` : ''}</p></li>`).join('')}</ul></section>`).join('');
+  if (location.hash === '#changes') requestAnimationFrame(() => { const x = $('#changes'); if (x) x.scrollIntoView(); });   // changes.html / old #changelog links land here
 })();
