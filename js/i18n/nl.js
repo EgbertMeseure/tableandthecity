@@ -630,6 +630,7 @@
 "Been here": "Al geweest",
 "Your score": "Jouw score",
 "Your score: {n}": "Jouw score: {n}",
+"Visited on": "Bezocht op",
 "Only you see this, on this device.": "Alleen jij ziet dit, op dit toestel.",
 "Moved to Been here: give it your score on its page": "Verplaatst naar Al geweest: geef je score op de pagina van het adres",
 "Nothing on My table in {city} yet. Tap the logo on a place to add it, also offline.": "Nog niets op Mijn tafel in {city}. Tik op het logo bij een adres om het toe te voegen, ook offline.",
@@ -649,7 +650,7 @@
 "Notifications are off for this app. Turn them on in your phone settings to get reminders.": "Meldingen staan uit voor deze app. Zet ze aan in de instellingen van je telefoon om herinneringen te krijgen.",
 "Open now, nearest first. Places without confirmed hours are left out.": "Nu open, dichtstbij eerst. Adressen zonder bevestigde openingsuren staan er niet bij.",
 "Location is off. Allow location to see what is open near you, or click the map to pick a starting point.": "Locatie staat uit. Sta locatie toe om te zien wat er bij jou in de buurt open is, of klik op de kaart om een vertrekpunt te kiezen.",
-"My table (your Want to go and Been here places, with your own scores) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "Mijn tafel (je adressen bij Wil ik heen en Al geweest, met je eigen scores) en herinneringen voor events blijven ook alleen op je toestel: ze worden nooit naar ons of iemand anders gestuurd en werken offline. Herinneringen in de app zijn meldingen die je telefoon zelf inplant (op de website een agendabestand dat je downloadt); er wordt geen pushdienst gebruikt.",
+"My table (your Want to go and Been here places, with your own scores and visit dates) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "Mijn tafel (je adressen bij Wil ik heen en Al geweest, met je eigen scores en bezoekdata) en herinneringen voor events blijven ook alleen op je toestel: ze worden nooit naar ons of iemand anders gestuurd en werken offline. Herinneringen in de app zijn meldingen die je telefoon zelf inplant (op de website een agendabestand dat je downloadt); er wordt geen pushdienst gebruikt.",
 "Want to go with…": "Wil ik heen met…",
 "Send a link so a friend can add this place to their Want to go.": "Stuur een link zodat iemand dit adres bij zijn of haar Wil ik heen kan zetten.",
 "Your first name": "Je voornaam",
@@ -668,5 +669,8 @@
 "with {name}": "met {name}",
 "Added to Want to go, with {name}": "Bij Wil ik heen gezet, met {name}",
 "Added to Want to go": "Bij Wil ik heen gezet",
-"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Met “Wil ik heen met…” stuur je iemand een link naar een adres. De voornaam die je typt staat alleen in die link en wordt op je toestel bewaard; hij wordt nooit naar ons gestuurd."
+"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Met “Wil ik heen met…” stuur je iemand een link naar een adres. De voornaam die je typt staat alleen in die link en wordt op je toestel bewaard; hij wordt nooit naar ons gestuurd.",
+"Several names? Separate them with a comma. The one link works for all of them.": "Meerdere namen? Scheid ze met een komma. Eén link werkt voor iedereen.",
+"Previous": "Vorige",
+"Next": "Volgende"
 };

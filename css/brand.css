@@ -18,6 +18,7 @@
   --blue-petrol:#2a6474;     /* muted steel / petrol */
   --blue:var(--blue-petrol);
   --blue-ink:#fff;           /* text on --blue */
+  --blue-deep:#1f4d5a;       /* hover / pressed on --blue (Reserve) */
   --blue-hover:color-mix(in srgb,var(--blue) 82%,#000);
   /* type */
   --display:'Bodoni Moda','Playfair Display',Didot,'Times New Roman',serif;   /* Didone wordmark */
@@ -189,6 +190,9 @@ button,input,select{font-family:inherit}
 .arrow:hover:not(:disabled){border-color:currentColor}
 .arrow:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .arrow:disabled{opacity:.25;cursor:default}
+/* carousel controls are plain words (no arrows): small caps like the other text buttons; phones swipe instead (the next card peeks in) */
+.arrow span{display:block;padding:0 10px;font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase;line-height:1}
+@media (max-width:640px){.section__head .arrow{display:none}.section__head{justify-content:center}}
 .rule{display:block;width:46px;height:1px;background:currentColor;opacity:.6}
 .carousel,.carousel-x{cursor:grab;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
 .carousel.dragging,.carousel-x.dragging{cursor:grabbing;scroll-snap-type:none;scroll-behavior:auto;user-select:none}
@@ -223,8 +227,9 @@ button,input,select{font-family:inherit}
 .srcline summary::before{content:"+";display:inline-grid;place-items:center;width:18px;height:18px;border:1px solid currentColor;border-radius:50%;font-size:12px}
 .srcline[open] summary::before{content:"–"}
 .srcline .sources{margin:12px 0 6px}
-.pill-btn.reserve{background:var(--accent);border-color:var(--accent);color:#111;font-weight:600;padding-inline:30px}
-.pill-btn.reserve:hover,.pill-btn.reserve:focus-visible{background:#111;border-color:#111;color:#fff}
+/* Reserve = the main action: petrol blue with white text, a darker petrol on hover */
+.pill-btn.reserve{background:var(--blue);border-color:var(--blue);color:var(--blue-ink);font-weight:600;padding-inline:30px}
+.pill-btn.reserve:hover,.pill-btn.reserve:focus-visible{background:var(--blue-deep);border-color:var(--blue-deep);color:var(--blue-ink)}
 .resv-note{font-size:13px;color:var(--text-3);margin:10px 0 0}
 .dmap-cap{font-size:13px;color:var(--text-3);margin:12px 0 4px;padding-left:4px}
 .card__foot .ext.resv{font-weight:600;color:var(--text)}
@@ -363,7 +368,7 @@ html,body{overflow-x:clip}
 .langsel__menu a{display:flex;gap:12px;align-items:baseline;padding:9px 12px;border-radius:9px;color:#f4efe4;text-decoration:none;font-size:13px;letter-spacing:.02em}
 .langsel__menu a b{width:22px;font-weight:600;font-size:10.5px;letter-spacing:.14em;opacity:.6}
 .langsel__menu a:hover,.langsel__menu a:focus-visible{background:rgba(255,255,255,.1)}
-.langsel__menu a[aria-current]{color:#c9a96e}
+.langsel__menu a[aria-current]{background:var(--blue,#2a6474);color:#fff}
 .langsel__menu a[aria-current] b{opacity:1}
 .wl-top__right .langsel__btn{height:36px;padding:0 12px 0 14px;background:rgba(4,5,6,.35);border-color:rgba(244,239,228,.45);color:#f4efe4}
 .wl-top__right .langsel__btn:hover,.wl-top__right .langsel__btn[aria-expanded="true"]{background:#f4efe4;color:#111}

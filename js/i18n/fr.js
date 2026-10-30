@@ -630,6 +630,7 @@
 "Been here": "Déjà allé",
 "Your score": "Votre note",
 "Your score: {n}": "Votre note : {n}",
+"Visited on": "Visité le",
 "Only you see this, on this device.": "Vous seul le voyez, sur cet appareil.",
 "Moved to Been here: give it your score on its page": "Déplacé vers Déjà allé : donnez votre note sur sa page",
 "Nothing on My table in {city} yet. Tap the logo on a place to add it, also offline.": "Rien encore sur Ma table à {city}. Touchez le logo d’une adresse pour l’ajouter, même hors ligne.",
@@ -649,7 +650,7 @@
 "Notifications are off for this app. Turn them on in your phone settings to get reminders.": "Les notifications sont désactivées pour cette app. Activez-les dans les réglages du téléphone pour recevoir des rappels.",
 "Open now, nearest first. Places without confirmed hours are left out.": "Ouvert maintenant, le plus proche d’abord. Les adresses sans horaires confirmés sont exclues.",
 "Location is off. Allow location to see what is open near you, or click the map to pick a starting point.": "La localisation est désactivée. Autorisez-la pour voir ce qui est ouvert près de vous, ou cliquez sur la carte pour choisir un point de départ.",
-"My table (your Want to go and Been here places, with your own scores) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "Ma table (vos adresses À découvrir et Déjà allé, avec vos propres notes) et les rappels d’événements restent aussi uniquement sur votre appareil : ils ne nous sont jamais envoyés, ni à personne d’autre, et fonctionnent hors ligne. Dans l’app, les rappels sont des notifications programmées par votre téléphone lui-même (sur le site, un fichier calendrier à télécharger) ; aucun service push n’est utilisé.",
+"My table (your Want to go and Been here places, with your own scores and visit dates) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used.": "Ma table (vos adresses À découvrir et Déjà allé, avec vos propres notes et dates de visite) et les rappels d’événements restent aussi uniquement sur votre appareil : ils ne nous sont jamais envoyés, ni à personne d’autre, et fonctionnent hors ligne. Dans l’app, les rappels sont des notifications programmées par votre téléphone lui-même (sur le site, un fichier calendrier à télécharger) ; aucun service push n’est utilisé.",
 "Want to go with…": "À découvrir avec…",
 "Send a link so a friend can add this place to their Want to go.": "Envoyez un lien pour qu’un ami ajoute cette adresse à ses À découvrir.",
 "Your first name": "Votre prénom",
@@ -668,5 +669,8 @@
 "with {name}": "avec {name}",
 "Added to Want to go, with {name}": "Ajouté à À découvrir, avec {name}",
 "Added to Want to go": "Ajouté à À découvrir",
-"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Avec « À découvrir avec… », vous envoyez à un ami le lien d’une adresse. Le prénom que vous saisissez figure seulement dans ce lien et est enregistré sur votre appareil ; il ne nous est jamais envoyé."
+"With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us.": "Avec « À découvrir avec… », vous envoyez à un ami le lien d’une adresse. Le prénom que vous saisissez figure seulement dans ce lien et est enregistré sur votre appareil ; il ne nous est jamais envoyé.",
+"Several names? Separate them with a comma. The one link works for all of them.": "Plusieurs prénoms ? Séparez-les par une virgule. Un seul lien suffit pour tous.",
+"Previous": "Précédent",
+"Next": "Suivant"
 };

@@ -515,7 +515,39 @@
   document.querySelectorAll('[data-vl]').forEach(b => b.addEventListener('click', () => { state.vlevel = state.vlevel === b.dataset.vl ? '' : b.dataset.vl; applyUI(); render(); }));
   $('#reset').addEventListener('click', () => resetFilters());
   TG.carousel($('#evlist'));
-  applyUI(); render();
+  /* Back from a place page (the Back button or the browser's): this page loads afresh, so the URL brings the filters back; sessionStorage
+     brings the rest (My table view, starting point, how many cards were shown, the scroll position). Only for a back/forward visit to the same URL. */
+  const BK = 'tatc-guide-back', here = () => location.pathname + location.search;
+  let back = null;
+  try { const v = JSON.parse(sessionStorage.getItem(BK) || 'null'), nav = (performance.getEntriesByType('navigation')[0] || {}).type;
+    if (v && nav === 'back_forward' && v.u === here()) back = v; } catch (e) {}
+  if (back) {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    state.saved = !!back.saved;
+    if (Array.isArray(back.o) && back.o.length === 2 && back.o.every(Number.isFinite)) { state.origin = back.o; state.originLabel = String(back.ol || 'chosen point'); state.sort = 'dist';
+      originMarker = L.circleMarker(back.o, { radius: 8, color: '#000', weight: 2, fillColor: '#fff', fillOpacity: 1 }).addTo(map).bindTooltip(state.originLabel === 'my location' ? 'My location' : 'Starting point');
+      $('#maphint').textContent = `Distance from ${state.originLabel}`; }
+  }
+  applyUI(); render(back ? Math.min(+back.n || 0, 500) : 0);
+  /* scroll: the page and the list column (its own scroller on desktop), then line up the card that was opened (or the first one in view)
+     at the same height on screen, since the page above the list can be laid out a little differently after a fresh load */
+  const lst = $('#list'), inner = () => lst.scrollHeight > lst.clientHeight + 1 && /(auto|scroll)/.test(getComputedStyle(lst).overflowY);
+  if (back) { const y = +back.y || 0, ls = +back.ls || 0;
+    const go = () => { scrollTo(0, y); if (inner()) lst.scrollTop = ls;
+      const a = back.a && lst.querySelector(`a.card[data-id="${CSS.escape(back.a)}"]`); if (!a) return;
+      const d = a.getBoundingClientRect().top - (+back.at || 0); if (Math.abs(d) < 2) return;
+      if (inner()) lst.scrollTop += d; else scrollBy(0, d); };
+    go(); requestAnimationFrame(go); let moved = false; const mv = () => { moved = true; };
+    addEventListener('touchstart', mv, { once: true, passive: true }); addEventListener('wheel', mv, { once: true, passive: true });
+    setTimeout(() => { if (!moved) go(); }, 400); }                       // once more after late layout (fonts, images), unless the reader already scrolled
+  let opened = null;
+  const keep = () => { try {
+    const vis = c => { const r = c.getBoundingClientRect(); return r.bottom > 0 && r.top < innerHeight; };
+    const a = opened && opened.isConnected ? opened : [...lst.querySelectorAll('a.card[data-id]')].find(vis);
+    sessionStorage.setItem(BK, JSON.stringify({ u: here(), y: Math.round(scrollY), ls: Math.round(lst.scrollTop), n: shown, a: a ? a.dataset.id : '', at: a ? Math.round(a.getBoundingClientRect().top) : 0,
+      saved: !!state.saved, o: state.origin, ol: state.originLabel })); } catch (e) {} };
+  addEventListener('pagehide', keep);
+  document.addEventListener('click', e => { const l = e.target.closest && e.target.closest('a[href]'); if (!l) return; opened = l.closest('#list a.card[data-id]'); keep(); }, true);   // also before following a link (pagehide is not always fired on phones)
 
   // ---- hook for js/quiz.js ("Find my table"): the loaded places/events, the list's booking button, and its filters ----
   window.TGApp = { R, E, city, layer, detailUrl, bookOn, booking,

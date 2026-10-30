@@ -1,5 +1,5 @@
 /* Table and the City – app-like features, the same code on the website and inside the Capacitor app:
-   A. "My table" (the logo-mark button), per city (cities strictly separate): Want to go / Been here, with an own score (1–10)
+   A. "My table" (the logo-mark button), per city (cities strictly separate): Want to go / Been here, with an own score (1–10) and visit date
       for Been here; kept on the device (localStorage, mirrored to Capacitor Preferences in the app); adding also asks the service worker to keep that place page + its data for offline use
    B. location helper for "Near me · open now" (js/app.js): Capacitor Geolocation in the app, browser geolocation on the web;
       the position never leaves the device
@@ -17,6 +17,14 @@
   const qp = (u, k) => { try { return new URL(u, location.href).searchParams.get(k); } catch (e) { return null; } };
   /* a first name from a link or a field: letters, digits, space . ' - only, single spaces, at most 30 characters */
   const cleanName = v => Array.from(String(v == null ? '' : v).normalize('NFC').replace(/[^\p{L}\p{M}\p{N} .'’-]+/gu, ' ').replace(/\s+/g, ' ').trim()).slice(0, 30).join('').trim();
+  /* 'Going with' accepts several names (comma separated): a clean list, no duplicates, max 12; legacy entries keep one name as a string */
+  const cleanNames = v => { const out = [];
+    (Array.isArray(v) ? v : String(v == null ? '' : v).split(/[,;\n]+/)).forEach(x => { const n = cleanName(x); if (n && !out.some(o => o.toLowerCase() === n.toLowerCase())) out.push(n); });
+    return out.slice(0, 12); };
+  /* 'Sofie, Tom' while it stays short, else 'Sofie +2' */
+  const withLabel = v => { const n = cleanNames(v); if (!n.length) return ''; let k = 1;
+    while (k < n.length && n.slice(0, k + 1).join(', ').length <= 24) k++;
+    return n.slice(0, k).join(', ') + (k < n.length ? `\u00a0+${n.length - k}` : ''); };
   const pageCity = () => qp(location.href, 'city') || (document.querySelector('[data-city]') || {}).dataset?.city || 'gent';
 
   /* ---------- storage (localStorage first; Preferences mirror so iOS/Android cannot silently drop it) ---------- */
@@ -29,14 +37,13 @@
       if (value && localStorage.getItem(k) == null) { try { localStorage.setItem(k, value); } catch (e) {} }
     })))).then(() => { document.dispatchEvent(new CustomEvent('tg:favchange')); decorate(); }).catch(() => {});
   }
-  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), t: added ms, w: '' | first name ('Want to go with…') } }
-     (an older visit date 'd' is no longer used: it is dropped on the next change)
+  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), d: '' | 'YYYY-MM-DD' (visited), t: added ms, w: [first names] ('Want to go with…'; older entries: one name as a string) } }
      The older 'tatc-fav:<city>' id list (the former "Saved" places) is migrated once into 'want'. */
   const MKEY = c => 'tatc-mytable:' + c;
   function mt(c) {
     let m = LS.get(MKEY(c), null);
     if (!m || typeof m !== 'object' || Array.isArray(m)) {
-      m = {}; LS.get(FKEY(c), []).forEach((id, i) => { if (typeof id === 'string') m[id] = { s: 'want', r: 0, t: i }; });
+      m = {}; LS.get(FKEY(c), []).forEach((id, i) => { if (typeof id === 'string') m[id] = { s: 'want', r: 0, d: '', t: i }; });
       if (Object.keys(m).length) LS.set(MKEY(c), m);
     }
     return m;
@@ -46,11 +53,10 @@
   const isFav = (c, id) => !!entry(c, id);
   const changed = (c, id, on) => document.dispatchEvent(new CustomEvent('tg:favchange', { detail: { city: c, id, on } }));
   function setEntry(c, id, patch) {
-    const m = mt(c), cur = m[id] || { s: 'want', r: 0, t: Date.now() }, e = { ...cur, ...patch };
-    delete e.d;                                                        // the former visit date: no longer kept
-    if (e.s !== 'been') e.r = 0;
-    e.r = Math.max(0, Math.min(10, Math.round(+e.r || 0)));
-    e.w = cleanName(e.w); if (!e.w) delete e.w;
+    const m = mt(c), cur = m[id] || { s: 'want', r: 0, d: '', t: Date.now() }, e = { ...cur, ...patch };
+    if (e.s !== 'been') { e.r = 0; e.d = ''; }
+    e.r = Math.max(0, Math.min(10, Math.round(+e.r || 0))); if (!/^\d{4}-\d{2}-\d{2}$/.test(e.d || '')) e.d = '';
+    e.w = cleanNames(e.w); if (!e.w.length) delete e.w;
     m[id] = e; LS.set(MKEY(c), m); changed(c, id, true); return e;
   }
   function removeEntry(c, id) { const m = mt(c); delete m[id]; LS.set(MKEY(c), m); changed(c, id, false); }
@@ -61,7 +67,7 @@
     return on;
   }
   /* the My table view in the guide (chip [data-toggle="saved"]): which tab is open; js/app.js asks mtShows() per place */
-  let tab = 'want';
+  let tab = 'want'; try { if (sessionStorage.getItem('tatc-mt-tab') === 'been') tab = 'been'; } catch (e) {}   // kept for the session, so Back from a place reopens the same tab
   const mtShows = (c, id) => { const e = entry(c, id); return !!e && e.s === tab; };
   /* offline: hand the service worker the place page + this page's data / script / image URLs (it skips map tiles and cross-site hosts it should not keep) */
   function keepOffline(urls) {
@@ -78,13 +84,14 @@
   }
 
   /* ---------- A. My table: the logo-mark button on list cards + the place page, the Want to go / Been here panel, the guide view ---------- */
-  // simplified mark of the site's logo (table top, stem, base ellipse; img/brand/favicon.svg): outline when not added, gold + filled base when added
+  // simplified mark of the site's logo (table top, stem, base ellipse; img/brand/favicon.svg): outline when not added, petrol blue + filled base when added
   const MARK = (on, cls = '') => `<svg class="mt-mark${cls ? ' ' + cls : ''}${on ? ' on' : ''}" viewBox="3 4.5 26 24" aria-hidden="true"><ellipse class="mt-mark__fill" cx="16" cy="23.1" rx="10.6" ry="3.4"/><path d="M5 7H27M16 7V22.4"/><path d="M22.8 26.6C26 25.8 27.6 24.6 27 23.2 26.2 21 21.4 19.5 16 19.5S5.8 21 5 23.2C4.4 24.6 6 25.8 9.2 26.6"/></svg>`;
   function setBtn(b, on) {
     b.setAttribute('aria-pressed', on); b.classList.toggle('is-on', on);
     b.innerHTML = MARK(on);                                            // icon only; the words live in aria-label / title
     const t = on ? T('On My table') : T('Add to My table'); b.setAttribute('aria-label', t); b.title = t;
   }
+  const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
   /* place page: shown under the button row only while the place is on My table */
   function panelHtml(e) {
     const seg = ['want', 'been'].map(s => `<button type="button" data-mt-s="${s}" aria-pressed="${e.s === s}">${esc(T(s === 'want' ? 'Want to go' : 'Been here'))}</button>`).join('');
@@ -92,9 +99,10 @@
     if (e.s === 'been') {
       const nums = Array.from({ length: 10 }, (_, i) => i + 1).map(n => `<button type="button" data-mt-r="${n}" aria-pressed="${e.r === n}" aria-label="${esc(T('Your score: {n}', { n }))}"${e.r && n <= e.r ? ' class="is-fill"' : ''}>${n}</button>`).join('');
       been = `<div class="mt-row"><span class="mt-lab" id="mt-score-l">${esc(T('Your score'))}</span><div class="mt-scale" role="group" aria-labelledby="mt-score-l">${nums}</div></div>
+        <div class="mt-row"><label class="mt-lab" for="mt-date">${esc(T('Visited on'))}</label><input class="mt-date" id="mt-date" type="date" max="${today()}" value="${esc(e.d)}" data-mt-d></div>
         <p class="mt-hint">${esc(T('Only you see this, on this device.'))}</p>`;
     }
-    const w = e.w ? `<p class="mt-hint mt-with">${esc(T('with {name}', { name: e.w }))}</p>` : '';
+    const wl = withLabel(e.w), w = wl ? `<p class="mt-hint mt-with" title="${esc(cleanNames(e.w).join(', '))}">${esc(T('with {name}', { name: wl }))}</p>` : '';
     const inv = e.s === 'want' ? `<button type="button" class="pill-btn dark mt-invite" data-invite>${esc(T('Want to go with…'))}</button>` : '';   // only while in Want to go; the button row above stays as it was
     return `<div class="mt-top"><div class="mt-seg" role="group" aria-label="${esc(T('My table'))}">${seg}</div>${inv}</div>${w}${been}`;
   }
@@ -105,7 +113,7 @@
     if (!p) { p = document.createElement('div'); p.id = 'mt-panel'; p.className = 'mt-panel'; p.dataset.i18nSkip = ''; cta.after(p); }
     const html = panelHtml(e); if (p.dataset.h !== html) { const f = document.activeElement && document.activeElement.closest('#mt-panel') ? document.activeElement.dataset : null;
       p.dataset.h = html; p.innerHTML = html;
-      if (f) { const k = f.mtS ? `[data-mt-s="${f.mtS}"]` : f.mtR ? `[data-mt-r="${f.mtR}"]` : f.invite != null ? '[data-invite]' : ''; const x = k && p.querySelector(k); if (x) x.focus({ preventScroll: true }); } }
+      if (f) { const k = f.mtS ? `[data-mt-s="${f.mtS}"]` : f.mtR ? `[data-mt-r="${f.mtR}"]` : f.mtD != null ? '[data-mt-d]' : f.invite != null ? '[data-invite]' : ''; const x = k && p.querySelector(k); if (x) x.focus({ preventScroll: true }); } }
   }
   /* own score on a list card: the small mark + the number, next to the site's score badge */
   function ownBadge(a, e) {
@@ -118,9 +126,9 @@
   /* in the My table view, 'Want to go' cards get a quiet "Been here" button (moves the place; the score is given on its page) */
   function viewBtn(a, c, e, inView) {
     const foot = a.querySelector('.card__foot') || a;
-    let n = a.querySelector('.mt-withnote'); const note = inView && e && e.w ? T('with {name}', { name: e.w }) : '';
+    let n = a.querySelector('.mt-withnote'); const wl = inView && e ? withLabel(e.w) : '', note = wl ? T('with {name}', { name: wl }) : '';
     if (!note) { if (n) n.remove(); }
-    else { if (!n) { n = document.createElement('span'); n.className = 'mt-withnote'; n.dataset.i18nSkip = ''; foot.prepend(n); } if (n.textContent !== note) n.textContent = note; }
+    else { if (!n) { n = document.createElement('span'); n.className = 'mt-withnote'; n.dataset.i18nSkip = ''; foot.prepend(n); } if (n.textContent !== note) { n.textContent = note; n.title = cleanNames(e.w).join(', '); } }
     let b = a.querySelector('.mt-been'), w = a.querySelector('.mt-withbtn'); const show = inView && e && e.s === 'want';
     if (!show) { if (b) b.remove(); if (w) w.remove(); return; }
     if (!b) { b = document.createElement('button'); b.type = 'button'; b.className = 'mt-been'; b.dataset.i18nSkip = ''; b.textContent = T('Been here'); foot.appendChild(b); }
@@ -140,8 +148,8 @@
       let b = cta.querySelector('.fav-pill');
       if (!b) {
         b = document.createElement('button'); b.type = 'button'; b.className = 'pill-btn dark fav-pill'; b.dataset.i18nSkip = '';
-        const after = cta.querySelector('[data-cta="website"]') || cta.querySelector('#reserve');   // right after Website (or where it would be)
-        if (after) after.after(b); else cta.prepend(b); setBtn(b, isFav(pageCity(), id));
+        const after = cta.querySelector('[data-cta="website"]') || cta.querySelector('#reserve');   // row 1: right after Website (or Reserve)
+        if (after) after.after(b); else (cta.querySelector('.dcta__row:last-child') || cta).prepend(b);   // no row 1: first on the Instagram / Directions row setBtn(b, isFav(pageCity(), id));
       } else if (b.getAttribute('aria-pressed') !== String(isFav(pageCity(), id))) setBtn(b, isFav(pageCity(), id));
       panel();
     }
@@ -152,7 +160,7 @@
   const where = el => { const a = cardOf(el); return { a, c: a ? (qp(a.href, 'city') || pageCity()) : pageCity(), id: a ? a.dataset.id : qp(location.href, 'id') }; };
   document.addEventListener('click', ev => {
     const t = ev.target;
-    const tb = t.closest('[data-mt-tab]'); if (tb) { ev.preventDefault(); tab = tb.dataset.mtTab; changed(pageCity(), '', true); return; }
+    const tb = t.closest('[data-mt-tab]'); if (tb) { ev.preventDefault(); tab = tb.dataset.mtTab; try { sessionStorage.setItem('tatc-mt-tab', tab); } catch (_) {} changed(pageCity(), '', true); return; }
     const ib = t.closest('[data-invite]'); if (ib) { ev.preventDefault(); ev.stopPropagation(); const { a, c, id } = where(ib); openInvite(ib, c, id, a); return; }
     const vb = t.closest('.mt-been'); if (vb) { ev.preventDefault(); ev.stopPropagation(); const { c, id } = where(vb); setEntry(c, id, { s: 'been' }); toast(T('Moved to Been here: give it your score on its page')); return; }
     const sb = t.closest('[data-mt-s]'); if (sb) { ev.preventDefault(); const { c, id } = where(sb); setEntry(c, id, { s: sb.dataset.mtS }); return; }
@@ -164,6 +172,7 @@
     const on = toggleFav(c, id, [a ? a.href : location.href, img && img.currentSrc].filter(Boolean));
     setBtn(b, on);
   }, true);
+  document.addEventListener('change', ev => { const d = ev.target.closest && ev.target.closest('[data-mt-d]'); if (!d) return; const { c, id } = where(d); setEntry(c, id, { d: d.value && d.value <= today() ? d.value : '' }); });
   /* the "My table" view (chip in the guide, js/app.js): Want to go / Been here tabs, a quiet line when a tab is empty + this city's reminders */
   function savedNote() {
     const chip = document.querySelector('[data-toggle="saved"]'), list = document.getElementById('list'); if (!chip || !list) return;
@@ -207,7 +216,8 @@
         <p class="crq__lead">${esc(T('Send a link so a friend can add this place to their Want to go.'))}</p>
         <form class="crq__form" novalidate>
           <label class="crq__f"><span>${esc(T('Your first name'))} <i>${esc(T('(optional)'))}</i></span><input name="from" type="text" autocomplete="given-name" maxlength="30" value="${esc(me)}"></label>
-          <label class="crq__f"><span>${esc(T('Going with'))} <i>${esc(T('(optional)'))}</i></span><input name="with" type="text" autocomplete="off" maxlength="30" value="${esc(e.w || '')}"></label>
+          <label class="crq__f"><span>${esc(T('Going with'))} <i>${esc(T('(optional)'))}</i></span><input name="with" type="text" autocomplete="off" maxlength="300" placeholder="Sofie, Tom" aria-describedby="mt-iv-wh" value="${esc(cleanNames(e.w).join(', '))}"></label>
+          <p class="mt-iv__hint" id="mt-iv-wh">${esc(T('Several names? Separate them with a comma. The one link works for all of them.'))}</p>
           <div class="mt-iv__acts">${acts}</div>
           <input class="mt-iv__link" type="text" readonly hidden aria-label="${esc(T('Select and copy this link.'))}">
           <p class="crq__note">${esc(T('Your name is only put in the link and remembered on this device.'))}</p>
@@ -216,8 +226,8 @@
     document.body.appendChild(iv); document.documentElement.classList.add('crq-lock');
     const f = iv.querySelector('form');
     const go = () => {                                                  // remember the name, mark the own entry, build the link + the message
-      const from = cleanName(f.elements.from.value), w = cleanName(f.elements.with.value);
-      f.elements.from.value = from; f.elements.with.value = w; LS.set(NKEY, from);
+      const from = cleanName(f.elements.from.value), w = cleanNames(f.elements.with.value);
+      f.elements.from.value = from; f.elements.with.value = w.join(', '); LS.set(NKEY, from);
       if (isFav(c, id)) setEntry(c, id, { w });
       const url = inviteUrl(c, id, a, from);
       return { url, text: place ? T('Want to go to {place} with me?', { place }) : T('Want to go here with me?') };
@@ -263,7 +273,7 @@
       const b = ev.target.closest('[data-ivc]'); if (!b) return; ev.preventDefault();
       if (b.dataset.ivc === 'yes') {
         const had = isFav(c, id);
-        setEntry(c, id, { s: 'want', ...(had ? {} : { t: Date.now() }), ...(from ? { w: from } : {}) });
+        setEntry(c, id, { s: 'want', ...(had ? {} : { t: Date.now() }), ...(from ? { w: [...cleanNames(had ? entry(c, id).w : []), from] } : {}) });   // added to anyone already noted
         if (!had) { const img = document.querySelector('.dhero img, #hero img'); keepOffline([location.href, img && img.currentSrc].filter(Boolean)); }
         toast(from ? T('Added to Want to go, with {name}', { name: from }) : T('Added to Want to go'));
       }
