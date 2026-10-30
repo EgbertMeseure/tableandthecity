@@ -363,7 +363,7 @@ html,body{overflow-x:clip}
 .langsel__menu a{display:flex;gap:12px;align-items:baseline;padding:9px 12px;border-radius:9px;color:#f4efe4;text-decoration:none;font-size:13px;letter-spacing:.02em}
 .langsel__menu a b{width:22px;font-weight:600;font-size:10.5px;letter-spacing:.14em;opacity:.6}
 .langsel__menu a:hover,.langsel__menu a:focus-visible{background:rgba(255,255,255,.1)}
-.langsel__menu a[aria-current]{color:#c9a96e}
+.langsel__menu a[aria-current]{background:var(--blue,#2a6474);color:#fff}
 .langsel__menu a[aria-current] b{opacity:1}
 .wl-top__right .langsel__btn{height:36px;padding:0 12px 0 14px;background:rgba(4,5,6,.35);border-color:rgba(244,239,228,.45);color:#f4efe4}
 .wl-top__right .langsel__btn:hover,.wl-top__right .langsel__btn[aria-expanded="true"]{background:#f4efe4;color:#111}

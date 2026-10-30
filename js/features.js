@@ -24,7 +24,7 @@
   /* 'Sofie, Tom' while it stays short, else 'Sofie +2' */
   const withLabel = v => { const n = cleanNames(v); if (!n.length) return ''; let k = 1;
     while (k < n.length && n.slice(0, k + 1).join(', ').length <= 24) k++;
-    return n.slice(0, k).join(', ') + (k < n.length ? ` +${n.length - k}` : ''); };
+    return n.slice(0, k).join(', ') + (k < n.length ? `\u00a0+${n.length - k}` : ''); };
   const pageCity = () => qp(location.href, 'city') || (document.querySelector('[data-city]') || {}).dataset?.city || 'gent';
 
   /* ---------- storage (localStorage first; Preferences mirror so iOS/Android cannot silently drop it) ---------- */
@@ -84,7 +84,7 @@
   }
 
   /* ---------- A. My table: the logo-mark button on list cards + the place page, the Want to go / Been here panel, the guide view ---------- */
-  // simplified mark of the site's logo (table top, stem, base ellipse; img/brand/favicon.svg): outline when not added, gold + filled base when added
+  // simplified mark of the site's logo (table top, stem, base ellipse; img/brand/favicon.svg): outline when not added, petrol blue + filled base when added
   const MARK = (on, cls = '') => `<svg class="mt-mark${cls ? ' ' + cls : ''}${on ? ' on' : ''}" viewBox="3 4.5 26 24" aria-hidden="true"><ellipse class="mt-mark__fill" cx="16" cy="23.1" rx="10.6" ry="3.4"/><path d="M5 7H27M16 7V22.4"/><path d="M22.8 26.6C26 25.8 27.6 24.6 27 23.2 26.2 21 21.4 19.5 16 19.5S5.8 21 5 23.2C4.4 24.6 6 25.8 9.2 26.6"/></svg>`;
   function setBtn(b, on) {
     b.setAttribute('aria-pressed', on); b.classList.toggle('is-on', on);
