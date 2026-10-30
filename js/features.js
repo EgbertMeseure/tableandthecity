@@ -4,7 +4,9 @@
    B. location helper for "Near me · open now" (js/app.js): Capacitor Geolocation in the app, browser geolocation on the web;
       the position never leaves the device
    C. "Remind me" on events: in the app a local notification (Capacitor Local Notifications, no push service; set / cancel);
-      on the web an .ics calendar file with a reminder alarm */
+      on the web an .ics calendar file with a reminder alarm
+   D. "Want to go with…" on a Want to go place (place page + its card in the My table view): a share link restaurant.html?…&invite=1&from=<first name>;
+      no server: the name is only in the link and remembered on the device. Opening such a link shows a small card to add the place, marked 'with <name>' */
 (function () {
   'use strict';
   const CAP = window.Capacitor, NATIVE = !!(CAP && CAP.isNativePlatform && CAP.isNativePlatform());
@@ -13,6 +15,8 @@
   const TGx = () => (typeof TG !== 'undefined' ? TG : window.TG) || {};
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const qp = (u, k) => { try { return new URL(u, location.href).searchParams.get(k); } catch (e) { return null; } };
+  /* a first name from a link or a field: letters, digits, space . ' - only, single spaces, at most 30 characters */
+  const cleanName = v => Array.from(String(v == null ? '' : v).normalize('NFC').replace(/[^\p{L}\p{M}\p{N} .'’-]+/gu, ' ').replace(/\s+/g, ' ').trim()).slice(0, 30).join('').trim();
   const pageCity = () => qp(location.href, 'city') || (document.querySelector('[data-city]') || {}).dataset?.city || 'gent';
 
   /* ---------- storage (localStorage first; Preferences mirror so iOS/Android cannot silently drop it) ---------- */
@@ -25,7 +29,7 @@
       if (value && localStorage.getItem(k) == null) { try { localStorage.setItem(k, value); } catch (e) {} }
     })))).then(() => { document.dispatchEvent(new CustomEvent('tg:favchange')); decorate(); }).catch(() => {});
   }
-  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), t: added ms } }
+  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), t: added ms, w: '' | first name ('Want to go with…') } }
      (an older visit date 'd' is no longer used: it is dropped on the next change)
      The older 'tatc-fav:<city>' id list (the former "Saved" places) is migrated once into 'want'. */
   const MKEY = c => 'tatc-mytable:' + c;
@@ -46,6 +50,7 @@
     delete e.d;                                                        // the former visit date: no longer kept
     if (e.s !== 'been') e.r = 0;
     e.r = Math.max(0, Math.min(10, Math.round(+e.r || 0)));
+    e.w = cleanName(e.w); if (!e.w) delete e.w;
     m[id] = e; LS.set(MKEY(c), m); changed(c, id, true); return e;
   }
   function removeEntry(c, id) { const m = mt(c); delete m[id]; LS.set(MKEY(c), m); changed(c, id, false); }
@@ -89,7 +94,9 @@
       been = `<div class="mt-row"><span class="mt-lab" id="mt-score-l">${esc(T('Your score'))}</span><div class="mt-scale" role="group" aria-labelledby="mt-score-l">${nums}</div></div>
         <p class="mt-hint">${esc(T('Only you see this, on this device.'))}</p>`;
     }
-    return `<div class="mt-seg" role="group" aria-label="${esc(T('My table'))}">${seg}</div>${been}`;
+    const w = e.w ? `<p class="mt-hint mt-with">${esc(T('with {name}', { name: e.w }))}</p>` : '';
+    const inv = e.s === 'want' ? `<button type="button" class="pill-btn dark mt-invite" data-invite>${esc(T('Want to go with…'))}</button>` : '';   // only while in Want to go; the button row above stays as it was
+    return `<div class="mt-top"><div class="mt-seg" role="group" aria-label="${esc(T('My table'))}">${seg}</div>${inv}</div>${w}${been}`;
   }
   function panel() {
     const cta = document.querySelector('#right .dcta'), id = qp(location.href, 'id'); if (!cta || !id) return;
@@ -98,7 +105,7 @@
     if (!p) { p = document.createElement('div'); p.id = 'mt-panel'; p.className = 'mt-panel'; p.dataset.i18nSkip = ''; cta.after(p); }
     const html = panelHtml(e); if (p.dataset.h !== html) { const f = document.activeElement && document.activeElement.closest('#mt-panel') ? document.activeElement.dataset : null;
       p.dataset.h = html; p.innerHTML = html;
-      if (f) { const k = f.mtS ? `[data-mt-s="${f.mtS}"]` : f.mtR ? `[data-mt-r="${f.mtR}"]` : ''; const x = k && p.querySelector(k); if (x) x.focus({ preventScroll: true }); } }
+      if (f) { const k = f.mtS ? `[data-mt-s="${f.mtS}"]` : f.mtR ? `[data-mt-r="${f.mtR}"]` : f.invite != null ? '[data-invite]' : ''; const x = k && p.querySelector(k); if (x) x.focus({ preventScroll: true }); } }
   }
   /* own score on a list card: the small mark + the number, next to the site's score badge */
   function ownBadge(a, e) {
@@ -110,9 +117,14 @@
   }
   /* in the My table view, 'Want to go' cards get a quiet "Been here" button (moves the place; the score is given on its page) */
   function viewBtn(a, c, e, inView) {
-    let b = a.querySelector('.mt-been'); const show = inView && e && e.s === 'want';
-    if (!show) { if (b) b.remove(); return; }
-    if (!b) { b = document.createElement('button'); b.type = 'button'; b.className = 'mt-been'; b.dataset.i18nSkip = ''; b.textContent = T('Been here'); (a.querySelector('.card__foot') || a).appendChild(b); }
+    const foot = a.querySelector('.card__foot') || a;
+    let n = a.querySelector('.mt-withnote'); const note = inView && e && e.w ? T('with {name}', { name: e.w }) : '';
+    if (!note) { if (n) n.remove(); }
+    else { if (!n) { n = document.createElement('span'); n.className = 'mt-withnote'; n.dataset.i18nSkip = ''; foot.prepend(n); } if (n.textContent !== note) n.textContent = note; }
+    let b = a.querySelector('.mt-been'), w = a.querySelector('.mt-withbtn'); const show = inView && e && e.s === 'want';
+    if (!show) { if (b) b.remove(); if (w) w.remove(); return; }
+    if (!b) { b = document.createElement('button'); b.type = 'button'; b.className = 'mt-been'; b.dataset.i18nSkip = ''; b.textContent = T('Been here'); foot.appendChild(b); }
+    if (!w) { w = document.createElement('button'); w.type = 'button'; w.className = 'mt-been mt-withbtn'; w.dataset.i18nSkip = ''; w.dataset.invite = ''; w.textContent = T('Want to go with…'); foot.appendChild(w); }
   }
   function decorate() {
     const inView = (document.querySelector('[data-toggle="saved"]') || {}).getAttribute?.('aria-pressed') === 'true';
@@ -141,6 +153,7 @@
   document.addEventListener('click', ev => {
     const t = ev.target;
     const tb = t.closest('[data-mt-tab]'); if (tb) { ev.preventDefault(); tab = tb.dataset.mtTab; changed(pageCity(), '', true); return; }
+    const ib = t.closest('[data-invite]'); if (ib) { ev.preventDefault(); ev.stopPropagation(); const { a, c, id } = where(ib); openInvite(ib, c, id, a); return; }
     const vb = t.closest('.mt-been'); if (vb) { ev.preventDefault(); ev.stopPropagation(); const { c, id } = where(vb); setEntry(c, id, { s: 'been' }); toast(T('Moved to Been here: give it your score on its page')); return; }
     const sb = t.closest('[data-mt-s]'); if (sb) { ev.preventDefault(); const { c, id } = where(sb); setEntry(c, id, { s: sb.dataset.mtS }); return; }
     const rb = t.closest('[data-mt-r]'); if (rb) { ev.preventDefault(); const { c, id } = where(rb), n = +rb.dataset.mtR, e = entry(c, id); setEntry(c, id, { r: e && e.r === n ? 0 : n }); return; }
@@ -168,6 +181,95 @@
     n.hidden = false;
   }
   const cityName = () => { const h = document.querySelector('[data-city-name]'); return (h && h.textContent) || (pageCity()[0].toUpperCase() + pageCity().slice(1)); };
+
+  /* ---------- D. "Want to go with…": a share link with the sender's first name; the friend's card on the place page ---------- */
+  const NKEY = 'tatc-invite-name';
+  const placeName = a => { const h = a ? a.querySelector('h3') : document.getElementById('hname'); if (!h) return ''; const x = h.cloneNode(true); x.querySelectorAll('.gscore, .mt-own').forEach(n => n.remove()); return x.textContent.trim(); };
+  function inviteUrl(c, id, a, from) {
+    const base = new URL(a ? a.href : location.href, location.href), u = new URL('restaurant.html', base);
+    const country = base.searchParams.get('country') || qp(location.href, 'country') || 'be';
+    u.search = new URLSearchParams({ country, city: c, id, invite: '1', ...(from ? { from } : {}) }).toString();
+    return u.href;
+  }
+  const phone = () => !!navigator.share && matchMedia('(pointer: coarse)').matches;
+  let iv = null, ivFocus = null;
+  function openInvite(btn, c, id, a) {
+    closeInvite(true); ivFocus = btn;
+    const e = entry(c, id) || {}, me = cleanName(LS.get(NKEY, '')), place = placeName(a);
+    iv = document.createElement('div'); iv.className = 'crq mt-iv'; iv.dataset.i18nSkip = '';
+    const acts = (phone() ? `<button class="pill-btn crq__send" type="button" data-iv="share">${esc(T('Share'))}</button>` : `<button class="pill-btn crq__send" type="button" data-iv="copy">${esc(T('Copy link'))}</button>`)
+      + `<button class="pill-btn dark mt-iv__wa" type="button" data-iv="wa">WhatsApp</button>`;
+    iv.innerHTML = `<div class="crq__scrim" data-iv="close"></div>
+      <div class="crq__sheet mt-iv__sheet" role="dialog" aria-modal="true" aria-labelledby="mt-iv-t">
+        <button class="crq__x" type="button" data-iv="close">${esc(T('Close'))}</button>
+        <p class="crq__eyebrow">${esc(place || T('My table'))}</p>
+        <h2 class="crq__t" id="mt-iv-t">${esc(T('Want to go with…'))}</h2>
+        <p class="crq__lead">${esc(T('Send a link so a friend can add this place to their Want to go.'))}</p>
+        <form class="crq__form" novalidate>
+          <label class="crq__f"><span>${esc(T('Your first name'))} <i>${esc(T('(optional)'))}</i></span><input name="from" type="text" autocomplete="given-name" maxlength="30" value="${esc(me)}"></label>
+          <label class="crq__f"><span>${esc(T('Going with'))} <i>${esc(T('(optional)'))}</i></span><input name="with" type="text" autocomplete="off" maxlength="30" value="${esc(e.w || '')}"></label>
+          <div class="mt-iv__acts">${acts}</div>
+          <input class="mt-iv__link" type="text" readonly hidden aria-label="${esc(T('Select and copy this link.'))}">
+          <p class="crq__note">${esc(T('Your name is only put in the link and remembered on this device.'))}</p>
+        </form>
+      </div>`;
+    document.body.appendChild(iv); document.documentElement.classList.add('crq-lock');
+    const f = iv.querySelector('form');
+    const go = () => {                                                  // remember the name, mark the own entry, build the link + the message
+      const from = cleanName(f.elements.from.value), w = cleanName(f.elements.with.value);
+      f.elements.from.value = from; f.elements.with.value = w; LS.set(NKEY, from);
+      if (isFav(c, id)) setEntry(c, id, { w });
+      const url = inviteUrl(c, id, a, from);
+      return { url, text: place ? T('Want to go to {place} with me?', { place }) : T('Want to go here with me?') };
+    };
+    iv.addEventListener('click', async ev => {
+      const x = ev.target.closest('[data-iv]'); if (!x) return; ev.preventDefault();
+      const k = x.dataset.iv; if (k === 'close') return closeInvite();
+      const { url, text } = go();
+      if (k === 'wa') { window.open('https://wa.me/?text=' + encodeURIComponent(text + ' ' + url), '_blank', 'noopener'); return closeInvite(); }
+      if (k === 'share') { try { await navigator.share({ title: 'Table and the City', text, url }); closeInvite(); } catch (err) { if (err && err.name !== 'AbortError') showLink(url); } return; }
+      try { await navigator.clipboard.writeText(url); x.textContent = T('Link copied'); toast(T('Link copied')); setTimeout(() => closeInvite(), 900); }
+      catch (_) { showLink(url); }
+    });
+    f.addEventListener('submit', ev => ev.preventDefault());
+    iv.addEventListener('keydown', ev => {
+      if (ev.key === 'Escape') { ev.preventDefault(); closeInvite(); }
+      if (ev.key === 'Tab') { const fs = [...iv.querySelectorAll('input, button')].filter(x => x.offsetParent); const i = fs.indexOf(document.activeElement);
+        if (ev.shiftKey && i <= 0) { ev.preventDefault(); fs[fs.length - 1].focus(); } else if (!ev.shiftKey && i === fs.length - 1) { ev.preventDefault(); fs[0].focus(); } }
+    });
+    function showLink(url) { const l = iv.querySelector('.mt-iv__link'); l.hidden = false; l.value = url; l.focus(); l.select(); toast(T('Select and copy this link.')); }
+    requestAnimationFrame(() => { iv.classList.add('is-open'); f.elements.from.focus({ preventScroll: true }); });
+  }
+  function closeInvite(now) {
+    if (!iv) return; const el = iv; iv = null; el.classList.remove('is-open'); document.documentElement.classList.remove('crq-lock');
+    if (now) el.remove(); else setTimeout(() => el.remove(), 200);
+    const back = ivFocus && ivFocus.isConnected ? ivFocus : document.querySelector('#mt-panel [data-invite]');   // the panel may have re-rendered
+    if (!now && back) back.focus({ preventScroll: true });
+  }
+  /* the friend opens the link: a small calm card on the place page; the invite params leave the address bar either way */
+  let ivTry = 0;
+  function inviteCard() {
+    if (qp(location.href, 'invite') !== '1') return;
+    const id = qp(location.href, 'id'); if (!id) return;
+    if (!document.querySelector('#right .dcta')) { if (++ivTry < 75) setTimeout(inviteCard, 200); return; }   // wait (max 15 s) for the place to render
+    if (document.querySelector('.mt-card')) return;
+    const c = pageCity(), from = cleanName(qp(location.href, 'from'));
+    const k = document.createElement('div'); k.className = 'mt-card'; k.dataset.i18nSkip = ''; k.setAttribute('role', 'dialog'); k.setAttribute('aria-labelledby', 'mt-card-t');
+    k.innerHTML = `<p class="mt-card__t" id="mt-card-t">${esc(from ? T('{name} wants to go here with you', { name: from }) : T('A friend wants to go here with you'))}</p>
+      <div class="mt-card__acts"><button type="button" class="pill-btn sm mt-card__yes" data-ivc="yes">${esc(T('Add to my Want to go'))}</button><button type="button" class="linkbtn" data-ivc="no">${esc(T('No thanks'))}</button></div>`;
+    document.body.appendChild(k); requestAnimationFrame(() => k.classList.add('is-in'));
+    const clean = () => { const u = new URL(location.href); u.searchParams.delete('invite'); u.searchParams.delete('from'); history.replaceState(history.state, '', u.pathname + u.search + u.hash); };
+    k.addEventListener('click', ev => {
+      const b = ev.target.closest('[data-ivc]'); if (!b) return; ev.preventDefault();
+      if (b.dataset.ivc === 'yes') {
+        const had = isFav(c, id);
+        setEntry(c, id, { s: 'want', ...(had ? {} : { t: Date.now() }), ...(from ? { w: from } : {}) });
+        if (!had) { const img = document.querySelector('.dhero img, #hero img'); keepOffline([location.href, img && img.currentSrc].filter(Boolean)); }
+        toast(from ? T('Added to Want to go, with {name}', { name: from }) : T('Added to Want to go'));
+      }
+      clean(); k.classList.remove('is-in'); setTimeout(() => k.remove(), 250);
+    });
+  }
 
   /* ---------- B. location (used by "Near me · open now" in js/app.js) ---------- */
   async function locate() {
@@ -263,6 +365,6 @@
   let q = false;
   new MutationObserver(() => { if (q) return; q = true; requestAnimationFrame(() => { q = false; decorate(); }); }).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['aria-pressed'] });
   document.addEventListener('tg:favchange', () => decorate());
-  if (document.readyState !== 'loading') decorate(); else document.addEventListener('DOMContentLoaded', decorate);
+  if (document.readyState !== 'loading') { decorate(); inviteCard(); } else document.addEventListener('DOMContentLoaded', () => { decorate(); inviteCard(); });
   window.TGFeat = { isFav, favs, toggleFav, entry, setEntry, removeEntry, mtShows, mtTab: () => tab, locate, reminders, cancel, toast, native: NATIVE };
 })();
