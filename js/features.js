@@ -1,5 +1,5 @@
 /* Table and the City – app-like features, the same code on the website and inside the Capacitor app:
-   A. "My table" (the logo-mark button), per city (cities strictly separate): Want to go / Been here, with an own score (1–10) and visit date
+   A. "My table" (the logo-mark button), per city (cities strictly separate): Want to go / Been here, with an own score (1–10)
       for Been here; kept on the device (localStorage, mirrored to Capacitor Preferences in the app); adding also asks the service worker to keep that place page + its data for offline use
    B. location helper for "Near me · open now" (js/app.js): Capacitor Geolocation in the app, browser geolocation on the web;
       the position never leaves the device
@@ -37,13 +37,14 @@
       if (value && localStorage.getItem(k) == null) { try { localStorage.setItem(k, value); } catch (e) {} }
     })))).then(() => { document.dispatchEvent(new CustomEvent('tg:favchange')); decorate(); }).catch(() => {});
   }
-  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), d: '' | 'YYYY-MM-DD' (visited), t: added ms, w: [first names] ('Want to go with…'; older entries: one name as a string) } }
+  /* My table (per city, on the device only): { [placeId]: { s: 'want' | 'been', r: 0 | 1–10 (own score, 'been' only), t: added ms, w: [first names] ('Want to go with…'; older entries: one name as a string) } }
+     An older visit date 'd' is no longer used: it is dropped on the next change.
      The older 'tatc-fav:<city>' id list (the former "Saved" places) is migrated once into 'want'. */
   const MKEY = c => 'tatc-mytable:' + c;
   function mt(c) {
     let m = LS.get(MKEY(c), null);
     if (!m || typeof m !== 'object' || Array.isArray(m)) {
-      m = {}; LS.get(FKEY(c), []).forEach((id, i) => { if (typeof id === 'string') m[id] = { s: 'want', r: 0, d: '', t: i }; });
+      m = {}; LS.get(FKEY(c), []).forEach((id, i) => { if (typeof id === 'string') m[id] = { s: 'want', r: 0, t: i }; });
       if (Object.keys(m).length) LS.set(MKEY(c), m);
     }
     return m;
@@ -53,9 +54,10 @@
   const isFav = (c, id) => !!entry(c, id);
   const changed = (c, id, on) => document.dispatchEvent(new CustomEvent('tg:favchange', { detail: { city: c, id, on } }));
   function setEntry(c, id, patch) {
-    const m = mt(c), cur = m[id] || { s: 'want', r: 0, d: '', t: Date.now() }, e = { ...cur, ...patch };
-    if (e.s !== 'been') { e.r = 0; e.d = ''; }
-    e.r = Math.max(0, Math.min(10, Math.round(+e.r || 0))); if (!/^\d{4}-\d{2}-\d{2}$/.test(e.d || '')) e.d = '';
+    const m = mt(c), cur = m[id] || { s: 'want', r: 0, t: Date.now() }, e = { ...cur, ...patch };
+    delete e.d;                                                        // the former visit date: no longer kept
+    if (e.s !== 'been') e.r = 0;
+    e.r = Math.max(0, Math.min(10, Math.round(+e.r || 0)));
     e.w = cleanNames(e.w); if (!e.w.length) delete e.w;
     m[id] = e; LS.set(MKEY(c), m); changed(c, id, true); return e;
   }
@@ -91,7 +93,6 @@
     b.innerHTML = MARK(on);                                            // icon only; the words live in aria-label / title
     const t = on ? T('On My table') : T('Add to My table'); b.setAttribute('aria-label', t); b.title = t;
   }
-  const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
   /* place page: shown under the button row only while the place is on My table */
   function panelHtml(e) {
     const seg = ['want', 'been'].map(s => `<button type="button" data-mt-s="${s}" aria-pressed="${e.s === s}">${esc(T(s === 'want' ? 'Want to go' : 'Been here'))}</button>`).join('');
@@ -99,7 +100,6 @@
     if (e.s === 'been') {
       const nums = Array.from({ length: 10 }, (_, i) => i + 1).map(n => `<button type="button" data-mt-r="${n}" aria-pressed="${e.r === n}" aria-label="${esc(T('Your score: {n}', { n }))}"${e.r && n <= e.r ? ' class="is-fill"' : ''}>${n}</button>`).join('');
       been = `<div class="mt-row"><span class="mt-lab" id="mt-score-l">${esc(T('Your score'))}</span><div class="mt-scale" role="group" aria-labelledby="mt-score-l">${nums}</div></div>
-        <div class="mt-row"><label class="mt-lab" for="mt-date">${esc(T('Visited on'))}</label><input class="mt-date" id="mt-date" type="date" max="${today()}" value="${esc(e.d)}" data-mt-d></div>
         <p class="mt-hint">${esc(T('Only you see this, on this device.'))}</p>`;
     }
     const wl = withLabel(e.w), w = wl ? `<p class="mt-hint mt-with" title="${esc(cleanNames(e.w).join(', '))}">${esc(T('with {name}', { name: wl }))}</p>` : '';
@@ -113,7 +113,7 @@
     if (!p) { p = document.createElement('div'); p.id = 'mt-panel'; p.className = 'mt-panel'; p.dataset.i18nSkip = ''; cta.after(p); }
     const html = panelHtml(e); if (p.dataset.h !== html) { const f = document.activeElement && document.activeElement.closest('#mt-panel') ? document.activeElement.dataset : null;
       p.dataset.h = html; p.innerHTML = html;
-      if (f) { const k = f.mtS ? `[data-mt-s="${f.mtS}"]` : f.mtR ? `[data-mt-r="${f.mtR}"]` : f.mtD != null ? '[data-mt-d]' : f.invite != null ? '[data-invite]' : ''; const x = k && p.querySelector(k); if (x) x.focus({ preventScroll: true }); } }
+      if (f) { const k = f.mtS ? `[data-mt-s="${f.mtS}"]` : f.mtR ? `[data-mt-r="${f.mtR}"]` : f.invite != null ? '[data-invite]' : ''; const x = k && p.querySelector(k); if (x) x.focus({ preventScroll: true }); } }
   }
   /* own score on a list card: the small mark + the number, next to the site's score badge */
   function ownBadge(a, e) {
@@ -172,7 +172,6 @@
     const on = toggleFav(c, id, [a ? a.href : location.href, img && img.currentSrc].filter(Boolean));
     setBtn(b, on);
   }, true);
-  document.addEventListener('change', ev => { const d = ev.target.closest && ev.target.closest('[data-mt-d]'); if (!d) return; const { c, id } = where(d); setEntry(c, id, { d: d.value && d.value <= today() ? d.value : '' }); });
   /* the "My table" view (chip in the guide, js/app.js): Want to go / Been here tabs, a quiet line when a tab is empty + this city's reminders */
   function savedNote() {
     const chip = document.querySelector('[data-toggle="saved"]'), list = document.getElementById('list'); if (!chip || !list) return;
