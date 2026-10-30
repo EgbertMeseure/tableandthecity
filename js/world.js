@@ -38,8 +38,7 @@ function renderCards(co) {
   $('#wl-panel-title').textContent = co.name;
   $('#wl-cards').innerHTML = co.act.map(c => `<li><a class="wl-card" href="${guideUrl(co.id, c.id)}" data-city="${esc(c.id)}">
     ${c.images && c.images.hero ? `<img ${heroSet(c.images.hero, '(max-width:760px) 100vw, 470px')}${focus(c)} alt="" loading="lazy" decoding="async">` : ''}
-    <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span>${c.land.tagline ? `<span class="wl-card__tag">${esc(c.land.tagline)}</span>` : ''}</span>
-    <span class="wl-card__go" aria-hidden="true">→</span></a></li>`).join('');
+    <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span>${c.land.tagline ? `<span class="wl-card__tag">${esc(c.land.tagline)}</span>` : ''}</span></a></li>`).join('');
 }
 
 let last = null; try { last = localStorage.getItem(LAST_KEY); } catch (e) {}
@@ -311,14 +310,14 @@ async function openShow(co, c) {
     <section class="ws-hero">${hero ? `<img ${heroSet(hero)}${focus(c)} alt="${esc(L.heroCaption || c.name)}" fetchpriority="high">` : ''}
       <div class="ws-hero__txt"><p class="wl-eyebrow">${esc(co.name)}</p><h2 id="wl-show-title">${esc(c.name)}</h2>
         ${L.tagline ? `<p class="ws-tag">${esc(L.tagline)}</p>` : ''}<p class="ws-cap" id="ws-hero-cap">${esc(L.heroCaption || '')}</p>
-        <div class="ws-btns"><a class="ws-go" href="${guideUrl(co.id, c.id)}">Find my table in ${esc(c.name)} <span aria-hidden="true">→</span></a>
+        <div class="ws-btns"><a class="ws-go" href="${guideUrl(co.id, c.id)}">Find my table in ${esc(c.name)}</a>
           <a class="ws-ghost" href="${guideUrl(co.id, c.id, '#explore')}">Explore restaurants</a></div></div>
-      <span class="ws-scroll" aria-hidden="true">Scroll ↓</span></section>
+      <span class="ws-scroll" aria-hidden="true">Scroll</span></section>
     ${imgs.length ? `<section class="ws-body"><div class="ws-body__head"><h3>What ${esc(c.name)} <i>has to offer</i></h3></div>
       <div class="ws-grid">${imgs.map(im => { const ws = im.sizes || [900, 1600];
         return `<figure class="ws-fig"><div class="ws-ph${im.ratio && im.ratio < 1.2 ? ' ws-ph--sq' : ''}"><img src="${esc(im.src)}-${ws[0]}.webp" srcset="${ws.map(w => `${esc(im.src)}-${w}.webp ${w}w`).join(', ')}" sizes="(max-width:760px) 92vw, 50vw" alt="${esc(im.caption)}" loading="lazy" decoding="async"></div>
           <figcaption><p>${esc(im.caption)}</p>${im.credit ? `<small>Photo: ${im.source ? `<a href="${esc(im.source)}" target="_blank" rel="noopener">${esc(im.credit)}</a>` : esc(im.credit)}</small>` : ''}</figcaption></figure>`; }).join('')}</div>
-      <div class="ws-end"><p>Hungry yet?</p><div class="ws-btns"><a class="ws-go" href="${guideUrl(co.id, c.id)}">Find my table in ${esc(c.name)} <span aria-hidden="true">→</span></a>
+      <div class="ws-end"><p>Hungry yet?</p><div class="ws-btns"><a class="ws-go" href="${guideUrl(co.id, c.id)}">Find my table in ${esc(c.name)}</a>
         <button class="ws-ghost" type="button" data-close>Other cities</button></div>
         <p class="ws-note">Photos show the city, not the restaurants in the guide. <a href="img/CREDITS.json" data-credits>Credits &amp; licences</a></p></div></section>` : ''}`;
   show.hidden = false; show.scrollTop = 0; document.body.classList.add('is-show');

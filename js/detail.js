@@ -120,7 +120,7 @@
   const src0 = (r.sources || [])[0];
   const openingBox = !r.fromUpcoming ? '' : `<div class="soonbox"><strong>${r.upcoming ? `Opening soon${TG.expectedText(r, true) ? ' · ' + esc(TG.expectedText(r, true)) : ''}` : `${esc(TG.newLabel(r))} · announced for ${esc(expTxt)}`}.</strong>
       ${r.expectedOpeningNote ? esc(r.expectedOpeningNote) + ' ' : ''}${r.upcoming ? 'Not open yet — details may change.' : 'We have not re-checked the opening yet.'}
-      ${src0 ? `<a href="${esc(src0)}" target="_blank" rel="noopener">Read the announcement${r.announcedBy ? ` (${esc(r.announcedBy.split(';')[0])})` : ''} ↗</a>` : ''}</div>`;
+      ${src0 ? `<a href="${esc(src0)}" target="_blank" rel="noopener">Read the announcement${r.announcedBy ? ` (${esc(r.announcedBy.split(';')[0])})` : ''}</a>` : ''}</div>`;
   // ---- veggie / vegan level (data/cities/<city>-veggie.json): level + how we know + example dishes quoted from a real menu ----
   const V = r.veggieInfo, VL = r.veggieLevel;
   const vegBox = !VL ? '' : `<div class="vegbox lv-${esc(VL)}"><strong>${esc(TG.VEG_LABEL[VL])}</strong>
@@ -192,10 +192,10 @@
   }
   $('#right').innerHTML = `
     <div class="dcta">
-      ${resv ? `<a class="pill-btn reserve" id="reserve" href="${esc(resv.href)}" ${resv.href.startsWith('tel:') ? '' : 'target="_blank" rel="noopener"'}>${resv.label}${resv.href.startsWith('tel:') ? '' : ' ↗'}</a>` : ''}
-      ${r.website ? `<a class="pill-btn dark" href="${esc(r.website)}" target="_blank" rel="noopener">Website ↗</a>` : ''}
-      ${r.instagram ? `<a class="pill-btn dark" href="${esc(r.instagram)}" target="_blank" rel="noopener">Instagram ↗</a>` : ''}
-      <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions ↗</a></div>
+      ${resv ? `<a class="pill-btn reserve" id="reserve" href="${esc(resv.href)}" ${resv.href.startsWith('tel:') ? '' : 'target="_blank" rel="noopener"'}>${resv.label}</a>` : ''}
+      ${r.website ? `<a class="pill-btn dark" href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : ''}
+      ${r.instagram ? `<a class="pill-btn dark" href="${esc(r.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ''}
+      <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions</a></div>
     ${r.reservation_url ? `<p class="resv-note">Books via ${esc(r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url))}, as linked on the restaurant's own website.</p>` : (resv ? `<p class="resv-note">No online booking link found — ${resv.href.startsWith('tel:') ? 'book by phone' : 'see the restaurant’s website'}.</p>` : '')}
     <div class="dmap" id="dmap"></div>
     <p class="dmap-cap">${esc(hoodLine)}</p>`;
@@ -235,9 +235,9 @@
   $('#gal-note').innerHTML = prof.length ? `Recent photos from the place’s own Instagram <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>, shown with Instagram’s profile embed — tap a photo to open it on Instagram.${railPhotos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : posts.length ? `Photos from the place’s own Instagram${handle ? ` <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>` : ''}, shown with Instagram’s embed — tap a photo to open the post.${railPhotos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : (railPhotos.length ? (webPhoto.length && railPhotos.length === 1 ? `Photo from the place’s own website (${esc(heroHost)}).` : 'Photos from the place’s own website or under a free licence, credited per image.') : '');
   const igTile = x => { const u = x.p.url.replace(/\/$/, ''), kind = /\/reel\//.test(u) ? 'Reel' : 'Post';
     return `<figure class="gtile gtile--ig"><div class="gtile__clip"><iframe data-src="${esc(u)}/embed/" title="${esc(kind)} by ${handle ? '@' + esc(handle) : esc(r.name)} on Instagram" loading="lazy" scrolling="no" allowtransparency="true"></iframe></div>
-      <figcaption><a href="${esc(x.p.url)}" target="_blank" rel="noopener">View on Instagram${handle ? ` @${esc(handle)}` : ''} ↗</a></figcaption></figure>`; };
+      <figcaption><a href="${esc(x.p.url)}" target="_blank" rel="noopener">View on Instagram${handle ? ` @${esc(handle)}` : ''}</a></figcaption></figure>`; };
   const profTile = () => `<figure class="gtile gtile--igprofile"><div class="gtile__prof"><iframe data-src="https://www.instagram.com/${esc(handle)}/embed/" title="Recent posts by @${esc(handle)} on Instagram" loading="lazy" scrolling="no" allowtransparency="true"></iframe></div>
-      <figcaption><a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)} on Instagram ↗</a></figcaption></figure>`;
+      <figcaption><a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)} on Instagram</a></figcaption></figure>`;
   function renderGallery() {
     const sel = all.filter(x => !gcat || x.cat === gcat);
     shown = sel.filter(x => x.kind === 'photo').map(x => x.p);
@@ -260,7 +260,7 @@
   const igProfile = handle ? `https://www.instagram.com/${esc(handle)}/` : '';
   if (!all.length && handle) {
     // no posts collected yet, but a known Instagram account: one tile linking to the profile (no embed, nothing copied)
-    $('#gal-grid').innerHTML = `<figure class="gtile gtile--profile"><a href="${igProfile}" target="_blank" rel="noopener"><span class="gtile__ig" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span><strong>See photos on Instagram</strong><span>@${esc(handle)} ↗</span></a></figure>`;
+    $('#gal-grid').innerHTML = `<figure class="gtile gtile--profile"><a href="${igProfile}" target="_blank" rel="noopener"><span class="gtile__ig" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span><strong>See photos on Instagram</strong><span>@${esc(handle)}</span></a></figure>`;
     $('#gal-grid').classList.add('gal-rail--single');
   } else if (!all.length && nPh) {
     $('#gallery').style.display = 'none';   // every photo is already in the row under the facts
@@ -268,7 +268,7 @@
     $('#gal-grid').outerHTML = `<div class="gal-empty"><p class="gal-empty__t">Photos coming soon</p><p>We only show photos from the place itself or under a free licence. Until then, see ${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">their website</a>` : 'their own channels'}.</p></div>`;
   } else renderGallery();
   // the profile link stays below the rail only when the rail shows posts (the single profile tile already is that link)
-  $('#ig').innerHTML = handle && all.length ? `<a class="pill-btn dark" href="${igProfile}" target="_blank" rel="noopener">More on Instagram @${esc(handle)} ↗</a>` : '';
+  $('#ig').innerHTML = handle && all.length ? `<a class="pill-btn dark" href="${igProfile}" target="_blank" rel="noopener">More on Instagram @${esc(handle)}</a>` : '';
   const rail = $('#gal-grid'); if (rail && all.length > 1) { document.querySelector('.gal-arrows').hidden = false; TG.carousel(rail); }
   $('#gal-chips').addEventListener('click', e => { const b = e.target.closest('[data-gc]'); if (!b) return; gcat = b.dataset.gc;
     $('#gal-chips').querySelectorAll('[data-gc]').forEach(x => x.setAttribute('aria-pressed', x === b)); renderGallery(); });

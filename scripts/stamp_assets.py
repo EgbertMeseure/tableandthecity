@@ -29,7 +29,7 @@ for page in sorted(p for p in ROOT.glob('*.html') if p.name != 'offline.html'): 
 import json
 sw = ROOT / 'sw.js'
 if sw.exists():
-    pages = ['index.html', 'guide.html', 'restaurant.html', 'privacy.html']
+    pages = ['index.html', 'guide.html', 'restaurant.html', 'about.html', 'changes.html', 'privacy.html']
     shell = ['./', *pages, 'offline.html', 'manifest.webmanifest', 'favicon.ico']
     for page in pages:
         for u in re.findall(r'(?:href|src)="((?:css|js|vendor)/[^"#]+|https://unpkg\.com/[^"#]+)"', (ROOT / page).read_text(encoding='utf-8')):

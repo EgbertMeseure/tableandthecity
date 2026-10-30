@@ -193,7 +193,6 @@ Patisserie | Patisserie | Konditorei | Pâtisserie | Pastelería
 Café & bar | Café & bar | Café & Bar | Café & bar | Café y bar
 ## list, filters, map
 All addresses | Alle adressen | Alle Adressen | Toutes les adresses | Todas las direcciones
-← All addresses | ← Alle adressen | ← Alle Adressen | ← Toutes les adresses | ← Todas las direcciones
 All places in {city} | Alle adressen in {city} | Alle Adressen in {city} | Toutes les adresses à {city} | Todos los sitios en {city}
 All places | Alle adressen | Alle Adressen | Toutes les adresses | Todos los sitios
 All restaurants | Alle restaurants | Alle Restaurants | Tous les restaurants | Todos los restaurantes
@@ -218,13 +217,9 @@ Show more places | Toon meer adressen | Mehr Adressen anzeigen | Voir plus d’a
 Missing a place? | Mis je een adres? | Fehlt eine Adresse? | Une adresse manque ? | ¿Falta algún sitio?
 Suggest it | Tip het | Schlag sie vor | Proposez-la | Sugiérelo
 Nothing matches these filters. | Niets past bij deze filters. | Nichts passt zu diesen Filtern. | Rien ne correspond à ces filtres. | Nada coincide con estos filtros.
-Website ↗ | Website ↗ | Website ↗ | Site web ↗ | Web ↗
-Reserve ↗ | Reserveer ↗ | Reservieren ↗ | Réserver ↗ | Reservar ↗
 Reserve | Reserveer | Reservieren | Réserver | Reservar
 Reserve at {raw} (opens booking page) | Reserveer bij {raw} (opent de boekingspagina) | Bei {raw} reservieren (öffnet die Buchungsseite) | Réserver chez {raw} (ouvre la page de réservation) | Reservar en {raw} (abre la página de reservas)
 Bookable | Reserveerbaar | Reservierbar | Réservable | Con reserva
-Check availability | Bekijk beschikbaarheid | Verfügbarkeit prüfen | Voir les disponibilités | Ver disponibilidad
-Check availability ↗ | Bekijk beschikbaarheid ↗ | Verfügbarkeit prüfen ↗ | Voir les disponibilités ↗ | Ver disponibilidad ↗
 Reservation by phone | Reserveren via telefoon | Reservierung per Telefon | Réservation par téléphone | Reserva por teléfono
 Walk-in only | Enkel binnenlopen | Nur ohne Reservierung | Sans réservation | Sin reserva
 Call to reserve | Bel om te reserveren | Zum Reservieren anrufen | Appelez pour réserver | Llama para reservar
@@ -351,8 +346,8 @@ Hours | Openingsuren | Öffnungszeiten | Horaires | Horario
 Menu type | Soort menu | Menüart | Type de menu | Tipo de menú
 Cuisine | Keuken | Küche | Cuisine | Cocina
 Neighbourhood | Wijk | Viertel | Quartier | Barrio
-Instagram ↗ | Instagram ↗ | Instagram ↗ | Instagram ↗ | Instagram ↗
-Directions ↗ | Route ↗ | Route ↗ | Itinéraire ↗ | Cómo llegar ↗
+Instagram | Instagram | Instagram | Instagram | Instagram
+Directions | Route | Route | Itinéraire | Cómo llegar
 Directions to {raw} in Google Maps (new tab) | Route naar {raw} in Google Maps (nieuw tabblad) | Route zu {raw} in Google Maps (neuer Tab) | Itinéraire vers {raw} dans Google Maps (nouvel onglet) | Cómo llegar a {raw} en Google Maps (pestaña nueva)
 Sources | Bronnen | Quellen | Sources | Fuentes
 Last changed {date} | Laatst gewijzigd {date} | Zuletzt geändert {date} | Mis à jour le {date} | Actualizado el {date}
@@ -410,14 +405,26 @@ Pop-ups | Pop-ups | Pop-ups | Pop-ups | Pop-ups
 Festivals | Festivals | Festivals | Festivals | Festivales
 Tastings | Proeverijen | Verkostungen | Dégustations | Catas
 Concerts & club nights | Concerten & clubnachten | Konzerte & Clubnächte | Concerts & soirées club | Conciertos y noches de club
-More info – visit the page ↗ | Meer info – bezoek de pagina ↗ | Mehr Infos – zur Seite ↗ | Plus d’infos – voir la page ↗ | Más info – visita la página ↗
-Get tickets ↗ | Tickets ↗ | Tickets ↗ | Billets ↗ | Entradas ↗
+More info – visit the page | Meer info – bezoek de pagina | Mehr Infos – zur Seite | Plus d’infos – voir la page | Más info – visita la página
+Get tickets | Tickets | Tickets | Billets | Entradas
 Know an event? | Ken je een event? | Kennst du ein Event? | Vous connaissez un événement ? | ¿Conoces un evento?
 Tell us | Vertel het ons | Erzähl es uns | Dites-le-nous | Cuéntanoslo
 No upcoming events match. | Geen komende events gevonden. | Keine passenden Events. | Aucun événement ne correspond. | Ningún evento coincide.
 Try “All” or clear the search. | Probeer “Alle” of wis de zoekopdracht. | Probiere „Alle“ oder lösche die Suche. | Essayez « Tout » ou effacez la recherche. | Prueba «Todo» o borra la búsqueda.
 ## about, footer
 Latest changes | Laatste wijzigingen | Letzte Änderungen | Dernières modifications | Últimos cambios
+## about.html, changes.html (own pages per city)
+About the data · {city} — Table and the City | Over de gegevens · {city} — Table and the City | Über die Daten · {city} — Table and the City | À propos des données · {city} — Table and the City | Sobre los datos · {city} — Table and the City
+Latest changes · {city} — Table and the City | Laatste wijzigingen · {city} — Table and the City | Letzte Änderungen · {city} — Table and the City | Dernières modifications · {city} — Table and the City | Últimos cambios · {city} — Table and the City
+About the data — Table and the City | Over de gegevens — Table and the City | Über die Daten — Table and the City | À propos des données — Table and the City | Sobre los datos — Table and the City
+Latest changes — Table and the City | Laatste wijzigingen — Table and the City | Letzte Änderungen — Table and the City | Dernières modifications — Table and the City | Últimos cambios — Table and the City
+What we added, corrected or removed for this city, newest first. | Wat we voor deze stad hebben toegevoegd, verbeterd of verwijderd, nieuwste eerst. | Was wir für diese Stadt hinzugefügt, korrigiert oder entfernt haben, das Neueste zuerst. | Ce que nous avons ajouté, corrigé ou retiré pour cette ville, du plus récent au plus ancien. | Lo que hemos añadido, corregido o eliminado en esta ciudad, primero lo más reciente.
+{n} changes in {city} | {n} wijzigingen in {city} | {n} Änderungen in {city} | {n} modifications à {city} | {n} cambios en {city}
+No changes recorded for {city} yet. | Nog geen wijzigingen voor {city}. | Für {city} sind noch keine Änderungen verzeichnet. | Aucune modification enregistrée pour {city} pour l’instant. | Aún no hay cambios registrados en {city}.
+Source | Bron | Quelle | Source | Fuente
+Details | Details | Details | Détails | Detalles
+Where the information in Table and the City comes from: guides, the places’ own websites, local press and OpenStreetMap; nothing is invented. | Waar de informatie in Table and the City vandaan komt: gidsen, de eigen websites van de zaken, lokale pers en OpenStreetMap; er wordt niets verzonnen. | Woher die Informationen in Table and the City stammen: Guides, die eigenen Websites der Lokale, lokale Presse und OpenStreetMap; nichts ist erfunden. | D’où viennent les informations de Table and the City : guides, sites des adresses, presse locale et OpenStreetMap ; rien n’est inventé. | De dónde sale la información de Table and the City: guías, las webs de los propios locales, prensa local y OpenStreetMap; nada es inventado.
+What changed in Table and the City for this city: places added, corrected or removed, newest first, with sources. | Wat er in Table and the City voor deze stad veranderde: toegevoegde, verbeterde of verwijderde adressen, nieuwste eerst, met bronnen. | Was sich in Table and the City für diese Stadt geändert hat: hinzugefügte, korrigierte oder entfernte Adressen, das Neueste zuerst, mit Quellen. | Ce qui a changé dans Table and the City pour cette ville : adresses ajoutées, corrigées ou retirées, du plus récent au plus ancien, avec sources. | Qué ha cambiado en Table and the City en esta ciudad: sitios añadidos, corregidos o eliminados, primero lo más reciente, con fuentes.
 Coordinates: | Coördinaten: | Koordinaten: | Coordonnées : | Coordenadas:
 Mood images: | Sfeerbeelden: | Stimmungsbilder: | Images d’ambiance : | Imágenes de ambiente:
 ## quiz
@@ -615,7 +622,7 @@ Table and the City — choose your city | Table and the City — kies je stad | 
 {city} — Table and the City | {city} — Table and the City | {city} — Table and the City | {city} — Table and the City | {city} — Table and the City
 Table and the City: curated guides to the finest tables, city by city. Spin the globe, pick a country and a city, and find restaurants, cafés, coffee and bakeries. | Table and the City: zorgvuldig samengestelde gidsen naar de beste tafels, stad per stad. Draai de wereldbol, kies een land en een stad, en vind restaurants, cafés, koffie en bakkers. | Table and the City: kuratierte Guides zu den besten Tischen, Stadt für Stadt. Dreh den Globus, wähle Land und Stadt und finde Restaurants, Cafés, Kaffee und Bäckereien. | Table and the City : des guides choisis avec soin vers les plus belles tables, ville par ville. Faites tourner le globe, choisissez un pays et une ville, et trouvez restaurants, cafés, coffee shops et boulangeries. | Table and the City: guías seleccionadas de las mejores mesas, ciudad a ciudad. Gira el globo, elige país y ciudad y encuentra restaurantes, cafés, café y panaderías.
 ## footer (∅ = empty)
-Back to top ↑ | Naar boven ↑ | Nach oben ↑ | Haut de page ↑ | Volver arriba ↑
+Back to top | Naar boven | Nach oben | Haut de page | Volver arriba
 Part of the | Deel van de | Teil der | Membre de la famille | Parte de la familia
 family | familie | Familie | ∅ | ∅
 Dinners | Diners | Dinner-Events | Dîners | Cenas
@@ -644,7 +651,7 @@ Your rights | Je rechten | Deine Rechte | Vos droits | Tus derechos
 Under the GDPR you can ask us to see, correct or delete any message you sent us, or object to how we use it. Just email us. You can also lodge a complaint with the Belgian Data Protection Authority (dataprotectionauthority.be). | Onder de AVG kun je ons vragen om berichten die je ons stuurde in te zien, te verbeteren of te verwijderen, of bezwaar maken tegen het gebruik ervan. Mail ons gewoon. Je kunt ook een klacht indienen bij de Belgische Gegevensbeschermingsautoriteit (gegevensbeschermingsautoriteit.be). | Nach der DSGVO kannst du verlangen, Nachrichten, die du uns geschickt hast, einzusehen, zu berichtigen oder zu löschen, oder ihrer Nutzung widersprechen. Schreib uns einfach eine E-Mail. Du kannst dich auch bei der belgischen Datenschutzbehörde beschweren (dataprotectionauthority.be). | Selon le RGPD, vous pouvez nous demander de consulter, corriger ou supprimer tout message que vous nous avez envoyé, ou vous opposer à son utilisation. Il suffit de nous écrire. Vous pouvez aussi porter plainte auprès de l’Autorité de protection des données belge (autoriteprotectiondonnees.be). | Según el RGPD puedes pedirnos ver, corregir o borrar cualquier mensaje que nos hayas enviado, u oponerte a su uso. Solo tienes que escribirnos. También puedes reclamar ante la Autoridad de Protección de Datos de Bélgica (dataprotectionauthority.be).
 Changes | Wijzigingen | Änderungen | Modifications | Cambios
 We update this page whenever the site or the app changes what it does with data. | We passen deze pagina aan zodra de site of de app iets verandert aan wat ze met gegevens doet. | Wir aktualisieren diese Seite, sobald Website oder App etwas am Umgang mit Daten ändern. | Nous mettons cette page à jour dès que le site ou l’application change sa façon de traiter les données. | Actualizamos esta página cuando el sitio o la app cambian lo que hacen con los datos.
-← Back to the guide | ← Terug naar de gids | ← Zurück zum Guide | ← Retour au guide | ← Volver a la guía
+Back to the guide | Terug naar de gids | Zurück zum Guide | Retour au guide | Volver a la guía
 Privacy | Privacy | Datenschutz | Confidentialité | Privacidad
 
 ## app-like features (js/features.js: saved, near me open now, reminders) + privacy addition

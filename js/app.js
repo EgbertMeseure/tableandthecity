@@ -11,10 +11,10 @@
       h.srcset = `${b}-1000.webp 1000w, ${b}-1600.webp 1600w, ${b}-2400.webp 2400w`; h.src = `${b}-1600.jpg`; }
     if (h && IMG.heroFocus) h.style.objectPosition = IMG.heroFocus;   // optional focal point (object-position) so the subject survives the narrow phone crop, e.g. Ostend's Mercator
     if (h) (h.decode ? h.decode().catch(() => {}) : Promise.resolve()).then(() => h.classList.add('is-city')); }   // guide.html hides a non-default city's hero until its own photo is ready (no flash of Gent's)
-  { const c = IMG.heroCredit, el = document.getElementById('hero-credit');   // CC BY(-SA) city hero: name author, licence and source next to the image credits
-    if (c && el) el.innerHTML = `; city photo: <a href="${esc(c.source)}" target="_blank" rel="noopener">“${esc(c.title)}”</a> by ${esc(c.author)}, <a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a> (cropped, greyscale; the crop is also ${esc(c.license)})`; }
+  { const c = IMG.heroCredit, el = document.querySelector('.site-footer .meta');   // CC BY(-SA) city hero: author, licence and source stay on this page (footer); full notes on about.html
+    if (c && el) el.insertAdjacentHTML('beforeend', `<span class="foot-credit" data-i18n-skip>City photo: <a href="${esc(c.source)}" target="_blank" rel="noopener">“${esc(c.title)}”</a> by ${esc(c.author)}, <a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a></span>`); }
   const cardImg = (id, def) => (IMG.cards && IMG.cards[id]) || def;
-  const { restaurants: R, events: E, changelog } = await TG.load(city);
+  const { restaurants: R, events: E } = await TG.load(city);
   const CITY = city.name;
   document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
   const $ = s => document.querySelector(s);
@@ -53,8 +53,7 @@
   const nLv = l => OPEN.filter(r => r.veggieLevel === l).length;
   $('#lbl-veg').textContent = `${nLv('vegan')} fully vegan · ${nLv('vegetarian')} vegetarian · ${OPEN.filter(r => r.veggieLevel).length} with veggie options`;
   $('#lbl-ev').textContent = `${E.filter(isUpcoming).length} upcoming events & collaborations`;
-  $('#explore-title').textContent = `All places in ${CITY}`; $('#about-city').textContent = CITY;
-  if (city.about) $('#about-text').innerHTML = city.about;             // per-city "About the data" (data/cities.json); the static text is Gent's
+  $('#explore-title').textContent = `All places in ${CITY}`;   // "About the data" and "Latest changes" have their own pages (about.html / changes.html, js/info.js)
   { const md = document.querySelector('meta[name="description"]'); if (md && city.description) md.content = city.description; }
   if (notice) { $('#city-notice').hidden = false; $('#city-notice').textContent = notice; }
 
@@ -351,14 +350,14 @@
   // ---- render list + markers ----
   const detailUrl = id => cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id));
   const SHORT = { glutenFree: 'Gluten-free', naPairing: 'NA pairing', wheelchair: 'Wheelchair', vegan: 'Vegan', aLaCarte: 'À la carte', gaultMillau: 'G&M', chefCollabs: 'Chef collabs', openSunday: 'Sunday', openMonday: 'Monday', foodServed: 'Food', reservations: 'Bookable' };
-  /* booking button on list cards (only categories in TG_CONFIG.BOOKING_BUTTON_TYPES): online link → "Check availability ↗";
+  /* booking button on list cards (only categories in TG_CONFIG.BOOKING_BUTTON_TYPES): online link → "Reserve";
      no online link but a phone (data says phone-only, or nothing researched yet) → tel: "Reservation by phone"; walk-in only → chip */
   const BK_TYPES = (window.TG_CONFIG || {}).BOOKING_BUTTON_TYPES || [];
   const bookOn = r => r.group === 'restaurants' && !r.upcoming && !r.fromUpcoming && (BK_TYPES.includes('*') || BK_TYPES.includes(r.category));
   const bookMethod = r => r.reservationMethod === 'walk-in' ? 'walk-in' : r.reservation_url ? 'online' : known(r.phone) && r.phone ? 'phone' : 'none';
   function booking(r) {
     const m = bookMethod(r);
-    if (m === 'online') return `<span class="bk bk--online" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" title="Book online${r.reservation_provider ? ' via ' + esc(r.reservation_provider) : ''} (opens in a new tab)" aria-label="Check availability at ${esc(r.name)} (opens booking page in a new tab)">Check availability <i aria-hidden="true">↗</i></span>`;
+    if (m === 'online') return `<span class="bk bk--online" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" title="Book online${r.reservation_provider ? ' via ' + esc(r.reservation_provider) : ''} (opens in a new tab)" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve</span>`;
     if (m === 'phone') { const tel = String(r.phone).replace(/[^\d+]/g, '');
       return `<span class="bk bk--phone" data-tel="tel:${esc(tel)}" role="link" tabindex="0" title="Call ${esc(r.phone)} to reserve" aria-label="Reservation by phone: call ${esc(r.name)} at ${esc(r.phone)}"><span class="bk__l">Reservation by phone</span><span class="bk__n" aria-hidden="true">${esc(r.phone)}</span></span>`; }
     if (m === 'walk-in') return `<span class="bk-chip" title="${esc(r.reservationNote || 'No reservations: walk-in only')}">Walk-in only</span>`;
@@ -378,7 +377,7 @@
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
       <div class="card__body"><div class="badges"><span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${badges(r, { max: 2 })}</div><h3>${esc(r.name)}${TG.scoreBadge(r)}</h3><div class="card__meta" title="${meta}">${meta}</div>
       ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
-      <div class="card__foot">${km}${bookOn(r) ? booking(r) : isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve ↗</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website ↗</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
+      <div class="card__foot">${km}${bookOn(r) ? booking(r) : isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
   }
   /* list title follows the chosen table: 'Vegan breakfast in Gent', 'New veggie coffee in Gent', … (other filters keep it) */
   const MEAL_T = { any: 'breakfast & brunch', breakfast: 'breakfast', brunch: 'brunch', wkbrunch: 'weekend brunch', early: 'early openers' };
@@ -444,7 +443,7 @@
   function marker(r) {                                                     // built once per place, reused across renders
     if (r._m) return r._m;
     const m = L.marker([r.lat, r.lng], { icon: L.divIcon({ className: '', html: `<div class="mk g-${esc(r.group)}${isStar(r.distinctions.michelin) ? ' star' : ''}${r.upcoming ? ' soon' : ''}${r.curated ? '' : ' osm'}" data-mk="${esc(r.id)}"></div>`, iconSize: [14, 14], iconAnchor: [7, 7] }) })
-      .bindPopup(() => `<b>${esc(r.name)}</b>${TG.scoreBadge(r)}${TG.openState(r).state === 'open' ? ' <span class="oh oh--open oh--pop">Open now</span>' : ''}${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}${r.veggieLevel ? `<br><i>${esc(TG.VEG_LABEL[r.veggieLevel])}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}${known(r.address) ? '<br>' + esc(r.address) : ''}<br><a href="${detailUrl(r.id)}">Details →</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions ↗</a>`);
+      .bindPopup(() => `<b>${esc(r.name)}</b>${TG.scoreBadge(r)}${TG.openState(r).state === 'open' ? ' <span class="oh oh--open oh--pop">Open now</span>' : ''}${r.upcoming ? `<br><i>${esc(TG.soonLabel(r))}</i>` : ''}${r.veggieLevel ? `<br><i>${esc(TG.VEG_LABEL[r.veggieLevel])}</i>` : ''}<br>${esc([catLabel(r), r.group === 'restaurants' && r.cuisine && r.cuisine !== catLabel(r) ? r.cuisine.split(/[,–(]/)[0] : ''].filter(Boolean).join(' · '))}${known(r.address) ? '<br>' + esc(r.address) : ''}<br><a href="${detailUrl(r.id)}">Details</a> · <a href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener">Directions</a>`);
     m.on('mouseover', () => hl(r.id, true)); m.on('mouseout', () => hl(r.id, false));
     return (r._m = m);
   }
@@ -495,9 +494,6 @@
         <div class="ev__links">${links}</div><div class="ev__btns">${TG.evButtons(e)}</div></article>`;
     }).join('') : '<div class="ev-empty"><p>No upcoming events match.</p><p class="sub">Try “All” or clear the search.</p></div>';
   }
-
-  // ---- changelog ----
-  $('#changelog').innerHTML = changelog.slice().reverse().slice(0, 8).map(c => `<li><strong>${esc(fmtDate(c.date))}</strong> — ${esc(c.restaurant)}: ${esc(c.change)}</li>`).join('');
 
   // ---- UI binding ----
   function applyUI() {

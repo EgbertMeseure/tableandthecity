@@ -810,3 +810,37 @@ a.card.bw-host{position:relative}
 .tg-toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translate(-50%,12px);z-index:3100;max-width:min(92vw,460px);padding:11px 16px;border-radius:14px;background:rgba(11,11,11,.94);color:#f2f2f2;font:500 13px/1.45 var(--sans);opacity:0;pointer-events:none;transition:opacity .3s,transform .3s}
 .tg-toast.is-in{opacity:1;transform:translate(-50%,0)}
 @media (prefers-reduced-motion:reduce){.tg-toast,.fav{transition:none}}
+
+/* ---------- INFO PAGES: about.html ("About the data") and changes.html ("Latest changes"), js/info.js ---------- */
+.ihero{background:#0b0b0b;color:#fff;padding-bottom:48px}
+.ihero>.topbar{position:relative;z-index:10}
+.ihero__body{position:relative;z-index:3;padding:64px 7vw 0;max-width:980px}
+.ihero__eyebrow{margin:0 0 12px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;opacity:.7}
+.ihero h1{font-family:var(--serif);font-weight:500;font-size:clamp(38px,5.2vw,68px);letter-spacing:.02em;line-height:1.02;margin:0}
+.ihero__lede{max-width:620px;margin:16px 0 0;font-size:14px;line-height:1.6;opacity:.8}
+.ihero__notice{margin:14px 0 0;font-size:12px;opacity:.8}
+.ipage{padding:56px 7vw 80px;max-width:860px}
+.ipage p{font-size:15px;line-height:1.75;margin:0 0 16px}
+.ipage__more{margin-top:36px!important}
+.info:not(.is-ready) .ipage{opacity:0;animation:ip-show 0s 2.5s forwards}   /* no flash of Gent's static text on another city's page */
+@keyframes ip-show{to{opacity:1}}
+.clog-count{font-size:11px!important;letter-spacing:.18em;text-transform:uppercase;opacity:.65;margin:0 0 8px!important}
+.clog-month h2{font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;margin:40px 0 4px;padding-bottom:12px;border-bottom:1px solid var(--ink)}
+.clog-month:first-child h2{margin-top:18px}
+.clog{list-style:none;padding:0;margin:0}
+.clog li{display:grid;grid-template-columns:112px 1fr;gap:4px 20px;padding:14px 0;border-bottom:1px solid rgba(0,0,0,.1)}
+.clog time{font-size:11px;letter-spacing:.12em;text-transform:uppercase;opacity:.6;padding-top:4px;white-space:nowrap}
+.clog p{margin:0!important;font-size:14px!important;line-height:1.6!important}
+.clog strong a{color:inherit}
+.clog__src{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:inherit;opacity:.6;margin-left:4px}
+.clog__src:hover,.clog__src:focus-visible{opacity:1}
+.clog-empty{opacity:.7}
+.site-footer .foot-credit{text-transform:none;letter-spacing:.04em}
+@media (max-width:640px){
+  .ihero{padding-bottom:36px}
+  .ihero__body{padding-top:40px}
+  .ipage{padding:36px 7vw 60px}
+  .ipage p{font-size:14.5px}
+  .clog li{grid-template-columns:1fr;gap:2px;padding:12px 0}
+  .clog time{padding-top:0}
+}

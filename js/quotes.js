@@ -81,7 +81,7 @@
     const tip = [q.work, q.att ? 'attributed, not documented' : '', q.tr && !orig ? 'English translation: Table and the City' : '', orig ? 'original text' : ''].filter(Boolean).join(' · ');
     el.classList.add('quote--city'); el.setAttribute('data-i18n-skip', ''); if (orig) el.setAttribute('lang', q.lang); else el.setAttribute('lang', 'en');
     el.innerHTML = `“${esc(text)}”<cite>${esc(q.by)}${q.att ? ' <span class="quote__att">(attributed)</span>' : ''}${q.work ? `, <i>${esc(q.work)}</i>` : ''}`
-      + ` <a class="quote__src" href="${esc(q.src)}" target="_blank" rel="noopener" title="${esc(tip ? 'Source · ' + tip : 'Source')}" aria-label="Source of this quote (opens in a new tab)">↗</a></cite>`;
+      + ` <a class="quote__src" href="${esc(q.src)}" target="_blank" rel="noopener" title="${esc(tip ? 'Source · ' + tip : 'Source')}" aria-label="Source of this quote (opens in a new tab)">${window.TG_I18N && TG_I18N.t ? esc(TG_I18N.t('Source')) : 'Source'}</a></cite>`;
   }
   window.TGQuotes = { Q, pick, render, monthIndex };
 })();
