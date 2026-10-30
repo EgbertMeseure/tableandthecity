@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "gent",
- "count": 191,
+ "count": 158,
  "places": {
   "cafe-labath": {
    "veggieLevel": "vegan-friendly",
@@ -1342,14 +1342,14 @@
    "hcInfo": "This coffee bar in Gent has American style vegan cookies.  Mon-Fri 08:30-18:00, Sat 09:00-18:00, Sun 10:00-18:00"
   },
   "vrijmoed": {
-   "veggieLevel": "veggie-friendly",
+   "veggieLevel": "vegan-friendly",
    "sources": [
-    "https://www.happycow.net/europe/belgium/ghent/print?",
-    "https://www.vrijmoed.be/nl"
+    "https://www.vrijmoed.be/nl/menu",
+    "https://www.happycow.net/europe/belgium/ghent/print?"
    ],
-   "note": "Two-star restaurant; HappyCow: \"a full vegetable menu at all times, which is either all vegan or some of the items are vegan (please inquire)\". Vegan not guaranteed → not marked vegan.",
-   "basis": "verified",
-   "checked": "2026-10-20"
+   "basis": "Own menu: \"Puur Groenten\" vegetable tasting menu that can be served fully plant-based (confirm when booking)",
+   "checked": "2026-10-30",
+   "note": "Two-star restaurant; full vegetable tasting menu that is vegan on request (own menu, HappyCow). Vegan not guaranteed → vegan-friendly, not vegan."
   },
   "way-bakery-keizerpoort": {
    "veggieLevel": "vegan",

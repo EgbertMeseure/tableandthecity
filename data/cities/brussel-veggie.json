@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "brussel",
- "count": 12,
+ "count": 20,
  "places": {
   "daily-3000": {
    "veggieLevel": "vegetarian",
@@ -97,6 +97,75 @@
     "https://les4jeudis.be/en/menu/menu-de-midi"
    ],
    "basis": "Own site: totally plant-based (vegan) cuisine, no gluten"
+  },
+  "lil-bao": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://lilbao.be"
+   ],
+   "basis": "Own site: vegan Taiwanese kitchen"
+  },
+  "noje": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.nojecoffee.be"
+   ],
+   "basis": "Own site: 100% plant-based café"
+  },
+  "taylors-cafe": {
+   "veggieLevel": "vegan",
+   "sources": [
+    "https://www.taylorscafebrussels.be/",
+    "https://www.taylorscafebrussels.be/opening-hours",
+    "https://www.visit.brussels/en/visitors/venue-details.Taylor-s-Cafe.50001855"
+   ],
+   "basis": "Own site: 100% plant-based café"
+  },
+  "nk-arya-bhavan": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://nkaryabhavan.com/belgium/",
+    "https://www.happycow.net/reviews/nk-arya-bhavan-south-indian-pure-vegetarian-restaurant-brussels-506556",
+    "https://namaste-belgium.com/saravana-bhavan-brussels-rebranded-to-arya-bhavan/"
+   ],
+   "basis": "Own site: pure vegetarian South Indian restaurant (vegan and Jain options)"
+  },
+  "osm-bodja-n11594654023": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://bodja.be/",
+    "https://bodja.be/food"
+   ],
+   "basis": "Own site / HappyCow: vegetarian Tibetan kitchen with vegan options",
+   "checked": "2026-10-30"
+  },
+  "osm-archie-n4396143203": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://goodfood.brussels/fr/commerces/archie?domain=cit",
+    "https://www.happycow.net/reviews/archie-brussels-33941",
+    "https://archie-brussels.com/"
+   ],
+   "basis": "Good Food Brussels / HappyCow: vegetarian canteen with vegan options",
+   "checked": "2026-10-30"
+  },
+  "osm-pois-chiche-n7149864187": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://www.poischiche.be/",
+    "https://www.poischiche.be/menu"
+   ],
+   "basis": "Own site: plant-based Middle Eastern restaurant (vegetarian menu)",
+   "checked": "2026-10-30"
+  },
+  "osm-cafe-boudin-n2514211665": {
+   "veggieLevel": "vegetarian",
+   "sources": [
+    "https://cafeboudin.be/en/about",
+    "https://cafeboudin.be/fr/menu/menu-lunch"
+   ],
+   "basis": "Own site: seasonal vegetarian cuisine with vegan options",
+   "checked": "2026-10-30"
   }
  }
 }

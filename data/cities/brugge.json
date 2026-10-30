@@ -442,7 +442,15 @@
    "id": "extra-19"
   }
  ],
- "changelog": [],
+ "changelog": [
+  {
+   "date": "2026-10-30",
+   "restaurant": "Kosmopoliet, Magpies",
+   "field": "new",
+   "change": "Added 2 vegan/vegetarian places found via HappyCow and checked on their own sites: Kosmopoliet, Magpies.",
+   "source": "https://www.happycow.net/"
+  }
+ ],
  "restaurants": [
   {
    "id": "de-jonkman",
@@ -9915,9 +9923,9 @@
    "openingYear": "unknown",
    "openingDate": "unknown",
    "isNew": false,
-   "vegetarian": "unknown",
-   "vegan": "unknown",
-   "dietNote": "",
+   "vegetarian": "yes",
+   "vegan": "yes",
+   "dietNote": "Clear vegan options: vegan soup, toast with vegetable spread, vegan cake; oat milk for coffee (HappyCow, The Bruges Vegan).",
    "menuType": "unknown",
    "menuChanges": "unknown",
    "currentMenuNote": "",
@@ -9935,7 +9943,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "lastChanged": "2026-10-30",
    "city": "brugge",
    "country": "BE",
    "reservation_url": null,
@@ -10841,7 +10849,7 @@
    "isNew": false,
    "vegetarian": "yes",
    "vegan": "yes",
-   "dietNote": "own site: plant-based focus; Visit Bruges tag \"Vegan\"",
+   "dietNote": "Own site: 100% plant-based menu.",
    "menuType": "unknown",
    "menuChanges": "unknown",
    "currentMenuNote": "",
@@ -10860,7 +10868,7 @@
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "lastChanged": "2026-10-30",
    "city": "brugge",
    "country": "BE",
    "reservation_url": null,
@@ -12146,6 +12154,157 @@
      "noPeopleChecked": true
     }
    ]
+  },
+  {
+   "id": "kosmopoliet",
+   "name": "Kosmopoliet",
+   "type": "restaurant",
+   "cuisine": "Plant-based sharing plates & cocktails",
+   "cuisineTags": [
+    "Vegan",
+    "Small plates",
+    "Cocktails"
+   ],
+   "chef": null,
+   "address": "Hoogstraat 32, 8000 Brugge",
+   "postalCode": "8000",
+   "district": "Brugge",
+   "neighbourhood": "Sint-Walburga",
+   "lat": 51.2097843,
+   "lng": 3.2302739,
+   "geoSource": "OpenStreetMap Nominatim (way/507828816 (building))",
+   "geoPrecision": "address",
+   "priceLevel": null,
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": "unknown",
+   "openingDate": "unknown",
+   "isNew": false,
+   "vegetarian": "yes",
+   "vegan": "yes",
+   "dietNote": "Own site: 100% plant-based.",
+   "menuType": "",
+   "menuChanges": "unknown",
+   "currentMenuNote": "",
+   "status": "open",
+   "statusNote": "",
+   "website": "https://www.kosmopoliet.com",
+   "instagram": null,
+   "instagram_handle": null,
+   "phone": null,
+   "summary": "A 100% plant-based eetcafé and cocktail bar a few steps from the Burg. Seasonal sharing plates to order in rounds, with good cocktails, wine and beer. Evenings only, Tuesday to Saturday.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://www.kosmopoliet.com"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-30",
+   "lastChanged": "2026-10-30",
+   "city": "brugge",
+   "country": "BE",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "features": {
+    "veggie": true,
+    "vegan": true,
+    "openMonday": false,
+    "openSunday": false,
+    "new": false
+   },
+   "features_evidence": {
+    "veggie": "Own site: 100% plant-based",
+    "vegan": "Own site: 100% plant-based",
+    "openMonday": "opening hours (own website)",
+    "openSunday": "opening hours (own website)"
+   },
+   "openingHours": "Tu-Th 17:30-23:00; Fr,Sa 17:30-24:00; Mo,Su off",
+   "openingHoursSource": "own website (kosmopoliet.com, checked 30 Oct 2026)",
+   "group": "restaurants",
+   "category": "restaurant",
+   "notes": "Added from the HappyCow check of 30 Oct 2026; open status checked on the place's own site or recent listings. No photos yet.",
+   "origin": "research-2026-10-30-happycow"
+  },
+  {
+   "id": "magpies",
+   "name": "Magpies",
+   "type": null,
+   "cuisine": "Vegan cake bakery",
+   "cuisineTags": [
+    "Vegan",
+    "Patisserie"
+   ],
+   "chef": null,
+   "address": "Julius Delaplacestraat 70, 8310 Sint-Kruis",
+   "postalCode": "8310",
+   "district": "Sint-Kruis",
+   "neighbourhood": "Sint-Kruis",
+   "lat": 51.2150137,
+   "lng": 3.2455892,
+   "geoSource": "OpenStreetMap Nominatim (way/699786398)",
+   "geoPrecision": "address",
+   "priceLevel": null,
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": "unknown",
+   "openingDate": "unknown",
+   "isNew": false,
+   "vegetarian": "yes",
+   "vegan": "yes",
+   "dietNote": "Own site: 100% vegan bakery.",
+   "menuType": "",
+   "menuChanges": "unknown",
+   "currentMenuNote": "",
+   "status": "open",
+   "statusNote": "",
+   "website": "https://www.magpies.be",
+   "instagram": null,
+   "instagram_handle": null,
+   "phone": null,
+   "summary": "A fully vegan cake bakery just outside the centre in Sint-Kruis, with layer cakes, cookies, brownies and pastries, several of them free from gluten or nuts. Custom cakes to order; Sunday mornings are for picking up orders only.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://www.magpies.be",
+    "https://www.openstreetmap.org/way/699786398"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-30",
+   "lastChanged": "2026-10-30",
+   "city": "brugge",
+   "country": "BE",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "features": {
+    "veggie": true,
+    "vegan": true,
+    "openMonday": true,
+    "openSunday": false,
+    "new": false
+   },
+   "features_evidence": {
+    "veggie": "Own site: 100% vegan bakery",
+    "vegan": "Own site: 100% vegan bakery",
+    "openMonday": "opening hours (own website / COSH listing)",
+    "openSunday": "opening hours (own website / COSH listing)"
+   },
+   "openingHours": "Mo,Tu 10:00-15:00; Th,Fr 10:00-18:00; Sa 11:00-16:30; We,Su off",
+   "openingHoursSource": "own website / COSH listing (checked 30 Oct 2026; Sunday 10:00-12:00 pick-up of orders only)",
+   "group": "bakeries",
+   "category": "patisserie",
+   "notes": "Added from the HappyCow check of 30 Oct 2026; open status checked on the place's own site or recent listings. No photos yet.",
+   "origin": "research-2026-10-30-happycow",
+   "osm": "way/699786398"
   }
  ],
  "eventDetails": {

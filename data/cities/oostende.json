@@ -6742,7 +6742,7 @@
    "isNew": false,
    "vegetarian": "unknown",
    "vegan": "unknown",
-   "dietNote": "",
+   "dietNote": "Coffee is served with plant-based milk only (HappyCow).",
    "menuType": "unknown",
    "menuChanges": "unknown",
    "currentMenuNote": "",
@@ -6757,11 +6757,12 @@
    "events": [],
    "sources": [
     "https://www.visitoostende.be/nl/meerman",
-    "https://hetisdemerckx.be/nl/5-x-koffie-hotspots-in-oostende-beste-koffiebars/"
+    "https://hetisdemerckx.be/nl/5-x-koffie-hotspots-in-oostende-beste-koffiebars/",
+    "https://www.happycow.net/europe/belgium/oostende/print?"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "lastChanged": "2026-10-30",
    "city": "oostende",
    "country": "BE",
    "reservation_url": null,
@@ -6830,7 +6831,7 @@
    "isNew": false,
    "vegetarian": "unknown",
    "vegan": "unknown",
-   "dietNote": "",
+   "dietNote": "Coffee is served with plant-based milk only (HappyCow).",
    "menuType": "unknown",
    "menuChanges": "unknown",
    "currentMenuNote": "",
@@ -6845,11 +6846,12 @@
    "events": [],
    "sources": [
     "https://oever.gallery/",
-    "https://www.visitoostende.be/nl/oevercoffee"
+    "https://www.visitoostende.be/nl/oevercoffee",
+    "https://www.happycow.net/europe/belgium/oostende/print?"
    ],
    "dataConflict": null,
    "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "lastChanged": "2026-10-30",
    "city": "oostende",
    "country": "BE",
    "reservation_url": null,
