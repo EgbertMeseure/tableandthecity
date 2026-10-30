@@ -1,0 +1,17 @@
+{
+  "name": "table-and-the-city-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Capacitor wrapper (iOS + Android) for the Table and the City website. The site files are copied into www/ by copy-web.mjs.",
+  "scripts": {
+    "copy-web": "node copy-web.mjs",
+    "sync": "node copy-web.mjs && npx cap sync",
+    "android:debug": "node copy-web.mjs && npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor/ios": "^8.6.0"
+  }
+}

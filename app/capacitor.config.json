@@ -1,0 +1,8 @@
+{
+  "appId": "com.tableandthecity.app",
+  "appName": "Table and the City",
+  "webDir": "www",
+  "backgroundColor": "#0b0b0b",
+  "android": { "backgroundColor": "#0b0b0b" },
+  "ios": { "backgroundColor": "#0b0b0b", "contentInset": "automatic" }
+}

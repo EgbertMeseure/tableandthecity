@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Table and the City</string>
+    <string name="title_activity_main">Table and the City</string>
+    <string name="package_name">com.tableandthecity.app</string>
+    <string name="custom_url_scheme">com.tableandthecity.app</string>
+</resources>
