@@ -115,7 +115,22 @@ body.detail{background:#faf8f4}
 .soonbox{border:1px dashed var(--ink,#111);border-radius:18px;padding:12px 16px;font-size:13px;margin:16px 0;line-height:1.5}
 .soonbox a{display:inline-block;margin-top:4px}
 .conflict{border:1px dashed #a33;border-radius:18px;padding:12px 16px;font-size:13px;margin:16px 0;background:#fff6f4}
-.dcta{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+/* place page actions: two fixed rows (js/detail.js), row 1 Reserve · Website · My table icon, row 2 Instagram · Directions;
+   desktop keeps the natural pill widths, phones share each row's width so it never wraps into a third row */
+.dcta{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:18px}
+.dcta__row{display:flex;gap:12px;flex-wrap:nowrap;max-width:100%}
+.dcta__row:not(:has(*)){display:none}
+@media (max-width:640px){
+  .dcta{align-items:stretch;gap:10px}
+  .dcta__row{gap:10px}
+  .dcta .dcta__row>.pill-btn{flex:1 1 auto;min-width:0;padding:0 14px;white-space:nowrap}
+  .dcta .dcta__row>.pill-btn:not(.fav-pill){overflow:hidden;text-overflow:ellipsis;display:block;line-height:42px;text-align:center}
+  .dcta .dcta__row>.fav-pill{flex:0 0 64px;padding:0}
+}
+/* very narrow phones (320–370px) with long labels (e.g. German 'Schon da gewesen'): the place column never grows past the screen */
+@media (max-width:640px){#right{min-width:0;max-width:100%}.mt-seg{max-width:100%}div.mt-seg button{min-width:0}}
+@media (max-width:370px){div.mt-seg button{flex:1 1 auto;padding:4px 10px;height:auto;min-height:34px;white-space:normal;line-height:1.2;letter-spacing:.05em}}
+@media (max-width:370px){.dcta__row{gap:8px}.dcta .dcta__row>.pill-btn{padding:0 8px;font-size:10.5px;letter-spacing:.08em}.dcta .dcta__row>.fav-pill{flex-basis:52px}}
 .dcta .pill-btn.dark{background:#111;color:#fff}
 .dcta .pill-btn.dark:hover{background:var(--accent);color:#111;border-color:var(--accent)}
 
@@ -311,10 +326,11 @@ body.noscroll{overflow:hidden}
 /* booking button on list cards (categories in TG_CONFIG.BOOKING_BUTTON_TYPES, js/config.js) */
 .card__foot .bk{display:inline-flex;align-items:center;justify-content:center;gap:7px;height:36px;padding:0 18px;border:1.5px solid var(--ink);border-radius:var(--pill);
   font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap;cursor:pointer;max-width:100%;transition:background .2s,color .2s}
-.card__foot .bk--online{background:var(--ink);color:#fff}
-.card__foot .bk--online:hover,.card__foot .bk--online:focus-visible{background:#fff;color:var(--ink)}
-.card__foot .bk--phone{background:#fff;color:var(--ink)}
-.card__foot .bk--phone:hover,.card__foot .bk--phone:focus-visible{background:var(--ink);color:#fff}
+/* Reserve on a card: petrol (online = filled, by phone = petrol outline that fills on hover) */
+.card__foot .bk--online{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.card__foot .bk--online:hover,.card__foot .bk--online:focus-visible{background:var(--blue-deep);border-color:var(--blue-deep);color:var(--blue-ink)}
+.card__foot .bk--phone{background:#fff;border-color:var(--blue);color:var(--blue)}
+.card__foot .bk--phone:hover,.card__foot .bk--phone:focus-visible{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
 .card__foot .bk i{font-style:normal}
 .card__foot .bk__n{display:none;letter-spacing:.06em}
 @media (hover:hover){.card__foot .bk--phone:hover .bk__l,.card__foot .bk--phone:focus-visible .bk__l{display:none}.card__foot .bk--phone:hover .bk__n,.card__foot .bk--phone:focus-visible .bk__n{display:inline}}
@@ -462,11 +478,10 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz__bar{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;padding:16px 20px;border-bottom:1px solid var(--hairline);flex:none}
 .qz__back,.qz__x{background:none;border:0;cursor:pointer;color:inherit;font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase;padding:8px 0;display:inline-flex;align-items:center;gap:8px;min-height:40px}
 .qz__back{justify-self:start}.qz__x{justify-self:end}
-.qz__back svg{width:30px;height:10px;stroke:currentColor;fill:none;stroke-width:1}
 .qz__dots{display:flex;gap:7px}
 .qz__dots i{width:7px;height:7px;border-radius:50%;border:1px solid var(--ink)}
 .qz__dots i.done{background:var(--ink)}
-.qz__dots i.on{background:var(--accent);border-color:var(--accent)}
+.qz__dots i.on{background:var(--blue);border-color:var(--blue)}
 .qz__body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:28px 36px 36px;outline:0;-webkit-overflow-scrolling:touch}
 .qz__step{animation:qzIn .25s ease}
 @keyframes qzIn{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:none}}
@@ -477,13 +492,13 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz__opts{display:flex;flex-direction:column;gap:10px}
 .qz-opt{display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;min-height:62px;padding:10px 26px;border:1px solid var(--line-d);border-radius:var(--pill);
   background:#fff;color:var(--ink);cursor:pointer;text-align:left;transition:background .2s,color .2s;-webkit-tap-highlight-color:transparent}
-.qz-opt[aria-pressed="true"]{background:var(--ink);color:#fff}
+.qz-opt[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
 @media (hover:hover){.qz-opt:hover{background:var(--ink);color:#fff}.qz-opt:hover .qz-opt__s{color:#d6d6d6}}
 .qz-opt:focus-visible,.qz__skip:focus-visible,.qz__back:focus-visible,.qz__x:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .qz-opt__t{display:flex;flex-direction:column;gap:3px;min-width:0}
 .qz-opt__l{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
 .qz-opt__s{font-size:12.5px;color:var(--text-2);letter-spacing:.01em}
-.qz-opt[aria-pressed="true"] .qz-opt__s{color:#d6d6d6}
+.qz-opt[aria-pressed="true"] .qz-opt__s{color:rgba(255,255,255,.82)}
 .qz-opt__n{flex:none;font-family:var(--serif);font-weight:500;font-size:17px}
 .qz__opts--compact{display:grid;grid-template-columns:1fr 1fr;gap:8px}.qz__opts--compact .qz-opt{min-height:46px;padding:8px 18px;gap:8px}.qz__opts--compact .qz-opt__l{font-size:11px;letter-spacing:.1em;line-height:1.25}.qz__opts--compact .qz-opt__n{font-size:15px}.qz__opts--compact .qz-opt[data-v="any"]{grid-column:1/-1}
 .qz__skip{display:block;margin:16px auto 0;background:none;border:0;border-bottom:1px solid currentColor;padding:6px 0 2px;cursor:pointer;color:var(--text-2);font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase}
@@ -520,8 +535,9 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz-card__foot .ext{border-bottom:1px solid #000;cursor:pointer}
 .qz-card__foot .bk{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:34px;padding:0 16px;border:1.5px solid var(--ink);border-radius:var(--pill);
   font-size:10px;font-weight:700;letter-spacing:.1em;white-space:nowrap;cursor:pointer;max-width:100%}
-.qz-card__foot .bk--online{background:var(--ink);color:#fff}
-.qz-card__foot .bk--phone{background:#fff;color:var(--ink)}
+.qz-card__foot .bk--online{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.qz-card__foot .bk--phone{background:#fff;border-color:var(--blue);color:var(--blue)}
+@media (hover:hover){.qz-card__foot .bk--online:hover{background:var(--blue-deep);border-color:var(--blue-deep)}.qz-card__foot .bk--phone:hover{background:var(--blue);color:var(--blue-ink)}}
 .qz-card__foot .bk i{font-style:normal}
 .qz-card__foot .bk__n{display:none}
 .qz-card__foot .bk-chip{border:1px solid var(--line-d);border-radius:var(--pill);padding:3px 9px;font-size:9px;font-weight:600}
@@ -560,7 +576,7 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz-cal__d[disabled]{color:#c9c9c9;cursor:default}
 .qz-cal__d.is-today{border-color:var(--line-d)}
 .qz-cal__d.has-ev:not([disabled])::after{content:"";position:absolute;left:50%;bottom:6px;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:var(--accent)}
-.qz-cal__d[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.qz-cal__d[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
 .qz-cal__d:focus-visible,.qz-cal__nav:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
 @media (hover:hover){.qz-cal__d:not([disabled]):not([aria-pressed="true"]):hover{background:#f1f1f1}.qz-cal__nav:not([disabled]):hover{background:var(--ink);color:#fff}}
 .pill-btn.qz-cal__go{display:flex;justify-content:center;width:100%;margin:12px 0 0;min-height:52px;background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -603,7 +619,7 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 /* 'By cuisine' chooser (shell = .crq sheet) */
 .czs__sheet{width:min(560px,100%)}
 .czs__diet{display:flex;gap:8px;margin:0 0 14px}
-.czs__diet .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.czs__diet .chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
 .czs__grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .czs__c{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;padding:8px 18px;border:1px solid var(--line-d);border-radius:var(--pill);background:#fff;color:var(--ink);cursor:pointer;text-align:left;font:600 10.5px/1.25 var(--sans,inherit);letter-spacing:.12em;text-transform:uppercase}
 .czs__c b{flex:none;font-family:var(--serif);font-weight:500;font-size:15px;letter-spacing:0}
@@ -627,12 +643,12 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 @media (prefers-reduced-motion:reduce){.crq__sheet,.crq__scrim{transition:none}}
 
 /* ---- Suggest a place (js/suggest.js; sheet = .crq) + footer visit counter (js/visits.js) ---- */
-.foot-links{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.foot-links{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 10px}
+.foot-links span{opacity:.45}
+.ipage__sources{font-size:13px;opacity:.85}
 .foot-links a{text-decoration:none}
 .foot-suggest{border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:2px}
 @media (hover:hover){.foot-suggest:hover{color:var(--accent);border-color:var(--accent)}}
-.site-footer .visits{font-family:var(--sans);letter-spacing:.12em;opacity:.85;white-space:nowrap}
-.site-footer .visits[hidden]{display:none}
 .navdrawer a.nav-suggest{font-family:var(--serif-it);font-style:italic;font-size:22px;color:var(--accent)}
 .list-more{flex-wrap:wrap}
 .suggest-line{flex:1 1 100%;margin:14px 0 4px;text-align:center;font-size:12px;letter-spacing:.06em;color:var(--text-2)}
@@ -652,7 +668,7 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .sgp__hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
 .sgp .crq__sheet{width:min(480px,100%)}
 .sgp .crq__form{gap:10px}
-@media (max-width:640px){.sgp__row{grid-template-columns:1fr 1fr;gap:10px}.foot-links{align-items:flex-start}}
+@media (max-width:640px){.sgp__row{grid-template-columns:1fr 1fr;gap:10px}}
 
 /* ---------- Logo: "Flat C" lockup (img/brand/*.svg). Sized by height only; the SVG has ~18.5% built-in clear space,
    pulled back with negative margins so the artwork lines up where the old text wordmark sat. White variant: every
@@ -798,30 +814,33 @@ a.card.bw-host{position:relative}
 .fav:hover,.fav.is-on{opacity:1}
 .fav-pill{display:inline-flex;align-items:center;justify-content:center;gap:0;cursor:pointer;border:0;font:inherit}
 .dcta .fav-pill{padding:0 24px;min-width:0}.dcta .pill-btn.dark.fav-pill:hover,.dcta .pill-btn.dark.fav-pill:focus,.dcta .pill-btn.dark.fav-pill:active{background:#111;border-color:#111;color:#fff}
-/* My table mark (js/features.js MARK): the logo's table, outline with a slightly thicker stroke; added = gold with a filled base */
+/* My table mark (js/features.js MARK): the logo's table, outline with a slightly thicker stroke; added = petrol blue (--blue) with a filled base */
 .mt-mark{display:block;fill:none;stroke:currentColor;stroke-width:2.7;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .mt-mark .mt-mark__fill{fill:none;stroke:none}
-.mt-mark.on{stroke:var(--accent)}.mt-mark.on .mt-mark__fill{fill:var(--accent);fill-opacity:.55}
+.mt-mark.on{stroke:var(--blue)}.mt-mark.on .mt-mark__fill{fill:var(--blue);fill-opacity:.55}
 .fav{color:#111}.fav .mt-mark{width:19px;height:19px}
 .fav-pill{color:#fff}.fav-pill .mt-mark{width:24px;height:24px}
 .dcta .fav-pill:hover .mt-mark:not(.on){stroke:var(--accent)}
+/* place page: once added, the dark pill itself turns petrol with a white mark (petrol on black would be too faint) */
+.dcta .pill-btn.dark.fav-pill.is-on,.dcta .pill-btn.dark.fav-pill.is-on:hover,.dcta .pill-btn.dark.fav-pill.is-on:focus,.dcta .pill-btn.dark.fav-pill.is-on:active{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.fav-pill .mt-mark.on{stroke:var(--blue-ink)}.fav-pill .mt-mark.on .mt-mark__fill{fill:var(--blue-ink);fill-opacity:.45}
 .chip--saved{display:inline-flex;align-items:center;gap:6px}.mt-mark--chip{width:15px;height:15px;stroke-width:3}
 .chip--saved[aria-pressed="true"] .mt-mark--chip{stroke:currentColor}
 /* own score on a list card + the place page panel (Want to go / Been here, 1–10 score, visit date) */
-.mt-own{display:inline-flex;align-items:center;gap:3px;margin-left:.45em;padding:1px 6px 1px 4px;border:1px solid var(--accent);border-radius:999px;font-family:var(--sans);font-size:11px;font-weight:600;line-height:1.3;letter-spacing:.02em;color:#111;vertical-align:.2em}
+.mt-own{display:inline-flex;align-items:center;gap:3px;margin-left:.45em;padding:1px 6px 1px 4px;border:1px solid var(--blue);border-radius:999px;font-family:var(--sans);font-size:11px;font-weight:600;line-height:1.3;letter-spacing:.02em;color:#111;vertical-align:.2em}
 .mt-own .mt-mark--s{width:12px;height:12px;stroke-width:3}
 .mt-been{border:0;background:none;padding:0;font:inherit;text-transform:inherit;letter-spacing:inherit;color:inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 .mt-panel{margin:14px 0 4px;display:flex;flex-direction:column;gap:12px}
 .mt-seg{display:inline-flex;align-self:flex-start;border:1px solid #111;border-radius:999px;padding:3px;gap:2px;background:#fff}
 .mt-seg button{border:0;background:none;border-radius:999px;height:34px;padding:0 16px;font:inherit;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#111;cursor:pointer;white-space:nowrap}
-.mt-seg button[aria-pressed="true"]{background:#111;color:#fff}
+.mt-seg button[aria-pressed="true"]{background:var(--blue);color:var(--blue-ink)}
 .mt-seg button b{font-weight:600;margin-left:4px;opacity:.7}
 .mt-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
 .mt-lab{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#555;min-width:92px}
 .mt-scale{display:flex;flex-wrap:wrap;gap:4px}
 .mt-scale button{width:30px;height:30px;padding:0;border:1px solid #bbb;border-radius:50%;background:#fff;font:inherit;font-size:13px;color:#111;cursor:pointer}
-.mt-scale button.is-fill{border-color:var(--accent);background:rgba(200,169,106,.25)}
-.mt-scale button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);font-weight:600}
+.mt-scale button.is-fill{border-color:var(--blue);background:rgba(42,100,116,.12)}
+.mt-scale button[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink);font-weight:600}
 .mt-date{height:34px;padding:0 10px;border:1px solid #bbb;border-radius:999px;font:inherit;font-size:13px;background:#fff;color:#111}
 .mt-hint{margin:0;font-size:12px;color:#777}
 .fav-note .mt-tabs{margin:0 0 10px}
@@ -834,9 +853,10 @@ a.card.bw-host{position:relative}
 .mt-panel .pill-btn.mt-invite{height:42px;padding:0 22px;font:inherit;font-size:12px;letter-spacing:.08em;color:#111;background:#fff;border-color:#111}
 @media (hover:hover){.mt-panel .pill-btn.mt-invite:hover{background:#111;color:#fff}}
 .mt-invite:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.mt-withnote{font-style:italic;font-family:var(--serif);text-transform:none;letter-spacing:0;font-size:12.5px;color:#8a6d2f}
-@media (max-width:640px){.mt-withnote{flex-basis:100%}}
-.mt-with{font-style:italic;font-family:var(--serif);font-size:14px;color:#8a6d2f}
+/* 'with Sofie, Tom': body-size sans, medium weight, petrol (readable at a glance, not a tiny italic) */
+.mt-withnote{font-family:var(--sans);font-style:normal;font-weight:500;text-transform:none;letter-spacing:.01em;font-size:var(--fs-body);line-height:1.35;color:var(--blue)}
+@media (max-width:640px){.mt-withnote{flex-basis:100%;font-size:13.5px}}
+.mt-with{font-family:var(--sans);font-style:normal;font-weight:500;font-size:15px;line-height:1.4;letter-spacing:.01em;color:var(--blue)}
 .mt-iv__hint{margin:-4px 0 2px 4px;font-size:12px;line-height:1.4;color:var(--text-2)}
 .mt-iv__acts{display:flex;gap:10px;margin-top:6px}
 .mt-iv__acts .pill-btn{flex:1;height:52px;margin:0;padding:0 16px}
@@ -856,7 +876,7 @@ a.card.bw-host{position:relative}
 .fav-note p{margin:0 0 6px}.fav-note ul{list-style:none;margin:0;padding:0}.fav-note li{margin:2px 0}
 .fav-note__h{font-weight:600;color:#111;margin-top:8px!important}
 .ev-btn--rem{cursor:pointer;font-family:inherit;background:none;color:inherit;line-height:inherit}
-.ev-btn--rem.is-on{border-color:#c8a96a;color:#8a6d2f}
+.ev-btn--rem.is-on{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
 .rem-menu{position:absolute;z-index:3000;display:flex;flex-direction:column;min-width:200px;padding:6px;background:#111;border:1px solid rgba(200,169,106,.5);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
 .rem-menu button{background:none;border:0;color:#f2f2f2;text-align:left;padding:10px 12px;border-radius:9px;font:500 13px/1.3 var(--sans);cursor:pointer}
 .rem-menu button:hover{background:rgba(255,255,255,.08)}
@@ -897,9 +917,8 @@ a.card.bw-host{position:relative}
 .info--quiet .ipage__lede{font-size:13px!important;opacity:.7;margin:0 0 14px!important}
 .info--quiet .clog-month h3{font-size:11px;margin-top:28px}
 .info--quiet .clog p{font-size:13.5px!important}
-.site-footer .foot-about{opacity:.8}
 @media (max-width:640px){.ihero--quiet .ihero__body{padding-top:20px}.ihero--quiet{padding-bottom:22px}.info--quiet .ipage{padding-top:26px}.ipage__sec{margin-top:34px;padding-top:22px}.ipage__h{font-size:18px}}
-.site-footer .foot-credit{text-transform:none;letter-spacing:.04em}
+.site-footer .foot-credit{text-transform:none;letter-spacing:.04em;flex-basis:100%}
 @media (max-width:640px){
   .ihero{padding-bottom:36px}
   .ihero__body{padding-top:40px}
