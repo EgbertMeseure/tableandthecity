@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <application
         android:allowBackup="true"
@@ -41,4 +42,10 @@
     <!-- "Near me": the web page asks for the position only when the user taps it -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Event reminders are local notifications (POST_NOTIFICATIONS, RECEIVE_BOOT_COMPLETED and WAKE_LOCK come from
+         @capacitor/local-notifications). Reminders don't need to-the-minute alarms, so the exact-alarm permission is removed;
+         the plugin then falls back to inexact alarms. -->
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" tools:node="remove" />
+    <!-- Location is only used while the app is open ("Near me"); it is never needed in the background. -->
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
 </manifest>
