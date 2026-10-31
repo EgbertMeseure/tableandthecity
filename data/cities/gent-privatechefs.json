@@ -32,7 +32,37 @@
     "credit": "Nalou Dining (naloudining.com)",
     "credit_url": "https://www.naloudining.com/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "tableware",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "service",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "business",
+     "src": "https://www.naloudining.com/"
+    }
+   ]
   },
   {
    "id": "50-fifty",
@@ -61,7 +91,29 @@
     "credit": "50 Fifty (50fiftygent.be)",
     "credit_url": "https://50fiftygent.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "tableware",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "vegetarian",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "wine",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "winetasting",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "class",
+     "src": "https://50fiftygent.be/op-locatie/"
+    }
+   ]
   },
   {
    "id": "food-at-home",
@@ -83,7 +135,41 @@
     "https://www.foodathome.be/kok-aan-huis"
    ],
    "image": null,
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.foodathome.be/"
+    },
+    {
+     "k": "service",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "diets",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "kids",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "buffet",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    }
+   ]
   },
   {
    "id": "what-the-food",
@@ -113,7 +199,21 @@
     "credit": "What The Food (whatthefood.gent)",
     "credit_url": "https://whatthefood.gent/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "vegan",
+     "src": "https://whatthefood.gent/private-catering/"
+    },
+    {
+     "k": "chefsplace",
+     "src": "https://whatthefood.gent/private-catering/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://whatthefood.gent/"
+    }
+   ]
   },
   {
    "id": "bien-cuit",
@@ -142,7 +242,53 @@
     "credit": "Bien Cuit (bien-cuit.be)",
     "credit_url": "https://www.bien-cuit.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "service",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "vegetarian",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "diets",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "bbq",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "class",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "winetasting",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    }
+   ]
   }
  ]
 }

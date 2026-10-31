@@ -30,7 +30,33 @@
     "credit": "Chef & Chief (chefandchief.be)",
     "credit_url": "https://chefandchief.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://chefandchief.be/en/private-dining"
+    },
+    {
+     "k": "shopping",
+     "src": "https://chefandchief.be/en/private-dining"
+    },
+    {
+     "k": "service",
+     "src": "https://chefandchief.be/en/private-dining"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://chefandchief.be/en/private-dining"
+    },
+    {
+     "k": "diets",
+     "src": "https://chefandchief.be/en/private-dining"
+    },
+    {
+     "k": "class",
+     "src": "https://chefandchief.be/en/private-dining"
+    }
+   ]
   },
   {
    "id": "philippe-roth",
@@ -59,7 +85,37 @@
     "credit": "Philippe Roth (philipperoth.be)",
     "credit_url": "https://philipperoth.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://philipperoth.be/en/diner-prive/"
+    },
+    {
+     "k": "shopping",
+     "src": "https://philipperoth.be/en/diner-prive/"
+    },
+    {
+     "k": "service",
+     "src": "https://philipperoth.be/en/diner-prive/"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://philipperoth.be/en/diner-prive/"
+    },
+    {
+     "k": "vegetarian",
+     "src": "https://philipperoth.be/en/diner-prive/"
+    },
+    {
+     "k": "vegan",
+     "src": "https://philipperoth.be/en/diner-prive/"
+    },
+    {
+     "k": "chefsplace",
+     "src": "https://philipperoth.be/en/diner-prive/"
+    }
+   ]
   },
   {
    "id": "da-me-o-da-te",
@@ -88,7 +144,33 @@
     "credit": "Da me o da te (dameodate.be)",
     "credit_url": "https://dameodate.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://dameodate.be/"
+    },
+    {
+     "k": "shopping",
+     "src": "https://dameodate.be/"
+    },
+    {
+     "k": "service",
+     "src": "https://dameodate.be/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://dameodate.be/"
+    },
+    {
+     "k": "class",
+     "src": "https://dameodate.be/"
+    },
+    {
+     "k": "chefsplace",
+     "src": "https://dameodate.be/"
+    }
+   ]
   },
   {
    "id": "gregory-vaulet",
@@ -117,7 +199,25 @@
     "credit": "Grégory Vaulet (gregory-vaulet.com)",
     "credit_url": "https://www.gregory-vaulet.com/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "service",
+     "src": "https://www.gregory-vaulet.com/"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.gregory-vaulet.com/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://www.gregory-vaulet.com/"
+    },
+    {
+     "k": "business",
+     "src": "https://www.gregory-vaulet.com/"
+    }
+   ]
   },
   {
    "id": "saveurs-festives",
@@ -146,7 +246,17 @@
     "credit": "Saveurs Festives (saveursfestives.be)",
     "credit_url": "https://saveursfestives.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://saveursfestives.be/services/"
+    },
+    {
+     "k": "business",
+     "src": "https://saveursfestives.be/services/"
+    }
+   ]
   }
  ]
 }

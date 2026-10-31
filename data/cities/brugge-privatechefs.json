@@ -30,7 +30,29 @@
     "credit": "Laissez-Faire (laissezfaire.be)",
     "credit_url": "https://laissezfaire.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://laissezfaire.be/kok-aan-huis/"
+    },
+    {
+     "k": "tableware",
+     "src": "https://laissezfaire.be/kok-aan-huis/"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://laissezfaire.be/kok-aan-huis/"
+    },
+    {
+     "k": "kids",
+     "src": "https://laissezfaire.be/kok-aan-huis/"
+    },
+    {
+     "k": "bbq",
+     "src": "https://laissezfaire.be/kok-aan-huis/"
+    }
+   ]
   },
   {
    "id": "chef-dufait",
@@ -60,7 +82,33 @@
     "credit": "Chef Dufait (chef-dufait.be)",
     "credit_url": "https://chef-dufait.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "shopping",
+     "src": "https://chef-dufait.be/home"
+    },
+    {
+     "k": "service",
+     "src": "https://chef-dufait.be/home"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://chef-dufait.be/home"
+    },
+    {
+     "k": "walking",
+     "src": "https://chef-dufait.be/home"
+    },
+    {
+     "k": "bbq",
+     "src": "https://chef-dufait.be/home"
+    },
+    {
+     "k": "business",
+     "src": "https://chef-dufait.be/home"
+    }
+   ]
   },
   {
    "id": "bens-kitchen",
@@ -89,7 +137,17 @@
     "credit": "Ben's Kitchen (benskitchen.be)",
     "credit_url": "https://benskitchen.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://benskitchen.be/"
+    },
+    {
+     "k": "diets",
+     "src": "https://benskitchen.be/"
+    }
+   ]
   },
   {
    "id": "patrick-de-groote",
@@ -118,7 +176,21 @@
     "credit": "Patrick De Groote (patrickdegroote.be)",
     "credit_url": "https://www.patrickdegroote.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.patrickdegroote.be/kok-aan-huis-sijsele-brugge/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://www.patrickdegroote.be/kok-aan-huis-sijsele-brugge/"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.patrickdegroote.be/kok-aan-huis-sijsele-brugge/"
+    }
+   ]
   },
   {
    "id": "chef-krist-bega",
@@ -140,7 +212,33 @@
     "https://www.privatechef.be/"
    ],
    "image": null,
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.privatechef.be/"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "service",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "wine",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "kids",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    }
+   ]
   }
  ]
 }

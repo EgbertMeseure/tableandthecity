@@ -23,7 +23,25 @@
     "https://chefonthemove.be/"
    ],
    "image": null,
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "tableware",
+     "src": "https://chefonthemove.be/"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://chefonthemove.be/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://chefonthemove.be/"
+    },
+    {
+     "k": "winelist",
+     "src": "https://chefonthemove.be/"
+    }
+   ]
   },
   {
    "id": "seoulful",
@@ -53,7 +71,8 @@
     "credit": "SEOULFUL (seoulful.be)",
     "credit_url": "https://www.seoulful.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": []
   },
   {
    "id": "dimitri-proost",
@@ -82,7 +101,21 @@
     "credit": "Dimitri Proost (dimitriproost.com)",
     "credit_url": "https://www.dimitriproost.com/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.dimitriproost.com/"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.dimitriproost.com/"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.dimitriproost.com/"
+    }
+   ]
   },
   {
    "id": "chef-krist-bega",
@@ -104,7 +137,33 @@
     "https://www.privatechef.be/private-chef-ostend"
    ],
    "image": null,
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "service",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "wine",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    },
+    {
+     "k": "kids",
+     "src": "https://www.privatechef.be/private-chef-ostend"
+    }
+   ]
   },
   {
    "id": "bien-cuit",
@@ -134,7 +193,53 @@
     "credit": "Bien Cuit (bien-cuit.be)",
     "credit_url": "https://www.bien-cuit.be/"
    },
-   "checked": "2026-10-31"
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "service",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "vegetarian",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "diets",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "bbq",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "class",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "winetasting",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    }
+   ]
   }
  ]
 }

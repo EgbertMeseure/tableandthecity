@@ -758,3 +758,24 @@ Website of {raw} | Website van {raw} | Website von {raw} | Site web de {raw} | W
 Prices, group sizes and areas as published by each chef on the date checked; always confirm with the chef. Photos come from the chefs’ own websites; no photo, then a monogram. | Prijzen, groepsgroottes en regio’s zoals elke chef ze publiceerde op de datum van controle; bevestig altijd bij de chef zelf. Foto’s komen van de eigen websites van de chefs; zonder foto tonen we een monogram. | Preise, Gruppengrößen und Gebiete, wie jeder Koch sie am Prüfdatum veröffentlicht hat; bitte immer direkt beim Koch bestätigen. Fotos stammen von den eigenen Websites der Köche; ohne Foto zeigen wir ein Monogramm. | Prix, tailles de groupe et zones tels que publiés par chaque chef à la date de vérification ; confirmez toujours auprès du chef. Les photos viennent des sites des chefs ; sans photo, un monogramme. | Precios, tamaños de grupo y zonas tal como los publicó cada chef en la fecha de comprobación; confírmalo siempre con el chef. Las fotos son de las webs de los propios chefs; sin foto, un monograma.
 Are you a private chef? | Ben je privéchef? | Bist du Private Chef? | Vous êtes chef à domicile ? | ¿Eres chef privado?
 Get listed | Kom erbij | Eintragen lassen | Être référencé | Aparece aquí
+
+## private chefs: 'What they do' tiles (only services stated on the chef's own website)
+What they do | Wat ze doen | Was sie anbieten | Ce qu’ils proposent | Qué ofrecen
+Menu made to measure | Menu op maat | Menü nach Maß | Menu sur mesure | Menú a medida
+Does the shopping | Doet de boodschappen | Kauft ein | Fait les courses | Hace la compra
+Brings tableware | Brengt servies mee | Bringt Geschirr mit | Apporte la vaisselle | Trae la vajilla
+Serves at table | Bediening aan tafel | Service am Tisch | Service à table | Servicio en la mesa
+Cleans up after | Ruimt achteraf op | Räumt danach auf | Nettoie après | Recoge al final
+Vegetarian menu | Vegetarisch menu | Vegetarisches Menü | Menu végétarien | Menú vegetariano
+Vegan menu | Veganistisch menu | Veganes Menü | Menu végan | Menú vegano
+Allergies & diets | Allergieën & diëten | Allergien & Diäten | Allergies & régimes | Alergias y dietas
+Kids’ menu | Kindermenu | Kindermenü | Menu enfant | Menú infantil
+Matching wines | Aangepaste wijnen | Passende Weine | Accords mets-vins | Maridaje de vinos
+Wine list | Wijnkaart | Weinkarte | Carte des vins | Carta de vinos
+Wine tasting | Wijndegustatie | Weinverkostung | Dégustation de vins | Cata de vinos
+Cooking class | Kookworkshop | Kochkurs | Cours de cuisine | Clase de cocina
+Walking dinner | Walking dinner | Walking Dinner | Walking dinner | Walking dinner
+Buffet | Buffet | Buffet | Buffet | Bufé
+Barbecue | Barbecue | Grillen | Barbecue | Barbacoa
+Business dinners | Zakendiners | Geschäftsessen | Dîners d’affaires | Cenas de empresa
+Dinner at the chef’s place | Diner bij de chef | Essen beim Koch | Dîner chez le chef | Cena en casa del chef

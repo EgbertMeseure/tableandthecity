@@ -1,7 +1,8 @@
 /* Table and the City – Private chefs, one quiet page per city (privatechef.html?country=&city=).
    Cities strictly separate: only this city's data/cities.json entry and its own data/cities/<city>-privatechefs.json are read.
    Record format (one file per city): { city, updated, note, chefs: [{ id, name, chef, style, description, serves, base, guests, price,
-     website, instagram, email, phone, phoneDisplay, placeId (a place of this city in the guide), sources: [url], checked, image: null | { src, w, h, alt, credit, credit_url } }] }
+     website, instagram, email, phone, phoneDisplay, placeId (a place of this city in the guide), sources: [url], checked, image: null | { src, w, h, alt, credit, credit_url },
+     does: [{ k, src }] (services stated on the chef's own website; only these tiles are shown) }] }
    Facts only from the chef's own website (empty = unknown, never shown); photos only from the chef's own website, credited, else the monogram.
    Data text (names, descriptions, areas, prices) stays in the original English ([data-i18n-skip], js/i18n.js); labels are translated. */
 (async function () {
@@ -42,6 +43,16 @@
     return a.length ? `<div class="pc__links">${a.join('')}</div>` : '';
   };
   const srcs = c => (c.sources || []).filter(url);
+  // ---- 'What they do': the restaurant page's feature tiles (.ftgrid / .ft.on), but only the services this chef's own website states — no grey 'not confirmed' tiles ----
+  const DOES = [['menu', 'Menu made to measure'], ['shopping', 'Does the shopping'], ['tableware', 'Brings tableware'], ['service', 'Serves at table'], ['cleanup', 'Cleans up after'],
+    ['vegetarian', 'Vegetarian menu'], ['vegan', 'Vegan menu'], ['diets', 'Allergies & diets'], ['kids', 'Kids’ menu'], ['wine', 'Matching wines'], ['winelist', 'Wine list'], ['winetasting', 'Wine tasting'],
+    ['class', 'Cooking class'], ['walking', 'Walking dinner'], ['buffet', 'Buffet'], ['bbq', 'Barbecue'], ['business', 'Business dinners'], ['chefsplace', 'Dinner at the chef’s place']];
+  const CHECK = '<svg class="ft__ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5"/></svg>';
+  const does = c => {
+    const m = new Map((c.does || []).filter(x => x && x.k).map(x => [x.k, x.src]));
+    const on = DOES.filter(([k]) => m.has(k));
+    return on.length ? `<div class="pc__does"><p class="pc__does-h">What they do</p><ul class="ftgrid pc__ft">${on.map(([k, l]) => `<li class="ft on" data-k="${k}" data-state="yes"${url(m.get(k)) ? ` title="${esc(host(m.get(k)))}"` : ''}>${CHECK}<span>${esc(l)}</span></li>`).join('')}</ul></div>` : '';
+  };
   $('#pcgrid').innerHTML = list.map(c => `
     <article class="pc" id="pc-${esc(c.id)}">
       ${photo(c)}
@@ -50,6 +61,7 @@
         <h3 class="pc__name" data-i18n-skip>${esc(c.name)}</h3>
         ${c.chef && c.chef !== c.name ? `<p class="pc__chef"><span>Chef</span> <span data-i18n-skip>${esc(c.chef)}</span></p>` : ''}
         ${c.description ? `<p class="pc__desc" data-i18n-skip>${esc(c.description)}</p>` : ''}
+        ${does(c)}
         <dl class="pc__facts">${fact('Serves', c.serves)}${fact('Based in', c.base)}${fact('Guests', c.guests)}${fact('Price', c.price)}${c.phone ? fact('Phone', c.phoneDisplay || c.phone) : ''}</dl>
         ${links(c)}
         <p class="pc__src">${srcs(c).length ? `<span>Source</span> <a href="${esc(srcs(c)[0])}" target="_blank" rel="noopener" data-i18n-skip>${esc(host(srcs(c)[0]))}</a>` : ''}${c.placeId ? `${srcs(c).length ? ' · ' : ''}<a href="${cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(c.placeId))}">Also in the guide</a>` : ''}</p>
