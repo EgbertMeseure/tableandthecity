@@ -743,5 +743,6 @@
 "Buffet": "Buffet",
 "Barbecue": "Barbecue",
 "Business dinners": "Dîners d’affaires",
-"Dinner at the chef’s place": "Dîner chez le chef"
+"Dinner at the chef’s place": "Dîner chez le chef",
+"{n} photos, swipe for more": "{n} photos, faites glisser pour en voir plus"
 };

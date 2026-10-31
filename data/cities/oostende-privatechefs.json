@@ -71,6 +71,44 @@
     "credit": "SEOULFUL (seoulful.be)",
     "credit_url": "https://www.seoulful.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/oostende/seoulful-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Traditional Korean soup bowls (SEOULFUL)",
+     "credit": "SEOULFUL (seoulful.be)",
+     "credit_url": "https://www.seoulful.be/menu",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/seoulful-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Seafood dishes (SEOULFUL)",
+     "credit": "SEOULFUL (seoulful.be)",
+     "credit_url": "https://www.seoulful.be/menu",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/seoulful-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Fig dessert (SEOULFUL)",
+     "credit": "SEOULFUL (seoulful.be)",
+     "credit_url": "https://www.seoulful.be/menu",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/seoulful-5.webp",
+     "w": 620,
+     "h": 465,
+     "alt": "Chef Hyerin (SEOULFUL)",
+     "credit": "SEOULFUL (seoulful.be)",
+     "credit_url": "https://www.seoulful.be/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": []
   },
@@ -101,6 +139,44 @@
     "credit": "Dimitri Proost (dimitriproost.com)",
     "credit_url": "https://www.dimitriproost.com/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/oostende/dimitri-proost-2.webp",
+     "w": 833,
+     "h": 624,
+     "alt": "A lobster dish on a green base (Dimitri Proost)",
+     "credit": "Dimitri Proost (dimitriproost.com)",
+     "credit_url": "https://www.dimitriproost.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/dimitri-proost-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated dish with yellow accents (Dimitri Proost)",
+     "credit": "Dimitri Proost (dimitriproost.com)",
+     "credit_url": "https://www.dimitriproost.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/dimitri-proost-4.webp",
+     "w": 960,
+     "h": 719,
+     "alt": "A colourful plated course (Dimitri Proost)",
+     "credit": "Dimitri Proost (dimitriproost.com)",
+     "credit_url": "https://www.dimitriproost.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/dimitri-proost-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Dimitri Proost (Dimitri Proost)",
+     "credit": "Dimitri Proost (dimitriproost.com)",
+     "credit_url": "https://www.dimitriproost.com/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -193,6 +269,35 @@
     "credit": "Bien Cuit (bien-cuit.be)",
     "credit_url": "https://www.bien-cuit.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/oostende/bien-cuit-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated starter in a white bowl (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/bien-cuit-3.webp",
+     "w": 819,
+     "h": 614,
+     "alt": "Langoustine starters being plated (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/oostende/bien-cuit-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Ham-wrapped dish with risotto (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/group-dining-private-restaurant/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {

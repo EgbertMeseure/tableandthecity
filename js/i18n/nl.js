@@ -743,5 +743,6 @@
 "Buffet": "Buffet",
 "Barbecue": "Barbecue",
 "Business dinners": "Zakendiners",
-"Dinner at the chef’s place": "Diner bij de chef"
+"Dinner at the chef’s place": "Diner bij de chef",
+"{n} photos, swipe for more": "{n} foto’s, swipe voor meer"
 };
