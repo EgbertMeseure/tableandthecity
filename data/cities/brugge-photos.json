@@ -1358,14 +1358,56 @@
      "src": "img/places/brugge/cuvee/p1-1400.webp",
      "thumb": "img/places/brugge/cuvee/p1-700.webp",
      "srcset": "img/places/brugge/cuvee/p1-700.webp 700w, img/places/brugge/cuvee/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
-     "category": "drink",
-     "alt": "Cuvee: drinks",
-     "credit": "@cuvee_natuurlijk on Instagram",
-     "credit_url": "https://www.instagram.com/cuvee_natuurlijk/",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Cuvee: the interior",
+     "credit": "cuvee.be",
+     "credit_url": "https://www.cuvee.be/home",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cuvee/p2-800.webp",
+     "thumb": "img/places/brugge/cuvee/p2-400.webp",
+     "srcset": "img/places/brugge/cuvee/p2-400.webp 400w, img/places/brugge/cuvee/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Cuvee: food",
+     "credit": "cuvee.be",
+     "credit_url": "https://www.cuvee.be/home",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cuvee/p3-800.webp",
+     "thumb": "img/places/brugge/cuvee/p3-400.webp",
+     "srcset": "img/places/brugge/cuvee/p3-400.webp 400w, img/places/brugge/cuvee/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Cuvee: food",
+     "credit": "cuvee.be",
+     "credit_url": "https://www.cuvee.be/home",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cuvee/p4-800.webp",
+     "thumb": "img/places/brugge/cuvee/p4-400.webp",
+     "srcset": "img/places/brugge/cuvee/p4-400.webp 400w, img/places/brugge/cuvee/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Cuvee: food",
+     "credit": "cuvee.be",
+     "credit_url": "https://www.cuvee.be/home",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -1892,8 +1934,22 @@
      "src": "img/places/brugge/den-heerd/p1-1400.webp",
      "thumb": "img/places/brugge/den-heerd/p1-700.webp",
      "srcset": "img/places/brugge/den-heerd/p1-700.webp 700w, img/places/brugge/den-heerd/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1080,
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Den Heerd: food",
+     "credit": "montanus.be",
+     "credit_url": "https://montanus.be/nl/p/restaurant/ontbijten-in-montanus",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/den-heerd/p2-800.webp",
+     "thumb": "img/places/brugge/den-heerd/p2-400.webp",
+     "srcset": "img/places/brugge/den-heerd/p2-400.webp 400w, img/places/brugge/den-heerd/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
      "category": "exterior",
      "alt": "Den Heerd: the outside",
      "credit": "@hotel_montanus on Instagram",
@@ -2590,14 +2646,14 @@
      "src": "img/places/brugge/la-tache/p1-1400.webp",
      "thumb": "img/places/brugge/la-tache/p1-700.webp",
      "srcset": "img/places/brugge/la-tache/p1-700.webp 700w, img/places/brugge/la-tache/p1-1400.webp 1400w",
-     "w": 900,
-     "h": 1600,
+     "w": 1400,
+     "h": 932,
      "category": "food",
      "alt": "La Tâche: food",
-     "credit": "@restaurant_la_tache on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant_la_tache/",
+     "credit": "latache.be",
+     "credit_url": "https://www.latache.be/nl/menu/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -4697,6 +4753,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-belgian-pigeon-n6818170855/p2-800.webp",
+     "thumb": "img/places/brugge/osm-belgian-pigeon-n6818170855/p2-400.webp",
+     "srcset": "img/places/brugge/osm-belgian-pigeon-n6818170855/p2-400.webp 400w, img/places/brugge/osm-belgian-pigeon-n6818170855/p2-800.webp 800w",
+     "w": 720,
+     "h": 960,
+     "category": "exterior",
+     "alt": "Belgian Pigeon: the outside",
+     "credit": "Belgian Pigeon on Facebook",
+     "credit_url": "https://www.facebook.com/belgianpigeonhouse/",
+     "license": "the place's own photo",
+     "source": "own_facebook",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -5483,6 +5553,34 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-stoepa-n6248043471/p2-800.webp",
+     "thumb": "img/places/brugge/osm-de-stoepa-n6248043471/p2-400.webp",
+     "srcset": "img/places/brugge/osm-de-stoepa-n6248043471/p2-400.webp 400w, img/places/brugge/osm-de-stoepa-n6248043471/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "De Stoepa: food",
+     "credit": "stoepa.be",
+     "credit_url": "https://www.stoepa.be/nl/p/menukaart/burgers",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-stoepa-n6248043471/p3-800.webp",
+     "thumb": "img/places/brugge/osm-de-stoepa-n6248043471/p3-400.webp",
+     "srcset": "img/places/brugge/osm-de-stoepa-n6248043471/p3-400.webp 400w, img/places/brugge/osm-de-stoepa-n6248043471/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "De Stoepa: food",
+     "credit": "stoepa.be",
+     "credit_url": "https://www.stoepa.be/nl/p/menukaart/soepen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -5622,6 +5720,48 @@
      "alt": "Den Entree Principale: the interior",
      "credit": "denentreeprincipale.com",
      "credit_url": "https://www.denentreeprincipale.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-den-entree-principale-n1203354740/p2-800.webp",
+     "thumb": "img/places/brugge/osm-den-entree-principale-n1203354740/p2-400.webp",
+     "srcset": "img/places/brugge/osm-den-entree-principale-n1203354740/p2-400.webp 400w, img/places/brugge/osm-den-entree-principale-n1203354740/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Den Entree Principale: food",
+     "credit": "denentreeprincipale.com",
+     "credit_url": "https://www.denentreeprincipale.com/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-den-entree-principale-n1203354740/p3-800.webp",
+     "thumb": "img/places/brugge/osm-den-entree-principale-n1203354740/p3-400.webp",
+     "srcset": "img/places/brugge/osm-den-entree-principale-n1203354740/p3-400.webp 400w, img/places/brugge/osm-den-entree-principale-n1203354740/p3-800.webp 800w",
+     "w": 800,
+     "h": 786,
+     "category": "food",
+     "alt": "Den Entree Principale: food",
+     "credit": "denentreeprincipale.com",
+     "credit_url": "https://www.denentreeprincipale.com/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-den-entree-principale-n1203354740/p4-800.webp",
+     "thumb": "img/places/brugge/osm-den-entree-principale-n1203354740/p4-400.webp",
+     "srcset": "img/places/brugge/osm-den-entree-principale-n1203354740/p4-400.webp 400w, img/places/brugge/osm-den-entree-principale-n1203354740/p4-800.webp 800w",
+     "w": 800,
+     "h": 741,
+     "category": "food",
+     "alt": "Den Entree Principale: food",
+     "credit": "denentreeprincipale.com",
+     "credit_url": "https://www.denentreeprincipale.com/menukaart",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -5938,12 +6078,26 @@
      "src": "img/places/brugge/osm-het-zwaantje-n1976778610/p1-1400.webp",
      "thumb": "img/places/brugge/osm-het-zwaantje-n1976778610/p1-700.webp",
      "srcset": "img/places/brugge/osm-het-zwaantje-n1976778610/p1-700.webp 700w, img/places/brugge/osm-het-zwaantje-n1976778610/p1-1400.webp 1400w",
-     "w": 1024,
-     "h": 936,
+     "w": 1200,
+     "h": 900,
+     "category": "interior",
+     "alt": "Het Zwaantje: the interior",
+     "credit": "tzwaantjebrugge.be",
+     "credit_url": "https://www.tzwaantjebrugge.be/zaalverhuur-26",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-het-zwaantje-n1976778610/p2-800.webp",
+     "thumb": "img/places/brugge/osm-het-zwaantje-n1976778610/p2-400.webp",
+     "srcset": "img/places/brugge/osm-het-zwaantje-n1976778610/p2-400.webp 400w, img/places/brugge/osm-het-zwaantje-n1976778610/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
      "category": "exterior",
      "alt": "Het Zwaantje: the outside",
      "credit": "tzwaantjebrugge.be",
-     "credit_url": "https://www.tzwaantjebrugge.be/",
+     "credit_url": "https://www.tzwaantjebrugge.be/zaalverhuur-26",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -6347,7 +6501,7 @@
      "category": "food",
      "alt": "Le petit patron: food",
      "credit": "lepetitpatron.be",
-     "credit_url": "https://www.lepetitpatron.be/index.html",
+     "credit_url": "https://www.lepetitpatron.be/over-ons",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -6742,6 +6896,20 @@
      "srcset": "img/places/brugge/osm-mozarthuys-n4383695590/p1-700.webp 700w, img/places/brugge/osm-mozarthuys-n4383695590/p1-1400.webp 1400w",
      "w": 1400,
      "h": 933,
+     "category": "food",
+     "alt": "Mozarthuys: food",
+     "credit": "mozarthuys.com",
+     "credit_url": "https://www.mozarthuys.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-mozarthuys-n4383695590/p2-800.webp",
+     "thumb": "img/places/brugge/osm-mozarthuys-n4383695590/p2-400.webp",
+     "srcset": "img/places/brugge/osm-mozarthuys-n4383695590/p2-400.webp 400w, img/places/brugge/osm-mozarthuys-n4383695590/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
      "category": "food",
      "alt": "Mozarthuys: food",
      "credit": "mozarthuys.com",
@@ -8208,12 +8376,12 @@
      "src": "img/places/brugge/osm-wegrestaurant-zeebrugge-n14307518152/p1-1400.webp",
      "thumb": "img/places/brugge/osm-wegrestaurant-zeebrugge-n14307518152/p1-700.webp",
      "srcset": "img/places/brugge/osm-wegrestaurant-zeebrugge-n14307518152/p1-700.webp 700w, img/places/brugge/osm-wegrestaurant-zeebrugge-n14307518152/p1-1400.webp 1400w",
-     "w": 601,
-     "h": 601,
+     "w": 1400,
+     "h": 746,
      "category": "food",
      "alt": "Wegrestaurant Zeebrugge: food",
      "credit": "wegrestaurantzeebrugge.be",
-     "credit_url": "https://wegrestaurantzeebrugge.be/",
+     "credit_url": "https://wegrestaurantzeebrugge.be/menukaart/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -8392,6 +8560,244 @@
    "pick": {
     "type": "photo",
     "src": "img/places/brugge/cake-boutique/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "delaneys": {
+   "photos": [
+    {
+     "src": "img/places/brugge/delaneys/p1-1400.webp",
+     "thumb": "img/places/brugge/delaneys/p1-700.webp",
+     "srcset": "img/places/brugge/delaneys/p1-700.webp 700w, img/places/brugge/delaneys/p1-1400.webp 1400w",
+     "w": 1000,
+     "h": 664,
+     "category": "interior",
+     "alt": "Delaney's Irish Pub: the interior",
+     "credit": "delaneys.be",
+     "credit_url": "https://www.delaneys.be/images/photos/large/rooms/3.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/delaneys/p2-800.webp",
+     "thumb": "img/places/brugge/delaneys/p2-400.webp",
+     "srcset": "img/places/brugge/delaneys/p2-400.webp 400w, img/places/brugge/delaneys/p2-800.webp 800w",
+     "w": 800,
+     "h": 532,
+     "category": "interior",
+     "alt": "Delaney's Irish Pub: the interior",
+     "credit": "delaneys.be",
+     "credit_url": "https://www.delaneys.be/images/photos/large/rooms/4.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/delaneys/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bourgoensch-hof-n793769591": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-bourgoensch-hof-n793769591/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-bourgoensch-hof-n793769591/p1-700.webp",
+     "srcset": "img/places/brugge/osm-bourgoensch-hof-n793769591/p1-700.webp 700w, img/places/brugge/osm-bourgoensch-hof-n793769591/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Bourgoensch Hof: the interior",
+     "credit": "hotelbh.be",
+     "credit_url": "https://hotelbh.be/?page_id=1596&lang=en",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bourgoensch-hof-n793769591/p2-800.webp",
+     "thumb": "img/places/brugge/osm-bourgoensch-hof-n793769591/p2-400.webp",
+     "srcset": "img/places/brugge/osm-bourgoensch-hof-n793769591/p2-400.webp 400w, img/places/brugge/osm-bourgoensch-hof-n793769591/p2-800.webp 800w",
+     "w": 800,
+     "h": 570,
+     "category": "exterior",
+     "alt": "Bourgoensch Hof: the outside",
+     "credit": "hotelbh.be",
+     "credit_url": "https://hotelbh.be/?page_id=1596&lang=en",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-bourgoensch-hof-n793769591/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-grilloir-n2214691930": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-grilloir-n2214691930/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-grilloir-n2214691930/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-grilloir-n2214691930/p1-700.webp 700w, img/places/brugge/osm-de-grilloir-n2214691930/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "De Grilloir: the interior",
+     "credit": "degrilloir.be",
+     "credit_url": "https://www.degrilloir.be/brugge/bar-boire",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-grilloir-n2214691930/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-in-t-nieuw-museum-n5916326275": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-in-t-nieuw-museum-n5916326275/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-in-t-nieuw-museum-n5916326275/p1-700.webp",
+     "srcset": "img/places/brugge/osm-in-t-nieuw-museum-n5916326275/p1-700.webp 700w, img/places/brugge/osm-in-t-nieuw-museum-n5916326275/p1-1400.webp 1400w",
+     "w": 640,
+     "h": 960,
+     "category": "food",
+     "alt": "In't Nieuw Museum: food",
+     "credit": "In't Nieuw Museum on Facebook",
+     "credit_url": "https://www.facebook.com/NieuwMuseum",
+     "license": "the place's own photo",
+     "source": "own_facebook",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-in-t-nieuw-museum-n5916326275/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-lightship-mayflower-n5276123545": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-lightship-mayflower-n5276123545/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-lightship-mayflower-n5276123545/p1-700.webp",
+     "srcset": "img/places/brugge/osm-lightship-mayflower-n5276123545/p1-700.webp 700w, img/places/brugge/osm-lightship-mayflower-n5276123545/p1-1400.webp 1400w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Lightship Mayflower: the interior",
+     "credit": "lichtschipmayflower.be",
+     "credit_url": "https://lichtschipmayflower.be/nieuws/33/mayflower-bar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-lightship-mayflower-n5276123545/p2-800.webp",
+     "thumb": "img/places/brugge/osm-lightship-mayflower-n5276123545/p2-400.webp",
+     "srcset": "img/places/brugge/osm-lightship-mayflower-n5276123545/p2-400.webp 400w, img/places/brugge/osm-lightship-mayflower-n5276123545/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Lightship Mayflower: food",
+     "credit": "lichtschipmayflower.be",
+     "credit_url": "https://lichtschipmayflower.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-lightship-mayflower-n5276123545/p3-800.webp",
+     "thumb": "img/places/brugge/osm-lightship-mayflower-n5276123545/p3-400.webp",
+     "srcset": "img/places/brugge/osm-lightship-mayflower-n5276123545/p3-400.webp 400w, img/places/brugge/osm-lightship-mayflower-n5276123545/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "Lightship Mayflower: the interior",
+     "credit": "lichtschipmayflower.be",
+     "credit_url": "https://lichtschipmayflower.be/nieuws/33/mayflower-bar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-lightship-mayflower-n5276123545/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-maximiliaan-van-oosterijk-n793769634": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p1-700.webp",
+     "srcset": "img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p1-700.webp 700w, img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 650,
+     "category": "exterior",
+     "alt": "Maximiliaan Van Oosterijk: the outside",
+     "credit": "maximiliaanvanoostenrijk.be",
+     "credit_url": "https://www.maximiliaanvanoostenrijk.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p2-800.webp",
+     "thumb": "img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p2-400.webp",
+     "srcset": "img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p2-400.webp 400w, img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p2-800.webp 800w",
+     "w": 800,
+     "h": 536,
+     "category": "food",
+     "alt": "Maximiliaan Van Oosterijk: food",
+     "credit": "maximiliaanvanoostenrijk.be",
+     "credit_url": "https://www.maximiliaanvanoostenrijk.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-maximiliaan-van-oosterijk-n793769634/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-tafel-en-toog-van-xaverius-n9126816917": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-tafel-en-toog-van-xaverius-n9126816917/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-tafel-en-toog-van-xaverius-n9126816917/p1-700.webp",
+     "srcset": "img/places/brugge/osm-tafel-en-toog-van-xaverius-n9126816917/p1-700.webp 700w, img/places/brugge/osm-tafel-en-toog-van-xaverius-n9126816917/p1-1400.webp 1400w",
+     "w": 720,
+     "h": 960,
+     "category": "exterior",
+     "alt": "Tafel en Toog van Xaverius: the outside",
+     "credit": "Tafel en Toog van Xaverius on Facebook",
+     "credit_url": "https://www.facebook.com/tafelentoogvanxaverius/",
+     "license": "the place's own photo",
+     "source": "own_facebook",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-tafel-en-toog-van-xaverius-n9126816917/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"

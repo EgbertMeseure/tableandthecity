@@ -7764,23 +7764,7 @@
    "category": "irish_pub",
    "notes": null,
    "origin": "research-2026-10-25",
-   "osm": "way/143819510",
-   "photos": [
-    {
-     "src": "img/places/brugge/delaneys/1-interior-1600.webp",
-     "thumb": "img/places/brugge/delaneys/1-interior-800.webp",
-     "srcset": "img/places/brugge/delaneys/1-interior-800.webp 800w, img/places/brugge/delaneys/1-interior-1600.webp 1600w",
-     "w": 1475,
-     "h": 772,
-     "category": "interior",
-     "alt": "Delaney's Irish Pub: interior",
-     "credit": "delaneys.be",
-     "credit_url": "https://www.delaneys.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "way/143819510"
   },
   {
    "id": "de-coulissen",
