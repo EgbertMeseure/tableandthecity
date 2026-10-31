@@ -591,6 +591,7 @@
 "Europe": "Europe",
 "Europe: choose a country": "Europe : choisissez un pays",
 "Choose a country": "Choisissez un pays",
+"Soon as an app on the App Store and Google Play": "Bientôt en app sur l’App Store et Google Play",
 "Drag to spin the globe · tap the gold light": "Faites tourner le globe · touchez la lumière dorée",
 "Choose your city": "Choisissez votre ville",
 "More countries are on their way.": "D’autres pays arrivent bientôt.",

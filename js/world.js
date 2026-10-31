@@ -51,6 +51,11 @@ let last = null; try { last = localStorage.getItem(LAST_KEY); } catch (e) {}
 const remember = id => { try { localStorage.setItem(LAST_KEY, id); } catch (e) {} };
 document.addEventListener('click', e => { const a = e.target.closest('a[href^="guide.html"]'); if (a) { const m = /[?&]city=([a-z-]+)/.exec(a.getAttribute('href')); if (m) remember(m[1]); } });
 
+/* "soon as an app" note (phone only, via CSS): shown on the website, never inside the native app (Capacitor) or an installed PWA */
+{ const CAP = window.Capacitor, native = !!(CAP && CAP.isNativePlatform && CAP.isNativePlatform());
+  const standalone = matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+  if (!native && !standalone) $('#wl-soon').hidden = false; }
+
 /* destinations dialog */
 const dest = $('#wl-dest'), listBtn = $('#wl-listbtn');
 function openDest(on) { dest.classList.toggle('is-open', on); listBtn.setAttribute('aria-expanded', on); if (on) dest.focus(); else listBtn.focus(); }

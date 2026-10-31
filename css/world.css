@@ -221,6 +221,21 @@ button.ws-ghost{background:none;font-family:inherit;cursor:pointer}
 .wl-credit a{text-decoration:none;border-bottom:1px solid rgba(244,239,228,.25)}
 body.is-country .wl-credit{opacity:0;pointer-events:none}
 
+/* "soon as an app" note (phone landing only; world.js unhides it on the web, never in the app or an installed PWA). Not a link: no pointer events */
+.wl-soon{display:none}
+@media (max-width:760px){
+  .wl-soon:not([hidden]){display:flex;position:fixed;z-index:12;left:var(--gutter);right:var(--gutter);top:calc(max(16px,env(safe-area-inset-top)) + 48px);margin:0;justify-content:center;align-items:center;gap:9px;pointer-events:none;user-select:none;-webkit-user-select:none;
+    font-size:11px;line-height:1.35;letter-spacing:.04em;color:rgba(244,239,228,.66);text-align:left;text-wrap:balance;text-shadow:0 1px 10px rgba(0,0,0,.9);opacity:0;animation:wl-soon-in 1.2s 1s var(--wl-ease) forwards;transition:opacity .5s var(--wl-ease),visibility .5s}
+  .wl-soon__ic{flex:none;display:inline-flex;align-items:center;gap:5px;padding-right:9px;border-right:1px solid rgba(200,169,106,.5)}
+  .wl-soon__ic svg{width:13px;height:13px;fill:rgba(244,239,228,.72)}
+  .wl-soon__ic svg+svg{width:14px;height:14px}
+  .wl-soon__ln{fill:none;stroke:rgba(244,239,228,.72);stroke-width:1.3;stroke-linecap:round}
+  .wl-soon__eye{fill:#040506}
+  body.is-europe .wl-soon,body.is-country .wl-soon,body.is-show .wl-soon{opacity:0!important;visibility:hidden;animation:none}
+  html.no-webgl .wl-soon{display:none}
+}
+@keyframes wl-soon-in{to{opacity:1}}
+
 /* phone */
 @media (max-width:760px){
   :root{--gutter:20px}

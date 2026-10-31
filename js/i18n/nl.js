@@ -591,6 +591,7 @@
 "Europe": "Europa",
 "Europe: choose a country": "Europa: kies een land",
 "Choose a country": "Kies een land",
+"Soon as an app on the App Store and Google Play": "Binnenkort als app in de App Store en Google Play",
 "Drag to spin the globe · tap the gold light": "Sleep om de wereldbol te draaien · tik op het gouden licht",
 "Choose your city": "Kies je stad",
 "More countries are on their way.": "Er komen nog meer landen aan.",
