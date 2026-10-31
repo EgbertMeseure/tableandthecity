@@ -395,6 +395,9 @@ Opening hours | Openingsuren | Öffnungszeiten | Horaires d’ouverture | Horari
 Photos | Foto’s | Fotos | Photos | Fotos
 Photos: | Foto’s: | Fotos: | Photos : | Fotos:
 Open photo | Open foto | Foto öffnen | Ouvrir la photo | Abrir foto
+Inside | Binnen | Innen | Intérieur | Interior
+Outside | Buiten | Außen | Extérieur | Exterior
+At work | Aan het werk | Bei der Arbeit | Au travail | Trabajando
 1 photo | 1 foto | 1 Foto | 1 photo | 1 foto
 {n} photos | {n} foto’s | {n} Fotos | {n} photos | {n} fotos
 All {n} | Alle {n} | Alle {n} | Toutes ({n}) | Todas ({n})
@@ -532,6 +535,21 @@ Style | Stijl | Stil | Style | Estilo
 Kind of bar | Soort bar | Art der Bar | Type de bar | Tipo de bar
 What for | Waarvoor | Wofür | Pour quoi | Para qué
 Bread or sweet | Brood of zoet | Brot oder Süßes | Pain ou sucré | Pan o dulce
+# quiz: timing question (31 Oct 2026, preview-quiz-timing); Lunch / Dinner are in the hours section above
+Lunch or dinner? | Lunch of diner? | Mittag- oder Abendessen? | Déjeuner ou dîner ? | ¿Almuerzo o cena?
+Open around 12:00–14:00 | Open rond 12:00–14:00 | Geöffnet etwa 12:00–14:00 | Ouvert vers 12 h–14 h | Abierto hacia las 12:00–14:00
+Open around 19:00–21:00 | Open rond 19:00–21:00 | Geöffnet etwa 19:00–21:00 | Ouvert vers 19 h–21 h | Abierto hacia las 19:00–21:00
+Aperitif or after dinner? | Aperitief of na het eten? | Aperitif oder nach dem Essen? | Apéro ou après le dîner ? | ¿Aperitivo o después de cenar?
+Aperitif | Aperitief | Aperitif | Apéro | Aperitivo
+Open around 17:00–19:00 | Open rond 17:00–19:00 | Geöffnet etwa 17:00–19:00 | Ouvert vers 17 h–19 h | Abierto hacia las 17:00–19:00
+After dinner | Na het eten | Nach dem Essen | Après le dîner | Después de cenar
+Open late, from 22:00 | Laat open, vanaf 22:00 | Lange geöffnet, ab 22:00 | Ouvert tard, dès 22 h | Abierto hasta tarde, desde las 22:00
+Morning or afternoon? | Voormiddag of namiddag? | Vormittag oder Nachmittag? | Matin ou après-midi ? | ¿Por la mañana o por la tarde?
+Morning | Voormiddag | Vormittag | Matin | Mañana
+Open around 08:00–11:00 | Open rond 08:00–11:00 | Geöffnet etwa 08:00–11:00 | Ouvert vers 8 h–11 h | Abierto hacia las 08:00–11:00
+Afternoon | Namiddag | Nachmittag | Après-midi | Tarde
+Open around 14:00–17:00 | Open rond 14:00–17:00 | Geöffnet etwa 14:00–17:00 | Ouvert vers 14 h–17 h | Abierto hacia las 14:00–17:00
+Timing | Tijdstip | Uhrzeit | Moment | Momento
 ## forms
 Know a table we’re missing? Tell us about it. | Ken je een tafel die we missen? Vertel het ons. | Kennst du einen Tisch, der uns fehlt? Erzähl uns davon. | Vous connaissez une table qui nous manque ? Parlez-nous-en. | ¿Conoces una mesa que nos falta? Cuéntanoslo.
 Place name | Naam van de zaak | Name des Lokals | Nom de l’adresse | Nombre del sitio
