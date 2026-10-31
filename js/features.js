@@ -6,7 +6,9 @@
    C. "Remind me" on events: in the app a local notification (Capacitor Local Notifications, no push service; set / cancel);
       on the web an .ics calendar file with a reminder alarm
    D. "Want to go with…" on a Want to go place (place page + its card in the My table view): a share link restaurant.html?…&invite=1&from=<first name>;
-      no server: the name is only in the link and remembered on the device. Opening such a link shows a small card to add the place, marked 'with <name>' */
+      no server: the name is only in the link and remembered on the device (asked once, then shown as 'Sending as <name> · Change');
+      the people you invited (and friends whose invite you accepted) are kept on the device too and offered in a multi-select list.
+      Opening such a link shows a small card to add the place, marked 'with <name>' */
 (function () {
   'use strict';
   const CAP = window.Capacitor, NATIVE = !!(CAP && CAP.isNativePlatform && CAP.isNativePlatform());
@@ -18,9 +20,9 @@
   /* a first name from a link or a field: letters, digits, space . ' - only, single spaces, at most 30 characters */
   const cleanName = v => Array.from(String(v == null ? '' : v).normalize('NFC').replace(/[^\p{L}\p{M}\p{N} .'’-]+/gu, ' ').replace(/\s+/g, ' ').trim()).slice(0, 30).join('').trim();
   /* 'Going with' accepts several names (comma separated): a clean list, no duplicates, max 12; legacy entries keep one name as a string */
-  const cleanNames = v => { const out = [];
+  const cleanNames = (v, max = 12) => { const out = [];
     (Array.isArray(v) ? v : String(v == null ? '' : v).split(/[,;\n]+/)).forEach(x => { const n = cleanName(x); if (n && !out.some(o => o.toLowerCase() === n.toLowerCase())) out.push(n); });
-    return out.slice(0, 12); };
+    return out.slice(0, max); };
   /* 'Sofie, Tom' while it stays short, else 'Sofie +2' */
   const withLabel = v => { const n = cleanNames(v); if (!n.length) return ''; let k = 1;
     while (k < n.length && n.slice(0, k + 1).join(', ').length <= 24) k++;
@@ -33,7 +35,7 @@
   const FKEY = c => 'tatc-fav:' + c, RKEY = 'tatc-reminders';
   if (PL('Preferences')) {                                            // app start: restore what localStorage lost
     const P = PL('Preferences');
-    P.keys().then(({ keys }) => Promise.all((keys || []).filter(k => /^tatc-(fav:|mytable:|reminders)/.test(k)).map(k => P.get({ key: k }).then(({ value }) => {
+    P.keys().then(({ keys }) => Promise.all((keys || []).filter(k => /^tatc-(fav:|mytable:|reminders|invite-)/.test(k)).map(k => P.get({ key: k }).then(({ value }) => {
       if (value && localStorage.getItem(k) == null) { try { localStorage.setItem(k, value); } catch (e) {} }
     })))).then(() => { document.dispatchEvent(new CustomEvent('tg:favchange')); decorate(); }).catch(() => {});
   }
@@ -191,7 +193,20 @@
   const cityName = () => { const h = document.querySelector('[data-city-name]'); return (h && h.textContent) || (pageCity()[0].toUpperCase() + pageCity().slice(1)); };
 
   /* ---------- D. "Want to go with…": a share link with the sender's first name; the friend's card on the place page ---------- */
-  const NKEY = 'tatc-invite-name';
+  const NKEY = 'tatc-invite-name', PKEY = 'tatc-invite-people';
+  const myName = () => cleanName(LS.get(NKEY, ''));
+  /* people you invited before (+ friends whose invite you accepted): newest first, max 30, on the device only (no account);
+     until the list is first saved it is seeded from the 'with' names already on My table (all cities) */
+  function people() {
+    let p = LS.get(PKEY, null);
+    if (!Array.isArray(p)) { p = [];
+      try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (!/^tatc-mytable:/.test(k)) continue;
+        Object.values(LS.get(k, {}) || {}).filter(e => e && typeof e === 'object').sort((x, y) => (y.t || 0) - (x.t || 0)).forEach(e => p.push(...cleanNames(e.w))); } } catch (e) {} }
+    const me = myName().toLowerCase();
+    return cleanNames(p, 30).filter(n => n.toLowerCase() !== me);
+  }
+  const addPeople = names => { const me = myName().toLowerCase(); LS.set(PKEY, cleanNames([...cleanNames(names), ...people()], 30).filter(n => n.toLowerCase() !== me)); };
+  const dropPerson = name => LS.set(PKEY, people().filter(n => n.toLowerCase() !== name.toLowerCase()));
   const placeName = a => { const h = a ? a.querySelector('h3') : document.getElementById('hname'); if (!h) return ''; const x = h.cloneNode(true); x.querySelectorAll('.gscore, .mt-own').forEach(n => n.remove()); return x.textContent.trim(); };
   function inviteUrl(c, id, a, from) {
     const base = new URL(a ? a.href : location.href, location.href), u = new URL('restaurant.html', base);
@@ -203,10 +218,16 @@
   let iv = null, ivFocus = null;
   function openInvite(btn, c, id, a) {
     closeInvite(true); ivFocus = btn;
-    const e = entry(c, id) || {}, me = cleanName(LS.get(NKEY, '')), place = placeName(a);
+    const e = entry(c, id) || {}, me = myName(), place = placeName(a), P = people();
     iv = document.createElement('div'); iv.className = 'crq mt-iv'; iv.dataset.i18nSkip = '';
     const acts = (phone() ? `<button class="pill-btn crq__send" type="button" data-iv="share">${esc(T('Share'))}</button>` : `<button class="pill-btn crq__send" type="button" data-iv="copy">${esc(T('Copy link'))}</button>`)
       + `<button class="pill-btn dark mt-iv__wa" type="button" data-iv="wa">WhatsApp</button>`;
+    const row = n => `<li><button type="button" class="mt-iv__pick" role="checkbox" aria-checked="false" data-ivp-name="${esc(n)}"><span class="mt-iv__box" aria-hidden="true"></span><span class="mt-iv__pn">${esc(n)}</span></button>`
+      + `<button type="button" class="mt-iv__rm" data-ivp-rm="${esc(n)}" aria-label="${esc(T('Remove {name} from this list', { name: n }))}" title="${esc(T('Remove {name} from this list', { name: n }))}">×</button></li>`;
+    const picker = P.length ? `<div class="mt-iv__pp">
+            <button type="button" class="mt-iv__ppbtn" data-ivp="toggle" aria-expanded="false" aria-controls="mt-iv-pl"><span>${esc(T('Choose from people you invited'))}</span><b>${P.length}</b></button>
+            <ul class="mt-iv__pl" id="mt-iv-pl" role="group" aria-label="${esc(T('People you invited'))}" hidden>${P.map(row).join('')}</ul>
+          </div>` : '';
     iv.innerHTML = `<div class="crq__scrim" data-iv="close"></div>
       <div class="crq__sheet mt-iv__sheet" role="dialog" aria-modal="true" aria-labelledby="mt-iv-t">
         <button class="crq__x" type="button" data-iv="close">${esc(T('Close'))}</button>
@@ -214,25 +235,45 @@
         <h2 class="crq__t" id="mt-iv-t">${esc(T('Want to go with…'))}</h2>
         <p class="crq__lead">${esc(T('Send a link so a friend can add this place to their Want to go.'))}</p>
         <form class="crq__form" novalidate>
-          <label class="crq__f"><span>${esc(T('Your first name'))} <i>${esc(T('(optional)'))}</i></span><input name="from" type="text" autocomplete="given-name" maxlength="30" value="${esc(me)}"></label>
+          <div class="mt-iv__me"${me ? '' : ' hidden'}><span>${esc(T('Sending as'))} <b data-ivme-name>${esc(me)}</b></span><button type="button" class="linkbtn" data-ivme>${esc(T('Change'))}</button></div>
+          <label class="crq__f mt-iv__from"${me ? ' hidden' : ''}><span>${esc(T('Your first name'))} <i>${esc(T('(optional)'))}</i></span><input name="from" type="text" autocomplete="given-name" maxlength="30" aria-describedby="mt-iv-mh" value="${esc(me)}"></label>
+          <p class="mt-iv__hint" id="mt-iv-mh"${me ? ' hidden' : ''}>${esc(T('Saved on this device, so you only type it once.'))}</p>
           <label class="crq__f"><span>${esc(T('Going with'))} <i>${esc(T('(optional)'))}</i></span><input name="with" type="text" autocomplete="off" maxlength="300" placeholder="Sofie, Tom" aria-describedby="mt-iv-wh" value="${esc(cleanNames(e.w).join(', '))}"></label>
+          ${picker}
           <p class="mt-iv__hint" id="mt-iv-wh">${esc(T('Several names? Separate them with a comma. The one link works for all of them.'))}</p>
           <div class="mt-iv__acts">${acts}</div>
           <input class="mt-iv__link" type="text" readonly hidden aria-label="${esc(T('Select and copy this link.'))}">
-          <p class="crq__note">${esc(T('Your name is only put in the link and remembered on this device.'))}</p>
+          <p class="crq__note">${esc(T('Only your name goes in the link. Names are kept on this device, never sent to us.'))}</p>
         </form>
       </div>`;
     document.body.appendChild(iv); document.documentElement.classList.add('crq-lock');
-    const f = iv.querySelector('form');
-    const go = () => {                                                  // remember the name, mark the own entry, build the link + the message
+    const f = iv.querySelector('form'), list = iv.querySelector('.mt-iv__pl'), tgl = iv.querySelector('[data-ivp="toggle"]');
+    const sync = () => { const w = cleanNames(f.elements.with.value, 30).map(n => n.toLowerCase());   // the ticks follow the text field (the one source of truth)
+      iv.querySelectorAll('[data-ivp-name]').forEach(b => b.setAttribute('aria-checked', String(w.includes(b.dataset.ivpName.toLowerCase())))); };
+    const openList = on => { if (!list) return; list.hidden = !on; tgl.setAttribute('aria-expanded', String(on)); };
+    sync(); f.elements.with.addEventListener('input', sync);
+    const go = () => {                                                  // remember the name + the invitees, mark the own entry, build the link + the message
       const from = cleanName(f.elements.from.value), w = cleanNames(f.elements.with.value);
       f.elements.from.value = from; f.elements.with.value = w.join(', '); LS.set(NKEY, from);
+      if (w.length) addPeople(w);
       if (isFav(c, id)) setEntry(c, id, { w });
       const url = inviteUrl(c, id, a, from);
       return { url, text: place ? T('Want to go to {place} with me?', { place }) : T('Want to go here with me?') };
     };
     iv.addEventListener('click', async ev => {
-      const x = ev.target.closest('[data-iv]'); if (!x) return; ev.preventDefault();
+      const t = ev.target;
+      if (t.closest('[data-ivme]')) { ev.preventDefault(); iv.querySelector('.mt-iv__me').hidden = true; iv.querySelector('.mt-iv__from').hidden = false; iv.querySelector('#mt-iv-mh').hidden = false; f.elements.from.focus(); f.elements.from.select(); return; }
+      if (t.closest('[data-ivp="toggle"]')) { ev.preventDefault(); openList(list.hidden); return; }
+      const pk = t.closest('[data-ivp-name]');
+      if (pk) { ev.preventDefault(); const n = pk.dataset.ivpName, cur = cleanNames(f.elements.with.value), on = cur.some(x => x.toLowerCase() === n.toLowerCase());
+        f.elements.with.value = (on ? cur.filter(x => x.toLowerCase() !== n.toLowerCase()) : [...cur, n]).join(', '); sync(); return; }
+      const rm = t.closest('[data-ivp-rm]');
+      if (rm) { ev.preventDefault(); const n = rm.dataset.ivpRm, li = rm.closest('li'), nx = li.nextElementSibling || li.previousElementSibling;
+        dropPerson(n); li.remove(); toast(T('{name} removed from your list', { name: n }));
+        const left = list.children.length; if (left) { tgl.querySelector('b').textContent = left; (nx.querySelector('.mt-iv__rm') || tgl).focus(); }
+        else { iv.querySelector('.mt-iv__pp').remove(); f.elements.with.focus(); }
+        return; }
+      const x = t.closest('[data-iv]'); if (!x) return; ev.preventDefault();
       const k = x.dataset.iv; if (k === 'close') return closeInvite();
       const { url, text } = go();
       if (k === 'wa') { window.open('https://wa.me/?text=' + encodeURIComponent(text + ' ' + url), '_blank', 'noopener'); return closeInvite(); }
@@ -242,12 +283,12 @@
     });
     f.addEventListener('submit', ev => ev.preventDefault());
     iv.addEventListener('keydown', ev => {
-      if (ev.key === 'Escape') { ev.preventDefault(); closeInvite(); }
+      if (ev.key === 'Escape') { ev.preventDefault(); if (list && !list.hidden) { openList(false); tgl.focus(); } else closeInvite(); }
       if (ev.key === 'Tab') { const fs = [...iv.querySelectorAll('input, button')].filter(x => x.offsetParent); const i = fs.indexOf(document.activeElement);
         if (ev.shiftKey && i <= 0) { ev.preventDefault(); fs[fs.length - 1].focus(); } else if (!ev.shiftKey && i === fs.length - 1) { ev.preventDefault(); fs[0].focus(); } }
     });
     function showLink(url) { const l = iv.querySelector('.mt-iv__link'); l.hidden = false; l.value = url; l.focus(); l.select(); toast(T('Select and copy this link.')); }
-    requestAnimationFrame(() => { iv.classList.add('is-open'); f.elements.from.focus({ preventScroll: true }); });
+    requestAnimationFrame(() => { iv.classList.add('is-open'); (me ? f.elements.with : f.elements.from).focus({ preventScroll: true }); });
   }
   function closeInvite(now) {
     if (!iv) return; const el = iv; iv = null; el.classList.remove('is-open'); document.documentElement.classList.remove('crq-lock');
@@ -273,6 +314,7 @@
       if (b.dataset.ivc === 'yes') {
         const had = isFav(c, id);
         setEntry(c, id, { s: 'want', ...(had ? {} : { t: Date.now() }), ...(from ? { w: [...cleanNames(had ? entry(c, id).w : []), from] } : {}) });   // added to anyone already noted
+        if (from) addPeople([from]);                                    // a friend whose invite you accept joins your list of people
         if (!had) { const img = document.querySelector('.dhero img, #hero img'); keepOffline([location.href, img && img.currentSrc].filter(Boolean)); }
         toast(from ? T('Added to Want to go, with {name}', { name: from }) : T('Added to Want to go'));
       }

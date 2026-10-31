@@ -875,6 +875,27 @@ a.card.bw-host{position:relative}
 @media (hover:hover){.pill-btn.dark.mt-iv__wa:hover{background:var(--ink);color:#fff}}
 .mt-iv__link{width:100%;height:44px;padding:0 18px;border:1px solid var(--line-d);border-radius:var(--pill);font:400 13px var(--sans,inherit);color:var(--ink);background:#f6f4ef}
 .mt-iv__link[hidden]{display:none}
+/* own name remembered ('Sending as Egbert · Change') + the multi-select list of people you invited before */
+.mt-iv [hidden]{display:none!important}
+.mt-iv__me{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:50px;padding:0 22px;border:1px solid var(--line-d);border-radius:var(--pill);font-size:15px;color:var(--text-2)}
+.mt-iv__me b{font-weight:600;color:var(--ink)}
+.mt-iv__me .linkbtn{padding:8px 0}
+.mt-iv__pp{display:flex;flex-direction:column;gap:6px;margin-top:-4px}
+.mt-iv__ppbtn{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;height:46px;padding:0 18px 0 22px;border:1px solid var(--line-d);border-radius:var(--pill);background:#fff;color:var(--ink);font:500 14px var(--sans,inherit);text-align:left;cursor:pointer}
+.mt-iv__ppbtn b{min-width:24px;height:24px;padding:0 7px;border-radius:12px;background:#f2efe8;font-size:12px;font-weight:600;line-height:24px;text-align:center}
+.mt-iv__ppbtn[aria-expanded="true"]{border-color:var(--blue);box-shadow:0 0 0 1px var(--blue)}
+@media (hover:hover){.mt-iv__ppbtn:hover{border-color:var(--ink)}}
+.mt-iv__ppbtn:focus-visible,.mt-iv__pick:focus-visible,.mt-iv__rm:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mt-iv__pl{list-style:none;margin:0;padding:6px;border:1px solid var(--line-d);border-radius:18px;max-height:228px;overflow:auto;background:#fff}
+.mt-iv__pl li{display:flex;align-items:center;gap:4px}
+.mt-iv__pick{flex:1;min-width:0;display:flex;align-items:center;gap:12px;min-height:42px;padding:0 12px;border:0;border-radius:12px;background:none;color:var(--ink);font:400 15px var(--sans,inherit);text-align:left;cursor:pointer}
+.mt-iv__pn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mt-iv__box{flex:none;position:relative;width:18px;height:18px;border:1.5px solid #9a9a9a;border-radius:5px;background:#fff}
+.mt-iv__pick[aria-checked="true"]{color:var(--blue);font-weight:600}
+.mt-iv__pick[aria-checked="true"] .mt-iv__box{background:var(--blue);border-color:var(--blue)}
+.mt-iv__pick[aria-checked="true"] .mt-iv__box::after{content:"";position:absolute;left:5px;top:1.5px;width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.mt-iv__rm{flex:none;width:36px;height:36px;border:0;border-radius:50%;background:none;color:var(--text-2);font:400 20px/1 var(--sans,inherit);cursor:pointer}
+@media (hover:hover){.mt-iv__pick:hover{background:#f6f4ef}.mt-iv__rm:hover{background:#f2efe8;color:var(--ink)}}
 .mt-card{position:fixed;z-index:3050;right:24px;bottom:24px;width:min(360px,calc(100vw - 32px));padding:18px 20px 16px;background:#fff;color:var(--ink);border:1px solid rgba(200,169,106,.6);border-radius:20px;box-shadow:0 14px 40px rgba(0,0,0,.18);opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s}
 .mt-card.is-in{opacity:1;transform:none}
 .mt-card__t{margin:0 0 12px;font-family:var(--serif);font-size:19px;line-height:1.3}
