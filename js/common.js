@@ -6,9 +6,11 @@ const TG = (() => {
   const TODAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Brussels', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   const U = 'unknown';
   const TYPE_KEY = { 'fine dining': 'finedining', 'gastro-bistro': 'bistro', 'bistro': 'nieuw', 'brasserie': 'casual', 'casual': 'interior' };
-  const TYPE_IMG = Object.fromEntries(Object.entries(TYPE_KEY).map(([k, v]) => [k, `img/${v}.jpg`]));
+  /* photos load from the media host (js/media.js: TG_MEDIA.url / .srcset; data keeps repo-relative img/… paths) */
+  const M = window.TG_MEDIA || { url: u => u, srcset: s => s };
+  const TYPE_IMG = Object.fromEntries(Object.entries(TYPE_KEY).map(([k, v]) => [k, M.url(`img/${v}.jpg`)]));
   /* responsive <img> attributes for a site image key (img/<key>-{800,1600,2400}.webp, jpg fallback) */
-  const imgAttrs = (key, sizes = '100vw') => `src="img/${key}.jpg" srcset="img/${key}-800.webp 800w, img/${key}-1600.webp 1600w, img/${key}-2400.webp 2400w" sizes="${sizes}"`;
+  const imgAttrs = (key, sizes = '100vw') => `src="${M.url(`img/${key}.jpg`)}" srcset="${M.srcset(`img/${key}-800.webp 800w, img/${key}-1600.webp 1600w, img/${key}-2400.webp 2400w`)}" sizes="${sizes}"`;
   /* real, licensed photos of a restaurant only (Commons / own / Google Places when a key is configured) — never stock, never Instagram */
   /* cache-busting: data fetches carry the page's build stamp (<meta name="build">, set by scripts/stamp_assets.py) */
   const BUILD = (document.querySelector('meta[name="build"]') || {}).content || '';
@@ -54,7 +56,7 @@ const TG = (() => {
     const pk = pickOf(r);
     if (pk.post && !(forCard && !igCardsOn())) return igPostCard(r, pk.post);
     const p = pk.photo || bestPhoto(realPhotos(r));
-    if (p) return { kind: 'img', src: p.thumb || p.src, srcset: p.srcset, hotlink: !!p.hotlink, credit: `Photo: ${p.credit || ''}` };
+    if (p) return { kind: 'img', src: M.url(p.thumb || p.src), srcset: M.srcset(p.srcset), hotlink: !!p.hotlink, credit: `Photo: ${p.credit || ''}` };
     if (r.heroImage && r.heroImage.url) return { kind: 'img', src: r.heroImage.url, hotlink: true, credit: `Photo: ${hostOf(r.heroImage.source)}` };
     if (forCard && !igCardsOn()) return null;
     const posts = igPostsOf(r);
@@ -652,10 +654,10 @@ const TG = (() => {
     (e.tickets ? `<a class="ev-btn ev-btn--tix" href="${_evEsc(e.tickets)}" target="_blank" rel="noopener">Get tickets</a>` : ''); })();
   // optional picture in the box (e.image: { src, w, h, alt, credit, credit_url }) — a calm landscape image saved under img/events/; no image = box unchanged
   const evImg = e => { const m = e.image; if (!m || !m.src) return '';
-    return `<figure class="ev__img"><img src="${_evEsc(m.src)}" width="${+m.w || 960}" height="${+m.h || 540}" loading="lazy" decoding="async" alt="${_evEsc(m.alt || '')}">${m.credit ? `<figcaption class="ev__credit">Photo: ${m.credit_url ? `<a href="${_evEsc(m.credit_url)}" target="_blank" rel="noopener">${_evEsc(m.credit)}</a>` : _evEsc(m.credit)}</figcaption>` : ''}</figure>`; };
+    return `<figure class="ev__img"><img src="${_evEsc(M.url(m.src))}" width="${+m.w || 960}" height="${+m.h || 540}" loading="lazy" decoding="async" alt="${_evEsc(m.alt || '')}">${m.credit ? `<figcaption class="ev__credit">Photo: ${m.credit_url ? `<a href="${_evEsc(m.credit_url)}" target="_blank" rel="noopener">${_evEsc(m.credit)}</a>` : _evEsc(m.credit)}</figcaption>` : ''}</figure>`; };
   // the whole box opens the event page (links / buttons inside keep their own target)
   document.addEventListener('click', ev => { const b = ev.target.closest('[data-ev-href]'); if (!b || ev.target.closest('a, button') || (getSelection && String(getSelection()))) return;
     window.open(b.dataset.evHref, '_blank', 'noopener'); });
-  return { EVREG, CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { M, EVREG, CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav, bust };
 })();
