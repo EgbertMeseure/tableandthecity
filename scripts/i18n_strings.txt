@@ -25,6 +25,7 @@ Part of the … and the City family | Deel van de … and the City-familie | Tei
 Home | Home | Start | Accueil | Inicio
 Table and the City – home | Table and the City – home | Table and the City – Startseite | Table and the City – accueil | Table and the City – inicio
 Request your city | Vraag je stad aan | Deine Stadt anfragen | Demandez votre ville | Pide tu ciudad
+Request a city | Vraag een stad aan | Stadt anfragen | Demander une ville | Pide una ciudad
 soon | binnenkort | bald | bientôt | pronto
 coming soon | binnenkort | demnächst | bientôt | muy pronto
 {x} · coming soon | {x} · binnenkort | {x} · demnächst | {x} · bientôt | {x} · muy pronto
@@ -50,6 +51,8 @@ Bruges | Brugge | Brügge | Bruges | Brujas
 Ostend | Oostende | Ostende | Ostende | Ostende
 Brussels | Brussel | Brüssel | Bruxelles | Bruselas
 The Hague | Den Haag | Den Haag | La Haye | La Haya
+Leuven | Leuven | Leuven | Louvain | Lovaina
+Charleroi | Charleroi | Charleroi | Charleroi | Charleroi
 ## hero
 Taste the city | Proef de stad | Schmeck die Stadt | Goûtez la ville | Saborea la ciudad
 at its finest tables | aan haar beste tafels | an ihren besten Tischen | à ses plus belles tables | en sus mejores mesas
@@ -557,6 +560,8 @@ Afternoon | Namiddag | Nachmittag | Après-midi | Tarde
 Open around 14:00–17:00 | Open rond 14:00–17:00 | Geöffnet etwa 14:00–17:00 | Ouvert vers 14 h–17 h | Abierto hacia las 14:00–17:00
 Timing | Tijdstip | Uhrzeit | Moment | Momento
 ## forms
+Tell us where you’d like us to go next. | Vertel ons waar we hierna naartoe moeten. | Sag uns, wohin wir als Nächstes gehen sollen. | Dites-nous où vous aimeriez que nous allions ensuite. | Dinos adónde te gustaría que fuéramos después.
+So we can tell you when it’s live | Zodat we je kunnen laten weten wanneer de gids live staat | Damit wir dir Bescheid sagen können, sobald der Guide online ist | Pour vous prévenir dès que le guide est en ligne | Para avisarte cuando la guía esté lista
 Know a table we’re missing? Tell us about it. | Ken je een tafel die we missen? Vertel het ons. | Kennst du einen Tisch, der uns fehlt? Erzähl uns davon. | Vous connaissez une table qui nous manque ? Parlez-nous-en. | ¿Conoces una mesa que nos falta? Cuéntanoslo.
 Place name | Naam van de zaak | Name des Lokals | Nom de l’adresse | Nombre del sitio
 City | Stad | Stadt | Ville | Ciudad
