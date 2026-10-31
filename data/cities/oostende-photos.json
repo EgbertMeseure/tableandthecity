@@ -3363,6 +3363,134 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "frenchette": {
+   "photos": [
+    {
+     "src": "img/places/oostende/frenchette/p1-1400.webp",
+     "thumb": "img/places/oostende/frenchette/p1-700.webp",
+     "srcset": "img/places/oostende/frenchette/p1-700.webp 700w, img/places/oostende/frenchette/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Frenchette: the interior",
+     "credit": "frenchette.be",
+     "credit_url": "https://frenchette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/frenchette/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-eetkaffee-poseidon-n14054074401": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p1-700.webp",
+     "srcset": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p1-700.webp 700w, img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 840,
+     "category": "interior",
+     "alt": "Eetkaffee Poseidon: the interior",
+     "credit": "poseidonoostende.be",
+     "credit_url": "https://www.poseidonoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p2-800.webp",
+     "thumb": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p2-400.webp",
+     "srcset": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p2-400.webp 400w, img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Eetkaffee Poseidon: food",
+     "credit": "poseidonoostende.be",
+     "credit_url": "https://www.poseidonoostende.be/fotoboek",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p3-800.webp",
+     "thumb": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p3-400.webp",
+     "srcset": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p3-400.webp 400w, img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p3-800.webp 800w",
+     "w": 800,
+     "h": 519,
+     "category": "food",
+     "alt": "Eetkaffee Poseidon: food",
+     "credit": "poseidonoostende.be",
+     "credit_url": "https://www.poseidonoostende.be/fotoboek",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p4-800.webp",
+     "thumb": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p4-400.webp",
+     "srcset": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p4-400.webp 400w, img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p4-800.webp 800w",
+     "w": 800,
+     "h": 525,
+     "category": "interior",
+     "alt": "Eetkaffee Poseidon: the interior",
+     "credit": "poseidonoostende.be",
+     "credit_url": "https://www.poseidonoostende.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p5-800.webp",
+     "thumb": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p5-400.webp",
+     "srcset": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p5-400.webp 400w, img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p5-800.webp 800w",
+     "w": 800,
+     "h": 582,
+     "category": "interior",
+     "alt": "Eetkaffee Poseidon: the interior",
+     "credit": "poseidonoostende.be",
+     "credit_url": "https://www.poseidonoostende.be/fotoboek",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-eetkaffee-poseidon-n14054074401/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-sushi-oostende-n3326022093": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-sushi-oostende-n3326022093/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-sushi-oostende-n3326022093/p1-700.webp",
+     "srcset": "img/places/oostende/osm-sushi-oostende-n3326022093/p1-700.webp 700w, img/places/oostende/osm-sushi-oostende-n3326022093/p1-1400.webp 1400w",
+     "w": 1000,
+     "h": 667,
+     "category": "food",
+     "alt": "Sushi Oostende: food",
+     "credit": "sushioostende.be",
+     "credit_url": "https://www.sushioostende.be/menu.html",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-sushi-oostende-n3326022093/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
