@@ -1771,7 +1771,28 @@
    "layout": "mix"
   },
   "den-bengel": {
-   "hold": "no people-free photo found (research): no website or Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/den-bengel/p1-1400.webp",
+     "thumb": "img/places/antwerpen/den-bengel/p1-700.webp",
+     "srcset": "img/places/antwerpen/den-bengel/p1-700.webp 700w, img/places/antwerpen/den-bengel/p1-1400.webp 1400w",
+     "w": 1317,
+     "h": 1317,
+     "category": "interior",
+     "alt": "Den Bengel: the interior",
+     "credit": "bengeltje.be",
+     "credit_url": "https://www.bengeltje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/den-bengel/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "den-bourgondier": {
    "hold": "no people-free photo found (research): website only has a parchment background texture; no Instagram on record"
@@ -6731,7 +6752,70 @@
    "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-costa-n8419353425": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none (a 'da Costa' site exists but could not be verified as this place)"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-costa-n8419353425/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-costa-n8419353425/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-costa-n8419353425/p1-700.webp 700w, img/places/antwerpen/osm-costa-n8419353425/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Costa: the interior",
+     "credit": "restaurantdacosta.be",
+     "credit_url": "https://www.restaurantdacosta.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-costa-n8419353425/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-costa-n8419353425/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-costa-n8419353425/p2-400.webp 400w, img/places/antwerpen/osm-costa-n8419353425/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Costa: food",
+     "credit": "restaurantdacosta.be",
+     "credit_url": "https://www.restaurantdacosta.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-costa-n8419353425/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-costa-n8419353425/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-costa-n8419353425/p3-400.webp 400w, img/places/antwerpen/osm-costa-n8419353425/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Costa: food",
+     "credit": "restaurantdacosta.be",
+     "credit_url": "https://www.restaurantdacosta.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-costa-n8419353425/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-costa-n8419353425/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-costa-n8419353425/p4-400.webp 400w, img/places/antwerpen/osm-costa-n8419353425/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "drink",
+     "alt": "Costa: drinks",
+     "credit": "restaurantdacosta.be",
+     "credit_url": "https://www.restaurantdacosta.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-costa-n8419353425/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-cross-roast-experience-store-n13448614176": {
    "photos": [
@@ -7192,7 +7276,70 @@
    "hold": "no people-free photo found (research): website: single shop-shelf image with unclear blurred shape at edge"
   },
   "osm-de-chinese-muur-n4548929990": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p1-700.webp 700w, img/places/antwerpen/osm-de-chinese-muur-n4548929990/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "De Chinese Muur: the interior",
+     "credit": "chinesemuur.net",
+     "credit_url": "https://www.chinesemuur.net/fotos/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p2-400.webp 400w, img/places/antwerpen/osm-de-chinese-muur-n4548929990/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "De Chinese Muur: food",
+     "credit": "chinesemuur.net",
+     "credit_url": "https://www.chinesemuur.net/afhaalmenus/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p3-400.webp 400w, img/places/antwerpen/osm-de-chinese-muur-n4548929990/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "De Chinese Muur: the interior",
+     "credit": "chinesemuur.net",
+     "credit_url": "https://www.chinesemuur.net/fotos/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p4-400.webp 400w, img/places/antwerpen/osm-de-chinese-muur-n4548929990/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "De Chinese Muur: the interior",
+     "credit": "chinesemuur.net",
+     "credit_url": "https://www.chinesemuur.net/fotos/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-de-chinese-muur-n4548929990/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-de-foyer-n6315472185": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
@@ -9562,7 +9709,56 @@
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-helios-n7373307283": {
-   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (Berchem coffee shop vs. a Greek restaurant), nothing verifiable"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-helios-n7373307283/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-helios-n7373307283/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-helios-n7373307283/p1-700.webp 700w, img/places/antwerpen/osm-helios-n7373307283/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Helios: the interior",
+     "credit": "heliosberchem.be",
+     "credit_url": "https://heliosberchem.be/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-helios-n7373307283/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-helios-n7373307283/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-helios-n7373307283/p2-400.webp 400w, img/places/antwerpen/osm-helios-n7373307283/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Helios: food",
+     "credit": "heliosberchem.be",
+     "credit_url": "https://heliosberchem.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-helios-n7373307283/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-helios-n7373307283/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-helios-n7373307283/p3-400.webp 400w, img/places/antwerpen/osm-helios-n7373307283/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "Helios: the outside",
+     "credit": "heliosberchem.be",
+     "credit_url": "https://heliosberchem.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-helios-n7373307283/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-het-gerecht-n7325060285": {
    "photos": [
@@ -9957,7 +10153,28 @@
    "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-il-carro-n13803905201": {
-   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-il-carro-n13803905201/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-il-carro-n13803905201/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-il-carro-n13803905201/p1-700.webp 700w, img/places/antwerpen/osm-il-carro-n13803905201/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 622,
+     "category": "food",
+     "alt": "Il Carro: food",
+     "credit": "ilcarro.be",
+     "credit_url": "https://ilcarro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-il-carro-n13803905201/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-il-gusto-n2531732461": {
    "hold": "no people-free photo found (research): no source in data; quick search found none"
@@ -10348,7 +10565,28 @@
    "layout": "mix"
   },
   "osm-jerry-s-n7403232905": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-jerry-s-n7403232905/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-jerry-s-n7403232905/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-jerry-s-n7403232905/p1-700.webp 700w, img/places/antwerpen/osm-jerry-s-n7403232905/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 900,
+     "category": "food",
+     "alt": "Jerry's: food",
+     "credit": "jerrysfinefoods.be",
+     "credit_url": "https://jerrysfinefoods.be/portfolio/about-jerrys-fine-foods/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-jerry-s-n7403232905/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-k-bap-korean-cuisine-n6003358724": {
    "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
@@ -10977,7 +11215,42 @@
    "layout": "mix"
   },
   "osm-le-dix-n6578720533": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-le-dix-n6578720533/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-le-dix-n6578720533/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-le-dix-n6578720533/p1-700.webp 700w, img/places/antwerpen/osm-le-dix-n6578720533/p1-1400.webp 1400w",
+     "w": 618,
+     "h": 463,
+     "category": "exterior",
+     "alt": "Le Dix: the outside",
+     "credit": "le-dix.be",
+     "credit_url": "https://www.le-dix.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-le-dix-n6578720533/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-le-dix-n6578720533/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-le-dix-n6578720533/p2-400.webp 400w, img/places/antwerpen/osm-le-dix-n6578720533/p2-800.webp 800w",
+     "w": 600,
+     "h": 450,
+     "category": "food",
+     "alt": "Le Dix: food",
+     "credit": "le-dix.be",
+     "credit_url": "https://www.le-dix.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-le-dix-n6578720533/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-le-john-n5980843880": {
    "photos": [
@@ -11661,7 +11934,28 @@
    "hold": "no people-free photo found (research): no usable photos: only image includes wall artwork that may depict a figure"
   },
   "osm-marcel-n4769796429": {
-   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-marcel-n4769796429/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-marcel-n4769796429/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-marcel-n4769796429/p1-700.webp 700w, img/places/antwerpen/osm-marcel-n4769796429/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Marcel: the interior",
+     "credit": "restaurantmarcel.be",
+     "credit_url": "https://www.restaurantmarcel.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-marcel-n4769796429/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-marche-couverts-n9503615273": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
@@ -12944,7 +13238,70 @@
    "layout": "mix"
   },
   "osm-nova-n1810844335": {
-   "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (generic name; Nova Pinseria is a recent opening, not matched to this entry)"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-nova-n1810844335/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-nova-n1810844335/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-nova-n1810844335/p1-700.webp 700w, img/places/antwerpen/osm-nova-n1810844335/p1-1400.webp 1400w",
+     "w": 820,
+     "h": 1024,
+     "category": "food",
+     "alt": "nova: food",
+     "credit": "novapinseria.be",
+     "credit_url": "https://novapinseria.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-nova-n1810844335/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-nova-n1810844335/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-nova-n1810844335/p2-400.webp 400w, img/places/antwerpen/osm-nova-n1810844335/p2-800.webp 800w",
+     "w": 760,
+     "h": 1032,
+     "category": "food",
+     "alt": "nova: food",
+     "credit": "novapinseria.be",
+     "credit_url": "https://novapinseria.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-nova-n1810844335/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-nova-n1810844335/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-nova-n1810844335/p3-400.webp 400w, img/places/antwerpen/osm-nova-n1810844335/p3-800.webp 800w",
+     "w": 760,
+     "h": 1000,
+     "category": "food",
+     "alt": "nova: food",
+     "credit": "novapinseria.be",
+     "credit_url": "https://novapinseria.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-nova-n1810844335/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-nova-n1810844335/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-nova-n1810844335/p4-400.webp 400w, img/places/antwerpen/osm-nova-n1810844335/p4-800.webp 800w",
+     "w": 760,
+     "h": 1032,
+     "category": "drink",
+     "alt": "nova: drinks",
+     "credit": "novapinseria.be",
+     "credit_url": "https://novapinseria.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-nova-n1810844335/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-nuoc-nam-n10139550226": {
    "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
@@ -13145,7 +13502,70 @@
    "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-overzee-n5713136704": {
-   "hold": "no people-free photo found (research): own website from data (found by web search): website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-overzee-n5713136704/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-overzee-n5713136704/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-overzee-n5713136704/p1-700.webp 700w, img/places/antwerpen/osm-overzee-n5713136704/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Overzee: food",
+     "credit": "restaurantoverzee.be",
+     "credit_url": "http://www.restaurantoverzee.be/#eat-together",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-overzee-n5713136704/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-overzee-n5713136704/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-overzee-n5713136704/p2-400.webp 400w, img/places/antwerpen/osm-overzee-n5713136704/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Overzee: food",
+     "credit": "restaurantoverzee.be",
+     "credit_url": "http://www.restaurantoverzee.be/#eat-together",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-overzee-n5713136704/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-overzee-n5713136704/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-overzee-n5713136704/p3-400.webp 400w, img/places/antwerpen/osm-overzee-n5713136704/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Overzee: food",
+     "credit": "restaurantoverzee.be",
+     "credit_url": "http://www.restaurantoverzee.be/#eat-together",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-overzee-n5713136704/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-overzee-n5713136704/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-overzee-n5713136704/p4-400.webp 400w, img/places/antwerpen/osm-overzee-n5713136704/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Overzee: food",
+     "credit": "restaurantoverzee.be",
+     "credit_url": "http://www.restaurantoverzee.be/#eat-together",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-overzee-n5713136704/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-pa-co-n6250404264": {
    "hold": "no people-free photo found (research): no source in data; quick search: ambiguous (no match for 'pa co'; Paco Rodizio not verifiable as this entry)"
@@ -14863,7 +15283,84 @@
    "hold": "no people-free photo found (research): own website from data, Instagram embed gave no images: website has no usable large images (only logos/small images)"
   },
   "osm-spritz-n4266000491": {
-   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-spritz-n4266000491/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-spritz-n4266000491/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-spritz-n4266000491/p1-700.webp 700w, img/places/antwerpen/osm-spritz-n4266000491/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2482,
+     "category": "interior",
+     "alt": "Spritz: the interior",
+     "credit": "spritz-antwerp.com",
+     "credit_url": "https://www.spritz-antwerp.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-spritz-n4266000491/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-spritz-n4266000491/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-spritz-n4266000491/p2-400.webp 400w, img/places/antwerpen/osm-spritz-n4266000491/p2-800.webp 800w",
+     "w": 800,
+     "h": 1418,
+     "category": "food",
+     "alt": "Spritz: food",
+     "credit": "spritz-antwerp.com",
+     "credit_url": "https://www.spritz-antwerp.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-spritz-n4266000491/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-spritz-n4266000491/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-spritz-n4266000491/p3-400.webp 400w, img/places/antwerpen/osm-spritz-n4266000491/p3-800.webp 800w",
+     "w": 800,
+     "h": 1198,
+     "category": "food",
+     "alt": "Spritz: food",
+     "credit": "spritz-antwerp.com",
+     "credit_url": "https://www.spritz-antwerp.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-spritz-n4266000491/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-spritz-n4266000491/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-spritz-n4266000491/p4-400.webp 400w, img/places/antwerpen/osm-spritz-n4266000491/p4-800.webp 800w",
+     "w": 800,
+     "h": 1198,
+     "category": "food",
+     "alt": "Spritz: food",
+     "credit": "spritz-antwerp.com",
+     "credit_url": "https://www.spritz-antwerp.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-spritz-n4266000491/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-spritz-n4266000491/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-spritz-n4266000491/p5-400.webp 400w, img/places/antwerpen/osm-spritz-n4266000491/p5-800.webp 800w",
+     "w": 800,
+     "h": 1198,
+     "category": "drink",
+     "alt": "Spritz: drinks",
+     "credit": "spritz-antwerp.com",
+     "credit_url": "https://www.spritz-antwerp.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-spritz-n4266000491/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-staff-s-kantine-w499125770": {
    "photos": [
@@ -14952,7 +15449,56 @@
    "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-sumac-kammenstraat-n9379359917": {
-   "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p1-700.webp 700w, img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 659,
+     "category": "food",
+     "alt": "SUMAC Kammenstraat: food",
+     "credit": "yumyum.world",
+     "credit_url": "https://yumyum.world/restaurant/sumac/about-us/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p2-400.webp 400w, img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p2-800.webp 800w",
+     "w": 800,
+     "h": 380,
+     "category": "food",
+     "alt": "SUMAC Kammenstraat: food",
+     "credit": "yumyum.world",
+     "credit_url": "https://yumyum.world/restaurant/sumac/about-us/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p3-400.webp 400w, img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p3-800.webp 800w",
+     "w": 800,
+     "h": 377,
+     "category": "food",
+     "alt": "SUMAC Kammenstraat: food",
+     "credit": "yumyum.world",
+     "credit_url": "https://yumyum.world/restaurant/sumac/about-us/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-sumac-kammenstraat-n9379359917/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-sushi-asian-cuisine-n3025995008": {
    "hold": "no people-free photo found (research): no source in data; quick search found no site that clearly matches (name is generic)"
@@ -14970,7 +15516,42 @@
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-t-braboke-n11480620369": {
-   "hold": "no people-free photo found (research): no usable photos: people, text graphics and a statue"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-t-braboke-n11480620369/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-t-braboke-n11480620369/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-t-braboke-n11480620369/p1-700.webp 700w, img/places/antwerpen/osm-t-braboke-n11480620369/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "interior",
+     "alt": "T‘ Braboke: the interior",
+     "credit": "braboke.be",
+     "credit_url": "https://braboke.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-t-braboke-n11480620369/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-t-braboke-n11480620369/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-t-braboke-n11480620369/p2-400.webp 400w, img/places/antwerpen/osm-t-braboke-n11480620369/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "interior",
+     "alt": "T‘ Braboke: the interior",
+     "credit": "braboke.be",
+     "credit_url": "https://braboke.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-t-braboke-n11480620369/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-t-hof-van-eden-n1783469363": {
    "photos": [
@@ -15049,7 +15630,28 @@
    "layout": "mix"
   },
   "osm-t-lastig-portret-w116180040": {
-   "hold": "no people-free photo found (research): no usable photos: people in windows; other image stock-looking"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-t-lastig-portret-w116180040/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-t-lastig-portret-w116180040/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-t-lastig-portret-w116180040/p1-700.webp 700w, img/places/antwerpen/osm-t-lastig-portret-w116180040/p1-1400.webp 1400w",
+     "w": 700,
+     "h": 467,
+     "category": "exterior",
+     "alt": "'t lastig portret: the outside",
+     "credit": "het-lastig-portret.eatbu.com",
+     "credit_url": "https://het-lastig-portret.eatbu.com/?lang=nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-t-lastig-portret-w116180040/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-t-pakhuis-n1618703049": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
@@ -15396,7 +15998,42 @@
    "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
   },
   "osm-tapabar-n6250404263": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-tapabar-n6250404263/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-tapabar-n6250404263/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-tapabar-n6250404263/p1-700.webp 700w, img/places/antwerpen/osm-tapabar-n6250404263/p1-1400.webp 1400w",
+     "w": 682,
+     "h": 637,
+     "category": "food",
+     "alt": "Tapabar: food",
+     "credit": "tapa-bar.be",
+     "credit_url": "https://www.tapa-bar.be/nl/menu-639",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-tapabar-n6250404263/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-tapabar-n6250404263/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-tapabar-n6250404263/p2-400.webp 400w, img/places/antwerpen/osm-tapabar-n6250404263/p2-800.webp 800w",
+     "w": 682,
+     "h": 637,
+     "category": "food",
+     "alt": "Tapabar: food",
+     "credit": "tapa-bar.be",
+     "credit_url": "https://www.tapa-bar.be/nl/menu-639",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-tapabar-n6250404263/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-tarbouch-n6122316435": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
@@ -15728,7 +16365,84 @@
    "layout": "mix"
   },
   "osm-thuy-hanoi-n10856640382": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p1-700.webp 700w, img/places/antwerpen/osm-thuy-hanoi-n10856640382/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 764,
+     "category": "interior",
+     "alt": "Thuy Hanoi: the interior",
+     "credit": "thuy-hanoi.be",
+     "credit_url": "http://thuy-hanoi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p2-400.webp 400w, img/places/antwerpen/osm-thuy-hanoi-n10856640382/p2-800.webp 800w",
+     "w": 684,
+     "h": 684,
+     "category": "food",
+     "alt": "Thuy Hanoi: food",
+     "credit": "thuy-hanoi.be",
+     "credit_url": "http://thuy-hanoi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p3-400.webp 400w, img/places/antwerpen/osm-thuy-hanoi-n10856640382/p3-800.webp 800w",
+     "w": 684,
+     "h": 684,
+     "category": "food",
+     "alt": "Thuy Hanoi: food",
+     "credit": "thuy-hanoi.be",
+     "credit_url": "http://thuy-hanoi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p4-400.webp 400w, img/places/antwerpen/osm-thuy-hanoi-n10856640382/p4-800.webp 800w",
+     "w": 684,
+     "h": 684,
+     "category": "food",
+     "alt": "Thuy Hanoi: food",
+     "credit": "thuy-hanoi.be",
+     "credit_url": "http://thuy-hanoi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p5-400.webp 400w, img/places/antwerpen/osm-thuy-hanoi-n10856640382/p5-800.webp 800w",
+     "w": 684,
+     "h": 684,
+     "category": "food",
+     "alt": "Thuy Hanoi: food",
+     "credit": "thuy-hanoi.be",
+     "credit_url": "http://thuy-hanoi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-thuy-hanoi-n10856640382/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-tjoung-tjoung-n1641068384": {
    "hold": "no people-free photo found (research): no usable photos: only stock-looking Thai patterns, statues and figures"
@@ -16055,7 +16769,70 @@
    "layout": "mix"
   },
   "osm-van-dijck-n6188060085": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-van-dijck-n6188060085/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-van-dijck-n6188060085/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-van-dijck-n6188060085/p1-700.webp 700w, img/places/antwerpen/osm-van-dijck-n6188060085/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 800,
+     "category": "interior",
+     "alt": "Van Dijck: the interior",
+     "credit": "siranthonyvandijck.be",
+     "credit_url": "https://www.siranthonyvandijck.be/nl/het-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-van-dijck-n6188060085/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-van-dijck-n6188060085/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-van-dijck-n6188060085/p2-400.webp 400w, img/places/antwerpen/osm-van-dijck-n6188060085/p2-800.webp 800w",
+     "w": 800,
+     "h": 500,
+     "category": "food",
+     "alt": "Van Dijck: food",
+     "credit": "siranthonyvandijck.be",
+     "credit_url": "https://www.siranthonyvandijck.be/nl/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-van-dijck-n6188060085/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-van-dijck-n6188060085/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-van-dijck-n6188060085/p3-400.webp 400w, img/places/antwerpen/osm-van-dijck-n6188060085/p3-800.webp 800w",
+     "w": 800,
+     "h": 500,
+     "category": "interior",
+     "alt": "Van Dijck: the interior",
+     "credit": "siranthonyvandijck.be",
+     "credit_url": "https://www.siranthonyvandijck.be/nl/het-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-van-dijck-n6188060085/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-van-dijck-n6188060085/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-van-dijck-n6188060085/p4-400.webp 400w, img/places/antwerpen/osm-van-dijck-n6188060085/p4-800.webp 800w",
+     "w": 800,
+     "h": 500,
+     "category": "interior",
+     "alt": "Van Dijck: the interior",
+     "credit": "siranthonyvandijck.be",
+     "credit_url": "https://www.siranthonyvandijck.be/nl/het-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-van-dijck-n6188060085/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-velazquez-n6329631314": {
    "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
@@ -16424,7 +17201,28 @@
    "layout": "mix"
   },
   "osm-wabi-n7346608657": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-wabi-n7346608657/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-wabi-n7346608657/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-wabi-n7346608657/p1-700.webp 700w, img/places/antwerpen/osm-wabi-n7346608657/p1-1400.webp 1400w",
+     "w": 900,
+     "h": 840,
+     "category": "food",
+     "alt": "Wabi: food",
+     "credit": "wabisushi.be",
+     "credit_url": "https://www.wabisushi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-wabi-n7346608657/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-wah-kel-n5694462727": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CERT_AUTHORITY_INVALID); no Instagram on record"
@@ -16559,7 +17357,28 @@
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
   "osm-win-s-n13074395757": {
-   "hold": "no people-free photo found (research): own website from data (found by web search): website has no usable large images (only logos/small images); no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-win-s-n13074395757/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-win-s-n13074395757/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-win-s-n13074395757/p1-700.webp 700w, img/places/antwerpen/osm-win-s-n13074395757/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 586,
+     "category": "food",
+     "alt": "Win's: food",
+     "credit": "winsfood.be",
+     "credit_url": "https://winsfood.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-win-s-n13074395757/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-windkracht-12-w239552389": {
    "hold": "no people-free photo found (research): no source in data; quick search: own website says the restaurant is temporarily closed"
@@ -18673,6 +19492,86 @@
    "pick": {
     "type": "photo",
     "src": "img/places/antwerpen/osm-de-roode-hoed-n6176652005/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "piano-sano": {
+   "photos": [
+    {
+     "src": "img/places/antwerpen/piano-sano/p1-1400.webp",
+     "thumb": "img/places/antwerpen/piano-sano/p1-700.webp",
+     "srcset": "img/places/antwerpen/piano-sano/p1-700.webp 700w, img/places/antwerpen/piano-sano/p1-1400.webp 1400w",
+     "w": 900,
+     "h": 1599,
+     "category": "interior",
+     "alt": "Piano & Sano: the interior",
+     "credit": "pianoesano.be",
+     "credit_url": "https://www.pianoesano.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/piano-sano/p2-800.webp",
+     "thumb": "img/places/antwerpen/piano-sano/p2-400.webp",
+     "srcset": "img/places/antwerpen/piano-sano/p2-400.webp 400w, img/places/antwerpen/piano-sano/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Piano & Sano: food",
+     "credit": "pianoesano.be",
+     "credit_url": "https://www.pianoesano.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/piano-sano/p3-800.webp",
+     "thumb": "img/places/antwerpen/piano-sano/p3-400.webp",
+     "srcset": "img/places/antwerpen/piano-sano/p3-400.webp 400w, img/places/antwerpen/piano-sano/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Piano & Sano: food",
+     "credit": "pianoesano.be",
+     "credit_url": "https://www.pianoesano.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/piano-sano/p4-800.webp",
+     "thumb": "img/places/antwerpen/piano-sano/p4-400.webp",
+     "srcset": "img/places/antwerpen/piano-sano/p4-400.webp 400w, img/places/antwerpen/piano-sano/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Piano & Sano: food",
+     "credit": "pianoesano.be",
+     "credit_url": "https://www.pianoesano.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/piano-sano/p5-800.webp",
+     "thumb": "img/places/antwerpen/piano-sano/p5-400.webp",
+     "srcset": "img/places/antwerpen/piano-sano/p5-400.webp 400w, img/places/antwerpen/piano-sano/p5-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "Piano & Sano: food",
+     "credit": "pianoesano.be",
+     "credit_url": "https://www.pianoesano.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/piano-sano/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
