@@ -1,7 +1,8 @@
 /* Table and the City – landing page (index.html, the site root; world.html forwards here).
-   Globe (three.js, vendor/three) → country (Belgium) → city cards → the city guide (guide.html?country=&city=).
+   Globe (three.js, vendor/three) → Europe (one marker; tapping it zooms in on Europe and shows the country markers, spaced apart)
+   → country (Belgium) → city cards → the city guide (guide.html?country=&city=).
    Data: data/cities.json (names, active flags, centres, hero photos) + data/landing.json (globe dots, per-city tagline + showcase photos).
-   The country state lives in history.state (URL stays the bare /, no #hash), so Back still returns to the globe. */
+   The state ('#eu' = Europe, '#be' = Belgium's city cards) lives in history.state (URL stays the bare /, no #hash), so Back steps out again. */
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const BUILD = (document.querySelector('meta[name="build"]') || {}).content || '';
@@ -24,6 +25,10 @@ const COUNTRIES = CFG.countries.map(co => {
   return { id: co.id, name: co.name, active: !!co.active, dot, cities, act };
 });
 const ACTIVE = COUNTRIES.filter(c => c.active && c.act.length);
+/* step 1 of the globe: one Europe marker. Every country with a globe dot is in Europe for now; tapping it zooms in on Europe (step 2) */
+const EUROPE = { name: 'Europe', dot: [50.5, 10], view: [50.2, 5.6], countries: COUNTRIES.filter(c => c.dot) };
+const SIDE = { be: 'b', nl: 't' };   // step-2 label sides so the pills never overlap (Belgium's below its dot, the Netherlands' above its own); landing.json "label" overrides
+(LAND.countries || []).forEach(x => { if (x.label) SIDE[x.id] = x.label; });
 const cityById = id => { for (const co of COUNTRIES) { const c = co.cities.find(x => x.id === id); if (c) return [co, c]; } return [null, null]; };
 const focus = c => c.images && c.images.heroFocus ? ` style="object-position:${esc(c.images.heroFocus)}"` : '';   // cities.json images.heroFocus (e.g. Ostend '12% 50%') keeps the subject in narrow crops
 const heroSet = (b, sizes = '100vw') => `src="${esc(b)}-1600.jpg" srcset="${esc(b)}-1000.webp 1000w, ${esc(b)}-1600.webp 1600w, ${esc(b)}-2400.webp 2400w" sizes="${sizes}"`;
@@ -32,7 +37,7 @@ const heroSet = (b, sizes = '100vw') => `src="${esc(b)}-1600.jpg" srcset="${esc(
 $('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.active ? '' : ' · coming soon'}</h3><ul>${co.cities.map(c => c.active
   ? `<li><a href="${guideUrl(co.id, c.id)}" data-city="${esc(c.id)}">${esc(c.name)}</a></li>`
   : `<li><span>${esc(c.name)} <em>soon</em></span></li>`).join('')}</ul>`).join('') +
-  `<p class="wl-dest__note">Starting in Belgium, growing to every great food city in the world.</p>`;
+  `<p class="wl-dest__note">Starting in Europe, growing to every great food city in the world.</p>`;
 
 function renderCards(co) {
   $('#wl-panel-title').textContent = co.name;
@@ -109,7 +114,7 @@ async function initGlobe() {
   function showHi(id) {
     const h = HI[id], [lo0, la0, lo1, la1] = h.box, U = earthMat.uniforms;
     if (hiFor !== id) { hiAmt = 0; hiFor = id; U.uNightHi.value = h.tN; U.uDayHi.value = h.tD; U.uHiMin.value.set((lo0 + 180) / 360, (la0 + 90) / 180); U.uHiMax.value.set((lo1 + 180) / 360, (la1 + 90) / 180); }
-    if (mode === 'country' && focusCountry && focusCountry.id === id) hiTarget = 1;
+    if ((mode === 'country' && focusCountry && focusCountry.id === id) || (mode === 'europe' && id === 'be')) hiTarget = 1;
   }
 
   const sun = new THREE.Vector3(0.62, 0.55, -0.56).normalize();   // fixed relative to the camera: the lit rim sits top-right, like the reference
@@ -181,15 +186,19 @@ async function initGlobe() {
 
   /* view state (eased towards targets) */
   const S = { rx: .42, ry: 0, dist: 4, ox: 0, oy: 0, focus: 0 }, T = { ...S };
-  { const f = facing(42, 18); S.rx = T.rx = f.x; S.ry = T.ry = f.y - .5; }   // open on Europe & Asia, as in the reference
+  const HOME = [44, 11], HOME_RX = facing(HOME[0], HOME[1]).x;   // open on Europe as a whole (step 1: the Europe marker)
+  { const f = facing(HOME[0], HOME[1]); S.rx = T.rx = f.x; S.ry = T.ry = f.y; }
   let mode = 'globe', vx = 0, vy = 0, drag = null, lastInteract = 0, W = 1, H = 1, focusCountry = null;
   const fovT = Math.tan(17.5 * D2R);
   const distFor = rpx => Math.sqrt(Math.pow(R * (H / (2 * fovT)) / rpx, 2) + R * R);
-  const zoomRange = () => mode === 'country' ? [1.09, 3.2] : [distFor(Math.min(H * .62, W * .62)), distFor(Math.min(H, W) * .2)];
+  const zoomRange = () => mode !== 'globe' ? [1.09, 3.2] : [distFor(Math.min(H * .62, W * .62)), distFor(Math.min(H, W) * .2)];
   function layout(snap) {
     if (mode === 'globe') {
       if (small()) { T.dist = distFor(W * .47); T.ox = 0; T.oy = H * .5 - H * .33; }
       else { T.dist = distFor(Math.min(H * .39, W * .27)); T.ox = W * .5 - W * .655; T.oy = 0; }
+    } else if (mode === 'europe') {   // step 2: Europe fills the view, Benelux a little above the middle (phone: above the caption at the bottom)
+      if (small()) { T.ox = 0; T.oy = H * .5 - H * .4; T.dist = distFor(W * 2.1); }
+      else { T.ox = W * .5 - W * .6; T.oy = 0; T.dist = distFor(Math.min(H * 1.3, W * .8)); }
     } else if (mode === 'country') {
       const p = $('#wl-panel').getBoundingClientRect();
       if (small()) { T.ox = 0; T.oy = H * .5 - Math.max(120, (H - Math.min(p.height || H * .5, H * .6)) * .48); T.dist = 1.42; }
@@ -210,11 +219,16 @@ async function initGlobe() {
     b.innerHTML = `<span class="wl-mk__dot" aria-hidden="true"></span>${html}`; b.addEventListener('click', onClick); mkWrap.appendChild(b);
     const m = { el: b, v: ll2v(lat, lon, R * 1.003), kind }; markers.push(m); return m;
   }
-  COUNTRIES.forEach(co => { if (!co.dot) return;
-    if (co.active && co.act.length) addMarker('country', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)}<small>${co.act.length} cities</small></span>`, `${co.name}: ${co.act.length} cities`, () => go(`#${co.id}`));
-    else addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · coming soon</span>`, `${co.name}, coming soon`, e => { e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
+  addMarker('region', EUROPE.dot[0], EUROPE.dot[1], `<span class="wl-mk__lbl">${esc(EUROPE.name)}</span>`, 'Europe: choose a country', () => go('#eu'));
+  EUROPE.countries.forEach(co => { let m;
+    if (co.active && co.act.length) m = addMarker('country', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)}<small>${co.act.length} cities</small></span>`, `${co.name}: ${co.act.length} cities`, () => go(`#${co.id}`));
+    else m = addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · coming soon</span>`, `${co.name}, coming soon`, e => { e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
+    m.el.dataset.side = SIDE[co.id] || 'r';
   });
   ACTIVE.forEach(co => co.act.forEach(c => { const m = addMarker('city', c.center[0], c.center[1], `<span class="wl-mk__lbl">${esc(c.name)}</span>`, c.name, () => { remember(c.id); location.href = guideUrl(co.id, c.id); }); m.el.dataset.city = c.id; m.el.dataset.side = (LAND.cities[c.id] || {}).label || 'r'; m.el.tabIndex = -1; }));
+  const SHOWN = { globe: ['region'], europe: ['country', 'soon'], country: [] };   // which markers can take focus in each step
+  function syncTabs() { for (const m of markers) if (m.kind !== 'city') m.el.tabIndex = SHOWN[mode].includes(m.kind) ? 0 : -1; }
+  syncTabs();
   const v3 = new THREE.Vector3(), cam = new THREE.Vector3();
   function placeMarkers() {
     cam.copy(camera.position);
@@ -252,11 +266,18 @@ async function initGlobe() {
     else if (e.key === '+' || e.key === '=') setZoom(T.dist * .88); else if (e.key === '-') setZoom(T.dist * 1.14); });
   const ray = new THREE.Raycaster(), ndc = new THREE.Vector2();
   function tapAt(x, y) {
-    ndc.set(x / W * 2 - 1, -(y / H) * 2 + 1); ray.setFromCamera(ndc, camera); const hit = ray.intersectObject(earth)[0]; if (!hit) return;
+    ndc.set(x / W * 2 - 1, -(y / H) * 2 + 1); ray.setFromCamera(ndc, camera); const hit = ray.intersectObject(earth)[0];
+    if (!hit) { if (mode === 'europe') euBack(); return; }   // step 2: a tap in space (off the globe) goes back too
     const p = globe.worldToLocal(hit.point.clone()).normalize();
+    const ang = d => p.angleTo(ll2v(d[0], d[1]).normalize());
+    if (mode === 'globe') { if (ang(EUROPE.dot) < .26) go('#eu'); return; }   // anywhere on Europe opens step 2
+    if (mode === 'europe') {   // near Belgium (and closer to it than to any coming-soon dot) opens it; elsewhere nothing happens
+      let best = null, bd = 1e9; EUROPE.countries.forEach(co => { const d = ang(co.dot); if (d < bd) { bd = d; best = co; } });
+      if (best && best.active && best.act.length && bd < .04) go(`#${best.id}`);
+      else if (bd > .2) euBack();   // a tap well away from every country (the Atlantic, Africa…) steps quietly back out
+      return; }
     if (mode === 'country') { let best = null, bd = 1e9; focusCountry.act.forEach(c => { const d = p.angleTo(ll2v(c.center[0], c.center[1]).normalize()); if (d < bd) { bd = d; best = c; } });
       if (best && bd < .012) go(`#${focusCountry.id}/${best.id}`); return; }
-    for (const co of ACTIVE) if (p.angleTo(ll2v(co.dot[0], co.dot[1]).normalize()) < .03 + .02 * (S.dist - 2)) { go(`#${co.id}`); return; }
   }
 
   /* loop */
@@ -264,7 +285,7 @@ async function initGlobe() {
   const ease = (a, b, k) => a + (b - a) * k;
   function frame(now) {
     if (!running) return; requestAnimationFrame(frame);
-    const dt = Math.min(.1, (now - lt) / 1000); lt = now; const k = REDUCED ? 1 : 1 - Math.exp(-dt * (mode === 'country' ? 2.4 : 3.2));
+    const dt = Math.min(.1, (now - lt) / 1000); lt = now; const k = REDUCED ? 1 : 1 - Math.exp(-dt * (mode === 'globe' ? 3.2 : 2.4));
     if (!drag) {
       if (Math.abs(vx) > 1e-5 || Math.abs(vy) > 1e-5) { T.ry += vx; T.rx = clampX(T.rx + vy); S.ry = T.ry; S.rx = T.rx; const f = Math.pow(.93, dt * 60); vx *= f; vy *= f; if (Math.abs(vx) < 1e-5) vx = 0; if (Math.abs(vy) < 1e-5) vy = 0; }
       else if (mode === 'globe' && !REDUCED && now - lastInteract > 2500) { T.ry += dt * .045; S.ry = T.ry; }
@@ -279,7 +300,7 @@ async function initGlobe() {
     /* flare on the silhouette, top-right */
     const a = Math.acos(R / S.dist), u = new THREE.Vector3(.72, .69, 0).normalize();
     flare.position.copy(u.clone().multiplyScalar(R * Math.sin(a) * 1.012)).add(new THREE.Vector3(0, 0, R * Math.cos(a) * .98 - .04));
-    const fs = .9 * (S.dist - R) * .5; flare.scale.set(fs, fs, 1); flare.material.opacity = mode === 'country' ? .35 : .95;
+    const fs = .9 * (S.dist - R) * .5; flare.scale.set(fs, fs, 1); flare.material.opacity = mode === 'globe' ? .95 : mode === 'europe' ? .6 : .35;
     stars.material.uniforms.uT.value = (now - t0) / 1000;
     renderer.render(scene, camera); placeMarkers();
   }
@@ -288,11 +309,14 @@ async function initGlobe() {
   document.addEventListener('visibilitychange', () => { const r = !document.hidden && !document.body.classList.contains('is-show'); setRunning(r); });
   function setRunning(r) { if (r && !running) { running = true; lt = performance.now(); requestAnimationFrame(frame); } else if (!r) running = false; }
 
+  function turnTo(lat, lon) { const f = facing(lat, lon); T.rx = f.x; let d = f.y - S.ry; d = ((d + Math.PI) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) - Math.PI; T.ry = S.ry + d; vx = vy = 0; }
   return {
-    toGlobe() { mode = 'globe'; focusCountry = null; hiTarget = 0; T.focus = 0; T.rx = clampX(.42); layout(false); lastInteract = performance.now(); },
-    toCountry(co) { mode = 'country'; focusCountry = co; const f = facing(co.dot[0], co.dot[1]); T.rx = f.x;
-      let d = f.y - S.ry; d = ((d + Math.PI) % (2 * Math.PI) + 2 * Math.PI) % (2 * Math.PI) - Math.PI; T.ry = S.ry + d; vx = vy = 0;
-      earthMat.uniforms.uFocus.value.copy(ll2v(co.dot[0], co.dot[1]).normalize()); T.focus = 1; layout(false); loadHi(co.id); },
+    toGlobe() { const from = mode; mode = 'globe'; focusCountry = null; hiTarget = 0; T.focus = 0;
+      if (from === 'globe') T.rx = HOME_RX; else turnTo(HOME[0], HOME[1]);   // stepping out lands back on Europe as a whole
+      layout(false); syncTabs(); lastInteract = performance.now(); },
+    toEurope() { mode = 'europe'; focusCountry = null; T.focus = 0; turnTo(EUROPE.view[0], EUROPE.view[1]); layout(false); syncTabs(); loadHi('be'); },
+    toCountry(co) { mode = 'country'; focusCountry = co; turnTo(co.dot[0], co.dot[1]);
+      earthMat.uniforms.uFocus.value.copy(ll2v(co.dot[0], co.dot[1]).normalize()); T.focus = 1; layout(false); syncTabs(); loadHi(co.id); },
     relayout() { layout(false); },
     pause(p) { setRunning(!p); }
   };
@@ -346,12 +370,17 @@ function closeShow() { const [co] = parse(); if (pushed > 0) { pushed--; history
 /* ---------- router ---------- */
 let pushed = 0, STATE = (history.state && history.state.wl) || '';   // '#be' = Belgium's city cards; kept in history.state, never in the URL
 function parse() { const [a] = STATE.replace(/^#/, '').toLowerCase().split('/'); const co = ACTIVE.find(c => c.id === a) || null; return [co, null]; }
+const isEU = () => STATE === '#eu';
+function euBack() { if (!isEU()) return; if (pushed > 0) { pushed--; history.back(); } else go('', true); }
 function go(hash, replace) { hash = hash || ''; if (STATE === hash) { apply(); return; } STATE = hash;
   const u = location.pathname + location.search; if (replace) history.replaceState({ wl: hash }, '', u); else { history.pushState({ wl: hash }, '', u); pushed++; } apply(); }
 addEventListener('popstate', e => { if (pushed > 0) pushed--; STATE = (e.state && e.state.wl) || ''; apply(); });
 function apply() {
   const [co, c] = parse();
+  const eu = !co && isEU() && !!G;
+  document.body.classList.toggle('is-europe', eu); $('#wl-eu').hidden = !eu;
   if (co) { renderCardsOnce(co); document.body.classList.add('is-country'); $('#wl-panel').hidden = false; G && G.toCountry(co); }
+  else if (eu) { document.body.classList.remove('is-country'); G.toEurope(); }
   else { document.body.classList.remove('is-country'); G && G.toGlobe(); }
   if (c) openShow(co, c); else hideShow();
   dest.classList.remove('is-open');
@@ -361,6 +390,8 @@ function renderCardsOnce(co) { if (cardsFor === co.id) return; cardsFor = co.id;
 
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-country]'); if (b) { e.preventDefault(); go('#' + b.dataset.country); return; }
+  if (e.target.closest('[data-europe]')) { e.preventDefault(); if (G) go('#eu'); else openDest(true); return; }   // no WebGL: the list is the way in
+  if (e.target.closest('[data-eu-back]')) { e.preventDefault(); euBack(); return; }
   if (e.target.closest('[data-globe]')) { e.preventDefault(); go('', false); return; }
 });
 /* hovering a card lights its dot on the globe (and the other way round) */
@@ -372,6 +403,7 @@ document.addEventListener('keydown', e => {
   if (dest.classList.contains('is-open')) openDest(false);
   else if (!show.hidden) closeShow();
   else if (document.body.classList.contains('is-country')) go('', false);
+  else if (isEU()) euBack();
 });
 /* keep Tab inside the open showcase */
 show.addEventListener('keydown', e => { if (e.key !== 'Tab') return; const f = [...show.querySelectorAll('a[href],button')]; if (!f.length) return;

@@ -607,13 +607,16 @@ Continue to {city} | Verder naar {city} | Weiter nach {city} | Continuer vers {c
 A curated guide, city by city | Een zorgvuldig samengestelde gids, stad per stad | Ein kuratierter Guide, Stadt für Stadt | Un guide choisi avec soin, ville par ville | Una guía seleccionada, ciudad a ciudad
 Where shall we | Waar gaan we | Wo essen wir | Où dîner | ¿Dónde cenamos
 dine tonight? | vanavond eten? | heute Abend? | ce soir ? | esta noche?
-We start in Belgium and grow, city by city, to every great food city in the world. | We beginnen in België en groeien, stad per stad, naar elke grote foodstad ter wereld. | Wir starten in Belgien und wachsen Stadt für Stadt – bis zu jeder großen Food-Stadt der Welt. | Nous commençons en Belgique et grandissons, ville par ville, vers toutes les grandes villes gourmandes du monde. | Empezamos en Bélgica y crecemos, ciudad a ciudad, hasta cada gran ciudad gastronómica del mundo.
-Explore Belgium | Ontdek België | Belgien entdecken | Explorer la Belgique | Explora Bélgica
+We start in Europe and grow, country by country and city by city, to every great food city in the world. | We beginnen in Europa en groeien, land per land en stad per stad, naar elke grote foodstad ter wereld. | Wir starten in Europa und wachsen Land für Land und Stadt für Stadt – bis zu jeder großen Food-Stadt der Welt. | Nous commençons en Europe et grandissons, pays par pays et ville par ville, vers toutes les grandes villes gourmandes du monde. | Empezamos en Europa y crecemos, país a país y ciudad a ciudad, hasta cada gran ciudad gastronómica del mundo.
+Explore Europe | Ontdek Europa | Europa entdecken | Explorer l’Europe | Explora Europa
+Europe | Europa | Europa | Europe | Europa
+Europe: choose a country | Europa: kies een land | Europa: wähle ein Land | Europe : choisissez un pays | Europa: elige un país
+Choose a country | Kies een land | Wähle ein Land | Choisissez un pays | Elige un país
 Drag to spin the globe · tap the gold light | Sleep om de wereldbol te draaien · tik op het gouden licht | Ziehen, um den Globus zu drehen · tippe auf das goldene Licht | Faites tourner le globe · touchez la lumière dorée | Arrastra para girar el globo · toca la luz dorada
 Choose your city | Kies je stad | Wähle deine Stadt | Choisissez votre ville | Elige tu ciudad
 More countries are on their way. | Er komen nog meer landen aan. | Weitere Länder folgen. | D’autres pays arrivent bientôt. | Pronto llegarán más países.
 Back to the globe | Terug naar de wereldbol | Zurück zum Globus | Retour au globe | Volver al globo
-Starting in Belgium, growing to every great food city in the world. | We starten in België en groeien naar elke grote foodstad ter wereld. | Start in Belgien, Wachstum bis zu jeder großen Food-Stadt der Welt. | D’abord la Belgique, puis toutes les grandes villes gourmandes du monde. | Empezando en Bélgica, creciendo hacia cada gran ciudad gastronómica del mundo.
+Starting in Europe, growing to every great food city in the world. | We starten in Europa en groeien naar elke grote foodstad ter wereld. | Start in Europa, Wachstum bis zu jeder großen Food-Stadt der Welt. | D’abord l’Europe, puis toutes les grandes villes gourmandes du monde. | Empezando en Europa, creciendo hacia cada gran ciudad gastronómica del mundo.
 Globe: NASA Earth Observatory, Black Marble & Blue Marble (public domain) · | Wereldbol: NASA Earth Observatory, Black Marble & Blue Marble (publiek domein) · | Globus: NASA Earth Observatory, Black Marble & Blue Marble (gemeinfrei) · | Globe : NASA Earth Observatory, Black Marble & Blue Marble (domaine public) · | Globo: NASA Earth Observatory, Black Marble y Blue Marble (dominio público) ·
 Photo credits | Fotocredits | Bildnachweise | Crédits photo | Créditos de las fotos
 Loading… | Laden… | Wird geladen… | Chargement… | Cargando…

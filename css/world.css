@@ -66,6 +66,35 @@ body.is-country .wl-intro{opacity:0;transform:translate(-30px,-46%);pointer-even
 .wl-mk--city.is-hot .wl-mk__lbl{background:var(--gold);color:#111;border-color:var(--gold)}
 body:not(.is-country) .wl-mk--city{opacity:0;pointer-events:none}
 body.is-country .wl-mk--country{opacity:0;pointer-events:none}
+/* step 1 (globe): only the Europe marker · step 2 (body.is-europe): the country markers, spaced apart · country: the city markers */
+.wl-mk--region .wl-mk__lbl{font-size:var(--fs-s)}
+body.is-europe .wl-mk--region,body.is-country .wl-mk--region{opacity:0;pointer-events:none}
+body:not(.is-europe) .wl-mk--country,body:not(.is-europe) .wl-mk--soon{opacity:0;pointer-events:none}
+.wl-mk--region,.wl-mk--country{z-index:2}
+.wl-mk--region::before,.wl-mk--country::before{content:"";position:absolute;left:-26px;top:-26px;width:52px;height:52px;border-radius:50%}   /* generous tap target round the dot */
+.wl-mk--region:hover .wl-mk__lbl,.wl-mk--region:focus-visible .wl-mk__lbl,.wl-mk--country:hover .wl-mk__lbl,.wl-mk--country:focus-visible .wl-mk__lbl{background:var(--petrol);border-color:var(--petrol);color:var(--cream)}
+body.is-europe .wl-mk--country .wl-mk__lbl{padding:8px 16px}
+.wl-mk--country[data-side=b] .wl-mk__lbl{left:0;top:20px;transform:translateX(-50%)}
+.wl-mk--country[data-side=l] .wl-mk__lbl{left:auto;right:18px}
+.wl-mk--country[data-side=t] .wl-mk__lbl{left:0;top:auto;bottom:18px;transform:translateX(-50%)}
+body.is-europe .wl-mk--soon{z-index:1}
+body.is-europe .wl-mk--soon .wl-mk__lbl{opacity:.85;padding:6px 12px}
+body.is-europe .wl-mk--soon[data-side=r] .wl-mk__lbl{left:14px;top:-12px}
+body.is-europe .wl-mk--soon[data-side=t] .wl-mk__lbl{left:0;top:auto;bottom:14px;transform:translateX(-50%)}
+body.is-europe .wl-mk--soon[data-side=l] .wl-mk__lbl{left:auto;right:14px;top:-12px}
+body.is-europe .wl-mk--soon[data-side=b] .wl-mk__lbl{left:0;top:14px;transform:translateX(-50%)}
+body.is-europe .wl-mk--soon .wl-mk__dot::before{display:block;content:"";position:absolute;inset:-6px;border:0;border-radius:50%;animation:none}
+
+/* step 2 caption (Europe · Choose a country · Back) */
+.wl-eu{position:fixed;z-index:10;left:var(--gutter);bottom:64px;max-width:340px;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .6s var(--wl-ease),transform .8s var(--wl-ease)}
+.wl-eu[hidden]{display:block;visibility:hidden}
+body.is-europe .wl-eu{opacity:1;transform:none;pointer-events:auto;visibility:visible}
+.wl-eu .wl-eyebrow{margin-bottom:8px}
+.wl-eu{text-shadow:0 1px 14px rgba(0,0,0,.85)}
+.wl-eu h2{margin:0 0 16px;font-family:var(--display);font-weight:500;font-size:clamp(30px,2.8vw,42px);line-height:1.05;color:var(--cream)}
+.wl-eu__back{height:36px;padding:0 18px;border-radius:var(--pill);border:1px solid rgba(244,239,228,.4);background:rgba(4,5,6,.35);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:var(--cream);font:inherit;font-size:var(--fs-s);letter-spacing:var(--track-ui);text-transform:uppercase;font-weight:500;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.wl-eu__back:hover,.wl-eu__back:focus-visible{background:var(--petrol);border-color:var(--petrol)}
+body.is-europe .wl-intro{opacity:0;transform:translate(-30px,-46%);pointer-events:none}
 
 /* country panel (desktop: right column; phone: bottom sheet) */
 .wl-panel{position:fixed;z-index:15;top:0;right:0;bottom:0;width:min(470px,38vw);padding:110px 34px 28px;display:flex;flex-direction:column;
@@ -201,6 +230,12 @@ body.is-country .wl-credit{opacity:0;pointer-events:none}
   .wl-resume{display:none}
   .wl-intro{top:auto;bottom:calc(40px + env(safe-area-inset-bottom));transform:none;max-width:none;right:var(--gutter)}
   body.is-country .wl-intro{transform:translateY(20px)}
+  body.is-europe .wl-intro{transform:translateY(20px)}
+  .wl-eu{bottom:calc(52px + env(safe-area-inset-bottom));right:var(--gutter);max-width:none;display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  .wl-eu[hidden]{display:flex}
+  .wl-eu h2{font-size:30px;margin:0}
+  .wl-eu .wl-eyebrow{flex-basis:100%;margin:0 0 -6px}
+  .wl-eu__back{height:40px}
   .wl-intro h1{font-size:clamp(40px,11.5vw,54px)}
   .wl-lede{margin:12px 0 20px;font-size:14px;line-height:1.55}
   .wl-cta{height:48px}
