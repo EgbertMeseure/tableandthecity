@@ -30,6 +30,8 @@ coming soon | binnenkort | demnächst | bientôt | muy pronto
 {x} · coming soon | {x} · binnenkort | {x} · demnächst | {x} · bientôt | {x} · muy pronto
 {x}, coming soon | {x}, binnenkort | {x}, demnächst | {x}, bientôt | {x}, muy pronto
 {x} — coming soon | {x} — binnenkort | {x} — demnächst | {x} — bientôt | {x} — muy pronto
+{x} · next | {x} · als volgende | {x} · als Nächstes | {x} · prochaine étape | {x} · próximo destino
+{x}, next | {x}, als volgende | {x}, als Nächstes | {x}, prochaine étape | {x}, próximo destino
 Choose country | Kies een land | Land wählen | Choisir un pays | Elige país
 Choose city | Kies een stad | Stadt wählen | Choisir une ville | Elige ciudad
 Scroll | Scroll | Scrollen | Défiler | Desliza

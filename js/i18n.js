@@ -83,6 +83,8 @@
     [/^(.+): not sure$/, '{x}: not sure', ['x']],
     [/^:? ?Confirmed — (.+)$/, 'Confirmed — {raw}', ['raw'], null, true],
     [/^(.+) · coming soon$/, '{x} · coming soon', ['x']],
+    [/^(.+) · next$/, '{x} · next', ['x']],
+    [/^(.+), next$/, '{x}, next', ['x']],
     [/^(.+), coming soon$/, '{x}, coming soon', ['x']],
     [/^(.+) — coming soon$/, '{x} — coming soon', ['x']],
     [/^Continue to (.+)$/, 'Continue to {city}', ['city']],

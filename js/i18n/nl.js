@@ -29,6 +29,8 @@
 "{x} · coming soon": "{x} · binnenkort",
 "{x}, coming soon": "{x}, binnenkort",
 "{x} — coming soon": "{x} — binnenkort",
+"{x} · next": "{x} · als volgende",
+"{x}, next": "{x}, als volgende",
 "Choose country": "Kies een land",
 "Choose city": "Kies een stad",
 "Scroll": "Scroll",

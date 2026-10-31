@@ -29,6 +29,8 @@
 "{x} · coming soon": "{x} · demnächst",
 "{x}, coming soon": "{x}, demnächst",
 "{x} — coming soon": "{x} — demnächst",
+"{x} · next": "{x} · als Nächstes",
+"{x}, next": "{x}, als Nächstes",
 "Choose country": "Land wählen",
 "Choose city": "Stadt wählen",
 "Scroll": "Scrollen",

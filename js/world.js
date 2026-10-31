@@ -22,7 +22,7 @@ const COUNTRIES = CFG.countries.map(co => {
   const cities = co.cities.map(c => ({ ...c, countryId: co.id, land: (LAND.cities || {})[c.id] || {} }));
   const act = cities.filter(c => c.active && c.center);
   const dot = L.dot || (act.length ? [act.reduce((s, c) => s + c.center[0], 0) / act.length, act.reduce((s, c) => s + c.center[1], 0) / act.length] : null);
-  return { id: co.id, name: co.name, active: !!co.active, dot, cities, act };
+  return { id: co.id, name: co.name, active: !!co.active, next: !co.active && !!L.next, dot, cities, act };   // landing.json "next": true = the next country to open (labelled 'next' instead of 'coming soon')
 });
 const ACTIVE = COUNTRIES.filter(c => c.active && c.act.length);
 /* step 1 of the globe: one Europe marker. Every country with a globe dot is in Europe for now; tapping it zooms in on Europe (step 2) */
@@ -34,7 +34,7 @@ const focus = c => c.images && c.images.heroFocus ? ` style="object-position:${e
 const heroSet = (b, sizes = '100vw') => `src="${esc(b)}-1600.jpg" srcset="${esc(b)}-1000.webp 1000w, ${esc(b)}-1600.webp 1600w, ${esc(b)}-2400.webp 2400w" sizes="${sizes}"`;
 
 /* ---------- static UI: destinations list, cards, resume ---------- */
-$('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.active ? '' : ' · coming soon'}</h3><ul>${co.cities.map(c => c.active
+$('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.active ? '' : co.next ? ' · next' : ' · coming soon'}</h3><ul>${co.cities.map(c => c.active
   ? `<li><a href="${guideUrl(co.id, c.id)}" data-city="${esc(c.id)}">${esc(c.name)}</a></li>`
   : `<li><span>${esc(c.name)} <em>soon</em></span></li>`).join('')}</ul>`).join('') +
   `<p class="wl-dest__note">Starting in Europe, growing to every great food city in the world.</p>`;
@@ -227,7 +227,7 @@ async function initGlobe() {
   addMarker('region', EUROPE.dot[0], EUROPE.dot[1], `<span class="wl-mk__lbl">${esc(EUROPE.name)}</span>`, 'Europe: choose a country', () => go('#eu'));
   EUROPE.countries.forEach(co => { let m;
     if (co.active && co.act.length) m = addMarker('country', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)}<small>${co.act.length} cities</small></span>`, `${co.name}: ${co.act.length} cities`, () => go(`#${co.id}`));
-    else m = addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · coming soon</span>`, `${co.name}, coming soon`, e => { e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
+    else m = addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · ${co.next ? 'next' : 'coming soon'}</span>`, `${co.name}, ${co.next ? 'next' : 'coming soon'}`, e => { e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
     m.el.dataset.side = SIDE[co.id] || 'r';
   });
   ACTIVE.forEach(co => co.act.forEach(c => { const m = addMarker('city', c.center[0], c.center[1], `<span class="wl-mk__lbl">${esc(c.name)}</span>`, c.name, () => { remember(c.id); location.href = guideUrl(co.id, c.id); }); m.el.dataset.city = c.id; m.el.dataset.side = (LAND.cities[c.id] || {}).label || 'r'; m.el.tabIndex = -1; }));
@@ -247,7 +247,11 @@ async function initGlobe() {
 
   /* input: drag (inertia), wheel/pinch zoom, keys, tap on the globe near a country */
   const pts = new Map(); let pinch0 = 0, dist0 = 0, moved = 0;
-  const rotK = () => 1.6 * (S.dist - R * .9) / (H * .9);
+  /* drag feel (calmer since Oct 2026: was 1.6 everywhere, throw ×1, friction .93/frame, no cap): half the speed on the globe, ×0.3 in the zoomed Europe / country steps;
+     the throw keeps 60% of the release speed, is capped per step and dies out faster, so a flick turns the globe a little instead of flinging it */
+  const rotK = () => (mode === 'globe' ? .8 : .48) * (S.dist - R * .9) / (H * .9);
+  const THROW = .6, FRICTION = .9, vMax = () => mode === 'globe' ? .03 : .008;
+  const capV = v => { const m = vMax(); return Math.max(-m, Math.min(m, v)); };
   canvas.addEventListener('pointerdown', e => { canvas.setPointerCapture(e.pointerId); pts.set(e.pointerId, [e.clientX, e.clientY]); moved = 0;
     if (pts.size === 2) { const [a, b] = [...pts.values()]; pinch0 = Math.hypot(a[0] - b[0], a[1] - b[1]); dist0 = T.dist; }
     drag = { x: e.clientX, y: e.clientY, t: performance.now() }; vx = vy = 0; canvas.classList.add('is-drag'); lastInteract = performance.now(); });
@@ -255,14 +259,14 @@ async function initGlobe() {
     if (pts.size === 2) { const [a, b] = [...pts.values()]; const d = Math.hypot(a[0] - b[0], a[1] - b[1]); if (pinch0) setZoom(dist0 * pinch0 / d); moved += 10; return; }
     if (!drag) return; const dx = e.clientX - drag.x, dy = e.clientY - drag.y, now = performance.now(), dt = Math.max(8, now - drag.t), k = rotK();
     moved += Math.abs(dx) + Math.abs(dy);
-    T.ry += dx * k; T.rx = clampX(T.rx + dy * k); S.ry = T.ry; S.rx = T.rx; vx = dx * k / dt * 16; vy = dy * k / dt * 16; drag = { x: e.clientX, y: e.clientY, t: now }; lastInteract = now; needs = true; });
+    T.ry += dx * k; T.rx = clampX(T.rx + dy * k); S.ry = T.ry; S.rx = T.rx; vx = capV(dx * k / dt * 16 * THROW); vy = capV(dy * k / dt * 16 * THROW); drag = { x: e.clientX, y: e.clientY, t: now }; lastInteract = now; needs = true; });
   const up = e => { pts.delete(e.pointerId); if (pts.size < 2) pinch0 = 0; if (pts.size) return; canvas.classList.remove('is-drag');
     if (drag && moved < 6 && e.type === 'pointerup') tapAt(e.clientX, e.clientY); if (drag && performance.now() - drag.t > 80) vx = vy = 0; drag = null; lastInteract = performance.now(); };
   canvas.addEventListener('pointerup', up); canvas.addEventListener('pointercancel', up);
   const clampX = x => Math.max(-1.1, Math.min(1.25, x));
   function setZoom(d) { const [a, b] = zoomRange(); T.dist = Math.max(a, Math.min(b, d)); needs = true; }
   canvas.addEventListener('wheel', e => { e.preventDefault(); lastInteract = performance.now();
-    if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { vx -= e.deltaX * .00035; return; }
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) { vx = capV(vx - e.deltaX * .00018 * (mode === 'globe' ? 1 : .6)); return; }
     setZoom(T.dist * Math.exp(e.deltaY * (e.deltaMode ? .05 : .0012))); }, { passive: false });
   canvas.tabIndex = 0; canvas.setAttribute('role', 'img'); canvas.setAttribute('aria-label', 'Interactive globe of the cities in the guide. Arrow keys spin it, plus and minus zoom. Use the Belgium button or All destinations to choose a city.');
   $('#wl-stage').removeAttribute('aria-hidden');
@@ -292,7 +296,7 @@ async function initGlobe() {
     if (!running) return; requestAnimationFrame(frame);
     const dt = Math.min(.1, (now - lt) / 1000); lt = now; const k = REDUCED ? 1 : 1 - Math.exp(-dt * (mode === 'globe' ? 3.2 : 2.4));
     if (!drag) {
-      if (Math.abs(vx) > 1e-5 || Math.abs(vy) > 1e-5) { T.ry += vx; T.rx = clampX(T.rx + vy); S.ry = T.ry; S.rx = T.rx; const f = Math.pow(.93, dt * 60); vx *= f; vy *= f; if (Math.abs(vx) < 1e-5) vx = 0; if (Math.abs(vy) < 1e-5) vy = 0; }
+      if (Math.abs(vx) > 1e-5 || Math.abs(vy) > 1e-5) { T.ry += vx; T.rx = clampX(T.rx + vy); S.ry = T.ry; S.rx = T.rx; const f = Math.pow(FRICTION, dt * 60); vx *= f; vy *= f; if (Math.abs(vx) < 1e-5) vx = 0; if (Math.abs(vy) < 1e-5) vy = 0; }
       else if (mode === 'globe' && !REDUCED && now - lastInteract > 2500) { T.ry += dt * .045; S.ry = T.ry; }
     }
     for (const key of ['rx', 'ry', 'dist', 'ox', 'oy', 'focus']) S[key] = ease(S[key], T[key], k);

@@ -14,6 +14,7 @@
    "id": "nl",
    "name": "Netherlands",
    "active": false,
+   "next": true,
    "dot": [
     52.2,
     5.3
