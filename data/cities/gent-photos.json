@@ -4724,7 +4724,28 @@
    }
   },
   "osm-ankara-n4704463889": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-ankara-n4704463889/p1-1400.webp",
+     "thumb": "img/places/gent/osm-ankara-n4704463889/p1-700.webp",
+     "srcset": "img/places/gent/osm-ankara-n4704463889/p1-700.webp 700w, img/places/gent/osm-ankara-n4704463889/p1-1400.webp 1400w",
+     "w": 800,
+     "h": 526,
+     "category": "exterior",
+     "alt": "Ankara: the outside",
+     "credit": "ankararesto.be",
+     "credit_url": "http://www.ankararesto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-ankara-n4704463889/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-antichi-sapori-n10097967923": {
    "photos": [
@@ -6216,7 +6237,28 @@
    "layout": "mix"
   },
   "osm-borsalino-san-marino-n3394539390": {
-   "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-borsalino-san-marino-n3394539390/p1-1400.webp",
+     "thumb": "img/places/gent/osm-borsalino-san-marino-n3394539390/p1-700.webp",
+     "srcset": "img/places/gent/osm-borsalino-san-marino-n3394539390/p1-700.webp 700w, img/places/gent/osm-borsalino-san-marino-n3394539390/p1-1400.webp 1400w",
+     "w": 705,
+     "h": 470,
+     "category": "interior",
+     "alt": "Borsalino San Marino: the interior",
+     "credit": "borsalinosanmarino.be",
+     "credit_url": "https://www.borsalinosanmarino.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-borsalino-san-marino-n3394539390/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-brasserie-alfons-n4364430396": {
    "photos": [
@@ -7770,7 +7812,70 @@
    "layout": "mix"
   },
   "osm-corner-city-w809916753": {
-   "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-corner-city-w809916753/p1-1400.webp",
+     "thumb": "img/places/gent/osm-corner-city-w809916753/p1-700.webp",
+     "srcset": "img/places/gent/osm-corner-city-w809916753/p1-700.webp 700w, img/places/gent/osm-corner-city-w809916753/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 842,
+     "category": "interior",
+     "alt": "Corner City: the interior",
+     "credit": "cornercitygent.be",
+     "credit_url": "https://www.cornercitygent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-corner-city-w809916753/p2-800.webp",
+     "thumb": "img/places/gent/osm-corner-city-w809916753/p2-400.webp",
+     "srcset": "img/places/gent/osm-corner-city-w809916753/p2-400.webp 400w, img/places/gent/osm-corner-city-w809916753/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Corner City: food",
+     "credit": "cornercitygent.be",
+     "credit_url": "https://www.cornercitygent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-corner-city-w809916753/p3-800.webp",
+     "thumb": "img/places/gent/osm-corner-city-w809916753/p3-400.webp",
+     "srcset": "img/places/gent/osm-corner-city-w809916753/p3-400.webp 400w, img/places/gent/osm-corner-city-w809916753/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Corner City: food",
+     "credit": "cornercitygent.be",
+     "credit_url": "https://www.cornercitygent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-corner-city-w809916753/p4-800.webp",
+     "thumb": "img/places/gent/osm-corner-city-w809916753/p4-400.webp",
+     "srcset": "img/places/gent/osm-corner-city-w809916753/p4-400.webp 400w, img/places/gent/osm-corner-city-w809916753/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Corner City: food",
+     "credit": "cornercitygent.be",
+     "credit_url": "https://www.cornercitygent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-corner-city-w809916753/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-cotee-n12800541091": {
    "photos": [
@@ -8607,7 +8712,84 @@
    "hold": "no people-free photo found (research): only people/gig posters"
   },
   "osm-de-mokke-n6434031888": {
-   "hold": "no people-free photo found (research): Own IG: stock-looking vegetable images and a logo only"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-de-mokke-n6434031888/p1-1400.webp",
+     "thumb": "img/places/gent/osm-de-mokke-n6434031888/p1-700.webp",
+     "srcset": "img/places/gent/osm-de-mokke-n6434031888/p1-700.webp 700w, img/places/gent/osm-de-mokke-n6434031888/p1-1400.webp 1400w",
+     "w": 750,
+     "h": 563,
+     "category": "interior",
+     "alt": "De Mokke: the interior",
+     "credit": "demokke.be",
+     "credit_url": "https://www.demokke.be/vergaderen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-mokke-n6434031888/p2-800.webp",
+     "thumb": "img/places/gent/osm-de-mokke-n6434031888/p2-400.webp",
+     "srcset": "img/places/gent/osm-de-mokke-n6434031888/p2-400.webp 400w, img/places/gent/osm-de-mokke-n6434031888/p2-800.webp 800w",
+     "w": 800,
+     "h": 625,
+     "category": "food",
+     "alt": "De Mokke: food",
+     "credit": "demokke.be",
+     "credit_url": "https://www.demokke.be/eten",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-mokke-n6434031888/p3-800.webp",
+     "thumb": "img/places/gent/osm-de-mokke-n6434031888/p3-400.webp",
+     "srcset": "img/places/gent/osm-de-mokke-n6434031888/p3-400.webp 400w, img/places/gent/osm-de-mokke-n6434031888/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "drink",
+     "alt": "De Mokke: drinks",
+     "credit": "demokke.be",
+     "credit_url": "https://www.demokke.be/eten",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-mokke-n6434031888/p4-800.webp",
+     "thumb": "img/places/gent/osm-de-mokke-n6434031888/p4-400.webp",
+     "srcset": "img/places/gent/osm-de-mokke-n6434031888/p4-400.webp 400w, img/places/gent/osm-de-mokke-n6434031888/p4-800.webp 800w",
+     "w": 800,
+     "h": 338,
+     "category": "interior",
+     "alt": "De Mokke: the interior",
+     "credit": "demokke.be",
+     "credit_url": "https://www.demokke.be/vergaderen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-mokke-n6434031888/p5-800.webp",
+     "thumb": "img/places/gent/osm-de-mokke-n6434031888/p5-400.webp",
+     "srcset": "img/places/gent/osm-de-mokke-n6434031888/p5-400.webp 400w, img/places/gent/osm-de-mokke-n6434031888/p5-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "drink",
+     "alt": "De Mokke: drinks",
+     "credit": "demokke.be",
+     "credit_url": "https://www.demokke.be/eten",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-de-mokke-n6434031888/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-de-parkiet-n6111142585": {
    "posts": [
@@ -9892,7 +10074,70 @@
    "layout": "mix"
   },
   "osm-et-alors-n1212154982": {
-   "hold": "no people-free photo found (research): No images obtainable from own IG/site"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-et-alors-n1212154982/p1-1400.webp",
+     "thumb": "img/places/gent/osm-et-alors-n1212154982/p1-700.webp",
+     "srcset": "img/places/gent/osm-et-alors-n1212154982/p1-700.webp 700w, img/places/gent/osm-et-alors-n1212154982/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Et Alors: food",
+     "credit": "etalors-cafe.be",
+     "credit_url": "https://www.etalors-cafe.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-et-alors-n1212154982/p2-800.webp",
+     "thumb": "img/places/gent/osm-et-alors-n1212154982/p2-400.webp",
+     "srcset": "img/places/gent/osm-et-alors-n1212154982/p2-400.webp 400w, img/places/gent/osm-et-alors-n1212154982/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Et Alors: food",
+     "credit": "etalors-cafe.be",
+     "credit_url": "https://www.etalors-cafe.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-et-alors-n1212154982/p3-800.webp",
+     "thumb": "img/places/gent/osm-et-alors-n1212154982/p3-400.webp",
+     "srcset": "img/places/gent/osm-et-alors-n1212154982/p3-400.webp 400w, img/places/gent/osm-et-alors-n1212154982/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Et Alors: food",
+     "credit": "etalors-cafe.be",
+     "credit_url": "https://www.etalors-cafe.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-et-alors-n1212154982/p4-800.webp",
+     "thumb": "img/places/gent/osm-et-alors-n1212154982/p4-400.webp",
+     "srcset": "img/places/gent/osm-et-alors-n1212154982/p4-400.webp 400w, img/places/gent/osm-et-alors-n1212154982/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "drink",
+     "alt": "Et Alors: drinks",
+     "credit": "etalors-cafe.be",
+     "credit_url": "https://www.etalors-cafe.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-et-alors-n1212154982/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-everest-eetcafe-n1275915798": {
    "photos": [
@@ -9992,7 +10237,56 @@
    "layout": "mix"
   },
   "osm-fitchen-n1532798337": {
-   "hold": "no people-free photo found (research): possible chain (Fitchen, several Belgian branches; fitchen.be redirects to fitchen.com); images also show staff/hands"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-fitchen-n1532798337/p1-1400.webp",
+     "thumb": "img/places/gent/osm-fitchen-n1532798337/p1-700.webp",
+     "srcset": "img/places/gent/osm-fitchen-n1532798337/p1-700.webp 700w, img/places/gent/osm-fitchen-n1532798337/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Fitchen: the interior",
+     "credit": "fitchen.com",
+     "credit_url": "https://fitchen.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-fitchen-n1532798337/p2-800.webp",
+     "thumb": "img/places/gent/osm-fitchen-n1532798337/p2-400.webp",
+     "srcset": "img/places/gent/osm-fitchen-n1532798337/p2-400.webp 400w, img/places/gent/osm-fitchen-n1532798337/p2-800.webp 800w",
+     "w": 768,
+     "h": 768,
+     "category": "food",
+     "alt": "Fitchen: food",
+     "credit": "fitchen.com",
+     "credit_url": "https://fitchen.com/fitchen-menu-2-2/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-fitchen-n1532798337/p3-800.webp",
+     "thumb": "img/places/gent/osm-fitchen-n1532798337/p3-400.webp",
+     "srcset": "img/places/gent/osm-fitchen-n1532798337/p3-400.webp 400w, img/places/gent/osm-fitchen-n1532798337/p3-800.webp 800w",
+     "w": 768,
+     "h": 768,
+     "category": "food",
+     "alt": "Fitchen: food",
+     "credit": "fitchen.com",
+     "credit_url": "https://fitchen.com/fitchen-menu-2-2/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-fitchen-n1532798337/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-fitchen-n3394542496": {
    "posts": [
@@ -10040,7 +10334,42 @@
    "layout": "mix"
   },
   "osm-flordi-n11640842891": {
-   "hold": "no people-free photo found (research): Own IG/site: event posters/people and illustrations only"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-flordi-n11640842891/p1-1400.webp",
+     "thumb": "img/places/gent/osm-flordi-n11640842891/p1-700.webp",
+     "srcset": "img/places/gent/osm-flordi-n11640842891/p1-700.webp 700w, img/places/gent/osm-flordi-n11640842891/p1-1400.webp 1400w",
+     "w": 769,
+     "h": 1024,
+     "category": "exterior",
+     "alt": "Flordi: the outside",
+     "credit": "flordi.be",
+     "credit_url": "https://flordi.be/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-flordi-n11640842891/p2-800.webp",
+     "thumb": "img/places/gent/osm-flordi-n11640842891/p2-400.webp",
+     "srcset": "img/places/gent/osm-flordi-n11640842891/p2-400.webp 400w, img/places/gent/osm-flordi-n11640842891/p2-800.webp 800w",
+     "w": 769,
+     "h": 1024,
+     "category": "exterior",
+     "alt": "Flordi: the outside",
+     "credit": "flordi.be",
+     "credit_url": "https://flordi.be/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-flordi-n11640842891/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-flynn-s-n5395453707": {
    "posts": [
@@ -12667,7 +12996,28 @@
    "hold": "no people-free photo found (research): own website from data, Instagram embed gave no images: website unreachable (ERR_CONNECTION_CLOSED)"
   },
   "osm-krua-panya-n6138202016": {
-   "hold": "no people-free photo found (research): website in data (pontima.eu) does not clearly match the name; only usable image looks like a generic Thailand street sign"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-krua-panya-n6138202016/p1-1400.webp",
+     "thumb": "img/places/gent/osm-krua-panya-n6138202016/p1-700.webp",
+     "srcset": "img/places/gent/osm-krua-panya-n6138202016/p1-700.webp 700w, img/places/gent/osm-krua-panya-n6138202016/p1-1400.webp 1400w",
+     "w": 1020,
+     "h": 574,
+     "category": "food",
+     "alt": "Krua Panya: food",
+     "credit": "pontima.eu",
+     "credit_url": "https://www.pontima.eu/nl/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-krua-panya-n6138202016/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-krunch-n12708121938": {
    "posts": [
@@ -13515,7 +13865,42 @@
    "layout": "mix"
   },
   "osm-martino-n8941921521": {
-   "hold": "no people-free photo found (research): Own IG: people in all shots; night exterior has possible figures inside"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-martino-n8941921521/p1-1400.webp",
+     "thumb": "img/places/gent/osm-martino-n8941921521/p1-700.webp",
+     "srcset": "img/places/gent/osm-martino-n8941921521/p1-700.webp 700w, img/places/gent/osm-martino-n8941921521/p1-1400.webp 1400w",
+     "w": 640,
+     "h": 853,
+     "category": "interior",
+     "alt": "Martino: the interior",
+     "credit": "snackbarmartino.be",
+     "credit_url": "https://snackbarmartino.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-martino-n8941921521/p2-800.webp",
+     "thumb": "img/places/gent/osm-martino-n8941921521/p2-400.webp",
+     "srcset": "img/places/gent/osm-martino-n8941921521/p2-400.webp 400w, img/places/gent/osm-martino-n8941921521/p2-800.webp 800w",
+     "w": 640,
+     "h": 800,
+     "category": "exterior",
+     "alt": "Martino: the outside",
+     "credit": "snackbarmartino.be",
+     "credit_url": "https://snackbarmartino.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-martino-n8941921521/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-masala-accent-n12128973417": {
    "photos": [
@@ -14459,7 +14844,84 @@
    "layout": "mix"
   },
   "osm-ode-brasserie-n1187193552": {
-   "hold": "no people-free photo found (research): No images found from own sources"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-ode-brasserie-n1187193552/p1-1400.webp",
+     "thumb": "img/places/gent/osm-ode-brasserie-n1187193552/p1-700.webp",
+     "srcset": "img/places/gent/osm-ode-brasserie-n1187193552/p1-700.webp 700w, img/places/gent/osm-ode-brasserie-n1187193552/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Ode Brasserie: the interior",
+     "credit": "brasserie-ode.be",
+     "credit_url": "https://brasserie-ode.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ode-brasserie-n1187193552/p2-800.webp",
+     "thumb": "img/places/gent/osm-ode-brasserie-n1187193552/p2-400.webp",
+     "srcset": "img/places/gent/osm-ode-brasserie-n1187193552/p2-400.webp 400w, img/places/gent/osm-ode-brasserie-n1187193552/p2-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "Ode Brasserie: food",
+     "credit": "brasserie-ode.be",
+     "credit_url": "https://brasserie-ode.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ode-brasserie-n1187193552/p3-800.webp",
+     "thumb": "img/places/gent/osm-ode-brasserie-n1187193552/p3-400.webp",
+     "srcset": "img/places/gent/osm-ode-brasserie-n1187193552/p3-400.webp 400w, img/places/gent/osm-ode-brasserie-n1187193552/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Ode Brasserie: food",
+     "credit": "brasserie-ode.be",
+     "credit_url": "https://brasserie-ode.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ode-brasserie-n1187193552/p4-800.webp",
+     "thumb": "img/places/gent/osm-ode-brasserie-n1187193552/p4-400.webp",
+     "srcset": "img/places/gent/osm-ode-brasserie-n1187193552/p4-400.webp 400w, img/places/gent/osm-ode-brasserie-n1187193552/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Ode Brasserie: the interior",
+     "credit": "brasserie-ode.be",
+     "credit_url": "https://brasserie-ode.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ode-brasserie-n1187193552/p5-800.webp",
+     "thumb": "img/places/gent/osm-ode-brasserie-n1187193552/p5-400.webp",
+     "srcset": "img/places/gent/osm-ode-brasserie-n1187193552/p5-400.webp 400w, img/places/gent/osm-ode-brasserie-n1187193552/p5-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Ode Brasserie: food",
+     "credit": "brasserie-ode.be",
+     "credit_url": "https://brasserie-ode.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-ode-brasserie-n1187193552/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-odil-n11305200343": {
    "posts": [
@@ -15745,7 +16207,28 @@
    "layout": "mix"
   },
   "osm-rokko-n12659929329": {
-   "hold": "no people-free photo found (research): only people/graphics"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-rokko-n12659929329/p1-1400.webp",
+     "thumb": "img/places/gent/osm-rokko-n12659929329/p1-700.webp",
+     "srcset": "img/places/gent/osm-rokko-n12659929329/p1-700.webp 700w, img/places/gent/osm-rokko-n12659929329/p1-1400.webp 1400w",
+     "w": 888,
+     "h": 590,
+     "category": "exterior",
+     "alt": "Rokko: the outside",
+     "credit": "rokko.be",
+     "credit_url": "https://www.rokko.be/nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-rokko-n12659929329/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-rumi-n7177919608": {
    "hold": "no people-free photo found (research): people/hands/text overlays only"
@@ -16158,7 +16641,70 @@
    "layout": "mix"
   },
   "osm-soup-r-n5164395526": {
-   "hold": "no people-free photo found (research): only graphics/text-overlay posts"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-soup-r-n5164395526/p1-1400.webp",
+     "thumb": "img/places/gent/osm-soup-r-n5164395526/p1-700.webp",
+     "srcset": "img/places/gent/osm-soup-r-n5164395526/p1-700.webp 700w, img/places/gent/osm-soup-r-n5164395526/p1-1400.webp 1400w",
+     "w": 1055,
+     "h": 704,
+     "category": "food",
+     "alt": "Soup'r: food",
+     "credit": "soupr.be",
+     "credit_url": "https://www.soupr.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-soup-r-n5164395526/p2-800.webp",
+     "thumb": "img/places/gent/osm-soup-r-n5164395526/p2-400.webp",
+     "srcset": "img/places/gent/osm-soup-r-n5164395526/p2-400.webp 400w, img/places/gent/osm-soup-r-n5164395526/p2-800.webp 800w",
+     "w": 764,
+     "h": 1145,
+     "category": "food",
+     "alt": "Soup'r: food",
+     "credit": "soupr.be",
+     "credit_url": "https://www.soupr.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-soup-r-n5164395526/p3-800.webp",
+     "thumb": "img/places/gent/osm-soup-r-n5164395526/p3-400.webp",
+     "srcset": "img/places/gent/osm-soup-r-n5164395526/p3-400.webp 400w, img/places/gent/osm-soup-r-n5164395526/p3-800.webp 800w",
+     "w": 675,
+     "h": 912,
+     "category": "food",
+     "alt": "Soup'r: food",
+     "credit": "soupr.be",
+     "credit_url": "https://www.soupr.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-soup-r-n5164395526/p4-800.webp",
+     "thumb": "img/places/gent/osm-soup-r-n5164395526/p4-400.webp",
+     "srcset": "img/places/gent/osm-soup-r-n5164395526/p4-400.webp 400w, img/places/gent/osm-soup-r-n5164395526/p4-800.webp 800w",
+     "w": 764,
+     "h": 1145,
+     "category": "interior",
+     "alt": "Soup'r: the interior",
+     "credit": "soupr.be",
+     "credit_url": "https://www.soupr.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-soup-r-n5164395526/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-souplicious-n8957993745": {
    "hold": "no people-free photo found (research): AI/stock-like product images only"
@@ -16799,7 +17345,42 @@
    "layout": "mix"
   },
   "osm-t-felt-n14072558901": {
-   "hold": "only photos with people found (chef)"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-t-felt-n14072558901/p1-1400.webp",
+     "thumb": "img/places/gent/osm-t-felt-n14072558901/p1-700.webp",
+     "srcset": "img/places/gent/osm-t-felt-n14072558901/p1-700.webp 700w, img/places/gent/osm-t-felt-n14072558901/p1-1400.webp 1400w",
+     "w": 640,
+     "h": 640,
+     "category": "food",
+     "alt": "‘t Felt: food",
+     "credit": "tfelt.com",
+     "credit_url": "https://www.tfelt.com/broodjes",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-t-felt-n14072558901/p2-800.webp",
+     "thumb": "img/places/gent/osm-t-felt-n14072558901/p2-400.webp",
+     "srcset": "img/places/gent/osm-t-felt-n14072558901/p2-400.webp 400w, img/places/gent/osm-t-felt-n14072558901/p2-800.webp 800w",
+     "w": 640,
+     "h": 640,
+     "category": "food",
+     "alt": "‘t Felt: food",
+     "credit": "tfelt.com",
+     "credit_url": "https://www.tfelt.com/broodjes",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-t-felt-n14072558901/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-t-klokhuys-n3394070669": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
@@ -18395,13 +18976,97 @@
    "layout": "mix"
   },
   "osm-wok-king-w1110607357": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-wok-king-w1110607357/p1-1400.webp",
+     "thumb": "img/places/gent/osm-wok-king-w1110607357/p1-700.webp",
+     "srcset": "img/places/gent/osm-wok-king-w1110607357/p1-700.webp 700w, img/places/gent/osm-wok-king-w1110607357/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Wok King: food",
+     "credit": "wokkingrestaurant.be",
+     "credit_url": "https://www.wokkingrestaurant.be/wokmenu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-wok-king-w1110607357/p2-800.webp",
+     "thumb": "img/places/gent/osm-wok-king-w1110607357/p2-400.webp",
+     "srcset": "img/places/gent/osm-wok-king-w1110607357/p2-400.webp 400w, img/places/gent/osm-wok-king-w1110607357/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Wok King: food",
+     "credit": "wokkingrestaurant.be",
+     "credit_url": "https://www.wokkingrestaurant.be/wokmenu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-wok-king-w1110607357/p3-800.webp",
+     "thumb": "img/places/gent/osm-wok-king-w1110607357/p3-400.webp",
+     "srcset": "img/places/gent/osm-wok-king-w1110607357/p3-400.webp 400w, img/places/gent/osm-wok-king-w1110607357/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Wok King: food",
+     "credit": "wokkingrestaurant.be",
+     "credit_url": "https://www.wokkingrestaurant.be/wokmenu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-wok-king-w1110607357/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-yalla-yalla-n11049255677": {
    "hold": "no people-free photo found (research): own website from data: website unreachable (ERR_CONNECTION_CLOSED); no Instagram on record"
   },
   "osm-yammi-yammi-n6780960089": {
-   "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-yammi-yammi-n6780960089/p1-1400.webp",
+     "thumb": "img/places/gent/osm-yammi-yammi-n6780960089/p1-700.webp",
+     "srcset": "img/places/gent/osm-yammi-yammi-n6780960089/p1-700.webp 700w, img/places/gent/osm-yammi-yammi-n6780960089/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Yammi Yammi: food",
+     "credit": "yammiyammi.be",
+     "credit_url": "https://yammiyammi.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-yammi-yammi-n6780960089/p2-800.webp",
+     "thumb": "img/places/gent/osm-yammi-yammi-n6780960089/p2-400.webp",
+     "srcset": "img/places/gent/osm-yammi-yammi-n6780960089/p2-400.webp 400w, img/places/gent/osm-yammi-yammi-n6780960089/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Yammi Yammi: food",
+     "credit": "yammiyammi.be",
+     "credit_url": "https://yammiyammi.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-yammi-yammi-n6780960089/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-yeti-n12542341837": {
    "posts": [
@@ -23321,6 +23986,266 @@
    "pick": {
     "type": "photo",
     "src": "img/places/gent/take-five-voldersstraat/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-basic-italian-n12702756861": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-basic-italian-n12702756861/p1-1400.webp",
+     "thumb": "img/places/gent/osm-basic-italian-n12702756861/p1-700.webp",
+     "srcset": "img/places/gent/osm-basic-italian-n12702756861/p1-700.webp 700w, img/places/gent/osm-basic-italian-n12702756861/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 936,
+     "category": "interior",
+     "alt": "basic Italian: the interior",
+     "credit": "basic-italian.be",
+     "credit_url": "https://basic-italian.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-basic-italian-n12702756861/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-resto-leo-n13355672924": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-resto-leo-n13355672924/p1-1400.webp",
+     "thumb": "img/places/gent/osm-resto-leo-n13355672924/p1-700.webp",
+     "srcset": "img/places/gent/osm-resto-leo-n13355672924/p1-700.webp 700w, img/places/gent/osm-resto-leo-n13355672924/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 502,
+     "category": "food",
+     "alt": "Resto Leo: food",
+     "credit": "restoleo.be",
+     "credit_url": "https://restoleo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-resto-leo-n13355672924/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-way-plantbased-bakehouse-n4256139406": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p1-1400.webp",
+     "thumb": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p1-700.webp",
+     "srcset": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p1-700.webp 700w, img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "WAY Plantbased Bakehouse: the interior",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p2-800.webp",
+     "thumb": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p2-400.webp",
+     "srcset": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p2-400.webp 400w, img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p2-800.webp 800w",
+     "w": 800,
+     "h": 524,
+     "category": "drink",
+     "alt": "WAY Plantbased Bakehouse: drinks",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/pages/brew-guidesespresso-way-coffee-roasters",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p3-800.webp",
+     "thumb": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p3-400.webp",
+     "srcset": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p3-400.webp 400w, img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p3-800.webp 800w",
+     "w": 800,
+     "h": 690,
+     "category": "drink",
+     "alt": "WAY Plantbased Bakehouse: drinks",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/pages/brew-guidesespresso-way-coffee-roasters",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p4-800.webp",
+     "thumb": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p4-400.webp",
+     "srcset": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p4-400.webp 400w, img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "WAY Plantbased Bakehouse: the interior",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-way-plantbased-bakehouse-n4256139406/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "het-spijker": {
+   "photos": [
+    {
+     "src": "img/places/gent/het-spijker/p1-1400.webp",
+     "thumb": "img/places/gent/het-spijker/p1-700.webp",
+     "srcset": "img/places/gent/het-spijker/p1-700.webp 700w, img/places/gent/het-spijker/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "exterior",
+     "alt": "Het Spijker: the outside",
+     "credit": "Basvb",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Gent_-_Graslei_Spijker.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Gent_-_Graslei_Spijker.JPG",
+     "source": "commons",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/het-spijker/p2-800.webp",
+     "thumb": "img/places/gent/het-spijker/p2-400.webp",
+     "srcset": "img/places/gent/het-spijker/p2-400.webp 400w, img/places/gent/het-spijker/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "exterior",
+     "alt": "Het Spijker: the outside",
+     "credit": "EmDee",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Belgi%C3%AB_-_Gent_-_Spijker_-_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Belgi%C3%AB_-_Gent_-_Spijker_-_02.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/het-spijker/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bento-house-n12623160301": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-bento-house-n12623160301/p1-1400.webp",
+     "thumb": "img/places/gent/osm-bento-house-n12623160301/p1-700.webp",
+     "srcset": "img/places/gent/osm-bento-house-n12623160301/p1-700.webp 700w, img/places/gent/osm-bento-house-n12623160301/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Bento House: the interior",
+     "credit": "bentohouse.be",
+     "credit_url": "https://www.bentohouse.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bento-house-n12623160301/p2-800.webp",
+     "thumb": "img/places/gent/osm-bento-house-n12623160301/p2-400.webp",
+     "srcset": "img/places/gent/osm-bento-house-n12623160301/p2-400.webp 400w, img/places/gent/osm-bento-house-n12623160301/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Bento House: food",
+     "credit": "bentohouse.be",
+     "credit_url": "https://www.bentohouse.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bento-house-n12623160301/p3-800.webp",
+     "thumb": "img/places/gent/osm-bento-house-n12623160301/p3-400.webp",
+     "srcset": "img/places/gent/osm-bento-house-n12623160301/p3-400.webp 400w, img/places/gent/osm-bento-house-n12623160301/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Bento House: food",
+     "credit": "bentohouse.be",
+     "credit_url": "https://www.bentohouse.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bento-house-n12623160301/p4-800.webp",
+     "thumb": "img/places/gent/osm-bento-house-n12623160301/p4-400.webp",
+     "srcset": "img/places/gent/osm-bento-house-n12623160301/p4-400.webp 400w, img/places/gent/osm-bento-house-n12623160301/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Bento House: the interior",
+     "credit": "bentohouse.be",
+     "credit_url": "https://www.bentohouse.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bento-house-n12623160301/p5-800.webp",
+     "thumb": "img/places/gent/osm-bento-house-n12623160301/p5-400.webp",
+     "srcset": "img/places/gent/osm-bento-house-n12623160301/p5-400.webp 400w, img/places/gent/osm-bento-house-n12623160301/p5-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Bento House: the interior",
+     "credit": "bentohouse.be",
+     "credit_url": "https://www.bentohouse.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-bento-house-n12623160301/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-salita-n1425064288": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-la-salita-n1425064288/p1-1400.webp",
+     "thumb": "img/places/gent/osm-la-salita-n1425064288/p1-700.webp",
+     "srcset": "img/places/gent/osm-la-salita-n1425064288/p1-700.webp 700w, img/places/gent/osm-la-salita-n1425064288/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 810,
+     "category": "exterior",
+     "alt": "La Salita: the outside",
+     "credit": "la-salita.webador.it",
+     "credit_url": "https://la-salita.webador.it/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-la-salita-n1425064288/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
