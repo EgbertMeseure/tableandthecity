@@ -10141,6 +10141,484 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "osm-la-muse-de-marcel-n12365483346": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-la-muse-de-marcel-n12365483346/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-la-muse-de-marcel-n12365483346/p1-700.webp",
+     "srcset": "img/places/brugge/osm-la-muse-de-marcel-n12365483346/p1-700.webp 700w, img/places/brugge/osm-la-muse-de-marcel-n12365483346/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "La Muse De Marcel: food",
+     "credit": "lamusedemarcel.be",
+     "credit_url": "https://lamusedemarcel.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-la-muse-de-marcel-n12365483346/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-plancha-n13809435501": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-la-plancha-n13809435501/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-la-plancha-n13809435501/p1-700.webp",
+     "srcset": "img/places/brugge/osm-la-plancha-n13809435501/p1-700.webp 700w, img/places/brugge/osm-la-plancha-n13809435501/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "La Plancha: the interior",
+     "credit": "laplancha.be",
+     "credit_url": "https://laplancha.be/events-la-plancha/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-la-plancha-n13809435501/p2-800.webp",
+     "thumb": "img/places/brugge/osm-la-plancha-n13809435501/p2-400.webp",
+     "srcset": "img/places/brugge/osm-la-plancha-n13809435501/p2-400.webp 400w, img/places/brugge/osm-la-plancha-n13809435501/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "La Plancha: food",
+     "credit": "laplancha.be",
+     "credit_url": "https://laplancha.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-la-plancha-n13809435501/p3-800.webp",
+     "thumb": "img/places/brugge/osm-la-plancha-n13809435501/p3-400.webp",
+     "srcset": "img/places/brugge/osm-la-plancha-n13809435501/p3-400.webp 400w, img/places/brugge/osm-la-plancha-n13809435501/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "La Plancha: food",
+     "credit": "laplancha.be",
+     "credit_url": "https://laplancha.be/restaurant-la-plancha/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-la-plancha-n13809435501/p4-800.webp",
+     "thumb": "img/places/brugge/osm-la-plancha-n13809435501/p4-400.webp",
+     "srcset": "img/places/brugge/osm-la-plancha-n13809435501/p4-400.webp 400w, img/places/brugge/osm-la-plancha-n13809435501/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "La Plancha: the outside",
+     "credit": "laplancha.be",
+     "credit_url": "https://laplancha.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-la-plancha-n13809435501/p5-800.webp",
+     "thumb": "img/places/brugge/osm-la-plancha-n13809435501/p5-400.webp",
+     "srcset": "img/places/brugge/osm-la-plancha-n13809435501/p5-400.webp 400w, img/places/brugge/osm-la-plancha-n13809435501/p5-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "La Plancha: the interior",
+     "credit": "laplancha.be",
+     "credit_url": "https://laplancha.be/restaurant-la-plancha/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-la-plancha-n13809435501/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-le-panier-d-or-w102140865": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-le-panier-d-or-w102140865/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-le-panier-d-or-w102140865/p1-700.webp",
+     "srcset": "img/places/brugge/osm-le-panier-d-or-w102140865/p1-700.webp 700w, img/places/brugge/osm-le-panier-d-or-w102140865/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Le Panier d'Or: the interior",
+     "credit": "panier-dor.be",
+     "credit_url": "https://panier-dor.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-le-panier-d-or-w102140865/p2-800.webp",
+     "thumb": "img/places/brugge/osm-le-panier-d-or-w102140865/p2-400.webp",
+     "srcset": "img/places/brugge/osm-le-panier-d-or-w102140865/p2-400.webp 400w, img/places/brugge/osm-le-panier-d-or-w102140865/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Le Panier d'Or: the interior",
+     "credit": "panier-dor.be",
+     "credit_url": "https://panier-dor.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-le-panier-d-or-w102140865/p3-800.webp",
+     "thumb": "img/places/brugge/osm-le-panier-d-or-w102140865/p3-400.webp",
+     "srcset": "img/places/brugge/osm-le-panier-d-or-w102140865/p3-400.webp 400w, img/places/brugge/osm-le-panier-d-or-w102140865/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Le Panier d'Or: the interior",
+     "credit": "panier-dor.be",
+     "credit_url": "https://panier-dor.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-le-panier-d-or-w102140865/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-lhasa-n10924162868": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-lhasa-n10924162868/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-lhasa-n10924162868/p1-700.webp",
+     "srcset": "img/places/brugge/osm-lhasa-n10924162868/p1-700.webp 700w, img/places/brugge/osm-lhasa-n10924162868/p1-1400.webp 1400w",
+     "w": 800,
+     "h": 1058,
+     "category": "interior",
+     "alt": "Lhasa: the interior",
+     "credit": "lhasatibetkitchen.com",
+     "credit_url": "https://www.lhasatibetkitchen.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-lhasa-n10924162868/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-malpertuus-n2418765808": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-malpertuus-n2418765808/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-malpertuus-n2418765808/p1-700.webp",
+     "srcset": "img/places/brugge/osm-malpertuus-n2418765808/p1-700.webp 700w, img/places/brugge/osm-malpertuus-n2418765808/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Malpertuus: the interior",
+     "credit": "restaurant-malpertuus.be",
+     "credit_url": "https://www.restaurant-malpertuus.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-malpertuus-n2418765808/p2-800.webp",
+     "thumb": "img/places/brugge/osm-malpertuus-n2418765808/p2-400.webp",
+     "srcset": "img/places/brugge/osm-malpertuus-n2418765808/p2-400.webp 400w, img/places/brugge/osm-malpertuus-n2418765808/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Malpertuus: the interior",
+     "credit": "restaurant-malpertuus.be",
+     "credit_url": "https://www.restaurant-malpertuus.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-malpertuus-n2418765808/p3-800.webp",
+     "thumb": "img/places/brugge/osm-malpertuus-n2418765808/p3-400.webp",
+     "srcset": "img/places/brugge/osm-malpertuus-n2418765808/p3-400.webp 400w, img/places/brugge/osm-malpertuus-n2418765808/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Malpertuus: the interior",
+     "credit": "restaurant-malpertuus.be",
+     "credit_url": "https://www.restaurant-malpertuus.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-malpertuus-n2418765808/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-mama-luca-n793769601": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-mama-luca-n793769601/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-mama-luca-n793769601/p1-700.webp",
+     "srcset": "img/places/brugge/osm-mama-luca-n793769601/p1-700.webp 700w, img/places/brugge/osm-mama-luca-n793769601/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Mama luca: food",
+     "credit": "mamaluca.be",
+     "credit_url": "https://www.mamaluca.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-mama-luca-n793769601/p2-800.webp",
+     "thumb": "img/places/brugge/osm-mama-luca-n793769601/p2-400.webp",
+     "srcset": "img/places/brugge/osm-mama-luca-n793769601/p2-400.webp 400w, img/places/brugge/osm-mama-luca-n793769601/p2-800.webp 800w",
+     "w": 800,
+     "h": 951,
+     "category": "food",
+     "alt": "Mama luca: food",
+     "credit": "mamaluca.be",
+     "credit_url": "https://www.mamaluca.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-mama-luca-n793769601/p3-800.webp",
+     "thumb": "img/places/brugge/osm-mama-luca-n793769601/p3-400.webp",
+     "srcset": "img/places/brugge/osm-mama-luca-n793769601/p3-400.webp 400w, img/places/brugge/osm-mama-luca-n793769601/p3-800.webp 800w",
+     "w": 768,
+     "h": 1024,
+     "category": "interior",
+     "alt": "Mama luca: the interior",
+     "credit": "mamaluca.be",
+     "credit_url": "https://www.mamaluca.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-mama-luca-n793769601/p4-800.webp",
+     "thumb": "img/places/brugge/osm-mama-luca-n793769601/p4-400.webp",
+     "srcset": "img/places/brugge/osm-mama-luca-n793769601/p4-400.webp 400w, img/places/brugge/osm-mama-luca-n793769601/p4-800.webp 800w",
+     "w": 768,
+     "h": 1024,
+     "category": "interior",
+     "alt": "Mama luca: the interior",
+     "credit": "mamaluca.be",
+     "credit_url": "https://www.mamaluca.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-mama-luca-n793769601/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-nelson-n1305702952": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-nelson-n1305702952/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-nelson-n1305702952/p1-700.webp",
+     "srcset": "img/places/brugge/osm-nelson-n1305702952/p1-700.webp 700w, img/places/brugge/osm-nelson-n1305702952/p1-1400.webp 1400w",
+     "w": 782,
+     "h": 519,
+     "category": "interior",
+     "alt": "Nelson: the interior",
+     "credit": "restaurantnelson.be",
+     "credit_url": "https://restaurantnelson.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-nelson-n1305702952/p2-800.webp",
+     "thumb": "img/places/brugge/osm-nelson-n1305702952/p2-400.webp",
+     "srcset": "img/places/brugge/osm-nelson-n1305702952/p2-400.webp 400w, img/places/brugge/osm-nelson-n1305702952/p2-800.webp 800w",
+     "w": 782,
+     "h": 519,
+     "category": "food",
+     "alt": "Nelson: food",
+     "credit": "restaurantnelson.be",
+     "credit_url": "https://restaurantnelson.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-nelson-n1305702952/p3-800.webp",
+     "thumb": "img/places/brugge/osm-nelson-n1305702952/p3-400.webp",
+     "srcset": "img/places/brugge/osm-nelson-n1305702952/p3-400.webp 400w, img/places/brugge/osm-nelson-n1305702952/p3-800.webp 800w",
+     "w": 782,
+     "h": 519,
+     "category": "interior",
+     "alt": "Nelson: the interior",
+     "credit": "restaurantnelson.be",
+     "credit_url": "https://restaurantnelson.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-nelson-n1305702952/p4-800.webp",
+     "thumb": "img/places/brugge/osm-nelson-n1305702952/p4-400.webp",
+     "srcset": "img/places/brugge/osm-nelson-n1305702952/p4-400.webp 400w, img/places/brugge/osm-nelson-n1305702952/p4-800.webp 800w",
+     "w": 782,
+     "h": 519,
+     "category": "interior",
+     "alt": "Nelson: the interior",
+     "credit": "restaurantnelson.be",
+     "credit_url": "https://restaurantnelson.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-nelson-n1305702952/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-o-velo-n14157624491": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-o-velo-n14157624491/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-o-velo-n14157624491/p1-700.webp",
+     "srcset": "img/places/brugge/osm-o-velo-n14157624491/p1-700.webp 700w, img/places/brugge/osm-o-velo-n14157624491/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 699,
+     "category": "interior",
+     "alt": "O Vélo: the interior",
+     "credit": "hotelvelotel.com",
+     "credit_url": "https://www.hotelvelotel.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-o-velo-n14157624491/p2-800.webp",
+     "thumb": "img/places/brugge/osm-o-velo-n14157624491/p2-400.webp",
+     "srcset": "img/places/brugge/osm-o-velo-n14157624491/p2-400.webp 400w, img/places/brugge/osm-o-velo-n14157624491/p2-800.webp 800w",
+     "w": 800,
+     "h": 240,
+     "category": "interior",
+     "alt": "O Vélo: the interior",
+     "credit": "hotelvelotel.com",
+     "credit_url": "https://www.hotelvelotel.com/restaurant-ovelo",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-o-velo-n14157624491/p3-800.webp",
+     "thumb": "img/places/brugge/osm-o-velo-n14157624491/p3-400.webp",
+     "srcset": "img/places/brugge/osm-o-velo-n14157624491/p3-400.webp 400w, img/places/brugge/osm-o-velo-n14157624491/p3-800.webp 800w",
+     "w": 800,
+     "h": 401,
+     "category": "interior",
+     "alt": "O Vélo: the interior",
+     "credit": "hotelvelotel.com",
+     "credit_url": "https://www.hotelvelotel.com/lunchen-brugge-hotel-velotel",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-o-velo-n14157624491/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-ona-by-t-werftje-n5327715693": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-ona-by-t-werftje-n5327715693/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-ona-by-t-werftje-n5327715693/p1-700.webp",
+     "srcset": "img/places/brugge/osm-ona-by-t-werftje-n5327715693/p1-700.webp 700w, img/places/brugge/osm-ona-by-t-werftje-n5327715693/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "ONA by 't Werftje: food",
+     "credit": "twerftje.be",
+     "credit_url": "https://www.twerftje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-ona-by-t-werftje-n5327715693/p2-800.webp",
+     "thumb": "img/places/brugge/osm-ona-by-t-werftje-n5327715693/p2-400.webp",
+     "srcset": "img/places/brugge/osm-ona-by-t-werftje-n5327715693/p2-400.webp 400w, img/places/brugge/osm-ona-by-t-werftje-n5327715693/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "ONA by 't Werftje: food",
+     "credit": "twerftje.be",
+     "credit_url": "https://www.twerftje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-ona-by-t-werftje-n5327715693/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-t-oud-kanthuys-n11693991868": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-t-oud-kanthuys-n11693991868/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-t-oud-kanthuys-n11693991868/p1-700.webp",
+     "srcset": "img/places/brugge/osm-t-oud-kanthuys-n11693991868/p1-700.webp 700w, img/places/brugge/osm-t-oud-kanthuys-n11693991868/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "'t Oud Kanthuys: the interior",
+     "credit": "toudkanthuys.be",
+     "credit_url": "http://www.toudkanthuys.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-t-oud-kanthuys-n11693991868/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
