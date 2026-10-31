@@ -1,5 +1,5 @@
 /* "Suggest a place": a small form (same .crq sheet as "Request your city") opened from any [data-suggest] element
-   (footer, nav drawer, end of the "All places" list) or the #suggest URL hash.
+   (footer, nav drawer, the line under the guide map) or the #suggest URL hash.
    Sent with TGForms.send (js/forms.js: FormSubmit, fallback Web3Forms → info@tableandthecity.com); no mail app involved.
    No endpoint configured → the entry points are hidden. */
 (function () {

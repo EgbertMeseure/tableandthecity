@@ -425,11 +425,7 @@
     b.hidden = left <= 0;
     if (PHONE.matches) b.innerHTML = `Show more places <span class="lm__n">+${Math.min(PH_STEP, left)} · ${left.toLocaleString('en-GB')} more</span>`;
     else b.textContent = `Show more (${Math.min(PAGE, left)} of ${left} more)`;
-    // "Missing a place? Suggest it" (js/suggest.js) as the last line of the list itself (desktop: the list scrolls inside its column;
-    // phone: the copy under "Show more" in .list-more is used instead, see css)
-    let sl = $('#list .suggest-line--in');
-    if (!sl) { sl = document.createElement('p'); sl.className = 'suggest-line suggest-line--in'; sl.innerHTML = 'Missing a place? <a href="#suggest" data-suggest>Suggest it</a>'; }
-    $('#list').appendChild(sl);
+    // "Missing a place? Suggest it" now sits as a slim line under the map (.suggest-line--map in guide.html), not in the list
   }
   $('#list-more').addEventListener('click', () => {
     const next = LIST.slice(shown, shown + step()); shown += next.length;
