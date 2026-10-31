@@ -32,7 +32,9 @@ const SIDE = { be: 'b', nl: 't' };   // step-2 label sides so the pills never ov
 (LAND.countries || []).forEach(x => { if (x.label) SIDE[x.id] = x.label; });
 const cityById = id => { for (const co of COUNTRIES) { const c = co.cities.find(x => x.id === id); if (c) return [co, c]; } return [null, null]; };
 const focus = c => c.images && c.images.heroFocus ? ` style="object-position:${esc(c.images.heroFocus)}"` : '';   // cities.json images.heroFocus (e.g. Ostend '12% 50%') keeps the subject in narrow crops
-const heroSet = (b, sizes = '100vw') => `src="${esc(b)}-1600.jpg" srcset="${esc(b)}-1000.webp 1000w, ${esc(b)}-1600.webp 1600w, ${esc(b)}-2400.webp 2400w" sizes="${sizes}"`;
+/* photos load from the media host (js/media.js); data keeps repo-relative img/… paths */
+const M = window.TG_MEDIA || { url: u => u, srcset: s => s };
+const heroSet = (b, sizes = '100vw') => `src="${esc(M.url(b + '-1600.jpg'))}" srcset="${esc(M.srcset(`${b}-1000.webp 1000w, ${b}-1600.webp 1600w, ${b}-2400.webp 2400w`))}" sizes="${sizes}"`;
 
 /* ---------- static UI: destinations list, cards, resume ---------- */
 $('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.active ? '' : co.next ? ' · next' : ' · coming soon'}</h3><ul>${co.cities.map(c => c.active
@@ -108,7 +110,8 @@ async function initGlobe() {
   const R = 1;
   const small = () => innerWidth <= 760;
   const loader = new THREE.TextureLoader();
-  const tex = u => new Promise((ok, no) => loader.load(u, t => { t.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy()); ok(t); }, undefined, no));
+  const tex1 = u => new Promise((ok, no) => loader.load(u, t => { t.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy()); ok(t); }, undefined, no));
+  const tex = u => tex1(M.url(u)).catch(e => M.url(u) !== u ? tex1(u) : Promise.reject(e));   // media host (needs its CORS policy: WebGL) → in-repo fallback
   const big = !small() && renderer.capabilities.maxTextureSize >= 4096;
   const [night, day] = await Promise.all([tex(big ? 'img/world/earth-night-4096.jpg' : 'img/world/earth-night-2048.jpg'), tex('img/world/earth-day-2048.jpg')]);
 
@@ -356,7 +359,7 @@ async function openShow(co, c) {
       <span class="ws-scroll" aria-hidden="true">Scroll</span></section>
     ${imgs.length ? `<section class="ws-body"><div class="ws-body__head"><h3>What ${esc(c.name)} <i>has to offer</i></h3></div>
       <div class="ws-grid">${imgs.map(im => { const ws = im.sizes || [900, 1600];
-        return `<figure class="ws-fig"><div class="ws-ph${im.ratio && im.ratio < 1.2 ? ' ws-ph--sq' : ''}"><img src="${esc(im.src)}-${ws[0]}.webp" srcset="${ws.map(w => `${esc(im.src)}-${w}.webp ${w}w`).join(', ')}" sizes="(max-width:760px) 92vw, 50vw" alt="${esc(im.caption)}" loading="lazy" decoding="async"></div>
+        return `<figure class="ws-fig"><div class="ws-ph${im.ratio && im.ratio < 1.2 ? ' ws-ph--sq' : ''}"><img src="${esc(M.url(`${im.src}-${ws[0]}.webp`))}" srcset="${esc(M.srcset(ws.map(w => `${im.src}-${w}.webp ${w}w`).join(', ')))}" sizes="(max-width:760px) 92vw, 50vw" alt="${esc(im.caption)}" loading="lazy" decoding="async"></div>
           <figcaption><p>${esc(im.caption)}</p>${im.credit ? `<small>Photo: ${im.source ? `<a href="${esc(im.source)}" target="_blank" rel="noopener">${esc(im.credit)}</a>` : esc(im.credit)}</small>` : ''}</figcaption></figure>`; }).join('')}</div>
       <div class="ws-end"><p>Hungry yet?</p><div class="ws-btns"><a class="ws-go" href="${guideUrl(co.id, c.id)}">Find my table in ${esc(c.name)}</a>
         <button class="ws-ghost" type="button" data-close>Other cities</button></div>

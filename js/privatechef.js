@@ -31,7 +31,7 @@
   const photo = c => {
     const im = c.image;
     if (!im || !im.src) return `<div class="pc__img">${mono(c)}</div>`;
-    return `<div class="pc__img">${mono(c)}<img src="${esc(im.src)}" width="${+im.w || 960}" height="${+im.h || 720}" alt="${esc(im.alt || '')}" loading="lazy" decoding="async" onerror="this.nextElementSibling&&this.nextElementSibling.remove();this.remove()">${im.credit ? `<span class="pc__credit" data-i18n-skip>${url(im.credit_url) ? `<a href="${esc(im.credit_url)}" target="_blank" rel="noopener">${esc(im.credit)}</a>` : esc(im.credit)}</span>` : ''}</div>`;
+    return `<div class="pc__img">${mono(c)}<img src="${esc(TG.M.url(im.src))}" width="${+im.w || 960}" height="${+im.h || 720}" alt="${esc(im.alt || '')}" loading="lazy" decoding="async" onerror="this.nextElementSibling&&this.nextElementSibling.remove();this.remove()">${im.credit ? `<span class="pc__credit" data-i18n-skip>${url(im.credit_url) ? `<a href="${esc(im.credit_url)}" target="_blank" rel="noopener">${esc(im.credit)}</a>` : esc(im.credit)}</span>` : ''}</div>`;
   };
   const fact = (label, v) => v ? `<div><dt>${label}</dt><dd data-i18n-skip>${esc(v)}</dd></div>` : '';
   const links = c => {

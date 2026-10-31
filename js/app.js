@@ -8,7 +8,7 @@
   const IMG = city.images || {};
   { const h = document.querySelector('.hero__img');
     if (h && IMG.hero && !h.getAttribute('src').endsWith(`${IMG.hero}-1600.jpg`)) { const b = IMG.hero;
-      h.srcset = `${b}-1000.webp 1000w, ${b}-1600.webp 1600w, ${b}-2400.webp 2400w`; h.src = `${b}-1600.jpg`; }
+      h.srcset = TG.M.srcset(`${b}-1000.webp 1000w, ${b}-1600.webp 1600w, ${b}-2400.webp 2400w`); h.src = TG.M.url(`${b}-1600.jpg`); }
     if (h && IMG.heroFocus) h.style.objectPosition = IMG.heroFocus;   // optional focal point (object-position) so the subject survives the narrow phone crop, e.g. Ostend's Mercator
     if (h) (h.decode ? h.decode().catch(() => {}) : Promise.resolve()).then(() => h.classList.add('is-city')); }   // guide.html hides a non-default city's hero until its own photo is ready (no flash of Gent's)
   { const c = IMG.heroCredit, el = document.querySelector('.site-footer .meta');   // CC BY(-SA) city hero: author, licence and source stay on this page (footer); full notes on about.html

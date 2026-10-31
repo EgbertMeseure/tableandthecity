@@ -6,11 +6,13 @@
    - pages (HTML navigations) and data (*.json): network-first, so weekly updates show up; cached copy when offline;
      offline.html when a page was never cached.
    - static assets (css/js/img/fonts/icons, Leaflet from unpkg, Google Fonts): stale-while-revalidate.
+   - photos from the media host (img.tableandthecity.com, Cloudflare R2; see js/media.js): stale-while-revalidate, fetched in CORS
+     mode (the bucket has a CORS policy) so the cache holds real responses, never padded opaque ones.
    - OpenStreetMap tiles and every other third-party request: not touched (straight to the network, no SW cache) —
      the OSM tile usage policy discourages bulk/offline caching; the browser's normal HTTP cache still applies.
    All paths are relative to this file, so the same worker runs under /tableandthecity/ (GitHub Pages), at a domain root,
    or inside a Capacitor wrapper. */
-const VERSION = '78e205bf77'; // stamped
+const VERSION = '7217e5e839'; // stamped
 const PRECACHE = [
  "./",
  "index.html",
@@ -23,34 +25,35 @@ const PRECACHE = [
  "offline.html",
  "manifest.webmanifest",
  "favicon.ico",
- "js/i18n.js?v=78e205bf77",
+ "js/media.js?v=7217e5e839",
+ "js/i18n.js?v=7217e5e839",
  "vendor/three/three.custom.min.js",
- "css/brand.css?v=78e205bf77",
- "css/world.css?v=78e205bf77",
- "js/world.js?v=78e205bf77",
- "js/pwa.js?v=78e205bf77",
+ "css/brand.css?v=7217e5e839",
+ "css/world.css?v=7217e5e839",
+ "js/world.js?v=7217e5e839",
+ "js/pwa.js?v=7217e5e839",
  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
  "vendor/leaflet.markercluster/MarkerCluster.css",
- "css/style.css?v=78e205bf77",
+ "css/style.css?v=7217e5e839",
  "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
  "vendor/leaflet.markercluster/leaflet.markercluster.js",
- "js/config.js?v=78e205bf77",
- "js/forms.js?v=78e205bf77",
- "js/hours.js?v=78e205bf77",
- "js/common.js?v=78e205bf77",
- "js/quotes.js?v=78e205bf77",
- "js/app.js?v=78e205bf77",
- "js/quiz.js?v=78e205bf77",
- "js/suggest.js?v=78e205bf77",
- "js/eventreq.js?v=78e205bf77",
- "js/visits.js?v=78e205bf77",
- "js/cityreq.js?v=78e205bf77",
- "js/features.js?v=78e205bf77",
- "js/detail.js?v=78e205bf77",
- "js/report.js?v=78e205bf77",
- "js/back.js?v=78e205bf77",
- "js/info.js?v=78e205bf77",
- "js/privatechef.js?v=78e205bf77",
+ "js/config.js?v=7217e5e839",
+ "js/forms.js?v=7217e5e839",
+ "js/hours.js?v=7217e5e839",
+ "js/common.js?v=7217e5e839",
+ "js/quotes.js?v=7217e5e839",
+ "js/app.js?v=7217e5e839",
+ "js/quiz.js?v=7217e5e839",
+ "js/suggest.js?v=7217e5e839",
+ "js/eventreq.js?v=7217e5e839",
+ "js/visits.js?v=7217e5e839",
+ "js/cityreq.js?v=7217e5e839",
+ "js/features.js?v=7217e5e839",
+ "js/detail.js?v=7217e5e839",
+ "js/report.js?v=7217e5e839",
+ "js/back.js?v=7217e5e839",
+ "js/info.js?v=7217e5e839",
+ "js/privatechef.js?v=7217e5e839",
  "img/icons/apple-touch-icon.png",
  "img/icons/favicon-16.png",
  "img/icons/favicon-32.png",
@@ -59,10 +62,11 @@ const PRECACHE = [
  "img/icons/icon-512.png",
  "img/icons/icon-maskable-1024.png",
  "img/icons/icon-maskable-512.png",
- "data/cities.json?v=78e205bf77"
+ "data/cities.json?v=7217e5e839"
 ]; // stamped
 const SHELL = `tatc-shell-${VERSION}`, RUNTIME = `tatc-runtime-${VERSION}`;
 const SWR_HOSTS = ['unpkg.com', 'fonts.googleapis.com', 'fonts.gstatic.com'];
+const MEDIA_HOSTS = ['img.tableandthecity.com'];
 const BASE = new URL('./', self.location).href;
 const OFFLINE = new URL('offline.html', BASE).href;
 
@@ -94,10 +98,10 @@ async function networkFirst(req, isPage) {
   }
 }
 
-async function staleWhileRevalidate(e, req) {
+async function staleWhileRevalidate(e, req, cors) {
   const hit = await fromCache(req, false);
-  const net = fetch(req).then(res => {
-    if (res && (res.ok || res.type === 'opaque')) { const copy = res.clone(); caches.open(RUNTIME).then(c => c.put(req, copy)); }
+  const net = (cors ? fetch(req.url, { mode: 'cors', credentials: 'omit' }).catch(() => fetch(req)) : fetch(req)).then(res => {
+    if (res && (res.ok || (!cors && res.type === 'opaque'))) { const copy = res.clone(); caches.open(RUNTIME).then(c => c.put(req, copy)); }
     return res;
   }).catch(() => undefined);
   if (hit) { e.waitUntil(net); return hit; }
@@ -114,10 +118,12 @@ self.addEventListener('fetch', e => {
     if (/\.(json|webmanifest)$/.test(url.pathname)) return e.respondWith(networkFirst(req, false));
     return e.respondWith(staleWhileRevalidate(e, req));
   }
+  if (MEDIA_HOSTS.includes(url.hostname)) return e.respondWith(staleWhileRevalidate(e, req, true));
   if (SWR_HOSTS.includes(url.hostname)) return e.respondWith(staleWhileRevalidate(e, req));
   // everything else (OSM tiles, Google photos, Instagram, analytics…) → browser default, not cached by us
 });
 
+// media-host photos are not warmed: the page already has them in its HTTP cache (a no-CORS copy), so warming them in CORS mode would download them twice
 const cacheable = u => { try { const x = new URL(u); return x.origin === self.location.origin ? x.href.startsWith(BASE) : SWR_HOSTS.includes(x.hostname); } catch (e) { return false; } };
 self.addEventListener('message', e => {
   const d = e.data || {};

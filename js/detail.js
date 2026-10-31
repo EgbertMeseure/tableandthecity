@@ -1,6 +1,6 @@
 /* Table and the City – restaurant detail page (full colour) */
 (async function () {
-  const { esc, fmtDate, eur, known, badges, TYPE_LABEL, catLabel, cityUrl } = TG;
+  const { esc, fmtDate, eur, known, badges, TYPE_LABEL, catLabel, cityUrl, M } = TG;
   const isR = r => r.group === 'restaurants';
   TG.bindNav();
   const { cfg, city } = await TG.currentCity();
@@ -44,7 +44,7 @@
     $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
   } else if (!heroP && (igPosts.length || r.igEmbed)) { $('#himg').remove(); igHero(); }
   else if (heroP) {
-    $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(heroP.src)}" ${heroP.srcset ? `srcset="${esc(heroP.srcset)}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
+    $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(M.url(heroP.src))}" ${heroP.srcset ? `srcset="${esc(M.srcset(heroP.srcset))}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
     if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
     $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}`;
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
@@ -200,7 +200,7 @@
   const lbList = heroPh ? [heroPh, ...photos.filter(p => p !== heroPh)] : photos.slice();
   const nPh = lbList.length, t0 = heroPh ? 1 : 0, thumbs = lbList.slice(t0, t0 + 3);
   const nTxt = n => n === 1 ? '1 photo' : `${n} photos`;
-  const tile = (p, k, lab) => `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(p.thumb || p.src)}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${lab ? `<span class="dphotos__lab">${lab}</span>` : ''}</button>`;
+  const tile = (p, k, lab) => `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(M.url(p.thumb || p.src))}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${lab ? `<span class="dphotos__lab">${lab}</span>` : ''}</button>`;
   // one layout for every place (photoLayout no longer matters): 0 photos → no section (the calm typographic hero stays);
   // 1 → one tile at the standard size; 2 → side by side; 3+ → a row of up to 3 food photos, then the inside + the outside side by side.
   // Rows only come in 3 (square tiles) or 2 (4:3 tiles); a lone tile keeps the 2-column size, so no odd big / small mix
@@ -232,7 +232,7 @@
   const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}</span>`;
   const lb = $('#lb'); let lastFocus = null;
   function show(i) { idx = (i + shown.length) % shown.length; const p = shown[idx]; const im = $('#lb-img');
-    im.referrerPolicy = 'no-referrer'; im.src = p.src; im.alt = p.alt || ''; $('#lb-cap').innerHTML = `<span class="lb__count">${idx + 1} / ${shown.length} · ${CATL[p.category]}</span>${capOf(p)}`; }
+    im.referrerPolicy = 'no-referrer'; im.src = M.url(p.src); im.alt = p.alt || ''; $('#lb-cap').innerHTML = `<span class="lb__count">${idx + 1} / ${shown.length} · ${CATL[p.category]}</span>${capOf(p)}`; }
   function openLb(i) { lastFocus = document.activeElement; lb.hidden = false; document.body.classList.add('noscroll'); show(i); $('#lb-close').focus(); }
   function closeLb() { lb.hidden = true; document.body.classList.remove('noscroll'); if (lastFocus) lastFocus.focus(); }
   document.addEventListener('click', e => { const b = e.target.closest('[data-pi]'); if (b && lbList.length) { shown = lbList; openLb(Math.min(+b.dataset.pi, lbList.length - 1)); } });

@@ -22,6 +22,17 @@ confirmed stays `unknown`. The UI is English; sources are often Dutch (Gent).
   (then run `build_features.py` and `prune_events.py`).
   (Long term: edit `data/cities/gent.json` directly and drop the source-nl step.)
 
+## Photos live on Cloudflare R2 (img.tableandthecity.com)
+- The site loads every photo (`img/places`, `img/cities`, `img/events`, `img/chefs`, `img/commons`, `img/world`, the root mood images)
+  from `https://img.tableandthecity.com/<same repo path>`. The base URL is set in ONE place: `js/media.js` (`MEDIA_BASE`).
+  Data JSON keeps repo-relative `img/…` paths; JS turns them into URLs with `TG_MEDIA.url()` / `TG_MEDIA.srcset()` when rendering.
+  Logos, icons, favicons, og/share images and `img/CREDITS.json` stay in the repo and are served from the site.
+- **After adding or changing photos:** `python3 scripts/sync_media_r2.py` (uploads only new/changed files; needs the env vars
+  `R2_ACCESS_KEY_ID` / `R2_SECRET_ACCESS_KEY`; `--dry-run` to preview). Photo file names are reused when a pick changes, so objects get a
+  1-day cache (`max-age=86400, stale-while-revalidate=604800`).
+- Local testing: photos come from R2 by default; `?media=local` serves them from the local checkout (remembered; `?media=r2` resets).
+  A photo that fails on R2 retries once from the site while the files are still in the repo.
+
 ## Daily procedure (± 15–30 min per city)
 1. **Change detection** – `python3 scripts/check_changes.py gent`
    Fetches website + menu/event pages (1 req/s), compares hashes with the previous run → `data/pending-changes-gent.json`.
