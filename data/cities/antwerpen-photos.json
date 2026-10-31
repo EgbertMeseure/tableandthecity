@@ -170,7 +170,42 @@
    "layout": "mix"
   },
   "bar-burbure": {
-   "hold": "no people-free photo found (research): website shows only gift vouchers, book covers, T-shirts and a photo of the owners; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/bar-burbure/p1-1400.webp",
+     "thumb": "img/places/antwerpen/bar-burbure/p1-700.webp",
+     "srcset": "img/places/antwerpen/bar-burbure/p1-700.webp 700w, img/places/antwerpen/bar-burbure/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 817,
+     "category": "interior",
+     "alt": "Bar Burbure: the interior",
+     "credit": "barburbure.be",
+     "credit_url": "https://barburbure.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/bar-burbure/p2-800.webp",
+     "thumb": "img/places/antwerpen/bar-burbure/p2-400.webp",
+     "srcset": "img/places/antwerpen/bar-burbure/p2-400.webp 400w, img/places/antwerpen/bar-burbure/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "drink",
+     "alt": "Bar Burbure: drinks",
+     "credit": "@barburbure on Instagram",
+     "credit_url": "https://www.instagram.com/barburbure/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/bar-burbure/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "bar-misera": {
    "photos": [
@@ -443,7 +478,21 @@
      "thumb": "img/places/antwerpen/belgian-wines/p1-700.webp",
      "srcset": "img/places/antwerpen/belgian-wines/p1-700.webp 700w, img/places/antwerpen/belgian-wines/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 518,
+     "h": 1057,
+     "category": "interior",
+     "alt": "Belgian Wines: the interior",
+     "credit": "belgianwines.com",
+     "credit_url": "https://www.belgianwines.com/wijnbar-antwerpen/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/belgian-wines/p2-800.webp",
+     "thumb": "img/places/antwerpen/belgian-wines/p2-400.webp",
+     "srcset": "img/places/antwerpen/belgian-wines/p2-400.webp 400w, img/places/antwerpen/belgian-wines/p2-800.webp 800w",
+     "w": 800,
+     "h": 296,
      "category": "drink",
      "alt": "Belgian Wines: drinks",
      "credit": "belgianwines.com",
@@ -756,6 +805,20 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/black-smoke/p3-800.webp",
+     "thumb": "img/places/antwerpen/black-smoke/p3-400.webp",
+     "srcset": "img/places/antwerpen/black-smoke/p3-400.webp 400w, img/places/antwerpen/black-smoke/p3-800.webp 800w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "Black Smoke: food",
+     "credit": "@blacksmokeantwerpen on Instagram",
+     "credit_url": "https://www.instagram.com/blacksmokeantwerpen/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -801,13 +864,13 @@
      "thumb": "img/places/antwerpen/boe/p2-400.webp",
      "srcset": "img/places/antwerpen/boe/p2-400.webp 400w, img/places/antwerpen/boe/p2-800.webp 800w",
      "w": 800,
-     "h": 879,
+     "h": 1220,
      "category": "food",
      "alt": "Boe: food",
-     "credit": "@boe.antwerp on Instagram",
-     "credit_url": "https://www.instagram.com/boe.antwerp/",
+     "credit": "boeantwerp.com",
+     "credit_url": "https://boeantwerp.com/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     },
     {
@@ -815,7 +878,7 @@
      "thumb": "img/places/antwerpen/boe/p3-400.webp",
      "srcset": "img/places/antwerpen/boe/p3-400.webp 400w, img/places/antwerpen/boe/p3-800.webp 800w",
      "w": 800,
-     "h": 1220,
+     "h": 1028,
      "category": "food",
      "alt": "Boe: food",
      "credit": "boeantwerp.com",
@@ -857,6 +920,20 @@
      "srcset": "img/places/antwerpen/briquet/p2-400.webp 400w, img/places/antwerpen/briquet/p2-800.webp 800w",
      "w": 800,
      "h": 1067,
+     "category": "food",
+     "alt": "Briquet: food",
+     "credit": "briquetantwerp.be",
+     "credit_url": "https://www.briquetantwerp.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/briquet/p3-800.webp",
+     "thumb": "img/places/antwerpen/briquet/p3-400.webp",
+     "srcset": "img/places/antwerpen/briquet/p3-400.webp 400w, img/places/antwerpen/briquet/p3-800.webp 800w",
+     "w": 800,
+     "h": 527,
      "category": "food",
      "alt": "Briquet: food",
      "credit": "briquetantwerp.be",
@@ -1137,14 +1214,70 @@
      "src": "img/places/antwerpen/cella/p1-1400.webp",
      "thumb": "img/places/antwerpen/cella/p1-700.webp",
      "srcset": "img/places/antwerpen/cella/p1-700.webp 700w, img/places/antwerpen/cella/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1335,
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "Cella: the interior",
+     "credit": "cella.be",
+     "credit_url": "https://cella.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/cella/p2-800.webp",
+     "thumb": "img/places/antwerpen/cella/p2-400.webp",
+     "srcset": "img/places/antwerpen/cella/p2-400.webp 400w, img/places/antwerpen/cella/p2-800.webp 800w",
+     "w": 800,
+     "h": 989,
      "category": "food",
      "alt": "Cella: food",
      "credit": "@cella.antwerp on Instagram",
      "credit_url": "https://www.instagram.com/cella.antwerp/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/cella/p3-800.webp",
+     "thumb": "img/places/antwerpen/cella/p3-400.webp",
+     "srcset": "img/places/antwerpen/cella/p3-400.webp 400w, img/places/antwerpen/cella/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Cella: food",
+     "credit": "cella.be",
+     "credit_url": "https://cella.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/cella/p4-800.webp",
+     "thumb": "img/places/antwerpen/cella/p4-400.webp",
+     "srcset": "img/places/antwerpen/cella/p4-400.webp 400w, img/places/antwerpen/cella/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Cella: food",
+     "credit": "cella.be",
+     "credit_url": "https://cella.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/cella/p5-800.webp",
+     "thumb": "img/places/antwerpen/cella/p5-400.webp",
+     "srcset": "img/places/antwerpen/cella/p5-400.webp 400w, img/places/antwerpen/cella/p5-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "Cella: the outside",
+     "credit": "cella.be",
+     "credit_url": "https://cella.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -1458,12 +1591,12 @@
      "src": "img/places/antwerpen/de-balans/p1-1400.webp",
      "thumb": "img/places/antwerpen/de-balans/p1-700.webp",
      "srcset": "img/places/antwerpen/de-balans/p1-700.webp 700w, img/places/antwerpen/de-balans/p1-1400.webp 1400w",
-     "w": 1366,
-     "h": 2048,
+     "w": 1400,
+     "h": 934,
      "category": "interior",
      "alt": "De Balans: the interior",
      "credit": "bistrodebalans.be",
-     "credit_url": "https://www.bistrodebalans.be/nl",
+     "credit_url": "https://www.bistrodebalans.be/nl/sfeer",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -1478,6 +1611,48 @@
      "alt": "De Balans: food",
      "credit": "bistrodebalans.be",
      "credit_url": "https://www.bistrodebalans.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/de-balans/p3-800.webp",
+     "thumb": "img/places/antwerpen/de-balans/p3-400.webp",
+     "srcset": "img/places/antwerpen/de-balans/p3-400.webp 400w, img/places/antwerpen/de-balans/p3-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "De Balans: food",
+     "credit": "bistrodebalans.be",
+     "credit_url": "https://www.bistrodebalans.be/nl/kaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/de-balans/p4-800.webp",
+     "thumb": "img/places/antwerpen/de-balans/p4-400.webp",
+     "srcset": "img/places/antwerpen/de-balans/p4-400.webp 400w, img/places/antwerpen/de-balans/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "De Balans: food",
+     "credit": "bistrodebalans.be",
+     "credit_url": "https://www.bistrodebalans.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/de-balans/p5-800.webp",
+     "thumb": "img/places/antwerpen/de-balans/p5-400.webp",
+     "srcset": "img/places/antwerpen/de-balans/p5-400.webp 400w, img/places/antwerpen/de-balans/p5-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "interior",
+     "alt": "De Balans: the interior",
+     "credit": "bistrodebalans.be",
+     "credit_url": "https://www.bistrodebalans.be/nl/sfeer",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -1639,14 +1814,28 @@
      "src": "img/places/antwerpen/dogma/p1-1400.webp",
      "thumb": "img/places/antwerpen/dogma/p1-700.webp",
      "srcset": "img/places/antwerpen/dogma/p1-700.webp 700w, img/places/antwerpen/dogma/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1080,
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Dogma: the interior",
+     "credit": "dogmacocktails.be",
+     "credit_url": "https://www.dogmacocktails.be/recommended-food.html",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/dogma/p2-800.webp",
+     "thumb": "img/places/antwerpen/dogma/p2-400.webp",
+     "srcset": "img/places/antwerpen/dogma/p2-400.webp 400w, img/places/antwerpen/dogma/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
      "category": "drink",
      "alt": "Dogma: drinks",
-     "credit": "@dogmacocktails on Instagram",
-     "credit_url": "https://www.instagram.com/dogmacocktails/",
+     "credit": "dogmacocktails.be",
+     "credit_url": "https://www.dogmacocktails.be/recommended-drinking.html",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -1727,13 +1916,13 @@
      "thumb": "img/places/antwerpen/dome-sur-mer/p5-400.webp",
      "srcset": "img/places/antwerpen/dome-sur-mer/p5-400.webp 400w, img/places/antwerpen/dome-sur-mer/p5-800.webp 800w",
      "w": 800,
-     "h": 1000,
+     "h": 1200,
      "category": "interior",
      "alt": "Dôme Sur Mer: the interior",
-     "credit": "@dome_sur_mer on Instagram",
-     "credit_url": "https://www.instagram.com/dome_sur_mer/",
+     "credit": "domesurmer.be",
+     "credit_url": "https://www.domesurmer.be/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -1988,7 +2177,28 @@
    "layout": "mix"
   },
   "flatons": {
-   "hold": "no people-free photo found (research): website has only a logo and a dinner photo with a guest's hand and arm; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/flatons/p1-1400.webp",
+     "thumb": "img/places/antwerpen/flatons/p1-700.webp",
+     "srcset": "img/places/antwerpen/flatons/p1-700.webp 700w, img/places/antwerpen/flatons/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Flatons: the interior",
+     "credit": "flatons.be",
+     "credit_url": "https://www.flatons.be/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/flatons/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "fuel": {
    "photos": [
@@ -2010,6 +2220,20 @@
      "src": "img/places/antwerpen/fuel/p2-800.webp",
      "thumb": "img/places/antwerpen/fuel/p2-400.webp",
      "srcset": "img/places/antwerpen/fuel/p2-400.webp 400w, img/places/antwerpen/fuel/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Fuel: food",
+     "credit": "fuel-antwerp.com",
+     "credit_url": "https://fuel-antwerp.com/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/fuel/p3-800.webp",
+     "thumb": "img/places/antwerpen/fuel/p3-400.webp",
+     "srcset": "img/places/antwerpen/fuel/p3-400.webp 400w, img/places/antwerpen/fuel/p3-800.webp 800w",
      "w": 720,
      "h": 1280,
      "category": "interior",
@@ -2348,8 +2572,50 @@
      "src": "img/places/antwerpen/het-archief/p1-1400.webp",
      "thumb": "img/places/antwerpen/het-archief/p1-700.webp",
      "srcset": "img/places/antwerpen/het-archief/p1-700.webp 700w, img/places/antwerpen/het-archief/p1-1400.webp 1400w",
-     "w": 857,
-     "h": 1286,
+     "w": 1400,
+     "h": 933,
+     "category": "exterior",
+     "alt": "Het Archief: the outside",
+     "credit": "inhetarchief.be",
+     "credit_url": "https://inhetarchief.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/het-archief/p2-800.webp",
+     "thumb": "img/places/antwerpen/het-archief/p2-400.webp",
+     "srcset": "img/places/antwerpen/het-archief/p2-400.webp 400w, img/places/antwerpen/het-archief/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Het Archief: food",
+     "credit": "inhetarchief.be",
+     "credit_url": "https://inhetarchief.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/het-archief/p3-800.webp",
+     "thumb": "img/places/antwerpen/het-archief/p3-400.webp",
+     "srcset": "img/places/antwerpen/het-archief/p3-400.webp 400w, img/places/antwerpen/het-archief/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "drink",
+     "alt": "Het Archief: drinks",
+     "credit": "inhetarchief.be",
+     "credit_url": "https://inhetarchief.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/het-archief/p4-800.webp",
+     "thumb": "img/places/antwerpen/het-archief/p4-400.webp",
+     "srcset": "img/places/antwerpen/het-archief/p4-400.webp 400w, img/places/antwerpen/het-archief/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
      "category": "interior",
      "alt": "Het Archief: the interior",
      "credit": "inhetarchief.be",
@@ -2367,7 +2633,42 @@
    "layout": "mix"
   },
   "het-nieuwe-palinghuis": {
-   "hold": "no people-free photo found (research): own Instagram shows owner/staff and an 'OVER TE NEMEN' (for takeover) sign; no people-free food image"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/het-nieuwe-palinghuis/p1-1400.webp",
+     "thumb": "img/places/antwerpen/het-nieuwe-palinghuis/p1-700.webp",
+     "srcset": "img/places/antwerpen/het-nieuwe-palinghuis/p1-700.webp 700w, img/places/antwerpen/het-nieuwe-palinghuis/p1-1400.webp 1400w",
+     "w": 650,
+     "h": 488,
+     "category": "exterior",
+     "alt": "Het Nieuwe Palinghuis: the outside",
+     "credit": "hetnieuwepalinghuis.be",
+     "credit_url": "https://www.hetnieuwepalinghuis.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/het-nieuwe-palinghuis/p2-800.webp",
+     "thumb": "img/places/antwerpen/het-nieuwe-palinghuis/p2-400.webp",
+     "srcset": "img/places/antwerpen/het-nieuwe-palinghuis/p2-400.webp 400w, img/places/antwerpen/het-nieuwe-palinghuis/p2-800.webp 800w",
+     "w": 639,
+     "h": 639,
+     "category": "food",
+     "alt": "Het Nieuwe Palinghuis: food",
+     "credit": "hetnieuwepalinghuis.be",
+     "credit_url": "https://www.hetnieuwepalinghuis.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/het-nieuwe-palinghuis/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "hidden-garden": {
    "photos": [
@@ -2791,6 +3092,48 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/la-brasserie-du-dome/p3-800.webp",
+     "thumb": "img/places/antwerpen/la-brasserie-du-dome/p3-400.webp",
+     "srcset": "img/places/antwerpen/la-brasserie-du-dome/p3-400.webp 400w, img/places/antwerpen/la-brasserie-du-dome/p3-800.webp 800w",
+     "w": 800,
+     "h": 1120,
+     "category": "food",
+     "alt": "La Brasserie du Dôme: food",
+     "credit": "domeantwerp.be",
+     "credit_url": "https://www.domeantwerp.be/smaken-i-restaurant-brasserie-du-dome-antwerp/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/la-brasserie-du-dome/p4-800.webp",
+     "thumb": "img/places/antwerpen/la-brasserie-du-dome/p4-400.webp",
+     "srcset": "img/places/antwerpen/la-brasserie-du-dome/p4-400.webp 400w, img/places/antwerpen/la-brasserie-du-dome/p4-800.webp 800w",
+     "w": 800,
+     "h": 1089,
+     "category": "food",
+     "alt": "La Brasserie du Dôme: food",
+     "credit": "domeantwerp.be",
+     "credit_url": "https://www.domeantwerp.be/smaken-i-restaurant-brasserie-du-dome-antwerp/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/la-brasserie-du-dome/p5-800.webp",
+     "thumb": "img/places/antwerpen/la-brasserie-du-dome/p5-400.webp",
+     "srcset": "img/places/antwerpen/la-brasserie-du-dome/p5-400.webp 400w, img/places/antwerpen/la-brasserie-du-dome/p5-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "La Brasserie du Dôme: the outside",
+     "credit": "domeantwerp.be",
+     "credit_url": "https://www.domeantwerp.be/brasserie-antwerpen-franse-keuken/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -2967,7 +3310,28 @@
    "layout": "mix"
   },
   "lito": {
-   "hold": "no people-free photo found (research): website returned no usable images; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/lito/p1-1400.webp",
+     "thumb": "img/places/antwerpen/lito/p1-700.webp",
+     "srcset": "img/places/antwerpen/lito/p1-700.webp 700w, img/places/antwerpen/lito/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Lito: food",
+     "credit": "litoantwerp.be",
+     "credit_url": "https://www.litoantwerp.be/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/lito/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "los-dos": {
    "hold": "no people-free photo found (research): website losdos.be refused connection twice (ERR_CONNECTION_CLOSED); no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
@@ -3240,6 +3604,20 @@
      "src": "img/places/antwerpen/nage/p1-1400.webp",
      "thumb": "img/places/antwerpen/nage/p1-700.webp",
      "srcset": "img/places/antwerpen/nage/p1-700.webp 700w, img/places/antwerpen/nage/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Nage: food",
+     "credit": "restaurantnage.be",
+     "credit_url": "https://www.restaurantnage.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/nage/p2-800.webp",
+     "thumb": "img/places/antwerpen/nage/p2-400.webp",
+     "srcset": "img/places/antwerpen/nage/p2-400.webp 400w, img/places/antwerpen/nage/p2-800.webp 800w",
      "w": 768,
      "h": 813,
      "category": "food",
@@ -3848,6 +4226,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-abc-taproom-resto-n5710150522/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-abc-taproom-resto-n5710150522/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-abc-taproom-resto-n5710150522/p2-400.webp 400w, img/places/antwerpen/osm-abc-taproom-resto-n5710150522/p2-800.webp 800w",
+     "w": 800,
+     "h": 468,
+     "category": "drink",
+     "alt": "ABC Taproom & Resto: drinks",
+     "credit": "seef.be",
+     "credit_url": "https://seef.be/pers/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -4081,7 +4473,28 @@
    "hold": "no people-free photo found (research): website: only one small image (<500px)"
   },
   "osm-arrikkiati-n7236305129": {
-   "hold": "no people-free photo found (research): website: logos only"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-arrikkiati-n7236305129/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-arrikkiati-n7236305129/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-arrikkiati-n7236305129/p1-700.webp 700w, img/places/antwerpen/osm-arrikkiati-n7236305129/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "Arrikkiati: food",
+     "credit": "@tratt.antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/tratt.antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-arrikkiati-n7236305129/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-arte-n1523520376": {
    "photos": [
@@ -4089,14 +4502,56 @@
      "src": "img/places/antwerpen/osm-arte-n1523520376/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-arte-n1523520376/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-arte-n1523520376/p1-700.webp 700w, img/places/antwerpen/osm-arte-n1523520376/p1-1400.webp 1400w",
-     "w": 868,
-     "h": 852,
-     "category": "food",
-     "alt": "Arte: food",
+     "w": 1290,
+     "h": 783,
+     "category": "interior",
+     "alt": "Arte: the interior",
      "credit": "ristorante-arte.be",
-     "credit_url": "https://www.ristorante-arte.be/",
+     "credit_url": "https://www.ristorante-arte.be/gallery/",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-arte-n1523520376/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-arte-n1523520376/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-arte-n1523520376/p2-400.webp 400w, img/places/antwerpen/osm-arte-n1523520376/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Arte: food",
+     "credit": "@ristorante.arte on Instagram",
+     "credit_url": "https://www.instagram.com/ristorante.arte/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-arte-n1523520376/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-arte-n1523520376/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-arte-n1523520376/p3-400.webp 400w, img/places/antwerpen/osm-arte-n1523520376/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Arte: food",
+     "credit": "@ristorante.arte on Instagram",
+     "credit_url": "https://www.instagram.com/ristorante.arte/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-arte-n1523520376/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-arte-n1523520376/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-arte-n1523520376/p4-400.webp 400w, img/places/antwerpen/osm-arte-n1523520376/p4-800.webp 800w",
+     "w": 800,
+     "h": 1421,
+     "category": "food",
+     "alt": "Arte: food",
+     "credit": "@ristorante.arte on Instagram",
+     "credit_url": "https://www.instagram.com/ristorante.arte/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -4145,7 +4600,7 @@
      "thumb": "img/places/antwerpen/osm-au-vieux-port-n4827579033/p3-400.webp",
      "srcset": "img/places/antwerpen/osm-au-vieux-port-n4827579033/p3-400.webp 400w, img/places/antwerpen/osm-au-vieux-port-n4827579033/p3-800.webp 800w",
      "w": 800,
-     "h": 533,
+     "h": 1200,
      "category": "food",
      "alt": "Au Vieux Port: food",
      "credit": "restaurantauvieuxport.be",
@@ -4159,9 +4614,9 @@
      "thumb": "img/places/antwerpen/osm-au-vieux-port-n4827579033/p4-400.webp",
      "srcset": "img/places/antwerpen/osm-au-vieux-port-n4827579033/p4-400.webp 400w, img/places/antwerpen/osm-au-vieux-port-n4827579033/p4-800.webp 800w",
      "w": 800,
-     "h": 1200,
-     "category": "food",
-     "alt": "Au Vieux Port: food",
+     "h": 533,
+     "category": "drink",
+     "alt": "Au Vieux Port: drinks",
      "credit": "restaurantauvieuxport.be",
      "credit_url": "https://www.restaurantauvieuxport.be/",
      "license": "the place's own photo",
@@ -4370,6 +4825,20 @@
      "h": 788,
      "category": "exterior",
      "alt": "Bacchus: the outside",
+     "credit": "bacchusantwerpen.be",
+     "credit_url": "https://bacchusantwerpen.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-bacchus-n4827573656/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-bacchus-n4827573656/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-bacchus-n4827573656/p2-400.webp 400w, img/places/antwerpen/osm-bacchus-n4827573656/p2-800.webp 800w",
+     "w": 600,
+     "h": 900,
+     "category": "food",
+     "alt": "Bacchus: food",
      "credit": "bacchusantwerpen.be",
      "credit_url": "https://bacchusantwerpen.be/",
      "license": "the place's own photo",
@@ -4601,6 +5070,34 @@
      "alt": "Beni Falafel: food",
      "credit": "benifalafel.be",
      "credit_url": "https://benifalafel.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-beni-falafel-n4810478457/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-beni-falafel-n4810478457/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-beni-falafel-n4810478457/p2-400.webp 400w, img/places/antwerpen/osm-beni-falafel-n4810478457/p2-800.webp 800w",
+     "w": 800,
+     "h": 602,
+     "category": "food",
+     "alt": "Beni Falafel: food",
+     "credit": "benifalafel.be",
+     "credit_url": "https://benifalafel.be/nl/menu/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-beni-falafel-n4810478457/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-beni-falafel-n4810478457/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-beni-falafel-n4810478457/p3-400.webp 400w, img/places/antwerpen/osm-beni-falafel-n4810478457/p3-800.webp 800w",
+     "w": 800,
+     "h": 602,
+     "category": "food",
+     "alt": "Beni Falafel: food",
+     "credit": "benifalafel.be",
+     "credit_url": "https://benifalafel.be/nl/menu/menukaart",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -4923,6 +5420,20 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-bokki-n12832917601/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-bokki-n12832917601/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-bokki-n12832917601/p2-400.webp 400w, img/places/antwerpen/osm-bokki-n12832917601/p2-800.webp 800w",
+     "w": 800,
+     "h": 948,
+     "category": "food",
+     "alt": "Bokki: food",
+     "credit": "@bokki.antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/bokki.antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -5058,6 +5569,48 @@
      "src": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p2-800.webp",
      "thumb": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p2-400.webp",
      "srcset": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p2-400.webp 400w, img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p2-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Brasserie Appelmans: food",
+     "credit": "brasserieappelmans.be",
+     "credit_url": "https://www.brasserieappelmans.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p3-400.webp 400w, img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Brasserie Appelmans: food",
+     "credit": "brasserieappelmans.be",
+     "credit_url": "https://www.brasserieappelmans.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p4-400.webp 400w, img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Brasserie Appelmans: food",
+     "credit": "brasserieappelmans.be",
+     "credit_url": "https://www.brasserieappelmans.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p5-400.webp 400w, img/places/antwerpen/osm-brasserie-appelmans-n3250758061/p5-800.webp 800w",
      "w": 800,
      "h": 534,
      "category": "interior",
@@ -5430,8 +5983,8 @@
      "src": "img/places/antwerpen/osm-caos-n12806377721/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-caos-n12806377721/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-caos-n12806377721/p1-700.webp 700w, img/places/antwerpen/osm-caos-n12806377721/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
+     "w": 1024,
+     "h": 683,
      "category": "interior",
      "alt": "CAOS: the interior",
      "credit": "caos-antwerp.com",
@@ -5540,14 +6093,42 @@
      "src": "img/places/antwerpen/osm-casa-mia-n7660431857/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-casa-mia-n7660431857/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-casa-mia-n7660431857/p1-700.webp 700w, img/places/antwerpen/osm-casa-mia-n7660431857/p1-1400.webp 1400w",
-     "w": 1200,
-     "h": 720,
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Casa Mia: the interior",
+     "credit": "casamia-antwerp.be",
+     "credit_url": "https://casamia-antwerp.be/nl/event-venue",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-casa-mia-n7660431857/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-casa-mia-n7660431857/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-casa-mia-n7660431857/p2-400.webp 400w, img/places/antwerpen/osm-casa-mia-n7660431857/p2-800.webp 800w",
+     "w": 800,
+     "h": 480,
      "category": "food",
      "alt": "Casa Mia: food",
      "credit": "casamia-antwerp.be",
      "credit_url": "https://casamia-antwerp.be/en",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-casa-mia-n7660431857/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-casa-mia-n7660431857/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-casa-mia-n7660431857/p3-400.webp 400w, img/places/antwerpen/osm-casa-mia-n7660431857/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Casa Mia: food",
+     "credit": "@casa_mia_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/casa_mia_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -5791,30 +6372,6 @@
    "only": true,
    "layout": "mix"
   },
-  "osm-chilli-s-taverna-n6652488396": {
-   "photos": [
-    {
-     "src": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-1400.webp",
-     "thumb": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-700.webp",
-     "srcset": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-700.webp 700w, img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 1867,
-     "category": "interior",
-     "alt": "Chilli's taverna: the interior",
-     "credit": "chillisrestaurante.be",
-     "credit_url": "https://www.chillisrestaurante.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "osm-china-star-n6710910567": {
    "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
@@ -5830,6 +6387,48 @@
      "alt": "Civilta Del Bere: the interior",
      "credit": "civiltadelbere.be",
      "credit_url": "https://www.civiltadelbere.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p2-400.webp 400w, img/places/antwerpen/osm-civilta-del-bere-n6933046124/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Civilta Del Bere: food",
+     "credit": "civiltadelbere.be",
+     "credit_url": "https://www.civiltadelbere.be/lunch-best-italian-restaurant-antwerpen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p3-400.webp 400w, img/places/antwerpen/osm-civilta-del-bere-n6933046124/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Civilta Del Bere: food",
+     "credit": "civiltadelbere.be",
+     "credit_url": "https://www.civiltadelbere.be/menu-best-italian-restaurant-antwerpen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-civilta-del-bere-n6933046124/p4-400.webp 400w, img/places/antwerpen/osm-civilta-del-bere-n6933046124/p4-800.webp 800w",
+     "w": 800,
+     "h": 520,
+     "category": "interior",
+     "alt": "Civilta Del Bere: the interior",
+     "credit": "civiltadelbere.be",
+     "credit_url": "https://www.civiltadelbere.be/groups-private-events",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -6173,13 +6772,41 @@
      "thumb": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p1-700.webp 700w, img/places/antwerpen/osm-de-7-schaken-n5693449272/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 848,
+     "h": 1078,
+     "category": "exterior",
+     "alt": "De 7 Schaken: the outside",
+     "credit": "de7schaken.be",
+     "credit_url": "https://www.de7schaken.be/#sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p2-400.webp 400w, img/places/antwerpen/osm-de-7-schaken-n5693449272/p2-800.webp 800w",
+     "w": 800,
+     "h": 485,
      "category": "food",
      "alt": "De 7 Schaken: food",
      "credit": "de7schaken.be",
      "credit_url": "https://www.de7schaken.be/#reserveren",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-7-schaken-n5693449272/p3-400.webp 400w, img/places/antwerpen/osm-de-7-schaken-n5693449272/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "De 7 Schaken: food",
+     "credit": "@de7schaken on Instagram",
+     "credit_url": "https://www.instagram.com/de7schaken/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -6257,7 +6884,84 @@
    "layout": "mix"
   },
   "osm-de-artiest-n6919675756": {
-   "hold": "no people-free photo found (research): end-of-run retry loaded site: no usable photos (all show people)"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-de-artiest-n6919675756/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-de-artiest-n6919675756/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-de-artiest-n6919675756/p1-700.webp 700w, img/places/antwerpen/osm-de-artiest-n6919675756/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "De Artiest: the interior",
+     "credit": "brasseriedenartist.be",
+     "credit_url": "https://www.brasseriedenartist.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-artiest-n6919675756/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-artiest-n6919675756/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-artiest-n6919675756/p2-400.webp 400w, img/places/antwerpen/osm-de-artiest-n6919675756/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "De Artiest: food",
+     "credit": "brasseriedenartist.be",
+     "credit_url": "https://www.brasseriedenartist.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-artiest-n6919675756/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-artiest-n6919675756/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-artiest-n6919675756/p3-400.webp 400w, img/places/antwerpen/osm-de-artiest-n6919675756/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "De Artiest: food",
+     "credit": "brasseriedenartist.be",
+     "credit_url": "https://www.brasseriedenartist.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-artiest-n6919675756/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-artiest-n6919675756/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-artiest-n6919675756/p4-400.webp 400w, img/places/antwerpen/osm-de-artiest-n6919675756/p4-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "drink",
+     "alt": "De Artiest: drinks",
+     "credit": "brasseriedenartist.be",
+     "credit_url": "https://www.brasseriedenartist.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-artiest-n6919675756/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-artiest-n6919675756/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-artiest-n6919675756/p5-400.webp 400w, img/places/antwerpen/osm-de-artiest-n6919675756/p5-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "exterior",
+     "alt": "De Artiest: the outside",
+     "credit": "brasseriedenartist.be",
+     "credit_url": "https://www.brasseriedenartist.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-de-artiest-n6919675756/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-de-bomma-n7041453185": {
    "photos": [
@@ -6519,44 +7223,6 @@
   "osm-de-natie-n4782885779": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
   },
-  "osm-de-negen-vaten-n6262551129": {
-   "photos": [
-    {
-     "src": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-1400.webp",
-     "thumb": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-700.webp",
-     "srcset": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-700.webp 700w, img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "food",
-     "alt": "De Negen Vaten: food",
-     "credit": "denegenvaten.be",
-     "credit_url": "https://denegenvaten.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-800.webp",
-     "thumb": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-400.webp",
-     "srcset": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-400.webp 400w, img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-800.webp 800w",
-     "w": 800,
-     "h": 600,
-     "category": "food",
-     "alt": "De Negen Vaten: food",
-     "credit": "denegenvaten.be",
-     "credit_url": "https://denegenvaten.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "osm-de-nieuwe-boterham-n6291937834": {
    "posts": [
     {
@@ -6622,14 +7288,70 @@
      "src": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p1-700.webp 700w, img/places/antwerpen/osm-de-peerdestal-n1523311076/p1-1400.webp 1400w",
-     "w": 999,
-     "h": 667,
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "De Peerdestal: the interior",
+     "credit": "depeerdestal.be",
+     "credit_url": "https://depeerdestal.be/en/menus/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p2-400.webp 400w, img/places/antwerpen/osm-de-peerdestal-n1523311076/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
      "category": "food",
      "alt": "De Peerdestal: food",
      "credit": "depeerdestal.be",
      "credit_url": "https://depeerdestal.be/en/",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p3-400.webp 400w, img/places/antwerpen/osm-de-peerdestal-n1523311076/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "De Peerdestal: food",
+     "credit": "@depeerdestal on Instagram",
+     "credit_url": "https://www.instagram.com/depeerdestal/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p4-400.webp 400w, img/places/antwerpen/osm-de-peerdestal-n1523311076/p4-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "De Peerdestal: food",
+     "credit": "@depeerdestal on Instagram",
+     "credit_url": "https://www.instagram.com/depeerdestal/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-peerdestal-n1523311076/p5-400.webp 400w, img/places/antwerpen/osm-de-peerdestal-n1523311076/p5-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "interior",
+     "alt": "De Peerdestal: the interior",
+     "credit": "@depeerdestal on Instagram",
+     "credit_url": "https://www.instagram.com/depeerdestal/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -6651,7 +7373,7 @@
      "category": "interior",
      "alt": "De Pelgrim: the interior",
      "credit": "brasseriedepelgrim.be",
-     "credit_url": "https://www.brasseriedepelgrim.be/nl",
+     "credit_url": "https://www.brasseriedepelgrim.be/nl/impressie",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -6669,6 +7391,48 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p3-400.webp 400w, img/places/antwerpen/osm-de-pelgrim-n5155096075/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "De Pelgrim: food",
+     "credit": "brasseriedepelgrim.be",
+     "credit_url": "https://www.brasseriedepelgrim.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p4-400.webp 400w, img/places/antwerpen/osm-de-pelgrim-n5155096075/p4-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "De Pelgrim: food",
+     "credit": "brasseriedepelgrim.be",
+     "credit_url": "https://www.brasseriedepelgrim.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-pelgrim-n5155096075/p5-400.webp 400w, img/places/antwerpen/osm-de-pelgrim-n5155096075/p5-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "exterior",
+     "alt": "De Pelgrim: the outside",
+     "credit": "brasseriedepelgrim.be",
+     "credit_url": "https://www.brasseriedepelgrim.be/nl/impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -6679,7 +7443,28 @@
    "layout": "mix"
   },
   "osm-de-reddende-engel-n1775392355": {
-   "hold": "no people-free photo found (research): website: logo/window lettering is an angel figure, collage graphic; no clean photo"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-de-reddende-engel-n1775392355/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-de-reddende-engel-n1775392355/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-de-reddende-engel-n1775392355/p1-700.webp 700w, img/places/antwerpen/osm-de-reddende-engel-n1775392355/p1-1400.webp 1400w",
+     "w": 750,
+     "h": 1000,
+     "category": "interior",
+     "alt": "De reddende engel: the interior",
+     "credit": "de-reddende-engel.be",
+     "credit_url": "https://www.de-reddende-engel.be/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-de-reddende-engel-n1775392355/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-de-sinjoor-n6225842208": {
    "photos": [
@@ -6688,7 +7473,21 @@
      "thumb": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p1-700.webp 700w, img/places/antwerpen/osm-de-sinjoor-n6225842208/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 934,
+     "h": 935,
+     "category": "interior",
+     "alt": "De Sinjoor: the interior",
+     "credit": "desinjoor.be",
+     "credit_url": "https://desinjoor.be/menukaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-400.webp 400w, img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
      "category": "food",
      "alt": "De Sinjoor: food",
      "credit": "desinjoor.be",
@@ -6698,9 +7497,9 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-800.webp",
-     "thumb": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-400.webp",
-     "srcset": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-400.webp 400w, img/places/antwerpen/osm-de-sinjoor-n6225842208/p2-800.webp 800w",
+     "src": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-sinjoor-n6225842208/p3-400.webp 400w, img/places/antwerpen/osm-de-sinjoor-n6225842208/p3-800.webp 800w",
      "w": 800,
      "h": 1066,
      "category": "drink",
@@ -6782,8 +7581,22 @@
      "src": "img/places/antwerpen/osm-del-sud-classico-w496944368/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-del-sud-classico-w496944368/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-del-sud-classico-w496944368/p1-700.webp 700w, img/places/antwerpen/osm-del-sud-classico-w496944368/p1-1400.webp 1400w",
-     "w": 945,
-     "h": 2048,
+     "w": 1080,
+     "h": 1920,
+     "category": "interior",
+     "alt": "Del Sud classico: the interior",
+     "credit": "@delsudclassico on Instagram",
+     "credit_url": "https://www.instagram.com/delsudclassico/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-del-sud-classico-w496944368/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-del-sud-classico-w496944368/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-del-sud-classico-w496944368/p2-400.webp 400w, img/places/antwerpen/osm-del-sud-classico-w496944368/p2-800.webp 800w",
+     "w": 800,
+     "h": 1734,
      "category": "food",
      "alt": "Del Sud classico: food",
      "credit": "delsudclassico.com",
@@ -6817,6 +7630,20 @@
      "credit_url": "https://www.delrobah.be/",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-delrodah-funky-soulfood-n11108241805/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-delrodah-funky-soulfood-n11108241805/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-delrodah-funky-soulfood-n11108241805/p2-400.webp 400w, img/places/antwerpen/osm-delrodah-funky-soulfood-n11108241805/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Delrodah - Funky Soulfood: food",
+     "credit": "@_delrobah_ on Instagram",
+     "credit_url": "https://www.instagram.com/_delrobah_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -7124,6 +7951,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-el-toro-negro-n2141153948/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-el-toro-negro-n2141153948/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-el-toro-negro-n2141153948/p2-400.webp 400w, img/places/antwerpen/osm-el-toro-negro-n2141153948/p2-800.webp 800w",
+     "w": 720,
+     "h": 960,
+     "category": "interior",
+     "alt": "El Toro Negro: the interior",
+     "credit": "el-toro-negro.webnode.be",
+     "credit_url": "https://el-toro-negro.webnode.be/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -7137,7 +7978,28 @@
    "hold": "no people-free photo found (research): website domain now serves unrelated content (stock people photos)"
   },
   "osm-eldo-n6917721517": {
-   "hold": "no people-free photo found (research): website: logo plus shots showing hands/people"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-eldo-n6917721517/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-eldo-n6917721517/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-eldo-n6917721517/p1-700.webp 700w, img/places/antwerpen/osm-eldo-n6917721517/p1-1400.webp 1400w",
+     "w": 864,
+     "h": 1152,
+     "category": "drink",
+     "alt": "Eldo: drinks",
+     "credit": "@eldo.restaurant on Instagram",
+     "credit_url": "https://www.instagram.com/eldo.restaurant/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-eldo-n6917721517/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-elfde-gebod-n1262072635": {
    "hold": "no people-free photo found (research): own website from data: website has no usable large images (only logos/small images); no Instagram on record"
@@ -7384,6 +8246,48 @@
      "thumb": "img/places/antwerpen/osm-extra-fika-n9088560699/p2-400.webp",
      "srcset": "img/places/antwerpen/osm-extra-fika-n9088560699/p2-400.webp 400w, img/places/antwerpen/osm-extra-fika-n9088560699/p2-800.webp 800w",
      "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Extra Fika: food",
+     "credit": "@extrafika on Instagram",
+     "credit_url": "https://www.instagram.com/extrafika/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-extra-fika-n9088560699/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-extra-fika-n9088560699/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-extra-fika-n9088560699/p3-400.webp 400w, img/places/antwerpen/osm-extra-fika-n9088560699/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Extra Fika: food",
+     "credit": "@extrafika on Instagram",
+     "credit_url": "https://www.instagram.com/extrafika/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-extra-fika-n9088560699/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-extra-fika-n9088560699/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-extra-fika-n9088560699/p4-400.webp 400w, img/places/antwerpen/osm-extra-fika-n9088560699/p4-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Extra Fika: food",
+     "credit": "@extrafika on Instagram",
+     "credit_url": "https://www.instagram.com/extrafika/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-extra-fika-n9088560699/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-extra-fika-n9088560699/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-extra-fika-n9088560699/p5-400.webp 400w, img/places/antwerpen/osm-extra-fika-n9088560699/p5-800.webp 800w",
+     "w": 800,
      "h": 534,
      "category": "interior",
      "alt": "Extra Fika: the interior",
@@ -7448,6 +8352,48 @@
      "alt": "Ferrier 30: food",
      "credit": "ferrier-30.be",
      "credit_url": "https://ferrier-30.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-ferrier-30-n6933046125/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-ferrier-30-n6933046125/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-ferrier-30-n6933046125/p3-400.webp 400w, img/places/antwerpen/osm-ferrier-30-n6933046125/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Ferrier 30: food",
+     "credit": "ferrier-30.be",
+     "credit_url": "https://ferrier-30.be/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-ferrier-30-n6933046125/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-ferrier-30-n6933046125/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-ferrier-30-n6933046125/p4-400.webp 400w, img/places/antwerpen/osm-ferrier-30-n6933046125/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "interior",
+     "alt": "Ferrier 30: the interior",
+     "credit": "ferrier-30.be",
+     "credit_url": "https://ferrier-30.be/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-ferrier-30-n6933046125/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-ferrier-30-n6933046125/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-ferrier-30-n6933046125/p5-400.webp 400w, img/places/antwerpen/osm-ferrier-30-n6933046125/p5-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "exterior",
+     "alt": "Ferrier 30: the outside",
+     "credit": "ferrier-30.be",
+     "credit_url": "https://ferrier-30.be/sfeer",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -7533,9 +8479,65 @@
      "thumb": "img/places/antwerpen/osm-fiera-n7310707373/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-fiera-n7310707373/p1-700.webp 700w, img/places/antwerpen/osm-fiera-n7310707373/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 920,
+     "h": 934,
      "category": "interior",
      "alt": "Fiera: the interior",
+     "credit": "fiera.be",
+     "credit_url": "https://fiera.be/business-lunch/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-fiera-n7310707373/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-fiera-n7310707373/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-fiera-n7310707373/p2-400.webp 400w, img/places/antwerpen/osm-fiera-n7310707373/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Fiera: food",
+     "credit": "fiera.be",
+     "credit_url": "https://fiera.be/business-lunch/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-fiera-n7310707373/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-fiera-n7310707373/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-fiera-n7310707373/p3-400.webp 400w, img/places/antwerpen/osm-fiera-n7310707373/p3-800.webp 800w",
+     "w": 800,
+     "h": 770,
+     "category": "food",
+     "alt": "Fiera: food",
+     "credit": "fiera.be",
+     "credit_url": "https://fiera.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-fiera-n7310707373/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-fiera-n7310707373/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-fiera-n7310707373/p4-400.webp 400w, img/places/antwerpen/osm-fiera-n7310707373/p4-800.webp 800w",
+     "w": 800,
+     "h": 766,
+     "category": "food",
+     "alt": "Fiera: food",
+     "credit": "fiera.be",
+     "credit_url": "https://fiera.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-fiera-n7310707373/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-fiera-n7310707373/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-fiera-n7310707373/p5-400.webp 400w, img/places/antwerpen/osm-fiera-n7310707373/p5-800.webp 800w",
+     "w": 800,
+     "h": 526,
+     "category": "exterior",
+     "alt": "Fiera: the outside",
      "credit": "fiera.be",
      "credit_url": "https://fiera.be/",
      "license": "the place's own photo",
@@ -7655,6 +8657,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-fiskebar-n385181456/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-fiskebar-n385181456/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-fiskebar-n385181456/p3-400.webp 400w, img/places/antwerpen/osm-fiskebar-n385181456/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Fiskebar: food",
+     "credit": "fiskebar.be",
+     "credit_url": "https://fiskebar.be/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -7671,6 +8687,20 @@
      "thumb": "img/places/antwerpen/osm-fiskeskur-n6449882321/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-fiskeskur-n6449882321/p1-700.webp 700w, img/places/antwerpen/osm-fiskeskur-n6449882321/p1-1400.webp 1400w",
      "w": 705,
+     "h": 470,
+     "category": "exterior",
+     "alt": "Fiskeskur: the outside",
+     "credit": "fiskeskur.be",
+     "credit_url": "https://fiskeskur.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-fiskeskur-n6449882321/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-fiskeskur-n6449882321/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-fiskeskur-n6449882321/p2-400.webp 400w, img/places/antwerpen/osm-fiskeskur-n6449882321/p2-800.webp 800w",
+     "w": 705,
      "h": 705,
      "category": "food",
      "alt": "Fiskeskur: food",
@@ -7678,6 +8708,20 @@
      "credit_url": "https://fiskeskur.be/",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-fiskeskur-n6449882321/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-fiskeskur-n6449882321/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-fiskeskur-n6449882321/p3-400.webp 400w, img/places/antwerpen/osm-fiskeskur-n6449882321/p3-800.webp 800w",
+     "w": 640,
+     "h": 1136,
+     "category": "food",
+     "alt": "Fiskeskur: food",
+     "credit": "@fiskeskur on Instagram",
+     "credit_url": "https://www.instagram.com/fiskeskur/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -8101,7 +9145,56 @@
    "layout": "mix"
   },
   "osm-hayashi-n4826827307": {
-   "hold": "no people-free photo found (research): website: only stock-looking cherry blossom images"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-hayashi-n4826827307/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-hayashi-n4826827307/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-hayashi-n4826827307/p1-700.webp 700w, img/places/antwerpen/osm-hayashi-n4826827307/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1000,
+     "category": "food",
+     "alt": "Hayashi: food",
+     "credit": "hayashi.be",
+     "credit_url": "https://hayashi.be/menu-sushi-sashimi-nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-hayashi-n4826827307/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-hayashi-n4826827307/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-hayashi-n4826827307/p2-400.webp 400w, img/places/antwerpen/osm-hayashi-n4826827307/p2-800.webp 800w",
+     "w": 800,
+     "h": 732,
+     "category": "food",
+     "alt": "Hayashi: food",
+     "credit": "hayashi.be",
+     "credit_url": "https://hayashi.be/menu-hoofdgerechten-nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-hayashi-n4826827307/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-hayashi-n4826827307/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-hayashi-n4826827307/p3-400.webp 400w, img/places/antwerpen/osm-hayashi-n4826827307/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Hayashi: food",
+     "credit": "hayashi.be",
+     "credit_url": "https://hayashi.be/menu-voorgerechten-nl/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-hayashi-n4826827307/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-hechi-n8024838484": {
    "photos": [
@@ -8109,12 +9202,12 @@
      "src": "img/places/antwerpen/osm-hechi-n8024838484/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-hechi-n8024838484/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-hechi-n8024838484/p1-700.webp 700w, img/places/antwerpen/osm-hechi-n8024838484/p1-1400.webp 1400w",
-     "w": 1200,
-     "h": 800,
-     "category": "food",
-     "alt": "Hechi: food",
+     "w": 1024,
+     "h": 682,
+     "category": "interior",
+     "alt": "Hechi: the interior",
      "credit": "hechi.be",
-     "credit_url": "https://www.hechi.be/",
+     "credit_url": "https://www.hechi.be/fotos/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -8131,6 +9224,48 @@
      "credit_url": "https://www.hechi.be/",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-hechi-n8024838484/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-hechi-n8024838484/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-hechi-n8024838484/p3-400.webp 400w, img/places/antwerpen/osm-hechi-n8024838484/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Hechi: food",
+     "credit": "hechi.be",
+     "credit_url": "https://www.hechi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-hechi-n8024838484/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-hechi-n8024838484/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-hechi-n8024838484/p4-400.webp 400w, img/places/antwerpen/osm-hechi-n8024838484/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Hechi: food",
+     "credit": "@hechi_worldkitchen on Instagram",
+     "credit_url": "https://www.instagram.com/hechi_worldkitchen/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-hechi-n8024838484/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-hechi-n8024838484/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-hechi-n8024838484/p5-400.webp 400w, img/places/antwerpen/osm-hechi-n8024838484/p5-800.webp 800w",
+     "w": 800,
+     "h": 659,
+     "category": "exterior",
+     "alt": "Hechi: the outside",
+     "credit": "@hechi_worldkitchen on Instagram",
+     "credit_url": "https://www.instagram.com/hechi_worldkitchen/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -8205,8 +9340,22 @@
      "src": "img/places/antwerpen/osm-hoffy-s-n5835265255/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-hoffy-s-n5835265255/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-hoffy-s-n5835265255/p1-700.webp 700w, img/places/antwerpen/osm-hoffy-s-n5835265255/p1-1400.webp 1400w",
-     "w": 1066,
-     "h": 1600,
+     "w": 1400,
+     "h": 935,
+     "category": "food",
+     "alt": "Hoffy's: food",
+     "credit": "hoffys.be",
+     "credit_url": "https://hoffys.be/our-menus/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-hoffy-s-n5835265255/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-hoffy-s-n5835265255/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-hoffy-s-n5835265255/p2-400.webp 400w, img/places/antwerpen/osm-hoffy-s-n5835265255/p2-800.webp 800w",
+     "w": 800,
+     "h": 1201,
      "category": "food",
      "alt": "Hoffy's: food",
      "credit": "hoffys.be",
@@ -8531,6 +9680,48 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-instroom-n13355170147/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-instroom-n13355170147/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-instroom-n13355170147/p3-400.webp 400w, img/places/antwerpen/osm-instroom-n13355170147/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Instroom: food",
+     "credit": "instroom.world",
+     "credit_url": "https://instroom.world/galerij/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-instroom-n13355170147/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-instroom-n13355170147/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-instroom-n13355170147/p4-400.webp 400w, img/places/antwerpen/osm-instroom-n13355170147/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Instroom: food",
+     "credit": "instroom.world",
+     "credit_url": "https://instroom.world/galerij/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-instroom-n13355170147/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-instroom-n13355170147/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-instroom-n13355170147/p5-400.webp 400w, img/places/antwerpen/osm-instroom-n13355170147/p5-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "exterior",
+     "alt": "Instroom: the outside",
+     "credit": "@instroom.restaurant on Instagram",
+     "credit_url": "https://www.instagram.com/instroom.restaurant/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -8593,7 +9784,42 @@
    "layout": "mix"
   },
   "osm-jan-zonder-vrees-n7041453186": {
-   "hold": "no people-free photo found (research): website is a B&B/guesthouse: bedrooms, Brabo statue and city views only"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p1-700.webp 700w, img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 850,
+     "category": "interior",
+     "alt": "Jan Zonder Vrees: the interior",
+     "credit": "jan-zonder-vrees.be",
+     "credit_url": "https://www.jan-zonder-vrees.be/room-detail/superior-burgundian-suite-with-terrace",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p2-400.webp 400w, img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p2-800.webp 800w",
+     "w": 800,
+     "h": 531,
+     "category": "exterior",
+     "alt": "Jan Zonder Vrees: the outside",
+     "credit": "jan-zonder-vrees.be",
+     "credit_url": "https://www.jan-zonder-vrees.be/room-detail/superior-burgundian-suite-with-terrace",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-jan-zonder-vrees-n7041453186/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-janya-thai-wok-n9868840608": {
    "photos": [
@@ -8683,6 +9909,62 @@
      "srcset": "img/places/antwerpen/osm-jardin-public-n322129184/p1-700.webp 700w, img/places/antwerpen/osm-jardin-public-n322129184/p1-1400.webp 1400w",
      "w": 1400,
      "h": 934,
+     "category": "interior",
+     "alt": "Jardin Public: the interior",
+     "credit": "jardinpublic.be",
+     "credit_url": "https://jardinpublic.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-jardin-public-n322129184/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-jardin-public-n322129184/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-jardin-public-n322129184/p2-400.webp 400w, img/places/antwerpen/osm-jardin-public-n322129184/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Jardin Public: food",
+     "credit": "jardinpublic.be",
+     "credit_url": "https://jardinpublic.be/menukaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-jardin-public-n322129184/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-jardin-public-n322129184/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-jardin-public-n322129184/p3-400.webp 400w, img/places/antwerpen/osm-jardin-public-n322129184/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Jardin Public: food",
+     "credit": "jardinpublic.be",
+     "credit_url": "https://jardinpublic.be/menukaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-jardin-public-n322129184/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-jardin-public-n322129184/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-jardin-public-n322129184/p4-400.webp 400w, img/places/antwerpen/osm-jardin-public-n322129184/p4-800.webp 800w",
+     "w": 800,
+     "h": 532,
+     "category": "food",
+     "alt": "Jardin Public: food",
+     "credit": "jardinpublic.be",
+     "credit_url": "https://jardinpublic.be/menukaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-jardin-public-n322129184/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-jardin-public-n322129184/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-jardin-public-n322129184/p5-400.webp 400w, img/places/antwerpen/osm-jardin-public-n322129184/p5-800.webp 800w",
+     "w": 683,
+     "h": 1024,
      "category": "interior",
      "alt": "Jardin Public: the interior",
      "credit": "jardinpublic.be",
@@ -8954,6 +10236,34 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p3-400.webp 400w, img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p3-800.webp 800w",
+     "w": 800,
+     "h": 572,
+     "category": "food",
+     "alt": "L'Isola di Giò: food",
+     "credit": "isoladigio.be",
+     "credit_url": "https://isoladigio.be/menu-ristorante/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p4-400.webp 400w, img/places/antwerpen/osm-l-isola-di-gio-n4922022154/p4-800.webp 800w",
+     "w": 800,
+     "h": 572,
+     "category": "food",
+     "alt": "L'Isola di Giò: food",
+     "credit": "isoladigio.be",
+     "credit_url": "https://isoladigio.be/menu-ristorante/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -9136,12 +10446,40 @@
      "src": "img/places/antwerpen/osm-las-manas-n5611699521/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-las-manas-n5611699521/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-las-manas-n5611699521/p1-700.webp 700w, img/places/antwerpen/osm-las-manas-n5611699521/p1-1400.webp 1400w",
-     "w": 1270,
-     "h": 1284,
+     "w": 1400,
+     "h": 933,
      "category": "food",
      "alt": "Las Mañas: food",
      "credit": "lasmanas.be",
-     "credit_url": "https://www.lasmanas.be/",
+     "credit_url": "https://www.lasmanas.be/menu-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-las-manas-n5611699521/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-las-manas-n5611699521/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-las-manas-n5611699521/p2-400.webp 400w, img/places/antwerpen/osm-las-manas-n5611699521/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Las Mañas: food",
+     "credit": "lasmanas.be",
+     "credit_url": "https://www.lasmanas.be/menu-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-las-manas-n5611699521/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-las-manas-n5611699521/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-las-manas-n5611699521/p3-400.webp 400w, img/places/antwerpen/osm-las-manas-n5611699521/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Las Mañas: food",
+     "credit": "lasmanas.be",
+     "credit_url": "https://www.lasmanas.be/menu-restaurant/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -9649,6 +10987,34 @@
      "thumb": "img/places/antwerpen/osm-lunsjes-n7652497506/p2-400.webp",
      "srcset": "img/places/antwerpen/osm-lunsjes-n7652497506/p2-400.webp 400w, img/places/antwerpen/osm-lunsjes-n7652497506/p2-800.webp 800w",
      "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Lunsjes: food",
+     "credit": "@lunsjes on Instagram",
+     "credit_url": "https://www.instagram.com/lunsjes/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-lunsjes-n7652497506/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-lunsjes-n7652497506/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-lunsjes-n7652497506/p3-400.webp 400w, img/places/antwerpen/osm-lunsjes-n7652497506/p3-800.webp 800w",
+     "w": 800,
+     "h": 1066,
+     "category": "food",
+     "alt": "Lunsjes: food",
+     "credit": "@lunsjes on Instagram",
+     "credit_url": "https://www.instagram.com/lunsjes/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-lunsjes-n7652497506/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-lunsjes-n7652497506/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-lunsjes-n7652497506/p4-400.webp 400w, img/places/antwerpen/osm-lunsjes-n7652497506/p4-800.webp 800w",
+     "w": 800,
      "h": 1067,
      "category": "interior",
      "alt": "Lunsjes: the interior",
@@ -9783,6 +11149,34 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-mandraki-n5126844407/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-mandraki-n5126844407/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-mandraki-n5126844407/p2-400.webp 400w, img/places/antwerpen/osm-mandraki-n5126844407/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Mandraki: food",
+     "credit": "@restaurant_mandraki on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_mandraki/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-mandraki-n5126844407/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-mandraki-n5126844407/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-mandraki-n5126844407/p3-400.webp 400w, img/places/antwerpen/osm-mandraki-n5126844407/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "interior",
+     "alt": "Mandraki: the interior",
+     "credit": "@restaurant_mandraki on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_mandraki/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -9822,6 +11216,20 @@
      "srcset": "img/places/antwerpen/osm-marmari-n9605940574/p1-700.webp 700w, img/places/antwerpen/osm-marmari-n9605940574/p1-1400.webp 1400w",
      "w": 1080,
      "h": 1440,
+     "category": "food",
+     "alt": "Marmari: food",
+     "credit": "@marmari_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/marmari_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-marmari-n9605940574/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-marmari-n9605940574/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-marmari-n9605940574/p2-400.webp 400w, img/places/antwerpen/osm-marmari-n9605940574/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
      "category": "food",
      "alt": "Marmari: food",
      "credit": "@marmari_antwerp on Instagram",
@@ -9882,6 +11290,20 @@
      "src": "img/places/antwerpen/osm-mattheus-b-n5615179728/p2-800.webp",
      "thumb": "img/places/antwerpen/osm-mattheus-b-n5615179728/p2-400.webp",
      "srcset": "img/places/antwerpen/osm-mattheus-b-n5615179728/p2-400.webp 400w, img/places/antwerpen/osm-mattheus-b-n5615179728/p2-800.webp 800w",
+     "w": 600,
+     "h": 800,
+     "category": "food",
+     "alt": "Mattheus B: food",
+     "credit": "mattheusb.be",
+     "credit_url": "https://mattheusb.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-mattheus-b-n5615179728/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-mattheus-b-n5615179728/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-mattheus-b-n5615179728/p3-400.webp 400w, img/places/antwerpen/osm-mattheus-b-n5615179728/p3-800.webp 800w",
      "w": 800,
      "h": 533,
      "category": "drink",
@@ -10111,6 +11533,48 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-mico-jon-n10170170417/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-mico-jon-n10170170417/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-mico-jon-n10170170417/p2-400.webp 400w, img/places/antwerpen/osm-mico-jon-n10170170417/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Mico & Jon: food",
+     "credit": "@mico_and_jon on Instagram",
+     "credit_url": "https://www.instagram.com/mico_and_jon/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-mico-jon-n10170170417/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-mico-jon-n10170170417/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-mico-jon-n10170170417/p3-400.webp 400w, img/places/antwerpen/osm-mico-jon-n10170170417/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Mico & Jon: food",
+     "credit": "@mico_and_jon on Instagram",
+     "credit_url": "https://www.instagram.com/mico_and_jon/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-mico-jon-n10170170417/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-mico-jon-n10170170417/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-mico-jon-n10170170417/p4-400.webp 400w, img/places/antwerpen/osm-mico-jon-n10170170417/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Mico & Jon: food",
+     "credit": "@mico_and_jon on Instagram",
+     "credit_url": "https://www.instagram.com/mico_and_jon/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -10203,7 +11667,28 @@
    "layout": "mix"
   },
   "osm-mint-n1811187404": {
-   "hold": "no people-free photo found (research): website: images show crowds/people"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-mint-n1811187404/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-mint-n1811187404/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-mint-n1811187404/p1-700.webp 700w, img/places/antwerpen/osm-mint-n1811187404/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1367,
+     "category": "drink",
+     "alt": "Mint: drinks",
+     "credit": "@mintantwerpen on Instagram",
+     "credit_url": "https://www.instagram.com/mintantwerpen/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-mint-n1811187404/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-mister-wok-n11074286636": {
    "hold": "no people-free photo found (research): own website from data: website timed out; no Instagram on record; retried once at end of run (06:00 CET): still unreachable/timed out"
@@ -10231,8 +11716,8 @@
      "src": "img/places/antwerpen/osm-mistral-n13514726684/p2-800.webp",
      "thumb": "img/places/antwerpen/osm-mistral-n13514726684/p2-400.webp",
      "srcset": "img/places/antwerpen/osm-mistral-n13514726684/p2-400.webp 400w, img/places/antwerpen/osm-mistral-n13514726684/p2-800.webp 800w",
-     "w": 800,
-     "h": 600,
+     "w": 750,
+     "h": 1000,
      "category": "food",
      "alt": "Mistral: food",
      "credit": "fr-mistral.be",
@@ -10245,8 +11730,8 @@
      "src": "img/places/antwerpen/osm-mistral-n13514726684/p3-800.webp",
      "thumb": "img/places/antwerpen/osm-mistral-n13514726684/p3-400.webp",
      "srcset": "img/places/antwerpen/osm-mistral-n13514726684/p3-400.webp 400w, img/places/antwerpen/osm-mistral-n13514726684/p3-800.webp 800w",
-     "w": 750,
-     "h": 1000,
+     "w": 768,
+     "h": 1024,
      "category": "food",
      "alt": "Mistral: food",
      "credit": "fr-mistral.be",
@@ -10260,7 +11745,7 @@
      "thumb": "img/places/antwerpen/osm-mistral-n13514726684/p4-400.webp",
      "srcset": "img/places/antwerpen/osm-mistral-n13514726684/p4-400.webp 400w, img/places/antwerpen/osm-mistral-n13514726684/p4-800.webp 800w",
      "w": 768,
-     "h": 1024,
+     "h": 660,
      "category": "food",
      "alt": "Mistral: food",
      "credit": "fr-mistral.be",
@@ -10386,6 +11871,34 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-msemen-n11042708161/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-msemen-n11042708161/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-msemen-n11042708161/p3-400.webp 400w, img/places/antwerpen/osm-msemen-n11042708161/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Msemen: food",
+     "credit": "msemen.be",
+     "credit_url": "https://msemen.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-msemen-n11042708161/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-msemen-n11042708161/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-msemen-n11042708161/p4-400.webp 400w, img/places/antwerpen/osm-msemen-n11042708161/p4-800.webp 800w",
+     "w": 640,
+     "h": 1136,
+     "category": "interior",
+     "alt": "Msemen: the interior",
+     "credit": "@msemen.antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/msemen.antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -10479,6 +11992,20 @@
      "alt": "Nawaab: food",
      "credit": "nawaab.be",
      "credit_url": "https://www.nawaab.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-nawaab-n13334352201/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-nawaab-n13334352201/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-nawaab-n13334352201/p3-400.webp 400w, img/places/antwerpen/osm-nawaab-n13334352201/p3-800.webp 800w",
+     "w": 800,
+     "h": 673,
+     "category": "interior",
+     "alt": "Nawaab: the interior",
+     "credit": "nawaab.be",
+     "credit_url": "https://www.nawaab.be/over-ons/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -11270,14 +12797,28 @@
      "src": "img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p1-700.webp 700w, img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p1-1400.webp 1400w",
-     "w": 1200,
-     "h": 800,
+     "w": 800,
+     "h": 596,
      "category": "food",
      "alt": "Pastificio Da Lory: food",
-     "credit": "dalory.be",
-     "credit_url": "https://www.dalory.be/",
+     "credit": "@pastificiodalory on Instagram",
+     "credit_url": "https://www.instagram.com/pastificiodalory/",
      "license": "the place's own photo",
-     "source": "own_website",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p2-400.webp 400w, img/places/antwerpen/osm-pastificio-da-lory-n7272869197/p2-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "Pastificio Da Lory: food",
+     "credit": "@pastificiodalory on Instagram",
+     "credit_url": "https://www.instagram.com/pastificiodalory/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -11454,7 +12995,56 @@
    }
   },
   "osm-planttrekkerij-n13607927401": {
-   "hold": "no people-free photo found (research): website: all images show people/hands"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p1-700.webp 700w, img/places/antwerpen/osm-planttrekkerij-n13607927401/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1089,
+     "category": "food",
+     "alt": "Planttrekkerij: food",
+     "credit": "@planttrekkerij on Instagram",
+     "credit_url": "https://www.instagram.com/planttrekkerij/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p2-400.webp 400w, img/places/antwerpen/osm-planttrekkerij-n13607927401/p2-800.webp 800w",
+     "w": 720,
+     "h": 960,
+     "category": "food",
+     "alt": "Planttrekkerij: food",
+     "credit": "@planttrekkerij on Instagram",
+     "credit_url": "https://www.instagram.com/planttrekkerij/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p3-400.webp 400w, img/places/antwerpen/osm-planttrekkerij-n13607927401/p3-800.webp 800w",
+     "w": 720,
+     "h": 960,
+     "category": "food",
+     "alt": "Planttrekkerij: food",
+     "credit": "@planttrekkerij on Instagram",
+     "credit_url": "https://www.instagram.com/planttrekkerij/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-planttrekkerij-n13607927401/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-ploy-pochana-n1638728145": {
    "hold": "no people-free photo found (research): website has no usable large images (only logos/small images)"
@@ -11556,12 +13146,12 @@
      "src": "img/places/antwerpen/osm-refill-n5316556194/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-refill-n5316556194/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-refill-n5316556194/p1-700.webp 700w, img/places/antwerpen/osm-refill-n5316556194/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 933,
-     "category": "interior",
-     "alt": "Refill: the interior",
+     "w": 640,
+     "h": 1138,
+     "category": "exterior",
+     "alt": "Refill: the outside",
      "credit": "refill.eatbu.com",
-     "credit_url": "https://refill.eatbu.com/?lang=en",
+     "credit_url": "https://refill.eatbu.com/?lang=nl",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -11584,6 +13174,20 @@
      "h": 1024,
      "category": "exterior",
      "alt": "Renaissance: the outside",
+     "credit": "resto-renaissance.be",
+     "credit_url": "https://www.resto-renaissance.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-renaissance-n5301889757/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-renaissance-n5301889757/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-renaissance-n5301889757/p2-400.webp 400w, img/places/antwerpen/osm-renaissance-n5301889757/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "interior",
+     "alt": "Renaissance: the interior",
      "credit": "resto-renaissance.be",
      "credit_url": "https://www.resto-renaissance.be/",
      "license": "the place's own photo",
@@ -11754,22 +13358,68 @@
   "osm-roji-n4146451384": {
    "photos": [
     {
-     "src": "https://cdn.prod.website-files.com/6a3946f2d36279ee10294d90/6a8ee017bc3c407877db8128__SF44214.jpg",
-     "thumb": "https://cdn.prod.website-files.com/6a3946f2d36279ee10294d90/6a8ee017bc3c407877db8128__SF44214.jpg",
-     "w": 888,
-     "h": 1080,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
+     "src": "img/places/antwerpen/osm-roji-n4146451384/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-roji-n4146451384/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-roji-n4146451384/p1-700.webp 700w, img/places/antwerpen/osm-roji-n4146451384/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 689,
+     "category": "food",
+     "alt": "Roji: food",
      "credit": "roji.be",
-     "credit_url": "https://www.roji.be/",
-     "alt": ""
+     "credit_url": "https://www.roji.be/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-roji-n4146451384/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-roji-n4146451384/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-roji-n4146451384/p2-400.webp 400w, img/places/antwerpen/osm-roji-n4146451384/p2-800.webp 800w",
+     "w": 800,
+     "h": 493,
+     "category": "food",
+     "alt": "Roji: food",
+     "credit": "roji.be",
+     "credit_url": "https://www.roji.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-roji-n4146451384/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-roji-n4146451384/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-roji-n4146451384/p3-400.webp 400w, img/places/antwerpen/osm-roji-n4146451384/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Roji: food",
+     "credit": "@roji_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/roji_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-roji-n4146451384/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-roji-n4146451384/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-roji-n4146451384/p4-400.webp 400w, img/places/antwerpen/osm-roji-n4146451384/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Roji: the interior",
+     "credit": "@roji_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/roji_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "https://cdn.prod.website-files.com/6a3946f2d36279ee10294d90/6a8ee017bc3c407877db8128__SF44214.jpg"
-   }
+    "src": "img/places/antwerpen/osm-roji-n4146451384/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-roll-boll-n12310531882": {
    "hold": "no people-free photo found (research): no source in data; quick search found none (Roll&Bowl Deurne is a different address)"
@@ -12090,9 +13740,37 @@
      "category": "interior",
      "alt": "Satay: the interior",
      "credit": "satay.be",
-     "credit_url": "https://satay.be/en",
+     "credit_url": "https://satay.be/nl",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-satay-n5991458052/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-satay-n5991458052/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-satay-n5991458052/p2-400.webp 400w, img/places/antwerpen/osm-satay-n5991458052/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Satay: food",
+     "credit": "@satayantwerp on Instagram",
+     "credit_url": "https://www.instagram.com/satayantwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-satay-n5991458052/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-satay-n5991458052/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-satay-n5991458052/p3-400.webp 400w, img/places/antwerpen/osm-satay-n5991458052/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "exterior",
+     "alt": "Satay: the outside",
+     "credit": "@satayantwerp on Instagram",
+     "credit_url": "https://www.instagram.com/satayantwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -12277,7 +13955,7 @@
      "category": "interior",
      "alt": "Sifa: the interior",
      "credit": "sifa-eethuis.be",
-     "credit_url": "https://www.sifa-eethuis.be/",
+     "credit_url": "https://www.sifa-eethuis.be/nl/bekijk-rustig-onze-galerij",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -12319,6 +13997,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-simone-s-kitchen-n13608000901/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-simone-s-kitchen-n13608000901/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-simone-s-kitchen-n13608000901/p3-400.webp 400w, img/places/antwerpen/osm-simone-s-kitchen-n13608000901/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "drink",
+     "alt": "Simone's Kitchen: drinks",
+     "credit": "@simoneskitchen_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/simoneskitchen_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -12337,22 +14029,68 @@
   "osm-sir-anthony-van-dijck-n4144339591": {
    "photos": [
     {
-     "src": "https://www.siranthonyvandijck.be/site/assets/files/1/interieur_4.jpg",
-     "thumb": "https://www.siranthonyvandijck.be/site/assets/files/1/interieur_4.jpg",
+     "src": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p1-700.webp 700w, img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p1-1400.webp 1400w",
      "w": 1280,
      "h": 800,
-     "hotlink": true,
      "category": "interior",
-     "source": "website",
+     "alt": "Sir Anthony Van Dijck: the interior",
      "credit": "siranthonyvandijck.be",
-     "credit_url": "https://www.siranthonyvandijck.be/",
-     "alt": ""
+     "credit_url": "https://www.siranthonyvandijck.be/nl/het-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p2-400.webp 400w, img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p2-800.webp 800w",
+     "w": 800,
+     "h": 500,
+     "category": "food",
+     "alt": "Sir Anthony Van Dijck: food",
+     "credit": "siranthonyvandijck.be",
+     "credit_url": "https://www.siranthonyvandijck.be/nl/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p3-400.webp 400w, img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p3-800.webp 800w",
+     "w": 800,
+     "h": 830,
+     "category": "food",
+     "alt": "Sir Anthony Van Dijck: food",
+     "credit": "@sir.anthony.van.dijck on Instagram",
+     "credit_url": "https://www.instagram.com/sir.anthony.van.dijck/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p4-400.webp 400w, img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p4-800.webp 800w",
+     "w": 800,
+     "h": 500,
+     "category": "interior",
+     "alt": "Sir Anthony Van Dijck: the interior",
+     "credit": "siranthonyvandijck.be",
+     "credit_url": "https://www.siranthonyvandijck.be/nl/het-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "https://www.siranthonyvandijck.be/site/assets/files/1/interieur_4.jpg"
-   }
+    "src": "img/places/antwerpen/osm-sir-anthony-van-dijck-n4144339591/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-skybar-antwerp-n13587999785": {
    "photos": [
@@ -12442,6 +14180,20 @@
      "credit_url": "https://www.peopleofsommar.be/",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-sommar-wintar-n10779278340/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-sommar-wintar-n10779278340/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-sommar-wintar-n10779278340/p2-400.webp 400w, img/places/antwerpen/osm-sommar-wintar-n10779278340/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Sommar/Wintar: food",
+     "credit": "@peopleofsommar on Instagram",
+     "credit_url": "https://www.instagram.com/peopleofsommar/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -12616,11 +14368,11 @@
      "thumb": "img/places/antwerpen/osm-t-hof-van-eden-n1783469363/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-t-hof-van-eden-n1783469363/p1-700.webp 700w, img/places/antwerpen/osm-t-hof-van-eden-n1783469363/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 933,
+     "h": 1050,
      "category": "food",
      "alt": "'t Hof van Eden: food",
      "credit": "thofvaneden.be",
-     "credit_url": "https://thofvaneden.be/",
+     "credit_url": "https://thofvaneden.be/menu/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -12629,8 +14381,8 @@
      "src": "img/places/antwerpen/osm-t-hof-van-eden-n1783469363/p2-800.webp",
      "thumb": "img/places/antwerpen/osm-t-hof-van-eden-n1783469363/p2-400.webp",
      "srcset": "img/places/antwerpen/osm-t-hof-van-eden-n1783469363/p2-400.webp 400w, img/places/antwerpen/osm-t-hof-van-eden-n1783469363/p2-800.webp 800w",
-     "w": 705,
-     "h": 529,
+     "w": 800,
+     "h": 533,
      "category": "food",
      "alt": "'t Hof van Eden: food",
      "credit": "thofvaneden.be",
@@ -12697,18 +14449,49 @@
   "osm-t-rico-n6312724304": {
    "hold": "no people-free photo found (research): no source in data; quick search: possibly Taqueria Rico but not confirmed, so no source used"
   },
-  "osm-t-soet-brood-n1629898250": {
+  "osm-t-spreeuwke-n6225842205": {
+   "hold": "no people-free photo found (research): no source in data; quick search found none"
+  },
+  "osm-t-werkhuys-n7005616471": {
    "photos": [
     {
-     "src": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-1400.webp",
-     "thumb": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-700.webp",
-     "srcset": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-700.webp 700w, img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "src": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p1-700.webp 700w, img/places/antwerpen/osm-t-werkhuys-n7005616471/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
      "category": "interior",
-     "alt": "'T soet brood: the interior",
-     "credit": "tsoetbrood.be",
-     "credit_url": "https://www.tsoetbrood.be/",
+     "alt": "'t Werkhuys: the interior",
+     "credit": "werkhuys.be",
+     "credit_url": "https://www.werkhuys.be/zalen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p2-400.webp 400w, img/places/antwerpen/osm-t-werkhuys-n7005616471/p2-800.webp 800w",
+     "w": 800,
+     "h": 521,
+     "category": "food",
+     "alt": "'t Werkhuys: food",
+     "credit": "werkhuys.be",
+     "credit_url": "https://www.werkhuys.be/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p3-400.webp 400w, img/places/antwerpen/osm-t-werkhuys-n7005616471/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "'t Werkhuys: the interior",
+     "credit": "werkhuys.be",
+     "credit_url": "https://www.werkhuys.be/zalen",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -12716,16 +14499,10 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-1400.webp"
+    "src": "img/places/antwerpen/osm-t-werkhuys-n7005616471/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
-  },
-  "osm-t-spreeuwke-n6225842205": {
-   "hold": "no people-free photo found (research): no source in data; quick search found none"
-  },
-  "osm-t-werkhuys-n7005616471": {
-   "hold": "no people-free photo found (research): no usable photos: people in all images"
   },
   "osm-taj-mahal-n1260491708": {
    "photos": [
@@ -12837,12 +14614,68 @@
      "src": "img/places/antwerpen/osm-tamo-n6917721525/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-tamo-n6917721525/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-tamo-n6917721525/p1-700.webp 700w, img/places/antwerpen/osm-tamo-n6917721525/p1-1400.webp 1400w",
-     "w": 1067,
-     "h": 1600,
+     "w": 1400,
+     "h": 933,
      "category": "interior",
      "alt": "Tamo: the interior",
      "credit": "tamorestaurant.com",
      "credit_url": "https://www.tamorestaurant.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-tamo-n6917721525/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-tamo-n6917721525/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-tamo-n6917721525/p2-400.webp 400w, img/places/antwerpen/osm-tamo-n6917721525/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Tamo: food",
+     "credit": "tamorestaurant.com",
+     "credit_url": "https://www.tamorestaurant.com/gallery",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-tamo-n6917721525/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-tamo-n6917721525/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-tamo-n6917721525/p3-400.webp 400w, img/places/antwerpen/osm-tamo-n6917721525/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Tamo: food",
+     "credit": "tamorestaurant.com",
+     "credit_url": "https://www.tamorestaurant.com/gallery",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-tamo-n6917721525/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-tamo-n6917721525/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-tamo-n6917721525/p4-400.webp 400w, img/places/antwerpen/osm-tamo-n6917721525/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Tamo: food",
+     "credit": "tamorestaurant.com",
+     "credit_url": "https://www.tamorestaurant.com/gallery",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-tamo-n6917721525/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-tamo-n6917721525/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-tamo-n6917721525/p5-400.webp 400w, img/places/antwerpen/osm-tamo-n6917721525/p5-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "Tamo: the outside",
+     "credit": "tamorestaurant.com",
+     "credit_url": "https://www.tamorestaurant.com/gallery",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -12968,9 +14801,23 @@
      "category": "interior",
      "alt": "Taverne De Grave: the interior",
      "credit": "tavernedegrave.be",
-     "credit_url": "https://tavernedegrave.be/en",
+     "credit_url": "https://tavernedegrave.be/nl",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-taverne-de-grave-n9924591781/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-taverne-de-grave-n9924591781/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-taverne-de-grave-n9924591781/p2-400.webp 400w, img/places/antwerpen/osm-taverne-de-grave-n9924591781/p2-800.webp 800w",
+     "w": 720,
+     "h": 960,
+     "category": "interior",
+     "alt": "Taverne De Grave: the interior",
+     "credit": "Taverne De Grave on Facebook",
+     "credit_url": "https://facebook.com/tavernedegrave",
+     "license": "the place's own photo",
+     "source": "own_facebook",
      "noPeopleChecked": true
     }
    ],
@@ -13164,14 +15011,28 @@
      "src": "img/places/antwerpen/osm-the-pharmacy-n6259847704/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-the-pharmacy-n6259847704/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-the-pharmacy-n6259847704/p1-700.webp 700w, img/places/antwerpen/osm-the-pharmacy-n6259847704/p1-1400.webp 1400w",
-     "w": 666,
-     "h": 999,
+     "w": 1080,
+     "h": 1440,
      "category": "drink",
      "alt": "The Pharmacy: drinks",
-     "credit": "thepharmacy.bar",
-     "credit_url": "https://thepharmacy.bar/",
+     "credit": "@thepharmacy.bar on Instagram",
+     "credit_url": "https://www.instagram.com/thepharmacy.bar/",
      "license": "the place's own photo",
-     "source": "own_website",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-the-pharmacy-n6259847704/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-the-pharmacy-n6259847704/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-the-pharmacy-n6259847704/p2-400.webp 400w, img/places/antwerpen/osm-the-pharmacy-n6259847704/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "drink",
+     "alt": "The Pharmacy: drinks",
+     "credit": "@thepharmacy.bar on Instagram",
+     "credit_url": "https://www.instagram.com/thepharmacy.bar/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -13322,6 +15183,48 @@
      "srcset": "img/places/antwerpen/osm-u-w483462288/p2-400.webp 400w, img/places/antwerpen/osm-u-w483462288/p2-800.webp 800w",
      "w": 800,
      "h": 1200,
+     "category": "food",
+     "alt": "U: food",
+     "credit": "u-eatsleep.be",
+     "credit_url": "https://u-eatsleep.be/nl/aanbod/restaurant",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-u-w483462288/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-u-w483462288/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-u-w483462288/p3-400.webp 400w, img/places/antwerpen/osm-u-w483462288/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "U: food",
+     "credit": "u-eatsleep.be",
+     "credit_url": "https://u-eatsleep.be/nl/aanbod/restaurant",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-u-w483462288/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-u-w483462288/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-u-w483462288/p4-400.webp 400w, img/places/antwerpen/osm-u-w483462288/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "U: food",
+     "credit": "u-eatsleep.be",
+     "credit_url": "https://u-eatsleep.be/nl/aanbod/restaurant",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-u-w483462288/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-u-w483462288/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-u-w483462288/p5-400.webp 400w, img/places/antwerpen/osm-u-w483462288/p5-800.webp 800w",
+     "w": 800,
+     "h": 1200,
      "category": "interior",
      "alt": "U: the interior",
      "credit": "u-eatsleep.be",
@@ -13376,34 +15279,68 @@
   "osm-umi-sushi-n6176652013": {
    "photos": [
     {
-     "src": "https://www.umi-sushi.be/wp-content/uploads/2022/11/UMI-SUSHI-hero-restaurant.jpg",
-     "thumb": "https://www.umi-sushi.be/wp-content/uploads/2022/11/UMI-SUSHI-hero-restaurant.jpg",
-     "w": 1600,
-     "h": 900,
-     "hotlink": true,
+     "src": "img/places/antwerpen/osm-umi-sushi-n6176652013/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-umi-sushi-n6176652013/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-umi-sushi-n6176652013/p1-700.webp 700w, img/places/antwerpen/osm-umi-sushi-n6176652013/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1000,
      "category": "interior",
-     "source": "website",
+     "alt": "Umi Sushi: the interior",
      "credit": "umi-sushi.be",
-     "credit_url": "https://www.umi-sushi.be/",
-     "alt": ""
+     "credit_url": "https://www.umi-sushi.be/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     },
     {
-     "src": "https://www.umi-sushi.be/wp-content/uploads/2022/11/UMI-SUSHI-hero-japanse-lampen.jpg",
-     "thumb": "https://www.umi-sushi.be/wp-content/uploads/2022/11/UMI-SUSHI-hero-japanse-lampen.jpg",
-     "w": 1600,
-     "h": 900,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
+     "src": "img/places/antwerpen/osm-umi-sushi-n6176652013/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-umi-sushi-n6176652013/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-umi-sushi-n6176652013/p2-400.webp 400w, img/places/antwerpen/osm-umi-sushi-n6176652013/p2-800.webp 800w",
+     "w": 800,
+     "h": 571,
+     "category": "food",
+     "alt": "Umi Sushi: food",
      "credit": "umi-sushi.be",
-     "credit_url": "https://www.umi-sushi.be/",
-     "alt": ""
+     "credit_url": "https://www.umi-sushi.be/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-umi-sushi-n6176652013/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-umi-sushi-n6176652013/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-umi-sushi-n6176652013/p3-400.webp 400w, img/places/antwerpen/osm-umi-sushi-n6176652013/p3-800.webp 800w",
+     "w": 800,
+     "h": 571,
+     "category": "food",
+     "alt": "Umi Sushi: food",
+     "credit": "umi-sushi.be",
+     "credit_url": "https://www.umi-sushi.be/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-umi-sushi-n6176652013/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-umi-sushi-n6176652013/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-umi-sushi-n6176652013/p4-400.webp 400w, img/places/antwerpen/osm-umi-sushi-n6176652013/p4-800.webp 800w",
+     "w": 800,
+     "h": 571,
+     "category": "food",
+     "alt": "Umi Sushi: food",
+     "credit": "umi-sushi.be",
+     "credit_url": "https://www.umi-sushi.be/menukaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "https://www.umi-sushi.be/wp-content/uploads/2022/11/UMI-SUSHI-hero-restaurant.jpg"
-   }
+    "src": "img/places/antwerpen/osm-umi-sushi-n6176652013/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-v-modern-italian-n6452995021": {
    "photos": [
@@ -13472,6 +15409,48 @@
      "src": "img/places/antwerpen/osm-veranda-n4946103692/p2-800.webp",
      "thumb": "img/places/antwerpen/osm-veranda-n4946103692/p2-400.webp",
      "srcset": "img/places/antwerpen/osm-veranda-n4946103692/p2-400.webp 400w, img/places/antwerpen/osm-veranda-n4946103692/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Veranda: food",
+     "credit": "@veranda_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/veranda_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-veranda-n4946103692/p3-800.webp",
+     "thumb": "img/places/antwerpen/osm-veranda-n4946103692/p3-400.webp",
+     "srcset": "img/places/antwerpen/osm-veranda-n4946103692/p3-400.webp 400w, img/places/antwerpen/osm-veranda-n4946103692/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Veranda: food",
+     "credit": "@veranda_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/veranda_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-veranda-n4946103692/p4-800.webp",
+     "thumb": "img/places/antwerpen/osm-veranda-n4946103692/p4-400.webp",
+     "srcset": "img/places/antwerpen/osm-veranda-n4946103692/p4-400.webp 400w, img/places/antwerpen/osm-veranda-n4946103692/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Veranda: food",
+     "credit": "@veranda_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/veranda_antwerp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-veranda-n4946103692/p5-800.webp",
+     "thumb": "img/places/antwerpen/osm-veranda-n4946103692/p5-400.webp",
+     "srcset": "img/places/antwerpen/osm-veranda-n4946103692/p5-400.webp 400w, img/places/antwerpen/osm-veranda-n4946103692/p5-800.webp 800w",
      "w": 800,
      "h": 534,
      "category": "interior",
@@ -13738,14 +15717,28 @@
      "src": "img/places/antwerpen/osm-volef-s-n4769840640/p1-1400.webp",
      "thumb": "img/places/antwerpen/osm-volef-s-n4769840640/p1-700.webp",
      "srcset": "img/places/antwerpen/osm-volef-s-n4769840640/p1-700.webp 700w, img/places/antwerpen/osm-volef-s-n4769840640/p1-1400.webp 1400w",
-     "w": 1280,
-     "h": 906,
+     "w": 1080,
+     "h": 1350,
      "category": "food",
      "alt": "Volef's: food",
-     "credit": "volefs.be",
-     "credit_url": "https://www.volefs.be/",
+     "credit": "@volefs on Instagram",
+     "credit_url": "https://www.instagram.com/volefs/",
      "license": "the place's own photo",
-     "source": "own_website",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-volef-s-n4769840640/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-volef-s-n4769840640/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-volef-s-n4769840640/p2-400.webp 400w, img/places/antwerpen/osm-volef-s-n4769840640/p2-800.webp 800w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "Volef's: food",
+     "credit": "@volefs on Instagram",
+     "credit_url": "https://www.instagram.com/volefs/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -13904,7 +15897,28 @@
    "hold": "no people-free photo found (research): no source in data; quick search found none"
   },
   "osm-wolf-sharing-foodmarket-n13657953765": {
-   "hold": "no people-free photo found (research): no usable photos: people at table; others are logos/graphics"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-wolf-sharing-foodmarket-n13657953765/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-wolf-sharing-foodmarket-n13657953765/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-wolf-sharing-foodmarket-n13657953765/p1-700.webp 700w, img/places/antwerpen/osm-wolf-sharing-foodmarket-n13657953765/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "WOLF Sharing foodmarket: food",
+     "credit": "@wolf.bxl on Instagram",
+     "credit_url": "https://www.instagram.com/wolf.bxl/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-wolf-sharing-foodmarket-n13657953765/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-xaverius-n2407511231": {
    "photos": [
@@ -13965,13 +15979,13 @@
      "thumb": "img/places/antwerpen/osm-yalla-yalla-n11055776206/p3-400.webp",
      "srcset": "img/places/antwerpen/osm-yalla-yalla-n11055776206/p3-400.webp 400w, img/places/antwerpen/osm-yalla-yalla-n11055776206/p3-800.webp 800w",
      "w": 800,
-     "h": 1200,
+     "h": 800,
      "category": "interior",
      "alt": "Yalla Yalla: the interior",
-     "credit": "yallayalla.be",
-     "credit_url": "https://yallayalla.be/",
+     "credit": "@yallayalla_beirutfoodbar on Instagram",
+     "credit_url": "https://www.instagram.com/yallayalla_beirutfoodbar/",
      "license": "the place's own photo",
-     "source": "own_website",
+     "source": "own_instagram",
      "noPeopleChecked": true
     },
     {
@@ -14586,7 +16600,28 @@
    "layout": "mix"
   },
   "rush-rush": {
-   "hold": "no people-free photo found (research): website shows only merch, a person, or a hand on the roaster; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/antwerpen/rush-rush/p1-1400.webp",
+     "thumb": "img/places/antwerpen/rush-rush/p1-700.webp",
+     "srcset": "img/places/antwerpen/rush-rush/p1-700.webp 700w, img/places/antwerpen/rush-rush/p1-1400.webp 1400w",
+     "w": 960,
+     "h": 1280,
+     "category": "exterior",
+     "alt": "Rush Rush: the outside",
+     "credit": "rushrush.be",
+     "credit_url": "https://www.rushrush.be/products/rush-rush-brazil-espresso",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/rush-rush/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "salt-mint": {
    "photos": [
@@ -14835,6 +16870,20 @@
      "srcset": "img/places/antwerpen/ta-nnin/p1-700.webp 700w, img/places/antwerpen/ta-nnin/p1-1400.webp 1400w",
      "w": 1400,
      "h": 937,
+     "category": "interior",
+     "alt": "Ta'nnin: the interior",
+     "credit": "ta-nnin.be",
+     "credit_url": "https://ta-nnin.be/events/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/ta-nnin/p2-800.webp",
+     "thumb": "img/places/antwerpen/ta-nnin/p2-400.webp",
+     "srcset": "img/places/antwerpen/ta-nnin/p2-400.webp 400w, img/places/antwerpen/ta-nnin/p2-800.webp 800w",
+     "w": 800,
+     "h": 535,
      "category": "drink",
      "alt": "Ta'nnin: drinks",
      "credit": "ta-nnin.be",
@@ -14844,15 +16893,15 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/ta-nnin/p2-800.webp",
-     "thumb": "img/places/antwerpen/ta-nnin/p2-400.webp",
-     "srcset": "img/places/antwerpen/ta-nnin/p2-400.webp 400w, img/places/antwerpen/ta-nnin/p2-800.webp 800w",
-     "w": 768,
-     "h": 514,
-     "category": "drink",
-     "alt": "Ta'nnin: drinks",
+     "src": "img/places/antwerpen/ta-nnin/p3-800.webp",
+     "thumb": "img/places/antwerpen/ta-nnin/p3-400.webp",
+     "srcset": "img/places/antwerpen/ta-nnin/p3-400.webp 400w, img/places/antwerpen/ta-nnin/p3-800.webp 800w",
+     "w": 800,
+     "h": 535,
+     "category": "interior",
+     "alt": "Ta'nnin: the interior",
      "credit": "ta-nnin.be",
-     "credit_url": "https://ta-nnin.be/",
+     "credit_url": "https://ta-nnin.be/about-us/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -15268,12 +17317,12 @@
      "src": "img/places/antwerpen/misera/p1-1400.webp",
      "thumb": "img/places/antwerpen/misera/p1-700.webp",
      "srcset": "img/places/antwerpen/misera/p1-700.webp 700w, img/places/antwerpen/misera/p1-1400.webp 1400w",
-     "w": 1067,
-     "h": 1600,
-     "category": "food",
-     "alt": "Misera: food",
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "Misera: the interior",
      "credit": "nicolasmisera.com",
-     "credit_url": "https://nicolasmisera.com/",
+     "credit_url": "https://nicolasmisera.com/restaurant-misera",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -15283,11 +17332,53 @@
      "thumb": "img/places/antwerpen/misera/p2-400.webp",
      "srcset": "img/places/antwerpen/misera/p2-400.webp 400w, img/places/antwerpen/misera/p2-800.webp 800w",
      "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Misera: food",
+     "credit": "nicolasmisera.com",
+     "credit_url": "https://nicolasmisera.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/misera/p3-800.webp",
+     "thumb": "img/places/antwerpen/misera/p3-400.webp",
+     "srcset": "img/places/antwerpen/misera/p3-400.webp 400w, img/places/antwerpen/misera/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Misera: food",
+     "credit": "nicolasmisera.com",
+     "credit_url": "https://nicolasmisera.com/restaurant-misera",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/misera/p4-800.webp",
+     "thumb": "img/places/antwerpen/misera/p4-400.webp",
+     "srcset": "img/places/antwerpen/misera/p4-400.webp 400w, img/places/antwerpen/misera/p4-800.webp 800w",
+     "w": 800,
      "h": 800,
      "category": "food",
      "alt": "Misera: food",
      "credit": "nicolasmisera.com",
      "credit_url": "https://nicolasmisera.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/misera/p5-800.webp",
+     "thumb": "img/places/antwerpen/misera/p5-400.webp",
+     "srcset": "img/places/antwerpen/misera/p5-400.webp 400w, img/places/antwerpen/misera/p5-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Misera: the outside",
+     "credit": "nicolasmisera.com",
+     "credit_url": "https://nicolasmisera.com/private-dining",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -15610,6 +17701,92 @@
    "pick": {
     "type": "photo",
     "src": "img/places/antwerpen/osm-particolare-n9702818489/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-chilli-s-taverna-n6652488396": {
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-700.webp 700w, img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Chilli's taverna: the interior",
+     "credit": "chillisrestaurante.be",
+     "credit_url": "https://www.chillisrestaurante.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-chilli-s-taverna-n6652488396/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-negen-vaten-n6262551129": {
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-700.webp 700w, img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "De Negen Vaten: food",
+     "credit": "denegenvaten.be",
+     "credit_url": "https://denegenvaten.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-800.webp",
+     "thumb": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-400.webp",
+     "srcset": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-400.webp 400w, img/places/antwerpen/osm-de-negen-vaten-n6262551129/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "De Negen Vaten: food",
+     "credit": "denegenvaten.be",
+     "credit_url": "https://denegenvaten.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-de-negen-vaten-n6262551129/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-t-soet-brood-n1629898250": {
+   "photos": [
+    {
+     "src": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-1400.webp",
+     "thumb": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-700.webp",
+     "srcset": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-700.webp 700w, img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1440,
+     "category": "interior",
+     "alt": "'T soet brood: the interior",
+     "credit": "tsoetbrood.be",
+     "credit_url": "https://www.tsoetbrood.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/antwerpen/osm-t-soet-brood-n1629898250/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
