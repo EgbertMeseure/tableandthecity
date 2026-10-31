@@ -3491,6 +3491,764 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "taverne-de-klokke": {
+   "photos": [
+    {
+     "src": "img/places/oostende/taverne-de-klokke/p1-1400.webp",
+     "thumb": "img/places/oostende/taverne-de-klokke/p1-700.webp",
+     "srcset": "img/places/oostende/taverne-de-klokke/p1-700.webp 700w, img/places/oostende/taverne-de-klokke/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Taverne De Klokke: the interior",
+     "credit": "tavernedeklokke.be",
+     "credit_url": "https://tavernedeklokke.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/taverne-de-klokke/p2-800.webp",
+     "thumb": "img/places/oostende/taverne-de-klokke/p2-400.webp",
+     "srcset": "img/places/oostende/taverne-de-klokke/p2-400.webp 400w, img/places/oostende/taverne-de-klokke/p2-800.webp 800w",
+     "w": 800,
+     "h": 581,
+     "category": "food",
+     "alt": "Taverne De Klokke: food",
+     "credit": "tavernedeklokke.be",
+     "credit_url": "https://tavernedeklokke.be/galerij/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/taverne-de-klokke/p3-800.webp",
+     "thumb": "img/places/oostende/taverne-de-klokke/p3-400.webp",
+     "srcset": "img/places/oostende/taverne-de-klokke/p3-400.webp 400w, img/places/oostende/taverne-de-klokke/p3-800.webp 800w",
+     "w": 800,
+     "h": 514,
+     "category": "food",
+     "alt": "Taverne De Klokke: food",
+     "credit": "tavernedeklokke.be",
+     "credit_url": "https://tavernedeklokke.be/galerij/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/taverne-de-klokke/p4-800.webp",
+     "thumb": "img/places/oostende/taverne-de-klokke/p4-400.webp",
+     "srcset": "img/places/oostende/taverne-de-klokke/p4-400.webp 400w, img/places/oostende/taverne-de-klokke/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Taverne De Klokke: the interior",
+     "credit": "tavernedeklokke.be",
+     "credit_url": "https://tavernedeklokke.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/taverne-de-klokke/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bajatzu-w574724880": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-bajatzu-w574724880/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-bajatzu-w574724880/p1-700.webp",
+     "srcset": "img/places/oostende/osm-bajatzu-w574724880/p1-700.webp 700w, img/places/oostende/osm-bajatzu-w574724880/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Bajatzu: the interior",
+     "credit": "bajatzu.be",
+     "credit_url": "https://bajatzu.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bajatzu-w574724880/p2-800.webp",
+     "thumb": "img/places/oostende/osm-bajatzu-w574724880/p2-400.webp",
+     "srcset": "img/places/oostende/osm-bajatzu-w574724880/p2-400.webp 400w, img/places/oostende/osm-bajatzu-w574724880/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Bajatzu: the interior",
+     "credit": "bajatzu.be",
+     "credit_url": "https://bajatzu.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bajatzu-w574724880/p3-800.webp",
+     "thumb": "img/places/oostende/osm-bajatzu-w574724880/p3-400.webp",
+     "srcset": "img/places/oostende/osm-bajatzu-w574724880/p3-400.webp 400w, img/places/oostende/osm-bajatzu-w574724880/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Bajatzu: the interior",
+     "credit": "bajatzu.be",
+     "credit_url": "https://bajatzu.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-bajatzu-w574724880/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-benvenuto-n6779683037": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-benvenuto-n6779683037/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-benvenuto-n6779683037/p1-700.webp",
+     "srcset": "img/places/oostende/osm-benvenuto-n6779683037/p1-700.webp 700w, img/places/oostende/osm-benvenuto-n6779683037/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Benvenuto: the interior",
+     "credit": "ristorantepizzeriabenvenuto.be",
+     "credit_url": "https://ristorantepizzeriabenvenuto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-benvenuto-n6779683037/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-de-ton-n3524253496": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-bistro-de-ton-n3524253496/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-bistro-de-ton-n3524253496/p1-700.webp",
+     "srcset": "img/places/oostende/osm-bistro-de-ton-n3524253496/p1-700.webp 700w, img/places/oostende/osm-bistro-de-ton-n3524253496/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Bistro De Ton: food",
+     "credit": "de-ton.be",
+     "credit_url": "https://www.de-ton.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bistro-de-ton-n3524253496/p2-800.webp",
+     "thumb": "img/places/oostende/osm-bistro-de-ton-n3524253496/p2-400.webp",
+     "srcset": "img/places/oostende/osm-bistro-de-ton-n3524253496/p2-400.webp 400w, img/places/oostende/osm-bistro-de-ton-n3524253496/p2-800.webp 800w",
+     "w": 800,
+     "h": 674,
+     "category": "food",
+     "alt": "Bistro De Ton: food",
+     "credit": "de-ton.be",
+     "credit_url": "https://www.de-ton.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bistro-de-ton-n3524253496/p3-800.webp",
+     "thumb": "img/places/oostende/osm-bistro-de-ton-n3524253496/p3-400.webp",
+     "srcset": "img/places/oostende/osm-bistro-de-ton-n3524253496/p3-400.webp 400w, img/places/oostende/osm-bistro-de-ton-n3524253496/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bistro De Ton: food",
+     "credit": "de-ton.be",
+     "credit_url": "https://www.de-ton.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bistro-de-ton-n3524253496/p4-800.webp",
+     "thumb": "img/places/oostende/osm-bistro-de-ton-n3524253496/p4-400.webp",
+     "srcset": "img/places/oostende/osm-bistro-de-ton-n3524253496/p4-400.webp 400w, img/places/oostende/osm-bistro-de-ton-n3524253496/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Bistro De Ton: the interior",
+     "credit": "de-ton.be",
+     "credit_url": "https://www.de-ton.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-bistro-de-ton-n3524253496/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-henry-n13836462202": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-bistro-henry-n13836462202/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-bistro-henry-n13836462202/p1-700.webp",
+     "srcset": "img/places/oostende/osm-bistro-henry-n13836462202/p1-700.webp 700w, img/places/oostende/osm-bistro-henry-n13836462202/p1-1400.webp 1400w",
+     "w": 1365,
+     "h": 2048,
+     "category": "interior",
+     "alt": "Bistro Henry: the interior",
+     "credit": "bistrohenry.be",
+     "credit_url": "https://www.bistrohenry.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bistro-henry-n13836462202/p2-800.webp",
+     "thumb": "img/places/oostende/osm-bistro-henry-n13836462202/p2-400.webp",
+     "srcset": "img/places/oostende/osm-bistro-henry-n13836462202/p2-400.webp 400w, img/places/oostende/osm-bistro-henry-n13836462202/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Bistro Henry: food",
+     "credit": "bistrohenry.be",
+     "credit_url": "https://www.bistrohenry.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bistro-henry-n13836462202/p3-800.webp",
+     "thumb": "img/places/oostende/osm-bistro-henry-n13836462202/p3-400.webp",
+     "srcset": "img/places/oostende/osm-bistro-henry-n13836462202/p3-400.webp 400w, img/places/oostende/osm-bistro-henry-n13836462202/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Bistro Henry: food",
+     "credit": "bistrohenry.be",
+     "credit_url": "https://www.bistrohenry.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-bistro-henry-n13836462202/p4-800.webp",
+     "thumb": "img/places/oostende/osm-bistro-henry-n13836462202/p4-400.webp",
+     "srcset": "img/places/oostende/osm-bistro-henry-n13836462202/p4-400.webp 400w, img/places/oostende/osm-bistro-henry-n13836462202/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Bistro Henry: food",
+     "credit": "bistrohenry.be",
+     "credit_url": "https://www.bistrohenry.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-bistro-henry-n13836462202/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-crystal-palace-n11940345724": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-crystal-palace-n11940345724/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-crystal-palace-n11940345724/p1-700.webp",
+     "srcset": "img/places/oostende/osm-crystal-palace-n11940345724/p1-700.webp 700w, img/places/oostende/osm-crystal-palace-n11940345724/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Crystal Palace: the interior",
+     "credit": "chinacrystalpalace.be",
+     "credit_url": "https://chinacrystalpalace.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-crystal-palace-n11940345724/p2-800.webp",
+     "thumb": "img/places/oostende/osm-crystal-palace-n11940345724/p2-400.webp",
+     "srcset": "img/places/oostende/osm-crystal-palace-n11940345724/p2-400.webp 400w, img/places/oostende/osm-crystal-palace-n11940345724/p2-800.webp 800w",
+     "w": 800,
+     "h": 420,
+     "category": "interior",
+     "alt": "Crystal Palace: the interior",
+     "credit": "chinacrystalpalace.be",
+     "credit_url": "https://chinacrystalpalace.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-crystal-palace-n11940345724/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-vlasschaard-n9963293024": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-de-vlasschaard-n9963293024/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-de-vlasschaard-n9963293024/p1-700.webp",
+     "srcset": "img/places/oostende/osm-de-vlasschaard-n9963293024/p1-700.webp 700w, img/places/oostende/osm-de-vlasschaard-n9963293024/p1-1400.webp 1400w",
+     "w": 900,
+     "h": 586,
+     "category": "interior",
+     "alt": "De Vlasschaard: the interior",
+     "credit": "devlasschaard.be",
+     "credit_url": "https://www.devlasschaard.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-de-vlasschaard-n9963293024/p2-800.webp",
+     "thumb": "img/places/oostende/osm-de-vlasschaard-n9963293024/p2-400.webp",
+     "srcset": "img/places/oostende/osm-de-vlasschaard-n9963293024/p2-400.webp 400w, img/places/oostende/osm-de-vlasschaard-n9963293024/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "De Vlasschaard: food",
+     "credit": "devlasschaard.be",
+     "credit_url": "https://www.devlasschaard.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-de-vlasschaard-n9963293024/p3-800.webp",
+     "thumb": "img/places/oostende/osm-de-vlasschaard-n9963293024/p3-400.webp",
+     "srcset": "img/places/oostende/osm-de-vlasschaard-n9963293024/p3-400.webp 400w, img/places/oostende/osm-de-vlasschaard-n9963293024/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "De Vlasschaard: the outside",
+     "credit": "devlasschaard.be",
+     "credit_url": "https://www.devlasschaard.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-de-vlasschaard-n9963293024/p4-800.webp",
+     "thumb": "img/places/oostende/osm-de-vlasschaard-n9963293024/p4-400.webp",
+     "srcset": "img/places/oostende/osm-de-vlasschaard-n9963293024/p4-400.webp 400w, img/places/oostende/osm-de-vlasschaard-n9963293024/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "De Vlasschaard: the outside",
+     "credit": "devlasschaard.be",
+     "credit_url": "https://www.devlasschaard.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-de-vlasschaard-n9963293024/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-den-artiest-n7102288586": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-den-artiest-n7102288586/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-den-artiest-n7102288586/p1-700.webp",
+     "srcset": "img/places/oostende/osm-den-artiest-n7102288586/p1-700.webp 700w, img/places/oostende/osm-den-artiest-n7102288586/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 798,
+     "category": "interior",
+     "alt": "Den Artiest: the interior",
+     "credit": "artiest.be",
+     "credit_url": "https://www.artiest.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-den-artiest-n7102288586/p2-800.webp",
+     "thumb": "img/places/oostende/osm-den-artiest-n7102288586/p2-400.webp",
+     "srcset": "img/places/oostende/osm-den-artiest-n7102288586/p2-400.webp 400w, img/places/oostende/osm-den-artiest-n7102288586/p2-800.webp 800w",
+     "w": 800,
+     "h": 1202,
+     "category": "food",
+     "alt": "Den Artiest: food",
+     "credit": "artiest.be",
+     "credit_url": "https://www.artiest.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-den-artiest-n7102288586/p3-800.webp",
+     "thumb": "img/places/oostende/osm-den-artiest-n7102288586/p3-400.webp",
+     "srcset": "img/places/oostende/osm-den-artiest-n7102288586/p3-400.webp 400w, img/places/oostende/osm-den-artiest-n7102288586/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "Den Artiest: the outside",
+     "credit": "artiest.be",
+     "credit_url": "https://www.artiest.be/about/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-den-artiest-n7102288586/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-den-artisjok-n13970783808": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-den-artisjok-n13970783808/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-den-artisjok-n13970783808/p1-700.webp",
+     "srcset": "img/places/oostende/osm-den-artisjok-n13970783808/p1-700.webp 700w, img/places/oostende/osm-den-artisjok-n13970783808/p1-1400.webp 1400w",
+     "w": 640,
+     "h": 480,
+     "category": "interior",
+     "alt": "Den Artisjok: the interior",
+     "credit": "restaurantdenartisjok.be",
+     "credit_url": "https://restaurantdenartisjok.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-den-artisjok-n13970783808/p2-800.webp",
+     "thumb": "img/places/oostende/osm-den-artisjok-n13970783808/p2-400.webp",
+     "srcset": "img/places/oostende/osm-den-artisjok-n13970783808/p2-400.webp 400w, img/places/oostende/osm-den-artisjok-n13970783808/p2-800.webp 800w",
+     "w": 640,
+     "h": 636,
+     "category": "exterior",
+     "alt": "Den Artisjok: the outside",
+     "credit": "restaurantdenartisjok.be",
+     "credit_url": "https://restaurantdenartisjok.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-den-artisjok-n13970783808/p3-800.webp",
+     "thumb": "img/places/oostende/osm-den-artisjok-n13970783808/p3-400.webp",
+     "srcset": "img/places/oostende/osm-den-artisjok-n13970783808/p3-400.webp 400w, img/places/oostende/osm-den-artisjok-n13970783808/p3-800.webp 800w",
+     "w": 640,
+     "h": 480,
+     "category": "interior",
+     "alt": "Den Artisjok: the interior",
+     "credit": "restaurantdenartisjok.be",
+     "credit_url": "https://restaurantdenartisjok.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-den-artisjok-n13970783808/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-koninginnehof-w220246639": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-koninginnehof-w220246639/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-koninginnehof-w220246639/p1-700.webp",
+     "srcset": "img/places/oostende/osm-koninginnehof-w220246639/p1-700.webp 700w, img/places/oostende/osm-koninginnehof-w220246639/p1-1400.webp 1400w",
+     "w": 820,
+     "h": 553,
+     "category": "interior",
+     "alt": "Koninginnehof: the interior",
+     "credit": "koninginnehof.be",
+     "credit_url": "https://www.koninginnehof.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-koninginnehof-w220246639/p2-800.webp",
+     "thumb": "img/places/oostende/osm-koninginnehof-w220246639/p2-400.webp",
+     "srcset": "img/places/oostende/osm-koninginnehof-w220246639/p2-400.webp 400w, img/places/oostende/osm-koninginnehof-w220246639/p2-800.webp 800w",
+     "w": 618,
+     "h": 464,
+     "category": "interior",
+     "alt": "Koninginnehof: the interior",
+     "credit": "koninginnehof.be",
+     "credit_url": "https://www.koninginnehof.be/feestzaal",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-koninginnehof-w220246639/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-maree-n6455358785": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-la-maree-n6455358785/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-la-maree-n6455358785/p1-700.webp",
+     "srcset": "img/places/oostende/osm-la-maree-n6455358785/p1-700.webp 700w, img/places/oostende/osm-la-maree-n6455358785/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "La marée: the interior",
+     "credit": "restaurantlamaree.be",
+     "credit_url": "https://restaurantlamaree.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-la-maree-n6455358785/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-my-way-aan-zee-n11020007577": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-my-way-aan-zee-n11020007577/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-my-way-aan-zee-n11020007577/p1-700.webp",
+     "srcset": "img/places/oostende/osm-my-way-aan-zee-n11020007577/p1-700.webp 700w, img/places/oostende/osm-my-way-aan-zee-n11020007577/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "My Way aan zee: the interior",
+     "credit": "mywayaanzee.be",
+     "credit_url": "https://www.mywayaanzee.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-my-way-aan-zee-n11020007577/p2-800.webp",
+     "thumb": "img/places/oostende/osm-my-way-aan-zee-n11020007577/p2-400.webp",
+     "srcset": "img/places/oostende/osm-my-way-aan-zee-n11020007577/p2-400.webp 400w, img/places/oostende/osm-my-way-aan-zee-n11020007577/p2-800.webp 800w",
+     "w": 640,
+     "h": 480,
+     "category": "interior",
+     "alt": "My Way aan zee: the interior",
+     "credit": "mywayaanzee.be",
+     "credit_url": "https://www.mywayaanzee.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-my-way-aan-zee-n11020007577/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-ohana-pokebowls-n7740426522": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-ohana-pokebowls-n7740426522/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-ohana-pokebowls-n7740426522/p1-700.webp",
+     "srcset": "img/places/oostende/osm-ohana-pokebowls-n7740426522/p1-700.webp 700w, img/places/oostende/osm-ohana-pokebowls-n7740426522/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Ohana Pokebowls: food",
+     "credit": "ohana.be",
+     "credit_url": "https://ohana.be/wp-content/uploads/2022/03/Ohana-Protei%CC%88ne--scaled.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-ohana-pokebowls-n7740426522/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-puert-o-w1176130064": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-puert-o-w1176130064/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-puert-o-w1176130064/p1-700.webp",
+     "srcset": "img/places/oostende/osm-puert-o-w1176130064/p1-700.webp 700w, img/places/oostende/osm-puert-o-w1176130064/p1-1400.webp 1400w",
+     "w": 1260,
+     "h": 900,
+     "category": "interior",
+     "alt": "Puert'O: the interior",
+     "credit": "meetpuerto.be",
+     "credit_url": "https://meetpuerto.be/sfeerbeelden/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-puert-o-w1176130064/p2-800.webp",
+     "thumb": "img/places/oostende/osm-puert-o-w1176130064/p2-400.webp",
+     "srcset": "img/places/oostende/osm-puert-o-w1176130064/p2-400.webp 400w, img/places/oostende/osm-puert-o-w1176130064/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Puert'O: food",
+     "credit": "meetpuerto.be",
+     "credit_url": "https://meetpuerto.be/sfeerbeelden/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-puert-o-w1176130064/p3-800.webp",
+     "thumb": "img/places/oostende/osm-puert-o-w1176130064/p3-400.webp",
+     "srcset": "img/places/oostende/osm-puert-o-w1176130064/p3-400.webp 400w, img/places/oostende/osm-puert-o-w1176130064/p3-800.webp 800w",
+     "w": 800,
+     "h": 571,
+     "category": "exterior",
+     "alt": "Puert'O: the outside",
+     "credit": "meetpuerto.be",
+     "credit_url": "https://meetpuerto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-puert-o-w1176130064/p4-800.webp",
+     "thumb": "img/places/oostende/osm-puert-o-w1176130064/p4-400.webp",
+     "srcset": "img/places/oostende/osm-puert-o-w1176130064/p4-400.webp 400w, img/places/oostende/osm-puert-o-w1176130064/p4-800.webp 800w",
+     "w": 800,
+     "h": 571,
+     "category": "interior",
+     "alt": "Puert'O: the interior",
+     "credit": "meetpuerto.be",
+     "credit_url": "https://meetpuerto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-puert-o-w1176130064/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-st-tropez-n5516046431": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-st-tropez-n5516046431/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-st-tropez-n5516046431/p1-700.webp",
+     "srcset": "img/places/oostende/osm-st-tropez-n5516046431/p1-700.webp 700w, img/places/oostende/osm-st-tropez-n5516046431/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "St. Tropez: food",
+     "credit": "sainttropez.be",
+     "credit_url": "https://www.sainttropez.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-st-tropez-n5516046431/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-ten-stuyver-w462178627": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-ten-stuyver-w462178627/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-ten-stuyver-w462178627/p1-700.webp",
+     "srcset": "img/places/oostende/osm-ten-stuyver-w462178627/p1-700.webp 700w, img/places/oostende/osm-ten-stuyver-w462178627/p1-1400.webp 1400w",
+     "w": 640,
+     "h": 480,
+     "category": "interior",
+     "alt": "Ten Stuyver: the interior",
+     "credit": "tenstuyver.be",
+     "credit_url": "https://tenstuyver.be/nl/feestzaal",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-ten-stuyver-w462178627/p2-800.webp",
+     "thumb": "img/places/oostende/osm-ten-stuyver-w462178627/p2-400.webp",
+     "srcset": "img/places/oostende/osm-ten-stuyver-w462178627/p2-400.webp 400w, img/places/oostende/osm-ten-stuyver-w462178627/p2-800.webp 800w",
+     "w": 800,
+     "h": 400,
+     "category": "exterior",
+     "alt": "Ten Stuyver: the outside",
+     "credit": "tenstuyver.be",
+     "credit_url": "https://tenstuyver.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-ten-stuyver-w462178627/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-zazcuisine-n11528056092": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-zazcuisine-n11528056092/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-zazcuisine-n11528056092/p1-700.webp",
+     "srcset": "img/places/oostende/osm-zazcuisine-n11528056092/p1-700.webp 700w, img/places/oostende/osm-zazcuisine-n11528056092/p1-1400.webp 1400w",
+     "w": 1366,
+     "h": 900,
+     "category": "exterior",
+     "alt": "ZAZcuisine: the outside",
+     "credit": "zazcuisine.be",
+     "credit_url": "https://www.zazcuisine.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-zazcuisine-n11528056092/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
