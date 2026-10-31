@@ -201,31 +201,57 @@
   const nPh = lbList.length, t0 = heroPh ? 1 : 0, thumbs = lbList.slice(t0, t0 + 3);
   const nTxt = n => n === 1 ? '1 photo' : `${n} photos`;
   const tile = (p, k, lab) => `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(M.url(p.thumb || p.src))}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${lab ? `<span class="dphotos__lab">${lab}</span>` : ''}</button>`;
-  // one layout for every place (photoLayout no longer matters): 0 photos → no section (the calm typographic hero stays);
-  // 1 → one tile at the standard size; 2 → side by side; 3+ → a row of up to 3 food photos, then the inside + the outside side by side.
-  // Rows only come in 3 (square tiles) or 2 (4:3 tiles); a lone tile keeps the 2-column size, so no odd big / small mix
+  // one layout for every place, the Fou d'O set: up to 4 slots — Food, Food, Inside, Outside (2 × 2). Fewer photos: 1 → one tile at the
+  // standard size, 2 → side by side, 3 → a row of three. A section with more photos than slots becomes a swipeable slot (touch swipe,
+  // small prev / next on desktop, a gold 1/3 counter), so every photo in the data is reachable here; extra slides load lazily
   if (nPh) {
     const ix = lbList.map((p, k) => [p, k]);
-    const isFood = ([p]) => p.category === 'food' || p.category === 'drink';
-    const ord = ix.slice().sort((x, y) => (isFood(x) ? 0 : 1) - (isFood(y) ? 0 : 1));   // stable: food first, the rest keeps its order
-    let rows;
-    if (nPh <= 2) rows = [ord];
-    else {
-      const A = ix.filter(isFood).slice(0, 3);
-      const inside = ix.find(([p]) => p.category === 'interior' && !p.staff) || ix.find(([p]) => p.category === 'interior');
-      const B = [inside, ix.find(([p]) => p.category === 'exterior') || ix.find(e => e !== inside && e[0].category === 'interior')].filter(Boolean);   // no outside photo → staff at work / a second room photo
-      const left = () => ix.filter(e => !A.includes(e) && !B.includes(e));
-      for (const e of left()) { if (A.length >= 3) break; A.push(e); }   // fewer than 3 food photos: the next ones fill the row
-      for (const e of left()) { if (B.length >= 2) break; B.push(e); }
-      rows = A.length + B.length === 3 && A.length < 3 ? [[...A, ...B]] : [A, B].filter(x => x.length);
+    const kindOf = ([p]) => p.category === 'food' || p.category === 'drink' ? 'food' : p.category === 'interior' ? 'inside' : p.category === 'exterior' ? 'outside' : 'other';
+    const BK = { food: [], inside: [], outside: [], other: [] };
+    ix.forEach(e => BK[kindOf(e)].push(e));
+    BK.inside.sort((a, b) => (a[0].staff ? 1 : 0) - (b[0].staff ? 1 : 0));   // the room before staff at work
+    const nSlots = Math.min(4, nPh), slots = [], take = k => { const e = BK[k].shift(); slots.push({ k, ph: [e] }); };
+    if (BK.food.length) take('food');
+    if (BK.inside.length) take('inside');
+    if (BK.outside.length) take('outside');
+    if (BK.food.length && slots.length < nSlots) take('food');   // the second food slot
+    while (slots.length < nSlots) {   // a section is missing: the next photos open a slot of their own (other, a second room photo, outside, food)
+      const k = ['other', 'inside', 'outside', 'food'].find(x => BK[x].length);   // no outside photo → a second room photo, as on Fou d'O's 2 × 2
+      take(k);
     }
-    let foodLab = false;
-    const lab = p => { if (isFood([p])) { if (foodLab) return ''; foodLab = true; return p.category === 'drink' ? 'Drinks' : 'Food'; }
-      return p.category === 'exterior' ? 'Outside' : p.category === 'interior' ? (p.staff ? 'At work' : 'Inside') : ''; };
+    for (const k of ['food', 'inside', 'outside', 'other']) {   // the rest joins its own section's slot(s), round robin; 'other' joins the shortest slot
+      for (const e of BK[k]) { const own = slots.filter(s => s.k === k), pool = own.length && k !== 'other' ? own : slots;
+        pool.reduce((a, b) => b.ph.length < a.ph.length ? b : a).ph.push(e); }
+    }
+    const RANK = { food: 0, inside: 1, other: 2, outside: 3 };
+    slots.sort((a, b) => RANK[a.k] - RANK[b.k]);
+    const rows = slots.length === 4 ? [slots.slice(0, 2), slots.slice(2)] : [slots];
+    let firstFood = true;
+    const lab = (p, s, labFood) => s.k === 'food' ? (labFood ? (p.category === 'drink' ? 'Drinks' : 'Food') : '') : p.category === 'exterior' ? 'Outside' : p.category === 'interior' ? (p.staff ? 'At work' : 'Inside') : '';
+    const slide = (p, k, l, i) => i ? tile(p, k, l).replace(/<img src="([^"]*)"/, '<img data-src="$1" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="') : tile(p, k, l);
+    const CHEV = d => `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="${d ? 'M6 3l5 5-5 5' : 'M10 3L5 8l5 5'}"/></svg>`;
+    const slotHtml = s => { const labFood = s.k === 'food' && firstFood; if (s.k === 'food') firstFood = false;
+      const n = s.ph.length, body = s.ph.map(([p, k], i) => slide(p, k, lab(p, s, labFood), i)).join('');
+      return n < 2 ? `<div class="dphotos__slot">${body}</div>`
+        : `<div class="dphotos__slot dphotos__slot--car" data-count="${n}"><div class="dphotos__track" tabindex="0" role="group" aria-label="${n} photos, swipe for more">${body}</div>
+          <button type="button" class="dphotos__nav dphotos__nav--prev" aria-label="Previous photo" disabled>${CHEV(0)}</button><button type="button" class="dphotos__nav dphotos__nav--next" aria-label="Next photo">${CHEV(1)}</button>
+          <span class="dphotos__cnt" aria-hidden="true"><b>1</b>/${n}</span></div>`; };
     const creds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()].map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
     $('#left dl.essentials').insertAdjacentHTML('afterend', `<section class="dphotos" aria-labelledby="dphotos-h"><h2 id="dphotos-h">Photos</h2>
-      ${rows.map(row => `<div class="dphotos__row" data-n="${row.length}">${row.map(([p, k]) => tile(p, k, lab(p))).join('')}</div>`).join('')}
+      ${rows.map(row => `<div class="dphotos__row" data-n="${row.length}">${row.map(slotHtml).join('')}</div>`).join('')}
       <div class="dphotos__foot">${creds ? `<span class="dphotos__cr"><span>Photos:</span> ${creds}</span>` : '<span></span>'}${nPh > 1 ? `<button type="button" class="dphotos__all" data-pi="0">View all ${nPh}</button>` : ''}</div></section>`);
+    document.querySelectorAll('.dphotos__slot--car').forEach(slot => {
+      const tr = slot.querySelector('.dphotos__track'), n = +slot.dataset.count, cnt = slot.querySelector('.dphotos__cnt b');
+      const pv = slot.querySelector('.dphotos__nav--prev'), nx = slot.querySelector('.dphotos__nav--next');
+      const load = upto => [...tr.querySelectorAll('img[data-src]')].slice(0, upto).forEach(im => { im.src = im.dataset.src; im.removeAttribute('data-src'); });
+      const cur = () => Math.round(tr.scrollLeft / Math.max(1, tr.clientWidth));
+      const upd = () => { const i = Math.min(n - 1, cur()); cnt.textContent = i + 1; pv.disabled = i <= 0; nx.disabled = i >= n - 1; load(i + 1); };
+      const go = d => { load(cur() + 1 + d); tr.scrollTo({ left: (cur() + d) * tr.clientWidth, behavior: 'smooth' }); };
+      pv.addEventListener('click', () => go(-1)); nx.addEventListener('click', () => go(1));
+      tr.addEventListener('scroll', () => requestAnimationFrame(upd), { passive: true });
+      ['pointerenter', 'touchstart', 'focusin'].forEach(ev => slot.addEventListener(ev, () => load(1), { once: true, passive: true }));   // the next slide is ready before the swipe
+      tr.addEventListener('keydown', e => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); e.stopPropagation(); go(e.key === 'ArrowRight' ? 1 : -1); } });
+    });
   }
   if (nPh > 1 || (nPh && !heroPh)) $('.dhero').insertAdjacentHTML('beforeend', `<button type="button" class="dhero__photos" data-pi="0"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg><span>${nTxt(nPh)}</span></button>`);
   let shown = [], idx = 0;

@@ -42,6 +42,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/a-food-affair/p3-800.webp",
+     "thumb": "img/places/gent/a-food-affair/p3-400.webp",
+     "srcset": "img/places/gent/a-food-affair/p3-400.webp 400w, img/places/gent/a-food-affair/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "A Food Affair: the outside",
+     "credit": "@a_food_affair_gent on Instagram",
+     "credit_url": "https://www.instagram.com/a_food_affair_gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -733,6 +748,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/bianca/p2-800.webp",
+     "thumb": "img/places/gent/bianca/p2-400.webp",
+     "srcset": "img/places/gent/bianca/p2-400.webp 400w, img/places/gent/bianca/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Bianca: food",
+     "credit": "@biancagent.be on Instagram",
+     "credit_url": "https://www.instagram.com/biancagent.be/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -2073,6 +2103,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/gillis/p2-800.webp",
+     "thumb": "img/places/gent/gillis/p2-400.webp",
+     "srcset": "img/places/gent/gillis/p2-400.webp 400w, img/places/gent/gillis/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Gillis: food",
+     "credit": "@gillis_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gillis_gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -2545,6 +2590,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/klaar/p3-800.webp",
+     "thumb": "img/places/gent/klaar/p3-400.webp",
+     "srcset": "img/places/gent/klaar/p3-400.webp 400w, img/places/gent/klaar/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "exterior",
+     "alt": "Klaar: the outside",
+     "credit": "@klaargent on Instagram",
+     "credit_url": "https://www.instagram.com/klaargent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -2835,6 +2895,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/limonada/p2-800.webp",
+     "thumb": "img/places/gent/limonada/p2-400.webp",
+     "srcset": "img/places/gent/limonada/p2-400.webp 400w, img/places/gent/limonada/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Limonada: food",
+     "credit": "@limonadagent on Instagram",
+     "credit_url": "https://www.instagram.com/limonadagent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -3148,6 +3223,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/marijn-coertjens/p3-800.webp",
+     "thumb": "img/places/gent/marijn-coertjens/p3-400.webp",
+     "srcset": "img/places/gent/marijn-coertjens/p3-400.webp 400w, img/places/gent/marijn-coertjens/p3-800.webp 800w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "Marijn Coertjens: food",
+     "credit": "@marijncoertjens on Instagram",
+     "credit_url": "https://www.instagram.com/marijncoertjens/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -4696,6 +4786,21 @@
      "credit": "ofietsanders.be",
      "credit_url": "https://ofietsanders.be/",
      "alt": ""
+    },
+    {
+     "src": "img/places/gent/osm-anders-n12630170586/p1-800.webp",
+     "thumb": "img/places/gent/osm-anders-n12630170586/p1-400.webp",
+     "srcset": "img/places/gent/osm-anders-n12630170586/p1-400.webp 400w, img/places/gent/osm-anders-n12630170586/p1-800.webp 800w",
+     "w": 641,
+     "h": 960,
+     "category": "exterior",
+     "alt": "Anders: the outside",
+     "credit": "ofietsanders.be",
+     "credit_url": "https://ofietsanders.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -4716,6 +4821,21 @@
      "credit": "ofietsanders.be",
      "credit_url": "https://www.ofietsanders.be/",
      "alt": ""
+    },
+    {
+     "src": "img/places/gent/osm-anders-n13065594409/p1-800.webp",
+     "thumb": "img/places/gent/osm-anders-n13065594409/p1-400.webp",
+     "srcset": "img/places/gent/osm-anders-n13065594409/p1-400.webp 400w, img/places/gent/osm-anders-n13065594409/p1-800.webp 800w",
+     "w": 641,
+     "h": 960,
+     "category": "exterior",
+     "alt": "Anders: the outside",
+     "credit": "ofietsanders.be",
+     "credit_url": "https://www.ofietsanders.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -7197,6 +7317,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-cafe-merino-n3967079259/p3-800.webp",
+     "thumb": "img/places/gent/osm-cafe-merino-n3967079259/p3-400.webp",
+     "srcset": "img/places/gent/osm-cafe-merino-n3967079259/p3-400.webp 400w, img/places/gent/osm-cafe-merino-n3967079259/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Café Merino: the outside",
+     "credit": "@cafemerino_ on Instagram",
+     "credit_url": "https://www.instagram.com/cafemerino_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -9566,6 +9701,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-edel-rot-n11157734893/p2-800.webp",
+     "thumb": "img/places/gent/osm-edel-rot-n11157734893/p2-400.webp",
+     "srcset": "img/places/gent/osm-edel-rot-n11157734893/p2-400.webp 400w, img/places/gent/osm-edel-rot-n11157734893/p2-800.webp 800w",
+     "w": 800,
+     "h": 353,
+     "category": "exterior",
+     "alt": "Edel Rot: the outside",
+     "credit": "wijnbar-edelrot.be",
+     "credit_url": "https://www.wijnbar-edelrot.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -10324,6 +10474,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-fitchen-n3394542496/p3-800.webp",
+     "thumb": "img/places/gent/osm-fitchen-n3394542496/p3-400.webp",
+     "srcset": "img/places/gent/osm-fitchen-n3394542496/p3-400.webp 400w, img/places/gent/osm-fitchen-n3394542496/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Fitchen: the interior",
+     "credit": "fitchen.com",
+     "credit_url": "https://fitchen.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -10567,6 +10732,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-garam-masala-n6900564095/p3-800.webp",
+     "thumb": "img/places/gent/osm-garam-masala-n6900564095/p3-400.webp",
+     "srcset": "img/places/gent/osm-garam-masala-n6900564095/p3-400.webp 400w, img/places/gent/osm-garam-masala-n6900564095/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Garam Masala: food",
+     "credit": "@indianrestaurantgarammasala on Instagram",
+     "credit_url": "https://www.instagram.com/indianrestaurantgarammasala/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -11163,6 +11343,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-guerilla-streetfood-n10908021209/p2-800.webp",
+     "thumb": "img/places/gent/osm-guerilla-streetfood-n10908021209/p2-400.webp",
+     "srcset": "img/places/gent/osm-guerilla-streetfood-n10908021209/p2-400.webp 400w, img/places/gent/osm-guerilla-streetfood-n10908021209/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Guerilla Streetfood: food",
+     "credit": "guerrillastreetfood.be",
+     "credit_url": "https://www.guerrillastreetfood.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -12560,6 +12755,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-karoot-n9665581800/p2-800.webp",
+     "thumb": "img/places/gent/osm-karoot-n9665581800/p2-400.webp",
+     "srcset": "img/places/gent/osm-karoot-n9665581800/p2-400.webp 400w, img/places/gent/osm-karoot-n9665581800/p2-800.webp 800w",
+     "w": 720,
+     "h": 1280,
+     "category": "food",
+     "alt": "KAROOT: food",
+     "credit": "@eethuiskaroot on Instagram",
+     "credit_url": "https://www.instagram.com/eethuiskaroot/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -15075,6 +15285,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-oh-ma-n12367017828/p2-800.webp",
+     "thumb": "img/places/gent/osm-oh-ma-n12367017828/p2-400.webp",
+     "srcset": "img/places/gent/osm-oh-ma-n12367017828/p2-400.webp 400w, img/places/gent/osm-oh-ma-n12367017828/p2-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "interior",
+     "alt": "Oh!Ma: the interior",
+     "credit": "oh-ma.eu",
+     "credit_url": "https://www.oh-ma.eu/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -16981,6 +17206,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-sugar-spice-n1212135543/p2-800.webp",
+     "thumb": "img/places/gent/osm-sugar-spice-n1212135543/p2-400.webp",
+     "srcset": "img/places/gent/osm-sugar-spice-n1212135543/p2-400.webp 400w, img/places/gent/osm-sugar-spice-n1212135543/p2-800.webp 800w",
+     "w": 800,
+     "h": 598,
+     "category": "exterior",
+     "alt": "Sugar & Spice: the outside",
+     "credit": "sugar-spice.eatbu.com",
+     "credit_url": "https://sugar-spice.eatbu.com/?lang=nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -17005,6 +17245,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-surtoe-n4893318698/p2-800.webp",
+     "thumb": "img/places/gent/osm-surtoe-n4893318698/p2-400.webp",
+     "srcset": "img/places/gent/osm-surtoe-n4893318698/p2-400.webp 400w, img/places/gent/osm-surtoe-n4893318698/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "Surtoe: the outside",
+     "credit": "restaurantsurtoe.be",
+     "credit_url": "https://restaurantsurtoe.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -17136,6 +17391,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-sushi-poel-n3931156537/p2-800.webp",
+     "thumb": "img/places/gent/osm-sushi-poel-n3931156537/p2-400.webp",
+     "srcset": "img/places/gent/osm-sushi-poel-n3931156537/p2-400.webp 400w, img/places/gent/osm-sushi-poel-n3931156537/p2-800.webp 800w",
+     "w": 800,
+     "h": 571,
+     "category": "food",
+     "alt": "Sushi Poel: food",
+     "credit": "@sushipoel on Instagram",
+     "credit_url": "https://www.instagram.com/sushipoel/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -17754,6 +18024,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-take-five-n10267858018/p4-800.webp",
+     "thumb": "img/places/gent/osm-take-five-n10267858018/p4-400.webp",
+     "srcset": "img/places/gent/osm-take-five-n10267858018/p4-400.webp 400w, img/places/gent/osm-take-five-n10267858018/p4-800.webp 800w",
+     "w": 800,
+     "h": 422,
+     "category": "food",
+     "alt": "Take Five: food",
+     "credit": "take-five-espressobar.be",
+     "credit_url": "https://www.take-five-espressobar.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -18878,6 +19163,36 @@
      "credit": "way.gent",
      "credit_url": "https://www.way.gent/",
      "alt": ""
+    },
+    {
+     "src": "img/places/gent/osm-way-n4361414624/p1-800.webp",
+     "thumb": "img/places/gent/osm-way-n4361414624/p1-400.webp",
+     "srcset": "img/places/gent/osm-way-n4361414624/p1-400.webp 400w, img/places/gent/osm-way-n4361414624/p1-800.webp 800w",
+     "w": 800,
+     "h": 524,
+     "category": "food",
+     "alt": "Way: food",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/pages/brew-guidesespresso-way-coffee-roasters",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/osm-way-n4361414624/p2-800.webp",
+     "thumb": "img/places/gent/osm-way-n4361414624/p2-400.webp",
+     "srcset": "img/places/gent/osm-way-n4361414624/p2-400.webp 400w, img/places/gent/osm-way-n4361414624/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Way: food",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -19227,6 +19542,21 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/otium-cucina-italiana/p4-800.webp",
+     "thumb": "img/places/gent/otium-cucina-italiana/p4-400.webp",
+     "srcset": "img/places/gent/otium-cucina-italiana/p4-400.webp 400w, img/places/gent/otium-cucina-italiana/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Otium Cucina Italiana: the interior",
+     "credit": "otium.gent",
+     "credit_url": "https://otium.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -19515,6 +19845,51 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/pulpo/p4-800.webp",
+     "thumb": "img/places/gent/pulpo/p4-400.webp",
+     "srcset": "img/places/gent/pulpo/p4-400.webp 400w, img/places/gent/pulpo/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Pulpo: food",
+     "credit": "restopulpo.com",
+     "credit_url": "https://www.restopulpo.com/gallery/9irs11xytn6yq7x3pkvoqtt5vtfeww",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/pulpo/p5-800.webp",
+     "thumb": "img/places/gent/pulpo/p5-400.webp",
+     "srcset": "img/places/gent/pulpo/p5-400.webp 400w, img/places/gent/pulpo/p5-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Pulpo: food",
+     "credit": "restopulpo.com",
+     "credit_url": "https://www.restopulpo.com/gallery/avocado-marbella-pulpo",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/pulpo/p6-800.webp",
+     "thumb": "img/places/gent/pulpo/p6-400.webp",
+     "srcset": "img/places/gent/pulpo/p6-400.webp 400w, img/places/gent/pulpo/p6-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Pulpo: food",
+     "credit": "restopulpo.com",
+     "credit_url": "https://www.restopulpo.com/gallery/avocado-marbella-pulpo",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -19916,6 +20291,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/soan/p4-800.webp",
+     "thumb": "img/places/gent/soan/p4-400.webp",
+     "srcset": "img/places/gent/soan/p4-400.webp 400w, img/places/gent/soan/p4-800.webp 800w",
+     "w": 800,
+     "h": 992,
+     "category": "food",
+     "alt": "SOAN: food",
+     "credit": "@soancocktails on Instagram",
+     "credit_url": "https://www.instagram.com/soancocktails/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -20843,6 +21233,36 @@
      "credit": "way.gent",
      "credit_url": "https://www.way.gent/",
      "alt": ""
+    },
+    {
+     "src": "img/places/gent/way-dok-noord/p1-800.webp",
+     "thumb": "img/places/gent/way-dok-noord/p1-400.webp",
+     "srcset": "img/places/gent/way-dok-noord/p1-400.webp 400w, img/places/gent/way-dok-noord/p1-800.webp 800w",
+     "w": 800,
+     "h": 524,
+     "category": "food",
+     "alt": "WAY Specialty Coffee Roasters (Dok Noord): food",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/pages/brew-guidesespresso-way-coffee-roasters",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/way-dok-noord/p2-800.webp",
+     "thumb": "img/places/gent/way-dok-noord/p2-400.webp",
+     "srcset": "img/places/gent/way-dok-noord/p2-400.webp 400w, img/places/gent/way-dok-noord/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "WAY Specialty Coffee Roasters (Dok Noord): food",
+     "credit": "way.gent",
+     "credit_url": "https://www.way.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -21335,6 +21755,36 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p3-800.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p3-400.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p3-400.webp 400w, img/places/gent/the-kitchen-1898-the-post/p3-800.webp 800w",
+     "w": 594,
+     "h": 773,
+     "category": "food",
+     "alt": "The Kitchen at 1898 The Post: food",
+     "credit": "1898thepost.com",
+     "credit_url": "https://www.1898thepost.com/the-kitchen/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p4-800.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p4-400.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p4-400.webp 400w, img/places/gent/the-kitchen-1898-the-post/p4-800.webp 800w",
+     "w": 589,
+     "h": 817,
+     "category": "interior",
+     "alt": "The Kitchen at 1898 The Post: the interior",
+     "credit": "1898thepost.com",
+     "credit_url": "https://www.1898thepost.com/the-kitchen/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -21473,6 +21923,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/julies-house/p2-800.webp",
+     "thumb": "img/places/gent/julies-house/p2-400.webp",
+     "srcset": "img/places/gent/julies-house/p2-400.webp 400w, img/places/gent/julies-house/p2-800.webp 800w",
+     "w": 512,
+     "h": 512,
+     "category": "food",
+     "alt": "Julie's House: food",
+     "credit": "julieshouse.be",
+     "credit_url": "https://www.julieshouse.be/en_GB",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -21511,6 +21976,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/darbode/p3-800.webp",
+     "thumb": "img/places/gent/darbode/p3-400.webp",
+     "srcset": "img/places/gent/darbode/p3-400.webp 400w, img/places/gent/darbode/p3-800.webp 800w",
+     "w": 540,
+     "h": 960,
+     "category": "food",
+     "alt": "DarBodé: food",
+     "credit": "@darbode on Instagram",
+     "credit_url": "https://www.instagram.com/darbode/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -22233,6 +22713,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-le-piranha-n1628067364/p2-800.webp",
+     "thumb": "img/places/gent/osm-le-piranha-n1628067364/p2-400.webp",
+     "srcset": "img/places/gent/osm-le-piranha-n1628067364/p2-400.webp 400w, img/places/gent/osm-le-piranha-n1628067364/p2-800.webp 800w",
+     "w": 800,
+     "h": 640,
+     "category": "food",
+     "alt": "Le piranha: food",
+     "credit": "lepiranha.weebly.com",
+     "credit_url": "https://lepiranha.weebly.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -22787,6 +23282,36 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/patrick-foleys/p2-800.webp",
+     "thumb": "img/places/gent/patrick-foleys/p2-400.webp",
+     "srcset": "img/places/gent/patrick-foleys/p2-400.webp 400w, img/places/gent/patrick-foleys/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Patrick Foley's Irish Pub: food",
+     "credit": "foleys.be",
+     "credit_url": "https://www.foleys.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/patrick-foleys/p3-800.webp",
+     "thumb": "img/places/gent/patrick-foleys/p3-400.webp",
+     "srcset": "img/places/gent/patrick-foleys/p3-400.webp 400w, img/places/gent/patrick-foleys/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Patrick Foley's Irish Pub: food",
+     "credit": "@patrickfoleys on Instagram",
+     "credit_url": "https://www.instagram.com/patrickfoleys/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -22863,6 +23388,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-stokerij-n12205332271/p4-800.webp",
+     "thumb": "img/places/gent/osm-de-stokerij-n12205332271/p4-400.webp",
+     "srcset": "img/places/gent/osm-de-stokerij-n12205332271/p4-400.webp 400w, img/places/gent/osm-de-stokerij-n12205332271/p4-800.webp 800w",
+     "w": 640,
+     "h": 800,
+     "category": "food",
+     "alt": "De Stokerij: food",
+     "credit": "destokerij.gent",
+     "credit_url": "https://destokerij.gent/fotos/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -24265,6 +24805,36 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-la-vita-e-bella-n8957993751/p2-800.webp",
+     "thumb": "img/places/gent/osm-la-vita-e-bella-n8957993751/p2-400.webp",
+     "srcset": "img/places/gent/osm-la-vita-e-bella-n8957993751/p2-400.webp 400w, img/places/gent/osm-la-vita-e-bella-n8957993751/p2-800.webp 800w",
+     "w": 533,
+     "h": 455,
+     "category": "food",
+     "alt": "La Vita e Bella: food",
+     "credit": "lavitaebellarestaurant.be",
+     "credit_url": "https://www.lavitaebellarestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/osm-la-vita-e-bella-n8957993751/p3-800.webp",
+     "thumb": "img/places/gent/osm-la-vita-e-bella-n8957993751/p3-400.webp",
+     "srcset": "img/places/gent/osm-la-vita-e-bella-n8957993751/p3-400.webp 400w, img/places/gent/osm-la-vita-e-bella-n8957993751/p3-800.webp 800w",
+     "w": 533,
+     "h": 455,
+     "category": "food",
+     "alt": "La Vita e Bella: food",
+     "credit": "lavitaebellarestaurant.be",
+     "credit_url": "https://www.lavitaebellarestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
@@ -24425,6 +24995,157 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "osm-chez-olivier-n6942598587": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-chez-olivier-n6942598587/p1-800.webp",
+     "thumb": "img/places/gent/osm-chez-olivier-n6942598587/p1-400.webp",
+     "srcset": "img/places/gent/osm-chez-olivier-n6942598587/p1-400.webp 400w, img/places/gent/osm-chez-olivier-n6942598587/p1-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Chez Olivier: food",
+     "credit": "olivierlepetitbistro.com",
+     "credit_url": "https://www.olivierlepetitbistro.com/lunch-nl#menu-nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/osm-chez-olivier-n6942598587/p2-800.webp",
+     "thumb": "img/places/gent/osm-chez-olivier-n6942598587/p2-400.webp",
+     "srcset": "img/places/gent/osm-chez-olivier-n6942598587/p2-400.webp 400w, img/places/gent/osm-chez-olivier-n6942598587/p2-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Chez Olivier: food",
+     "credit": "olivierlepetitbistro.com",
+     "credit_url": "https://www.olivierlepetitbistro.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/osm-chez-olivier-n6942598587/p3-800.webp",
+     "thumb": "img/places/gent/osm-chez-olivier-n6942598587/p3-400.webp",
+     "srcset": "img/places/gent/osm-chez-olivier-n6942598587/p3-400.webp 400w, img/places/gent/osm-chez-olivier-n6942598587/p3-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Chez Olivier: food",
+     "credit": "olivierlepetitbistro.com",
+     "credit_url": "https://www.olivierlepetitbistro.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/osm-chez-olivier-n6942598587/p4-800.webp",
+     "thumb": "img/places/gent/osm-chez-olivier-n6942598587/p4-400.webp",
+     "srcset": "img/places/gent/osm-chez-olivier-n6942598587/p4-400.webp 400w, img/places/gent/osm-chez-olivier-n6942598587/p4-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "interior",
+     "alt": "Chez Olivier: the interior",
+     "credit": "olivierlepetitbistro.com",
+     "credit_url": "https://www.olivierlepetitbistro.com/lunch-nl#menu-nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/osm-chez-olivier-n6942598587/p5-800.webp",
+     "thumb": "img/places/gent/osm-chez-olivier-n6942598587/p5-400.webp",
+     "srcset": "img/places/gent/osm-chez-olivier-n6942598587/p5-400.webp 400w, img/places/gent/osm-chez-olivier-n6942598587/p5-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "exterior",
+     "alt": "Chez Olivier: the outside",
+     "credit": "olivierlepetitbistro.com",
+     "credit_url": "https://www.olivierlepetitbistro.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    }
+   ]
+  },
+  "osm-desi-food-n11918785850": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-desi-food-n11918785850/p1-800.webp",
+     "thumb": "img/places/gent/osm-desi-food-n11918785850/p1-400.webp",
+     "srcset": "img/places/gent/osm-desi-food-n11918785850/p1-400.webp 400w, img/places/gent/osm-desi-food-n11918785850/p1-800.webp 800w",
+     "w": 640,
+     "h": 1136,
+     "category": "food",
+     "alt": "Desi Food: food",
+     "credit": "@desifood_9030 on Instagram",
+     "credit_url": "https://www.instagram.com/desifood_9030/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    }
+   ]
+  },
+  "osm-ramen-bambu-n12323883649": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-ramen-bambu-n12323883649/p1-800.webp",
+     "thumb": "img/places/gent/osm-ramen-bambu-n12323883649/p1-400.webp",
+     "srcset": "img/places/gent/osm-ramen-bambu-n12323883649/p1-400.webp 400w, img/places/gent/osm-ramen-bambu-n12323883649/p1-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Ramen Bambu: food",
+     "credit": "ramen.gent",
+     "credit_url": "https://www.ramen.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    }
+   ]
+  },
+  "osm-sao-paulo-n5544675087": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-sao-paulo-n5544675087/p1-800.webp",
+     "thumb": "img/places/gent/osm-sao-paulo-n5544675087/p1-400.webp",
+     "srcset": "img/places/gent/osm-sao-paulo-n5544675087/p1-400.webp 400w, img/places/gent/osm-sao-paulo-n5544675087/p1-800.webp 800w",
+     "w": 800,
+     "h": 532,
+     "category": "interior",
+     "alt": "São Paulo: the interior",
+     "credit": "saopaulo.be",
+     "credit_url": "https://saopaulo.be/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/osm-sao-paulo-n5544675087/p2-800.webp",
+     "thumb": "img/places/gent/osm-sao-paulo-n5544675087/p2-400.webp",
+     "srcset": "img/places/gent/osm-sao-paulo-n5544675087/p2-400.webp 400w, img/places/gent/osm-sao-paulo-n5544675087/p2-800.webp 800w",
+     "w": 800,
+     "h": 420,
+     "category": "exterior",
+     "alt": "São Paulo: the outside",
+     "credit": "saopaulo.be",
+     "credit_url": "https://saopaulo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "gap-fill 2026-10-31"
+    }
+   ]
   }
  }
 }
