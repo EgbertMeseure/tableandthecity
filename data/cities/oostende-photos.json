@@ -1082,10 +1082,66 @@
      "srcset": "img/places/oostende/lusitania/p1-700.webp 700w, img/places/oostende/lusitania/p1-1400.webp 1400w",
      "w": 1280,
      "h": 853,
+     "category": "interior",
+     "alt": "Lusitania: the interior",
+     "credit": "restaurant-lusitania.be",
+     "credit_url": "https://restaurant-lusitania.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/lusitania/p2-800.webp",
+     "thumb": "img/places/oostende/lusitania/p2-400.webp",
+     "srcset": "img/places/oostende/lusitania/p2-400.webp 400w, img/places/oostende/lusitania/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
      "category": "food",
      "alt": "Lusitania: food",
      "credit": "restaurant-lusitania.be",
      "credit_url": "https://restaurant-lusitania.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/lusitania/p3-800.webp",
+     "thumb": "img/places/oostende/lusitania/p3-400.webp",
+     "srcset": "img/places/oostende/lusitania/p3-400.webp 400w, img/places/oostende/lusitania/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Lusitania: food",
+     "credit": "restaurant-lusitania.be",
+     "credit_url": "https://restaurant-lusitania.be/maandmenu-en-gone-fishing/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/lusitania/p4-800.webp",
+     "thumb": "img/places/oostende/lusitania/p4-400.webp",
+     "srcset": "img/places/oostende/lusitania/p4-400.webp 400w, img/places/oostende/lusitania/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Lusitania: food",
+     "credit": "restaurant-lusitania.be",
+     "credit_url": "https://restaurant-lusitania.be/maandmenu-en-gone-fishing/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/lusitania/p5-800.webp",
+     "thumb": "img/places/oostende/lusitania/p5-400.webp",
+     "srcset": "img/places/oostende/lusitania/p5-400.webp 400w, img/places/oostende/lusitania/p5-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Lusitania: the interior",
+     "credit": "restaurant-lusitania.be",
+     "credit_url": "https://restaurant-lusitania.be/restaurant",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -2215,6 +2271,34 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-de-foyer-n6030384851/p2-800.webp",
+     "thumb": "img/places/oostende/osm-de-foyer-n6030384851/p2-400.webp",
+     "srcset": "img/places/oostende/osm-de-foyer-n6030384851/p2-400.webp 400w, img/places/oostende/osm-de-foyer-n6030384851/p2-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "De Foyer: food",
+     "credit": "foyeroostende.be",
+     "credit_url": "https://www.foyeroostende.be/nl/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-de-foyer-n6030384851/p3-800.webp",
+     "thumb": "img/places/oostende/osm-de-foyer-n6030384851/p3-400.webp",
+     "srcset": "img/places/oostende/osm-de-foyer-n6030384851/p3-400.webp 400w, img/places/oostende/osm-de-foyer-n6030384851/p3-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "De Foyer: food",
+     "credit": "foyeroostende.be",
+     "credit_url": "https://www.foyeroostende.be/nl/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -2574,30 +2658,6 @@
    "pick": {
     "type": "photo",
     "src": "img/places/oostende/osm-lhamo-bistro-n13968719538/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "osm-madam-kroket-n10807059785": {
-   "photos": [
-    {
-     "src": "img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp",
-     "thumb": "img/places/oostende/osm-madam-kroket-n10807059785/p1-700.webp",
-     "srcset": "img/places/oostende/osm-madam-kroket-n10807059785/p1-700.webp 700w, img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1919,
-     "category": "exterior",
-     "alt": "Madam Kroket: the outside",
-     "credit": "@madamkroket on Instagram",
-     "credit_url": "https://www.instagram.com/madamkroket/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -3128,6 +3188,178 @@
    "pick": {
     "type": "photo",
     "src": "img/places/oostende/osm-el-castillo-n2330774516/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-mosselhuis": {
+   "photos": [
+    {
+     "src": "img/places/oostende/cafe-mosselhuis/p1-1400.webp",
+     "thumb": "img/places/oostende/cafe-mosselhuis/p1-700.webp",
+     "srcset": "img/places/oostende/cafe-mosselhuis/p1-700.webp 700w, img/places/oostende/cafe-mosselhuis/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1120,
+     "category": "interior",
+     "alt": "Café Mosselhuis: the interior",
+     "credit": "cafemosselhuis.be",
+     "credit_url": "https://cafemosselhuis.be/events/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/cafe-mosselhuis/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "paroles-paroles": {
+   "photos": [
+    {
+     "src": "img/places/oostende/paroles-paroles/p1-1400.webp",
+     "thumb": "img/places/oostende/paroles-paroles/p1-700.webp",
+     "srcset": "img/places/oostende/paroles-paroles/p1-700.webp 700w, img/places/oostende/paroles-paroles/p1-1400.webp 1400w",
+     "w": 1067,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Paroles Paroles: the interior",
+     "credit": "parolesparoles.be",
+     "credit_url": "https://www.parolesparoles.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/paroles-paroles/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "the-wine-gallery": {
+   "photos": [
+    {
+     "src": "img/places/oostende/the-wine-gallery/p1-1400.webp",
+     "thumb": "img/places/oostende/the-wine-gallery/p1-700.webp",
+     "srcset": "img/places/oostende/the-wine-gallery/p1-700.webp 700w, img/places/oostende/the-wine-gallery/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "drink",
+     "alt": "The Wine Gallery: drinks",
+     "credit": "thewinegallery.be",
+     "credit_url": "https://www.thewinegallery.be/bar-a-vin/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/the-wine-gallery/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-de-lisse-n9963293023": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-bistro-de-lisse-n9963293023/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-bistro-de-lisse-n9963293023/p1-700.webp",
+     "srcset": "img/places/oostende/osm-bistro-de-lisse-n9963293023/p1-700.webp 700w, img/places/oostende/osm-bistro-de-lisse-n9963293023/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "drink",
+     "alt": "Bistro De Lisse: drinks",
+     "credit": "bistrodelisse.be",
+     "credit_url": "https://bistrodelisse.be/wijnkaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-bistro-de-lisse-n9963293023/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-fort-napoleon-n1268601826": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-fort-napoleon-n1268601826/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-fort-napoleon-n1268601826/p1-700.webp",
+     "srcset": "img/places/oostende/osm-fort-napoleon-n1268601826/p1-700.webp 700w, img/places/oostende/osm-fort-napoleon-n1268601826/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Fort Napoleon: food",
+     "credit": "fort-napoleon-brasserie.be",
+     "credit_url": "https://fort-napoleon-brasserie.be/plan-jouw-bezoek-cloned/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-fort-napoleon-n1268601826/p2-800.webp",
+     "thumb": "img/places/oostende/osm-fort-napoleon-n1268601826/p2-400.webp",
+     "srcset": "img/places/oostende/osm-fort-napoleon-n1268601826/p2-400.webp 400w, img/places/oostende/osm-fort-napoleon-n1268601826/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Fort Napoleon: food",
+     "credit": "fort-napoleon-brasserie.be",
+     "credit_url": "https://fort-napoleon-brasserie.be/plan-jouw-bezoek-cloned/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/osm-fort-napoleon-n1268601826/p3-800.webp",
+     "thumb": "img/places/oostende/osm-fort-napoleon-n1268601826/p3-400.webp",
+     "srcset": "img/places/oostende/osm-fort-napoleon-n1268601826/p3-400.webp 400w, img/places/oostende/osm-fort-napoleon-n1268601826/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "drink",
+     "alt": "Fort Napoleon: drinks",
+     "credit": "fort-napoleon-brasserie.be",
+     "credit_url": "https://fort-napoleon-brasserie.be/plan-jouw-bezoek-cloned/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-fort-napoleon-n1268601826/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-madam-kroket-n10807059785": {
+   "photos": [
+    {
+     "src": "img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp",
+     "thumb": "img/places/oostende/osm-madam-kroket-n10807059785/p1-700.webp",
+     "srcset": "img/places/oostende/osm-madam-kroket-n10807059785/p1-700.webp 700w, img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1919,
+     "category": "exterior",
+     "alt": "Madam Kroket: the outside",
+     "credit": "@madamkroket on Instagram",
+     "credit_url": "https://www.instagram.com/madamkroket/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/osm-madam-kroket-n10807059785/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
