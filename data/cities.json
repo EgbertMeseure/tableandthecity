@@ -218,6 +218,28 @@
           "veggie": "data/cities/oostende-veggie.json",
           "breakfast": "data/cities/oostende-breakfast.json",
           "photos": "data/cities/oostende-photos.json"
+        },
+        {
+          "id": "leuven",
+          "name": "Leuven",
+          "nameNl": "Leuven",
+          "nameEn": "Leuven",
+          "active": false,
+          "center": [
+            50.8795,
+            4.7005
+          ]
+        },
+        {
+          "id": "charleroi",
+          "name": "Charleroi",
+          "nameNl": "Charleroi",
+          "nameEn": "Charleroi",
+          "active": false,
+          "center": [
+            50.4114,
+            4.4447
+          ]
         }
       ],
       "id": "be",

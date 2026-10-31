@@ -22,7 +22,8 @@ const COUNTRIES = CFG.countries.map(co => {
   const cities = co.cities.map(c => ({ ...c, countryId: co.id, land: (LAND.cities || {})[c.id] || {} }));
   const act = cities.filter(c => c.active && c.center);
   const dot = L.dot || (act.length ? [act.reduce((s, c) => s + c.center[0], 0) / act.length, act.reduce((s, c) => s + c.center[1], 0) / act.length] : null);
-  return { id: co.id, name: co.name, active: !!co.active, next: !co.active && !!L.next, dot, cities, act };   // landing.json "next": true = the next country to open (labelled 'next' instead of 'coming soon')
+  const soon = co.active ? cities.filter(c => !c.active && c.center) : [];   // coming-soon cities inside an open country (e.g. Leuven, Charleroi): a dimmed dot + a photo-less card, no guide link
+  return { id: co.id, name: co.name, active: !!co.active, next: !co.active && !!L.next, dot, cities, act, soon };   // landing.json "next": true = the next country to open (labelled 'next' instead of 'coming soon')
 });
 const ACTIVE = COUNTRIES.filter(c => c.active && c.act.length);
 /* step 1 of the globe: one Europe marker. Every country with a globe dot is in Europe for now; tapping it zooms in on Europe (step 2) */
@@ -37,13 +38,16 @@ const heroSet = (b, sizes = '100vw') => `src="${esc(b)}-1600.jpg" srcset="${esc(
 $('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.active ? '' : co.next ? ' · next' : ' · coming soon'}</h3><ul>${co.cities.map(c => c.active
   ? `<li><a href="${guideUrl(co.id, c.id)}" data-city="${esc(c.id)}">${esc(c.name)}</a></li>`
   : `<li><span>${esc(c.name)} <em>soon</em></span></li>`).join('')}</ul>`).join('') +
-  `<p class="wl-dest__note">Starting in Europe, growing to every great food city in the world.</p>`;
+  `<p class="wl-dest__note">Starting in Europe, growing to every great food city in the world.</p>` +
+  `<p class="wl-dest__req"><button class="wl-reqbtn wl-reqbtn--primary" type="button" data-city-request>Request a city</button></p>`;
 
 function renderCards(co) {
   $('#wl-panel-title').textContent = co.name;
   $('#wl-cards').innerHTML = co.act.map(c => `<li><a class="wl-card" href="${guideUrl(co.id, c.id)}" data-city="${esc(c.id)}">
     ${c.images && c.images.hero ? `<img ${heroSet(c.images.hero, '(max-width:760px) 100vw, 470px')}${focus(c)} alt="" loading="lazy" decoding="async">` : ''}
-    <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span>${c.land.tagline ? `<span class="wl-card__tag">${esc(c.land.tagline)}</span>` : ''}</span></a></li>`).join('');
+    <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span>${c.land.tagline ? `<span class="wl-card__tag">${esc(c.land.tagline)}</span>` : ''}</span></a></li>`).join('') +
+    (co.soon.length ? `<li class="wl-soonrow"><ul class="wl-soonrow__grid">${co.soon.map(c => `<li class="wl-card wl-card--soon" data-city="${esc(c.id)}">
+      <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span><span class="wl-card__soon">coming soon</span></span></li>`).join('')}</ul></li>` : '');
 }
 
 let last = null; try { last = localStorage.getItem(LAST_KEY); } catch (e) {}
@@ -230,9 +234,12 @@ async function initGlobe() {
     else m = addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · ${co.next ? 'next' : 'coming soon'}</span>`, `${co.name}, ${co.next ? 'next' : 'coming soon'}`, e => { e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
     m.el.dataset.side = SIDE[co.id] || 'r';
   });
+  /* coming-soon cities first, so the live cities' labels stay on top where they meet (Leuven sits right next to Brussels) */
+  const say = e => { const el = e.currentTarget; el.classList.add('is-say'); clearTimeout(el._say); el._say = setTimeout(() => el.classList.remove('is-say'), 2200); };
+  ACTIVE.forEach(co => co.soon.forEach(c => { const m = addMarker('citysoon', c.center[0], c.center[1], `<span class="wl-mk__lbl">${esc(c.name)}<small>soon</small></span>`, `${c.name}, coming soon`, say); m.el.dataset.city = c.id; m.el.dataset.side = (LAND.cities[c.id] || {}).label || 'r'; m.el.tabIndex = -1; }));
   ACTIVE.forEach(co => co.act.forEach(c => { const m = addMarker('city', c.center[0], c.center[1], `<span class="wl-mk__lbl">${esc(c.name)}</span>`, c.name, () => { remember(c.id); location.href = guideUrl(co.id, c.id); }); m.el.dataset.city = c.id; m.el.dataset.side = (LAND.cities[c.id] || {}).label || 'r'; m.el.tabIndex = -1; }));
   const SHOWN = { globe: ['region'], europe: ['country', 'soon'], country: [] };   // which markers can take focus in each step
-  function syncTabs() { for (const m of markers) if (m.kind !== 'city') m.el.tabIndex = SHOWN[mode].includes(m.kind) ? 0 : -1; }
+  function syncTabs() { for (const m of markers) if (m.kind !== 'city' && m.kind !== 'citysoon') m.el.tabIndex = SHOWN[mode].includes(m.kind) ? 0 : -1; }
   syncTabs();
   const v3 = new THREE.Vector3(), cam = new THREE.Vector3();
   function placeMarkers() {
@@ -330,6 +337,18 @@ async function initGlobe() {
     pause(p) { setRunning(!p); }
   };
 }
+
+/* ---------- 'Request a city' under the globe (step 1 only; the form is js/cityreq.js → TGForms → info@tableandthecity.com) ---------- */
+{ const req = $('#wl-req'), intro = $('#wl-intro');
+  const place = () => {
+    if (!G) { req.hidden = true; return; }   // no WebGL: the destinations list (with its own Request a city button) is the page
+    const W = innerWidth, H = innerHeight, h = req.offsetHeight || 36; let x, y;
+    if (W <= 760) { const r = W * .47, cy = H * .33; x = W / 2; y = Math.min(cy + r + 14, intro.getBoundingClientRect().top - h - 16);   // phone: between the globe and the intro
+      req.classList.toggle('is-off', y < cy + r * .72); }                                                                         // too short a screen: only in the destinations list
+    else { const r = Math.min(H * .39, W * .27); x = W * .655; y = Math.min(H / 2 + r + 22, H - h - 34); req.classList.remove('is-off'); }   // desktop: centred under the globe
+    req.style.transform = `translate(${Math.round(x)}px,${Math.round(y)}px) translateX(-50%)`; req.hidden = false; };
+  addEventListener('resize', place); if ('ResizeObserver' in window) new ResizeObserver(place).observe(intro);
+  document.fonts && document.fonts.ready.then(place); place(); }
 
 /* ---------- city showcase ---------- */
 const show = $('#wl-show');
