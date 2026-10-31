@@ -275,9 +275,18 @@ const TG = (() => {
   /* ---- open now (js/hours.js, Europe/Brussels) ----
      open | closed | unknown. A place with a non-open status (temporarily closed, renovation…) is never open. Hours that cannot be
      parsed with confidence, or that carry a "sources differ" note, are unknown: nothing is shown and they sort between open and closed. */
+  /* seasonal places: season = {from, to} (months 1–12, inclusive; may wrap the year end, e.g. {from: 11, to: 3}). Outside the season the
+     place is closed whatever its weekly hours (open now, quiz days); the label ("Open April – October") shows on the card meta and detail page. */
+  function inSeason(r, iso = TODAY) {
+    const s = r.season; if (!s || !(s.from >= 1 && s.from <= 12 && s.to >= 1 && s.to <= 12)) return true;
+    const m = +String(iso).slice(5, 7);
+    return s.from <= s.to ? m >= s.from && m <= s.to : m >= s.from || m <= s.to;
+  }
+  const seasonLabel = r => { const s = r.season; return s && MONTHS[s.from - 1] && MONTHS[s.to - 1] ? `Open ${MONTHS[s.from - 1]} – ${MONTHS[s.to - 1]}` : ''; };
   function openState(r, now = new Date()) {
     if (r.upcoming) return { state: 'unknown' };
     if (r.status && r.status !== 'open') return { state: 'closed', byStatus: true };
+    if (r.season && !inSeason(r, window.TGHours ? window.TGHours.brussels(now).iso : TODAY)) return { state: 'closed', bySeason: true, season: seasonLabel(r) };
     if (r.openingHoursNote || !known(r.openingHours) || !window.TGHours) return { state: 'unknown' };
     return window.TGHours.status(r.openingHours, now);
   }
@@ -285,6 +294,7 @@ const TG = (() => {
   /* small label: list cards (short) and the detail page (long: "Closed · opens Tue 08:00"); empty for unknown / status-closed */
   function openLabel(o, long = false) {
     if (!o || o.byStatus) return '';
+    if (o.bySeason) return o.season ? `<span class="oh oh--closed">${esc(o.season)}</span>` : '';   // out of season: the season is the pill
     if (o.state === 'open') return `<span class="oh oh--open">Open now${long && o.closesAt ? `<span class="oh__sub"> · until ${esc(o.closesAt)}</span>` : ''}</span>`;
     if (o.state !== 'closed') return '';
     const t = o.opensAt ? window.TGHours.opensText(o.opensAt) : '';
@@ -658,6 +668,6 @@ const TG = (() => {
   // the whole box opens the event page (links / buttons inside keep their own target)
   document.addEventListener('click', ev => { const b = ev.target.closest('[data-ev-href]'); if (!b || ev.target.closest('a, button') || (getSelection && String(getSelection()))) return;
     window.open(b.dataset.evHref, '_blank', 'noopener'); });
-  return { M, EVREG, CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { M, EVREG, CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, inSeason, seasonLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav, bust };
 })();

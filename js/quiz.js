@@ -29,6 +29,7 @@
   /* one place on one day: 'open' (opening hours list hours that day [after `from` minutes for today]) | 'closed' (known closed) | 'unknown' */
   function dayState(r, d, from = 0) {
     if (r.status && r.status !== 'open' && !(r.statusUntil && d.iso > r.statusUntil)) return { s: 'closed' };
+    if (!TG.inSeason(r, d.iso)) return { s: 'closed' };   // seasonal place, outside its months
     if (r.openingHoursNote || !TG.known(r.openingHours)) return { s: 'unknown' };
     const P = H.parse(r.openingHours);
     if (!P.ok || (P.ph && H.isHoliday(d.iso))) return { s: 'unknown' };
@@ -74,7 +75,7 @@
   function mealState(r, meal, when, C) {
     const W = MEAL[meal]; if (!W) return 'yes';
     const days = (when ? whenSpec(when, C).days : [0, 1, 2, 3, 4, 5, 6]).map(k => C.day(k))
-      .filter(d => !(r.status && r.status !== 'open' && !(r.statusUntil && d.iso > r.statusUntil)))
+      .filter(d => !(r.status && r.status !== 'open' && !(r.statusUntil && d.iso > r.statusUntil)) && TG.inSeason(r, d.iso))
       .filter(d => d.k !== 0 || W.e - Math.max(W.s, C.mins) >= MEAL_MIN);   // today only while the window is still ahead (any hours)
     if (!days.length) return 'no';
     if (r.openingHoursNote || !TG.known(r.openingHours)) return 'unknown';

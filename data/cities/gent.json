@@ -15232,6 +15232,88 @@
    "notes": "Added from the live-music check of 30 Oct 2026 (own site + current agenda). No photo: the site's own images show people.",
    "origin": "research-2026-10-30-livemusic",
    "osm": "way/97507956"
+  },
+  {
+   "id": "giftshop",
+   "name": "Giftshop",
+   "group": "cafes_bars",
+   "category": "cafe",
+   "type": null,
+   "cuisine": "Art-space café: local drinks, coffee, vegan mastel",
+   "cuisineTags": [],
+   "chef": null,
+   "address": "Hoogpoort 37, 9000 Gent",
+   "postalCode": "9000",
+   "district": "Gent (9000)",
+   "neighbourhood": "Centrum",
+   "lat": 51.0553235,
+   "lng": 3.7243887,
+   "geoSource": "OpenStreetMap Nominatim (way/494027333, Hoogpoort 35;37; the building on the corner of the Werregarenstraat graffiti alley, entrance in the alley)",
+   "geoPrecision": "address",
+   "priceLevel": "€",
+   "priceFrom": null,
+   "priceLevelSource": "https://visit.gent.be/en/see-do/giftshop — basis: Visit Gent tags it 'Budget friendly'",
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": 2024,
+   "openingDate": "unknown",
+   "isNew": false,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "dietNote": "vegan mastel (from bakery Frimout) at the bar; HappyCow: vegan-friendly",
+   "menuType": "",
+   "menuChanges": "unknown",
+   "currentMenuNote": "",
+   "status": "open",
+   "statusNote": "",
+   "website": "https://giftshop.gent/",
+   "instagram_handle": "giftshop.gent",
+   "instagram": "https://www.instagram.com/giftshop.gent/",
+   "instagramSource": "link on the own website (giftshop.gent)",
+   "instagram_posts": [],
+   "phone": null,
+   "summary": "Volunteer-run cultural space in the Graffitistraatje (Werregarenstraat), Ghent's graffiti alley: a bar with local drinks, coffee and a vegan 'ironed' mastel, a shop with work by young Ghent makers, exhibitions, and locals who give visitors tips. Open Friday to Sunday afternoons, April to October.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://giftshop.gent/",
+    "https://giftshop.gent/calendar/",
+    "https://visit.gent.be/en/see-do/giftshop",
+    "https://visit.gent.be/nl/zien-doen/giftshop",
+    "https://www.happycow.net/reviews/giftshop-ghent-404085",
+    "https://www.instagram.com/giftshop.gent/"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-10-31",
+   "lastChanged": "2026-10-31",
+   "city": "gent",
+   "country": "BE",
+   "reservation_url": null,
+   "reservation_provider": null,
+   "features": {
+    "openSunday": true,
+    "openMonday": false,
+    "foodServed": true
+   },
+   "features_evidence": {
+    "openSunday": "https://giftshop.gent/calendar/ (open Friday, Saturday & Sunday 13:00-19:00); https://visit.gent.be/en/see-do/giftshop",
+    "openMonday": "https://giftshop.gent/calendar/ (open Friday, Saturday & Sunday only)",
+    "foodServed": "https://visit.gent.be/en/see-do/giftshop (a drink and an ironed mastel at the bar); https://www.happycow.net/reviews/giftshop-ghent-404085"
+   },
+   "openingHours": "Fr-Su 13:00-19:00; Mo-Th off",
+   "openingHoursSource": "https://giftshop.gent/calendar/ ('Giftshop is open Friday, Saturday & Sunday 13:00-19:00') + https://visit.gent.be/en/see-do/giftshop (same); season April–October per https://giftshop.gent/",
+   "openingHoursConfidence": "high",
+   "season": {
+    "from": 4,
+    "to": 10,
+    "source": "https://giftshop.gent/ ('Giftshop is open from April to October')"
+   },
+   "notes": "Added on user request 31 Oct 2026; seasonal (April–October) shown with the 'season' field, not as a temporary closure (user, 1 Nov 2026). Named 'Giftshop' / 'GIFTSHOP' by the place itself (Instagram 'Giftshop Gent'); not 'The Giftshop'. Cultural space with a bar, run by volunteers; not a specialty coffee bar, so kept under Cafés & bars. No breakfast/brunch (opens 13:00). The ground-floor makers' shop has its own calendar (March–December, Sat–Sun 13:00–18:00, giftshop.gent/shop). Photos: own website, photographer Michiel Devijver (credited in the file names). Data conflicts: Visit Gent and HappyCow give 'Werregarenstraat' (no number, the alley entrance), the own site's footer 'Hoogpoort 37'; HappyCow (2024) lists Sun 13:00-18:00 only, the own site and Visit Gent Fri-Sun 13:00-19:00.",
+   "origin": "research-2026-10-31-user-request"
   }
  ],
  "extraEvents": [
@@ -16344,6 +16426,14 @@
    "change": "Added music café(s) with clearly recurring live music, checked on their own site and current agenda: Hot Club Gent, Missy Sippy.",
    "source": "https://www.hotclub.gent/programma.php",
    "public": "Added: music café with regular live music."
+  },
+  {
+   "date": "2026-10-31",
+   "restaurant": "Giftshop",
+   "field": "added",
+   "change": "Added (cultural space with a bar in the Graffitistraatje, Hoogpoort 37 / Werregarenstraat; seasonal: open April–October, Fri–Sun 13:00–19:00 (season field); user request 2026-10-31).",
+   "source": "https://giftshop.gent/",
+   "public": "Added: café in the graffiti alley."
   }
  ],
  "eventDetails": {

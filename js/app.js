@@ -369,7 +369,7 @@
   function card(r) {
     const price = known(r.priceLevel) ? r.priceLevel : (r.priceFrom ? `from ${eur(r.priceFrom)}` : '');
     const isR = r.group === 'restaurants', cu = (r.cuisine || '').split(/[,–(]/)[0].trim();
-    const meta = [catLabel(r), isR && cu !== catLabel(r) ? cu : '', known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
+    const meta = [catLabel(r), isR && cu !== catLabel(r) ? cu : '', known(r.neighbourhood) ? r.neighbourhood : '', price, TG.inSeason(r) ? TG.seasonLabel(r) : ''].filter(Boolean).map(esc).join(' · ');
     const km = state.origin && r._km != null ? `<span>${r._km.toFixed(1)} km</span>` : '';
     // "At a glance" chips: only sourced-true features (same group-specific set as the detail grid); New/Event already are badges
     const ft = TG.featureTiles(r), MAXF = 4;

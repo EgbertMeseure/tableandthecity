@@ -58,6 +58,7 @@
     [new RegExp('^New since (' + MONTHS + ') (\\d{4})$'), 'New since {date}', ['date', 'y'], function (m) { return { date: t(m[1]) + ' ' + m[2] }; }],
     [new RegExp('^(' + MONTHS + ') (\\d{4})$'), '{x} {y}', ['x', 'y']],
     [/^Opening soon · (.+)$/, 'Opening soon · {x}', ['x']],
+    [new RegExp('^Open (' + MONTHS + ') – (' + MONTHS + ')$'), 'Open {x} – {y}', ['x', 'y'], function (m) { return { x: t(m[1]), y: t(m[2]) }; }],
     [/^· until (.+)$/, '· until {x}', ['x']],
     [/^Opens (.+)$/, 'Opens {date}', ['date']],
     [/^Closed · opens (.+)$/, 'Closed · opens {date}', ['date']],

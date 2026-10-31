@@ -1010,3 +1010,4 @@ a.card.bw-host{position:relative}
 .pc .pc__ft .ft.on{background:#eaf1f3;border-color:#2a6474;color:#1f4c58}
 .pc .pc__ft .ft__ic{flex-basis:14px;width:14px;height:14px;stroke:#2a6474}
 @media (max-width:700px){.pc .pc__ft{grid-template-columns:repeat(2,minmax(0,1fr))}.pc .pc__ft .ft{font-size:12.5px;min-height:38px;padding:7px 10px}}
+.essentials .opens.season{margin:0 0 6px;font-weight:600;color:var(--text-2)}
