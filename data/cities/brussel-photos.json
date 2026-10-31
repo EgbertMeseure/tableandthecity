@@ -20533,6 +20533,858 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "osm-costa-d-amalfi-n4117650193": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-costa-d-amalfi-n4117650193/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-costa-d-amalfi-n4117650193/p1-700.webp",
+     "srcset": "img/places/brussel/osm-costa-d-amalfi-n4117650193/p1-700.webp 700w, img/places/brussel/osm-costa-d-amalfi-n4117650193/p1-1400.webp 1400w",
+     "w": 1037,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "Costa d'Amalfi: the outside",
+     "credit": "costadamalfi.be",
+     "credit_url": "https://www.costadamalfi.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-costa-d-amalfi-n4117650193/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-curry-n-grillhouse-n14278844502": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-curry-n-grillhouse-n14278844502/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-curry-n-grillhouse-n14278844502/p1-700.webp",
+     "srcset": "img/places/brussel/osm-curry-n-grillhouse-n14278844502/p1-700.webp 700w, img/places/brussel/osm-curry-n-grillhouse-n14278844502/p1-1400.webp 1400w",
+     "w": 600,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Curry n Grillhouse: the interior",
+     "credit": "currygrillhouse.be",
+     "credit_url": "https://currygrillhouse.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-curry-n-grillhouse-n14278844502/p2-800.webp",
+     "thumb": "img/places/brussel/osm-curry-n-grillhouse-n14278844502/p2-400.webp",
+     "srcset": "img/places/brussel/osm-curry-n-grillhouse-n14278844502/p2-400.webp 400w, img/places/brussel/osm-curry-n-grillhouse-n14278844502/p2-800.webp 800w",
+     "w": 600,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Curry n Grillhouse: the outside",
+     "credit": "currygrillhouse.be",
+     "credit_url": "https://currygrillhouse.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-curry-n-grillhouse-n14278844502/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-damascus-house-n12135994288": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-damascus-house-n12135994288/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-damascus-house-n12135994288/p1-700.webp",
+     "srcset": "img/places/brussel/osm-damascus-house-n12135994288/p1-700.webp 700w, img/places/brussel/osm-damascus-house-n12135994288/p1-1400.webp 1400w",
+     "w": 1049,
+     "h": 1600,
+     "category": "food",
+     "alt": "Damascus House: food",
+     "credit": "damascus-restaurant.be",
+     "credit_url": "https://damascus-restaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-damascus-house-n12135994288/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-feux-de-bengale-n4413967688": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-feux-de-bengale-n4413967688/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-feux-de-bengale-n4413967688/p1-700.webp",
+     "srcset": "img/places/brussel/osm-feux-de-bengale-n4413967688/p1-700.webp 700w, img/places/brussel/osm-feux-de-bengale-n4413967688/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 683,
+     "category": "interior",
+     "alt": "Feux de Bengale: the interior",
+     "credit": "feuxdebengale.be",
+     "credit_url": "https://www.feuxdebengale.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-feux-de-bengale-n4413967688/p2-800.webp",
+     "thumb": "img/places/brussel/osm-feux-de-bengale-n4413967688/p2-400.webp",
+     "srcset": "img/places/brussel/osm-feux-de-bengale-n4413967688/p2-400.webp 400w, img/places/brussel/osm-feux-de-bengale-n4413967688/p2-800.webp 800w",
+     "w": 800,
+     "h": 481,
+     "category": "food",
+     "alt": "Feux de Bengale: food",
+     "credit": "feuxdebengale.be",
+     "credit_url": "https://www.feuxdebengale.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-feux-de-bengale-n4413967688/p3-800.webp",
+     "thumb": "img/places/brussel/osm-feux-de-bengale-n4413967688/p3-400.webp",
+     "srcset": "img/places/brussel/osm-feux-de-bengale-n4413967688/p3-400.webp 400w, img/places/brussel/osm-feux-de-bengale-n4413967688/p3-800.webp 800w",
+     "w": 765,
+     "h": 837,
+     "category": "food",
+     "alt": "Feux de Bengale: food",
+     "credit": "feuxdebengale.be",
+     "credit_url": "https://www.feuxdebengale.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-feux-de-bengale-n4413967688/p4-800.webp",
+     "thumb": "img/places/brussel/osm-feux-de-bengale-n4413967688/p4-400.webp",
+     "srcset": "img/places/brussel/osm-feux-de-bengale-n4413967688/p4-400.webp 400w, img/places/brussel/osm-feux-de-bengale-n4413967688/p4-800.webp 800w",
+     "w": 800,
+     "h": 763,
+     "category": "interior",
+     "alt": "Feux de Bengale: the interior",
+     "credit": "feuxdebengale.be",
+     "credit_url": "https://www.feuxdebengale.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-feux-de-bengale-n4413967688/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-gat-n13546587201": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-gat-n13546587201/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-gat-n13546587201/p1-700.webp",
+     "srcset": "img/places/brussel/osm-gat-n13546587201/p1-700.webp 700w, img/places/brussel/osm-gat-n13546587201/p1-1400.webp 1400w",
+     "w": 1066,
+     "h": 1600,
+     "category": "food",
+     "alt": "GAT: food",
+     "credit": "gaterestaurant.be",
+     "credit_url": "https://gaterestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-gat-n13546587201/p2-800.webp",
+     "thumb": "img/places/brussel/osm-gat-n13546587201/p2-400.webp",
+     "srcset": "img/places/brussel/osm-gat-n13546587201/p2-400.webp 400w, img/places/brussel/osm-gat-n13546587201/p2-800.webp 800w",
+     "w": 800,
+     "h": 1201,
+     "category": "food",
+     "alt": "GAT: food",
+     "credit": "gaterestaurant.be",
+     "credit_url": "https://gaterestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-gat-n13546587201/p3-800.webp",
+     "thumb": "img/places/brussel/osm-gat-n13546587201/p3-400.webp",
+     "srcset": "img/places/brussel/osm-gat-n13546587201/p3-400.webp 400w, img/places/brussel/osm-gat-n13546587201/p3-800.webp 800w",
+     "w": 800,
+     "h": 1201,
+     "category": "food",
+     "alt": "GAT: food",
+     "credit": "gaterestaurant.be",
+     "credit_url": "https://gaterestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-gat-n13546587201/p4-800.webp",
+     "thumb": "img/places/brussel/osm-gat-n13546587201/p4-400.webp",
+     "srcset": "img/places/brussel/osm-gat-n13546587201/p4-400.webp 400w, img/places/brussel/osm-gat-n13546587201/p4-800.webp 800w",
+     "w": 800,
+     "h": 1201,
+     "category": "food",
+     "alt": "GAT: food",
+     "credit": "gaterestaurant.be",
+     "credit_url": "https://gaterestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-gat-n13546587201/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-golden-city-n8318753745": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-golden-city-n8318753745/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-golden-city-n8318753745/p1-700.webp",
+     "srcset": "img/places/brussel/osm-golden-city-n8318753745/p1-700.webp 700w, img/places/brussel/osm-golden-city-n8318753745/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 1320,
+     "category": "interior",
+     "alt": "Golden City: the interior",
+     "credit": "goldencity.be",
+     "credit_url": "https://goldencity.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-golden-city-n8318753745/p2-800.webp",
+     "thumb": "img/places/brussel/osm-golden-city-n8318753745/p2-400.webp",
+     "srcset": "img/places/brussel/osm-golden-city-n8318753745/p2-400.webp 400w, img/places/brussel/osm-golden-city-n8318753745/p2-800.webp 800w",
+     "w": 800,
+     "h": 837,
+     "category": "interior",
+     "alt": "Golden City: the interior",
+     "credit": "goldencity.be",
+     "credit_url": "https://goldencity.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-golden-city-n8318753745/p3-800.webp",
+     "thumb": "img/places/brussel/osm-golden-city-n8318753745/p3-400.webp",
+     "srcset": "img/places/brussel/osm-golden-city-n8318753745/p3-400.webp 400w, img/places/brussel/osm-golden-city-n8318753745/p3-800.webp 800w",
+     "w": 800,
+     "h": 984,
+     "category": "interior",
+     "alt": "Golden City: the interior",
+     "credit": "goldencity.be",
+     "credit_url": "https://goldencity.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-golden-city-n8318753745/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-il-ramo-verdee-n12769087037": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p1-700.webp",
+     "srcset": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p1-700.webp 700w, img/places/brussel/osm-il-ramo-verdee-n12769087037/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "Il Ramo Verdee: the interior",
+     "credit": "ilramoverdee.be",
+     "credit_url": "https://www.ilramoverdee.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p2-800.webp",
+     "thumb": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p2-400.webp",
+     "srcset": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p2-400.webp 400w, img/places/brussel/osm-il-ramo-verdee-n12769087037/p2-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "Il Ramo Verdee: food",
+     "credit": "ilramoverdee.be",
+     "credit_url": "https://www.ilramoverdee.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p3-800.webp",
+     "thumb": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p3-400.webp",
+     "srcset": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p3-400.webp 400w, img/places/brussel/osm-il-ramo-verdee-n12769087037/p3-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "exterior",
+     "alt": "Il Ramo Verdee: the outside",
+     "credit": "ilramoverdee.be",
+     "credit_url": "https://www.ilramoverdee.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-il-ramo-verdee-n12769087037/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-inanna-n6815893035": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-inanna-n6815893035/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-inanna-n6815893035/p1-700.webp",
+     "srcset": "img/places/brussel/osm-inanna-n6815893035/p1-700.webp 700w, img/places/brussel/osm-inanna-n6815893035/p1-1400.webp 1400w",
+     "w": 1160,
+     "h": 870,
+     "category": "interior",
+     "alt": "Inanna: the interior",
+     "credit": "inannabarrestaurant.com",
+     "credit_url": "https://inannabarrestaurant.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-inanna-n6815893035/p2-800.webp",
+     "thumb": "img/places/brussel/osm-inanna-n6815893035/p2-400.webp",
+     "srcset": "img/places/brussel/osm-inanna-n6815893035/p2-400.webp 400w, img/places/brussel/osm-inanna-n6815893035/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Inanna: food",
+     "credit": "inannabarrestaurant.com",
+     "credit_url": "https://inannabarrestaurant.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-inanna-n6815893035/p3-800.webp",
+     "thumb": "img/places/brussel/osm-inanna-n6815893035/p3-400.webp",
+     "srcset": "img/places/brussel/osm-inanna-n6815893035/p3-400.webp 400w, img/places/brussel/osm-inanna-n6815893035/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Inanna: food",
+     "credit": "inannabarrestaurant.com",
+     "credit_url": "https://inannabarrestaurant.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-inanna-n6815893035/p4-800.webp",
+     "thumb": "img/places/brussel/osm-inanna-n6815893035/p4-400.webp",
+     "srcset": "img/places/brussel/osm-inanna-n6815893035/p4-400.webp 400w, img/places/brussel/osm-inanna-n6815893035/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Inanna: the interior",
+     "credit": "inannabarrestaurant.com",
+     "credit_url": "https://inannabarrestaurant.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-inanna-n6815893035/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-iyagi-n3023196289": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-iyagi-n3023196289/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-iyagi-n3023196289/p1-700.webp",
+     "srcset": "img/places/brussel/osm-iyagi-n3023196289/p1-700.webp 700w, img/places/brussel/osm-iyagi-n3023196289/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Iyagi: food",
+     "credit": "iyagitiger.com",
+     "credit_url": "https://iyagitiger.com/pages/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-iyagi-n3023196289/p2-800.webp",
+     "thumb": "img/places/brussel/osm-iyagi-n3023196289/p2-400.webp",
+     "srcset": "img/places/brussel/osm-iyagi-n3023196289/p2-400.webp 400w, img/places/brussel/osm-iyagi-n3023196289/p2-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Iyagi: food",
+     "credit": "iyagitiger.com",
+     "credit_url": "https://iyagitiger.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-iyagi-n3023196289/p3-800.webp",
+     "thumb": "img/places/brussel/osm-iyagi-n3023196289/p3-400.webp",
+     "srcset": "img/places/brussel/osm-iyagi-n3023196289/p3-400.webp 400w, img/places/brussel/osm-iyagi-n3023196289/p3-800.webp 800w",
+     "w": 800,
+     "h": 1001,
+     "category": "food",
+     "alt": "Iyagi: food",
+     "credit": "iyagitiger.com",
+     "credit_url": "https://iyagitiger.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-iyagi-n3023196289/p4-800.webp",
+     "thumb": "img/places/brussel/osm-iyagi-n3023196289/p4-400.webp",
+     "srcset": "img/places/brussel/osm-iyagi-n3023196289/p4-400.webp 400w, img/places/brussel/osm-iyagi-n3023196289/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "exterior",
+     "alt": "Iyagi: the outside",
+     "credit": "iyagitiger.com",
+     "credit_url": "https://iyagitiger.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-iyagi-n3023196289/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-jeanbon-n5478051471": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-jeanbon-n5478051471/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-jeanbon-n5478051471/p1-700.webp",
+     "srcset": "img/places/brussel/osm-jeanbon-n5478051471/p1-700.webp 700w, img/places/brussel/osm-jeanbon-n5478051471/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 936,
+     "category": "food",
+     "alt": "JeanBon: food",
+     "credit": "jeanbon.be",
+     "credit_url": "https://jeanbon.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-jeanbon-n5478051471/p2-800.webp",
+     "thumb": "img/places/brussel/osm-jeanbon-n5478051471/p2-400.webp",
+     "srcset": "img/places/brussel/osm-jeanbon-n5478051471/p2-400.webp 400w, img/places/brussel/osm-jeanbon-n5478051471/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "JeanBon: food",
+     "credit": "jeanbon.be",
+     "credit_url": "https://jeanbon.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-jeanbon-n5478051471/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-kafenio-n12743118713": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-kafenio-n12743118713/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-kafenio-n12743118713/p1-700.webp",
+     "srcset": "img/places/brussel/osm-kafenio-n12743118713/p1-700.webp 700w, img/places/brussel/osm-kafenio-n12743118713/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 769,
+     "category": "interior",
+     "alt": "Kafenio: the interior",
+     "credit": "kafenio.be",
+     "credit_url": "https://kafenio.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-kafenio-n12743118713/p2-800.webp",
+     "thumb": "img/places/brussel/osm-kafenio-n12743118713/p2-400.webp",
+     "srcset": "img/places/brussel/osm-kafenio-n12743118713/p2-400.webp 400w, img/places/brussel/osm-kafenio-n12743118713/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Kafenio: food",
+     "credit": "kafenio.be",
+     "credit_url": "https://kafenio.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-kafenio-n12743118713/p3-800.webp",
+     "thumb": "img/places/brussel/osm-kafenio-n12743118713/p3-400.webp",
+     "srcset": "img/places/brussel/osm-kafenio-n12743118713/p3-400.webp 400w, img/places/brussel/osm-kafenio-n12743118713/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Kafenio: food",
+     "credit": "kafenio.be",
+     "credit_url": "https://kafenio.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-kafenio-n12743118713/p4-800.webp",
+     "thumb": "img/places/brussel/osm-kafenio-n12743118713/p4-400.webp",
+     "srcset": "img/places/brussel/osm-kafenio-n12743118713/p4-400.webp 400w, img/places/brussel/osm-kafenio-n12743118713/p4-800.webp 800w",
+     "w": 683,
+     "h": 1024,
+     "category": "exterior",
+     "alt": "Kafenio: the outside",
+     "credit": "kafenio.be",
+     "credit_url": "https://kafenio.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-kafenio-n12743118713/p5-800.webp",
+     "thumb": "img/places/brussel/osm-kafenio-n12743118713/p5-400.webp",
+     "srcset": "img/places/brussel/osm-kafenio-n12743118713/p5-400.webp 400w, img/places/brussel/osm-kafenio-n12743118713/p5-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Kafenio: the interior",
+     "credit": "kafenio.be",
+     "credit_url": "https://kafenio.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-kafenio-n12743118713/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-l-altro-mondo-n4418285626": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-l-altro-mondo-n4418285626/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-l-altro-mondo-n4418285626/p1-700.webp",
+     "srcset": "img/places/brussel/osm-l-altro-mondo-n4418285626/p1-700.webp 700w, img/places/brussel/osm-l-altro-mondo-n4418285626/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "L'Altro Mondo: the interior",
+     "credit": "laltromondo.be",
+     "credit_url": "http://www.laltromondo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-l-altro-mondo-n4418285626/p2-800.webp",
+     "thumb": "img/places/brussel/osm-l-altro-mondo-n4418285626/p2-400.webp",
+     "srcset": "img/places/brussel/osm-l-altro-mondo-n4418285626/p2-400.webp 400w, img/places/brussel/osm-l-altro-mondo-n4418285626/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "L'Altro Mondo: food",
+     "credit": "laltromondo.be",
+     "credit_url": "http://www.laltromondo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-l-altro-mondo-n4418285626/p3-800.webp",
+     "thumb": "img/places/brussel/osm-l-altro-mondo-n4418285626/p3-400.webp",
+     "srcset": "img/places/brussel/osm-l-altro-mondo-n4418285626/p3-400.webp 400w, img/places/brussel/osm-l-altro-mondo-n4418285626/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "L'Altro Mondo: food",
+     "credit": "laltromondo.be",
+     "credit_url": "http://www.laltromondo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-l-altro-mondo-n4418285626/p4-800.webp",
+     "thumb": "img/places/brussel/osm-l-altro-mondo-n4418285626/p4-400.webp",
+     "srcset": "img/places/brussel/osm-l-altro-mondo-n4418285626/p4-400.webp 400w, img/places/brussel/osm-l-altro-mondo-n4418285626/p4-800.webp 800w",
+     "w": 800,
+     "h": 468,
+     "category": "interior",
+     "alt": "L'Altro Mondo: the interior",
+     "credit": "laltromondo.be",
+     "credit_url": "http://www.laltromondo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-l-altro-mondo-n4418285626/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-boussole-n2422528371": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-boussole-n2422528371/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-boussole-n2422528371/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-boussole-n2422528371/p1-700.webp 700w, img/places/brussel/osm-la-boussole-n2422528371/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "La Boussole: food",
+     "credit": "restaurant-laboussole.be",
+     "credit_url": "https://restaurant-laboussole.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-la-boussole-n2422528371/p2-800.webp",
+     "thumb": "img/places/brussel/osm-la-boussole-n2422528371/p2-400.webp",
+     "srcset": "img/places/brussel/osm-la-boussole-n2422528371/p2-400.webp 400w, img/places/brussel/osm-la-boussole-n2422528371/p2-800.webp 800w",
+     "w": 800,
+     "h": 993,
+     "category": "food",
+     "alt": "La Boussole: food",
+     "credit": "restaurant-laboussole.be",
+     "credit_url": "https://restaurant-laboussole.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-boussole-n2422528371/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-braise-n3100734060": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-braise-n3100734060/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-braise-n3100734060/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-braise-n3100734060/p1-700.webp 700w, img/places/brussel/osm-la-braise-n3100734060/p1-1400.webp 1400w",
+     "w": 690,
+     "h": 654,
+     "category": "exterior",
+     "alt": "La Braise: the outside",
+     "credit": "labraise1060.be",
+     "credit_url": "https://www.labraise1060.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-braise-n3100734060/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-brasa-n13063906902": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-brasa-n13063906902/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-brasa-n13063906902/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-brasa-n13063906902/p1-700.webp 700w, img/places/brussel/osm-la-brasa-n13063906902/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 682,
+     "category": "food",
+     "alt": "La Brasa: food",
+     "credit": "restolabrasa.com",
+     "credit_url": "https://restolabrasa.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-brasa-n13063906902/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-fleur-n7734394747": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-fleur-n7734394747/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-fleur-n7734394747/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-fleur-n7734394747/p1-700.webp 700w, img/places/brussel/osm-la-fleur-n7734394747/p1-1400.webp 1400w",
+     "w": 640,
+     "h": 480,
+     "category": "interior",
+     "alt": "La Fleur: the interior",
+     "credit": "lafleurenpapierdore.be",
+     "credit_url": "https://lafleurenpapierdore.be/photo/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-la-fleur-n7734394747/p2-800.webp",
+     "thumb": "img/places/brussel/osm-la-fleur-n7734394747/p2-400.webp",
+     "srcset": "img/places/brussel/osm-la-fleur-n7734394747/p2-400.webp 400w, img/places/brussel/osm-la-fleur-n7734394747/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "La Fleur: the outside",
+     "credit": "lafleurenpapierdore.be",
+     "credit_url": "https://lafleurenpapierdore.be/photo/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-la-fleur-n7734394747/p3-800.webp",
+     "thumb": "img/places/brussel/osm-la-fleur-n7734394747/p3-400.webp",
+     "srcset": "img/places/brussel/osm-la-fleur-n7734394747/p3-400.webp 400w, img/places/brussel/osm-la-fleur-n7734394747/p3-800.webp 800w",
+     "w": 640,
+     "h": 480,
+     "category": "interior",
+     "alt": "La Fleur: the interior",
+     "credit": "lafleurenpapierdore.be",
+     "credit_url": "https://lafleurenpapierdore.be/photo/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-fleur-n7734394747/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-locanda-n1785214931": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-locanda-n1785214931/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-locanda-n1785214931/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-locanda-n1785214931/p1-700.webp 700w, img/places/brussel/osm-la-locanda-n1785214931/p1-1400.webp 1400w",
+     "w": 614,
+     "h": 461,
+     "category": "interior",
+     "alt": "La Locanda: the interior",
+     "credit": "resto-lalocanda.be",
+     "credit_url": "https://resto-lalocanda.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-locanda-n1785214931/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-piola-n5801705146": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-piola-n5801705146/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-piola-n5801705146/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-piola-n5801705146/p1-700.webp 700w, img/places/brussel/osm-la-piola-n5801705146/p1-1400.webp 1400w",
+     "w": 1000,
+     "h": 675,
+     "category": "exterior",
+     "alt": "La Piola: the outside",
+     "credit": "lapiolapizza.com",
+     "credit_url": "https://lapiolapizza.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-la-piola-n5801705146/p2-800.webp",
+     "thumb": "img/places/brussel/osm-la-piola-n5801705146/p2-400.webp",
+     "srcset": "img/places/brussel/osm-la-piola-n5801705146/p2-400.webp 400w, img/places/brussel/osm-la-piola-n5801705146/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "La Piola: food",
+     "credit": "lapiolapizza.com",
+     "credit_url": "https://lapiolapizza.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-la-piola-n5801705146/p3-800.webp",
+     "thumb": "img/places/brussel/osm-la-piola-n5801705146/p3-400.webp",
+     "srcset": "img/places/brussel/osm-la-piola-n5801705146/p3-400.webp 400w, img/places/brussel/osm-la-piola-n5801705146/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "La Piola: food",
+     "credit": "lapiolapizza.com",
+     "credit_url": "https://lapiolapizza.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-piola-n5801705146/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
