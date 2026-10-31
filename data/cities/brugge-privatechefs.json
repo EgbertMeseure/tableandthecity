@@ -1,0 +1,146 @@
+{
+ "city": "brugge",
+ "updated": "2026-10-31",
+ "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
+ "chefs": [
+  {
+   "id": "laissez-faire",
+   "name": "Laissez-Faire",
+   "chef": "",
+   "style": "Chef at home from the restaurant",
+   "description": "The Laissez-Faire kitchen cooks at your place. The budget is in line with the restaurant’s prices, plus the chefs’ hours.",
+   "serves": "Bruges",
+   "base": "",
+   "guests": "10 to about 30 guests",
+   "price": "",
+   "website": "https://laissezfaire.be/kok-aan-huis/",
+   "instagram": "https://www.instagram.com/restaurant_laissezfaire/",
+   "email": "info@laissezfaire.be",
+   "phone": "+32479891924",
+   "phoneDisplay": "0479 89 19 24",
+   "placeId": "laissez-faire",
+   "sources": [
+    "https://laissezfaire.be/kok-aan-huis/"
+   ],
+   "image": {
+    "src": "img/chefs/brugge/laissez-faire.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated dish with a crisp garnish (Laissez-Faire)",
+    "credit": "Laissez-Faire (laissezfaire.be)",
+    "credit_url": "https://laissezfaire.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "chef-dufait",
+   "name": "Chef Dufait",
+   "chef": "Thomas Dufait",
+   "style": "Gastronomic, walking dinner, luxury BBQ",
+   "description": "Private chef Thomas Dufait cooks a four-course gastronomic menu in your kitchen, or a walking dinner or luxury barbecue; also business dinners.",
+   "serves": "Bruges and around",
+   "base": "",
+   "guests": "Small to medium-sized groups",
+   "price": "",
+   "website": "https://chef-dufait.be/home",
+   "instagram": "",
+   "email": "info@chef-dufait.be",
+   "phone": "+32498844182",
+   "phoneDisplay": "+32 498 84 41 82",
+   "placeId": "",
+   "sources": [
+    "https://chef-dufait.be/home",
+    "https://chef-dufait.be/contact"
+   ],
+   "image": {
+    "src": "img/chefs/brugge/chef-dufait.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A soft egg on a green sauce (Chef Dufait)",
+    "credit": "Chef Dufait (chef-dufait.be)",
+    "credit_url": "https://chef-dufait.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "bens-kitchen",
+   "name": "Ben's Kitchen",
+   "chef": "Benjamin Michiels",
+   "style": "Catering & chef at home",
+   "description": "Chef Benjamin Michiels (formerly at Maison Vandamme and with Danny Horseele) does catering and chef-at-home dinners.",
+   "serves": "Bruges; no fixed region limit",
+   "base": "Assebroek",
+   "guests": "",
+   "price": "",
+   "website": "https://benskitchen.be/",
+   "instagram": "https://www.instagram.com/_benskitchen_/",
+   "email": "info@benskitchen.be",
+   "phone": "+32494114370",
+   "phoneDisplay": "0494 11 43 70",
+   "placeId": "",
+   "sources": [
+    "https://benskitchen.be/"
+   ],
+   "image": {
+    "src": "img/chefs/brugge/bens-kitchen.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated starter on a bed of salt (Ben's Kitchen)",
+    "credit": "Ben's Kitchen (benskitchen.be)",
+    "credit_url": "https://benskitchen.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "patrick-de-groote",
+   "name": "Patrick De Groote",
+   "chef": "Patrick De Groote",
+   "style": "Chef at home",
+   "description": "Kok aan huis for small groups: you pay the price of the takeaway menu plus the chef’s hours.",
+   "serves": "Sijsele, Damme and Bruges",
+   "base": "Sijsele",
+   "guests": "Small groups",
+   "price": "",
+   "website": "https://www.patrickdegroote.be/kok-aan-huis-sijsele-brugge/",
+   "instagram": "",
+   "email": "info@patrickdegroote.be",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://www.patrickdegroote.be/kok-aan-huis-sijsele-brugge/"
+   ],
+   "image": {
+    "src": "img/chefs/brugge/patrick-de-groote.webp",
+    "w": 910,
+    "h": 683,
+    "alt": "A plated fish dish with vegetables (Patrick De Groote)",
+    "credit": "Patrick De Groote (patrickdegroote.be)",
+    "credit_url": "https://www.patrickdegroote.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "chef-krist-bega",
+   "name": "Chef Krist Bega",
+   "chef": "Krist Bega",
+   "style": "Italian, Mediterranean, French tasting menus",
+   "description": "Bespoke tasting menus cooked in your kitchen, from intimate dinners for 2 to 8 to larger parties.",
+   "serves": "Bruges and around",
+   "base": "",
+   "guests": "2 to 20+ guests",
+   "price": "From about €85 pp",
+   "website": "https://www.privatechef.be/",
+   "instagram": "",
+   "email": "",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://www.privatechef.be/"
+   ],
+   "image": null,
+   "checked": "2026-10-31"
+  }
+ ]
+}

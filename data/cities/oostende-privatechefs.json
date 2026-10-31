@@ -1,0 +1,140 @@
+{
+ "city": "oostende",
+ "updated": "2026-10-31",
+ "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
+ "chefs": [
+  {
+   "id": "chef-on-the-move",
+   "name": "Chef on the move",
+   "chef": "Jan Wydooghe",
+   "style": "Seasonal, classic (Escoffier)",
+   "description": "Chef Jan Wydooghe cooks local, seasonal produce on classic Escoffier foundations: dinners at home for up to 30, buffets for up to 65.",
+   "serves": "Ostend and around",
+   "base": "",
+   "guests": "Dinners up to 30, buffets up to 65",
+   "price": "Gastronomic dinner from 8 guests €62 pp (from 16: €58); family buffet €32–59 pp (min. 25)",
+   "website": "https://chefonthemove.be/",
+   "instagram": "",
+   "email": "info@chefonthemove.be",
+   "phone": "+32479901019",
+   "phoneDisplay": "0479 90 10 19",
+   "placeId": "",
+   "sources": [
+    "https://chefonthemove.be/"
+   ],
+   "image": null,
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "seoulful",
+   "name": "SEOULFUL",
+   "chef": "Hyerin",
+   "style": "Modern Korean",
+   "description": "Chef and founder Hyerin brings modern Korean private dining and catering to your table.",
+   "serves": "Ostend",
+   "base": "",
+   "guests": "4 to 20 guests",
+   "price": "",
+   "website": "https://www.seoulful.be/",
+   "instagram": "https://www.instagram.com/seoulful.catering/",
+   "email": "seoulful.oostende@gmail.com",
+   "phone": "+32476048325",
+   "phoneDisplay": "+32 476 04 83 25",
+   "placeId": "",
+   "sources": [
+    "https://www.seoulful.be/",
+    "https://www.seoulful.be/menu"
+   ],
+   "image": {
+    "src": "img/chefs/oostende/seoulful.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A Korean dumpling dish in a white bowl (SEOULFUL)",
+    "credit": "SEOULFUL (seoulful.be)",
+    "credit_url": "https://www.seoulful.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "dimitri-proost",
+   "name": "Dimitri Proost",
+   "chef": "Dimitri Proost",
+   "style": "Japanese with a Western twist",
+   "description": "After Hakkasan, Yamazato and ’t Fornuis and his own restaurant Haut in Ostend, Dimitri Proost now cooks made-to-measure private dinners at your home or a location of your choice.",
+   "serves": "On location (service area not stated)",
+   "base": "",
+   "guests": "",
+   "price": "",
+   "website": "https://www.dimitriproost.com/",
+   "instagram": "https://www.instagram.com/dimitri_proost/",
+   "email": "contact@dimitriproost.com",
+   "phone": "+32477853906",
+   "phoneDisplay": "+32 477 85 39 06",
+   "placeId": "",
+   "sources": [
+    "https://www.dimitriproost.com/"
+   ],
+   "image": {
+    "src": "img/chefs/oostende/dimitri-proost.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated dish with strawberries and a green quenelle (Dimitri Proost)",
+    "credit": "Dimitri Proost (dimitriproost.com)",
+    "credit_url": "https://www.dimitriproost.com/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "chef-krist-bega",
+   "name": "Chef Krist Bega",
+   "chef": "Krist Bega",
+   "style": "North Sea seafood, tasting menus",
+   "description": "North Sea cooking in your Ostend apartment or holiday rental: the catch is bought at the Visserskaai, cooked in your kitchen and cleared up after.",
+   "serves": "Ostend, Bredene, Middelkerke and around",
+   "base": "",
+   "guests": "2 to 8 for intimate dinners, larger parties possible",
+   "price": "From about €85 pp",
+   "website": "https://www.privatechef.be/private-chef-ostend",
+   "instagram": "",
+   "email": "",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://www.privatechef.be/private-chef-ostend"
+   ],
+   "image": null,
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "bien-cuit",
+   "name": "Bien Cuit",
+   "chef": "Pieter Uytterlinde",
+   "style": "Fine dining, sharing, Italian, modern European",
+   "description": "Chef Pieter Uytterlinde takes care of the food and drinks at your party: 4- or 5-course fine dining, a sharing concept, seasonal Italian or modern European, with fish or vegetarian options.",
+   "serves": "West Flanders, including Ostend",
+   "base": "",
+   "guests": "",
+   "price": "",
+   "website": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/",
+   "instagram": "https://www.instagram.com/chefs_bien_cuit/",
+   "email": "chefsbiencuit@gmail.com",
+   "phone": "+32493436322",
+   "phoneDisplay": "0493 43 63 22",
+   "placeId": "",
+   "sources": [
+    "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/",
+    "https://www.bien-cuit.be/en/chef-at-home/"
+   ],
+   "image": {
+    "src": "img/chefs/oostende/bien-cuit.webp",
+    "w": 819,
+    "h": 614,
+    "alt": "A plated fish dish with sauce (Bien Cuit)",
+    "credit": "Bien Cuit (bien-cuit.be)",
+    "credit_url": "https://www.bien-cuit.be/"
+   },
+   "checked": "2026-10-31"
+  }
+ ]
+}

@@ -95,23 +95,25 @@
     { label: '100% vegan', img: cardImg('vegan', 'vegan'), f: { vlevel: 'vegan' }, subs: [], noDiet: true },
     { label: 'Events', img: cardImg('events', 'events'), f: { events: true }, subs: [], toEvents: true }
   ];
+  // last card: this city's Private chefs page (privatechef.html; only when the city has a privatechefs file in data/cities.json)
+  if (city.privatechefs) GROUPS.push({ label: 'Private chefs', img: cardImg('privatechef', 'pass'), f: {}, subs: [], toPage: TG.cityUrl('privatechef.html', city.id), sub: 'At your home' });
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
     k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'live' ? !!r.liveMusic : k === 'dist' ? !!r.distinctions.michelin : k === 'cuisine' ? TG.inCuisine(r, v) : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
-  GROUPS.forEach(g => { g.n = g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
+  GROUPS.forEach(g => { g.n = g.toPage ? 0 : g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
   for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].noDiet && GROUPS[i].n < (GROUPS[i].min || 1)) GROUPS.splice(i, 1);   // no empty Veggie / 100% vegan tile
   /* diet row in every place card's menu: 'Veggie' (any veggie level, = the Veggie chip) / 'Vegan' (fully vegan or clear vegan options, = the Vegan chip).
      A toggle narrows 'All' and the sub-categories (live counts; empty ones hide); only shown when the card has matching places */
   const DIET = { veggie: { label: 'Veggie', f: { veggie: true }, title: 'Fully vegan or vegetarian, or clear veggie/vegan options' }, vegan: { label: '100% vegan', f: { vlevel: 'vegan' }, title: 'Fully vegan places only' } };
-  GROUPS.forEach(g => { g.diets = g.toEvents || g.noDiet || !g.subs.length ? [] : Object.keys(DIET).filter(d => (g['n_' + d] = countF({ ...g.f, ...DIET[d].f })) > 0);
+  GROUPS.forEach(g => { g.diets = g.toEvents || g.toPage || g.noDiet || !g.subs.length ? [] : Object.keys(DIET).filter(d => (g['n_' + d] = countF({ ...g.f, ...DIET[d].f })) > 0);
     g.subs.forEach(s => g.diets.forEach(d => { s['n_' + d] = countF({ ...s.f, ...DIET[d].f }); })); });
   // each card is a stadium-shaped tile; its sub-menu lives INSIDE the card (revealed from the bottom, clipped by the card's radius)
   $('#carousel').innerHTML = GROUPS.map((c, i) => `
     <div class="pillcard bw-host grain${c.subs.length ? ' has-menu' : ''}" data-cat="${i}">
       <img class="bw" ${TG.imgAttrs(c.img, '(max-width: 900px) 45vw, 240px')} alt="" loading="lazy">${c.photo ? `<img class="bw pill-photo" src="${esc(c.photo.url)}" referrerpolicy="no-referrer" alt="" loading="lazy" decoding="async" onerror="this.nextElementSibling&&this.nextElementSibling.classList.contains('pill-credit')&&this.nextElementSibling.remove();this.remove()"><a class="pill-credit" href="${esc(c.photo.href)}" target="_blank" rel="noopener">${esc(c.photo.credit)}</a>` : ''}${c.subs.length ? '<i class="pill-shade" aria-hidden="true"></i>' : ''}
-      <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.chooser ? `${CZL.length} cuisines` : `${c.n} ${c.toEvents ? 'upcoming' : 'places'}`}"${c.chooser ? ' aria-haspopup="dialog"' : ''}${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
-        <span class="pill-label">${esc(c.label)}<small>${c.chooser ? `${CZL.length} cuisines` : `${c.n} ${c.toEvents ? 'upcoming' : 'places'}`}</small></span></button>
+      <button class="pill-main" data-cat="${i}" aria-label="${esc(c.label)}, ${c.toPage ? esc(c.sub.toLowerCase()) : c.chooser ? `${CZL.length} cuisines` : `${c.n} ${c.toEvents ? 'upcoming' : 'places'}`}"${c.chooser ? ' aria-haspopup="dialog"' : ''}${c.subs.length ? ` aria-haspopup="menu" aria-expanded="false" aria-controls="pm-${i}"` : ''}>
+        <span class="pill-label">${esc(c.label)}<small>${c.toPage ? esc(c.sub) : c.chooser ? `${CZL.length} cuisines` : `${c.n} ${c.toEvents ? 'upcoming' : 'places'}`}</small></span></button>
       ${c.subs.length ? `<div class="pillmenu${c.subs.length > 7 ? ' many' : ''}${c.diets.length ? ' has-diet' : ''}" id="pm-${i}" role="menu" aria-label="${esc(c.label)}">${c.diets.length ? `<div class="pm-diet" role="group" aria-label="Diet">${c.diets.map(d => `<button role="menuitemcheckbox" aria-checked="false" tabindex="-1" data-d="${d}" title="${esc(DIET[d].title)}">${DIET[d].label}<b>${c['n_' + d]}</b></button>`).join('')}</div>` : ''}
         <button role="menuitem" tabindex="-1" class="pm-all" data-s="-1" aria-label="All ${esc(c.label.toLowerCase())}, ${c.n}">All<b>${c.n}</b></button><i class="pm-br" aria-hidden="true"></i>
         ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}">${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
@@ -160,6 +162,7 @@
     const g = GROUPS[+c.dataset.cat], it = e.target.closest('[data-s]'), dt = e.target.closest('[data-d]');
     if (dt) { if (menuFor !== c) { openMenu(c); return; } choose(g, { ...g.f, ...DIET[dt.dataset.d].f }, c); return; }
     if (it) { if (menuFor !== c) { openMenu(c); return; } const j = +it.dataset.s, d = c.dataset.diet; choose(g, { ...(j < 0 ? g.f : g.subs[j].f), ...(d ? DIET[d].f : {}) }, c); return; }
+    if (g.toPage) { closeMenu(false); location.href = g.toPage; return; }
     if (g.chooser) { closeMenu(false); openCz(g, c); return; }
     // touch / no-hover devices: first tap opens the in-card menu (its first item selects the whole group)
     if (g.subs.length && (lastPtr !== 'mouse' || !hoverable()) && e.detail !== 0) { if (menuFor === c) closeMenu(false); else openMenu(c); return; }

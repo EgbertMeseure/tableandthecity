@@ -412,7 +412,8 @@ const TG = (() => {
     });
     document.addEventListener('click', () => document.querySelectorAll('.citysel.open').forEach(d => { d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded', 'false'); }));
     document.querySelectorAll('[data-home]').forEach(a => a.href = cityUrl('guide.html', city.id) + (a.dataset.home || ''));
-    document.querySelectorAll('[data-city-page]').forEach(a => a.href = cityUrl(a.dataset.cityPage, city.id));   // city-specific page links ([data-city-page]) for this city
+    document.querySelectorAll('[data-city-page]').forEach(a => a.href = cityUrl(a.dataset.cityPage, city.id));
+    if (!city.privatechefs) document.querySelectorAll('[data-city-page="privatechef.html"]').forEach(a => { a.hidden = true; a.style.display = 'none'; });   // Private chefs only for a city with its own list   // city-specific page links ([data-city-page]) for this city
   }
   /* cuisine groups for the quiz's 'What kind of food?' step and the 'By cuisine' card. `t` is tested on each cuisine tag
      (OSM + curated), `x` (optional) on the curated free-text cuisine line (curated tags are coarse, e.g. Thai → 'Asian').

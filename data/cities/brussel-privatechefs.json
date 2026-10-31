@@ -1,0 +1,152 @@
+{
+ "city": "brussel",
+ "updated": "2026-10-31",
+ "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
+ "chefs": [
+  {
+   "id": "chef-and-chief",
+   "name": "Chef & Chief",
+   "chef": "Chloë & Dax",
+   "style": "Travel-inspired, Mediterranean, fire & meat",
+   "description": "Private dining since 2017, inspired by travel and markets: Mediterranean and global flavours, with a soft spot for cooking over fire.",
+   "serves": "Brussels",
+   "base": "Anderlecht",
+   "guests": "From 14 guests",
+   "price": "€80–150 pp, drinks not included",
+   "website": "https://chefandchief.be/en/private-dining",
+   "instagram": "https://www.instagram.com/chefandchiefbe/",
+   "email": "info@chefandchief.be",
+   "phone": "+32476549649",
+   "phoneDisplay": "+32 476 54 96 49",
+   "placeId": "",
+   "sources": [
+    "https://chefandchief.be/en/private-dining"
+   ],
+   "image": {
+    "src": "img/chefs/brussel/chef-and-chief.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "Octopus Sicilian-style (Chef & Chief)",
+    "credit": "Chef & Chief (chefandchief.be)",
+    "credit_url": "https://chefandchief.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "philippe-roth",
+   "name": "Philippe Roth",
+   "chef": "Philippe Roth",
+   "style": "French-Japanese fusion",
+   "description": "A French-Japanese private dinner at your home or in the chef’s flat near the Grand-Place. Book at least four weeks ahead.",
+   "serves": "Brussels",
+   "base": "",
+   "guests": "",
+   "price": "Menus from €85 pp (based on 6 guests or more)",
+   "website": "https://philipperoth.be/en/diner-prive/",
+   "instagram": "",
+   "email": "philippe.roth@yahoo.com",
+   "phone": "+32478033224",
+   "phoneDisplay": "+32 478 033 224",
+   "placeId": "",
+   "sources": [
+    "https://philipperoth.be/en/diner-prive/"
+   ],
+   "image": {
+    "src": "img/chefs/brussel/philippe-roth.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated dish on a decorated plate (Philippe Roth)",
+    "credit": "Philippe Roth (philipperoth.be)",
+    "credit_url": "https://philipperoth.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "da-me-o-da-te",
+   "name": "Da me o da te",
+   "chef": "Raniero",
+   "style": "Italian (Roman)",
+   "description": "Roman chef Raniero cooks Italian at your place, runs pizza parties with a mobile oven, hosts a home restaurant for up to 8 near Parc Josaphat and gives cooking classes.",
+   "serves": "Brussels and around",
+   "base": "Schaerbeek",
+   "guests": "",
+   "price": "",
+   "website": "https://dameodate.be/",
+   "instagram": "",
+   "email": "info@dameodate.be",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://dameodate.be/"
+   ],
+   "image": {
+    "src": "img/chefs/brussel/da-me-o-da-te.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A tray of golden arancini (Da me o da te)",
+    "credit": "Da me o da te (dameodate.be)",
+    "credit_url": "https://dameodate.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "gregory-vaulet",
+   "name": "Grégory Vaulet",
+   "chef": "Grégory Vaulet",
+   "style": "Chef à domicile & traiteur",
+   "description": "Chef à domicile and traiteur: dinners at home, walking dinners and family events.",
+   "serves": "Brussels-Capital Region and Walloon Brabant",
+   "base": "Ixelles",
+   "guests": "",
+   "price": "",
+   "website": "https://www.gregory-vaulet.com/",
+   "instagram": "https://www.instagram.com/traiteurgregoryvaulet/",
+   "email": "",
+   "phone": "+3225801378",
+   "phoneDisplay": "02 580 13 78",
+   "placeId": "",
+   "sources": [
+    "https://www.gregory-vaulet.com/"
+   ],
+   "image": {
+    "src": "img/chefs/brussel/gregory-vaulet.webp",
+    "w": 533,
+    "h": 400,
+    "alt": "A buffet of platters on a white table (Grégory Vaulet)",
+    "credit": "Grégory Vaulet (gregory-vaulet.com)",
+    "credit_url": "https://www.gregory-vaulet.com/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "saveurs-festives",
+   "name": "Saveurs Festives by Matthieu",
+   "chef": "Matthieu",
+   "style": "Chef à domicile & catering",
+   "description": "Chef Matthieu cooks at your home or caters your party, with menus made to measure.",
+   "serves": "Brussels",
+   "base": "Uccle",
+   "guests": "",
+   "price": "",
+   "website": "https://saveursfestives.be/services/",
+   "instagram": "",
+   "email": "matthieu@saveursfestives.be",
+   "phone": "+32473484502",
+   "phoneDisplay": "+32 473 48 45 02",
+   "placeId": "",
+   "sources": [
+    "https://saveursfestives.be/services/"
+   ],
+   "image": {
+    "src": "img/chefs/brussel/saveurs-festives.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "Small bites on a slate board (Saveurs Festives)",
+    "credit": "Saveurs Festives (saveursfestives.be)",
+    "credit_url": "https://saveursfestives.be/"
+   },
+   "checked": "2026-10-31"
+  }
+ ]
+}

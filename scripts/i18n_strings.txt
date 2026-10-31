@@ -736,3 +736,24 @@ MICHELIN Guide, Gault&Millau, the places’ own websites and local press. | MICH
 Base list: | Basislijst: | Basisliste: | Liste de base : | Lista base:
 Veggie levels: our own checks plus HappyCow. | Veggie-niveaus: eigen controles plus HappyCow. | Veggie-Stufen: eigene Prüfungen plus HappyCow. | Niveaux veggie : nos propres vérifications et HappyCow. | Niveles veggie: comprobaciones propias y HappyCow.
 Ratings: Google, shown as a score out of 10. | Beoordelingen: Google, getoond als score op 10. | Bewertungen: Google, als Wert von 10 angezeigt. | Notes : Google, affichées sur 10. | Valoraciones: Google, mostradas como nota sobre 10.
+## private chefs page (privatechef.html, js/privatechef.js) + entry points (nav drawer, last 'Choose your table' card, Suggest type)
+Private chefs | Privéchefs | Private Chefs | Chefs à domicile | Chefs privados
+Private chef | Privéchef | Private Chef | Chef à domicile | Chef privado
+At your home | Bij jou thuis | Bei dir zu Hause | Chez vous | En tu casa
+Private chefs, at your home | Privéchefs, bij jou thuis | Private Chefs, bei dir zu Hause | Chefs à domicile, chez vous | Chefs privados, en tu casa
+Private chefs — Table and the City | Privéchefs — Table and the City | Private Chefs — Table and the City | Chefs à domicile — Table and the City | Chefs privados — Table and the City
+Private chefs · {city} — Table and the City | Privéchefs · {city} — Table and the City | Private Chefs · {city} — Table and the City | Chefs à domicile · {city} — Table and the City | Chefs privados · {city} — Table and the City
+Independent private chefs and chef-at-home services per city: style, area, group size and prices as published on their own websites. | Onafhankelijke privéchefs en koks aan huis per stad: stijl, regio, groepsgrootte en prijzen zoals ze die zelf op hun website publiceren. | Unabhängige Private Chefs und Köche für zu Hause pro Stadt: Stil, Gebiet, Gruppengröße und Preise, wie sie sie auf ihrer eigenen Website veröffentlichen. | Chefs à domicile indépendants, ville par ville : style, zone, taille du groupe et prix tels qu’ils les publient sur leur propre site. | Chefs privados independientes por ciudad: estilo, zona, tamaño del grupo y precios tal como los publican en su propia web.
+Chefs who cook at your home or on location, with what they publish on their own websites. | Chefs die bij jou thuis of op locatie koken, met wat ze zelf op hun website vermelden. | Köche, die bei dir zu Hause oder vor Ort kochen, mit dem, was sie auf ihrer eigenen Website angeben. | Des chefs qui cuisinent chez vous ou sur place, avec ce qu’ils publient sur leur propre site. | Chefs que cocinan en tu casa o en el lugar que elijas, con lo que publican en su propia web.
+{n} private chefs in {city} | {n} privéchefs in {city} | {n} Private Chefs in {city} | {n} chefs à domicile à {city} | {n} chefs privados en {city}
+No private chefs listed for {city} yet. | Nog geen privéchefs voor {city}. | Für {city} sind noch keine Private Chefs eingetragen. | Aucun chef à domicile pour {city} pour l’instant. | Todavía no hay chefs privados en {city}.
+Chef | Chef | Koch | Chef | Chef
+Serves | Werkt in | Gebiet | Se déplace | Zona
+Based in | Gevestigd in | Sitz in | Basé à | Con base en
+Guests | Gasten | Gäste | Convives | Comensales
+Call | Bellen | Anrufen | Appeler | Llamar
+Also in the guide | Ook in de gids | Auch im Guide | Aussi dans le guide | También en la guía
+Website of {raw} | Website van {raw} | Website von {raw} | Site web de {raw} | Web de {raw}
+Prices, group sizes and areas as published by each chef on the date checked; always confirm with the chef. Photos come from the chefs’ own websites; no photo, then a monogram. | Prijzen, groepsgroottes en regio’s zoals elke chef ze publiceerde op de datum van controle; bevestig altijd bij de chef zelf. Foto’s komen van de eigen websites van de chefs; zonder foto tonen we een monogram. | Preise, Gruppengrößen und Gebiete, wie jeder Koch sie am Prüfdatum veröffentlicht hat; bitte immer direkt beim Koch bestätigen. Fotos stammen von den eigenen Websites der Köche; ohne Foto zeigen wir ein Monogramm. | Prix, tailles de groupe et zones tels que publiés par chaque chef à la date de vérification ; confirmez toujours auprès du chef. Les photos viennent des sites des chefs ; sans photo, un monogramme. | Precios, tamaños de grupo y zonas tal como los publicó cada chef en la fecha de comprobación; confírmalo siempre con el chef. Las fotos son de las webs de los propios chefs; sin foto, un monograma.
+Are you a private chef? | Ben je privéchef? | Bist du Private Chef? | Vous êtes chef à domicile ? | ¿Eres chef privado?
+Get listed | Kom erbij | Eintragen lassen | Être référencé | Aparece aquí
