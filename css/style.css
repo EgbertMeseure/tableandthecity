@@ -1011,3 +1011,19 @@ a.card.bw-host{position:relative}
 .pc .pc__ft .ft__ic{flex-basis:14px;width:14px;height:14px;stroke:#2a6474}
 @media (max-width:700px){.pc .pc__ft{grid-template-columns:repeat(2,minmax(0,1fr))}.pc .pc__ft .ft{font-size:12.5px;min-height:38px;padding:7px 10px}}
 .essentials .opens.season{margin:0 0 6px;font-weight:600;color:var(--text-2)}
+/* private chefs: a card with 2+ photos = a swipeable slot (the place-page carousel approach): swipe, chevrons on desktop hover, gold 1/n counter */
+.pc__track{position:absolute;inset:0;z-index:1;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;outline:0}
+.pc__track::-webkit-scrollbar{display:none}
+.pc__track:focus-visible{box-shadow:inset 0 0 0 2px #2a6474}
+.pc__slide{position:relative;flex:0 0 100%;height:100%;scroll-snap-align:start;scroll-snap-stop:always;background:#111}
+.pc__slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.pc__slide img.is-chef{object-position:50% 25%}
+.pc__slide img[data-src]{visibility:hidden}
+.pc__cnt{position:absolute;left:10px;bottom:10px;z-index:3;padding:4px 7px;border-radius:999px;background:rgba(17,17,17,.55);color:#c9a86a;font:600 9px/1 var(--sans);letter-spacing:.12em;pointer-events:none}
+.pc__cnt b{font-weight:600;color:#c9a86a}
+.pc__car .pc__credit{max-width:calc(100% - 76px)}
+.pc__nav{position:absolute;top:50%;z-index:3;width:26px;height:26px;margin-top:-13px;display:none;align-items:center;justify-content:center;padding:0;border:0;border-radius:50%;background:rgba(255,255,255,.88);cursor:pointer;opacity:0;transition:opacity .2s}
+.pc__nav svg{width:12px;height:12px;fill:none;stroke:#2a6474;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.pc__nav--prev{left:8px}.pc__nav--next{right:8px}
+.pc__nav:disabled{visibility:hidden}
+@media (hover:hover) and (pointer:fine){.pc__nav{display:flex}.pc__car:hover .pc__nav,.pc__car:focus-within .pc__nav{opacity:1}}

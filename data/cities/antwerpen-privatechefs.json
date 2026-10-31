@@ -23,13 +23,33 @@
     "https://www.privatediningbykat.be/"
    ],
    "image": {
-    "src": "img/chefs/antwerpen/private-dining-by-kat.webp",
-    "w": 960,
-    "h": 720,
-    "alt": "A table setting with a linen napkin (Private Dining by Kat)",
+    "src": "img/chefs/antwerpen/private-dining-by-kat-2.webp",
+    "w": 481,
+    "h": 361,
+    "alt": "A plated dish (Private Dining by Kat)",
     "credit": "Private Dining by Kat (privatediningbykat.be)",
     "credit_url": "https://www.privatediningbykat.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/antwerpen/private-dining-by-kat.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A table setting with a linen napkin (Private Dining by Kat)",
+     "credit": "Private Dining by Kat (privatediningbykat.be)",
+     "credit_url": "https://www.privatediningbykat.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/private-dining-by-kat-3.webp",
+     "w": 576,
+     "h": 432,
+     "alt": "Chef Kat (Private Dining by Kat)",
+     "credit": "Private Dining by Kat (privatediningbykat.be)",
+     "credit_url": "https://www.privatediningbykat.be/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -104,6 +124,35 @@
     "credit": "Bien Cuit (bien-cuit.be)",
     "credit_url": "https://www.bien-cuit.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/antwerpen/bien-cuit-2.webp",
+     "w": 819,
+     "h": 614,
+     "alt": "A plated meat dish with a yellow sauce (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/bien-cuit-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated starter in a white bowl (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/bien-cuit-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Plated fish starters (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/group-dining-private-restaurant/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -180,6 +229,35 @@
     "credit": "Uitmuntend (uit-munt-end.be)",
     "credit_url": "https://uit-munt-end.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/antwerpen/uitmuntend-2.webp",
+     "w": 889,
+     "h": 667,
+     "alt": "A plated dish (Uitmuntend)",
+     "credit": "Uitmuntend (uit-munt-end.be)",
+     "credit_url": "https://uit-munt-end.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/uitmuntend-3.webp",
+     "w": 889,
+     "h": 667,
+     "alt": "A plated dish (Uitmuntend)",
+     "credit": "Uitmuntend (uit-munt-end.be)",
+     "credit_url": "https://uit-munt-end.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/uitmuntend-4.webp",
+     "w": 889,
+     "h": 667,
+     "alt": "A plated dish (Uitmuntend)",
+     "credit": "Uitmuntend (uit-munt-end.be)",
+     "credit_url": "https://uit-munt-end.be/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -219,7 +297,52 @@
    "sources": [
     "https://www.gianluca-vetrugno.com/"
    ],
-   "image": null,
+   "image": {
+    "src": "img/chefs/antwerpen/gianluca-vetrugno.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A green-sauced dish with a crisp tuile (Gianluca Vetrugno)",
+    "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+    "credit_url": "https://www.gianluca-vetrugno.com/"
+   },
+   "photos": [
+    {
+     "src": "img/chefs/antwerpen/gianluca-vetrugno-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A small course in a wide white plate (Gianluca Vetrugno)",
+     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+     "credit_url": "https://www.gianluca-vetrugno.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/gianluca-vetrugno-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated starter in a white bowl (Gianluca Vetrugno)",
+     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+     "credit_url": "https://www.gianluca-vetrugno.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/gianluca-vetrugno-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Spaghetti with seafood (Gianluca Vetrugno)",
+     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+     "credit_url": "https://www.gianluca-vetrugno.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/gianluca-vetrugno-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Gianluca Vetrugno (Gianluca Vetrugno)",
+     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+     "credit_url": "https://www.gianluca-vetrugno.com/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {

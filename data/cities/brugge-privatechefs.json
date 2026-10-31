@@ -30,6 +30,35 @@
     "credit": "Laissez-Faire (laissezfaire.be)",
     "credit_url": "https://laissezfaire.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brugge/laissez-faire-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated dish in a dark bowl (Laissez-Faire)",
+     "credit": "Laissez-Faire (laissezfaire.be)",
+     "credit_url": "https://laissezfaire.be/avond-menu/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/laissez-faire-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A white fish course (Laissez-Faire)",
+     "credit": "Laissez-Faire (laissezfaire.be)",
+     "credit_url": "https://laissezfaire.be/avond-menu/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/laissez-faire-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Beef with green asparagus (Laissez-Faire)",
+     "credit": "Laissez-Faire (laissezfaire.be)",
+     "credit_url": "https://laissezfaire.be/avond-menu/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -82,6 +111,44 @@
     "credit": "Chef Dufait (chef-dufait.be)",
     "credit_url": "https://chef-dufait.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brugge/chef-dufait-2.webp",
+     "w": 584,
+     "h": 438,
+     "alt": "Small plated components on a dark plate (Chef Dufait)",
+     "credit": "Chef Dufait (chef-dufait.be)",
+     "credit_url": "https://chef-dufait.be/home",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/chef-dufait-3.webp",
+     "w": 936,
+     "h": 702,
+     "alt": "Sliced beef with vegetables (Chef Dufait)",
+     "credit": "Chef Dufait (chef-dufait.be)",
+     "credit_url": "https://chef-dufait.be/home",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/chef-dufait-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Tomato salad with flowers (Chef Dufait)",
+     "credit": "Chef Dufait (chef-dufait.be)",
+     "credit_url": "https://chef-dufait.be/home",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/chef-dufait-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Thomas Dufait (Chef Dufait)",
+     "credit": "Chef Dufait (chef-dufait.be)",
+     "credit_url": "https://chef-dufait.be/home",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -137,6 +204,44 @@
     "credit": "Ben's Kitchen (benskitchen.be)",
     "credit_url": "https://benskitchen.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brugge/bens-kitchen-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Rows of bite-sized appetisers (Ben's Kitchen)",
+     "credit": "Ben's Kitchen (benskitchen.be)",
+     "credit_url": "https://benskitchen.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/bens-kitchen-3.webp",
+     "w": 768,
+     "h": 576,
+     "alt": "Starters served in scallop shells (Ben's Kitchen)",
+     "credit": "Ben's Kitchen (benskitchen.be)",
+     "credit_url": "https://benskitchen.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/bens-kitchen-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated salmon starter (Ben's Kitchen)",
+     "credit": "Ben's Kitchen (benskitchen.be)",
+     "credit_url": "https://benskitchen.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/bens-kitchen-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Benjamin Michiels (Ben's Kitchen)",
+     "credit": "Ben's Kitchen (benskitchen.be)",
+     "credit_url": "https://benskitchen.be/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -176,6 +281,35 @@
     "credit": "Patrick De Groote (patrickdegroote.be)",
     "credit_url": "https://www.patrickdegroote.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brugge/patrick-de-groote-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Langoustine on a white plate (Patrick De Groote)",
+     "credit": "Patrick De Groote (patrickdegroote.be)",
+     "credit_url": "https://www.patrickdegroote.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/patrick-de-groote-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Oysters on a wooden board (Patrick De Groote)",
+     "credit": "Patrick De Groote (patrickdegroote.be)",
+     "credit_url": "https://www.patrickdegroote.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brugge/patrick-de-groote-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Salmon in a deep bowl (Patrick De Groote)",
+     "credit": "Patrick De Groote (patrickdegroote.be)",
+     "credit_url": "https://www.patrickdegroote.be/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {

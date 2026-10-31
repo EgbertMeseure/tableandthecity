@@ -32,6 +32,35 @@
     "credit": "Nalou Dining (naloudining.com)",
     "credit_url": "https://www.naloudining.com/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/gent/nalou-dining-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Lamb with spring vegetables (Nalou Dining)",
+     "credit": "Nalou Dining (naloudining.com)",
+     "credit_url": "https://www.naloudining.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/nalou-dining-3.webp",
+     "w": 720,
+     "h": 540,
+     "alt": "Asparagus with peas (Nalou Dining)",
+     "credit": "Nalou Dining (naloudining.com)",
+     "credit_url": "https://www.naloudining.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/nalou-dining-4.webp",
+     "w": 768,
+     "h": 576,
+     "alt": "A plated meat course with green beans (Nalou Dining)",
+     "credit": "Nalou Dining (naloudining.com)",
+     "credit_url": "https://www.naloudining.com/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -91,6 +120,44 @@
     "credit": "50 Fifty (50fiftygent.be)",
     "credit_url": "https://50fiftygent.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/gent/50-fifty-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Octopus with leek, chorizo and potato (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/50-fifty-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated salmon starter (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/50-fifty-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Semi-dried tomato, bread, basil and red onion (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/50-fifty-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Wim Van Daele at the stove (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -199,6 +266,35 @@
     "credit": "What The Food (whatthefood.gent)",
     "credit_url": "https://whatthefood.gent/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/gent/what-the-food-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A sesame-topped stir-fry (What The Food)",
+     "credit": "What The Food (whatthefood.gent)",
+     "credit_url": "https://whatthefood.gent/private-catering/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/what-the-food-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Seared scallops with asparagus (What The Food)",
+     "credit": "What The Food (whatthefood.gent)",
+     "credit_url": "https://whatthefood.gent/private-catering/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/what-the-food-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Roasted fennel with a dark glaze (What The Food)",
+     "credit": "What The Food (whatthefood.gent)",
+     "credit_url": "https://whatthefood.gent/private-catering-3-2-2/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -242,6 +338,35 @@
     "credit": "Bien Cuit (bien-cuit.be)",
     "credit_url": "https://www.bien-cuit.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/gent/bien-cuit-2.webp",
+     "w": 819,
+     "h": 614,
+     "alt": "A plated meat dish with a yellow sauce (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/bien-cuit-3.webp",
+     "w": 819,
+     "h": 614,
+     "alt": "Langoustine starters being plated (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/bien-cuit-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Ham-wrapped dish with risotto (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/group-dining-private-restaurant/",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {

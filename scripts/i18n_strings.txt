@@ -786,3 +786,6 @@ Buffet | Buffet | Buffet | Buffet | Bufé
 Barbecue | Barbecue | Grillen | Barbecue | Barbacoa
 Business dinners | Zakendiners | Geschäftsessen | Dîners d’affaires | Cenas de empresa
 Dinner at the chef’s place | Diner bij de chef | Essen beim Koch | Dîner chez le chef | Cena en casa del chef
+
+## private chefs: photo slot (2+ photos per chef)
+{n} photos, swipe for more | {n} foto’s, swipe voor meer | {n} Fotos, wischen für mehr | {n} photos, faites glisser pour en voir plus | {n} fotos, desliza para ver más

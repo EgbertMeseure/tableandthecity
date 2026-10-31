@@ -48,6 +48,7 @@
     [/^([\d,.]+) private chefs? in (.+)$/, '{n} private chefs in {city}', ['n', 'city']],
     [/^No private chefs listed for (.+) yet\.$/, 'No private chefs listed for {city} yet.', ['city']],
     [/^Website of (.+)$/, 'Website of {raw}', ['raw']],
+    [/^([\d,.]+) photos, swipe for more$/, '{n} photos, swipe for more', ['n']],
     [/^(.+) restaurants in (.+)$/, '{x} restaurants in {city}', ['x', 'city']],
     [/^All (.+), ([\d,.]+)$/, 'All {x}, {n}', ['x', 'n']],
     [/^([\d,.]+) photos$/, '{n} photos', ['n']],

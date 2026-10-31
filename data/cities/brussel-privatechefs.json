@@ -30,6 +30,35 @@
     "credit": "Chef & Chief (chefandchief.be)",
     "credit_url": "https://chefandchief.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brussel/chef-and-chief-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Lime and mascarpone dessert (Chef & Chief)",
+     "credit": "Chef & Chief (chefandchief.be)",
+     "credit_url": "https://chefandchief.be/en/menus",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/chef-and-chief-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Marinated apricots with ricotta and cardamom ice cream (Chef & Chief)",
+     "credit": "Chef & Chief (chefandchief.be)",
+     "credit_url": "https://chefandchief.be/en/gallery",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/chef-and-chief-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A pan of seafood stew (Chef & Chief)",
+     "credit": "Chef & Chief (chefandchief.be)",
+     "credit_url": "https://chefandchief.be/en/gallery",
+     "kind": "food"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -85,6 +114,35 @@
     "credit": "Philippe Roth (philipperoth.be)",
     "credit_url": "https://philipperoth.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brussel/philippe-roth-2.webp",
+     "w": 768,
+     "h": 576,
+     "alt": "A plated green vegetable dish (Philippe Roth)",
+     "credit": "Philippe Roth (philipperoth.be)",
+     "credit_url": "https://philipperoth.be/en/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/philippe-roth-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A seafood course being finished (Philippe Roth)",
+     "credit": "Philippe Roth (philipperoth.be)",
+     "credit_url": "https://philipperoth.be/en/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/philippe-roth-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Philippe Roth (Philippe Roth)",
+     "credit": "Philippe Roth (philipperoth.be)",
+     "credit_url": "https://philipperoth.be/en/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -144,6 +202,44 @@
     "credit": "Da me o da te (dameodate.be)",
     "credit_url": "https://dameodate.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brussel/da-me-o-da-te-2.webp",
+     "w": 960,
+     "h": 719,
+     "alt": "Orecchiette (Da me o da te)",
+     "credit": "Da me o da te (dameodate.be)",
+     "credit_url": "https://dameodate.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/da-me-o-da-te-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A pizza from the wood oven (Da me o da te)",
+     "credit": "Da me o da te (dameodate.be)",
+     "credit_url": "https://dameodate.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/da-me-o-da-te-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Mille-feuille of cannolo (Da me o da te)",
+     "credit": "Da me o da te (dameodate.be)",
+     "credit_url": "https://dameodate.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/da-me-o-da-te-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Raniero (Da me o da te)",
+     "credit": "Da me o da te (dameodate.be)",
+     "credit_url": "https://dameodate.be/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -199,6 +295,44 @@
     "credit": "Grégory Vaulet (gregory-vaulet.com)",
     "credit_url": "https://www.gregory-vaulet.com/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brussel/gregory-vaulet-2.webp",
+     "w": 474,
+     "h": 356,
+     "alt": "A family-style salad platter (Grégory Vaulet)",
+     "credit": "Grégory Vaulet (gregory-vaulet.com)",
+     "credit_url": "https://www.gregory-vaulet.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/gregory-vaulet-3.webp",
+     "w": 568,
+     "h": 426,
+     "alt": "Walking dinner sandwiches (Grégory Vaulet)",
+     "credit": "Grégory Vaulet (gregory-vaulet.com)",
+     "credit_url": "https://www.gregory-vaulet.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/gregory-vaulet-4.webp",
+     "w": 640,
+     "h": 480,
+     "alt": "A tray of bite-sized appetisers (Grégory Vaulet)",
+     "credit": "Grégory Vaulet (gregory-vaulet.com)",
+     "credit_url": "https://www.gregory-vaulet.com/bienvenue-sur-le-site-de-votre-chef-traiteur-a-domicile-a-bruxelles_ad7.html",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/gregory-vaulet-5.webp",
+     "w": 600,
+     "h": 450,
+     "alt": "Chef Grégory Vaulet plating desserts (Grégory Vaulet)",
+     "credit": "Grégory Vaulet (gregory-vaulet.com)",
+     "credit_url": "https://www.gregory-vaulet.com/chef-traiteur-domicile.php",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
@@ -246,6 +380,44 @@
     "credit": "Saveurs Festives (saveursfestives.be)",
     "credit_url": "https://saveursfestives.be/"
    },
+   "photos": [
+    {
+     "src": "img/chefs/brussel/saveurs-festives-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A vegetable soup with flowers (Saveurs Festives by Matthieu)",
+     "credit": "Saveurs Festives by Matthieu (saveursfestives.be)",
+     "credit_url": "https://saveursfestives.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/saveurs-festives-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Pasta with shrimp and edible flowers (Saveurs Festives by Matthieu)",
+     "credit": "Saveurs Festives by Matthieu (saveursfestives.be)",
+     "credit_url": "https://saveursfestives.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/saveurs-festives-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A pumpkin soup with croutons (Saveurs Festives by Matthieu)",
+     "credit": "Saveurs Festives by Matthieu (saveursfestives.be)",
+     "credit_url": "https://saveursfestives.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/brussel/saveurs-festives-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Matthieu (Saveurs Festives by Matthieu)",
+     "credit": "Saveurs Festives by Matthieu (saveursfestives.be)",
+     "credit_url": "https://saveursfestives.be/",
+     "kind": "chef"
+    }
+   ],
    "checked": "2026-10-31",
    "does": [
     {
