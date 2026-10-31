@@ -8801,6 +8801,528 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "mas": {
+   "photos": [
+    {
+     "src": "img/places/brugge/mas/p1-1400.webp",
+     "thumb": "img/places/brugge/mas/p1-700.webp",
+     "srcset": "img/places/brugge/mas/p1-700.webp 700w, img/places/brugge/mas/p1-1400.webp 1400w",
+     "w": 1365,
+     "h": 2048,
+     "category": "food",
+     "alt": "Más: food",
+     "credit": "masbrugge.com",
+     "credit_url": "https://www.masbrugge.com/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/mas/p2-800.webp",
+     "thumb": "img/places/brugge/mas/p2-400.webp",
+     "srcset": "img/places/brugge/mas/p2-400.webp 400w, img/places/brugge/mas/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "drink",
+     "alt": "Más: drinks",
+     "credit": "masbrugge.com",
+     "credit_url": "https://www.masbrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/mas/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "bij-koen-en-marijke": {
+   "photos": [
+    {
+     "src": "img/places/brugge/bij-koen-en-marijke/p1-1400.webp",
+     "thumb": "img/places/brugge/bij-koen-en-marijke/p1-700.webp",
+     "srcset": "img/places/brugge/bij-koen-en-marijke/p1-700.webp 700w, img/places/brugge/bij-koen-en-marijke/p1-1400.webp 1400w",
+     "w": 1213,
+     "h": 1824,
+     "category": "interior",
+     "alt": "Bij Koen & Marijke: the interior",
+     "credit": "koen-marijke.be",
+     "credit_url": "https://koen-marijke.be/drinks",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/bij-koen-en-marijke/p2-800.webp",
+     "thumb": "img/places/brugge/bij-koen-en-marijke/p2-400.webp",
+     "srcset": "img/places/brugge/bij-koen-en-marijke/p2-400.webp 400w, img/places/brugge/bij-koen-en-marijke/p2-800.webp 800w",
+     "w": 800,
+     "h": 1203,
+     "category": "food",
+     "alt": "Bij Koen & Marijke: food",
+     "credit": "koen-marijke.be",
+     "credit_url": "https://koen-marijke.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/bij-koen-en-marijke/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "t-brugs-beertje": {
+   "photos": [
+    {
+     "src": "img/places/brugge/t-brugs-beertje/p1-1400.webp",
+     "thumb": "img/places/brugge/t-brugs-beertje/p1-700.webp",
+     "srcset": "img/places/brugge/t-brugs-beertje/p1-700.webp 700w, img/places/brugge/t-brugs-beertje/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 438,
+     "category": "interior",
+     "alt": "'t Brugs Beertje: the interior",
+     "credit": "brugsbeertje.be",
+     "credit_url": "https://brugsbeertje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/t-brugs-beertje/p2-800.webp",
+     "thumb": "img/places/brugge/t-brugs-beertje/p2-400.webp",
+     "srcset": "img/places/brugge/t-brugs-beertje/p2-400.webp 400w, img/places/brugge/t-brugs-beertje/p2-800.webp 800w",
+     "w": 800,
+     "h": 250,
+     "category": "interior",
+     "alt": "'t Brugs Beertje: the interior",
+     "credit": "brugsbeertje.be",
+     "credit_url": "https://brugsbeertje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/t-brugs-beertje/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "kosmopoliet": {
+   "photos": [
+    {
+     "src": "img/places/brugge/kosmopoliet/p1-1400.webp",
+     "thumb": "img/places/brugge/kosmopoliet/p1-700.webp",
+     "srcset": "img/places/brugge/kosmopoliet/p1-700.webp 700w, img/places/brugge/kosmopoliet/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 900,
+     "category": "interior",
+     "alt": "Kosmopoliet: the interior",
+     "credit": "kosmopoliet.com",
+     "credit_url": "https://www.kosmopoliet.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/kosmopoliet/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-au-gusto-wine-dine-n10961365425": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-au-gusto-wine-dine-n10961365425/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-au-gusto-wine-dine-n10961365425/p1-700.webp",
+     "srcset": "img/places/brugge/osm-au-gusto-wine-dine-n10961365425/p1-700.webp 700w, img/places/brugge/osm-au-gusto-wine-dine-n10961365425/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Au Gusto Wine & Dine: food",
+     "credit": "augustowinedine.com",
+     "credit_url": "https://augustowinedine.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-au-gusto-wine-dine-n10961365425/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-peerdeblomme-w240522361": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-peerdeblomme-w240522361/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-peerdeblomme-w240522361/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-peerdeblomme-w240522361/p1-700.webp 700w, img/places/brugge/osm-de-peerdeblomme-w240522361/p1-1400.webp 1400w",
+     "w": 700,
+     "h": 525,
+     "category": "interior",
+     "alt": "De Peerdeblomme: the interior",
+     "credit": "depeerdeblomme.be",
+     "credit_url": "https://www.depeerdeblomme.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-peerdeblomme-w240522361/p2-800.webp",
+     "thumb": "img/places/brugge/osm-de-peerdeblomme-w240522361/p2-400.webp",
+     "srcset": "img/places/brugge/osm-de-peerdeblomme-w240522361/p2-400.webp 400w, img/places/brugge/osm-de-peerdeblomme-w240522361/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "De Peerdeblomme: the interior",
+     "credit": "depeerdeblomme.be",
+     "credit_url": "https://www.depeerdeblomme.be/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-peerdeblomme-w240522361/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-dees-specialty-bar-roastery-n5306945221": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-dees-specialty-bar-roastery-n5306945221/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-dees-specialty-bar-roastery-n5306945221/p1-700.webp",
+     "srcset": "img/places/brugge/osm-dees-specialty-bar-roastery-n5306945221/p1-700.webp 700w, img/places/brugge/osm-dees-specialty-bar-roastery-n5306945221/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "DEES specialty bar & roastery: the interior",
+     "credit": "deeskoffie.be",
+     "credit_url": "https://deeskoffie.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-dees-specialty-bar-roastery-n5306945221/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-el-churrasco-argentino-n6572705592": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-el-churrasco-argentino-n6572705592/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-el-churrasco-argentino-n6572705592/p1-700.webp",
+     "srcset": "img/places/brugge/osm-el-churrasco-argentino-n6572705592/p1-700.webp 700w, img/places/brugge/osm-el-churrasco-argentino-n6572705592/p1-1400.webp 1400w",
+     "w": 817,
+     "h": 601,
+     "category": "interior",
+     "alt": "El Churrasco Argentino: the interior",
+     "credit": "elchurrascoargentinobrugge.com",
+     "credit_url": "https://www.elchurrascoargentinobrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-el-churrasco-argentino-n6572705592/p2-800.webp",
+     "thumb": "img/places/brugge/osm-el-churrasco-argentino-n6572705592/p2-400.webp",
+     "srcset": "img/places/brugge/osm-el-churrasco-argentino-n6572705592/p2-400.webp 400w, img/places/brugge/osm-el-churrasco-argentino-n6572705592/p2-800.webp 800w",
+     "w": 800,
+     "h": 591,
+     "category": "interior",
+     "alt": "El Churrasco Argentino: the interior",
+     "credit": "elchurrascoargentinobrugge.com",
+     "credit_url": "https://www.elchurrascoargentinobrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-el-churrasco-argentino-n6572705592/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-hoeve-cortvriendt-n11163590399": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p1-700.webp",
+     "srcset": "img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p1-700.webp 700w, img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "exterior",
+     "alt": "Hoeve Cortvriendt: the outside",
+     "credit": "Zeisterre",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brugge_Hoeve_Cortvriendt.jpeg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_Hoeve_Cortvriendt.jpeg",
+     "source": "commons",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p2-800.webp",
+     "thumb": "img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p2-400.webp",
+     "srcset": "img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p2-400.webp 400w, img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "drink",
+     "alt": "Hoeve Cortvriendt: drinks",
+     "credit": "spermalie.be",
+     "credit_url": "https://spermalie.be/spermalie/algemene-informatie/reservaties-hoeve-cortvriendt/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-hoeve-cortvriendt-n11163590399/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-poul-poulette-brugge-n469983038": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-poul-poulette-brugge-n469983038/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-poul-poulette-brugge-n469983038/p1-700.webp",
+     "srcset": "img/places/brugge/osm-poul-poulette-brugge-n469983038/p1-700.webp 700w, img/places/brugge/osm-poul-poulette-brugge-n469983038/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1399,
+     "category": "interior",
+     "alt": "Poul & Poulette Brugge: the interior",
+     "credit": "poulepoulette.com",
+     "credit_url": "https://poulepoulette.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-poul-poulette-brugge-n469983038/p2-800.webp",
+     "thumb": "img/places/brugge/osm-poul-poulette-brugge-n469983038/p2-400.webp",
+     "srcset": "img/places/brugge/osm-poul-poulette-brugge-n469983038/p2-400.webp 400w, img/places/brugge/osm-poul-poulette-brugge-n469983038/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Poul & Poulette Brugge: food",
+     "credit": "poulepoulette.com",
+     "credit_url": "https://poulepoulette.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-poul-poulette-brugge-n469983038/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-sunkook-n11755637283": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-sunkook-n11755637283/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-sunkook-n11755637283/p1-700.webp",
+     "srcset": "img/places/brugge/osm-sunkook-n11755637283/p1-700.webp 700w, img/places/brugge/osm-sunkook-n11755637283/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 288,
+     "category": "food",
+     "alt": "Sunkook: food",
+     "credit": "sunkook.be",
+     "credit_url": "https://sunkook.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-sunkook-n11755637283/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-vlissinghe": {
+   "photos": [
+    {
+     "src": "img/places/brugge/cafe-vlissinghe/p1-1400.webp",
+     "thumb": "img/places/brugge/cafe-vlissinghe/p1-700.webp",
+     "srcset": "img/places/brugge/cafe-vlissinghe/p1-700.webp 700w, img/places/brugge/cafe-vlissinghe/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1010,
+     "category": "interior",
+     "alt": "Café Vlissinghe: the interior",
+     "credit": "Marc Ryckaert",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R07.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R07.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cafe-vlissinghe/p2-800.webp",
+     "thumb": "img/places/brugge/cafe-vlissinghe/p2-400.webp",
+     "srcset": "img/places/brugge/cafe-vlissinghe/p2-400.webp 400w, img/places/brugge/cafe-vlissinghe/p2-800.webp 800w",
+     "w": 800,
+     "h": 1195,
+     "category": "exterior",
+     "alt": "Café Vlissinghe: the outside",
+     "credit": "Marc Ryckaert",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R01.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R01.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cafe-vlissinghe/p3-800.webp",
+     "thumb": "img/places/brugge/cafe-vlissinghe/p3-400.webp",
+     "srcset": "img/places/brugge/cafe-vlissinghe/p3-400.webp 400w, img/places/brugge/cafe-vlissinghe/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Café Vlissinghe: the interior",
+     "credit": "Donarreiskoffer",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Leuvense_stoof,_Caf%C3%A9_Vlissinghe_(Brugge).jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Leuvense_stoof,_Caf%C3%A9_Vlissinghe_(Brugge).jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cafe-vlissinghe/p4-800.webp",
+     "thumb": "img/places/brugge/cafe-vlissinghe/p4-400.webp",
+     "srcset": "img/places/brugge/cafe-vlissinghe/p4-400.webp 400w, img/places/brugge/cafe-vlissinghe/p4-800.webp 800w",
+     "w": 800,
+     "h": 1234,
+     "category": "exterior",
+     "alt": "Café Vlissinghe: the outside",
+     "credit": "Marc Ryckaert",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R06.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R06.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/cafe-vlissinghe/p5-800.webp",
+     "thumb": "img/places/brugge/cafe-vlissinghe/p5-400.webp",
+     "srcset": "img/places/brugge/cafe-vlissinghe/p5-400.webp 400w, img/places/brugge/cafe-vlissinghe/p5-800.webp 800w",
+     "w": 800,
+     "h": 539,
+     "category": "exterior",
+     "alt": "Café Vlissinghe: the outside",
+     "credit": "Marc Ryckaert",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R02.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_Vlissinghe_R02.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/cafe-vlissinghe/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-kroon-n3736637343": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-kroon-n3736637343/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-kroon-n3736637343/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-kroon-n3736637343/p1-700.webp 700w, img/places/brugge/osm-de-kroon-n3736637343/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 757,
+     "category": "exterior",
+     "alt": "De Kroon: the outside",
+     "credit": "Marc Ryckaert",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brugge_De_Kroon_R01.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_De_Kroon_R01.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-kroon-n3736637343/p2-800.webp",
+     "thumb": "img/places/brugge/osm-de-kroon-n3736637343/p2-400.webp",
+     "srcset": "img/places/brugge/osm-de-kroon-n3736637343/p2-400.webp 400w, img/places/brugge/osm-de-kroon-n3736637343/p2-800.webp 800w",
+     "w": 800,
+     "h": 529,
+     "category": "exterior",
+     "alt": "De Kroon: the outside",
+     "credit": "Marc Ryckaert",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brugge_De_Kroon_R03.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brugge_De_Kroon_R03.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-kroon-n3736637343/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-gruuthuse-hof-n2508215238": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-gruuthuse-hof-n2508215238/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-gruuthuse-hof-n2508215238/p1-700.webp",
+     "srcset": "img/places/brugge/osm-gruuthuse-hof-n2508215238/p1-700.webp 700w, img/places/brugge/osm-gruuthuse-hof-n2508215238/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1960,
+     "category": "exterior",
+     "alt": "Gruuthuse Hof: the outside",
+     "credit": "CEphoto, Uwe Aranas",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Bruges_Belgium_Gruuthuse-Hof-01.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Bruges_Belgium_Gruuthuse-Hof-01.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-gruuthuse-hof-n2508215238/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
