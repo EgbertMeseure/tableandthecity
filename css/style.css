@@ -1002,3 +1002,11 @@ a.card.bw-host{position:relative}
   .pc__facts>div{grid-template-columns:78px 1fr}
   .pc-btn{height:36px;padding:0 14px}
 }
+/* private chefs: 'What they do' = the restaurant feature tiles, only the confirmed ones, petrol for the on state */
+.pc__does{margin-top:14px}
+.info .ipage p.pc__does-h{margin:0 0 8px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-3)}
+.pc .pc__ft{grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:6px;margin:0}
+.pc .pc__ft .ft{min-height:38px;padding:7px 10px;font-size:12.5px;border-radius:10px;gap:7px}
+.pc .pc__ft .ft.on{background:#eaf1f3;border-color:#2a6474;color:#1f4c58}
+.pc .pc__ft .ft__ic{flex-basis:14px;width:14px;height:14px;stroke:#2a6474}
+@media (max-width:700px){.pc .pc__ft{grid-template-columns:repeat(2,minmax(0,1fr))}.pc .pc__ft .ft{font-size:12.5px;min-height:38px;padding:7px 10px}}
