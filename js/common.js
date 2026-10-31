@@ -480,7 +480,7 @@ const TG = (() => {
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
       <a class="logo logo--foot" href="${cityUrl('guide.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
       <div class="family">Part of the <i>… and the City</i> family</div>
-      <nav class="foot-links" aria-label="Footer"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><span aria-hidden="true">·</span><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data</a><span aria-hidden="true">·</span><a href="privacy.html" class="foot-privacy">Privacy</a></nav>
+      <nav class="foot-links" aria-label="Footer"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><span aria-hidden="true">·</span><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data</a><span aria-hidden="true">·</span><a href="privacy.html" class="foot-privacy">Privacy</a><span aria-hidden="true">·</span><a href="${cityUrl('promote.html', city.id)}" class="foot-promote">Promote your place</a></nav>
       <div class="meta"><span>© Table and the City</span><span aria-hidden="true">·</span><span><span>Data:</span> <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors</a></span></div>`);
   }
 

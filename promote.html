@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="build" content="948e1a63f5">
+<script src="js/i18n.js?v=948e1a63f5"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Promote your place — Table and the City</title>
+<meta name="description" content="Sponsored spots on Table and the City for restaurants, cafés, bars and bakeries that fit the guide: a Featured card, a sponsored tile or a sponsored event. Contact us for rates.">
+<link rel="canonical" href="https://www.tableandthecity.com/promote.html">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="img/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/brand/apple-touch-icon-180.png" sizes="180x180">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/brand.css?v=948e1a63f5">
+<style>
+  body{margin:0;background:#0b0b0b;color:#e8e8e8;font-family:'Montserrat','Helvetica Neue',Arial,sans-serif}
+  .pv__top{padding:22px 24px;border-bottom:1px solid rgba(255,255,255,.12)}
+  .pv__top .backbtn{color:#fff}
+  .pv{max-width:720px;margin:0 auto;padding:40px 24px 72px;font-size:15px;line-height:1.7}
+  .pv h1{font-family:'Bodoni Moda','Playfair Display',Didot,serif;font-weight:600;font-size:clamp(30px,6vw,42px);letter-spacing:.02em;margin:0 0 10px;color:#fff}
+  .pv h2{font-family:'Playfair Display',Georgia,serif;font-weight:500;font-size:21px;margin:34px 0 8px;color:#c8a96a}
+  .pv p{margin:0 0 12px;color:#d6d6d6}
+  .pv a{color:#c8a96a}
+  .pr-opts{list-style:none;margin:18px 0 14px;padding:0;display:grid;gap:10px}
+  .pr-opts li{border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:14px 20px;color:#d6d6d6}
+  .pr-opts b{display:block;font:600 19px/1.3 'Playfair Display',Georgia,serif;color:#fff;margin-bottom:2px}
+  .pr-sp{display:inline-block;border:1px solid #faf8f4;border-radius:999px;padding:1px 8px;font:600 10px/1.5 'Montserrat',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#0b0b0b;background:#faf8f4;vertical-align:.15em}
+  .pr-form{display:grid;gap:14px;margin-top:8px}
+  .pr-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .pr-f{display:grid;gap:6px}
+  .pr-f>span,.pr-spots legend{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#cfcfcf}
+  .pr-f i{font-style:normal;font-weight:500;letter-spacing:.06em;text-transform:none;color:#9a9a9a}
+  .pr-f input,.pr-f textarea{width:100%;box-sizing:border-box;border:1px solid rgba(255,255,255,.35);background:#141414;color:#fff;font:400 16px/1.35 'Montserrat',sans-serif;border-radius:999px;height:50px;padding:0 20px;outline:0;-webkit-appearance:none;appearance:none}
+  .pr-f textarea{height:auto;min-height:110px;padding:14px 20px;border-radius:24px;resize:vertical}
+  .pr-f input:focus-visible,.pr-f textarea:focus-visible{border-color:#faf8f4;box-shadow:0 0 0 2px #2a6474}
+  .pr-f [aria-invalid="true"]{border-color:#e08a80}
+  .pr-spots{border:0;margin:0;padding:0;display:grid;gap:8px}
+  .pr-spots legend{padding:0;margin-bottom:6px}
+  .pr-chk{display:flex;align-items:center;gap:12px;border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:11px 18px;cursor:pointer;font-size:14px;color:#e8e8e8;transition:background .2s,border-color .2s}
+  .pr-chk input{width:18px;height:18px;margin:0;accent-color:#2a6474;flex:none}
+  .pr-chk:has(input:checked){background:#2a6474;border-color:#2a6474;color:#fff}
+  .pr-chk:has(input:focus-visible){outline:2px solid #faf8f4;outline-offset:2px}
+  .pr-hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+  .pr-err{margin:0!important;color:#f0a49b!important;font-size:14px}
+  .pr-send{justify-self:start;height:50px;padding:0 34px;border-radius:999px;border:1px solid #faf8f4;background:#faf8f4;color:#0b0b0b;font:600 12px 'Montserrat',sans-serif;letter-spacing:.18em;text-transform:uppercase;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+  .pr-send:hover,.pr-send:focus-visible{background:#2a6474;border-color:#2a6474;color:#fff;outline:none}
+  .pr-send[disabled]{opacity:.7;cursor:progress}
+  .pr-note{font-size:12px;color:#9a9a9a!important;margin:0!important}
+  .pr-done{border:1px solid rgba(255,255,255,.25);border-radius:24px;padding:22px 24px}
+  .pr-done p{margin:0;color:#fff}
+  .pv__back{margin-top:40px!important}
+  @media (max-width:560px){.pr-row{grid-template-columns:1fr}.pr-send{justify-self:stretch}}
+</style>
+</head>
+<body>
+<header class="pv__top"><a class="pill-btn sm backbtn" href="./" data-back>Back</a></header>
+<main class="pv">
+  <h1>Promote your place</h1>
+  <p>Run a restaurant, café, bar or bakery that fits the guide? You can be shown in a few clearly marked spots. Every paid spot carries a visible <span class="pr-sp">Sponsored</span> label, and it never changes our own picks or their order.</p>
+  <ul class="pr-opts">
+    <li><b>Featured card</b><span>One card at the top of a city’s list of places.</span></li>
+    <li><b>Sponsored tile</b><span>One card among the places, after the sixth.</span></li>
+    <li><b>Sponsored event</b><span>Your event shown first in Events &amp; collaborations.</span></li>
+  </ul>
+  <p>We only accept places that meet the guide’s rules: no chains, fast food, pizza, kebab or burgers. Contact us for rates.</p>
+  <h2>Get in touch</h2>
+  <form class="pr-form" id="pr-form" novalidate hidden>
+    <div class="pr-row">
+      <label class="pr-f"><span>Business name</span><input name="business" type="text" required maxlength="100" autocomplete="organization"></label>
+      <label class="pr-f"><span>City</span><input name="city" type="text" required maxlength="60" autocomplete="address-level2"></label>
+    </div>
+    <div class="pr-row">
+      <label class="pr-f"><span>Contact name</span><input name="contact" type="text" required maxlength="100" autocomplete="name"></label>
+      <label class="pr-f"><span>Email</span><input name="email" type="email" required maxlength="120" autocomplete="email" inputmode="email"></label>
+    </div>
+    <fieldset class="pr-spots"><legend>Which spot(s)</legend>
+      <label class="pr-chk"><input type="checkbox" name="spot" value="Featured card">Featured card</label>
+      <label class="pr-chk"><input type="checkbox" name="spot" value="Sponsored tile">Sponsored tile</label>
+      <label class="pr-chk"><input type="checkbox" name="spot" value="Sponsored event">Sponsored event</label>
+    </fieldset>
+    <label class="pr-f"><span>Message <i>(optional)</i></span><textarea name="message" rows="4" maxlength="2000" placeholder="Your place, the dates you have in mind…"></textarea></label>
+    <input name="botcheck" type="text" tabindex="-1" autocomplete="off" class="pr-hp" aria-hidden="true">
+    <p class="pr-err" role="alert" hidden></p>
+    <button class="pr-send" type="submit">Send</button>
+    <p class="pr-note"><span>Goes straight to our team.</span> <span>We use your details only to reply to you.</span> <a href="privacy.html">Privacy</a></p>
+  </form>
+  <div class="pr-done" id="pr-done" hidden><p role="status">Thank you! We’ll get back to you with our rates.</p></div>
+  <p class="pr-nojs" id="pr-nojs"><a href="mailto:info@tableandthecity.com" data-i18n-skip>info@tableandthecity.com</a></p>
+  <p class="pv__back"><a href="guide.html" id="pr-guide">Back to the guide</a></p>
+</main>
+<script src="js/config.js?v=948e1a63f5"></script>
+<script src="js/forms.js?v=948e1a63f5"></script>
+<script src="js/back.js?v=948e1a63f5"></script>
+<script src="js/promote.js?v=948e1a63f5"></script>
+<script src="js/pwa.js?v=948e1a63f5"></script>
+</body>
+</html>

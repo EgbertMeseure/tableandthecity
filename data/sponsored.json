@@ -1,0 +1,12 @@
+{
+ "about": "Paid placements (sponsored spots) per city, read by js/sponsored.js. Types: featured = one card at the top of the city's place list; tile = one card after the 6th place in the list; event = one of the place's upcoming events shown first in Events. Every spot carries a visible 'Sponsored' label. An entry is only shown from start to end (YYYY-MM-DD, both included, Brussels date), when its place exists in that city, is open and passes the guide's rules (no chains, fast food, pizza, kebab or burgers; check with python3 scripts/check_sponsored.py). Several active entries of one type: one per day, in turn. Optional: tagline (text, or {en, nl, de, fr, es}); for an event, 'event' = the start of the event title (otherwise the place's next event). demo: true = preview only, shown only with ?sponsored=demo in the URL, never in production. Add a sponsor: one line under its city, e.g. {\"id\": \"<place id>\", \"type\": \"featured\", \"start\": \"2026-12-01\", \"end\": \"2026-12-31\", \"tagline\": \"…\"}.",
+ "cities": {
+  "gent": [
+   {"id": "klaar", "type": "featured", "start": "2026-10-01", "end": "2026-12-31", "tagline": {"en": "Fresh every day, straight from local growers", "nl": "Elke dag vers, rechtstreeks van lokale telers", "de": "Jeden Tag frisch, direkt von lokalen Erzeugern", "fr": "Frais chaque jour, directement des producteurs locaux", "es": "Fresco cada día, directo de productores locales"}, "demo": true},
+   {"id": "ferri", "type": "featured", "start": "2026-10-01", "end": "2026-12-31", "tagline": {"en": "Seasonal vegetarian cooking, organic and local", "nl": "Seizoensgebonden vegetarisch, bio en lokaal", "de": "Saisonal vegetarisch, bio und regional", "fr": "Cuisine végétarienne de saison, bio et locale", "es": "Cocina vegetariana de temporada, ecológica y local"}, "demo": true},
+   {"id": "alberte", "type": "tile", "start": "2026-10-01", "end": "2026-12-31", "tagline": {"en": "Market cooking and natural wine", "nl": "Marktkeuken en natuurwijn", "de": "Marktküche und Naturwein", "fr": "Cuisine du marché et vins nature", "es": "Cocina de mercado y vino natural"}, "demo": true},
+   {"id": "sensum", "type": "event", "event": "Open every 2nd Saturday", "start": "2026-10-01", "end": "2026-12-31", "demo": true},
+   {"id": "debra", "type": "tile", "start": "2026-01-01", "end": "2026-03-31", "tagline": "Expired demo entry: never shown (outside its dates)", "demo": true}
+  ]
+ }
+}

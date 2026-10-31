@@ -16,6 +16,8 @@
   const cardImg = (id, def) => (IMG.cards && IMG.cards[id]) || def;
   const { restaurants: R, events: E } = await TG.load(city);
   const CITY = city.name;
+  /* sponsored spots (js/sponsored.js, data/sponsored.json): Featured card above the list, one tile after the 6th place, one event first */
+  const SP = window.TGSponsor ? await TGSponsor.load(city, R) : { featured: null, tile: null, event: null };
   document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // set by the category cards (and shareable URLs); no filter panel
@@ -298,7 +300,7 @@
     const y = scrollY, n = shown;
     if (state.open) { render(n); scrollTo(0, y); return; }                // "Open now" is on: places that closed/opened leave/join the list
     LIST.sort((a, b) => TG.OPEN_RANK[a._oh.state] - TG.OPEN_RANK[b._oh.state] || LIST._base(a, b));
-    $('#list').innerHTML = LIST.slice(0, n).map(card).join(''); moreBtn(); TG.lazyIg($('#list'));
+    $('#list').innerHTML = cards(0, n); moreBtn(); TG.lazyIg($('#list'));
     scrollTo(0, y);
   }
   const BYID = new Map(R.map(r => [r.id, r]));
@@ -363,7 +365,9 @@
     if (m === 'walk-in') return `<span class="bk-chip" title="${esc(r.reservationNote || 'No reservations: walk-in only')}">Walk-in only</span>`;
     return '';
   }
-  function card(r) {
+  const SP_AFTER = 6;                                                       // the sponsored tile follows the 6th place of the list
+  const spLabel = () => `<span class="sp-label" title="${esc(TGSponsor.NOTE)}">${esc(TGSponsor.LABEL)}</span>`;
+  function card(r, sp) {
     const price = known(r.priceLevel) ? r.priceLevel : (r.priceFrom ? `from ${eur(r.priceFrom)}` : '');
     const isR = r.group === 'restaurants', cu = (r.cuisine || '').split(/[,–(]/)[0].trim();
     const meta = [catLabel(r), isR && cu !== catLabel(r) ? cu : '', known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
@@ -373,10 +377,16 @@
     const on = ft.TILES.filter(([k]) => ft.F[k] === true && k !== 'new' && k !== 'events' && !(r.veggieLevel && (k === 'veggie' || k === 'vegan')));   // level is the badge
     const chips = on.slice(0, MAXF).map(([k, l]) => `<li class="fchip" title="${esc(ft.EV[k] ? `${l} — ${ft.EV[k]}` : l)}">${esc(SHORT[k] || l)}</li>`).join('')
       + (on.length > MAXF ? `<li class="fchip more" title="${esc(on.slice(MAXF).map(([k, l]) => SHORT[k] || l).join(', '))}">+${on.length - MAXF}</li>` : '');
-    return `<a class="card bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
+    if (sp && sp.type === 'featured') return `<a class="card card--sp card--feat bw-host" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
+      <div class="card__thumb">${TG.thumb(r, '160px')}</div>
+      <div class="card__body"><div class="sp-top"><span class="sp-eyebrow">Featured</span>${spLabel()}</div><h3>${esc(r.name)}${TG.scoreBadge(r)}</h3><div class="card__meta" title="${meta}">${meta}</div>
+      ${sp.line ? `<p class="sp-line" data-i18n-skip>${esc(sp.line)}</p>` : ''}
+      <div class="card__foot"><span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website</span>` : ''}</div></div></a>`;
+    return `<a class="card bw-host${sp ? ' card--sp card--tile' : ''}" href="${detailUrl(r.id)}" data-id="${esc(r.id)}">
       <div class="card__thumb">${TG.thumb(r, '80px')}</div>
-      <div class="card__body"><div class="badges"><span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${badges(r, { max: 2 })}</div><h3>${esc(r.name)}${TG.scoreBadge(r)}</h3><div class="card__meta" title="${meta}">${meta}</div>
-      ${chips ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
+      <div class="card__body"><div class="badges">${sp ? spLabel() : ''}<span class="ohs" data-oh>${TG.openLabel(r._oh)}</span>${badges(r, { max: sp ? 1 : 2 })}</div><h3>${esc(r.name)}${TG.scoreBadge(r)}</h3><div class="card__meta" title="${meta}">${meta}</div>
+      ${sp && sp.line ? `<p class="sp-line" data-i18n-skip>${esc(sp.line)}</p>` : ''}
+      ${chips && !sp ? `<ul class="fchips" aria-label="Confirmed features">${chips}</ul>` : ''}
       <div class="card__foot">${km}${bookOn(r) ? booking(r) : isR && r.reservation_url && !r.fromUpcoming ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve</span>` : ''}${r.website ? `<span class="ext" data-href="${esc(r.website)}" role="link" tabindex="0">Website</span>` : ''}${r.upcoming ? '<span>Announced</span>' : ''}</div></div></a>`;
   }
   /* list title follows the chosen table: 'Vegan breakfast in Gent', 'New veggie coffee in Gent', … (other filters keep it) */
@@ -397,8 +407,8 @@
     $('#reset').hidden = !anyActive();
     // list: first PAGE cards, "Show more" appends the next PAGE (keeps the DOM small with ~1,500 places);
     // phone/tablet (stacked layout, ≤900px): only the first 8 so the Events section follows right after, then +16 per tap
-    LIST = list; shown = Math.min(Math.max(first(), keep), list.length);
-    $('#list').innerHTML = list.length ? list.slice(0, shown).map(card).join('') : '<div class="empty">Nothing matches these filters. <button class="linkbtn" data-reset>Reset</button></div>';
+    LIST = list; spPick(list); shown = Math.min(Math.max(first(), keep), list.length);
+    $('#list').innerHTML = list.length ? cards(0, shown) : '<div class="empty">Nothing matches these filters. <button class="linkbtn" data-reset>Reset</button></div>';
     moreBtn(); TG.lazyIg($('#list'));
     layer.clearLayers();
     layer.addLayers ? layer.addLayers(list.filter(r => r.lat).map(marker)) : list.filter(r => r.lat).forEach(r => marker(r).addTo(layer));
@@ -419,7 +429,24 @@
   }
   if ($('#czsub')) $('#czsub').addEventListener('click', e => { const b = e.target.closest('[data-czsub]'); if (!b) return; state.cuisine = b.dataset.czsub; render(); });
   const PAGE = 24, PHONE = matchMedia('(max-width: 900px)'), PH_FIRST = 8, PH_STEP = 16; let LIST = [], shown = 0;
-  const first = () => PHONE.matches ? PH_FIRST : PAGE, step = () => PHONE.matches ? PH_STEP : PAGE;
+  // phone: the sponsored tile takes one of the first 8 cells (2-column grid stays even); the place it replaces moves to "Show more"
+  const first = () => PHONE.matches ? PH_FIRST - (spT && LIST.length > SP_AFTER ? 1 : 0) : PAGE, step = () => PHONE.matches ? PH_STEP : PAGE;
+  /* sponsored spots in the list: only in the plain browsing views (no search text, not My table, not sorted by distance), only when
+     the sponsored place itself is in the current results, so a filter never shows an unrelated place; the curated order is never
+     changed: Featured sits above it and the tile is one extra card after the 6th place */
+  let spF = null, spT = null;
+  function spPick(list) {
+    const on = !state.q && !state.saved && state.sort === 'rec' && !state.origin;
+    const has = e => e && list.includes(e.place);
+    spF = on && has(SP.featured) ? SP.featured : null;
+    spT = on && has(SP.tile) && list.length > SP_AFTER ? SP.tile : null;
+  }
+  function cards(from, to) {                                                 // the cards of LIST[from, to) + the sponsored spots that fall in that range
+    const out = [];
+    if (from === 0 && spF) out.push(card(spF.place, spF));
+    for (let i = from; i < to; i++) { out.push(card(LIST[i])); if (i === SP_AFTER - 1 && spT) out.push(card(spT.place, spT)); }
+    return out.join('');
+  }
   function moreBtn() {
     const left = LIST.length - shown, b = $('#list-more');
     b.hidden = left <= 0;
@@ -432,12 +459,12 @@
     $('#list').appendChild(sl);
   }
   $('#list-more').addEventListener('click', () => {
-    const next = LIST.slice(shown, shown + step()); shown += next.length;
-    $('#list').insertAdjacentHTML('beforeend', next.map(card).join('')); moreBtn(); TG.lazyIg($('#list'));
+    const from = shown; shown = Math.min(LIST.length, shown + step());
+    $('#list').insertAdjacentHTML('beforeend', cards(from, shown)); moreBtn(); TG.lazyIg($('#list'));
   });
   // phone → desktop (rotate / resize): fill up to the desktop's first page; desktop → phone keeps what is shown
   PHONE.addEventListener('change', () => {
-    if (!PHONE.matches && shown < Math.min(PAGE, LIST.length)) { const next = LIST.slice(shown, PAGE); shown += next.length; $('#list').insertAdjacentHTML('beforeend', next.map(card).join('')); TG.lazyIg($('#list')); }
+    if (!PHONE.matches && shown < Math.min(PAGE, LIST.length)) { const from = shown; shown = Math.min(PAGE, LIST.length); $('#list').insertAdjacentHTML('beforeend', cards(from, shown)); TG.lazyIg($('#list')); }
     moreBtn();
   });
   function marker(r) {                                                     // built once per place, reused across renders
@@ -479,6 +506,9 @@
   function renderEvents() {
     const t = terms();
     const ev = E.filter(e => (!state.ev || e._g === state.ev) && (!t.length || t.every(w => e._hay.includes(w))));
+    // sponsored event: the sponsor's next event (or the one named in data/sponsored.json) moves to the first slot, only when it is in the results
+    const se = SP.event && ev.find(e => e.restaurantIds.includes(SP.event.id) && (!SP.event.event || e.title.toLowerCase().startsWith(String(SP.event.event).toLowerCase())));
+    if (se) { ev.splice(ev.indexOf(se), 1); ev.unshift(se); }
     $('#ev-count').textContent = E.length ? `${ev.length} upcoming` : '';
     if (!E.length) { $('#evlist').innerHTML = `<div class="ev-empty"><span class="ev-empty__mark">—</span><p>No upcoming events or collaborations in ${esc(CITY)} right now.</p><p class="sub">New dates are added daily — check back soon.</p></div>`; return; }
     $('#evlist').innerHTML = ev.length ? ev.map(e => {
@@ -488,7 +518,8 @@
       const eh = TG.evHref(e);
       // picture on top of the card (compact city list); without a picture a quiet same-size block keeps the row even
       const im = TG.evImg(e) || `<div class="ev__img ev__ph" aria-hidden="true"><span>${esc(e.type || '')}</span></div>`;
-      return `<article class="ev${eh ? ' ev--link' : ''} ev--img"${eh ? ` data-ev-href="${esc(eh)}"` : ''}>${im}<div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
+      const sp = e === se;
+      return `<article class="ev${eh ? ' ev--link' : ''} ev--img${sp ? ' ev--sp' : ''}"${eh ? ` data-ev-href="${esc(eh)}"` : ''}>${sp ? `<div class="sp-top sp-top--ev">${spLabel()}</div>` : ''}${im}<div class="ev__when"><span class="ev__date">${date}</span><span class="ev__type">${esc(e.type)}${e.recurrence && !/recurring/i.test(e.type) ? ' · recurring' : ''}</span></div>
         <h3 class="ev__title" title="${esc(e.title)}">${esc(e.title)}</h3><div class="ev__meta ev__venue">${esc(e.location || '')}${e.partners && e.partners.length ? ' · with ' + esc(e.partners.join(', ')) : ''}</div>
         <div class="ev__desc" title="${esc(e.note || '')}">${esc(TG.evDesc(e))}</div>
         <div class="ev__links">${links}</div><div class="ev__btns">${TG.evButtons(e)}</div></article>`;
@@ -534,7 +565,7 @@
   const lst = $('#list'), inner = () => lst.scrollHeight > lst.clientHeight + 1 && /(auto|scroll)/.test(getComputedStyle(lst).overflowY);
   if (back) { const y = +back.y || 0, ls = +back.ls || 0;
     const go = () => { scrollTo(0, y); if (inner()) lst.scrollTop = ls;
-      const a = back.a && lst.querySelector(`a.card[data-id="${CSS.escape(back.a)}"]`); if (!a) return;
+      const a = back.a && lst.querySelector(`a.card[data-id="${CSS.escape(back.a)}"]:not(.card--sp)`); if (!a) return;
       const d = a.getBoundingClientRect().top - (+back.at || 0); if (Math.abs(d) < 2) return;
       if (inner()) lst.scrollTop += d; else scrollBy(0, d); };
     go(); requestAnimationFrame(go); let moved = false; const mv = () => { moved = true; };
@@ -543,11 +574,11 @@
   let opened = null;
   const keep = () => { try {
     const vis = c => { const r = c.getBoundingClientRect(); return r.bottom > 0 && r.top < innerHeight; };
-    const a = opened && opened.isConnected ? opened : [...lst.querySelectorAll('a.card[data-id]')].find(vis);
+    const a = opened && opened.isConnected ? opened : [...lst.querySelectorAll('a.card[data-id]:not(.card--sp)')].find(vis);
     sessionStorage.setItem(BK, JSON.stringify({ u: here(), y: Math.round(scrollY), ls: Math.round(lst.scrollTop), n: shown, a: a ? a.dataset.id : '', at: a ? Math.round(a.getBoundingClientRect().top) : 0,
       saved: !!state.saved, o: state.origin, ol: state.originLabel })); } catch (e) {} };
   addEventListener('pagehide', keep);
-  document.addEventListener('click', e => { const l = e.target.closest && e.target.closest('a[href]'); if (!l) return; opened = l.closest('#list a.card[data-id]'); keep(); }, true);   // also before following a link (pagehide is not always fired on phones)
+  document.addEventListener('click', e => { const l = e.target.closest && e.target.closest('a[href]'); if (!l) return; opened = l.closest('#list a.card[data-id]:not(.card--sp)'); keep(); }, true);   // also before following a link (pagehide is not always fired on phones)
 
   // ---- hook for js/quiz.js ("Find my table"): the loaded places/events, the list's booking button, and its filters ----
   window.TGApp = { R, E, city, layer, detailUrl, bookOn, booking,

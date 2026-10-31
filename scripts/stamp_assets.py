@@ -10,7 +10,7 @@ import hashlib, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-FILES = sorted([*ROOT.glob('css/*.css'), *ROOT.glob('js/*.js'), *ROOT.glob('js/i18n/*.js'), ROOT / 'data' / 'cities.json', *ROOT.glob('data/cities/*.json'),
+FILES = sorted([*ROOT.glob('css/*.css'), *ROOT.glob('js/*.js'), *ROOT.glob('js/i18n/*.js'), ROOT / 'data' / 'cities.json', *ROOT.glob('data/cities/*.json'), ROOT / 'data' / 'sponsored.json',
                 ROOT / 'manifest.webmanifest', ROOT / 'offline.html', *ROOT.glob('img/icons/*')])
 FILES = [f for f in FILES if f.exists()]
 h = hashlib.sha256()
