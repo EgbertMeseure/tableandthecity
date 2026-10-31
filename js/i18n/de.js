@@ -174,6 +174,7 @@
 "Jazz café": "Jazzcafé",
 "Blues & roots café": "Blues- & Roots-Café",
 "Jazz club": "Jazzclub",
+"Art-space café: local drinks, coffee, vegan mastel": "Kunstcafé: lokale Getränke, Kaffee, veganer Mastel",
 "Restaurant": "Restaurant",
 "Quick bites": "Kleine Happen",
 "Dance café": "Tanzcafé",

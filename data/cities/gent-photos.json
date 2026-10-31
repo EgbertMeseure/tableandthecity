@@ -24387,6 +24387,44 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "giftshop": {
+   "photos": [
+    {
+     "src": "img/places/gent/giftshop/p1-1400.webp",
+     "thumb": "img/places/gent/giftshop/p1-700.webp",
+     "srcset": "img/places/gent/giftshop/p1-700.webp 700w, img/places/gent/giftshop/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Giftshop: the interior",
+     "credit": "giftshop.gent · photo Michiel Devijver",
+     "credit_url": "https://giftshop.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/giftshop/p2-800.webp",
+     "thumb": "img/places/gent/giftshop/p2-400.webp",
+     "srcset": "img/places/gent/giftshop/p2-400.webp 400w, img/places/gent/giftshop/p2-800.webp 800w",
+     "w": 800,
+     "h": 625,
+     "category": "interior",
+     "alt": "Giftshop: the interior",
+     "credit": "giftshop.gent · photo Michiel Devijver",
+     "credit_url": "https://giftshop.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/giftshop/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  }
 }
