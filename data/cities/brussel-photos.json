@@ -18943,6 +18943,598 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "henri": {
+   "photos": [
+    {
+     "src": "img/places/brussel/henri/p1-1400.webp",
+     "thumb": "img/places/brussel/henri/p1-700.webp",
+     "srcset": "img/places/brussel/henri/p1-700.webp 700w, img/places/brussel/henri/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 600,
+     "category": "interior",
+     "alt": "Henri: the interior",
+     "credit": "restohenri.be",
+     "credit_url": "https://restohenri.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/henri/p2-800.webp",
+     "thumb": "img/places/brussel/henri/p2-400.webp",
+     "srcset": "img/places/brussel/henri/p2-400.webp 400w, img/places/brussel/henri/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Henri: food",
+     "credit": "restohenri.be",
+     "credit_url": "https://restohenri.be/nl/take-away-friday-delivery-saturday",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/henri/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "sounds-jazz-club": {
+   "photos": [
+    {
+     "src": "img/places/brussel/sounds-jazz-club/p1-1400.webp",
+     "thumb": "img/places/brussel/sounds-jazz-club/p1-700.webp",
+     "srcset": "img/places/brussel/sounds-jazz-club/p1-700.webp 700w, img/places/brussel/sounds-jazz-club/p1-1400.webp 1400w",
+     "w": 666,
+     "h": 500,
+     "category": "interior",
+     "alt": "Sounds Jazz Club: the interior",
+     "credit": "sounds.brussels",
+     "credit_url": "https://www.sounds.brussels/history/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/sounds-jazz-club/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "carrosserie": {
+   "photos": [
+    {
+     "src": "img/places/brussel/carrosserie/p1-1400.webp",
+     "thumb": "img/places/brussel/carrosserie/p1-700.webp",
+     "srcset": "img/places/brussel/carrosserie/p1-700.webp 700w, img/places/brussel/carrosserie/p1-1400.webp 1400w",
+     "w": 1199,
+     "h": 883,
+     "category": "exterior",
+     "alt": "carrosserie: the outside",
+     "credit": "kanal.brussels",
+     "credit_url": "https://kanal.brussels/en/press",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/carrosserie/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bbp-dansaert-n2522741179": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-bbp-dansaert-n2522741179/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-bbp-dansaert-n2522741179/p1-700.webp",
+     "srcset": "img/places/brussel/osm-bbp-dansaert-n2522741179/p1-700.webp 700w, img/places/brussel/osm-bbp-dansaert-n2522741179/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1120,
+     "category": "interior",
+     "alt": "BBP Dansaert: the interior",
+     "credit": "beerproject.be",
+     "credit_url": "https://beerproject.be/pages/community",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-bbp-dansaert-n2522741179/p2-800.webp",
+     "thumb": "img/places/brussel/osm-bbp-dansaert-n2522741179/p2-400.webp",
+     "srcset": "img/places/brussel/osm-bbp-dansaert-n2522741179/p2-400.webp 400w, img/places/brussel/osm-bbp-dansaert-n2522741179/p2-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "BBP Dansaert: food",
+     "credit": "beerproject.be",
+     "credit_url": "https://beerproject.be/pages/community",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-bbp-dansaert-n2522741179/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-beat-n3863737378": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-beat-n3863737378/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-beat-n3863737378/p1-700.webp",
+     "srcset": "img/places/brussel/osm-beat-n3863737378/p1-700.webp 700w, img/places/brussel/osm-beat-n3863737378/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Beat: the interior",
+     "credit": "beatrestaurants.be",
+     "credit_url": "https://beatrestaurants.be/nl/event-venue",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-beat-n3863737378/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bowls-be-n9872049875": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-bowls-be-n9872049875/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-bowls-be-n9872049875/p1-700.webp",
+     "srcset": "img/places/brussel/osm-bowls-be-n9872049875/p1-700.webp 700w, img/places/brussel/osm-bowls-be-n9872049875/p1-1400.webp 1400w",
+     "w": 690,
+     "h": 690,
+     "category": "interior",
+     "alt": "Bowls.be: the interior",
+     "credit": "bowls.be",
+     "credit_url": "https://bowls.be/fr/waregem-pand",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-bowls-be-n9872049875/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-brut-n6504827974": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-brut-n6504827974/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-brut-n6504827974/p1-700.webp",
+     "srcset": "img/places/brussel/osm-brut-n6504827974/p1-700.webp 700w, img/places/brussel/osm-brut-n6504827974/p1-1400.webp 1400w",
+     "w": 1365,
+     "h": 2048,
+     "category": "food",
+     "alt": "Brut: food",
+     "credit": "brutfood.be",
+     "credit_url": "https://brutfood.be/notre-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-brut-n6504827974/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-cafe-georgette-n4318137507": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-cafe-georgette-n4318137507/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-cafe-georgette-n4318137507/p1-700.webp",
+     "srcset": "img/places/brussel/osm-cafe-georgette-n4318137507/p1-700.webp 700w, img/places/brussel/osm-cafe-georgette-n4318137507/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 901,
+     "category": "interior",
+     "alt": "Café Georgette: the interior",
+     "credit": "cafegeorgette.be",
+     "credit_url": "https://cafegeorgette.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-cafe-georgette-n4318137507/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-gogi-korean-bbq-n2414370943": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-gogi-korean-bbq-n2414370943/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-gogi-korean-bbq-n2414370943/p1-700.webp",
+     "srcset": "img/places/brussel/osm-gogi-korean-bbq-n2414370943/p1-700.webp 700w, img/places/brussel/osm-gogi-korean-bbq-n2414370943/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Gogi Korean BBQ: food",
+     "credit": "gogi.be",
+     "credit_url": "https://gogi.be/nl/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-gogi-korean-bbq-n2414370943/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-olivio-piadineria-n4268177828": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-olivio-piadineria-n4268177828/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-olivio-piadineria-n4268177828/p1-700.webp",
+     "srcset": "img/places/brussel/osm-olivio-piadineria-n4268177828/p1-700.webp 700w, img/places/brussel/osm-olivio-piadineria-n4268177828/p1-1400.webp 1400w",
+     "w": 1366,
+     "h": 932,
+     "category": "food",
+     "alt": "Olivio Piadineria: food",
+     "credit": "oliviopiadineria.be",
+     "credit_url": "https://www.oliviopiadineria.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-olivio-piadineria-n4268177828/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-porto-fino-n4262247206": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-porto-fino-n4262247206/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-porto-fino-n4262247206/p1-700.webp",
+     "srcset": "img/places/brussel/osm-porto-fino-n4262247206/p1-700.webp 700w, img/places/brussel/osm-porto-fino-n4262247206/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 875,
+     "category": "food",
+     "alt": "Porto Fino: food",
+     "credit": "restoportofino.be",
+     "credit_url": "https://restoportofino.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-porto-fino-n4262247206/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-sushi-avenue-n5206653306": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-sushi-avenue-n5206653306/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-sushi-avenue-n5206653306/p1-700.webp",
+     "srcset": "img/places/brussel/osm-sushi-avenue-n5206653306/p1-700.webp 700w, img/places/brussel/osm-sushi-avenue-n5206653306/p1-1400.webp 1400w",
+     "w": 660,
+     "h": 450,
+     "category": "interior",
+     "alt": "Sushi Avenue: the interior",
+     "credit": "sushiavenue.be",
+     "credit_url": "https://www.sushiavenue.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-sushi-avenue-n5206653306/p2-800.webp",
+     "thumb": "img/places/brussel/osm-sushi-avenue-n5206653306/p2-400.webp",
+     "srcset": "img/places/brussel/osm-sushi-avenue-n5206653306/p2-400.webp 400w, img/places/brussel/osm-sushi-avenue-n5206653306/p2-800.webp 800w",
+     "w": 800,
+     "h": 444,
+     "category": "food",
+     "alt": "Sushi Avenue: food",
+     "credit": "sushiavenue.be",
+     "credit_url": "https://www.sushiavenue.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-sushi-avenue-n5206653306/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-sushiria-n7082039071": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-sushiria-n7082039071/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-sushiria-n7082039071/p1-700.webp",
+     "srcset": "img/places/brussel/osm-sushiria-n7082039071/p1-700.webp 700w, img/places/brussel/osm-sushiria-n7082039071/p1-1400.webp 1400w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Sushiria: food",
+     "credit": "sushiria.be",
+     "credit_url": "https://www.sushiria.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-sushiria-n7082039071/p2-800.webp",
+     "thumb": "img/places/brussel/osm-sushiria-n7082039071/p2-400.webp",
+     "srcset": "img/places/brussel/osm-sushiria-n7082039071/p2-400.webp 400w, img/places/brussel/osm-sushiria-n7082039071/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Sushiria: food",
+     "credit": "sushiria.be",
+     "credit_url": "https://www.sushiria.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-sushiria-n7082039071/p3-800.webp",
+     "thumb": "img/places/brussel/osm-sushiria-n7082039071/p3-400.webp",
+     "srcset": "img/places/brussel/osm-sushiria-n7082039071/p3-400.webp 400w, img/places/brussel/osm-sushiria-n7082039071/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Sushiria: food",
+     "credit": "sushiria.be",
+     "credit_url": "https://www.sushiria.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-sushiria-n7082039071/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-swagat-n10157087366": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-swagat-n10157087366/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-swagat-n10157087366/p1-700.webp",
+     "srcset": "img/places/brussel/osm-swagat-n10157087366/p1-700.webp 700w, img/places/brussel/osm-swagat-n10157087366/p1-1400.webp 1400w",
+     "w": 1160,
+     "h": 564,
+     "category": "interior",
+     "alt": "Swagat: the interior",
+     "credit": "swagat77.godaddysites.com",
+     "credit_url": "https://swagat77.godaddysites.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-swagat-n10157087366/p2-800.webp",
+     "thumb": "img/places/brussel/osm-swagat-n10157087366/p2-400.webp",
+     "srcset": "img/places/brussel/osm-swagat-n10157087366/p2-400.webp 400w, img/places/brussel/osm-swagat-n10157087366/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Swagat: food",
+     "credit": "swagat77.godaddysites.com",
+     "credit_url": "https://swagat77.godaddysites.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-swagat-n10157087366/p3-800.webp",
+     "thumb": "img/places/brussel/osm-swagat-n10157087366/p3-400.webp",
+     "srcset": "img/places/brussel/osm-swagat-n10157087366/p3-400.webp 400w, img/places/brussel/osm-swagat-n10157087366/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Swagat: food",
+     "credit": "swagat77.godaddysites.com",
+     "credit_url": "https://swagat77.godaddysites.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-swagat-n10157087366/p4-800.webp",
+     "thumb": "img/places/brussel/osm-swagat-n10157087366/p4-400.webp",
+     "srcset": "img/places/brussel/osm-swagat-n10157087366/p4-400.webp 400w, img/places/brussel/osm-swagat-n10157087366/p4-800.webp 800w",
+     "w": 800,
+     "h": 444,
+     "category": "exterior",
+     "alt": "Swagat: the outside",
+     "credit": "swagat77.godaddysites.com",
+     "credit_url": "https://swagat77.godaddysites.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brussel/osm-swagat-n10157087366/p5-800.webp",
+     "thumb": "img/places/brussel/osm-swagat-n10157087366/p5-400.webp",
+     "srcset": "img/places/brussel/osm-swagat-n10157087366/p5-400.webp 400w, img/places/brussel/osm-swagat-n10157087366/p5-800.webp 800w",
+     "w": 800,
+     "h": 526,
+     "category": "food",
+     "alt": "Swagat: food",
+     "credit": "swagat77.godaddysites.com",
+     "credit_url": "https://swagat77.godaddysites.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-swagat-n10157087366/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-falstaff-n6254467923": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-falstaff-n6254467923/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-falstaff-n6254467923/p1-700.webp",
+     "srcset": "img/places/brussel/osm-falstaff-n6254467923/p1-700.webp 700w, img/places/brussel/osm-falstaff-n6254467923/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "exterior",
+     "alt": "Falstaff: the outside",
+     "credit": "Zinneke",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Brussels_Falstaff_detail_2013-08.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Brussels_Falstaff_detail_2013-08.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-falstaff-n6254467923/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-roue-d-or-n2333276420": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-roue-d-or-n2333276420/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-roue-d-or-n2333276420/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-roue-d-or-n2333276420/p1-700.webp 700w, img/places/brussel/osm-la-roue-d-or-n2333276420/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1120,
+     "category": "exterior",
+     "alt": "La Roue d'Or: the outside",
+     "credit": "Benoît Prieur",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:La_Roue_d%27Or,_rue_des_Chapeliers_%C3%A0_Bruxelles.jpg",
+     "license": "CC0",
+     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+     "source_url": "https://commons.wikimedia.org/wiki/File:La_Roue_d%27Or,_rue_des_Chapeliers_%C3%A0_Bruxelles.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-roue-d-or-n2333276420/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-truffe-noire-n6780405145": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-la-truffe-noire-n6780405145/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-la-truffe-noire-n6780405145/p1-700.webp",
+     "srcset": "img/places/brussel/osm-la-truffe-noire-n6780405145/p1-700.webp 700w, img/places/brussel/osm-la-truffe-noire-n6780405145/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "La Truffe Noire: the outside",
+     "credit": "GdML",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:La_Truffe_Noire.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:La_Truffe_Noire.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-la-truffe-noire-n6780405145/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-le-cheval-marin-n2518122931": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-le-cheval-marin-n2518122931/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-le-cheval-marin-n2518122931/p1-700.webp",
+     "srcset": "img/places/brussel/osm-le-cheval-marin-n2518122931/p1-700.webp 700w, img/places/brussel/osm-le-cheval-marin-n2518122931/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1033,
+     "category": "exterior",
+     "alt": "Le Cheval Marin: the outside",
+     "credit": "Nenea hartia",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Le_Cheval_Marin_Bruxelles.02.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Le_Cheval_Marin_Bruxelles.02.jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-le-cheval-marin-n2518122931/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-residence-palace-n13511501901": {
+   "photos": [
+    {
+     "src": "img/places/brussel/osm-residence-palace-n13511501901/p1-1400.webp",
+     "thumb": "img/places/brussel/osm-residence-palace-n13511501901/p1-700.webp",
+     "srcset": "img/places/brussel/osm-residence-palace-n13511501901/p1-700.webp 700w, img/places/brussel/osm-residence-palace-n13511501901/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 935,
+     "category": "exterior",
+     "alt": "Residence Palace: the outside",
+     "credit": "Fred Romero from Paris, France",
+     "credit_url": "https://commons.wikimedia.org/wiki/File:Bruxelles_-_R%C3%A9sidence_Palace_(22931754523).jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0",
+     "source_url": "https://commons.wikimedia.org/wiki/File:Bruxelles_-_R%C3%A9sidence_Palace_(22931754523).jpg",
+     "source": "commons",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brussel/osm-residence-palace-n13511501901/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
