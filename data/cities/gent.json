@@ -15324,6 +15324,46 @@
     "credit": "Zuru Zuru (zuruzuru-ramen.be)",
     "credit_url": "https://zuruzuru-ramen.be/events/chaji-omakase-thee-en-kaiseki-ervaring/"
    }
+  },
+  {
+   "title": "Gentse Biervereniging – brewer's visit: Straetebrouwerie (talk + beer tasting)",
+   "dateStart": "2026-11-07",
+   "dateEnd": null,
+   "type": "beer tasting",
+   "location": "Open Huis Jan Yoens, Jan Yoensstraat 126, 9000 Gent",
+   "partners": [
+    "De Gentse Biervereniging vzw"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/gbv-brouwer-op-bezoek-straetebrouwerie-tickets-1999262846994"
+   ],
+   "id": "eb-1999262846994",
+   "tickets": "https://www.eventbrite.be/e/gbv-brouwer-op-bezoek-straetebrouwerie-tickets-1999262846994",
+   "note": "19:00–22:00. Tickets free to €26,36 (Eventbrite)."
+  },
+  {
+   "title": "Gentse Biervereniging – Advent-calendar tasting: 24 beers from 'Beer in a Box'",
+   "dateStart": "2026-12-04",
+   "dateEnd": null,
+   "type": "beer tasting",
+   "location": "Baracuna, Dracenastraat 8, 9000 Gent",
+   "partners": [
+    "De Gentse Biervereniging vzw"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/gbv-adventskalenderproeverij-2026-tickets-1999258773811"
+   ],
+   "id": "eb-1999258773811",
+   "tickets": "https://www.eventbrite.be/e/gbv-adventskalenderproeverij-2026-tickets-1999258773811",
+   "note": "18:30–22:00. Tickets free to €37,89 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-1999258773811.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Gentse Biervereniging – Advent-calendar tasting: 24 beers from 'Beer in a Box' (event image)",
+    "credit": "De Gentse Biervereniging vzw (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/gbv-adventskalenderproeverij-2026-tickets-1999258773811"
+   }
   }
  ],
  "changelog": [
@@ -16305,5 +16345,33 @@
    "source": "https://www.hotclub.gent/programma.php",
    "public": "Added: music café with regular live music."
   }
- ]
+ ],
+ "eventDetails": {
+  "eb-1999262846994": {
+   "venue": "Open Huis Jan Yoens",
+   "originalTitle": "GBV brouwer op bezoek: Straetebrouwerie",
+   "address": "Jan Yoensstraat 126, 9000 Gent",
+   "lat": 51.07417109999999,
+   "lng": 3.7159487999999783,
+   "geoSource": "Eventbrite venue",
+   "blurb": "De Gentse Biervereniging krijgt bezoek van Straetebrouwerie, geeft wat uitleg over zijn indrukwekkend project en laat ons uiteraard ook bier",
+   "ticketUrl": "https://www.eventbrite.be/e/gbv-brouwer-op-bezoek-straetebrouwerie-tickets-1999262846994",
+   "time": "19:00–22:00",
+   "price": "free–€26,36",
+   "source": "eventbrite"
+  },
+  "eb-1999258773811": {
+   "venue": "Baracuna",
+   "originalTitle": "GBV Adventskalenderproeverij 2026",
+   "address": "Dracenastraat 8, 9000 Gent",
+   "lat": 51.07514370000001,
+   "lng": 3.714895400000001,
+   "geoSource": "Eventbrite venue",
+   "blurb": "We proeven 24 bieren uit de exclusieve bieradventskalender van 'Beer in a Box'.",
+   "ticketUrl": "https://www.eventbrite.be/e/gbv-adventskalenderproeverij-2026-tickets-1999258773811",
+   "time": "18:30–22:00",
+   "price": "free–€37,89",
+   "source": "eventbrite"
+  }
+ }
 }

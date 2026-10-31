@@ -352,6 +352,454 @@
     "credit": "Kanal – Centre Pompidou (kanal.brussels)",
     "credit_url": "https://www.horecabrussels.be/actu-horeca/restauration/pole-food-kanal-bruxelles/"
    }
+  },
+  {
+   "title": "Eric Boschman – Monday wine tasting (6 to 8 wines, monthly)",
+   "dateStart": "2026-11-02",
+   "dateEnd": null,
+   "type": "wine tasting",
+   "location": "Rue Verhulst 36, 1180 Uccle",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/les-degustations-du-lundi-tickets-1997959098447"
+   ],
+   "id": "eb-1997959098447",
+   "tickets": "https://www.eventbrite.be/e/les-degustations-du-lundi-tickets-1997959098447",
+   "note": "19:00–22:00. Tickets €69,34 (Eventbrite)."
+  },
+  {
+   "title": "Obadiah coffee omakase – four-course coffee tasting at Lil' Bouche",
+   "dateStart": "2026-11-02",
+   "dateEnd": null,
+   "type": "coffee tasting",
+   "location": "Lil' BOUCHE, Rue des Eperonniers 60, 1000 Bruxelles",
+   "partners": [
+    "Bouche Coffee"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/obadiah-omakase-tasting-tickets-2003815274427"
+   ],
+   "id": "eb-2003815274427",
+   "tickets": "https://www.eventbrite.be/e/obadiah-omakase-tasting-tickets-2003815274427",
+   "note": "10:30–11:30. Tickets €37,89 (Eventbrite)."
+  },
+  {
+   "title": "Tipsy Tribe – brewery & distillery tour with tasting (Brussels' first whisky)",
+   "dateStart": "2026-11-07",
+   "dateEnd": null,
+   "type": "brewery tour / tasting",
+   "location": "Tipsy Tribe Brewery & Distillery, Chaussée de Jette 374, 1081 Koekelberg",
+   "partners": [
+    "Tipsy Tribe Brewery & Distillery"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/beer-oclock-tour-and-tasting-at-tipsy-tribe-brewery-distillery-tickets-1984897918105"
+   ],
+   "id": "eb-1984897918105",
+   "tickets": "https://www.eventbrite.be/e/beer-oclock-tour-and-tasting-at-tipsy-tribe-brewery-distillery-tickets-1984897918105",
+   "note": "13:00–14:00. Tickets free to €20,06 (Eventbrite)."
+  },
+  {
+   "title": "Canederlata – canederli (Trentino dumpling) workshop and lunch",
+   "dateStart": "2026-11-07",
+   "dateEnd": null,
+   "type": "cooking workshop",
+   "location": "Henri de Kerckheer, Chaussée de Vleurgat 23, 1050 Ixelles",
+   "partners": [
+    "Circolo Trentino di Bruxelles"
+   ],
+   "sources": [
+    "https://www.eventbrite.it/e/canederlata-workshop-di-canederli-mangiata-trentina-tickets-2003247779033"
+   ],
+   "id": "eb-2003247779033",
+   "tickets": "https://www.eventbrite.it/e/canederlata-workshop-di-canederli-mangiata-trentina-tickets-2003247779033",
+   "note": "11:00–16:30. Tickets €37,89–€48,38 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2003247779033.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Canederlata – canederli (Trentino dumpling) workshop and lunch (event image)",
+    "credit": "Circolo Trentino di Bruxelles (Eventbrite)",
+    "credit_url": "https://www.eventbrite.it/e/canederlata-workshop-di-canederli-mangiata-trentina-tickets-2003247779033"
+   }
+  },
+  {
+   "title": "Dégust' – importers' fair: wine, sake and fermented tea",
+   "dateStart": "2026-11-07",
+   "dateEnd": "2026-11-08",
+   "type": "wine fair",
+   "location": "D’Ieteren, Rue du Mail 50, 1050 Ixelles",
+   "partners": [
+    "Nestor Vin"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-degust-le-salon-des-importateurs-a-bruxelles-2003596960444"
+   ],
+   "id": "eb-2003596960444",
+   "tickets": "https://www.eventbrite.be/e/billets-degust-le-salon-des-importateurs-a-bruxelles-2003596960444",
+   "note": "11:00–18:00. Tickets €15 (Eventbrite)."
+  },
+  {
+   "title": "L'Atelier Veggie – plant-based cooking demo, then dinner together",
+   "dateStart": "2026-11-10",
+   "dateEnd": null,
+   "type": "cooking demo (vegan)",
+   "location": "LivingWell Centre, Chaussée d'Etterbeek 64, 1040 Bruxelles",
+   "partners": [
+    "LivingWell Centre"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/latelier-veggie-tickets-2002708319495"
+   ],
+   "id": "eb-2002708319495",
+   "tickets": "https://www.eventbrite.be/e/latelier-veggie-tickets-2002708319495",
+   "note": "18:30–20:30. Tickets €16,92 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2002708319495.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "L'Atelier Veggie – plant-based cooking demo, then dinner together (event image)",
+    "credit": "LivingWell Centre (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/latelier-veggie-tickets-2002708319495"
+   }
+  },
+  {
+   "title": "The Rhône Divide – Syrah, Grenache & beyond (wine tasting)",
+   "dateStart": "2026-11-10",
+   "dateEnd": null,
+   "type": "wine tasting",
+   "location": "Rue le Tintoret 17, 1000 Bruxelles",
+   "partners": [
+    "EU Sommelier Association"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/the-rhone-divide-syrah-grenache-beyond-tickets-2004131634669"
+   ],
+   "id": "eb-2004131634669",
+   "tickets": "https://www.eventbrite.be/e/the-rhone-divide-syrah-grenache-beyond-tickets-2004131634669",
+   "note": "19:00–21:00. Tickets €56 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2004131634669.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "The Rhône Divide – Syrah, Grenache & beyond (wine tasting) (event image)",
+    "credit": "EU Sommelier Association (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/the-rhone-divide-syrah-grenache-beyond-tickets-2004131634669"
+   }
+  },
+  {
+   "title": "Café & Chocolat – specialty coffee and bean-to-bar chocolate tasting",
+   "dateStart": "2026-11-21",
+   "dateEnd": null,
+   "type": "tasting (coffee & chocolate)",
+   "location": "Addis Stories, Rue du Vieux Marché aux Grains 48, 1000 Bruxelles",
+   "partners": [
+    "Addis Stories"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-cafe-chocolat-voyage-au-cur-des-feves-2003292120660"
+   ],
+   "id": "eb-2003292120660",
+   "tickets": "https://www.eventbrite.be/e/billets-cafe-chocolat-voyage-au-cur-des-feves-2003292120660",
+   "note": "10:15–11:45. Tickets €50 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2003292120660.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Café & Chocolat – specialty coffee and bean-to-bar chocolate tasting (event image)",
+    "credit": "Addis Stories (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/billets-cafe-chocolat-voyage-au-cur-des-feves-2003292120660"
+   }
+  },
+  {
+   "title": "Alchemists Coffee – latte art workshop",
+   "dateStart": "2026-11-28",
+   "dateEnd": null,
+   "type": "coffee workshop",
+   "location": "Rue de la Crèche 21, 1050 Ixelles",
+   "partners": [
+    "Alchemists coffee"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-latte-art-revelez-votre-ame-dartiste-coffee-workshop-2003545285884"
+   ],
+   "id": "eb-2003545285884",
+   "tickets": "https://www.eventbrite.be/e/billets-latte-art-revelez-votre-ame-dartiste-coffee-workshop-2003545285884",
+   "note": "10:30–13:30. Tickets €90 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2003545285884.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Alchemists Coffee – latte art workshop (event image)",
+    "credit": "Alchemists coffee (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/billets-latte-art-revelez-votre-ame-dartiste-coffee-workshop-2003545285884"
+   }
+  },
+  {
+   "title": "B… like Brunello! – six wines from Montalcino (tasting)",
+   "dateStart": "2026-12-01",
+   "dateEnd": null,
+   "type": "wine tasting",
+   "location": "Rue le Tintoret 17, 1000 Bruxelles",
+   "partners": [
+    "EU Sommelier Association"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/blike-brunello-from-tuscany-with-love-tickets-2004133084004"
+   ],
+   "id": "eb-2004133084004",
+   "tickets": "https://www.eventbrite.be/e/blike-brunello-from-tuscany-with-love-tickets-2004133084004",
+   "note": "19:00–21:00. Tickets €80 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2004133084004.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "B… like Brunello! – six wines from Montalcino (tasting) (event image)",
+    "credit": "EU Sommelier Association (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/blike-brunello-from-tuscany-with-love-tickets-2004133084004"
+   }
+  },
+  {
+   "title": "L'Atelier Veggie – plant-based cooking demo, then dinner together",
+   "dateStart": "2026-12-08",
+   "dateEnd": null,
+   "type": "cooking demo (vegan)",
+   "location": "LivingWell Centre, Chaussée d'Etterbeek 64, 1040 Bruxelles",
+   "partners": [
+    "LivingWell Centre"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/latelier-veggie-tickets-2002709056700"
+   ],
+   "id": "eb-2002709056700",
+   "tickets": "https://www.eventbrite.be/e/latelier-veggie-tickets-2002709056700",
+   "note": "18:30–20:30. Tickets €16,92 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2002709056700.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "L'Atelier Veggie – plant-based cooking demo, then dinner together (event image)",
+    "credit": "LivingWell Centre (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/latelier-veggie-tickets-2002709056700"
+   }
+  },
+  {
+   "title": "Afrodisiac Winter Market – African food and makers' market (free entry)",
+   "dateStart": "2026-12-11",
+   "dateEnd": "2026-12-13",
+   "type": "food market",
+   "location": "Ratz Food Market, Rue Saint-Boniface 25, 1050 Ixelles",
+   "partners": [
+    "Ratz Food Market"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/afrodisiac-winter-market-111213-dec-ratz-food-market-free-entrance-tickets-2001199258854"
+   ],
+   "id": "eb-2001199258854",
+   "tickets": "https://www.eventbrite.be/e/afrodisiac-winter-market-111213-dec-ratz-food-market-free-entrance-tickets-2001199258854",
+   "note": "12:00–22:00. Free entrance; African food, market stalls and music."
+  },
+  {
+   "title": "The Christmas Wine Challenge – festive blind tasting of sparkling wines",
+   "dateStart": "2026-12-15",
+   "dateEnd": null,
+   "type": "wine tasting",
+   "location": "Rue le Tintoret 17, 1000 Bruxelles",
+   "partners": [
+    "EU Sommelier Association"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/the-christmas-wine-challenge-tickets-2004134550390"
+   ],
+   "id": "eb-2004134550390",
+   "tickets": "https://www.eventbrite.be/e/the-christmas-wine-challenge-tickets-2004134550390",
+   "note": "19:00–21:00. Tickets €50 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2004134550390.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "The Christmas Wine Challenge – festive blind tasting of sparkling wines (event image)",
+    "credit": "EU Sommelier Association (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/the-christmas-wine-challenge-tickets-2004134550390"
+   }
+  },
+  {
+   "title": "Eric Boschman – 'NowelAn' festive dinner: Réveillon without the obligations",
+   "dateStart": "2026-12-28",
+   "dateEnd": null,
+   "type": "supper club / dinner",
+   "location": "Rue Verhulst 36, 1180 Uccle",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/soiree-de-nowelan-le-reveillon-sans-les-obligations-tickets-2000390278171"
+   ],
+   "id": "eb-2000390278171",
+   "tickets": "https://www.eventbrite.be/e/soiree-de-nowelan-le-reveillon-sans-les-obligations-tickets-2000390278171",
+   "note": "19:30–23:30. Tickets €184,67 (Eventbrite)."
+  },
+  {
+   "title": "Discovery Coffee Tour – Saint-Gilles (OK Coffee)",
+   "dateStart": "2027-01-09",
+   "dateEnd": null,
+   "type": "coffee tour",
+   "location": "Silk, Chaussée de Charleroi 227, 1060 Saint-Gilles",
+   "partners": [
+    "OK Coffee"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-brussels-discovery-coffee-tour-saint-gilles-1991409846458"
+   ],
+   "id": "eb-1991409846458",
+   "tickets": "https://www.eventbrite.be/e/billets-brussels-discovery-coffee-tour-saint-gilles-1991409846458",
+   "note": "10:30–14:30. Tickets €65 (Eventbrite)."
+  },
+  {
+   "title": "Eric Boschman – 'Les Seins innocents' dinner (the detox that isn't)",
+   "dateStart": "2027-01-09",
+   "dateEnd": null,
+   "type": "supper club / dinner",
+   "location": "Rue Verhulst 36, 1180 Uccle",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/les-seins-innocents-le-diner-detoxication-qui-nen-est-pas-un-tickets-2000390511870"
+   ],
+   "id": "eb-2000390511870",
+   "tickets": "https://www.eventbrite.be/e/les-seins-innocents-le-diner-detoxication-qui-nen-est-pas-un-tickets-2000390511870",
+   "note": "19:30–23:30. Tickets €158,46 (Eventbrite)."
+  },
+  {
+   "title": "Sparkling wines – learn to taste like a professional",
+   "dateStart": "2027-01-19",
+   "dateEnd": null,
+   "type": "wine tasting",
+   "location": "Rue le Tintoret 17, 1000 Bruxelles",
+   "partners": [
+    "EU Sommelier Association"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/sparkling-wines-learn-to-taste-like-a-professional-tickets-2004134304655"
+   ],
+   "id": "eb-2004134304655",
+   "tickets": "https://www.eventbrite.be/e/sparkling-wines-learn-to-taste-like-a-professional-tickets-2004134304655",
+   "note": "19:00–21:00. Tickets €75 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2004134304655.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Sparkling wines – learn to taste like a professional (event image)",
+    "credit": "EU Sommelier Association (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/sparkling-wines-learn-to-taste-like-a-professional-tickets-2004134304655"
+   }
+  },
+  {
+   "title": "Alchemists Coffee – the perfect espresso at home (workshop)",
+   "dateStart": "2027-01-23",
+   "dateEnd": null,
+   "type": "coffee workshop",
+   "location": "Rue de la Crèche 21, 1050 Ixelles",
+   "partners": [
+    "Alchemists coffee"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-realisez-un-espresso-parfait-a-la-maison-coffee-workshop-2003545338040"
+   ],
+   "id": "eb-2003545338040",
+   "tickets": "https://www.eventbrite.be/e/billets-realisez-un-espresso-parfait-a-la-maison-coffee-workshop-2003545338040",
+   "note": "10:30–13:30. Tickets €90 (Eventbrite)."
+  },
+  {
+   "title": "Accords Hardcores – cheese × coffee pairing with La Fruitière",
+   "dateStart": "2027-01-30",
+   "dateEnd": null,
+   "type": "tasting (cheese & coffee)",
+   "location": "La Fruitière, Rue du Marché au Charbon 103, 1000 Bruxelles",
+   "partners": [
+    "OK Coffee"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-accords-hardcores-fromage-x-cafe-en-collab-avec-la-fruitiere-fr-bxl-1991406766245"
+   ],
+   "id": "eb-1991406766245",
+   "tickets": "https://www.eventbrite.be/e/billets-accords-hardcores-fromage-x-cafe-en-collab-avec-la-fruitiere-fr-bxl-1991406766245",
+   "note": "09:30–11:30. Tickets €90 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-1991406766245.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Accords Hardcores – cheese × coffee pairing with La Fruitière (event image)",
+    "credit": "OK Coffee (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/billets-accords-hardcores-fromage-x-cafe-en-collab-avec-la-fruitiere-fr-bxl-1991406766245"
+   }
+  },
+  {
+   "title": "Alchemists Coffee – slow coffee: filter-method workshop",
+   "dateStart": "2027-01-30",
+   "dateEnd": null,
+   "type": "coffee workshop",
+   "location": "Rue de la Crèche 21, 1050 Ixelles",
+   "partners": [
+    "Alchemists coffee"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-slow-coffee-le-grand-retour-des-methodes-filtres-coffee-workshop-2003545962909"
+   ],
+   "id": "eb-2003545962909",
+   "tickets": "https://www.eventbrite.be/e/billets-slow-coffee-le-grand-retour-des-methodes-filtres-coffee-workshop-2003545962909",
+   "note": "10:30–13:30. Tickets €95,55 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2003545962909.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Alchemists Coffee – slow coffee: filter-method workshop (event image)",
+    "credit": "Alchemists coffee (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/billets-slow-coffee-le-grand-retour-des-methodes-filtres-coffee-workshop-2003545962909"
+   }
+  },
+  {
+   "title": "Eric Boschman – collective Valentine's dinner",
+   "dateStart": "2027-02-14",
+   "dateEnd": null,
+   "type": "supper club / dinner",
+   "location": "Rue Verhulst 36, 1180 Uccle",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/les-diners-deric-boschman-la-saint-valentin-collective-tickets-2000390635239"
+   ],
+   "id": "eb-2000390635239",
+   "tickets": "https://www.eventbrite.be/e/les-diners-deric-boschman-la-saint-valentin-collective-tickets-2000390635239",
+   "note": "19:30–23:30. Tickets €184,67 (Eventbrite)."
+  },
+  {
+   "title": "Espresso Lovers Coffee Tour – Saint-Gilles (OK Coffee)",
+   "dateStart": "2027-02-20",
+   "dateEnd": null,
+   "type": "coffee tour",
+   "location": "BATCH, Chaussée de Waterloo 559, 1050 Ixelles",
+   "partners": [
+    "OK Coffee"
+   ],
+   "sources": [
+    "https://www.eventbrite.be/e/billets-brussels-espresso-lovers-coffee-tour-saint-gilles-2003831064656"
+   ],
+   "id": "eb-2003831064656",
+   "tickets": "https://www.eventbrite.be/e/billets-brussels-espresso-lovers-coffee-tour-saint-gilles-2003831064656",
+   "note": "10:30–14:30. Tickets €65 (Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2003831064656.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Espresso Lovers Coffee Tour – Saint-Gilles (OK Coffee) (event image)",
+    "credit": "OK Coffee (Eventbrite)",
+    "credit_url": "https://www.eventbrite.be/e/billets-brussels-espresso-lovers-coffee-tour-saint-gilles-2003831064656"
+   }
   }
  ],
  "changelog": [
@@ -13426,6 +13874,280 @@
    "imageSource": "https://www.aromatique.be/en/4jeudis (og:image: Les 4 Jeudis dining room, no people)",
    "imageAlt": "https://www.aromatique.be/web/image/2022-b7bf355d/WhatsApp%20Image%202026-09-09%20at%2016.31.59%20%281%29.webp",
    "instagram": "https://www.instagram.com/traiteuraromatique/"
+  },
+  "eb-1997959098447": {
+   "originalTitle": "Les dégustations du lundi",
+   "address": "Rue Verhulst 36, 1180 Uccle",
+   "lat": 50.8046334,
+   "lng": 4.3380589,
+   "geoSource": "Eventbrite venue",
+   "blurb": "on se retrouve une fois par mois pour découvrir, rencontrer, planer autour de 6 à 8 vins sans prise de tête.",
+   "ticketUrl": "https://www.eventbrite.be/e/les-degustations-du-lundi-tickets-1997959098447",
+   "time": "19:00–22:00",
+   "price": "€69,34",
+   "source": "eventbrite"
+  },
+  "eb-2003815274427": {
+   "venue": "Lil' BOUCHE",
+   "originalTitle": "Obadiah: Omakase tasting",
+   "address": "Rue des Eperonniers 60, 1000 Bruxelles",
+   "lat": 50.8449026,
+   "lng": 4.353121799999999,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Join us in person for Obadiah: Omakase tasting, a delicious chef-curated journey of Japanese flavors.",
+   "ticketUrl": "https://www.eventbrite.be/e/obadiah-omakase-tasting-tickets-2003815274427",
+   "time": "10:30–11:30",
+   "price": "€37,89",
+   "source": "eventbrite"
+  },
+  "eb-1984897918105": {
+   "venue": "Tipsy Tribe Brewery & Distillery",
+   "originalTitle": "Beer o’clock tour and tasting at Tipsy Tribe Brewery & Distillery",
+   "address": "Chaussée de Jette 374, 1081 Koekelberg",
+   "lat": 50.8666227,
+   "lng": 4.330326299999999,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Join us for a tour and tasting experience at Tipsy Tribe - Brussels' first brewstillery and home to the first whiskey made in Brussels!",
+   "ticketUrl": "https://www.eventbrite.be/e/beer-oclock-tour-and-tasting-at-tipsy-tribe-brewery-distillery-tickets-1984897918105",
+   "time": "13:00–14:00",
+   "price": "free–€20,06",
+   "source": "eventbrite"
+  },
+  "eb-2003247779033": {
+   "venue": "Henri de Kerckheer",
+   "originalTitle": "Canederlata - Workshop di canederli & Mangiata trentina",
+   "address": "Chaussée de Vleurgat 23, 1050 Ixelles",
+   "lat": 50.8272252,
+   "lng": 4.3706951,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Per fare dei canderli ci vuole.... il Circolo che vi insegna come!",
+   "ticketUrl": "https://www.eventbrite.it/e/canederlata-workshop-di-canederli-mangiata-trentina-tickets-2003247779033",
+   "time": "11:00–16:30",
+   "price": "€37,89–€48,38",
+   "source": "eventbrite"
+  },
+  "eb-2003596960444": {
+   "venue": "D’Ieteren",
+   "originalTitle": "Dégust' Le  salon des importateurs à Bruxelles",
+   "address": "Rue du Mail 50, 1050 Ixelles",
+   "lat": 50.8222598,
+   "lng": 4.359950599999999,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Dégustation de vin , saké, thé fermenté.",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-degust-le-salon-des-importateurs-a-bruxelles-2003596960444",
+   "time": "11:00–18:00",
+   "price": "€15",
+   "source": "eventbrite"
+  },
+  "eb-2002708319495": {
+   "venue": "LivingWell Centre",
+   "originalTitle": "L’ATELIER VEGGIE",
+   "address": "Chaussée d'Etterbeek 64, 1040 Bruxelles",
+   "lat": 50.8419494,
+   "lng": 4.3789665,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Rejoignez-nous pour une démonstration culinaire autour d’un menu 100 % végétal. Découvrez des recettes, et astuces et faciles à reproduire",
+   "ticketUrl": "https://www.eventbrite.be/e/latelier-veggie-tickets-2002708319495",
+   "time": "18:30–20:30",
+   "price": "€16,92",
+   "source": "eventbrite"
+  },
+  "eb-2004131634669": {
+   "originalTitle": "The Rhône Divide: Syrah, Grenache & Beyond",
+   "address": "Rue le Tintoret 17, 1000 Bruxelles",
+   "lat": 50.8457486,
+   "lng": 4.3899579,
+   "geoSource": "Eventbrite venue",
+   "blurb": "One river, two distinct wine-worlds.",
+   "ticketUrl": "https://www.eventbrite.be/e/the-rhone-divide-syrah-grenache-beyond-tickets-2004131634669",
+   "time": "19:00–21:00",
+   "price": "€56",
+   "source": "eventbrite"
+  },
+  "eb-2003292120660": {
+   "venue": "Addis Stories",
+   "originalTitle": "☕ Café & Chocolat : voyage au cœur des fèves",
+   "address": "Rue du Vieux Marché aux Grains 48, 1000 Bruxelles",
+   "lat": 50.8490311,
+   "lng": 4.3458109,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Une rencontre gourmande entre café de spécialité et chocolat bean-to-bar  avec dégustation",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-cafe-chocolat-voyage-au-cur-des-feves-2003292120660",
+   "time": "10:15–11:45",
+   "price": "€50",
+   "source": "eventbrite"
+  },
+  "eb-2003545285884": {
+   "originalTitle": "Latte art :  révélez votre âme d'artiste ! | COFFEE WORKSHOP |",
+   "address": "Rue de la Crèche 21, 1050 Ixelles",
+   "lat": 50.8340018,
+   "lng": 4.367965400000001,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Libérez votre âme d'artistes grâce à cet atelier pratique d’introduction au Latte Art !",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-latte-art-revelez-votre-ame-dartiste-coffee-workshop-2003545285884",
+   "time": "10:30–13:30",
+   "price": "€90",
+   "source": "eventbrite"
+  },
+  "eb-2004133084004": {
+   "originalTitle": "B...like Brunello! from Tuscany with love",
+   "address": "Rue le Tintoret 17, 1000 Bruxelles",
+   "lat": 50.8457486,
+   "lng": 4.3899579,
+   "geoSource": "Eventbrite venue",
+   "blurb": "From the hills of Montalcino to Brussels, discover six outstanding expressions of Tuscany",
+   "ticketUrl": "https://www.eventbrite.be/e/blike-brunello-from-tuscany-with-love-tickets-2004133084004",
+   "time": "19:00–21:00",
+   "price": "€80",
+   "source": "eventbrite"
+  },
+  "eb-2002709056700": {
+   "venue": "LivingWell Centre",
+   "originalTitle": "L’ATELIER VEGGIE",
+   "address": "Chaussée d'Etterbeek 64, 1040 Bruxelles",
+   "lat": 50.8419494,
+   "lng": 4.3789665,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Rejoignez-nous pour une démonstration culinaire autour d’un menu 100 % végétal. Découvrez des recettes, et astuces et faciles à reproduire",
+   "ticketUrl": "https://www.eventbrite.be/e/latelier-veggie-tickets-2002709056700",
+   "time": "18:30–20:30",
+   "price": "€16,92",
+   "source": "eventbrite"
+  },
+  "eb-2001199258854": {
+   "venue": "Ratz Food Market",
+   "originalTitle": "Afrodisiac Winter Market • 11,12,13 Dec • Ratz Food Market • Free Entrance!",
+   "address": "Rue Saint-Boniface 25, 1050 Ixelles",
+   "lat": 50.83647209999999,
+   "lng": 4.3643333,
+   "geoSource": "Eventbrite venue",
+   "blurb": "L'édition d'hiver du Festival Afrodisiac au Ratz Food Market",
+   "ticketUrl": "https://www.eventbrite.be/e/afrodisiac-winter-market-111213-dec-ratz-food-market-free-entrance-tickets-2001199258854",
+   "time": "12:00–22:00",
+   "source": "eventbrite"
+  },
+  "eb-2004134550390": {
+   "originalTitle": "The Christmas Wine-challenge!",
+   "address": "Rue le Tintoret 17, 1000 Bruxelles",
+   "lat": 50.8457486,
+   "lng": 4.3899579,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Bubbles, Surprises & a Festive Blind Tasting\nCan you tell Champagne from another sparkling wine?",
+   "ticketUrl": "https://www.eventbrite.be/e/the-christmas-wine-challenge-tickets-2004134550390",
+   "time": "19:00–21:00",
+   "price": "€50",
+   "source": "eventbrite"
+  },
+  "eb-2000390278171": {
+   "originalTitle": "Soirée de NowelAn - Le réveillon sans les obligations",
+   "address": "Rue Verhulst 36, 1180 Uccle",
+   "lat": 50.8046334,
+   "lng": 4.3380589,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Viens savourer une soirée gourmande et décontractée avec Eric Boschman aux commandes du festin.",
+   "ticketUrl": "https://www.eventbrite.be/e/soiree-de-nowelan-le-reveillon-sans-les-obligations-tickets-2000390278171",
+   "time": "19:30–23:30",
+   "price": "€184,67",
+   "source": "eventbrite"
+  },
+  "eb-1991409846458": {
+   "venue": "Silk",
+   "originalTitle": "BRUSSELS DISCOVERY COFFEE TOUR - Saint-Gilles",
+   "address": "Chaussée de Charleroi 227, 1060 Saint-Gilles",
+   "lat": 50.8251326,
+   "lng": 4.3542681,
+   "geoSource": "Eventbrite venue",
+   "blurb": "During the Discovery Coffee Tours, we experience iconic ways of drinking coffee, hot and cold, in surprising locations. Hosted in FR & EN.",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-brussels-discovery-coffee-tour-saint-gilles-1991409846458",
+   "time": "10:30–14:30",
+   "price": "€65",
+   "source": "eventbrite"
+  },
+  "eb-2000390511870": {
+   "originalTitle": "Les Seins innocents - Le dîner détoxication qui n'en est pas un",
+   "address": "Rue Verhulst 36, 1180 Uccle",
+   "lat": 50.8046334,
+   "lng": 4.3380589,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Viens savourer une soirée gourmande et décontractée avec Eric Boschman aux commandes du festin.",
+   "ticketUrl": "https://www.eventbrite.be/e/les-seins-innocents-le-diner-detoxication-qui-nen-est-pas-un-tickets-2000390511870",
+   "time": "19:30–23:30",
+   "price": "€158,46",
+   "source": "eventbrite"
+  },
+  "eb-2004134304655": {
+   "originalTitle": "Sparkling Wines: Learn to Taste Like a Professional!",
+   "address": "Rue le Tintoret 17, 1000 Bruxelles",
+   "lat": 50.8457486,
+   "lng": 4.3899579,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Sparkling wines: the magic of bubbles explained",
+   "ticketUrl": "https://www.eventbrite.be/e/sparkling-wines-learn-to-taste-like-a-professional-tickets-2004134304655",
+   "time": "19:00–21:00",
+   "price": "€75",
+   "source": "eventbrite"
+  },
+  "eb-2003545338040": {
+   "originalTitle": "Réalisez un Espresso parfait à la maison | COFFEE WORKSHOP |",
+   "address": "Rue de la Crèche 21, 1050 Ixelles",
+   "lat": 50.8340018,
+   "lng": 4.367965400000001,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Venez découvrir tous les secrets de l'extraction ultime lors d'un atelier ludique et interactif !",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-realisez-un-espresso-parfait-a-la-maison-coffee-workshop-2003545338040",
+   "time": "10:30–13:30",
+   "price": "€90",
+   "source": "eventbrite"
+  },
+  "eb-1991406766245": {
+   "venue": "La Fruitière",
+   "originalTitle": "ACCORDS HARDCORES : Fromage x Café en collab avec La Fruitière -FR-BXL",
+   "address": "Rue du Marché au Charbon 103, 1000 Bruxelles",
+   "lat": 50.8454503,
+   "lng": 4.3471722,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Fromages et cafés sont-ils compatibles ? Ils le sont  et c'est très gourmand! Venez goûter comment.",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-accords-hardcores-fromage-x-cafe-en-collab-avec-la-fruitiere-fr-bxl-1991406766245",
+   "time": "09:30–11:30",
+   "price": "€90",
+   "source": "eventbrite"
+  },
+  "eb-2003545962909": {
+   "originalTitle": "Slow coffee : le grand retour des méthodes filtres | COFFEE WORKSHOP |",
+   "address": "Rue de la Crèche 21, 1050 Ixelles",
+   "lat": 50.8340018,
+   "lng": 4.367965400000001,
+   "geoSource": "Eventbrite venue",
+   "blurb": "À tous les amateurs de cafés riches en saveurs, explorez le terrain de jeu des méthodes filtres !",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-slow-coffee-le-grand-retour-des-methodes-filtres-coffee-workshop-2003545962909",
+   "time": "10:30–13:30",
+   "price": "€95,55",
+   "source": "eventbrite"
+  },
+  "eb-2000390635239": {
+   "originalTitle": "Les dîners d'Eric Boschman - La Saint Valentin collective",
+   "address": "Rue Verhulst 36, 1180 Uccle",
+   "lat": 50.8046334,
+   "lng": 4.3380589,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Viens savourer une soirée gourmande et décontractée avec Eric Boschman aux commandes du festin.",
+   "ticketUrl": "https://www.eventbrite.be/e/les-diners-deric-boschman-la-saint-valentin-collective-tickets-2000390635239",
+   "time": "19:30–23:30",
+   "price": "€184,67",
+   "source": "eventbrite"
+  },
+  "eb-2003831064656": {
+   "venue": "BATCH",
+   "originalTitle": "BRUSSELS ESPRESSO LOVERS COFFEE TOUR - Saint Gilles",
+   "address": "Chaussée de Waterloo 559, 1050 Ixelles",
+   "lat": 50.8191998,
+   "lng": 4.361247000000001,
+   "geoSource": "Eventbrite venue",
+   "blurb": "During this Espresso Lover Coffee Tour, you will learn about the espresso world in all its splendor and diversity. Hosted in FR & EN.",
+   "ticketUrl": "https://www.eventbrite.be/e/billets-brussels-espresso-lovers-coffee-tour-saint-gilles-2003831064656",
+   "time": "10:30–14:30",
+   "price": "€65",
+   "source": "eventbrite"
   }
  }
 }

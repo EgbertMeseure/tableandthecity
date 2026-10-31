@@ -1,0 +1,342 @@
+{
+ "about": "Human gate for scripts/fetch_eventbrite.py. Key = Eventbrite event id. status accept = shown in that city (English title/type here; date, time, venue, address, price and photo come from Eventbrite on every run); reject = never shown (reason kept so the weekly run does not ask again). image:false keeps the Eventbrite picture off. Reviewed 2026-10-31.",
+ "events": {
+  "1999262846994": {
+   "status": "accept",
+   "city": "gent",
+   "title": "Gentse Biervereniging – brewer's visit: Straetebrouwerie (talk + beer tasting)",
+   "type": "beer tasting",
+   "image": false,
+   "imageNote": "text poster (crops badly)"
+  },
+  "1999258773811": {
+   "status": "accept",
+   "city": "gent",
+   "title": "Gentse Biervereniging – Advent-calendar tasting: 24 beers from 'Beer in a Box'",
+   "type": "beer tasting"
+  },
+  "1984730410084": {
+   "status": "reject",
+   "reason": "'Foodies + New Friends' social-meetup dinner series (sports/events company, multi-city), not a food event; restaurant not named"
+  },
+  "1999095608780": {
+   "status": "reject",
+   "reason": "members' New Year reception of the beer club, not a public food/drink event"
+  },
+  "2003975267972": {
+   "status": "reject",
+   "reason": "party night"
+  },
+  "1985647501128": {
+   "status": "accept",
+   "city": "antwerpen",
+   "title": "Tweede Kans Keuken – cook and eat together against food waste (community kitchen)",
+   "type": "community kitchen",
+   "note": "Every first Monday of the month until 7 December."
+  },
+  "1984730488318": {
+   "status": "reject",
+   "reason": "'Foodies + New Friends' social-meetup dinner series, not a food event; restaurant not named"
+  },
+  "1761890234119": {
+   "status": "reject",
+   "reason": "appliance-brand (De'Longhi) promotional workshop"
+  },
+  "2001695677656": {
+   "status": "accept",
+   "city": "oostende",
+   "title": "Soirée Crevette – shrimp-croquette evening at The Bakery of Les Cabanes d'Ostende",
+   "type": "food evening",
+   "partners": [
+    "Les Cabanes d'Ostende (The Bakery)"
+   ],
+   "credit": "The Bakery of Les Cabanes"
+  },
+  "1997959098447": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – Monday wine tasting (6 to 8 wines, monthly)",
+   "type": "wine tasting",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "image": false,
+   "imageNote": "portrait"
+  },
+  "2003815274427": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Obadiah coffee omakase – four-course coffee tasting at Lil' Bouche",
+   "type": "coffee tasting",
+   "image": false,
+   "imageNote": "text banner"
+  },
+  "2002552018996": {
+   "status": "reject",
+   "reason": "Doctor Beer: no venue (street name only), listed free on Eventbrite but priced and booked on its own site"
+  },
+  "2002551873561": {
+   "status": "reject",
+   "reason": "Doctor Beer: no venue (street name only), listed free on Eventbrite but priced and booked on its own site"
+  },
+  "1993473404616": {
+   "status": "reject",
+   "reason": "Doctor Beer brewery tour: meeting point and brewery only given after booking, may be outside Brussels"
+  },
+  "2003896498370": {
+   "status": "reject",
+   "reason": "nightclub party (23:00–05:00)"
+  },
+  "1984897918105": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Tipsy Tribe – brewery & distillery tour with tasting (Brussels' first whisky)",
+   "type": "brewery tour / tasting",
+   "image": false,
+   "imageNote": "text banner"
+  },
+  "2003247779033": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Canederlata – canederli (Trentino dumpling) workshop and lunch",
+   "type": "cooking workshop",
+   "crop": [
+    0.56,
+    0.04,
+    0.93,
+    0.66
+   ],
+   "imageNote": "poster: cropped to the dish"
+  },
+  "2003596960444": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Dégust' – importers' fair: wine, sake and fermented tea",
+   "type": "wine fair",
+   "image": false,
+   "imageNote": "poster, mostly blank"
+  },
+  "2002708319495": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "L'Atelier Veggie – plant-based cooking demo, then dinner together",
+   "type": "cooking demo (vegan)",
+   "venue": "LivingWell Centre"
+  },
+  "2002709056700": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "L'Atelier Veggie – plant-based cooking demo, then dinner together",
+   "type": "cooking demo (vegan)",
+   "venue": "LivingWell Centre",
+   "address": "Chaussée d'Etterbeek 64, 1040 Bruxelles"
+  },
+  "2004131634669": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "The Rhône Divide – Syrah, Grenache & beyond (wine tasting)",
+   "type": "wine tasting"
+  },
+  "2003602997501": {
+   "status": "reject",
+   "reason": "policy presentation (food-system study results), not a food/drink event"
+  },
+  "1991275886781": {
+   "status": "reject",
+   "reason": "module of a paid barista certificate course (vocational training)"
+  },
+  "1991405455324": {
+   "status": "reject",
+   "reason": "barista training session (vocational)"
+  },
+  "1991275063318": {
+   "status": "reject",
+   "reason": "module of a paid barista certificate course (vocational training)"
+  },
+  "1991275624998": {
+   "status": "reject",
+   "reason": "module of a paid barista certificate course (vocational training)"
+  },
+  "1991276469524": {
+   "status": "reject",
+   "reason": "module of a paid barista certificate course (vocational training)"
+  },
+  "2003832899143": {
+   "status": "reject",
+   "reason": "barista training session (vocational)"
+  },
+  "1880480240019": {
+   "status": "reject",
+   "reason": "pub quiz, not a food/drink event"
+  },
+  "2003292120660": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Café & Chocolat – specialty coffee and bean-to-bar chocolate tasting",
+   "type": "tasting (coffee & chocolate)",
+   "venue": "Addis Stories"
+  },
+  "2003545285884": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Alchemists Coffee – latte art workshop",
+   "type": "coffee workshop"
+  },
+  "2004133084004": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "B… like Brunello! – six wines from Montalcino (tasting)",
+   "type": "wine tasting"
+  },
+  "1967651770413": {
+   "status": "reject",
+   "reason": "networking drinks"
+  },
+  "2001199258854": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Afrodisiac Winter Market – African food and makers' market (free entry)",
+   "type": "food market",
+   "image": false,
+   "imageNote": "text poster with illustrated face (crops badly)",
+   "address": "Rue Saint-Boniface 25, 1050 Ixelles",
+   "note": "Free entrance; African food, market stalls and music."
+  },
+  "2004134550390": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "The Christmas Wine Challenge – festive blind tasting of sparkling wines",
+   "type": "wine tasting"
+  },
+  "2000251975504": {
+   "status": "reject",
+   "reason": "hotel restaurant of Le Louise Hotel – MGallery (Accor chain)"
+  },
+  "2000967326137": {
+   "status": "reject",
+   "reason": "hotel restaurant of Le Louise Hotel – MGallery (Accor chain)"
+  },
+  "2000390278171": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – 'NowelAn' festive dinner: Réveillon without the obligations",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "image": false,
+   "imageNote": "portrait"
+  },
+  "1991409846458": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Discovery Coffee Tour – Saint-Gilles (OK Coffee)",
+   "type": "coffee tour",
+   "image": false,
+   "imageNote": "group of people"
+  },
+  "2000390511870": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – 'Les Seins innocents' dinner (the detox that isn't)",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "image": false,
+   "imageNote": "portrait"
+  },
+  "2004134044878": {
+   "status": "reject",
+   "reason": "multi-session paid course rather than a tasting event"
+  },
+  "2004134304655": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Sparkling wines – learn to taste like a professional",
+   "type": "wine tasting"
+  },
+  "2003545338040": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Alchemists Coffee – the perfect espresso at home (workshop)",
+   "type": "coffee workshop",
+   "image": false,
+   "imageNote": "person is the subject"
+  },
+  "1991406766245": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Accords Hardcores – cheese × coffee pairing with La Fruitière",
+   "type": "tasting (cheese & coffee)"
+  },
+  "2003545962909": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Alchemists Coffee – slow coffee: filter-method workshop",
+   "type": "coffee workshop"
+  },
+  "2000390635239": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – collective Valentine's dinner",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ],
+   "image": false,
+   "imageNote": "portrait"
+  },
+  "2003831064656": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Espresso Lovers Coffee Tour – Saint-Gilles (OK Coffee)",
+   "type": "coffee tour"
+  },
+  "2000390816782": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – spring dinner 'C'est l'printemps'",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ]
+  },
+  "2000391009358": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – Greek-themed dinner 'Hellas, Hélas, Hélas'",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ]
+  },
+  "2000391171844": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – 'Soirée Corniaud' dinner",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ]
+  },
+  "2000391349375": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – Mother's Day dinner",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ]
+  },
+  "2000391407549": {
+   "status": "accept",
+   "city": "brussel",
+   "title": "Eric Boschman – 'La Pelle' dinner of 16 June",
+   "type": "supper club / dinner",
+   "partners": [
+    "Eric Boschman"
+   ]
+  }
+ }
+}

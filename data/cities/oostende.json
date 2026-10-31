@@ -107,6 +107,30 @@
    ],
    "note": "Doors 17:00, dinner from 18:00 in the Delvauxzaal, then DJ/live music and the NYE Deluxe party in the renovated concert hall. Dinner formula €139 (Standard) / €179 (VIP), party access included; party-only tickets €20 early bird (until 5 Nov), then €30.",
    "id": "extra-3"
+  },
+  {
+   "title": "Soirée Crevette – shrimp-croquette evening at The Bakery of Les Cabanes d'Ostende",
+   "dateStart": "2026-11-06",
+   "dateEnd": null,
+   "type": "food evening",
+   "location": "Les Cabanes d'Ostende, Nieuwpoortsesteenweg 765, 8400 Oostende",
+   "partners": [
+    "Les Cabanes d'Ostende (The Bakery)"
+   ],
+   "sources": [
+    "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695677656"
+   ],
+   "id": "eb-2001695677656",
+   "tickets": "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695677656",
+   "note": "18:00–20:00. Free (registration via Eventbrite).",
+   "image": {
+    "src": "img/events/eb-2001695677656.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Soirée Crevette – shrimp-croquette evening at The Bakery of Les Cabanes d'Ostende (event image)",
+    "credit": "The Bakery of Les Cabanes (Eventbrite)",
+    "credit_url": "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695677656"
+   }
   }
  ],
  "changelog": [],
@@ -7321,6 +7345,19 @@
    "ticketUrl": "https://www.savarin.be/nl",
    "time": null,
    "price": null
+  },
+  "eb-2001695677656": {
+   "venue": "Les Cabanes d'Ostende",
+   "originalTitle": "Soirée Crevette",
+   "address": "Nieuwpoortsesteenweg 765, 8400 Oostende",
+   "lat": 51.2100169,
+   "lng": 2.8768663,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Een gezellige avond in The Bakery  van Les Cabanes d'Ostende. Voor onze gasten én Oostendenaars, met verse kroketten, drankjes & good vibes.",
+   "ticketUrl": "https://www.eventbrite.com/e/tickets-soiree-crevette-2001695677656",
+   "time": "18:00–20:00",
+   "price": "free",
+   "source": "eventbrite"
   }
  }
 }
