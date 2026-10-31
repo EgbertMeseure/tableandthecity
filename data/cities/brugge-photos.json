@@ -9323,6 +9323,824 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "osm-de-vier-winden-w101728273": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-vier-winden-w101728273/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-vier-winden-w101728273/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-vier-winden-w101728273/p1-700.webp 700w, img/places/brugge/osm-de-vier-winden-w101728273/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 1920,
+     "category": "exterior",
+     "alt": "De Vier Winden: the outside",
+     "credit": "brasseriedevierwinden.com",
+     "credit_url": "https://www.brasseriedevierwinden.com/about-us/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-vier-winden-w101728273/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-vlaamsche-pot-n2893347274": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p1-700.webp 700w, img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 560,
+     "category": "interior",
+     "alt": "De Vlaamsche Pot: the interior",
+     "credit": "devlaamschepot.be",
+     "credit_url": "https://www.devlaamschepot.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p2-800.webp",
+     "thumb": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p2-400.webp",
+     "srcset": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p2-400.webp 400w, img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p2-800.webp 800w",
+     "w": 800,
+     "h": 320,
+     "category": "interior",
+     "alt": "De Vlaamsche Pot: the interior",
+     "credit": "devlaamschepot.be",
+     "credit_url": "https://www.devlaamschepot.be/nl/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p3-800.webp",
+     "thumb": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p3-400.webp",
+     "srcset": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p3-400.webp 400w, img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p3-800.webp 800w",
+     "w": 750,
+     "h": 422,
+     "category": "interior",
+     "alt": "De Vlaamsche Pot: the interior",
+     "credit": "devlaamschepot.be",
+     "credit_url": "https://www.devlaamschepot.be/nl/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-vlaamsche-pot-n2893347274/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-den-gouden-harynck-n904613752": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-den-gouden-harynck-n904613752/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-den-gouden-harynck-n904613752/p1-700.webp",
+     "srcset": "img/places/brugge/osm-den-gouden-harynck-n904613752/p1-700.webp 700w, img/places/brugge/osm-den-gouden-harynck-n904613752/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 683,
+     "category": "interior",
+     "alt": "Den Gouden Harynck: the interior",
+     "credit": "goudenharynck.be",
+     "credit_url": "https://www.goudenharynck.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-den-gouden-harynck-n904613752/p2-800.webp",
+     "thumb": "img/places/brugge/osm-den-gouden-harynck-n904613752/p2-400.webp",
+     "srcset": "img/places/brugge/osm-den-gouden-harynck-n904613752/p2-400.webp 400w, img/places/brugge/osm-den-gouden-harynck-n904613752/p2-800.webp 800w",
+     "w": 800,
+     "h": 549,
+     "category": "exterior",
+     "alt": "Den Gouden Harynck: the outside",
+     "credit": "goudenharynck.be",
+     "credit_url": "https://www.goudenharynck.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-den-gouden-harynck-n904613752/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-eetcafe-leopold-w101568960": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-eetcafe-leopold-w101568960/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-eetcafe-leopold-w101568960/p1-700.webp",
+     "srcset": "img/places/brugge/osm-eetcafe-leopold-w101568960/p1-700.webp 700w, img/places/brugge/osm-eetcafe-leopold-w101568960/p1-1400.webp 1400w",
+     "w": 1024,
+     "h": 640,
+     "category": "interior",
+     "alt": "Eetcafé Leopold: the interior",
+     "credit": "hotelleopold.be",
+     "credit_url": "https://www.hotelleopold.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-eetcafe-leopold-w101568960/p2-800.webp",
+     "thumb": "img/places/brugge/osm-eetcafe-leopold-w101568960/p2-400.webp",
+     "srcset": "img/places/brugge/osm-eetcafe-leopold-w101568960/p2-400.webp 400w, img/places/brugge/osm-eetcafe-leopold-w101568960/p2-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Eetcafé Leopold: food",
+     "credit": "hotelleopold.be",
+     "credit_url": "https://www.hotelleopold.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-eetcafe-leopold-w101568960/p3-800.webp",
+     "thumb": "img/places/brugge/osm-eetcafe-leopold-w101568960/p3-400.webp",
+     "srcset": "img/places/brugge/osm-eetcafe-leopold-w101568960/p3-400.webp 400w, img/places/brugge/osm-eetcafe-leopold-w101568960/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Eetcafé Leopold: the outside",
+     "credit": "hotelleopold.be",
+     "credit_url": "https://www.hotelleopold.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-eetcafe-leopold-w101568960/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-l-etna-w329897288": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-l-etna-w329897288/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-l-etna-w329897288/p1-700.webp",
+     "srcset": "img/places/brugge/osm-l-etna-w329897288/p1-700.webp 700w, img/places/brugge/osm-l-etna-w329897288/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "l'Etna: the interior",
+     "credit": "ristorante-pizzeria-etna.be",
+     "credit_url": "https://ristorante-pizzeria-etna.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-l-etna-w329897288/p2-800.webp",
+     "thumb": "img/places/brugge/osm-l-etna-w329897288/p2-400.webp",
+     "srcset": "img/places/brugge/osm-l-etna-w329897288/p2-400.webp 400w, img/places/brugge/osm-l-etna-w329897288/p2-800.webp 800w",
+     "w": 800,
+     "h": 463,
+     "category": "food",
+     "alt": "l'Etna: food",
+     "credit": "ristorante-pizzeria-etna.be",
+     "credit_url": "https://ristorante-pizzeria-etna.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-l-etna-w329897288/p3-800.webp",
+     "thumb": "img/places/brugge/osm-l-etna-w329897288/p3-400.webp",
+     "srcset": "img/places/brugge/osm-l-etna-w329897288/p3-400.webp 400w, img/places/brugge/osm-l-etna-w329897288/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "l'Etna: the interior",
+     "credit": "ristorante-pizzeria-etna.be",
+     "credit_url": "https://ristorante-pizzeria-etna.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-l-etna-w329897288/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-la-civiere-d-or-w102141364": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-la-civiere-d-or-w102141364/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-la-civiere-d-or-w102141364/p1-700.webp",
+     "srcset": "img/places/brugge/osm-la-civiere-d-or-w102141364/p1-700.webp 700w, img/places/brugge/osm-la-civiere-d-or-w102141364/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "La Civière d'Or: the interior",
+     "credit": "lacivieredor.com",
+     "credit_url": "https://lacivieredor.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-la-civiere-d-or-w102141364/p2-800.webp",
+     "thumb": "img/places/brugge/osm-la-civiere-d-or-w102141364/p2-400.webp",
+     "srcset": "img/places/brugge/osm-la-civiere-d-or-w102141364/p2-400.webp 400w, img/places/brugge/osm-la-civiere-d-or-w102141364/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "La Civière d'Or: the interior",
+     "credit": "lacivieredor.com",
+     "credit_url": "https://lacivieredor.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-la-civiere-d-or-w102141364/p3-800.webp",
+     "thumb": "img/places/brugge/osm-la-civiere-d-or-w102141364/p3-400.webp",
+     "srcset": "img/places/brugge/osm-la-civiere-d-or-w102141364/p3-400.webp 400w, img/places/brugge/osm-la-civiere-d-or-w102141364/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "La Civière d'Or: the interior",
+     "credit": "lacivieredor.com",
+     "credit_url": "https://lacivieredor.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-la-civiere-d-or-w102141364/p4-800.webp",
+     "thumb": "img/places/brugge/osm-la-civiere-d-or-w102141364/p4-400.webp",
+     "srcset": "img/places/brugge/osm-la-civiere-d-or-w102141364/p4-400.webp 400w, img/places/brugge/osm-la-civiere-d-or-w102141364/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "La Civière d'Or: the interior",
+     "credit": "lacivieredor.com",
+     "credit_url": "https://lacivieredor.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-la-civiere-d-or-w102141364/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-restaurant-sint-joris-w102141369": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-restaurant-sint-joris-w102141369/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-restaurant-sint-joris-w102141369/p1-700.webp",
+     "srcset": "img/places/brugge/osm-restaurant-sint-joris-w102141369/p1-700.webp 700w, img/places/brugge/osm-restaurant-sint-joris-w102141369/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 790,
+     "category": "exterior",
+     "alt": "Restaurant Sint-Joris: the outside",
+     "credit": "restaurant-sintjoris.be",
+     "credit_url": "https://restaurant-sintjoris.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-restaurant-sint-joris-w102141369/p2-800.webp",
+     "thumb": "img/places/brugge/osm-restaurant-sint-joris-w102141369/p2-400.webp",
+     "srcset": "img/places/brugge/osm-restaurant-sint-joris-w102141369/p2-400.webp 400w, img/places/brugge/osm-restaurant-sint-joris-w102141369/p2-800.webp 800w",
+     "w": 800,
+     "h": 1420,
+     "category": "interior",
+     "alt": "Restaurant Sint-Joris: the interior",
+     "credit": "restaurant-sintjoris.be",
+     "credit_url": "https://restaurant-sintjoris.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-restaurant-sint-joris-w102141369/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-soup-plus-w102150153": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-soup-plus-w102150153/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-soup-plus-w102150153/p1-700.webp",
+     "srcset": "img/places/brugge/osm-soup-plus-w102150153/p1-700.webp 700w, img/places/brugge/osm-soup-plus-w102150153/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "exterior",
+     "alt": "Soup Plus: the outside",
+     "credit": "soepplus.be",
+     "credit_url": "https://soepplus.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-soup-plus-w102150153/p2-800.webp",
+     "thumb": "img/places/brugge/osm-soup-plus-w102150153/p2-400.webp",
+     "srcset": "img/places/brugge/osm-soup-plus-w102150153/p2-400.webp 400w, img/places/brugge/osm-soup-plus-w102150153/p2-800.webp 800w",
+     "w": 800,
+     "h": 337,
+     "category": "food",
+     "alt": "Soup Plus: food",
+     "credit": "soepplus.be",
+     "credit_url": "https://soepplus.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-soup-plus-w102150153/p3-800.webp",
+     "thumb": "img/places/brugge/osm-soup-plus-w102150153/p3-400.webp",
+     "srcset": "img/places/brugge/osm-soup-plus-w102150153/p3-400.webp 400w, img/places/brugge/osm-soup-plus-w102150153/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Soup Plus: food",
+     "credit": "soepplus.be",
+     "credit_url": "https://soepplus.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-soup-plus-w102150153/p4-800.webp",
+     "thumb": "img/places/brugge/osm-soup-plus-w102150153/p4-400.webp",
+     "srcset": "img/places/brugge/osm-soup-plus-w102150153/p4-400.webp 400w, img/places/brugge/osm-soup-plus-w102150153/p4-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Soup Plus: food",
+     "credit": "soepplus.be",
+     "credit_url": "https://soepplus.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-soup-plus-w102150153/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-t-bagientje-n6697294185": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-t-bagientje-n6697294185/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-t-bagientje-n6697294185/p1-700.webp",
+     "srcset": "img/places/brugge/osm-t-bagientje-n6697294185/p1-700.webp 700w, img/places/brugge/osm-t-bagientje-n6697294185/p1-1400.webp 1400w",
+     "w": 1040,
+     "h": 560,
+     "category": "exterior",
+     "alt": "'t Bagientje: the outside",
+     "credit": "bagientje.be",
+     "credit_url": "https://bagientje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-bagientje-n6697294185/p2-800.webp",
+     "thumb": "img/places/brugge/osm-t-bagientje-n6697294185/p2-400.webp",
+     "srcset": "img/places/brugge/osm-t-bagientje-n6697294185/p2-400.webp 400w, img/places/brugge/osm-t-bagientje-n6697294185/p2-800.webp 800w",
+     "w": 800,
+     "h": 431,
+     "category": "food",
+     "alt": "'t Bagientje: food",
+     "credit": "bagientje.be",
+     "credit_url": "https://bagientje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-bagientje-n6697294185/p3-800.webp",
+     "thumb": "img/places/brugge/osm-t-bagientje-n6697294185/p3-400.webp",
+     "srcset": "img/places/brugge/osm-t-bagientje-n6697294185/p3-400.webp 400w, img/places/brugge/osm-t-bagientje-n6697294185/p3-800.webp 800w",
+     "w": 800,
+     "h": 431,
+     "category": "food",
+     "alt": "'t Bagientje: food",
+     "credit": "bagientje.be",
+     "credit_url": "https://bagientje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-t-bagientje-n6697294185/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-t-lammetje-n4946506621": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-t-lammetje-n4946506621/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-t-lammetje-n4946506621/p1-700.webp",
+     "srcset": "img/places/brugge/osm-t-lammetje-n4946506621/p1-700.webp 700w, img/places/brugge/osm-t-lammetje-n4946506621/p1-1400.webp 1400w",
+     "w": 738,
+     "h": 480,
+     "category": "food",
+     "alt": "'t Lammetje: food",
+     "credit": "tlammetje.be",
+     "credit_url": "https://tlammetje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-lammetje-n4946506621/p2-800.webp",
+     "thumb": "img/places/brugge/osm-t-lammetje-n4946506621/p2-400.webp",
+     "srcset": "img/places/brugge/osm-t-lammetje-n4946506621/p2-400.webp 400w, img/places/brugge/osm-t-lammetje-n4946506621/p2-800.webp 800w",
+     "w": 738,
+     "h": 480,
+     "category": "food",
+     "alt": "'t Lammetje: food",
+     "credit": "tlammetje.be",
+     "credit_url": "https://tlammetje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-lammetje-n4946506621/p3-800.webp",
+     "thumb": "img/places/brugge/osm-t-lammetje-n4946506621/p3-400.webp",
+     "srcset": "img/places/brugge/osm-t-lammetje-n4946506621/p3-400.webp 400w, img/places/brugge/osm-t-lammetje-n4946506621/p3-800.webp 800w",
+     "w": 738,
+     "h": 480,
+     "category": "food",
+     "alt": "'t Lammetje: food",
+     "credit": "tlammetje.be",
+     "credit_url": "https://tlammetje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-lammetje-n4946506621/p4-800.webp",
+     "thumb": "img/places/brugge/osm-t-lammetje-n4946506621/p4-400.webp",
+     "srcset": "img/places/brugge/osm-t-lammetje-n4946506621/p4-400.webp 400w, img/places/brugge/osm-t-lammetje-n4946506621/p4-800.webp 800w",
+     "w": 738,
+     "h": 480,
+     "category": "food",
+     "alt": "'t Lammetje: food",
+     "credit": "tlammetje.be",
+     "credit_url": "https://tlammetje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-t-lammetje-n4946506621/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-t-voutje-w417053582": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-t-voutje-w417053582/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-t-voutje-w417053582/p1-700.webp",
+     "srcset": "img/places/brugge/osm-t-voutje-w417053582/p1-700.webp 700w, img/places/brugge/osm-t-voutje-w417053582/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 620,
+     "category": "interior",
+     "alt": "'t Voutje: the interior",
+     "credit": "restauranttvoutje.be",
+     "credit_url": "https://www.restauranttvoutje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-voutje-w417053582/p2-800.webp",
+     "thumb": "img/places/brugge/osm-t-voutje-w417053582/p2-400.webp",
+     "srcset": "img/places/brugge/osm-t-voutje-w417053582/p2-400.webp 400w, img/places/brugge/osm-t-voutje-w417053582/p2-800.webp 800w",
+     "w": 800,
+     "h": 354,
+     "category": "exterior",
+     "alt": "'t Voutje: the outside",
+     "credit": "restauranttvoutje.be",
+     "credit_url": "https://www.restauranttvoutje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-voutje-w417053582/p3-800.webp",
+     "thumb": "img/places/brugge/osm-t-voutje-w417053582/p3-400.webp",
+     "srcset": "img/places/brugge/osm-t-voutje-w417053582/p3-400.webp 400w, img/places/brugge/osm-t-voutje-w417053582/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "'t Voutje: the interior",
+     "credit": "restauranttvoutje.be",
+     "credit_url": "https://www.restauranttvoutje.be/NL/sfeerbeelden/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-t-voutje-w417053582/p4-800.webp",
+     "thumb": "img/places/brugge/osm-t-voutje-w417053582/p4-400.webp",
+     "srcset": "img/places/brugge/osm-t-voutje-w417053582/p4-400.webp 400w, img/places/brugge/osm-t-voutje-w417053582/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "'t Voutje: the outside",
+     "credit": "restauranttvoutje.be",
+     "credit_url": "https://www.restauranttvoutje.be/NL/sfeerbeelden/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-t-voutje-w417053582/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-tenzin-momo-n14064169270": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-tenzin-momo-n14064169270/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-tenzin-momo-n14064169270/p1-700.webp",
+     "srcset": "img/places/brugge/osm-tenzin-momo-n14064169270/p1-700.webp 700w, img/places/brugge/osm-tenzin-momo-n14064169270/p1-1400.webp 1400w",
+     "w": 1284,
+     "h": 845,
+     "category": "food",
+     "alt": "Tenzin Momo: food",
+     "credit": "tenzinbrugge.weebly.com",
+     "credit_url": "https://tenzinbrugge.weebly.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-tenzin-momo-n14064169270/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-terra-promessa-n11144943947": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-terra-promessa-n11144943947/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-terra-promessa-n11144943947/p1-700.webp",
+     "srcset": "img/places/brugge/osm-terra-promessa-n11144943947/p1-700.webp 700w, img/places/brugge/osm-terra-promessa-n11144943947/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 681,
+     "category": "interior",
+     "alt": "Terra Promessa: the interior",
+     "credit": "terra-promessa.be",
+     "credit_url": "https://www.terra-promessa.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-terra-promessa-n11144943947/p2-800.webp",
+     "thumb": "img/places/brugge/osm-terra-promessa-n11144943947/p2-400.webp",
+     "srcset": "img/places/brugge/osm-terra-promessa-n11144943947/p2-400.webp 400w, img/places/brugge/osm-terra-promessa-n11144943947/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Terra Promessa: the outside",
+     "credit": "terra-promessa.be",
+     "credit_url": "https://www.terra-promessa.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-terra-promessa-n11144943947/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-the-boathouse-n9934069450": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-the-boathouse-n9934069450/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-the-boathouse-n9934069450/p1-700.webp",
+     "srcset": "img/places/brugge/osm-the-boathouse-n9934069450/p1-700.webp 700w, img/places/brugge/osm-the-boathouse-n9934069450/p1-1400.webp 1400w",
+     "w": 1366,
+     "h": 900,
+     "category": "interior",
+     "alt": "The boathouse: the interior",
+     "credit": "bistro-the-boathouse.be",
+     "credit_url": "https://www.bistro-the-boathouse.be/menus",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-the-boathouse-n9934069450/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-tom-s-diner-n6817223586": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-tom-s-diner-n6817223586/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-tom-s-diner-n6817223586/p1-700.webp",
+     "srcset": "img/places/brugge/osm-tom-s-diner-n6817223586/p1-700.webp 700w, img/places/brugge/osm-tom-s-diner-n6817223586/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Tom's Diner: the interior",
+     "credit": "tomsdiner.be",
+     "credit_url": "https://www.tomsdiner.be/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-tom-s-diner-n6817223586/p2-800.webp",
+     "thumb": "img/places/brugge/osm-tom-s-diner-n6817223586/p2-400.webp",
+     "srcset": "img/places/brugge/osm-tom-s-diner-n6817223586/p2-400.webp 400w, img/places/brugge/osm-tom-s-diner-n6817223586/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Tom's Diner: food",
+     "credit": "tomsdiner.be",
+     "credit_url": "https://www.tomsdiner.be/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-tom-s-diner-n6817223586/p3-800.webp",
+     "thumb": "img/places/brugge/osm-tom-s-diner-n6817223586/p3-400.webp",
+     "srcset": "img/places/brugge/osm-tom-s-diner-n6817223586/p3-400.webp 400w, img/places/brugge/osm-tom-s-diner-n6817223586/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Tom's Diner: food",
+     "credit": "tomsdiner.be",
+     "credit_url": "https://www.tomsdiner.be/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-tom-s-diner-n6817223586/p4-800.webp",
+     "thumb": "img/places/brugge/osm-tom-s-diner-n6817223586/p4-400.webp",
+     "srcset": "img/places/brugge/osm-tom-s-diner-n6817223586/p4-400.webp 400w, img/places/brugge/osm-tom-s-diner-n6817223586/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "exterior",
+     "alt": "Tom's Diner: the outside",
+     "credit": "tomsdiner.be",
+     "credit_url": "https://www.tomsdiner.be/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-tom-s-diner-n6817223586/p5-800.webp",
+     "thumb": "img/places/brugge/osm-tom-s-diner-n6817223586/p5-400.webp",
+     "srcset": "img/places/brugge/osm-tom-s-diner-n6817223586/p5-400.webp 400w, img/places/brugge/osm-tom-s-diner-n6817223586/p5-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "interior",
+     "alt": "Tom's Diner: the interior",
+     "credit": "tomsdiner.be",
+     "credit_url": "https://www.tomsdiner.be/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-tom-s-diner-n6817223586/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-trattoria-murano-w114994756": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-trattoria-murano-w114994756/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-trattoria-murano-w114994756/p1-700.webp",
+     "srcset": "img/places/brugge/osm-trattoria-murano-w114994756/p1-700.webp 700w, img/places/brugge/osm-trattoria-murano-w114994756/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 961,
+     "category": "food",
+     "alt": "Trattoria Murano: food",
+     "credit": "muranobrugge.com",
+     "credit_url": "https://www.muranobrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-trattoria-murano-w114994756/p2-800.webp",
+     "thumb": "img/places/brugge/osm-trattoria-murano-w114994756/p2-400.webp",
+     "srcset": "img/places/brugge/osm-trattoria-murano-w114994756/p2-400.webp 400w, img/places/brugge/osm-trattoria-murano-w114994756/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Trattoria Murano: food",
+     "credit": "muranobrugge.com",
+     "credit_url": "https://www.muranobrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-trattoria-murano-w114994756/p3-800.webp",
+     "thumb": "img/places/brugge/osm-trattoria-murano-w114994756/p3-400.webp",
+     "srcset": "img/places/brugge/osm-trattoria-murano-w114994756/p3-400.webp 400w, img/places/brugge/osm-trattoria-murano-w114994756/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Trattoria Murano: food",
+     "credit": "muranobrugge.com",
+     "credit_url": "https://www.muranobrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-trattoria-murano-w114994756/p4-800.webp",
+     "thumb": "img/places/brugge/osm-trattoria-murano-w114994756/p4-400.webp",
+     "srcset": "img/places/brugge/osm-trattoria-murano-w114994756/p4-400.webp 400w, img/places/brugge/osm-trattoria-murano-w114994756/p4-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Trattoria Murano: food",
+     "credit": "muranobrugge.com",
+     "credit_url": "https://www.muranobrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-trattoria-murano-w114994756/p5-800.webp",
+     "thumb": "img/places/brugge/osm-trattoria-murano-w114994756/p5-400.webp",
+     "srcset": "img/places/brugge/osm-trattoria-murano-w114994756/p5-400.webp 400w, img/places/brugge/osm-trattoria-murano-w114994756/p5-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Trattoria Murano: food",
+     "credit": "muranobrugge.com",
+     "credit_url": "https://www.muranobrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-trattoria-murano-w114994756/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
