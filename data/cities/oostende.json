@@ -4176,23 +4176,7 @@
    "notes": "Hosts wine masterclasses (Dec 2026-Feb 2027) and a cheese & wine evening (29 Jan 2027).",
    "instagramSource": "link on own website, Visit Oostende listing or press article",
    "opened": "2026-07",
-   "origin": "research-2026-10-25",
-   "photos": [
-    {
-     "src": "img/places/oostende/the-wine-gallery/1-wine-1600.webp",
-     "thumb": "img/places/oostende/the-wine-gallery/1-wine-800.webp",
-     "srcset": "img/places/oostende/the-wine-gallery/1-wine-800.webp 800w, img/places/oostende/the-wine-gallery/1-wine-1600.webp 1600w",
-     "w": 720,
-     "h": 1280,
-     "category": "food",
-     "alt": "The Wine Gallery: wine",
-     "credit": "@thewinegallery.be on Instagram",
-     "credit_url": "https://www.instagram.com/thewinegallery.be/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "origin": "research-2026-10-25"
   },
   {
    "id": "la-boheme",

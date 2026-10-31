@@ -19,14 +19,14 @@
      "src": "img/places/gent/a-food-affair/p1-1400.webp",
      "thumb": "img/places/gent/a-food-affair/p1-700.webp",
      "srcset": "img/places/gent/a-food-affair/p1-700.webp 700w, img/places/gent/a-food-affair/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
+     "w": 1400,
+     "h": 933,
      "category": "interior",
      "alt": "A Food Affair: the interior",
-     "credit": "@a_food_affair_gent on Instagram",
-     "credit_url": "https://www.instagram.com/a_food_affair_gent/",
+     "credit": "afoodaffair.be",
+     "credit_url": "https://afoodaffair.be/fotos",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     },
     {
@@ -34,7 +34,7 @@
      "thumb": "img/places/gent/a-food-affair/p2-400.webp",
      "srcset": "img/places/gent/a-food-affair/p2-400.webp 400w, img/places/gent/a-food-affair/p2-800.webp 800w",
      "w": 800,
-     "h": 1067,
+     "h": 1000,
      "category": "interior",
      "alt": "A Food Affair: the interior",
      "credit": "@a_food_affair_gent on Instagram",
@@ -47,30 +47,6 @@
    "pick": {
     "type": "photo",
     "src": "img/places/gent/a-food-affair/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "afsnis": {
-   "photos": [
-    {
-     "src": "img/places/gent/afsnis/p1-1400.webp",
-     "thumb": "img/places/gent/afsnis/p1-700.webp",
-     "srcset": "img/places/gent/afsnis/p1-700.webp 700w, img/places/gent/afsnis/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 788,
-     "category": "exterior",
-     "alt": "Afsnis: the outside",
-     "credit": "Afsnis via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/afsnis",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/afsnis/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -679,8 +655,22 @@
      "src": "img/places/gent/bask/p1-1400.webp",
      "thumb": "img/places/gent/bask/p1-700.webp",
      "srcset": "img/places/gent/bask/p1-700.webp 700w, img/places/gent/bask/p1-1400.webp 1400w",
-     "w": 901,
+     "w": 1067,
      "h": 1600,
+     "category": "food",
+     "alt": "Bask: food",
+     "credit": "bask.be",
+     "credit_url": "https://www.bask.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/bask/p2-800.webp",
+     "thumb": "img/places/gent/bask/p2-400.webp",
+     "srcset": "img/places/gent/bask/p2-400.webp 400w, img/places/gent/bask/p2-800.webp 800w",
+     "w": 800,
+     "h": 1421,
      "category": "food",
      "alt": "Bask: food",
      "credit": "@bask.gent on Instagram",
@@ -690,15 +680,15 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/bask/p2-800.webp",
-     "thumb": "img/places/gent/bask/p2-400.webp",
-     "srcset": "img/places/gent/bask/p2-400.webp 400w, img/places/gent/bask/p2-800.webp 800w",
+     "src": "img/places/gent/bask/p3-800.webp",
+     "thumb": "img/places/gent/bask/p3-400.webp",
+     "srcset": "img/places/gent/bask/p3-400.webp 400w, img/places/gent/bask/p3-800.webp 800w",
      "w": 800,
      "h": 1200,
      "category": "food",
      "alt": "Bask: food",
      "credit": "bask.be",
-     "credit_url": "https://www.bask.be/",
+     "credit_url": "https://www.bask.be/beleving",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -1002,44 +992,6 @@
    "only": true,
    "layout": "mix"
   },
-  "cafe-albatros": {
-   "photos": [
-    {
-     "src": "img/places/gent/cafe-albatros/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-albatros/p1-700.webp",
-     "srcset": "img/places/gent/cafe-albatros/p1-700.webp 700w, img/places/gent/cafe-albatros/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "interior",
-     "alt": "Café Albatros: the interior",
-     "credit": "Lars Crommelinck via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-albatros",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-albatros/p2-800.webp",
-     "thumb": "img/places/gent/cafe-albatros/p2-400.webp",
-     "srcset": "img/places/gent/cafe-albatros/p2-400.webp 400w, img/places/gent/cafe-albatros/p2-800.webp 800w",
-     "w": 756,
-     "h": 1133,
-     "category": "interior",
-     "alt": "Café Albatros: the interior",
-     "credit": "Café Albatros (own website), photo Lars Crommelinck",
-     "credit_url": "https://cafealbatros.be/img/asset/YXNzZXRzL2ltYWdlcy92ZW50dXJhLC1nZW50LShiZWxnaXVtKS0tLWxhcnMtY3JvbW1lbGluY2stNTE5LmpwZw/ventura,-gent-%28belgium%29---lars-crommelinck-519.jpg?fm=webp&q=90&fit=crop-46-21-1&w=756&h=1133&s=90ef541d7682c94f2e2b4e94a0e70273",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/cafe-albatros/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "cafe-copain": {
    "posts": [
     {
@@ -1067,174 +1019,6 @@
    "pick": {
     "type": "photo",
     "src": "img/places/gent/cafe-copain/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "cafe-den-turk": {
-   "photos": [
-    {
-     "src": "img/places/gent/cafe-den-turk/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-den-turk/p1-700.webp",
-     "srcset": "img/places/gent/cafe-den-turk/p1-700.webp 700w, img/places/gent/cafe-den-turk/p1-1400.webp 1400w",
-     "w": 1152,
-     "h": 768,
-     "category": "interior",
-     "alt": "Café Den Turk: the interior",
-     "credit": "Café Den Turk (own website)",
-     "credit_url": "https://cafedenturk.be/images/slider/IMG_6064%20(Medium).jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-den-turk/p2-800.webp",
-     "thumb": "img/places/gent/cafe-den-turk/p2-400.webp",
-     "srcset": "img/places/gent/cafe-den-turk/p2-400.webp 400w, img/places/gent/cafe-den-turk/p2-800.webp 800w",
-     "w": 800,
-     "h": 534,
-     "category": "interior",
-     "alt": "Café Den Turk: the interior",
-     "credit": "Café Den Turk (own website)",
-     "credit_url": "https://cafedenturk.be/images/slider/04.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-den-turk/p3-800.webp",
-     "thumb": "img/places/gent/cafe-den-turk/p3-400.webp",
-     "srcset": "img/places/gent/cafe-den-turk/p3-400.webp 400w, img/places/gent/cafe-den-turk/p3-800.webp 800w",
-     "w": 800,
-     "h": 534,
-     "category": "exterior",
-     "alt": "Café Den Turk: the outside",
-     "credit": "Café Den Turk (own website)",
-     "credit_url": "https://cafedenturk.be/images/slider/01.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/cafe-den-turk/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "cafe-folklore": {
-   "photos": [
-    {
-     "src": "img/places/gent/cafe-folklore/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-folklore/p1-700.webp",
-     "srcset": "img/places/gent/cafe-folklore/p1-700.webp 700w, img/places/gent/cafe-folklore/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "interior",
-     "alt": "Café Folklore: the interior",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-folklore",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-folklore/p2-800.webp",
-     "thumb": "img/places/gent/cafe-folklore/p2-400.webp",
-     "srcset": "img/places/gent/cafe-folklore/p2-400.webp 400w, img/places/gent/cafe-folklore/p2-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "interior",
-     "staff": true,
-     "alt": "Café Folklore: staff at work",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-folklore",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/cafe-folklore/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "cafe-gitane": {
-   "photos": [
-    {
-     "src": "img/places/gent/cafe-gitane/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-gitane/p1-700.webp",
-     "srcset": "img/places/gent/cafe-gitane/p1-700.webp 700w, img/places/gent/cafe-gitane/p1-1400.webp 1400w",
-     "w": 1200,
-     "h": 1600,
-     "category": "interior",
-     "alt": "Café Gitane: the interior",
-     "credit": "Café Gitane via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-gitane/p2-800.webp",
-     "thumb": "img/places/gent/cafe-gitane/p2-400.webp",
-     "srcset": "img/places/gent/cafe-gitane/p2-400.webp 400w, img/places/gent/cafe-gitane/p2-800.webp 800w",
-     "w": 738,
-     "h": 1600,
-     "category": "interior",
-     "alt": "Café Gitane: the interior",
-     "credit": "Café Gitane via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-gitane/p3-800.webp",
-     "thumb": "img/places/gent/cafe-gitane/p3-400.webp",
-     "srcset": "img/places/gent/cafe-gitane/p3-400.webp 400w, img/places/gent/cafe-gitane/p3-800.webp 800w",
-     "w": 738,
-     "h": 1600,
-     "category": "exterior",
-     "alt": "Café Gitane: the outside",
-     "credit": "Café Gitane via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/cafe-gitane/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "cafe-guido": {
-   "photos": [
-    {
-     "src": "img/places/gent/cafe-guido/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-guido/p1-700.webp",
-     "srcset": "img/places/gent/cafe-guido/p1-700.webp 700w, img/places/gent/cafe-guido/p1-1400.webp 1400w",
-     "w": 1050,
-     "h": 1400,
-     "category": "interior",
-     "staff": true,
-     "alt": "Café Guido: staff at work",
-     "credit": "Café Guido (own website)",
-     "credit_url": "https://cafeguido.be/_next/image?url=%2Fimg%2F_MG_7902245.jpg&w=3840&q=75&dpl=dpl_3iSPsKEguLEqFsTXaMXnwWeuKPj1",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/cafe-guido/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1270,63 +1054,39 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-recup-gent/p2-800.webp",
+     "thumb": "img/places/gent/cafe-recup-gent/p2-400.webp",
+     "srcset": "img/places/gent/cafe-recup-gent/p2-400.webp 400w, img/places/gent/cafe-recup-gent/p2-800.webp 800w",
+     "w": 800,
+     "h": 932,
+     "category": "food",
+     "alt": "Cafe Recup: food",
+     "credit": "caferecup.eu",
+     "credit_url": "https://www.caferecup.eu/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-recup-gent/p3-800.webp",
+     "thumb": "img/places/gent/cafe-recup-gent/p3-400.webp",
+     "srcset": "img/places/gent/cafe-recup-gent/p3-400.webp 400w, img/places/gent/cafe-recup-gent/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Cafe Recup: food",
+     "credit": "@cafe.recup on Instagram",
+     "credit_url": "https://www.instagram.com/cafe.recup/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
     "src": "img/places/gent/cafe-recup-gent/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "cafe-romain": {
-   "photos": [
-    {
-     "src": "img/places/gent/cafe-romain/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-romain/p1-700.webp",
-     "srcset": "img/places/gent/cafe-romain/p1-700.webp 700w, img/places/gent/cafe-romain/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 1050,
-     "category": "interior",
-     "alt": "Café Romain: the interior",
-     "credit": "Café Romain via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-romain/p2-800.webp",
-     "thumb": "img/places/gent/cafe-romain/p2-400.webp",
-     "srcset": "img/places/gent/cafe-romain/p2-400.webp 400w, img/places/gent/cafe-romain/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "interior",
-     "alt": "Café Romain: the interior",
-     "credit": "Café Romain via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-romain/p3-800.webp",
-     "thumb": "img/places/gent/cafe-romain/p3-400.webp",
-     "srcset": "img/places/gent/cafe-romain/p3-400.webp 400w, img/places/gent/cafe-romain/p3-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "exterior",
-     "alt": "Café Romain: the outside",
-     "credit": "Café Romain via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/cafe-romain/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1341,8 +1101,8 @@
      "h": 1133,
      "category": "interior",
      "alt": "Café Ventura: the interior",
-     "credit": "Café Ventura (own website), photo Lars Crommelinck",
-     "credit_url": "https://cafeventura.be/img/asset/YXNzZXRzL2ltYWdlcy92ZW50dXJhLC1nZW50LShiZWxnaXVtKS0tLWxhcnMtY3JvbW1lbGluY2stNTAzLmpwZw/ventura,-gent-%28belgium%29---lars-crommelinck-503.jpg?fm=webp&q=90&fit=crop-50-50&w=756&h=1133&s=bb3d289688b0379ca79a3804150b79fc",
+     "credit": "cafeventura.be",
+     "credit_url": "https://cafeventura.be/about",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -1418,10 +1178,10 @@
      "srcset": "img/places/gent/commotie/p1-700.webp 700w, img/places/gent/commotie/p1-1400.webp 1400w",
      "w": 1400,
      "h": 1050,
-     "category": "exterior",
-     "alt": "Commotie: the outside",
+     "category": "interior",
+     "alt": "Commotie: the interior",
      "credit": "commotiegent.be",
-     "credit_url": "https://www.commotiegent.be/",
+     "credit_url": "https://www.commotiegent.be/sfeer",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -1431,6 +1191,20 @@
      "thumb": "img/places/gent/commotie/p2-400.webp",
      "srcset": "img/places/gent/commotie/p2-400.webp 400w, img/places/gent/commotie/p2-800.webp 800w",
      "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Commotie: food",
+     "credit": "commotiegent.be",
+     "credit_url": "https://www.commotiegent.be/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/commotie/p3-800.webp",
+     "thumb": "img/places/gent/commotie/p3-400.webp",
+     "srcset": "img/places/gent/commotie/p3-400.webp 400w, img/places/gent/commotie/p3-800.webp 800w",
+     "w": 800,
      "h": 1067,
      "category": "food",
      "alt": "Commotie: food",
@@ -1438,6 +1212,34 @@
      "credit_url": "https://www.instagram.com/commotie_/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/commotie/p4-800.webp",
+     "thumb": "img/places/gent/commotie/p4-400.webp",
+     "srcset": "img/places/gent/commotie/p4-400.webp 400w, img/places/gent/commotie/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Commotie: food",
+     "credit": "commotiegent.be",
+     "credit_url": "https://www.commotiegent.be/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/commotie/p5-800.webp",
+     "thumb": "img/places/gent/commotie/p5-400.webp",
+     "srcset": "img/places/gent/commotie/p5-400.webp 400w, img/places/gent/commotie/p5-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "Commotie: the outside",
+     "credit": "commotiegent.be",
+     "credit_url": "https://www.commotiegent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -1535,124 +1337,6 @@
    "pick": {
     "type": "photo",
     "src": "img/places/gent/de-dulle-griet/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "de-geus-van-gent": {
-   "photos": [
-    {
-     "src": "img/places/gent/de-geus-van-gent/p1-1400.webp",
-     "thumb": "img/places/gent/de-geus-van-gent/p1-700.webp",
-     "srcset": "img/places/gent/de-geus-van-gent/p1-700.webp 700w, img/places/gent/de-geus-van-gent/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 1050,
-     "category": "exterior",
-     "alt": "De Geus van Gent: the outside",
-     "credit": "Gerbrich Reynaert via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-geus-van-gent/p2-800.webp",
-     "thumb": "img/places/gent/de-geus-van-gent/p2-400.webp",
-     "srcset": "img/places/gent/de-geus-van-gent/p2-400.webp 400w, img/places/gent/de-geus-van-gent/p2-800.webp 800w",
-     "w": 800,
-     "h": 530,
-     "category": "exterior",
-     "alt": "De Geus van Gent: the outside",
-     "credit": "Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/de-geus-van-gent/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "de-maecht-van-ghent": {
-   "photos": [
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p1-1400.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p1-700.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p1-700.webp 700w, img/places/gent/de-maecht-van-ghent/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 2100,
-     "category": "interior",
-     "alt": "De Maecht van Ghent: the interior",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_170b7e9bed104c1ea3cb3767ad6926ef~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p2-800.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p2-400.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p2-400.webp 400w, img/places/gent/de-maecht-van-ghent/p2-800.webp 800w",
-     "w": 800,
-     "h": 532,
-     "category": "food",
-     "alt": "De Maecht van Ghent: food",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_b34500adf34b48cdb407bc5004c55bc7~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p3-800.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p3-400.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p3-400.webp 400w, img/places/gent/de-maecht-van-ghent/p3-800.webp 800w",
-     "w": 800,
-     "h": 1000,
-     "category": "drink",
-     "alt": "De Maecht van Ghent: drinks",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_d04a66c34af14423bbfa005bff267f35~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p4-800.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p4-400.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p4-400.webp 400w, img/places/gent/de-maecht-van-ghent/p4-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "interior",
-     "alt": "De Maecht van Ghent: the interior",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_80487dcc4ef64e57a2cb3778339ce598~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p5-800.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p5-400.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p5-400.webp 400w, img/places/gent/de-maecht-van-ghent/p5-800.webp 800w",
-     "w": 800,
-     "h": 999,
-     "category": "exterior",
-     "alt": "De Maecht van Ghent: the outside",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_502f18b2fd964521b906762aad89c253~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/de-maecht-van-ghent/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1760,7 +1444,21 @@
      "thumb": "img/places/gent/debra/p1-700.webp",
      "srcset": "img/places/gent/debra/p1-700.webp 700w, img/places/gent/debra/p1-1400.webp 1400w",
      "w": 1080,
-     "h": 1387,
+     "h": 1440,
+     "category": "exterior",
+     "alt": "DEBRA: the outside",
+     "credit": "@resto_debragent on Instagram",
+     "credit_url": "https://www.instagram.com/resto_debragent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/debra/p2-800.webp",
+     "thumb": "img/places/gent/debra/p2-400.webp",
+     "srcset": "img/places/gent/debra/p2-400.webp 400w, img/places/gent/debra/p2-800.webp 800w",
+     "w": 800,
+     "h": 1027,
      "category": "food",
      "alt": "DEBRA: food",
      "credit": "@resto_debragent on Instagram",
@@ -1942,62 +1640,45 @@
    "layout": "mix"
   },
   "ex-club-69-apero-dance-bar": {
-   "hold": "no people-free photo found (research): Own IG/site: only party/crowd photos with people and a logo"
-  },
-  "fari": {
    "photos": [
     {
-     "src": "img/places/gent/fari/p1-1400.webp",
-     "thumb": "img/places/gent/fari/p1-700.webp",
-     "srcset": "img/places/gent/fari/p1-700.webp 700w, img/places/gent/fari/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "interior",
-     "alt": "Fari: the interior",
-     "credit": "Fari (own website)",
-     "credit_url": "https://static.wixstatic.com/media/14246c_33c1ec4a0ec14aa9812cc4545a769289~mv2.jpg",
+     "src": "img/places/gent/ex-club-69-apero-dance-bar/p1-1400.webp",
+     "thumb": "img/places/gent/ex-club-69-apero-dance-bar/p1-700.webp",
+     "srcset": "img/places/gent/ex-club-69-apero-dance-bar/p1-700.webp 700w, img/places/gent/ex-club-69-apero-dance-bar/p1-1400.webp 1400w",
+     "w": 900,
+     "h": 900,
+     "category": "food",
+     "alt": "ex-club-69-apero-dance-bar: food",
+     "credit": "cafecopain.gent",
+     "credit_url": "https://cafecopain.gent/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/fari/p2-800.webp",
-     "thumb": "img/places/gent/fari/p2-400.webp",
-     "srcset": "img/places/gent/fari/p2-400.webp 400w, img/places/gent/fari/p2-800.webp 800w",
+     "src": "img/places/gent/ex-club-69-apero-dance-bar/p2-800.webp",
+     "thumb": "img/places/gent/ex-club-69-apero-dance-bar/p2-400.webp",
+     "srcset": "img/places/gent/ex-club-69-apero-dance-bar/p2-400.webp 400w, img/places/gent/ex-club-69-apero-dance-bar/p2-800.webp 800w",
      "w": 800,
-     "h": 533,
+     "h": 800,
      "category": "food",
-     "alt": "Fari: food",
-     "credit": "Fari (own website)",
-     "credit_url": "https://static.wixstatic.com/media/14246c_4050fa65ed154fb4b4a2e230712cee6f~mv2.jpg",
+     "alt": "ex-club-69-apero-dance-bar: food",
+     "credit": "cafecopain.gent",
+     "credit_url": "https://cafecopain.gent/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/fari/p3-800.webp",
-     "thumb": "img/places/gent/fari/p3-400.webp",
-     "srcset": "img/places/gent/fari/p3-400.webp 400w, img/places/gent/fari/p3-800.webp 800w",
+     "src": "img/places/gent/ex-club-69-apero-dance-bar/p3-800.webp",
+     "thumb": "img/places/gent/ex-club-69-apero-dance-bar/p3-400.webp",
+     "srcset": "img/places/gent/ex-club-69-apero-dance-bar/p3-400.webp 400w, img/places/gent/ex-club-69-apero-dance-bar/p3-800.webp 800w",
      "w": 800,
-     "h": 312,
+     "h": 800,
      "category": "food",
-     "alt": "Fari: food",
-     "credit": "Fari (own website)",
-     "credit_url": "https://static.wixstatic.com/media/14246c_d0070d550f824cadbc8c16f495d03866~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/fari/p4-800.webp",
-     "thumb": "img/places/gent/fari/p4-400.webp",
-     "srcset": "img/places/gent/fari/p4-400.webp 400w, img/places/gent/fari/p4-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "food",
-     "alt": "Fari: food",
-     "credit": "Fari (own website)",
-     "credit_url": "https://static.wixstatic.com/media/14246c_c751eb5d2442403b9c079294d6250d5b~mv2.jpg",
+     "alt": "ex-club-69-apero-dance-bar: food",
+     "credit": "cafecopain.gent",
+     "credit_url": "https://cafecopain.gent/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -2005,7 +1686,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/fari/p1-1400.webp"
+    "src": "img/places/gent/ex-club-69-apero-dance-bar/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2292,6 +1973,20 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/frankies/p2-800.webp",
+     "thumb": "img/places/gent/frankies/p2-400.webp",
+     "srcset": "img/places/gent/frankies/p2-400.webp 400w, img/places/gent/frankies/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Frankies: food",
+     "credit": "@frankiesgent on Instagram",
+     "credit_url": "https://www.instagram.com/frankiesgent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -2339,44 +2034,6 @@
    "only": true,
    "layout": "mix"
   },
-  "full-circle-coffee": {
-   "photos": [
-    {
-     "src": "img/places/gent/full-circle-coffee/p1-1400.webp",
-     "thumb": "img/places/gent/full-circle-coffee/p1-700.webp",
-     "srcset": "img/places/gent/full-circle-coffee/p1-700.webp 700w, img/places/gent/full-circle-coffee/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "interior",
-     "alt": "Full Circle Coffee: the interior",
-     "credit": "Full Circle Coffee (own website)",
-     "credit_url": "https://static.wixstatic.com/media/2a4c93_59f129a821a846c8b4e83601de1f6824~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/full-circle-coffee/p2-800.webp",
-     "thumb": "img/places/gent/full-circle-coffee/p2-400.webp",
-     "srcset": "img/places/gent/full-circle-coffee/p2-400.webp 400w, img/places/gent/full-circle-coffee/p2-800.webp 800w",
-     "w": 800,
-     "h": 530,
-     "category": "exterior",
-     "alt": "Full Circle Coffee: the outside",
-     "credit": "Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/full-circle-coffee",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/full-circle-coffee/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "funke": {
    "photos": [
     {
@@ -2407,96 +2064,20 @@
      "src": "img/places/gent/gillis/p1-1400.webp",
      "thumb": "img/places/gent/gillis/p1-700.webp",
      "srcset": "img/places/gent/gillis/p1-700.webp 700w, img/places/gent/gillis/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "w": 1400,
+     "h": 1050,
      "category": "food",
      "alt": "Gillis: food",
-     "credit": "@gillis_gent on Instagram",
-     "credit_url": "https://www.instagram.com/gillis_gent/",
+     "credit": "gillisgent.be",
+     "credit_url": "https://www.gillisgent.be/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
     "src": "img/places/gent/gillis/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "goya-coffee": {
-   "photos": [
-    {
-     "src": "img/places/gent/goya-coffee/p1-1400.webp",
-     "thumb": "img/places/gent/goya-coffee/p1-700.webp",
-     "srcset": "img/places/gent/goya-coffee/p1-700.webp 700w, img/places/gent/goya-coffee/p1-1400.webp 1400w",
-     "w": 768,
-     "h": 1024,
-     "category": "interior",
-     "alt": "Goya: the interior",
-     "credit": "Goya via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/goya",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/goya-coffee/p2-800.webp",
-     "thumb": "img/places/gent/goya-coffee/p2-400.webp",
-     "srcset": "img/places/gent/goya-coffee/p2-400.webp 400w, img/places/gent/goya-coffee/p2-800.webp 800w",
-     "w": 768,
-     "h": 1024,
-     "category": "interior",
-     "alt": "Goya: the interior",
-     "credit": "Goya via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/goya",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/goya-coffee/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "hey-frankie": {
-   "photos": [
-    {
-     "src": "img/places/gent/hey-frankie/p1-1400.webp",
-     "thumb": "img/places/gent/hey-frankie/p1-700.webp",
-     "srcset": "img/places/gent/hey-frankie/p1-700.webp 700w, img/places/gent/hey-frankie/p1-1400.webp 1400w",
-     "w": 1200,
-     "h": 900,
-     "category": "exterior",
-     "alt": "Hey Frankie: the outside",
-     "credit": "Hey Frankie (own website)",
-     "credit_url": "https://freight.cargo.site/w/1200/i/7f4e4e04cfe2676af67953340c0c2a7e4cc7663e57fa1209e4354070277e9dad/IMG_3178.JPG",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/hey-frankie/p2-800.webp",
-     "thumb": "img/places/gent/hey-frankie/p2-400.webp",
-     "srcset": "img/places/gent/hey-frankie/p2-400.webp 400w, img/places/gent/hey-frankie/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "interior",
-     "alt": "Hey Frankie: the interior",
-     "credit": "Hey Frankie via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/hey-frankie",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/hey-frankie/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2578,8 +2159,22 @@
      "src": "img/places/gent/il-mezzogiorno/p1-1400.webp",
      "thumb": "img/places/gent/il-mezzogiorno/p1-700.webp",
      "srcset": "img/places/gent/il-mezzogiorno/p1-700.webp 700w, img/places/gent/il-mezzogiorno/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "w": 1400,
+     "h": 1055,
+     "category": "food",
+     "alt": "Il Mezzogiorno: food",
+     "credit": "ilmezzogiorno.be",
+     "credit_url": "https://www.ilmezzogiorno.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/il-mezzogiorno/p2-800.webp",
+     "thumb": "img/places/gent/il-mezzogiorno/p2-400.webp",
+     "srcset": "img/places/gent/il-mezzogiorno/p2-400.webp 400w, img/places/gent/il-mezzogiorno/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
      "category": "food",
      "alt": "Il Mezzogiorno: food",
      "credit": "@il_mezzogiorno on Instagram",
@@ -2589,17 +2184,17 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/il-mezzogiorno/p2-800.webp",
-     "thumb": "img/places/gent/il-mezzogiorno/p2-400.webp",
-     "srcset": "img/places/gent/il-mezzogiorno/p2-400.webp 400w, img/places/gent/il-mezzogiorno/p2-800.webp 800w",
+     "src": "img/places/gent/il-mezzogiorno/p3-800.webp",
+     "thumb": "img/places/gent/il-mezzogiorno/p3-400.webp",
+     "srcset": "img/places/gent/il-mezzogiorno/p3-400.webp 400w, img/places/gent/il-mezzogiorno/p3-800.webp 800w",
      "w": 800,
-     "h": 1067,
-     "category": "drink",
-     "alt": "Il Mezzogiorno: drinks",
-     "credit": "@il_mezzogiorno on Instagram",
-     "credit_url": "https://www.instagram.com/il_mezzogiorno/",
+     "h": 1200,
+     "category": "food",
+     "alt": "Il Mezzogiorno: food",
+     "credit": "ilmezzogiorno.be",
+     "credit_url": "https://www.ilmezzogiorno.be/pictures/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -2860,6 +2455,20 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/karel-de-stoute/p3-800.webp",
+     "thumb": "img/places/gent/karel-de-stoute/p3-400.webp",
+     "srcset": "img/places/gent/karel-de-stoute/p3-400.webp 400w, img/places/gent/karel-de-stoute/p3-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Karel de Stoute: food",
+     "credit": "restkareldestoute.be",
+     "credit_url": "https://restkareldestoute.be/restaurant",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -2900,44 +2509,6 @@
    "only": true,
    "layout": "mix"
   },
-  "kinky-star": {
-   "photos": [
-    {
-     "src": "img/places/gent/kinky-star/p1-1400.webp",
-     "thumb": "img/places/gent/kinky-star/p1-700.webp",
-     "srcset": "img/places/gent/kinky-star/p1-700.webp 700w, img/places/gent/kinky-star/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "exterior",
-     "alt": "Kinky Star: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/kinky-star",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/kinky-star/p2-800.webp",
-     "thumb": "img/places/gent/kinky-star/p2-400.webp",
-     "srcset": "img/places/gent/kinky-star/p2-400.webp 400w, img/places/gent/kinky-star/p2-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "exterior",
-     "alt": "Kinky Star: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/kinky-star",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/kinky-star/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "klaar": {
    "posts": [
     {
@@ -2967,8 +2538,8 @@
      "srcset": "img/places/gent/klaar/p2-400.webp 400w, img/places/gent/klaar/p2-800.webp 800w",
      "w": 800,
      "h": 800,
-     "category": "exterior",
-     "alt": "Klaar: the outside",
+     "category": "interior",
+     "alt": "Klaar: the interior",
      "credit": "@klaargent on Instagram",
      "credit_url": "https://www.instagram.com/klaargent/",
      "license": "the place's own photo",
@@ -3047,30 +2618,6 @@
   },
   "kultur-bakery": {
    "hold": "no people-free photo found (research): IG is text ads, a newspaper screenshot, drawings and staff hands; no clean people-free photo"
-  },
-  "la-matta": {
-   "photos": [
-    {
-     "src": "img/places/gent/la-matta/p1-1400.webp",
-     "thumb": "img/places/gent/la-matta/p1-700.webp",
-     "srcset": "img/places/gent/la-matta/p1-700.webp 700w, img/places/gent/la-matta/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
-     "category": "food",
-     "alt": "La Matta: food",
-     "credit": "@lamattagent via Instagram",
-     "credit_url": "https://www.instagram.com/p/DeMZWJNoILh/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/la-matta/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
   },
   "le-baan-thai": {
    "photos": [
@@ -3273,7 +2820,29 @@
      "category": "drink",
      "origin": "research"
     }
-   ]
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/limonada/p1-1400.webp",
+     "thumb": "img/places/gent/limonada/p1-700.webp",
+     "srcset": "img/places/gent/limonada/p1-700.webp 700w, img/places/gent/limonada/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "drink",
+     "alt": "Limonada: drinks",
+     "credit": "@limonadagent on Instagram",
+     "credit_url": "https://www.instagram.com/limonadagent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/limonada/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "little-red-rooster": {
    "hold": "only photos with people found"
@@ -3556,8 +3125,22 @@
      "src": "img/places/gent/marijn-coertjens/p1-1400.webp",
      "thumb": "img/places/gent/marijn-coertjens/p1-700.webp",
      "srcset": "img/places/gent/marijn-coertjens/p1-700.webp 700w, img/places/gent/marijn-coertjens/p1-1400.webp 1400w",
-     "w": 933,
-     "h": 1400,
+     "w": 1080,
+     "h": 1350,
+     "category": "exterior",
+     "alt": "Marijn Coertjens: the outside",
+     "credit": "@marijncoertjens on Instagram",
+     "credit_url": "https://www.instagram.com/marijncoertjens/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/marijn-coertjens/p2-800.webp",
+     "thumb": "img/places/gent/marijn-coertjens/p2-400.webp",
+     "srcset": "img/places/gent/marijn-coertjens/p2-400.webp 400w, img/places/gent/marijn-coertjens/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
      "category": "food",
      "alt": "Marijn Coertjens: food",
      "credit": "marijncoertjens.be",
@@ -3654,12 +3237,68 @@
      "src": "img/places/gent/midi/p1-1400.webp",
      "thumb": "img/places/gent/midi/p1-700.webp",
      "srcset": "img/places/gent/midi/p1-700.webp 700w, img/places/gent/midi/p1-1400.webp 1400w",
-     "w": 1067,
-     "h": 1600,
+     "w": 1400,
+     "h": 934,
      "category": "interior",
      "alt": "Midi: the interior",
      "credit": "brasseriemidi.be",
-     "credit_url": "https://www.brasseriemidi.be/nl",
+     "credit_url": "https://www.brasseriemidi.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/midi/p2-800.webp",
+     "thumb": "img/places/gent/midi/p2-400.webp",
+     "srcset": "img/places/gent/midi/p2-400.webp 400w, img/places/gent/midi/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Midi: food",
+     "credit": "brasseriemidi.be",
+     "credit_url": "https://www.brasseriemidi.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/midi/p3-800.webp",
+     "thumb": "img/places/gent/midi/p3-400.webp",
+     "srcset": "img/places/gent/midi/p3-400.webp 400w, img/places/gent/midi/p3-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Midi: food",
+     "credit": "brasseriemidi.be",
+     "credit_url": "https://www.brasseriemidi.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/midi/p4-800.webp",
+     "thumb": "img/places/gent/midi/p4-400.webp",
+     "srcset": "img/places/gent/midi/p4-400.webp 400w, img/places/gent/midi/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Midi: food",
+     "credit": "brasseriemidi.be",
+     "credit_url": "https://www.brasseriemidi.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/midi/p5-800.webp",
+     "thumb": "img/places/gent/midi/p5-400.webp",
+     "srcset": "img/places/gent/midi/p5-400.webp 400w, img/places/gent/midi/p5-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "exterior",
+     "alt": "Midi: the outside",
+     "credit": "brasseriemidi.be",
+     "credit_url": "https://www.brasseriemidi.be/nl/sfeer",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -3922,22 +3561,54 @@
   "ona-nederkouter": {
    "photos": [
     {
-     "src": "https://cdn.prod.website-files.com/63a026886949fb8dc6ca72cd/63d79699d184c45547b388e4_ONA_kerst22-046-p-1600.webp",
-     "thumb": "https://cdn.prod.website-files.com/63a026886949fb8dc6ca72cd/63d79699d184c45547b388e4_ONA_kerst22-046-p-1600.webp",
-     "w": 1143,
-     "h": 1600,
-     "hotlink": true,
-     "category": "drink",
-     "source": "website",
+     "src": "img/places/gent/ona-nederkouter/p1-1400.webp",
+     "thumb": "img/places/gent/ona-nederkouter/p1-700.webp",
+     "srcset": "img/places/gent/ona-nederkouter/p1-700.webp 700w, img/places/gent/ona-nederkouter/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 913,
+     "category": "interior",
+     "alt": "ONA Nederkouter: the interior",
      "credit": "ona.gent",
-     "credit_url": "https://www.ona.gent/",
-     "alt": ""
+     "credit_url": "https://www.ona.gent/jouw-feest",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/ona-nederkouter/p2-800.webp",
+     "thumb": "img/places/gent/ona-nederkouter/p2-400.webp",
+     "srcset": "img/places/gent/ona-nederkouter/p2-400.webp 400w, img/places/gent/ona-nederkouter/p2-800.webp 800w",
+     "w": 800,
+     "h": 1141,
+     "category": "food",
+     "alt": "ONA Nederkouter: food",
+     "credit": "ona.gent",
+     "credit_url": "https://www.ona.gent/jouw-feest",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/ona-nederkouter/p3-800.webp",
+     "thumb": "img/places/gent/ona-nederkouter/p3-400.webp",
+     "srcset": "img/places/gent/ona-nederkouter/p3-400.webp 400w, img/places/gent/ona-nederkouter/p3-800.webp 800w",
+     "w": 800,
+     "h": 919,
+     "category": "interior",
+     "alt": "ONA Nederkouter: the interior",
+     "credit": "ona.gent",
+     "credit_url": "https://www.ona.gent/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "https://cdn.prod.website-files.com/63a026886949fb8dc6ca72cd/63d79699d184c45547b388e4_ONA_kerst22-046-p-1600.webp"
-   }
+    "src": "img/places/gent/ona-nederkouter/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "or-coffee-lab-gent": {
    "photos": [
@@ -4586,11 +4257,11 @@
      "thumb": "img/places/gent/osm-alberto-expresso-n12563401136/p1-700.webp",
      "srcset": "img/places/gent/osm-alberto-expresso-n12563401136/p1-700.webp 700w, img/places/gent/osm-alberto-expresso-n12563401136/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 2100,
+     "h": 1866,
      "category": "interior",
      "alt": "Alberto Expresso: the interior",
      "credit": "albertoexpresso.com",
-     "credit_url": "https://www.albertoexpresso.com/",
+     "credit_url": "https://www.albertoexpresso.com/about",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -4599,6 +4270,34 @@
      "src": "img/places/gent/osm-alberto-expresso-n12563401136/p2-800.webp",
      "thumb": "img/places/gent/osm-alberto-expresso-n12563401136/p2-400.webp",
      "srcset": "img/places/gent/osm-alberto-expresso-n12563401136/p2-400.webp 400w, img/places/gent/osm-alberto-expresso-n12563401136/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Alberto Expresso: food",
+     "credit": "albertoexpresso.com",
+     "credit_url": "https://www.albertoexpresso.com/menu-nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-alberto-expresso-n12563401136/p3-800.webp",
+     "thumb": "img/places/gent/osm-alberto-expresso-n12563401136/p3-400.webp",
+     "srcset": "img/places/gent/osm-alberto-expresso-n12563401136/p3-400.webp 400w, img/places/gent/osm-alberto-expresso-n12563401136/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Alberto Expresso: food",
+     "credit": "albertoexpresso.com",
+     "credit_url": "https://www.albertoexpresso.com/menu-nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-alberto-expresso-n12563401136/p4-800.webp",
+     "thumb": "img/places/gent/osm-alberto-expresso-n12563401136/p4-400.webp",
+     "srcset": "img/places/gent/osm-alberto-expresso-n12563401136/p4-400.webp 400w, img/places/gent/osm-alberto-expresso-n12563401136/p4-800.webp 800w",
      "w": 800,
      "h": 800,
      "category": "drink",
@@ -4844,6 +4543,20 @@
      "credit_url": "https://www.instagram.com/amforagent/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-amfora-n2273855341/p3-800.webp",
+     "thumb": "img/places/gent/osm-amfora-n2273855341/p3-400.webp",
+     "srcset": "img/places/gent/osm-amfora-n2273855341/p3-400.webp 400w, img/places/gent/osm-amfora-n2273855341/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Amfora: food",
+     "credit": "amfora-gent.com",
+     "credit_url": "https://www.amfora-gent.com/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -5113,12 +4826,12 @@
      "srcset": "img/places/gent/osm-aperto-chiuso-n8911924546/p1-700.webp 700w, img/places/gent/osm-aperto-chiuso-n8911924546/p1-1400.webp 1400w",
      "w": 960,
      "h": 960,
-     "category": "exterior",
-     "alt": "Aperto Chiuso: the outside",
-     "credit": "apertochiuso.be",
-     "credit_url": "https://apertochiuso.be/",
+     "category": "interior",
+     "alt": "Aperto Chiuso: the interior",
+     "credit": "@aperto.chiuso on Instagram",
+     "credit_url": "https://www.instagram.com/aperto.chiuso/",
      "license": "the place's own photo",
-     "source": "own_website",
+     "source": "own_instagram",
      "noPeopleChecked": true
     },
     {
@@ -5133,6 +4846,20 @@
      "credit_url": "https://www.instagram.com/aperto.chiuso/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-aperto-chiuso-n8911924546/p3-800.webp",
+     "thumb": "img/places/gent/osm-aperto-chiuso-n8911924546/p3-400.webp",
+     "srcset": "img/places/gent/osm-aperto-chiuso-n8911924546/p3-400.webp 400w, img/places/gent/osm-aperto-chiuso-n8911924546/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "exterior",
+     "alt": "Aperto Chiuso: the outside",
+     "credit": "apertochiuso.be",
+     "credit_url": "https://apertochiuso.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -5155,6 +4882,20 @@
      "alt": "Artevelde Brouwerij: the interior",
      "credit": "artevelde.be",
      "credit_url": "https://artevelde.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-artevelde-brouwerij-n11352130039/p2-800.webp",
+     "thumb": "img/places/gent/osm-artevelde-brouwerij-n11352130039/p2-400.webp",
+     "srcset": "img/places/gent/osm-artevelde-brouwerij-n11352130039/p2-400.webp 400w, img/places/gent/osm-artevelde-brouwerij-n11352130039/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "interior",
+     "alt": "Artevelde Brouwerij: the interior",
+     "credit": "artevelde.be",
+     "credit_url": "https://artevelde.be/zaalverhuur/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -5285,8 +5026,36 @@
      "src": "img/places/gent/osm-athene-n1472907400/p1-1400.webp",
      "thumb": "img/places/gent/osm-athene-n1472907400/p1-700.webp",
      "srcset": "img/places/gent/osm-athene-n1472907400/p1-700.webp 700w, img/places/gent/osm-athene-n1472907400/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "w": 1400,
+     "h": 933,
+     "category": "exterior",
+     "alt": "Athene: the outside",
+     "credit": "restaurantathene.be",
+     "credit_url": "https://restaurantathene.be/nl/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-athene-n1472907400/p2-800.webp",
+     "thumb": "img/places/gent/osm-athene-n1472907400/p2-400.webp",
+     "srcset": "img/places/gent/osm-athene-n1472907400/p2-400.webp 400w, img/places/gent/osm-athene-n1472907400/p2-800.webp 800w",
+     "w": 800,
+     "h": 341,
+     "category": "food",
+     "alt": "Athene: food",
+     "credit": "restaurantathene.be",
+     "credit_url": "https://restaurantathene.be/nl/kaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-athene-n1472907400/p3-800.webp",
+     "thumb": "img/places/gent/osm-athene-n1472907400/p3-400.webp",
+     "srcset": "img/places/gent/osm-athene-n1472907400/p3-400.webp 400w, img/places/gent/osm-athene-n1472907400/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
      "category": "food",
      "alt": "Athene: food",
      "credit": "@restaurant.athene.gent on Instagram",
@@ -5296,9 +5065,9 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/osm-athene-n1472907400/p2-800.webp",
-     "thumb": "img/places/gent/osm-athene-n1472907400/p2-400.webp",
-     "srcset": "img/places/gent/osm-athene-n1472907400/p2-400.webp 400w, img/places/gent/osm-athene-n1472907400/p2-800.webp 800w",
+     "src": "img/places/gent/osm-athene-n1472907400/p4-800.webp",
+     "thumb": "img/places/gent/osm-athene-n1472907400/p4-400.webp",
+     "srcset": "img/places/gent/osm-athene-n1472907400/p4-400.webp 400w, img/places/gent/osm-athene-n1472907400/p4-800.webp 800w",
      "w": 800,
      "h": 1000,
      "category": "food",
@@ -5569,8 +5338,50 @@
      "src": "img/places/gent/osm-bar-terroir-n9248442976/p1-1400.webp",
      "thumb": "img/places/gent/osm-bar-terroir-n9248442976/p1-700.webp",
      "srcset": "img/places/gent/osm-bar-terroir-n9248442976/p1-700.webp 700w, img/places/gent/osm-bar-terroir-n9248442976/p1-1400.webp 1400w",
-     "w": 1000,
-     "h": 667,
+     "w": 1400,
+     "h": 931,
+     "category": "interior",
+     "alt": "Bar Terroir: the interior",
+     "credit": "barterroir.be",
+     "credit_url": "https://www.barterroir.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bar-terroir-n9248442976/p2-800.webp",
+     "thumb": "img/places/gent/osm-bar-terroir-n9248442976/p2-400.webp",
+     "srcset": "img/places/gent/osm-bar-terroir-n9248442976/p2-400.webp 400w, img/places/gent/osm-bar-terroir-n9248442976/p2-800.webp 800w",
+     "w": 800,
+     "h": 1202,
+     "category": "food",
+     "alt": "Bar Terroir: food",
+     "credit": "barterroir.be",
+     "credit_url": "https://www.barterroir.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bar-terroir-n9248442976/p3-800.webp",
+     "thumb": "img/places/gent/osm-bar-terroir-n9248442976/p3-400.webp",
+     "srcset": "img/places/gent/osm-bar-terroir-n9248442976/p3-400.webp 400w, img/places/gent/osm-bar-terroir-n9248442976/p3-800.webp 800w",
+     "w": 800,
+     "h": 532,
+     "category": "drink",
+     "alt": "Bar Terroir: drinks",
+     "credit": "barterroir.be",
+     "credit_url": "https://www.barterroir.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bar-terroir-n9248442976/p4-800.webp",
+     "thumb": "img/places/gent/osm-bar-terroir-n9248442976/p4-400.webp",
+     "srcset": "img/places/gent/osm-bar-terroir-n9248442976/p4-400.webp 400w, img/places/gent/osm-bar-terroir-n9248442976/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
      "category": "interior",
      "alt": "Bar Terroir: the interior",
      "credit": "barterroir.be",
@@ -5813,12 +5624,12 @@
      "src": "img/places/gent/osm-beroia-n13950447752/p1-1400.webp",
      "thumb": "img/places/gent/osm-beroia-n13950447752/p1-700.webp",
      "srcset": "img/places/gent/osm-beroia-n13950447752/p1-700.webp 700w, img/places/gent/osm-beroia-n13950447752/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 616,
+     "w": 1366,
+     "h": 900,
      "category": "interior",
      "alt": "Beroia: the interior",
      "credit": "beroia.be",
-     "credit_url": "https://www.beroia.be/",
+     "credit_url": "https://www.beroia.be/about",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -5831,6 +5642,34 @@
      "h": 318,
      "category": "food",
      "alt": "Beroia: food",
+     "credit": "beroia.be",
+     "credit_url": "https://www.beroia.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-beroia-n13950447752/p3-800.webp",
+     "thumb": "img/places/gent/osm-beroia-n13950447752/p3-400.webp",
+     "srcset": "img/places/gent/osm-beroia-n13950447752/p3-400.webp 400w, img/places/gent/osm-beroia-n13950447752/p3-800.webp 800w",
+     "w": 800,
+     "h": 446,
+     "category": "food",
+     "alt": "Beroia: food",
+     "credit": "beroia.be",
+     "credit_url": "https://www.beroia.be/general-1",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-beroia-n13950447752/p4-800.webp",
+     "thumb": "img/places/gent/osm-beroia-n13950447752/p4-400.webp",
+     "srcset": "img/places/gent/osm-beroia-n13950447752/p4-400.webp 400w, img/places/gent/osm-beroia-n13950447752/p4-800.webp 800w",
+     "w": 800,
+     "h": 456,
+     "category": "interior",
+     "alt": "Beroia: the interior",
      "credit": "beroia.be",
      "credit_url": "https://www.beroia.be/",
      "license": "the place's own photo",
@@ -6054,8 +5893,8 @@
      "src": "img/places/gent/osm-bluesette-w491661561/p1-1400.webp",
      "thumb": "img/places/gent/osm-bluesette-w491661561/p1-700.webp",
      "srcset": "img/places/gent/osm-bluesette-w491661561/p1-700.webp 700w, img/places/gent/osm-bluesette-w491661561/p1-1400.webp 1400w",
-     "w": 640,
-     "h": 480,
+     "w": 1400,
+     "h": 1050,
      "category": "interior",
      "alt": "Bluesette: the interior",
      "credit": "eetcafebluesette.be",
@@ -6072,6 +5911,20 @@
      "h": 480,
      "category": "drink",
      "alt": "Bluesette: drinks",
+     "credit": "eetcafebluesette.be",
+     "credit_url": "https://www.eetcafebluesette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bluesette-w491661561/p3-800.webp",
+     "thumb": "img/places/gent/osm-bluesette-w491661561/p3-400.webp",
+     "srcset": "img/places/gent/osm-bluesette-w491661561/p3-400.webp 400w, img/places/gent/osm-bluesette-w491661561/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "Bluesette: the interior",
      "credit": "eetcafebluesette.be",
      "credit_url": "https://www.eetcafebluesette.be/",
      "license": "the place's own photo",
@@ -6165,8 +6018,22 @@
      "src": "img/places/gent/osm-bodega-n5822374282/p1-1400.webp",
      "thumb": "img/places/gent/osm-bodega-n5822374282/p1-700.webp",
      "srcset": "img/places/gent/osm-bodega-n5822374282/p1-700.webp 700w, img/places/gent/osm-bodega-n5822374282/p1-1400.webp 1400w",
-     "w": 980,
-     "h": 1094,
+     "w": 800,
+     "h": 559,
+     "category": "food",
+     "alt": "Bodega: food",
+     "credit": "bodega.gent",
+     "credit_url": "https://www.bodega.gent/2nd-gallery",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-bodega-n5822374282/p2-800.webp",
+     "thumb": "img/places/gent/osm-bodega-n5822374282/p2-400.webp",
+     "srcset": "img/places/gent/osm-bodega-n5822374282/p2-400.webp 400w, img/places/gent/osm-bodega-n5822374282/p2-800.webp 800w",
+     "w": 800,
+     "h": 893,
      "category": "food",
      "alt": "Bodega: food",
      "credit": "bodega.gent",
@@ -7344,6 +7211,20 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-casa-de-las-tapas-n3394491370/p3-800.webp",
+     "thumb": "img/places/gent/osm-casa-de-las-tapas-n3394491370/p3-400.webp",
+     "srcset": "img/places/gent/osm-casa-de-las-tapas-n3394491370/p3-400.webp 400w, img/places/gent/osm-casa-de-las-tapas-n3394491370/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Casa de las Tapas: food",
+     "credit": "@lacasadelastapas on Instagram",
+     "credit_url": "https://www.instagram.com/lacasadelastapas/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -7420,6 +7301,20 @@
      "alt": "Chapeluur: food",
      "credit": "chapeluur.eu",
      "credit_url": "https://chapeluur.eu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-chapeluur-n11154672486/p2-800.webp",
+     "thumb": "img/places/gent/osm-chapeluur-n11154672486/p2-400.webp",
+     "srcset": "img/places/gent/osm-chapeluur-n11154672486/p2-400.webp 400w, img/places/gent/osm-chapeluur-n11154672486/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Chapeluur: food",
+     "credit": "chapeluur.eu",
+     "credit_url": "https://chapeluur.eu/foodtruck.html",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -8392,30 +8287,6 @@
    "only": true,
    "layout": "mix"
   },
-  "osm-de-gekroonde-hoofden-n818880413": {
-   "photos": [
-    {
-     "src": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-1400.webp",
-     "thumb": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-700.webp",
-     "srcset": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-700.webp 700w, img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-1400.webp 1400w",
-     "w": 850,
-     "h": 568,
-     "category": "exterior",
-     "alt": "De Gekroonde Hoofden: the outside",
-     "credit": "degekroondehoofden.be",
-     "credit_url": "https://degekroondehoofden.be/restaurants/gent/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "osm-de-gentsche-koekedoos-n1295215428": {
    "hold": "no people-free photo found (research): website: no usable images (small/logo only); no Instagram on record"
   },
@@ -8428,14 +8299,14 @@
      "src": "img/places/gent/osm-de-grill-n1212159256/p1-1400.webp",
      "thumb": "img/places/gent/osm-de-grill-n1212159256/p1-700.webp",
      "srcset": "img/places/gent/osm-de-grill-n1212159256/p1-700.webp 700w, img/places/gent/osm-de-grill-n1212159256/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 720,
-     "category": "exterior",
-     "alt": "De Grill: the outside",
-     "credit": "@restaurant_de_grill on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant_de_grill/",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "De Grill: the interior",
+     "credit": "degrill.be",
+     "credit_url": "https://www.degrill.be/nl/sfeer",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     },
     {
@@ -8450,6 +8321,48 @@
      "credit_url": "https://www.degrill.be/nl",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-grill-n1212159256/p3-800.webp",
+     "thumb": "img/places/gent/osm-de-grill-n1212159256/p3-400.webp",
+     "srcset": "img/places/gent/osm-de-grill-n1212159256/p3-400.webp 400w, img/places/gent/osm-de-grill-n1212159256/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "De Grill: food",
+     "credit": "degrill.be",
+     "credit_url": "https://www.degrill.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-grill-n1212159256/p4-800.webp",
+     "thumb": "img/places/gent/osm-de-grill-n1212159256/p4-400.webp",
+     "srcset": "img/places/gent/osm-de-grill-n1212159256/p4-400.webp 400w, img/places/gent/osm-de-grill-n1212159256/p4-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "De Grill: food",
+     "credit": "degrill.be",
+     "credit_url": "https://www.degrill.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-grill-n1212159256/p5-800.webp",
+     "thumb": "img/places/gent/osm-de-grill-n1212159256/p5-400.webp",
+     "srcset": "img/places/gent/osm-de-grill-n1212159256/p5-400.webp 400w, img/places/gent/osm-de-grill-n1212159256/p5-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "exterior",
+     "alt": "De Grill: the outside",
+     "credit": "@restaurant_de_grill on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_de_grill/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -8472,7 +8385,29 @@
      "category": "food",
      "origin": "research"
     }
-   ]
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/osm-de-kastart-n1409718536/p1-1400.webp",
+     "thumb": "img/places/gent/osm-de-kastart-n1409718536/p1-700.webp",
+     "srcset": "img/places/gent/osm-de-kastart-n1409718536/p1-700.webp 700w, img/places/gent/osm-de-kastart-n1409718536/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "exterior",
+     "alt": "De Kastart: the outside",
+     "credit": "@de.kastart on Instagram",
+     "credit_url": "https://www.instagram.com/de.kastart/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-de-kastart-n1409718536/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-de-kokmadam-eetbar-n14065917962": {
    "posts": [
@@ -8544,6 +8479,20 @@
      "src": "img/places/gent/osm-de-kuip-van-gent-n1532794995/p2-800.webp",
      "thumb": "img/places/gent/osm-de-kuip-van-gent-n1532794995/p2-400.webp",
      "srcset": "img/places/gent/osm-de-kuip-van-gent-n1532794995/p2-400.webp 400w, img/places/gent/osm-de-kuip-van-gent-n1532794995/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "De kuip van Gent: food",
+     "credit": "dekuipvangent.be",
+     "credit_url": "https://dekuipvangent.be/kaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-kuip-van-gent-n1532794995/p3-800.webp",
+     "thumb": "img/places/gent/osm-de-kuip-van-gent-n1532794995/p3-400.webp",
+     "srcset": "img/places/gent/osm-de-kuip-van-gent-n1532794995/p3-400.webp 400w, img/places/gent/osm-de-kuip-van-gent-n1532794995/p3-800.webp 800w",
      "w": 800,
      "h": 534,
      "category": "exterior",
@@ -8813,8 +8762,36 @@
      "src": "img/places/gent/osm-de-salopette-n6942598387/p1-1400.webp",
      "thumb": "img/places/gent/osm-de-salopette-n6942598387/p1-700.webp",
      "srcset": "img/places/gent/osm-de-salopette-n6942598387/p1-700.webp 700w, img/places/gent/osm-de-salopette-n6942598387/p1-1400.webp 1400w",
-     "w": 1200,
-     "h": 1600,
+     "w": 1400,
+     "h": 1099,
+     "category": "interior",
+     "alt": "De Salopette: the interior",
+     "credit": "de-salopette.be",
+     "credit_url": "https://www.de-salopette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-salopette-n6942598387/p2-800.webp",
+     "thumb": "img/places/gent/osm-de-salopette-n6942598387/p2-400.webp",
+     "srcset": "img/places/gent/osm-de-salopette-n6942598387/p2-400.webp 400w, img/places/gent/osm-de-salopette-n6942598387/p2-800.webp 800w",
+     "w": 800,
+     "h": 405,
+     "category": "food",
+     "alt": "De Salopette: food",
+     "credit": "de-salopette.be",
+     "credit_url": "https://www.de-salopette.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-salopette-n6942598387/p3-800.webp",
+     "thumb": "img/places/gent/osm-de-salopette-n6942598387/p3-400.webp",
+     "srcset": "img/places/gent/osm-de-salopette-n6942598387/p3-400.webp 400w, img/places/gent/osm-de-salopette-n6942598387/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
      "category": "drink",
      "alt": "De Salopette: drinks",
      "credit": "de-salopette.be",
@@ -8884,7 +8861,28 @@
    "layout": "mix"
   },
   "osm-de-warempel-n11276973781": {
-   "hold": "only photos with people found (guests)"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-de-warempel-n11276973781/p1-1400.webp",
+     "thumb": "img/places/gent/osm-de-warempel-n11276973781/p1-700.webp",
+     "srcset": "img/places/gent/osm-de-warempel-n11276973781/p1-700.webp 700w, img/places/gent/osm-de-warempel-n11276973781/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1439,
+     "category": "interior",
+     "alt": "De Warempel: the interior",
+     "credit": "warempel.be",
+     "credit_url": "https://warempel.be/nl/event-venue",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-de-warempel-n11276973781/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-de-witte-leeuw-n2617862001": {
    "photos": [
@@ -10156,6 +10154,34 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-freddie-n12684199822/p2-800.webp",
+     "thumb": "img/places/gent/osm-freddie-n12684199822/p2-400.webp",
+     "srcset": "img/places/gent/osm-freddie-n12684199822/p2-400.webp 400w, img/places/gent/osm-freddie-n12684199822/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Freddie: food",
+     "credit": "@freddiekoffie on Instagram",
+     "credit_url": "https://www.instagram.com/freddiekoffie/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-freddie-n12684199822/p3-800.webp",
+     "thumb": "img/places/gent/osm-freddie-n12684199822/p3-400.webp",
+     "srcset": "img/places/gent/osm-freddie-n12684199822/p3-400.webp 400w, img/places/gent/osm-freddie-n12684199822/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "interior",
+     "alt": "Freddie: the interior",
+     "credit": "@freddiekoffie on Instagram",
+     "credit_url": "https://www.instagram.com/freddiekoffie/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -10248,6 +10274,48 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-gaston-n10127493290/p2-800.webp",
+     "thumb": "img/places/gent/osm-gaston-n10127493290/p2-400.webp",
+     "srcset": "img/places/gent/osm-gaston-n10127493290/p2-400.webp 400w, img/places/gent/osm-gaston-n10127493290/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Gaston: food",
+     "credit": "@gaston_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gaston_gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-gaston-n10127493290/p3-800.webp",
+     "thumb": "img/places/gent/osm-gaston-n10127493290/p3-400.webp",
+     "srcset": "img/places/gent/osm-gaston-n10127493290/p3-400.webp 400w, img/places/gent/osm-gaston-n10127493290/p3-800.webp 800w",
+     "w": 603,
+     "h": 905,
+     "category": "food",
+     "alt": "Gaston: food",
+     "credit": "rooftopgaston.be",
+     "credit_url": "https://rooftopgaston.be/nl/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-gaston-n10127493290/p4-800.webp",
+     "thumb": "img/places/gent/osm-gaston-n10127493290/p4-400.webp",
+     "srcset": "img/places/gent/osm-gaston-n10127493290/p4-400.webp 400w, img/places/gent/osm-gaston-n10127493290/p4-800.webp 800w",
+     "w": 603,
+     "h": 904,
+     "category": "food",
+     "alt": "Gaston: food",
+     "credit": "rooftopgaston.be",
+     "credit_url": "https://rooftopgaston.be/nl/over-ons/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -10329,11 +10397,39 @@
      "thumb": "img/places/gent/osm-giardino-di-roma-n3842499430/p1-700.webp",
      "srcset": "img/places/gent/osm-giardino-di-roma-n3842499430/p1-700.webp 700w, img/places/gent/osm-giardino-di-roma-n3842499430/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 933,
+     "h": 1156,
+     "category": "food",
+     "alt": "Giardino di Roma: food",
+     "credit": "giardinodiroma.be",
+     "credit_url": "https://giardinodiroma.be/nl/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-giardino-di-roma-n3842499430/p2-800.webp",
+     "thumb": "img/places/gent/osm-giardino-di-roma-n3842499430/p2-400.webp",
+     "srcset": "img/places/gent/osm-giardino-di-roma-n3842499430/p2-400.webp 400w, img/places/gent/osm-giardino-di-roma-n3842499430/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
      "category": "food",
      "alt": "Giardino di Roma: food",
      "credit": "giardinodiroma.be",
      "credit_url": "https://giardinodiroma.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-giardino-di-roma-n3842499430/p3-800.webp",
+     "thumb": "img/places/gent/osm-giardino-di-roma-n3842499430/p3-400.webp",
+     "srcset": "img/places/gent/osm-giardino-di-roma-n3842499430/p3-400.webp 400w, img/places/gent/osm-giardino-di-roma-n3842499430/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Giardino di Roma: food",
+     "credit": "giardinodiroma.be",
+     "credit_url": "https://giardinodiroma.be/nl/kaart",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -10426,9 +10522,23 @@
      "thumb": "img/places/gent/osm-godot-n1532798351/p2-400.webp",
      "srcset": "img/places/gent/osm-godot-n1532798351/p2-400.webp 400w, img/places/gent/osm-godot-n1532798351/p2-800.webp 800w",
      "w": 800,
-     "h": 1421,
-     "category": "drink",
-     "alt": "Godot: drinks",
+     "h": 800,
+     "category": "food",
+     "alt": "Godot: food",
+     "credit": "godotgent.be",
+     "credit_url": "https://www.godotgent.be/nl/groepen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-godot-n1532798351/p3-800.webp",
+     "thumb": "img/places/gent/osm-godot-n1532798351/p3-400.webp",
+     "srcset": "img/places/gent/osm-godot-n1532798351/p3-400.webp 400w, img/places/gent/osm-godot-n1532798351/p3-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "Godot: food",
      "credit": "@godotgentofficial on Instagram",
      "credit_url": "https://www.instagram.com/godotgentofficial/",
      "license": "the place's own photo",
@@ -10739,12 +10849,12 @@
      "src": "img/places/gent/osm-ha-n1856827457/p1-1400.webp",
      "thumb": "img/places/gent/osm-ha-n1856827457/p1-700.webp",
      "srcset": "img/places/gent/osm-ha-n1856827457/p1-700.webp 700w, img/places/gent/osm-ha-n1856827457/p1-1400.webp 1400w",
-     "w": 768,
-     "h": 768,
-     "category": "food",
-     "alt": "Ha': food",
+     "w": 1400,
+     "h": 912,
+     "category": "interior",
+     "alt": "Ha': the interior",
      "credit": "brasserieha.be",
-     "credit_url": "https://brasserieha.be/",
+     "credit_url": "https://brasserieha.be/over-ons/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -10759,6 +10869,34 @@
      "alt": "Ha': food",
      "credit": "brasserieha.be",
      "credit_url": "https://brasserieha.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ha-n1856827457/p3-800.webp",
+     "thumb": "img/places/gent/osm-ha-n1856827457/p3-400.webp",
+     "srcset": "img/places/gent/osm-ha-n1856827457/p3-400.webp 400w, img/places/gent/osm-ha-n1856827457/p3-800.webp 800w",
+     "w": 768,
+     "h": 768,
+     "category": "food",
+     "alt": "Ha': food",
+     "credit": "brasserieha.be",
+     "credit_url": "https://brasserieha.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ha-n1856827457/p4-800.webp",
+     "thumb": "img/places/gent/osm-ha-n1856827457/p4-400.webp",
+     "srcset": "img/places/gent/osm-ha-n1856827457/p4-400.webp 400w, img/places/gent/osm-ha-n1856827457/p4-800.webp 800w",
+     "w": 768,
+     "h": 1024,
+     "category": "food",
+     "alt": "Ha': food",
+     "credit": "brasserieha.be",
+     "credit_url": "https://brasserieha.be/diner/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -10995,7 +11133,28 @@
    "layout": "mix"
   },
   "osm-hey-joo-n12323883644": {
-   "hold": "no people-free photo found (research): only graphics/illustration"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-hey-joo-n12323883644/p1-1400.webp",
+     "thumb": "img/places/gent/osm-hey-joo-n12323883644/p1-700.webp",
+     "srcset": "img/places/gent/osm-hey-joo-n12323883644/p1-700.webp 700w, img/places/gent/osm-hey-joo-n12323883644/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 744,
+     "category": "food",
+     "alt": "Hey Joo: food",
+     "credit": "heyjoo.be",
+     "credit_url": "https://heyjoo.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-hey-joo-n12323883644/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-hola-food-n7004497033": {
    "photos": [
@@ -11635,6 +11794,48 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-jaggers-w102713996/p3-800.webp",
+     "thumb": "img/places/gent/osm-jaggers-w102713996/p3-400.webp",
+     "srcset": "img/places/gent/osm-jaggers-w102713996/p3-400.webp 400w, img/places/gent/osm-jaggers-w102713996/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Jaggers: food",
+     "credit": "jaggers.gent",
+     "credit_url": "https://www.jaggers.gent/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-jaggers-w102713996/p4-800.webp",
+     "thumb": "img/places/gent/osm-jaggers-w102713996/p4-400.webp",
+     "srcset": "img/places/gent/osm-jaggers-w102713996/p4-400.webp 400w, img/places/gent/osm-jaggers-w102713996/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "interior",
+     "alt": "Jaggers: the interior",
+     "credit": "jaggers.gent",
+     "credit_url": "https://www.jaggers.gent/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-jaggers-w102713996/p5-800.webp",
+     "thumb": "img/places/gent/osm-jaggers-w102713996/p5-400.webp",
+     "srcset": "img/places/gent/osm-jaggers-w102713996/p5-400.webp 400w, img/places/gent/osm-jaggers-w102713996/p5-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "interior",
+     "alt": "Jaggers: the interior",
+     "credit": "jaggers.gent",
+     "credit_url": "https://www.jaggers.gent/nl/Impressie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -11815,6 +12016,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-je-m-en-fish-n11164462432/p3-800.webp",
+     "thumb": "img/places/gent/osm-je-m-en-fish-n11164462432/p3-400.webp",
+     "srcset": "img/places/gent/osm-je-m-en-fish-n11164462432/p3-400.webp 400w, img/places/gent/osm-je-m-en-fish-n11164462432/p3-800.webp 800w",
+     "w": 800,
+     "h": 398,
+     "category": "food",
+     "alt": "Je m'en fish: food",
+     "credit": "jemenfish.gent",
+     "credit_url": "https://www.jemenfish.gent/nl/seafood-bar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -11918,7 +12133,28 @@
    "layout": "mix"
   },
   "osm-kaffee-change-n12941952165": {
-   "hold": "no people-free photo found (research): Own IG: interior shots contain people (staff/through door)"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-kaffee-change-n12941952165/p1-1400.webp",
+     "thumb": "img/places/gent/osm-kaffee-change-n12941952165/p1-700.webp",
+     "srcset": "img/places/gent/osm-kaffee-change-n12941952165/p1-700.webp 700w, img/places/gent/osm-kaffee-change-n12941952165/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "exterior",
+     "alt": "Kaffee Changé: the outside",
+     "credit": "@kaffee_change on Instagram",
+     "credit_url": "https://www.instagram.com/kaffee_change/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-kaffee-change-n12941952165/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-kaffie-is-kaffie-vzw-n12985197902": {
    "hold": "no people-free photo found (research): Own IG: illustrations, people, toys; no usable venue/food photo"
@@ -12663,11 +12899,53 @@
      "thumb": "img/places/gent/osm-le-homard-rouge-n11395904796/p2-400.webp",
      "srcset": "img/places/gent/osm-le-homard-rouge-n11395904796/p2-400.webp 400w, img/places/gent/osm-le-homard-rouge-n11395904796/p2-800.webp 800w",
      "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Le Homard Rouge: food",
+     "credit": "lehomardrouge.be",
+     "credit_url": "https://www.lehomardrouge.be/nl/galerij",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-le-homard-rouge-n11395904796/p3-800.webp",
+     "thumb": "img/places/gent/osm-le-homard-rouge-n11395904796/p3-400.webp",
+     "srcset": "img/places/gent/osm-le-homard-rouge-n11395904796/p3-400.webp 400w, img/places/gent/osm-le-homard-rouge-n11395904796/p3-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Le Homard Rouge: food",
+     "credit": "lehomardrouge.be",
+     "credit_url": "https://www.lehomardrouge.be/nl/galerij",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-le-homard-rouge-n11395904796/p4-800.webp",
+     "thumb": "img/places/gent/osm-le-homard-rouge-n11395904796/p4-400.webp",
+     "srcset": "img/places/gent/osm-le-homard-rouge-n11395904796/p4-400.webp 400w, img/places/gent/osm-le-homard-rouge-n11395904796/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Le Homard Rouge: food",
+     "credit": "lehomardrouge.be",
+     "credit_url": "https://www.lehomardrouge.be/nl/galerij",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-le-homard-rouge-n11395904796/p5-800.webp",
+     "thumb": "img/places/gent/osm-le-homard-rouge-n11395904796/p5-400.webp",
+     "srcset": "img/places/gent/osm-le-homard-rouge-n11395904796/p5-400.webp 400w, img/places/gent/osm-le-homard-rouge-n11395904796/p5-800.webp 800w",
+     "w": 800,
      "h": 800,
      "category": "exterior",
      "alt": "Le Homard Rouge: the outside",
      "credit": "lehomardrouge.be",
-     "credit_url": "https://www.lehomardrouge.be/nl",
+     "credit_url": "https://www.lehomardrouge.be/nl/galerij",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -14148,8 +14426,8 @@
      "src": "img/places/gent/osm-o-yo-n10885912444/p1-1400.webp",
      "thumb": "img/places/gent/osm-o-yo-n10885912444/p1-700.webp",
      "srcset": "img/places/gent/osm-o-yo-n10885912444/p1-700.webp 700w, img/places/gent/osm-o-yo-n10885912444/p1-1400.webp 1400w",
-     "w": 1000,
-     "h": 1000,
+     "w": 830,
+     "h": 641,
      "category": "food",
      "alt": "O'yo: food",
      "credit": "oyobar.be",
@@ -14428,6 +14706,20 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ombra-n12992514757/p2-800.webp",
+     "thumb": "img/places/gent/osm-ombra-n12992514757/p2-400.webp",
+     "srcset": "img/places/gent/osm-ombra-n12992514757/p2-400.webp 400w, img/places/gent/osm-ombra-n12992514757/p2-800.webp 800w",
+     "w": 800,
+     "h": 1202,
+     "category": "food",
+     "alt": "Ombra: food",
+     "credit": "ombra.gent",
+     "credit_url": "https://www.ombra.gent/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -14534,7 +14826,70 @@
    "hold": "no people-free photo found (research): no own images found"
   },
   "osm-pakhuis-w107725021": {
-   "hold": "no people-free photo found (research): all images contain people/hands"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-pakhuis-w107725021/p1-1400.webp",
+     "thumb": "img/places/gent/osm-pakhuis-w107725021/p1-700.webp",
+     "srcset": "img/places/gent/osm-pakhuis-w107725021/p1-700.webp 700w, img/places/gent/osm-pakhuis-w107725021/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Pakhuis: food",
+     "credit": "pakhuis.be",
+     "credit_url": "https://www.pakhuis.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-pakhuis-w107725021/p2-800.webp",
+     "thumb": "img/places/gent/osm-pakhuis-w107725021/p2-400.webp",
+     "srcset": "img/places/gent/osm-pakhuis-w107725021/p2-400.webp 400w, img/places/gent/osm-pakhuis-w107725021/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Pakhuis: food",
+     "credit": "pakhuis.be",
+     "credit_url": "https://www.pakhuis.be/kleinekaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-pakhuis-w107725021/p3-800.webp",
+     "thumb": "img/places/gent/osm-pakhuis-w107725021/p3-400.webp",
+     "srcset": "img/places/gent/osm-pakhuis-w107725021/p3-400.webp 400w, img/places/gent/osm-pakhuis-w107725021/p3-800.webp 800w",
+     "w": 800,
+     "h": 1100,
+     "category": "food",
+     "alt": "Pakhuis: food",
+     "credit": "pakhuis.be",
+     "credit_url": "https://www.pakhuis.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-pakhuis-w107725021/p4-800.webp",
+     "thumb": "img/places/gent/osm-pakhuis-w107725021/p4-400.webp",
+     "srcset": "img/places/gent/osm-pakhuis-w107725021/p4-400.webp 400w, img/places/gent/osm-pakhuis-w107725021/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "Pakhuis: the interior",
+     "credit": "pakhuis.be",
+     "credit_url": "https://www.pakhuis.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-pakhuis-w107725021/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-pampas-n1616705175": {
    "photos": [
@@ -14546,6 +14901,34 @@
      "h": 884,
      "category": "food",
      "alt": "Pampas: food",
+     "credit": "pampas.be",
+     "credit_url": "https://www.pampas.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-pampas-n1616705175/p2-800.webp",
+     "thumb": "img/places/gent/osm-pampas-n1616705175/p2-400.webp",
+     "srcset": "img/places/gent/osm-pampas-n1616705175/p2-400.webp 400w, img/places/gent/osm-pampas-n1616705175/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Pampas: food",
+     "credit": "pampas.be",
+     "credit_url": "https://www.pampas.be/menu/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-pampas-n1616705175/p3-800.webp",
+     "thumb": "img/places/gent/osm-pampas-n1616705175/p3-400.webp",
+     "srcset": "img/places/gent/osm-pampas-n1616705175/p3-400.webp 400w, img/places/gent/osm-pampas-n1616705175/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "drink",
+     "alt": "Pampas: drinks",
      "credit": "pampas.be",
      "credit_url": "https://www.pampas.be/",
      "license": "the place's own photo",
@@ -15081,7 +15464,42 @@
    "layout": "mix"
   },
   "osm-pureto-n12585303235": {
-   "hold": "only photos with people found (cook)"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-pureto-n12585303235/p1-1400.webp",
+     "thumb": "img/places/gent/osm-pureto-n12585303235/p1-700.webp",
+     "srcset": "img/places/gent/osm-pureto-n12585303235/p1-700.webp 700w, img/places/gent/osm-pureto-n12585303235/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Pureto: food",
+     "credit": "pureto.be",
+     "credit_url": "https://pureto.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-pureto-n12585303235/p2-800.webp",
+     "thumb": "img/places/gent/osm-pureto-n12585303235/p2-400.webp",
+     "srcset": "img/places/gent/osm-pureto-n12585303235/p2-400.webp 400w, img/places/gent/osm-pureto-n12585303235/p2-800.webp 800w",
+     "w": 607,
+     "h": 1080,
+     "category": "food",
+     "alt": "Pureto: food",
+     "credit": "pureto.be",
+     "credit_url": "https://pureto.be/restaurants/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-pureto-n12585303235/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-rabot-dumpling-house-n12748707901": {
    "hold": "no people-free photo found (research): website: no usable large images; no Instagram on record"
@@ -15163,14 +15581,70 @@
      "src": "img/places/gent/osm-restaurant-cocotte-n12772643014/p1-1400.webp",
      "thumb": "img/places/gent/osm-restaurant-cocotte-n12772643014/p1-700.webp",
      "srcset": "img/places/gent/osm-restaurant-cocotte-n12772643014/p1-700.webp 700w, img/places/gent/osm-restaurant-cocotte-n12772643014/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
+     "w": 1400,
+     "h": 934,
      "category": "interior",
      "alt": "Restaurant Cocotte: the interior",
-     "credit": "@restaurantcocottegent on Instagram",
-     "credit_url": "https://www.instagram.com/restaurantcocottegent/",
+     "credit": "restaurantcocottegent.be",
+     "credit_url": "https://www.restaurantcocottegent.be/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-restaurant-cocotte-n12772643014/p2-800.webp",
+     "thumb": "img/places/gent/osm-restaurant-cocotte-n12772643014/p2-400.webp",
+     "srcset": "img/places/gent/osm-restaurant-cocotte-n12772643014/p2-400.webp 400w, img/places/gent/osm-restaurant-cocotte-n12772643014/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Restaurant Cocotte: food",
+     "credit": "restaurantcocottegent.be",
+     "credit_url": "https://www.restaurantcocottegent.be/menu/late-breakfast/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-restaurant-cocotte-n12772643014/p3-800.webp",
+     "thumb": "img/places/gent/osm-restaurant-cocotte-n12772643014/p3-400.webp",
+     "srcset": "img/places/gent/osm-restaurant-cocotte-n12772643014/p3-400.webp 400w, img/places/gent/osm-restaurant-cocotte-n12772643014/p3-800.webp 800w",
+     "w": 800,
+     "h": 898,
+     "category": "food",
+     "alt": "Restaurant Cocotte: food",
+     "credit": "restaurantcocottegent.be",
+     "credit_url": "https://www.restaurantcocottegent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-restaurant-cocotte-n12772643014/p4-800.webp",
+     "thumb": "img/places/gent/osm-restaurant-cocotte-n12772643014/p4-400.webp",
+     "srcset": "img/places/gent/osm-restaurant-cocotte-n12772643014/p4-400.webp 400w, img/places/gent/osm-restaurant-cocotte-n12772643014/p4-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "food",
+     "alt": "Restaurant Cocotte: food",
+     "credit": "restaurantcocottegent.be",
+     "credit_url": "https://www.restaurantcocottegent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-restaurant-cocotte-n12772643014/p5-800.webp",
+     "thumb": "img/places/gent/osm-restaurant-cocotte-n12772643014/p5-400.webp",
+     "srcset": "img/places/gent/osm-restaurant-cocotte-n12772643014/p5-400.webp 400w, img/places/gent/osm-restaurant-cocotte-n12772643014/p5-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "interior",
+     "alt": "Restaurant Cocotte: the interior",
+     "credit": "restaurantcocottegent.be",
+     "credit_url": "https://www.restaurantcocottegent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -15413,7 +15887,42 @@
    "hold": "no people-free photo found (research): no images found"
   },
   "osm-snoens-n14116759030": {
-   "hold": "no people-free photo found (research): website: promo graphic and illustrations only; no Instagram on record"
+   "photos": [
+    {
+     "src": "img/places/gent/osm-snoens-n14116759030/p1-1400.webp",
+     "thumb": "img/places/gent/osm-snoens-n14116759030/p1-700.webp",
+     "srcset": "img/places/gent/osm-snoens-n14116759030/p1-700.webp 700w, img/places/gent/osm-snoens-n14116759030/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1859,
+     "category": "food",
+     "alt": "Snoens: food",
+     "credit": "snoens.be",
+     "credit_url": "https://snoens.be/feestmenu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-snoens-n14116759030/p2-800.webp",
+     "thumb": "img/places/gent/osm-snoens-n14116759030/p2-400.webp",
+     "srcset": "img/places/gent/osm-snoens-n14116759030/p2-400.webp 400w, img/places/gent/osm-snoens-n14116759030/p2-800.webp 800w",
+     "w": 800,
+     "h": 795,
+     "category": "drink",
+     "alt": "Snoens: drinks",
+     "credit": "snoens.be",
+     "credit_url": "https://snoens.be/feestmenu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-snoens-n14116759030/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "osm-soepbar-sordo-n9092308404": {
    "photos": [
@@ -15423,6 +15932,20 @@
      "srcset": "img/places/gent/osm-soepbar-sordo-n9092308404/p1-700.webp 700w, img/places/gent/osm-soepbar-sordo-n9092308404/p1-1400.webp 1400w",
      "w": 1002,
      "h": 604,
+     "category": "food",
+     "alt": "Soepbar Sordo: food",
+     "credit": "soepbarsordo.be",
+     "credit_url": "https://soepbarsordo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-soepbar-sordo-n9092308404/p2-800.webp",
+     "thumb": "img/places/gent/osm-soepbar-sordo-n9092308404/p2-400.webp",
+     "srcset": "img/places/gent/osm-soepbar-sordo-n9092308404/p2-400.webp 400w, img/places/gent/osm-soepbar-sordo-n9092308404/p2-800.webp 800w",
+     "w": 800,
+     "h": 537,
      "category": "food",
      "alt": "Soepbar Sordo: food",
      "credit": "soepbarsordo.be",
@@ -15927,12 +16450,12 @@
      "src": "img/places/gent/osm-surtoe-n4893318698/p1-1400.webp",
      "thumb": "img/places/gent/osm-surtoe-n4893318698/p1-700.webp",
      "srcset": "img/places/gent/osm-surtoe-n4893318698/p1-700.webp 700w, img/places/gent/osm-surtoe-n4893318698/p1-1400.webp 1400w",
-     "w": 1024,
-     "h": 768,
-     "category": "exterior",
-     "alt": "Surtoe: the outside",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Surtoe: food",
      "credit": "restaurantsurtoe.be",
-     "credit_url": "https://restaurantsurtoe.be/",
+     "credit_url": "https://restaurantsurtoe.be/menu/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -16137,8 +16660,50 @@
      "src": "img/places/gent/osm-symphony-n12650624985/p1-1400.webp",
      "thumb": "img/places/gent/osm-symphony-n12650624985/p1-700.webp",
      "srcset": "img/places/gent/osm-symphony-n12650624985/p1-700.webp 700w, img/places/gent/osm-symphony-n12650624985/p1-1400.webp 1400w",
-     "w": 1062,
-     "h": 1600,
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Symphony: food",
+     "credit": "bar-symphony.be",
+     "credit_url": "https://www.bar-symphony.be/symphony-events-meetings/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-symphony-n12650624985/p2-800.webp",
+     "thumb": "img/places/gent/osm-symphony-n12650624985/p2-400.webp",
+     "srcset": "img/places/gent/osm-symphony-n12650624985/p2-400.webp 400w, img/places/gent/osm-symphony-n12650624985/p2-800.webp 800w",
+     "w": 800,
+     "h": 1205,
+     "category": "food",
+     "alt": "Symphony: food",
+     "credit": "bar-symphony.be",
+     "credit_url": "https://www.bar-symphony.be/symphony-menukaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-symphony-n12650624985/p3-800.webp",
+     "thumb": "img/places/gent/osm-symphony-n12650624985/p3-400.webp",
+     "srcset": "img/places/gent/osm-symphony-n12650624985/p3-400.webp 400w, img/places/gent/osm-symphony-n12650624985/p3-800.webp 800w",
+     "w": 800,
+     "h": 1205,
+     "category": "food",
+     "alt": "Symphony: food",
+     "credit": "bar-symphony.be",
+     "credit_url": "https://www.bar-symphony.be/symphony-menukaart/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-symphony-n12650624985/p4-800.webp",
+     "thumb": "img/places/gent/osm-symphony-n12650624985/p4-400.webp",
+     "srcset": "img/places/gent/osm-symphony-n12650624985/p4-400.webp 400w, img/places/gent/osm-symphony-n12650624985/p4-800.webp 800w",
+     "w": 800,
+     "h": 1205,
      "category": "interior",
      "alt": "Symphony: the interior",
      "credit": "bar-symphony.be",
@@ -17079,8 +17644,22 @@
      "src": "img/places/gent/osm-touche-n11302184714/p1-1400.webp",
      "thumb": "img/places/gent/osm-touche-n11302184714/p1-700.webp",
      "srcset": "img/places/gent/osm-touche-n11302184714/p1-700.webp 700w, img/places/gent/osm-touche-n11302184714/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "w": 1400,
+     "h": 939,
+     "category": "food",
+     "alt": "Touche: food",
+     "credit": "touchegent.be",
+     "credit_url": "https://www.touchegent.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-touche-n11302184714/p2-800.webp",
+     "thumb": "img/places/gent/osm-touche-n11302184714/p2-400.webp",
+     "srcset": "img/places/gent/osm-touche-n11302184714/p2-400.webp 400w, img/places/gent/osm-touche-n11302184714/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
      "category": "food",
      "alt": "Touche: food",
      "credit": "@touche.gent on Instagram",
@@ -17090,9 +17669,9 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/osm-touche-n11302184714/p2-800.webp",
-     "thumb": "img/places/gent/osm-touche-n11302184714/p2-400.webp",
-     "srcset": "img/places/gent/osm-touche-n11302184714/p2-400.webp 400w, img/places/gent/osm-touche-n11302184714/p2-800.webp 800w",
+     "src": "img/places/gent/osm-touche-n11302184714/p3-800.webp",
+     "thumb": "img/places/gent/osm-touche-n11302184714/p3-400.webp",
+     "srcset": "img/places/gent/osm-touche-n11302184714/p3-400.webp 400w, img/places/gent/osm-touche-n11302184714/p3-800.webp 800w",
      "w": 800,
      "h": 1421,
      "category": "food",
@@ -17323,14 +17902,14 @@
      "src": "img/places/gent/osm-verz-w630349191/p5-800.webp",
      "thumb": "img/places/gent/osm-verz-w630349191/p5-400.webp",
      "srcset": "img/places/gent/osm-verz-w630349191/p5-400.webp 400w, img/places/gent/osm-verz-w630349191/p5-800.webp 800w",
-     "w": 756,
-     "h": 1008,
+     "w": 800,
+     "h": 707,
      "category": "interior",
      "alt": "VerZ: the interior",
-     "credit": "verz.be",
-     "credit_url": "https://www.verz.be/",
+     "credit": "@verz.be on Instagram",
+     "credit_url": "https://www.instagram.com/verz.be/",
      "license": "the place's own photo",
-     "source": "own_website",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -17518,11 +18097,39 @@
      "thumb": "img/places/gent/osm-villa-anamma-n6795335875/p2-400.webp",
      "srcset": "img/places/gent/osm-villa-anamma-n6795335875/p2-400.webp 400w, img/places/gent/osm-villa-anamma-n6795335875/p2-800.webp 800w",
      "w": 800,
-     "h": 957,
+     "h": 1200,
+     "category": "food",
+     "alt": "Villa Anamma: food",
+     "credit": "villa-anamma.be",
+     "credit_url": "https://villa-anamma.be/restaurant-gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-villa-anamma-n6795335875/p3-800.webp",
+     "thumb": "img/places/gent/osm-villa-anamma-n6795335875/p3-400.webp",
+     "srcset": "img/places/gent/osm-villa-anamma-n6795335875/p3-400.webp 400w, img/places/gent/osm-villa-anamma-n6795335875/p3-800.webp 800w",
+     "w": 800,
+     "h": 1201,
+     "category": "food",
+     "alt": "Villa Anamma: food",
+     "credit": "villa-anamma.be",
+     "credit_url": "https://villa-anamma.be/restaurant-gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-villa-anamma-n6795335875/p4-800.webp",
+     "thumb": "img/places/gent/osm-villa-anamma-n6795335875/p4-400.webp",
+     "srcset": "img/places/gent/osm-villa-anamma-n6795335875/p4-400.webp 400w, img/places/gent/osm-villa-anamma-n6795335875/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
      "category": "interior",
      "alt": "Villa Anamma: the interior",
      "credit": "villa-anamma.be",
-     "credit_url": "https://villa-anamma.be/",
+     "credit_url": "https://villa-anamma.be/locatie-verhuur/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -17565,12 +18172,54 @@
      "src": "img/places/gent/osm-viva-la-puglia-n9819206829/p1-1400.webp",
      "thumb": "img/places/gent/osm-viva-la-puglia-n9819206829/p1-700.webp",
      "srcset": "img/places/gent/osm-viva-la-puglia-n9819206829/p1-700.webp 700w, img/places/gent/osm-viva-la-puglia-n9819206829/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 700,
+     "w": 1200,
+     "h": 639,
+     "category": "exterior",
+     "alt": "Viva La Puglia: the outside",
+     "credit": "vivalapuglia.be",
+     "credit_url": "https://vivalapuglia.be/nl/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-viva-la-puglia-n9819206829/p2-800.webp",
+     "thumb": "img/places/gent/osm-viva-la-puglia-n9819206829/p2-400.webp",
+     "srcset": "img/places/gent/osm-viva-la-puglia-n9819206829/p2-400.webp 400w, img/places/gent/osm-viva-la-puglia-n9819206829/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
      "category": "food",
      "alt": "Viva La Puglia: food",
      "credit": "vivalapuglia.be",
-     "credit_url": "https://vivalapuglia.be/nl",
+     "credit_url": "https://vivalapuglia.be/nl/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-viva-la-puglia-n9819206829/p3-800.webp",
+     "thumb": "img/places/gent/osm-viva-la-puglia-n9819206829/p3-400.webp",
+     "srcset": "img/places/gent/osm-viva-la-puglia-n9819206829/p3-400.webp 400w, img/places/gent/osm-viva-la-puglia-n9819206829/p3-800.webp 800w",
+     "w": 800,
+     "h": 385,
+     "category": "food",
+     "alt": "Viva La Puglia: food",
+     "credit": "vivalapuglia.be",
+     "credit_url": "https://vivalapuglia.be/nl/kaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-viva-la-puglia-n9819206829/p4-800.webp",
+     "thumb": "img/places/gent/osm-viva-la-puglia-n9819206829/p4-400.webp",
+     "srcset": "img/places/gent/osm-viva-la-puglia-n9819206829/p4-400.webp 400w, img/places/gent/osm-viva-la-puglia-n9819206829/p4-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "interior",
+     "alt": "Viva La Puglia: the interior",
+     "credit": "vivalapuglia.be",
+     "credit_url": "https://vivalapuglia.be/nl/over-ons",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -17611,6 +18260,20 @@
      "credit_url": "https://www.instagram.com/vuslat.etliekmek/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-vuslat-etli-ekmek-n13055218101/p3-800.webp",
+     "thumb": "img/places/gent/osm-vuslat-etli-ekmek-n13055218101/p3-400.webp",
+     "srcset": "img/places/gent/osm-vuslat-etli-ekmek-n13055218101/p3-400.webp 400w, img/places/gent/osm-vuslat-etli-ekmek-n13055218101/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Vuslat Etli Ekmek: food",
+     "credit": "vuslatetliekmek.be",
+     "credit_url": "https://www.vuslatetliekmek.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -17686,11 +18349,11 @@
      "thumb": "img/places/gent/osm-woest-n4863374603/p1-700.webp",
      "srcset": "img/places/gent/osm-woest-n4863374603/p1-700.webp 700w, img/places/gent/osm-woest-n4863374603/p1-1400.webp 1400w",
      "w": 1400,
-     "h": 1048,
-     "category": "food",
-     "alt": "Woest: food",
+     "h": 934,
+     "category": "interior",
+     "alt": "Woest: the interior",
      "credit": "woestgent.be",
-     "credit_url": "https://www.woestgent.be/",
+     "credit_url": "https://www.woestgent.be/b2b-events-1",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -17701,6 +18364,20 @@
      "srcset": "img/places/gent/osm-woest-n4863374603/p2-400.webp 400w, img/places/gent/osm-woest-n4863374603/p2-800.webp 800w",
      "w": 800,
      "h": 1067,
+     "category": "food",
+     "alt": "Woest: food",
+     "credit": "woestgent.be",
+     "credit_url": "https://www.woestgent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-woest-n4863374603/p3-800.webp",
+     "thumb": "img/places/gent/osm-woest-n4863374603/p3-400.webp",
+     "srcset": "img/places/gent/osm-woest-n4863374603/p3-400.webp 400w, img/places/gent/osm-woest-n4863374603/p3-800.webp 800w",
+     "w": 800,
+     "h": 599,
      "category": "food",
      "alt": "Woest: food",
      "credit": "woestgent.be",
@@ -17796,8 +18473,8 @@
      "src": "img/places/gent/osm-zuru-zuru-ramen-n11688398600/p1-1400.webp",
      "thumb": "img/places/gent/osm-zuru-zuru-ramen-n11688398600/p1-700.webp",
      "srcset": "img/places/gent/osm-zuru-zuru-ramen-n11688398600/p1-700.webp 700w, img/places/gent/osm-zuru-zuru-ramen-n11688398600/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
+     "w": 1400,
+     "h": 933,
      "category": "food",
      "alt": "Zuru Zuru Ramen: food",
      "credit": "zuruzuru-ramen.be",
@@ -17816,6 +18493,20 @@
      "alt": "Zuru Zuru Ramen: food",
      "credit": "zuruzuru-ramen.be",
      "credit_url": "https://zuruzuru-ramen.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-zuru-zuru-ramen-n11688398600/p3-800.webp",
+     "thumb": "img/places/gent/osm-zuru-zuru-ramen-n11688398600/p3-400.webp",
+     "srcset": "img/places/gent/osm-zuru-zuru-ramen-n11688398600/p3-400.webp 400w, img/places/gent/osm-zuru-zuru-ramen-n11688398600/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Zuru Zuru Ramen: food",
+     "credit": "zuruzuru-ramen.be",
+     "credit_url": "https://zuruzuru-ramen.be/menu/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -17894,6 +18585,20 @@
      "credit_url": "https://parole.gent/nl",
      "license": "the place's own photo",
      "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/parole/p2-800.webp",
+     "thumb": "img/places/gent/parole/p2-400.webp",
+     "srcset": "img/places/gent/parole/p2-400.webp 400w, img/places/gent/parole/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Parole: food",
+     "credit": "@parolewinebar on Instagram",
+     "credit_url": "https://www.instagram.com/parolewinebar/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
      "noPeopleChecked": true
     }
    ],
@@ -18020,70 +18725,18 @@
    "only": true,
    "layout": "mix"
   },
-  "pica-beans": {
-   "photos": [
-    {
-     "src": "img/places/gent/pica-beans/p1-1400.webp",
-     "thumb": "img/places/gent/pica-beans/p1-700.webp",
-     "srcset": "img/places/gent/pica-beans/p1-700.webp 700w, img/places/gent/pica-beans/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1921,
-     "category": "food",
-     "alt": "Pica Beans: food",
-     "credit": "@pica_beans_gent via Instagram",
-     "credit_url": "https://www.instagram.com/pica_beans_gent/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/pica-beans/p2-800.webp",
-     "thumb": "img/places/gent/pica-beans/p2-400.webp",
-     "srcset": "img/places/gent/pica-beans/p2-400.webp 400w, img/places/gent/pica-beans/p2-800.webp 800w",
-     "w": 800,
-     "h": 1423,
-     "category": "drink",
-     "alt": "Pica Beans: drinks",
-     "credit": "@pica_beans_gent via Instagram",
-     "credit_url": "https://www.instagram.com/pica_beans_gent/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/pica-beans/p3-800.webp",
-     "thumb": "img/places/gent/pica-beans/p3-400.webp",
-     "srcset": "img/places/gent/pica-beans/p3-400.webp 400w, img/places/gent/pica-beans/p3-800.webp 800w",
-     "w": 800,
-     "h": 1423,
-     "category": "drink",
-     "alt": "Pica Beans: drinks",
-     "credit": "@pica_beans_gent via Instagram",
-     "credit_url": "https://www.instagram.com/pica_beans_gent/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/pica-beans/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "piu-di-piu": {
    "photos": [
     {
      "src": "img/places/gent/piu-di-piu/p1-1400.webp",
      "thumb": "img/places/gent/piu-di-piu/p1-700.webp",
      "srcset": "img/places/gent/piu-di-piu/p1-700.webp 700w, img/places/gent/piu-di-piu/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 922,
+     "w": 918,
+     "h": 618,
      "category": "interior",
      "alt": "Piu di Piu: the interior",
-     "credit": "Piu di Piu (own website)",
-     "credit_url": "https://images.squarespace-cdn.com/content/v1/647e0c7af013d962a0b40241/c602db64-c530-44f0-b9f9-4500ec740e3b/karaoke.jpg?format=2500w",
+     "credit": "piudipiu.com",
+     "credit_url": "https://piudipiu.com/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -18093,11 +18746,11 @@
      "thumb": "img/places/gent/piu-di-piu/p2-400.webp",
      "srcset": "img/places/gent/piu-di-piu/p2-400.webp 400w, img/places/gent/piu-di-piu/p2-800.webp 800w",
      "w": 800,
-     "h": 539,
+     "h": 527,
      "category": "interior",
      "alt": "Piu di Piu: the interior",
-     "credit": "Piu di Piu (own website), photo Camilla Deterre",
-     "credit_url": "https://images.squarespace-cdn.com/content/v1/647e0c7af013d962a0b40241/1685982826407-Q65HLO0ZP6NRZ49YNFXM/Camilla%2BDeterre%2Binverse%2Bvintage%2Bdarkend.jpg",
+     "credit": "piudipiu.com",
+     "credit_url": "https://piudipiu.com/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -18160,14 +18813,42 @@
      "src": "img/places/gent/pulpo/p1-1400.webp",
      "thumb": "img/places/gent/pulpo/p1-700.webp",
      "srcset": "img/places/gent/pulpo/p1-700.webp 700w, img/places/gent/pulpo/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1142,
+     "w": 1400,
+     "h": 1051,
+     "category": "exterior",
+     "alt": "Pulpo: the outside",
+     "credit": "restopulpo.com",
+     "credit_url": "https://www.restopulpo.com/gallery/avocado-marbella-pulpo",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/pulpo/p2-800.webp",
+     "thumb": "img/places/gent/pulpo/p2-400.webp",
+     "srcset": "img/places/gent/pulpo/p2-400.webp 400w, img/places/gent/pulpo/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
      "category": "food",
      "alt": "Pulpo: food",
-     "credit": "@pulpo.resto on Instagram",
-     "credit_url": "https://www.instagram.com/pulpo.resto/",
+     "credit": "restopulpo.com",
+     "credit_url": "https://www.restopulpo.com/gallery/avocado-marbella-pulpo",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/pulpo/p3-800.webp",
+     "thumb": "img/places/gent/pulpo/p3-400.webp",
+     "srcset": "img/places/gent/pulpo/p3-400.webp 400w, img/places/gent/pulpo/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "interior",
+     "alt": "Pulpo: the interior",
+     "credit": "restopulpo.com",
+     "credit_url": "https://www.restopulpo.com/gallery/avocado-marbella-pulpo",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -18388,14 +19069,14 @@
      "src": "img/places/gent/sensum/p1-1400.webp",
      "thumb": "img/places/gent/sensum/p1-700.webp",
      "srcset": "img/places/gent/sensum/p1-700.webp 700w, img/places/gent/sensum/p1-1400.webp 1400w",
-     "w": 720,
-     "h": 889,
-     "category": "food",
-     "alt": "Sensum: food",
-     "credit": "@sensum_gent on Instagram",
-     "credit_url": "https://www.instagram.com/sensum_gent/",
+     "w": 1400,
+     "h": 788,
+     "category": "exterior",
+     "alt": "Sensum: the outside",
+     "credit": "sensumgent.be",
+     "credit_url": "https://sensumgent.be/events/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     },
     {
@@ -18410,6 +19091,34 @@
      "credit_url": "https://www.instagram.com/sensum_gent/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/sensum/p3-800.webp",
+     "thumb": "img/places/gent/sensum/p3-400.webp",
+     "srcset": "img/places/gent/sensum/p3-400.webp 400w, img/places/gent/sensum/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Sensum: food",
+     "credit": "sensumgent.be",
+     "credit_url": "https://sensumgent.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/sensum/p4-800.webp",
+     "thumb": "img/places/gent/sensum/p4-400.webp",
+     "srcset": "img/places/gent/sensum/p4-400.webp 400w, img/places/gent/sensum/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "food",
+     "alt": "Sensum: food",
+     "credit": "sensumgent.be",
+     "credit_url": "https://sensumgent.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -18505,14 +19214,14 @@
      "src": "img/places/gent/soan/p1-1400.webp",
      "thumb": "img/places/gent/soan/p1-700.webp",
      "srcset": "img/places/gent/soan/p1-700.webp 700w, img/places/gent/soan/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1339,
-     "category": "food",
-     "alt": "SOAN: food",
-     "credit": "@soancocktails on Instagram",
-     "credit_url": "https://www.instagram.com/soancocktails/",
+     "w": 1400,
+     "h": 787,
+     "category": "interior",
+     "alt": "SOAN: the interior",
+     "credit": "soanbar.com",
+     "credit_url": "https://www.soanbar.com/gallery",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     },
     {
@@ -18528,49 +19237,25 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/soan/p3-800.webp",
+     "thumb": "img/places/gent/soan/p3-400.webp",
+     "srcset": "img/places/gent/soan/p3-400.webp 400w, img/places/gent/soan/p3-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "interior",
+     "alt": "SOAN: the interior",
+     "credit": "soanbar.com",
+     "credit_url": "https://www.soanbar.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
     "src": "img/places/gent/soan/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "t-dreupelkot": {
-   "photos": [
-    {
-     "src": "img/places/gent/t-dreupelkot/p1-1400.webp",
-     "thumb": "img/places/gent/t-dreupelkot/p1-700.webp",
-     "srcset": "img/places/gent/t-dreupelkot/p1-700.webp 700w, img/places/gent/t-dreupelkot/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 932,
-     "category": "exterior",
-     "alt": "'t Dreupelkot: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-dreupelkot",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/t-dreupelkot/p2-800.webp",
-     "thumb": "img/places/gent/t-dreupelkot/p2-400.webp",
-     "srcset": "img/places/gent/t-dreupelkot/p2-400.webp 400w, img/places/gent/t-dreupelkot/p2-800.webp 800w",
-     "w": 800,
-     "h": 1202,
-     "category": "exterior",
-     "alt": "'t Dreupelkot: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-dreupelkot",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/t-dreupelkot/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -18587,30 +19272,6 @@
     "type": "post",
     "url": "https://www.instagram.com/p/DSRgzNElzZS/"
    }
-  },
-  "t-galgenhuisje": {
-   "photos": [
-    {
-     "src": "img/places/gent/t-galgenhuisje/p1-1400.webp",
-     "thumb": "img/places/gent/t-galgenhuisje/p1-700.webp",
-     "srcset": "img/places/gent/t-galgenhuisje/p1-700.webp 700w, img/places/gent/t-galgenhuisje/p1-1400.webp 1400w",
-     "w": 720,
-     "h": 960,
-     "category": "interior",
-     "alt": "'t Galgenhuisje: the interior",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/t-galgenhuisje/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
   },
   "t-kofschip": {
    "hold": "no people-free photo found: party / crowd photos and promo graphics only"
@@ -18774,98 +19435,6 @@
   "tam-tam": {
    "hold": "no people-free photo found: only text graphics and a crowd clip"
   },
-  "tds": {
-   "photos": [
-    {
-     "src": "img/places/gent/tds/p1-1400.webp",
-     "thumb": "img/places/gent/tds/p1-700.webp",
-     "srcset": "img/places/gent/tds/p1-700.webp 700w, img/places/gent/tds/p1-1400.webp 1400w",
-     "w": 1280,
-     "h": 720,
-     "category": "interior",
-     "staff": true,
-     "alt": "TDS: staff at work",
-     "credit": "TDS (own website)",
-     "credit_url": "https://tdscoffee.be/wp-content/uploads/2026/10/tds-bar-interieur-footnote-gallery-gent-1280w.webp",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/tds/p2-800.webp",
-     "thumb": "img/places/gent/tds/p2-400.webp",
-     "srcset": "img/places/gent/tds/p2-400.webp 400w, img/places/gent/tds/p2-800.webp 800w",
-     "w": 800,
-     "h": 364,
-     "category": "interior",
-     "staff": true,
-     "alt": "TDS: staff at work",
-     "credit": "TDS (own website)",
-     "credit_url": "https://tdscoffee.be/wp-content/uploads/2026/10/tds-specialty-coffee-bar-gent-2000w.webp",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/tds/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
-  "terug": {
-   "photos": [
-    {
-     "src": "img/places/gent/terug/p1-1400.webp",
-     "thumb": "img/places/gent/terug/p1-700.webp",
-     "srcset": "img/places/gent/terug/p1-700.webp 700w, img/places/gent/terug/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1080,
-     "category": "drink",
-     "alt": "Terug: drinks",
-     "credit": "@terug.coffee via Instagram",
-     "credit_url": "https://www.instagram.com/p/Dc0r4W6oVcV/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/terug/p2-800.webp",
-     "thumb": "img/places/gent/terug/p2-400.webp",
-     "srcset": "img/places/gent/terug/p2-400.webp 400w, img/places/gent/terug/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
-     "category": "drink",
-     "alt": "Terug: drinks",
-     "credit": "@terug.coffee via Instagram",
-     "credit_url": "https://www.instagram.com/p/DYCum7GiNP1/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/terug/p3-800.webp",
-     "thumb": "img/places/gent/terug/p3-400.webp",
-     "srcset": "img/places/gent/terug/p3-400.webp 400w, img/places/gent/terug/p3-800.webp 800w",
-     "w": 800,
-     "h": 800,
-     "category": "drink",
-     "alt": "Terug: drinks",
-     "credit": "@terug.coffee via Instagram",
-     "credit_url": "https://www.instagram.com/p/DXwr5ZriHyP/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/terug/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "the-bakery-joost-arijs": {
    "posts": [
     {
@@ -18957,8 +19526,22 @@
      "src": "img/places/gent/the-cobbler/p1-1400.webp",
      "thumb": "img/places/gent/the-cobbler/p1-700.webp",
      "srcset": "img/places/gent/the-cobbler/p1-700.webp 700w, img/places/gent/the-cobbler/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "The Cobbler: the interior",
+     "credit": "1898thepost.com",
+     "credit_url": "https://www.1898thepost.com/the-cobbler/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/the-cobbler/p2-800.webp",
+     "thumb": "img/places/gent/the-cobbler/p2-400.webp",
+     "srcset": "img/places/gent/the-cobbler/p2-400.webp 400w, img/places/gent/the-cobbler/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
      "category": "drink",
      "alt": "The Cobbler: drinks",
      "credit": "@thecobblerghent on Instagram",
@@ -19109,12 +19692,40 @@
      "src": "img/places/gent/the-gentle/p1-1400.webp",
      "thumb": "img/places/gent/the-gentle/p1-700.webp",
      "srcset": "img/places/gent/the-gentle/p1-700.webp 700w, img/places/gent/the-gentle/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 1050,
+     "w": 1122,
+     "h": 1402,
      "category": "interior",
      "alt": "The Gentle: the interior",
      "credit": "thegentle.be",
-     "credit_url": "https://www.thegentle.be/",
+     "credit_url": "https://www.thegentle.be/ons-verhaal/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/the-gentle/p2-800.webp",
+     "thumb": "img/places/gent/the-gentle/p2-400.webp",
+     "srcset": "img/places/gent/the-gentle/p2-400.webp 400w, img/places/gent/the-gentle/p2-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "drink",
+     "alt": "The Gentle: drinks",
+     "credit": "thegentle.be",
+     "credit_url": "https://www.thegentle.be/ons-verhaal/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/the-gentle/p3-800.webp",
+     "thumb": "img/places/gent/the-gentle/p3-400.webp",
+     "srcset": "img/places/gent/the-gentle/p3-400.webp 400w, img/places/gent/the-gentle/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "interior",
+     "alt": "The Gentle: the interior",
+     "credit": "thegentle.be",
+     "credit_url": "https://www.thegentle.be/ons-verhaal/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -19169,28 +19780,28 @@
      "src": "img/places/gent/trattoria-della-mamma/p1-1400.webp",
      "thumb": "img/places/gent/trattoria-della-mamma/p1-700.webp",
      "srcset": "img/places/gent/trattoria-della-mamma/p1-700.webp 700w, img/places/gent/trattoria-della-mamma/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1079,
+     "w": 1400,
+     "h": 1749,
      "category": "food",
      "alt": "Trattoria della mamma: food",
-     "credit": "@trattoria_della_mamma on Instagram",
-     "credit_url": "https://www.instagram.com/trattoria_della_mamma/",
+     "credit": "trattoriadellamamma.be",
+     "credit_url": "https://trattoriadellamamma.be/restaurant/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     },
     {
      "src": "img/places/gent/trattoria-della-mamma/p2-800.webp",
      "thumb": "img/places/gent/trattoria-della-mamma/p2-400.webp",
      "srcset": "img/places/gent/trattoria-della-mamma/p2-400.webp 400w, img/places/gent/trattoria-della-mamma/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "w": 687,
+     "h": 859,
      "category": "food",
      "alt": "Trattoria della mamma: food",
-     "credit": "@trattoria_della_mamma on Instagram",
-     "credit_url": "https://www.instagram.com/trattoria_della_mamma/",
+     "credit": "trattoriadellamamma.be",
+     "credit_url": "https://trattoriadellamamma.be/restaurant/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -19219,14 +19830,14 @@
      "src": "img/places/gent/tribune/p1-1400.webp",
      "thumb": "img/places/gent/tribune/p1-700.webp",
      "srcset": "img/places/gent/tribune/p1-700.webp 700w, img/places/gent/tribune/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
-     "category": "food",
-     "alt": "Tribune: food",
-     "credit": "@tribune.wintercircus on Instagram",
-     "credit_url": "https://www.instagram.com/tribune.wintercircus/",
+     "w": 1365,
+     "h": 1706,
+     "category": "interior",
+     "alt": "Tribune: the interior",
+     "credit": "tribunegent.be",
+     "credit_url": "https://tribunegent.be/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
      "noPeopleChecked": true
     },
     {
@@ -19242,6 +19853,48 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/tribune/p3-800.webp",
+     "thumb": "img/places/gent/tribune/p3-400.webp",
+     "srcset": "img/places/gent/tribune/p3-400.webp 400w, img/places/gent/tribune/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "Tribune: food",
+     "credit": "@tribune.wintercircus on Instagram",
+     "credit_url": "https://www.instagram.com/tribune.wintercircus/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/tribune/p4-800.webp",
+     "thumb": "img/places/gent/tribune/p4-400.webp",
+     "srcset": "img/places/gent/tribune/p4-400.webp 400w, img/places/gent/tribune/p4-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Tribune: food",
+     "credit": "@tribune.wintercircus on Instagram",
+     "credit_url": "https://www.instagram.com/tribune.wintercircus/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/tribune/p5-800.webp",
+     "thumb": "img/places/gent/tribune/p5-400.webp",
+     "srcset": "img/places/gent/tribune/p5-400.webp 400w, img/places/gent/tribune/p5-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "interior",
+     "alt": "Tribune: the interior",
+     "credit": "tribunegent.be",
+     "credit_url": "https://tribunegent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -19253,58 +19906,6 @@
   },
   "trollekelder": {
    "hold": "no people-free photo found: website has no usable images, no Instagram"
-  },
-  "tshiela": {
-   "photos": [
-    {
-     "src": "img/places/gent/tshiela/p1-1400.webp",
-     "thumb": "img/places/gent/tshiela/p1-700.webp",
-     "srcset": "img/places/gent/tshiela/p1-700.webp 700w, img/places/gent/tshiela/p1-1400.webp 1400w",
-     "w": 1280,
-     "h": 1707,
-     "category": "food",
-     "alt": "Tshiela: food",
-     "credit": "Tshiela (own website)",
-     "credit_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sVV4I_FoEusZqdAVf25_CEoOXlxSZVjF2IGtYFUc-YAX3cSTsvWpBsDqETovuSO_FREwfcm_iOuFvHSVsqXJ8Q1TxXxUfLSd6s8IyjLJu2Vu2RvgqNAQIBOGMlSTN5McBPeszhHlAv2y0vE8ijWJHfyHLY_1pEjgMksJ4X544txPUzzJHXQu40YQiAwag=w1280",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/tshiela/p2-800.webp",
-     "thumb": "img/places/gent/tshiela/p2-400.webp",
-     "srcset": "img/places/gent/tshiela/p2-400.webp 400w, img/places/gent/tshiela/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "food",
-     "alt": "Tshiela: food",
-     "credit": "Tshiela (own website)",
-     "credit_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vYtpqnzALxjC3V8tyOgWs3VwoVf5PHpZi7xpB6moBEcQ6OPU2Felor4ZF0oRTNRMRNeYUmGxs_XHgBC3D9YlNr6Yqmytvpi20fzKhiT-utK7uOm4pKIjcSOw5-7NEK5g9zjEn5e7rSoiABNE_hQheF0Kh3mBKZE9Q1e3ZoROrM_tqX4rImH8aeLnym=w1280",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/tshiela/p3-800.webp",
-     "thumb": "img/places/gent/tshiela/p3-400.webp",
-     "srcset": "img/places/gent/tshiela/p3-400.webp 400w, img/places/gent/tshiela/p3-800.webp 800w",
-     "w": 800,
-     "h": 913,
-     "category": "food",
-     "alt": "Tshiela: food",
-     "credit": "Tshiela (own website)",
-     "credit_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uS-QNnRLlqQdpzPKZq1VsiEfLButjwyDSHCZbvKA9HHMxFqY0LG3nLBGXrnxo3Y2A3SkN-pgvifq2_tyXbvnP5LGStfljNXiwCyd5GPEffasn8iSrCcb4wkJ8sWftlgpAFoos8PpZek4fwEG-VEanCRIWfcssR66NfKHSbrUIcNrqgLURzA4I9LuH_hyemZhLnztgGbcTVInadZSMRs_QZgb5krnux0O4WTMzcAVw=w1280",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/tshiela/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
   },
   "vandekerckhove-bar": {
    "posts": [
@@ -19500,44 +20101,6 @@
    "only": true,
    "layout": "mix"
   },
-  "waterhuis-aan-de-bierkant": {
-   "photos": [
-    {
-     "src": "img/places/gent/waterhuis-aan-de-bierkant/p1-1400.webp",
-     "thumb": "img/places/gent/waterhuis-aan-de-bierkant/p1-700.webp",
-     "srcset": "img/places/gent/waterhuis-aan-de-bierkant/p1-700.webp 700w, img/places/gent/waterhuis-aan-de-bierkant/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 2100,
-     "category": "exterior",
-     "alt": "Waterhuis aan de Bierkant: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/waterhuis-aan-de-bierkant/p2-800.webp",
-     "thumb": "img/places/gent/waterhuis-aan-de-bierkant/p2-400.webp",
-     "srcset": "img/places/gent/waterhuis-aan-de-bierkant/p2-400.webp 400w, img/places/gent/waterhuis-aan-de-bierkant/p2-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "exterior",
-     "alt": "Waterhuis aan de Bierkant: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/waterhuis-aan-de-bierkant/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "way-bakery-keizerpoort": {
    "photos": [
     {
@@ -19635,14 +20198,42 @@
      "src": "img/places/gent/whynot/p1-1400.webp",
      "thumb": "img/places/gent/whynot/p1-700.webp",
      "srcset": "img/places/gent/whynot/p1-700.webp 700w, img/places/gent/whynot/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1080,
+     "w": 1260,
+     "h": 756,
+     "category": "food",
+     "alt": "WhyNot: food",
+     "credit": "whynot.gent",
+     "credit_url": "https://whynot.gent/discover/private-dining-gent",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/whynot/p2-800.webp",
+     "thumb": "img/places/gent/whynot/p2-400.webp",
+     "srcset": "img/places/gent/whynot/p2-400.webp 400w, img/places/gent/whynot/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
      "category": "food",
      "alt": "WhyNot: food",
      "credit": "@whynot.gent on Instagram",
      "credit_url": "https://www.instagram.com/whynot.gent/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/whynot/p3-800.webp",
+     "thumb": "img/places/gent/whynot/p3-400.webp",
+     "srcset": "img/places/gent/whynot/p3-400.webp 400w, img/places/gent/whynot/p3-800.webp 800w",
+     "w": 800,
+     "h": 420,
+     "category": "food",
+     "alt": "WhyNot: food",
+     "credit": "whynot.gent",
+     "credit_url": "https://whynot.gent/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -19870,22 +20461,26 @@
   "zeppos-vlasmarkt": {
    "photos": [
     {
-     "src": "https://xbagzgpkspxwahykqixc.supabase.co/storage/v1/object/public/boosterpack-ai-images/users/68c6c4b3-2c72-45a2-aa9f-5a0c77601b7b/b988da24-ef87-4795-9826-f321a69c77a1/images/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308_1280w.webp",
-     "thumb": "https://xbagzgpkspxwahykqixc.supabase.co/storage/v1/object/public/boosterpack-ai-images/users/68c6c4b3-2c72-45a2-aa9f-5a0c77601b7b/b988da24-ef87-4795-9826-f321a69c77a1/images/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308_1280w.webp",
-     "w": 1280,
-     "h": 854,
-     "hotlink": true,
-     "category": "interior",
-     "source": "website",
+     "src": "img/places/gent/zeppos-vlasmarkt/p1-1400.webp",
+     "thumb": "img/places/gent/zeppos-vlasmarkt/p1-700.webp",
+     "srcset": "img/places/gent/zeppos-vlasmarkt/p1-700.webp 700w, img/places/gent/zeppos-vlasmarkt/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "exterior",
+     "alt": "Zeppos: the outside",
      "credit": "zepposvlasmarkt.be",
      "credit_url": "https://zepposvlasmarkt.be/",
-     "alt": ""
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "https://xbagzgpkspxwahykqixc.supabase.co/storage/v1/object/public/boosterpack-ai-images/users/68c6c4b3-2c72-45a2-aa9f-5a0c77601b7b/b988da24-ef87-4795-9826-f321a69c77a1/images/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308/image_b988da24-ef87-4795-9826-f321a69c77a1_1770204598308_1770204598308_1280w.webp"
-   }
+    "src": "img/places/gent/zeppos-vlasmarkt/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "barr-34": {
    "posts": [
@@ -20061,6 +20656,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p2-800.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p2-400.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p2-400.webp 400w, img/places/gent/the-kitchen-1898-the-post/p2-800.webp 800w",
+     "w": 720,
+     "h": 1280,
+     "category": "exterior",
+     "alt": "The Kitchen at 1898 The Post: the outside",
+     "credit": "@1898ghent on Instagram",
+     "credit_url": "https://www.instagram.com/1898ghent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -20100,14 +20709,28 @@
      "src": "img/places/gent/sakas/p1-1400.webp",
      "thumb": "img/places/gent/sakas/p1-700.webp",
      "srcset": "img/places/gent/sakas/p1-700.webp 700w, img/places/gent/sakas/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1080,
+     "w": 1400,
+     "h": 1050,
      "category": "interior",
      "alt": "Sākas: the interior",
-     "credit": "@sakas.wintercircus on Instagram",
-     "credit_url": "https://www.instagram.com/sakas.wintercircus/",
+     "credit": "sakaswintercircusbe.eu",
+     "credit_url": "https://www.sakaswintercircusbe.eu/private-event",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/sakas/p2-800.webp",
+     "thumb": "img/places/gent/sakas/p2-400.webp",
+     "srcset": "img/places/gent/sakas/p2-400.webp 400w, img/places/gent/sakas/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Sākas: the interior",
+     "credit": "sakaswintercircusbe.eu",
+     "credit_url": "https://www.sakaswintercircusbe.eu/about",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -20181,7 +20804,7 @@
      "category": "exterior",
      "alt": "Julie's House: the outside",
      "credit": "julieshouse.be",
-     "credit_url": "https://www.julieshouse.be/en_GB",
+     "credit_url": "https://www.julieshouse.be/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -20499,6 +21122,34 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-coqueluche-n10914424851/p2-800.webp",
+     "thumb": "img/places/gent/osm-coqueluche-n10914424851/p2-400.webp",
+     "srcset": "img/places/gent/osm-coqueluche-n10914424851/p2-400.webp 400w, img/places/gent/osm-coqueluche-n10914424851/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "drink",
+     "alt": "Coqueluche: drinks",
+     "credit": "coqueluche.gent",
+     "credit_url": "https://coqueluche.gent/45a33-new-restaurant-our-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-coqueluche-n10914424851/p3-800.webp",
+     "thumb": "img/places/gent/osm-coqueluche-n10914424851/p3-400.webp",
+     "srcset": "img/places/gent/osm-coqueluche-n10914424851/p3-400.webp 400w, img/places/gent/osm-coqueluche-n10914424851/p3-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "Coqueluche: the interior",
+     "credit": "coqueluche.gent",
+     "credit_url": "https://coqueluche.gent/45a33-new-restaurant-our-restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -20576,12 +21227,12 @@
      "src": "img/places/gent/osm-t-klaverblad-n3394070670/p1-1400.webp",
      "thumb": "img/places/gent/osm-t-klaverblad-n3394070670/p1-700.webp",
      "srcset": "img/places/gent/osm-t-klaverblad-n3394070670/p1-700.webp 700w, img/places/gent/osm-t-klaverblad-n3394070670/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 412,
+     "w": 1200,
+     "h": 800,
      "category": "interior",
      "alt": "'t Klaverblad: the interior",
      "credit": "restoklaverblad.be",
-     "credit_url": "https://restoklaverblad.be/",
+     "credit_url": "https://restoklaverblad.be/sfeerbeelden/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -20592,10 +21243,10 @@
      "srcset": "img/places/gent/osm-t-klaverblad-n3394070670/p2-400.webp 400w, img/places/gent/osm-t-klaverblad-n3394070670/p2-800.webp 800w",
      "w": 800,
      "h": 533,
-     "category": "interior",
-     "alt": "'t Klaverblad: the interior",
+     "category": "exterior",
+     "alt": "'t Klaverblad: the outside",
      "credit": "restoklaverblad.be",
-     "credit_url": "https://restoklaverblad.be/",
+     "credit_url": "https://restoklaverblad.be/sfeerbeelden/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
@@ -20831,6 +21482,20 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-royal-india-n10892781655/p2-800.webp",
+     "thumb": "img/places/gent/osm-royal-india-n10892781655/p2-400.webp",
+     "srcset": "img/places/gent/osm-royal-india-n10892781655/p2-400.webp 400w, img/places/gent/osm-royal-india-n10892781655/p2-800.webp 800w",
+     "w": 800,
+     "h": 449,
+     "category": "food",
+     "alt": "Royal India: food",
+     "credit": "royalindiabelgium.com",
+     "credit_url": "https://royalindiabelgium.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
@@ -20970,10 +21635,38 @@
      "src": "img/places/gent/osm-ganzerik-w451731257/p1-1400.webp",
      "thumb": "img/places/gent/osm-ganzerik-w451731257/p1-700.webp",
      "srcset": "img/places/gent/osm-ganzerik-w451731257/p1-700.webp 700w, img/places/gent/osm-ganzerik-w451731257/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 1120,
+     "w": 1019,
+     "h": 679,
+     "category": "interior",
+     "alt": "Ganzerik: the interior",
+     "credit": "ganzerik.be",
+     "credit_url": "https://www.ganzerik.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ganzerik-w451731257/p2-800.webp",
+     "thumb": "img/places/gent/osm-ganzerik-w451731257/p2-400.webp",
+     "srcset": "img/places/gent/osm-ganzerik-w451731257/p2-400.webp 400w, img/places/gent/osm-ganzerik-w451731257/p2-800.webp 800w",
+     "w": 800,
+     "h": 640,
      "category": "food",
      "alt": "Ganzerik: food",
+     "credit": "ganzerik.be",
+     "credit_url": "https://www.ganzerik.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-ganzerik-w451731257/p3-800.webp",
+     "thumb": "img/places/gent/osm-ganzerik-w451731257/p3-400.webp",
+     "srcset": "img/places/gent/osm-ganzerik-w451731257/p3-400.webp 400w, img/places/gent/osm-ganzerik-w451731257/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "alt": "Ganzerik: the interior",
      "credit": "ganzerik.be",
      "credit_url": "https://www.ganzerik.be/",
      "license": "the place's own photo",
@@ -20994,14 +21687,42 @@
      "src": "img/places/gent/osm-lekker-gec-n2721915415/p1-1400.webp",
      "thumb": "img/places/gent/osm-lekker-gec-n2721915415/p1-700.webp",
      "srcset": "img/places/gent/osm-lekker-gec-n2721915415/p1-700.webp 700w, img/places/gent/osm-lekker-gec-n2721915415/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1080,
+     "w": 1067,
+     "h": 800,
+     "category": "interior",
+     "alt": "Lekker GEC: the interior",
+     "credit": "lekkergec.com",
+     "credit_url": "https://www.lekkergec.com/vergaderzaal.html",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-lekker-gec-n2721915415/p2-800.webp",
+     "thumb": "img/places/gent/osm-lekker-gec-n2721915415/p2-400.webp",
+     "srcset": "img/places/gent/osm-lekker-gec-n2721915415/p2-400.webp 400w, img/places/gent/osm-lekker-gec-n2721915415/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
      "category": "food",
      "alt": "Lekker GEC: food",
      "credit": "@lekkergec on Instagram",
      "credit_url": "https://www.instagram.com/lekkergec/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-lekker-gec-n2721915415/p3-800.webp",
+     "thumb": "img/places/gent/osm-lekker-gec-n2721915415/p3-400.webp",
+     "srcset": "img/places/gent/osm-lekker-gec-n2721915415/p3-400.webp 400w, img/places/gent/osm-lekker-gec-n2721915415/p3-800.webp 800w",
+     "w": 800,
+     "h": 596,
+     "category": "interior",
+     "alt": "Lekker GEC: the interior",
+     "credit": "lekkergec.com",
+     "credit_url": "https://www.lekkergec.com/vergaderzaal.html",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
@@ -21382,6 +22103,1068 @@
    "pick": {
     "type": "photo",
     "src": "img/places/gent/osm-carlos-quinto-n7158635685/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "patrick-foleys": {
+   "photos": [
+    {
+     "src": "img/places/gent/patrick-foleys/p1-1400.webp",
+     "thumb": "img/places/gent/patrick-foleys/p1-700.webp",
+     "srcset": "img/places/gent/patrick-foleys/p1-700.webp 700w, img/places/gent/patrick-foleys/p1-1400.webp 1400w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Patrick Foley's Irish Pub: food",
+     "credit": "foleys.be",
+     "credit_url": "https://www.foleys.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/patrick-foleys/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-twilight-sushi-n1628067381": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-twilight-sushi-n1628067381/p1-1400.webp",
+     "thumb": "img/places/gent/osm-twilight-sushi-n1628067381/p1-700.webp",
+     "srcset": "img/places/gent/osm-twilight-sushi-n1628067381/p1-700.webp 700w, img/places/gent/osm-twilight-sushi-n1628067381/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 682,
+     "category": "food",
+     "alt": "Twilight Sushi: food",
+     "credit": "twilightsushi.com",
+     "credit_url": "https://www.twilightsushi.com/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-twilight-sushi-n1628067381/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-stokerij-n12205332271": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-de-stokerij-n12205332271/p1-1400.webp",
+     "thumb": "img/places/gent/osm-de-stokerij-n12205332271/p1-700.webp",
+     "srcset": "img/places/gent/osm-de-stokerij-n12205332271/p1-700.webp 700w, img/places/gent/osm-de-stokerij-n12205332271/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "De Stokerij: the interior",
+     "credit": "destokerij.gent",
+     "credit_url": "https://destokerij.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-stokerij-n12205332271/p2-800.webp",
+     "thumb": "img/places/gent/osm-de-stokerij-n12205332271/p2-400.webp",
+     "srcset": "img/places/gent/osm-de-stokerij-n12205332271/p2-400.webp 400w, img/places/gent/osm-de-stokerij-n12205332271/p2-800.webp 800w",
+     "w": 640,
+     "h": 800,
+     "category": "drink",
+     "alt": "De Stokerij: drinks",
+     "credit": "destokerij.gent",
+     "credit_url": "https://destokerij.gent/fotos/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-de-stokerij-n12205332271/p3-800.webp",
+     "thumb": "img/places/gent/osm-de-stokerij-n12205332271/p3-400.webp",
+     "srcset": "img/places/gent/osm-de-stokerij-n12205332271/p3-400.webp 400w, img/places/gent/osm-de-stokerij-n12205332271/p3-800.webp 800w",
+     "w": 640,
+     "h": 800,
+     "category": "interior",
+     "alt": "De Stokerij: the interior",
+     "credit": "destokerij.gent",
+     "credit_url": "https://destokerij.gent/fotos/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-de-stokerij-n12205332271/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "afsnis": {
+   "photos": [
+    {
+     "src": "img/places/gent/afsnis/p1-1400.webp",
+     "thumb": "img/places/gent/afsnis/p1-700.webp",
+     "srcset": "img/places/gent/afsnis/p1-700.webp 700w, img/places/gent/afsnis/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "exterior",
+     "alt": "Afsnis: the outside",
+     "credit": "Afsnis via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/afsnis",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/afsnis/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-albatros": {
+   "photos": [
+    {
+     "src": "img/places/gent/cafe-albatros/p1-1400.webp",
+     "thumb": "img/places/gent/cafe-albatros/p1-700.webp",
+     "srcset": "img/places/gent/cafe-albatros/p1-700.webp 700w, img/places/gent/cafe-albatros/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Café Albatros: the interior",
+     "credit": "Lars Crommelinck via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-albatros",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-albatros/p2-800.webp",
+     "thumb": "img/places/gent/cafe-albatros/p2-400.webp",
+     "srcset": "img/places/gent/cafe-albatros/p2-400.webp 400w, img/places/gent/cafe-albatros/p2-800.webp 800w",
+     "w": 756,
+     "h": 1133,
+     "category": "interior",
+     "alt": "Café Albatros: the interior",
+     "credit": "Café Albatros (own website), photo Lars Crommelinck",
+     "credit_url": "https://cafealbatros.be/img/asset/YXNzZXRzL2ltYWdlcy92ZW50dXJhLC1nZW50LShiZWxnaXVtKS0tLWxhcnMtY3JvbW1lbGluY2stNTE5LmpwZw/ventura,-gent-%28belgium%29---lars-crommelinck-519.jpg?fm=webp&q=90&fit=crop-46-21-1&w=756&h=1133&s=90ef541d7682c94f2e2b4e94a0e70273",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/cafe-albatros/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-den-turk": {
+   "photos": [
+    {
+     "src": "img/places/gent/cafe-den-turk/p1-1400.webp",
+     "thumb": "img/places/gent/cafe-den-turk/p1-700.webp",
+     "srcset": "img/places/gent/cafe-den-turk/p1-700.webp 700w, img/places/gent/cafe-den-turk/p1-1400.webp 1400w",
+     "w": 1152,
+     "h": 768,
+     "category": "interior",
+     "alt": "Café Den Turk: the interior",
+     "credit": "Café Den Turk (own website)",
+     "credit_url": "https://cafedenturk.be/images/slider/IMG_6064%20(Medium).jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-den-turk/p2-800.webp",
+     "thumb": "img/places/gent/cafe-den-turk/p2-400.webp",
+     "srcset": "img/places/gent/cafe-den-turk/p2-400.webp 400w, img/places/gent/cafe-den-turk/p2-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "interior",
+     "alt": "Café Den Turk: the interior",
+     "credit": "Café Den Turk (own website)",
+     "credit_url": "https://cafedenturk.be/images/slider/04.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-den-turk/p3-800.webp",
+     "thumb": "img/places/gent/cafe-den-turk/p3-400.webp",
+     "srcset": "img/places/gent/cafe-den-turk/p3-400.webp 400w, img/places/gent/cafe-den-turk/p3-800.webp 800w",
+     "w": 800,
+     "h": 534,
+     "category": "exterior",
+     "alt": "Café Den Turk: the outside",
+     "credit": "Café Den Turk (own website)",
+     "credit_url": "https://cafedenturk.be/images/slider/01.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/cafe-den-turk/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-folklore": {
+   "photos": [
+    {
+     "src": "img/places/gent/cafe-folklore/p1-1400.webp",
+     "thumb": "img/places/gent/cafe-folklore/p1-700.webp",
+     "srcset": "img/places/gent/cafe-folklore/p1-700.webp 700w, img/places/gent/cafe-folklore/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Café Folklore: the interior",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-folklore",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-folklore/p2-800.webp",
+     "thumb": "img/places/gent/cafe-folklore/p2-400.webp",
+     "srcset": "img/places/gent/cafe-folklore/p2-400.webp 400w, img/places/gent/cafe-folklore/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "interior",
+     "staff": true,
+     "alt": "Café Folklore: staff at work",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-folklore",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/cafe-folklore/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-gitane": {
+   "photos": [
+    {
+     "src": "img/places/gent/cafe-gitane/p1-1400.webp",
+     "thumb": "img/places/gent/cafe-gitane/p1-700.webp",
+     "srcset": "img/places/gent/cafe-gitane/p1-700.webp 700w, img/places/gent/cafe-gitane/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Café Gitane: the interior",
+     "credit": "Café Gitane via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-gitane/p2-800.webp",
+     "thumb": "img/places/gent/cafe-gitane/p2-400.webp",
+     "srcset": "img/places/gent/cafe-gitane/p2-400.webp 400w, img/places/gent/cafe-gitane/p2-800.webp 800w",
+     "w": 738,
+     "h": 1600,
+     "category": "interior",
+     "alt": "Café Gitane: the interior",
+     "credit": "Café Gitane via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-gitane/p3-800.webp",
+     "thumb": "img/places/gent/cafe-gitane/p3-400.webp",
+     "srcset": "img/places/gent/cafe-gitane/p3-400.webp 400w, img/places/gent/cafe-gitane/p3-800.webp 800w",
+     "w": 738,
+     "h": 1600,
+     "category": "exterior",
+     "alt": "Café Gitane: the outside",
+     "credit": "Café Gitane via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/cafe-gitane/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-guido": {
+   "photos": [
+    {
+     "src": "img/places/gent/cafe-guido/p1-1400.webp",
+     "thumb": "img/places/gent/cafe-guido/p1-700.webp",
+     "srcset": "img/places/gent/cafe-guido/p1-700.webp 700w, img/places/gent/cafe-guido/p1-1400.webp 1400w",
+     "w": 1050,
+     "h": 1400,
+     "category": "interior",
+     "staff": true,
+     "alt": "Café Guido: staff at work",
+     "credit": "Café Guido (own website)",
+     "credit_url": "https://cafeguido.be/_next/image?url=%2Fimg%2F_MG_7902245.jpg&w=3840&q=75&dpl=dpl_3iSPsKEguLEqFsTXaMXnwWeuKPj1",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/cafe-guido/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "cafe-romain": {
+   "photos": [
+    {
+     "src": "img/places/gent/cafe-romain/p1-1400.webp",
+     "thumb": "img/places/gent/cafe-romain/p1-700.webp",
+     "srcset": "img/places/gent/cafe-romain/p1-700.webp 700w, img/places/gent/cafe-romain/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Café Romain: the interior",
+     "credit": "Café Romain via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-romain/p2-800.webp",
+     "thumb": "img/places/gent/cafe-romain/p2-400.webp",
+     "srcset": "img/places/gent/cafe-romain/p2-400.webp 400w, img/places/gent/cafe-romain/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Café Romain: the interior",
+     "credit": "Café Romain via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-romain/p3-800.webp",
+     "thumb": "img/places/gent/cafe-romain/p3-400.webp",
+     "srcset": "img/places/gent/cafe-romain/p3-400.webp 400w, img/places/gent/cafe-romain/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Café Romain: the outside",
+     "credit": "Café Romain via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/cafe-romain/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "de-geus-van-gent": {
+   "photos": [
+    {
+     "src": "img/places/gent/de-geus-van-gent/p1-1400.webp",
+     "thumb": "img/places/gent/de-geus-van-gent/p1-700.webp",
+     "srcset": "img/places/gent/de-geus-van-gent/p1-700.webp 700w, img/places/gent/de-geus-van-gent/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "exterior",
+     "alt": "De Geus van Gent: the outside",
+     "credit": "Gerbrich Reynaert via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-geus-van-gent/p2-800.webp",
+     "thumb": "img/places/gent/de-geus-van-gent/p2-400.webp",
+     "srcset": "img/places/gent/de-geus-van-gent/p2-400.webp 400w, img/places/gent/de-geus-van-gent/p2-800.webp 800w",
+     "w": 800,
+     "h": 530,
+     "category": "exterior",
+     "alt": "De Geus van Gent: the outside",
+     "credit": "Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/de-geus-van-gent",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/de-geus-van-gent/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "de-maecht-van-ghent": {
+   "photos": [
+    {
+     "src": "img/places/gent/de-maecht-van-ghent/p1-1400.webp",
+     "thumb": "img/places/gent/de-maecht-van-ghent/p1-700.webp",
+     "srcset": "img/places/gent/de-maecht-van-ghent/p1-700.webp 700w, img/places/gent/de-maecht-van-ghent/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "De Maecht van Ghent: the interior",
+     "credit": "De Maecht van Ghent (own website)",
+     "credit_url": "https://static.wixstatic.com/media/6047ca_170b7e9bed104c1ea3cb3767ad6926ef~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-maecht-van-ghent/p2-800.webp",
+     "thumb": "img/places/gent/de-maecht-van-ghent/p2-400.webp",
+     "srcset": "img/places/gent/de-maecht-van-ghent/p2-400.webp 400w, img/places/gent/de-maecht-van-ghent/p2-800.webp 800w",
+     "w": 800,
+     "h": 532,
+     "category": "food",
+     "alt": "De Maecht van Ghent: food",
+     "credit": "De Maecht van Ghent (own website)",
+     "credit_url": "https://static.wixstatic.com/media/6047ca_b34500adf34b48cdb407bc5004c55bc7~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-maecht-van-ghent/p3-800.webp",
+     "thumb": "img/places/gent/de-maecht-van-ghent/p3-400.webp",
+     "srcset": "img/places/gent/de-maecht-van-ghent/p3-400.webp 400w, img/places/gent/de-maecht-van-ghent/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "drink",
+     "alt": "De Maecht van Ghent: drinks",
+     "credit": "De Maecht van Ghent (own website)",
+     "credit_url": "https://static.wixstatic.com/media/6047ca_d04a66c34af14423bbfa005bff267f35~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-maecht-van-ghent/p4-800.webp",
+     "thumb": "img/places/gent/de-maecht-van-ghent/p4-400.webp",
+     "srcset": "img/places/gent/de-maecht-van-ghent/p4-400.webp 400w, img/places/gent/de-maecht-van-ghent/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "De Maecht van Ghent: the interior",
+     "credit": "De Maecht van Ghent (own website)",
+     "credit_url": "https://static.wixstatic.com/media/6047ca_80487dcc4ef64e57a2cb3778339ce598~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-maecht-van-ghent/p5-800.webp",
+     "thumb": "img/places/gent/de-maecht-van-ghent/p5-400.webp",
+     "srcset": "img/places/gent/de-maecht-van-ghent/p5-400.webp 400w, img/places/gent/de-maecht-van-ghent/p5-800.webp 800w",
+     "w": 800,
+     "h": 999,
+     "category": "exterior",
+     "alt": "De Maecht van Ghent: the outside",
+     "credit": "De Maecht van Ghent (own website)",
+     "credit_url": "https://static.wixstatic.com/media/6047ca_502f18b2fd964521b906762aad89c253~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/de-maecht-van-ghent/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "fari": {
+   "photos": [
+    {
+     "src": "img/places/gent/fari/p1-1400.webp",
+     "thumb": "img/places/gent/fari/p1-700.webp",
+     "srcset": "img/places/gent/fari/p1-700.webp 700w, img/places/gent/fari/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Fari: the interior",
+     "credit": "Fari (own website)",
+     "credit_url": "https://static.wixstatic.com/media/14246c_33c1ec4a0ec14aa9812cc4545a769289~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/fari/p2-800.webp",
+     "thumb": "img/places/gent/fari/p2-400.webp",
+     "srcset": "img/places/gent/fari/p2-400.webp 400w, img/places/gent/fari/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Fari: food",
+     "credit": "Fari (own website)",
+     "credit_url": "https://static.wixstatic.com/media/14246c_4050fa65ed154fb4b4a2e230712cee6f~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/fari/p3-800.webp",
+     "thumb": "img/places/gent/fari/p3-400.webp",
+     "srcset": "img/places/gent/fari/p3-400.webp 400w, img/places/gent/fari/p3-800.webp 800w",
+     "w": 800,
+     "h": 312,
+     "category": "food",
+     "alt": "Fari: food",
+     "credit": "Fari (own website)",
+     "credit_url": "https://static.wixstatic.com/media/14246c_d0070d550f824cadbc8c16f495d03866~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/fari/p4-800.webp",
+     "thumb": "img/places/gent/fari/p4-400.webp",
+     "srcset": "img/places/gent/fari/p4-400.webp 400w, img/places/gent/fari/p4-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Fari: food",
+     "credit": "Fari (own website)",
+     "credit_url": "https://static.wixstatic.com/media/14246c_c751eb5d2442403b9c079294d6250d5b~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/fari/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "full-circle-coffee": {
+   "photos": [
+    {
+     "src": "img/places/gent/full-circle-coffee/p1-1400.webp",
+     "thumb": "img/places/gent/full-circle-coffee/p1-700.webp",
+     "srcset": "img/places/gent/full-circle-coffee/p1-700.webp 700w, img/places/gent/full-circle-coffee/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Full Circle Coffee: the interior",
+     "credit": "Full Circle Coffee (own website)",
+     "credit_url": "https://static.wixstatic.com/media/2a4c93_59f129a821a846c8b4e83601de1f6824~mv2.jpg",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/full-circle-coffee/p2-800.webp",
+     "thumb": "img/places/gent/full-circle-coffee/p2-400.webp",
+     "srcset": "img/places/gent/full-circle-coffee/p2-400.webp 400w, img/places/gent/full-circle-coffee/p2-800.webp 800w",
+     "w": 800,
+     "h": 530,
+     "category": "exterior",
+     "alt": "Full Circle Coffee: the outside",
+     "credit": "Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/full-circle-coffee",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/full-circle-coffee/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "goya-coffee": {
+   "photos": [
+    {
+     "src": "img/places/gent/goya-coffee/p1-1400.webp",
+     "thumb": "img/places/gent/goya-coffee/p1-700.webp",
+     "srcset": "img/places/gent/goya-coffee/p1-700.webp 700w, img/places/gent/goya-coffee/p1-1400.webp 1400w",
+     "w": 768,
+     "h": 1024,
+     "category": "interior",
+     "alt": "Goya: the interior",
+     "credit": "Goya via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/goya",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/goya-coffee/p2-800.webp",
+     "thumb": "img/places/gent/goya-coffee/p2-400.webp",
+     "srcset": "img/places/gent/goya-coffee/p2-400.webp 400w, img/places/gent/goya-coffee/p2-800.webp 800w",
+     "w": 768,
+     "h": 1024,
+     "category": "interior",
+     "alt": "Goya: the interior",
+     "credit": "Goya via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/goya",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/goya-coffee/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "hey-frankie": {
+   "photos": [
+    {
+     "src": "img/places/gent/hey-frankie/p1-1400.webp",
+     "thumb": "img/places/gent/hey-frankie/p1-700.webp",
+     "srcset": "img/places/gent/hey-frankie/p1-700.webp 700w, img/places/gent/hey-frankie/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 900,
+     "category": "exterior",
+     "alt": "Hey Frankie: the outside",
+     "credit": "Hey Frankie (own website)",
+     "credit_url": "https://freight.cargo.site/w/1200/i/7f4e4e04cfe2676af67953340c0c2a7e4cc7663e57fa1209e4354070277e9dad/IMG_3178.JPG",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/hey-frankie/p2-800.webp",
+     "thumb": "img/places/gent/hey-frankie/p2-400.webp",
+     "srcset": "img/places/gent/hey-frankie/p2-400.webp 400w, img/places/gent/hey-frankie/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Hey Frankie: the interior",
+     "credit": "Hey Frankie via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/hey-frankie",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/hey-frankie/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "kinky-star": {
+   "photos": [
+    {
+     "src": "img/places/gent/kinky-star/p1-1400.webp",
+     "thumb": "img/places/gent/kinky-star/p1-700.webp",
+     "srcset": "img/places/gent/kinky-star/p1-700.webp 700w, img/places/gent/kinky-star/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "exterior",
+     "alt": "Kinky Star: the outside",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/kinky-star",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/kinky-star/p2-800.webp",
+     "thumb": "img/places/gent/kinky-star/p2-400.webp",
+     "srcset": "img/places/gent/kinky-star/p2-400.webp 400w, img/places/gent/kinky-star/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "exterior",
+     "alt": "Kinky Star: the outside",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/kinky-star",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/kinky-star/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "la-matta": {
+   "photos": [
+    {
+     "src": "img/places/gent/la-matta/p1-1400.webp",
+     "thumb": "img/places/gent/la-matta/p1-700.webp",
+     "srcset": "img/places/gent/la-matta/p1-700.webp 700w, img/places/gent/la-matta/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "La Matta: food",
+     "credit": "@lamattagent via Instagram",
+     "credit_url": "https://www.instagram.com/p/DeMZWJNoILh/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/la-matta/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-gekroonde-hoofden-n818880413": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-1400.webp",
+     "thumb": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-700.webp",
+     "srcset": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-700.webp 700w, img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-1400.webp 1400w",
+     "w": 850,
+     "h": 568,
+     "category": "exterior",
+     "alt": "De Gekroonde Hoofden: the outside",
+     "credit": "degekroondehoofden.be",
+     "credit_url": "https://degekroondehoofden.be/restaurants/gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-de-gekroonde-hoofden-n818880413/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "pica-beans": {
+   "photos": [
+    {
+     "src": "img/places/gent/pica-beans/p1-1400.webp",
+     "thumb": "img/places/gent/pica-beans/p1-700.webp",
+     "srcset": "img/places/gent/pica-beans/p1-700.webp 700w, img/places/gent/pica-beans/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1921,
+     "category": "food",
+     "alt": "Pica Beans: food",
+     "credit": "@pica_beans_gent via Instagram",
+     "credit_url": "https://www.instagram.com/pica_beans_gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/pica-beans/p2-800.webp",
+     "thumb": "img/places/gent/pica-beans/p2-400.webp",
+     "srcset": "img/places/gent/pica-beans/p2-400.webp 400w, img/places/gent/pica-beans/p2-800.webp 800w",
+     "w": 800,
+     "h": 1423,
+     "category": "drink",
+     "alt": "Pica Beans: drinks",
+     "credit": "@pica_beans_gent via Instagram",
+     "credit_url": "https://www.instagram.com/pica_beans_gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/pica-beans/p3-800.webp",
+     "thumb": "img/places/gent/pica-beans/p3-400.webp",
+     "srcset": "img/places/gent/pica-beans/p3-400.webp 400w, img/places/gent/pica-beans/p3-800.webp 800w",
+     "w": 800,
+     "h": 1423,
+     "category": "drink",
+     "alt": "Pica Beans: drinks",
+     "credit": "@pica_beans_gent via Instagram",
+     "credit_url": "https://www.instagram.com/pica_beans_gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/pica-beans/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "t-dreupelkot": {
+   "photos": [
+    {
+     "src": "img/places/gent/t-dreupelkot/p1-1400.webp",
+     "thumb": "img/places/gent/t-dreupelkot/p1-700.webp",
+     "srcset": "img/places/gent/t-dreupelkot/p1-700.webp 700w, img/places/gent/t-dreupelkot/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 932,
+     "category": "exterior",
+     "alt": "'t Dreupelkot: the outside",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-dreupelkot",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/t-dreupelkot/p2-800.webp",
+     "thumb": "img/places/gent/t-dreupelkot/p2-400.webp",
+     "srcset": "img/places/gent/t-dreupelkot/p2-400.webp 400w, img/places/gent/t-dreupelkot/p2-800.webp 800w",
+     "w": 800,
+     "h": 1202,
+     "category": "exterior",
+     "alt": "'t Dreupelkot: the outside",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-dreupelkot",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/t-dreupelkot/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "t-galgenhuisje": {
+   "photos": [
+    {
+     "src": "img/places/gent/t-galgenhuisje/p1-1400.webp",
+     "thumb": "img/places/gent/t-galgenhuisje/p1-700.webp",
+     "srcset": "img/places/gent/t-galgenhuisje/p1-700.webp 700w, img/places/gent/t-galgenhuisje/p1-1400.webp 1400w",
+     "w": 720,
+     "h": 960,
+     "category": "interior",
+     "alt": "'t Galgenhuisje: the interior",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/t-galgenhuisje/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "tds": {
+   "photos": [
+    {
+     "src": "img/places/gent/tds/p1-1400.webp",
+     "thumb": "img/places/gent/tds/p1-700.webp",
+     "srcset": "img/places/gent/tds/p1-700.webp 700w, img/places/gent/tds/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 720,
+     "category": "interior",
+     "staff": true,
+     "alt": "TDS: staff at work",
+     "credit": "TDS (own website)",
+     "credit_url": "https://tdscoffee.be/wp-content/uploads/2026/10/tds-bar-interieur-footnote-gallery-gent-1280w.webp",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/tds/p2-800.webp",
+     "thumb": "img/places/gent/tds/p2-400.webp",
+     "srcset": "img/places/gent/tds/p2-400.webp 400w, img/places/gent/tds/p2-800.webp 800w",
+     "w": 800,
+     "h": 364,
+     "category": "interior",
+     "staff": true,
+     "alt": "TDS: staff at work",
+     "credit": "TDS (own website)",
+     "credit_url": "https://tdscoffee.be/wp-content/uploads/2026/10/tds-specialty-coffee-bar-gent-2000w.webp",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/tds/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "terug": {
+   "photos": [
+    {
+     "src": "img/places/gent/terug/p1-1400.webp",
+     "thumb": "img/places/gent/terug/p1-700.webp",
+     "srcset": "img/places/gent/terug/p1-700.webp 700w, img/places/gent/terug/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "drink",
+     "alt": "Terug: drinks",
+     "credit": "@terug.coffee via Instagram",
+     "credit_url": "https://www.instagram.com/p/Dc0r4W6oVcV/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/terug/p2-800.webp",
+     "thumb": "img/places/gent/terug/p2-400.webp",
+     "srcset": "img/places/gent/terug/p2-400.webp 400w, img/places/gent/terug/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "drink",
+     "alt": "Terug: drinks",
+     "credit": "@terug.coffee via Instagram",
+     "credit_url": "https://www.instagram.com/p/DYCum7GiNP1/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/terug/p3-800.webp",
+     "thumb": "img/places/gent/terug/p3-400.webp",
+     "srcset": "img/places/gent/terug/p3-400.webp 400w, img/places/gent/terug/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "drink",
+     "alt": "Terug: drinks",
+     "credit": "@terug.coffee via Instagram",
+     "credit_url": "https://www.instagram.com/p/DXwr5ZriHyP/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/terug/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "tshiela": {
+   "photos": [
+    {
+     "src": "img/places/gent/tshiela/p1-1400.webp",
+     "thumb": "img/places/gent/tshiela/p1-700.webp",
+     "srcset": "img/places/gent/tshiela/p1-700.webp 700w, img/places/gent/tshiela/p1-1400.webp 1400w",
+     "w": 1280,
+     "h": 1707,
+     "category": "food",
+     "alt": "Tshiela: food",
+     "credit": "Tshiela (own website)",
+     "credit_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sVV4I_FoEusZqdAVf25_CEoOXlxSZVjF2IGtYFUc-YAX3cSTsvWpBsDqETovuSO_FREwfcm_iOuFvHSVsqXJ8Q1TxXxUfLSd6s8IyjLJu2Vu2RvgqNAQIBOGMlSTN5McBPeszhHlAv2y0vE8ijWJHfyHLY_1pEjgMksJ4X544txPUzzJHXQu40YQiAwag=w1280",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/tshiela/p2-800.webp",
+     "thumb": "img/places/gent/tshiela/p2-400.webp",
+     "srcset": "img/places/gent/tshiela/p2-400.webp 400w, img/places/gent/tshiela/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Tshiela: food",
+     "credit": "Tshiela (own website)",
+     "credit_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vYtpqnzALxjC3V8tyOgWs3VwoVf5PHpZi7xpB6moBEcQ6OPU2Felor4ZF0oRTNRMRNeYUmGxs_XHgBC3D9YlNr6Yqmytvpi20fzKhiT-utK7uOm4pKIjcSOw5-7NEK5g9zjEn5e7rSoiABNE_hQheF0Kh3mBKZE9Q1e3ZoROrM_tqX4rImH8aeLnym=w1280",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/tshiela/p3-800.webp",
+     "thumb": "img/places/gent/tshiela/p3-400.webp",
+     "srcset": "img/places/gent/tshiela/p3-400.webp 400w, img/places/gent/tshiela/p3-800.webp 800w",
+     "w": 800,
+     "h": 913,
+     "category": "food",
+     "alt": "Tshiela: food",
+     "credit": "Tshiela (own website)",
+     "credit_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uS-QNnRLlqQdpzPKZq1VsiEfLButjwyDSHCZbvKA9HHMxFqY0LG3nLBGXrnxo3Y2A3SkN-pgvifq2_tyXbvnP5LGStfljNXiwCyd5GPEffasn8iSrCcb4wkJ8sWftlgpAFoos8PpZek4fwEG-VEanCRIWfcssR66NfKHSbrUIcNrqgLURzA4I9LuH_hyemZhLnztgGbcTVInadZSMRs_QZgb5krnux0O4WTMzcAVw=w1280",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/tshiela/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "waterhuis-aan-de-bierkant": {
+   "photos": [
+    {
+     "src": "img/places/gent/waterhuis-aan-de-bierkant/p1-1400.webp",
+     "thumb": "img/places/gent/waterhuis-aan-de-bierkant/p1-700.webp",
+     "srcset": "img/places/gent/waterhuis-aan-de-bierkant/p1-700.webp 700w, img/places/gent/waterhuis-aan-de-bierkant/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "exterior",
+     "alt": "Waterhuis aan de Bierkant: the outside",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/waterhuis-aan-de-bierkant/p2-800.webp",
+     "thumb": "img/places/gent/waterhuis-aan-de-bierkant/p2-400.webp",
+     "srcset": "img/places/gent/waterhuis-aan-de-bierkant/p2-400.webp 400w, img/places/gent/waterhuis-aan-de-bierkant/p2-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "Waterhuis aan de Bierkant: the outside",
+     "credit": "VisitGent via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/waterhuis-aan-de-bierkant",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/waterhuis-aan-de-bierkant/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
