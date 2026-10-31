@@ -743,5 +743,12 @@
 "Buffet": "Buffet",
 "Barbecue": "Grillen",
 "Business dinners": "Geschäftsessen",
-"Dinner at the chef’s place": "Essen beim Koch"
+"Dinner at the chef’s place": "Essen beim Koch",
+"Breakfast, brunch & coffee": "Frühstück, Brunch & Kaffee",
+"breakfast, brunch & coffee": "Frühstück, Brunch & Kaffee",
+"Bars & live music": "Bars & Livemusik",
+"bars & live music": "Bars & Livemusik",
+"veggie & vegan": "Veggie & vegan",
+"100% vegetarian": "100 % vegetarisch",
+"{x} in {city}": "{x} in {city}"
 };

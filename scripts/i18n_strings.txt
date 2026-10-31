@@ -778,3 +778,11 @@ Buffet | Buffet | Buffet | Buffet | Bufé
 Barbecue | Barbecue | Grillen | Barbecue | Barbacoa
 Business dinners | Zakendiners | Geschäftsessen | Dîners d’affaires | Cenas de empresa
 Dinner at the chef’s place | Diner bij de chef | Essen beim Koch | Dîner chez le chef | Cena en casa del chef
+## merged category tabs (31 Oct 2026, preview-merge-cats): Veggie & vegan · Breakfast, brunch & coffee · Bars & live music
+Breakfast, brunch & coffee | Ontbijt, brunch & koffie | Frühstück, Brunch & Kaffee | Petit-déj, brunch & café | Desayuno, brunch y café
+breakfast, brunch & coffee | ontbijt, brunch & koffie | Frühstück, Brunch & Kaffee | petit-déj, brunch & café | desayuno, brunch y café
+Bars & live music | Cafés & livemuziek | Bars & Livemusik | Bars & musique live | Bares y música en directo
+bars & live music | cafés & livemuziek | Bars & Livemusik | bars & musique live | bares y música en directo
+veggie & vegan | veggie & vegan | Veggie & vegan | végé & vegan | veggie y vegano
+100% vegetarian | 100% vegetarisch | 100 % vegetarisch | 100 % végétarien | 100 % vegetariano
+{x} in {city} | {x} in {city} | {x} in {city} | {x} à {city} | {x} en {city}

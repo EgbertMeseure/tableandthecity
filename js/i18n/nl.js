@@ -743,5 +743,12 @@
 "Buffet": "Buffet",
 "Barbecue": "Barbecue",
 "Business dinners": "Zakendiners",
-"Dinner at the chef’s place": "Diner bij de chef"
+"Dinner at the chef’s place": "Diner bij de chef",
+"Breakfast, brunch & coffee": "Ontbijt, brunch & koffie",
+"breakfast, brunch & coffee": "ontbijt, brunch & koffie",
+"Bars & live music": "Cafés & livemuziek",
+"bars & live music": "cafés & livemuziek",
+"veggie & vegan": "veggie & vegan",
+"100% vegetarian": "100% vegetarisch",
+"{x} in {city}": "{x} in {city}"
 };
