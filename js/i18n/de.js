@@ -174,6 +174,8 @@
 "Jazz café": "Jazzcafé",
 "Blues & roots café": "Blues- & Roots-Café",
 "Jazz club": "Jazzclub",
+"Open April – October": "Geöffnet April bis Oktober",
+"Open {x} – {y}": "Geöffnet {x} bis {y}",
 "Art-space café: local drinks, coffee, vegan mastel": "Kunstcafé: lokale Getränke, Kaffee, veganer Mastel",
 "Restaurant": "Restaurant",
 "Quick bites": "Kleine Happen",

@@ -15268,10 +15268,8 @@
    "menuType": "",
    "menuChanges": "unknown",
    "currentMenuNote": "",
-   "status": "temporarily closed",
-   "statusNote": "Seasonal: open from April to October (own site); closed for the winter after 31 October 2026.",
-   "statusUntil": "2027-03-31",
-   "statusSource": "https://giftshop.gent/",
+   "status": "open",
+   "statusNote": "",
    "website": "https://giftshop.gent/",
    "instagram_handle": "giftshop.gent",
    "instagram": "https://www.instagram.com/giftshop.gent/",
@@ -15309,7 +15307,12 @@
    "openingHours": "Fr-Su 13:00-19:00; Mo-Th off",
    "openingHoursSource": "https://giftshop.gent/calendar/ ('Giftshop is open Friday, Saturday & Sunday 13:00-19:00') + https://visit.gent.be/en/see-do/giftshop (same); season April–October per https://giftshop.gent/",
    "openingHoursConfidence": "high",
-   "notes": "Added on user request 31 Oct 2026. Named 'Giftshop' / 'GIFTSHOP' by the place itself (Instagram 'Giftshop Gent'); not 'The Giftshop'. Cultural space with a bar, run by volunteers; not a specialty coffee bar, so kept under Cafés & bars. No breakfast/brunch (opens 13:00). The ground-floor makers' shop has its own calendar (March–December, Sat–Sun 13:00–18:00, giftshop.gent/shop). Photos: own website, photographer Michiel Devijver (credited in the file names). Data conflicts: Visit Gent and HappyCow give 'Werregarenstraat' (no number, the alley entrance), the own site's footer 'Hoogpoort 37'; HappyCow (2024) lists Sun 13:00-18:00 only, the own site and Visit Gent Fri-Sun 13:00-19:00.",
+   "season": {
+    "from": 4,
+    "to": 10,
+    "source": "https://giftshop.gent/ ('Giftshop is open from April to October')"
+   },
+   "notes": "Added on user request 31 Oct 2026; seasonal (April–October) shown with the 'season' field, not as a temporary closure (user, 1 Nov 2026). Named 'Giftshop' / 'GIFTSHOP' by the place itself (Instagram 'Giftshop Gent'); not 'The Giftshop'. Cultural space with a bar, run by volunteers; not a specialty coffee bar, so kept under Cafés & bars. No breakfast/brunch (opens 13:00). The ground-floor makers' shop has its own calendar (March–December, Sat–Sun 13:00–18:00, giftshop.gent/shop). Photos: own website, photographer Michiel Devijver (credited in the file names). Data conflicts: Visit Gent and HappyCow give 'Werregarenstraat' (no number, the alley entrance), the own site's footer 'Hoogpoort 37'; HappyCow (2024) lists Sun 13:00-18:00 only, the own site and Visit Gent Fri-Sun 13:00-19:00.",
    "origin": "research-2026-10-31-user-request"
   }
  ],
@@ -16428,7 +16431,7 @@
    "date": "2026-10-31",
    "restaurant": "Giftshop",
    "field": "added",
-   "change": "Added (cultural space with a bar in the Graffitistraatje, Hoogpoort 37 / Werregarenstraat; seasonal April–October, Fri–Sun 13:00–19:00; user request 2026-10-31).",
+   "change": "Added (cultural space with a bar in the Graffitistraatje, Hoogpoort 37 / Werregarenstraat; seasonal: open April–October, Fri–Sun 13:00–19:00 (season field); user request 2026-10-31).",
    "source": "https://giftshop.gent/",
    "public": "Added: café in the graffiti alley."
   }
