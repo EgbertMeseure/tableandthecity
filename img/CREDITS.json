@@ -1252,5 +1252,49 @@
   "photographer_url": "https://de-salopette.be",
   "source": "https://primary.jwwb.nl/public/p/j/u/temp-tojorieqhhyhpqhsmjgm/img_5722-high.jpg (site share image)",
   "license": "Venue's own promotional image, credited and linked in the event box; placed on a light 16:9 background, 960×540 webp"
+ },
+ {
+  "file": "img/cities/amsterdam/hero-damrak-{1000,1600,2400}.webp + hero-damrak-1600.jpg",
+  "title": "Colorful windows and canal houses at blue hour with water reflection in Damrak Amsterdam Netherlands.jpg",
+  "photographer": "Basile Morin",
+  "photographer_url": "https://commons.wikimedia.org/wiki/User:Basile_Morin",
+  "source": "https://commons.wikimedia.org/wiki/File:Colorful_windows_and_canal_houses_at_blue_hour_with_water_reflection_in_Damrak_Amsterdam_Netherlands.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "used_for": "Amsterdam home hero (canal houses on the Damrak at blue hour)",
+  "changes": "cropped to 3:2, resized, WebP + JPEG (shown in colour on the globe’s Netherlands cards). The published crop is likewise licensed CC BY-SA 4.0"
+ },
+ {
+  "file": "img/cities/rotterdam/hero-markthal-{1000,1600,2400}.webp + hero-markthal-1600.jpg",
+  "title": "Markthal 2014.JPG",
+  "photographer": "Steven Lek",
+  "photographer_url": "https://commons.wikimedia.org/wiki/User:Steven_Lek",
+  "source": "https://commons.wikimedia.org/wiki/File:Markthal_2014.JPG",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "used_for": "Rotterdam home hero (the Markthal at night)",
+  "changes": "cropped to 3:2, resized, WebP + JPEG (shown in colour on the globe’s Netherlands cards). The published crop is likewise licensed CC BY-SA 4.0"
+ },
+ {
+  "file": "img/cities/utrecht/hero-dom-{1000,1600,2400}.webp + hero-dom-1600.jpg",
+  "title": "Domtoren Utrecht 06.jpg",
+  "photographer": "Rémih",
+  "photographer_url": "https://commons.wikimedia.org/wiki/User:R%C3%A9mih",
+  "source": "https://commons.wikimedia.org/wiki/File:Domtoren_Utrecht_06.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "used_for": "Utrecht home hero (the Dom tower over the Oudegracht wharves at blue hour)",
+  "changes": "cropped to 3:2, resized, WebP + JPEG (shown in colour on the globe’s Netherlands cards). The published crop is likewise licensed CC BY-SA 4.0"
+ },
+ {
+  "file": "img/cities/denhaag/hero-binnenhof-{1000,1600,2400}.webp + hero-binnenhof-1600.jpg",
+  "title": "Het verlichte Binnenhof met Hofvijver bij avond.jpg",
+  "photographer": "MatteoNL97",
+  "photographer_url": "https://commons.wikimedia.org/wiki/User:MatteoNL97",
+  "source": "https://commons.wikimedia.org/wiki/File:Het_verlichte_Binnenhof_met_Hofvijver_bij_avond.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "used_for": "The Hague home hero (the Binnenhof lit at night over the Hofvijver)",
+  "changes": "cropped to 3:2, resized, WebP + JPEG (shown in colour on the globe’s Netherlands cards). The published crop is likewise licensed CC BY-SA 4.0"
  }
 ]

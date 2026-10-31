@@ -25,6 +25,7 @@ const COUNTRIES = CFG.countries.map(co => {
   return { id: co.id, name: co.name, active: !!co.active, next: !co.active && !!L.next, dot, cities, act };   // landing.json "next": true = the next country to open (labelled 'next' instead of 'coming soon')
 });
 const ACTIVE = COUNTRIES.filter(c => c.active && c.act.length);
+COUNTRIES.forEach(co => { co.soon = co.act.length ? [] : co.cities.filter(c => !c.active && c.images && c.images.hero); });   // a not-yet-open country whose 'soon' cities have a hero photo opens a panel of photo cards marked 'soon' (no guide links)
 /* step 1 of the globe: one Europe marker. Every country with a globe dot is in Europe for now; tapping it zooms in on Europe (step 2) */
 const EUROPE = { name: 'Europe', dot: [50.5, 10], view: [50.2, 5.6], countries: COUNTRIES.filter(c => c.dot) };
 const SIDE = { be: 'b', nl: 't' };   // step-2 label sides so the pills never overlap (Belgium's below its dot, the Netherlands' above its own); landing.json "label" overrides
@@ -41,6 +42,11 @@ $('#wl-dest-list').innerHTML = COUNTRIES.map(co => `<h3>${esc(co.name)}${co.acti
 
 function renderCards(co) {
   $('#wl-panel-title').textContent = co.name;
+  $('#wl-panel-kicker').textContent = co.act.length ? 'Choose your city' : 'Coming soon to the guide';
+  if (!co.act.length) { $('#wl-cards').innerHTML = co.soon.map(c => { const cr = c.images.heroCredit;   // 'soon' cards: Belgian card style, not a link (no guide yet)
+    return `<li><div class="wl-card wl-card--soon" aria-label="${esc(c.name)}, coming soon">
+    <img ${heroSet(c.images.hero, '(max-width:760px) 100vw, 470px')}${focus(c)} alt="" loading="lazy" decoding="async">
+    <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span><span class="wl-card__soon">soon</span></span>${cr ? `<span class="wl-card__credit">Photo: ${esc(cr.author)} · ${esc(cr.license)}</span>` : ''}</div></li>`; }).join(''); return; }
   $('#wl-cards').innerHTML = co.act.map(c => `<li><a class="wl-card" href="${guideUrl(co.id, c.id)}" data-city="${esc(c.id)}">
     ${c.images && c.images.hero ? `<img ${heroSet(c.images.hero, '(max-width:760px) 100vw, 470px')}${focus(c)} alt="" loading="lazy" decoding="async">` : ''}
     <span class="wl-card__txt"><span class="wl-card__name">${esc(c.name)}</span>${c.land.tagline ? `<span class="wl-card__tag">${esc(c.land.tagline)}</span>` : ''}</span></a></li>`).join('');
@@ -76,6 +82,7 @@ async function openCreds(on) {
     const imgs = (c.land.images || []).filter(im => im.src.startsWith(`img/cities/${c.id}/landing/`)).map(im => line(im.caption, by(im.src + '-'))).join('');
     if (hero || imgs) h += `<h3>${esc(c.name)}</h3><ul>${hero}${imgs}</ul>`;
   }
+  for (const co of COUNTRIES) for (const c of co.soon) h += `<h3>${esc(c.name)} · coming soon</h3><ul>${line(`${c.name}: hero`, by(c.images.hero))}</ul>`;
   $('#wl-creds-list').innerHTML = h;
 }
 document.addEventListener('click', e => { const a = e.target.closest('[data-credits]'); if (a) { e.preventDefault(); openCreds(true); return; }
@@ -107,6 +114,7 @@ async function initGlobe() {
 
   /* regional high-res overlay (Black Marble / Blue Marble 500 m tiles, cropped): fetched only once a country is opened, then faded in */
   const HI = { be: { box: [0, 47, 10, 55], night: small() ? 'img/world/benelux-night-1600.webp' : 'img/world/benelux-night-2400.webp', day: 'img/world/benelux-day-1200.webp' } };
+  HI.nl = { ...HI.be };   // the Benelux tile covers the Netherlands too
   const hiDone = {};
   let hiAmt = 0, hiTarget = 0, hiFor = null;
   function loadHi(id) {
@@ -227,7 +235,7 @@ async function initGlobe() {
   addMarker('region', EUROPE.dot[0], EUROPE.dot[1], `<span class="wl-mk__lbl">${esc(EUROPE.name)}</span>`, 'Europe: choose a country', () => go('#eu'));
   EUROPE.countries.forEach(co => { let m;
     if (co.active && co.act.length) m = addMarker('country', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)}<small>${co.act.length} cities</small></span>`, `${co.name}: ${co.act.length} cities`, () => go(`#${co.id}`));
-    else m = addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · ${co.next ? 'next' : 'coming soon'}</span>`, `${co.name}, ${co.next ? 'next' : 'coming soon'}`, e => { e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
+    else m = addMarker('soon', co.dot[0], co.dot[1], `<span class="wl-mk__lbl">${esc(co.name)} · ${co.next ? 'next' : 'coming soon'}</span>`, `${co.name}, ${co.next ? 'next' : 'coming soon'}`, e => { if (co.soon.length) return go(`#${co.id}`); e.currentTarget.classList.add('is-say'); setTimeout(() => e.target.closest('.wl-mk').classList.remove('is-say'), 2200); });
     m.el.dataset.side = SIDE[co.id] || 'r';
   });
   ACTIVE.forEach(co => co.act.forEach(c => { const m = addMarker('city', c.center[0], c.center[1], `<span class="wl-mk__lbl">${esc(c.name)}</span>`, c.name, () => { remember(c.id); location.href = guideUrl(co.id, c.id); }); m.el.dataset.city = c.id; m.el.dataset.side = (LAND.cities[c.id] || {}).label || 'r'; m.el.tabIndex = -1; }));
@@ -282,7 +290,7 @@ async function initGlobe() {
     if (mode === 'globe') { if (ang(EUROPE.dot) < .26) go('#eu'); return; }   // anywhere on Europe opens step 2
     if (mode === 'europe') {   // near Belgium (and closer to it than to any coming-soon dot) opens it; elsewhere nothing happens
       let best = null, bd = 1e9; EUROPE.countries.forEach(co => { const d = ang(co.dot); if (d < bd) { bd = d; best = co; } });
-      if (best && best.active && best.act.length && bd < .04) go(`#${best.id}`);
+      if (best && (best.act.length || best.soon.length) && bd < .04) go(`#${best.id}`);
       else if (bd > .2) euBack();   // a tap well away from every country (the Atlantic, Africa…) steps quietly back out
       return; }
     if (mode === 'country') { let best = null, bd = 1e9; focusCountry.act.forEach(c => { const d = p.angleTo(ll2v(c.center[0], c.center[1]).normalize()); if (d < bd) { bd = d; best = c; } });
@@ -378,7 +386,7 @@ function closeShow() { const [co] = parse(); if (pushed > 0) { pushed--; history
 
 /* ---------- router ---------- */
 let pushed = 0, STATE = (history.state && history.state.wl) || '';   // '#be' = Belgium's city cards; kept in history.state, never in the URL
-function parse() { const [a] = STATE.replace(/^#/, '').toLowerCase().split('/'); const co = ACTIVE.find(c => c.id === a) || null; return [co, null]; }
+function parse() { const [a] = STATE.replace(/^#/, '').toLowerCase().split('/'); const co = COUNTRIES.find(c => c.id === a && (ACTIVE.includes(c) || c.soon.length)) || null; return [co, null]; }
 const isEU = () => STATE === '#eu';
 function euBack() { if (!isEU()) return; if (pushed > 0) { pushed--; history.back(); } else go('', true); }
 function go(hash, replace) { hash = hash || ''; if (STATE === hash) { apply(); return; } STATE = hash;
@@ -388,6 +396,7 @@ function apply() {
   const [co, c] = parse();
   const eu = !co && isEU() && !!G;
   document.body.classList.toggle('is-europe', eu); $('#wl-eu').hidden = !eu;
+  document.body.classList.toggle('is-soon-country', !!co && !co.act.length);   // a 'soon' country: its photo cards only, no city lights to tap
   if (co) { renderCardsOnce(co); document.body.classList.add('is-country'); $('#wl-panel').hidden = false; G && G.toCountry(co); }
   else if (eu) { document.body.classList.remove('is-country'); G.toEurope(); }
   else { document.body.classList.remove('is-country'); G && G.toGlobe(); }

@@ -232,12 +232,62 @@
         {
           "id": "amsterdam",
           "name": "Amsterdam",
-          "active": false
+          "active": false,
+          "images": {
+            "hero": "img/cities/amsterdam/hero-damrak",
+            "heroCredit": {
+              "title": "Colorful windows and canal houses at blue hour with water reflection in Damrak Amsterdam Netherlands",
+              "author": "Basile Morin",
+              "source": "https://commons.wikimedia.org/wiki/File:Colorful_windows_and_canal_houses_at_blue_hour_with_water_reflection_in_Damrak_Amsterdam_Netherlands.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+          }
         },
         {
           "id": "rotterdam",
           "name": "Rotterdam",
-          "active": false
+          "active": false,
+          "images": {
+            "hero": "img/cities/rotterdam/hero-markthal",
+            "heroCredit": {
+              "title": "Markthal 2014",
+              "author": "Steven Lek",
+              "source": "https://commons.wikimedia.org/wiki/File:Markthal_2014.JPG",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+          }
+        },
+        {
+          "id": "utrecht",
+          "name": "Utrecht",
+          "active": false,
+          "images": {
+            "hero": "img/cities/utrecht/hero-dom",
+            "heroCredit": {
+              "title": "Domtoren Utrecht 06",
+              "author": "Rémih",
+              "source": "https://commons.wikimedia.org/wiki/File:Domtoren_Utrecht_06.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+          }
+        },
+        {
+          "id": "denhaag",
+          "name": "The Hague",
+          "active": false,
+          "images": {
+            "hero": "img/cities/denhaag/hero-binnenhof",
+            "heroCredit": {
+              "title": "Het verlichte Binnenhof met Hofvijver bij avond",
+              "author": "MatteoNL97",
+              "source": "https://commons.wikimedia.org/wiki/File:Het_verlichte_Binnenhof_met_Hofvijver_bij_avond.jpg",
+              "license": "CC BY-SA 4.0",
+              "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+            }
+          }
         }
       ]
     },

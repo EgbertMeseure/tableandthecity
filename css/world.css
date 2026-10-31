@@ -126,6 +126,12 @@ body.is-country .wl-cards li:nth-child(6) .wl-card{transition-delay:.3s}
 .wl-card:hover,.wl-card:focus-visible,.wl-card.is-hot{border-color:var(--gold)}
 .wl-card:hover img,.wl-card:focus-visible img,.wl-card.is-hot img{transform:scale(1.05)}
 .wl-card:hover .wl-card__go,.wl-card:focus-visible .wl-card__go{background:var(--gold);border-color:var(--gold);color:#111}
+body.is-soon-country .wl-mk--city{opacity:0;pointer-events:none}
+.wl-card--soon{cursor:default}   /* a 'soon' city (no guide yet): same photo card, not a link, no hover */
+.wl-card--soon:hover{border-color:rgba(244,239,228,.14)}
+.wl-card--soon:hover img{transform:none}
+.wl-card__soon{align-self:flex-start;font-size:11px;letter-spacing:var(--track-wide);text-transform:uppercase;padding:3px 10px;border:1px dashed rgba(244,239,228,.6);border-radius:999px;background:rgba(4,5,6,.45);color:var(--cream)}
+.wl-card__credit{position:absolute;z-index:1;right:12px;bottom:8px;font-size:10px;color:rgba(244,239,228,.7);text-shadow:0 1px 6px rgba(0,0,0,.8)}
 .wl-panel__foot{margin:14px 0 0;font-size:var(--fs-xs);letter-spacing:var(--track-wide);text-transform:uppercase;color:rgba(244,239,228,.5)}
 
 /* all destinations (also the no-WebGL fallback) */
