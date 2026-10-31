@@ -10619,6 +10619,1070 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "the-fat-swan": {
+   "photos": [
+    {
+     "src": "img/places/brugge/the-fat-swan/p1-1400.webp",
+     "thumb": "img/places/brugge/the-fat-swan/p1-700.webp",
+     "srcset": "img/places/brugge/the-fat-swan/p1-700.webp 700w, img/places/brugge/the-fat-swan/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2489,
+     "category": "interior",
+     "alt": "The Fat Swan: the interior",
+     "credit": "thefatswan.be",
+     "credit_url": "https://thefatswan.be/bruges-restaurant-sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/the-fat-swan/p2-800.webp",
+     "thumb": "img/places/brugge/the-fat-swan/p2-400.webp",
+     "srcset": "img/places/brugge/the-fat-swan/p2-400.webp 400w, img/places/brugge/the-fat-swan/p2-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "food",
+     "alt": "The Fat Swan: food",
+     "credit": "thefatswan.be",
+     "credit_url": "https://thefatswan.be/bruges-restaurant-sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/the-fat-swan/p3-800.webp",
+     "thumb": "img/places/brugge/the-fat-swan/p3-400.webp",
+     "srcset": "img/places/brugge/the-fat-swan/p3-400.webp 400w, img/places/brugge/the-fat-swan/p3-800.webp 800w",
+     "w": 800,
+     "h": 799,
+     "category": "food",
+     "alt": "The Fat Swan: food",
+     "credit": "thefatswan.be",
+     "credit_url": "https://thefatswan.be/bruges-restaurant-sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/the-fat-swan/p4-800.webp",
+     "thumb": "img/places/brugge/the-fat-swan/p4-400.webp",
+     "srcset": "img/places/brugge/the-fat-swan/p4-400.webp 400w, img/places/brugge/the-fat-swan/p4-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "exterior",
+     "alt": "The Fat Swan: the outside",
+     "credit": "thefatswan.be",
+     "credit_url": "https://thefatswan.be/bruges-restaurant-sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/the-fat-swan/p5-800.webp",
+     "thumb": "img/places/brugge/the-fat-swan/p5-400.webp",
+     "srcset": "img/places/brugge/the-fat-swan/p5-400.webp 400w, img/places/brugge/the-fat-swan/p5-800.webp 800w",
+     "w": 800,
+     "h": 1422,
+     "category": "interior",
+     "alt": "The Fat Swan: the interior",
+     "credit": "thefatswan.be",
+     "credit_url": "https://thefatswan.be/bruges-restaurant-sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/the-fat-swan/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-afghan-lemar-n13513422627": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-afghan-lemar-n13513422627/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-afghan-lemar-n13513422627/p1-700.webp",
+     "srcset": "img/places/brugge/osm-afghan-lemar-n13513422627/p1-700.webp 700w, img/places/brugge/osm-afghan-lemar-n13513422627/p1-1400.webp 1400w",
+     "w": 1000,
+     "h": 1000,
+     "category": "food",
+     "alt": "Afghan Lemar: food",
+     "credit": "afghanlemar.com",
+     "credit_url": "https://afghanlemar.com/nl/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-afghan-lemar-n13513422627/p2-800.webp",
+     "thumb": "img/places/brugge/osm-afghan-lemar-n13513422627/p2-400.webp",
+     "srcset": "img/places/brugge/osm-afghan-lemar-n13513422627/p2-400.webp 400w, img/places/brugge/osm-afghan-lemar-n13513422627/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Afghan Lemar: food",
+     "credit": "afghanlemar.com",
+     "credit_url": "https://afghanlemar.com/nl/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-afghan-lemar-n13513422627/p3-800.webp",
+     "thumb": "img/places/brugge/osm-afghan-lemar-n13513422627/p3-400.webp",
+     "srcset": "img/places/brugge/osm-afghan-lemar-n13513422627/p3-400.webp 400w, img/places/brugge/osm-afghan-lemar-n13513422627/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "Afghan Lemar: food",
+     "credit": "afghanlemar.com",
+     "credit_url": "https://afghanlemar.com/nl/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-afghan-lemar-n13513422627/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-at-tattie-s-n5812426454": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-at-tattie-s-n5812426454/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-at-tattie-s-n5812426454/p1-700.webp",
+     "srcset": "img/places/brugge/osm-at-tattie-s-n5812426454/p1-700.webp 700w, img/places/brugge/osm-at-tattie-s-n5812426454/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 840,
+     "category": "interior",
+     "alt": "At Tattie's: the interior",
+     "credit": "tattiesbrugge.com",
+     "credit_url": "https://www.tattiesbrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-at-tattie-s-n5812426454/p2-800.webp",
+     "thumb": "img/places/brugge/osm-at-tattie-s-n5812426454/p2-400.webp",
+     "srcset": "img/places/brugge/osm-at-tattie-s-n5812426454/p2-400.webp 400w, img/places/brugge/osm-at-tattie-s-n5812426454/p2-800.webp 800w",
+     "w": 800,
+     "h": 480,
+     "category": "food",
+     "alt": "At Tattie's: food",
+     "credit": "tattiesbrugge.com",
+     "credit_url": "https://www.tattiesbrugge.com/menu-francais-espagnol/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-at-tattie-s-n5812426454/p3-800.webp",
+     "thumb": "img/places/brugge/osm-at-tattie-s-n5812426454/p3-400.webp",
+     "srcset": "img/places/brugge/osm-at-tattie-s-n5812426454/p3-400.webp 400w, img/places/brugge/osm-at-tattie-s-n5812426454/p3-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "At Tattie's: food",
+     "credit": "tattiesbrugge.com",
+     "credit_url": "https://www.tattiesbrugge.com/home/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-at-tattie-s-n5812426454/p4-800.webp",
+     "thumb": "img/places/brugge/osm-at-tattie-s-n5812426454/p4-400.webp",
+     "srcset": "img/places/brugge/osm-at-tattie-s-n5812426454/p4-400.webp 400w, img/places/brugge/osm-at-tattie-s-n5812426454/p4-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "interior",
+     "alt": "At Tattie's: the interior",
+     "credit": "tattiesbrugge.com",
+     "credit_url": "https://www.tattiesbrugge.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-at-tattie-s-n5812426454/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-belthazar-n4173141340": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-belthazar-n4173141340/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-belthazar-n4173141340/p1-700.webp",
+     "srcset": "img/places/brugge/osm-belthazar-n4173141340/p1-700.webp 700w, img/places/brugge/osm-belthazar-n4173141340/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "Belthazar: the interior",
+     "credit": "belthazar.be",
+     "credit_url": "https://www.belthazar.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-belthazar-n4173141340/p2-800.webp",
+     "thumb": "img/places/brugge/osm-belthazar-n4173141340/p2-400.webp",
+     "srcset": "img/places/brugge/osm-belthazar-n4173141340/p2-400.webp 400w, img/places/brugge/osm-belthazar-n4173141340/p2-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "Belthazar: food",
+     "credit": "belthazar.be",
+     "credit_url": "https://www.belthazar.be/belthazar-menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-belthazar-n4173141340/p3-800.webp",
+     "thumb": "img/places/brugge/osm-belthazar-n4173141340/p3-400.webp",
+     "srcset": "img/places/brugge/osm-belthazar-n4173141340/p3-400.webp 400w, img/places/brugge/osm-belthazar-n4173141340/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "Belthazar: the interior",
+     "credit": "belthazar.be",
+     "credit_url": "https://www.belthazar.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-belthazar-n4173141340/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-christophe-n6818128181": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-bistro-christophe-n6818128181/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-bistro-christophe-n6818128181/p1-700.webp",
+     "srcset": "img/places/brugge/osm-bistro-christophe-n6818128181/p1-700.webp 700w, img/places/brugge/osm-bistro-christophe-n6818128181/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Bistro Christophe: the interior",
+     "credit": "bistrochristophe.be",
+     "credit_url": "https://bistrochristophe.be/gallery/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-christophe-n6818128181/p2-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-christophe-n6818128181/p2-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-christophe-n6818128181/p2-400.webp 400w, img/places/brugge/osm-bistro-christophe-n6818128181/p2-800.webp 800w",
+     "w": 800,
+     "h": 900,
+     "category": "food",
+     "alt": "Bistro Christophe: food",
+     "credit": "bistrochristophe.be",
+     "credit_url": "https://bistrochristophe.be/gallery/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-christophe-n6818128181/p3-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-christophe-n6818128181/p3-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-christophe-n6818128181/p3-400.webp 400w, img/places/brugge/osm-bistro-christophe-n6818128181/p3-800.webp 800w",
+     "w": 800,
+     "h": 864,
+     "category": "food",
+     "alt": "Bistro Christophe: food",
+     "credit": "bistrochristophe.be",
+     "credit_url": "https://bistrochristophe.be/gallery/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-christophe-n6818128181/p4-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-christophe-n6818128181/p4-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-christophe-n6818128181/p4-400.webp 400w, img/places/brugge/osm-bistro-christophe-n6818128181/p4-800.webp 800w",
+     "w": 800,
+     "h": 951,
+     "category": "food",
+     "alt": "Bistro Christophe: food",
+     "credit": "bistrochristophe.be",
+     "credit_url": "https://bistrochristophe.be/gallery/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-bistro-christophe-n6818128181/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-de-schaar-w430206710": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-bistro-de-schaar-w430206710/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-bistro-de-schaar-w430206710/p1-700.webp",
+     "srcset": "img/places/brugge/osm-bistro-de-schaar-w430206710/p1-700.webp 700w, img/places/brugge/osm-bistro-de-schaar-w430206710/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Bistro De Schaar: the interior",
+     "credit": "bistrodeschaar.be",
+     "credit_url": "https://www.bistrodeschaar.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-de-schaar-w430206710/p2-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-de-schaar-w430206710/p2-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-de-schaar-w430206710/p2-400.webp 400w, img/places/brugge/osm-bistro-de-schaar-w430206710/p2-800.webp 800w",
+     "w": 800,
+     "h": 355,
+     "category": "food",
+     "alt": "Bistro De Schaar: food",
+     "credit": "bistrodeschaar.be",
+     "credit_url": "https://www.bistrodeschaar.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-de-schaar-w430206710/p3-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-de-schaar-w430206710/p3-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-de-schaar-w430206710/p3-400.webp 400w, img/places/brugge/osm-bistro-de-schaar-w430206710/p3-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "food",
+     "alt": "Bistro De Schaar: food",
+     "credit": "bistrodeschaar.be",
+     "credit_url": "https://www.bistrodeschaar.be/gallery",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-bistro-de-schaar-w430206710/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-du-phare-n761502676": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-bistro-du-phare-n761502676/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-bistro-du-phare-n761502676/p1-700.webp",
+     "srcset": "img/places/brugge/osm-bistro-du-phare-n761502676/p1-700.webp 700w, img/places/brugge/osm-bistro-du-phare-n761502676/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Bistro Du Phare: food",
+     "credit": "duphare.be",
+     "credit_url": "https://duphare.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-du-phare-n761502676/p2-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-du-phare-n761502676/p2-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-du-phare-n761502676/p2-400.webp 400w, img/places/brugge/osm-bistro-du-phare-n761502676/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Bistro Du Phare: food",
+     "credit": "duphare.be",
+     "credit_url": "https://duphare.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-du-phare-n761502676/p3-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-du-phare-n761502676/p3-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-du-phare-n761502676/p3-400.webp 400w, img/places/brugge/osm-bistro-du-phare-n761502676/p3-800.webp 800w",
+     "w": 800,
+     "h": 870,
+     "category": "food",
+     "alt": "Bistro Du Phare: food",
+     "credit": "duphare.be",
+     "credit_url": "https://duphare.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-bistro-du-phare-n761502676/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-bistro-het-rand-n5105482721": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-bistro-het-rand-n5105482721/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-bistro-het-rand-n5105482721/p1-700.webp",
+     "srcset": "img/places/brugge/osm-bistro-het-rand-n5105482721/p1-700.webp 700w, img/places/brugge/osm-bistro-het-rand-n5105482721/p1-1400.webp 1400w",
+     "w": 628,
+     "h": 470,
+     "category": "exterior",
+     "alt": "Bistro Het Rand: the outside",
+     "credit": "bistrohetrand.com",
+     "credit_url": "https://www.bistrohetrand.com/gallery",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-bistro-het-rand-n5105482721/p2-800.webp",
+     "thumb": "img/places/brugge/osm-bistro-het-rand-n5105482721/p2-400.webp",
+     "srcset": "img/places/brugge/osm-bistro-het-rand-n5105482721/p2-400.webp 400w, img/places/brugge/osm-bistro-het-rand-n5105482721/p2-800.webp 800w",
+     "w": 683,
+     "h": 898,
+     "category": "exterior",
+     "alt": "Bistro Het Rand: the outside",
+     "credit": "bistrohetrand.com",
+     "credit_url": "https://www.bistrohetrand.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-bistro-het-rand-n5105482721/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-brapas-n13931686314": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-brapas-n13931686314/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-brapas-n13931686314/p1-700.webp",
+     "srcset": "img/places/brugge/osm-brapas-n13931686314/p1-700.webp 700w, img/places/brugge/osm-brapas-n13931686314/p1-1400.webp 1400w",
+     "w": 1203,
+     "h": 1600,
+     "category": "food",
+     "alt": "Brapas: food",
+     "credit": "brapas.be",
+     "credit_url": "https://www.brapas.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-brapas-n13931686314/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-brasserie-central-w102141365": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-brasserie-central-w102141365/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-brasserie-central-w102141365/p1-700.webp",
+     "srcset": "img/places/brugge/osm-brasserie-central-w102141365/p1-700.webp 700w, img/places/brugge/osm-brasserie-central-w102141365/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Brasserie Central: food",
+     "credit": "hotelcentral.be",
+     "credit_url": "https://www.hotelcentral.be/brasserie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-brasserie-central-w102141365/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-brasserie-medard-n4194392767": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-brasserie-medard-n4194392767/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-brasserie-medard-n4194392767/p1-700.webp",
+     "srcset": "img/places/brugge/osm-brasserie-medard-n4194392767/p1-700.webp 700w, img/places/brugge/osm-brasserie-medard-n4194392767/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 948,
+     "category": "interior",
+     "alt": "Brasserie Medard: the interior",
+     "credit": "st-medard.be",
+     "credit_url": "https://st-medard.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-brasserie-medard-n4194392767/p2-800.webp",
+     "thumb": "img/places/brugge/osm-brasserie-medard-n4194392767/p2-400.webp",
+     "srcset": "img/places/brugge/osm-brasserie-medard-n4194392767/p2-400.webp 400w, img/places/brugge/osm-brasserie-medard-n4194392767/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brasserie Medard: food",
+     "credit": "st-medard.be",
+     "credit_url": "https://st-medard.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-brasserie-medard-n4194392767/p3-800.webp",
+     "thumb": "img/places/brugge/osm-brasserie-medard-n4194392767/p3-400.webp",
+     "srcset": "img/places/brugge/osm-brasserie-medard-n4194392767/p3-400.webp 400w, img/places/brugge/osm-brasserie-medard-n4194392767/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Brasserie Medard: food",
+     "credit": "st-medard.be",
+     "credit_url": "https://st-medard.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-brasserie-medard-n4194392767/p4-800.webp",
+     "thumb": "img/places/brugge/osm-brasserie-medard-n4194392767/p4-400.webp",
+     "srcset": "img/places/brugge/osm-brasserie-medard-n4194392767/p4-400.webp 400w, img/places/brugge/osm-brasserie-medard-n4194392767/p4-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "interior",
+     "alt": "Brasserie Medard: the interior",
+     "credit": "st-medard.be",
+     "credit_url": "https://st-medard.be/fotos",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-brasserie-medard-n4194392767/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-brasserie-raymond-n2638384070": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-brasserie-raymond-n2638384070/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-brasserie-raymond-n2638384070/p1-700.webp",
+     "srcset": "img/places/brugge/osm-brasserie-raymond-n2638384070/p1-700.webp 700w, img/places/brugge/osm-brasserie-raymond-n2638384070/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 730,
+     "category": "interior",
+     "alt": "Brasserie Raymond: the interior",
+     "credit": "brasserie-raymond.be",
+     "credit_url": "https://www.brasserie-raymond.be/kaart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-brasserie-raymond-n2638384070/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-brugse-wokresto-n13509355721": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-brugse-wokresto-n13509355721/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-brugse-wokresto-n13509355721/p1-700.webp",
+     "srcset": "img/places/brugge/osm-brugse-wokresto-n13509355721/p1-700.webp 700w, img/places/brugge/osm-brugse-wokresto-n13509355721/p1-1400.webp 1400w",
+     "w": 816,
+     "h": 442,
+     "category": "interior",
+     "alt": "Brugse wokresto: the interior",
+     "credit": "brugsewok.com",
+     "credit_url": "https://www.brugsewok.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-brugse-wokresto-n13509355721/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-chagall-w306585477": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-chagall-w306585477/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-chagall-w306585477/p1-700.webp",
+     "srcset": "img/places/brugge/osm-chagall-w306585477/p1-700.webp 700w, img/places/brugge/osm-chagall-w306585477/p1-1400.webp 1400w",
+     "w": 1366,
+     "h": 596,
+     "category": "exterior",
+     "alt": "Chagall: the outside",
+     "credit": "restaurantchagall.be",
+     "credit_url": "https://www.restaurantchagall.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-chagall-w306585477/p2-800.webp",
+     "thumb": "img/places/brugge/osm-chagall-w306585477/p2-400.webp",
+     "srcset": "img/places/brugge/osm-chagall-w306585477/p2-400.webp 400w, img/places/brugge/osm-chagall-w306585477/p2-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Chagall: food",
+     "credit": "restaurantchagall.be",
+     "credit_url": "https://www.restaurantchagall.be/nl",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-chagall-w306585477/p3-800.webp",
+     "thumb": "img/places/brugge/osm-chagall-w306585477/p3-400.webp",
+     "srcset": "img/places/brugge/osm-chagall-w306585477/p3-400.webp 400w, img/places/brugge/osm-chagall-w306585477/p3-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "Chagall: food",
+     "credit": "restaurantchagall.be",
+     "credit_url": "https://www.restaurantchagall.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-chagall-w306585477/p4-800.webp",
+     "thumb": "img/places/brugge/osm-chagall-w306585477/p4-400.webp",
+     "srcset": "img/places/brugge/osm-chagall-w306585477/p4-400.webp 400w, img/places/brugge/osm-chagall-w306585477/p4-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "interior",
+     "alt": "Chagall: the interior",
+     "credit": "restaurantchagall.be",
+     "credit_url": "https://www.restaurantchagall.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-chagall-w306585477/p5-800.webp",
+     "thumb": "img/places/brugge/osm-chagall-w306585477/p5-400.webp",
+     "srcset": "img/places/brugge/osm-chagall-w306585477/p5-400.webp 400w, img/places/brugge/osm-chagall-w306585477/p5-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "interior",
+     "alt": "Chagall: the interior",
+     "credit": "restaurantchagall.be",
+     "credit_url": "https://www.restaurantchagall.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-chagall-w306585477/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-clos-du-midi-n5031777963": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-clos-du-midi-n5031777963/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-clos-du-midi-n5031777963/p1-700.webp",
+     "srcset": "img/places/brugge/osm-clos-du-midi-n5031777963/p1-700.webp 700w, img/places/brugge/osm-clos-du-midi-n5031777963/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 623,
+     "category": "interior",
+     "alt": "Clos Du Midi: the interior",
+     "credit": "closdumidi.be",
+     "credit_url": "https://www.closdumidi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-clos-du-midi-n5031777963/p2-800.webp",
+     "thumb": "img/places/brugge/osm-clos-du-midi-n5031777963/p2-400.webp",
+     "srcset": "img/places/brugge/osm-clos-du-midi-n5031777963/p2-400.webp 400w, img/places/brugge/osm-clos-du-midi-n5031777963/p2-800.webp 800w",
+     "w": 800,
+     "h": 571,
+     "category": "interior",
+     "alt": "Clos Du Midi: the interior",
+     "credit": "closdumidi.be",
+     "credit_url": "https://www.closdumidi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-clos-du-midi-n5031777963/p3-800.webp",
+     "thumb": "img/places/brugge/osm-clos-du-midi-n5031777963/p3-400.webp",
+     "srcset": "img/places/brugge/osm-clos-du-midi-n5031777963/p3-400.webp 400w, img/places/brugge/osm-clos-du-midi-n5031777963/p3-800.webp 800w",
+     "w": 600,
+     "h": 400,
+     "category": "interior",
+     "alt": "Clos Du Midi: the interior",
+     "credit": "closdumidi.be",
+     "credit_url": "https://www.closdumidi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-clos-du-midi-n5031777963/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-coin-prefere-n5145141339": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-coin-prefere-n5145141339/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-coin-prefere-n5145141339/p1-700.webp",
+     "srcset": "img/places/brugge/osm-coin-prefere-n5145141339/p1-700.webp 700w, img/places/brugge/osm-coin-prefere-n5145141339/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1866,
+     "category": "interior",
+     "alt": "COIN Préféré: the interior",
+     "credit": "xn--coinprfr-g1abb.be",
+     "credit_url": "https://xn--coinprfr-g1abb.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-coin-prefere-n5145141339/p2-800.webp",
+     "thumb": "img/places/brugge/osm-coin-prefere-n5145141339/p2-400.webp",
+     "srcset": "img/places/brugge/osm-coin-prefere-n5145141339/p2-400.webp 400w, img/places/brugge/osm-coin-prefere-n5145141339/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "interior",
+     "alt": "COIN Préféré: the interior",
+     "credit": "xn--coinprfr-g1abb.be",
+     "credit_url": "https://xn--coinprfr-g1abb.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-coin-prefere-n5145141339/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-gastro-n5627621699": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-gastro-n5627621699/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-gastro-n5627621699/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-gastro-n5627621699/p1-700.webp 700w, img/places/brugge/osm-de-gastro-n5627621699/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "De Gastro: the interior",
+     "credit": "degastro.be",
+     "credit_url": "https://www.degastro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-gastro-n5627621699/p2-800.webp",
+     "thumb": "img/places/brugge/osm-de-gastro-n5627621699/p2-400.webp",
+     "srcset": "img/places/brugge/osm-de-gastro-n5627621699/p2-400.webp 400w, img/places/brugge/osm-de-gastro-n5627621699/p2-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "food",
+     "alt": "De Gastro: food",
+     "credit": "degastro.be",
+     "credit_url": "https://www.degastro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-gastro-n5627621699/p3-800.webp",
+     "thumb": "img/places/brugge/osm-de-gastro-n5627621699/p3-400.webp",
+     "srcset": "img/places/brugge/osm-de-gastro-n5627621699/p3-400.webp 400w, img/places/brugge/osm-de-gastro-n5627621699/p3-800.webp 800w",
+     "w": 800,
+     "h": 1602,
+     "category": "food",
+     "alt": "De Gastro: food",
+     "credit": "degastro.be",
+     "credit_url": "https://www.degastro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-gastro-n5627621699/p4-800.webp",
+     "thumb": "img/places/brugge/osm-de-gastro-n5627621699/p4-400.webp",
+     "srcset": "img/places/brugge/osm-de-gastro-n5627621699/p4-400.webp 400w, img/places/brugge/osm-de-gastro-n5627621699/p4-800.webp 800w",
+     "w": 800,
+     "h": 400,
+     "category": "interior",
+     "alt": "De Gastro: the interior",
+     "credit": "degastro.be",
+     "credit_url": "https://www.degastro.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-gastro-n5627621699/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-goeste-n3328199493": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-goeste-n3328199493/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-goeste-n3328199493/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-goeste-n3328199493/p1-700.webp 700w, img/places/brugge/osm-de-goeste-n3328199493/p1-1400.webp 1400w",
+     "w": 1365,
+     "h": 2048,
+     "category": "food",
+     "alt": "De Goeste: food",
+     "credit": "degoeste.be",
+     "credit_url": "https://degoeste.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-goeste-n3328199493/p2-800.webp",
+     "thumb": "img/places/brugge/osm-de-goeste-n3328199493/p2-400.webp",
+     "srcset": "img/places/brugge/osm-de-goeste-n3328199493/p2-400.webp 400w, img/places/brugge/osm-de-goeste-n3328199493/p2-800.webp 800w",
+     "w": 800,
+     "h": 1199,
+     "category": "food",
+     "alt": "De Goeste: food",
+     "credit": "degoeste.be",
+     "credit_url": "https://degoeste.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-goeste-n3328199493/p3-800.webp",
+     "thumb": "img/places/brugge/osm-de-goeste-n3328199493/p3-400.webp",
+     "srcset": "img/places/brugge/osm-de-goeste-n3328199493/p3-400.webp 400w, img/places/brugge/osm-de-goeste-n3328199493/p3-800.webp 800w",
+     "w": 800,
+     "h": 1000,
+     "category": "food",
+     "alt": "De Goeste: food",
+     "credit": "degoeste.be",
+     "credit_url": "https://degoeste.be/foodtruck/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-goeste-n3328199493/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-de-pepermolen-n2408833601": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-de-pepermolen-n2408833601/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-de-pepermolen-n2408833601/p1-700.webp",
+     "srcset": "img/places/brugge/osm-de-pepermolen-n2408833601/p1-700.webp 700w, img/places/brugge/osm-de-pepermolen-n2408833601/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "De Pepermolen: the interior",
+     "credit": "depepermolen.com",
+     "credit_url": "https://depepermolen.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-pepermolen-n2408833601/p2-800.webp",
+     "thumb": "img/places/brugge/osm-de-pepermolen-n2408833601/p2-400.webp",
+     "srcset": "img/places/brugge/osm-de-pepermolen-n2408833601/p2-400.webp 400w, img/places/brugge/osm-de-pepermolen-n2408833601/p2-800.webp 800w",
+     "w": 771,
+     "h": 488,
+     "category": "interior",
+     "alt": "De Pepermolen: the interior",
+     "credit": "depepermolen.com",
+     "credit_url": "https://depepermolen.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-de-pepermolen-n2408833601/p3-800.webp",
+     "thumb": "img/places/brugge/osm-de-pepermolen-n2408833601/p3-400.webp",
+     "srcset": "img/places/brugge/osm-de-pepermolen-n2408833601/p3-400.webp 400w, img/places/brugge/osm-de-pepermolen-n2408833601/p3-800.webp 800w",
+     "w": 772,
+     "h": 631,
+     "category": "interior",
+     "alt": "De Pepermolen: the interior",
+     "credit": "depepermolen.com",
+     "credit_url": "https://depepermolen.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-de-pepermolen-n2408833601/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-den-amand-n7177085589": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-den-amand-n7177085589/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-den-amand-n7177085589/p1-700.webp",
+     "srcset": "img/places/brugge/osm-den-amand-n7177085589/p1-700.webp 700w, img/places/brugge/osm-den-amand-n7177085589/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 560,
+     "category": "food",
+     "alt": "Den Amand: food",
+     "credit": "denamand.be",
+     "credit_url": "https://www.denamand.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-den-amand-n7177085589/p2-800.webp",
+     "thumb": "img/places/brugge/osm-den-amand-n7177085589/p2-400.webp",
+     "srcset": "img/places/brugge/osm-den-amand-n7177085589/p2-400.webp 400w, img/places/brugge/osm-den-amand-n7177085589/p2-800.webp 800w",
+     "w": 800,
+     "h": 320,
+     "category": "food",
+     "alt": "Den Amand: food",
+     "credit": "denamand.be",
+     "credit_url": "https://www.denamand.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-den-amand-n7177085589/p3-800.webp",
+     "thumb": "img/places/brugge/osm-den-amand-n7177085589/p3-400.webp",
+     "srcset": "img/places/brugge/osm-den-amand-n7177085589/p3-400.webp 400w, img/places/brugge/osm-den-amand-n7177085589/p3-800.webp 800w",
+     "w": 800,
+     "h": 192,
+     "category": "food",
+     "alt": "Den Amand: food",
+     "credit": "denamand.be",
+     "credit_url": "https://denamand.be/nl/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-den-amand-n7177085589/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-duc-de-bourgogne-n793769597": {
+   "photos": [
+    {
+     "src": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p1-1400.webp",
+     "thumb": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p1-700.webp",
+     "srcset": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p1-700.webp 700w, img/places/brugge/osm-duc-de-bourgogne-n793769597/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 977,
+     "category": "interior",
+     "alt": "Duc De Bourgogne: the interior",
+     "credit": "ducdebourgogne.be",
+     "credit_url": "https://ducdebourgogne.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p2-800.webp",
+     "thumb": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p2-400.webp",
+     "srcset": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p2-400.webp 400w, img/places/brugge/osm-duc-de-bourgogne-n793769597/p2-800.webp 800w",
+     "w": 800,
+     "h": 250,
+     "category": "exterior",
+     "alt": "Duc De Bourgogne: the outside",
+     "credit": "ducdebourgogne.be",
+     "credit_url": "https://ducdebourgogne.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p3-800.webp",
+     "thumb": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p3-400.webp",
+     "srcset": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p3-400.webp 400w, img/places/brugge/osm-duc-de-bourgogne-n793769597/p3-800.webp 800w",
+     "w": 800,
+     "h": 250,
+     "category": "interior",
+     "alt": "Duc De Bourgogne: the interior",
+     "credit": "ducdebourgogne.be",
+     "credit_url": "https://ducdebourgogne.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/brugge/osm-duc-de-bourgogne-n793769597/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
