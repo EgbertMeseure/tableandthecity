@@ -20,12 +20,12 @@
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // set by the category cards (and shareable URLs); no filter panel
   const QUICK = ['open', 'new', 'veggie', 'vegan', 'events', 'live'];   // live: 'Live music' tile (data/cities/<city>-livemusic.json)                  // on/off filters kept in the URL (chips: open, new, events)
-  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, live: false, open: false, stage: '', vlevel: '', meal: '', style: '', sort: 'rec', ev: '' };
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, live: false, open: false, stage: '', vlevel: '', meal: '', style: '', cat: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
   const params = new URLSearchParams(location.search);
-  ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel', 'meal', 'style'].forEach(k => params.get(k) && (state[k] = params.get(k)));
+  ['q', ...ADV, 'sort', 'ev', 'stage', 'vlevel', 'meal', 'style', 'cat'].forEach(k => params.get(k) && (state[k] = params.get(k)));
   if (!['', 'vegan', 'vegetarian', 'vegan-friendly', 'veggie-friendly'].includes(state.vlevel)) state.vlevel = '';
   // diet filters (veggie / vegan / vlevel) have no chips any more: set by the cards' Veggie/Vegan rows, the quiz or old links; shown in the list title, cleared by Reset
   if (!['', 'open', 'soon'].includes(state.stage)) state.stage = '';
@@ -33,17 +33,28 @@
   if (!/^[a-z-]{0,20}$/.test(state.style)) state.style = '';
   if (state.stage) state.new = true;                                   // stage = sub-filter of "New": just opened | opening soon
   QUICK.forEach(k => params.get(k) === '1' && (state[k] = true));
+  /* merged tabs (31 Oct 2026): Veggie + 100% vegan → 'Veggie & vegan'; Breakfast & Brunch + Coffee → 'Breakfast, brunch & coffee'; Cafés & bars + Live music → 'Bars & live music'.
+     state.cat = the union of the old tabs (MERGED below). Old links keep working: ?cat=vegan / ?cat=brunch / … and the old tab links (?veggie=1, ?meal=any,
+     ?group=coffee, ?live=1, ?group=cafes_bars on their own) open the merged tab; a back/forward visit keeps its exact list (quiz lists, sub-menus) */
+  const CAT_ALIAS = { veg: 'veg', veggie: 'veg', vegan: 'veg', vegetarian: 'veg', 'veggie-vegan': 'veg', veggie_vegan: 'veg', diet: 'veg',
+    morning: 'morning', breakfast: 'morning', brunch: 'morning', coffee: 'morning', 'breakfast-brunch': 'morning', breakfast_brunch: 'morning', ontbijt: 'morning', koffie: 'morning',
+    bars: 'bars', bar: 'bars', cafes: 'bars', cafes_bars: 'bars', 'cafes-bars': 'bars', live: 'bars', livemusic: 'bars', 'live-music': 'bars', live_music: 'bars', music: 'bars' };
+  state.cat = CAT_ALIAS[String(state.cat).toLowerCase()] || '';
+  { const keys = [...params.keys()].filter(k => !['country', 'city', 'lang', 'sort', 'ev'].includes(k) && params.get(k)), only = (k, v) => keys.length === 1 && keys[0] === k && params.get(k) === v;
+    let backNav = false; try { const v = JSON.parse(sessionStorage.getItem('tatc-guide-back') || 'null'); backNav = !!v && (performance.getEntriesByType('navigation')[0] || {}).type === 'back_forward' && v.u === location.pathname + location.search; } catch (e) {}
+    const old = only('veggie', '1') ? 'veg' : only('meal', 'any') || only('group', 'coffee') ? 'morning' : only('group', 'cafes_bars') || only('live', '1') ? 'bars' : '';
+    if (old && !backNav) { Object.assign(state, { veggie: false, meal: '', group: '', live: false, cat: old }); } }
   ['area', 'price'].forEach(k => state[k] = ''); if (!TG.CZ_BY[state.cuisine]) state.cuisine = '';   // cuisine = a TG.CZ_BY id: broad group or detailed cuisine (By cuisine card, sub-chips, quiz) if (state.dist !== 'michelin') state.dist = '';   // filter panel removed: only what the cards can set
   if (state.sort !== 'dist') state.sort = 'rec';                         // no sort menu: recommended order, or distance once Near me / a map point is set
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
-    ['q', ...ADV, 'stage', 'vlevel', 'meal', 'style', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
+    ['q', ...ADV, 'stage', 'vlevel', 'meal', 'style', 'cat', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
     if (state.sort !== 'rec') p.set('sort', state.sort);
     QUICK.forEach(k => state[k] && p.set(k, '1'));
     history.replaceState(null, '', location.pathname + '?' + p + location.hash);
   }
   const advCount = () => ADV.filter(k => state[k]).length;
-  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.vlevel || state.meal || state.style || state.origin || state.sort !== 'rec');
+  const anyActive = () => !!(state.q || advCount() || QUICK.some(k => state[k]) || state.stage || state.vlevel || state.meal || state.style || state.cat || state.origin || state.sort !== 'rec');
   /* announced-but-not-open places only appear under New (all new / opening soon), never in the plain lists */
   const isNewish = r => r.isNew || r.upcoming;
   const OPEN = R.filter(r => !r.upcoming);
@@ -59,6 +70,12 @@
 
   // ---- breakfast & brunch: confirmed (sourced) values; 'early' = opens ≤ 10:00 by sourced hours, no breakfast claim ----
   const MEAL = (r, v) => { const m = TG.mealOf(r); return v === 'any' ? m.any : v === 'breakfast' ? m.bf : v === 'brunch' ? m.br : v === 'wkbrunch' ? m.wk : v === 'early' ? m.early : true; };
+  // merged tabs = the union of the old ones (each place once); label = list title noun
+  const MERGED = {
+    veg: { label: 'Veggie & vegan', f: r => !!r.veggieLevel || r.veggieLevel === 'vegan' },                       // old 'Veggie' ∪ old '100% vegan'
+    morning: { label: 'Breakfast, brunch & coffee', f: r => MEAL(r, 'any') || r.group === 'coffee' },              // old 'Breakfast & Brunch' ∪ old 'Coffee'
+    bars: { label: 'Bars & live music', f: r => r.group === 'cafes_bars' || !!r.liveMusic }                       // old 'Cafés & bars' ∪ old 'Live music'
+  };
   // card photo: the og:image a confirmed breakfast/brunch place publishes itself (hotlinked, credited); else the site's own coffee image
   function mealPhoto() {   // reviewed heroes only (not the research preview layer)
     const r = R.filter(x => TG.mealOf(x).any && x.heroImage && !x.heroImage.origin).sort((a, b) => (b.curated ? 1 : 0) - (a.curated ? 1 : 0) || a.name.localeCompare(b.name))[0];
@@ -80,29 +97,27 @@
     { label: 'By cuisine', img: cardImg('cuisine', 'casual'), f: { group: 'restaurants' }, subs: [], chooser: true },
     { label: 'Bakeries', img: cardImg('bakeries', 'bakery'), f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
       sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
-    { label: 'Breakfast & Brunch', img: cardImg('breakfast', 'coffee'), photo: IMG.breakfastPlacePhoto === false ? null : mealPhoto(), f: { meal: 'any' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
-      sub('Weekend brunch', { meal: 'wkbrunch' }), sub('Opens early', { meal: 'early' })], allMin: 0 },
-    { label: 'Cafés & bars', img: cardImg('cafes_bars', 'bar'), f: { group: 'cafes_bars' }, subs: [
+    { label: 'Breakfast, brunch & coffee', img: cardImg('breakfast', 'coffee'), photo: IMG.breakfastPlacePhoto === false ? null : mealPhoto(), f: { cat: 'morning' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
+      sub('Weekend brunch', { meal: 'wkbrunch' }), sub('Opens early', { meal: 'early' }), sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
+      sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
+    { label: 'Bars & live music', img: cardImg('cafes_bars', 'bar'), f: { cat: 'bars' }, subs: [
       sub('Dance cafés', { group: 'cafes_bars', type: 'dance_cafe' }), sub('Brown cafés', { group: 'cafes_bars', type: 'brown_cafe' }),
       sub('Irish pubs', { group: 'cafes_bars', type: 'irish_pub' }), { ...sub('Cocktail bars', { group: 'cafes_bars', type: 'cocktail_bar' }), min: 1 },
-      { ...sub('Wine bars', { group: 'cafes_bars', type: 'wine_bar' }), min: 1 }] },   // generic cafés are not imported; beer bars under 'All',
-    // Live music: sourced recurring concerts / jazz nights / jam sessions (<city>-livemusic.json); hidden below 3 places
-    { label: 'Live music', img: cardImg('livemusic', 'bar'), f: { live: true }, subs: [], noDiet: true, min: 3 },
-    { label: 'Coffee', img: cardImg('coffee', 'coffee'), f: { group: 'coffee' }, subs: [sub('Specialty coffee', { group: 'coffee', type: 'coffee_bar' }),
-      sub('Shops & roasters', { group: 'coffee', type: 'coffee_shop' })] },
-    // Veggie / 100% vegan tiles: no sub-menu, straight to the list of all such places in the city
-    { label: 'Veggie', img: cardImg('veggie', 'plated'), f: { veggie: true }, subs: [], noDiet: true },
-    { label: '100% vegan', img: cardImg('vegan', 'vegan'), f: { vlevel: 'vegan' }, subs: [], noDiet: true },
+      { ...sub('Wine bars', { group: 'cafes_bars', type: 'wine_bar' }), min: 1 },   // generic cafés are not imported; beer bars under 'All'
+      sub('Live music', { live: true })] },   // live music: sourced recurring concerts / jazz nights / jam sessions (<city>-livemusic.json), sub hidden below 3 places
+    // Veggie & vegan: all veggie levels (= old Veggie ∪ old 100% vegan tiles); levels as sub-items, the place cards keep their own level badge
+    { label: 'Veggie & vegan', img: cardImg('vegan', 'vegan'), f: { cat: 'veg' }, subs: Object.keys(TG.VEG_LABEL).map(l => sub(TG.VEG_LABEL[l], { vlevel: l })), noDiet: true },
     { label: 'Events', img: cardImg('events', 'events'), f: { events: true }, subs: [], toEvents: true }
   ];
   // last card: this city's Private chefs page (privatechef.html; only when the city has a privatechefs file in data/cities.json)
   if (city.privatechefs) GROUPS.push({ label: 'Private chefs', img: cardImg('privatechef', 'pass'), f: {}, subs: [], toPage: TG.cityUrl('privatechef.html', city.id), sub: 'At your home' });
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
-    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'live' ? !!r.liveMusic : k === 'dist' ? !!r.distinctions.michelin : k === 'cuisine' ? TG.inCuisine(r, v) : true);
+    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'live' ? !!r.liveMusic : k === 'dist' ? !!r.distinctions.michelin : k === 'cuisine' ? TG.inCuisine(r, v) : k === 'cat' ? (!MERGED[v] || MERGED[v].f(r)) : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
   GROUPS.forEach(g => { g.n = g.toPage ? 0 : g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
-  for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].noDiet && GROUPS[i].n < (GROUPS[i].min || 1)) GROUPS.splice(i, 1);   // no empty Veggie / 100% vegan tile
+  for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].noDiet && GROUPS[i].n < (GROUPS[i].min || 1)) GROUPS.splice(i, 1);   // no empty Veggie & vegan tile
+  for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].f.cat && !GROUPS[i].n) GROUPS.splice(i, 1);                                 // nor an empty merged tab
   /* diet row in every place card's menu: 'Veggie' (any veggie level, = the Veggie chip) / 'Vegan' (fully vegan or clear vegan options, = the Vegan chip).
      A toggle narrows 'All' and the sub-categories (live counts; empty ones hide); only shown when the card has matching places */
   const DIET = { veggie: { label: 'Veggie', f: { veggie: true }, title: 'Fully vegan or vegetarian, or clear veggie/vegan options' }, vegan: { label: '100% vegan', f: { vlevel: 'vegan' }, title: 'Fully vegan places only' } };
@@ -118,6 +133,7 @@
         <button role="menuitem" tabindex="-1" class="pm-all" data-s="-1" aria-label="All ${esc(c.label.toLowerCase())}, ${c.n}">All<b>${c.n}</b></button><i class="pm-br" aria-hidden="true"></i>
         ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}">${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
     </div>`).join('');
+  if (state.cat) { const i = GROUPS.findIndex(g => g.f.cat === state.cat && Object.keys(g.f).length === 1); if (i >= 0) $('#carousel').querySelector(`.pillcard[data-cat="${i}"]`).classList.add('active'); }   // ?cat= / old tab link: its merged tab shows as chosen
   function setDiet(card, d) {                                            // '' = off; updates counts in the open menu
     const g = GROUPS[+card.dataset.cat]; card.dataset.diet = d;
     card.querySelectorAll('[data-d]').forEach(b => b.setAttribute('aria-checked', b.dataset.d === d));
@@ -262,6 +278,7 @@
       if (state.stage && (state.stage === 'soon') !== !!r.upcoming) return false;
       if (state.events && !r.events.length) return false;
       if (state.live && !r.liveMusic) return false;
+      if (state.cat && MERGED[state.cat] && !MERGED[state.cat].f(r)) return false;
       return true;
     });
     if (state.origin) list.forEach(r => r._km = r.lat ? haversine(state.origin, [r.lat, r.lng]) : null);
@@ -273,7 +290,7 @@
     const by = {
       // curated (hand-researched) places first, then the OpenStreetMap base list; veggie level breaks ties when filtering on it
       rec: (a, b) => soonFirst(a, b) || (!!b.curated - !!a.curated) || distRank(b) - distRank(a) || (b.isNew - a.isNew)
-        || ((state.veggie || state.vegan) ? VR(b) - VR(a) : 0) || nm(a, b),
+        || ((state.veggie || state.vegan || state.cat === 'veg') ? VR(b) - VR(a) : 0) || nm(a, b),
       price: (a, b) => (priceNum(a.priceLevel) ?? 9) - (priceNum(b.priceLevel) ?? 9) || (a.priceFrom ?? 999) - (b.priceFrom ?? 999) || nm(a, b),
       new: (a, b) => soonFirst(a, b) || opened(b).localeCompare(opened(a)) || nm(a, b),
       dist: (a, b) => (a._km ?? 1e9) - (b._km ?? 1e9)
@@ -386,7 +403,7 @@
   const MEAL_T = { any: 'breakfast & brunch', breakfast: 'breakfast', brunch: 'brunch', wkbrunch: 'weekend brunch', early: 'early openers' };
   function listTitle() {
     const diet = state.vlevel ? TG.VEG_LABEL[state.vlevel] : state.vegan ? 'Vegan' : state.veggie ? 'Veggie' : '';
-    const cz = TG.CZ_BY[state.cuisine], noun = state.live && !cz && !state.group ? 'Live music' : cz ? cz.title || cz.label + ' restaurants' : state.type && CAT_LABEL[state.type] ? CAT_LABEL[state.type] : state.meal ? MEAL_T[state.meal] : state.group ? GROUP_LABEL[state.group] : state.dist === 'michelin' ? 'Michelin' : '';
+    const cz = TG.CZ_BY[state.cuisine], noun = state.cat && MERGED[state.cat] && !cz && !state.type && !state.meal && !state.group ? MERGED[state.cat].label : state.live && !cz && !state.group ? 'Live music' : cz ? cz.title || cz.label + ' restaurants' : state.type && CAT_LABEL[state.type] ? CAT_LABEL[state.type] : state.meal ? MEAL_T[state.meal] : state.group ? GROUP_LABEL[state.group] : state.dist === 'michelin' ? 'Michelin' : '';
     const nw = state.new ? (state.stage === 'soon' ? 'Opening soon:' : state.stage === 'open' ? 'Just opened:' : 'New') : '';
     if (!diet && !noun && !nw) return `All places in ${CITY}`;
     const w = [nw, diet, noun || (diet || nw ? 'places' : '')].filter(Boolean);

@@ -41,6 +41,7 @@
     [/^([\d,.]+) fully vegan · ([\d,.]+) vegetarian · ([\d,.]+) with veggie options$/, '{a} fully vegan · {b} vegetarian · {c} with veggie options', ['a', 'b', 'c']],
     [/^All places in (.+)$/, 'All places in {city}', ['city']],
     [/^Live music in (.+)$/, 'Live music in {city}', ['city']],
+    [/^(Veggie & vegan|Breakfast, brunch & coffee|Bars & live music) in (.+)$/, '{x} in {city}', ['x', 'city']],   // merged category tabs (js/app.js MERGED)
     [/^([\d,.]+) changes? in (.+)$/, '{n} changes in {city}', ['n', 'city']],
     [/^No changes recorded for (.+) yet\.$/, 'No changes recorded for {city} yet.', ['city']],
     [/^About the data & changes · (.+) — Table and the City$/, 'About the data & changes · {city} — Table and the City', ['city']],

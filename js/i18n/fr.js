@@ -752,5 +752,12 @@
 "Barbecue": "Barbecue",
 "Business dinners": "Dîners d’affaires",
 "Dinner at the chef’s place": "Dîner chez le chef",
-"{n} photos, swipe for more": "{n} photos, faites glisser pour en voir plus"
+"{n} photos, swipe for more": "{n} photos, faites glisser pour en voir plus",
+"Breakfast, brunch & coffee": "Petit-déj, brunch & café",
+"breakfast, brunch & coffee": "petit-déj, brunch & café",
+"Bars & live music": "Bars & musique live",
+"bars & live music": "bars & musique live",
+"veggie & vegan": "végé & vegan",
+"100% vegetarian": "100 % végétarien",
+"{x} in {city}": "{x} à {city}"
 };
