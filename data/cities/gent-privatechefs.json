@@ -1,0 +1,148 @@
+{
+ "city": "gent",
+ "updated": "2026-10-31",
+ "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
+ "chefs": [
+  {
+   "id": "nalou-dining",
+   "name": "Nalou Dining",
+   "chef": "Nathan Campbell",
+   "style": "Seasonal fine dining",
+   "description": "Chef Nathan Campbell (Hotelschool Ter Duinen, then Michelin-starred kitchens) builds a seasonal menu from scratch for your table. He brings the ingredients, tableware and service, and leaves the kitchen clean.",
+   "serves": "Ghent, East Flanders and the rest of Flanders",
+   "base": "",
+   "guests": "From 6 guests",
+   "price": "€65 pp (3 courses), €85 (4), €105 (5); drinks not included",
+   "website": "https://www.naloudining.com/chef-aan-huis/gent",
+   "instagram": "https://www.instagram.com/naloudining/",
+   "email": "info@naloudining.com",
+   "phone": "+32468200180",
+   "phoneDisplay": "+32 468 20 01 80",
+   "placeId": "",
+   "sources": [
+    "https://www.naloudining.com/chef-aan-huis/gent",
+    "https://www.naloudining.com/prijzen",
+    "https://www.naloudining.com/de-chef"
+   ],
+   "image": {
+    "src": "img/chefs/gent/nalou-dining.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated langoustine dish (Nalou Dining)",
+    "credit": "Nalou Dining (naloudining.com)",
+    "credit_url": "https://www.naloudining.com/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "50-fifty",
+   "name": "50 Fifty",
+   "chef": "",
+   "style": "Chef's Choice tasting menu",
+   "description": "The kitchen of 50 Fifty comes to your home with its 'Chef's Choice': a multi-course menu cooked in your kitchen, in a fish-and-meat or a vegetarian version.",
+   "serves": "Ghent and around (€10 travel fee within 30 km)",
+   "base": "",
+   "guests": "4 to 10 guests",
+   "price": "4 courses €80 pp, 5 courses €90 pp",
+   "website": "https://50fiftygent.be/op-locatie/",
+   "instagram": "https://www.instagram.com/50fiftygent/",
+   "email": "info@50fiftygent.be",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://50fiftygent.be/op-locatie/"
+   ],
+   "image": {
+    "src": "img/chefs/gent/50-fifty.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "Glazed aubergine with pomegranate and fennel (50 Fifty)",
+    "credit": "50 Fifty (50fiftygent.be)",
+    "credit_url": "https://50fiftygent.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "food-at-home",
+   "name": "Food@Home Culinair",
+   "chef": "Henk Janssens",
+   "style": "Chef at home",
+   "description": "Chef Henk Janssens cooks and serves a menu in your own kitchen, for parties at home in and around Ghent.",
+   "serves": "Ghent and around",
+   "base": "Wondelgem",
+   "guests": "From 10 guests",
+   "price": "Menus from €65 pp",
+   "website": "https://www.foodathome.be/kok-aan-huis",
+   "instagram": "https://www.instagram.com/culinair_food_at_home/",
+   "email": "info@foodathome.be",
+   "phone": "+32477513088",
+   "phoneDisplay": "+32 477 51 30 88",
+   "placeId": "",
+   "sources": [
+    "https://www.foodathome.be/kok-aan-huis"
+   ],
+   "image": null,
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "what-the-food",
+   "name": "What The Food",
+   "chef": "Margaux",
+   "style": "Plant-based (vegan)",
+   "description": "Plant-based private catering and private-chef dinners by Margaux, based in Ghent’s Zuid district.",
+   "serves": "Ghent",
+   "base": "",
+   "guests": "",
+   "price": "",
+   "website": "https://whatthefood.gent/private-catering/",
+   "instagram": "",
+   "email": "",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://whatthefood.gent/private-catering/",
+    "https://whatthefood.gent/"
+   ],
+   "image": {
+    "src": "img/chefs/gent/what-the-food.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A colourful plant-based bowl (What The Food)",
+    "credit": "What The Food (whatthefood.gent)",
+    "credit_url": "https://whatthefood.gent/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "bien-cuit",
+   "name": "Bien Cuit",
+   "chef": "Pieter Uytterlinde",
+   "style": "Fine dining, sharing, Italian, modern European",
+   "description": "Chef Pieter Uytterlinde plans the menu with you, shops, cooks on site and cleans up: 4- or 5-course fine dining, a sharing concept, seasonal Italian or modern European, with fish or vegetarian options.",
+   "serves": "Ghent is one of his regular service areas",
+   "base": "Borgerhout",
+   "guests": "",
+   "price": "",
+   "website": "https://www.bien-cuit.be/en/chef-at-home/",
+   "instagram": "https://www.instagram.com/chefs_bien_cuit/",
+   "email": "chefsbiencuit@gmail.com",
+   "phone": "+32493436322",
+   "phoneDisplay": "0493 43 63 22",
+   "placeId": "",
+   "sources": [
+    "https://www.bien-cuit.be/en/chef-at-home/"
+   ],
+   "image": {
+    "src": "img/chefs/gent/bien-cuit.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated starter in a white bowl (Bien Cuit)",
+    "credit": "Bien Cuit (bien-cuit.be)",
+    "credit_url": "https://www.bien-cuit.be/"
+   },
+   "checked": "2026-10-31"
+  }
+ ]
+}

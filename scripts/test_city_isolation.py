@@ -123,6 +123,16 @@ with sync_playwright() as p:
                 oid = sorted(other_ids)[0]
                 pg.goto(B + f'restaurant.html?country=be&city={cid}&id={oid}', wait_until='networkidle'); pg.wait_for_timeout(500)
                 ok(f'{tag}: other city\'s place under {cid} = Not found', pg.locator('#hname').inner_text().strip() == 'Not found', pg.locator('#hname').inner_text())
+            # private chefs page (if this city has one): only this city's chefs + text
+            if c.get('privatechefs'):
+                pg.goto(B + f'privatechef.html?country=be&city={cid}', wait_until='networkidle'); pg.wait_for_timeout(700)
+                n = pg.locator('#pcgrid article.pc').count()
+                ok(f'{tag}: private chefs listed ({n})', n > 0, n)
+                v = pg.evaluate(VISIBLE); L, ctxs = leak(rx, v['text']); Lh, _ = leak(rx, v['head'])
+                ok(f'{tag}: private chefs page names no other city', not L and not Lh, ctxs or v['head'][:200])
+                hrefs = pg.evaluate("() => [...document.querySelectorAll('[data-city-page], [data-home]')].map(a => a.href)")
+                ok(f'{tag}: private chefs nav links stay in {cid}', hrefs and all(f'city={cid}' in h for h in hrefs if 'city=' in h), hrefs[:3])
+                if SHOTS: pg.screenshot(path=f'{SHOTS}/{vp}-{cid}-privatechef.png')
         # switcher: from each city to the other, data replaced
         for c in CITIES:
             for o in CITIES:

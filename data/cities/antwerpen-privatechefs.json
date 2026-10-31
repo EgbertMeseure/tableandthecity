@@ -1,0 +1,146 @@
+{
+ "city": "antwerpen",
+ "updated": "2026-10-31",
+ "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
+ "chefs": [
+  {
+   "id": "private-dining-by-kat",
+   "name": "Private Dining by Kat",
+   "chef": "Kat",
+   "style": "Private dining",
+   "description": "Chef Kat brings the full restaurant experience to your home: fresh food, cooked and served in your own comfort, with formulas made to measure.",
+   "serves": "From Antwerp across Flanders (travel charged per km)",
+   "base": "",
+   "guests": "",
+   "price": "",
+   "website": "https://www.privatediningbykat.be/",
+   "instagram": "https://www.instagram.com/private_dining_by_kat/",
+   "email": "private_dining_by_kat@hotmail.com",
+   "phone": "+32478503745",
+   "phoneDisplay": "0478 50 37 45",
+   "placeId": "",
+   "sources": [
+    "https://www.privatediningbykat.be/"
+   ],
+   "image": {
+    "src": "img/chefs/antwerpen/private-dining-by-kat.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A table setting with a linen napkin (Private Dining by Kat)",
+    "credit": "Private Dining by Kat (privatediningbykat.be)",
+    "credit_url": "https://www.privatediningbykat.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "santoku",
+   "name": "SANTOKU Private Dining",
+   "chef": "Nael",
+   "style": "Japanese omakase",
+   "description": "Japanese omakase private dining: chef Nael serves one menu for the whole table.",
+   "serves": "Antwerp",
+   "base": "",
+   "guests": "Up to 12 guests",
+   "price": "€145 pp excl. VAT",
+   "website": "https://www.santokuprivatedining.com/",
+   "instagram": "",
+   "email": "booking@santokuprivatedining.com",
+   "phone": "+32478911588",
+   "phoneDisplay": "+32 478 91 15 88",
+   "placeId": "",
+   "sources": [
+    "https://www.santokuprivatedining.com/"
+   ],
+   "image": {
+    "src": "img/chefs/antwerpen/santoku.webp",
+    "w": 853,
+    "h": 640,
+    "alt": "Beef tartare with egg yolk in a wooden box (SANTOKU)",
+    "credit": "SANTOKU Private Dining (santokuprivatedining.com)",
+    "credit_url": "https://www.santokuprivatedining.com/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "bien-cuit",
+   "name": "Bien Cuit",
+   "chef": "Pieter Uytterlinde",
+   "style": "Fine dining, sharing, Italian, modern European",
+   "description": "Chef Pieter Uytterlinde plans the menu with you, shops, cooks on site and cleans up: 4- or 5-course fine dining, a sharing concept, seasonal Italian or modern European, with fish or vegetarian options.",
+   "serves": "Antwerp and the Kempen",
+   "base": "Borgerhout",
+   "guests": "",
+   "price": "",
+   "website": "https://www.bien-cuit.be/en/chef-at-home/",
+   "instagram": "https://www.instagram.com/chefs_bien_cuit/",
+   "email": "chefsbiencuit@gmail.com",
+   "phone": "+32493436322",
+   "phoneDisplay": "0493 43 63 22",
+   "placeId": "",
+   "sources": [
+    "https://www.bien-cuit.be/en/chef-at-home/"
+   ],
+   "image": {
+    "src": "img/chefs/antwerpen/bien-cuit.webp",
+    "w": 720,
+    "h": 540,
+    "alt": "A crab starter served in a glass (Bien Cuit)",
+    "credit": "Bien Cuit (bien-cuit.be)",
+    "credit_url": "https://www.bien-cuit.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "uitmuntend",
+   "name": "Uitmuntend",
+   "chef": "Wim Janssens",
+   "style": "Chef at home & traiteur",
+   "description": "Kok aan huis and traiteur: fresh, home-made cooking in your kitchen, tableware included.",
+   "serves": "Antwerp",
+   "base": "",
+   "guests": "4 to 60 guests",
+   "price": "",
+   "website": "https://uit-munt-end.be/kok-aan-huis",
+   "instagram": "https://www.instagram.com/uit_munt_end/",
+   "email": "info@uit-munt-end.be",
+   "phone": "+32477441869",
+   "phoneDisplay": "0477 44 18 69",
+   "placeId": "",
+   "sources": [
+    "https://uit-munt-end.be/kok-aan-huis",
+    "https://uit-munt-end.be/contact"
+   ],
+   "image": {
+    "src": "img/chefs/antwerpen/uitmuntend.webp",
+    "w": 667,
+    "h": 500,
+    "alt": "A green salad being finished by hand (Uitmuntend)",
+    "credit": "Uitmuntend (uit-munt-end.be)",
+    "credit_url": "https://uit-munt-end.be/"
+   },
+   "checked": "2026-10-31"
+  },
+  {
+   "id": "gianluca-vetrugno",
+   "name": "Gianluca Vetrugno",
+   "chef": "Gianluca Vetrugno",
+   "style": "Seasonal tasting menus",
+   "description": "Italo-Belgian chef, former sous-chef at The Jane and head chef at Le Pristine, offering bespoke private dining with intimate, seasonal tasting menus.",
+   "serves": "Antwerp",
+   "base": "",
+   "guests": "",
+   "price": "",
+   "website": "https://www.gianluca-vetrugno.com/",
+   "instagram": "https://www.instagram.com/vetrugno_gianluca/",
+   "email": "info@gianluca-vetrugno.com",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://www.gianluca-vetrugno.com/"
+   ],
+   "image": null,
+   "checked": "2026-10-31"
+  }
+ ]
+}

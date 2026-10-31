@@ -7,7 +7,7 @@
   const F = window.TGForms;
   if (!F || !F.ready) { document.documentElement.classList.add('no-suggest'); return; }
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const TYPES = ['Restaurant', 'Café & bar', 'Breakfast', 'Bakery', 'Other'];
+  const TYPES = ['Restaurant', 'Café & bar', 'Breakfast', 'Bakery', 'Private chef', 'Other'];
   let root = null, lastFocus = null;
 
   function currentCity() {
@@ -88,6 +88,7 @@
     form.querySelectorAll('[aria-invalid]').forEach(x => x.removeAttribute('aria-invalid'));
     root.querySelector('.crq__err').hidden = true; root.querySelector('.crq__done').hidden = true; root.querySelector('.crq__lead').hidden = false;
     form.elements.city.value = currentCity();
+    const ty = from && from.dataset && from.dataset.suggestType; if (ty && TYPES.includes(ty)) form.elements.type.value = ty;   // e.g. 'Get listed' on privatechef.html
     root.hidden = false; document.documentElement.classList.add('crq-lock');
     requestAnimationFrame(() => { root.classList.add('is-open'); form.elements.name.focus({ preventScroll: true }); });
   }
