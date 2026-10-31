@@ -24249,6 +24249,144 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "osm-la-vita-e-bella-n8957993751": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-la-vita-e-bella-n8957993751/p1-1400.webp",
+     "thumb": "img/places/gent/osm-la-vita-e-bella-n8957993751/p1-700.webp",
+     "srcset": "img/places/gent/osm-la-vita-e-bella-n8957993751/p1-700.webp 700w, img/places/gent/osm-la-vita-e-bella-n8957993751/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 622,
+     "category": "interior",
+     "alt": "La Vita e Bella: the interior",
+     "credit": "lavitaebellarestaurant.be",
+     "credit_url": "https://www.lavitaebellarestaurant.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-la-vita-e-bella-n8957993751/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-ship-sip-w834990455": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-ship-sip-w834990455/p1-1400.webp",
+     "thumb": "img/places/gent/osm-ship-sip-w834990455/p1-700.webp",
+     "srcset": "img/places/gent/osm-ship-sip-w834990455/p1-700.webp 700w, img/places/gent/osm-ship-sip-w834990455/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 932,
+     "category": "exterior",
+     "alt": "Ship & Sip: the outside",
+     "credit": "shipensip.com",
+     "credit_url": "https://www.shipensip.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-ship-sip-w834990455/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-taco-santo-n11210189831": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-taco-santo-n11210189831/p1-1400.webp",
+     "thumb": "img/places/gent/osm-taco-santo-n11210189831/p1-700.webp",
+     "srcset": "img/places/gent/osm-taco-santo-n11210189831/p1-700.webp 700w, img/places/gent/osm-taco-santo-n11210189831/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "food",
+     "alt": "Taco Santo: food",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-taco-santo-n11210189831/p2-800.webp",
+     "thumb": "img/places/gent/osm-taco-santo-n11210189831/p2-400.webp",
+     "srcset": "img/places/gent/osm-taco-santo-n11210189831/p2-400.webp 400w, img/places/gent/osm-taco-santo-n11210189831/p2-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "food",
+     "alt": "Taco Santo: food",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-taco-santo-n11210189831/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-uzume-sushi-n11476402371": {
+   "photos": [
+    {
+     "src": "img/places/gent/osm-uzume-sushi-n11476402371/p1-1400.webp",
+     "thumb": "img/places/gent/osm-uzume-sushi-n11476402371/p1-700.webp",
+     "srcset": "img/places/gent/osm-uzume-sushi-n11476402371/p1-700.webp 700w, img/places/gent/osm-uzume-sushi-n11476402371/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 575,
+     "category": "food",
+     "alt": "Uzume Sushi: food",
+     "credit": "overpoort.uzumesushi.be",
+     "credit_url": "https://overpoort.uzumesushi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-uzume-sushi-n11476402371/p2-800.webp",
+     "thumb": "img/places/gent/osm-uzume-sushi-n11476402371/p2-400.webp",
+     "srcset": "img/places/gent/osm-uzume-sushi-n11476402371/p2-400.webp 400w, img/places/gent/osm-uzume-sushi-n11476402371/p2-800.webp 800w",
+     "w": 800,
+     "h": 323,
+     "category": "food",
+     "alt": "Uzume Sushi: food",
+     "credit": "overpoort.uzumesushi.be",
+     "credit_url": "https://overpoort.uzumesushi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-uzume-sushi-n11476402371/p3-800.webp",
+     "thumb": "img/places/gent/osm-uzume-sushi-n11476402371/p3-400.webp",
+     "srcset": "img/places/gent/osm-uzume-sushi-n11476402371/p3-400.webp 400w, img/places/gent/osm-uzume-sushi-n11476402371/p3-800.webp 800w",
+     "w": 800,
+     "h": 301,
+     "category": "food",
+     "alt": "Uzume Sushi: food",
+     "credit": "overpoort.uzumesushi.be",
+     "credit_url": "https://overpoort.uzumesushi.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-uzume-sushi-n11476402371/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  }
 }
