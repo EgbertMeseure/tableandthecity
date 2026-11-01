@@ -3364,6 +3364,16 @@
   "fourth-wave": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DeUtersxhJy/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dakg7OPo0Ko/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Deq_1RMuvsA/",
      "category": "drink",
      "origin": "research"
@@ -3411,6 +3421,38 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/fourth-wave/p4-1400.webp",
+     "thumb": "img/places/gent/fourth-wave/p4-700.webp",
+     "srcset": "img/places/gent/fourth-wave/p4-700.webp 700w, img/places/gent/fourth-wave/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Fourth Wave: food",
+     "credit": "@fourthwave.gent on Instagram",
+     "credit_url": "https://www.instagram.com/fourthwave.gent/",
+     "ig": "https://www.instagram.com/p/DeUtersxhJy/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/fourth-wave/p5-1400.webp",
+     "thumb": "img/places/gent/fourth-wave/p5-700.webp",
+     "srcset": "img/places/gent/fourth-wave/p5-700.webp 700w, img/places/gent/fourth-wave/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Fourth Wave: food",
+     "credit": "@fourthwave.gent on Instagram",
+     "credit_url": "https://www.instagram.com/fourthwave.gent/",
+     "ig": "https://www.instagram.com/p/Dakg7OPo0Ko/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
@@ -3563,25 +3605,85 @@
    "layout": "mix"
   },
   "funke": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DcTGeZoDOcU/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd4Cip4DHtp/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/funke/p1-1400.webp",
-     "thumb": "img/places/gent/funke/p1-700.webp",
-     "srcset": "img/places/gent/funke/p1-700.webp 700w, img/places/gent/funke/p1-1400.webp 1400w",
-     "w": 750,
-     "h": 999,
+     "src": "img/places/gent/funke/p2-1400.webp",
+     "thumb": "img/places/gent/funke/p2-700.webp",
+     "srcset": "img/places/gent/funke/p2-700.webp 700w, img/places/gent/funke/p2-1400.webp 1400w",
+     "w": 1012,
+     "h": 1500,
      "category": "interior",
      "alt": "Funke: the interior",
      "credit": "funke.gent",
-     "credit_url": "https://funke.gent/",
+     "credit_url": "https://funke.gent/residents",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/funke/p3-1400.webp",
+     "thumb": "img/places/gent/funke/p3-700.webp",
+     "srcset": "img/places/gent/funke/p3-700.webp 700w, img/places/gent/funke/p3-1400.webp 1400w",
+     "w": 1000,
+     "h": 1500,
+     "category": "interior",
+     "alt": "Funke: the interior",
+     "credit": "funke.gent",
+     "credit_url": "https://funke.gent/welcome",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/funke/p4-1400.webp",
+     "thumb": "img/places/gent/funke/p4-700.webp",
+     "srcset": "img/places/gent/funke/p4-700.webp 700w, img/places/gent/funke/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Funke: food",
+     "credit": "@funke.fu on Instagram",
+     "credit_url": "https://www.instagram.com/funke.fu/",
+     "ig": "https://www.instagram.com/p/DcTGeZoDOcU/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/funke/p5-1400.webp",
+     "thumb": "img/places/gent/funke/p5-700.webp",
+     "srcset": "img/places/gent/funke/p5-700.webp 700w, img/places/gent/funke/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1865,
+     "category": "food",
+     "alt": "Funke: food",
+     "credit": "@funke.fu on Instagram",
+     "credit_url": "https://www.instagram.com/funke.fu/",
+     "ig": "https://www.instagram.com/p/Dd4Cip4DHtp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/funke/p1-1400.webp"
+    "src": "img/places/gent/funke/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -3937,7 +4039,12 @@
    "posts": [
     {
      "url": "https://www.instagram.com/p/DejsDg6uASv/",
-     "category": "drink",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DGsjB3oNgBM/",
+     "category": "food",
      "origin": "research"
     }
    ],
@@ -3957,18 +4064,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/jiggers/p2-800.webp",
-     "thumb": "img/places/gent/jiggers/p2-400.webp",
-     "srcset": "img/places/gent/jiggers/p2-400.webp 400w, img/places/gent/jiggers/p2-800.webp 800w",
-     "w": 750,
-     "h": 1125,
+     "src": "img/places/gent/jiggers/p5-1400.webp",
+     "thumb": "img/places/gent/jiggers/p5-700.webp",
+     "srcset": "img/places/gent/jiggers/p5-700.webp 700w, img/places/gent/jiggers/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "Jigger's: food",
-     "credit": "jiggers.be",
-     "credit_url": "https://jiggers.be/",
+     "credit": "@jiggers_coolersandcocktails on Instagram",
+     "credit_url": "https://www.instagram.com/jiggers_coolersandcocktails/",
+     "ig": "https://www.instagram.com/p/DejsDg6uASv/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     },
     {
      "src": "img/places/gent/jiggers/p3-800.webp",
@@ -3985,18 +4094,35 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/jiggers/p4-800.webp",
-     "thumb": "img/places/gent/jiggers/p4-400.webp",
-     "srcset": "img/places/gent/jiggers/p4-400.webp 400w, img/places/gent/jiggers/p4-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "interior",
-     "alt": "Jigger's: the interior",
+     "src": "img/places/gent/jiggers/p6-1400.webp",
+     "thumb": "img/places/gent/jiggers/p6-700.webp",
+     "srcset": "img/places/gent/jiggers/p6-700.webp 700w, img/places/gent/jiggers/p6-1400.webp 1400w",
+     "w": 1334,
+     "h": 1667,
+     "category": "food",
+     "alt": "Jigger's: food",
      "credit": "@jiggers_coolersandcocktails on Instagram",
      "credit_url": "https://www.instagram.com/jiggers_coolersandcocktails/",
+     "ig": "https://www.instagram.com/p/DGsjB3oNgBM/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/jiggers/p7-1400.webp",
+     "thumb": "img/places/gent/jiggers/p7-700.webp",
+     "srcset": "img/places/gent/jiggers/p7-700.webp 700w, img/places/gent/jiggers/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Jigger's: food",
+     "credit": "jiggers.be",
+     "credit_url": "https://jiggers.be/rss",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
@@ -5130,12 +5256,43 @@
   "limonada": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/C9AWVpWt3e8/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DQUm2uUjBFv/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DP-PSalChhK/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Dez4ty4NUSO/",
      "category": "drink",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/limonada/p3-1400.webp",
+     "thumb": "img/places/gent/limonada/p3-700.webp",
+     "srcset": "img/places/gent/limonada/p3-700.webp 700w, img/places/gent/limonada/p3-1400.webp 1400w",
+     "w": 1075,
+     "h": 1096,
+     "category": "interior",
+     "alt": "Limonada: the interior",
+     "credit": "@limonadagent on Instagram",
+     "credit_url": "https://www.instagram.com/limonadagent/",
+     "ig": "https://www.instagram.com/p/C9AWVpWt3e8/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
     {
      "src": "img/places/gent/limonada/p1-1400.webp",
      "thumb": "img/places/gent/limonada/p1-700.webp",
@@ -5164,11 +5321,43 @@
      "source": "own_instagram",
      "noPeopleChecked": true,
      "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/limonada/p4-1400.webp",
+     "thumb": "img/places/gent/limonada/p4-700.webp",
+     "srcset": "img/places/gent/limonada/p4-700.webp 700w, img/places/gent/limonada/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Limonada: food",
+     "credit": "@limonadagent on Instagram",
+     "credit_url": "https://www.instagram.com/limonadagent/",
+     "ig": "https://www.instagram.com/p/DQUm2uUjBFv/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/limonada/p5-1400.webp",
+     "thumb": "img/places/gent/limonada/p5-700.webp",
+     "srcset": "img/places/gent/limonada/p5-700.webp 700w, img/places/gent/limonada/p5-1400.webp 1400w",
+     "w": 1152,
+     "h": 1152,
+     "category": "food",
+     "alt": "Limonada: food",
+     "credit": "@limonadagent on Instagram",
+     "credit_url": "https://www.instagram.com/limonadagent/",
+     "ig": "https://www.instagram.com/p/DP-PSalChhK/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/limonada/p1-1400.webp"
+    "src": "img/places/gent/limonada/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -27330,7 +27519,50 @@
    "layout": "mix"
   },
   "patrick-foleys": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DHS5WFhMcJA/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc0wUGBMBt6/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/patrick-foleys/p4-1400.webp",
+     "thumb": "img/places/gent/patrick-foleys/p4-700.webp",
+     "srcset": "img/places/gent/patrick-foleys/p4-700.webp 700w, img/places/gent/patrick-foleys/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "interior",
+     "alt": "Patrick Foley's Irish Pub: the interior",
+     "credit": "@patrickfoleys on Instagram",
+     "credit_url": "https://www.instagram.com/patrickfoleys/",
+     "ig": "https://www.instagram.com/p/DHS5WFhMcJA/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/patrick-foleys/p5-1400.webp",
+     "thumb": "img/places/gent/patrick-foleys/p5-700.webp",
+     "srcset": "img/places/gent/patrick-foleys/p5-700.webp 700w, img/places/gent/patrick-foleys/p5-1400.webp 1400w",
+     "w": 800,
+     "h": 534,
+     "category": "interior",
+     "alt": "Patrick Foley's Irish Pub: the interior",
+     "credit": "foleys.be",
+     "credit_url": "https://www.foleys.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
     {
      "src": "img/places/gent/patrick-foleys/p1-1400.webp",
      "thumb": "img/places/gent/patrick-foleys/p1-700.webp",
@@ -27374,11 +27606,27 @@
      "source": "own_instagram",
      "noPeopleChecked": true,
      "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/patrick-foleys/p6-1400.webp",
+     "thumb": "img/places/gent/patrick-foleys/p6-700.webp",
+     "srcset": "img/places/gent/patrick-foleys/p6-700.webp 700w, img/places/gent/patrick-foleys/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1849,
+     "category": "food",
+     "alt": "Patrick Foley's Irish Pub: food",
+     "credit": "@patrickfoleys on Instagram",
+     "credit_url": "https://www.instagram.com/patrickfoleys/",
+     "ig": "https://www.instagram.com/p/Dc0wUGBMBt6/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/patrick-foleys/p1-1400.webp"
+    "src": "img/places/gent/patrick-foleys/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -27911,7 +28159,35 @@
    "layout": "mix"
   },
   "fari": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DYHnGG2DNoS/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc1vqTmMoTW/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/fari/p5-1400.webp",
+     "thumb": "img/places/gent/fari/p5-700.webp",
+     "srcset": "img/places/gent/fari/p5-700.webp 700w, img/places/gent/fari/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "Fari: the interior",
+     "credit": "@fari.gent on Instagram",
+     "credit_url": "https://www.instagram.com/fari.gent/",
+     "ig": "https://www.instagram.com/p/DYHnGG2DNoS/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
     {
      "src": "img/places/gent/fari/p1-1400.webp",
      "thumb": "img/places/gent/fari/p1-700.webp",
@@ -27967,11 +28243,27 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/fari/p6-1400.webp",
+     "thumb": "img/places/gent/fari/p6-700.webp",
+     "srcset": "img/places/gent/fari/p6-700.webp 700w, img/places/gent/fari/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Fari: food",
+     "credit": "@fari.gent on Instagram",
+     "credit_url": "https://www.instagram.com/fari.gent/",
+     "ig": "https://www.instagram.com/p/Dc1vqTmMoTW/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/fari/p1-1400.webp"
+    "src": "img/places/gent/fari/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -28053,21 +28345,29 @@
    "layout": "mix"
   },
   "hey-frankie": {
-   "photos": [
+   "posts": [
     {
-     "src": "img/places/gent/hey-frankie/p1-1400.webp",
-     "thumb": "img/places/gent/hey-frankie/p1-700.webp",
-     "srcset": "img/places/gent/hey-frankie/p1-700.webp 700w, img/places/gent/hey-frankie/p1-1400.webp 1400w",
-     "w": 1200,
-     "h": 900,
-     "category": "exterior",
-     "alt": "Hey Frankie: the outside",
-     "credit": "Hey Frankie (own website)",
-     "credit_url": "https://freight.cargo.site/w/1200/i/7f4e4e04cfe2676af67953340c0c2a7e4cc7663e57fa1209e4354070277e9dad/IMG_3178.JPG",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "url": "https://www.instagram.com/p/DDaJYhLtXE9/",
+     "category": "food",
+     "origin": "research"
     },
+    {
+     "url": "https://www.instagram.com/p/C5nOEm4tHqJ/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DF0djAZtxJs/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DAJE5POtAqq/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
     {
      "src": "img/places/gent/hey-frankie/p2-800.webp",
      "thumb": "img/places/gent/hey-frankie/p2-400.webp",
@@ -28081,16 +28381,87 @@
      "license": "",
      "source": "visit_gent",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/hey-frankie/p3-1400.webp",
+     "thumb": "img/places/gent/hey-frankie/p3-700.webp",
+     "srcset": "img/places/gent/hey-frankie/p3-700.webp 700w, img/places/gent/hey-frankie/p3-1400.webp 1400w",
+     "w": 1200,
+     "h": 900,
+     "category": "food",
+     "alt": "Hey Frankie: food",
+     "credit": "@hey_frankiegent on Instagram",
+     "credit_url": "https://www.instagram.com/hey_frankiegent/",
+     "ig": "https://www.instagram.com/p/DDaJYhLtXE9/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/hey-frankie/p4-1400.webp",
+     "thumb": "img/places/gent/hey-frankie/p4-700.webp",
+     "srcset": "img/places/gent/hey-frankie/p4-700.webp 700w, img/places/gent/hey-frankie/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Hey Frankie: food",
+     "credit": "@hey_frankiegent on Instagram",
+     "credit_url": "https://www.instagram.com/hey_frankiegent/",
+     "ig": "https://www.instagram.com/p/C5nOEm4tHqJ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/hey-frankie/p5-1400.webp",
+     "thumb": "img/places/gent/hey-frankie/p5-700.webp",
+     "srcset": "img/places/gent/hey-frankie/p5-700.webp 700w, img/places/gent/hey-frankie/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Hey Frankie: food",
+     "credit": "@hey_frankiegent on Instagram",
+     "credit_url": "https://www.instagram.com/hey_frankiegent/",
+     "ig": "https://www.instagram.com/p/DF0djAZtxJs/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/hey-frankie/p6-1400.webp",
+     "thumb": "img/places/gent/hey-frankie/p6-700.webp",
+     "srcset": "img/places/gent/hey-frankie/p6-700.webp 700w, img/places/gent/hey-frankie/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Hey Frankie: food",
+     "credit": "@hey_frankiegent on Instagram",
+     "credit_url": "https://www.instagram.com/hey_frankiegent/",
+     "ig": "https://www.instagram.com/p/DAJE5POtAqq/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/hey-frankie/p1-1400.webp"
+    "src": "img/places/gent/hey-frankie/p2-800.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "kinky-star": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DbGD-orjqRw/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/gent/kinky-star/p1-1400.webp",
@@ -28107,18 +28478,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/kinky-star/p2-800.webp",
-     "thumb": "img/places/gent/kinky-star/p2-400.webp",
-     "srcset": "img/places/gent/kinky-star/p2-400.webp 400w, img/places/gent/kinky-star/p2-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "exterior",
-     "alt": "Kinky Star: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/kinky-star",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
+     "src": "img/places/gent/kinky-star/p3-1400.webp",
+     "thumb": "img/places/gent/kinky-star/p3-700.webp",
+     "srcset": "img/places/gent/kinky-star/p3-700.webp 700w, img/places/gent/kinky-star/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 733,
+     "category": "interior",
+     "alt": "Kinky Star: the interior",
+     "credit": "@muziekcentrumkinkystar on Instagram",
+     "credit_url": "https://www.instagram.com/muziekcentrumkinkystar/",
+     "ig": "https://www.instagram.com/p/DbGD-orjqRw/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
@@ -28788,23 +29161,14 @@
    "layout": "mix"
   },
   "het-spijker": {
-   "photos": [
+   "posts": [
     {
-     "src": "img/places/gent/het-spijker/p1-1400.webp",
-     "thumb": "img/places/gent/het-spijker/p1-700.webp",
-     "srcset": "img/places/gent/het-spijker/p1-700.webp 700w, img/places/gent/het-spijker/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 1050,
-     "category": "exterior",
-     "alt": "Het Spijker: the outside",
-     "credit": "Basvb",
-     "credit_url": "https://commons.wikimedia.org/wiki/File:Gent_-_Graslei_Spijker.JPG",
-     "license": "CC BY-SA 3.0",
-     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-     "source_url": "https://commons.wikimedia.org/wiki/File:Gent_-_Graslei_Spijker.JPG",
-     "source": "commons",
-     "noPeopleChecked": true
-    },
+     "url": "https://www.instagram.com/p/DSPqqPnjXp1/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "photos": [
     {
      "src": "img/places/gent/het-spijker/p2-800.webp",
      "thumb": "img/places/gent/het-spijker/p2-400.webp",
@@ -28820,11 +29184,27 @@
      "source_url": "https://commons.wikimedia.org/wiki/File:Belgi%C3%AB_-_Gent_-_Spijker_-_02.jpg",
      "source": "commons",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/het-spijker/p3-1400.webp",
+     "thumb": "img/places/gent/het-spijker/p3-700.webp",
+     "srcset": "img/places/gent/het-spijker/p3-700.webp 700w, img/places/gent/het-spijker/p3-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Het Spijker: the interior",
+     "credit": "@cafehetspijker on Instagram",
+     "credit_url": "https://www.instagram.com/cafehetspijker/",
+     "ig": "https://www.instagram.com/p/DSPqqPnjXp1/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/het-spijker/p1-1400.webp"
+    "src": "img/places/gent/het-spijker/p2-800.webp"
    },
    "only": true,
    "layout": "mix"
@@ -29104,37 +29484,54 @@
   "giftshop": {
    "photos": [
     {
-     "src": "img/places/gent/giftshop/p1-1400.webp",
-     "thumb": "img/places/gent/giftshop/p1-700.webp",
-     "srcset": "img/places/gent/giftshop/p1-700.webp 700w, img/places/gent/giftshop/p1-1400.webp 1400w",
+     "src": "img/places/gent/giftshop/p3-1400.webp",
+     "thumb": "img/places/gent/giftshop/p3-700.webp",
+     "srcset": "img/places/gent/giftshop/p3-700.webp 700w, img/places/gent/giftshop/p3-1400.webp 1400w",
      "w": 1400,
      "h": 934,
      "category": "interior",
      "alt": "Giftshop: the interior",
-     "credit": "giftshop.gent · photo Michiel Devijver",
+     "credit": "giftshop.gent",
      "credit_url": "https://giftshop.gent/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     },
     {
-     "src": "img/places/gent/giftshop/p2-800.webp",
-     "thumb": "img/places/gent/giftshop/p2-400.webp",
-     "srcset": "img/places/gent/giftshop/p2-400.webp 400w, img/places/gent/giftshop/p2-800.webp 800w",
-     "w": 800,
-     "h": 625,
+     "src": "img/places/gent/giftshop/p4-1400.webp",
+     "thumb": "img/places/gent/giftshop/p4-700.webp",
+     "srcset": "img/places/gent/giftshop/p4-700.webp 700w, img/places/gent/giftshop/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
      "category": "interior",
      "alt": "Giftshop: the interior",
-     "credit": "giftshop.gent · photo Michiel Devijver",
+     "credit": "giftshop.gent",
      "credit_url": "https://giftshop.gent/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/giftshop/p5-1400.webp",
+     "thumb": "img/places/gent/giftshop/p5-700.webp",
+     "srcset": "img/places/gent/giftshop/p5-700.webp 700w, img/places/gent/giftshop/p5-1400.webp 1400w",
+     "w": 1344,
+     "h": 895,
+     "category": "food",
+     "alt": "Giftshop: food",
+     "credit": "giftshop.gent",
+     "credit_url": "https://giftshop.gent/about/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b08 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/giftshop/p1-1400.webp"
+    "src": "img/places/gent/giftshop/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
