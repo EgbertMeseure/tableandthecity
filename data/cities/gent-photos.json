@@ -8500,6 +8500,11 @@
   "osm-akuma-n4775222545": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/C9CwEqwNfG1/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DYO7SicR7Hi/",
      "category": "food",
      "origin": "research"
@@ -8531,32 +8536,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/osm-akuma-n4775222545/p2-800.webp",
-     "thumb": "img/places/gent/osm-akuma-n4775222545/p2-400.webp",
-     "srcset": "img/places/gent/osm-akuma-n4775222545/p2-400.webp 400w, img/places/gent/osm-akuma-n4775222545/p2-800.webp 800w",
-     "w": 640,
-     "h": 1136,
+     "src": "img/places/gent/osm-akuma-n4775222545/p4-1400.webp",
+     "thumb": "img/places/gent/osm-akuma-n4775222545/p4-700.webp",
+     "srcset": "img/places/gent/osm-akuma-n4775222545/p4-700.webp 700w, img/places/gent/osm-akuma-n4775222545/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
      "category": "food",
      "alt": "Akuma: food",
      "credit": "@akuma.ghent on Instagram",
      "credit_url": "https://www.instagram.com/akuma.ghent/",
+     "ig": "https://www.instagram.com/p/C9CwEqwNfG1/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/osm-akuma-n4775222545/p3-800.webp",
-     "thumb": "img/places/gent/osm-akuma-n4775222545/p3-400.webp",
-     "srcset": "img/places/gent/osm-akuma-n4775222545/p3-400.webp 400w, img/places/gent/osm-akuma-n4775222545/p3-800.webp 800w",
-     "w": 640,
-     "h": 1136,
-     "category": "food",
-     "alt": "Akuma: food",
-     "credit": "@akuma.ghent on Instagram",
-     "credit_url": "https://www.instagram.com/akuma.ghent/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
     }
    ],
    "pick": {
@@ -8575,6 +8568,20 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/osm-alain-proviest-n4384148111/p5-800.webp",
+     "thumb": "img/places/gent/osm-alain-proviest-n4384148111/p5-400.webp",
+     "srcset": "img/places/gent/osm-alain-proviest-n4384148111/p5-400.webp 400w, img/places/gent/osm-alain-proviest-n4384148111/p5-800.webp 800w",
+     "w": 800,
+     "h": 600,
+     "category": "exterior",
+     "alt": "Alain Proviest: the outside",
+     "credit": "@alainproviest on Instagram",
+     "credit_url": "https://www.instagram.com/alainproviest/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
     {
      "src": "img/places/gent/osm-alain-proviest-n4384148111/p1-1400.webp",
      "thumb": "img/places/gent/osm-alain-proviest-n4384148111/p1-700.webp",
@@ -8630,31 +8637,47 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/osm-alain-proviest-n4384148111/p5-800.webp",
-     "thumb": "img/places/gent/osm-alain-proviest-n4384148111/p5-400.webp",
-     "srcset": "img/places/gent/osm-alain-proviest-n4384148111/p5-400.webp 400w, img/places/gent/osm-alain-proviest-n4384148111/p5-800.webp 800w",
-     "w": 800,
-     "h": 600,
-     "category": "exterior",
-     "alt": "Alain Proviest: the outside",
-     "credit": "@alainproviest on Instagram",
-     "credit_url": "https://www.instagram.com/alainproviest/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-alain-proviest-n4384148111/p1-1400.webp"
+    "src": "img/places/gent/osm-alain-proviest-n4384148111/p5-800.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "osm-alard-n12084967318": {
    "photos": [
+    {
+     "src": "img/places/gent/osm-alard-n12084967318/p4-1400.webp",
+     "thumb": "img/places/gent/osm-alard-n12084967318/p4-700.webp",
+     "srcset": "img/places/gent/osm-alard-n12084967318/p4-700.webp 700w, img/places/gent/osm-alard-n12084967318/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "exterior",
+     "alt": "Alard: the outside",
+     "credit": "alard.be",
+     "credit_url": "https://alard.be/contact",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-alard-n12084967318/p5-1400.webp",
+     "thumb": "img/places/gent/osm-alard-n12084967318/p5-700.webp",
+     "srcset": "img/places/gent/osm-alard-n12084967318/p5-700.webp 700w, img/places/gent/osm-alard-n12084967318/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Alard: the interior",
+     "credit": "alard.be",
+     "credit_url": "https://alard.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
+    },
     {
      "src": "img/places/gent/osm-alard-n12084967318/p1-1400.webp",
      "thumb": "img/places/gent/osm-alard-n12084967318/p1-700.webp",
@@ -8700,7 +8723,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-alard-n12084967318/p1-1400.webp"
+    "src": "img/places/gent/osm-alard-n12084967318/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -22275,6 +22298,36 @@
    ],
    "photos": [
     {
+     "src": "img/places/gent/osm-t-picolootje-n11481061157/p4-1400.webp",
+     "thumb": "img/places/gent/osm-t-picolootje-n11481061157/p4-700.webp",
+     "srcset": "img/places/gent/osm-t-picolootje-n11481061157/p4-700.webp 700w, img/places/gent/osm-t-picolootje-n11481061157/p4-1400.webp 1400w",
+     "w": 664,
+     "h": 440,
+     "category": "exterior",
+     "alt": "'t Picolootje: the outside",
+     "credit": "picolootje.be",
+     "credit_url": "https://www.picolootje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-t-picolootje-n11481061157/p5-1400.webp",
+     "thumb": "img/places/gent/osm-t-picolootje-n11481061157/p5-700.webp",
+     "srcset": "img/places/gent/osm-t-picolootje-n11481061157/p5-700.webp 700w, img/places/gent/osm-t-picolootje-n11481061157/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "'t Picolootje: the interior",
+     "credit": "picolootje.be",
+     "credit_url": "https://www.picolootje.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
+    },
+    {
      "src": "img/places/gent/osm-t-picolootje-n11481061157/p1-1400.webp",
      "thumb": "img/places/gent/osm-t-picolootje-n11481061157/p1-700.webp",
      "srcset": "img/places/gent/osm-t-picolootje-n11481061157/p1-700.webp 700w, img/places/gent/osm-t-picolootje-n11481061157/p1-1400.webp 1400w",
@@ -22319,13 +22372,23 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-t-picolootje-n11481061157/p1-1400.webp"
+    "src": "img/places/gent/osm-t-picolootje-n11481061157/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "osm-t-spoorloos-perron-n13758856522": {
    "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeGuymuG_dp/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DfHnE4diuQY/",
+     "category": "food",
+     "origin": "research"
+    },
     {
      "url": "https://www.instagram.com/p/DeuUcxbDSuX/",
      "category": "food",
@@ -22338,6 +22401,21 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p3-1400.webp",
+     "thumb": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p3-700.webp",
+     "srcset": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p3-700.webp 700w, img/places/gent/osm-t-spoorloos-perron-n13758856522/p3-1400.webp 1400w",
+     "w": 679,
+     "h": 816,
+     "category": "exterior",
+     "alt": "'t Spoorloos Perron: the outside",
+     "credit": "spoorloosperron.be",
+     "credit_url": "https://www.spoorloosperron.be/groepen",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
+    },
     {
      "src": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p1-1400.webp",
      "thumb": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p1-700.webp",
@@ -22365,17 +22443,72 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p4-1400.webp",
+     "thumb": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p4-700.webp",
+     "srcset": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p4-700.webp 700w, img/places/gent/osm-t-spoorloos-perron-n13758856522/p4-1400.webp 1400w",
+     "w": 1365,
+     "h": 1706,
+     "category": "food",
+     "alt": "'t Spoorloos Perron: food",
+     "credit": "@spoorloosperrongent on Instagram",
+     "credit_url": "https://www.instagram.com/spoorloosperrongent/",
+     "ig": "https://www.instagram.com/p/DeGuymuG_dp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p5-1400.webp",
+     "thumb": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p5-700.webp",
+     "srcset": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p5-700.webp 700w, img/places/gent/osm-t-spoorloos-perron-n13758856522/p5-1400.webp 1400w",
+     "w": 1365,
+     "h": 1706,
+     "category": "food",
+     "alt": "'t Spoorloos Perron: food",
+     "credit": "@spoorloosperrongent on Instagram",
+     "credit_url": "https://www.instagram.com/spoorloosperrongent/",
+     "ig": "https://www.instagram.com/p/DfHnE4diuQY/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p1-1400.webp"
+    "src": "img/places/gent/osm-t-spoorloos-perron-n13758856522/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "osm-t-stoofpotje-n6175117985": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CfTvN7rM_VL/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/osm-t-stoofpotje-n6175117985/p4-1400.webp",
+     "thumb": "img/places/gent/osm-t-stoofpotje-n6175117985/p4-700.webp",
+     "srcset": "img/places/gent/osm-t-stoofpotje-n6175117985/p4-700.webp 700w, img/places/gent/osm-t-stoofpotje-n6175117985/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "interior",
+     "alt": "'t Stoofpotje: the interior",
+     "credit": "@tstoofpotje on Instagram",
+     "credit_url": "https://www.instagram.com/tstoofpotje/",
+     "ig": "https://www.instagram.com/p/CfTvN7rM_VL/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b17 2026-11-01"
+    },
     {
      "src": "img/places/gent/osm-t-stoofpotje-n6175117985/p1-1400.webp",
      "thumb": "img/places/gent/osm-t-stoofpotje-n6175117985/p1-700.webp",
@@ -22421,7 +22554,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-t-stoofpotje-n6175117985/p1-1400.webp"
+    "src": "img/places/gent/osm-t-stoofpotje-n6175117985/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
