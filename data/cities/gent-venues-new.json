@@ -2385,7 +2385,7 @@
       "openingHours": "Thu, Fri, Mon 07:00–18:00; Sat 07:00–17:00; Sun 07:00–14:00; Tue–Wed closed (as reported by HLN, Mar 2026)",
       "openingHoursSource": "https://www.hln.be/gent/net-open-na-jaren-in-het-vak-opent-norman-31-zijn-eigen-bakkerij-ik-wil-een-echte-buurtbakkerij-worden~a0c1a5cb3/",
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "norman_bakery",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -2410,7 +2410,8 @@
       ],
       "dateChecked": "2026-10-19",
       "openingDate": "2026-03-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.instagram.com/p/Dc1SZYZjBC3/"
     },
     {
       "id": "madam-bakster",
@@ -2469,7 +2470,7 @@
       "openingHours": "Webshop pickup slots show Tue–Fri 07:30–18:00 and Sat 08:00–17:00 at Lange Violettestraat (shop hours not stated separately)",
       "openingHoursSource": "https://www.debroodstokerij.be/",
       "website": "https://www.debroodstokerij.be/",
-      "instagram_handle": null,
+      "instagram_handle": "broodstokerij_gent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -2493,7 +2494,8 @@
         "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/bakkerij-bekend-voor-zuurdesembrood-opent-derde-vestiging-het-voelt-wat-retro-aan/156232121.html"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.instagram.com/p/DY7A_qVjXHR/"
     },
     {
       "id": "julies-house",

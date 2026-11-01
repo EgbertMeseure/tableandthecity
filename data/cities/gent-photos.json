@@ -2948,7 +2948,100 @@
    "layout": "mix"
   },
   "de-broodstokerij-gent": {
-   "hold": "no people-free photo found (research): retry returned no images from IG or website"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DVOLmtADd6M/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXt-RNaDXWa/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVOLmtADd6M/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVOLmtADd6M/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/de-broodstokerij-gent/p1-1400.webp",
+     "thumb": "img/places/gent/de-broodstokerij-gent/p1-700.webp",
+     "srcset": "img/places/gent/de-broodstokerij-gent/p1-700.webp 700w, img/places/gent/de-broodstokerij-gent/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "De Broodstokerij: food",
+     "credit": "@broodstokerij_gent on Instagram",
+     "credit_url": "https://www.instagram.com/broodstokerij_gent/",
+     "ig": "https://www.instagram.com/p/DVOLmtADd6M/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-broodstokerij-gent/p2-1400.webp",
+     "thumb": "img/places/gent/de-broodstokerij-gent/p2-700.webp",
+     "srcset": "img/places/gent/de-broodstokerij-gent/p2-700.webp 700w, img/places/gent/de-broodstokerij-gent/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "De Broodstokerij: food",
+     "credit": "@broodstokerij_gent on Instagram",
+     "credit_url": "https://www.instagram.com/broodstokerij_gent/",
+     "ig": "https://www.instagram.com/p/DXt-RNaDXWa/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-broodstokerij-gent/p3-1400.webp",
+     "thumb": "img/places/gent/de-broodstokerij-gent/p3-700.webp",
+     "srcset": "img/places/gent/de-broodstokerij-gent/p3-700.webp 700w, img/places/gent/de-broodstokerij-gent/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "De Broodstokerij: food",
+     "credit": "@broodstokerij_gent on Instagram",
+     "credit_url": "https://www.instagram.com/broodstokerij_gent/",
+     "ig": "https://www.instagram.com/p/DVOLmtADd6M/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-broodstokerij-gent/p4-1400.webp",
+     "thumb": "img/places/gent/de-broodstokerij-gent/p4-700.webp",
+     "srcset": "img/places/gent/de-broodstokerij-gent/p4-700.webp 700w, img/places/gent/de-broodstokerij-gent/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "De Broodstokerij: food",
+     "credit": "@broodstokerij_gent on Instagram",
+     "credit_url": "https://www.instagram.com/broodstokerij_gent/",
+     "ig": "https://www.instagram.com/p/DVOLmtADd6M/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/de-broodstokerij-gent/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "de-dulle-griet": {
    "posts": [
@@ -3660,6 +3753,13 @@
    "layout": "mix"
   },
   "ex-club-69-apero-dance-bar": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DcOtiPFDCmD/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/gent/ex-club-69-apero-dance-bar/p1-1400.webp",
@@ -3702,6 +3802,22 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/ex-club-69-apero-dance-bar/p4-1400.webp",
+     "thumb": "img/places/gent/ex-club-69-apero-dance-bar/p4-700.webp",
+     "srcset": "img/places/gent/ex-club-69-apero-dance-bar/p4-700.webp 700w, img/places/gent/ex-club-69-apero-dance-bar/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1255,
+     "category": "food",
+     "alt": "ex-club-69-apero-dance-bar: food",
+     "credit": "@cafecopain.gent on Instagram",
+     "credit_url": "https://www.instagram.com/cafecopain.gent/",
+     "ig": "https://www.instagram.com/p/DcOtiPFDCmD/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     }
    ],
    "pick": {
@@ -4519,17 +4635,70 @@
   "himschoot": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DbNceYeNP-n/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DbIS9aDtiwu/",
      "category": "food",
      "origin": "research"
     },
     {
-     "url": "https://www.instagram.com/p/DbNceYeNP-n/",
+     "url": "https://www.instagram.com/p/Dd8eMQstdtv/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/himschoot/p4-1400.webp",
+     "thumb": "img/places/gent/himschoot/p4-700.webp",
+     "srcset": "img/places/gent/himschoot/p4-700.webp 700w, img/places/gent/himschoot/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1752,
+     "category": "food",
+     "alt": "Bakkerij Himschoot: food",
+     "credit": "@himschootbakkerij on Instagram",
+     "credit_url": "https://www.instagram.com/himschootbakkerij/",
+     "ig": "https://www.instagram.com/p/DbNceYeNP-n/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/himschoot/p5-1400.webp",
+     "thumb": "img/places/gent/himschoot/p5-700.webp",
+     "srcset": "img/places/gent/himschoot/p5-700.webp 700w, img/places/gent/himschoot/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1752,
+     "category": "food",
+     "alt": "Bakkerij Himschoot: food",
+     "credit": "@himschootbakkerij on Instagram",
+     "credit_url": "https://www.instagram.com/himschootbakkerij/",
+     "ig": "https://www.instagram.com/p/DbIS9aDtiwu/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/himschoot/p6-1400.webp",
+     "thumb": "img/places/gent/himschoot/p6-700.webp",
+     "srcset": "img/places/gent/himschoot/p6-700.webp 700w, img/places/gent/himschoot/p6-1400.webp 1400w",
+     "w": 1350,
+     "h": 1687,
+     "category": "food",
+     "alt": "Bakkerij Himschoot: food",
+     "credit": "@himschootbakkerij on Instagram",
+     "credit_url": "https://www.instagram.com/himschootbakkerij/",
+     "ig": "https://www.instagram.com/p/Dd8eMQstdtv/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
     {
      "src": "img/places/gent/himschoot/p1-1400.webp",
      "thumb": "img/places/gent/himschoot/p1-700.webp",
@@ -4543,39 +4712,11 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/himschoot/p2-800.webp",
-     "thumb": "img/places/gent/himschoot/p2-400.webp",
-     "srcset": "img/places/gent/himschoot/p2-400.webp 400w, img/places/gent/himschoot/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
-     "category": "food",
-     "alt": "Bakkerij Himschoot: food",
-     "credit": "@himschootbakkerij on Instagram",
-     "credit_url": "https://www.instagram.com/himschootbakkerij/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/himschoot/p3-800.webp",
-     "thumb": "img/places/gent/himschoot/p3-400.webp",
-     "srcset": "img/places/gent/himschoot/p3-400.webp 400w, img/places/gent/himschoot/p3-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "food",
-     "alt": "Bakkerij Himschoot: food",
-     "credit": "bakkerijhimschoot.be",
-     "credit_url": "https://www.bakkerijhimschoot.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/himschoot/p1-1400.webp"
+    "src": "img/places/gent/himschoot/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -5733,7 +5874,94 @@
    "layout": "mix"
   },
   "kultur-bakery": {
-   "hold": "no people-free photo found (research): IG is text ads, a newspaper screenshot, drawings and staff hands; no clean people-free photo"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DA9tq-5oj6U/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C_e-zTCtWX_/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C6VteqLtFjb/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/kultur-bakery/p1-1400.webp",
+     "thumb": "img/places/gent/kultur-bakery/p1-700.webp",
+     "srcset": "img/places/gent/kultur-bakery/p1-700.webp 700w, img/places/gent/kultur-bakery/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1469,
+     "category": "food",
+     "alt": "Kultur Bakery: food",
+     "credit": "@kultur_bakery on Instagram",
+     "credit_url": "https://www.instagram.com/kultur_bakery/",
+     "ig": "https://www.instagram.com/p/DA9tq-5oj6U/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kultur-bakery/p2-1400.webp",
+     "thumb": "img/places/gent/kultur-bakery/p2-700.webp",
+     "srcset": "img/places/gent/kultur-bakery/p2-700.webp 700w, img/places/gent/kultur-bakery/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Kultur Bakery: food",
+     "credit": "@kultur_bakery on Instagram",
+     "credit_url": "https://www.instagram.com/kultur_bakery/",
+     "ig": "https://www.instagram.com/p/C_e-zTCtWX_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kultur-bakery/p3-1400.webp",
+     "thumb": "img/places/gent/kultur-bakery/p3-700.webp",
+     "srcset": "img/places/gent/kultur-bakery/p3-700.webp 700w, img/places/gent/kultur-bakery/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Kultur Bakery: food",
+     "credit": "@kultur_bakery on Instagram",
+     "credit_url": "https://www.instagram.com/kultur_bakery/",
+     "ig": "https://www.instagram.com/p/C6VteqLtFjb/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kultur-bakery/p4-1400.webp",
+     "thumb": "img/places/gent/kultur-bakery/p4-700.webp",
+     "srcset": "img/places/gent/kultur-bakery/p4-700.webp 700w, img/places/gent/kultur-bakery/p4-1400.webp 1400w",
+     "w": 960,
+     "h": 960,
+     "category": "food",
+     "alt": "Kultur Bakery: food",
+     "credit": "kultur-gent.com",
+     "credit_url": "https://www.kultur-gent.com/home",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/kultur-bakery/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "le-baan-thai": {
    "photos": [
@@ -7688,6 +7916,26 @@
   "norman-bakery": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/Dc1SZYZjBC3/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYE2OEvDIHX/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYE2OEvDIHX/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZujvRaDE4v/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Dc1SKNCMTRw/",
      "category": "food",
      "origin": "research"
@@ -7700,37 +7948,73 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/norman-bakery/p1-1400.webp",
-     "thumb": "img/places/gent/norman-bakery/p1-700.webp",
-     "srcset": "img/places/gent/norman-bakery/p1-700.webp 700w, img/places/gent/norman-bakery/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "src": "img/places/gent/norman-bakery/p3-1400.webp",
+     "thumb": "img/places/gent/norman-bakery/p3-700.webp",
+     "srcset": "img/places/gent/norman-bakery/p3-700.webp 700w, img/places/gent/norman-bakery/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "Norman Bakery: food",
      "credit": "@norman_bakery on Instagram",
      "credit_url": "https://www.instagram.com/norman_bakery/",
+     "ig": "https://www.instagram.com/p/Dc1SZYZjBC3/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     },
     {
-     "src": "img/places/gent/norman-bakery/p2-800.webp",
-     "thumb": "img/places/gent/norman-bakery/p2-400.webp",
-     "srcset": "img/places/gent/norman-bakery/p2-400.webp 400w, img/places/gent/norman-bakery/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "drink",
-     "alt": "Norman Bakery: drinks",
+     "src": "img/places/gent/norman-bakery/p4-1400.webp",
+     "thumb": "img/places/gent/norman-bakery/p4-700.webp",
+     "srcset": "img/places/gent/norman-bakery/p4-700.webp 700w, img/places/gent/norman-bakery/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Norman Bakery: food",
      "credit": "@norman_bakery on Instagram",
      "credit_url": "https://www.instagram.com/norman_bakery/",
+     "ig": "https://www.instagram.com/p/DYE2OEvDIHX/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/norman-bakery/p5-1400.webp",
+     "thumb": "img/places/gent/norman-bakery/p5-700.webp",
+     "srcset": "img/places/gent/norman-bakery/p5-700.webp 700w, img/places/gent/norman-bakery/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Norman Bakery: food",
+     "credit": "@norman_bakery on Instagram",
+     "credit_url": "https://www.instagram.com/norman_bakery/",
+     "ig": "https://www.instagram.com/p/DYE2OEvDIHX/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/norman-bakery/p6-1400.webp",
+     "thumb": "img/places/gent/norman-bakery/p6-700.webp",
+     "srcset": "img/places/gent/norman-bakery/p6-700.webp 700w, img/places/gent/norman-bakery/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Norman Bakery: food",
+     "credit": "@norman_bakery on Instagram",
+     "credit_url": "https://www.instagram.com/norman_bakery/",
+     "ig": "https://www.instagram.com/p/DZujvRaDE4v/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/norman-bakery/p1-1400.webp"
+    "src": "img/places/gent/norman-bakery/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -21696,6 +21980,21 @@
    ],
    "photos": [
     {
+     "src": "img/places/gent/osm-t-braemhof-n6975128485/p5-1400.webp",
+     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p5-700.webp",
+     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p5-700.webp 700w, img/places/gent/osm-t-braemhof-n6975128485/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "'t Braemhof: the interior",
+     "credit": "braemhof.be",
+     "credit_url": "https://www.braemhof.be/communie",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
      "src": "img/places/gent/osm-t-braemhof-n6975128485/p1-1400.webp",
      "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p1-700.webp",
      "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p1-700.webp 700w, img/places/gent/osm-t-braemhof-n6975128485/p1-1400.webp 1400w",
@@ -21710,51 +22009,69 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/osm-t-braemhof-n6975128485/p2-800.webp",
-     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p2-400.webp",
-     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p2-400.webp 400w, img/places/gent/osm-t-braemhof-n6975128485/p2-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/gent/osm-t-braemhof-n6975128485/p6-1400.webp",
+     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p6-700.webp",
+     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p6-700.webp 700w, img/places/gent/osm-t-braemhof-n6975128485/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
      "category": "food",
      "alt": "'t Braemhof: food",
-     "credit": "@braemhof on Instagram",
-     "credit_url": "https://www.instagram.com/braemhof/",
+     "credit": "braemhof.be",
+     "credit_url": "https://www.braemhof.be/",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     },
     {
-     "src": "img/places/gent/osm-t-braemhof-n6975128485/p3-800.webp",
-     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p3-400.webp",
-     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p3-400.webp 400w, img/places/gent/osm-t-braemhof-n6975128485/p3-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/gent/osm-t-braemhof-n6975128485/p7-1400.webp",
+     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p7-700.webp",
+     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p7-700.webp 700w, img/places/gent/osm-t-braemhof-n6975128485/p7-1400.webp 1400w",
+     "w": 1366,
+     "h": 2048,
      "category": "food",
      "alt": "'t Braemhof: food",
-     "credit": "@braemhof on Instagram",
-     "credit_url": "https://www.instagram.com/braemhof/",
+     "credit": "braemhof.be",
+     "credit_url": "https://www.braemhof.be/",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     },
     {
-     "src": "img/places/gent/osm-t-braemhof-n6975128485/p4-800.webp",
-     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p4-400.webp",
-     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p4-400.webp 400w, img/places/gent/osm-t-braemhof-n6975128485/p4-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/gent/osm-t-braemhof-n6975128485/p8-1400.webp",
+     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p8-700.webp",
+     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p8-700.webp 700w, img/places/gent/osm-t-braemhof-n6975128485/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
      "category": "food",
      "alt": "'t Braemhof: food",
-     "credit": "@braemhof on Instagram",
-     "credit_url": "https://www.instagram.com/braemhof/",
+     "credit": "braemhof.be",
+     "credit_url": "https://www.braemhof.be/seizoenmenu",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-t-braemhof-n6975128485/p9-1400.webp",
+     "thumb": "img/places/gent/osm-t-braemhof-n6975128485/p9-700.webp",
+     "srcset": "img/places/gent/osm-t-braemhof-n6975128485/p9-700.webp 700w, img/places/gent/osm-t-braemhof-n6975128485/p9-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "'t Braemhof: food",
+     "credit": "braemhof.be",
+     "credit_url": "https://www.braemhof.be/weekmenu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-t-braemhof-n6975128485/p1-1400.webp"
+    "src": "img/places/gent/osm-t-braemhof-n6975128485/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -21803,58 +22120,137 @@
   "osm-t-oud-clooster-n4776502139": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DaVWYLvOgJr/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DHS5m57sKBS/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Dd8nlUxuBoH/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcbSXAVKACl/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DY63WkEufqi/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DY4922juHFd/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
     {
-     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p1-1400.webp",
-     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p1-700.webp",
-     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p1-700.webp 700w, img/places/gent/osm-t-oud-clooster-n4776502139/p1-1400.webp 1400w",
-     "w": 1024,
-     "h": 684,
-     "category": "food",
-     "alt": "'t Oud Clooster: food",
-     "credit": "toudclooster.be",
-     "credit_url": "https://www.toudclooster.be/",
+     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p4-1400.webp",
+     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p4-700.webp",
+     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p4-700.webp 700w, img/places/gent/osm-t-oud-clooster-n4776502139/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1848,
+     "category": "exterior",
+     "alt": "'t Oud Clooster: the outside",
+     "credit": "@toudclooster on Instagram",
+     "credit_url": "https://www.instagram.com/toudclooster/",
+     "ig": "https://www.instagram.com/p/DaVWYLvOgJr/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     },
     {
-     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p2-800.webp",
-     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p2-400.webp",
-     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p2-400.webp 400w, img/places/gent/osm-t-oud-clooster-n4776502139/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p5-1400.webp",
+     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p5-700.webp",
+     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p5-700.webp 700w, img/places/gent/osm-t-oud-clooster-n4776502139/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "exterior",
+     "alt": "'t Oud Clooster: the outside",
+     "credit": "@toudclooster on Instagram",
+     "credit_url": "https://www.instagram.com/toudclooster/",
+     "ig": "https://www.instagram.com/p/DHS5m57sKBS/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p6-1400.webp",
+     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p6-700.webp",
+     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p6-700.webp 700w, img/places/gent/osm-t-oud-clooster-n4776502139/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "'t Oud Clooster: food",
      "credit": "@toudclooster on Instagram",
      "credit_url": "https://www.instagram.com/toudclooster/",
+     "ig": "https://www.instagram.com/p/Dd8nlUxuBoH/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     },
     {
-     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p3-800.webp",
-     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p3-400.webp",
-     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p3-400.webp 400w, img/places/gent/osm-t-oud-clooster-n4776502139/p3-800.webp 800w",
-     "w": 800,
-     "h": 900,
+     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p7-1400.webp",
+     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p7-700.webp",
+     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p7-700.webp 700w, img/places/gent/osm-t-oud-clooster-n4776502139/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "'t Oud Clooster: food",
      "credit": "@toudclooster on Instagram",
      "credit_url": "https://www.instagram.com/toudclooster/",
+     "ig": "https://www.instagram.com/p/DcbSXAVKACl/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p8-1400.webp",
+     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p8-700.webp",
+     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p8-700.webp 700w, img/places/gent/osm-t-oud-clooster-n4776502139/p8-1400.webp 1400w",
+     "w": 1267,
+     "h": 1179,
+     "category": "food",
+     "alt": "'t Oud Clooster: food",
+     "credit": "@toudclooster on Instagram",
+     "credit_url": "https://www.instagram.com/toudclooster/",
+     "ig": "https://www.instagram.com/p/DY63WkEufqi/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p9-1400.webp",
+     "thumb": "img/places/gent/osm-t-oud-clooster-n4776502139/p9-700.webp",
+     "srcset": "img/places/gent/osm-t-oud-clooster-n4776502139/p9-700.webp 700w, img/places/gent/osm-t-oud-clooster-n4776502139/p9-1400.webp 1400w",
+     "w": 1246,
+     "h": 1316,
+     "category": "food",
+     "alt": "'t Oud Clooster: food",
+     "credit": "@toudclooster on Instagram",
+     "credit_url": "https://www.instagram.com/toudclooster/",
+     "ig": "https://www.instagram.com/p/DY4922juHFd/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p1-1400.webp"
+    "src": "img/places/gent/osm-t-oud-clooster-n4776502139/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -27393,7 +27789,30 @@
    "layout": "mix"
   },
   "way-bakery-keizerpoort": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DKYtcJeo2Kz/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/way-bakery-keizerpoort/p4-1400.webp",
+     "thumb": "img/places/gent/way-bakery-keizerpoort/p4-700.webp",
+     "srcset": "img/places/gent/way-bakery-keizerpoort/p4-700.webp 700w, img/places/gent/way-bakery-keizerpoort/p4-1400.webp 1400w",
+     "w": 700,
+     "h": 1350,
+     "category": "interior",
+     "alt": "WAY Specialty Coffee Bakery (Keizerpoort): the interior",
+     "credit": "@waycoffeeroasters.gent on Instagram",
+     "credit_url": "https://www.instagram.com/waycoffeeroasters.gent/",
+     "ig": "https://www.instagram.com/p/DKYtcJeo2Kz/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b16 2026-11-01"
+    },
     {
      "src": "img/places/gent/way-bakery-keizerpoort/p1-1400.webp",
      "thumb": "img/places/gent/way-bakery-keizerpoort/p1-700.webp",
@@ -27439,7 +27858,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/way-bakery-keizerpoort/p1-1400.webp"
+    "src": "img/places/gent/way-bakery-keizerpoort/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"

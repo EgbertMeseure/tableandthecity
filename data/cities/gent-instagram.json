@@ -170,9 +170,10 @@
   },
   "de-broodstokerij-gent": {
    "name": "De Broodstokerij",
-   "instagram_handle": "de_broodstokerij",
-   "handleSource": "https://www.debroodstokerij.be/",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "broodstokerij_gent",
+   "handleSource": "https://www.instagram.com/p/DY7A_qVjXHR/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "@de_broodstokerij (linked on debroodstokerij.be) does not exist; @broodstokerij_gent posts as De Broodstokerij (shop posts for Sint-Amandsberg; the bakery also has shops at Lange Violettestraat 49 Gent and Melle). Photo-fill b16 2026-11-01."
   },
   "de-dulle-griet": {
    "name": "De Dulle Griet",
@@ -5732,6 +5733,16 @@
    "ok": true,
    "checked": "2026-11-01",
    "why": "post embed renders (photo-fill b14)"
+  },
+  "broodstokerij_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b16)"
+  },
+  "norman_bakery": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b16)"
   }
  }
 }
