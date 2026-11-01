@@ -152,8 +152,15 @@
   const itemsOf = card => [...card.querySelectorAll('.pillmenu [data-s], .pillmenu [data-d]')].filter(b => !b.hidden);
   function openMenu(card, { focus = false } = {}) {
     clearTimeout(tClose); if (!card.classList.contains('has-menu')) return;
-    if (menuFor !== card) { closeMenu(false); menuFor = card; card.classList.add('menu-open'); mainOf(card).setAttribute('aria-expanded', 'true'); }
+    if (menuFor !== card) { closeMenu(false); menuFor = card; card.classList.add('menu-open'); mainOf(card).setAttribute('aria-expanded', 'true'); fitLabel(card); }
     if (focus) itemsOf(card)[0].focus();
+  }
+  // a title that wraps to 3 lines in the open card (e.g. 'Breakfast, brunch & coffee' on a phone, in any language): .pill-3l lets the phone CSS
+  // set it smaller and the menu rows a little tighter, so the title never runs into the Veggie / vegan switches (no effect on desktop)
+  function fitLabel(card) {
+    const t = card.querySelector('.pill-label'), tx = t && t.firstChild; if (!tx || tx.nodeType !== 3) return;
+    card.classList.remove('pill-3l'); const r = document.createRange(); r.selectNodeContents(tx);
+    card.classList.toggle('pill-3l', new Set([...r.getClientRects()].map(x => Math.round(x.top))).size >= 3);
   }
   function closeMenu(refocus) {
     clearTimeout(tOpen); clearTimeout(tClose); if (!menuFor) return;

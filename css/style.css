@@ -379,6 +379,11 @@ body.noscroll{overflow:hidden}
   .pillmenu.has-diet{gap:2px;max-height:85%}.pillmenu.has-diet button{padding-top:3px;padding-bottom:3px}
   .pillcard.menu-open:has(.has-diet) span.pill-label{transform:translateY(-38%)}
   .pillmenu .pm-diet{gap:3px;padding-bottom:3px;margin:0 3% 1px}.pillmenu .pm-diet button{padding:3px 6px}.pillmenu .pm-diet button b{display:none}
+  /* a title that wraps to 3 lines when open (e.g. 'Breakfast, brunch & coffee'; app.js fitLabel sets .pill-3l): a smaller, tighter title, a touch lower
+     (clear of the rounded top), and slightly tighter menu rows, so the title and the Veggie / vegan switches never overlap */
+  .pillcard.menu-open.pill-3l span.pill-label{font-size:8.5px;line-height:1.2;letter-spacing:.05em;transform:translateY(-37%)}
+  .pillcard.pill-3l .pillmenu.has-diet button{padding-top:2px;padding-bottom:2px}
+  .pillcard.pill-3l .pillmenu .pm-diet{padding-bottom:2px;margin-bottom:0}
 
   /* --- place cards: 2-column grid of compact vertical cards --- */
   .list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
