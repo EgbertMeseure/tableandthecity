@@ -19770,6 +19770,11 @@
      "url": "https://www.instagram.com/p/Debm-nfOJgG/",
      "category": "drink",
      "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeGxgw2O2wh/",
+     "category": "food",
+     "origin": "research"
     }
    ],
    "photos": [
@@ -19786,13 +19791,26 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/publiek/p2-1400.webp",
+     "thumb": "img/places/gent/publiek/p2-700.webp",
+     "srcset": "img/places/gent/publiek/p2-700.webp 700w, img/places/gent/publiek/p2-1400.webp 1400w",
+     "w": 1423,
+     "h": 1897,
+     "category": "food",
+     "alt": "Publiek: food",
+     "credit": "@publiekgent on Instagram",
+     "credit_url": "https://www.instagram.com/publiekgent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
     "src": "img/places/gent/publiek/p1-1400.webp"
    },
-   "only": true,
    "layout": "mix"
   },
   "pulpo": {
