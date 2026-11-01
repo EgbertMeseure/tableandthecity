@@ -876,15 +876,103 @@
   "bar-bidon": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/C-Rpj_4tyV3/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C9b_eVZNvBx/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CwnRhHBtqxy/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CteoXwBtC4y/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeoAc34qJTD/",
      "category": "drink",
      "origin": "research"
     }
    ],
+   "photos": [
+    {
+     "src": "img/places/gent/bar-bidon/p1-1400.webp",
+     "thumb": "img/places/gent/bar-bidon/p1-700.webp",
+     "srcset": "img/places/gent/bar-bidon/p1-700.webp 700w, img/places/gent/bar-bidon/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Bar Bidon: food",
+     "credit": "@barbidongent on Instagram",
+     "credit_url": "https://www.instagram.com/barbidongent/",
+     "ig": "https://www.instagram.com/p/C-Rpj_4tyV3/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bar-bidon/p2-1400.webp",
+     "thumb": "img/places/gent/bar-bidon/p2-700.webp",
+     "srcset": "img/places/gent/bar-bidon/p2-700.webp 700w, img/places/gent/bar-bidon/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Bar Bidon: food",
+     "credit": "@barbidongent on Instagram",
+     "credit_url": "https://www.instagram.com/barbidongent/",
+     "ig": "https://www.instagram.com/p/C9b_eVZNvBx/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bar-bidon/p3-1400.webp",
+     "thumb": "img/places/gent/bar-bidon/p3-700.webp",
+     "srcset": "img/places/gent/bar-bidon/p3-700.webp 700w, img/places/gent/bar-bidon/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Bar Bidon: food",
+     "credit": "@barbidongent on Instagram",
+     "credit_url": "https://www.instagram.com/barbidongent/",
+     "ig": "https://www.instagram.com/p/CwnRhHBtqxy/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bar-bidon/p4-1400.webp",
+     "thumb": "img/places/gent/bar-bidon/p4-700.webp",
+     "srcset": "img/places/gent/bar-bidon/p4-700.webp 700w, img/places/gent/bar-bidon/p4-1400.webp 1400w",
+     "w": 994,
+     "h": 1101,
+     "category": "food",
+     "alt": "Bar Bidon: food",
+     "credit": "@barbidongent on Instagram",
+     "credit_url": "https://www.instagram.com/barbidongent/",
+     "ig": "https://www.instagram.com/p/CteoXwBtC4y/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    }
+   ],
    "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DeoAc34qJTD/"
-   }
+    "type": "photo",
+    "src": "img/places/gent/bar-bidon/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "bar-dada": {
    "posts": [
@@ -1693,7 +1781,142 @@
    "layout": "mix"
   },
   "boutique-boissons": {
-   "hold": "no people-free photo found (research): own Instagram (boutique.et.boissons, Vlaanderenstraat 66) has only text-overlay posters and people shots"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DUGkFdziBNH/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVtPc8_iGOg/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C4IOCxJslPR/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C33KSdhvptq/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVOZU4uCDJU/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWT8SIOCE9g/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/boutique-boissons/p1-1400.webp",
+     "thumb": "img/places/gent/boutique-boissons/p1-700.webp",
+     "srcset": "img/places/gent/boutique-boissons/p1-700.webp 700w, img/places/gent/boutique-boissons/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1865,
+     "category": "interior",
+     "alt": "Boutique & Boissons: the interior",
+     "credit": "@boutique.et.boissons on Instagram",
+     "credit_url": "https://www.instagram.com/boutique.et.boissons/",
+     "ig": "https://www.instagram.com/p/DUGkFdziBNH/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/boutique-boissons/p2-1400.webp",
+     "thumb": "img/places/gent/boutique-boissons/p2-700.webp",
+     "srcset": "img/places/gent/boutique-boissons/p2-700.webp 700w, img/places/gent/boutique-boissons/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Boutique & Boissons: the interior",
+     "credit": "@boutique.et.boissons on Instagram",
+     "credit_url": "https://www.instagram.com/boutique.et.boissons/",
+     "ig": "https://www.instagram.com/p/DVtPc8_iGOg/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/boutique-boissons/p3-1400.webp",
+     "thumb": "img/places/gent/boutique-boissons/p3-700.webp",
+     "srcset": "img/places/gent/boutique-boissons/p3-700.webp 700w, img/places/gent/boutique-boissons/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1749,
+     "category": "food",
+     "alt": "Boutique & Boissons: food",
+     "credit": "@boutique.et.boissons on Instagram",
+     "credit_url": "https://www.instagram.com/boutique.et.boissons/",
+     "ig": "https://www.instagram.com/p/C4IOCxJslPR/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/boutique-boissons/p4-1400.webp",
+     "thumb": "img/places/gent/boutique-boissons/p4-700.webp",
+     "srcset": "img/places/gent/boutique-boissons/p4-700.webp 700w, img/places/gent/boutique-boissons/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Boutique & Boissons: food",
+     "credit": "@boutique.et.boissons on Instagram",
+     "credit_url": "https://www.instagram.com/boutique.et.boissons/",
+     "ig": "https://www.instagram.com/p/C33KSdhvptq/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/boutique-boissons/p5-1400.webp",
+     "thumb": "img/places/gent/boutique-boissons/p5-700.webp",
+     "srcset": "img/places/gent/boutique-boissons/p5-700.webp 700w, img/places/gent/boutique-boissons/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Boutique & Boissons: food",
+     "credit": "@boutique.et.boissons on Instagram",
+     "credit_url": "https://www.instagram.com/boutique.et.boissons/",
+     "ig": "https://www.instagram.com/p/DVOZU4uCDJU/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/boutique-boissons/p6-1400.webp",
+     "thumb": "img/places/gent/boutique-boissons/p6-700.webp",
+     "srcset": "img/places/gent/boutique-boissons/p6-700.webp 700w, img/places/gent/boutique-boissons/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Boutique & Boissons: food",
+     "credit": "@boutique.et.boissons on Instagram",
+     "credit_url": "https://www.instagram.com/boutique.et.boissons/",
+     "ig": "https://www.instagram.com/p/DWT8SIOCE9g/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/boutique-boissons/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "bovary": {
    "posts": [
@@ -1867,11 +2090,145 @@
   "cafe-labath": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/CZoyYb8Mp-c/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CbNtf4aMXW-/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CZRr4gwMYas/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CYjZE4VsbYk/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CXYNBfXMzVL/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CZB01NTMNbt/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DRAEUbKilcU/",
      "category": "drink",
      "origin": "research"
     }
-   ]
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/cafe-labath/p1-1400.webp",
+     "thumb": "img/places/gent/cafe-labath/p1-700.webp",
+     "srcset": "img/places/gent/cafe-labath/p1-700.webp 700w, img/places/gent/cafe-labath/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "Café Labath: the interior",
+     "credit": "@cafelabath on Instagram",
+     "credit_url": "https://www.instagram.com/cafelabath/",
+     "ig": "https://www.instagram.com/p/CZoyYb8Mp-c/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-labath/p2-1400.webp",
+     "thumb": "img/places/gent/cafe-labath/p2-700.webp",
+     "srcset": "img/places/gent/cafe-labath/p2-700.webp 700w, img/places/gent/cafe-labath/p2-1400.webp 1400w",
+     "w": 1094,
+     "h": 1440,
+     "category": "exterior",
+     "alt": "Café Labath: the outside",
+     "credit": "@cafelabath on Instagram",
+     "credit_url": "https://www.instagram.com/cafelabath/",
+     "ig": "https://www.instagram.com/p/CbNtf4aMXW-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-labath/p3-1400.webp",
+     "thumb": "img/places/gent/cafe-labath/p3-700.webp",
+     "srcset": "img/places/gent/cafe-labath/p3-700.webp 700w, img/places/gent/cafe-labath/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Labath: food",
+     "credit": "@cafelabath on Instagram",
+     "credit_url": "https://www.instagram.com/cafelabath/",
+     "ig": "https://www.instagram.com/p/CZRr4gwMYas/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-labath/p4-1400.webp",
+     "thumb": "img/places/gent/cafe-labath/p4-700.webp",
+     "srcset": "img/places/gent/cafe-labath/p4-700.webp 700w, img/places/gent/cafe-labath/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Labath: food",
+     "credit": "@cafelabath on Instagram",
+     "credit_url": "https://www.instagram.com/cafelabath/",
+     "ig": "https://www.instagram.com/p/CYjZE4VsbYk/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-labath/p5-1400.webp",
+     "thumb": "img/places/gent/cafe-labath/p5-700.webp",
+     "srcset": "img/places/gent/cafe-labath/p5-700.webp 700w, img/places/gent/cafe-labath/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Labath: food",
+     "credit": "@cafelabath on Instagram",
+     "credit_url": "https://www.instagram.com/cafelabath/",
+     "ig": "https://www.instagram.com/p/CXYNBfXMzVL/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-labath/p6-1400.webp",
+     "thumb": "img/places/gent/cafe-labath/p6-700.webp",
+     "srcset": "img/places/gent/cafe-labath/p6-700.webp 700w, img/places/gent/cafe-labath/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Labath: food",
+     "credit": "@cafelabath on Instagram",
+     "credit_url": "https://www.instagram.com/cafelabath/",
+     "ig": "https://www.instagram.com/p/CZB01NTMNbt/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/cafe-labath/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "cafe-recup-gent": {
    "posts": [
@@ -6488,7 +6845,33 @@
    "layout": "mix"
   },
   "mokabon": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DJWgAcCIiSh/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DA6HS2GNyYW/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/mokabon/p2-800.webp",
+     "thumb": "img/places/gent/mokabon/p2-400.webp",
+     "srcset": "img/places/gent/mokabon/p2-400.webp 400w, img/places/gent/mokabon/p2-800.webp 800w",
+     "w": 800,
+     "h": 450,
+     "category": "interior",
+     "alt": "Mokabon: the interior",
+     "credit": "mokabon.be",
+     "credit_url": "https://mokabon.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
     {
      "src": "img/places/gent/mokabon/p1-1400.webp",
      "thumb": "img/places/gent/mokabon/p1-700.webp",
@@ -6504,23 +6887,41 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/mokabon/p2-800.webp",
-     "thumb": "img/places/gent/mokabon/p2-400.webp",
-     "srcset": "img/places/gent/mokabon/p2-400.webp 400w, img/places/gent/mokabon/p2-800.webp 800w",
-     "w": 800,
-     "h": 450,
-     "category": "interior",
-     "alt": "Mokabon: the interior",
-     "credit": "mokabon.be",
-     "credit_url": "https://mokabon.be/",
+     "src": "img/places/gent/mokabon/p3-1400.webp",
+     "thumb": "img/places/gent/mokabon/p3-700.webp",
+     "srcset": "img/places/gent/mokabon/p3-700.webp 700w, img/places/gent/mokabon/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Mokabon: food",
+     "credit": "@mokaboncoffee on Instagram",
+     "credit_url": "https://www.instagram.com/mokaboncoffee/",
+     "ig": "https://www.instagram.com/p/DJWgAcCIiSh/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/mokabon/p4-1400.webp",
+     "thumb": "img/places/gent/mokabon/p4-700.webp",
+     "srcset": "img/places/gent/mokabon/p4-700.webp 700w, img/places/gent/mokabon/p4-1400.webp 1400w",
+     "w": 720,
+     "h": 900,
+     "category": "food",
+     "alt": "Mokabon: food",
+     "credit": "@mokaboncoffee on Instagram",
+     "credit_url": "https://www.instagram.com/mokaboncoffee/",
+     "ig": "https://www.instagram.com/p/DA6HS2GNyYW/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/mokabon/p1-1400.webp"
+    "src": "img/places/gent/mokabon/p2-800.webp"
    },
    "only": true,
    "layout": "mix"
@@ -6874,7 +7275,66 @@
    "hold": "no people-free photo tied to the Nederkouter branch: ona.gent/nederkouter page and shared Instagram (wijnbarona) show only people; earlier site photos (mural room, white-brick wall, cellar meeting room) belong to ONA Belfort"
   },
   "or-coffee-lab-gent": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CUt2-0AM0Q_/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DW1vj-fipG-/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DQ3fuTVDEbh/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWCAgZXCqKI/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DRPqYGRjJfh/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/or-coffee-lab-gent/p2-1400.webp",
+     "thumb": "img/places/gent/or-coffee-lab-gent/p2-700.webp",
+     "srcset": "img/places/gent/or-coffee-lab-gent/p2-700.webp 700w, img/places/gent/or-coffee-lab-gent/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "interior",
+     "alt": "OR Coffee Lab: the interior",
+     "credit": "@orcoffeelab_gent on Instagram",
+     "credit_url": "https://www.instagram.com/orcoffeelab_gent/",
+     "ig": "https://www.instagram.com/p/CUt2-0AM0Q_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/or-coffee-lab-gent/p3-1400.webp",
+     "thumb": "img/places/gent/or-coffee-lab-gent/p3-700.webp",
+     "srcset": "img/places/gent/or-coffee-lab-gent/p3-700.webp 700w, img/places/gent/or-coffee-lab-gent/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "OR Coffee Lab: the interior",
+     "credit": "@orcoffeelab_gent on Instagram",
+     "credit_url": "https://www.instagram.com/orcoffeelab_gent/",
+     "ig": "https://www.instagram.com/p/DW1vj-fipG-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
     {
      "src": "img/places/gent/or-coffee-lab-gent/p1-1400.webp",
      "thumb": "img/places/gent/or-coffee-lab-gent/p1-700.webp",
@@ -6888,11 +7348,59 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/or-coffee-lab-gent/p4-1400.webp",
+     "thumb": "img/places/gent/or-coffee-lab-gent/p4-700.webp",
+     "srcset": "img/places/gent/or-coffee-lab-gent/p4-700.webp 700w, img/places/gent/or-coffee-lab-gent/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "OR Coffee Lab: food",
+     "credit": "@orcoffeelab_gent on Instagram",
+     "credit_url": "https://www.instagram.com/orcoffeelab_gent/",
+     "ig": "https://www.instagram.com/p/DQ3fuTVDEbh/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/or-coffee-lab-gent/p5-1400.webp",
+     "thumb": "img/places/gent/or-coffee-lab-gent/p5-700.webp",
+     "srcset": "img/places/gent/or-coffee-lab-gent/p5-700.webp 700w, img/places/gent/or-coffee-lab-gent/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "OR Coffee Lab: food",
+     "credit": "@orcoffeelab_gent on Instagram",
+     "credit_url": "https://www.instagram.com/orcoffeelab_gent/",
+     "ig": "https://www.instagram.com/p/DWCAgZXCqKI/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/or-coffee-lab-gent/p6-1400.webp",
+     "thumb": "img/places/gent/or-coffee-lab-gent/p6-700.webp",
+     "srcset": "img/places/gent/or-coffee-lab-gent/p6-700.webp 700w, img/places/gent/or-coffee-lab-gent/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "OR Coffee Lab: food",
+     "credit": "@orcoffeelab_gent on Instagram",
+     "credit_url": "https://www.instagram.com/orcoffeelab_gent/",
+     "ig": "https://www.instagram.com/p/DRPqYGRjJfh/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/or-coffee-lab-gent/p1-1400.webp"
+    "src": "img/places/gent/or-coffee-lab-gent/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -23036,7 +23544,50 @@
    "layout": "mix"
   },
   "peaberry-coffeebar": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Cfn48auMrqZ/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CXlnlwFMC7r/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CM6YpcFBCKx/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Cf46QoKNoBl/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Cf8kS_msH65/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/peaberry-coffeebar/p3-1400.webp",
+     "thumb": "img/places/gent/peaberry-coffeebar/p3-700.webp",
+     "srcset": "img/places/gent/peaberry-coffeebar/p3-700.webp 700w, img/places/gent/peaberry-coffeebar/p3-1400.webp 1400w",
+     "w": 720,
+     "h": 720,
+     "category": "exterior",
+     "alt": "Peaberry Coffeebar: the outside",
+     "credit": "@peaberry_gent on Instagram",
+     "credit_url": "https://www.instagram.com/peaberry_gent/",
+     "ig": "https://www.instagram.com/p/Cfn48auMrqZ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
     {
      "src": "img/places/gent/peaberry-coffeebar/p1-1400.webp",
      "thumb": "img/places/gent/peaberry-coffeebar/p1-700.webp",
@@ -23064,11 +23615,75 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/peaberry-coffeebar/p4-1400.webp",
+     "thumb": "img/places/gent/peaberry-coffeebar/p4-700.webp",
+     "srcset": "img/places/gent/peaberry-coffeebar/p4-700.webp 700w, img/places/gent/peaberry-coffeebar/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Peaberry Coffeebar: food",
+     "credit": "@peaberry_gent on Instagram",
+     "credit_url": "https://www.instagram.com/peaberry_gent/",
+     "ig": "https://www.instagram.com/p/CXlnlwFMC7r/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/peaberry-coffeebar/p5-1400.webp",
+     "thumb": "img/places/gent/peaberry-coffeebar/p5-700.webp",
+     "srcset": "img/places/gent/peaberry-coffeebar/p5-700.webp 700w, img/places/gent/peaberry-coffeebar/p5-1400.webp 1400w",
+     "w": 750,
+     "h": 750,
+     "category": "food",
+     "alt": "Peaberry Coffeebar: food",
+     "credit": "@peaberry_gent on Instagram",
+     "credit_url": "https://www.instagram.com/peaberry_gent/",
+     "ig": "https://www.instagram.com/p/CM6YpcFBCKx/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/peaberry-coffeebar/p6-1400.webp",
+     "thumb": "img/places/gent/peaberry-coffeebar/p6-700.webp",
+     "srcset": "img/places/gent/peaberry-coffeebar/p6-700.webp 700w, img/places/gent/peaberry-coffeebar/p6-1400.webp 1400w",
+     "w": 852,
+     "h": 852,
+     "category": "food",
+     "alt": "Peaberry Coffeebar: food",
+     "credit": "@peaberry_gent on Instagram",
+     "credit_url": "https://www.instagram.com/peaberry_gent/",
+     "ig": "https://www.instagram.com/p/Cf46QoKNoBl/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/peaberry-coffeebar/p7-1400.webp",
+     "thumb": "img/places/gent/peaberry-coffeebar/p7-700.webp",
+     "srcset": "img/places/gent/peaberry-coffeebar/p7-700.webp 700w, img/places/gent/peaberry-coffeebar/p7-1400.webp 1400w",
+     "w": 764,
+     "h": 764,
+     "category": "food",
+     "alt": "Peaberry Coffeebar: food",
+     "credit": "@peaberry_gent on Instagram",
+     "credit_url": "https://www.instagram.com/peaberry_gent/",
+     "ig": "https://www.instagram.com/p/Cf8kS_msH65/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/peaberry-coffeebar/p1-1400.webp"
+    "src": "img/places/gent/peaberry-coffeebar/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -25562,7 +26177,163 @@
    "layout": "mix"
   },
   "trollekelder": {
-   "hold": "no people-free photo found: website has no usable images, no Instagram"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/C2clQV6tzY6/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DH5XND5MNS-/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/B_401eWhKDf/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DJ3fPtIs9ki/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DIq3aoRtRHK/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DIJHaJbMomL/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DI6l80MMvnV/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/trollekelder/p1-1400.webp",
+     "thumb": "img/places/gent/trollekelder/p1-700.webp",
+     "srcset": "img/places/gent/trollekelder/p1-700.webp 700w, img/places/gent/trollekelder/p1-1400.webp 1400w",
+     "w": 1377,
+     "h": 1446,
+     "category": "exterior",
+     "alt": "Trollekelder: the outside",
+     "credit": "@trollekelder on Instagram",
+     "credit_url": "https://www.instagram.com/trollekelder/",
+     "ig": "https://www.instagram.com/p/C2clQV6tzY6/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/trollekelder/p2-1400.webp",
+     "thumb": "img/places/gent/trollekelder/p2-700.webp",
+     "srcset": "img/places/gent/trollekelder/p2-700.webp 700w, img/places/gent/trollekelder/p2-1400.webp 1400w",
+     "w": 1331,
+     "h": 1640,
+     "category": "interior",
+     "alt": "Trollekelder: the interior",
+     "credit": "@trollekelder on Instagram",
+     "credit_url": "https://www.instagram.com/trollekelder/",
+     "ig": "https://www.instagram.com/p/DH5XND5MNS-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/trollekelder/p3-1400.webp",
+     "thumb": "img/places/gent/trollekelder/p3-700.webp",
+     "srcset": "img/places/gent/trollekelder/p3-700.webp 700w, img/places/gent/trollekelder/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "Trollekelder: the interior",
+     "credit": "@trollekelder on Instagram",
+     "credit_url": "https://www.instagram.com/trollekelder/",
+     "ig": "https://www.instagram.com/p/B_401eWhKDf/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/trollekelder/p4-1400.webp",
+     "thumb": "img/places/gent/trollekelder/p4-700.webp",
+     "srcset": "img/places/gent/trollekelder/p4-700.webp 700w, img/places/gent/trollekelder/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Trollekelder: food",
+     "credit": "@trollekelder on Instagram",
+     "credit_url": "https://www.instagram.com/trollekelder/",
+     "ig": "https://www.instagram.com/p/DJ3fPtIs9ki/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/trollekelder/p5-1400.webp",
+     "thumb": "img/places/gent/trollekelder/p5-700.webp",
+     "srcset": "img/places/gent/trollekelder/p5-700.webp 700w, img/places/gent/trollekelder/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Trollekelder: food",
+     "credit": "@trollekelder on Instagram",
+     "credit_url": "https://www.instagram.com/trollekelder/",
+     "ig": "https://www.instagram.com/p/DIq3aoRtRHK/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/trollekelder/p6-1400.webp",
+     "thumb": "img/places/gent/trollekelder/p6-700.webp",
+     "srcset": "img/places/gent/trollekelder/p6-700.webp 700w, img/places/gent/trollekelder/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Trollekelder: food",
+     "credit": "@trollekelder on Instagram",
+     "credit_url": "https://www.instagram.com/trollekelder/",
+     "ig": "https://www.instagram.com/p/DIJHaJbMomL/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/trollekelder/p7-1400.webp",
+     "thumb": "img/places/gent/trollekelder/p7-700.webp",
+     "srcset": "img/places/gent/trollekelder/p7-700.webp 700w, img/places/gent/trollekelder/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Trollekelder: food",
+     "credit": "@trollekelder on Instagram",
+     "credit_url": "https://www.instagram.com/trollekelder/",
+     "ig": "https://www.instagram.com/p/DI6l80MMvnV/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/trollekelder/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "vandekerckhove-bar": {
    "posts": [
@@ -26876,7 +27647,61 @@
    "layout": "mix"
   },
   "koffeine": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/B_77LvYAVMI/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CLmfuiKBn0V/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CaxzB3DMS-3/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CB0D3LhAvDV/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/koffeine/p2-1400.webp",
+     "thumb": "img/places/gent/koffeine/p2-700.webp",
+     "srcset": "img/places/gent/koffeine/p2-700.webp 700w, img/places/gent/koffeine/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "Koffeine: the interior",
+     "credit": "@koffeinegent on Instagram",
+     "credit_url": "https://www.instagram.com/koffeinegent/",
+     "ig": "https://www.instagram.com/p/B_77LvYAVMI/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/koffeine/p3-1400.webp",
+     "thumb": "img/places/gent/koffeine/p3-700.webp",
+     "srcset": "img/places/gent/koffeine/p3-700.webp 700w, img/places/gent/koffeine/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "Koffeine: the interior",
+     "credit": "@koffeinegent on Instagram",
+     "credit_url": "https://www.instagram.com/koffeinegent/",
+     "ig": "https://www.instagram.com/p/CLmfuiKBn0V/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
     {
      "src": "img/places/gent/koffeine/p1-1400.webp",
      "thumb": "img/places/gent/koffeine/p1-700.webp",
@@ -26890,11 +27715,43 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/koffeine/p4-1400.webp",
+     "thumb": "img/places/gent/koffeine/p4-700.webp",
+     "srcset": "img/places/gent/koffeine/p4-700.webp 700w, img/places/gent/koffeine/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Koffeine: food",
+     "credit": "@koffeinegent on Instagram",
+     "credit_url": "https://www.instagram.com/koffeinegent/",
+     "ig": "https://www.instagram.com/p/CaxzB3DMS-3/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/koffeine/p5-1400.webp",
+     "thumb": "img/places/gent/koffeine/p5-700.webp",
+     "srcset": "img/places/gent/koffeine/p5-700.webp 700w, img/places/gent/koffeine/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Koffeine: food",
+     "credit": "@koffeinegent on Instagram",
+     "credit_url": "https://www.instagram.com/koffeinegent/",
+     "ig": "https://www.instagram.com/p/CB0D3LhAvDV/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/koffeine/p1-1400.webp"
+    "src": "img/places/gent/koffeine/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -29418,21 +30275,29 @@
    "layout": "mix"
   },
   "full-circle-coffee": {
-   "photos": [
+   "posts": [
     {
-     "src": "img/places/gent/full-circle-coffee/p1-1400.webp",
-     "thumb": "img/places/gent/full-circle-coffee/p1-700.webp",
-     "srcset": "img/places/gent/full-circle-coffee/p1-700.webp 700w, img/places/gent/full-circle-coffee/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "interior",
-     "alt": "Full Circle Coffee: the interior",
-     "credit": "Full Circle Coffee (own website)",
-     "credit_url": "https://static.wixstatic.com/media/2a4c93_59f129a821a846c8b4e83601de1f6824~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "url": "https://www.instagram.com/p/CkBFKjpMBsx/",
+     "category": "food",
+     "origin": "research"
     },
+    {
+     "url": "https://www.instagram.com/p/CrTXNkatbiv/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CjVBBidsJ1K/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CSuAvs1A84h/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
     {
      "src": "img/places/gent/full-circle-coffee/p2-800.webp",
      "thumb": "img/places/gent/full-circle-coffee/p2-400.webp",
@@ -29446,16 +30311,102 @@
      "license": "",
      "source": "visit_gent",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/full-circle-coffee/p3-1400.webp",
+     "thumb": "img/places/gent/full-circle-coffee/p3-700.webp",
+     "srcset": "img/places/gent/full-circle-coffee/p3-700.webp 700w, img/places/gent/full-circle-coffee/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "Full Circle Coffee: the interior",
+     "credit": "fullcircleghent.com",
+     "credit_url": "https://www.fullcircleghent.com/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/full-circle-coffee/p4-1400.webp",
+     "thumb": "img/places/gent/full-circle-coffee/p4-700.webp",
+     "srcset": "img/places/gent/full-circle-coffee/p4-700.webp 700w, img/places/gent/full-circle-coffee/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Full Circle Coffee: food",
+     "credit": "@fullcirclecoffeeroastery on Instagram",
+     "credit_url": "https://www.instagram.com/fullcirclecoffeeroastery/",
+     "ig": "https://www.instagram.com/p/CkBFKjpMBsx/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/full-circle-coffee/p5-1400.webp",
+     "thumb": "img/places/gent/full-circle-coffee/p5-700.webp",
+     "srcset": "img/places/gent/full-circle-coffee/p5-700.webp 700w, img/places/gent/full-circle-coffee/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Full Circle Coffee: food",
+     "credit": "@fullcirclecoffeeroastery on Instagram",
+     "credit_url": "https://www.instagram.com/fullcirclecoffeeroastery/",
+     "ig": "https://www.instagram.com/p/CrTXNkatbiv/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/full-circle-coffee/p6-1400.webp",
+     "thumb": "img/places/gent/full-circle-coffee/p6-700.webp",
+     "srcset": "img/places/gent/full-circle-coffee/p6-700.webp 700w, img/places/gent/full-circle-coffee/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Full Circle Coffee: food",
+     "credit": "@fullcirclecoffeeroastery on Instagram",
+     "credit_url": "https://www.instagram.com/fullcirclecoffeeroastery/",
+     "ig": "https://www.instagram.com/p/CjVBBidsJ1K/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/full-circle-coffee/p7-1400.webp",
+     "thumb": "img/places/gent/full-circle-coffee/p7-700.webp",
+     "srcset": "img/places/gent/full-circle-coffee/p7-700.webp 700w, img/places/gent/full-circle-coffee/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1401,
+     "category": "food",
+     "alt": "Full Circle Coffee: food",
+     "credit": "@fullcirclecoffeeroastery on Instagram",
+     "credit_url": "https://www.instagram.com/fullcirclecoffeeroastery/",
+     "ig": "https://www.instagram.com/p/CSuAvs1A84h/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/full-circle-coffee/p1-1400.webp"
+    "src": "img/places/gent/full-circle-coffee/p2-800.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "goya-coffee": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DS6_4z2itny/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/gent/goya-coffee/p1-1400.webp",
@@ -29484,6 +30435,67 @@
      "license": "",
      "source": "visit_gent",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/goya-coffee/p3-1400.webp",
+     "thumb": "img/places/gent/goya-coffee/p3-700.webp",
+     "srcset": "img/places/gent/goya-coffee/p3-700.webp 700w, img/places/gent/goya-coffee/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Goya: food",
+     "credit": "@goya_take_away on Instagram",
+     "credit_url": "https://www.instagram.com/goya_take_away/",
+     "ig": "https://www.instagram.com/p/DS6_4z2itny/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/goya-coffee/p4-1400.webp",
+     "thumb": "img/places/gent/goya-coffee/p4-700.webp",
+     "srcset": "img/places/gent/goya-coffee/p4-700.webp 700w, img/places/gent/goya-coffee/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Goya: food",
+     "credit": "goyacoffee.be",
+     "credit_url": "https://www.goyacoffee.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/goya-coffee/p5-1400.webp",
+     "thumb": "img/places/gent/goya-coffee/p5-700.webp",
+     "srcset": "img/places/gent/goya-coffee/p5-700.webp 700w, img/places/gent/goya-coffee/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Goya: food",
+     "credit": "goyacoffee.be",
+     "credit_url": "https://www.goyacoffee.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/goya-coffee/p6-1400.webp",
+     "thumb": "img/places/gent/goya-coffee/p6-700.webp",
+     "srcset": "img/places/gent/goya-coffee/p6-700.webp 700w, img/places/gent/goya-coffee/p6-1400.webp 1400w",
+     "w": 1024,
+     "h": 683,
+     "category": "food",
+     "alt": "Goya: food",
+     "credit": "goyacoffee.be",
+     "credit_url": "https://www.goyacoffee.be/coffee-truck",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b13 2026-11-01"
     }
    ],
    "pick": {

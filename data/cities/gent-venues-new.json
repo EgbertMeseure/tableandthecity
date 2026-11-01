@@ -907,7 +907,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.trollekelder.be",
-      "instagram_handle": null,
+      "instagram_handle": "trollekelder",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -931,7 +931,8 @@
         "https://www.trollekelder.be"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "street"
+      "geoPrecision": "street",
+      "instagramSource": "https://www.instagram.com/p/C2clQV6tzY6/"
     },
     {
       "id": "cafe-folklore",
@@ -1488,7 +1489,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.goyacoffee.be/",
-      "instagram_handle": "goya_coffee_gent",
+      "instagram_handle": "goya_gent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1513,7 +1514,7 @@
       ],
       "dateChecked": "2026-10-19",
       "geoPrecision": "address",
-      "instagramSource": "official website"
+      "instagramSource": "https://www.instagram.com/p/DS6_4z2itny/"
     },
     {
       "id": "mokabon",
@@ -1572,7 +1573,7 @@
       "openingHours": "Weekdays 08:00–18:00; weekends 09:00–18:00 (site also shows 'weekdays 9am–6pm' in its header — minor conflict)",
       "openingHoursSource": "https://www.fullcircleghent.com/",
       "website": "https://www.fullcircleghent.com/",
-      "instagram_handle": "fullcircleghent",
+      "instagram_handle": "fullcirclecoffeeroastery",
       "features": {
         "veggie": true,
         "vegan": true,
@@ -1597,7 +1598,7 @@
       ],
       "dateChecked": "2026-10-19",
       "geoPrecision": "address",
-      "instagramSource": "official website"
+      "instagramSource": "https://www.instagram.com/p/CloG16xM3OV/"
     },
     {
       "id": "peaberry-coffeebar",
@@ -1698,7 +1699,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.barbidon.be",
-      "instagram_handle": null,
+      "instagram_handle": "barbidongent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1722,7 +1723,8 @@
         "https://caffeatlas.com/city-guides/belgium/ghent"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.instagram.com/p/C-Rpj_4tyV3/"
     },
     {
       "id": "vandekerckhove-bar",
@@ -1947,7 +1949,7 @@
       "openingHours": "Mon–Fri 08:00–17:00; Sat–Sun 09:00–18:00",
       "openingHoursSource": "https://www.orcoffee.be/pages/or-coffee-labs",
       "website": "https://www.orcoffee.be/pages/or-coffee-labs",
-      "instagram_handle": "orcoffeeroasters",
+      "instagram_handle": "orcoffeelab_gent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1973,7 +1975,7 @@
       "dateChecked": "2026-10-19",
       "openingDate": "Autumn 2025 (Made in, 31 Aug 2025: opening planned for start of the academic year; OR site confirms it is open). Exact date not found.",
       "geoPrecision": "address",
-      "instagramSource": "official website"
+      "instagramSource": "https://www.instagram.com/p/DW1vj-fipG-/"
     },
     {
       "id": "roar-gent",

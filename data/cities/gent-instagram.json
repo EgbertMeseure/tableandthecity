@@ -58,9 +58,9 @@
   "bar-bidon": {
    "name": "Bar Bidon",
    "instagram_handle": "barbidongent",
-   "handleSource": "https://tiptoh.eu/blogs/our-baristas/bar-bidon",
-   "note": "Own site unreachable; linked from the coffee roaster Tiptoh's profile of Bar Bidon (third party).",
-   "origin": "research (approved 20 Oct 2026)"
+   "handleSource": "https://www.instagram.com/p/C-Rpj_4tyV3/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Own posts (embed username barbidongent); profile \"BAR BIDON\"."
   },
   "bar-dada": {
    "name": "Bar Dada",
@@ -78,9 +78,10 @@
   },
   "boutique-boissons": {
    "name": "Boutique & Boissons",
-   "instagram_handle": null,
-   "note": "Unverified candidate @boutique.et.boissons (InTravel aggregator only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "boutique.et.boissons",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DUGkFdziBNH/",
+   "handleNote": "Own posts (embed username boutique.et.boissons), Vlaanderenstraat 66."
   },
   "bovary": {
    "name": "Bovary",
@@ -251,9 +252,10 @@
   },
   "full-circle-coffee": {
    "name": "Full Circle Coffee",
-   "instagram_handle": "fullcircleghent",
-   "handleSource": "https://www.fullcircleghent.com/",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "fullcirclecoffeeroastery",
+   "handleSource": "https://www.instagram.com/p/CloG16xM3OV/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Own posts (embed username fullcirclecoffeeroastery); website still links the older @fullcircleghent. Previously @fullcircleghent."
   },
   "funke": {
    "name": "Funke",
@@ -263,10 +265,10 @@
   },
   "goya-coffee": {
    "name": "Goya",
-   "instagram_handle": "goya_coffee_gent",
-   "handleSource": "https://www.goyacoffee.be/",
-   "note": "Also listed on Visit Gent. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "goya_gent",
+   "handleSource": "https://www.instagram.com/p/DS6_4z2itny/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Embed shows goya_gent (collab post owned by sister account @goya_take_away); website still links the older @goya_coffee_gent. Previously @goya_coffee_gent."
   },
   "het-spijker": {
    "name": "Het Spijker",
@@ -423,12 +425,12 @@
   },
   "or-coffee-lab-gent": {
    "name": "OR Coffee Lab",
-   "instagram_handle": "orcoffeeroasters",
-   "handleSource": "https://www.orcoffee.be/pages/or-coffee-labs",
-   "note": "Brand/roastery account (no separate account for the Gent coffee lab found). og:image: Roastery photo with logo overlaid.",
+   "instagram_handle": "orcoffeelab_gent",
+   "handleSource": "https://www.instagram.com/p/DW1vj-fipG-/",
    "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982 (note flags it: logo)",
-   "heroReject": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982"
+   "heroReject": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982",
+   "handleNote": "Gent lab account (embed username orcoffeelab_gent); @orcoffeeroasters is the roaster/brand account. Previously @orcoffeeroasters."
   },
   "osm-1809-bistro-la-concorde-n12789848389": {
    "name": "1809 | Bistro La Concorde",
@@ -3739,9 +3741,10 @@
   },
   "trollekelder": {
    "name": "Trollekelder",
-   "instagram_handle": null,
-   "note": "Unverified candidate @trollekelder (search result only); own site is a beer menu without social links.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "trollekelder",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/C2clQV6tzY6/",
+   "handleNote": "Own posts (embed username trollekelder): facade photo with \"Trollekelder\" neon; site trollekelder.be has no IG link."
   },
   "vandekerckhove-bar": {
    "name": "Vandekerckhove & Bar",
@@ -4057,7 +4060,8 @@
   },
   "barbidongent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
   },
   "barbrutus9030": {
    "ok": true,
@@ -5662,6 +5666,36 @@
    "ok": true,
    "checked": "2026-11-01",
    "why": "verified via own Facebook page + profile name"
+  },
+  "trollekelder": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "boutique.et.boissons": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "fullcirclecoffeeroastery": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "goya_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "orcoffeelab_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "goya_take_away": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed (owner of DS6_4z2itny)"
   }
  }
 }
