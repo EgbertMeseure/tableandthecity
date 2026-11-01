@@ -1865,6 +1865,16 @@
   "de-rave": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/ByIQYEJCf0p/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/BzOKZwbIgAD/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/CGc4WolBwOQ/",
      "category": "food",
      "origin": "research"
@@ -1876,6 +1886,21 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/de-rave/p3-1400.webp",
+     "thumb": "img/places/gent/de-rave/p3-700.webp",
+     "srcset": "img/places/gent/de-rave/p3-700.webp 700w, img/places/gent/de-rave/p3-1400.webp 1400w",
+     "w": 480,
+     "h": 720,
+     "category": "interior",
+     "alt": "De Rave: the interior",
+     "credit": "restaurantderave.be",
+     "credit_url": "https://restaurantderave.be/foto-s",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
     {
      "src": "img/places/gent/de-rave/p1-1400.webp",
      "thumb": "img/places/gent/de-rave/p1-700.webp",
@@ -1903,11 +1928,58 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-rave/p4-1400.webp",
+     "thumb": "img/places/gent/de-rave/p4-700.webp",
+     "srcset": "img/places/gent/de-rave/p4-700.webp 700w, img/places/gent/de-rave/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "De Rave: food",
+     "credit": "@restaurant_de_rave on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_de_rave/",
+     "ig": "https://www.instagram.com/p/ByIQYEJCf0p/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-rave/p5-1400.webp",
+     "thumb": "img/places/gent/de-rave/p5-700.webp",
+     "srcset": "img/places/gent/de-rave/p5-700.webp 700w, img/places/gent/de-rave/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "De Rave: food",
+     "credit": "@restaurant_de_rave on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_de_rave/",
+     "ig": "https://www.instagram.com/p/BzOKZwbIgAD/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-rave/p6-1400.webp",
+     "thumb": "img/places/gent/de-rave/p6-700.webp",
+     "srcset": "img/places/gent/de-rave/p6-700.webp 700w, img/places/gent/de-rave/p6-1400.webp 1400w",
+     "w": 480,
+     "h": 720,
+     "category": "interior",
+     "alt": "De Rave: the interior",
+     "credit": "restaurantderave.be",
+     "credit_url": "https://restaurantderave.be/foto-s",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/de-rave/p1-1400.webp"
+    "src": "img/places/gent/de-rave/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1949,6 +2021,36 @@
   "debra": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DdULHrqKK0i/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcA_zyjKyrI/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbXunpPqXqu/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd69HWoqJQ5/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcIoJX-qrEw/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcLPwI6qrqS/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DezazpEKyto/",
      "category": "food",
      "origin": "research"
@@ -1961,18 +2063,20 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/debra/p1-1400.webp",
-     "thumb": "img/places/gent/debra/p1-700.webp",
-     "srcset": "img/places/gent/debra/p1-700.webp 700w, img/places/gent/debra/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
-     "category": "exterior",
-     "alt": "DEBRA: the outside",
+     "src": "img/places/gent/debra/p3-1400.webp",
+     "thumb": "img/places/gent/debra/p3-700.webp",
+     "srcset": "img/places/gent/debra/p3-700.webp 700w, img/places/gent/debra/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1866,
+     "category": "interior",
+     "alt": "DEBRA: the interior",
      "credit": "@resto_debragent on Instagram",
      "credit_url": "https://www.instagram.com/resto_debragent/",
+     "ig": "https://www.instagram.com/p/DdULHrqKK0i/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     },
     {
      "src": "img/places/gent/debra/p2-800.webp",
@@ -1987,11 +2091,91 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/debra/p4-1400.webp",
+     "thumb": "img/places/gent/debra/p4-700.webp",
+     "srcset": "img/places/gent/debra/p4-700.webp 700w, img/places/gent/debra/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "DEBRA: food",
+     "credit": "@resto_debragent on Instagram",
+     "credit_url": "https://www.instagram.com/resto_debragent/",
+     "ig": "https://www.instagram.com/p/DcA_zyjKyrI/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/debra/p5-1400.webp",
+     "thumb": "img/places/gent/debra/p5-700.webp",
+     "srcset": "img/places/gent/debra/p5-700.webp 700w, img/places/gent/debra/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "DEBRA: food",
+     "credit": "@resto_debragent on Instagram",
+     "credit_url": "https://www.instagram.com/resto_debragent/",
+     "ig": "https://www.instagram.com/p/DbXunpPqXqu/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/debra/p6-1400.webp",
+     "thumb": "img/places/gent/debra/p6-700.webp",
+     "srcset": "img/places/gent/debra/p6-700.webp 700w, img/places/gent/debra/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "DEBRA: food",
+     "credit": "@resto_debragent on Instagram",
+     "credit_url": "https://www.instagram.com/resto_debragent/",
+     "ig": "https://www.instagram.com/p/Dd69HWoqJQ5/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/debra/p7-1400.webp",
+     "thumb": "img/places/gent/debra/p7-700.webp",
+     "srcset": "img/places/gent/debra/p7-700.webp 700w, img/places/gent/debra/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "DEBRA: the interior",
+     "credit": "@resto_debragent on Instagram",
+     "credit_url": "https://www.instagram.com/resto_debragent/",
+     "ig": "https://www.instagram.com/p/DcIoJX-qrEw/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/debra/p8-1400.webp",
+     "thumb": "img/places/gent/debra/p8-700.webp",
+     "srcset": "img/places/gent/debra/p8-700.webp 700w, img/places/gent/debra/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "DEBRA: the outside",
+     "credit": "@resto_debragent on Instagram",
+     "credit_url": "https://www.instagram.com/resto_debragent/",
+     "ig": "https://www.instagram.com/p/DcLPwI6qrqS/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/debra/p1-1400.webp"
+    "src": "img/places/gent/debra/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2071,6 +2255,11 @@
   "elders": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DQpm7PljXwB/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DQpm6-mDV2_/",
      "category": "food",
      "origin": "research"
@@ -2082,6 +2271,21 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/elders/p6-1400.webp",
+     "thumb": "img/places/gent/elders/p6-700.webp",
+     "srcset": "img/places/gent/elders/p6-700.webp 700w, img/places/gent/elders/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 2096,
+     "category": "interior",
+     "alt": "Elders: the interior",
+     "credit": "elders.gent",
+     "credit_url": "https://elders.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
     {
      "src": "img/places/gent/elders/p1-1400.webp",
      "thumb": "img/places/gent/elders/p1-700.webp",
@@ -2097,18 +2301,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/elders/p2-800.webp",
-     "thumb": "img/places/gent/elders/p2-400.webp",
-     "srcset": "img/places/gent/elders/p2-400.webp 400w, img/places/gent/elders/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "src": "img/places/gent/elders/p7-1400.webp",
+     "thumb": "img/places/gent/elders/p7-700.webp",
+     "srcset": "img/places/gent/elders/p7-700.webp 700w, img/places/gent/elders/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
      "category": "food",
      "alt": "Elders: food",
      "credit": "@elders.gent on Instagram",
      "credit_url": "https://www.instagram.com/elders.gent/",
+     "ig": "https://www.instagram.com/p/DQpm7PljXwB/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     },
     {
      "src": "img/places/gent/elders/p3-800.webp",
@@ -2125,37 +2331,69 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/elders/p4-800.webp",
-     "thumb": "img/places/gent/elders/p4-400.webp",
-     "srcset": "img/places/gent/elders/p4-400.webp 400w, img/places/gent/elders/p4-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/gent/elders/p8-1400.webp",
+     "thumb": "img/places/gent/elders/p8-700.webp",
+     "srcset": "img/places/gent/elders/p8-700.webp 700w, img/places/gent/elders/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1865,
+     "category": "food",
+     "alt": "Elders: food",
+     "credit": "elders.gent",
+     "credit_url": "https://elders.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/elders/p9-1400.webp",
+     "thumb": "img/places/gent/elders/p9-700.webp",
+     "srcset": "img/places/gent/elders/p9-700.webp 700w, img/places/gent/elders/p9-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
      "category": "interior",
      "alt": "Elders: the interior",
      "credit": "elders.gent",
      "credit_url": "https://elders.gent/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     },
     {
-     "src": "img/places/gent/elders/p5-800.webp",
-     "thumb": "img/places/gent/elders/p5-400.webp",
-     "srcset": "img/places/gent/elders/p5-400.webp 400w, img/places/gent/elders/p5-800.webp 800w",
-     "w": 768,
-     "h": 1024,
+     "src": "img/places/gent/elders/p10-1400.webp",
+     "thumb": "img/places/gent/elders/p10-700.webp",
+     "srcset": "img/places/gent/elders/p10-700.webp 700w, img/places/gent/elders/p10-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "exterior",
      "alt": "Elders: the outside",
      "credit": "elders.gent",
      "credit_url": "https://elders.gent/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/elders/p11-1400.webp",
+     "thumb": "img/places/gent/elders/p11-700.webp",
+     "srcset": "img/places/gent/elders/p11-700.webp 700w, img/places/gent/elders/p11-1400.webp 1400w",
+     "w": 1069,
+     "h": 1600,
+     "category": "exterior",
+     "alt": "Elders: the outside",
+     "credit": "elders.gent",
+     "credit_url": "https://elders.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/elders/p1-1400.webp"
+    "src": "img/places/gent/elders/p6-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2348,34 +2586,39 @@
    "layout": "mix"
   },
   "fou-d-o": {
-   "photos": [
+   "posts": [
     {
-     "src": "img/places/gent/fou-d-o/p1-1400.webp",
-     "thumb": "img/places/gent/fou-d-o/p1-700.webp",
-     "srcset": "img/places/gent/fou-d-o/p1-700.webp 700w, img/places/gent/fou-d-o/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 933,
-     "category": "interior",
-     "alt": "Fou d'O: the interior",
-     "credit": "foudo.be",
-     "credit_url": "https://foudo.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "url": "https://www.instagram.com/p/B-XgaSsBHfq/",
+     "category": "exterior",
+     "origin": "research"
     },
     {
-     "src": "img/places/gent/fou-d-o/p2-800.webp",
-     "thumb": "img/places/gent/fou-d-o/p2-400.webp",
-     "srcset": "img/places/gent/fou-d-o/p2-400.webp 400w, img/places/gent/fou-d-o/p2-800.webp 800w",
-     "w": 800,
-     "h": 534,
+     "url": "https://www.instagram.com/p/C4OQqz9txos/",
      "category": "food",
-     "alt": "Fou d'O: food",
-     "credit": "foudo.be",
-     "credit_url": "https://foudo.be/",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DHGJeHKtOXP/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/fou-d-o/p5-1400.webp",
+     "thumb": "img/places/gent/fou-d-o/p5-700.webp",
+     "srcset": "img/places/gent/fou-d-o/p5-700.webp 700w, img/places/gent/fou-d-o/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "exterior",
+     "alt": "Fou d'O: the outside",
+     "credit": "@brasserie_foudo on Instagram",
+     "credit_url": "https://www.instagram.com/brasserie_foudo/",
+     "ig": "https://www.instagram.com/p/B-XgaSsBHfq/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     },
     {
      "src": "img/places/gent/fou-d-o/p3-800.webp",
@@ -2392,23 +2635,55 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/fou-d-o/p4-800.webp",
-     "thumb": "img/places/gent/fou-d-o/p4-400.webp",
-     "srcset": "img/places/gent/fou-d-o/p4-400.webp 400w, img/places/gent/fou-d-o/p4-800.webp 800w",
-     "w": 800,
-     "h": 1000,
-     "category": "exterior",
-     "alt": "Fou d'O: the outside",
+     "src": "img/places/gent/fou-d-o/p6-1400.webp",
+     "thumb": "img/places/gent/fou-d-o/p6-700.webp",
+     "srcset": "img/places/gent/fou-d-o/p6-700.webp 700w, img/places/gent/fou-d-o/p6-1400.webp 1400w",
+     "w": 1200,
+     "h": 1200,
+     "category": "food",
+     "alt": "Fou d'O: food",
      "credit": "@brasserie_foudo on Instagram",
      "credit_url": "https://www.instagram.com/brasserie_foudo/",
+     "ig": "https://www.instagram.com/p/C4OQqz9txos/",
      "license": "the place's own photo",
      "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/fou-d-o/p1-1400.webp",
+     "thumb": "img/places/gent/fou-d-o/p1-700.webp",
+     "srcset": "img/places/gent/fou-d-o/p1-700.webp 700w, img/places/gent/fou-d-o/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Fou d'O: the interior",
+     "credit": "foudo.be",
+     "credit_url": "https://foudo.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/fou-d-o/p7-1400.webp",
+     "thumb": "img/places/gent/fou-d-o/p7-700.webp",
+     "srcset": "img/places/gent/fou-d-o/p7-700.webp 700w, img/places/gent/fou-d-o/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "interior",
+     "alt": "Fou d'O: the interior",
+     "credit": "@brasserie_foudo on Instagram",
+     "credit_url": "https://www.instagram.com/brasserie_foudo/",
+     "ig": "https://www.instagram.com/p/DHGJeHKtOXP/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/fou-d-o/p1-1400.webp"
+    "src": "img/places/gent/fou-d-o/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2580,7 +2855,39 @@
    "layout": "mix"
   },
   "gillis": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DecHZeJg9bM/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcL8ncOgP8e/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Daf_XYUAC68/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/gillis/p3-1400.webp",
+     "thumb": "img/places/gent/gillis/p3-700.webp",
+     "srcset": "img/places/gent/gillis/p3-700.webp 700w, img/places/gent/gillis/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Gillis: the interior",
+     "credit": "gillisgent.be",
+     "credit_url": "https://www.gillisgent.be/book-a-table/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
     {
      "src": "img/places/gent/gillis/p1-1400.webp",
      "thumb": "img/places/gent/gillis/p1-700.webp",
@@ -2596,24 +2903,72 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/gillis/p2-800.webp",
-     "thumb": "img/places/gent/gillis/p2-400.webp",
-     "srcset": "img/places/gent/gillis/p2-400.webp 400w, img/places/gent/gillis/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/gillis/p4-1400.webp",
+     "thumb": "img/places/gent/gillis/p4-700.webp",
+     "srcset": "img/places/gent/gillis/p4-700.webp 700w, img/places/gent/gillis/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1866,
      "category": "food",
      "alt": "Gillis: food",
      "credit": "@gillis_gent on Instagram",
      "credit_url": "https://www.instagram.com/gillis_gent/",
+     "ig": "https://www.instagram.com/p/DecHZeJg9bM/",
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true,
-     "added": "gap-fill 2026-10-31"
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/gillis/p5-1400.webp",
+     "thumb": "img/places/gent/gillis/p5-700.webp",
+     "srcset": "img/places/gent/gillis/p5-700.webp 700w, img/places/gent/gillis/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1751,
+     "category": "food",
+     "alt": "Gillis: food",
+     "credit": "@gillis_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gillis_gent/",
+     "ig": "https://www.instagram.com/p/DcL8ncOgP8e/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/gillis/p6-1400.webp",
+     "thumb": "img/places/gent/gillis/p6-700.webp",
+     "srcset": "img/places/gent/gillis/p6-700.webp 700w, img/places/gent/gillis/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Gillis: food",
+     "credit": "gillisgent.be",
+     "credit_url": "https://www.gillisgent.be/book-a-table/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/gillis/p7-1400.webp",
+     "thumb": "img/places/gent/gillis/p7-700.webp",
+     "srcset": "img/places/gent/gillis/p7-700.webp 700w, img/places/gent/gillis/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1751,
+     "category": "interior",
+     "alt": "Gillis: the interior",
+     "credit": "@gillis_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gillis_gent/",
+     "ig": "https://www.instagram.com/p/Daf_XYUAC68/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/gillis/p1-1400.webp"
+    "src": "img/places/gent/gillis/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2685,12 +3040,53 @@
   "il-mezzogiorno": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/COanMnFhzBP/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CpoCdTFte7p/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CBa2j6-AkPi/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CEbeg8VJ7Wb/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CBTNIIyAUl5/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DT6HrS8jBGq/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/il-mezzogiorno/p4-1400.webp",
+     "thumb": "img/places/gent/il-mezzogiorno/p4-700.webp",
+     "srcset": "img/places/gent/il-mezzogiorno/p4-700.webp 700w, img/places/gent/il-mezzogiorno/p4-1400.webp 1400w",
+     "w": 720,
+     "h": 720,
+     "category": "exterior",
+     "alt": "Il Mezzogiorno: the outside",
+     "credit": "@il_mezzogiorno on Instagram",
+     "credit_url": "https://www.instagram.com/il_mezzogiorno/",
+     "ig": "https://www.instagram.com/p/COanMnFhzBP/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
     {
      "src": "img/places/gent/il-mezzogiorno/p1-1400.webp",
      "thumb": "img/places/gent/il-mezzogiorno/p1-700.webp",
@@ -2732,11 +3128,75 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/il-mezzogiorno/p5-1400.webp",
+     "thumb": "img/places/gent/il-mezzogiorno/p5-700.webp",
+     "srcset": "img/places/gent/il-mezzogiorno/p5-700.webp 700w, img/places/gent/il-mezzogiorno/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Il Mezzogiorno: food",
+     "credit": "@il_mezzogiorno on Instagram",
+     "credit_url": "https://www.instagram.com/il_mezzogiorno/",
+     "ig": "https://www.instagram.com/p/CpoCdTFte7p/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/il-mezzogiorno/p6-1400.webp",
+     "thumb": "img/places/gent/il-mezzogiorno/p6-700.webp",
+     "srcset": "img/places/gent/il-mezzogiorno/p6-700.webp 700w, img/places/gent/il-mezzogiorno/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Il Mezzogiorno: the interior",
+     "credit": "@il_mezzogiorno on Instagram",
+     "credit_url": "https://www.instagram.com/il_mezzogiorno/",
+     "ig": "https://www.instagram.com/p/CBa2j6-AkPi/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/il-mezzogiorno/p7-1400.webp",
+     "thumb": "img/places/gent/il-mezzogiorno/p7-700.webp",
+     "srcset": "img/places/gent/il-mezzogiorno/p7-700.webp 700w, img/places/gent/il-mezzogiorno/p7-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Il Mezzogiorno: the interior",
+     "credit": "@il_mezzogiorno on Instagram",
+     "credit_url": "https://www.instagram.com/il_mezzogiorno/",
+     "ig": "https://www.instagram.com/p/CEbeg8VJ7Wb/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/il-mezzogiorno/p8-1400.webp",
+     "thumb": "img/places/gent/il-mezzogiorno/p8-700.webp",
+     "srcset": "img/places/gent/il-mezzogiorno/p8-700.webp 700w, img/places/gent/il-mezzogiorno/p8-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "exterior",
+     "alt": "Il Mezzogiorno: the outside",
+     "credit": "@il_mezzogiorno on Instagram",
+     "credit_url": "https://www.instagram.com/il_mezzogiorno/",
+     "ig": "https://www.instagram.com/p/CBTNIIyAUl5/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/il-mezzogiorno/p1-1400.webp"
+    "src": "img/places/gent/il-mezzogiorno/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2849,6 +3309,26 @@
   "jour-de-fete": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/C57v4bcsRY9/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C8Y1WJxtXag/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DCzpWcCtOe-/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C7TRyIrM56_/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeZnlnjMMb6/",
      "category": "interior",
      "origin": "research"
@@ -2860,6 +3340,54 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/jour-de-fete/p3-1400.webp",
+     "thumb": "img/places/gent/jour-de-fete/p3-700.webp",
+     "srcset": "img/places/gent/jour-de-fete/p3-700.webp 700w, img/places/gent/jour-de-fete/p3-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "interior",
+     "alt": "Jour de Fête: the interior",
+     "credit": "@restaurantjourdefete on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantjourdefete/",
+     "ig": "https://www.instagram.com/p/C57v4bcsRY9/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/jour-de-fete/p4-1400.webp",
+     "thumb": "img/places/gent/jour-de-fete/p4-700.webp",
+     "srcset": "img/places/gent/jour-de-fete/p4-700.webp 700w, img/places/gent/jour-de-fete/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Jour de Fête: food",
+     "credit": "@restaurantjourdefete on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantjourdefete/",
+     "ig": "https://www.instagram.com/p/C8Y1WJxtXag/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/jour-de-fete/p5-1400.webp",
+     "thumb": "img/places/gent/jour-de-fete/p5-700.webp",
+     "srcset": "img/places/gent/jour-de-fete/p5-700.webp 700w, img/places/gent/jour-de-fete/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Jour de Fête: food",
+     "credit": "@restaurantjourdefete on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantjourdefete/",
+     "ig": "https://www.instagram.com/p/DCzpWcCtOe-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
     {
      "src": "img/places/gent/jour-de-fete/p1-1400.webp",
      "thumb": "img/places/gent/jour-de-fete/p1-700.webp",
@@ -2887,11 +3415,27 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/jour-de-fete/p6-1400.webp",
+     "thumb": "img/places/gent/jour-de-fete/p6-700.webp",
+     "srcset": "img/places/gent/jour-de-fete/p6-700.webp 700w, img/places/gent/jour-de-fete/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "exterior",
+     "alt": "Jour de Fête: the outside",
+     "credit": "@restaurantjourdefete on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantjourdefete/",
+     "ig": "https://www.instagram.com/p/C7TRyIrM56_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/jour-de-fete/p1-1400.webp"
+    "src": "img/places/gent/jour-de-fete/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2958,6 +3502,21 @@
   "karel-de-stoute": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DOv8KL8E3No/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DONr6RYk0z8/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DQtcE9Nk5Me/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DWEq1FSmM4J/",
      "category": "food",
      "origin": "research"
@@ -2965,9 +3524,9 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/karel-de-stoute/p1-1400.webp",
-     "thumb": "img/places/gent/karel-de-stoute/p1-700.webp",
-     "srcset": "img/places/gent/karel-de-stoute/p1-700.webp 700w, img/places/gent/karel-de-stoute/p1-1400.webp 1400w",
+     "src": "img/places/gent/karel-de-stoute/p4-1400.webp",
+     "thumb": "img/places/gent/karel-de-stoute/p4-700.webp",
+     "srcset": "img/places/gent/karel-de-stoute/p4-700.webp 700w, img/places/gent/karel-de-stoute/p4-1400.webp 1400w",
      "w": 1400,
      "h": 1050,
      "category": "interior",
@@ -2976,7 +3535,8 @@
      "credit_url": "https://restkareldestoute.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     },
     {
      "src": "img/places/gent/karel-de-stoute/p2-800.webp",
@@ -3005,17 +3565,85 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/karel-de-stoute/p5-1400.webp",
+     "thumb": "img/places/gent/karel-de-stoute/p5-700.webp",
+     "srcset": "img/places/gent/karel-de-stoute/p5-700.webp 700w, img/places/gent/karel-de-stoute/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Karel de Stoute: food",
+     "credit": "@kareldestoutegent on Instagram",
+     "credit_url": "https://www.instagram.com/kareldestoutegent/",
+     "ig": "https://www.instagram.com/p/DOv8KL8E3No/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/karel-de-stoute/p6-1400.webp",
+     "thumb": "img/places/gent/karel-de-stoute/p6-700.webp",
+     "srcset": "img/places/gent/karel-de-stoute/p6-700.webp 700w, img/places/gent/karel-de-stoute/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Karel de Stoute: food",
+     "credit": "@kareldestoutegent on Instagram",
+     "credit_url": "https://www.instagram.com/kareldestoutegent/",
+     "ig": "https://www.instagram.com/p/DONr6RYk0z8/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/karel-de-stoute/p7-1400.webp",
+     "thumb": "img/places/gent/karel-de-stoute/p7-700.webp",
+     "srcset": "img/places/gent/karel-de-stoute/p7-700.webp 700w, img/places/gent/karel-de-stoute/p7-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Karel de Stoute: the interior",
+     "credit": "@kareldestoutegent on Instagram",
+     "credit_url": "https://www.instagram.com/kareldestoutegent/",
+     "ig": "https://www.instagram.com/p/DQtcE9Nk5Me/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/karel-de-stoute/p8-1400.webp",
+     "thumb": "img/places/gent/karel-de-stoute/p8-700.webp",
+     "srcset": "img/places/gent/karel-de-stoute/p8-700.webp 700w, img/places/gent/karel-de-stoute/p8-1400.webp 1400w",
+     "w": 1200,
+     "h": 1601,
+     "category": "exterior",
+     "alt": "Karel de Stoute: the outside",
+     "credit": "restkareldestoute.be",
+     "credit_url": "https://restkareldestoute.be/restaurant",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/karel-de-stoute/p1-1400.webp"
+    "src": "img/places/gent/karel-de-stoute/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "kin-khao-thai-eatery": {
    "posts": [
+    {
+     "url": "https://www.instagram.com/p/De4diPQiP-u/",
+     "category": "interior",
+     "origin": "research"
+    },
     {
      "url": "https://www.instagram.com/p/De4dhDwo-WE/",
      "category": "interior",
@@ -3024,23 +3652,40 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/kin-khao-thai-eatery/p1-1400.webp",
-     "thumb": "img/places/gent/kin-khao-thai-eatery/p1-700.webp",
-     "srcset": "img/places/gent/kin-khao-thai-eatery/p1-700.webp 700w, img/places/gent/kin-khao-thai-eatery/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "src": "img/places/gent/kin-khao-thai-eatery/p2-1400.webp",
+     "thumb": "img/places/gent/kin-khao-thai-eatery/p2-700.webp",
+     "srcset": "img/places/gent/kin-khao-thai-eatery/p2-700.webp 700w, img/places/gent/kin-khao-thai-eatery/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "interior",
      "alt": "Kin Khao - Thai Eatery: the interior",
      "credit": "@kinkhaogent on Instagram",
      "credit_url": "https://www.instagram.com/kinkhaogent/",
+     "ig": "https://www.instagram.com/p/De4diPQiP-u/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kin-khao-thai-eatery/p3-1400.webp",
+     "thumb": "img/places/gent/kin-khao-thai-eatery/p3-700.webp",
+     "srcset": "img/places/gent/kin-khao-thai-eatery/p3-700.webp 700w, img/places/gent/kin-khao-thai-eatery/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Kin Khao - Thai Eatery: the interior",
+     "credit": "kinkhao.be",
+     "credit_url": "https://www.kinkhao.be/gent/feed/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/kin-khao-thai-eatery/p1-1400.webp"
+    "src": "img/places/gent/kin-khao-thai-eatery/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -3114,22 +3759,49 @@
      "url": "https://www.instagram.com/p/DdHcshHRmzZ/",
      "category": "food",
      "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbC7JDQMCzb/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYUfopEsmTw/",
+     "category": "exterior",
+     "origin": "research"
     }
    ],
    "photos": [
     {
-     "src": "img/places/gent/kruidtuin/p1-1400.webp",
-     "thumb": "img/places/gent/kruidtuin/p1-700.webp",
-     "srcset": "img/places/gent/kruidtuin/p1-700.webp 700w, img/places/gent/kruidtuin/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "src": "img/places/gent/kruidtuin/p4-1400.webp",
+     "thumb": "img/places/gent/kruidtuin/p4-700.webp",
+     "srcset": "img/places/gent/kruidtuin/p4-700.webp 700w, img/places/gent/kruidtuin/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "exterior",
+     "alt": "Kruidtuin: the outside",
+     "credit": "kruidtuingent.be",
+     "credit_url": "https://www.kruidtuingent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kruidtuin/p5-1400.webp",
+     "thumb": "img/places/gent/kruidtuin/p5-700.webp",
+     "srcset": "img/places/gent/kruidtuin/p5-700.webp 700w, img/places/gent/kruidtuin/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "Kruidtuin: food",
      "credit": "@kruidtuin_gent on Instagram",
      "credit_url": "https://www.instagram.com/kruidtuin_gent/",
+     "ig": "https://www.instagram.com/p/DdHcshHRmzZ/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     },
     {
      "src": "img/places/gent/kruidtuin/p2-800.webp",
@@ -3146,23 +3818,86 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/kruidtuin/p3-800.webp",
-     "thumb": "img/places/gent/kruidtuin/p3-400.webp",
-     "srcset": "img/places/gent/kruidtuin/p3-400.webp 400w, img/places/gent/kruidtuin/p3-800.webp 800w",
-     "w": 720,
-     "h": 1280,
+     "src": "img/places/gent/kruidtuin/p6-1400.webp",
+     "thumb": "img/places/gent/kruidtuin/p6-700.webp",
+     "srcset": "img/places/gent/kruidtuin/p6-700.webp 700w, img/places/gent/kruidtuin/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
      "category": "food",
      "alt": "Kruidtuin: food",
      "credit": "@kruidtuin_gent on Instagram",
      "credit_url": "https://www.instagram.com/kruidtuin_gent/",
+     "ig": "https://www.instagram.com/p/DbC7JDQMCzb/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kruidtuin/p7-1400.webp",
+     "thumb": "img/places/gent/kruidtuin/p7-700.webp",
+     "srcset": "img/places/gent/kruidtuin/p7-700.webp 700w, img/places/gent/kruidtuin/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1663,
+     "category": "food",
+     "alt": "Kruidtuin: food",
+     "credit": "kruidtuingent.be",
+     "credit_url": "https://www.kruidtuingent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kruidtuin/p8-1400.webp",
+     "thumb": "img/places/gent/kruidtuin/p8-700.webp",
+     "srcset": "img/places/gent/kruidtuin/p8-700.webp 700w, img/places/gent/kruidtuin/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "Kruidtuin: the interior",
+     "credit": "kruidtuingent.be",
+     "credit_url": "https://www.kruidtuingent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kruidtuin/p9-1400.webp",
+     "thumb": "img/places/gent/kruidtuin/p9-700.webp",
+     "srcset": "img/places/gent/kruidtuin/p9-700.webp 700w, img/places/gent/kruidtuin/p9-1400.webp 1400w",
+     "w": 1400,
+     "h": 2070,
+     "category": "interior",
+     "alt": "Kruidtuin: the interior",
+     "credit": "kruidtuingent.be",
+     "credit_url": "https://www.kruidtuingent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kruidtuin/p10-1400.webp",
+     "thumb": "img/places/gent/kruidtuin/p10-700.webp",
+     "srcset": "img/places/gent/kruidtuin/p10-700.webp 700w, img/places/gent/kruidtuin/p10-1400.webp 1400w",
+     "w": 1400,
+     "h": 1865,
+     "category": "exterior",
+     "alt": "Kruidtuin: the outside",
+     "credit": "@kruidtuin_gent on Instagram",
+     "credit_url": "https://www.instagram.com/kruidtuin_gent/",
+     "ig": "https://www.instagram.com/p/DYUfopEsmTw/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b02 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/kruidtuin/p1-1400.webp"
+    "src": "img/places/gent/kruidtuin/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
