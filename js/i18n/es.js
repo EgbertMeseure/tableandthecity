@@ -389,6 +389,7 @@
 "Public holidays may differ.": "Los festivos pueden variar.",
 "Opening hours": "Horario",
 "Photos": "Fotos",
+"Photos from Instagram": "Fotos de Instagram",
 "Photos:": "Fotos:",
 "Open photo": "Abrir foto",
 "Inside": "Interior",
