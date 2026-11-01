@@ -139,7 +139,7 @@ body.is-country .wl-cards li:nth-child(6) .wl-card{transition-delay:.3s}
 .wl-card:hover,.wl-card:focus-visible,.wl-card.is-hot{border-color:var(--gold)}
 .wl-card:hover img,.wl-card:focus-visible img,.wl-card.is-hot img{transform:scale(1.05)}
 .wl-card:hover .wl-card__go,.wl-card:focus-visible .wl-card__go{background:var(--gold);border-color:var(--gold);color:#111}
-body.is-soon-country .wl-mk--city{opacity:0;pointer-events:none}
+body.is-soon-country .wl-mk--city,body.is-soon-country .wl-mk--citysoon{opacity:0;pointer-events:none}   /* a soon country: no Belgian city lights, nor Leuven / Charleroi */
 .wl-card--soon{cursor:default}   /* a 'soon' city (no guide yet): same photo card, not a link, no hover */
 .wl-card--soon:hover{border-color:rgba(244,239,228,.14)}
 .wl-card--soon:hover img{transform:none}
