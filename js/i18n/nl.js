@@ -249,6 +249,7 @@
 "Not confirmed": "Niet bevestigd",
 "No": "Nee",
 "Groups of 6+ only": "Enkel groepen van 6+",
+"Zalige Zondag: last Sunday of the month · collab each quarter": "Zalige Zondag: laatste zondag van de maand · elk kwartaal een collab",
 "Gluten-free": "Glutenvrij",
 "Gluten-free options": "Glutenvrije opties",
 "Wheelchair": "Rolstoel",
