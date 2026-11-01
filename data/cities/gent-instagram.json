@@ -84,9 +84,11 @@
   },
   "bovary": {
    "name": "Bovary",
-   "instagram_handle": null,
-   "note": "Unverified candidate @bovary.gent (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "bovary.gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DYFTS6vjKHp/",
+   "handleNote": "Own post (embed username bovary.gent): \"Welkom bij Bovary Gastrobar, in het hart van Gent\".",
+   "note": "Unverified candidate @bovary.gent (search result only)."
   },
   "cafe-albatros": {
    "name": "Café Albatros",
@@ -116,9 +118,11 @@
   },
   "cafe-gitane": {
    "name": "Café Gitane",
-   "instagram_handle": null,
-   "note": "Unverified candidate @gitane_gent (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "gitane_gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
+   "handleNote": "Profile name \"Gitane Gent\"; its posts show the same peacock wood panel as Visit Gent's own Café Gitane photos (Meerseniersstraat 9) and small-brewery beers. No website; Facebook is gitanefinedrinks.",
+   "note": "Unverified candidate @gitane_gent (search result only)."
   },
   "cafe-labath": {
    "name": "Café Labath",
@@ -177,9 +181,11 @@
   },
   "de-geus-van-gent": {
    "name": "De Geus van Gent",
-   "instagram_handle": null,
-   "note": "Unverified candidate @geusvangent (search result only; Geuzenhuis page only gives the email geusvangent@gmail.com).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "geusvangent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/CTaJxNTsPW_/",
+   "handleNote": "Own posts (embed username geusvangent): \"trouwfeest ... in De Geus van Gent\".",
+   "note": "Unverified candidate @geusvangent (search result only; Geuzenhuis page only gives the email geusvangent@gmail.com)."
   },
   "de-maecht-van-ghent": {
    "name": "De Maecht van Ghent",
@@ -3724,9 +3730,11 @@
   },
   "the-mix": {
    "name": "The Mix",
-   "instagram_handle": null,
-   "note": "Conflicting candidates @the.mix.bar / @the_mix_gent (aggregators only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "the_mix_gent",
+   "note": "Resolved 2026-11-01: @the_mix_gent (embed username on own posts, listed by InTravel); @the.mix.bar is The Mix Bar, Brisbane.",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://intravel.net/ghent/nightlife/the-mix",
+   "handleNote": "InTravel lists @the_mix_gent with themixcocktailsalon.be and Facebook themix.gent. Replaces @the.mix.bar, which is The Mix Bar in Brisbane (its photo was removed)."
   },
   "trollekelder": {
    "name": "Trollekelder",
@@ -3871,6 +3879,41 @@
    "instagram_handle": "bar__martine",
    "handleSource": "https://barmartine.be/",
    "handleNote": "Linked from the own website barmartine.be (Hippoliet Lippensplein 25); post embeds show username bar__martine."
+  },
+  "cafe-copain": {
+   "name": "Café Copain",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "cafecopain.gent",
+   "handleSource": "https://www.instagram.com/p/DWHdzn4jboT/",
+   "handleNote": "Own posts (embed username cafecopain.gent) about lunch/oysters; tagged as Café Copain on the Oude Beestenmarkt in a collab post."
+  },
+  "cafe-guido": {
+   "name": "Café Guido",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "cafeguido.gent",
+   "handleSource": "https://cafeguido.be/",
+   "handleNote": "Linked from the own website cafeguido.be."
+  },
+  "rendez-vous": {
+   "name": "Rendez-Vous",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "rendezvous.gent",
+   "handleSource": "https://www.instagram.com/p/DcOPwDXDMKp/",
+   "handleNote": "Own post caption: \"Cafe Rendez-Vous Brabantdam 119, 9000 Gent\"."
+  },
+  "the-generous": {
+   "name": "The Generous",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "generous.winebar",
+   "handleSource": "https://www.instagram.com/p/DanJK-sjC_p/",
+   "handleNote": "Profile \"The Generous Winebar\"; posts link thegenerous.wine/bar (#winebargent)."
+  },
+  "tshiela": {
+   "name": "Tshiela",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "tshiela.barandbites",
+   "handleSource": "https://www.instagram.com/p/DdJA9LytTYI/",
+   "handleNote": "Profile \"TSHIELA\"; own posts #tshielabarandbites #gent; bar neon matches the place."
   }
  },
  "embed": {
@@ -5553,6 +5596,51 @@
    "why": "post embeds return EmbedBroken"
   },
   "bar__martine": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "bovary.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "cafecopain.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "gitane_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "cafeguido.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "geusvangent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "rendezvous.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "generous.winebar": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "the_mix_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "tshiela.barandbites": {
    "ok": true,
    "checked": "2026-11-01",
    "why": "verified via post embed"

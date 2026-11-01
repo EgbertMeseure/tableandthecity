@@ -1698,49 +1698,74 @@
   "bovary": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DYFTS6vjKHp/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DZdGV0TDEiE/",
      "category": "food",
      "origin": "research"
     },
     {
      "url": "https://www.instagram.com/p/DZmoz0ZjHaP/",
-     "category": "drink",
+     "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
     {
-     "src": "img/places/gent/bovary/p1-1400.webp",
-     "thumb": "img/places/gent/bovary/p1-700.webp",
-     "srcset": "img/places/gent/bovary/p1-700.webp 700w, img/places/gent/bovary/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 720,
+     "src": "img/places/gent/bovary/p3-1400.webp",
+     "thumb": "img/places/gent/bovary/p3-700.webp",
+     "srcset": "img/places/gent/bovary/p3-700.webp 700w, img/places/gent/bovary/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 876,
+     "category": "interior",
+     "alt": "Bovary: the interior",
+     "credit": "@bovary.gent on Instagram",
+     "credit_url": "https://www.instagram.com/bovary.gent/",
+     "ig": "https://www.instagram.com/p/DYFTS6vjKHp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bovary/p4-1400.webp",
+     "thumb": "img/places/gent/bovary/p4-700.webp",
+     "srcset": "img/places/gent/bovary/p4-700.webp 700w, img/places/gent/bovary/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
      "category": "food",
      "alt": "Bovary: food",
      "credit": "@bovary.gent on Instagram",
      "credit_url": "https://www.instagram.com/bovary.gent/",
+     "ig": "https://www.instagram.com/p/DZdGV0TDEiE/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     },
     {
-     "src": "img/places/gent/bovary/p2-800.webp",
-     "thumb": "img/places/gent/bovary/p2-400.webp",
-     "srcset": "img/places/gent/bovary/p2-400.webp 400w, img/places/gent/bovary/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
-     "category": "drink",
-     "alt": "Bovary: drinks",
+     "src": "img/places/gent/bovary/p5-1400.webp",
+     "thumb": "img/places/gent/bovary/p5-700.webp",
+     "srcset": "img/places/gent/bovary/p5-700.webp 700w, img/places/gent/bovary/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Bovary: food",
      "credit": "@bovary.gent on Instagram",
      "credit_url": "https://www.instagram.com/bovary.gent/",
+     "ig": "https://www.instagram.com/p/DZmoz0ZjHaP/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/bovary/p1-1400.webp"
+    "src": "img/places/gent/bovary/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1748,12 +1773,75 @@
   "cafe-copain": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/Db0RPMUjJMJ/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DW6JI63DK-3/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVdnW4JDLo-/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Dez5xgUu7Ql/",
      "category": "interior",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/cafe-copain/p2-1400.webp",
+     "thumb": "img/places/gent/cafe-copain/p2-700.webp",
+     "srcset": "img/places/gent/cafe-copain/p2-700.webp 700w, img/places/gent/cafe-copain/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1236,
+     "category": "food",
+     "alt": "Café Copain: food",
+     "credit": "@cafecopain.gent on Instagram",
+     "credit_url": "https://www.instagram.com/cafecopain.gent/",
+     "ig": "https://www.instagram.com/p/Db0RPMUjJMJ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-copain/p3-1400.webp",
+     "thumb": "img/places/gent/cafe-copain/p3-700.webp",
+     "srcset": "img/places/gent/cafe-copain/p3-700.webp 700w, img/places/gent/cafe-copain/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Café Copain: food",
+     "credit": "@cafecopain.gent on Instagram",
+     "credit_url": "https://www.instagram.com/cafecopain.gent/",
+     "ig": "https://www.instagram.com/p/DW6JI63DK-3/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-copain/p4-1400.webp",
+     "thumb": "img/places/gent/cafe-copain/p4-700.webp",
+     "srcset": "img/places/gent/cafe-copain/p4-700.webp 700w, img/places/gent/cafe-copain/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Copain: food",
+     "credit": "@cafecopain.gent on Instagram",
+     "credit_url": "https://www.instagram.com/cafecopain.gent/",
+     "ig": "https://www.instagram.com/p/DVdnW4JDLo-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
     {
      "src": "img/places/gent/cafe-copain/p1-1400.webp",
      "thumb": "img/places/gent/cafe-copain/p1-700.webp",
@@ -1771,7 +1859,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/cafe-copain/p1-1400.webp"
+    "src": "img/places/gent/cafe-copain/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -23490,7 +23578,17 @@
   "rendez-vous": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DcOPwDXDMKp/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Dc_lZhJOyQ0/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Db2t52rOs57/",
      "category": "food",
      "origin": "research"
     },
@@ -23516,18 +23614,52 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/rendez-vous/p2-800.webp",
-     "thumb": "img/places/gent/rendez-vous/p2-400.webp",
-     "srcset": "img/places/gent/rendez-vous/p2-400.webp 400w, img/places/gent/rendez-vous/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/rendez-vous/p3-1400.webp",
+     "thumb": "img/places/gent/rendez-vous/p3-700.webp",
+     "srcset": "img/places/gent/rendez-vous/p3-700.webp 700w, img/places/gent/rendez-vous/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Rendez-Vous: the interior",
+     "credit": "@rendezvous.gent on Instagram",
+     "credit_url": "https://www.instagram.com/rendezvous.gent/",
+     "ig": "https://www.instagram.com/p/DcOPwDXDMKp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/rendez-vous/p4-1400.webp",
+     "thumb": "img/places/gent/rendez-vous/p4-700.webp",
+     "srcset": "img/places/gent/rendez-vous/p4-700.webp 700w, img/places/gent/rendez-vous/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "Rendez-Vous: food",
      "credit": "@rendezvous.gent on Instagram",
      "credit_url": "https://www.instagram.com/rendezvous.gent/",
+     "ig": "https://www.instagram.com/p/Dc_lZhJOyQ0/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/rendez-vous/p5-1400.webp",
+     "thumb": "img/places/gent/rendez-vous/p5-700.webp",
+     "srcset": "img/places/gent/rendez-vous/p5-700.webp 700w, img/places/gent/rendez-vous/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Rendez-Vous: food",
+     "credit": "@rendezvous.gent on Instagram",
+     "credit_url": "https://www.instagram.com/rendezvous.gent/",
+     "ig": "https://www.instagram.com/p/Db2t52rOs57/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     }
    ],
    "pick": {
@@ -24765,12 +24897,27 @@
   "the-generous": {
    "posts": [
     {
-     "url": "https://www.instagram.com/p/Det_2K5EwwL/",
+     "url": "https://www.instagram.com/p/DehVrwPmoTX/",
      "category": "food",
      "origin": "research"
     },
     {
-     "url": "https://www.instagram.com/p/DehVrwPmoTX/",
+     "url": "https://www.instagram.com/p/DcOdceqCMWI/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dbxi5ziD6YQ/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DanJK-sjC_p/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Det_2K5EwwL/",
      "category": "food",
      "origin": "research"
     }
@@ -24782,6 +24929,20 @@
      "srcset": "img/places/gent/the-generous/p1-700.webp 700w, img/places/gent/the-generous/p1-1400.webp 1400w",
      "w": 1400,
      "h": 933,
+     "category": "interior",
+     "alt": "The Generous: the interior",
+     "credit": "thegenerous.wine",
+     "credit_url": "https://thegenerous.wine/home",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/the-generous/p4-800.webp",
+     "thumb": "img/places/gent/the-generous/p4-400.webp",
+     "srcset": "img/places/gent/the-generous/p4-400.webp 400w, img/places/gent/the-generous/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
      "category": "interior",
      "alt": "The Generous: the interior",
      "credit": "thegenerous.wine",
@@ -24805,32 +24966,68 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/the-generous/p3-800.webp",
-     "thumb": "img/places/gent/the-generous/p3-400.webp",
-     "srcset": "img/places/gent/the-generous/p3-400.webp 400w, img/places/gent/the-generous/p3-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/gent/the-generous/p5-1400.webp",
+     "thumb": "img/places/gent/the-generous/p5-700.webp",
+     "srcset": "img/places/gent/the-generous/p5-700.webp 700w, img/places/gent/the-generous/p5-1400.webp 1400w",
+     "w": 1365,
+     "h": 1706,
      "category": "food",
      "alt": "The Generous: food",
      "credit": "@generous.winebar on Instagram",
      "credit_url": "https://www.instagram.com/generous.winebar/",
+     "ig": "https://www.instagram.com/p/DehVrwPmoTX/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     },
     {
-     "src": "img/places/gent/the-generous/p4-800.webp",
-     "thumb": "img/places/gent/the-generous/p4-400.webp",
-     "srcset": "img/places/gent/the-generous/p4-400.webp 400w, img/places/gent/the-generous/p4-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "interior",
-     "alt": "The Generous: the interior",
-     "credit": "thegenerous.wine",
-     "credit_url": "https://thegenerous.wine/home",
+     "src": "img/places/gent/the-generous/p6-1400.webp",
+     "thumb": "img/places/gent/the-generous/p6-700.webp",
+     "srcset": "img/places/gent/the-generous/p6-700.webp 700w, img/places/gent/the-generous/p6-1400.webp 1400w",
+     "w": 1366,
+     "h": 1707,
+     "category": "food",
+     "alt": "The Generous: food",
+     "credit": "@generous.winebar on Instagram",
+     "credit_url": "https://www.instagram.com/generous.winebar/",
+     "ig": "https://www.instagram.com/p/DcOdceqCMWI/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-generous/p7-1400.webp",
+     "thumb": "img/places/gent/the-generous/p7-700.webp",
+     "srcset": "img/places/gent/the-generous/p7-700.webp 700w, img/places/gent/the-generous/p7-1400.webp 1400w",
+     "w": 1365,
+     "h": 1706,
+     "category": "exterior",
+     "alt": "The Generous: the outside",
+     "credit": "@generous.winebar on Instagram",
+     "credit_url": "https://www.instagram.com/generous.winebar/",
+     "ig": "https://www.instagram.com/p/Dbxi5ziD6YQ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-generous/p8-1400.webp",
+     "thumb": "img/places/gent/the-generous/p8-700.webp",
+     "srcset": "img/places/gent/the-generous/p8-700.webp 700w, img/places/gent/the-generous/p8-1400.webp 1400w",
+     "w": 960,
+     "h": 1201,
+     "category": "exterior",
+     "alt": "The Generous: the outside",
+     "credit": "@generous.winebar on Instagram",
+     "credit_url": "https://www.instagram.com/generous.winebar/",
+     "ig": "https://www.instagram.com/p/DanJK-sjC_p/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     }
    ],
    "pick": {
@@ -24947,25 +25144,55 @@
    "layout": "mix"
   },
   "the-mix": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DYSuIFJCEFW/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DPZnXmlCNOW/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/the-mix/p1-1400.webp",
-     "thumb": "img/places/gent/the-mix/p1-700.webp",
-     "srcset": "img/places/gent/the-mix/p1-700.webp 700w, img/places/gent/the-mix/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 720,
-     "category": "exterior",
-     "alt": "The Mix: the outside",
-     "credit": "@the.mix.bar on Instagram",
-     "credit_url": "https://www.instagram.com/the.mix.bar/",
+     "src": "img/places/gent/the-mix/p2-1400.webp",
+     "thumb": "img/places/gent/the-mix/p2-700.webp",
+     "srcset": "img/places/gent/the-mix/p2-700.webp 700w, img/places/gent/the-mix/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "interior",
+     "alt": "The Mix: the interior",
+     "credit": "@the_mix_gent on Instagram",
+     "credit_url": "https://www.instagram.com/the_mix_gent/",
+     "ig": "https://www.instagram.com/p/DYSuIFJCEFW/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-mix/p3-1400.webp",
+     "thumb": "img/places/gent/the-mix/p3-700.webp",
+     "srcset": "img/places/gent/the-mix/p3-700.webp 700w, img/places/gent/the-mix/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "The Mix: food",
+     "credit": "@the_mix_gent on Instagram",
+     "credit_url": "https://www.instagram.com/the_mix_gent/",
+     "ig": "https://www.instagram.com/p/DPZnXmlCNOW/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/the-mix/p1-1400.webp"
+    "src": "img/places/gent/the-mix/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -28497,6 +28724,28 @@
    "layout": "mix"
   },
   "cafe-gitane": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/C7UKrSUtO14/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C0jwY2LtRAA/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CvKiXGItkqa/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C-IZtxLtn3G/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/gent/cafe-gitane/p1-1400.webp",
@@ -28539,6 +28788,70 @@
      "license": "",
      "source": "visit_gent",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-gitane/p4-1400.webp",
+     "thumb": "img/places/gent/cafe-gitane/p4-700.webp",
+     "srcset": "img/places/gent/cafe-gitane/p4-700.webp 700w, img/places/gent/cafe-gitane/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Gitane: food",
+     "credit": "@gitane_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gitane_gent/",
+     "ig": "https://www.instagram.com/p/C7UKrSUtO14/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-gitane/p5-1400.webp",
+     "thumb": "img/places/gent/cafe-gitane/p5-700.webp",
+     "srcset": "img/places/gent/cafe-gitane/p5-700.webp 700w, img/places/gent/cafe-gitane/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Gitane: food",
+     "credit": "@gitane_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gitane_gent/",
+     "ig": "https://www.instagram.com/p/C0jwY2LtRAA/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-gitane/p6-1400.webp",
+     "thumb": "img/places/gent/cafe-gitane/p6-700.webp",
+     "srcset": "img/places/gent/cafe-gitane/p6-700.webp 700w, img/places/gent/cafe-gitane/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Gitane: food",
+     "credit": "@gitane_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gitane_gent/",
+     "ig": "https://www.instagram.com/p/CvKiXGItkqa/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-gitane/p7-1400.webp",
+     "thumb": "img/places/gent/cafe-gitane/p7-700.webp",
+     "srcset": "img/places/gent/cafe-gitane/p7-700.webp 700w, img/places/gent/cafe-gitane/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Gitane: food",
+     "credit": "@gitane_gent on Instagram",
+     "credit_url": "https://www.instagram.com/gitane_gent/",
+     "ig": "https://www.instagram.com/p/C-IZtxLtn3G/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     }
    ],
    "pick": {
@@ -28549,26 +28862,34 @@
    "layout": "mix"
   },
   "cafe-guido": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeL9e0sjd61/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/cafe-guido/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-guido/p1-700.webp",
-     "srcset": "img/places/gent/cafe-guido/p1-700.webp 700w, img/places/gent/cafe-guido/p1-1400.webp 1400w",
-     "w": 1050,
-     "h": 1400,
+     "src": "img/places/gent/cafe-guido/p2-1400.webp",
+     "thumb": "img/places/gent/cafe-guido/p2-700.webp",
+     "srcset": "img/places/gent/cafe-guido/p2-700.webp 700w, img/places/gent/cafe-guido/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "interior",
-     "staff": true,
-     "alt": "Café Guido: staff at work",
-     "credit": "Café Guido (own website)",
-     "credit_url": "https://cafeguido.be/_next/image?url=%2Fimg%2F_MG_7902245.jpg&w=3840&q=75&dpl=dpl_3iSPsKEguLEqFsTXaMXnwWeuKPj1",
+     "alt": "Café Guido: the interior",
+     "credit": "@cafeguido.gent on Instagram",
+     "credit_url": "https://www.instagram.com/cafeguido.gent/",
+     "ig": "https://www.instagram.com/p/DeL9e0sjd61/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/cafe-guido/p1-1400.webp"
+    "src": "img/places/gent/cafe-guido/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -28670,6 +28991,23 @@
    "layout": "mix"
   },
   "de-geus-van-gent": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CUOPNaDtcOS/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CTaJxNTsPW_/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CBLhw3ghIPV/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/gent/de-geus-van-gent/p1-1400.webp",
@@ -28684,6 +29022,54 @@
      "license": "",
      "source": "visit_gent",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-geus-van-gent/p3-1400.webp",
+     "thumb": "img/places/gent/de-geus-van-gent/p3-700.webp",
+     "srcset": "img/places/gent/de-geus-van-gent/p3-700.webp 700w, img/places/gent/de-geus-van-gent/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 984,
+     "category": "interior",
+     "alt": "De Geus van Gent: the interior",
+     "credit": "@geusvangent on Instagram",
+     "credit_url": "https://www.instagram.com/geusvangent/",
+     "ig": "https://www.instagram.com/p/CUOPNaDtcOS/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-geus-van-gent/p4-1400.webp",
+     "thumb": "img/places/gent/de-geus-van-gent/p4-700.webp",
+     "srcset": "img/places/gent/de-geus-van-gent/p4-700.webp 700w, img/places/gent/de-geus-van-gent/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1734,
+     "category": "interior",
+     "alt": "De Geus van Gent: the interior",
+     "credit": "@geusvangent on Instagram",
+     "credit_url": "https://www.instagram.com/geusvangent/",
+     "ig": "https://www.instagram.com/p/CTaJxNTsPW_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-geus-van-gent/p5-1400.webp",
+     "thumb": "img/places/gent/de-geus-van-gent/p5-700.webp",
+     "srcset": "img/places/gent/de-geus-van-gent/p5-700.webp 700w, img/places/gent/de-geus-van-gent/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "De Geus van Gent: food",
+     "credit": "@geusvangent on Instagram",
+     "credit_url": "https://www.instagram.com/geusvangent/",
+     "ig": "https://www.instagram.com/p/CBLhw3ghIPV/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     },
     {
      "src": "img/places/gent/de-geus-van-gent/p2-800.webp",
@@ -29442,20 +29828,50 @@
    "layout": "mix"
   },
   "tshiela": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdOSwN-tblC/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdJA9LytTYI/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/tshiela/p1-1400.webp",
-     "thumb": "img/places/gent/tshiela/p1-700.webp",
-     "srcset": "img/places/gent/tshiela/p1-700.webp 700w, img/places/gent/tshiela/p1-1400.webp 1400w",
-     "w": 1280,
-     "h": 1707,
+     "src": "img/places/gent/tshiela/p4-1400.webp",
+     "thumb": "img/places/gent/tshiela/p4-700.webp",
+     "srcset": "img/places/gent/tshiela/p4-700.webp 700w, img/places/gent/tshiela/p4-1400.webp 1400w",
+     "w": 1188,
+     "h": 1584,
+     "category": "interior",
+     "alt": "Tshiela: the interior",
+     "credit": "@tshiela.barandbites on Instagram",
+     "credit_url": "https://www.instagram.com/tshiela.barandbites/",
+     "ig": "https://www.instagram.com/p/DdOSwN-tblC/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/tshiela/p5-1400.webp",
+     "thumb": "img/places/gent/tshiela/p5-700.webp",
+     "srcset": "img/places/gent/tshiela/p5-700.webp 700w, img/places/gent/tshiela/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "Tshiela: food",
-     "credit": "Tshiela (own website)",
-     "credit_url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sVV4I_FoEusZqdAVf25_CEoOXlxSZVjF2IGtYFUc-YAX3cSTsvWpBsDqETovuSO_FREwfcm_iOuFvHSVsqXJ8Q1TxXxUfLSd6s8IyjLJu2Vu2RvgqNAQIBOGMlSTN5McBPeszhHlAv2y0vE8ijWJHfyHLY_1pEjgMksJ4X544txPUzzJHXQu40YQiAwag=w1280",
+     "credit": "@tshiela.barandbites on Instagram",
+     "credit_url": "https://www.instagram.com/tshiela.barandbites/",
+     "ig": "https://www.instagram.com/p/DdJA9LytTYI/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b11 2026-11-01"
     },
     {
      "src": "img/places/gent/tshiela/p2-800.webp",
@@ -29488,7 +29904,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/tshiela/p1-1400.webp"
+    "src": "img/places/gent/tshiela/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
