@@ -19,7 +19,7 @@ Files (branch `preview-promote`):
 2. Each package has an **availability calendar** for the current month and the next 5 (`months: 6` in the config):
    - Top of the list: a grid of months × positions #1–#5 (€49/€39/€29/€19/€15), for the place's own list (its group: Restaurants, Cafés & bars, Coffee or Bakeries). A position that is taken shows "Full" ("Fully booked" for screen readers) and can't be picked.
    - Top of the city page: one button per month with "2 of 3 free" or "Fully booked" (3 spots per city).
-   - Instagram: one button per month with the free count. Capacity covers the whole account, all cities together: story 8, shared post 4, own post 4 per month (`capacity` in the config).
+   - Instagram: one button per month with the free count. Capacity covers the whole account, all cities together: story 30, shared post 8, own post 8 per month (`capacity` in the config).
    - Bundle: a month is free only if position #1 in the place's list, a city-page spot, an own post and a story are all free that month.
    - Monthly packages: if a later month is already booked, the summary says "From November 2026 · until January 2027".
 3. A **summary** above the buy button shows the place, city, position and month. The button stays "Choose your place first" until a place is picked. When `stripeUrl` is empty the button says "Coming soon", which is the state now.
@@ -37,9 +37,9 @@ Files (branch `preview-promote`):
 | top-list-4 | Top of the list, position #4 | monthly subscription | €19 / month | €22.99 | 1 per list per city |
 | top-list-5 | Top of the list, position #5 | monthly subscription | €15 / month | €18.15 | 1 per list per city |
 | city-page-month | Top of the city page (Featured row) | monthly subscription | €99 / month | €119.79 | 3 per city |
-| ig-story | Instagram story (24 h, link sticker) | one-off | €15 | €18.15 | 8 per month (all cities) |
-| ig-shared | Shared Instagram post (carousel with 3–5 places) | one-off | €25 | €30.25 | 4 per month (all cities) |
-| ig-own | Your own Instagram post (up to 10 photos, collab) | one-off | €99 | €119.79 | 4 per month (all cities) |
+| ig-story | Instagram story (24 h, link sticker) | one-off | €15 | €18.15 | 30 per month (all cities) |
+| ig-shared | Shared Instagram post (carousel with 3–5 places) | one-off | €25 | €30.25 | 8 per month (all cities) |
+| ig-own | Your own Instagram post (up to 10 photos, collab) | one-off | €99 | €119.79 | 8 per month (all cities) |
 | bundle-monthly | Monthly bundle: top of the list #1 + city page + own post + story, every month | monthly subscription | €209 / month (separately €262, about 20% off) | €252.89 | needs all four parts free |
 
 Why these prices: monthly prices, with the top of the list getting cheaper further down (#5 at €15 is an easy yes). The city page is the scarcest spot (3 per city, the first thing visitors see), so it costs as much as an own post. The bundle is €262 bought separately; €209 is about 20% off, and it ends in 9 like the other prices. The price is the same in every city.
@@ -98,8 +98,6 @@ Then commit (the file is loaded fresh, no stamp needed, but running `stamp_asset
 
 ## Open questions
 
-- VAT status (BTW-registered or small-business exemption)?
-- Instagram capacity per month (8 stories / 4 shared / 4 own posts): is that right for the account?
 - Top of the list per group (Restaurants / Cafés & bars / Coffee / Bakeries), or per sub-list (fine dining, bistro, …)?
 - Start month in the future: free trial, or bill at checkout (see Stripe setup 6)?
 - Who takes or supplies the photos for an own post?
