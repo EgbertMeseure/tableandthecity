@@ -4151,12 +4151,53 @@
   "lof": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/Dd_AU7GFs5Y/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbscvpKG0H5/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYmK_O2GekM/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Da2YDP1mePe/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVMK91GElTs/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeKKdJaF5_q/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/lof/p4-1400.webp",
+     "thumb": "img/places/gent/lof/p4-700.webp",
+     "srcset": "img/places/gent/lof/p4-700.webp 700w, img/places/gent/lof/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1730,
+     "category": "exterior",
+     "alt": "LOF: the outside",
+     "credit": "@lofrestaurantghent on Instagram",
+     "credit_url": "https://www.instagram.com/lofrestaurantghent/",
+     "ig": "https://www.instagram.com/p/Dd_AU7GFs5Y/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
     {
      "src": "img/places/gent/lof/p1-1400.webp",
      "thumb": "img/places/gent/lof/p1-700.webp",
@@ -4186,29 +4227,107 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/lof/p3-800.webp",
-     "thumb": "img/places/gent/lof/p3-400.webp",
-     "srcset": "img/places/gent/lof/p3-400.webp 400w, img/places/gent/lof/p3-800.webp 800w",
-     "w": 800,
-     "h": 988,
-     "category": "exterior",
-     "alt": "LOF: the outside",
+     "src": "img/places/gent/lof/p5-1400.webp",
+     "thumb": "img/places/gent/lof/p5-700.webp",
+     "srcset": "img/places/gent/lof/p5-700.webp 700w, img/places/gent/lof/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1729,
+     "category": "food",
+     "alt": "LOF: food",
      "credit": "@lofrestaurantghent on Instagram",
      "credit_url": "https://www.instagram.com/lofrestaurantghent/",
+     "ig": "https://www.instagram.com/p/DbscvpKG0H5/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/lof/p6-1400.webp",
+     "thumb": "img/places/gent/lof/p6-700.webp",
+     "srcset": "img/places/gent/lof/p6-700.webp 700w, img/places/gent/lof/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1729,
+     "category": "food",
+     "alt": "LOF: food",
+     "credit": "@lofrestaurantghent on Instagram",
+     "credit_url": "https://www.instagram.com/lofrestaurantghent/",
+     "ig": "https://www.instagram.com/p/DYmK_O2GekM/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/lof/p7-1400.webp",
+     "thumb": "img/places/gent/lof/p7-700.webp",
+     "srcset": "img/places/gent/lof/p7-700.webp 700w, img/places/gent/lof/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1729,
+     "category": "interior",
+     "alt": "LOF: the interior",
+     "credit": "@lofrestaurantghent on Instagram",
+     "credit_url": "https://www.instagram.com/lofrestaurantghent/",
+     "ig": "https://www.instagram.com/p/Da2YDP1mePe/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/lof/p8-1400.webp",
+     "thumb": "img/places/gent/lof/p8-700.webp",
+     "srcset": "img/places/gent/lof/p8-700.webp 700w, img/places/gent/lof/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "LOF: the interior",
+     "credit": "@lofrestaurantghent on Instagram",
+     "credit_url": "https://www.instagram.com/lofrestaurantghent/",
+     "ig": "https://www.instagram.com/p/DVMK91GElTs/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/lof/p1-1400.webp"
+    "src": "img/places/gent/lof/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "lubbi": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DWBQfqwjAXo/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXrs2_wjP-n/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/lubbi/p4-1400.webp",
+     "thumb": "img/places/gent/lubbi/p4-700.webp",
+     "srcset": "img/places/gent/lubbi/p4-700.webp 700w, img/places/gent/lubbi/p4-1400.webp 1400w",
+     "w": 1181,
+     "h": 1575,
+     "category": "interior",
+     "alt": "Lubbi: the interior",
+     "credit": "@lubbi_cafe on Instagram",
+     "credit_url": "https://www.instagram.com/lubbi_cafe/",
+     "ig": "https://www.instagram.com/p/DWBQfqwjAXo/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
     {
      "src": "img/places/gent/lubbi/p1-1400.webp",
      "thumb": "img/places/gent/lubbi/p1-700.webp",
@@ -4224,18 +4343,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/lubbi/p2-800.webp",
-     "thumb": "img/places/gent/lubbi/p2-400.webp",
-     "srcset": "img/places/gent/lubbi/p2-400.webp 400w, img/places/gent/lubbi/p2-800.webp 800w",
-     "w": 800,
-     "h": 1200,
+     "src": "img/places/gent/lubbi/p5-1400.webp",
+     "thumb": "img/places/gent/lubbi/p5-700.webp",
+     "srcset": "img/places/gent/lubbi/p5-700.webp 700w, img/places/gent/lubbi/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "Lubbi: food",
-     "credit": "lubbi.be",
-     "credit_url": "https://lubbi.be/",
+     "credit": "@lubbi_cafe on Instagram",
+     "credit_url": "https://www.instagram.com/lubbi_cafe/",
+     "ig": "https://www.instagram.com/p/DXrs2_wjP-n/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     },
     {
      "src": "img/places/gent/lubbi/p3-800.webp",
@@ -4254,13 +4375,23 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/lubbi/p1-1400.webp"
+    "src": "img/places/gent/lubbi/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "lys-d-or": {
    "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdEGoAXFZuJ/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcQmRqxjFae/",
+     "category": "interior",
+     "origin": "research"
+    },
     {
      "url": "https://www.instagram.com/p/Dd9LnbNgdS-/",
      "category": "food",
@@ -4333,6 +4464,38 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/lys-d-or/p5-1400.webp",
+     "thumb": "img/places/gent/lys-d-or/p5-700.webp",
+     "srcset": "img/places/gent/lys-d-or/p5-700.webp 700w, img/places/gent/lys-d-or/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Lys d'Or: food",
+     "credit": "@lysdor_gent on Instagram",
+     "credit_url": "https://www.instagram.com/lysdor_gent/",
+     "ig": "https://www.instagram.com/p/DdEGoAXFZuJ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/lys-d-or/p6-1400.webp",
+     "thumb": "img/places/gent/lys-d-or/p6-700.webp",
+     "srcset": "img/places/gent/lys-d-or/p6-700.webp 700w, img/places/gent/lys-d-or/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Lys d'Or: the interior",
+     "credit": "@lysdor_gent on Instagram",
+     "credit_url": "https://www.instagram.com/lysdor_gent/",
+     "ig": "https://www.instagram.com/p/DcQmRqxjFae/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     }
    ],
    "pick": {
@@ -4476,7 +4639,22 @@
   "meme-gusta": {
    "posts": [
     {
-     "url": "https://www.instagram.com/p/DL59JZvt_8b/",
+     "url": "https://www.instagram.com/p/B5_CNu1Bbww/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/BySZoiWCYg2/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/ByXVRDZibeZ/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/B4xH_WRhVgZ/",
      "category": "food",
      "origin": "research"
     },
@@ -4484,9 +4662,35 @@
      "url": "https://www.instagram.com/p/DR39Yf8jC-I/",
      "category": "interior",
      "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/BxDCCYshwIo/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DL59JZvt_8b/",
+     "category": "food",
+     "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/meme-gusta/p2-1400.webp",
+     "thumb": "img/places/gent/meme-gusta/p2-700.webp",
+     "srcset": "img/places/gent/meme-gusta/p2-700.webp 700w, img/places/gent/meme-gusta/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1604,
+     "category": "interior",
+     "alt": "Mémé Gusta: the interior",
+     "credit": "@meme_gusta_gent on Instagram",
+     "credit_url": "https://www.instagram.com/meme_gusta_gent/",
+     "ig": "https://www.instagram.com/p/B5_CNu1Bbww/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
     {
      "src": "img/places/gent/meme-gusta/p1-1400.webp",
      "thumb": "img/places/gent/meme-gusta/p1-700.webp",
@@ -4500,11 +4704,91 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/meme-gusta/p3-1400.webp",
+     "thumb": "img/places/gent/meme-gusta/p3-700.webp",
+     "srcset": "img/places/gent/meme-gusta/p3-700.webp 700w, img/places/gent/meme-gusta/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Mémé Gusta: food",
+     "credit": "@meme_gusta_gent on Instagram",
+     "credit_url": "https://www.instagram.com/meme_gusta_gent/",
+     "ig": "https://www.instagram.com/p/BySZoiWCYg2/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/meme-gusta/p4-1400.webp",
+     "thumb": "img/places/gent/meme-gusta/p4-700.webp",
+     "srcset": "img/places/gent/meme-gusta/p4-700.webp 700w, img/places/gent/meme-gusta/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Mémé Gusta: food",
+     "credit": "@meme_gusta_gent on Instagram",
+     "credit_url": "https://www.instagram.com/meme_gusta_gent/",
+     "ig": "https://www.instagram.com/p/ByXVRDZibeZ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/meme-gusta/p5-1400.webp",
+     "thumb": "img/places/gent/meme-gusta/p5-700.webp",
+     "srcset": "img/places/gent/meme-gusta/p5-700.webp 700w, img/places/gent/meme-gusta/p5-1400.webp 1400w",
+     "w": 959,
+     "h": 1199,
+     "category": "food",
+     "alt": "Mémé Gusta: food",
+     "credit": "@meme_gusta_gent on Instagram",
+     "credit_url": "https://www.instagram.com/meme_gusta_gent/",
+     "ig": "https://www.instagram.com/p/B4xH_WRhVgZ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/meme-gusta/p6-1400.webp",
+     "thumb": "img/places/gent/meme-gusta/p6-700.webp",
+     "srcset": "img/places/gent/meme-gusta/p6-700.webp 700w, img/places/gent/meme-gusta/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Mémé Gusta: the interior",
+     "credit": "@meme_gusta_gent on Instagram",
+     "credit_url": "https://www.instagram.com/meme_gusta_gent/",
+     "ig": "https://www.instagram.com/p/DR39Yf8jC-I/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/meme-gusta/p7-1400.webp",
+     "thumb": "img/places/gent/meme-gusta/p7-700.webp",
+     "srcset": "img/places/gent/meme-gusta/p7-700.webp 700w, img/places/gent/meme-gusta/p7-1400.webp 1400w",
+     "w": 1080,
+     "h": 1132,
+     "category": "exterior",
+     "alt": "Mémé Gusta: the outside",
+     "credit": "@meme_gusta_gent on Instagram",
+     "credit_url": "https://www.instagram.com/meme_gusta_gent/",
+     "ig": "https://www.instagram.com/p/BxDCCYshwIo/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/meme-gusta/p1-1400.webp"
+    "src": "img/places/gent/meme-gusta/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -4548,20 +4832,39 @@
    "layout": "mix"
   },
   "midi": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DXma8Dglj8W/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DR1tCvRieYj/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DU6JVS_lrMj/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/midi/p1-1400.webp",
-     "thumb": "img/places/gent/midi/p1-700.webp",
-     "srcset": "img/places/gent/midi/p1-700.webp 700w, img/places/gent/midi/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 934,
-     "category": "interior",
-     "alt": "Midi: the interior",
-     "credit": "brasseriemidi.be",
-     "credit_url": "https://www.brasseriemidi.be/nl/sfeer",
+     "src": "img/places/gent/midi/p6-1400.webp",
+     "thumb": "img/places/gent/midi/p6-700.webp",
+     "srcset": "img/places/gent/midi/p6-700.webp 700w, img/places/gent/midi/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "exterior",
+     "alt": "Midi: the outside",
+     "credit": "@brasserie_midi_gent on Instagram",
+     "credit_url": "https://www.instagram.com/brasserie_midi_gent/",
+     "ig": "https://www.instagram.com/p/DXma8Dglj8W/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     },
     {
      "src": "img/places/gent/midi/p2-800.webp",
@@ -4606,6 +4909,52 @@
      "noPeopleChecked": true
     },
     {
+     "src": "img/places/gent/midi/p7-1400.webp",
+     "thumb": "img/places/gent/midi/p7-700.webp",
+     "srcset": "img/places/gent/midi/p7-700.webp 700w, img/places/gent/midi/p7-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Midi: food",
+     "credit": "@brasserie_midi_gent on Instagram",
+     "credit_url": "https://www.instagram.com/brasserie_midi_gent/",
+     "ig": "https://www.instagram.com/p/DR1tCvRieYj/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/midi/p1-1400.webp",
+     "thumb": "img/places/gent/midi/p1-700.webp",
+     "srcset": "img/places/gent/midi/p1-700.webp 700w, img/places/gent/midi/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Midi: the interior",
+     "credit": "brasseriemidi.be",
+     "credit_url": "https://www.brasseriemidi.be/nl/sfeer",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/midi/p8-1400.webp",
+     "thumb": "img/places/gent/midi/p8-700.webp",
+     "srcset": "img/places/gent/midi/p8-700.webp 700w, img/places/gent/midi/p8-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Midi: the interior",
+     "credit": "@brasserie_midi_gent on Instagram",
+     "credit_url": "https://www.instagram.com/brasserie_midi_gent/",
+     "ig": "https://www.instagram.com/p/DU6JVS_lrMj/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
      "src": "img/places/gent/midi/p5-800.webp",
      "thumb": "img/places/gent/midi/p5-400.webp",
      "srcset": "img/places/gent/midi/p5-400.webp 400w, img/places/gent/midi/p5-800.webp 800w",
@@ -4622,7 +4971,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/midi/p1-1400.webp"
+    "src": "img/places/gent/midi/p6-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -4732,6 +5081,26 @@
   "moscou-by-danny-horseele": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DXuEPRwjKkz/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXZ6yZqjN2u/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXKDDhujKg6/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYjjcpOlibI/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeWlkgBjVl4/",
      "category": "food",
      "origin": "research"
@@ -4744,23 +5113,88 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/moscou-by-danny-horseele/p1-1400.webp",
-     "thumb": "img/places/gent/moscou-by-danny-horseele/p1-700.webp",
-     "srcset": "img/places/gent/moscou-by-danny-horseele/p1-700.webp 700w, img/places/gent/moscou-by-danny-horseele/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
+     "src": "img/places/gent/moscou-by-danny-horseele/p2-1400.webp",
+     "thumb": "img/places/gent/moscou-by-danny-horseele/p2-700.webp",
+     "srcset": "img/places/gent/moscou-by-danny-horseele/p2-700.webp 700w, img/places/gent/moscou-by-danny-horseele/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Moscou by Danny Horseele: the interior",
+     "credit": "restaurantmoscou.be",
+     "credit_url": "https://www.restaurantmoscou.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/moscou-by-danny-horseele/p3-1400.webp",
+     "thumb": "img/places/gent/moscou-by-danny-horseele/p3-700.webp",
+     "srcset": "img/places/gent/moscou-by-danny-horseele/p3-700.webp 700w, img/places/gent/moscou-by-danny-horseele/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1169,
      "category": "food",
      "alt": "Moscou by Danny Horseele: food",
      "credit": "@restaurant.moscou on Instagram",
      "credit_url": "https://www.instagram.com/restaurant.moscou/",
+     "ig": "https://www.instagram.com/p/DXuEPRwjKkz/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/moscou-by-danny-horseele/p4-1400.webp",
+     "thumb": "img/places/gent/moscou-by-danny-horseele/p4-700.webp",
+     "srcset": "img/places/gent/moscou-by-danny-horseele/p4-700.webp 700w, img/places/gent/moscou-by-danny-horseele/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1209,
+     "category": "food",
+     "alt": "Moscou by Danny Horseele: food",
+     "credit": "@restaurant.moscou on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.moscou/",
+     "ig": "https://www.instagram.com/p/DXZ6yZqjN2u/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/moscou-by-danny-horseele/p5-1400.webp",
+     "thumb": "img/places/gent/moscou-by-danny-horseele/p5-700.webp",
+     "srcset": "img/places/gent/moscou-by-danny-horseele/p5-700.webp 700w, img/places/gent/moscou-by-danny-horseele/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1522,
+     "category": "food",
+     "alt": "Moscou by Danny Horseele: food",
+     "credit": "@restaurant.moscou on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.moscou/",
+     "ig": "https://www.instagram.com/p/DXKDDhujKg6/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/moscou-by-danny-horseele/p6-1400.webp",
+     "thumb": "img/places/gent/moscou-by-danny-horseele/p6-700.webp",
+     "srcset": "img/places/gent/moscou-by-danny-horseele/p6-700.webp 700w, img/places/gent/moscou-by-danny-horseele/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "interior",
+     "alt": "Moscou by Danny Horseele: the interior",
+     "credit": "@restaurant.moscou on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.moscou/",
+     "ig": "https://www.instagram.com/p/DYjjcpOlibI/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/moscou-by-danny-horseele/p1-1400.webp"
+    "src": "img/places/gent/moscou-by-danny-horseele/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -4768,12 +5202,32 @@
   "nonam": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DbpeMkKDi0Z/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeyT3LDkrl5/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/nonam/p4-1400.webp",
+     "thumb": "img/places/gent/nonam/p4-700.webp",
+     "srcset": "img/places/gent/nonam/p4-700.webp 700w, img/places/gent/nonam/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1634,
+     "category": "interior",
+     "alt": "Nonam: the interior",
+     "credit": "nonam.be",
+     "credit_url": "https://nonam.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
     {
      "src": "img/places/gent/nonam/p1-1400.webp",
      "thumb": "img/places/gent/nonam/p1-700.webp",
@@ -4815,11 +5269,42 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/nonam/p5-1400.webp",
+     "thumb": "img/places/gent/nonam/p5-700.webp",
+     "srcset": "img/places/gent/nonam/p5-700.webp 700w, img/places/gent/nonam/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1634,
+     "category": "food",
+     "alt": "Nonam: food",
+     "credit": "nonam.be",
+     "credit_url": "https://nonam.be/restaurant/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/nonam/p6-1400.webp",
+     "thumb": "img/places/gent/nonam/p6-700.webp",
+     "srcset": "img/places/gent/nonam/p6-700.webp 700w, img/places/gent/nonam/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Nonam: the interior",
+     "credit": "@nonam_ghent on Instagram",
+     "credit_url": "https://www.instagram.com/nonam_ghent/",
+     "ig": "https://www.instagram.com/p/DbpeMkKDi0Z/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/nonam/p1-1400.webp"
+    "src": "img/places/gent/nonam/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -20726,7 +21211,34 @@
    "layout": "mix"
   },
   "otium-cucina-italiana": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DWHEHf_jZcv/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DMQGbRhMFhQ/",
+     "category": "exterior",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/otium-cucina-italiana/p5-1400.webp",
+     "thumb": "img/places/gent/otium-cucina-italiana/p5-700.webp",
+     "srcset": "img/places/gent/otium-cucina-italiana/p5-700.webp 700w, img/places/gent/otium-cucina-italiana/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Otium Cucina Italiana: the interior",
+     "credit": "otium.gent",
+     "credit_url": "https://otium.gent/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
     {
      "src": "img/places/gent/otium-cucina-italiana/p1-1400.webp",
      "thumb": "img/places/gent/otium-cucina-italiana/p1-700.webp",
@@ -20770,24 +21282,41 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/otium-cucina-italiana/p4-800.webp",
-     "thumb": "img/places/gent/otium-cucina-italiana/p4-400.webp",
-     "srcset": "img/places/gent/otium-cucina-italiana/p4-400.webp 400w, img/places/gent/otium-cucina-italiana/p4-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "interior",
-     "alt": "Otium Cucina Italiana: the interior",
-     "credit": "otium.gent",
-     "credit_url": "https://otium.gent/",
+     "src": "img/places/gent/otium-cucina-italiana/p6-1400.webp",
+     "thumb": "img/places/gent/otium-cucina-italiana/p6-700.webp",
+     "srcset": "img/places/gent/otium-cucina-italiana/p6-700.webp 700w, img/places/gent/otium-cucina-italiana/p6-1400.webp 1400w",
+     "w": 1067,
+     "h": 1422,
+     "category": "food",
+     "alt": "Otium Cucina Italiana: food",
+     "credit": "@otiumgent on Instagram",
+     "credit_url": "https://www.instagram.com/otiumgent/",
+     "ig": "https://www.instagram.com/p/DWHEHf_jZcv/",
      "license": "the place's own photo",
-     "source": "own_website",
+     "source": "own_instagram",
      "noPeopleChecked": true,
-     "added": "gap-fill 2026-10-31"
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/otium-cucina-italiana/p7-1400.webp",
+     "thumb": "img/places/gent/otium-cucina-italiana/p7-700.webp",
+     "srcset": "img/places/gent/otium-cucina-italiana/p7-700.webp 700w, img/places/gent/otium-cucina-italiana/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1749,
+     "category": "exterior",
+     "alt": "Otium Cucina Italiana: the outside",
+     "credit": "@otiumgent on Instagram",
+     "credit_url": "https://www.instagram.com/otiumgent/",
+     "ig": "https://www.instagram.com/p/DMQGbRhMFhQ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/otium-cucina-italiana/p1-1400.webp"
+    "src": "img/places/gent/otium-cucina-italiana/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -20833,6 +21362,21 @@
   "patyntje": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DIjcoKbqtyK/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C0eDce8N5xw/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C19JRWhtNYE/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DNQtl-Ghjh4/",
      "category": "food",
      "origin": "research"
@@ -20845,32 +21389,35 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/patyntje/p1-1400.webp",
-     "thumb": "img/places/gent/patyntje/p1-700.webp",
-     "srcset": "img/places/gent/patyntje/p1-700.webp 700w, img/places/gent/patyntje/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
+     "src": "img/places/gent/patyntje/p5-1400.webp",
+     "thumb": "img/places/gent/patyntje/p5-700.webp",
+     "srcset": "img/places/gent/patyntje/p5-700.webp 700w, img/places/gent/patyntje/p5-1400.webp 1400w",
+     "w": 1333,
+     "h": 2000,
      "category": "exterior",
      "alt": "Patyntje: the outside",
-     "credit": "@restaurant_patyntje on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant_patyntje/",
+     "credit": "patyntje.com",
+     "credit_url": "https://www.patyntje.com/sfeerbeelden",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     },
     {
-     "src": "img/places/gent/patyntje/p2-800.webp",
-     "thumb": "img/places/gent/patyntje/p2-400.webp",
-     "srcset": "img/places/gent/patyntje/p2-400.webp 400w, img/places/gent/patyntje/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "src": "img/places/gent/patyntje/p6-1400.webp",
+     "thumb": "img/places/gent/patyntje/p6-700.webp",
+     "srcset": "img/places/gent/patyntje/p6-700.webp 700w, img/places/gent/patyntje/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
      "category": "food",
      "alt": "Patyntje: food",
      "credit": "@restaurant_patyntje on Instagram",
      "credit_url": "https://www.instagram.com/restaurant_patyntje/",
+     "ig": "https://www.instagram.com/p/DIjcoKbqtyK/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     },
     {
      "src": "img/places/gent/patyntje/p3-800.webp",
@@ -20899,11 +21446,57 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/patyntje/p7-1400.webp",
+     "thumb": "img/places/gent/patyntje/p7-700.webp",
+     "srcset": "img/places/gent/patyntje/p7-700.webp 700w, img/places/gent/patyntje/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "interior",
+     "alt": "Patyntje: the interior",
+     "credit": "@restaurant_patyntje on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_patyntje/",
+     "ig": "https://www.instagram.com/p/C0eDce8N5xw/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/patyntje/p8-1400.webp",
+     "thumb": "img/places/gent/patyntje/p8-700.webp",
+     "srcset": "img/places/gent/patyntje/p8-700.webp 700w, img/places/gent/patyntje/p8-1400.webp 1400w",
+     "w": 1079,
+     "h": 1079,
+     "category": "interior",
+     "alt": "Patyntje: the interior",
+     "credit": "@restaurant_patyntje on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_patyntje/",
+     "ig": "https://www.instagram.com/p/C19JRWhtNYE/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/patyntje/p1-1400.webp",
+     "thumb": "img/places/gent/patyntje/p1-700.webp",
+     "srcset": "img/places/gent/patyntje/p1-700.webp 700w, img/places/gent/patyntje/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "exterior",
+     "alt": "Patyntje: the outside",
+     "credit": "@restaurant_patyntje on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant_patyntje/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/patyntje/p1-1400.webp"
+    "src": "img/places/gent/patyntje/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -23018,13 +23611,65 @@
    "layout": "mix"
   },
   "oak": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdYYg2IjAgA/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/oak/p4-1400.webp",
+     "thumb": "img/places/gent/oak/p4-700.webp",
+     "srcset": "img/places/gent/oak/p4-700.webp 700w, img/places/gent/oak/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "OAK: the interior",
+     "credit": "oakgent.be",
+     "credit_url": "https://oakgent.be/en/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
     {
      "src": "img/places/gent/oak/p1-1400.webp",
      "thumb": "img/places/gent/oak/p1-700.webp",
      "srcset": "img/places/gent/oak/p1-700.webp 700w, img/places/gent/oak/p1-1400.webp 1400w",
      "w": 1024,
      "h": 682,
+     "category": "food",
+     "alt": "OAK: food",
+     "credit": "oakgent.be",
+     "credit_url": "https://oakgent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/oak/p5-1400.webp",
+     "thumb": "img/places/gent/oak/p5-700.webp",
+     "srcset": "img/places/gent/oak/p5-700.webp 700w, img/places/gent/oak/p5-1400.webp 1400w",
+     "w": 833,
+     "h": 1041,
+     "category": "food",
+     "alt": "OAK: food",
+     "credit": "@oak_gent on Instagram",
+     "credit_url": "https://www.instagram.com/oak_gent/",
+     "ig": "https://www.instagram.com/p/DdYYg2IjAgA/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/oak/p3-800.webp",
+     "thumb": "img/places/gent/oak/p3-400.webp",
+     "srcset": "img/places/gent/oak/p3-400.webp 400w, img/places/gent/oak/p3-800.webp 800w",
+     "w": 800,
+     "h": 533,
      "category": "food",
      "alt": "OAK: food",
      "credit": "oakgent.be",
@@ -23048,23 +23693,24 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/oak/p3-800.webp",
-     "thumb": "img/places/gent/oak/p3-400.webp",
-     "srcset": "img/places/gent/oak/p3-400.webp 400w, img/places/gent/oak/p3-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "food",
-     "alt": "OAK: food",
+     "src": "img/places/gent/oak/p6-1400.webp",
+     "thumb": "img/places/gent/oak/p6-700.webp",
+     "srcset": "img/places/gent/oak/p6-700.webp 700w, img/places/gent/oak/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "OAK: the interior",
      "credit": "oakgent.be",
-     "credit_url": "https://oakgent.be/",
+     "credit_url": "https://oakgent.be/en/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b03 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/oak/p1-1400.webp"
+    "src": "img/places/gent/oak/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
