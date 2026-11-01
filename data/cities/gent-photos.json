@@ -889,6 +889,26 @@
   "bar-dada": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DW37AtojKCL/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc3rWxCs-v5/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZ-LaRYDG7f/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYmn3uhjKxG/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DecL2AUs8EI/",
      "category": "drink",
      "origin": "research"
@@ -901,18 +921,20 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/bar-dada/p1-1400.webp",
-     "thumb": "img/places/gent/bar-dada/p1-700.webp",
-     "srcset": "img/places/gent/bar-dada/p1-700.webp 700w, img/places/gent/bar-dada/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
-     "category": "interior",
-     "alt": "Bar Dada: the interior",
+     "src": "img/places/gent/bar-dada/p5-1400.webp",
+     "thumb": "img/places/gent/bar-dada/p5-700.webp",
+     "srcset": "img/places/gent/bar-dada/p5-700.webp 700w, img/places/gent/bar-dada/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "exterior",
+     "alt": "Bar Dada: the outside",
      "credit": "@bar_dada_gent on Instagram",
      "credit_url": "https://www.instagram.com/bar_dada_gent/",
+     "ig": "https://www.instagram.com/p/DW37AtojKCL/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     },
     {
      "src": "img/places/gent/bar-dada/p2-800.webp",
@@ -943,6 +965,38 @@
      "noPeopleChecked": true
     },
     {
+     "src": "img/places/gent/bar-dada/p6-1400.webp",
+     "thumb": "img/places/gent/bar-dada/p6-700.webp",
+     "srcset": "img/places/gent/bar-dada/p6-700.webp 700w, img/places/gent/bar-dada/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Bar Dada: food",
+     "credit": "@bar_dada_gent on Instagram",
+     "credit_url": "https://www.instagram.com/bar_dada_gent/",
+     "ig": "https://www.instagram.com/p/Dc3rWxCs-v5/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bar-dada/p7-1400.webp",
+     "thumb": "img/places/gent/bar-dada/p7-700.webp",
+     "srcset": "img/places/gent/bar-dada/p7-700.webp 700w, img/places/gent/bar-dada/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1451,
+     "category": "food",
+     "alt": "Bar Dada: food",
+     "credit": "@bar_dada_gent on Instagram",
+     "credit_url": "https://www.instagram.com/bar_dada_gent/",
+     "ig": "https://www.instagram.com/p/DZ-LaRYDG7f/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
      "src": "img/places/gent/bar-dada/p4-800.webp",
      "thumb": "img/places/gent/bar-dada/p4-400.webp",
      "srcset": "img/places/gent/bar-dada/p4-400.webp 400w, img/places/gent/bar-dada/p4-800.webp 800w",
@@ -955,11 +1009,41 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/bar-dada/p1-1400.webp",
+     "thumb": "img/places/gent/bar-dada/p1-700.webp",
+     "srcset": "img/places/gent/bar-dada/p1-700.webp 700w, img/places/gent/bar-dada/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1440,
+     "category": "interior",
+     "alt": "Bar Dada: the interior",
+     "credit": "@bar_dada_gent on Instagram",
+     "credit_url": "https://www.instagram.com/bar_dada_gent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/bar-dada/p8-1400.webp",
+     "thumb": "img/places/gent/bar-dada/p8-700.webp",
+     "srcset": "img/places/gent/bar-dada/p8-700.webp 700w, img/places/gent/bar-dada/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "exterior",
+     "alt": "Bar Dada: the outside",
+     "credit": "@bar_dada_gent on Instagram",
+     "credit_url": "https://www.instagram.com/bar_dada_gent/",
+     "ig": "https://www.instagram.com/p/DYmn3uhjKxG/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/bar-dada/p1-1400.webp"
+    "src": "img/places/gent/bar-dada/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1667,6 +1751,11 @@
   "cafe-recup-gent": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DcJP5B1FV94/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Ded_3SdMBf-/",
      "category": "interior",
      "origin": "research"
@@ -1702,18 +1791,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/cafe-recup-gent/p3-800.webp",
-     "thumb": "img/places/gent/cafe-recup-gent/p3-400.webp",
-     "srcset": "img/places/gent/cafe-recup-gent/p3-400.webp 400w, img/places/gent/cafe-recup-gent/p3-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/gent/cafe-recup-gent/p4-1400.webp",
+     "thumb": "img/places/gent/cafe-recup-gent/p4-700.webp",
+     "srcset": "img/places/gent/cafe-recup-gent/p4-700.webp 700w, img/places/gent/cafe-recup-gent/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
      "category": "food",
      "alt": "Cafe Recup: food",
      "credit": "@cafe.recup on Instagram",
      "credit_url": "https://www.instagram.com/cafe.recup/",
+     "ig": "https://www.instagram.com/p/DcJP5B1FV94/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     }
    ],
    "pick": {
@@ -1724,25 +1815,70 @@
    "layout": "mix"
   },
   "cafe-ventura": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DYzDkcZiJmu/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DObBDlEiOYu/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/cafe-ventura/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-ventura/p1-700.webp",
-     "srcset": "img/places/gent/cafe-ventura/p1-700.webp 700w, img/places/gent/cafe-ventura/p1-1400.webp 1400w",
-     "w": 756,
-     "h": 1133,
+     "src": "img/places/gent/cafe-ventura/p2-1400.webp",
+     "thumb": "img/places/gent/cafe-ventura/p2-700.webp",
+     "srcset": "img/places/gent/cafe-ventura/p2-700.webp 700w, img/places/gent/cafe-ventura/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 2099,
      "category": "interior",
      "alt": "Café Ventura: the interior",
      "credit": "cafeventura.be",
      "credit_url": "https://cafeventura.be/about",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-ventura/p3-1400.webp",
+     "thumb": "img/places/gent/cafe-ventura/p3-700.webp",
+     "srcset": "img/places/gent/cafe-ventura/p3-700.webp 700w, img/places/gent/cafe-ventura/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Café Ventura: food",
+     "credit": "@cafe_ventura on Instagram",
+     "credit_url": "https://www.instagram.com/cafe_ventura/",
+     "ig": "https://www.instagram.com/p/DYzDkcZiJmu/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-ventura/p4-1400.webp",
+     "thumb": "img/places/gent/cafe-ventura/p4-700.webp",
+     "srcset": "img/places/gent/cafe-ventura/p4-700.webp 700w, img/places/gent/cafe-ventura/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1865,
+     "category": "food",
+     "alt": "Café Ventura: food",
+     "credit": "@cafe_ventura on Instagram",
+     "credit_url": "https://www.instagram.com/cafe_ventura/",
+     "ig": "https://www.instagram.com/p/DObBDlEiOYu/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/cafe-ventura/p1-1400.webp"
+    "src": "img/places/gent/cafe-ventura/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2106,7 +2242,50 @@
    "hold": "no people-free photo found (research): retry returned no images from IG or website"
   },
   "de-dulle-griet": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CULUJgoNrPc/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVBGMw7iM26/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C8D9xY1Su3i/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CQ0GCImImsn/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYFHVc7iJYX/",
+     "category": "exterior",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/de-dulle-griet/p3-1400.webp",
+     "thumb": "img/places/gent/de-dulle-griet/p3-700.webp",
+     "srcset": "img/places/gent/de-dulle-griet/p3-700.webp 700w, img/places/gent/de-dulle-griet/p3-1400.webp 1400w",
+     "w": 1080,
+     "h": 1093,
+     "category": "exterior",
+     "alt": "De Dulle Griet: the outside",
+     "credit": "@dullegrietgent on Instagram",
+     "credit_url": "https://www.instagram.com/dullegrietgent/",
+     "ig": "https://www.instagram.com/p/CULUJgoNrPc/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
     {
      "src": "img/places/gent/de-dulle-griet/p1-1400.webp",
      "thumb": "img/places/gent/de-dulle-griet/p1-700.webp",
@@ -2134,11 +2313,75 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/de-dulle-griet/p4-1400.webp",
+     "thumb": "img/places/gent/de-dulle-griet/p4-700.webp",
+     "srcset": "img/places/gent/de-dulle-griet/p4-700.webp 700w, img/places/gent/de-dulle-griet/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1440,
+     "category": "food",
+     "alt": "De Dulle Griet: food",
+     "credit": "@dullegrietgent on Instagram",
+     "credit_url": "https://www.instagram.com/dullegrietgent/",
+     "ig": "https://www.instagram.com/p/DVBGMw7iM26/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-dulle-griet/p5-1400.webp",
+     "thumb": "img/places/gent/de-dulle-griet/p5-700.webp",
+     "srcset": "img/places/gent/de-dulle-griet/p5-700.webp 700w, img/places/gent/de-dulle-griet/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "De Dulle Griet: food",
+     "credit": "@dullegrietgent on Instagram",
+     "credit_url": "https://www.instagram.com/dullegrietgent/",
+     "ig": "https://www.instagram.com/p/C8D9xY1Su3i/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-dulle-griet/p6-1400.webp",
+     "thumb": "img/places/gent/de-dulle-griet/p6-700.webp",
+     "srcset": "img/places/gent/de-dulle-griet/p6-700.webp 700w, img/places/gent/de-dulle-griet/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1351,
+     "category": "food",
+     "alt": "De Dulle Griet: food",
+     "credit": "@dullegrietgent on Instagram",
+     "credit_url": "https://www.instagram.com/dullegrietgent/",
+     "ig": "https://www.instagram.com/p/CQ0GCImImsn/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-dulle-griet/p7-1400.webp",
+     "thumb": "img/places/gent/de-dulle-griet/p7-700.webp",
+     "srcset": "img/places/gent/de-dulle-griet/p7-700.webp 700w, img/places/gent/de-dulle-griet/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1866,
+     "category": "exterior",
+     "alt": "De Dulle Griet: the outside",
+     "credit": "@dullegrietgent on Instagram",
+     "credit_url": "https://www.instagram.com/dullegrietgent/",
+     "ig": "https://www.instagram.com/p/DYFHVc7iJYX/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/de-dulle-griet/p1-1400.webp"
+    "src": "img/places/gent/de-dulle-griet/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -25022,6 +25265,11 @@
   "barr-34": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DbGfCg_utUq/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DemNTLTuMXt/",
      "category": "drink",
      "origin": "research"
@@ -25030,41 +25278,39 @@
      "url": "https://www.instagram.com/p/Detbsy1uS75/",
      "category": "drink",
      "origin": "research"
-    },
-    {
-     "url": "https://www.instagram.com/p/DbGfCg_utUq/",
-     "category": "food",
-     "origin": "research"
     }
    ],
    "photos": [
     {
-     "src": "img/places/gent/barr-34/p1-1400.webp",
-     "thumb": "img/places/gent/barr-34/p1-700.webp",
-     "srcset": "img/places/gent/barr-34/p1-700.webp 700w, img/places/gent/barr-34/p1-1400.webp 1400w",
+     "src": "img/places/gent/barr-34/p5-1400.webp",
+     "thumb": "img/places/gent/barr-34/p5-700.webp",
+     "srcset": "img/places/gent/barr-34/p5-700.webp 700w, img/places/gent/barr-34/p5-1400.webp 1400w",
      "w": 1400,
      "h": 1050,
      "category": "exterior",
      "alt": "Barr 34: the outside",
      "credit": "barr34.com",
-     "credit_url": "https://www.barr34.com/",
+     "credit_url": "https://www.barr34.com/en",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     },
     {
-     "src": "img/places/gent/barr-34/p2-800.webp",
-     "thumb": "img/places/gent/barr-34/p2-400.webp",
-     "srcset": "img/places/gent/barr-34/p2-400.webp 400w, img/places/gent/barr-34/p2-800.webp 800w",
-     "w": 800,
-     "h": 658,
+     "src": "img/places/gent/barr-34/p6-1400.webp",
+     "thumb": "img/places/gent/barr-34/p6-700.webp",
+     "srcset": "img/places/gent/barr-34/p6-700.webp 700w, img/places/gent/barr-34/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1151,
      "category": "food",
      "alt": "Barr 34: food",
      "credit": "@barr34_gent on Instagram",
      "credit_url": "https://www.instagram.com/barr34_gent/",
+     "ig": "https://www.instagram.com/p/DbGfCg_utUq/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     },
     {
      "src": "img/places/gent/barr-34/p3-800.webp",
@@ -25097,7 +25343,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/barr-34/p1-1400.webp"
+    "src": "img/places/gent/barr-34/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -25208,6 +25454,18 @@
    "layout": "mix"
   },
   "cafe-copines": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DVy1madCthK/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DVJfRMMCut5/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/gent/cafe-copines/p1-1400.webp",
@@ -25222,6 +25480,38 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/cafe-copines/p2-1400.webp",
+     "thumb": "img/places/gent/cafe-copines/p2-700.webp",
+     "srcset": "img/places/gent/cafe-copines/p2-700.webp 700w, img/places/gent/cafe-copines/p2-1400.webp 1400w",
+     "w": 1190,
+     "h": 1440,
+     "category": "food",
+     "alt": "Café Copines: food",
+     "credit": "@cafe.copines.gent on Instagram",
+     "credit_url": "https://www.instagram.com/cafe.copines.gent/",
+     "ig": "https://www.instagram.com/p/DVy1madCthK/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-copines/p3-1400.webp",
+     "thumb": "img/places/gent/cafe-copines/p3-700.webp",
+     "srcset": "img/places/gent/cafe-copines/p3-700.webp 700w, img/places/gent/cafe-copines/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Café Copines: food",
+     "credit": "@cafe.copines.gent on Instagram",
+     "credit_url": "https://www.instagram.com/cafe.copines.gent/",
+     "ig": "https://www.instagram.com/p/DVJfRMMCut5/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     }
    ],
    "pick": {
@@ -27209,39 +27499,49 @@
    "layout": "mix"
   },
   "cafe-albatros": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/C5y_GZeNteQ/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/cafe-albatros/p1-1400.webp",
-     "thumb": "img/places/gent/cafe-albatros/p1-700.webp",
-     "srcset": "img/places/gent/cafe-albatros/p1-700.webp 700w, img/places/gent/cafe-albatros/p1-1400.webp 1400w",
+     "src": "img/places/gent/cafe-albatros/p3-1400.webp",
+     "thumb": "img/places/gent/cafe-albatros/p3-700.webp",
+     "srcset": "img/places/gent/cafe-albatros/p3-700.webp 700w, img/places/gent/cafe-albatros/p3-1400.webp 1400w",
      "w": 1400,
-     "h": 934,
+     "h": 2099,
      "category": "interior",
      "alt": "Café Albatros: the interior",
-     "credit": "Lars Crommelinck via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-albatros",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/cafe-albatros/p2-800.webp",
-     "thumb": "img/places/gent/cafe-albatros/p2-400.webp",
-     "srcset": "img/places/gent/cafe-albatros/p2-400.webp 400w, img/places/gent/cafe-albatros/p2-800.webp 800w",
-     "w": 756,
-     "h": 1133,
-     "category": "interior",
-     "alt": "Café Albatros: the interior",
-     "credit": "Café Albatros (own website), photo Lars Crommelinck",
-     "credit_url": "https://cafealbatros.be/img/asset/YXNzZXRzL2ltYWdlcy92ZW50dXJhLC1nZW50LShiZWxnaXVtKS0tLWxhcnMtY3JvbW1lbGluY2stNTE5LmpwZw/ventura,-gent-%28belgium%29---lars-crommelinck-519.jpg?fm=webp&q=90&fit=crop-46-21-1&w=756&h=1133&s=90ef541d7682c94f2e2b4e94a0e70273",
+     "credit": "cafealbatros.be",
+     "credit_url": "https://cafealbatros.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-albatros/p4-1400.webp",
+     "thumb": "img/places/gent/cafe-albatros/p4-700.webp",
+     "srcset": "img/places/gent/cafe-albatros/p4-700.webp 700w, img/places/gent/cafe-albatros/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1476,
+     "category": "food",
+     "alt": "Café Albatros: food",
+     "credit": "@cafe_albatros on Instagram",
+     "credit_url": "https://www.instagram.com/cafe_albatros/",
+     "ig": "https://www.instagram.com/p/C5y_GZeNteQ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/cafe-albatros/p1-1400.webp"
+    "src": "img/places/gent/cafe-albatros/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -27415,7 +27715,33 @@
    "layout": "mix"
   },
   "cafe-romain": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Deoru1DDQ8E/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DOEh624jZ1m/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/cafe-romain/p3-800.webp",
+     "thumb": "img/places/gent/cafe-romain/p3-400.webp",
+     "srcset": "img/places/gent/cafe-romain/p3-400.webp 400w, img/places/gent/cafe-romain/p3-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "exterior",
+     "alt": "Café Romain: the outside",
+     "credit": "Café Romain via Visit Gent",
+     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
+     "license": "",
+     "source": "visit_gent",
+     "noPeopleChecked": true
+    },
     {
      "src": "img/places/gent/cafe-romain/p1-1400.webp",
      "thumb": "img/places/gent/cafe-romain/p1-700.webp",
@@ -27445,23 +27771,41 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/cafe-romain/p3-800.webp",
-     "thumb": "img/places/gent/cafe-romain/p3-400.webp",
-     "srcset": "img/places/gent/cafe-romain/p3-400.webp 400w, img/places/gent/cafe-romain/p3-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "exterior",
-     "alt": "Café Romain: the outside",
-     "credit": "Café Romain via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
+     "src": "img/places/gent/cafe-romain/p4-1400.webp",
+     "thumb": "img/places/gent/cafe-romain/p4-700.webp",
+     "srcset": "img/places/gent/cafe-romain/p4-700.webp 700w, img/places/gent/cafe-romain/p4-1400.webp 1400w",
+     "w": 720,
+     "h": 960,
+     "category": "food",
+     "alt": "Café Romain: food",
+     "credit": "@cafe.romain on Instagram",
+     "credit_url": "https://www.instagram.com/cafe.romain/",
+     "ig": "https://www.instagram.com/p/Deoru1DDQ8E/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/cafe-romain/p5-1400.webp",
+     "thumb": "img/places/gent/cafe-romain/p5-700.webp",
+     "srcset": "img/places/gent/cafe-romain/p5-700.webp 700w, img/places/gent/cafe-romain/p5-1400.webp 1400w",
+     "w": 828,
+     "h": 1104,
+     "category": "food",
+     "alt": "Café Romain: food",
+     "credit": "@cafe.romain on Instagram",
+     "credit_url": "https://www.instagram.com/cafe.romain/",
+     "ig": "https://www.instagram.com/p/DOEh624jZ1m/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/cafe-romain/p1-1400.webp"
+    "src": "img/places/gent/cafe-romain/p3-800.webp"
    },
    "only": true,
    "layout": "mix"
@@ -27505,62 +27849,44 @@
    "layout": "mix"
   },
   "de-maecht-van-ghent": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DZnDAVAtGh6/",
+     "category": "exterior",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/de-maecht-van-ghent/p1-1400.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p1-700.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p1-700.webp 700w, img/places/gent/de-maecht-van-ghent/p1-1400.webp 1400w",
+     "src": "img/places/gent/de-maecht-van-ghent/p6-1400.webp",
+     "thumb": "img/places/gent/de-maecht-van-ghent/p6-700.webp",
+     "srcset": "img/places/gent/de-maecht-van-ghent/p6-700.webp 700w, img/places/gent/de-maecht-van-ghent/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "De Maecht van Ghent: the outside",
+     "credit": "@demaecht.be on Instagram",
+     "credit_url": "https://www.instagram.com/demaecht.be/",
+     "ig": "https://www.instagram.com/p/DZnDAVAtGh6/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/de-maecht-van-ghent/p7-1400.webp",
+     "thumb": "img/places/gent/de-maecht-van-ghent/p7-700.webp",
+     "srcset": "img/places/gent/de-maecht-van-ghent/p7-700.webp 700w, img/places/gent/de-maecht-van-ghent/p7-1400.webp 1400w",
      "w": 1400,
      "h": 2100,
      "category": "interior",
      "alt": "De Maecht van Ghent: the interior",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_170b7e9bed104c1ea3cb3767ad6926ef~mv2.jpg",
+     "credit": "demaecht.be",
+     "credit_url": "https://www.demaecht.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p2-800.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p2-400.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p2-400.webp 400w, img/places/gent/de-maecht-van-ghent/p2-800.webp 800w",
-     "w": 800,
-     "h": 532,
-     "category": "food",
-     "alt": "De Maecht van Ghent: food",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_b34500adf34b48cdb407bc5004c55bc7~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p3-800.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p3-400.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p3-400.webp 400w, img/places/gent/de-maecht-van-ghent/p3-800.webp 800w",
-     "w": 800,
-     "h": 1000,
-     "category": "drink",
-     "alt": "De Maecht van Ghent: drinks",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_d04a66c34af14423bbfa005bff267f35~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/de-maecht-van-ghent/p4-800.webp",
-     "thumb": "img/places/gent/de-maecht-van-ghent/p4-400.webp",
-     "srcset": "img/places/gent/de-maecht-van-ghent/p4-400.webp 400w, img/places/gent/de-maecht-van-ghent/p4-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "interior",
-     "alt": "De Maecht van Ghent: the interior",
-     "credit": "De Maecht van Ghent (own website)",
-     "credit_url": "https://static.wixstatic.com/media/6047ca_80487dcc4ef64e57a2cb3778339ce598~mv2.jpg",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b07 2026-11-01"
     },
     {
      "src": "img/places/gent/de-maecht-van-ghent/p5-800.webp",
@@ -27579,7 +27905,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/de-maecht-van-ghent/p1-1400.webp"
+    "src": "img/places/gent/de-maecht-van-ghent/p6-1400.webp"
    },
    "only": true,
    "layout": "mix"
