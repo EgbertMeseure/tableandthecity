@@ -60,6 +60,9 @@
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
   if (r.gscore) $('#hname').insertAdjacentHTML('beforeend', TG.scoreBadge(r));
+  // the place's own Instagram handle, small under the name — only a confirmed handle (research / OSM tag / a profile link), never a post link
+  const igH = !r.igUnconfirmed && /^[A-Za-z0-9_.]{1,30}$/.test(igHandle) && !/^(p|reel|reels|explore|stories)$/i.test(igHandle) && (r.instagram_handle || /^https?:\/\/(www\.)?instagram\.com\/[A-Za-z0-9_.]+\/?$/.test(r.instagram || '')) ? igHandle : '';
+  if (igH) $('#hname').insertAdjacentHTML('afterend', `<a class="dh-ig" data-i18n-skip href="https://www.instagram.com/${esc(igH)}/" target="_blank" rel="noopener">@${esc(igH)}</a>`);
   // "Open now" / "Closed · opens Tue 08:00" (Europe/Brussels, js/hours.js); nothing when the hours are unknown; refreshed every minute
   const paintOpen = () => { const h = TG.openLabel(TG.openState(r), true), el = $('#hopen'); if (el && el.innerHTML !== h) el.innerHTML = h; };
   paintOpen(); setInterval(paintOpen, 60000);
