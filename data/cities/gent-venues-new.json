@@ -1783,7 +1783,7 @@
       "openingHours": "Mon–Fri 08:30–18:30; Sat–Sun 09:00–18:30 (last order 18:00; breakfast only, kitchen closes 14:00)",
       "openingHoursSource": "https://www.take-five-espressobar.be/our-locations-menu",
       "website": "https://www.take-five-espressobar.be/",
-      "instagram_handle": null,
+      "instagram_handle": "takefiveespressobar",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1807,7 +1807,8 @@
         "https://www.demorgen.be/beter-leven/gebrand-op-het-perfecte-kopje-de-35-fijnste-koffiebars-van-het-moment-in-brussel-en-vlaanderen~b32c24ca/"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "wild-child",
@@ -1824,7 +1825,7 @@
       "openingHours": "Mon–Fri 08:00–17:30; Sat 10:00–17:30 (as reported by HLN, Feb 2025)",
       "openingHoursSource": "https://www.hln.be/gent/net-open-in-koffiebar-wild-child-doet-bram-36-zijn-eigen-zin-je-kan-je-ook-om-acht-uur-s-ochtends-al-amuseren-of-toch-bij-mij~a8e19584/",
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "wildchild.gent",
       "features": {
         "veggie": true,
         "vegan": null,
@@ -1848,7 +1849,8 @@
       ],
       "dateChecked": "2026-10-19",
       "isNewNote": "Opened just before Christmas 2024 (~22 months ago), so outside the 18-month window.",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "terug",
@@ -1865,7 +1867,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "terug.coffee",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1891,7 +1893,8 @@
       "dateChecked": "2026-10-19",
       "addressSource": "House number from OpenStreetMap node 12798265418 (HLN describes the corner of Jan Frans Willemsstraat and Citadellaan).",
       "openingDate": "2025-05 (HLN 'net open' 13 May 2025)",
-      "geoPrecision": "osm_node"
+      "geoPrecision": "osm_node",
+      "instagramSource": "Instagram bio (verified 2026-11-01)"
     },
     {
       "id": "tds",
@@ -1908,7 +1911,7 @@
       "openingHours": "Wed–Mon 08:00–17:00; Sunday morning by reservation only (as reported by HLN, 3 Sep 2026)",
       "openingHoursSource": "https://www.hln.be/gent/kurt-38-en-hanne-39-openen-koffiebar-voor-echte-koffienerds-we-willen-tonen-hoe-divers-koffie-kan-zijn~a27251b1/",
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "tds.ghent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1932,7 +1935,8 @@
       ],
       "dateChecked": "2026-10-19",
       "openingDate": "2026-09-07",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "or-coffee-lab-gent",

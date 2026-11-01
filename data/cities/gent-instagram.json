@@ -3676,9 +3676,9 @@
   "take-five-voldersstraat": {
    "name": "Take Five Espressobar",
    "instagram_handle": "takefiveespressobar",
-   "handleSource": "https://www.honeyguide.nl/nl/locaties-verborgen-parels/981029342/espressobar-take-five",
-   "note": "Own site shows no Instagram link; linked from a Honeyguide venue page (third party).",
-   "origin": "research (approved 20 Oct 2026)"
+   "handleSource": "https://www.take-five-espressobar.be/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "IG bio lists Voldersstraat 10 and Grote Huidevettershoek 10, Gent and links take-five-espressobar.be; shared account for both Take Five locations."
   },
   "tam-tam": {
    "name": "Tam-Tam",
@@ -3691,14 +3691,15 @@
    "name": "TDS",
    "instagram_handle": "tds.ghent",
    "handleSource": "https://www.tdscoffee.be",
-   "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (approved 20 Oct 2026)"
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "IG bio lists Sint-Salvatorstraat 125, Gent and links tdscoffee.be."
   },
   "terug": {
    "name": "Terug",
-   "instagram_handle": null,
-   "note": "Unverified candidate @terug.coffee (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "terug.coffee",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/terug.coffee/",
+   "handleNote": "IG bio lists Jan Frans Willemsstraat 1, 9000 Gent (matches the venue address)."
   },
   "the-bakery-joost-arijs": {
    "name": "The Bakery by Joost Arijs",
@@ -3720,9 +3721,10 @@
   },
   "the-coffee-station": {
    "name": "The Coffee Station",
-   "instagram_handle": null,
-   "note": "Unverified candidate @thecoffeestation9000 (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "thecoffeestation9000",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/thecoffeestation9000/",
+   "handleNote": "IG bio lists Nederkouter 73, 9000 Gent (coffee & thrift)."
   },
   "the-kitchen-1898-the-post": {
    "name": "The Kitchen at 1898 The Post",
@@ -3793,7 +3795,8 @@
    "name": "Wild Child",
    "instagram_handle": "wildchild.gent",
    "handleSource": "https://wildchild.gent/",
-   "origin": "research (approved 20 Oct 2026)"
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "IG bio lists Burgstraat 139, Gent and www.wildchild.gent."
   },
   "wunderbar": {
    "name": "Wunderbar",
@@ -3804,9 +3807,10 @@
   },
   "yume-coffee": {
    "name": "Yume",
-   "instagram_handle": null,
-   "note": "Unverified candidate @yume.ghent (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "yume.ghent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/yume.ghent/",
+   "handleNote": "IG bio: specialty coffee with Google Maps place link in Gent; not @yume_coffee / @yume.coffee (other cafes)."
   },
   "yusu": {
    "name": "Yusu",
@@ -3925,6 +3929,13 @@
    "handleSource": "https://www.vicino.be/",
    "handleNote": "Linked from own website vicino.be; embeds broken, post De2fowzMw99 meta confirms \"vicino.gent on October 23, 2026\".",
    "origin": "research (photo-fill b12 2026-11-01)"
+  },
+  "pica-beans": {
+   "name": "Pica Beans",
+   "instagram_handle": "pica_beans_gent",
+   "handleSource": "https://www.instagram.com/pica_beans_gent/",
+   "handleNote": "IG bio lists Sleepstraat 43, 9000 Gent (matches the venue address).",
+   "origin": "research (photo-fill b14 2026-11-01)"
   }
  },
  "embed": {
@@ -5354,7 +5365,8 @@
   },
   "takefiveespressobar": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
   },
   "takeingent": {
    "ok": true,
@@ -5387,7 +5399,8 @@
   },
   "tds.ghent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
   },
   "ter_burg": {
    "ok": false,
@@ -5513,7 +5526,8 @@
   },
   "wildchild.gent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
   },
   "woestgent": {
    "ok": true,
@@ -5696,6 +5710,26 @@
    "ok": true,
    "checked": "2026-11-01",
    "why": "verified via post embed (owner of DS6_4z2itny)"
+  },
+  "pica_beans_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
+  },
+  "terug.coffee": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
+  },
+  "thecoffeestation9000": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
+  },
+  "yume.ghent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
   }
  }
 }
