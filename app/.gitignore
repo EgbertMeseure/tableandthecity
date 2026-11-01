@@ -12,3 +12,6 @@ ios/App/Pods/
 ios/DerivedData/
 *.keystore
 *.jks
+*.keystore.properties
+*-upload.properties
+keystore.properties

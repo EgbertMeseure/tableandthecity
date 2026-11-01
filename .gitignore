@@ -5,3 +5,9 @@ img/p.html
 .DS_Store
 data/osm/streets.json
 data/osm/*-streets.json
+
+# signing material never in git
+*.jks
+*.keystore
+*-upload.properties
+keystore.properties

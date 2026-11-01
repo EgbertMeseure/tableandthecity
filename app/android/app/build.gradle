@@ -1,5 +1,19 @@
 apply plugin: 'com.android.application'
 
+// Release signing: the upload keystore + its properties file live OUTSIDE the repo (never commit them).
+// Path of the properties file (keys: storeFile, storePassword, keyAlias, keyPassword) comes from
+//   -PtatcKeystoreProperties=/path/file.properties   or   env TATC_KEYSTORE_PROPERTIES=/path/file.properties
+// (box default: /home/box/secure/tableandthecity-upload.properties). No secrets in git.
+def keystorePropsPath = project.findProperty('tatcKeystoreProperties') ?: System.getenv('TATC_KEYSTORE_PROPERTIES') ?: '/home/box/secure/tableandthecity-upload.properties'
+def keystorePropsFile = file(keystorePropsPath)
+def keystoreProps = new Properties()
+if (keystorePropsFile.exists()) { keystorePropsFile.withInputStream { keystoreProps.load(it) } }
+gradle.taskGraph.whenReady { g ->
+    if (g.allTasks.any { it.name in ['bundleRelease', 'assembleRelease'] } && !keystoreProps['storeFile']) {
+        throw new GradleException("Release signing: no keystore properties at ${keystorePropsPath} (set TATC_KEYSTORE_PROPERTIES)")
+    }
+}
+
 android {
     namespace = "com.tableandthecity.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,8 +21,9 @@ android {
         applicationId "com.tableandthecity.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        // Bump for every Play upload: ./gradlew bundleRelease -PversionCode=2 -PversionName=1.0.1
+        versionCode((project.findProperty('versionCode') ?: '1') as int)
+        versionName((project.findProperty('versionName') ?: '1.0.0') as String)
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -16,8 +31,19 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        release {
+            if (keystoreProps['storeFile']) {
+                storeFile file(keystoreProps['storeFile'])
+                storePassword keystoreProps['storePassword']
+                keyAlias keystoreProps['keyAlias']
+                keyPassword keystoreProps['keyPassword']
+            }
+        }
+    }
     buildTypes {
         release {
+            if (keystoreProps['storeFile']) { signingConfig signingConfigs.release }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
