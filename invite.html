@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="build" content="e6c8d3d853">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Table and the City – you’re invited</title>
+<!-- Short "Want to go with…" links (js/features.js inviteUrl): /invite?<city>/<id>/<FirstName>[&<lang>]  ·  /invite?<country>/<city>/<id>/<FirstName>
+     GitHub Pages serves /invite from this file. It forwards at once to the place page (restaurant.html?…&invite=1&from=…), which shows the invite card;
+     anything that does not parse goes to the homepage. Spaces may come as + or %20; names are cleaned like the place page does. -->
+<script>
+(function () {
+  var home = './', to = home;
+  try {
+    var q = location.search.replace(/^\?/, '').split('&'), p = q.shift().split('/'), lang = '';
+    q.forEach(function (t) { t = t.toLowerCase().replace(/^lang=/, ''); if (/^(en|nl|de|fr|es)$/.test(t)) lang = t; });
+    var d = function (v) { return decodeURIComponent(String(v || '').replace(/\+/g, ' ')); };
+    if (p.length === 2) p.push('');                      // no name
+    if (p.length === 3) p.unshift('be');                 // Belgium needs no country
+    if (p.length === 4) {
+      var co = d(p[0]).toLowerCase(), city = d(p[1]).toLowerCase(), id = d(p[2]).toLowerCase(),
+          from = Array.from(d(p[3]).normalize('NFC').replace(/[^\p{L}\p{M}\p{N} .'’-]+/gu, ' ').replace(/\s+/g, ' ').trim()).slice(0, 30).join('').trim();
+      if (/^[a-z]{2}$/.test(co) && /^[a-z0-9-]{1,60}$/.test(city) && /^[a-z0-9-]{1,120}$/.test(id)) {
+        var s = 'country=' + co + '&city=' + city + '&id=' + encodeURIComponent(id) + '&invite=1' + (from ? '&from=' + encodeURIComponent(from) : '') + (lang ? '&lang=' + lang : '');
+        to = 'restaurant.html?' + s;
+      }
+    }
+  } catch (e) { to = home; }
+  location.replace(to);
+  document.addEventListener('DOMContentLoaded', function () { var a = document.getElementById('go'); if (a) a.href = to; });
+})();
+</script>
+<meta name="description" content="A friend wants to go out with you. See the place on Table and the City.">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="img/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/brand/apple-touch-icon-180.png" sizes="180x180">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Table and the City">
+<meta property="og:title" content="Table and the City – you’re invited">
+<meta property="og:description" content="A friend wants to go here with you. Tap to see the place.">
+<meta property="og:url" content="https://www.tableandthecity.com/invite">
+<meta property="og:image" content="https://www.tableandthecity.com/img/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Table and the City logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Table and the City – you’re invited">
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b0b0b;color:#f4efe6;font:16px/1.5 Montserrat,system-ui,sans-serif;text-align:center}a{color:inherit}</style>
+</head>
+<body>
+<p>You’re invited · <a id="go" href="./">Open Table and the City</a></p>
+<noscript><p><a href="./">Open Table and the City</a> and search for the place your friend sent.</p></noscript>
+</body>
+</html>
