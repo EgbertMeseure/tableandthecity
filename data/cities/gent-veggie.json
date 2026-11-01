@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "gent",
- "count": 157,
+ "count": 158,
  "places": {
   "cafe-labath": {
    "veggieLevel": "vegan-friendly",
@@ -1370,6 +1370,15 @@
    "basis": "HappyCow listing",
    "hcName": "Giftshop Gent",
    "hcInfo": "Cozy bar in an art center serving local drinks & coffee in the city center. Offers vegan mastelles from Frimout Bakkery and drinks.  Sun 13:00-18:00"
+  },
+  "t-kanon": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://files.cargocollective.com/c1041532/FOODV7.pdf"
+   ],
+   "note": "Own food menu (Oct 2026): a 'Vegetarian' section (Aardpeer/sunroot, celeriac skewer, toast champignon, saffron arancini).",
+   "basis": "verified",
+   "checked": "2026-11-01"
   }
  }
 }

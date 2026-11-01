@@ -25287,6 +25287,132 @@
      "added": "gap-fill 2026-10-31"
     }
    ]
+  },
+  "t-kanon": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/CZtMKcvMQ27/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd6WUzHo-gu/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeegH8_oU00/",
+     "category": "drink",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddv8kDvo-P2/",
+     "category": "drink",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/De9R_E8oXrx/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/t-kanon/p1-1400.webp",
+     "thumb": "img/places/gent/t-kanon/p1-700.webp",
+     "srcset": "img/places/gent/t-kanon/p1-700.webp 700w, img/places/gent/t-kanon/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1681,
+     "category": "exterior",
+     "alt": "Café 't Kanon: the outside",
+     "credit": "@cafetkanon on Instagram",
+     "credit_url": "https://www.instagram.com/cafetkanon/",
+     "ig": "https://www.instagram.com/p/CZtMKcvMQ27/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/t-kanon/p2-1400.webp",
+     "thumb": "img/places/gent/t-kanon/p2-700.webp",
+     "srcset": "img/places/gent/t-kanon/p2-700.webp 700w, img/places/gent/t-kanon/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Café 't Kanon: food",
+     "credit": "@cafetkanon on Instagram",
+     "credit_url": "https://www.instagram.com/cafetkanon/",
+     "ig": "https://www.instagram.com/p/Dd6WUzHo-gu/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/t-kanon/p3-1400.webp",
+     "thumb": "img/places/gent/t-kanon/p3-700.webp",
+     "srcset": "img/places/gent/t-kanon/p3-700.webp 700w, img/places/gent/t-kanon/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1175,
+     "category": "drink",
+     "alt": "Café 't Kanon: drinks",
+     "credit": "@cafetkanon on Instagram",
+     "credit_url": "https://www.instagram.com/cafetkanon/",
+     "ig": "https://www.instagram.com/p/DeegH8_oU00/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/t-kanon/p4-1400.webp",
+     "thumb": "img/places/gent/t-kanon/p4-700.webp",
+     "srcset": "img/places/gent/t-kanon/p4-700.webp 700w, img/places/gent/t-kanon/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "drink",
+     "alt": "Café 't Kanon: drinks",
+     "credit": "@cafetkanon on Instagram",
+     "credit_url": "https://www.instagram.com/cafetkanon/",
+     "ig": "https://www.instagram.com/p/Ddv8kDvo-P2/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/t-kanon/p5-1400.webp",
+     "thumb": "img/places/gent/t-kanon/p5-700.webp",
+     "srcset": "img/places/gent/t-kanon/p5-700.webp 700w, img/places/gent/t-kanon/p5-1400.webp 1200w",
+     "w": 1200,
+     "h": 1799,
+     "category": "food",
+     "alt": "Café 't Kanon: food",
+     "credit": "tkanon.com",
+     "credit_url": "https://tkanon.com/Private-Events-1",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/t-kanon/p6-1400.webp",
+     "thumb": "img/places/gent/t-kanon/p6-700.webp",
+     "srcset": "img/places/gent/t-kanon/p6-700.webp 700w, img/places/gent/t-kanon/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Café 't Kanon: the interior",
+     "credit": "@cafetkanon on Instagram",
+     "credit_url": "https://www.instagram.com/cafetkanon/",
+     "ig": "https://www.instagram.com/p/De9R_E8oXrx/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/t-kanon/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  }
 }
