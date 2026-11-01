@@ -373,9 +373,10 @@
   },
   "mexcalli": {
    "name": "Mexcalli",
-   "instagram_handle": null,
-   "note": "Unverified candidate @mexcalli.gent (aggregator/search only); own Wix site and Visit Gent show no Instagram link.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "mexcalli.gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DewMF88EbLS/",
+   "handleNote": "Own post (embed username mexcalli.gent) about Mexcalli tacos; same dishes as on mexcalli.be."
   },
   "mokabon": {
    "name": "Mokabon",
@@ -3742,9 +3743,10 @@
   },
   "waterhuis-aan-de-bierkant": {
    "name": "Waterhuis aan de Bierkant",
-   "instagram_handle": null,
-   "note": "Unverified candidate @waterhuisgent (search result only); own site blank, Visit Gent lists none.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "waterhuisgent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://girlswhomagazine.nl/gezellige-cafes-gent/",
+   "handleNote": "Embedded post \"shared by Waterhuis Aan De Bierkant (@waterhuisgent)\" in Girls Who Magazine and Foodies; post embeds disabled."
   },
   "way-bakery-keizerpoort": {
    "name": "WAY Specialty Coffee Bakery (Keizerpoort)",
@@ -3813,6 +3815,62 @@
    "instagram_handle": "hotclubgent",
    "handleSource": "https://www.instagram.com/p/DfLy2G-IPnK/",
    "handleNote": "Own post (embed username hotclubgent) links www.hotclub.gent/programma."
+  },
+  "la-matta": {
+   "name": "La Matta",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "lamattagent",
+   "handleSource": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/eigenaars-van-populair-cafe-t-kanon-openen-ijssalon-opleidingen-gevolgd-bij-gelatomasters/158660504.html",
+   "handleNote": "Nieuwsblad and Knack list instagram.com/lamattagent for La Matta, Meerseniersstraat 24; post embeds show username lamattagent."
+  },
+  "missy-sippy": {
+   "name": "Missy Sippy",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "missysippygent",
+   "handleSource": "https://missy-sippy.be/",
+   "handleNote": "Linked from the own website missy-sippy.be."
+  },
+  "ona-belfort": {
+   "name": "ONA Belfort",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "wijnbarona",
+   "handleSource": "https://www.ona.gent/",
+   "handleNote": "Shared account of ONA Belfort and ONA Nederkouter, linked from ona.gent; post DZkuwQFjZTb names ONA Belfort."
+  },
+  "ona-nederkouter": {
+   "name": "ONA Nederkouter",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "wijnbarona",
+   "handleSource": "https://www.ona.gent/",
+   "handleNote": "Shared account of ONA Belfort and ONA Nederkouter, linked from ona.gent."
+  },
+  "parole": {
+   "name": "Parole",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "parolewinebar",
+   "handleSource": "https://parole.gent/",
+   "handleNote": "Linked from the own website parole.gent; post embeds show username parolewinebar."
+  },
+  "the-gentle": {
+   "name": "The Gentle",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "thegentle.gent",
+   "handleSource": "https://thegentle.be/",
+   "handleNote": "Linked from thegentle.be; own post caption gives Hoogpoort 53 Gent."
+  },
+  "vinogradoff": {
+   "name": "Vinogradoff",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "vinogradoff.gent",
+   "handleSource": "https://vinogradoff.gent/",
+   "handleNote": "Linked from the own website vinogradoff.gent (post embeds disabled)."
+  },
+  "bar-martine": {
+   "name": "Bar Martine",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "bar__martine",
+   "handleSource": "https://barmartine.be/",
+   "handleNote": "Linked from the own website barmartine.be (Hippoliet Lippensplein 25); post embeds show username bar__martine."
   }
  },
  "embed": {
@@ -5450,6 +5508,51 @@
    "why": "verified via post embed"
   },
   "dewoestijngent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "lamattagent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "mexcalli.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "missysippygent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "wijnbarona": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "parolewinebar": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "thegentle.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "vinogradoff.gent": {
+   "ok": false,
+   "checked": "2026-11-01",
+   "why": "post embeds return EmbedBroken"
+  },
+  "waterhuisgent": {
+   "ok": false,
+   "checked": "2026-11-01",
+   "why": "post embeds return EmbedBroken"
+  },
+  "bar__martine": {
    "ok": true,
    "checked": "2026-11-01",
    "why": "verified via post embed"
