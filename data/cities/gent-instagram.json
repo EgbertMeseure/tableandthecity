@@ -3638,7 +3638,8 @@
    "instagram_handle": "smorbrodgent",
    "handleSource": "https://smorbrod.gent/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (approved 20 Oct 2026)"
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Linked from smorbrod.gent (Guldenspoorstraat 29, Gent)."
   },
   "soan": {
    "name": "SOAN",
@@ -5287,7 +5288,8 @@
   },
   "smorbrodgent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b15)"
   },
   "snackbarmartino": {
    "ok": true,

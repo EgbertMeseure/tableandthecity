@@ -417,49 +417,168 @@
    "layout": "mix"
   },
   "atelier-joost-arijs": {
-   "photos": [
+   "posts": [
     {
-     "src": "https://joostarijs.be/uploads_c/siteassets/19334/joostarijs_300922_1151_942df3d34cfcae9c3718444795690723.jpg",
-     "thumb": "https://joostarijs.be/uploads_c/siteassets/19334/joostarijs_300922_1151_942df3d34cfcae9c3718444795690723.jpg",
-     "w": 720,
-     "h": 720,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "joostarijs.be",
-     "credit_url": "https://joostarijs.be/",
-     "alt": ""
+     "url": "https://www.instagram.com/p/DdCEQ1iABOo/",
+     "category": "interior",
+     "origin": "research"
     },
     {
-     "src": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092",
-     "thumb": "https://joostarijs.be/uploads/site-assets/_1200x630_crop_center-center_82_none/arijs_070921_30665.jpg?mtime=1632927092",
-     "w": 1200,
-     "h": 630,
-     "hotlink": true,
+     "url": "https://www.instagram.com/p/DdCEQ1iABOo/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DerDCZKl0Y4/",
      "category": "food",
-     "source": "website",
-     "credit": "joostarijs.be",
-     "credit_url": "https://joostarijs.be/",
-     "alt": ""
-    }
-   ],
-   "posts": [
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/De_ZVZjF_J1/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DfJyPRQlxbj/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdHUo_cl7Jr/",
+     "category": "food",
+     "origin": "research"
+    },
     {
      "url": "https://www.instagram.com/p/DegQ7aAF-w-/",
      "category": "food",
      "origin": "research"
     }
    ],
+   "photos": [
+    {
+     "src": "img/places/gent/atelier-joost-arijs/p1-1400.webp",
+     "thumb": "img/places/gent/atelier-joost-arijs/p1-700.webp",
+     "srcset": "img/places/gent/atelier-joost-arijs/p1-700.webp 700w, img/places/gent/atelier-joost-arijs/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Atelier Joost Arijs: the interior",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/DdCEQ1iABOo/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/atelier-joost-arijs/p2-1400.webp",
+     "thumb": "img/places/gent/atelier-joost-arijs/p2-700.webp",
+     "srcset": "img/places/gent/atelier-joost-arijs/p2-700.webp 700w, img/places/gent/atelier-joost-arijs/p2-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Atelier Joost Arijs: the interior",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/DdCEQ1iABOo/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/atelier-joost-arijs/p3-1400.webp",
+     "thumb": "img/places/gent/atelier-joost-arijs/p3-700.webp",
+     "srcset": "img/places/gent/atelier-joost-arijs/p3-700.webp 700w, img/places/gent/atelier-joost-arijs/p3-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Atelier Joost Arijs: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/DerDCZKl0Y4/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/atelier-joost-arijs/p4-1400.webp",
+     "thumb": "img/places/gent/atelier-joost-arijs/p4-700.webp",
+     "srcset": "img/places/gent/atelier-joost-arijs/p4-700.webp 700w, img/places/gent/atelier-joost-arijs/p4-1400.webp 1400w",
+     "w": 932,
+     "h": 1209,
+     "category": "food",
+     "alt": "Atelier Joost Arijs: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/De_ZVZjF_J1/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/atelier-joost-arijs/p5-1400.webp",
+     "thumb": "img/places/gent/atelier-joost-arijs/p5-700.webp",
+     "srcset": "img/places/gent/atelier-joost-arijs/p5-700.webp 700w, img/places/gent/atelier-joost-arijs/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Atelier Joost Arijs: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/DfJyPRQlxbj/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/atelier-joost-arijs/p6-1400.webp",
+     "thumb": "img/places/gent/atelier-joost-arijs/p6-700.webp",
+     "srcset": "img/places/gent/atelier-joost-arijs/p6-700.webp 700w, img/places/gent/atelier-joost-arijs/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Atelier Joost Arijs: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/DdHUo_cl7Jr/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    }
+   ],
    "pick": {
     "type": "photo",
-    "src": "https://joostarijs.be/uploads_c/siteassets/19334/joostarijs_300922_1151_942df3d34cfcae9c3718444795690723.jpg"
-   }
+    "src": "img/places/gent/atelier-joost-arijs/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "baba-jacquet": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/Dc8AwFeMLkx/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Deewzkks94g/",
      "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdgzF9msP4L/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeUqj_0MvuF/",
+     "category": "exterior",
      "origin": "research"
     },
     {
@@ -469,6 +588,22 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/baba-jacquet/p5-1400.webp",
+     "thumb": "img/places/gent/baba-jacquet/p5-700.webp",
+     "srcset": "img/places/gent/baba-jacquet/p5-700.webp 700w, img/places/gent/baba-jacquet/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "BABA Jacquet: the interior",
+     "credit": "@baba.jacquet on Instagram",
+     "credit_url": "https://www.instagram.com/baba.jacquet/",
+     "ig": "https://www.instagram.com/p/Dc8AwFeMLkx/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
     {
      "src": "img/places/gent/baba-jacquet/p1-1400.webp",
      "thumb": "img/places/gent/baba-jacquet/p1-700.webp",
@@ -484,18 +619,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/baba-jacquet/p2-800.webp",
-     "thumb": "img/places/gent/baba-jacquet/p2-400.webp",
-     "srcset": "img/places/gent/baba-jacquet/p2-400.webp 400w, img/places/gent/baba-jacquet/p2-800.webp 800w",
-     "w": 800,
-     "h": 1012,
+     "src": "img/places/gent/baba-jacquet/p6-1400.webp",
+     "thumb": "img/places/gent/baba-jacquet/p6-700.webp",
+     "srcset": "img/places/gent/baba-jacquet/p6-700.webp 700w, img/places/gent/baba-jacquet/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1771,
      "category": "food",
      "alt": "BABA Jacquet: food",
      "credit": "@baba.jacquet on Instagram",
      "credit_url": "https://www.instagram.com/baba.jacquet/",
+     "ig": "https://www.instagram.com/p/Deewzkks94g/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
      "src": "img/places/gent/baba-jacquet/p3-800.webp",
@@ -512,29 +649,82 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/baba-jacquet/p4-800.webp",
-     "thumb": "img/places/gent/baba-jacquet/p4-400.webp",
-     "srcset": "img/places/gent/baba-jacquet/p4-400.webp 400w, img/places/gent/baba-jacquet/p4-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/baba-jacquet/p7-1400.webp",
+     "thumb": "img/places/gent/baba-jacquet/p7-700.webp",
+     "srcset": "img/places/gent/baba-jacquet/p7-700.webp 700w, img/places/gent/baba-jacquet/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "BABA Jacquet: food",
+     "credit": "@baba.jacquet on Instagram",
+     "credit_url": "https://www.instagram.com/baba.jacquet/",
+     "ig": "https://www.instagram.com/p/DdgzF9msP4L/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/baba-jacquet/p8-1400.webp",
+     "thumb": "img/places/gent/baba-jacquet/p8-700.webp",
+     "srcset": "img/places/gent/baba-jacquet/p8-700.webp 700w, img/places/gent/baba-jacquet/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1866,
+     "category": "food",
+     "alt": "BABA Jacquet: food",
+     "credit": "babajacquet.be",
+     "credit_url": "https://babajacquet.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/baba-jacquet/p9-1400.webp",
+     "thumb": "img/places/gent/baba-jacquet/p9-700.webp",
+     "srcset": "img/places/gent/baba-jacquet/p9-700.webp 700w, img/places/gent/baba-jacquet/p9-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "exterior",
      "alt": "BABA Jacquet: the outside",
      "credit": "@baba.jacquet on Instagram",
      "credit_url": "https://www.instagram.com/baba.jacquet/",
+     "ig": "https://www.instagram.com/p/DeUqj_0MvuF/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/baba-jacquet/p1-1400.webp"
+    "src": "img/places/gent/baba-jacquet/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "bakker-klaas-wintercircus": {
    "posts": [
+    {
+     "url": "https://www.instagram.com/p/DfCBncViK5j/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd_OLEQCrfP/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd6CKWyCryK/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/De6RzxKCueD/",
+     "category": "food",
+     "origin": "research"
+    },
     {
      "url": "https://www.instagram.com/p/DelvafjKkbH/",
      "category": "food",
@@ -548,9 +738,9 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/bakker-klaas-wintercircus/p1-1400.webp",
-     "thumb": "img/places/gent/bakker-klaas-wintercircus/p1-700.webp",
-     "srcset": "img/places/gent/bakker-klaas-wintercircus/p1-700.webp 700w, img/places/gent/bakker-klaas-wintercircus/p1-1400.webp 1400w",
+     "src": "img/places/gent/bakker-klaas-wintercircus/p5-1400.webp",
+     "thumb": "img/places/gent/bakker-klaas-wintercircus/p5-700.webp",
+     "srcset": "img/places/gent/bakker-klaas-wintercircus/p5-700.webp 700w, img/places/gent/bakker-klaas-wintercircus/p5-1400.webp 1400w",
      "w": 1400,
      "h": 934,
      "category": "exterior",
@@ -559,21 +749,24 @@
      "credit_url": "https://www.bakkerklaas.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
-     "src": "img/places/gent/bakker-klaas-wintercircus/p2-800.webp",
-     "thumb": "img/places/gent/bakker-klaas-wintercircus/p2-400.webp",
-     "srcset": "img/places/gent/bakker-klaas-wintercircus/p2-400.webp 400w, img/places/gent/bakker-klaas-wintercircus/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "food",
-     "alt": "Bakker Klaas (Wintercircus): food",
+     "src": "img/places/gent/bakker-klaas-wintercircus/p9-1400.webp",
+     "thumb": "img/places/gent/bakker-klaas-wintercircus/p9-700.webp",
+     "srcset": "img/places/gent/bakker-klaas-wintercircus/p9-700.webp 700w, img/places/gent/bakker-klaas-wintercircus/p9-1400.webp 1400w",
+     "w": 660,
+     "h": 960,
+     "category": "exterior",
+     "alt": "Bakker Klaas (Wintercircus): the outside",
      "credit": "@bakkerklaas.gent on Instagram",
      "credit_url": "https://www.instagram.com/bakkerklaas.gent/",
+     "ig": "https://www.instagram.com/p/DfCBncViK5j/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
      "src": "img/places/gent/bakker-klaas-wintercircus/p3-800.webp",
@@ -590,23 +783,57 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/bakker-klaas-wintercircus/p4-800.webp",
-     "thumb": "img/places/gent/bakker-klaas-wintercircus/p4-400.webp",
-     "srcset": "img/places/gent/bakker-klaas-wintercircus/p4-400.webp 400w, img/places/gent/bakker-klaas-wintercircus/p4-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/bakker-klaas-wintercircus/p6-1400.webp",
+     "thumb": "img/places/gent/bakker-klaas-wintercircus/p6-700.webp",
+     "srcset": "img/places/gent/bakker-klaas-wintercircus/p6-700.webp 700w, img/places/gent/bakker-klaas-wintercircus/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1858,
      "category": "food",
      "alt": "Bakker Klaas (Wintercircus): food",
      "credit": "@bakkerklaas.gent on Instagram",
      "credit_url": "https://www.instagram.com/bakkerklaas.gent/",
+     "ig": "https://www.instagram.com/p/Dd_OLEQCrfP/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bakker-klaas-wintercircus/p7-1400.webp",
+     "thumb": "img/places/gent/bakker-klaas-wintercircus/p7-700.webp",
+     "srcset": "img/places/gent/bakker-klaas-wintercircus/p7-700.webp 700w, img/places/gent/bakker-klaas-wintercircus/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Bakker Klaas (Wintercircus): food",
+     "credit": "@bakkerklaas.gent on Instagram",
+     "credit_url": "https://www.instagram.com/bakkerklaas.gent/",
+     "ig": "https://www.instagram.com/p/Dd6CKWyCryK/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bakker-klaas-wintercircus/p8-1400.webp",
+     "thumb": "img/places/gent/bakker-klaas-wintercircus/p8-700.webp",
+     "srcset": "img/places/gent/bakker-klaas-wintercircus/p8-700.webp 700w, img/places/gent/bakker-klaas-wintercircus/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Bakker Klaas (Wintercircus): food",
+     "credit": "@bakkerklaas.gent on Instagram",
+     "credit_url": "https://www.instagram.com/bakkerklaas.gent/",
+     "ig": "https://www.instagram.com/p/De6RzxKCueD/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/bakker-klaas-wintercircus/p1-1400.webp"
+    "src": "img/places/gent/bakker-klaas-wintercircus/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -4615,21 +4842,27 @@
    "layout": "mix"
   },
   "joost-arijs": {
-   "photos": [
-    {
-     "src": "https://joostarijs.be/uploads_c/siteassets/50722/joostarijs_300926_0108_11106a2285c0bff5e0dd93337bf803fb.jpg",
-     "thumb": "https://joostarijs.be/uploads_c/siteassets/50722/joostarijs_300926_0108_11106a2285c0bff5e0dd93337bf803fb.jpg",
-     "w": 1600,
-     "h": 944,
-     "hotlink": true,
-     "category": "food",
-     "source": "website",
-     "credit": "joostarijs.be",
-     "credit_url": "https://joostarijs.be/",
-     "alt": ""
-    }
-   ],
    "posts": [
+    {
+     "url": "https://www.instagram.com/p/Dd8OXFoFxSJ/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Ddo52eJjHD0/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DceBIatmzUS/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcS2W3ZIHZ0/",
+     "category": "food",
+     "origin": "research"
+    },
     {
      "url": "https://www.instagram.com/p/DerC_8wFzIC/",
      "category": "food",
@@ -4641,10 +4874,78 @@
      "origin": "research"
     }
    ],
+   "photos": [
+    {
+     "src": "img/places/gent/joost-arijs/p1-1400.webp",
+     "thumb": "img/places/gent/joost-arijs/p1-700.webp",
+     "srcset": "img/places/gent/joost-arijs/p1-700.webp 700w, img/places/gent/joost-arijs/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1729,
+     "category": "food",
+     "alt": "Joost Arijs Patisserie & Chocolaterie: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/Dd8OXFoFxSJ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/joost-arijs/p2-1400.webp",
+     "thumb": "img/places/gent/joost-arijs/p2-700.webp",
+     "srcset": "img/places/gent/joost-arijs/p2-700.webp 700w, img/places/gent/joost-arijs/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1729,
+     "category": "food",
+     "alt": "Joost Arijs Patisserie & Chocolaterie: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/Ddo52eJjHD0/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/joost-arijs/p3-1400.webp",
+     "thumb": "img/places/gent/joost-arijs/p3-700.webp",
+     "srcset": "img/places/gent/joost-arijs/p3-700.webp 700w, img/places/gent/joost-arijs/p3-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Joost Arijs Patisserie & Chocolaterie: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/DceBIatmzUS/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/joost-arijs/p4-1400.webp",
+     "thumb": "img/places/gent/joost-arijs/p4-700.webp",
+     "srcset": "img/places/gent/joost-arijs/p4-700.webp 700w, img/places/gent/joost-arijs/p4-1400.webp 1400w",
+     "w": 1280,
+     "h": 1580,
+     "category": "food",
+     "alt": "Joost Arijs Patisserie & Chocolaterie: food",
+     "credit": "@joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/joostarijs/",
+     "ig": "https://www.instagram.com/p/DcS2W3ZIHZ0/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    }
+   ],
    "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DerC_8wFzIC/"
-   }
+    "type": "photo",
+    "src": "img/places/gent/joost-arijs/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "jour-de-fete": {
    "posts": [
@@ -6300,6 +6601,16 @@
   "madam-bakster": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/De12KnrIer3/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeuMliLIoej/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeepTSVI3Os/",
      "category": "food",
      "origin": "research"
@@ -6312,84 +6623,136 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/madam-bakster/p1-1400.webp",
-     "thumb": "img/places/gent/madam-bakster/p1-700.webp",
-     "srcset": "img/places/gent/madam-bakster/p1-700.webp 700w, img/places/gent/madam-bakster/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1080,
+     "src": "img/places/gent/madam-bakster/p5-1400.webp",
+     "thumb": "img/places/gent/madam-bakster/p5-700.webp",
+     "srcset": "img/places/gent/madam-bakster/p5-700.webp 700w, img/places/gent/madam-bakster/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
      "category": "interior",
      "alt": "Madam Bakster: the interior",
      "credit": "@madambakster on Instagram",
      "credit_url": "https://www.instagram.com/madambakster/",
+     "ig": "https://www.instagram.com/p/De12KnrIer3/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
-     "src": "img/places/gent/madam-bakster/p2-800.webp",
-     "thumb": "img/places/gent/madam-bakster/p2-400.webp",
-     "srcset": "img/places/gent/madam-bakster/p2-400.webp 400w, img/places/gent/madam-bakster/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "src": "img/places/gent/madam-bakster/p6-1400.webp",
+     "thumb": "img/places/gent/madam-bakster/p6-700.webp",
+     "srcset": "img/places/gent/madam-bakster/p6-700.webp 700w, img/places/gent/madam-bakster/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "Madam Bakster: the interior",
+     "credit": "@madambakster on Instagram",
+     "credit_url": "https://www.instagram.com/madambakster/",
+     "ig": "https://www.instagram.com/p/DeuMliLIoej/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/madam-bakster/p7-1400.webp",
+     "thumb": "img/places/gent/madam-bakster/p7-700.webp",
+     "srcset": "img/places/gent/madam-bakster/p7-700.webp 700w, img/places/gent/madam-bakster/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
      "category": "food",
      "alt": "Madam Bakster: food",
      "credit": "@madambakster on Instagram",
      "credit_url": "https://www.instagram.com/madambakster/",
+     "ig": "https://www.instagram.com/p/DeepTSVI3Os/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
-     "src": "img/places/gent/madam-bakster/p3-800.webp",
-     "thumb": "img/places/gent/madam-bakster/p3-400.webp",
-     "srcset": "img/places/gent/madam-bakster/p3-400.webp 400w, img/places/gent/madam-bakster/p3-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "src": "img/places/gent/madam-bakster/p8-1400.webp",
+     "thumb": "img/places/gent/madam-bakster/p8-700.webp",
+     "srcset": "img/places/gent/madam-bakster/p8-700.webp 700w, img/places/gent/madam-bakster/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
      "category": "food",
      "alt": "Madam Bakster: food",
      "credit": "@madambakster on Instagram",
      "credit_url": "https://www.instagram.com/madambakster/",
+     "ig": "https://www.instagram.com/p/Dew3AnuI5l2/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
-     "src": "img/places/gent/madam-bakster/p4-800.webp",
-     "thumb": "img/places/gent/madam-bakster/p4-400.webp",
-     "srcset": "img/places/gent/madam-bakster/p4-400.webp 400w, img/places/gent/madam-bakster/p4-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "src": "img/places/gent/madam-bakster/p9-1400.webp",
+     "thumb": "img/places/gent/madam-bakster/p9-700.webp",
+     "srcset": "img/places/gent/madam-bakster/p9-700.webp 700w, img/places/gent/madam-bakster/p9-1400.webp 1400w",
+     "w": 1400,
+     "h": 848,
      "category": "food",
      "alt": "Madam Bakster: food",
-     "credit": "@madambakster on Instagram",
-     "credit_url": "https://www.instagram.com/madambakster/",
+     "credit": "madambakster.be",
+     "credit_url": "https://madambakster.be/assets/css/site_style.less?v=2",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/madam-bakster/p10-1400.webp",
+     "thumb": "img/places/gent/madam-bakster/p10-700.webp",
+     "srcset": "img/places/gent/madam-bakster/p10-700.webp 700w, img/places/gent/madam-bakster/p10-1400.webp 1400w",
+     "w": 900,
+     "h": 900,
+     "category": "food",
+     "alt": "Madam Bakster: food",
+     "credit": "madambakster.be",
+     "credit_url": "https://madambakster.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/madam-bakster/p1-1400.webp"
+    "src": "img/places/gent/madam-bakster/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "marijn-coertjens": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DfCm8JaEvw6/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DewaleRoDPB/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
-     "src": "img/places/gent/marijn-coertjens/p1-1400.webp",
-     "thumb": "img/places/gent/marijn-coertjens/p1-700.webp",
-     "srcset": "img/places/gent/marijn-coertjens/p1-700.webp 700w, img/places/gent/marijn-coertjens/p1-1400.webp 1400w",
-     "w": 1080,
+     "src": "img/places/gent/marijn-coertjens/p4-1400.webp",
+     "thumb": "img/places/gent/marijn-coertjens/p4-700.webp",
+     "srcset": "img/places/gent/marijn-coertjens/p4-700.webp 700w, img/places/gent/marijn-coertjens/p4-1400.webp 1400w",
+     "w": 1015,
      "h": 1350,
      "category": "exterior",
      "alt": "Marijn Coertjens: the outside",
      "credit": "@marijncoertjens on Instagram",
      "credit_url": "https://www.instagram.com/marijncoertjens/",
+     "ig": "https://www.instagram.com/p/DfCm8JaEvw6/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
      "src": "img/places/gent/marijn-coertjens/p2-800.webp",
@@ -6397,8 +6760,8 @@
      "srcset": "img/places/gent/marijn-coertjens/p2-400.webp 400w, img/places/gent/marijn-coertjens/p2-800.webp 800w",
      "w": 800,
      "h": 1200,
-     "category": "food",
-     "alt": "Marijn Coertjens: food",
+     "category": "interior",
+     "alt": "Marijn Coertjens: the interior",
      "credit": "marijncoertjens.be",
      "credit_url": "https://www.marijncoertjens.be/en/home/",
      "license": "the place's own photo",
@@ -6419,11 +6782,57 @@
      "source": "own_instagram",
      "noPeopleChecked": true,
      "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/marijn-coertjens/p5-1400.webp",
+     "thumb": "img/places/gent/marijn-coertjens/p5-700.webp",
+     "srcset": "img/places/gent/marijn-coertjens/p5-700.webp 700w, img/places/gent/marijn-coertjens/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Marijn Coertjens: food",
+     "credit": "@marijncoertjens on Instagram",
+     "credit_url": "https://www.instagram.com/marijncoertjens/",
+     "ig": "https://www.instagram.com/p/DewaleRoDPB/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/marijn-coertjens/p6-1400.webp",
+     "thumb": "img/places/gent/marijn-coertjens/p6-700.webp",
+     "srcset": "img/places/gent/marijn-coertjens/p6-700.webp 700w, img/places/gent/marijn-coertjens/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Marijn Coertjens: food",
+     "credit": "marijncoertjens.be",
+     "credit_url": "https://www.marijncoertjens.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/marijn-coertjens/p7-1400.webp",
+     "thumb": "img/places/gent/marijn-coertjens/p7-700.webp",
+     "srcset": "img/places/gent/marijn-coertjens/p7-700.webp 700w, img/places/gent/marijn-coertjens/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1406,
+     "category": "food",
+     "alt": "Marijn Coertjens: food",
+     "credit": "marijncoertjens.be",
+     "credit_url": "https://www.marijncoertjens.be/pralines/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/marijn-coertjens/p1-1400.webp"
+    "src": "img/places/gent/marijn-coertjens/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -6937,9 +7346,44 @@
      "url": "https://www.instagram.com/p/DdtE0aRNHVR/",
      "category": "food",
      "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZuVXokNZEl/",
+     "category": "food",
+     "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/morgen-bakkerij/p4-1400.webp",
+     "thumb": "img/places/gent/morgen-bakkerij/p4-700.webp",
+     "srcset": "img/places/gent/morgen-bakkerij/p4-700.webp 700w, img/places/gent/morgen-bakkerij/p4-1400.webp 1400w",
+     "w": 750,
+     "h": 1000,
+     "category": "interior",
+     "alt": "MORGEN bakkerij: the interior",
+     "credit": "morgen-bakkerij.be",
+     "credit_url": "https://morgen-bakkerij.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/morgen-bakkerij/p5-1400.webp",
+     "thumb": "img/places/gent/morgen-bakkerij/p5-700.webp",
+     "srcset": "img/places/gent/morgen-bakkerij/p5-700.webp 700w, img/places/gent/morgen-bakkerij/p5-1400.webp 1400w",
+     "w": 1070,
+     "h": 1605,
+     "category": "interior",
+     "alt": "MORGEN bakkerij: the interior",
+     "credit": "morgen-bakkerij.be",
+     "credit_url": "https://morgen-bakkerij.be/pages/over-ons",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
     {
      "src": "img/places/gent/morgen-bakkerij/p1-1400.webp",
      "thumb": "img/places/gent/morgen-bakkerij/p1-700.webp",
@@ -6955,37 +7399,57 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/morgen-bakkerij/p2-800.webp",
-     "thumb": "img/places/gent/morgen-bakkerij/p2-400.webp",
-     "srcset": "img/places/gent/morgen-bakkerij/p2-400.webp 400w, img/places/gent/morgen-bakkerij/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/morgen-bakkerij/p6-1400.webp",
+     "thumb": "img/places/gent/morgen-bakkerij/p6-700.webp",
+     "srcset": "img/places/gent/morgen-bakkerij/p6-700.webp 700w, img/places/gent/morgen-bakkerij/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "MORGEN bakkerij: food",
      "credit": "@morgen.bakkerij on Instagram",
      "credit_url": "https://www.instagram.com/morgen.bakkerij/",
+     "ig": "https://www.instagram.com/p/DeBtoFMtYmk/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
-     "src": "img/places/gent/morgen-bakkerij/p3-800.webp",
-     "thumb": "img/places/gent/morgen-bakkerij/p3-400.webp",
-     "srcset": "img/places/gent/morgen-bakkerij/p3-400.webp 400w, img/places/gent/morgen-bakkerij/p3-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/morgen-bakkerij/p7-1400.webp",
+     "thumb": "img/places/gent/morgen-bakkerij/p7-700.webp",
+     "srcset": "img/places/gent/morgen-bakkerij/p7-700.webp 700w, img/places/gent/morgen-bakkerij/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "MORGEN bakkerij: food",
      "credit": "@morgen.bakkerij on Instagram",
      "credit_url": "https://www.instagram.com/morgen.bakkerij/",
+     "ig": "https://www.instagram.com/p/DdtE0aRNHVR/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/morgen-bakkerij/p8-1400.webp",
+     "thumb": "img/places/gent/morgen-bakkerij/p8-700.webp",
+     "srcset": "img/places/gent/morgen-bakkerij/p8-700.webp 700w, img/places/gent/morgen-bakkerij/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "MORGEN bakkerij: food",
+     "credit": "@morgen.bakkerij on Instagram",
+     "credit_url": "https://www.instagram.com/morgen.bakkerij/",
+     "ig": "https://www.instagram.com/p/DZuVXokNZEl/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/morgen-bakkerij/p1-1400.webp"
+    "src": "img/places/gent/morgen-bakkerij/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -24693,12 +25157,43 @@
      "origin": "research"
     },
     {
+     "url": "https://www.instagram.com/p/DcdXP7kl1Ux/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcdXP7kl1Ux/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DetiMF8l0lF/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Deth6RlRJqg/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/smorbrod/p4-1400.webp",
+     "thumb": "img/places/gent/smorbrod/p4-700.webp",
+     "srcset": "img/places/gent/smorbrod/p4-700.webp 700w, img/places/gent/smorbrod/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "SMØRBRØD: the interior",
+     "credit": "@smorbrodgent on Instagram",
+     "credit_url": "https://www.instagram.com/smorbrodgent/",
+     "ig": "https://www.instagram.com/p/DcsyBCjRa3w/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
     {
      "src": "img/places/gent/smorbrod/p1-1400.webp",
      "thumb": "img/places/gent/smorbrod/p1-700.webp",
@@ -24714,37 +25209,57 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/smorbrod/p2-800.webp",
-     "thumb": "img/places/gent/smorbrod/p2-400.webp",
-     "srcset": "img/places/gent/smorbrod/p2-400.webp 400w, img/places/gent/smorbrod/p2-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/gent/smorbrod/p5-1400.webp",
+     "thumb": "img/places/gent/smorbrod/p5-700.webp",
+     "srcset": "img/places/gent/smorbrod/p5-700.webp 700w, img/places/gent/smorbrod/p5-1400.webp 1400w",
+     "w": 1365,
+     "h": 1820,
      "category": "food",
      "alt": "SMØRBRØD: food",
      "credit": "@smorbrodgent on Instagram",
      "credit_url": "https://www.instagram.com/smorbrodgent/",
+     "ig": "https://www.instagram.com/p/DcdXP7kl1Ux/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     },
     {
-     "src": "img/places/gent/smorbrod/p3-800.webp",
-     "thumb": "img/places/gent/smorbrod/p3-400.webp",
-     "srcset": "img/places/gent/smorbrod/p3-400.webp 400w, img/places/gent/smorbrod/p3-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/smorbrod/p6-1400.webp",
+     "thumb": "img/places/gent/smorbrod/p6-700.webp",
+     "srcset": "img/places/gent/smorbrod/p6-700.webp 700w, img/places/gent/smorbrod/p6-1400.webp 1400w",
+     "w": 1365,
+     "h": 1820,
      "category": "food",
      "alt": "SMØRBRØD: food",
      "credit": "@smorbrodgent on Instagram",
      "credit_url": "https://www.instagram.com/smorbrodgent/",
+     "ig": "https://www.instagram.com/p/DcdXP7kl1Ux/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/smorbrod/p7-1400.webp",
+     "thumb": "img/places/gent/smorbrod/p7-700.webp",
+     "srcset": "img/places/gent/smorbrod/p7-700.webp 700w, img/places/gent/smorbrod/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "SMØRBRØD: food",
+     "credit": "@smorbrodgent on Instagram",
+     "credit_url": "https://www.instagram.com/smorbrodgent/",
+     "ig": "https://www.instagram.com/p/DetiMF8l0lF/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/smorbrod/p1-1400.webp"
+    "src": "img/places/gent/smorbrod/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -25272,12 +25787,74 @@
   "the-bakery-joost-arijs": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DdZdHG4Demm/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdZdHG4Demm/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc_mTm7m9bw/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DecZxdiDeqv/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DfJkgeSl67U/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DY6kLfboGgy/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DecZu5ODRvn/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/the-bakery-joost-arijs/p4-1400.webp",
+     "thumb": "img/places/gent/the-bakery-joost-arijs/p4-700.webp",
+     "srcset": "img/places/gent/the-bakery-joost-arijs/p4-700.webp 700w, img/places/gent/the-bakery-joost-arijs/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "The Bakery by Joost Arijs: the interior",
+     "credit": "@thebakery_joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/thebakery_joostarijs/",
+     "ig": "https://www.instagram.com/p/DdZdHG4Demm/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-bakery-joost-arijs/p5-1400.webp",
+     "thumb": "img/places/gent/the-bakery-joost-arijs/p5-700.webp",
+     "srcset": "img/places/gent/the-bakery-joost-arijs/p5-700.webp 700w, img/places/gent/the-bakery-joost-arijs/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "The Bakery by Joost Arijs: the interior",
+     "credit": "@thebakery_joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/thebakery_joostarijs/",
+     "ig": "https://www.instagram.com/p/DdZdHG4Demm/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
     {
      "src": "img/places/gent/the-bakery-joost-arijs/p1-1400.webp",
      "thumb": "img/places/gent/the-bakery-joost-arijs/p1-700.webp",
@@ -25293,37 +25870,73 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/the-bakery-joost-arijs/p2-800.webp",
-     "thumb": "img/places/gent/the-bakery-joost-arijs/p2-400.webp",
-     "srcset": "img/places/gent/the-bakery-joost-arijs/p2-400.webp 400w, img/places/gent/the-bakery-joost-arijs/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
-     "category": "food",
-     "alt": "The Bakery by Joost Arijs: food",
-     "credit": "thebakery-joostarijs.be",
-     "credit_url": "https://thebakery-joostarijs.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/the-bakery-joost-arijs/p3-800.webp",
-     "thumb": "img/places/gent/the-bakery-joost-arijs/p3-400.webp",
-     "srcset": "img/places/gent/the-bakery-joost-arijs/p3-400.webp 400w, img/places/gent/the-bakery-joost-arijs/p3-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/the-bakery-joost-arijs/p6-1400.webp",
+     "thumb": "img/places/gent/the-bakery-joost-arijs/p6-700.webp",
+     "srcset": "img/places/gent/the-bakery-joost-arijs/p6-700.webp 700w, img/places/gent/the-bakery-joost-arijs/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "The Bakery by Joost Arijs: food",
      "credit": "@thebakery_joostarijs on Instagram",
      "credit_url": "https://www.instagram.com/thebakery_joostarijs/",
+     "ig": "https://www.instagram.com/p/Dc_mTm7m9bw/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-bakery-joost-arijs/p7-1400.webp",
+     "thumb": "img/places/gent/the-bakery-joost-arijs/p7-700.webp",
+     "srcset": "img/places/gent/the-bakery-joost-arijs/p7-700.webp 700w, img/places/gent/the-bakery-joost-arijs/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1868,
+     "category": "food",
+     "alt": "The Bakery by Joost Arijs: food",
+     "credit": "@thebakery_joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/thebakery_joostarijs/",
+     "ig": "https://www.instagram.com/p/DecZxdiDeqv/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-bakery-joost-arijs/p8-1400.webp",
+     "thumb": "img/places/gent/the-bakery-joost-arijs/p8-700.webp",
+     "srcset": "img/places/gent/the-bakery-joost-arijs/p8-700.webp 700w, img/places/gent/the-bakery-joost-arijs/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1731,
+     "category": "food",
+     "alt": "The Bakery by Joost Arijs: food",
+     "credit": "@thebakery_joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/thebakery_joostarijs/",
+     "ig": "https://www.instagram.com/p/DfJkgeSl67U/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-bakery-joost-arijs/p9-1400.webp",
+     "thumb": "img/places/gent/the-bakery-joost-arijs/p9-700.webp",
+     "srcset": "img/places/gent/the-bakery-joost-arijs/p9-700.webp 700w, img/places/gent/the-bakery-joost-arijs/p9-1400.webp 1400w",
+     "w": 1267,
+     "h": 1564,
+     "category": "exterior",
+     "alt": "The Bakery by Joost Arijs: the outside",
+     "credit": "@thebakery_joostarijs on Instagram",
+     "credit_url": "https://www.instagram.com/thebakery_joostarijs/",
+     "ig": "https://www.instagram.com/p/DY6kLfboGgy/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/the-bakery-joost-arijs/p1-1400.webp"
+    "src": "img/places/gent/the-bakery-joost-arijs/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -28229,6 +28842,36 @@
      "source": "own_website",
      "noPeopleChecked": true,
      "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/julies-house/p3-1400.webp",
+     "thumb": "img/places/gent/julies-house/p3-700.webp",
+     "srcset": "img/places/gent/julies-house/p3-700.webp 700w, img/places/gent/julies-house/p3-1400.webp 1400w",
+     "w": 1000,
+     "h": 1000,
+     "category": "food",
+     "alt": "Julie's House: food",
+     "credit": "julieshouse.be",
+     "credit_url": "https://www.julieshouse.be/en_GB/reserveren",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/julies-house/p4-1400.webp",
+     "thumb": "img/places/gent/julies-house/p4-700.webp",
+     "srcset": "img/places/gent/julies-house/p4-700.webp 700w, img/places/gent/julies-house/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Julie's House: food",
+     "credit": "julieshouse.be",
+     "credit_url": "https://www.julieshouse.be/en_GB/shop/cart",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b15 2026-11-01"
     }
    ],
    "pick": {

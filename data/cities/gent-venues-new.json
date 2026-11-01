@@ -2297,7 +2297,7 @@
       "openingHours": "Tue–Fri 08:30–16:30; Sat 09:00–15:30",
       "openingHoursSource": "https://smorbrod.gent/pages/contact",
       "website": "https://smorbrod.gent/",
-      "instagram_handle": null,
+      "instagram_handle": "smorbrodgent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -2322,7 +2322,8 @@
         "https://europeancoffeetrip.com/ghent/"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "morgen-bakkerij",
