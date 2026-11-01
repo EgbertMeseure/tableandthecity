@@ -484,6 +484,7 @@ Fine dining, gastro-bistros, Michelin stars | Fine dining, gastrobistro’s, Mic
 What kind of bar? | Welk soort bar? | Was für eine Bar? | Quel genre de bar ? | ¿Qué tipo de bar?
 Signature drinks, mocktails | Signature drinks, mocktails | Signature-Drinks, Mocktails | Créations maison, mocktails | Cócteles de autor, mocktails
 Wine by the glass, small plates | Wijn per glas, kleine gerechtjes | Wein im Glas, kleine Teller | Vin au verre, petites assiettes | Vino por copas, platillos
+Petit grand café: bar bites, small plates, wine | Petit grand café: barhapjes, kleine gerechten, wijn | Petit grand café: Barsnacks, kleine Gerichte, Wein | Petit grand café : bouchées de bar, petites assiettes, vin | Petit grand café: tapas de barra, platos pequeños, vino
 Pints & sport | Pinten & sport | Pints & Sport | Pintes & sport | Pintas y deporte
 DJ, late nights | DJ, tot laat | DJ, lange Nächte | DJ, jusqu’au bout de la nuit | DJ, hasta tarde
 Terrace? | Terras? | Terrasse? | Terrasse ? | ¿Terraza?
