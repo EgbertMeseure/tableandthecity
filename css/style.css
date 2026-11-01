@@ -1088,7 +1088,7 @@ a.card.bw-host{position:relative}
 .pm-buy:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
 @media (hover:hover){.pm-buy:not(.is-soon):hover{background:var(--blue-deep);border-color:var(--blue-deep)}}
 .pm-buy.is-soon{background:#fff;border-color:var(--hairline);color:var(--text-3);cursor:not-allowed}
-.info .ipage p.pm-for{margin:-4px 0 0;font-size:11px;color:var(--text-3)}
+
 /* the bundle: one wide card, preview on the left */
 .pm-card--bundle{flex-direction:row}
 .pm-card--bundle .pm-card__vis{flex:0 0 38%;height:auto;min-height:220px;border-bottom:0;border-right:1px solid var(--hairline)}
@@ -1152,4 +1152,64 @@ a.card.bw-host{position:relative}
   .pm-steps,.pm-terms{grid-template-columns:1fr;gap:12px}
   .pm-steps li{flex-direction:row;flex-wrap:wrap;align-items:baseline;column-gap:10px;padding:14px 16px}
   .pm-steps li span{flex-basis:100%}
+}
+.pm-price__per{font-size:12px;color:var(--text-2);margin-left:-4px}
+.pm-card--top-list .pmv{gap:5px}.pm-card--top-list .pmv-row{height:20px}
+.info .ipage p.pm-avail{margin:-6px 0 0;font-size:11px;color:var(--text-3)}
+.pm-card__foot .pm-dur1+.pm-price,.pm-card__foot p.pm-dur1{line-height:1.4}
+/* promote: place selector, availability calendar, summary */
+.pm-intro .pm-lede{flex:1 0 100%}
+.pm-placefield{flex:0 1 420px;min-width:300px}
+.pm-place{position:relative}
+.pm-combo input{width:100%;height:42px;padding:0 16px;border:1px solid var(--line-d);border-radius:var(--pill);background:#fff;color:var(--ink);font:14px var(--sans);-webkit-appearance:none;appearance:none}
+.pm-combo input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 2px rgba(42,100,116,.15)}
+.pm-combo input:disabled{background:var(--paper-warm);color:var(--text-3)}
+.pm-combo ul{position:absolute;z-index:30;left:0;right:0;top:46px;margin:0;padding:6px 0;list-style:none;background:#fff;border:1px solid var(--line-d);border-radius:12px;box-shadow:0 10px 28px rgba(0,0,0,.10);max-height:340px;overflow:auto}
+.pm-combo li{display:flex;flex-direction:column;gap:1px;padding:8px 16px;cursor:pointer}
+.pm-combo li b{font-weight:500;font-size:14px;color:var(--ink)}
+.pm-combo li span{font-size:11.5px;color:var(--text-3)}
+.pm-combo li[aria-selected="true"]{background:rgba(42,100,116,.08)}
+@media (hover:hover){.pm-combo li:hover{background:rgba(42,100,116,.06)}}
+.pm-combo li.pm-opt-new{border-top:1px solid var(--hairline);margin-top:4px;padding-top:10px}
+.pm-picked{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;padding:10px 16px;border:1px solid var(--blue);border-radius:14px;background:rgba(42,100,116,.05)}
+.pm-picked__name{font-size:15px;font-weight:500;color:var(--ink)}
+.pm-picked__meta{font-size:12px;color:var(--text-2);flex:1 1 auto}
+.pm-picked__change{border:0;background:none;padding:0;font:600 10.5px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--blue);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.pm-cal{width:100%}
+.info .ipage p.pm-cal__list{margin:0 0 6px;font-size:11px;color:var(--text-2)}
+.pm-grid{width:100%;border-collapse:separate;border-spacing:4px 4px;margin:0 -4px;table-layout:fixed}
+.pm-grid th{font-weight:500;font-size:11px;color:var(--ink);text-align:center;line-height:1.25}
+.pm-grid thead th small{display:block;font-weight:400;font-size:10.5px;color:var(--text-3)}
+.pm-grid thead th:first-child,.pm-grid tbody th{width:72px;text-align:left;font-weight:400;color:var(--text-2);white-space:nowrap}
+.pm-grid td{padding:0}
+.pm-cell{display:flex;align-items:center;justify-content:center;width:100%;height:30px;border:1px solid rgba(0,0,0,.16);border-radius:8px;background:#fff;color:var(--blue-ink);font-size:12px;cursor:pointer;padding:0}
+.pm-cell[aria-pressed="true"]{background:var(--blue);border-color:var(--blue)}
+.pm-cell:focus-visible,.pm-month:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.pm-cell.is-full,.pm-month.is-full{background:repeating-linear-gradient(135deg,var(--paper-warm) 0 5px,#fff 5px 9px);border-color:var(--hairline);color:var(--text-3);cursor:not-allowed}
+.pm-cell.is-full span{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.85);padding:0 3px;border-radius:3px}
+@media (hover:hover){.pm-cell:not(.is-full):not([aria-pressed="true"]):hover,.pm-month:not(.is-full):not([aria-pressed="true"]):hover{border-color:var(--blue)}}
+.info .ipage p.pm-legend{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;margin:8px 0 0;font-size:11px;color:var(--text-3)}
+.pm-key{display:inline-block;width:12px;height:12px;border:1px solid rgba(0,0,0,.25);border-radius:3px;background:#fff;margin-left:6px}
+.pm-key:first-child{margin-left:0}
+.pm-key.is-on{background:var(--blue);border-color:var(--blue)}
+.pm-key.is-full{background:repeating-linear-gradient(135deg,var(--paper-warm) 0 3px,#fff 3px 5px);border-color:var(--hairline)}
+.pm-months{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;width:100%}
+.pm-month{display:flex;flex-direction:column;align-items:flex-start;gap:1px;padding:7px 10px;border:1px solid rgba(0,0,0,.16);border-radius:10px;background:#fff;color:var(--ink);cursor:pointer;text-align:left;font:inherit}
+.pm-month b{font-weight:500;font-size:12.5px}
+.pm-month span{font-size:10.5px;color:var(--text-3)}
+.pm-month[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.pm-month[aria-pressed="true"] span{color:var(--blue-ink);opacity:.85}
+.pm-card--bundle .pm-months{grid-template-columns:repeat(6,minmax(0,1fr))}
+.pm-sum{width:100%;padding:10px 0 0;border-top:1px solid var(--hairline)}
+.info .ipage .pm-sum p{margin:0;line-height:1.45}
+.info .ipage p.pm-sum__place{display:flex;flex-wrap:wrap;gap:2px 8px;align-items:baseline;font-size:13.5px;color:var(--ink)}
+.pm-sum__place b{font-weight:500}
+.pm-sum__place i{font-style:normal;color:var(--text-3)}
+.pm-sum__place span{font-size:11.5px;color:var(--text-3)}
+.info .ipage p.pm-sum__what{font-size:12px;color:var(--text-2)}
+@media (max-width:640px){
+  .pm-placefield{flex:none;min-width:0}
+  .pm-months,.pm-card--bundle .pm-months{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .pm-grid thead th:first-child,.pm-grid tbody th{width:62px}
+  .pm-grid{border-spacing:3px 4px;margin:0 -3px}
 }

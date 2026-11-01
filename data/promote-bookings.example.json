@@ -1,0 +1,17 @@
+{
+  "note": "DEMO bookings for previewing the availability calendar: promote.html?country=be&city=gent&bookings=example. Not used otherwise.",
+  "bookings": [
+    { "city": "gent", "package": "top-list-1", "list": "restaurants", "start": "2026-11", "end": "2027-01", "place": "demo-1" },
+    { "city": "gent", "package": "top-list-2", "list": "restaurants", "start": "2026-11", "end": "2027-01", "place": "demo-2" },
+    { "city": "gent", "package": "top-list-3", "list": "restaurants", "start": "2027-02", "end": null, "place": "demo-3" },
+    { "city": "gent", "package": "top-list-1", "list": "coffee", "start": "2026-12", "end": null, "place": "demo-4" },
+    { "city": "gent", "package": "city-page-month", "start": "2026-11", "end": null, "place": "demo-5" },
+    { "city": "gent", "package": "city-page-month", "start": "2026-11", "end": "2026-12", "place": "demo-6" },
+    { "city": "gent", "package": "bundle-monthly", "list": "cafes_bars", "start": "2026-12", "end": "2027-01", "place": "demo-7" },
+    { "city": "antwerpen", "package": "ig-own", "start": "2026-11", "place": "demo-8" },
+    { "city": "gent", "package": "ig-own", "start": "2026-11", "place": "demo-9" },
+    { "city": "brugge", "package": "ig-own", "start": "2026-11", "place": "demo-10" },
+    { "city": "oostende", "package": "ig-own", "start": "2026-11", "place": "demo-11" },
+    { "city": "gent", "package": "ig-story", "start": "2026-12", "place": "demo-12" }
+  ]
+}

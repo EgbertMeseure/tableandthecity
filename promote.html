@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="82914512f1">
-<script src="js/media.js?v=82914512f1"></script>
-<script src="js/i18n.js?v=82914512f1"></script>
+<meta name="build" content="d6f8f8b912">
+<script src="js/media.js?v=d6f8f8b912"></script>
+<script src="js/i18n.js?v=d6f8f8b912"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Promote your place — Table and the City</title>
@@ -27,8 +27,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/brand.css?v=82914512f1">
-<link rel="stylesheet" href="css/style.css?v=82914512f1">
+<link rel="stylesheet" href="css/brand.css?v=d6f8f8b912">
+<link rel="stylesheet" href="css/style.css?v=d6f8f8b912">
 </head>
 <body class="detail info info--quiet pm-body" data-page="promote">
 <!-- Promote your place (promote.html?country=&city=): PREVIEW, not linked from the nav/footer, noindex, not in the sitemap.
@@ -56,15 +56,19 @@
 </nav>
 <main class="ipage pmpage" id="main">
   <div class="pm-intro">
-    <p class="pm-lede">Choose a package, pay online and tell us your place at checkout. No emails back and forth: we check the fit and confirm within two working days.</p>
+    <p class="pm-lede">Choose your place, a package and a free month, then pay online. Guide packages are monthly and can be cancelled any time. No emails back and forth: we check the fit and confirm within two working days.</p>
     <div class="pm-cities" role="group" aria-label="Promote in">
       <span class="pm-cities__label">Promote in</span>
       <div class="pm-cities__chips" id="pm-cities"></div>
     </div>
+    <div class="pm-cities pm-placefield">
+      <span class="pm-cities__label" id="pm-place-l">Your place</span>
+      <div class="pm-place" id="pm-place" aria-labelledby="pm-place-l"></div>
+    </div>
   </div>
   <section class="pm-sec" aria-labelledby="pm-guide-h">
     <h2 class="ipage__h" id="pm-guide-h">On the guide</h2>
-    <p class="pm-sec__lede" id="pm-guide-lede">Placements on the website and in the app.</p>
+    <p class="pm-sec__lede" id="pm-guide-lede">Placements on the website and in the app, per month.</p>
     <div class="pmgrid pmgrid--two" data-section="guide"></div>
   </section>
   <section class="pm-sec" aria-labelledby="pm-ig-h">
@@ -74,14 +78,14 @@
   </section>
   <section class="pm-sec" aria-labelledby="pm-bundle-h">
     <h2 class="ipage__h" id="pm-bundle-h">Bundle</h2>
-    <p class="pm-sec__lede">The guide and Instagram together, for less.</p>
+    <p class="pm-sec__lede">The guide and Instagram together every month, for less.</p>
     <div class="pmgrid pmgrid--one" data-section="bundle"></div>
   </section>
   <section class="pm-sec" aria-labelledby="pm-how-h">
     <h2 class="ipage__h" id="pm-how-h">How it works</h2>
     <ol class="pm-steps">
-      <li><b>Choose</b><span>Pick your city and a package.</span></li>
-      <li><b>Pay</b><span>Pay securely with Stripe and fill in your place, Instagram handle and preferred start date.</span></li>
+      <li><b>Choose</b><span>Pick your city, your place, a package and a free month.</span></li>
+      <li><b>Pay</b><span>Pay securely with Stripe and add your Instagram handle and any notes.</span></li>
       <li><b>Go live</b><span>We check the fit, confirm by email within two working days and schedule it.</span></li>
     </ol>
   </section>
@@ -89,27 +93,27 @@
     <h2 class="ipage__h" id="pm-terms-h">Terms in short</h2>
     <ul class="pm-terms">
       <li><b>What you get</b><span>Exactly what the package says. Promoted places are always marked Promoted on the guide, and Instagram content carries Instagram’s paid partnership label.</span></li>
-      <li><b>When it runs</b><span>Guide placements start on your preferred date or the next free slot. Instagram content goes up within 14 days, on a date we agree with you.</span></li>
+      <li><b>When it runs</b><span>Guide packages and the bundle are monthly subscriptions: they start in the month you pick and renew every month until you cancel; you pay the first month at checkout. The calendar shows which months and spots are still free. Instagram content goes up in the month you pick, on a date we agree with you.</span></li>
       <li><b>Only places that fit</b><span>We only promote good independent places: no chains, no fast food or junk food. We may decline a place that does not fit the guide; if we do, you get a full refund.</span></li>
       <li><b>Your content</b><span>Send us photos you own the rights to. We write the text in our own voice and check the facts with you before it goes up.</span></li>
       <li><b>Independence</b><span>Paying never changes ratings, other places or what we write. If your place is not in the guide yet, we check it first and add it for free when it fits.</span></li>
-      <li><b>Cancelling</b><span>Full refund if you cancel before the start. Once a placement or post is live, it is not refundable.</span></li>
+      <li><b>Cancelling</b><span>Cancel a monthly subscription any time with the link in your Stripe email; it stops at the end of the month you paid for. Instagram posts and stories: full refund if you cancel before they go live.</span></li>
       <li><b>Questions</b><span>info@tableandthecity.com</span></li>
     </ul>
     <p class="pm-note">All prices in euro, excl. 21% VAT (BTW); the amount incl. VAT is shown under each price. You get an invoice from Stripe. Pay by card, Bancontact, Apple Pay or Google Pay.</p>
   </section>
 </main>
 <footer class="site-footer" data-footer></footer>
-<script src="js/config.js?v=82914512f1"></script>
-<script src="js/forms.js?v=82914512f1"></script>
-<script src="js/hours.js?v=82914512f1"></script>
-<script src="js/common.js?v=82914512f1"></script>
-<script src="js/promote-config.js?v=82914512f1"></script>
-<script src="js/promote.js?v=82914512f1"></script>
-<script src="js/suggest.js?v=82914512f1"></script>
-<script src="js/visits.js?v=82914512f1"></script>
-<script src="js/cityreq.js?v=82914512f1"></script>
-<script src="js/back.js?v=82914512f1"></script>
-<script src="js/pwa.js?v=82914512f1"></script>
+<script src="js/config.js?v=d6f8f8b912"></script>
+<script src="js/forms.js?v=d6f8f8b912"></script>
+<script src="js/hours.js?v=d6f8f8b912"></script>
+<script src="js/common.js?v=d6f8f8b912"></script>
+<script src="js/promote-config.js?v=d6f8f8b912"></script>
+<script src="js/promote.js?v=d6f8f8b912"></script>
+<script src="js/suggest.js?v=d6f8f8b912"></script>
+<script src="js/visits.js?v=d6f8f8b912"></script>
+<script src="js/cityreq.js?v=d6f8f8b912"></script>
+<script src="js/back.js?v=d6f8f8b912"></script>
+<script src="js/pwa.js?v=d6f8f8b912"></script>
 </body>
 </html>
