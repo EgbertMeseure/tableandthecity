@@ -764,5 +764,7 @@
 "bars & live music": "bares y música en directo",
 "veggie & vegan": "veggie y vegano",
 "100% vegetarian": "100 % vegetariano",
-"{x} in {city}": "{x} en {city}"
+"{x} in {city}": "{x} en {city}",
+"View this photo on Instagram": "Ver esta foto en Instagram",
+"Instagram post": "Publicación de Instagram"
 };

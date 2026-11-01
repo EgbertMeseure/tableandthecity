@@ -30,6 +30,11 @@
   const igPosts = TG.igPostsOf(r);
   const igHandle = r.igHandle || '';
   const HI = r.heroImage, heroHost = HI ? HI.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0] : '';
+  // optional per-photo "ig": the photo's own Instagram post (data/cities/<city>-photos.json) — a small link to that post, opening in a new tab
+  const igOf = p => p && typeof p.ig === 'string' && /^https:\/\/(www\.)?instagram\.com\/(p|reel)\/[\w-]+\/?$/.test(p.ig) ? p.ig : '';
+  const IGPOST = 'View this photo on Instagram';
+  const tIG = k => (window.TG_I18N && TG_I18N.t ? TG_I18N.t(k) : k);   // credits / captions are skipped by the page translator, so these two words are translated here
+  const igLink = p => igOf(p) ? ` · <a class="ig-post" href="${esc(igOf(p))}" target="_blank" rel="noopener" aria-label="${esc(tIG(IGPOST))}">${esc(tIG('Instagram post'))}</a>` : '';
   const plainHero = () => {
     const top = document.querySelector('.dhero'); top.classList.add('dhero--plain'); top.classList.remove('dhero--ig');
     top.querySelectorAll('.dhero__ig').forEach(x => x.remove());
@@ -46,7 +51,7 @@
   else if (heroP) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(M.url(heroP.src))}" ${heroP.srcset ? `srcset="${esc(M.srcset(heroP.srcset))}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
     if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
-    $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}`;
+    $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}${igLink(heroP)}`;
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
@@ -230,12 +235,14 @@
     const lab = (p, s, labFood) => s.k === 'food' ? (labFood ? (p.category === 'drink' ? 'Drinks' : 'Food') : '') : p.category === 'exterior' ? 'Outside' : p.category === 'interior' ? (p.staff ? 'At work' : 'Inside') : '';
     const slide = (p, k, l, i) => i ? tile(p, k, l).replace(/<img src="([^"]*)"/, '<img data-src="$1" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="') : tile(p, k, l);
     const CHEV = d => `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="${d ? 'M6 3l5 5-5 5' : 'M10 3L5 8l5 5'}"/></svg>`;
+    const IGSVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></svg>';
+    const igA = s => { const p0 = s.ph[0][0]; return s.ph.some(([p]) => igOf(p)) ? `<a class="dphotos__ig" href="${esc(igOf(p0) || '#')}" target="_blank" rel="noopener" aria-label="${IGPOST}" title="${IGPOST}"${igOf(p0) ? '' : ' hidden'}>${IGSVG}</a>` : ''; };
     const slotHtml = s => { const labFood = s.k === 'food' && firstFood; if (s.k === 'food') firstFood = false;
       const n = s.ph.length, body = s.ph.map(([p, k], i) => slide(p, k, lab(p, s, labFood), i)).join('');
-      return n < 2 ? `<div class="dphotos__slot">${body}</div>`
+      return n < 2 ? `<div class="dphotos__slot">${body}${igA(s)}</div>`
         : `<div class="dphotos__slot dphotos__slot--car" data-count="${n}"><div class="dphotos__track" tabindex="0" role="group" aria-label="${n} photos, swipe for more">${body}</div>
           <button type="button" class="dphotos__nav dphotos__nav--prev" aria-label="Previous photo" disabled>${CHEV(0)}</button><button type="button" class="dphotos__nav dphotos__nav--next" aria-label="Next photo">${CHEV(1)}</button>
-          <span class="dphotos__cnt" aria-hidden="true"><b>1</b>/${n}</span></div>`; };
+          <span class="dphotos__cnt" aria-hidden="true"><b>1</b>/${n}</span>${igA(s)}</div>`; };
     const creds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()].map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
     $('#left dl.essentials').insertAdjacentHTML('afterend', `<section class="dphotos" aria-labelledby="dphotos-h"><h2 id="dphotos-h">Photos</h2>
       ${rows.map(row => `<div class="dphotos__row" data-n="${row.length}">${row.map(slotHtml).join('')}</div>`).join('')}
@@ -245,7 +252,10 @@
       const pv = slot.querySelector('.dphotos__nav--prev'), nx = slot.querySelector('.dphotos__nav--next');
       const load = upto => [...tr.querySelectorAll('img[data-src]')].slice(0, upto).forEach(im => { im.src = im.dataset.src; im.removeAttribute('data-src'); });
       const cur = () => Math.round(tr.scrollLeft / Math.max(1, tr.clientWidth));
-      const upd = () => { const i = Math.min(n - 1, cur()); cnt.textContent = i + 1; pv.disabled = i <= 0; nx.disabled = i >= n - 1; load(i + 1); };
+      const ig = slot.querySelector('.dphotos__ig');
+      const upd = () => { const i = Math.min(n - 1, cur()); cnt.textContent = i + 1; pv.disabled = i <= 0; nx.disabled = i >= n - 1; load(i + 1);
+        if (ig) { const b = tr.children[i], u = b ? igOf(lbList[+b.dataset.pi]) : ''; ig.hidden = !u; if (u && ig.getAttribute('href') !== u) ig.href = u; } };   // the link follows the photo in view
+      tr.addEventListener('scroll', () => { slot._swiped = Date.now(); }, { passive: true });
       const go = d => { load(cur() + 1 + d); tr.scrollTo({ left: (cur() + d) * tr.clientWidth, behavior: 'smooth' }); };
       pv.addEventListener('click', () => go(-1)); nx.addEventListener('click', () => go(1));
       tr.addEventListener('scroll', () => requestAnimationFrame(upd), { passive: true });
@@ -253,9 +263,14 @@
       tr.addEventListener('keydown', e => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); e.stopPropagation(); go(e.key === 'ArrowRight' ? 1 : -1); } });
     });
   }
+  { let p0 = null;   // a swipe (finger / mouse moved, or the slot still gliding) never opens the post; a tap on the Instagram mark never opens the light box
+    document.addEventListener('pointerdown', e => { p0 = e.target.closest && e.target.closest('.dphotos__ig') ? [e.clientX, e.clientY] : null; }, { passive: true });
+    document.addEventListener('click', e => { const a = e.target.closest && e.target.closest('.dphotos__ig'); if (!a) return;
+      const moved = p0 && Math.hypot(e.clientX - p0[0], e.clientY - p0[1]) > 8, slot = a.closest('.dphotos__slot');
+      if (a.hidden || moved || (slot && slot._swiped && Date.now() - slot._swiped < 250)) e.preventDefault(); e.stopPropagation(); }, true); }
   if (nPh > 1 || (nPh && !heroPh)) $('.dhero').insertAdjacentHTML('beforeend', `<button type="button" class="dhero__photos" data-pi="0"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg><span>${nTxt(nPh)}</span></button>`);
   let shown = [], idx = 0;
-  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}</span>`;
+  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}${igLink(p)}</span>`;
   const lb = $('#lb'); let lastFocus = null;
   function show(i) { idx = (i + shown.length) % shown.length; const p = shown[idx]; const im = $('#lb-img');
     im.referrerPolicy = 'no-referrer'; im.src = M.url(p.src); im.alt = p.alt || ''; $('#lb-cap').innerHTML = `<span class="lb__count">${idx + 1} / ${shown.length} · ${CATL[p.category]}</span>${capOf(p)}`; }
