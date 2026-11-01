@@ -112,7 +112,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.charlatan.be/",
-      "instagram_handle": null,
+      "instagram_handle": "cafecharlatan",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -136,7 +136,8 @@
         "https://nl.wikipedia.org/wiki/Charlatan_(zaal)"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.facebook.com/charlatancafe"
     },
     {
       "id": "kinky-star",
@@ -1110,7 +1111,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": null,
-      "instagram_handle": "cafe_romain",
+      "instagram_handle": "cafe.romain",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1134,7 +1135,7 @@
       ],
       "dateChecked": "2026-10-19",
       "geoPrecision": "street",
-      "instagramSource": "Visit Gent listing"
+      "instagramSource": "Instagram post embeds (verified 2026-11-01; @cafe_romain dead)"
     },
     {
       "id": "t-floere-foefke",

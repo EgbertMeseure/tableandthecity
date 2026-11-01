@@ -162,9 +162,10 @@
   },
   "charlatan": {
    "name": "Charlatan",
-   "instagram_handle": null,
-   "note": "No official handle verified: own site unreachable from our fetchers; Visit Gent lists none. Search suggested @charlatanlive, but that is a Canadian student newspaper.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "cafecharlatan",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.facebook.com/charlatancafe",
+   "handleNote": "Listed on the venue's own Facebook page (charlatancafe, links charlatan.be); profile name \"Café Charlatan\" (18K followers). @charlatanlive is unrelated."
   },
   "de-broodstokerij-gent": {
    "name": "De Broodstokerij",
@@ -3914,6 +3915,13 @@
    "instagram_handle": "tshiela.barandbites",
    "handleSource": "https://www.instagram.com/p/DdJA9LytTYI/",
    "handleNote": "Profile \"TSHIELA\"; own posts #tshielabarandbites #gent; bar neon matches the place."
+  },
+  "vicino": {
+   "name": "Vicino",
+   "instagram_handle": "vicino.gent",
+   "handleSource": "https://www.vicino.be/",
+   "handleNote": "Linked from own website vicino.be; embeds broken, post De2fowzMw99 meta confirms \"vicino.gent on October 23, 2026\".",
+   "origin": "research (photo-fill b12 2026-11-01)"
   }
  },
  "embed": {
@@ -5644,6 +5652,16 @@
    "ok": true,
    "checked": "2026-11-01",
    "why": "verified via post embed"
+  },
+  "vicino.gent": {
+   "ok": false,
+   "checked": "2026-11-01",
+   "why": "EmbedBroken (verified via own website link + post meta)"
+  },
+  "cafecharlatan": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via own Facebook page + profile name"
   }
  }
 }

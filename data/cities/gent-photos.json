@@ -2089,7 +2089,7 @@
    "layout": "mix"
   },
   "charlatan": {
-   "hold": "no people-free photo found: website only has event posters"
+   "hold": "no people-free photo found: IG @cafecharlatan not yet harvested; website blocks fetchers (redirect loop)"
   },
   "commotie": {
    "posts": [
@@ -5488,7 +5488,100 @@
    "layout": "mix"
   },
   "little-red-rooster": {
-   "hold": "only photos with people found"
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DbOn3uUDCRG/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbEUshkDT8q/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Da8mUo4iF_m/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbG5g0CCUiL/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/little-red-rooster/p1-1400.webp",
+     "thumb": "img/places/gent/little-red-rooster/p1-700.webp",
+     "srcset": "img/places/gent/little-red-rooster/p1-700.webp 700w, img/places/gent/little-red-rooster/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Little Red Rooster: food",
+     "credit": "@littleredrooster_ghent on Instagram",
+     "credit_url": "https://www.instagram.com/littleredrooster_ghent/",
+     "ig": "https://www.instagram.com/p/DbOn3uUDCRG/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b12 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/little-red-rooster/p2-1400.webp",
+     "thumb": "img/places/gent/little-red-rooster/p2-700.webp",
+     "srcset": "img/places/gent/little-red-rooster/p2-700.webp 700w, img/places/gent/little-red-rooster/p2-1400.webp 1400w",
+     "w": 1367,
+     "h": 1708,
+     "category": "food",
+     "alt": "Little Red Rooster: food",
+     "credit": "@littleredrooster_ghent on Instagram",
+     "credit_url": "https://www.instagram.com/littleredrooster_ghent/",
+     "ig": "https://www.instagram.com/p/DbEUshkDT8q/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b12 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/little-red-rooster/p3-1400.webp",
+     "thumb": "img/places/gent/little-red-rooster/p3-700.webp",
+     "srcset": "img/places/gent/little-red-rooster/p3-700.webp 700w, img/places/gent/little-red-rooster/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Little Red Rooster: food",
+     "credit": "@littleredrooster_ghent on Instagram",
+     "credit_url": "https://www.instagram.com/littleredrooster_ghent/",
+     "ig": "https://www.instagram.com/p/Da8mUo4iF_m/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b12 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/little-red-rooster/p4-1400.webp",
+     "thumb": "img/places/gent/little-red-rooster/p4-700.webp",
+     "srcset": "img/places/gent/little-red-rooster/p4-700.webp 700w, img/places/gent/little-red-rooster/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Little Red Rooster: food",
+     "credit": "@littleredrooster_ghent on Instagram",
+     "credit_url": "https://www.instagram.com/littleredrooster_ghent/",
+     "ig": "https://www.instagram.com/p/DbG5g0CCUiL/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b12 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/little-red-rooster/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "lof": {
    "posts": [
@@ -23106,7 +23199,7 @@
    "layout": "mix"
   },
   "porter-house": {
-   "hold": "no people-free photo found: party photos with people, posters"
+   "hold": "no people-free photo found: IG party photos with people; website (porterhousegent.be) only has activity posters with people"
   },
   "pot-and-paint-club-gent": {
    "hold": "no people-free photo found (research): Only food photo has guests in the background; rest are graphics/people"
@@ -25531,7 +25624,51 @@
    "layout": "mix"
   },
   "vicino": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/De1Ql_nMgy5/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/De2fowzMw99/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/vicino/p3-1400.webp",
+     "thumb": "img/places/gent/vicino/p3-700.webp",
+     "srcset": "img/places/gent/vicino/p3-700.webp 700w, img/places/gent/vicino/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1864,
+     "category": "interior",
+     "alt": "Vicino: the interior",
+     "credit": "@vicino.gent on Instagram",
+     "credit_url": "https://www.instagram.com/vicino.gent/",
+     "ig": "https://www.instagram.com/p/De1Ql_nMgy5/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b12 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/vicino/p4-1400.webp",
+     "thumb": "img/places/gent/vicino/p4-700.webp",
+     "srcset": "img/places/gent/vicino/p4-700.webp 700w, img/places/gent/vicino/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1864,
+     "category": "food",
+     "alt": "Vicino: food",
+     "credit": "@vicino.gent on Instagram",
+     "credit_url": "https://www.instagram.com/vicino.gent/",
+     "ig": "https://www.instagram.com/p/De2fowzMw99/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b12 2026-11-01"
+    },
     {
      "src": "img/places/gent/vicino/p1-1400.webp",
      "thumb": "img/places/gent/vicino/p1-700.webp",
@@ -25559,11 +25696,26 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/vicino/p5-1400.webp",
+     "thumb": "img/places/gent/vicino/p5-700.webp",
+     "srcset": "img/places/gent/vicino/p5-700.webp 700w, img/places/gent/vicino/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 881,
+     "category": "food",
+     "alt": "Vicino: food",
+     "credit": "vicino.be",
+     "credit_url": "https://www.vicino.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b12 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/vicino/p1-1400.webp"
+    "src": "img/places/gent/vicino/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
