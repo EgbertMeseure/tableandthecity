@@ -1,6 +1,6 @@
 {
  "city": "antwerpen",
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
  "chefs": [
   {
@@ -352,6 +352,79 @@
     {
      "k": "class",
      "src": "https://www.gianluca-vetrugno.com/"
+    }
+   ]
+  },
+  {
+   "id": "table-35",
+   "name": "table.35",
+   "chef": "Guillaume Andries",
+   "style": "Fine dining at home",
+   "description": "Antwerp chef Guillaume Andries, formerly in Michelin-starred kitchens (most recently a two-star in Barcelona), designs a menu for your table and cooks it in your home, with a playlist made for the evening.",
+   "serves": "Antwerp",
+   "base": "",
+   "guests": "4 to 8 guests",
+   "price": "",
+   "website": "https://www.table-35.com/",
+   "instagram": "https://www.instagram.com/table.35/",
+   "email": "dinner@table-35.com",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://www.table-35.com/"
+   ],
+   "image": {
+    "src": "img/chefs/antwerpen/table-35.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "Bluefin tuna with caviar (table.35)",
+    "credit": "table.35 (table-35.com)",
+    "credit_url": "https://www.table-35.com/"
+   },
+   "photos": [
+    {
+     "src": "img/chefs/antwerpen/table-35-2.webp",
+     "w": 840,
+     "h": 630,
+     "alt": "A plated course at a candlelit table (table.35)",
+     "credit": "table.35 (table-35.com)",
+     "credit_url": "https://www.table-35.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/table-35-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Pan con tomate (table.35)",
+     "credit": "table.35 (table-35.com)",
+     "credit_url": "https://www.table-35.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/table-35-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A5 wagyu cecina with mustard seeds (table.35)",
+     "credit": "table.35 (table-35.com)",
+     "credit_url": "https://www.table-35.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/antwerpen/table-35-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "White chocolate with lemon sorbet (table.35)",
+     "credit": "table.35 (table-35.com)",
+     "credit_url": "https://www.table-35.com/",
+     "kind": "food"
+    }
+   ],
+   "checked": "2026-11-01",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.table-35.com/"
     }
    ]
   }
