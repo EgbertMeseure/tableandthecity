@@ -483,6 +483,33 @@
    "summary": "Neighbourhood breakfast, brunch and lunch bar (green eggs, tuna croque) in Sint-Amandsberg.",
    "summarySource": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html",
    "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html | https://www.foodbar-jef.be"
+  },
+  "way/102713996": {
+   "features": {
+    "terrace": true,
+    "wheelchair": false,
+    "kidsWelcome": true,
+    "breakfast": true,
+    "lunch": true,
+    "dinner": true,
+    "aLaCarte": true,
+    "reservations": true,
+    "openMonday": true,
+    "openSunday": true
+   },
+   "features_evidence": {
+    "terrace": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "wheelchair": "OpenStreetMap: wheelchair=no",
+    "kidsWelcome": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "breakfast": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "lunch": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "dinner": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "aLaCarte": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "reservations": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "openMonday": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "openSunday": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)"
+   },
+   "source": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)"
   }
  }
 }
