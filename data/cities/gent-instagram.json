@@ -3,9 +3,10 @@
  "places": {
   "afsnis": {
    "name": "Afsnis",
-   "instagram_handle": null,
-   "note": "Unverified candidate @afsnis.gent (InTravel aggregator only); own site links only Facebook.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "afsnis.gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DeBm_VWxN-y/",
+   "handleNote": "Bands tag @afsnis.gent for their Afsnis Ghent shows (beerkatmusic \"Ghent ... play at @afsnis.gent\"; themuttonsofficial release show); account posts Afsnis gig posters."
   },
   "alberte": {
    "name": "Alberte",
@@ -194,9 +195,10 @@
   },
   "de-woestijn": {
    "name": "De Woestijn",
-   "instagram_handle": null,
-   "note": "Candidate @dewoestijngent from our data could not be confirmed by any linking page.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "dewoestijngent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DctPoq_oWMT/",
+   "handleNote": "Own opening post (embed username dewoestijngent); address Sint-Lievenspoortstraat 13A confirmed."
   },
   "decadance": {
    "name": "Decadance",
@@ -3649,9 +3651,10 @@
   },
   "t-galgenhuisje": {
    "name": "'t Galgenhuisje",
-   "instagram_handle": null,
-   "note": "No official account found (Visit Gent lists only Facebook/email).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "galgenhuisje_gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/Db2qtG4oOLl/",
+   "handleNote": "Own posts as Café Galgenhuis Gent (embed username galgenhuisje_gent, caption: Ocean Spritz \"op ons terras in Gent\"; Gentse Feesten posts)."
   },
   "t-kofschip": {
    "name": "'t Kofschip",
@@ -3803,6 +3806,13 @@
    "instagram_handle": "zeppos_vlasmarkt",
    "handleSource": "https://zepposvlasmarkt.be/",
    "origin": "research (approved 20 Oct 2026)"
+  },
+  "hot-club-gent": {
+   "name": "Hot Club Gent",
+   "origin": "photo-fill b09 2026-11-01",
+   "instagram_handle": "hotclubgent",
+   "handleSource": "https://www.instagram.com/p/DfLy2G-IPnK/",
+   "handleNote": "Own post (embed username hotclubgent) links www.hotclub.gent/programma."
   }
  },
  "embed": {
@@ -5423,6 +5433,26 @@
   "caracalla.restaurant": {
    "ok": true,
    "checked": "2026-11-01"
+  },
+  "galgenhuisje_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "afsnis.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "hotclubgent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "dewoestijngent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
   }
  }
 }

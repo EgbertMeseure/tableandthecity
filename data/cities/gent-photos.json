@@ -22757,6 +22757,28 @@
    "layout": "mix"
   },
   "piu-di-piu": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DfKOSKojzM7/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdERCqKjh2_/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcV3brxCSz-/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Da98SQxGCPW/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/gent/piu-di-piu/p1-1400.webp",
@@ -22773,18 +22795,83 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/piu-di-piu/p2-800.webp",
-     "thumb": "img/places/gent/piu-di-piu/p2-400.webp",
-     "srcset": "img/places/gent/piu-di-piu/p2-400.webp 400w, img/places/gent/piu-di-piu/p2-800.webp 800w",
-     "w": 800,
-     "h": 527,
+     "src": "img/places/gent/piu-di-piu/p3-1400.webp",
+     "thumb": "img/places/gent/piu-di-piu/p3-700.webp",
+     "srcset": "img/places/gent/piu-di-piu/p3-700.webp 700w, img/places/gent/piu-di-piu/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 922,
      "category": "interior",
      "alt": "Piu di Piu: the interior",
      "credit": "piudipiu.com",
      "credit_url": "https://piudipiu.com/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/piu-di-piu/p4-1400.webp",
+     "thumb": "img/places/gent/piu-di-piu/p4-700.webp",
+     "srcset": "img/places/gent/piu-di-piu/p4-700.webp 700w, img/places/gent/piu-di-piu/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Piu di Piu: food",
+     "credit": "@piudipiubar on Instagram",
+     "credit_url": "https://www.instagram.com/piudipiubar/",
+     "ig": "https://www.instagram.com/p/DfKOSKojzM7/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/piu-di-piu/p5-1400.webp",
+     "thumb": "img/places/gent/piu-di-piu/p5-700.webp",
+     "srcset": "img/places/gent/piu-di-piu/p5-700.webp 700w, img/places/gent/piu-di-piu/p5-1400.webp 1400w",
+     "w": 720,
+     "h": 900,
+     "category": "food",
+     "alt": "Piu di Piu: food",
+     "credit": "@piudipiubar on Instagram",
+     "credit_url": "https://www.instagram.com/piudipiubar/",
+     "ig": "https://www.instagram.com/p/DdERCqKjh2_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/piu-di-piu/p6-1400.webp",
+     "thumb": "img/places/gent/piu-di-piu/p6-700.webp",
+     "srcset": "img/places/gent/piu-di-piu/p6-700.webp 700w, img/places/gent/piu-di-piu/p6-1400.webp 1400w",
+     "w": 720,
+     "h": 900,
+     "category": "food",
+     "alt": "Piu di Piu: food",
+     "credit": "@piudipiubar on Instagram",
+     "credit_url": "https://www.instagram.com/piudipiubar/",
+     "ig": "https://www.instagram.com/p/DcV3brxCSz-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/piu-di-piu/p7-1400.webp",
+     "thumb": "img/places/gent/piu-di-piu/p7-700.webp",
+     "srcset": "img/places/gent/piu-di-piu/p7-700.webp 700w, img/places/gent/piu-di-piu/p7-1400.webp 1400w",
+     "w": 720,
+     "h": 900,
+     "category": "food",
+     "alt": "Piu di Piu: food",
+     "credit": "@piudipiubar on Instagram",
+     "credit_url": "https://www.instagram.com/piudipiubar/",
+     "ig": "https://www.instagram.com/p/Da98SQxGCPW/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     }
    ],
    "pick": {
@@ -23689,6 +23776,16 @@
   "soan": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/Ddv4FHDx44N/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMexUwDZml/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeMeqRhtM7q/",
      "category": "food",
      "origin": "research"
@@ -23701,9 +23798,9 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/soan/p1-1400.webp",
-     "thumb": "img/places/gent/soan/p1-700.webp",
-     "srcset": "img/places/gent/soan/p1-700.webp 700w, img/places/gent/soan/p1-1400.webp 1400w",
+     "src": "img/places/gent/soan/p5-1400.webp",
+     "thumb": "img/places/gent/soan/p5-700.webp",
+     "srcset": "img/places/gent/soan/p5-700.webp 700w, img/places/gent/soan/p5-1400.webp 1400w",
      "w": 1400,
      "h": 787,
      "category": "interior",
@@ -23712,55 +23809,90 @@
      "credit_url": "https://www.soanbar.com/gallery",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     },
     {
-     "src": "img/places/gent/soan/p2-800.webp",
-     "thumb": "img/places/gent/soan/p2-400.webp",
-     "srcset": "img/places/gent/soan/p2-400.webp 400w, img/places/gent/soan/p2-800.webp 800w",
-     "w": 800,
-     "h": 988,
-     "category": "drink",
-     "alt": "SOAN: drinks",
-     "credit": "@soancocktails on Instagram",
-     "credit_url": "https://www.instagram.com/soancocktails/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/soan/p3-800.webp",
-     "thumb": "img/places/gent/soan/p3-400.webp",
-     "srcset": "img/places/gent/soan/p3-400.webp 400w, img/places/gent/soan/p3-800.webp 800w",
-     "w": 800,
-     "h": 450,
+     "src": "img/places/gent/soan/p6-1400.webp",
+     "thumb": "img/places/gent/soan/p6-700.webp",
+     "srcset": "img/places/gent/soan/p6-700.webp 700w, img/places/gent/soan/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 787,
      "category": "interior",
      "alt": "SOAN: the interior",
      "credit": "soanbar.com",
      "credit_url": "https://www.soanbar.com/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     },
     {
-     "src": "img/places/gent/soan/p4-800.webp",
-     "thumb": "img/places/gent/soan/p4-400.webp",
-     "srcset": "img/places/gent/soan/p4-400.webp 400w, img/places/gent/soan/p4-800.webp 800w",
-     "w": 800,
-     "h": 992,
+     "src": "img/places/gent/soan/p7-1400.webp",
+     "thumb": "img/places/gent/soan/p7-700.webp",
+     "srcset": "img/places/gent/soan/p7-700.webp 700w, img/places/gent/soan/p7-1400.webp 1400w",
+     "w": 1350,
+     "h": 1687,
      "category": "food",
      "alt": "SOAN: food",
      "credit": "@soancocktails on Instagram",
      "credit_url": "https://www.instagram.com/soancocktails/",
+     "ig": "https://www.instagram.com/p/Ddv4FHDx44N/",
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true,
-     "added": "gap-fill 2026-10-31"
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/soan/p8-1400.webp",
+     "thumb": "img/places/gent/soan/p8-700.webp",
+     "srcset": "img/places/gent/soan/p8-700.webp 700w, img/places/gent/soan/p8-1400.webp 1400w",
+     "w": 1080,
+     "h": 1339,
+     "category": "food",
+     "alt": "SOAN: food",
+     "credit": "@soancocktails on Instagram",
+     "credit_url": "https://www.instagram.com/soancocktails/",
+     "ig": "https://www.instagram.com/p/DeMexUwDZml/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/soan/p9-1400.webp",
+     "thumb": "img/places/gent/soan/p9-700.webp",
+     "srcset": "img/places/gent/soan/p9-700.webp 700w, img/places/gent/soan/p9-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "SOAN: food",
+     "credit": "soanbar.com",
+     "credit_url": "https://www.soanbar.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/soan/p10-1400.webp",
+     "thumb": "img/places/gent/soan/p10-700.webp",
+     "srcset": "img/places/gent/soan/p10-700.webp 700w, img/places/gent/soan/p10-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "SOAN: food",
+     "credit": "soanbar.com",
+     "credit_url": "https://www.soanbar.com/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/soan/p1-1400.webp"
+    "src": "img/places/gent/soan/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -24224,7 +24356,12 @@
    "posts": [
     {
      "url": "https://www.instagram.com/p/DcV2sb2KMss/",
-     "category": "drink",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DNNrtGwIhOm/",
+     "category": "food",
      "origin": "research"
     },
     {
@@ -24237,10 +24374,100 @@
      "category": "interior",
      "origin": "research"
     }
-   ]
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/the-celtic-towers/p1-1400.webp",
+     "thumb": "img/places/gent/the-celtic-towers/p1-700.webp",
+     "srcset": "img/places/gent/the-celtic-towers/p1-700.webp 700w, img/places/gent/the-celtic-towers/p1-1400.webp 1400w",
+     "w": 1001,
+     "h": 1500,
+     "category": "interior",
+     "alt": "The Celtic Towers: the interior",
+     "credit": "celtictowers.be",
+     "credit_url": "https://celtictowers.be/book-a-table/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-celtic-towers/p2-1400.webp",
+     "thumb": "img/places/gent/the-celtic-towers/p2-700.webp",
+     "srcset": "img/places/gent/the-celtic-towers/p2-700.webp 700w, img/places/gent/the-celtic-towers/p2-1400.webp 1400w",
+     "w": 896,
+     "h": 1200,
+     "category": "food",
+     "alt": "The Celtic Towers: food",
+     "credit": "@theceltictowers.irishpub on Instagram",
+     "credit_url": "https://www.instagram.com/theceltictowers.irishpub/",
+     "ig": "https://www.instagram.com/p/DcV2sb2KMss/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-celtic-towers/p3-1400.webp",
+     "thumb": "img/places/gent/the-celtic-towers/p3-700.webp",
+     "srcset": "img/places/gent/the-celtic-towers/p3-700.webp 700w, img/places/gent/the-celtic-towers/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1866,
+     "category": "food",
+     "alt": "The Celtic Towers: food",
+     "credit": "@theceltictowers.irishpub on Instagram",
+     "credit_url": "https://www.instagram.com/theceltictowers.irishpub/",
+     "ig": "https://www.instagram.com/p/DNNrtGwIhOm/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-celtic-towers/p4-1400.webp",
+     "thumb": "img/places/gent/the-celtic-towers/p4-700.webp",
+     "srcset": "img/places/gent/the-celtic-towers/p4-700.webp 700w, img/places/gent/the-celtic-towers/p4-1400.webp 1400w",
+     "w": 1001,
+     "h": 1500,
+     "category": "food",
+     "alt": "The Celtic Towers: food",
+     "credit": "celtictowers.be",
+     "credit_url": "https://celtictowers.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/the-celtic-towers/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "the-cobbler": {
    "posts": [
+    {
+     "url": "https://www.instagram.com/p/DZNJuSwlFuW/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DWG_lpnExD3/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DT2yruNEjJO/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DSm-MWUkhKL/",
+     "category": "food",
+     "origin": "research"
+    },
     {
      "url": "https://www.instagram.com/p/DdticjjghfW/",
      "category": "drink",
@@ -24249,9 +24476,9 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/the-cobbler/p1-1400.webp",
-     "thumb": "img/places/gent/the-cobbler/p1-700.webp",
-     "srcset": "img/places/gent/the-cobbler/p1-700.webp 700w, img/places/gent/the-cobbler/p1-1400.webp 1400w",
+     "src": "img/places/gent/the-cobbler/p3-1400.webp",
+     "thumb": "img/places/gent/the-cobbler/p3-700.webp",
+     "srcset": "img/places/gent/the-cobbler/p3-700.webp 700w, img/places/gent/the-cobbler/p3-1400.webp 1400w",
      "w": 1400,
      "h": 933,
      "category": "interior",
@@ -24260,7 +24487,24 @@
      "credit_url": "https://www.1898thepost.com/the-cobbler/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-cobbler/p4-1400.webp",
+     "thumb": "img/places/gent/the-cobbler/p4-700.webp",
+     "srcset": "img/places/gent/the-cobbler/p4-700.webp 700w, img/places/gent/the-cobbler/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "The Cobbler: the interior",
+     "credit": "@thecobblerghent on Instagram",
+     "credit_url": "https://www.instagram.com/thecobblerghent/",
+     "ig": "https://www.instagram.com/p/DZNJuSwlFuW/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     },
     {
      "src": "img/places/gent/the-cobbler/p2-800.webp",
@@ -24275,11 +24519,59 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/the-cobbler/p5-1400.webp",
+     "thumb": "img/places/gent/the-cobbler/p5-700.webp",
+     "srcset": "img/places/gent/the-cobbler/p5-700.webp 700w, img/places/gent/the-cobbler/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "The Cobbler: food",
+     "credit": "@thecobblerghent on Instagram",
+     "credit_url": "https://www.instagram.com/thecobblerghent/",
+     "ig": "https://www.instagram.com/p/DWG_lpnExD3/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-cobbler/p6-1400.webp",
+     "thumb": "img/places/gent/the-cobbler/p6-700.webp",
+     "srcset": "img/places/gent/the-cobbler/p6-700.webp 700w, img/places/gent/the-cobbler/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "The Cobbler: food",
+     "credit": "@thecobblerghent on Instagram",
+     "credit_url": "https://www.instagram.com/thecobblerghent/",
+     "ig": "https://www.instagram.com/p/DT2yruNEjJO/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-cobbler/p7-1400.webp",
+     "thumb": "img/places/gent/the-cobbler/p7-700.webp",
+     "srcset": "img/places/gent/the-cobbler/p7-700.webp 700w, img/places/gent/the-cobbler/p7-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "The Cobbler: food",
+     "credit": "@thecobblerghent on Instagram",
+     "credit_url": "https://www.instagram.com/thecobblerghent/",
+     "ig": "https://www.instagram.com/p/DSm-MWUkhKL/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/the-cobbler/p1-1400.webp"
+    "src": "img/places/gent/the-cobbler/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -25101,6 +25393,11 @@
   "whynot": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/Dc5l6hJjNSv/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Dc5lb2nsat-/",
      "category": "food",
      "origin": "research"
@@ -25122,18 +25419,20 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/gent/whynot/p2-800.webp",
-     "thumb": "img/places/gent/whynot/p2-400.webp",
-     "srcset": "img/places/gent/whynot/p2-400.webp 400w, img/places/gent/whynot/p2-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "src": "img/places/gent/whynot/p4-1400.webp",
+     "thumb": "img/places/gent/whynot/p4-700.webp",
+     "srcset": "img/places/gent/whynot/p4-700.webp 700w, img/places/gent/whynot/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
      "category": "food",
      "alt": "WhyNot: food",
      "credit": "@whynot.gent on Instagram",
      "credit_url": "https://www.instagram.com/whynot.gent/",
+     "ig": "https://www.instagram.com/p/Dc5l6hJjNSv/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     },
     {
      "src": "img/places/gent/whynot/p3-800.webp",
@@ -25442,6 +25741,21 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/zeppos-vlasmarkt/p2-1400.webp",
+     "thumb": "img/places/gent/zeppos-vlasmarkt/p2-700.webp",
+     "srcset": "img/places/gent/zeppos-vlasmarkt/p2-700.webp 700w, img/places/gent/zeppos-vlasmarkt/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "Zeppos: the outside",
+     "credit": "zepposvlasmarkt.be",
+     "credit_url": "https://zepposvlasmarkt.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b09 2026-11-01"
     }
    ],
    "pick": {
@@ -27723,28 +28037,7 @@
    "layout": "mix"
   },
   "afsnis": {
-   "photos": [
-    {
-     "src": "img/places/gent/afsnis/p1-1400.webp",
-     "thumb": "img/places/gent/afsnis/p1-700.webp",
-     "srcset": "img/places/gent/afsnis/p1-700.webp 700w, img/places/gent/afsnis/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 788,
-     "category": "exterior",
-     "alt": "Afsnis: the outside",
-     "credit": "Afsnis via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/afsnis",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/afsnis/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
+   "hold": "no people-free photo found: own Instagram (afsnis.gent) has only gig posters and crowd shots; Visit Gent street photo showed a passer-by; website has only the menu"
   },
   "cafe-albatros": {
    "posts": [
@@ -28685,28 +28978,7 @@
    "layout": "mix"
   },
   "t-galgenhuisje": {
-   "photos": [
-    {
-     "src": "img/places/gent/t-galgenhuisje/p1-1400.webp",
-     "thumb": "img/places/gent/t-galgenhuisje/p1-700.webp",
-     "srcset": "img/places/gent/t-galgenhuisje/p1-700.webp 700w, img/places/gent/t-galgenhuisje/p1-1400.webp 1400w",
-     "w": 720,
-     "h": 960,
-     "category": "interior",
-     "alt": "'t Galgenhuisje: the interior",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-galgenhuisje",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/gent/t-galgenhuisje/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
+   "hold": "no people-free photo found: own Instagram (galgenhuisje_gent) has only text-overlay promos and people shots; Visit Gent room photo showed a guest; website unreachable"
   },
   "tds": {
    "photos": [
@@ -29686,6 +29958,9 @@
      "added": "gap-fill 2026-10-31"
     }
    ]
+  },
+  "hot-club-gent": {
+   "hold": "no people-free photo found: own Instagram (hotclubgent) and website have only concert posters/programmes"
   }
  }
 }
