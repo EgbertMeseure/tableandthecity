@@ -1566,8 +1566,10 @@
   },
   "osm-fattoush-n13533812685": {
    "name": "Fattoush",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "fattoush.gent",
+   "origin": "research (approved 20 Oct 2026); handle confirmed 1 Nov 2026",
+   "handleSource": "https://www.instagram.com/fattoush.gent/",
+   "handleNote": "Bio address Brabantdam 69, 9000 Gent matches; own posts DIV6bnWo6IZ."
   },
   "osm-festival-n4235248790": {
    "name": "Festival",
@@ -2041,8 +2043,10 @@
   },
   "osm-kaskcafe-n2084451567": {
    "name": "KASKcafé",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "kaskcafe",
+   "origin": "research (approved 20 Oct 2026); handle confirmed 1 Nov 2026",
+   "handleSource": "https://www.instagram.com/p/DWO2JY2CAlF/",
+   "handleNote": "OSM instagram tag kaskcafe; feed shows the KASKcafé sign and Bijloke campus; own posts DWO2JY2CAlF, DTKYunQiIqT."
   },
   "osm-keizershof-n1187211170": {
    "name": "Keizershof",
@@ -3159,8 +3163,10 @@
   },
   "osm-t-fondueloft-n6796872888": {
    "name": "'t Fondueloft",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "fondueloft_gent",
+   "origin": "research (approved 20 Oct 2026); handle confirmed 1 Nov 2026",
+   "handleSource": "https://www.instagram.com/fondueloft_gent/",
+   "handleNote": "Bio links www.fondueloft.be and gives Baudelostraat 29, Gent."
   },
   "osm-t-klaverblad-n3394070670": {
    "name": "'t Klaverblad",
@@ -5743,6 +5749,18 @@
    "ok": true,
    "checked": "2026-11-01",
    "why": "post embed renders (photo-fill b16)"
+  },
+  "fattoush.gent": {
+   "ok": true,
+   "checked": "2026-11-01"
+  },
+  "kaskcafe": {
+   "ok": true,
+   "checked": "2026-11-01"
+  },
+  "fondueloft_gent": {
+   "ok": true,
+   "checked": "2026-11-01"
   }
  }
 }

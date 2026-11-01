@@ -9112,6 +9112,11 @@
   "osm-amour-n5428846934": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DWD6u2zDHsF/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DdoACloAYpT/",
      "category": "food",
      "origin": "research"
@@ -9123,6 +9128,22 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/osm-amour-n5428846934/p5-1400.webp",
+     "thumb": "img/places/gent/osm-amour-n5428846934/p5-700.webp",
+     "srcset": "img/places/gent/osm-amour-n5428846934/p5-700.webp 700w, img/places/gent/osm-amour-n5428846934/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "Amour: the outside",
+     "credit": "@amour.gent on Instagram",
+     "credit_url": "https://www.instagram.com/amour.gent/",
+     "ig": "https://www.instagram.com/p/DWD6u2zDHsF/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b18 2026-11-01"
+    },
     {
      "src": "img/places/gent/osm-amour-n5428846934/p1-1400.webp",
      "thumb": "img/places/gent/osm-amour-n5428846934/p1-700.webp",
@@ -9182,7 +9203,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-amour-n5428846934/p1-1400.webp"
+    "src": "img/places/gent/osm-amour-n5428846934/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -9504,6 +9525,11 @@
   "osm-arthe2-n12462539697": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DWE-_7lFpQq/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Del8FC6I6Xd/",
      "category": "food",
      "origin": "research"
@@ -9515,6 +9541,22 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/osm-arthe2-n12462539697/p4-1400.webp",
+     "thumb": "img/places/gent/osm-arthe2-n12462539697/p4-700.webp",
+     "srcset": "img/places/gent/osm-arthe2-n12462539697/p4-700.webp 700w, img/places/gent/osm-arthe2-n12462539697/p4-1400.webp 1400w",
+     "w": 958,
+     "h": 1199,
+     "category": "interior",
+     "alt": "Arthe²: the interior",
+     "credit": "@restaurant.arthe2 on Instagram",
+     "credit_url": "https://www.instagram.com/restaurant.arthe2/",
+     "ig": "https://www.instagram.com/p/DWE-_7lFpQq/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b18 2026-11-01"
+    },
     {
      "src": "img/places/gent/osm-arthe2-n12462539697/p1-1400.webp",
      "thumb": "img/places/gent/osm-arthe2-n12462539697/p1-700.webp",
@@ -9560,7 +9602,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/osm-arthe2-n12462539697/p1-1400.webp"
+    "src": "img/places/gent/osm-arthe2-n12462539697/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -33590,6 +33632,88 @@
    "pick": {
     "type": "photo",
     "src": "img/places/gent/roar-gent/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-fattoush-n13533812685": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DIV6bnWo6IZ/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/osm-fattoush-n13533812685/p1-1400.webp",
+     "thumb": "img/places/gent/osm-fattoush-n13533812685/p1-700.webp",
+     "srcset": "img/places/gent/osm-fattoush-n13533812685/p1-700.webp 700w, img/places/gent/osm-fattoush-n13533812685/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "osm-fattoush-n13533812685: food",
+     "credit": "@fattoush.gent on Instagram",
+     "credit_url": "https://www.instagram.com/fattoush.gent/",
+     "ig": "https://www.instagram.com/p/DIV6bnWo6IZ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill z1 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/osm-fattoush-n13533812685/p2-1400.webp",
+     "thumb": "img/places/gent/osm-fattoush-n13533812685/p2-700.webp",
+     "srcset": "img/places/gent/osm-fattoush-n13533812685/p2-700.webp 700w, img/places/gent/osm-fattoush-n13533812685/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "osm-fattoush-n13533812685: food",
+     "credit": "@fattoush.gent on Instagram",
+     "credit_url": "https://www.instagram.com/fattoush.gent/",
+     "ig": "https://www.instagram.com/p/DIV6bnWo6IZ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill z1 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-fattoush-n13533812685/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "osm-kaskcafe-n2084451567": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DWO2JY2CAlF/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/osm-kaskcafe-n2084451567/p1-1400.webp",
+     "thumb": "img/places/gent/osm-kaskcafe-n2084451567/p1-700.webp",
+     "srcset": "img/places/gent/osm-kaskcafe-n2084451567/p1-700.webp 700w, img/places/gent/osm-kaskcafe-n2084451567/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "osm-kaskcafe-n2084451567: food",
+     "credit": "@kaskcafe on Instagram",
+     "credit_url": "https://www.instagram.com/kaskcafe/",
+     "ig": "https://www.instagram.com/p/DWO2JY2CAlF/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill z1 2026-11-01"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/osm-kaskcafe-n2084451567/p1-1400.webp"
    },
    "only": true,
    "layout": "mix"
