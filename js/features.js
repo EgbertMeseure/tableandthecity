@@ -208,11 +208,18 @@
   const addPeople = names => { const me = myName().toLowerCase(); LS.set(PKEY, cleanNames([...cleanNames(names), ...people()], 30).filter(n => n.toLowerCase() !== me)); };
   const dropPerson = name => LS.set(PKEY, people().filter(n => n.toLowerCase() !== name.toLowerCase()));
   const placeName = a => { const h = a ? a.querySelector('h3') : document.getElementById('hname'); if (!h) return ''; const x = h.cloneNode(true); x.querySelectorAll('.gscore, .mt-own').forEach(n => n.remove()); return x.textContent.trim(); };
+  /* short, chat-friendly link, opened by invite.html (GitHub Pages serves /invite from it): invite?<city>/<id>/<FirstName>, e.g.
+     https://tableandthecity.com/invite?gent/publiek/Egbert · other countries put the country first (invite?nl/amsterdam/x/Name) ·
+     a non-English inviter adds the language (…/Egbert&fr) · spaces become +, accents/dots/quotes are %-encoded (so chat apps keep the whole link).
+     Old long links (restaurant.html?…&invite=1&from=…) keep working: the friend side below still reads them. */
   function inviteUrl(c, id, a, from) {
-    const base = new URL(a ? a.href : location.href, location.href), u = new URL('restaurant.html', base);
-    const country = base.searchParams.get('country') || qp(location.href, 'country') || 'be';
-    u.search = new URLSearchParams({ country, city: c, id, invite: '1', ...(from ? { from } : {}) }).toString();
-    return u.href;
+    const base = new URL(a ? a.href : location.href, location.href);
+    const country = (base.searchParams.get('country') || qp(location.href, 'country') || 'be').toLowerCase();
+    const seg = v => encodeURIComponent(v).replace(/[.'!()*~]/g, ch => '%' + ch.charCodeAt(0).toString(16).toUpperCase()).replace(/%20/g, '+');
+    const lang = (window.TG_I18N && TG_I18N.lang) || 'en';
+    const path = [...(country !== 'be' ? [country] : []), c, id, ...(from || country !== 'be' ? [from || ''] : [])].map(seg).join('/') + (lang !== 'en' ? '&' + lang : '');
+    const live = NATIVE || /(^|\.)tableandthecity\.com$/.test(location.hostname) || !/^https?:$/.test(location.protocol);
+    return live ? 'https://tableandthecity.com/invite?' + path : new URL('invite.html', base).href.split('?')[0] + '?' + path;   // dev / local servers: invite.html
   }
   const phone = () => !!navigator.share && matchMedia('(pointer: coarse)').matches;
   let iv = null, ivFocus = null;
@@ -309,6 +316,7 @@
       <div class="mt-card__acts"><button type="button" class="pill-btn sm mt-card__yes" data-ivc="yes">${esc(T('Add to my Want to go'))}</button><button type="button" class="linkbtn" data-ivc="no">${esc(T('No thanks'))}</button></div>`;
     document.body.appendChild(k); requestAnimationFrame(() => k.classList.add('is-in'));
     const clean = () => { const u = new URL(location.href); u.searchParams.delete('invite'); u.searchParams.delete('from'); history.replaceState(history.state, '', u.pathname + u.search + u.hash); };
+    clean();                                                            // the address bar is clean as soon as the card shows (the card keeps the name)
     k.addEventListener('click', ev => {
       const b = ev.target.closest('[data-ivc]'); if (!b) return; ev.preventDefault();
       if (b.dataset.ivc === 'yes') {
