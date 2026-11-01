@@ -1051,3 +1051,105 @@ a.card.bw-host{position:relative}
 .pc__nav--prev{left:8px}.pc__nav--next{right:8px}
 .pc__nav:disabled{visibility:hidden}
 @media (hover:hover) and (pointer:fine){.pc__nav{display:flex}.pc__car:hover .pc__nav,.pc__car:focus-within .pc__nav{opacity:1}}
+/* ---- Promote your place (promote.html + promote-thanks.html, js/promote.js; preview, noindex, not linked). Calm cards like the private chefs page;
+        petrol (--blue) for the selected chip and the bought spot in the small previews, gold only for the tiny dots ---- */
+.pmpage{max-width:1180px}
+.pm-intro{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px 40px}
+.info .ipage p.pm-lede{margin:0;max-width:560px;font-size:15px;line-height:1.7;color:var(--text)}
+.pm-cities{display:flex;flex-direction:column;gap:8px}
+.pm-cities__label{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-3)}
+.pm-cities__chips,.pm-durs{display:flex;flex-wrap:wrap;gap:6px}
+.pm-chip{height:34px;padding:0 15px;border:1px solid var(--line-d);border-radius:var(--pill);background:#fff;color:var(--ink);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:background .2s,border-color .2s,color .2s}
+.pm-chip[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
+.pm-chip:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+@media (hover:hover){.pm-chip:not([aria-pressed="true"]):hover{border-color:var(--blue);color:var(--blue)}}
+.pm-sec{margin-top:48px}
+.pm-sec .ipage__h{font-size:24px}
+.info .ipage p.pm-sec__lede{margin:0 0 20px;font-size:13px;color:var(--text-2)}
+.pmgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.pmgrid--two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pmgrid--one{grid-template-columns:1fr}
+.pm-card{display:flex;flex-direction:column;border:1px solid var(--hairline);border-radius:var(--radius-card);overflow:hidden;background:#fff}
+.pm-card__vis{display:flex;align-items:center;justify-content:center;height:168px;background:var(--paper-warm);border-bottom:1px solid var(--hairline)}
+.pm-card__body{display:flex;flex-direction:column;flex:1;padding:20px 22px 22px}
+.pm-card__name{margin:0;font-family:var(--serif);font-weight:500;font-size:22px;line-height:1.2}
+.info .ipage p.pm-card__desc{margin:8px 0 0;font-size:13.5px;line-height:1.6;color:var(--text)}
+.pm-gets{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:7px;font-size:12.5px;line-height:1.5;color:var(--text-2)}
+.pm-gets li{position:relative;padding-left:15px}
+.pm-gets li::before{content:"";position:absolute;left:0;top:.62em;width:5px;height:5px;border-radius:50%;background:var(--accent)}
+.pm-card__foot{margin-top:auto;padding-top:18px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.info .ipage p.pm-dur1{margin:0;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-3);line-height:34px}
+.info .ipage p.pm-price{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;line-height:1.3}
+.pm-price__ex{font-family:var(--serif);font-weight:500;font-size:30px;color:var(--ink)}
+.pm-price__tax{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-2)}
+.pm-price__inc{flex-basis:100%;font-size:12px;color:var(--text-3)}
+.pm-price__worth{font-size:12px;color:var(--blue);font-weight:500}
+.pm-buy{display:inline-flex;align-items:center;justify-content:center;height:44px;padding:0 30px;border:1px solid var(--blue);border-radius:var(--pill);background:var(--blue);color:var(--blue-ink);text-decoration:none;font:600 11px var(--sans);letter-spacing:.16em;text-transform:uppercase;cursor:pointer;transition:background .2s,border-color .2s}
+.pm-buy:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+@media (hover:hover){.pm-buy:not(.is-soon):hover{background:var(--blue-deep);border-color:var(--blue-deep)}}
+.pm-buy.is-soon{background:#fff;border-color:var(--hairline);color:var(--text-3);cursor:not-allowed}
+.info .ipage p.pm-for{margin:-4px 0 0;font-size:11px;color:var(--text-3)}
+/* the bundle: one wide card, preview on the left */
+.pm-card--bundle{flex-direction:row}
+.pm-card--bundle .pm-card__vis{flex:0 0 38%;height:auto;min-height:220px;border-bottom:0;border-right:1px solid var(--hairline)}
+.pm-card--bundle .pm-gets{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
+/* schematic previews: grey blocks, the bought spot in petrol */
+.pmv{display:flex;flex-direction:column;gap:7px;width:170px}
+.pmv-bar{height:10px;width:60%;border-radius:5px;background:#dedad2;margin-bottom:3px}
+.pmv-row{position:relative;display:flex;align-items:center;gap:8px;height:24px;padding:0 8px;border:1px solid #e3dfd6;border-radius:8px;background:#fff}
+.pmv-row i{flex:none;width:14px;height:14px;border-radius:4px;background:#e3dfd6}
+.pmv-row b{flex:1;height:6px;border-radius:3px;background:#e9e5dd}
+.pmv-row em{position:absolute;right:7px;top:-7px;padding:1px 6px;border-radius:6px;background:#fff;border:1px solid var(--accent);font:600 6.5px var(--sans);letter-spacing:.12em;text-transform:uppercase;font-style:normal;color:#7a6234}
+.pmv-row.is-on{border-color:var(--blue);box-shadow:0 0 0 1px var(--blue)}
+.pmv-row.is-on i{background:var(--blue)}
+.pmv-row.is-on b{background:color-mix(in srgb,var(--blue) 30%,#fff)}
+.pmv-hero{height:34px;border-radius:8px;background:#1d1d1d}
+.pmv-feat{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}
+.pmv-feat i{height:30px;border-radius:6px;background:#e3dfd6}
+.pmv-feat i.is-on{background:var(--blue)}
+.pmv--ig{align-items:center}
+.pmv-story{position:relative;width:76px;height:128px;border-radius:12px;background:#1d1d1d;overflow:hidden}
+.pmv-prog{position:absolute;left:7px;right:7px;top:7px;height:2px;border-radius:1px;background:rgba(255,255,255,.35)}
+.pmv-prog::before{content:"";position:absolute;inset:0 45% 0 0;background:#fff;border-radius:1px}
+.pmv-stick{position:absolute;left:14px;right:14px;bottom:20px;height:14px;border-radius:7px;background:var(--blue)}
+.pmv-post{position:relative;width:120px;height:120px;border-radius:10px;overflow:hidden;background:#e3dfd6}
+.pmv-post--grid{display:grid;grid-template-columns:1fr 1fr;gap:3px;background:#fff}
+.pmv-post--grid i{background:#e3dfd6}
+.pmv-post--grid i.is-on{background:var(--blue)}
+.pmv-post--own{background:var(--blue)}
+.pmv-dots{position:absolute;left:0;right:0;bottom:8px;display:flex;justify-content:center;gap:4px}
+.pmv-dots i{width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,.5)}
+.pmv-dots i.is-on{background:#fff}
+.pmv--bundle{flex-direction:row;align-items:center;justify-content:center;gap:12px;width:auto}
+.pmv--bundle .pmv-story{width:62px;height:106px}
+.pmv--bundle .pmv-post{width:92px;height:92px}
+.pmv-mini{display:flex;flex-direction:column;gap:6px;width:112px}
+/* how it works + terms */
+.pm-steps{list-style:none;counter-reset:pm;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.pm-steps li{counter-increment:pm;display:flex;flex-direction:column;gap:6px;padding:18px 20px;border:1px solid var(--hairline);border-radius:20px;font-size:13px;line-height:1.6;color:var(--text-2)}
+.pm-steps li::before{content:counter(pm);font-family:var(--serif);font-size:22px;line-height:1;color:var(--accent)}
+.pm-steps b,.pm-terms b{font-weight:600;color:var(--ink);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.pm-terms{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 40px;max-width:980px}
+.pm-terms li{display:flex;flex-direction:column;gap:4px;font-size:13px;line-height:1.6;color:var(--text-2)}
+.info .ipage p.pm-note{margin:30px 0 0;font-size:12.5px;line-height:1.6;color:var(--text-2);max-width:720px}
+.pm-thanks .pm-sec--first{margin-top:0}
+.info .ipage p.pm-back{margin:26px 0 0}
+@media (max-width:980px){.pmgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){
+  .pm-intro{flex-direction:column;align-items:stretch}
+  .info .ipage p.pm-lede{font-size:14px}
+  .pm-sec{margin-top:38px}
+  .pm-sec .ipage__h{font-size:20px}
+  .pmgrid,.pmgrid--two{grid-template-columns:1fr;gap:16px}
+  .pm-card{border-radius:22px}
+  .pm-card__vis{height:160px}
+  .pm-card__body{padding:16px 18px 18px}
+  .pm-card__name{font-size:20px}
+  .pm-card--bundle{flex-direction:column}
+  .pm-card--bundle .pm-card__vis{flex:none;min-height:0;height:150px;border-right:0;border-bottom:1px solid var(--hairline)}
+  .pm-card--bundle .pm-gets{grid-template-columns:1fr}
+  .pm-buy{width:100%}
+  .pm-steps,.pm-terms{grid-template-columns:1fr;gap:12px}
+  .pm-steps li{flex-direction:row;flex-wrap:wrap;align-items:baseline;column-gap:10px;padding:14px 16px}
+  .pm-steps li span{flex-basis:100%}
+}
