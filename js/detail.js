@@ -35,6 +35,10 @@
   const IGPOST = 'View this photo on Instagram';
   const tIG = k => (window.TG_I18N && TG_I18N.t ? TG_I18N.t(k) : k);   // credits / captions are skipped by the page translator, so these two words are translated here
   const igLink = p => igOf(p) ? ` · <a class="ig-post" href="${esc(igOf(p))}" target="_blank" rel="noopener" aria-label="${esc(tIG(IGPOST))}">${esc(tIG('Instagram post'))}</a>` : '';
+  // a credit "@handle on Instagram" (data) → "Photos from Instagram @handle" (translated label + linked handle); other credits unchanged
+  const IGFROM = 'Photos from Instagram';
+  const igCred = p => { const m = p && /^@([A-Za-z0-9_.]+) on Instagram$/.exec(p.credit || ''); return m ? m[1] : ''; };
+  const igCredHtml = (p, h) => `${esc(tIG(IGFROM))} <a href="${esc(p.credit_url || `https://www.instagram.com/${h}/`)}" target="_blank" rel="noopener">@${esc(h)}</a>`;
   const plainHero = () => {
     const top = document.querySelector('.dhero'); top.classList.add('dhero--plain'); top.classList.remove('dhero--ig');
     top.querySelectorAll('.dhero__ig').forEach(x => x.remove());
@@ -51,7 +55,7 @@
   else if (heroP) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(M.url(heroP.src))}" ${heroP.srcset ? `srcset="${esc(M.srcset(heroP.srcset))}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
     if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
-    $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}${igLink(heroP)}`;
+    $('.dhero .credit').innerHTML = igCred(heroP) ? `${igCredHtml(heroP, igCred(heroP))}${igLink(heroP)}` : `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}${igLink(heroP)}`;
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
@@ -243,10 +247,13 @@
         : `<div class="dphotos__slot dphotos__slot--car" data-count="${n}"><div class="dphotos__track" tabindex="0" role="group" aria-label="${n} photos, swipe for more">${body}</div>
           <button type="button" class="dphotos__nav dphotos__nav--prev" aria-label="Previous photo" disabled>${CHEV(0)}</button><button type="button" class="dphotos__nav dphotos__nav--next" aria-label="Next photo">${CHEV(1)}</button>
           <span class="dphotos__cnt" aria-hidden="true"><b>1</b>/${n}</span>${igA(s)}</div>`; };
-    const creds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()].map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
+    const uCreds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()];
+    const otherCr = uCreds.filter(p => !igCred(p)).map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
+    const igCr = uCreds.filter(p => igCred(p)).map(p => igCredHtml(p, igCred(p))).join(' · ');
+    const creds = otherCr || igCr;
     $('#left dl.essentials').insertAdjacentHTML('afterend', `<section class="dphotos" aria-labelledby="dphotos-h"><h2 id="dphotos-h">Photos</h2>
       ${rows.map(row => `<div class="dphotos__row" data-n="${row.length}">${row.map(slotHtml).join('')}</div>`).join('')}
-      <div class="dphotos__foot">${creds ? `<span class="dphotos__cr"><span>Photos:</span> ${creds}</span>` : '<span></span>'}${nPh > 1 ? `<button type="button" class="dphotos__all" data-pi="0">View all ${nPh}</button>` : ''}</div></section>`);
+      <div class="dphotos__foot">${creds ? `<span class="dphotos__cr">${otherCr ? `<span>Photos:</span> ${otherCr}` : ''}${otherCr && igCr ? ' · ' : ''}${igCr ? `<span data-i18n-skip>${igCr}</span>` : ''}</span>` : '<span></span>'}${nPh > 1 ? `<button type="button" class="dphotos__all" data-pi="0">View all ${nPh}</button>` : ''}</div></section>`);
     document.querySelectorAll('.dphotos__slot--car').forEach(slot => {
       const tr = slot.querySelector('.dphotos__track'), n = +slot.dataset.count, cnt = slot.querySelector('.dphotos__cnt b');
       const pv = slot.querySelector('.dphotos__nav--prev'), nx = slot.querySelector('.dphotos__nav--next');
@@ -270,7 +277,7 @@
       if (a.hidden || moved || (slot && slot._swiped && Date.now() - slot._swiped < 250)) e.preventDefault(); e.stopPropagation(); }, true); }
   if (nPh > 1 || (nPh && !heroPh)) $('.dhero').insertAdjacentHTML('beforeend', `<button type="button" class="dhero__photos" data-pi="0"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg><span>${nTxt(nPh)}</span></button>`);
   let shown = [], idx = 0;
-  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}${igLink(p)}</span>`;
+  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}${igCred(p) ? `${igCredHtml(p, igCred(p))}${igLink(p)}</span>` : `Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}${igLink(p)}</span>`}`;
   const lb = $('#lb'); let lastFocus = null;
   function show(i) { idx = (i + shown.length) % shown.length; const p = shown[idx]; const im = $('#lb-img');
     im.referrerPolicy = 'no-referrer'; im.src = M.url(p.src); im.alt = p.alt || ''; $('#lb-cap').innerHTML = `<span class="lb__count">${idx + 1} / ${shown.length} · ${CATL[p.category]}</span>${capOf(p)}`; }
