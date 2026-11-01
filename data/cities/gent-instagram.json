@@ -137,9 +137,10 @@
   },
   "cafe-romain": {
    "name": "Café Romain",
-   "instagram_handle": "cafe_romain",
-   "handleSource": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "cafe.romain",
+   "handleSource": "https://www.instagram.com/p/Deoru1DDQ8E/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "@cafe_romain (Visit Gent listing) is dead; @cafe.romain verified 2026-11-01 via post embeds (Gent captions)."
   },
   "cafe-ventura": {
    "name": "Café Ventura",
@@ -149,9 +150,10 @@
   },
   "caracalla": {
    "name": "Caracalla",
-   "instagram_handle": null,
-   "note": "Unverified candidate @caracalla.restaurant (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "caracalla.restaurant",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DbK7gE_jAA4/",
+   "handleNote": "Verified 2026-11-01: post caption gives address Vlaanderenstraat 80, Gent."
   },
   "charlatan": {
    "name": "Charlatan",
@@ -5413,6 +5415,14 @@
   "zuruzururamen": {
    "ok": true,
    "checked": "2026-10-20"
+  },
+  "cafe.romain": {
+   "ok": true,
+   "checked": "2026-11-01"
+  },
+  "caracalla.restaurant": {
+   "ok": true,
+   "checked": "2026-11-01"
   }
  }
 }

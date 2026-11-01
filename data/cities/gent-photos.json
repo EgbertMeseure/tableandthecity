@@ -743,7 +743,50 @@
    "layout": "mix"
   },
   "bar-bassie": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DYHSDtCjYeH/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeJTECNIXCJ/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbFnGz1lGVz/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYOyvJjDfpN/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DYg0Ud0AVXP/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/bar-bassie/p2-1400.webp",
+     "thumb": "img/places/gent/bar-bassie/p2-700.webp",
+     "srcset": "img/places/gent/bar-bassie/p2-700.webp 700w, img/places/gent/bar-bassie/p2-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "Bar Bassie: the interior",
+     "credit": "@barbassie.wintercircus on Instagram",
+     "credit_url": "https://www.instagram.com/barbassie.wintercircus/",
+     "ig": "https://www.instagram.com/p/DYHSDtCjYeH/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
     {
      "src": "img/places/gent/bar-bassie/p1-1400.webp",
      "thumb": "img/places/gent/bar-bassie/p1-700.webp",
@@ -757,11 +800,75 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/bar-bassie/p3-1400.webp",
+     "thumb": "img/places/gent/bar-bassie/p3-700.webp",
+     "srcset": "img/places/gent/bar-bassie/p3-700.webp 700w, img/places/gent/bar-bassie/p3-1400.webp 1400w",
+     "w": 1088,
+     "h": 1344,
+     "category": "food",
+     "alt": "Bar Bassie: food",
+     "credit": "@barbassie.wintercircus on Instagram",
+     "credit_url": "https://www.instagram.com/barbassie.wintercircus/",
+     "ig": "https://www.instagram.com/p/DeJTECNIXCJ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bar-bassie/p4-1400.webp",
+     "thumb": "img/places/gent/bar-bassie/p4-700.webp",
+     "srcset": "img/places/gent/bar-bassie/p4-700.webp 700w, img/places/gent/bar-bassie/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Bar Bassie: food",
+     "credit": "@barbassie.wintercircus on Instagram",
+     "credit_url": "https://www.instagram.com/barbassie.wintercircus/",
+     "ig": "https://www.instagram.com/p/DbFnGz1lGVz/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bar-bassie/p5-1400.webp",
+     "thumb": "img/places/gent/bar-bassie/p5-700.webp",
+     "srcset": "img/places/gent/bar-bassie/p5-700.webp 700w, img/places/gent/bar-bassie/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1692,
+     "category": "food",
+     "alt": "Bar Bassie: food",
+     "credit": "@barbassie.wintercircus on Instagram",
+     "credit_url": "https://www.instagram.com/barbassie.wintercircus/",
+     "ig": "https://www.instagram.com/p/DYOyvJjDfpN/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/bar-bassie/p6-1400.webp",
+     "thumb": "img/places/gent/bar-bassie/p6-700.webp",
+     "srcset": "img/places/gent/bar-bassie/p6-700.webp 700w, img/places/gent/bar-bassie/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1725,
+     "category": "food",
+     "alt": "Bar Bassie: food",
+     "credit": "@barbassie.wintercircus on Instagram",
+     "credit_url": "https://www.instagram.com/barbassie.wintercircus/",
+     "ig": "https://www.instagram.com/p/DYg0Ud0AVXP/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/bar-bassie/p1-1400.webp"
+    "src": "img/places/gent/bar-bassie/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1643,6 +1750,21 @@
   "caracalla": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DdFKgTQDH33/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdQ431lDIAg/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DbK7gE_jAA4/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DdQ145NMQ8v/",
      "category": "food",
      "origin": "research"
@@ -1650,37 +1772,57 @@
    ],
    "photos": [
     {
-     "src": "img/places/gent/caracalla/p1-1400.webp",
-     "thumb": "img/places/gent/caracalla/p1-700.webp",
-     "srcset": "img/places/gent/caracalla/p1-700.webp 700w, img/places/gent/caracalla/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "src": "img/places/gent/caracalla/p3-1400.webp",
+     "thumb": "img/places/gent/caracalla/p3-700.webp",
+     "srcset": "img/places/gent/caracalla/p3-700.webp 700w, img/places/gent/caracalla/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "interior",
      "alt": "Caracalla: the interior",
      "credit": "@caracalla.restaurant on Instagram",
      "credit_url": "https://www.instagram.com/caracalla.restaurant/",
+     "ig": "https://www.instagram.com/p/DdFKgTQDH33/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
     },
     {
-     "src": "img/places/gent/caracalla/p2-800.webp",
-     "thumb": "img/places/gent/caracalla/p2-400.webp",
-     "srcset": "img/places/gent/caracalla/p2-400.webp 400w, img/places/gent/caracalla/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/gent/caracalla/p4-1400.webp",
+     "thumb": "img/places/gent/caracalla/p4-700.webp",
+     "srcset": "img/places/gent/caracalla/p4-700.webp 700w, img/places/gent/caracalla/p4-1400.webp 1400w",
+     "w": 1206,
+     "h": 1608,
      "category": "food",
      "alt": "Caracalla: food",
      "credit": "@caracalla.restaurant on Instagram",
      "credit_url": "https://www.instagram.com/caracalla.restaurant/",
+     "ig": "https://www.instagram.com/p/DdQ431lDIAg/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/caracalla/p5-1400.webp",
+     "thumb": "img/places/gent/caracalla/p5-700.webp",
+     "srcset": "img/places/gent/caracalla/p5-700.webp 700w, img/places/gent/caracalla/p5-1400.webp 1400w",
+     "w": 1170,
+     "h": 1560,
+     "category": "food",
+     "alt": "Caracalla: food",
+     "credit": "@caracalla.restaurant on Instagram",
+     "credit_url": "https://www.instagram.com/caracalla.restaurant/",
+     "ig": "https://www.instagram.com/p/DbK7gE_jAA4/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/caracalla/p1-1400.webp"
+    "src": "img/places/gent/caracalla/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -3790,12 +3932,47 @@
   "kaffee-krevet": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DaTgKMEiKQz/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DaSSSplCGtV/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DaDv8JnCDew/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DZffJgBCM9d/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeM7tvZIzVb/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/kaffee-krevet/p4-1400.webp",
+     "thumb": "img/places/gent/kaffee-krevet/p4-700.webp",
+     "srcset": "img/places/gent/kaffee-krevet/p4-700.webp 700w, img/places/gent/kaffee-krevet/p4-1400.webp 1400w",
+     "w": 800,
+     "h": 1200,
+     "category": "exterior",
+     "alt": "Kaffee Krevet: the outside",
+     "credit": "krevet.be",
+     "credit_url": "https://www.krevet.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
     {
      "src": "img/places/gent/kaffee-krevet/p1-1400.webp",
      "thumb": "img/places/gent/kaffee-krevet/p1-700.webp",
@@ -3837,11 +4014,75 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/kaffee-krevet/p5-1400.webp",
+     "thumb": "img/places/gent/kaffee-krevet/p5-700.webp",
+     "srcset": "img/places/gent/kaffee-krevet/p5-700.webp 700w, img/places/gent/kaffee-krevet/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Kaffee Krevet: food",
+     "credit": "@kaffeekrevet on Instagram",
+     "credit_url": "https://www.instagram.com/kaffeekrevet/",
+     "ig": "https://www.instagram.com/p/DaTgKMEiKQz/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kaffee-krevet/p6-1400.webp",
+     "thumb": "img/places/gent/kaffee-krevet/p6-700.webp",
+     "srcset": "img/places/gent/kaffee-krevet/p6-700.webp 700w, img/places/gent/kaffee-krevet/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "interior",
+     "alt": "Kaffee Krevet: the interior",
+     "credit": "@kaffeekrevet on Instagram",
+     "credit_url": "https://www.instagram.com/kaffeekrevet/",
+     "ig": "https://www.instagram.com/p/DaSSSplCGtV/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kaffee-krevet/p7-1400.webp",
+     "thumb": "img/places/gent/kaffee-krevet/p7-700.webp",
+     "srcset": "img/places/gent/kaffee-krevet/p7-700.webp 700w, img/places/gent/kaffee-krevet/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Kaffee Krevet: the interior",
+     "credit": "@kaffeekrevet on Instagram",
+     "credit_url": "https://www.instagram.com/kaffeekrevet/",
+     "ig": "https://www.instagram.com/p/DaDv8JnCDew/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/kaffee-krevet/p8-1400.webp",
+     "thumb": "img/places/gent/kaffee-krevet/p8-700.webp",
+     "srcset": "img/places/gent/kaffee-krevet/p8-700.webp 700w, img/places/gent/kaffee-krevet/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1748,
+     "category": "exterior",
+     "alt": "Kaffee Krevet: the outside",
+     "credit": "@kaffeekrevet on Instagram",
+     "credit_url": "https://www.instagram.com/kaffeekrevet/",
+     "ig": "https://www.instagram.com/p/DZffJgBCM9d/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/kaffee-krevet/p1-1400.webp"
+    "src": "img/places/gent/kaffee-krevet/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -4040,12 +4281,117 @@
   "klaar": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DehVm-6DXTg/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DFslpVJNmdl/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DEz-IavN5-H/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C_5OFo6tkmN/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CcUx5baMaHa/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeekyciDf4V/",
      "category": "interior",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/gent/klaar/p4-1400.webp",
+     "thumb": "img/places/gent/klaar/p4-700.webp",
+     "srcset": "img/places/gent/klaar/p4-700.webp 700w, img/places/gent/klaar/p4-1400.webp 1400w",
+     "w": 1198,
+     "h": 1498,
+     "category": "exterior",
+     "alt": "Klaar: the outside",
+     "credit": "@klaargent on Instagram",
+     "credit_url": "https://www.instagram.com/klaargent/",
+     "ig": "https://www.instagram.com/p/DehVm-6DXTg/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/klaar/p5-1400.webp",
+     "thumb": "img/places/gent/klaar/p5-700.webp",
+     "srcset": "img/places/gent/klaar/p5-700.webp 700w, img/places/gent/klaar/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Klaar: food",
+     "credit": "@klaargent on Instagram",
+     "credit_url": "https://www.instagram.com/klaargent/",
+     "ig": "https://www.instagram.com/p/DFslpVJNmdl/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/klaar/p6-1400.webp",
+     "thumb": "img/places/gent/klaar/p6-700.webp",
+     "srcset": "img/places/gent/klaar/p6-700.webp 700w, img/places/gent/klaar/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Klaar: food",
+     "credit": "@klaargent on Instagram",
+     "credit_url": "https://www.instagram.com/klaargent/",
+     "ig": "https://www.instagram.com/p/DEz-IavN5-H/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/klaar/p7-1400.webp",
+     "thumb": "img/places/gent/klaar/p7-700.webp",
+     "srcset": "img/places/gent/klaar/p7-700.webp 700w, img/places/gent/klaar/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Klaar: food",
+     "credit": "@klaargent on Instagram",
+     "credit_url": "https://www.instagram.com/klaargent/",
+     "ig": "https://www.instagram.com/p/C_5OFo6tkmN/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/klaar/p8-1400.webp",
+     "thumb": "img/places/gent/klaar/p8-700.webp",
+     "srcset": "img/places/gent/klaar/p8-700.webp 700w, img/places/gent/klaar/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Klaar: food",
+     "credit": "@klaargent on Instagram",
+     "credit_url": "https://www.instagram.com/klaargent/",
+     "ig": "https://www.instagram.com/p/CcUx5baMaHa/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
     {
      "src": "img/places/gent/klaar/p1-1400.webp",
      "thumb": "img/places/gent/klaar/p1-700.webp",
@@ -4073,26 +4419,11 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/klaar/p3-800.webp",
-     "thumb": "img/places/gent/klaar/p3-400.webp",
-     "srcset": "img/places/gent/klaar/p3-400.webp 400w, img/places/gent/klaar/p3-800.webp 800w",
-     "w": 800,
-     "h": 800,
-     "category": "exterior",
-     "alt": "Klaar: the outside",
-     "credit": "@klaargent on Instagram",
-     "credit_url": "https://www.instagram.com/klaargent/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true,
-     "added": "gap-fill 2026-10-31"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/klaar/p1-1400.webp"
+    "src": "img/places/gent/klaar/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -4335,6 +4666,16 @@
   "le-chouchou": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DdtJG72gYdR/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdOPoCyj4T-/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeoQjLHCnDY/",
      "category": "food",
      "origin": "research"
@@ -4389,6 +4730,38 @@
      "noPeopleChecked": true
     },
     {
+     "src": "img/places/gent/le-chouchou/p5-1400.webp",
+     "thumb": "img/places/gent/le-chouchou/p5-700.webp",
+     "srcset": "img/places/gent/le-chouchou/p5-700.webp 700w, img/places/gent/le-chouchou/p5-1400.webp 1400w",
+     "w": 833,
+     "h": 1042,
+     "category": "food",
+     "alt": "Le Chouchou: food",
+     "credit": "@lechouchou_gent on Instagram",
+     "credit_url": "https://www.instagram.com/lechouchou_gent/",
+     "ig": "https://www.instagram.com/p/DdtJG72gYdR/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/le-chouchou/p6-1400.webp",
+     "thumb": "img/places/gent/le-chouchou/p6-700.webp",
+     "srcset": "img/places/gent/le-chouchou/p6-700.webp 700w, img/places/gent/le-chouchou/p6-1400.webp 1400w",
+     "w": 833,
+     "h": 1042,
+     "category": "food",
+     "alt": "Le Chouchou: food",
+     "credit": "@lechouchou_gent on Instagram",
+     "credit_url": "https://www.instagram.com/lechouchou_gent/",
+     "ig": "https://www.instagram.com/p/DdOPoCyj4T-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
      "src": "img/places/gent/le-chouchou/p4-800.webp",
      "thumb": "img/places/gent/le-chouchou/p4-400.webp",
      "srcset": "img/places/gent/le-chouchou/p4-400.webp 400w, img/places/gent/le-chouchou/p4-800.webp 800w",
@@ -4413,35 +4786,100 @@
   "le-jeu-est-jambon": {
    "posts": [
     {
-     "url": "https://www.instagram.com/p/DeCUVnVNY_K/",
+     "url": "https://www.instagram.com/p/DeMS7srNPEQ/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeCUbCdjf02/",
      "category": "food",
      "origin": "research"
     },
     {
-     "url": "https://www.instagram.com/p/DeMS7srNPEQ/",
-     "category": "interior",
+     "url": "https://www.instagram.com/p/DafdkacjTzn/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DY7tEZLtRL_/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeCUVnVNY_K/",
+     "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
     {
-     "src": "img/places/gent/le-jeu-est-jambon/p1-1400.webp",
-     "thumb": "img/places/gent/le-jeu-est-jambon/p1-700.webp",
-     "srcset": "img/places/gent/le-jeu-est-jambon/p1-700.webp 700w, img/places/gent/le-jeu-est-jambon/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1436,
+     "src": "img/places/gent/le-jeu-est-jambon/p2-1400.webp",
+     "thumb": "img/places/gent/le-jeu-est-jambon/p2-700.webp",
+     "srcset": "img/places/gent/le-jeu-est-jambon/p2-700.webp 700w, img/places/gent/le-jeu-est-jambon/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1862,
+     "category": "interior",
+     "alt": "Le Jeu est Jambon: the interior",
+     "credit": "@lejeujambon on Instagram",
+     "credit_url": "https://www.instagram.com/lejeujambon/",
+     "ig": "https://www.instagram.com/p/DeMS7srNPEQ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/le-jeu-est-jambon/p3-1400.webp",
+     "thumb": "img/places/gent/le-jeu-est-jambon/p3-700.webp",
+     "srcset": "img/places/gent/le-jeu-est-jambon/p3-700.webp 700w, img/places/gent/le-jeu-est-jambon/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1862,
      "category": "food",
      "alt": "Le Jeu est Jambon: food",
      "credit": "@lejeujambon on Instagram",
      "credit_url": "https://www.instagram.com/lejeujambon/",
+     "ig": "https://www.instagram.com/p/DeCUbCdjf02/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/le-jeu-est-jambon/p4-1400.webp",
+     "thumb": "img/places/gent/le-jeu-est-jambon/p4-700.webp",
+     "srcset": "img/places/gent/le-jeu-est-jambon/p4-700.webp 700w, img/places/gent/le-jeu-est-jambon/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Le Jeu est Jambon: food",
+     "credit": "@lejeujambon on Instagram",
+     "credit_url": "https://www.instagram.com/lejeujambon/",
+     "ig": "https://www.instagram.com/p/DafdkacjTzn/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/le-jeu-est-jambon/p5-1400.webp",
+     "thumb": "img/places/gent/le-jeu-est-jambon/p5-700.webp",
+     "srcset": "img/places/gent/le-jeu-est-jambon/p5-700.webp 700w, img/places/gent/le-jeu-est-jambon/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Le Jeu est Jambon: food",
+     "credit": "@lejeujambon on Instagram",
+     "credit_url": "https://www.instagram.com/lejeujambon/",
+     "ig": "https://www.instagram.com/p/DY7tEZLtRL_/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/le-jeu-est-jambon/p1-1400.webp"
+    "src": "img/places/gent/le-jeu-est-jambon/p2-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -22898,15 +23336,103 @@
   "t-floere-foefke": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/C_QNhz7t9Gv/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CZ6Z9F4slBp/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CbdhmAHsyAx/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/CazLHmts-S5/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DSRgzNElzZS/",
      "category": "interior",
      "origin": "research"
     }
    ],
+   "photos": [
+    {
+     "src": "img/places/gent/t-floere-foefke/p1-1400.webp",
+     "thumb": "img/places/gent/t-floere-foefke/p1-700.webp",
+     "srcset": "img/places/gent/t-floere-foefke/p1-700.webp 700w, img/places/gent/t-floere-foefke/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "exterior",
+     "alt": "'t Floere Foefke: the outside",
+     "credit": "@tfloerefoefke on Instagram",
+     "credit_url": "https://www.instagram.com/tfloerefoefke/",
+     "ig": "https://www.instagram.com/p/C_QNhz7t9Gv/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/t-floere-foefke/p2-1400.webp",
+     "thumb": "img/places/gent/t-floere-foefke/p2-700.webp",
+     "srcset": "img/places/gent/t-floere-foefke/p2-700.webp 700w, img/places/gent/t-floere-foefke/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "interior",
+     "alt": "'t Floere Foefke: the interior",
+     "credit": "@tfloerefoefke on Instagram",
+     "credit_url": "https://www.instagram.com/tfloerefoefke/",
+     "ig": "https://www.instagram.com/p/CZ6Z9F4slBp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/t-floere-foefke/p3-1400.webp",
+     "thumb": "img/places/gent/t-floere-foefke/p3-700.webp",
+     "srcset": "img/places/gent/t-floere-foefke/p3-700.webp 700w, img/places/gent/t-floere-foefke/p3-1400.webp 1400w",
+     "w": 1047,
+     "h": 1047,
+     "category": "interior",
+     "alt": "'t Floere Foefke: the interior",
+     "credit": "@tfloerefoefke on Instagram",
+     "credit_url": "https://www.instagram.com/tfloerefoefke/",
+     "ig": "https://www.instagram.com/p/CbdhmAHsyAx/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/t-floere-foefke/p4-1400.webp",
+     "thumb": "img/places/gent/t-floere-foefke/p4-700.webp",
+     "srcset": "img/places/gent/t-floere-foefke/p4-700.webp 700w, img/places/gent/t-floere-foefke/p4-1400.webp 1400w",
+     "w": 971,
+     "h": 544,
+     "category": "food",
+     "alt": "'t Floere Foefke: food",
+     "credit": "@tfloerefoefke on Instagram",
+     "credit_url": "https://www.instagram.com/tfloerefoefke/",
+     "ig": "https://www.instagram.com/p/CazLHmts-S5/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    }
+   ],
    "pick": {
-    "type": "post",
-    "url": "https://www.instagram.com/p/DSRgzNElzZS/"
-   }
+    "type": "photo",
+    "src": "img/places/gent/t-floere-foefke/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   },
   "t-kofschip": {
    "hold": "no people-free photo found: party / crowd photos and promo graphics only"
@@ -24706,7 +25232,45 @@
    "layout": "mix"
   },
   "the-kitchen-1898-the-post": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DbvXZ3CFPt9/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DanQphEhUg7/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DT2YnXEArL9/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DQzMcqQEjIo/",
+     "category": "interior",
+     "origin": "research"
+    }
+   ],
    "photos": [
+    {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p5-1400.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p5-700.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p5-700.webp 700w, img/places/gent/the-kitchen-1898-the-post/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "exterior",
+     "alt": "The Kitchen at 1898 The Post: the outside",
+     "credit": "@1898ghent on Instagram",
+     "credit_url": "https://www.instagram.com/1898ghent/",
+     "ig": "https://www.instagram.com/p/DbvXZ3CFPt9/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
     {
      "src": "img/places/gent/the-kitchen-1898-the-post/p1-1400.webp",
      "thumb": "img/places/gent/the-kitchen-1898-the-post/p1-700.webp",
@@ -24719,20 +25283,6 @@
      "credit_url": "https://www.1898thepost.com/the-kitchen/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/gent/the-kitchen-1898-the-post/p2-800.webp",
-     "thumb": "img/places/gent/the-kitchen-1898-the-post/p2-400.webp",
-     "srcset": "img/places/gent/the-kitchen-1898-the-post/p2-400.webp 400w, img/places/gent/the-kitchen-1898-the-post/p2-800.webp 800w",
-     "w": 720,
-     "h": 1280,
-     "category": "exterior",
-     "alt": "The Kitchen at 1898 The Post: the outside",
-     "credit": "@1898ghent on Instagram",
-     "credit_url": "https://www.instagram.com/1898ghent/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
      "noPeopleChecked": true
     },
     {
@@ -24751,6 +25301,54 @@
      "added": "gap-fill 2026-10-31"
     },
     {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p6-1400.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p6-700.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p6-700.webp 700w, img/places/gent/the-kitchen-1898-the-post/p6-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "The Kitchen at 1898 The Post: food",
+     "credit": "@1898ghent on Instagram",
+     "credit_url": "https://www.instagram.com/1898ghent/",
+     "ig": "https://www.instagram.com/p/DanQphEhUg7/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p7-1400.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p7-700.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p7-700.webp 700w, img/places/gent/the-kitchen-1898-the-post/p7-1400.webp 1400w",
+     "w": 1365,
+     "h": 1820,
+     "category": "food",
+     "alt": "The Kitchen at 1898 The Post: food",
+     "credit": "@1898ghent on Instagram",
+     "credit_url": "https://www.instagram.com/1898ghent/",
+     "ig": "https://www.instagram.com/p/DT2YnXEArL9/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p8-1400.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p8-700.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p8-700.webp 700w, img/places/gent/the-kitchen-1898-the-post/p8-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "interior",
+     "alt": "The Kitchen at 1898 The Post: the interior",
+     "credit": "@1898ghent on Instagram",
+     "credit_url": "https://www.instagram.com/1898ghent/",
+     "ig": "https://www.instagram.com/p/DQzMcqQEjIo/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
      "src": "img/places/gent/the-kitchen-1898-the-post/p4-800.webp",
      "thumb": "img/places/gent/the-kitchen-1898-the-post/p4-400.webp",
      "srcset": "img/places/gent/the-kitchen-1898-the-post/p4-400.webp 400w, img/places/gent/the-kitchen-1898-the-post/p4-800.webp 800w",
@@ -24764,11 +25362,25 @@
      "source": "own_website",
      "noPeopleChecked": true,
      "added": "gap-fill 2026-10-31"
+    },
+    {
+     "src": "img/places/gent/the-kitchen-1898-the-post/p2-800.webp",
+     "thumb": "img/places/gent/the-kitchen-1898-the-post/p2-400.webp",
+     "srcset": "img/places/gent/the-kitchen-1898-the-post/p2-400.webp 400w, img/places/gent/the-kitchen-1898-the-post/p2-800.webp 800w",
+     "w": 720,
+     "h": 1280,
+     "category": "exterior",
+     "alt": "The Kitchen at 1898 The Post: the outside",
+     "credit": "@1898ghent on Instagram",
+     "credit_url": "https://www.instagram.com/1898ghent/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/the-kitchen-1898-the-post/p1-1400.webp"
+    "src": "img/places/gent/the-kitchen-1898-the-post/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -27291,21 +27903,19 @@
    "layout": "mix"
   },
   "t-dreupelkot": {
-   "photos": [
+   "posts": [
     {
-     "src": "img/places/gent/t-dreupelkot/p1-1400.webp",
-     "thumb": "img/places/gent/t-dreupelkot/p1-700.webp",
-     "srcset": "img/places/gent/t-dreupelkot/p1-700.webp 700w, img/places/gent/t-dreupelkot/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 932,
-     "category": "exterior",
-     "alt": "'t Dreupelkot: the outside",
-     "credit": "VisitGent via Visit Gent",
-     "credit_url": "https://visit.gent.be/nl/eten-drinken/t-dreupelkot",
-     "license": "",
-     "source": "visit_gent",
-     "noPeopleChecked": true
+     "url": "https://www.instagram.com/p/BhgLxsRnfTL/",
+     "category": "interior",
+     "origin": "research"
     },
+    {
+     "url": "https://www.instagram.com/p/BhWBx28BXM0/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
     {
      "src": "img/places/gent/t-dreupelkot/p2-800.webp",
      "thumb": "img/places/gent/t-dreupelkot/p2-400.webp",
@@ -27319,11 +27929,58 @@
      "license": "",
      "source": "visit_gent",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/gent/t-dreupelkot/p3-1400.webp",
+     "thumb": "img/places/gent/t-dreupelkot/p3-700.webp",
+     "srcset": "img/places/gent/t-dreupelkot/p3-700.webp 700w, img/places/gent/t-dreupelkot/p3-1400.webp 1400w",
+     "w": 960,
+     "h": 716,
+     "category": "interior",
+     "alt": "'t Dreupelkot: the interior",
+     "credit": "druppelkot.be",
+     "credit_url": "https://www.druppelkot.be/gallerij/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/t-dreupelkot/p4-1400.webp",
+     "thumb": "img/places/gent/t-dreupelkot/p4-700.webp",
+     "srcset": "img/places/gent/t-dreupelkot/p4-700.webp 700w, img/places/gent/t-dreupelkot/p4-1400.webp 1400w",
+     "w": 422,
+     "h": 528,
+     "category": "interior",
+     "alt": "'t Dreupelkot: the interior",
+     "credit": "@poldreupelkot on Instagram",
+     "credit_url": "https://www.instagram.com/poldreupelkot/",
+     "ig": "https://www.instagram.com/p/BhgLxsRnfTL/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
+    },
+    {
+     "src": "img/places/gent/t-dreupelkot/p5-1400.webp",
+     "thumb": "img/places/gent/t-dreupelkot/p5-700.webp",
+     "srcset": "img/places/gent/t-dreupelkot/p5-700.webp 700w, img/places/gent/t-dreupelkot/p5-1400.webp 1400w",
+     "w": 748,
+     "h": 533,
+     "category": "food",
+     "alt": "'t Dreupelkot: food",
+     "credit": "@poldreupelkot on Instagram",
+     "credit_url": "https://www.instagram.com/poldreupelkot/",
+     "ig": "https://www.instagram.com/p/BhWBx28BXM0/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill b06 2026-11-01"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/gent/t-dreupelkot/p1-1400.webp"
+    "src": "img/places/gent/t-dreupelkot/p2-800.webp"
    },
    "only": true,
    "layout": "mix"
