@@ -120,14 +120,15 @@
 
   const card = g => {
     const s = fix(g), p = PK[s.id], m = s.m, ok = okMonth(p, m);
-    const has = /^https:\/\//.test(p.stripeUrl || ''), href = has && place && ok ? buyHref(p, m) : '';
+    const has = P.live === true && /^https:\/\//.test(p.stripeUrl || ''), href = has && place && ok ? buyHref(p, m) : '';
     const worth = p.worth ? `<span class="pm-price__worth">${esc(t('Separately {a}, you save {b}', { a: eur(p.worth), b: eur(p.worth - p.price) }))}</span>` : '';
     const u = until(p, m);
     const sum = `<div class="pm-sum">
         <p class="pm-sum__place">${place ? `<b data-i18n-skip>${esc(place.name)}</b>` : `<i>No place chosen yet</i>`}<span>${esc(t(city.name))}</span></p>
         <p class="pm-sum__what">${esc([p.chip ? t('Position {n}', { n: p.position }) : '', (u === m ? t('Only {date} for now, the month after is booked', { date: mLabel(m, true) }) : p.recurring ? t('From {date}', { date: mLabel(m, true) }) : mLabel(m, true)), u && u !== m ? t('until {date}', { date: mLabel(u, true) }) : ''].filter(Boolean).join(' · '))}</p>
       </div>`;
-    const btn = !has ? `<button type="button" class="pm-buy is-soon" disabled aria-disabled="true">Coming soon</button>`
+    /* online payment is not open yet: every card shows a disabled "Coming soon" until TG_PROMOTE.live is set to true (and stripeUrl is filled) */
+    const btn = (P.live !== true || !has) ? `<button type="button" class="pm-buy is-soon" disabled aria-disabled="true">Coming soon</button>`
       : !ok ? `<button type="button" class="pm-buy is-soon" disabled>Fully booked</button>`
       : !place ? `<button type="button" class="pm-buy is-soon" data-need-place>Choose your place first</button>`
       : `<a class="pm-buy" href="${esc(href)}" rel="noopener">${p.recurring ? 'Subscribe' : 'Buy now'}</a>`;

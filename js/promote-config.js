@@ -16,6 +16,7 @@
      perCity     true = bought for one city (the city picked on the page goes to Stripe in client_reference_id)
    Prices are launch SUGGESTIONS (see the README in the handoff folder) — review before going live. */
 window.TG_PROMOTE = {
+  live: false,                                 // false = every buy button shows a disabled "Coming soon" (online payment not open yet); true + stripeUrl = Subscribe / Buy now
   currency: 'EUR',
   vatRate: 0.21,
   cities: ['gent', 'antwerpen', 'brussel', 'brugge', 'oostende'],

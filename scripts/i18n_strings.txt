@@ -865,7 +865,7 @@ Promoted | Gepromoot | Gesponsert | Sponsorisé | Promocionado
 excl. VAT | excl. btw | zzgl. MwSt. | HTVA | sin IVA
 {p} incl. {v}% VAT | {p} incl. {v}% btw | {p} inkl. {v} % MwSt. | {p} TVAC ({v} %) | {p} con {v} % de IVA
 Buy now | Nu kopen | Jetzt kaufen | Acheter | Comprar
-Coming soon | Binnenkort | Demnächst | Bientôt | Muy pronto
+Coming soon | Binnenkort | Demnächst | Bientôt disponible | Próximamente
 Thank you — Table and the City | Bedankt — Table and the City | Danke — Table and the City | Merci — Table and the City | Gracias — Table and the City
 Thank you for promoting your place on Table and the City. | Bedankt om je zaak te promoten op Table and the City. | Danke, dass Sie Ihr Lokal auf Table and the City bewerben. | Merci de promouvoir votre adresse sur Table and the City. | Gracias por promocionar tu local en Table and the City.
 Thank you, your promotion is booked | Bedankt, je promotie is geboekt | Danke, Ihre Werbung ist gebucht | Merci, votre promotion est réservée | Gracias, tu promoción está reservada

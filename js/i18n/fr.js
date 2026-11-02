@@ -826,7 +826,7 @@
 "excl. VAT": "HTVA",
 "{p} incl. {v}% VAT": "{p} TVAC ({v} %)",
 "Buy now": "Acheter",
-"Coming soon": "Bientôt",
+"Coming soon": "Bientôt disponible",
 "Thank you — Table and the City": "Merci — Table and the City",
 "Thank you for promoting your place on Table and the City.": "Merci de promouvoir votre adresse sur Table and the City.",
 "Thank you, your promotion is booked": "Merci, votre promotion est réservée",
