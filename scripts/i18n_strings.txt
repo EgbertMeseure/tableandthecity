@@ -648,6 +648,7 @@ Table and the City — choose your city | Table and the City — kies je stad | 
 Table and the City: curated guides to the finest tables, city by city. Spin the globe, pick a country and a city, and find restaurants, cafés, coffee and bakeries. | Table and the City: zorgvuldig samengestelde gidsen naar de beste tafels, stad per stad. Draai de wereldbol, kies een land en een stad, en vind restaurants, cafés, koffie en bakkers. | Table and the City: kuratierte Guides zu den besten Tischen, Stadt für Stadt. Dreh den Globus, wähle Land und Stadt und finde Restaurants, Cafés, Kaffee und Bäckereien. | Table and the City : des guides choisis avec soin vers les plus belles tables, ville par ville. Faites tourner le globe, choisissez un pays et une ville, et trouvez restaurants, cafés, coffee shops et boulangeries. | Table and the City: guías seleccionadas de las mejores mesas, ciudad a ciudad. Gira el globo, elige país y ciudad y encuentra restaurantes, cafés, café y panaderías.
 ## footer (∅ = empty)
 Back to top | Naar boven | Nach oben | Haut de page | Volver arriba
+Website created by | Website gemaakt door | Website erstellt von | Site créé par | Web creada por
 Part of the | Deel van de | Teil der | Membre de la famille | Parte de la familia
 family | familie | Familie | ∅ | ∅
 Dinners | Diners | Dinner-Events | Dîners | Cenas

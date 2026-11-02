@@ -661,6 +661,8 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .foot-links span{opacity:.45}
 .ipage__sources{font-size:13px;opacity:.85}
 .foot-links a{text-decoration:none}
+.site-footer .foot-by{font-size:9px;letter-spacing:.06em;text-transform:none;opacity:.55;text-decoration:none;padding:8px 12px;margin:-12px 0 -8px}   /* "Website created by Egbert M." (mailto), quiet like .meta */
+.site-footer .foot-by:hover,.site-footer .foot-by:focus-visible{opacity:.85;text-decoration:underline;text-underline-offset:3px}
 .foot-suggest{border-bottom:1px solid rgba(255,255,255,.4);padding-bottom:2px}
 @media (hover:hover){.foot-suggest:hover{color:var(--accent);border-color:var(--accent)}}
 .navdrawer a.nav-suggest{font-family:var(--serif-it);font-style:italic;font-size:22px;color:var(--accent)}

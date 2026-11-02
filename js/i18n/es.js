@@ -625,6 +625,7 @@
 "{city} — Table and the City": "{city} — Table and the City",
 "Table and the City: curated guides to the finest tables, city by city. Spin the globe, pick a country and a city, and find restaurants, cafés, coffee and bakeries.": "Table and the City: guías seleccionadas de las mejores mesas, ciudad a ciudad. Gira el globo, elige país y ciudad y encuentra restaurantes, cafés, café y panaderías.",
 "Back to top": "Volver arriba",
+"Website created by": "Web creada por",
 "Part of the": "Parte de la familia",
 "family": "",
 "Dinners": "Cenas",
