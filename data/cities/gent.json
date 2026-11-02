@@ -15408,6 +15408,83 @@
    "notes": "Added on user request 1 Nov 2026 as a sourced exception to the 'no generic cafés' rule of 20 Oct 2026 (6cfceb0 dropped the OSM record osm-t-kanon-n1603630998, amenity=pub): a petit grand café with a full kitchen and an extensive wine list, well covered by the press (Le Fooding, Knack Weekend, Visit Gent, we-heart). Curated record carries osm node/1603630998, so an OSM re-import matches it and never re-adds it. Run by Steven Desmedt, Ahmed El-Saidy and Jules Gahide since early 2022 (Le Fooding, we-heart; reopened 10 Feb 2022 per Instagram), the same team as La Matta (HLN: 'Jules, Steven en Ahmed van 't Kanon'). Kitchen: Le Fooding (review from 2023, page updated Sep 2026) names Tanguy Van Acker; Visit Gent still names chef Tarek, whom Le Fooding calls the ex-owner. Not confirmed for 2026, so chef left empty. Kitchen hours (own food menu, Oct 2026): food menu from 17:00 on weekdays, 13:00 on Saturdays, Sundays & bank holidays; bar bites all day. Photos: own Instagram @cafetkanon (facade CZtMKcvMQ27 is from Feb 2022; the drinks photo DeegH8_oU00 is cropped to leave out a blurred foreground) + one own-website photo (tkanon.com/Private-Events-1). The old og:image hero (tkanon-DSC09812) is two photos side by side and is not used.",
    "origin": "research-2026-11-01-user-request",
    "osm": "node/1603630998"
+  },
+  {
+   "id": "pot-and-paint-club-gent",
+   "name": "Pot & Paint Club",
+   "group": "cafes_bars",
+   "category": "cafe",
+   "type": null,
+   "cuisine": "Paint-your-own-ceramics café: drinks, cake and small snacks; weekend brunch",
+   "cuisineTags": [],
+   "chef": "unknown",
+   "address": "Brabantdam 82, 9000 Gent",
+   "postalCode": "9000",
+   "district": "Gent (9000)",
+   "neighbourhood": "Zuid",
+   "lat": 51.0497652,
+   "lng": 3.7308788,
+   "geoSource": "Nominatim/OpenStreetMap",
+   "geoPrecision": "address",
+   "priceLevel": "unknown",
+   "priceFrom": null,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "openingYear": 2026,
+   "openingDate": "2026-10-31",
+   "opened": "2026-10",
+   "isNew": true,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "dietNote": "",
+   "menuType": "unknown",
+   "menuChanges": "unknown",
+   "currentMenuNote": "unknown",
+   "status": "open",
+   "statusNote": "",
+   "website": "https://potandpaintclub.com/gent",
+   "instagram_handle": "potandpaintclub",
+   "instagram": "https://www.instagram.com/potandpaintclub/",
+   "instagramSource": "potandpaintclub.com (site header)",
+   "instagram_posts": [],
+   "phone": "+32 9 396 15 38",
+   "summary": "Paint-your-own-ceramics café in the former O'yo brunch bar on the Brabantdam: pick a mug, plate or bowl, paint it over drinks and cake (studio fee €17.50 plus the piece), weekend brunch sessions; the second Pot & Paint Club after Knokke-Heist, by Anne Cornut and Gil.",
+   "summaryLang": "en",
+   "events": [],
+   "sources": [
+    "https://www.hln.be/gent/oyo-heeft-overnemer-beet-voor-pand-aan-brabantdam-momfluencer-anne-cornut-opent-eind-oktober-pot-en-paint-club~a1b25830/",
+    "https://potandpaintclub.com/gent",
+    "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/met-zeven-kinderen-en-een-tweede-schilderscafe-wordt-het-leven-van-anne-en-gil-nog-drukker-het-is-goedkoper-dan-therapie/163835451.html"
+   ],
+   "dataConflict": null,
+   "dateChecked": "2026-11-02",
+   "lastChanged": "2026-11-02",
+   "city": "gent",
+   "country": "BE",
+   "photos": [],
+   "reservation_url": "https://potandpaintclub.com/gent",
+   "reservation_provider": null,
+   "features": {
+    "foodServed": true,
+    "openSunday": true,
+    "openMonday": false,
+    "new": true
+   },
+   "features_evidence": {
+    "foodServed": "https://potandpaintclub.com/gent (drinks, snacks and brunch)",
+    "openSunday": "https://potandpaintclub.com/gent (Sat–Sun 10:00–17:30)",
+    "openMonday": "https://potandpaintclub.com/gent (open Wed–Sun)",
+    "new": "https://potandpaintclub.com/gent (\"Vanaf 31 oktober 2026\")"
+   },
+   "openingHours": "We-Fr 13:00-21:00; Sa,Su 10:00-17:30; Mo,Tu off",
+   "openingHoursSource": "https://potandpaintclub.com/gent (2026-11-02; Google Maps listing not yet found)",
+   "notes": "Moved from gent-upcoming.json (expected 31 Oct 2026). Sessions ~2 h, booking via the site; pieces are fired and collected after ~8 weeks.",
+   "otherLocations": null,
+   "origin": "research-2026-11-02"
   }
  ],
  "extraEvents": [
@@ -16536,6 +16613,22 @@
    "change": "Added back as a sourced exception to the no-generic-cafés rule (petit grand café, Meerseniersstraat 17; bar bites all day, evening small plates, 700+ wines, big terrace; same team as La Matta; user request 2026-11-01). Curated record with osm node/1603630998.",
    "source": "https://lefooding.com/nl/restaurants/t-kanon",
    "public": "Added: petit grand café with a big terrace."
+  },
+  {
+   "date": "2026-11-02",
+   "restaurant": "Pot & Paint Club",
+   "field": "opened",
+   "change": "Moved from upcoming to the guide: opened 31 Oct 2026 (own site 'Vanaf 31 oktober 2026'; Nieuwsblad); weekly research 2026-11-02.",
+   "source": "https://potandpaintclub.com/gent",
+   "public": "Added: new opening (October 2026)."
+  },
+  {
+   "date": "2026-11-02",
+   "restaurant": "John Dory",
+   "field": "removed",
+   "change": "Permanently closed on 19 Sep 2026 (building on the Reep sold; own site); OSM node/7827689770 added to data/osm/closed.json, removed.",
+   "source": "https://www.john-dory.fish/",
+   "public": "Removed: closed permanently."
   }
  ],
  "eventDetails": {

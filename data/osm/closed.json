@@ -1283,6 +1283,13 @@
    "address": "Kempischdok-Westkaai 36A, 2000 Antwerpen",
    "closed": "2026",
    "source": "Google Places: MUROMAKI (Eiland) permanently closed (3 m); company moved to Vlaamsekaai 28 as Muromaki"
+  },
+  "node/7827689770": {
+   "name": "John Dory",
+   "id": "osm-john-dory-n7827689770",
+   "address": "Reep, Gent",
+   "closed": "2026-09-19",
+   "source": "https://www.john-dory.fish/"
   }
  }
 }

@@ -1,6 +1,6 @@
 {
  "city": "gent",
- "dateChecked": "2026-10-26",
+ "dateChecked": "2026-11-02",
  "timezone": "Europe/Brussels",
  "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into gent.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
  "excludedChecked": {
@@ -15,7 +15,10 @@
    "Le ChouChou, Klaar, Jalel, Café Edmond (open)",
    "DarBodé restaurant, Onderbergen 40 (announced HLN Apr 2026, open since May 2026 – added to the guide 2026-10-26)",
    "Barr 34, Onderbergen 34 (lounge/tapas bar, opened ~early Oct 2026 per Nieuwsblad 26 Oct 2026 – added to the guide 2026-10-26 as New since October 2026)",
-   "Café Rosa, Ledebergplein (opened 23 Oct 2026; generic café – not added)"
+   "Café Rosa, Ledebergplein (opened 23 Oct 2026; generic café – not added)",
+   "Pot & Paint Club, Brabantdam 82 (opened 31 Oct 2026 – moved into the guide 2026-11-02)",
+   "Café De Koer, Meibloemstraat 86 (volunteer neighbourhood café, opened Oct 2026; generic café – not added)",
+   "El Barista, Schouwburgstraat 8 (trend coffee bar: Dubai bars, strawberry cups, waffles; opened ~Aug 2026; not specialty coffee – not added)"
   ],
   "notEnoughInfo": [
    "MTM group (Mòris, Bianca…) takes over an unnamed Gentse brasserie in Oct 2026 (HLN 24 Sep 2026) — name secret",
@@ -24,50 +27,19 @@
    "Lunchbar ROMM (Mirto, Rommelaere site): 'coming soon', no opening month published (sandwich contest 5 Oct–27 Nov 2026) — re-add with a month",
    "Successor of Jus, Mageleinstraat 43 (two brothers; no name/date, 2026-10-26)",
    "'Mijn Restaurant' duo at ex-Door73, Hoogstraat 73 (concept secret, HLN 5 Aug 2026)",
-   "Successor of Grade, Ledebergplein (no details, 2026-10-26)"
+   "Successor of Grade, Ledebergplein (no details, 2026-10-26)",
+   "Theehuis + tweedehandswinkel by Ruth (41) in Gent (Nieuwsblad 7 Oct 2026; name/address not found – tea house with second-hand shop, not added)"
   ],
   "outOfScopeOrStale": [
    "The Bakery by Joost Arijs \"opens 9 December\" — 2022 press release, already open",
    "Stoom (sauna), K-Way, Action (not horeca)",
    "La Matta (gelato open; wine & sandwiches from Oct 2026 — partly open)",
-   "McDonald's Vrijdagmarkt (summer 2027) — big chains are excluded from the site (data/chains-exclude.json)"
+   "McDonald's Vrijdagmarkt (summer 2027) — big chains are excluded from the site (data/chains-exclude.json)",
+   "Crousty concept by the Colmar brothers (rice bowls, chain group/fast food – Nieuwsblad Oct 2026)",
+   "Winterbar, Sint-Veerleplein 11 (seasonal pop-up 4 Dec 2026 – 3 Jan 2027, not a permanent place)"
   ]
  },
  "upcoming": [
-  {
-   "id": "pot-and-paint-club-gent",
-   "name": "Pot & Paint Club",
-   "group": "cafes_bars",
-   "category": "cafe",
-   "address": "Brabantdam 82, 9000 Gent",
-   "postalCode": "9000",
-   "district": "Gent (9000)",
-   "neighbourhood": "Zuid",
-   "lat": 51.0497652,
-   "lng": 3.7308788,
-   "geoSource": "Nominatim/OpenStreetMap",
-   "geoPrecision": "address",
-   "expectedOpening": "2026-10-31",
-   "expectedOpeningLabel": "31 Oct",
-   "expectedOpeningNote": null,
-   "description": "Paint-your-own-ceramics café in the former O'yo brunch bar, with drinks and cake while you paint — the second Pot & Paint Club after Knokke-Heist.",
-   "team": "Anne Cornut ('Mama van Vijf') and Gil",
-   "website": "https://potandpaintclub.com/gent",
-   "instagram_handle": "potandpaintclub",
-   "vegetarian": "unknown",
-   "vegan": "unknown",
-   "dietNote": "",
-   "openingHours": "Wed–Fri 13:00–21:00, Sat–Sun 10:00–17:30 (from opening)",
-   "openingHoursSource": "https://potandpaintclub.com/gent",
-   "features": {},
-   "features_evidence": {},
-   "sources": [
-    "https://www.hln.be/gent/oyo-heeft-overnemer-beet-voor-pand-aan-brabantdam-momfluencer-anne-cornut-opent-eind-oktober-pot-en-paint-club~a1b25830/",
-    "https://potandpaintclub.com/gent"
-   ],
-   "announcedBy": "HLN, 14 Sep 2026; official site: \"Vanaf 31 oktober 2026\"",
-   "dateChecked": "2026-10-20"
-  },
   {
    "id": "ex-club-69-apero-dance-bar",
    "name": "Apero-dance bar at ex-Club 69 (name TBA)",
@@ -87,7 +59,8 @@
    "description": "The team behind Café Copain is turning Club 69 into a ticketless cocktail and apero-dance bar where live music turns into dancing.",
    "team": "Café Copain team (Mathieu Brouillet, Gaetan Jansseune, Ran Knockaert, Jolien Van Robays)",
    "website": "https://cafecopain.gent/",
-   "instagram_handle": "cafecopain.gent", "instagramSource": "https://cafecopain.gent/ (links @cafecopain.gent; @cafecopaingent does not exist)",
+   "instagram_handle": "cafecopain.gent",
+   "instagramSource": "https://cafecopain.gent/ (links @cafecopain.gent; @cafecopaingent does not exist)",
    "vegetarian": "unknown",
    "vegan": "unknown",
    "dietNote": "",
@@ -100,7 +73,7 @@
     "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/bekende-gentse-club-verdwijnt-na-ruim-25-jaar-en-viert-dat-met-een-maand-vol-laatste-feesten-de-cirkel-is-rond/162495399.html"
    ],
    "announcedBy": "HLN, 9 Oct 2026; Nieuwsblad, Oct 2026",
-   "dateChecked": "2026-10-20"
+   "dateChecked": "2026-11-02"
   },
   {
    "id": "sint-annakerk-restaurant-wijnbar",
@@ -134,7 +107,7 @@
     "https://avs.be/nieuws/renovatiewerken-sint-annakerk-schieten-op-opening-voorzien-tegen-eind-2027"
    ],
    "announcedBy": "Delhaize press release, 3 Sep 2026; AVS, 23 Jun 2026",
-   "dateChecked": "2026-10-20"
+   "dateChecked": "2026-11-02"
   }
  ]
 }
