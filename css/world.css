@@ -44,7 +44,7 @@ body.is-country .wl-intro{opacity:0;transform:translate(-30px,-46%);pointer-even
 .wl-mk{position:absolute;left:0;top:0;pointer-events:auto;background:none;border:0;padding:0;cursor:pointer;color:var(--cream);transition:opacity .4s}
 .wl-mk.is-back{opacity:0;pointer-events:none}
 .wl-mk__dot{position:absolute;left:-7px;top:-7px;width:14px;height:14px;border-radius:50%;background:radial-gradient(circle,#fff6dc 0 18%,var(--gold) 40%,#8a6b2f 100%);box-shadow:0 0 0 3px rgba(42,100,116,.75),0 0 22px 6px rgba(200,169,106,.55)}
-.wl-mk__dot::before,.wl-mk__dot::after{content:"";position:absolute;inset:-3px;border-radius:50%;border:1.5px solid var(--gold);animation:wl-pulse 2.6s var(--wl-ease) infinite}
+.wl-mk__dot::before,.wl-mk__dot::after{content:"";position:absolute;inset:-3px;border-radius:50%;border:1.5px solid var(--gold);animation:wl-pulse 2.6s var(--wl-ease) infinite;pointer-events:none}   /* the pulse rings grow to 3.6× and stay hit-testable while invisible: on a phone Brussels' and Bruges' rings covered Ghent's dot and label, so a tap on Ghent opened Brussels */
 .wl-mk__dot::after{border-color:var(--petrol);animation-delay:1.3s}
 @keyframes wl-pulse{0%{transform:scale(1);opacity:.9}100%{transform:scale(3.6);opacity:0}}
 .wl-mk__lbl{position:absolute;left:18px;top:-11px;white-space:nowrap;font-size:var(--fs-s);letter-spacing:var(--track-ui);text-transform:uppercase;font-weight:600;padding:5px 12px;border-radius:var(--pill);background:rgba(4,5,6,.55);border:1px solid rgba(200,169,106,.6);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
