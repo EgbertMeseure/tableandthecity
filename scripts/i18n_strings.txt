@@ -259,6 +259,7 @@ Confirmed — {raw} | Bevestigd — {raw} | Bestätigt — {raw} | Confirmé —
 Not confirmed | Niet bevestigd | Nicht bestätigt | Pas confirmé | Sin confirmar
 No | Nee | Nein | Non | No
 Groups of 6+ only | Enkel groepen van 6+ | Nur Gruppen ab 6 | Groupes de 6+ uniquement | Solo grupos de 6+
+Zalige Zondag: last Sunday of the month · collab each quarter | Zalige Zondag: laatste zondag van de maand · elk kwartaal een collab | Zalige Zondag: letzter Sonntag im Monat · jedes Quartal eine Kollabo | Zalige Zondag : dernier dimanche du mois · une collab par trimestre | Zalige Zondag: último domingo del mes · una colaboración cada trimestre
 Gluten-free | Glutenvrij | Glutenfrei | Sans gluten | Sin gluten
 Gluten-free options | Glutenvrije opties | Glutenfreie Optionen | Options sans gluten | Opciones sin gluten
 Wheelchair | Rolstoel | Rollstuhl | Fauteuil roulant | Silla de ruedas

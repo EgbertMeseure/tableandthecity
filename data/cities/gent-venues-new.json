@@ -112,7 +112,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.charlatan.be/",
-      "instagram_handle": null,
+      "instagram_handle": "cafecharlatan",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -136,7 +136,8 @@
         "https://nl.wikipedia.org/wiki/Charlatan_(zaal)"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.facebook.com/charlatancafe"
     },
     {
       "id": "kinky-star",
@@ -906,7 +907,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.trollekelder.be",
-      "instagram_handle": null,
+      "instagram_handle": "trollekelder",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -930,7 +931,8 @@
         "https://www.trollekelder.be"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "street"
+      "geoPrecision": "street",
+      "instagramSource": "https://www.instagram.com/p/C2clQV6tzY6/"
     },
     {
       "id": "cafe-folklore",
@@ -1110,7 +1112,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": null,
-      "instagram_handle": "cafe_romain",
+      "instagram_handle": "cafe.romain",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1134,7 +1136,7 @@
       ],
       "dateChecked": "2026-10-19",
       "geoPrecision": "street",
-      "instagramSource": "Visit Gent listing"
+      "instagramSource": "Instagram post embeds (verified 2026-11-01; @cafe_romain dead)"
     },
     {
       "id": "t-floere-foefke",
@@ -1487,7 +1489,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.goyacoffee.be/",
-      "instagram_handle": "goya_coffee_gent",
+      "instagram_handle": "goya_gent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1512,7 +1514,7 @@
       ],
       "dateChecked": "2026-10-19",
       "geoPrecision": "address",
-      "instagramSource": "official website"
+      "instagramSource": "https://www.instagram.com/p/DS6_4z2itny/"
     },
     {
       "id": "mokabon",
@@ -1571,7 +1573,7 @@
       "openingHours": "Weekdays 08:00–18:00; weekends 09:00–18:00 (site also shows 'weekdays 9am–6pm' in its header — minor conflict)",
       "openingHoursSource": "https://www.fullcircleghent.com/",
       "website": "https://www.fullcircleghent.com/",
-      "instagram_handle": "fullcircleghent",
+      "instagram_handle": "fullcirclecoffeeroastery",
       "features": {
         "veggie": true,
         "vegan": true,
@@ -1596,7 +1598,7 @@
       ],
       "dateChecked": "2026-10-19",
       "geoPrecision": "address",
-      "instagramSource": "official website"
+      "instagramSource": "https://www.instagram.com/p/CloG16xM3OV/"
     },
     {
       "id": "peaberry-coffeebar",
@@ -1697,7 +1699,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": "https://www.barbidon.be",
-      "instagram_handle": null,
+      "instagram_handle": "barbidongent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1721,7 +1723,8 @@
         "https://caffeatlas.com/city-guides/belgium/ghent"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.instagram.com/p/C-Rpj_4tyV3/"
     },
     {
       "id": "vandekerckhove-bar",
@@ -1780,7 +1783,7 @@
       "openingHours": "Mon–Fri 08:30–18:30; Sat–Sun 09:00–18:30 (last order 18:00; breakfast only, kitchen closes 14:00)",
       "openingHoursSource": "https://www.take-five-espressobar.be/our-locations-menu",
       "website": "https://www.take-five-espressobar.be/",
-      "instagram_handle": null,
+      "instagram_handle": "takefiveespressobar",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1804,7 +1807,8 @@
         "https://www.demorgen.be/beter-leven/gebrand-op-het-perfecte-kopje-de-35-fijnste-koffiebars-van-het-moment-in-brussel-en-vlaanderen~b32c24ca/"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "wild-child",
@@ -1821,7 +1825,7 @@
       "openingHours": "Mon–Fri 08:00–17:30; Sat 10:00–17:30 (as reported by HLN, Feb 2025)",
       "openingHoursSource": "https://www.hln.be/gent/net-open-in-koffiebar-wild-child-doet-bram-36-zijn-eigen-zin-je-kan-je-ook-om-acht-uur-s-ochtends-al-amuseren-of-toch-bij-mij~a8e19584/",
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "wildchild.gent",
       "features": {
         "veggie": true,
         "vegan": null,
@@ -1845,7 +1849,8 @@
       ],
       "dateChecked": "2026-10-19",
       "isNewNote": "Opened just before Christmas 2024 (~22 months ago), so outside the 18-month window.",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "terug",
@@ -1862,7 +1867,7 @@
       "openingHours": null,
       "openingHoursSource": null,
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "terug.coffee",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1888,7 +1893,8 @@
       "dateChecked": "2026-10-19",
       "addressSource": "House number from OpenStreetMap node 12798265418 (HLN describes the corner of Jan Frans Willemsstraat and Citadellaan).",
       "openingDate": "2025-05 (HLN 'net open' 13 May 2025)",
-      "geoPrecision": "osm_node"
+      "geoPrecision": "osm_node",
+      "instagramSource": "Instagram bio (verified 2026-11-01)"
     },
     {
       "id": "tds",
@@ -1905,7 +1911,7 @@
       "openingHours": "Wed–Mon 08:00–17:00; Sunday morning by reservation only (as reported by HLN, 3 Sep 2026)",
       "openingHoursSource": "https://www.hln.be/gent/kurt-38-en-hanne-39-openen-koffiebar-voor-echte-koffienerds-we-willen-tonen-hoe-divers-koffie-kan-zijn~a27251b1/",
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "tds.ghent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1929,7 +1935,8 @@
       ],
       "dateChecked": "2026-10-19",
       "openingDate": "2026-09-07",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "or-coffee-lab-gent",
@@ -1946,7 +1953,7 @@
       "openingHours": "Mon–Fri 08:00–17:00; Sat–Sun 09:00–18:00",
       "openingHoursSource": "https://www.orcoffee.be/pages/or-coffee-labs",
       "website": "https://www.orcoffee.be/pages/or-coffee-labs",
-      "instagram_handle": "orcoffeeroasters",
+      "instagram_handle": "orcoffeelab_gent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -1972,7 +1979,7 @@
       "dateChecked": "2026-10-19",
       "openingDate": "Autumn 2025 (Made in, 31 Aug 2025: opening planned for start of the academic year; OR site confirms it is open). Exact date not found.",
       "geoPrecision": "address",
-      "instagramSource": "official website"
+      "instagramSource": "https://www.instagram.com/p/DW1vj-fipG-/"
     },
     {
       "id": "roar-gent",
@@ -2290,7 +2297,7 @@
       "openingHours": "Tue–Fri 08:30–16:30; Sat 09:00–15:30",
       "openingHoursSource": "https://smorbrod.gent/pages/contact",
       "website": "https://smorbrod.gent/",
-      "instagram_handle": null,
+      "instagram_handle": "smorbrodgent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -2315,7 +2322,8 @@
         "https://europeancoffeetrip.com/ghent/"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "official website"
     },
     {
       "id": "morgen-bakkerij",
@@ -2377,7 +2385,7 @@
       "openingHours": "Thu, Fri, Mon 07:00–18:00; Sat 07:00–17:00; Sun 07:00–14:00; Tue–Wed closed (as reported by HLN, Mar 2026)",
       "openingHoursSource": "https://www.hln.be/gent/net-open-na-jaren-in-het-vak-opent-norman-31-zijn-eigen-bakkerij-ik-wil-een-echte-buurtbakkerij-worden~a0c1a5cb3/",
       "website": null,
-      "instagram_handle": null,
+      "instagram_handle": "norman_bakery",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -2402,7 +2410,8 @@
       ],
       "dateChecked": "2026-10-19",
       "openingDate": "2026-03-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.instagram.com/p/Dc1SZYZjBC3/"
     },
     {
       "id": "madam-bakster",
@@ -2461,7 +2470,7 @@
       "openingHours": "Webshop pickup slots show Tue–Fri 07:30–18:00 and Sat 08:00–17:00 at Lange Violettestraat (shop hours not stated separately)",
       "openingHoursSource": "https://www.debroodstokerij.be/",
       "website": "https://www.debroodstokerij.be/",
-      "instagram_handle": null,
+      "instagram_handle": "broodstokerij_gent",
       "features": {
         "veggie": null,
         "vegan": null,
@@ -2485,7 +2494,8 @@
         "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/bakkerij-bekend-voor-zuurdesembrood-opent-derde-vestiging-het-voelt-wat-retro-aan/156232121.html"
       ],
       "dateChecked": "2026-10-19",
-      "geoPrecision": "address"
+      "geoPrecision": "address",
+      "instagramSource": "https://www.instagram.com/p/DY7A_qVjXHR/"
     },
     {
       "id": "julies-house",

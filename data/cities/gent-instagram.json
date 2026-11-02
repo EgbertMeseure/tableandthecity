@@ -3,9 +3,10 @@
  "places": {
   "afsnis": {
    "name": "Afsnis",
-   "instagram_handle": null,
-   "note": "Unverified candidate @afsnis.gent (InTravel aggregator only); own site links only Facebook.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "afsnis.gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DeBm_VWxN-y/",
+   "handleNote": "Bands tag @afsnis.gent for their Afsnis Ghent shows (beerkatmusic \"Ghent ... play at @afsnis.gent\"; themuttonsofficial release show); account posts Afsnis gig posters."
   },
   "alberte": {
    "name": "Alberte",
@@ -57,9 +58,9 @@
   "bar-bidon": {
    "name": "Bar Bidon",
    "instagram_handle": "barbidongent",
-   "handleSource": "https://tiptoh.eu/blogs/our-baristas/bar-bidon",
-   "note": "Own site unreachable; linked from the coffee roaster Tiptoh's profile of Bar Bidon (third party).",
-   "origin": "research (approved 20 Oct 2026)"
+   "handleSource": "https://www.instagram.com/p/C-Rpj_4tyV3/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Own posts (embed username barbidongent); profile \"BAR BIDON\"."
   },
   "bar-dada": {
    "name": "Bar Dada",
@@ -77,15 +78,18 @@
   },
   "boutique-boissons": {
    "name": "Boutique & Boissons",
-   "instagram_handle": null,
-   "note": "Unverified candidate @boutique.et.boissons (InTravel aggregator only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "boutique.et.boissons",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DUGkFdziBNH/",
+   "handleNote": "Own posts (embed username boutique.et.boissons), Vlaanderenstraat 66."
   },
   "bovary": {
    "name": "Bovary",
-   "instagram_handle": null,
-   "note": "Unverified candidate @bovary.gent (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "bovary.gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DYFTS6vjKHp/",
+   "handleNote": "Own post (embed username bovary.gent): \"Welkom bij Bovary Gastrobar, in het hart van Gent\".",
+   "note": "Unverified candidate @bovary.gent (search result only)."
   },
   "cafe-albatros": {
    "name": "Café Albatros",
@@ -115,9 +119,11 @@
   },
   "cafe-gitane": {
    "name": "Café Gitane",
-   "instagram_handle": null,
-   "note": "Unverified candidate @gitane_gent (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "gitane_gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://visit.gent.be/nl/eten-drinken/cafe-gitane",
+   "handleNote": "Profile name \"Gitane Gent\"; its posts show the same peacock wood panel as Visit Gent's own Café Gitane photos (Meerseniersstraat 9) and small-brewery beers. No website; Facebook is gitanefinedrinks.",
+   "note": "Unverified candidate @gitane_gent (search result only)."
   },
   "cafe-labath": {
    "name": "Café Labath",
@@ -137,9 +143,10 @@
   },
   "cafe-romain": {
    "name": "Café Romain",
-   "instagram_handle": "cafe_romain",
-   "handleSource": "https://visit.gent.be/nl/eten-drinken/cafe-romain",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "cafe.romain",
+   "handleSource": "https://www.instagram.com/p/Deoru1DDQ8E/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "@cafe_romain (Visit Gent listing) is dead; @cafe.romain verified 2026-11-01 via post embeds (Gent captions)."
   },
   "cafe-ventura": {
    "name": "Café Ventura",
@@ -149,21 +156,24 @@
   },
   "caracalla": {
    "name": "Caracalla",
-   "instagram_handle": null,
-   "note": "Unverified candidate @caracalla.restaurant (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "caracalla.restaurant",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DbK7gE_jAA4/",
+   "handleNote": "Verified 2026-11-01: post caption gives address Vlaanderenstraat 80, Gent."
   },
   "charlatan": {
    "name": "Charlatan",
-   "instagram_handle": null,
-   "note": "No official handle verified: own site unreachable from our fetchers; Visit Gent lists none. Search suggested @charlatanlive, but that is a Canadian student newspaper.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "cafecharlatan",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.facebook.com/charlatancafe",
+   "handleNote": "Listed on the venue's own Facebook page (charlatancafe, links charlatan.be); profile name \"Café Charlatan\" (18K followers). @charlatanlive is unrelated."
   },
   "de-broodstokerij-gent": {
    "name": "De Broodstokerij",
-   "instagram_handle": "de_broodstokerij",
-   "handleSource": "https://www.debroodstokerij.be/",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "broodstokerij_gent",
+   "handleSource": "https://www.instagram.com/p/DY7A_qVjXHR/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "@de_broodstokerij (linked on debroodstokerij.be) does not exist; @broodstokerij_gent posts as De Broodstokerij (shop posts for Sint-Amandsberg; the bakery also has shops at Lange Violettestraat 49 Gent and Melle). Photo-fill b16 2026-11-01."
   },
   "de-dulle-griet": {
    "name": "De Dulle Griet",
@@ -174,9 +184,11 @@
   },
   "de-geus-van-gent": {
    "name": "De Geus van Gent",
-   "instagram_handle": null,
-   "note": "Unverified candidate @geusvangent (search result only; Geuzenhuis page only gives the email geusvangent@gmail.com).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "geusvangent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/CTaJxNTsPW_/",
+   "handleNote": "Own posts (embed username geusvangent): \"trouwfeest ... in De Geus van Gent\".",
+   "note": "Unverified candidate @geusvangent (search result only; Geuzenhuis page only gives the email geusvangent@gmail.com)."
   },
   "de-maecht-van-ghent": {
    "name": "De Maecht van Ghent",
@@ -192,9 +204,10 @@
   },
   "de-woestijn": {
    "name": "De Woestijn",
-   "instagram_handle": null,
-   "note": "Candidate @dewoestijngent from our data could not be confirmed by any linking page.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "dewoestijngent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DctPoq_oWMT/",
+   "handleNote": "Own opening post (embed username dewoestijngent); address Sint-Lievenspoortstraat 13A confirmed."
   },
   "decadance": {
    "name": "Decadance",
@@ -240,9 +253,10 @@
   },
   "full-circle-coffee": {
    "name": "Full Circle Coffee",
-   "instagram_handle": "fullcircleghent",
-   "handleSource": "https://www.fullcircleghent.com/",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "fullcirclecoffeeroastery",
+   "handleSource": "https://www.instagram.com/p/CloG16xM3OV/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Own posts (embed username fullcirclecoffeeroastery); website still links the older @fullcircleghent. Previously @fullcircleghent."
   },
   "funke": {
    "name": "Funke",
@@ -252,10 +266,10 @@
   },
   "goya-coffee": {
    "name": "Goya",
-   "instagram_handle": "goya_coffee_gent",
-   "handleSource": "https://www.goyacoffee.be/",
-   "note": "Also listed on Visit Gent. Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "goya_gent",
+   "handleSource": "https://www.instagram.com/p/DS6_4z2itny/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Embed shows goya_gent (collab post owned by sister account @goya_take_away); website still links the older @goya_coffee_gent. Previously @goya_coffee_gent."
   },
   "het-spijker": {
    "name": "Het Spijker",
@@ -369,9 +383,10 @@
   },
   "mexcalli": {
    "name": "Mexcalli",
-   "instagram_handle": null,
-   "note": "Unverified candidate @mexcalli.gent (aggregator/search only); own Wix site and Visit Gent show no Instagram link.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "mexcalli.gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/DewMF88EbLS/",
+   "handleNote": "Own post (embed username mexcalli.gent) about Mexcalli tacos; same dishes as on mexcalli.be."
   },
   "mokabon": {
    "name": "Mokabon",
@@ -411,12 +426,12 @@
   },
   "or-coffee-lab-gent": {
    "name": "OR Coffee Lab",
-   "instagram_handle": "orcoffeeroasters",
-   "handleSource": "https://www.orcoffee.be/pages/or-coffee-labs",
-   "note": "Brand/roastery account (no separate account for the Gent coffee lab found). og:image: Roastery photo with logo overlaid.",
+   "instagram_handle": "orcoffeelab_gent",
+   "handleSource": "https://www.instagram.com/p/DW1vj-fipG-/",
    "origin": "research (approved 20 Oct 2026)",
    "ogImageRejected": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982 (note flags it: logo)",
-   "heroReject": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982"
+   "heroReject": "https://cdn.shopify.com/s/files/1/0672/2564/9383/files/share.png?v=1702977982",
+   "handleNote": "Gent lab account (embed username orcoffeelab_gent); @orcoffeeroasters is the roaster/brand account. Previously @orcoffeeroasters."
   },
   "osm-1809-bistro-la-concorde-n12789848389": {
    "name": "1809 | Bistro La Concorde",
@@ -1551,8 +1566,10 @@
   },
   "osm-fattoush-n13533812685": {
    "name": "Fattoush",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "fattoush.gent",
+   "origin": "research (approved 20 Oct 2026); handle confirmed 1 Nov 2026",
+   "handleSource": "https://www.instagram.com/fattoush.gent/",
+   "handleNote": "Bio address Brabantdam 69, 9000 Gent matches; own posts DIV6bnWo6IZ."
   },
   "osm-festival-n4235248790": {
    "name": "Festival",
@@ -2026,8 +2043,10 @@
   },
   "osm-kaskcafe-n2084451567": {
    "name": "KASKcafé",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "kaskcafe",
+   "origin": "research (approved 20 Oct 2026); handle confirmed 1 Nov 2026",
+   "handleSource": "https://www.instagram.com/p/DWO2JY2CAlF/",
+   "handleNote": "OSM instagram tag kaskcafe; feed shows the KASKcafé sign and Bijloke campus; own posts DWO2JY2CAlF, DTKYunQiIqT."
   },
   "osm-keizershof-n1187211170": {
    "name": "Keizershof",
@@ -3144,8 +3163,10 @@
   },
   "osm-t-fondueloft-n6796872888": {
    "name": "'t Fondueloft",
-   "instagram_handle": null,
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "fondueloft_gent",
+   "origin": "research (approved 20 Oct 2026); handle confirmed 1 Nov 2026",
+   "handleSource": "https://www.instagram.com/fondueloft_gent/",
+   "handleNote": "Bio links www.fondueloft.be and gives Baudelostraat 29, Gent."
   },
   "osm-t-klaverblad-n3394070670": {
    "name": "'t Klaverblad",
@@ -3624,7 +3645,8 @@
    "instagram_handle": "smorbrodgent",
    "handleSource": "https://smorbrod.gent/",
    "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (approved 20 Oct 2026)"
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "Linked from smorbrod.gent (Guldenspoorstraat 29, Gent)."
   },
   "soan": {
    "name": "SOAN",
@@ -3647,9 +3669,10 @@
   },
   "t-galgenhuisje": {
    "name": "'t Galgenhuisje",
-   "instagram_handle": null,
-   "note": "No official account found (Visit Gent lists only Facebook/email).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "galgenhuisje_gent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/Db2qtG4oOLl/",
+   "handleNote": "Own posts as Café Galgenhuis Gent (embed username galgenhuisje_gent, caption: Ocean Spritz \"op ons terras in Gent\"; Gentse Feesten posts)."
   },
   "t-kofschip": {
    "name": "'t Kofschip",
@@ -3661,9 +3684,9 @@
   "take-five-voldersstraat": {
    "name": "Take Five Espressobar",
    "instagram_handle": "takefiveespressobar",
-   "handleSource": "https://www.honeyguide.nl/nl/locaties-verborgen-parels/981029342/espressobar-take-five",
-   "note": "Own site shows no Instagram link; linked from a Honeyguide venue page (third party).",
-   "origin": "research (approved 20 Oct 2026)"
+   "handleSource": "https://www.take-five-espressobar.be/",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "IG bio lists Voldersstraat 10 and Grote Huidevettershoek 10, Gent and links take-five-espressobar.be; shared account for both Take Five locations."
   },
   "tam-tam": {
    "name": "Tam-Tam",
@@ -3676,14 +3699,15 @@
    "name": "TDS",
    "instagram_handle": "tds.ghent",
    "handleSource": "https://www.tdscoffee.be",
-   "note": "Own-site og:image is a logo/graphic or not of the place; not used.",
-   "origin": "research (approved 20 Oct 2026)"
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "IG bio lists Sint-Salvatorstraat 125, Gent and links tdscoffee.be."
   },
   "terug": {
    "name": "Terug",
-   "instagram_handle": null,
-   "note": "Unverified candidate @terug.coffee (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "terug.coffee",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/terug.coffee/",
+   "handleNote": "IG bio lists Jan Frans Willemsstraat 1, 9000 Gent (matches the venue address)."
   },
   "the-bakery-joost-arijs": {
    "name": "The Bakery by Joost Arijs",
@@ -3705,9 +3729,10 @@
   },
   "the-coffee-station": {
    "name": "The Coffee Station",
-   "instagram_handle": null,
-   "note": "Unverified candidate @thecoffeestation9000 (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "thecoffeestation9000",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/thecoffeestation9000/",
+   "handleNote": "IG bio lists Nederkouter 73, 9000 Gent (coffee & thrift)."
   },
   "the-kitchen-1898-the-post": {
    "name": "The Kitchen at 1898 The Post",
@@ -3718,15 +3743,18 @@
   },
   "the-mix": {
    "name": "The Mix",
-   "instagram_handle": null,
-   "note": "Conflicting candidates @the.mix.bar / @the_mix_gent (aggregators only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "the_mix_gent",
+   "note": "Resolved 2026-11-01: @the_mix_gent (embed username on own posts, listed by InTravel); @the.mix.bar is The Mix Bar, Brisbane.",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://intravel.net/ghent/nightlife/the-mix",
+   "handleNote": "InTravel lists @the_mix_gent with themixcocktailsalon.be and Facebook themix.gent. Replaces @the.mix.bar, which is The Mix Bar in Brisbane (its photo was removed)."
   },
   "trollekelder": {
    "name": "Trollekelder",
-   "instagram_handle": null,
-   "note": "Unverified candidate @trollekelder (search result only); own site is a beer menu without social links.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "trollekelder",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/p/C2clQV6tzY6/",
+   "handleNote": "Own posts (embed username trollekelder): facade photo with \"Trollekelder\" neon; site trollekelder.be has no IG link."
   },
   "vandekerckhove-bar": {
    "name": "Vandekerckhove & Bar",
@@ -3737,9 +3765,10 @@
   },
   "waterhuis-aan-de-bierkant": {
    "name": "Waterhuis aan de Bierkant",
-   "instagram_handle": null,
-   "note": "Unverified candidate @waterhuisgent (search result only); own site blank, Visit Gent lists none.",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "waterhuisgent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://girlswhomagazine.nl/gezellige-cafes-gent/",
+   "handleNote": "Embedded post \"shared by Waterhuis Aan De Bierkant (@waterhuisgent)\" in Girls Who Magazine and Foodies; post embeds disabled."
   },
   "way-bakery-keizerpoort": {
    "name": "WAY Specialty Coffee Bakery (Keizerpoort)",
@@ -3774,7 +3803,8 @@
    "name": "Wild Child",
    "instagram_handle": "wildchild.gent",
    "handleSource": "https://wildchild.gent/",
-   "origin": "research (approved 20 Oct 2026)"
+   "origin": "research (approved 20 Oct 2026)",
+   "handleNote": "IG bio lists Burgstraat 139, Gent and www.wildchild.gent."
   },
   "wunderbar": {
    "name": "Wunderbar",
@@ -3785,9 +3815,10 @@
   },
   "yume-coffee": {
    "name": "Yume",
-   "instagram_handle": null,
-   "note": "Unverified candidate @yume.ghent (search result only).",
-   "origin": "research (approved 20 Oct 2026)"
+   "instagram_handle": "yume.ghent",
+   "origin": "research (approved 20 Oct 2026)",
+   "handleSource": "https://www.instagram.com/yume.ghent/",
+   "handleNote": "IG bio: specialty coffee with Google Maps place link in Gent; not @yume_coffee / @yume.coffee (other cafes)."
   },
   "yusu": {
    "name": "Yusu",
@@ -3801,6 +3832,118 @@
    "instagram_handle": "zeppos_vlasmarkt",
    "handleSource": "https://zepposvlasmarkt.be/",
    "origin": "research (approved 20 Oct 2026)"
+  },
+  "hot-club-gent": {
+   "name": "Hot Club Gent",
+   "origin": "photo-fill b09 2026-11-01",
+   "instagram_handle": "hotclubgent",
+   "handleSource": "https://www.instagram.com/p/DfLy2G-IPnK/",
+   "handleNote": "Own post (embed username hotclubgent) links www.hotclub.gent/programma."
+  },
+  "la-matta": {
+   "name": "La Matta",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "lamattagent",
+   "handleSource": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/eigenaars-van-populair-cafe-t-kanon-openen-ijssalon-opleidingen-gevolgd-bij-gelatomasters/158660504.html",
+   "handleNote": "Nieuwsblad and Knack list instagram.com/lamattagent for La Matta, Meerseniersstraat 24; post embeds show username lamattagent."
+  },
+  "missy-sippy": {
+   "name": "Missy Sippy",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "missysippygent",
+   "handleSource": "https://missy-sippy.be/",
+   "handleNote": "Linked from the own website missy-sippy.be."
+  },
+  "ona-belfort": {
+   "name": "ONA Belfort",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "wijnbarona",
+   "handleSource": "https://www.ona.gent/",
+   "handleNote": "Shared account of ONA Belfort and ONA Nederkouter, linked from ona.gent; post DZkuwQFjZTb names ONA Belfort."
+  },
+  "ona-nederkouter": {
+   "name": "ONA Nederkouter",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "wijnbarona",
+   "handleSource": "https://www.ona.gent/",
+   "handleNote": "Shared account of ONA Belfort and ONA Nederkouter, linked from ona.gent."
+  },
+  "parole": {
+   "name": "Parole",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "parolewinebar",
+   "handleSource": "https://parole.gent/",
+   "handleNote": "Linked from the own website parole.gent; post embeds show username parolewinebar."
+  },
+  "the-gentle": {
+   "name": "The Gentle",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "thegentle.gent",
+   "handleSource": "https://thegentle.be/",
+   "handleNote": "Linked from thegentle.be; own post caption gives Hoogpoort 53 Gent."
+  },
+  "vinogradoff": {
+   "name": "Vinogradoff",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "vinogradoff.gent",
+   "handleSource": "https://vinogradoff.gent/",
+   "handleNote": "Linked from the own website vinogradoff.gent (post embeds disabled)."
+  },
+  "bar-martine": {
+   "name": "Bar Martine",
+   "origin": "photo-fill b10 2026-11-01",
+   "instagram_handle": "bar__martine",
+   "handleSource": "https://barmartine.be/",
+   "handleNote": "Linked from the own website barmartine.be (Hippoliet Lippensplein 25); post embeds show username bar__martine."
+  },
+  "cafe-copain": {
+   "name": "Café Copain",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "cafecopain.gent",
+   "handleSource": "https://www.instagram.com/p/DWHdzn4jboT/",
+   "handleNote": "Own posts (embed username cafecopain.gent) about lunch/oysters; tagged as Café Copain on the Oude Beestenmarkt in a collab post."
+  },
+  "cafe-guido": {
+   "name": "Café Guido",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "cafeguido.gent",
+   "handleSource": "https://cafeguido.be/",
+   "handleNote": "Linked from the own website cafeguido.be."
+  },
+  "rendez-vous": {
+   "name": "Rendez-Vous",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "rendezvous.gent",
+   "handleSource": "https://www.instagram.com/p/DcOPwDXDMKp/",
+   "handleNote": "Own post caption: \"Cafe Rendez-Vous Brabantdam 119, 9000 Gent\"."
+  },
+  "the-generous": {
+   "name": "The Generous",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "generous.winebar",
+   "handleSource": "https://www.instagram.com/p/DanJK-sjC_p/",
+   "handleNote": "Profile \"The Generous Winebar\"; posts link thegenerous.wine/bar (#winebargent)."
+  },
+  "tshiela": {
+   "name": "Tshiela",
+   "origin": "photo-fill b11 2026-11-01",
+   "instagram_handle": "tshiela.barandbites",
+   "handleSource": "https://www.instagram.com/p/DdJA9LytTYI/",
+   "handleNote": "Profile \"TSHIELA\"; own posts #tshielabarandbites #gent; bar neon matches the place."
+  },
+  "vicino": {
+   "name": "Vicino",
+   "instagram_handle": "vicino.gent",
+   "handleSource": "https://www.vicino.be/",
+   "handleNote": "Linked from own website vicino.be; embeds broken, post De2fowzMw99 meta confirms \"vicino.gent on October 23, 2026\".",
+   "origin": "research (photo-fill b12 2026-11-01)"
+  },
+  "pica-beans": {
+   "name": "Pica Beans",
+   "instagram_handle": "pica_beans_gent",
+   "handleSource": "https://www.instagram.com/pica_beans_gent/",
+   "handleNote": "IG bio lists Sleepstraat 43, 9000 Gent (matches the venue address).",
+   "origin": "research (photo-fill b14 2026-11-01)"
   }
  },
  "embed": {
@@ -3936,7 +4079,8 @@
   },
   "barbidongent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
   },
   "barbrutus9030": {
    "ok": true,
@@ -5151,7 +5295,8 @@
   },
   "smorbrodgent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b15)"
   },
   "snackbarmartino": {
    "ok": true,
@@ -5229,7 +5374,8 @@
   },
   "takefiveespressobar": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
   },
   "takeingent": {
    "ok": true,
@@ -5262,7 +5408,8 @@
   },
   "tds.ghent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
   },
   "ter_burg": {
    "ok": false,
@@ -5388,7 +5535,8 @@
   },
   "wildchild.gent": {
    "ok": true,
-   "checked": "2026-10-20"
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
   },
   "woestgent": {
    "ok": true,
@@ -5413,6 +5561,206 @@
   "zuruzururamen": {
    "ok": true,
    "checked": "2026-10-20"
+  },
+  "cafe.romain": {
+   "ok": true,
+   "checked": "2026-11-01"
+  },
+  "caracalla.restaurant": {
+   "ok": true,
+   "checked": "2026-11-01"
+  },
+  "galgenhuisje_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "afsnis.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "hotclubgent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "dewoestijngent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "lamattagent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "mexcalli.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "missysippygent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "wijnbarona": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "parolewinebar": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "thegentle.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "vinogradoff.gent": {
+   "ok": false,
+   "checked": "2026-11-01",
+   "why": "post embeds return EmbedBroken"
+  },
+  "waterhuisgent": {
+   "ok": false,
+   "checked": "2026-11-01",
+   "why": "post embeds return EmbedBroken"
+  },
+  "bar__martine": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "bovary.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "cafecopain.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "gitane_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "cafeguido.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "geusvangent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "rendezvous.gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "generous.winebar": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "the_mix_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "tshiela.barandbites": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "vicino.gent": {
+   "ok": false,
+   "checked": "2026-11-01",
+   "why": "EmbedBroken (verified via own website link + post meta)"
+  },
+  "cafecharlatan": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via own Facebook page + profile name"
+  },
+  "trollekelder": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "boutique.et.boissons": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "fullcirclecoffeeroastery": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "goya_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "orcoffeelab_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed"
+  },
+  "goya_take_away": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "verified via post embed (owner of DS6_4z2itny)"
+  },
+  "pica_beans_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
+  },
+  "terug.coffee": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
+  },
+  "thecoffeestation9000": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
+  },
+  "yume.ghent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b14)"
+  },
+  "broodstokerij_gent": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b16)"
+  },
+  "norman_bakery": {
+   "ok": true,
+   "checked": "2026-11-01",
+   "why": "post embed renders (photo-fill b16)"
+  },
+  "fattoush.gent": {
+   "ok": true,
+   "checked": "2026-11-01"
+  },
+  "kaskcafe": {
+   "ok": true,
+   "checked": "2026-11-01"
+  },
+  "fondueloft_gent": {
+   "ok": true,
+   "checked": "2026-11-01"
   }
  }
 }

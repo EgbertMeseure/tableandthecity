@@ -1,359 +1,432 @@
 {
- "city": "antwerpen",
- "updated": "2026-10-31",
- "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
- "chefs": [
-  {
-   "id": "private-dining-by-kat",
-   "name": "Private Dining by Kat",
-   "chef": "Kat",
-   "style": "Private dining",
-   "description": "Chef Kat brings the full restaurant experience to your home: fresh food, cooked and served in your own comfort, with formulas made to measure.",
-   "serves": "From Antwerp across Flanders (travel charged per km)",
-   "base": "",
-   "guests": "",
-   "price": "",
-   "website": "https://www.privatediningbykat.be/",
-   "instagram": "https://www.instagram.com/private_dining_by_kat/",
-   "email": "private_dining_by_kat@hotmail.com",
-   "phone": "+32478503745",
-   "phoneDisplay": "0478 50 37 45",
-   "placeId": "",
-   "sources": [
-    "https://www.privatediningbykat.be/"
-   ],
-   "image": {
-    "src": "img/chefs/antwerpen/private-dining-by-kat-2.webp",
-    "w": 481,
-    "h": 361,
-    "alt": "A plated dish (Private Dining by Kat)",
-    "credit": "Private Dining by Kat (privatediningbykat.be)",
-    "credit_url": "https://www.privatediningbykat.be/"
-   },
-   "photos": [
+  "city": "antwerpen",
+  "updated": "2026-11-01",
+  "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
+  "chefs": [
     {
-     "src": "img/chefs/antwerpen/private-dining-by-kat.webp",
-     "w": 960,
-     "h": 720,
-     "alt": "A table setting with a linen napkin (Private Dining by Kat)",
-     "credit": "Private Dining by Kat (privatediningbykat.be)",
-     "credit_url": "https://www.privatediningbykat.be/",
-     "kind": "food"
+      "id": "table-35",
+      "name": "table.35",
+      "chef": "Guillaume Andries",
+      "style": "Fine dining at home",
+      "description": "Antwerp chef Guillaume Andries, formerly in Michelin-starred kitchens (most recently a two-star in Barcelona), designs a menu for your table and cooks it in your home, with a playlist made for the evening.",
+      "serves": "Antwerp",
+      "base": "",
+      "guests": "4 to 8 guests",
+      "price": "",
+      "website": "https://www.table-35.com/",
+      "instagram": "https://www.instagram.com/table.35/",
+      "email": "dinner@table-35.com",
+      "phone": "",
+      "phoneDisplay": "",
+      "placeId": "",
+      "sources": [
+        "https://www.table-35.com/"
+      ],
+      "image": {
+        "src": "img/chefs/antwerpen/table-35.webp",
+        "w": 960,
+        "h": 720,
+        "alt": "Bluefin tuna with caviar (table.35)",
+        "credit": "table.35 (table-35.com)",
+        "credit_url": "https://www.table-35.com/"
+      },
+      "photos": [
+        {
+          "src": "img/chefs/antwerpen/table-35-2.webp",
+          "w": 840,
+          "h": 630,
+          "alt": "A plated course at a candlelit table (table.35)",
+          "credit": "table.35 (table-35.com)",
+          "credit_url": "https://www.table-35.com/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/table-35-3.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "Pan con tomate (table.35)",
+          "credit": "table.35 (table-35.com)",
+          "credit_url": "https://www.table-35.com/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/table-35-4.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "A5 wagyu cecina with mustard seeds (table.35)",
+          "credit": "table.35 (table-35.com)",
+          "credit_url": "https://www.table-35.com/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/table-35-5.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "White chocolate with lemon sorbet (table.35)",
+          "credit": "table.35 (table-35.com)",
+          "credit_url": "https://www.table-35.com/",
+          "kind": "food"
+        }
+      ],
+      "checked": "2026-11-01",
+      "does": [
+        {
+          "k": "menu",
+          "src": "https://www.table-35.com/"
+        }
+      ]
     },
     {
-     "src": "img/chefs/antwerpen/private-dining-by-kat-3.webp",
-     "w": 576,
-     "h": 432,
-     "alt": "Chef Kat (Private Dining by Kat)",
-     "credit": "Private Dining by Kat (privatediningbykat.be)",
-     "credit_url": "https://www.privatediningbykat.be/",
-     "kind": "chef"
+      "id": "private-dining-by-kat",
+      "name": "Private Dining by Kat",
+      "chef": "Kat",
+      "style": "Private dining",
+      "description": "Chef Kat brings the full restaurant experience to your home: fresh food, cooked and served in your own comfort, with formulas made to measure.",
+      "serves": "From Antwerp across Flanders (travel charged per km)",
+      "base": "",
+      "guests": "",
+      "price": "",
+      "website": "https://www.privatediningbykat.be/",
+      "instagram": "https://www.instagram.com/private_dining_by_kat/",
+      "email": "private_dining_by_kat@hotmail.com",
+      "phone": "+32478503745",
+      "phoneDisplay": "0478 50 37 45",
+      "placeId": "",
+      "sources": [
+        "https://www.privatediningbykat.be/"
+      ],
+      "image": {
+        "src": "img/chefs/antwerpen/private-dining-by-kat-2.webp",
+        "w": 481,
+        "h": 361,
+        "alt": "A plated dish (Private Dining by Kat)",
+        "credit": "Private Dining by Kat (privatediningbykat.be)",
+        "credit_url": "https://www.privatediningbykat.be/"
+      },
+      "photos": [
+        {
+          "src": "img/chefs/antwerpen/private-dining-by-kat.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "A table setting with a linen napkin (Private Dining by Kat)",
+          "credit": "Private Dining by Kat (privatediningbykat.be)",
+          "credit_url": "https://www.privatediningbykat.be/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/private-dining-by-kat-3.webp",
+          "w": 576,
+          "h": 432,
+          "alt": "Chef Kat (Private Dining by Kat)",
+          "credit": "Private Dining by Kat (privatediningbykat.be)",
+          "credit_url": "https://www.privatediningbykat.be/",
+          "kind": "chef"
+        }
+      ],
+      "checked": "2026-10-31",
+      "does": [
+        {
+          "k": "menu",
+          "src": "https://www.privatediningbykat.be/"
+        }
+      ]
+    },
+    {
+      "id": "santoku",
+      "name": "SANTOKU Private Dining",
+      "chef": "Nael",
+      "style": "Japanese omakase",
+      "description": "Japanese omakase private dining: chef Nael serves one menu for the whole table.",
+      "serves": "Antwerp",
+      "base": "",
+      "guests": "Up to 12 guests",
+      "price": "€145 pp excl. VAT",
+      "website": "https://www.santokuprivatedining.com/",
+      "instagram": "",
+      "email": "booking@santokuprivatedining.com",
+      "phone": "+32478911588",
+      "phoneDisplay": "+32 478 91 15 88",
+      "placeId": "",
+      "sources": [
+        "https://www.santokuprivatedining.com/"
+      ],
+      "image": {
+        "src": "img/chefs/antwerpen/santoku.webp",
+        "w": 853,
+        "h": 640,
+        "alt": "Beef tartare with egg yolk in a wooden box (SANTOKU)",
+        "credit": "SANTOKU Private Dining (santokuprivatedining.com)",
+        "credit_url": "https://www.santokuprivatedining.com/"
+      },
+      "checked": "2026-10-31",
+      "does": [
+        {
+          "k": "tableware",
+          "src": "https://www.santokuprivatedining.com/"
+        },
+        {
+          "k": "cleanup",
+          "src": "https://www.santokuprivatedining.com/"
+        }
+      ]
+    },
+    {
+      "id": "bien-cuit",
+      "name": "Bien Cuit",
+      "chef": "Pieter Uytterlinde",
+      "style": "Fine dining, sharing, Italian, modern European",
+      "description": "Chef Pieter Uytterlinde plans the menu with you, shops, cooks on site and cleans up: 4- or 5-course fine dining, a sharing concept, seasonal Italian or modern European, with fish or vegetarian options.",
+      "serves": "Antwerp and the Kempen",
+      "base": "Borgerhout",
+      "guests": "",
+      "price": "",
+      "website": "https://www.bien-cuit.be/en/chef-at-home/",
+      "instagram": "https://www.instagram.com/chefs_bien_cuit/",
+      "email": "chefsbiencuit@gmail.com",
+      "phone": "+32493436322",
+      "phoneDisplay": "0493 43 63 22",
+      "placeId": "",
+      "sources": [
+        "https://www.bien-cuit.be/en/chef-at-home/"
+      ],
+      "image": {
+        "src": "img/chefs/antwerpen/bien-cuit.webp",
+        "w": 720,
+        "h": 540,
+        "alt": "A crab starter served in a glass (Bien Cuit)",
+        "credit": "Bien Cuit (bien-cuit.be)",
+        "credit_url": "https://www.bien-cuit.be/"
+      },
+      "photos": [
+        {
+          "src": "img/chefs/antwerpen/bien-cuit-2.webp",
+          "w": 819,
+          "h": 614,
+          "alt": "A plated meat dish with a yellow sauce (Bien Cuit)",
+          "credit": "Bien Cuit (bien-cuit.be)",
+          "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/bien-cuit-3.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "A plated starter in a white bowl (Bien Cuit)",
+          "credit": "Bien Cuit (bien-cuit.be)",
+          "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/bien-cuit-4.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "Plated fish starters (Bien Cuit)",
+          "credit": "Bien Cuit (bien-cuit.be)",
+          "credit_url": "https://www.bien-cuit.be/en/group-dining-private-restaurant/",
+          "kind": "food"
+        }
+      ],
+      "checked": "2026-10-31",
+      "does": [
+        {
+          "k": "menu",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        },
+        {
+          "k": "shopping",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        },
+        {
+          "k": "service",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        },
+        {
+          "k": "cleanup",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        },
+        {
+          "k": "vegetarian",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        },
+        {
+          "k": "diets",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        },
+        {
+          "k": "walking",
+          "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+        },
+        {
+          "k": "buffet",
+          "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+        },
+        {
+          "k": "bbq",
+          "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+        },
+        {
+          "k": "class",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        },
+        {
+          "k": "winetasting",
+          "src": "https://www.bien-cuit.be/en/chef-at-home/"
+        }
+      ]
+    },
+    {
+      "id": "uitmuntend",
+      "name": "Uitmuntend",
+      "chef": "Wim Janssens",
+      "style": "Chef at home & traiteur",
+      "description": "Kok aan huis and traiteur: fresh, home-made cooking in your kitchen, tableware included.",
+      "serves": "Antwerp",
+      "base": "",
+      "guests": "4 to 60 guests",
+      "price": "",
+      "website": "https://uit-munt-end.be/kok-aan-huis",
+      "instagram": "https://www.instagram.com/uit_munt_end/",
+      "email": "info@uit-munt-end.be",
+      "phone": "+32477441869",
+      "phoneDisplay": "0477 44 18 69",
+      "placeId": "",
+      "sources": [
+        "https://uit-munt-end.be/kok-aan-huis",
+        "https://uit-munt-end.be/contact"
+      ],
+      "image": {
+        "src": "img/chefs/antwerpen/uitmuntend.webp",
+        "w": 667,
+        "h": 500,
+        "alt": "A green salad being finished by hand (Uitmuntend)",
+        "credit": "Uitmuntend (uit-munt-end.be)",
+        "credit_url": "https://uit-munt-end.be/"
+      },
+      "photos": [
+        {
+          "src": "img/chefs/antwerpen/uitmuntend-2.webp",
+          "w": 889,
+          "h": 667,
+          "alt": "A plated dish (Uitmuntend)",
+          "credit": "Uitmuntend (uit-munt-end.be)",
+          "credit_url": "https://uit-munt-end.be/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/uitmuntend-3.webp",
+          "w": 889,
+          "h": 667,
+          "alt": "A plated dish (Uitmuntend)",
+          "credit": "Uitmuntend (uit-munt-end.be)",
+          "credit_url": "https://uit-munt-end.be/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/uitmuntend-4.webp",
+          "w": 889,
+          "h": 667,
+          "alt": "A plated dish (Uitmuntend)",
+          "credit": "Uitmuntend (uit-munt-end.be)",
+          "credit_url": "https://uit-munt-end.be/",
+          "kind": "food"
+        }
+      ],
+      "checked": "2026-10-31",
+      "does": [
+        {
+          "k": "tableware",
+          "src": "https://uit-munt-end.be/kok-aan-huis"
+        },
+        {
+          "k": "cleanup",
+          "src": "https://uit-munt-end.be/kok-aan-huis"
+        },
+        {
+          "k": "buffet",
+          "src": "https://uit-munt-end.be/"
+        },
+        {
+          "k": "walking",
+          "src": "https://uit-munt-end.be/"
+        }
+      ]
+    },
+    {
+      "id": "gianluca-vetrugno",
+      "name": "Gianluca Vetrugno",
+      "chef": "Gianluca Vetrugno",
+      "style": "Seasonal tasting menus",
+      "description": "Italo-Belgian chef, former sous-chef at The Jane and head chef at Le Pristine, offering bespoke private dining with intimate, seasonal tasting menus.",
+      "serves": "Antwerp",
+      "base": "",
+      "guests": "",
+      "price": "",
+      "website": "https://www.gianluca-vetrugno.com/",
+      "instagram": "https://www.instagram.com/vetrugno_gianluca/",
+      "email": "info@gianluca-vetrugno.com",
+      "phone": "",
+      "phoneDisplay": "",
+      "placeId": "",
+      "sources": [
+        "https://www.gianluca-vetrugno.com/"
+      ],
+      "image": {
+        "src": "img/chefs/antwerpen/gianluca-vetrugno.webp",
+        "w": 960,
+        "h": 720,
+        "alt": "A green-sauced dish with a crisp tuile (Gianluca Vetrugno)",
+        "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+        "credit_url": "https://www.gianluca-vetrugno.com/"
+      },
+      "photos": [
+        {
+          "src": "img/chefs/antwerpen/gianluca-vetrugno-2.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "A small course in a wide white plate (Gianluca Vetrugno)",
+          "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+          "credit_url": "https://www.gianluca-vetrugno.com/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/gianluca-vetrugno-3.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "A plated starter in a white bowl (Gianluca Vetrugno)",
+          "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+          "credit_url": "https://www.gianluca-vetrugno.com/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/gianluca-vetrugno-4.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "Spaghetti with seafood (Gianluca Vetrugno)",
+          "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+          "credit_url": "https://www.gianluca-vetrugno.com/",
+          "kind": "food"
+        },
+        {
+          "src": "img/chefs/antwerpen/gianluca-vetrugno-5.webp",
+          "w": 960,
+          "h": 720,
+          "alt": "Chef Gianluca Vetrugno (Gianluca Vetrugno)",
+          "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
+          "credit_url": "https://www.gianluca-vetrugno.com/",
+          "kind": "chef"
+        }
+      ],
+      "checked": "2026-10-31",
+      "does": [
+        {
+          "k": "menu",
+          "src": "https://www.gianluca-vetrugno.com/"
+        },
+        {
+          "k": "class",
+          "src": "https://www.gianluca-vetrugno.com/"
+        }
+      ]
     }
-   ],
-   "checked": "2026-10-31",
-   "does": [
-    {
-     "k": "menu",
-     "src": "https://www.privatediningbykat.be/"
-    }
-   ]
-  },
-  {
-   "id": "santoku",
-   "name": "SANTOKU Private Dining",
-   "chef": "Nael",
-   "style": "Japanese omakase",
-   "description": "Japanese omakase private dining: chef Nael serves one menu for the whole table.",
-   "serves": "Antwerp",
-   "base": "",
-   "guests": "Up to 12 guests",
-   "price": "€145 pp excl. VAT",
-   "website": "https://www.santokuprivatedining.com/",
-   "instagram": "",
-   "email": "booking@santokuprivatedining.com",
-   "phone": "+32478911588",
-   "phoneDisplay": "+32 478 91 15 88",
-   "placeId": "",
-   "sources": [
-    "https://www.santokuprivatedining.com/"
-   ],
-   "image": {
-    "src": "img/chefs/antwerpen/santoku.webp",
-    "w": 853,
-    "h": 640,
-    "alt": "Beef tartare with egg yolk in a wooden box (SANTOKU)",
-    "credit": "SANTOKU Private Dining (santokuprivatedining.com)",
-    "credit_url": "https://www.santokuprivatedining.com/"
-   },
-   "checked": "2026-10-31",
-   "does": [
-    {
-     "k": "tableware",
-     "src": "https://www.santokuprivatedining.com/"
-    },
-    {
-     "k": "cleanup",
-     "src": "https://www.santokuprivatedining.com/"
-    }
-   ]
-  },
-  {
-   "id": "bien-cuit",
-   "name": "Bien Cuit",
-   "chef": "Pieter Uytterlinde",
-   "style": "Fine dining, sharing, Italian, modern European",
-   "description": "Chef Pieter Uytterlinde plans the menu with you, shops, cooks on site and cleans up: 4- or 5-course fine dining, a sharing concept, seasonal Italian or modern European, with fish or vegetarian options.",
-   "serves": "Antwerp and the Kempen",
-   "base": "Borgerhout",
-   "guests": "",
-   "price": "",
-   "website": "https://www.bien-cuit.be/en/chef-at-home/",
-   "instagram": "https://www.instagram.com/chefs_bien_cuit/",
-   "email": "chefsbiencuit@gmail.com",
-   "phone": "+32493436322",
-   "phoneDisplay": "0493 43 63 22",
-   "placeId": "",
-   "sources": [
-    "https://www.bien-cuit.be/en/chef-at-home/"
-   ],
-   "image": {
-    "src": "img/chefs/antwerpen/bien-cuit.webp",
-    "w": 720,
-    "h": 540,
-    "alt": "A crab starter served in a glass (Bien Cuit)",
-    "credit": "Bien Cuit (bien-cuit.be)",
-    "credit_url": "https://www.bien-cuit.be/"
-   },
-   "photos": [
-    {
-     "src": "img/chefs/antwerpen/bien-cuit-2.webp",
-     "w": 819,
-     "h": 614,
-     "alt": "A plated meat dish with a yellow sauce (Bien Cuit)",
-     "credit": "Bien Cuit (bien-cuit.be)",
-     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
-     "kind": "food"
-    },
-    {
-     "src": "img/chefs/antwerpen/bien-cuit-3.webp",
-     "w": 960,
-     "h": 720,
-     "alt": "A plated starter in a white bowl (Bien Cuit)",
-     "credit": "Bien Cuit (bien-cuit.be)",
-     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
-     "kind": "food"
-    },
-    {
-     "src": "img/chefs/antwerpen/bien-cuit-4.webp",
-     "w": 960,
-     "h": 720,
-     "alt": "Plated fish starters (Bien Cuit)",
-     "credit": "Bien Cuit (bien-cuit.be)",
-     "credit_url": "https://www.bien-cuit.be/en/group-dining-private-restaurant/",
-     "kind": "food"
-    }
-   ],
-   "checked": "2026-10-31",
-   "does": [
-    {
-     "k": "menu",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    },
-    {
-     "k": "shopping",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    },
-    {
-     "k": "service",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    },
-    {
-     "k": "cleanup",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    },
-    {
-     "k": "vegetarian",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    },
-    {
-     "k": "diets",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    },
-    {
-     "k": "walking",
-     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
-    },
-    {
-     "k": "buffet",
-     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
-    },
-    {
-     "k": "bbq",
-     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
-    },
-    {
-     "k": "class",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    },
-    {
-     "k": "winetasting",
-     "src": "https://www.bien-cuit.be/en/chef-at-home/"
-    }
-   ]
-  },
-  {
-   "id": "uitmuntend",
-   "name": "Uitmuntend",
-   "chef": "Wim Janssens",
-   "style": "Chef at home & traiteur",
-   "description": "Kok aan huis and traiteur: fresh, home-made cooking in your kitchen, tableware included.",
-   "serves": "Antwerp",
-   "base": "",
-   "guests": "4 to 60 guests",
-   "price": "",
-   "website": "https://uit-munt-end.be/kok-aan-huis",
-   "instagram": "https://www.instagram.com/uit_munt_end/",
-   "email": "info@uit-munt-end.be",
-   "phone": "+32477441869",
-   "phoneDisplay": "0477 44 18 69",
-   "placeId": "",
-   "sources": [
-    "https://uit-munt-end.be/kok-aan-huis",
-    "https://uit-munt-end.be/contact"
-   ],
-   "image": {
-    "src": "img/chefs/antwerpen/uitmuntend.webp",
-    "w": 667,
-    "h": 500,
-    "alt": "A green salad being finished by hand (Uitmuntend)",
-    "credit": "Uitmuntend (uit-munt-end.be)",
-    "credit_url": "https://uit-munt-end.be/"
-   },
-   "photos": [
-    {
-     "src": "img/chefs/antwerpen/uitmuntend-2.webp",
-     "w": 889,
-     "h": 667,
-     "alt": "A plated dish (Uitmuntend)",
-     "credit": "Uitmuntend (uit-munt-end.be)",
-     "credit_url": "https://uit-munt-end.be/",
-     "kind": "food"
-    },
-    {
-     "src": "img/chefs/antwerpen/uitmuntend-3.webp",
-     "w": 889,
-     "h": 667,
-     "alt": "A plated dish (Uitmuntend)",
-     "credit": "Uitmuntend (uit-munt-end.be)",
-     "credit_url": "https://uit-munt-end.be/",
-     "kind": "food"
-    },
-    {
-     "src": "img/chefs/antwerpen/uitmuntend-4.webp",
-     "w": 889,
-     "h": 667,
-     "alt": "A plated dish (Uitmuntend)",
-     "credit": "Uitmuntend (uit-munt-end.be)",
-     "credit_url": "https://uit-munt-end.be/",
-     "kind": "food"
-    }
-   ],
-   "checked": "2026-10-31",
-   "does": [
-    {
-     "k": "tableware",
-     "src": "https://uit-munt-end.be/kok-aan-huis"
-    },
-    {
-     "k": "cleanup",
-     "src": "https://uit-munt-end.be/kok-aan-huis"
-    },
-    {
-     "k": "buffet",
-     "src": "https://uit-munt-end.be/"
-    },
-    {
-     "k": "walking",
-     "src": "https://uit-munt-end.be/"
-    }
-   ]
-  },
-  {
-   "id": "gianluca-vetrugno",
-   "name": "Gianluca Vetrugno",
-   "chef": "Gianluca Vetrugno",
-   "style": "Seasonal tasting menus",
-   "description": "Italo-Belgian chef, former sous-chef at The Jane and head chef at Le Pristine, offering bespoke private dining with intimate, seasonal tasting menus.",
-   "serves": "Antwerp",
-   "base": "",
-   "guests": "",
-   "price": "",
-   "website": "https://www.gianluca-vetrugno.com/",
-   "instagram": "https://www.instagram.com/vetrugno_gianluca/",
-   "email": "info@gianluca-vetrugno.com",
-   "phone": "",
-   "phoneDisplay": "",
-   "placeId": "",
-   "sources": [
-    "https://www.gianluca-vetrugno.com/"
-   ],
-   "image": {
-    "src": "img/chefs/antwerpen/gianluca-vetrugno.webp",
-    "w": 960,
-    "h": 720,
-    "alt": "A green-sauced dish with a crisp tuile (Gianluca Vetrugno)",
-    "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
-    "credit_url": "https://www.gianluca-vetrugno.com/"
-   },
-   "photos": [
-    {
-     "src": "img/chefs/antwerpen/gianluca-vetrugno-2.webp",
-     "w": 960,
-     "h": 720,
-     "alt": "A small course in a wide white plate (Gianluca Vetrugno)",
-     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
-     "credit_url": "https://www.gianluca-vetrugno.com/",
-     "kind": "food"
-    },
-    {
-     "src": "img/chefs/antwerpen/gianluca-vetrugno-3.webp",
-     "w": 960,
-     "h": 720,
-     "alt": "A plated starter in a white bowl (Gianluca Vetrugno)",
-     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
-     "credit_url": "https://www.gianluca-vetrugno.com/",
-     "kind": "food"
-    },
-    {
-     "src": "img/chefs/antwerpen/gianluca-vetrugno-4.webp",
-     "w": 960,
-     "h": 720,
-     "alt": "Spaghetti with seafood (Gianluca Vetrugno)",
-     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
-     "credit_url": "https://www.gianluca-vetrugno.com/",
-     "kind": "food"
-    },
-    {
-     "src": "img/chefs/antwerpen/gianluca-vetrugno-5.webp",
-     "w": 960,
-     "h": 720,
-     "alt": "Chef Gianluca Vetrugno (Gianluca Vetrugno)",
-     "credit": "Gianluca Vetrugno (gianluca-vetrugno.com)",
-     "credit_url": "https://www.gianluca-vetrugno.com/",
-     "kind": "chef"
-    }
-   ],
-   "checked": "2026-10-31",
-   "does": [
-    {
-     "k": "menu",
-     "src": "https://www.gianluca-vetrugno.com/"
-    },
-    {
-     "k": "class",
-     "src": "https://www.gianluca-vetrugno.com/"
-    }
-   ]
-  }
- ]
+  ]
 }
