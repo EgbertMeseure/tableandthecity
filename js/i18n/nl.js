@@ -878,5 +878,18 @@
 "Free spots in the {x} list": "Vrije plaatsen in de lijst {x}",
 "Position {n}": "Positie {n}",
 "Month": "Maand",
-"Start month": "Startmaand"
+"Start month": "Startmaand",
+"Original description in Dutch": "Oorspronkelijke beschrijving in het Nederlands",
+"Original description in English": "Oorspronkelijke beschrijving in het Engels",
+"Read more on the Michelin Guide": "Lees meer in de Michelin Gids",
+"Read more on Gault&Millau": "Lees meer bij Gault&Millau",
+"No online booking link found — see the restaurant’s website.": "Geen online reserveringslink gevonden — zie de website van het restaurant.",
+"Books via {x}, as linked on the restaurant’s own website.": "Reserveren via {x}, zoals gelinkt op de eigen website van het restaurant.",
+"the place's own photo": "eigen foto van de zaak",
+"Photos from Instagram": "Foto’s van Instagram",
+"source": "bron",
+"Source: {raw}": "Bron: {raw}",
+"Hours:": "Uren:",
+"Data © OpenStreetMap contributors (ODbL)": "Data © OpenStreetMap-bijdragers (ODbL)",
+"Booking link taken from {raw}": "Reserveringslink overgenomen van {raw}"
 };

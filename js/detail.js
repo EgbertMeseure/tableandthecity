@@ -39,6 +39,8 @@
   const IGFROM = 'Photos from Instagram';
   const igCred = p => { const m = p && /^@([A-Za-z0-9_.]+) on Instagram$/.exec(p.credit || ''); return m ? m[1] : ''; };
   const igCredHtml = (p, h) => `${esc(tIG(IGFROM))} <a href="${esc(p.credit_url || `https://www.instagram.com/${h}/`)}" target="_blank" rel="noopener">@${esc(h)}</a>`;
+  const LIC = p => p.license ? esc(tIG(p.license)) : '';   // e.g. "the place's own photo" (data) → translated label
+  const PHOTO = () => esc(tIG('Photo:'));
   const plainHero = () => {
     const top = document.querySelector('.dhero'); top.classList.add('dhero--plain'); top.classList.remove('dhero--ig');
     top.querySelectorAll('.dhero__ig').forEach(x => x.remove());
@@ -49,13 +51,13 @@
   if (r.photoHold) { $('#himg').remove(); $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); }   // only photos with people exist: neutral
   else if (!heroP && HI) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(HI.url)}" alt="${esc(r.name)}" referrerpolicy="no-referrer" fetchpriority="high" loading="eager" decoding="async">`;
-    $('.dhero .credit').innerHTML = `Photo: <a href="${esc(HI.source)}" target="_blank" rel="noopener">${esc(heroHost)}</a>`;
+    $('.dhero .credit').innerHTML = `${PHOTO()} <a href="${esc(HI.source)}" target="_blank" rel="noopener">${esc(heroHost)}</a>`;
     $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
   } else if (!heroP && (igPosts.length || r.igEmbed)) { $('#himg').remove(); igHero(); }
   else if (heroP) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(M.url(heroP.src))}" ${heroP.srcset ? `srcset="${esc(M.srcset(heroP.srcset))}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
     if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
-    $('.dhero .credit').innerHTML = igCred(heroP) ? `${igCredHtml(heroP, igCred(heroP))}${igLink(heroP)}` : `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}${igLink(heroP)}`;
+    $('.dhero .credit').innerHTML = igCred(heroP) ? `${igCredHtml(heroP, igCred(heroP))}${igLink(heroP)}` : `${PHOTO()} ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + LIC(heroP) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}${igLink(heroP)}`;
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
@@ -64,10 +66,11 @@
   const igH = !r.igUnconfirmed && /^[A-Za-z0-9_.]{1,30}$/.test(igHandle) && !/^(p|reel|reels|explore|stories)$/i.test(igHandle) && (r.instagram_handle || /^https?:\/\/(www\.)?instagram\.com\/[A-Za-z0-9_.]+\/?$/.test(r.instagram || '')) ? igHandle : '';
   if (igH) $('#hname').insertAdjacentHTML('afterend', `<a class="dh-ig" data-i18n-skip href="https://www.instagram.com/${esc(igH)}/" target="_blank" rel="noopener">@${esc(igH)}</a>`);
   // "Open now" / "Closed · opens Tue 08:00" (Europe/Brussels, js/hours.js); nothing when the hours are unknown; refreshed every minute
+  const cuisineTxt = c => { const m = /^(.+?)( [–-] .+)$/.exec(c || ''); return window.TG_I18N && TG_I18N.tr ? (m ? TG_I18N.tr(m[1]) + m[2] : TG_I18N.tr(c)) : c; };
   const paintOpen = () => { const h = TG.openLabel(TG.openState(r), true), el = $('#hopen'); if (el && el.innerHTML !== h) el.innerHTML = h; };
   paintOpen(); setInterval(paintOpen, 60000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) paintOpen(); });
-  $('#hmeta').textContent = [catLabel(r), isR(r) && r.cuisine !== catLabel(r) ? r.cuisine : '', known(r.neighbourhood) ? r.neighbourhood : '', TG.seasonLabel(r)].filter(Boolean).join(' · ');
+  $('#hmeta').textContent = [catLabel(r), isR(r) && r.cuisine !== catLabel(r) ? cuisineTxt(r.cuisine) : '', known(r.neighbourhood) ? r.neighbourhood : '', TG.seasonLabel(r)].filter(Boolean).join(' · ');
   const d = r.distinctions || {};
   const priceTxt = [known(r.priceLevel) ? esc(r.priceLevel) : '', r.priceFrom ? `from ${eur(r.priceFrom)}` : ''].filter(Boolean).join(' · ') || '<span class="unk">unknown</span>';
   const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
@@ -90,11 +93,18 @@
   const MEALF = TG.mealOf(r);
   const live = r.events || [];
   const CHECK = '<svg class="ft__ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5"/></svg>';
-  const tiles = TILES.map(([k, l]) => {
+  const URL_RE = /https?:\/\/[^\s"“”]+/g;
+  const evUrl = k => ((EV[k] || '').match(URL_RE) || [])[0] || '';
+  const evTxt = k => (EV[k] || '').replace(URL_RE, '').replace(/^[\s—–-]+|[\s—–-]+$/g, '').replace(/\s+—\s+—\s+/g, ' — ');   // the evidence without raw URLs
+  const tileOf = ([k, l]) => {
     const v = F[k], note = (r.features_note || {})[k];             // e.g. reservations: 'Groups of 6+ only'
-    const tip = note ? note : v === true ? (EV[k] ? `Confirmed — ${EV[k]}` : 'Confirmed') : v === false ? 'No' : 'Not confirmed';
-    return `<li class="ft${v === true ? ' on' : ''}${note ? ' ft--note' : ''}" title="${esc(tip)}" data-state="${v === true ? 'yes' : v === false ? 'no' : 'unknown'}">${v === true ? CHECK : ''}<span>${l}${note ? `<small class="ft__note">${esc(note)}</small>` : ''}</span><span class="sr">: ${esc(tip)}</span></li>`;
-  }).join('');
+    const tip = note ? note : v === true ? (evTxt(k) ? `Confirmed — ${evTxt(k)}` : 'Confirmed') : v === false ? 'No' : 'Not confirmed';
+    const src = v != null && evUrl(k) ? `<a class="ft__src" href="${esc(evUrl(k))}" target="_blank" rel="noopener" aria-label="${esc(`Source: ${host(evUrl(k))}`)}">source</a>` : '';
+    return `<li class="ft${v === true ? ' on' : ''}${v === false ? ' ft--no' : ''}${note ? ' ft--note' : ''}" title="${esc(tip)}" data-state="${v === true ? 'yes' : v === false ? 'no' : 'unknown'}">${v === true ? CHECK : ''}<span>${l}${note ? `<small class="ft__note">${esc(note)}</small>` : ''}${v === false && !note ? '<small class="ft__note ft__no">No</small>' : ''}</span>${src}${v === false && !note ? '' : `<span class="sr">: ${esc(tip)}</span>`}</li>`;
+  };
+  const tilesKnown = TILES.filter(([k]) => F[k] === true || F[k] === false || (r.features_note || {})[k]);
+  const tilesUnk = TILES.filter(t => !tilesKnown.includes(t));
+  const tiles = tilesKnown.map(tileOf).join('');
   const nYes = TILES.filter(([k]) => F[k] === true).length;
   // ---- "Know this place?" visitor feedback: tap pills (has it / doesn't / neutral), optional note, one Send. Never changes data. ----
   const FB_SKIP = new Set(['events', 'chefCollabs', 'michelin', 'gaultMillau', 'new']);   // computed or editorial, not for visitors
@@ -128,12 +138,23 @@
       ${V && V.note ? `<span>${esc(V.note)}</span>` : (!V && r.dietNote ? `<span>${esc(r.dietNote)}</span>` : (V ? `<span>Source: ${esc(V.basis)}.</span>` : ''))}
       ${V && V.dishes && V.dishes.length ? `<ul>${V.dishes.map(d => `<li>${esc(d.dish)}</li>`).join('')}</ul>` : ''}
       ${V && V.sources ? `<span class="vegsrc">${V.sources.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' · ')}</span>` : ''}</div>`;
+  // ---- the description: data has one language per place (summaryLang); no translation → the original, labelled as such.
+  //      A text cut off in the data ('…') gets a "Read more" link to the page it was taken from (Michelin / Gault&Millau) ----
+  const UI = (window.TG_I18N && TG_I18N.lang) || 'en', sLang = r.summaryLang || 'nl';
+  const LANG_NAME = { nl: 'Dutch', en: 'English', fr: 'French', de: 'German', es: 'Spanish' };
+  const cut = /…$/.test(r.summary || '');
+  const fullSrc = cut ? (r.sources || []).find(u => /guide\.michelin\.com|gaultmillau\.be/.test(u)) || '' : '';
+  const sumTxt = cut ? r.summary.replace(/\s*…$/, '') + '…' : r.summary;
+  const summaryHtml = !r.summary ? '' : `<div class="summary-wrap"><p class="summary" lang="${esc(sLang)}">${esc(sumTxt)}</p>
+      ${sLang !== UI || fullSrc ? `<p class="summary-lang">${sLang !== UI && LANG_NAME[sLang] ? `<span>${esc(`Original description in ${LANG_NAME[sLang]}`)}</span>` : ''}${fullSrc ? `<a class="summary-more" href="${esc(fullSrc)}" target="_blank" rel="noopener">${esc(`Read more on ${/michelin/.test(fullSrc) ? 'the Michelin Guide' : 'Gault&Millau'}`)}</a>` : ''}</p>` : ''}</div>`;
   const hoodLine = [known(r.neighbourhood) ? r.neighbourhood : '', known(r.district) && r.district !== r.neighbourhood ? r.district : ''].filter(Boolean).join(' · ');
   const sourcesLine = `<details class="srcline"><summary>Sources</summary>
       <ol class="sources">${r.sources.map(s => s.startsWith('http') ? `<li><a href="${esc(s.split(' ')[0])}" target="_blank" rel="noopener">${esc(s)}</a></li>` : `<li>${esc(s)}</li>`).join('')}</ol>
-      <p>${r.fromUpcoming ? '' : `Last changed ${esc(fmtDate(r.lastChanged))} · `}Coordinates: ${esc(r.geoSource)}${r.fromOsm ? ' · Data © OpenStreetMap contributors (ODbL)' : ''}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
+      <p>${[r.fromUpcoming ? '' : `<span>Last changed ${esc(fmtDate(r.lastChanged))}</span>`, `<span>Coordinates: ${esc(r.geoSource)}</span>`, r.fromOsm ? '<span>Data © OpenStreetMap contributors (ODbL)</span>' : '',
+        r.openingHoursSource && hours ? (/^https?:/.test(r.openingHoursSource) ? `<span>Hours:</span> <a href="${esc(r.openingHoursSource.split(' ')[0])}" target="_blank" rel="noopener">${esc(host(r.openingHoursSource.split(' ')[0]))}</a>` : `<span>Hours: ${esc(r.openingHoursSource)}</span>`) : '',
+        r.reservation_url && r.website ? `<span>Booking link taken from ${esc(host(r.website))}</span>` : ''].filter(Boolean).join(' · ')}</p></details>`;
   $('#left').innerHTML = `
-    ${r.summary ? `<p class="summary" lang="${esc(r.summaryLang || 'nl')}">${esc(r.summary)}</p>` : ''}
+    ${summaryHtml}
     ${r.fromUpcoming ? openingBox : ''}
     ${r.fromOsm ? `<p class="osmnote">From the <a href="https://www.openstreetmap.org/${esc(r.osm)}" target="_blank" rel="noopener">OpenStreetMap</a> base list — not yet reviewed by us. Know it? Tell us below.</p>` : ''}
     ${r.status !== 'open' ? `<div class="conflict"><strong>Status: ${esc(r.status)}.</strong> ${esc(r.statusNote)}</div>` : ''}
@@ -151,8 +172,9 @@
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
       ${hours ? `<div class="ess-hours"><dt>Hours</dt><dd>${TG.seasonLabel(r) ? `<span class="opens season">${esc(TG.seasonLabel(r))}</span>` : ''}${hoursHtml}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
     </dl>
-    <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
-    <ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>
+    <h2 class="ft-head">At a glance</h2>
+    ${tiles ? `<ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>` : ''}
+    ${tilesUnk.length ? `<details class="ft-more"><summary><span>Not confirmed</span> <span class="ft-more__n">(${tilesUnk.length})</span></summary><ul class="ftgrid ftgrid--unk">${tilesUnk.map(tileOf).join('')}</ul></details>` : ''}
     ${vegBox}
     ${suggBlock}
     ${live.length ? `<h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>` + live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev${TG.evHref(e) ? ' ev--link' : ''}"${TG.evHref(e) ? ` data-ev-href="${esc(TG.evHref(e))}"` : ''}><div class="ev__when"><span class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</span><span class="ev__type">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</span></div>
@@ -197,7 +219,7 @@
       ${r.website ? `<a class="pill-btn dark" data-cta="website" href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : ''}</div><div class="dcta__row">
       ${r.instagram ? `<a class="pill-btn dark" data-cta="instagram" href="${esc(r.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ''}
       <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions</a></div></div>
-    ${r.reservation_url ? `<p class="resv-note">Books via ${esc(r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url))}, as linked on the restaurant's own website.</p>` : (bookable && r.website ? `<p class="resv-note">No online booking link found — see the restaurant’s website.</p>` : '')}
+    ${r.reservation_url ? `<p class="resv-note">${esc(tIG('Books via {x}, as linked on the restaurant’s own website.').replace('{x}', r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url)))}</p>` : (bookable && r.website ? `<p class="resv-note">${esc(tIG('No online booking link found — see the restaurant’s website.'))}</p>` : '')}
     <div class="dmap" id="dmap"></div>
     <p class="dmap-cap">${esc(hoodLine)}</p>`;
 
@@ -280,7 +302,7 @@
       if (a.hidden || moved || (slot && slot._swiped && Date.now() - slot._swiped < 250)) e.preventDefault(); e.stopPropagation(); }, true); }
   if (nPh > 1 || (nPh && !heroPh)) $('.dhero').insertAdjacentHTML('beforeend', `<button type="button" class="dhero__photos" data-pi="0"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg><span>${nTxt(nPh)}</span></button>`);
   let shown = [], idx = 0;
-  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}${igCred(p) ? `${igCredHtml(p, igCred(p))}${igLink(p)}</span>` : `Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}${igLink(p)}</span>`}`;
+  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}${igCred(p) ? `${igCredHtml(p, igCred(p))}${igLink(p)}</span>` : `${PHOTO()} ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || tIG('unknown'))}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${LIC(p)}</a>` : LIC(p)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(tIG('source'))}</a>` : ''}${igLink(p)}</span>`}`;
   const lb = $('#lb'); let lastFocus = null;
   function show(i) { idx = (i + shown.length) % shown.length; const p = shown[idx]; const im = $('#lb-img');
     im.referrerPolicy = 'no-referrer'; im.src = M.url(p.src); im.alt = p.alt || ''; $('#lb-cap').innerHTML = `<span class="lb__count">${idx + 1} / ${shown.length} · ${CATL[p.category]}</span>${capOf(p)}`; }

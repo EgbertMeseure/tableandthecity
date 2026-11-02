@@ -920,3 +920,17 @@ From {date} | Vanaf {date} | Ab {date} | À partir de {date} | Desde {date}
 until {date} | tot {date} | bis {date} | jusqu’à {date} | hasta {date}
 Month | Maand | Monat | Mois | Mes
 Start month | Startmaand | Startmonat | Mois de début | Mes de inicio
+# place page — tester feedback 2026-11-02 (descriptions, booking note, photo credits, At a glance)
+Original description in Dutch | Oorspronkelijke beschrijving in het Nederlands | Originalbeschreibung auf Niederländisch | Description originale en néerlandais | Descripción original en neerlandés
+Original description in English | Oorspronkelijke beschrijving in het Engels | Originalbeschreibung auf Englisch | Description originale en anglais | Descripción original en inglés
+Read more on the Michelin Guide | Lees meer in de Michelin Gids | Weiterlesen im Guide Michelin | Lire la suite dans le Guide Michelin | Leer más en la Guía Michelin
+Read more on Gault&Millau | Lees meer bij Gault&Millau | Weiterlesen bei Gault&Millau | Lire la suite sur Gault&Millau | Leer más en Gault&Millau
+No online booking link found — see the restaurant’s website. | Geen online reserveringslink gevonden — zie de website van het restaurant. | Kein Online-Reservierungslink gefunden — siehe die Website des Restaurants. | Aucun lien de réservation en ligne trouvé — voir le site du restaurant. | No se encontró enlace de reserva online — consulta la web del restaurante.
+Books via {x}, as linked on the restaurant’s own website. | Reserveren via {x}, zoals gelinkt op de eigen website van het restaurant. | Reservierung über {x}, wie auf der eigenen Website des Restaurants verlinkt. | Réservation via {x}, comme indiqué sur le site du restaurant. | Reservas a través de {x}, según el enlace de la propia web del restaurante.
+the place's own photo | eigen foto van de zaak | eigenes Foto des Lokals | photo de l’établissement | foto propia del local
+Photos from Instagram | Foto’s van Instagram | Fotos von Instagram | Photos d’Instagram | Fotos de Instagram
+source | bron | Quelle | source | fuente
+Source: {raw} | Bron: {raw} | Quelle: {raw} | Source : {raw} | Fuente: {raw}
+Hours: | Uren: | Zeiten: | Horaires : | Horario:
+Data © OpenStreetMap contributors (ODbL) | Data © OpenStreetMap-bijdragers (ODbL) | Daten © OpenStreetMap-Mitwirkende (ODbL) | Données © contributeurs OpenStreetMap (ODbL) | Datos © colaboradores de OpenStreetMap (ODbL)
+Booking link taken from {raw} | Reserveringslink overgenomen van {raw} | Reservierungslink übernommen von {raw} | Lien de réservation repris de {raw} | Enlace de reserva tomado de {raw}

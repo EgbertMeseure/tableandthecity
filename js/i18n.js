@@ -72,6 +72,8 @@
     [/^Coordinates: (.+)$/, 'Coordinates: {raw}', ['raw']],
     [/^Hours: (.+)$/, 'Hours: {raw}', ['raw']],
     [/^Photo: (.+)$/, 'Photo: {raw}', ['raw']],
+    [/^Source: (.+)$/, 'Source: {raw}', ['raw']],
+    [/^Booking link taken from (.+)$/, 'Booking link taken from {raw}', ['raw']],
     [/^(.+) · ([\d,.]+) of ([\d,.]+)$/, '{x} · {a} of {b}', ['x', 'a', 'b']],
     [/^(.+) · your picks$/, '{x} · your picks', ['x']],
     [/^Show all ([\d,.]+) match(?:es)?$/, 'Show all {n} matches', ['n']],
