@@ -314,7 +314,7 @@
   }
 
   /* ---------- UI ---------- */
-  const st = { mood: '', a: {}, step: 0, steps: [], skipped: {}, pick: null };   // pick: { iso, month } while the date picker is open
+  const st = { mood: '', a: {}, step: 0, steps: [], skipped: {}, pick: null, planned: {} };   // pick: { iso, month } while the date picker is open; planned: steps counted in "n of m"
   function mount() {
     root = document.createElement('div');
     root.className = 'qz'; root.hidden = true;
@@ -357,7 +357,7 @@
   }
   const body = () => root.querySelector('.qz__body');
   function restart(mood) {
-    st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; st.pick = null;
+    st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; st.pick = null; st.planned = {};
     if (typeof mood === 'string' && SECTIONS[mood] && moodOpts(clock()).some(o => o.v === mood)) { st.mood = mood; st.steps = SECTIONS[mood].questions; }
     draw();
   }
@@ -376,7 +376,17 @@
      Hard (filtering) steps: asked only with > 6 places left, enough viable answers (>= 3 places and fewer than all; non-viable answers are
      hidden; `all` answers = keep everything) and not lopsided (top answer > 85% while the rest keep < 8). 'When': unless <= 3 left.
      Soft steps (re-rank only): their own ask(list) test, answers without any matching place (has) hidden. Returns { skip } or { opts }. */
+  /* a step already announced in the "n of m" counter stays in the path while it still offers a real choice, so the total only
+     changes when an answer changes the path (e.g. 'A specific cuisine' adds 'Which kitchen?'), never because of the adaptive rule */
   function stepPlan(sec, i, C) {
+    const p = stepPlan0(sec, i, C);
+    if (p.skip === 'rule' && st.planned[i]) {
+      const opts = optionsFor(sec, i, C);
+      if (opts.length >= 2 && opts.some(o => !o.all && !o.pick)) return { opts };
+    }
+    return p;
+  }
+  function stepPlan0(sec, i, C) {
     const q = st.steps[i], prev = prevA(i);
     if (q.cond && !q.cond(prev)) return { skip: 'cond' };
     const opts = optionsFor(sec, i, C);
@@ -402,10 +412,9 @@
   function draw() {
     const C = clock();
     const dots = root.querySelector('.qz__dots'), back = root.querySelector('[data-qz-back]');
-    const total = st.mood ? st.steps.length + 2 : 5, cur = !st.mood ? 0 : st.step + 1;
-    dots.innerHTML = Array.from({ length: total }, (_, i) => `<i class="${i < cur ? 'done' : i === cur ? 'on' : ''}"></i>`).join('');
     back.style.visibility = st.mood ? 'visible' : 'hidden';
     if (!st.mood) {
+      dots.innerHTML = '';                                                 // the path (and so the number of steps) is only known once a mood is chosen
       const opts = moodOpts(C);
       return paint(`<p class="qz__eyebrow">Find my table</p><h2 class="qz__q" id="qz-title">${esc(MOOD_Q.q)}</h2>
         <div class="qz__opts">${opts.map(o => optBtn(o, 'mood', C)).join('')}</div>`);
@@ -415,9 +424,14 @@
     const q = st.steps[st.step], plan = stepPlan(sec, st.step, C);
     if (plan.skip) { st.a[q.id] = ''; st.skipped[st.step] = plan.skip; st.step++; return draw(); }   // nothing to choose: skip (and on Back)
     const opts = plan.opts;
-    // "n of m": questions asked so far + this one, of that + the later steps that can still come (each may still be skipped)
-    const asked = st.steps.slice(0, st.step).filter((x, j) => !st.skipped[j]).length + 1;
-    const of = asked + st.steps.slice(st.step + 1).filter(x => !x.cond || x.cond(prevA(st.step)) || (q.id === 'kind' && x.id === 'family')).length;
+    // "n of m": questions asked so far + this one, of that + the later steps this path will still ask given the answers so far
+    // (the same adaptive rule as stepPlan, so the counter and the dots agree and only change when an answer changes the path)
+    const asked = st.steps.slice(0, st.step).filter((x, j) => passed(j)).length + 1;
+    st.planned[st.step] = true;
+    const later = st.steps.map((x, j) => j).filter(j => j > st.step && !stepPlan(sec, j, C).skip);
+    later.forEach(j => { st.planned[j] = true; });
+    const of = asked + later.length;
+    dots.innerHTML = Array.from({ length: of }, (_, i) => `<i class="${i < asked - 1 ? 'done' : i === asked - 1 ? 'on' : ''}"></i>`).join('');
     const hasPick = opts.some(o => o.pick);
     if (hasPick && !st.pick && isPick(st.a[q.id])) st.pick = { iso: st.a[q.id].slice(2), month: st.a[q.id].slice(2, 9) };   // back to a picked date
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${asked} of ${of}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
@@ -458,6 +472,9 @@
     const f = focusSel && cal.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
     if (st.pick.iso) cal.querySelector('.qz-cal__go').scrollIntoView({ block: 'nearest', behavior: 'auto' });
   }
+  /* a step counts in "n of m" when it was asked, or when it was announced and then had nothing left to choose (it shows under
+     "Not asked — wouldn't change these results"), so the counter never jumps back */
+  const passed = j => !st.skipped[j] || (st.skipped[j] === 'rule' && !!st.planned[j]);
   function prevA(i) { const p = {}; st.steps.slice(0, i).forEach(q => { if (st.a[q.id]) p[q.id] = st.a[q.id]; }); return p; }
   function optBtn(o, id, C) {
     const sel = id === 'mood' ? st.mood === o.v : o.pick ? !!st.pick || isPick(st.a[id]) : st.a[id] === o.v && !st.pick, s = val(o.s, C);
@@ -488,7 +505,8 @@
       ${chips ? `<ul class="qz__chips">${chips}</ul>` : ''}${skippedHtml()}${relaxLine}${note ? `<p class="qz__note">${esc(note)}</p>` : ''}
       <div class="qz__res">${list.length ? top.map(x => sec.events ? evCard(x) : placeCard(x, a, C)).join('') : '<p class="qz__empty">Try fewer wishes, or browse everything.</p>'}</div>
       <div class="qz__end">${more}<button class="qz__skip" type="button" data-qz-restart>Start over</button></div>`);
-    root.querySelector('.qz__dots').innerHTML = Array.from({ length: st.steps.length + 2 }, () => '<i class="done"></i>').join('');
+    const askedN = st.steps.filter((q, i) => passed(i)).length;
+    root.querySelector('.qz__dots').innerHTML = Array.from({ length: askedN }, () => '<i class="done"></i>').join('');
   }
   /* the steps left out by the adaptive rule (stepPlan), so it is clear why the quiz was short */
   function skippedHtml() {
@@ -499,15 +517,21 @@
     const price = TG.known(r.priceLevel) ? r.priceLevel : '';
     const meta = [TG.catLabel(r), TG.known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
     const w = r._w || {}, o = TG.openState(r), nowish = !a.when || a.when === 'now' || a.when === 'today' || a.when === 'tonight' || a.when === 'd:' + C.iso;
+    const MW = a.meal && MEAL[a.meal];
+    const inW = x => !MW || (x.e == null ? x.s < MW.e : Math.min(x.e, MW.e) - Math.max(x.s, MW.s) > 0);   // an opening interval that touches the timing window
     let when = '';
-    if (a.when && a.when !== 'now' && w.days && w.days.length) when = w.days.map(d => `${DAY[d.dow]} ${ivText(d.iv)}`).join(' · ');
+    if (a.when && a.when !== 'now' && w.days && w.days.length) {
+      const ds = w.days.map(d => ({ ...d, iv: d.iv.filter(inW) })).filter(d => d.iv.length);
+      when = ds.map(d => `${DAY[d.dow]} ${ivText(d.iv)}`).join(' · ');
+      if (MW && when) when = `${MEAL_OPT[a.meal].l} · ${when}`;
+    }
     else if ((a.when && w.s === 'unknown') || (a.meal && r._m === 'unknown')) when = 'Hours not confirmed';
     const isRest = r.group === 'restaurants';
     const dl = dietLabel(r), diet = DIET_ON(a) || FULLY(r) ? (dl ? `<span class="badge veg lv-${esc(r.veggieLevel)}">${esc(dl)}</span>` : '<span class="badge qz-nodiet">No confirmed veggie options</span>') : '';
     const foot = APP.bookOn(r) ? APP.booking(r) : isRest && r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve</span>` : '';
     return `<a class="qz-card bw-host" href="${APP.detailUrl(r.id)}">
       <span class="qz-card__thumb">${TG.thumb(r, '64px')}</span>
-      <span class="qz-card__body"><span class="qz-card__top">${nowish || (o.state === 'open' && !isPick(a.when)) ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1, noVeg: true })}${diet}</span>
+      <span class="qz-card__body"><span class="qz-card__top">${MW ? (o.state === 'open' && nowish && C.mins >= MW.s - 30 && C.mins < MW.e ? TG.openLabel(o) : '') : nowish || (o.state === 'open' && !isPick(a.when)) ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1, noVeg: true })}${diet}</span>
         <span class="qz-card__name">${esc(r.name)}${TG.scoreBadge(r)}</span><span class="qz-card__meta">${meta}</span>
         ${when ? `<span class="qz-card__when">${esc(when)}</span>` : ''}${foot ? `<span class="qz-card__foot">${foot}</span>` : ''}</span></a>`;
   }
@@ -529,7 +553,7 @@
     if (t.closest('[data-qz-back]')) {
       if (!st.mood) return;
       st.pick = null; st.step--; while (st.step >= 0 && st.skipped[st.step]) st.step--;
-      if (st.step < 0) { st.mood = ''; st.a = {}; st.step = 0; }
+      if (st.step < 0) { st.mood = ''; st.a = {}; st.step = 0; st.planned = {}; }
       draw(); return;
     }
     if (t.closest('[data-qz-restart]')) { restart(); return; }
@@ -548,7 +572,7 @@
     st.pick = null;
     if (b.dataset.q === 'mood') {
       if (st.mood !== b.dataset.v) st.a = {};
-      st.mood = b.dataset.v; st.steps = SECTIONS[st.mood].questions; st.step = 0; st.skipped = {};
+      st.mood = b.dataset.v; st.steps = SECTIONS[st.mood].questions; st.step = 0; st.skipped = {}; st.planned = {};
     } else { st.a[b.dataset.q] = b.dataset.v; clearAfter(); st.step++; }
     b.setAttribute('aria-pressed', 'true');
     setTimeout(draw, 120);                                                 // brief pressed state, then the next question

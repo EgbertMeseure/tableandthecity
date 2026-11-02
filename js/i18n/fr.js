@@ -768,5 +768,18 @@
 "100% vegetarian": "100 % végétarien",
 "{x} in {city}": "{x} à {city}",
 "View this photo on Instagram": "Voir cette photo sur Instagram",
-"Instagram post": "Publication Instagram"
+"Instagram post": "Publication Instagram",
+"Original description in Dutch": "Description originale en néerlandais",
+"Original description in English": "Description originale en anglais",
+"Read more on the Michelin Guide": "Lire la suite dans le Guide Michelin",
+"Read more on Gault&Millau": "Lire la suite sur Gault&Millau",
+"No online booking link found — see the restaurant’s website.": "Aucun lien de réservation en ligne trouvé — voir le site du restaurant.",
+"Books via {x}, as linked on the restaurant’s own website.": "Réservation via {x}, comme indiqué sur le site du restaurant.",
+"the place's own photo": "photo de l’établissement",
+"Photos from Instagram": "Photos d’Instagram",
+"source": "source",
+"Source: {raw}": "Source : {raw}",
+"Hours:": "Horaires :",
+"Data © OpenStreetMap contributors (ODbL)": "Données © contributeurs OpenStreetMap (ODbL)",
+"Booking link taken from {raw}": "Lien de réservation repris de {raw}"
 };

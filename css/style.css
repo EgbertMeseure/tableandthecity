@@ -152,7 +152,9 @@ body.detail{background:#faf8f4}
 .topbar__right{gap:18px}
 .citysel--light>button{border-color:var(--line-d);color:var(--ink)}
 .subbar .citysel ul{top:42px}
-.summary-lang{font-size:var(--fs-xs);letter-spacing:var(--track-ui);text-transform:uppercase;color:var(--accent-soft);margin:-18px 0 30px}
+.summary-lang{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;font-size:var(--fs-xs);letter-spacing:var(--track-ui);text-transform:uppercase;color:var(--text-3);margin:-18px 0 30px}
+.summary-more{color:var(--text-2);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:1px}
+@media (hover:hover){.summary-more:hover{color:var(--ink)}}
 .notice{margin:0 var(--gutter) 18px;border:1px dashed #000;border-radius:var(--pill);padding:10px 18px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}
 @media (max-width:900px){.wordmark{font-size:28px}.subbar .wordmark{font-size:24px}}
 .pill-btn{white-space:nowrap}
@@ -498,8 +500,12 @@ html.qz-lock,html.qz-lock body{overflow:hidden}
 .qz-opt{display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;min-height:62px;padding:10px 26px;border:1px solid var(--line-d);border-radius:var(--pill);
   background:#fff;color:var(--ink);cursor:pointer;text-align:left;transition:background .2s,color .2s;-webkit-tap-highlight-color:transparent}
 .qz-opt[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}
-@media (hover:hover){.qz-opt:hover{background:var(--ink);color:#fff}.qz-opt:hover .qz-opt__s{color:#d6d6d6}}
-.qz-opt:focus-visible,.qz__skip:focus-visible,.qz__back:focus-visible,.qz__x:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+/* hover / keyboard focus on an answer that is not chosen: a calm grey, never a filled colour (petrol = chosen only) */
+@media (hover:hover){.qz-opt:not([aria-pressed="true"]):hover{background:#f4f4f2;border-color:var(--ink)}}
+.qz-opt:focus{outline:0}
+.qz-opt:not([aria-pressed="true"]):focus-visible{background:#f4f4f2;border-color:var(--ink);outline:2px solid rgba(11,11,11,.28);outline-offset:2px}
+.qz-opt[aria-pressed="true"]:focus-visible{outline:2px solid rgba(42,100,116,.45);outline-offset:2px}
+.qz__skip:focus-visible,.qz__back:focus-visible,.qz__x:focus-visible{outline:2px solid rgba(11,11,11,.35);outline-offset:2px}
 .qz-opt__t{display:flex;flex-direction:column;gap:3px;min-width:0}
 .qz-opt__l{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
 .qz-opt__s{font-size:12.5px;color:var(--text-2);letter-spacing:.01em}
@@ -799,7 +805,7 @@ html.crq-lock,html.crq-lock body{overflow:hidden}
 .hweek__t{white-space:nowrap}
 .hweek__sep{color:#b9ad92}
 .hweek__closed{color:#2a6474;font-weight:600;letter-spacing:.02em}
-.hweek__unk{color:var(--text-3)}
+.hweek__unk{color:var(--text-3);font-size:12.5px;font-weight:400;letter-spacing:.01em}
 .hweek tr.is-today th,.hweek tr.is-today td{font-weight:700}
 .hweek tr.is-today th::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:#c9a86a;margin:0 7px 1px -13px;vertical-align:middle}
 .hweek__note{margin:6px 0 0;font-size:12px;color:var(--text-3)}
@@ -1054,3 +1060,16 @@ a.card.bw-host{position:relative}
 .pc__nav--prev{left:8px}.pc__nav--next{right:8px}
 .pc__nav:disabled{visibility:hidden}
 @media (hover:hover) and (pointer:fine){.pc__nav{display:flex}.pc__car:hover .pc__nav,.pc__car:focus-within .pc__nav{opacity:1}}
+
+/* detail "At a glance": confirmed + known "no" tiles in view; "Not confirmed" folded behind a small toggle; evidence = a small source link */
+.ft--no{color:var(--text-3);background:transparent;border-style:dashed}
+.ft__no{text-transform:none}
+.ft__src{margin-left:auto;align-self:flex-start;font-size:10.5px;font-weight:400;color:var(--ok-ink);opacity:.75;text-decoration:none;border-bottom:1px solid currentColor;line-height:1.2}
+@media (hover:hover){.ft__src:hover{opacity:1}}
+.ft-more{margin:4px 0 14px;font-size:13px;color:var(--text-3)}
+.ft-more summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:8px;padding:6px 0;min-height:32px}
+.ft-more summary::-webkit-details-marker{display:none}
+.ft-more summary::before{content:"+";display:inline-grid;place-items:center;width:18px;height:18px;border:1px solid currentColor;border-radius:50%;font-size:12px}
+.ft-more[open] summary::before{content:"–"}
+.ft-more .ftgrid{margin-top:10px}
+.ftgrid--unk .ft{min-height:40px;color:var(--text-3);font-weight:400}
