@@ -7,7 +7,74 @@
    "note": "Live music every weekend",
    "source": "https://www.kellysantwerp.be/",
    "basis": "Own site: 'Every weekend live music at Kelly's'",
-   "checked": "2026-10-30"
+   "checked": "2026-10-30",
+   "events": [
+    {
+     "id": "lm-kellys-1",
+     "title": "Paul Taggart",
+     "dateStart": "2026-11-06",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kelly's Irish Pub, De Keyserlei 27, 2018 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.kellysantwerp.be/show-nights/"
+     ],
+     "note": "Live music (pop, rock, blues, acoustic)"
+    },
+    {
+     "id": "lm-kellys-2",
+     "title": "Ian Kelmer",
+     "dateStart": "2026-11-13",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kelly's Irish Pub, De Keyserlei 27, 2018 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.kellysantwerp.be/show-nights/"
+     ],
+     "note": "Live music (indie-folk, Brazilian acoustic)"
+    },
+    {
+     "id": "lm-kellys-3",
+     "title": "Nr. Streetmusicians",
+     "dateStart": "2026-11-20",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kelly's Irish Pub, De Keyserlei 27, 2018 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.kellysantwerp.be/show-nights/"
+     ],
+     "note": "Live music (acoustic duo)"
+    },
+    {
+     "id": "lm-kellys-4",
+     "title": "Paul Taggart",
+     "dateStart": "2026-11-27",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kelly's Irish Pub, De Keyserlei 27, 2018 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.kellysantwerp.be/show-nights/"
+     ],
+     "note": "Live music (pop, rock, blues, acoustic)"
+    },
+    {
+     "id": "lm-kellys-5",
+     "title": "Nr. Streetmusicians",
+     "dateStart": "2026-11-28",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kelly's Irish Pub, De Keyserlei 27, 2018 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.kellysantwerp.be/show-nights/"
+     ],
+     "note": "Live music (acoustic duo)"
+    }
+   ]
   },
   "osm-hopper-n1635538634": {
    "note": "Monthly jazz concerts",
@@ -19,7 +86,48 @@
    "note": "Free live jazz most evenings",
    "source": "https://jazzcafedemuze.be/programma/",
    "basis": "Own site: concerts Mon–Thu 21:00, Fri–Sat 22:00, Sun 15:00; 'Alle optredens zijn vrij van inkom' (November programme not online yet on 30 Oct)",
-   "checked": "2026-10-30"
+   "checked": "2026-10-30",
+   "events": [
+    {
+     "id": "lm-jazzcafe-de-muze-1",
+     "title": "De Muze 5",
+     "dateStart": "2026-11-03",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.milanverbist.be/concerts/"
+     ],
+     "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-2",
+     "title": "Luc Van Steertegem 4tet",
+     "dateStart": "2026-11-16",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.milanverbist.be/concerts/"
+     ],
+     "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-3",
+     "title": "TVD Quartet",
+     "dateStart": "2026-11-30",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://www.milanverbist.be/concerts/"
+     ],
+     "note": "21:00 · free entry"
+    }
+   ]
   }
  }
 }
