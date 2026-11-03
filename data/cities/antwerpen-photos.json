@@ -3999,9 +3999,24 @@
   "nebo": {
    "photos": [
     {
-     "src": "img/places/antwerpen/nebo/p1-1400.webp",
-     "thumb": "img/places/antwerpen/nebo/p1-700.webp",
-     "srcset": "img/places/antwerpen/nebo/p1-700.webp 700w, img/places/antwerpen/nebo/p1-1400.webp 1400w",
+     "src": "img/places/antwerpen/nebo/p6-1400.webp",
+     "thumb": "img/places/antwerpen/nebo/p6-700.webp",
+     "srcset": "img/places/antwerpen/nebo/p6-700.webp 700w, img/places/antwerpen/nebo/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "exterior",
+     "alt": "Nebo: the outside",
+     "credit": "restaurantnebo.be",
+     "credit_url": "https://www.restaurantnebo.be/omgeving",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/nebo/p7-1400.webp",
+     "thumb": "img/places/antwerpen/nebo/p7-700.webp",
+     "srcset": "img/places/antwerpen/nebo/p7-700.webp 700w, img/places/antwerpen/nebo/p7-1400.webp 1400w",
      "w": 1400,
      "h": 934,
      "category": "food",
@@ -4010,68 +4025,58 @@
      "credit_url": "https://www.restaurantnebo.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/nebo/p2-800.webp",
-     "thumb": "img/places/antwerpen/nebo/p2-400.webp",
-     "srcset": "img/places/antwerpen/nebo/p2-400.webp 400w, img/places/antwerpen/nebo/p2-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/antwerpen/nebo/p8-1400.webp",
+     "thumb": "img/places/antwerpen/nebo/p8-700.webp",
+     "srcset": "img/places/antwerpen/nebo/p8-700.webp 700w, img/places/antwerpen/nebo/p8-1400.webp 1400w",
+     "w": 1250,
+     "h": 1210,
      "category": "food",
      "alt": "Nebo: food",
-     "credit": "@restaurant.nebo on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant.nebo/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/nebo/p3-800.webp",
-     "thumb": "img/places/antwerpen/nebo/p3-400.webp",
-     "srcset": "img/places/antwerpen/nebo/p3-400.webp 400w, img/places/antwerpen/nebo/p3-800.webp 800w",
-     "w": 800,
-     "h": 1000,
-     "category": "food",
-     "alt": "Nebo: food",
-     "credit": "@restaurant.nebo on Instagram",
-     "credit_url": "https://www.instagram.com/restaurant.nebo/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/nebo/p4-800.webp",
-     "thumb": "img/places/antwerpen/nebo/p4-400.webp",
-     "srcset": "img/places/antwerpen/nebo/p4-400.webp 400w, img/places/antwerpen/nebo/p4-800.webp 800w",
-     "w": 800,
-     "h": 788,
-     "category": "interior",
-     "alt": "Nebo: the interior",
      "credit": "restaurantnebo.be",
      "credit_url": "https://www.restaurantnebo.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/nebo/p5-800.webp",
-     "thumb": "img/places/antwerpen/nebo/p5-400.webp",
-     "srcset": "img/places/antwerpen/nebo/p5-400.webp 400w, img/places/antwerpen/nebo/p5-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "interior",
-     "alt": "Nebo: the interior",
+     "src": "img/places/antwerpen/nebo/p9-1400.webp",
+     "thumb": "img/places/antwerpen/nebo/p9-700.webp",
+     "srcset": "img/places/antwerpen/nebo/p9-700.webp 700w, img/places/antwerpen/nebo/p9-1400.webp 1400w",
+     "w": 833,
+     "h": 1250,
+     "category": "food",
+     "alt": "Nebo: food",
      "credit": "restaurantnebo.be",
      "credit_url": "https://www.restaurantnebo.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/nebo/p10-1400.webp",
+     "thumb": "img/places/antwerpen/nebo/p10-700.webp",
+     "srcset": "img/places/antwerpen/nebo/p10-700.webp 700w, img/places/antwerpen/nebo/p10-1400.webp 1400w",
+     "w": 1366,
+     "h": 2048,
+     "category": "interior",
+     "alt": "Nebo: the interior",
+     "credit": "restaurantnebo.be",
+     "credit_url": "https://www.restaurantnebo.be/ambiance",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/nebo/p1-1400.webp"
+    "src": "img/places/antwerpen/nebo/p6-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -18053,12 +18058,32 @@
   "pazzo": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DfCtFJyiVkW/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DerUMjQCV0T/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/antwerpen/pazzo/p3-1400.webp",
+     "thumb": "img/places/antwerpen/pazzo/p3-700.webp",
+     "srcset": "img/places/antwerpen/pazzo/p3-700.webp 700w, img/places/antwerpen/pazzo/p3-1400.webp 1400w",
+     "w": 1200,
+     "h": 630,
+     "category": "exterior",
+     "alt": "Pazzo: the outside",
+     "credit": "pazzo.be",
+     "credit_url": "https://pazzo.be/contact",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
     {
      "src": "img/places/antwerpen/pazzo/p1-1400.webp",
      "thumb": "img/places/antwerpen/pazzo/p1-700.webp",
@@ -18086,11 +18111,42 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/pazzo/p4-1400.webp",
+     "thumb": "img/places/antwerpen/pazzo/p4-700.webp",
+     "srcset": "img/places/antwerpen/pazzo/p4-700.webp 700w, img/places/antwerpen/pazzo/p4-1400.webp 1400w",
+     "w": 1365,
+     "h": 1706,
+     "category": "food",
+     "alt": "Pazzo: food",
+     "credit": "@pazzoantwerp on Instagram",
+     "credit_url": "https://www.instagram.com/pazzoantwerp/",
+     "ig": "https://www.instagram.com/p/DfCtFJyiVkW/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/pazzo/p5-1400.webp",
+     "thumb": "img/places/antwerpen/pazzo/p5-700.webp",
+     "srcset": "img/places/antwerpen/pazzo/p5-700.webp 700w, img/places/antwerpen/pazzo/p5-1400.webp 1400w",
+     "w": 1280,
+     "h": 853,
+     "category": "interior",
+     "alt": "Pazzo: the interior",
+     "credit": "pazzo.be",
+     "credit_url": "https://pazzo.be/wijnbar",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/pazzo/p1-1400.webp"
+    "src": "img/places/antwerpen/pazzo/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -18116,6 +18172,35 @@
   },
   "pont-neuf": {
    "photos": [
+    {
+     "src": "img/places/antwerpen/pont-neuf/p5-1400.webp",
+     "thumb": "img/places/antwerpen/pont-neuf/p5-700.webp",
+     "srcset": "img/places/antwerpen/pont-neuf/p5-700.webp 700w, img/places/antwerpen/pont-neuf/p5-1400.webp 1400w",
+     "w": 1280,
+     "h": 700,
+     "category": "exterior",
+     "alt": "Pont-Neuf: the outside",
+     "credit": "pont-neuf.be",
+     "credit_url": "https://pont-neuf.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/pont-neuf/p3-800.webp",
+     "thumb": "img/places/antwerpen/pont-neuf/p3-400.webp",
+     "srcset": "img/places/antwerpen/pont-neuf/p3-400.webp 400w, img/places/antwerpen/pont-neuf/p3-800.webp 800w",
+     "w": 800,
+     "h": 800,
+     "category": "interior",
+     "alt": "Pont-Neuf: the interior",
+     "credit": "pont-neuf.be",
+     "credit_url": "https://pont-neuf.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
     {
      "src": "img/places/antwerpen/pont-neuf/p1-1400.webp",
      "thumb": "img/places/antwerpen/pont-neuf/p1-700.webp",
@@ -18145,23 +18230,24 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/pont-neuf/p3-800.webp",
-     "thumb": "img/places/antwerpen/pont-neuf/p3-400.webp",
-     "srcset": "img/places/antwerpen/pont-neuf/p3-400.webp 400w, img/places/antwerpen/pont-neuf/p3-800.webp 800w",
-     "w": 800,
-     "h": 800,
-     "category": "interior",
-     "alt": "Pont-Neuf: the interior",
+     "src": "img/places/antwerpen/pont-neuf/p4-1400.webp",
+     "thumb": "img/places/antwerpen/pont-neuf/p4-700.webp",
+     "srcset": "img/places/antwerpen/pont-neuf/p4-700.webp 700w, img/places/antwerpen/pont-neuf/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1120,
+     "category": "food",
+     "alt": "Pont-Neuf: food",
      "credit": "pont-neuf.be",
      "credit_url": "https://pont-neuf.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/pont-neuf/p1-1400.webp"
+    "src": "img/places/antwerpen/pont-neuf/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -18556,18 +18642,19 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/soixante/p1-1400.webp",
-     "thumb": "img/places/antwerpen/soixante/p1-700.webp",
-     "srcset": "img/places/antwerpen/soixante/p1-700.webp 700w, img/places/antwerpen/soixante/p1-1400.webp 1400w",
-     "w": 1280,
-     "h": 900,
+     "src": "img/places/antwerpen/soixante/p4-1400.webp",
+     "thumb": "img/places/antwerpen/soixante/p4-700.webp",
+     "srcset": "img/places/antwerpen/soixante/p4-700.webp 700w, img/places/antwerpen/soixante/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
      "category": "interior",
      "alt": "Soixante: the interior",
      "credit": "soixanteantwerp.be",
      "credit_url": "https://www.soixanteantwerp.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     },
     {
      "src": "img/places/antwerpen/soixante/p2-800.webp",
@@ -18584,23 +18671,39 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/soixante/p3-800.webp",
-     "thumb": "img/places/antwerpen/soixante/p3-400.webp",
-     "srcset": "img/places/antwerpen/soixante/p3-400.webp 400w, img/places/antwerpen/soixante/p3-800.webp 800w",
-     "w": 800,
-     "h": 562,
-     "category": "interior",
-     "alt": "Soixante: the interior",
+     "src": "img/places/antwerpen/soixante/p5-1400.webp",
+     "thumb": "img/places/antwerpen/soixante/p5-700.webp",
+     "srcset": "img/places/antwerpen/soixante/p5-700.webp 700w, img/places/antwerpen/soixante/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Soixante: food",
      "credit": "soixanteantwerp.be",
      "credit_url": "https://www.soixanteantwerp.be/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/soixante/p6-1400.webp",
+     "thumb": "img/places/antwerpen/soixante/p6-700.webp",
+     "srcset": "img/places/antwerpen/soixante/p6-700.webp 700w, img/places/antwerpen/soixante/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Soixante: food",
+     "credit": "soixanteantwerp.be",
+     "credit_url": "https://www.soixanteantwerp.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/soixante/p1-1400.webp"
+    "src": "img/places/antwerpen/soixante/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -18628,18 +18731,19 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/t-zilte/p1-1400.webp",
-     "thumb": "img/places/antwerpen/t-zilte/p1-700.webp",
-     "srcset": "img/places/antwerpen/t-zilte/p1-700.webp 700w, img/places/antwerpen/t-zilte/p1-1400.webp 1400w",
+     "src": "img/places/antwerpen/t-zilte/p4-1400.webp",
+     "thumb": "img/places/antwerpen/t-zilte/p4-700.webp",
+     "srcset": "img/places/antwerpen/t-zilte/p4-700.webp 700w, img/places/antwerpen/t-zilte/p4-1400.webp 1400w",
      "w": 1400,
-     "h": 525,
+     "h": 933,
      "category": "interior",
      "alt": "Zilte: the interior",
      "credit": "zilte.be",
-     "credit_url": "https://www.zilte.be/",
+     "credit_url": "https://www.zilte.be/contact/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     },
     {
      "src": "img/places/antwerpen/t-zilte/p2-800.webp",
@@ -18668,11 +18772,26 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/t-zilte/p5-1400.webp",
+     "thumb": "img/places/antwerpen/t-zilte/p5-700.webp",
+     "srcset": "img/places/antwerpen/t-zilte/p5-700.webp 700w, img/places/antwerpen/t-zilte/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Zilte: food",
+     "credit": "zilte.be",
+     "credit_url": "https://www.zilte.be/boek/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/t-zilte/p1-1400.webp"
+    "src": "img/places/antwerpen/t-zilte/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -18877,6 +18996,16 @@
   "the-jane": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DeJTSUJjHGE/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeJTSUJjHGE/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DdlhjDWMeWt/",
      "category": "interior",
      "origin": "research"
@@ -18884,43 +19013,92 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/the-jane/p1-1400.webp",
-     "thumb": "img/places/antwerpen/the-jane/p1-700.webp",
-     "srcset": "img/places/antwerpen/the-jane/p1-700.webp 700w, img/places/antwerpen/the-jane/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1350,
+     "src": "img/places/antwerpen/the-jane/p3-1400.webp",
+     "thumb": "img/places/antwerpen/the-jane/p3-700.webp",
+     "srcset": "img/places/antwerpen/the-jane/p3-700.webp 700w, img/places/antwerpen/the-jane/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
      "category": "interior",
      "alt": "The Jane: the interior",
-     "credit": "@thejaneantwerp on Instagram",
-     "credit_url": "https://www.instagram.com/thejaneantwerp/",
+     "credit": "thejaneantwerp.com",
+     "credit_url": "https://www.thejaneantwerp.com/story/",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/the-jane/p2-800.webp",
-     "thumb": "img/places/antwerpen/the-jane/p2-400.webp",
-     "srcset": "img/places/antwerpen/the-jane/p2-400.webp 400w, img/places/antwerpen/the-jane/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/antwerpen/the-jane/p4-1400.webp",
+     "thumb": "img/places/antwerpen/the-jane/p4-700.webp",
+     "srcset": "img/places/antwerpen/the-jane/p4-700.webp 700w, img/places/antwerpen/the-jane/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "The Jane: food",
+     "credit": "thejaneantwerp.com",
+     "credit_url": "https://www.thejaneantwerp.com/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/the-jane/p5-1400.webp",
+     "thumb": "img/places/antwerpen/the-jane/p5-700.webp",
+     "srcset": "img/places/antwerpen/the-jane/p5-700.webp 700w, img/places/antwerpen/the-jane/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
      "category": "food",
      "alt": "The Jane: food",
      "credit": "@thejaneantwerp on Instagram",
      "credit_url": "https://www.instagram.com/thejaneantwerp/",
+     "ig": "https://www.instagram.com/p/DeJTSUJjHGE/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/the-jane/p6-1400.webp",
+     "thumb": "img/places/antwerpen/the-jane/p6-700.webp",
+     "srcset": "img/places/antwerpen/the-jane/p6-700.webp 700w, img/places/antwerpen/the-jane/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "The Jane: food",
+     "credit": "@thejaneantwerp on Instagram",
+     "credit_url": "https://www.instagram.com/thejaneantwerp/",
+     "ig": "https://www.instagram.com/p/DeJTSUJjHGE/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/the-jane/p1-1400.webp"
+    "src": "img/places/antwerpen/the-jane/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "the-london": {
    "photos": [
+    {
+     "src": "img/places/antwerpen/the-london/p4-1400.webp",
+     "thumb": "img/places/antwerpen/the-london/p4-700.webp",
+     "srcset": "img/places/antwerpen/the-london/p4-700.webp 700w, img/places/antwerpen/the-london/p4-1400.webp 1400w",
+     "w": 1024,
+     "h": 682,
+     "category": "interior",
+     "alt": "The London: the interior",
+     "credit": "thelondon.be",
+     "credit_url": "https://www.thelondon.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
     {
      "src": "img/places/antwerpen/the-london/p1-1400.webp",
      "thumb": "img/places/antwerpen/the-london/p1-700.webp",
@@ -18966,7 +19144,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/the-london/p1-1400.webp"
+    "src": "img/places/antwerpen/the-london/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -18988,6 +19166,21 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/antwerpen/upton/p6-1400.webp",
+     "thumb": "img/places/antwerpen/upton/p6-700.webp",
+     "srcset": "img/places/antwerpen/upton/p6-700.webp 700w, img/places/antwerpen/upton/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "Upton: the interior",
+     "credit": "upton.be",
+     "credit_url": "https://upton.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b03 2026-11-03"
+    },
     {
      "src": "img/places/antwerpen/upton/p1-1400.webp",
      "thumb": "img/places/antwerpen/upton/p1-700.webp",
@@ -19029,39 +19222,11 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/upton/p4-800.webp",
-     "thumb": "img/places/antwerpen/upton/p4-400.webp",
-     "srcset": "img/places/antwerpen/upton/p4-400.webp 400w, img/places/antwerpen/upton/p4-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "interior",
-     "alt": "Upton: the interior",
-     "credit": "upton.be",
-     "credit_url": "https://upton.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/upton/p5-800.webp",
-     "thumb": "img/places/antwerpen/upton/p5-400.webp",
-     "srcset": "img/places/antwerpen/upton/p5-400.webp 400w, img/places/antwerpen/upton/p5-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "exterior",
-     "alt": "Upton: the outside",
-     "credit": "@upton_antwerp on Instagram",
-     "credit_url": "https://www.instagram.com/upton_antwerp/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/upton/p1-1400.webp"
+    "src": "img/places/antwerpen/upton/p6-1400.webp"
    },
    "only": true,
    "layout": "mix"
