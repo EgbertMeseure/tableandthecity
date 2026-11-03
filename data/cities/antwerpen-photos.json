@@ -16,8 +16,8 @@
      "srcset": "img/places/antwerpen/album/p1-700.webp 700w, img/places/antwerpen/album/p1-1400.webp 1400w",
      "w": 1080,
      "h": 1080,
-     "category": "drink",
-     "alt": "ALBUM: drinks",
+     "category": "interior",
+     "alt": "ALBUM: the interior",
      "credit": "@albumantwerpen on Instagram",
      "credit_url": "https://www.instagram.com/albumantwerpen/",
      "license": "the place's own photo",
@@ -543,18 +543,19 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/bistrot-du-nord/p1-1400.webp",
-     "thumb": "img/places/antwerpen/bistrot-du-nord/p1-700.webp",
-     "srcset": "img/places/antwerpen/bistrot-du-nord/p1-700.webp 700w, img/places/antwerpen/bistrot-du-nord/p1-1400.webp 1400w",
+     "src": "img/places/antwerpen/bistrot-du-nord/p5-1400.webp",
+     "thumb": "img/places/antwerpen/bistrot-du-nord/p5-700.webp",
+     "srcset": "img/places/antwerpen/bistrot-du-nord/p5-700.webp 700w, img/places/antwerpen/bistrot-du-nord/p5-1400.webp 1400w",
      "w": 1400,
-     "h": 934,
-     "category": "interior",
-     "alt": "Bistrot du Nord: the interior",
+     "h": 935,
+     "category": "exterior",
+     "alt": "Bistrot du Nord: the outside",
      "credit": "bistrotdunord.be",
-     "credit_url": "https://www.bistrotdunord.be/",
+     "credit_url": "https://www.bistrotdunord.be/praktisch/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
      "src": "img/places/antwerpen/bistrot-du-nord/p2-800.webp",
@@ -571,37 +572,39 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/bistrot-du-nord/p3-800.webp",
-     "thumb": "img/places/antwerpen/bistrot-du-nord/p3-400.webp",
-     "srcset": "img/places/antwerpen/bistrot-du-nord/p3-400.webp 400w, img/places/antwerpen/bistrot-du-nord/p3-800.webp 800w",
-     "w": 800,
-     "h": 533,
+     "src": "img/places/antwerpen/bistrot-du-nord/p6-1400.webp",
+     "thumb": "img/places/antwerpen/bistrot-du-nord/p6-700.webp",
+     "srcset": "img/places/antwerpen/bistrot-du-nord/p6-700.webp 700w, img/places/antwerpen/bistrot-du-nord/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 932,
      "category": "food",
      "alt": "Bistrot du Nord: food",
      "credit": "bistrotdunord.be",
-     "credit_url": "https://www.bistrotdunord.be/",
+     "credit_url": "https://www.bistrotdunord.be/menu/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/bistrot-du-nord/p4-800.webp",
-     "thumb": "img/places/antwerpen/bistrot-du-nord/p4-400.webp",
-     "srcset": "img/places/antwerpen/bistrot-du-nord/p4-400.webp 400w, img/places/antwerpen/bistrot-du-nord/p4-800.webp 800w",
-     "w": 800,
-     "h": 1201,
+     "src": "img/places/antwerpen/bistrot-du-nord/p7-1400.webp",
+     "thumb": "img/places/antwerpen/bistrot-du-nord/p7-700.webp",
+     "srcset": "img/places/antwerpen/bistrot-du-nord/p7-700.webp 700w, img/places/antwerpen/bistrot-du-nord/p7-1400.webp 1400w",
+     "w": 1280,
+     "h": 790,
      "category": "interior",
      "alt": "Bistrot du Nord: the interior",
      "credit": "bistrotdunord.be",
-     "credit_url": "https://www.bistrotdunord.be/",
+     "credit_url": "https://www.bistrotdunord.be/praktisch/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/bistrot-du-nord/p1-1400.webp"
+    "src": "img/places/antwerpen/bistrot-du-nord/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -779,6 +782,21 @@
    ],
    "photos": [
     {
+     "src": "img/places/antwerpen/black-smoke/p4-1400.webp",
+     "thumb": "img/places/antwerpen/black-smoke/p4-700.webp",
+     "srcset": "img/places/antwerpen/black-smoke/p4-700.webp 700w, img/places/antwerpen/black-smoke/p4-1400.webp 1400w",
+     "w": 500,
+     "h": 750,
+     "category": "interior",
+     "alt": "Black Smoke: the interior",
+     "credit": "blacksmoke.be",
+     "credit_url": "https://blacksmoke.be/food-drinks/bar/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
+    },
+    {
      "src": "img/places/antwerpen/black-smoke/p1-1400.webp",
      "thumb": "img/places/antwerpen/black-smoke/p1-700.webp",
      "srcset": "img/places/antwerpen/black-smoke/p1-700.webp 700w, img/places/antwerpen/black-smoke/p1-1400.webp 1400w",
@@ -823,7 +841,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/black-smoke/p1-1400.webp"
+    "src": "img/places/antwerpen/black-smoke/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1421,6 +1439,36 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/cobra/p4-1400.webp",
+     "thumb": "img/places/antwerpen/cobra/p4-700.webp",
+     "srcset": "img/places/antwerpen/cobra/p4-700.webp 700w, img/places/antwerpen/cobra/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Cobra City: food",
+     "credit": "cobra-antwerp.com",
+     "credit_url": "https://cobra-antwerp.com/cobra-city/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/cobra/p5-1400.webp",
+     "thumb": "img/places/antwerpen/cobra/p5-700.webp",
+     "srcset": "img/places/antwerpen/cobra/p5-700.webp 700w, img/places/antwerpen/cobra/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "Cobra City: the interior",
+     "credit": "cobra-antwerp.com",
+     "credit_url": "https://cobra-antwerp.com/cobra-city/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     }
    ],
    "pick": {
@@ -1449,6 +1497,21 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/antwerpen/cuichine/p4-1400.webp",
+     "thumb": "img/places/antwerpen/cuichine/p4-700.webp",
+     "srcset": "img/places/antwerpen/cuichine/p4-700.webp 700w, img/places/antwerpen/cuichine/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "exterior",
+     "alt": "Cuichine: the outside",
+     "credit": "cuichine.be",
+     "credit_url": "https://www.cuichine.be/home",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
+    },
     {
      "src": "img/places/antwerpen/cuichine/p1-1400.webp",
      "thumb": "img/places/antwerpen/cuichine/p1-700.webp",
@@ -1490,11 +1553,26 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/cuichine/p5-1400.webp",
+     "thumb": "img/places/antwerpen/cuichine/p5-700.webp",
+     "srcset": "img/places/antwerpen/cuichine/p5-700.webp 700w, img/places/antwerpen/cuichine/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Cuichine: the interior",
+     "credit": "cuichine.be",
+     "credit_url": "https://www.cuichine.be/home",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/cuichine/p1-1400.webp"
+    "src": "img/places/antwerpen/cuichine/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1540,6 +1618,21 @@
   "de-aarde": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DeXd7jYjfG4/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Den-NbDDcB1/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/De8s0HdDVsI/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeQwS5mDarA/",
      "category": "food",
      "origin": "research"
@@ -1557,32 +1650,36 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/de-aarde/p1-1400.webp",
-     "thumb": "img/places/antwerpen/de-aarde/p1-700.webp",
-     "srcset": "img/places/antwerpen/de-aarde/p1-700.webp 700w, img/places/antwerpen/de-aarde/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "src": "img/places/antwerpen/de-aarde/p4-1400.webp",
+     "thumb": "img/places/antwerpen/de-aarde/p4-700.webp",
+     "srcset": "img/places/antwerpen/de-aarde/p4-700.webp 700w, img/places/antwerpen/de-aarde/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "interior",
      "alt": "De Aarde: the interior",
      "credit": "@deaarde.restaurant on Instagram",
      "credit_url": "https://www.instagram.com/deaarde.restaurant/",
+     "ig": "https://www.instagram.com/p/DeXd7jYjfG4/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/de-aarde/p2-800.webp",
-     "thumb": "img/places/antwerpen/de-aarde/p2-400.webp",
-     "srcset": "img/places/antwerpen/de-aarde/p2-400.webp 400w, img/places/antwerpen/de-aarde/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
+     "src": "img/places/antwerpen/de-aarde/p5-1400.webp",
+     "thumb": "img/places/antwerpen/de-aarde/p5-700.webp",
+     "srcset": "img/places/antwerpen/de-aarde/p5-700.webp 700w, img/places/antwerpen/de-aarde/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
      "category": "food",
      "alt": "De Aarde: food",
      "credit": "@deaarde.restaurant on Instagram",
      "credit_url": "https://www.instagram.com/deaarde.restaurant/",
+     "ig": "https://www.instagram.com/p/Den-NbDDcB1/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
      "src": "img/places/antwerpen/de-aarde/p3-800.webp",
@@ -1597,11 +1694,27 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/de-aarde/p6-1400.webp",
+     "thumb": "img/places/antwerpen/de-aarde/p6-700.webp",
+     "srcset": "img/places/antwerpen/de-aarde/p6-700.webp 700w, img/places/antwerpen/de-aarde/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "De Aarde: food",
+     "credit": "@deaarde.restaurant on Instagram",
+     "credit_url": "https://www.instagram.com/deaarde.restaurant/",
+     "ig": "https://www.instagram.com/p/De8s0HdDVsI/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/de-aarde/p1-1400.webp"
+    "src": "img/places/antwerpen/de-aarde/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1707,18 +1820,19 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/decan/p1-1400.webp",
-     "thumb": "img/places/antwerpen/decan/p1-700.webp",
-     "srcset": "img/places/antwerpen/decan/p1-700.webp 700w, img/places/antwerpen/decan/p1-1400.webp 1400w",
+     "src": "img/places/antwerpen/decan/p5-1400.webp",
+     "thumb": "img/places/antwerpen/decan/p5-700.webp",
+     "srcset": "img/places/antwerpen/decan/p5-700.webp 700w, img/places/antwerpen/decan/p5-1400.webp 1400w",
      "w": 1400,
-     "h": 933,
-     "category": "interior",
-     "alt": "Decan: the interior",
+     "h": 2100,
+     "category": "exterior",
+     "alt": "Decan: the outside",
      "credit": "restaurantdecan.be",
-     "credit_url": "https://www.restaurantdecan.be/",
+     "credit_url": "https://www.restaurantdecan.be/about-us/",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
      "src": "img/places/antwerpen/decan/p2-800.webp",
@@ -1749,23 +1863,38 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/decan/p4-800.webp",
-     "thumb": "img/places/antwerpen/decan/p4-400.webp",
-     "srcset": "img/places/antwerpen/decan/p4-400.webp 400w, img/places/antwerpen/decan/p4-800.webp 800w",
-     "w": 800,
-     "h": 533,
+     "src": "img/places/antwerpen/decan/p6-1400.webp",
+     "thumb": "img/places/antwerpen/decan/p6-700.webp",
+     "srcset": "img/places/antwerpen/decan/p6-700.webp 700w, img/places/antwerpen/decan/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
      "category": "food",
      "alt": "Decan: food",
-     "credit": "@restaurantdecan on Instagram",
-     "credit_url": "https://www.instagram.com/restaurantdecan/",
+     "credit": "restaurantdecan.be",
+     "credit_url": "https://www.restaurantdecan.be/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/decan/p1-1400.webp",
+     "thumb": "img/places/antwerpen/decan/p1-700.webp",
+     "srcset": "img/places/antwerpen/decan/p1-700.webp 700w, img/places/antwerpen/decan/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Decan: the interior",
+     "credit": "restaurantdecan.be",
+     "credit_url": "https://www.restaurantdecan.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/decan/p1-1400.webp"
+    "src": "img/places/antwerpen/decan/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -1891,6 +2020,26 @@
   "dome-sur-mer": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DceWODMlNb7/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dc_3d1eiphR/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DcrUfWACU5A/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DceWODMlNb7/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DcWTH1MgtqY/",
      "category": "food",
      "origin": "research"
@@ -1898,18 +2047,20 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/dome-sur-mer/p1-1400.webp",
-     "thumb": "img/places/antwerpen/dome-sur-mer/p1-700.webp",
-     "srcset": "img/places/antwerpen/dome-sur-mer/p1-700.webp 700w, img/places/antwerpen/dome-sur-mer/p1-1400.webp 1400w",
-     "w": 1000,
-     "h": 1500,
-     "category": "interior",
-     "alt": "Dôme Sur Mer: the interior",
-     "credit": "domesurmer.be",
-     "credit_url": "https://www.domesurmer.be/",
+     "src": "img/places/antwerpen/dome-sur-mer/p6-1400.webp",
+     "thumb": "img/places/antwerpen/dome-sur-mer/p6-700.webp",
+     "srcset": "img/places/antwerpen/dome-sur-mer/p6-700.webp 700w, img/places/antwerpen/dome-sur-mer/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "exterior",
+     "alt": "Dôme Sur Mer: the outside",
+     "credit": "@dome_sur_mer on Instagram",
+     "credit_url": "https://www.instagram.com/dome_sur_mer/",
+     "ig": "https://www.instagram.com/p/DceWODMlNb7/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
      "src": "img/places/antwerpen/dome-sur-mer/p2-800.webp",
@@ -1926,51 +2077,57 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/dome-sur-mer/p3-800.webp",
-     "thumb": "img/places/antwerpen/dome-sur-mer/p3-400.webp",
-     "srcset": "img/places/antwerpen/dome-sur-mer/p3-400.webp 400w, img/places/antwerpen/dome-sur-mer/p3-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "food",
-     "alt": "Dôme Sur Mer: food",
-     "credit": "domesurmer.be",
-     "credit_url": "https://www.domesurmer.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/dome-sur-mer/p4-800.webp",
-     "thumb": "img/places/antwerpen/dome-sur-mer/p4-400.webp",
-     "srcset": "img/places/antwerpen/dome-sur-mer/p4-400.webp 400w, img/places/antwerpen/dome-sur-mer/p4-800.webp 800w",
-     "w": 800,
-     "h": 1000,
+     "src": "img/places/antwerpen/dome-sur-mer/p7-1400.webp",
+     "thumb": "img/places/antwerpen/dome-sur-mer/p7-700.webp",
+     "srcset": "img/places/antwerpen/dome-sur-mer/p7-700.webp 700w, img/places/antwerpen/dome-sur-mer/p7-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
      "category": "food",
      "alt": "Dôme Sur Mer: food",
      "credit": "@dome_sur_mer on Instagram",
      "credit_url": "https://www.instagram.com/dome_sur_mer/",
+     "ig": "https://www.instagram.com/p/Dc_3d1eiphR/",
      "license": "the place's own photo",
      "source": "own_instagram",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/dome-sur-mer/p5-800.webp",
-     "thumb": "img/places/antwerpen/dome-sur-mer/p5-400.webp",
-     "srcset": "img/places/antwerpen/dome-sur-mer/p5-400.webp 400w, img/places/antwerpen/dome-sur-mer/p5-800.webp 800w",
-     "w": 800,
-     "h": 1200,
+     "src": "img/places/antwerpen/dome-sur-mer/p8-1400.webp",
+     "thumb": "img/places/antwerpen/dome-sur-mer/p8-700.webp",
+     "srcset": "img/places/antwerpen/dome-sur-mer/p8-700.webp 700w, img/places/antwerpen/dome-sur-mer/p8-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Dôme Sur Mer: food",
+     "credit": "@dome_sur_mer on Instagram",
+     "credit_url": "https://www.instagram.com/dome_sur_mer/",
+     "ig": "https://www.instagram.com/p/DcrUfWACU5A/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/dome-sur-mer/p9-1400.webp",
+     "thumb": "img/places/antwerpen/dome-sur-mer/p9-700.webp",
+     "srcset": "img/places/antwerpen/dome-sur-mer/p9-700.webp 700w, img/places/antwerpen/dome-sur-mer/p9-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
      "category": "interior",
      "alt": "Dôme Sur Mer: the interior",
-     "credit": "domesurmer.be",
-     "credit_url": "https://www.domesurmer.be/",
+     "credit": "@dome_sur_mer on Instagram",
+     "credit_url": "https://www.instagram.com/dome_sur_mer/",
+     "ig": "https://www.instagram.com/p/DceWODMlNb7/",
      "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/dome-sur-mer/p1-1400.webp"
+    "src": "img/places/antwerpen/dome-sur-mer/p6-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2433,6 +2590,18 @@
    "layout": "mix"
   },
   "glass": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DfPKvF_CLKU/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/De9BxP7CLk9/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/antwerpen/glass/p1-1400.webp",
@@ -2449,39 +2618,43 @@
      "noPeopleChecked": true
     },
     {
+     "src": "img/places/antwerpen/glass/p5-1400.webp",
+     "thumb": "img/places/antwerpen/glass/p5-700.webp",
+     "srcset": "img/places/antwerpen/glass/p5-700.webp 700w, img/places/antwerpen/glass/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Bistro Glass: food",
+     "credit": "@glass_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/glass_antwerp/",
+     "ig": "https://www.instagram.com/p/DfPKvF_CLKU/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
+    },
+    {
+     "src": "img/places/antwerpen/glass/p6-1400.webp",
+     "thumb": "img/places/antwerpen/glass/p6-700.webp",
+     "srcset": "img/places/antwerpen/glass/p6-700.webp 700w, img/places/antwerpen/glass/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Bistro Glass: food",
+     "credit": "@glass_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/glass_antwerp/",
+     "ig": "https://www.instagram.com/p/De9BxP7CLk9/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
+    },
+    {
      "src": "img/places/antwerpen/glass/p2-800.webp",
      "thumb": "img/places/antwerpen/glass/p2-400.webp",
      "srcset": "img/places/antwerpen/glass/p2-400.webp 400w, img/places/antwerpen/glass/p2-800.webp 800w",
      "w": 800,
      "h": 1133,
-     "category": "food",
-     "alt": "Bistro Glass: food",
-     "credit": "wijnbistro-glass.be",
-     "credit_url": "https://wijnbistro-glass.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/glass/p3-800.webp",
-     "thumb": "img/places/antwerpen/glass/p3-400.webp",
-     "srcset": "img/places/antwerpen/glass/p3-400.webp 400w, img/places/antwerpen/glass/p3-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "food",
-     "alt": "Bistro Glass: food",
-     "credit": "wijnbistro-glass.be",
-     "credit_url": "https://wijnbistro-glass.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/glass/p4-800.webp",
-     "thumb": "img/places/antwerpen/glass/p4-400.webp",
-     "srcset": "img/places/antwerpen/glass/p4-400.webp 400w, img/places/antwerpen/glass/p4-800.webp 800w",
-     "w": 800,
-     "h": 1201,
      "category": "food",
      "alt": "Bistro Glass: food",
      "credit": "wijnbistro-glass.be",
@@ -18943,51 +19116,54 @@
   "bar-bulot-at-botanic": {
    "photos": [
     {
-     "src": "img/places/antwerpen/bar-bulot-at-botanic/p1-1400.webp",
-     "thumb": "img/places/antwerpen/bar-bulot-at-botanic/p1-700.webp",
-     "srcset": "img/places/antwerpen/bar-bulot-at-botanic/p1-700.webp 700w, img/places/antwerpen/bar-bulot-at-botanic/p1-1400.webp 1400w",
-     "w": 720,
-     "h": 888,
+     "src": "img/places/antwerpen/bar-bulot-at-botanic/p4-1400.webp",
+     "thumb": "img/places/antwerpen/bar-bulot-at-botanic/p4-700.webp",
+     "srcset": "img/places/antwerpen/bar-bulot-at-botanic/p4-700.webp 700w, img/places/antwerpen/bar-bulot-at-botanic/p4-1400.webp 1400w",
+     "w": 900,
+     "h": 1200,
      "category": "exterior",
      "alt": "Bar Bulot Antwerpen: the outside",
-     "credit": "@bar_bulot_restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/bar_bulot_restaurant/",
+     "credit": "barbulot.be",
+     "credit_url": "https://barbulot.be/bar-bulot-antwerpen/",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/bar-bulot-at-botanic/p2-800.webp",
-     "thumb": "img/places/antwerpen/bar-bulot-at-botanic/p2-400.webp",
-     "srcset": "img/places/antwerpen/bar-bulot-at-botanic/p2-400.webp 400w, img/places/antwerpen/bar-bulot-at-botanic/p2-800.webp 800w",
-     "w": 800,
-     "h": 988,
+     "src": "img/places/antwerpen/bar-bulot-at-botanic/p5-1400.webp",
+     "thumb": "img/places/antwerpen/bar-bulot-at-botanic/p5-700.webp",
+     "srcset": "img/places/antwerpen/bar-bulot-at-botanic/p5-700.webp 700w, img/places/antwerpen/bar-bulot-at-botanic/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
      "category": "food",
      "alt": "Bar Bulot Antwerpen: food",
-     "credit": "@bar_bulot_restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/bar_bulot_restaurant/",
+     "credit": "barbulot.be",
+     "credit_url": "https://barbulot.be/bar-bulot-antwerpen/",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     },
     {
-     "src": "img/places/antwerpen/bar-bulot-at-botanic/p3-800.webp",
-     "thumb": "img/places/antwerpen/bar-bulot-at-botanic/p3-400.webp",
-     "srcset": "img/places/antwerpen/bar-bulot-at-botanic/p3-400.webp 400w, img/places/antwerpen/bar-bulot-at-botanic/p3-800.webp 800w",
-     "w": 800,
-     "h": 1068,
-     "category": "drink",
-     "alt": "Bar Bulot Antwerpen: drinks",
-     "credit": "@bar_bulot_restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/bar_bulot_restaurant/",
+     "src": "img/places/antwerpen/bar-bulot-at-botanic/p6-1400.webp",
+     "thumb": "img/places/antwerpen/bar-bulot-at-botanic/p6-700.webp",
+     "srcset": "img/places/antwerpen/bar-bulot-at-botanic/p6-700.webp 700w, img/places/antwerpen/bar-bulot-at-botanic/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 1050,
+     "category": "food",
+     "alt": "Bar Bulot Antwerpen: food",
+     "credit": "barbulot.be",
+     "credit_url": "https://barbulot.be/bar-bulot-antwerpen/",
      "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b01 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/bar-bulot-at-botanic/p1-1400.webp"
+    "src": "img/places/antwerpen/bar-bulot-at-botanic/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
