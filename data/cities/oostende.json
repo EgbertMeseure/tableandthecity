@@ -1147,9 +1147,11 @@
    "id": "villa-ostinato",
    "name": "Villa Ostinato",
    "type": "restaurant",
-   "cuisine": "Italian",
+   "cuisine": "Belgian-French, seasonal, seafood",
    "cuisineTags": [
-    "Italian"
+    "Belgian",
+    "French",
+    "Seafood"
    ],
    "chef": null,
    "address": "Karel Janssenslaan 10, 8400 Oostende",
@@ -1183,19 +1185,20 @@
    "instagram": "https://www.instagram.com/villaostinato/",
    "instagram_handle": "villaostinato",
    "phone": null,
-   "summary": "A stylish Italian restaurant and hotel in a stately townhouse near the Leopoldpark, new in Gault&Millau 2026.",
+   "summary": "A stylish restaurant and boutique hotel in a stately townhouse near the Leopoldpark, with seasonal Belgian-French cooking and lots of fish; new in Gault&Millau 2026.",
    "summaryLang": "en",
    "events": [],
    "sources": [
     "https://villaostinato.be/",
+    "https://villaostinato.be/menu",
     "https://www.visitoostende.be/nl/villa-ostinato",
     "https://www.visitoostende.be/nl/oostende-scoort-gault-millau",
     "https://www.hln.be/eten-en-drinken-oostende/restotip-villa-ostinato-in-oostende-prachtig-pand-met-een-stijlvolle-italiaanse-keuken~a4515414/",
     "https://culinaireambiance.com/nl/articles/gaultmillau-2026-ontdek-alle-restaurants-met-minstens-1220-in-west-vlaanderen"
    ],
    "dataConflict": null,
-   "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "dateChecked": "2026-11-03",
+   "lastChanged": "2026-11-03",
    "city": "oostende",
    "country": "BE",
    "reservation_url": null,
