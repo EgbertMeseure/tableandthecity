@@ -3679,26 +3679,75 @@
    "layout": "mix"
   },
   "nathan": {
-   "posts": [
-    {
-     "url": "https://www.instagram.com/p/DejoE0KoqzT/",
-     "category": "food",
-     "origin": "research"
-    }
-   ],
    "photos": [
     {
      "src": "img/places/antwerpen/nathan/p1-1400.webp",
      "thumb": "img/places/antwerpen/nathan/p1-700.webp",
      "srcset": "img/places/antwerpen/nathan/p1-700.webp 700w, img/places/antwerpen/nathan/p1-1400.webp 1400w",
-     "w": 1080,
-     "h": 1440,
+     "w": 1000,
+     "h": 450,
+     "category": "interior",
+     "alt": "Nathan: the interior",
+     "credit": "restaurant-nathan.be",
+     "credit_url": "https://www.restaurant-nathan.be/en/atmosphere/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/nathan/p2-800.webp",
+     "thumb": "img/places/antwerpen/nathan/p2-400.webp",
+     "srcset": "img/places/antwerpen/nathan/p2-400.webp 400w, img/places/antwerpen/nathan/p2-800.webp 800w",
+     "w": 800,
+     "h": 1067,
      "category": "food",
      "alt": "Nathan: food",
-     "credit": "@restaurantnathan on Instagram",
-     "credit_url": "https://www.instagram.com/restaurantnathan/",
+     "credit": "restaurant-nathan.be",
+     "credit_url": "https://www.restaurant-nathan.be/en/atmosphere/",
      "license": "the place's own photo",
-     "source": "own_instagram",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/nathan/p3-800.webp",
+     "thumb": "img/places/antwerpen/nathan/p3-400.webp",
+     "srcset": "img/places/antwerpen/nathan/p3-400.webp 400w, img/places/antwerpen/nathan/p3-800.webp 800w",
+     "w": 710,
+     "h": 1140,
+     "category": "interior",
+     "alt": "Nathan: the interior",
+     "credit": "restaurant-nathan.be",
+     "credit_url": "https://www.restaurant-nathan.be/en/atmosphere/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/nathan/p4-800.webp",
+     "thumb": "img/places/antwerpen/nathan/p4-400.webp",
+     "srcset": "img/places/antwerpen/nathan/p4-400.webp 400w, img/places/antwerpen/nathan/p4-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Nathan: food",
+     "credit": "restaurant-nathan.be",
+     "credit_url": "https://www.restaurant-nathan.be/en/atmosphere/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/nathan/p5-800.webp",
+     "thumb": "img/places/antwerpen/nathan/p5-400.webp",
+     "srcset": "img/places/antwerpen/nathan/p5-400.webp 400w, img/places/antwerpen/nathan/p5-800.webp 800w",
+     "w": 800,
+     "h": 1067,
+     "category": "food",
+     "alt": "Nathan: food",
+     "credit": "restaurant-nathan.be",
+     "credit_url": "https://www.restaurant-nathan.be/en/atmosphere/",
+     "license": "the place's own photo",
+     "source": "own_website",
      "noPeopleChecked": true
     }
    ],
