@@ -2312,6 +2312,21 @@
   "fine-fleur": {
    "photos": [
     {
+     "src": "img/places/antwerpen/fine-fleur/p5-1400.webp",
+     "thumb": "img/places/antwerpen/fine-fleur/p5-700.webp",
+     "srcset": "img/places/antwerpen/fine-fleur/p5-700.webp 700w, img/places/antwerpen/fine-fleur/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "exterior",
+     "alt": "Fine Fleur: the outside",
+     "credit": "restaurantfinefleur.be",
+     "credit_url": "https://www.restaurantfinefleur.be/nl/galerij",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
+    },
+    {
      "src": "img/places/antwerpen/fine-fleur/p1-1400.webp",
      "thumb": "img/places/antwerpen/fine-fleur/p1-700.webp",
      "srcset": "img/places/antwerpen/fine-fleur/p1-700.webp 700w, img/places/antwerpen/fine-fleur/p1-1400.webp 1400w",
@@ -2354,23 +2369,24 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/fine-fleur/p4-800.webp",
-     "thumb": "img/places/antwerpen/fine-fleur/p4-400.webp",
-     "srcset": "img/places/antwerpen/fine-fleur/p4-400.webp 400w, img/places/antwerpen/fine-fleur/p4-800.webp 800w",
-     "w": 800,
-     "h": 800,
+     "src": "img/places/antwerpen/fine-fleur/p6-1400.webp",
+     "thumb": "img/places/antwerpen/fine-fleur/p6-700.webp",
+     "srcset": "img/places/antwerpen/fine-fleur/p6-700.webp 700w, img/places/antwerpen/fine-fleur/p6-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
      "category": "interior",
      "alt": "Fine Fleur: the interior",
      "credit": "restaurantfinefleur.be",
-     "credit_url": "https://www.restaurantfinefleur.be/en",
+     "credit_url": "https://www.restaurantfinefleur.be/nl/galerij",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/fine-fleur/p1-1400.webp"
+    "src": "img/places/antwerpen/fine-fleur/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2701,6 +2717,11 @@
   "hertog-jan-at-botanic": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/Degi69iF0N-/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/Dd82_hxl7Ww/",
      "category": "food",
      "origin": "research"
@@ -2717,6 +2738,22 @@
     }
    ],
    "photos": [
+    {
+     "src": "img/places/antwerpen/hertog-jan-at-botanic/p5-1400.webp",
+     "thumb": "img/places/antwerpen/hertog-jan-at-botanic/p5-700.webp",
+     "srcset": "img/places/antwerpen/hertog-jan-at-botanic/p5-700.webp 700w, img/places/antwerpen/hertog-jan-at-botanic/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1729,
+     "category": "exterior",
+     "alt": "Hertog Jan at Botanic: the outside",
+     "credit": "@hertog_jan_at_botanic on Instagram",
+     "credit_url": "https://www.instagram.com/hertog_jan_at_botanic/",
+     "ig": "https://www.instagram.com/p/Degi69iF0N-/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
+    },
     {
      "src": "img/places/antwerpen/hertog-jan-at-botanic/p1-1400.webp",
      "thumb": "img/places/antwerpen/hertog-jan-at-botanic/p1-700.webp",
@@ -2776,7 +2813,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/hertog-jan-at-botanic/p1-1400.webp"
+    "src": "img/places/antwerpen/hertog-jan-at-botanic/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -2910,6 +2947,13 @@
    "layout": "mix"
   },
   "invincible": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeFVfiojL-h/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
    "photos": [
     {
      "src": "img/places/antwerpen/invincible/p1-1400.webp",
@@ -2924,6 +2968,22 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/invincible/p2-1400.webp",
+     "thumb": "img/places/antwerpen/invincible/p2-700.webp",
+     "srcset": "img/places/antwerpen/invincible/p2-700.webp 700w, img/places/antwerpen/invincible/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "InVINcible: food",
+     "credit": "@restaurantinvincible on Instagram",
+     "credit_url": "https://www.instagram.com/restaurantinvincible/",
+     "ig": "https://www.instagram.com/p/DeFVfiojL-h/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
     }
    ],
    "pick": {
@@ -3361,12 +3421,32 @@
   "le-pristine": {
    "posts": [
     {
+     "url": "https://www.instagram.com/p/DfC-QwRkXKJ/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
      "url": "https://www.instagram.com/p/DeHQvmKjtQp/",
      "category": "food",
      "origin": "research"
     }
    ],
    "photos": [
+    {
+     "src": "img/places/antwerpen/le-pristine/p4-1400.webp",
+     "thumb": "img/places/antwerpen/le-pristine/p4-700.webp",
+     "srcset": "img/places/antwerpen/le-pristine/p4-700.webp 700w, img/places/antwerpen/le-pristine/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "exterior",
+     "alt": "Le Pristine: the outside",
+     "credit": "lepristine.com",
+     "credit_url": "https://www.lepristine.com/cafe",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
+    },
     {
      "src": "img/places/antwerpen/le-pristine/p1-1400.webp",
      "thumb": "img/places/antwerpen/le-pristine/p1-700.webp",
@@ -3408,17 +3488,47 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/le-pristine/p5-1400.webp",
+     "thumb": "img/places/antwerpen/le-pristine/p5-700.webp",
+     "srcset": "img/places/antwerpen/le-pristine/p5-700.webp 700w, img/places/antwerpen/le-pristine/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "interior",
+     "alt": "Le Pristine: the interior",
+     "credit": "@le_pristine_antwerp on Instagram",
+     "credit_url": "https://www.instagram.com/le_pristine_antwerp/",
+     "ig": "https://www.instagram.com/p/DfC-QwRkXKJ/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/le-pristine/p1-1400.webp"
+    "src": "img/places/antwerpen/le-pristine/p4-1400.webp"
    },
    "only": true,
    "layout": "mix"
   },
   "les-annees-folles": {
    "photos": [
+    {
+     "src": "img/places/antwerpen/les-annees-folles/p4-800.webp",
+     "thumb": "img/places/antwerpen/les-annees-folles/p4-400.webp",
+     "srcset": "img/places/antwerpen/les-annees-folles/p4-400.webp 400w, img/places/antwerpen/les-annees-folles/p4-800.webp 800w",
+     "w": 800,
+     "h": 1200,
+     "category": "interior",
+     "alt": "Les Années Folles: the interior",
+     "credit": "lesanneesfolles.be",
+     "credit_url": "https://www.lesanneesfolles.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true
+    },
     {
      "src": "img/places/antwerpen/les-annees-folles/p1-1400.webp",
      "thumb": "img/places/antwerpen/les-annees-folles/p1-700.webp",
@@ -3448,37 +3558,24 @@
      "noPeopleChecked": true
     },
     {
-     "src": "img/places/antwerpen/les-annees-folles/p3-800.webp",
-     "thumb": "img/places/antwerpen/les-annees-folles/p3-400.webp",
-     "srcset": "img/places/antwerpen/les-annees-folles/p3-400.webp 400w, img/places/antwerpen/les-annees-folles/p3-800.webp 800w",
-     "w": 800,
-     "h": 250,
+     "src": "img/places/antwerpen/les-annees-folles/p5-1400.webp",
+     "thumb": "img/places/antwerpen/les-annees-folles/p5-700.webp",
+     "srcset": "img/places/antwerpen/les-annees-folles/p5-700.webp 700w, img/places/antwerpen/les-annees-folles/p5-1400.webp 1400w",
+     "w": 960,
+     "h": 1440,
      "category": "food",
      "alt": "Les Années Folles: food",
      "credit": "lesanneesfolles.be",
-     "credit_url": "https://www.lesanneesfolles.be/",
+     "credit_url": "https://www.lesanneesfolles.be/menu.html",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/les-annees-folles/p4-800.webp",
-     "thumb": "img/places/antwerpen/les-annees-folles/p4-400.webp",
-     "srcset": "img/places/antwerpen/les-annees-folles/p4-400.webp 400w, img/places/antwerpen/les-annees-folles/p4-800.webp 800w",
-     "w": 800,
-     "h": 1200,
-     "category": "interior",
-     "alt": "Les Années Folles: the interior",
-     "credit": "lesanneesfolles.be",
-     "credit_url": "https://www.lesanneesfolles.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/les-annees-folles/p1-1400.webp"
+    "src": "img/places/antwerpen/les-annees-folles/p4-800.webp"
    },
    "only": true,
    "layout": "mix"
@@ -3575,18 +3672,19 @@
    ],
    "photos": [
     {
-     "src": "img/places/antwerpen/mero/p1-1400.webp",
-     "thumb": "img/places/antwerpen/mero/p1-700.webp",
-     "srcset": "img/places/antwerpen/mero/p1-700.webp 700w, img/places/antwerpen/mero/p1-1400.webp 1400w",
+     "src": "img/places/antwerpen/mero/p5-1400.webp",
+     "thumb": "img/places/antwerpen/mero/p5-700.webp",
+     "srcset": "img/places/antwerpen/mero/p5-700.webp 700w, img/places/antwerpen/mero/p5-1400.webp 1400w",
      "w": 1400,
-     "h": 934,
+     "h": 933,
      "category": "interior",
      "alt": "Mero: the interior",
      "credit": "mero-restaurant.com",
-     "credit_url": "https://www.mero-restaurant.com/",
+     "credit_url": "https://www.mero-restaurant.com/restaurant-antwerp-south",
      "license": "the place's own photo",
      "source": "own_website",
-     "noPeopleChecked": true
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
     },
     {
      "src": "img/places/antwerpen/mero/p2-800.webp",
@@ -3615,25 +3713,11 @@
      "license": "the place's own photo",
      "source": "own_instagram",
      "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/mero/p4-800.webp",
-     "thumb": "img/places/antwerpen/mero/p4-400.webp",
-     "srcset": "img/places/antwerpen/mero/p4-400.webp 400w, img/places/antwerpen/mero/p4-800.webp 800w",
-     "w": 800,
-     "h": 533,
-     "category": "interior",
-     "alt": "Mero: the interior",
-     "credit": "@mero.restaurant on Instagram",
-     "credit_url": "https://www.instagram.com/mero.restaurant/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/mero/p1-1400.webp"
+    "src": "img/places/antwerpen/mero/p5-1400.webp"
    },
    "only": true,
    "layout": "mix"
@@ -3816,6 +3900,21 @@
   "nage": {
    "photos": [
     {
+     "src": "img/places/antwerpen/nage/p3-1400.webp",
+     "thumb": "img/places/antwerpen/nage/p3-700.webp",
+     "srcset": "img/places/antwerpen/nage/p3-700.webp 700w, img/places/antwerpen/nage/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Nage: the interior",
+     "credit": "restaurantnage.be",
+     "credit_url": "https://www.restaurantnage.be/contact/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
+    },
+    {
      "src": "img/places/antwerpen/nage/p1-1400.webp",
      "thumb": "img/places/antwerpen/nage/p1-700.webp",
      "srcset": "img/places/antwerpen/nage/p1-700.webp 700w, img/places/antwerpen/nage/p1-1400.webp 1400w",
@@ -3842,11 +3941,26 @@
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/antwerpen/nage/p4-1400.webp",
+     "thumb": "img/places/antwerpen/nage/p4-700.webp",
+     "srcset": "img/places/antwerpen/nage/p4-700.webp 700w, img/places/antwerpen/nage/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Nage: food",
+     "credit": "restaurantnage.be",
+     "credit_url": "https://www.restaurantnage.be/menu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "photo-fill antwerpen b02 2026-11-03"
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/nage/p1-1400.webp"
+    "src": "img/places/antwerpen/nage/p3-1400.webp"
    },
    "only": true,
    "layout": "mix"
