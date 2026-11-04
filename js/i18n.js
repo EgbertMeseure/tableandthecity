@@ -94,6 +94,8 @@
     [/^(.+) — coming soon$/, '{x} — coming soon', ['x']],
     [/^Continue to (.+)$/, 'Continue to {city}', ['city']],
     [/^Distance from (.+)$/, 'Distance from {x}', ['x']],
+    [/^Near (.+) ✕$/, 'Near {raw} ✕', ['raw']],                                     // 'Near a place' chip once a place is chosen (js/app.js)
+    [/^([\d.,]+ k?m) from (.+)$/, '{n} from {raw}', ['n', 'raw']],                  // card distance in 'Near a place' mode
     [/^Reserve at (.+) \(opens booking page\)$/, 'Reserve at {raw} (opens booking page)', ['raw']],
     [/^Table and the City — (.+): restaurants, cafés, coffee & bakeries$/, 'Table and the City — {city}: restaurants, cafés, coffee & bakeries', ['city']],
     [/^(.+) — (Ghent|Antwerp|Bruges|Ostend|Brussels) — Table and the City$/, '{raw} — {city} — Table and the City', ['raw', 'city']],

@@ -891,5 +891,17 @@
 "Source: {raw}": "Fuente: {raw}",
 "Hours:": "Horario:",
 "Data © OpenStreetMap contributors (ODbL)": "Datos © colaboradores de OpenStreetMap (ODbL)",
-"Booking link taken from {raw}": "Enlace de reserva tomado de {raw}"
+"Booking link taken from {raw}": "Enlace de reserva tomado de {raw}",
+"Near a place": "Cerca de un sitio",
+"Near {raw} ✕": "Cerca de {raw} ✕",
+"{n} from {raw}": "a {n} de {raw}",
+"Choose a place": "Elige un sitio",
+"Where are you going? Pick a place and the list sorts by distance from there, e.g. a cocktail bar near your restaurant.": "¿Adónde vas? Elige un sitio y la lista se ordena por distancia desde allí, p. ej. una coctelería cerca de tu restaurante.",
+"Place": "Sitio",
+"Type a name": "Escribe un nombre",
+"Keep typing to narrow the list.": "Sigue escribiendo para acotar la lista.",
+"No place with that name in this guide.": "No hay ningún sitio con ese nombre en esta guía.",
+"Sort by distance from a place in this guide": "Ordenar por distancia desde un sitio de esta guía",
+"Tap to clear": "Toca para borrar",
+"Find places nearby": "Buscar sitios cerca"
 };

@@ -221,7 +221,8 @@
       <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions</a></div></div>
     ${r.reservation_url ? `<p class="resv-note">${esc(tIG('Books via {x}, as linked on the restaurant’s own website.').replace('{x}', r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url)))}</p>` : (bookable && r.website ? `<p class="resv-note">${esc(tIG('No online booking link found — see the restaurant’s website.'))}</p>` : '')}
     <div class="dmap" id="dmap"></div>
-    <p class="dmap-cap">${esc(hoodLine)}</p>`;
+    <p class="dmap-cap">${esc(hoodLine)}</p>
+    ${r.lat && !r.upcoming ? `<p class="dnear"><a class="dnear__btn" href="${cityUrl('guide.html', city.id, '&near=' + encodeURIComponent(r.id))}#explore">Find places nearby</a></p>` : ''}`;   // opens the city list sorted by distance from this place ('Near a place', js/app.js)
 
   // ---- photos: only real photos of this restaurant (own website / socials, self-hosted, or freely licensed); no Instagram embeds ----
   const CATL = { food: 'Food', drink: 'Drinks', interior: 'Atmosphere', exterior: 'Exterior', other: 'More' };

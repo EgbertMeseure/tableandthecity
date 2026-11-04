@@ -1235,3 +1235,25 @@ a.card.bw-host{position:relative}
 .ft-more[open] summary::before{content:"–"}
 .ft-more .ftgrid{margin-top:10px}
 .ftgrid--unk .ft{min-height:40px;color:var(--text-3);font-weight:400}
+/* 'Near a place' (js/app.js): the chip next to Near me (petrol once a place is chosen, name cut short on narrow screens), the place picker (shell = .crq sheet),
+   the card distance line, and 'Find places nearby' on a place page (js/detail.js) */
+.finder .chip--near{max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.finder .chip--near .np-l{display:inline}
+@media (max-width:700px){.finder .chips>.chip--near{flex:none;max-width:220px}}
+.nps__sheet{width:min(520px,100%);display:flex;flex-direction:column}
+.nps__f{margin:0 0 12px}
+.nps__list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px;max-height:min(46vh,420px);overflow:auto;overscroll-behavior:contain}
+.nps__p{display:flex;flex-direction:column;align-items:flex-start;gap:3px;width:100%;padding:10px 18px;border:1px solid var(--line-d);border-radius:18px;background:#fff;color:var(--ink);cursor:pointer;text-align:left}
+.nps__n{font-family:var(--serif);font-weight:500;font-size:16px;line-height:1.2}
+.nps__m{font-size:9.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--text-2)}
+.nps__p[aria-current="true"]{border-color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue)}
+@media (hover:hover){.nps__p:hover{border-color:var(--blue);background:var(--blue);color:var(--blue-ink)}.nps__p:hover .nps__m{color:var(--blue-ink)}}
+.nps__p:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.nps__none{padding:14px 4px;font-size:14px;color:var(--text-2)}
+.nps__more{margin:10px 0 0;font-size:12px;color:var(--text-2)}
+.nps__more[hidden]{display:none}
+.card__foot .km-near{text-transform:none;letter-spacing:.02em}
+.dnear{margin:10px 0 0;padding-left:4px}
+.dnear__btn{display:inline-flex;align-items:center;height:34px;padding:0 18px;border:1px solid var(--line-d);border-radius:var(--pill);color:var(--ink);text-decoration:none;font-size:10.5px;font-weight:500;letter-spacing:var(--track-ui);text-transform:uppercase}
+@media (hover:hover){.dnear__btn:hover{background:var(--blue);border-color:var(--blue);color:var(--blue-ink)}}
+.dnear__btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}

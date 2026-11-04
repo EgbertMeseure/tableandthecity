@@ -934,3 +934,17 @@ Source: {raw} | Bron: {raw} | Quelle: {raw} | Source : {raw} | Fuente: {raw}
 Hours: | Uren: | Zeiten: | Horaires : | Horario:
 Data © OpenStreetMap contributors (ODbL) | Data © OpenStreetMap-bijdragers (ODbL) | Daten © OpenStreetMap-Mitwirkende (ODbL) | Données © contributeurs OpenStreetMap (ODbL) | Datos © colaboradores de OpenStreetMap (ODbL)
 Booking link taken from {raw} | Reserveringslink overgenomen van {raw} | Reservierungslink übernommen von {raw} | Lien de réservation repris de {raw} | Enlace de reserva tomado de {raw}
+
+## 'Near a place' (js/app.js: chip next to Near me, place picker, card distance; js/detail.js: Find places nearby)
+Near a place | In de buurt van een zaak | In der Nähe eines Lokals | Près d’une adresse | Cerca de un sitio
+Near {raw} ✕ | Bij {raw} ✕ | Bei {raw} ✕ | Près de {raw} ✕ | Cerca de {raw} ✕
+{n} from {raw} | {n} van {raw} | {n} von {raw} | à {n} de {raw} | a {n} de {raw}
+Choose a place | Kies een zaak | Wähle ein Lokal | Choisissez une adresse | Elige un sitio
+Where are you going? Pick a place and the list sorts by distance from there, e.g. a cocktail bar near your restaurant. | Waar ga je naartoe? Kies een zaak en de lijst sorteert op afstand vanaf daar, bv. een cocktailbar vlak bij je restaurant. | Wohin gehst du? Wähle ein Lokal, und die Liste wird nach Entfernung von dort sortiert, z. B. eine Cocktailbar nahe deinem Restaurant. | Où allez-vous ? Choisissez une adresse et la liste se trie par distance depuis celle-ci, p. ex. un bar à cocktails près de votre restaurant. | ¿Adónde vas? Elige un sitio y la lista se ordena por distancia desde allí, p. ej. una coctelería cerca de tu restaurante.
+Place | Zaak | Lokal | Adresse | Sitio
+Type a name | Typ een naam | Namen eingeben | Tapez un nom | Escribe un nombre
+Keep typing to narrow the list. | Typ verder om de lijst te verfijnen. | Tippe weiter, um die Liste einzugrenzen. | Continuez à taper pour affiner la liste. | Sigue escribiendo para acotar la lista.
+No place with that name in this guide. | Geen zaak met die naam in deze gids. | Kein Lokal mit diesem Namen in diesem Guide. | Aucune adresse de ce nom dans ce guide. | No hay ningún sitio con ese nombre en esta guía.
+Sort by distance from a place in this guide | Sorteer op afstand vanaf een zaak in deze gids | Nach Entfernung von einem Lokal in diesem Guide sortieren | Trier par distance depuis une adresse de ce guide | Ordenar por distancia desde un sitio de esta guía
+Tap to clear | Tik om te wissen | Zum Löschen tippen | Touchez pour effacer | Toca para borrar
+Find places nearby | Zoek zaken in de buurt | Lokale in der Nähe finden | Trouver des adresses à proximité | Buscar sitios cerca

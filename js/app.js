@@ -21,7 +21,7 @@
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // set by the category cards (and shareable URLs); no filter panel
   const QUICK = ['open', 'new', 'veggie', 'vegan', 'events', 'live'];   // live: 'Live music' tile (data/cities/<city>-livemusic.json)                  // on/off filters kept in the URL (chips: open, new, events)
   const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, live: false, open: false, stage: '', vlevel: '', meal: '', style: '', cat: '', sort: 'rec', ev: '' };
-  const state = { ...DEF, origin: null, originLabel: '' };
+  const state = { ...DEF, origin: null, originLabel: '', near: '' };   // near: id of the place chosen under 'Near a place' (this city only; ?near=<id>)
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
   const params = new URLSearchParams(location.search);
@@ -49,7 +49,8 @@
   function syncUrl() {
     const p = new URLSearchParams(); p.set('country', city.countryId); p.set('city', city.id);
     ['q', ...ADV, 'stage', 'vlevel', 'meal', 'style', 'cat', 'ev'].forEach(k => state[k] && p.set(k, state[k]));
-    if (state.sort !== 'rec') p.set('sort', state.sort);
+    if (state.sort !== 'rec' && !state.near) p.set('sort', state.sort);
+    if (state.near) p.set('near', state.near);
     QUICK.forEach(k => state[k] && p.set(k, '1'));
     history.replaceState(null, '', location.pathname + '?' + p + location.hash);
   }
@@ -286,6 +287,7 @@
       if (state.events && !r.events.length) return false;
       if (state.live && !r.liveMusic) return false;
       if (state.cat && MERGED[state.cat] && !MERGED[state.cat].f(r)) return false;
+      if (state.near && r.id === state.near) return false;                // 'Near a place': the chosen place itself is not in its own list
       return true;
     });
     if (state.origin) list.forEach(r => r._km = r.lat ? haversine(state.origin, [r.lat, r.lng]) : null);
@@ -341,13 +343,13 @@
     : L.layerGroup()).addTo(map);
   let originMarker = null;
   map.on('click', e => setOrigin([e.latlng.lat, e.latlng.lng], 'chosen point'));
-  function setOrigin(ll, label) {
-    state.origin = ll; state.originLabel = label; state.sort = 'dist';
+  function setOrigin(ll, label, near = '') {
+    state.origin = ll; state.originLabel = label; state.sort = 'dist'; state.near = near; nearUI();
     if (originMarker) originMarker.remove();
     originMarker = L.circleMarker(ll, { radius: 8, color: '#000', weight: 2, fillColor: '#fff', fillOpacity: 1 }).addTo(map).bindTooltip(label === 'my location' ? 'My location' : 'Starting point');
     $('#maphint').textContent = `Distance from ${label}`; applyUI(); render();
   }
-  function clearOrigin() { state.origin = null; if (originMarker) originMarker.remove(); originMarker = null; $('#maphint').textContent = 'Click the map to sort by distance'; }
+  function clearOrigin() { state.origin = null; state.near = ''; nearUI(); if (originMarker) originMarker.remove(); originMarker = null; $('#maphint').textContent = 'Click the map to sort by distance'; }
   function locate() {
     if (!navigator.geolocation) { $('#maphint').textContent = 'Location unavailable — click the map instead'; return; }
     $('#btn-loc').textContent = 'Locating…';
@@ -372,7 +374,80 @@
       $('#maphint').textContent = m; if (window.TGFeat) TGFeat.toast(window.TG_I18N && TG_I18N.t ? TG_I18N.t(m) : m);
     }
   });
-  $('#btn-loc').addEventListener('click', () => { if (state.origin) { clearOrigin(); if (state.sort === 'dist') state.sort = 'rec'; applyUI(); render(); } else locate(); });
+  $('#btn-loc').addEventListener('click', () => { if (state.origin && !state.near) { clearOrigin(); if (state.sort === 'dist') state.sort = 'rec'; applyUI(); render(); } else locate(); });
+
+  /* "Near a place": pick a place of this city (type-ahead by name) and the list sorts by distance from it, e.g. a cocktail bar near the
+     restaurant where you have dinner. Same distance logic as Near me (state.origin + haversine); the chosen place leaves its own list;
+     the category filters stay as they are. The chip then reads 'Near <name> ✕' (tap to clear). Deep link: ?near=<id> (restaurant.html) */
+  const NP = $('#btn-nearplace');
+  const nearName = () => { const r = state.near && BYID.get(state.near); return r ? r.name : ''; };
+  function nearUI() {
+    if (!NP) return; const n = nearName();
+    NP.setAttribute('aria-pressed', !!n); NP.classList.toggle('chip--near', !!n);
+    NP.innerHTML = n ? `<span class="np-l">Near ${esc(n)} ✕</span>` : 'Near a place';
+    NP.title = n ? 'Tap to clear' : 'Sort by distance from a place in this guide';
+  }
+  function setNear(id) {
+    const r = BYID.get(id); if (!r || !r.lat) return false;
+    if (NEAR) NEAR.setAttribute('aria-pressed', 'false');
+    setOrigin([r.lat, r.lng], r.name, r.id);
+    if (originMarker) originMarker.setTooltipContent(r.name);
+    map.setView([r.lat, r.lng], 15);
+    return true;
+  }
+  // phones: the quick chips are one scrolling row, so bring the 'Near <name>' chip into view once chosen
+  const npShow = () => { const row = NP && NP.parentElement; if (row && row.scrollWidth > row.clientWidth) row.scrollLeft = Math.max(0, NP.offsetLeft - row.offsetLeft - 16); };
+  let npRoot = null, npLast = null;
+  const NP_MAX = 40;
+  function npDraw() {
+    const q = norm(npRoot.querySelector('.nps__q').value).trim(), ws = q.split(/\s+/).filter(Boolean);
+    let hits = R.filter(r => r.lat && !r.upcoming && (!ws.length || ws.every(w => norm(r.name).includes(w))));
+    const nn = r => norm(r.name);
+    hits.sort(ws.length ? (a, b) => (nn(b).startsWith(ws[0]) - nn(a).startsWith(ws[0])) || (!!b.curated - !!a.curated) || a.name.localeCompare(b.name)   // names starting with the typed word first
+      : (a, b) => (b.group === 'restaurants') - (a.group === 'restaurants') || (!!b.curated - !!a.curated) || a.name.localeCompare(b.name));
+    const more = hits.length > NP_MAX; hits = hits.slice(0, NP_MAX);
+    npRoot.querySelector('.nps__list').innerHTML = hits.length ? hits.map(r => `<li><button class="nps__p" type="button" data-np="${esc(r.id)}"${r.id === state.near ? ' aria-current="true"' : ''}>
+        <span class="nps__n" data-i18n-skip>${esc(r.name)}</span><span class="nps__m">${esc([catLabel(r), known(r.neighbourhood) ? r.neighbourhood : ''].filter(Boolean).join(' · '))}</span></button></li>`).join('')
+      : '<li class="nps__none">No place with that name in this guide.</li>';
+    npRoot.querySelector('.nps__more').hidden = !more;
+  }
+  function openNp() {
+    npLast = document.activeElement;
+    if (!npRoot) {
+      npRoot = document.createElement('div'); npRoot.className = 'crq nps'; npRoot.hidden = true;
+      npRoot.innerHTML = `<div class="crq__scrim" data-nps-close></div>
+        <div class="crq__sheet nps__sheet" role="dialog" aria-modal="true" aria-labelledby="nps-title">
+          <button class="crq__x" type="button" data-nps-close aria-label="Close">Close</button>
+          <p class="crq__eyebrow">Near a place</p><h2 class="crq__t" id="nps-title">Choose a place</h2>
+          <p class="crq__lead">Where are you going? Pick a place and the list sorts by distance from there, e.g. a cocktail bar near your restaurant.</p>
+          <label class="crq__f nps__f"><span>Place</span><input class="nps__q" type="text" enterkeyhint="search" placeholder="Type a name" autocomplete="off" aria-controls="nps-list"></label>
+          <ul class="nps__list" id="nps-list"></ul>
+          <p class="nps__more" hidden>Keep typing to narrow the list.</p>
+        </div>`;
+      document.body.appendChild(npRoot);
+      npRoot.querySelector('.nps__q').addEventListener('input', npDraw);
+      npRoot.addEventListener('click', e => {
+        if (e.target.closest('[data-nps-close]')) return closeNp();
+        const b = e.target.closest('[data-np]'); if (!b) return;
+        closeNp(false); if (setNear(b.dataset.np)) { applyUI(); render(); document.getElementById('explore').scrollIntoView(); npShow(); }
+      });
+      npRoot.addEventListener('keydown', e => { if (e.key === 'Escape') { e.preventDefault(); closeNp(); } });
+    }
+    npRoot.querySelector('.nps__q').value = ''; npDraw();
+    npRoot.hidden = false; document.documentElement.classList.add('crq-lock');
+    requestAnimationFrame(() => npRoot.classList.add('is-open'));
+    setTimeout(() => npRoot.querySelector('.nps__q').focus({ preventScroll: true }), 30);
+  }
+  function closeNp(refocus = true) {
+    if (!npRoot || npRoot.hidden) return;
+    npRoot.classList.remove('is-open'); document.documentElement.classList.remove('crq-lock');
+    setTimeout(() => { npRoot.hidden = true; }, 200);
+    if (refocus && npLast && npLast.focus) npLast.focus({ preventScroll: true });
+  }
+  if (NP) NP.addEventListener('click', () => {
+    if (state.near) { clearOrigin(); if (state.sort === 'dist') state.sort = 'rec'; applyUI(); render(); return; }
+    openNp();
+  });
 
   // ---- render list + markers ----
   const detailUrl = id => cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id));
@@ -394,7 +469,7 @@
     const price = known(r.priceLevel) ? r.priceLevel : (r.priceFrom ? `from ${eur(r.priceFrom)}` : '');
     const isR = r.group === 'restaurants', cu = (r.cuisine || '').split(/[,–(]/)[0].trim();
     const meta = [catLabel(r), isR && cu !== catLabel(r) ? cu : '', known(r.neighbourhood) ? r.neighbourhood : '', price, TG.inSeason(r) ? TG.seasonLabel(r) : ''].filter(Boolean).map(esc).join(' · ');
-    const km = state.origin && r._km != null ? `<span>${r._km.toFixed(1)} km</span>` : '';
+    const km = state.origin && r._km != null ? (state.near ? `<span class="km-near">${r._km < 1 ? Math.max(10, Math.round(r._km * 100) * 10) + ' m' : r._km.toFixed(1) + ' km'} from ${esc(nearName())}</span>` : `<span>${r._km.toFixed(1)} km</span>`) : '';
     // "At a glance" chips: only sourced-true features (same group-specific set as the detail grid); New/Event already are badges
     const ft = TG.featureTiles(r), MAXF = 4;
     const on = ft.TILES.filter(([k]) => ft.F[k] === true && k !== 'new' && k !== 'events' && !(r.veggieLevel && (k === 'veggie' || k === 'vegan')));   // level is the badge
@@ -523,7 +598,7 @@
     $('#q').value = state.q; $('#q-hero').value = state.q;
     document.querySelectorAll('[data-toggle]').forEach(b => b.setAttribute('aria-pressed', state[b.dataset.toggle]));
     document.querySelectorAll('[data-vl]').forEach(b => b.setAttribute('aria-pressed', state.vlevel === b.dataset.vl));
-    $('#btn-loc').setAttribute('aria-pressed', !!state.origin);
+    $('#btn-loc').setAttribute('aria-pressed', !!state.origin && !state.near);
   }
   function resetFilters(rerender = true) {
     Object.assign(state, { ...DEF, ev: state.ev }); clearOrigin();
@@ -551,6 +626,7 @@
       originMarker = L.circleMarker(back.o, { radius: 8, color: '#000', weight: 2, fillColor: '#fff', fillOpacity: 1 }).addTo(map).bindTooltip(state.originLabel === 'my location' ? 'My location' : 'Starting point');
       $('#maphint').textContent = `Distance from ${state.originLabel}`; }
   }
+  { const n = params.get('near'); if (n && !setNear(n)) state.near = ''; else if (n) requestAnimationFrame(npShow); }   // ?near=<id>: 'Find places nearby' on a place page (ids of this city only; unknown ids are ignored)
   applyUI(); render(back ? Math.min(+back.n || 0, 500) : 0);
   /* scroll: the page and the list column (its own scroller on desktop), then line up the card that was opened (or the first one in view)
      at the same height on screen, since the page above the list can be laid out a little differently after a fresh load */

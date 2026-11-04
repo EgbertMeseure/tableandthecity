@@ -891,5 +891,17 @@
 "Source: {raw}": "Bron: {raw}",
 "Hours:": "Uren:",
 "Data © OpenStreetMap contributors (ODbL)": "Data © OpenStreetMap-bijdragers (ODbL)",
-"Booking link taken from {raw}": "Reserveringslink overgenomen van {raw}"
+"Booking link taken from {raw}": "Reserveringslink overgenomen van {raw}",
+"Near a place": "In de buurt van een zaak",
+"Near {raw} ✕": "Bij {raw} ✕",
+"{n} from {raw}": "{n} van {raw}",
+"Choose a place": "Kies een zaak",
+"Where are you going? Pick a place and the list sorts by distance from there, e.g. a cocktail bar near your restaurant.": "Waar ga je naartoe? Kies een zaak en de lijst sorteert op afstand vanaf daar, bv. een cocktailbar vlak bij je restaurant.",
+"Place": "Zaak",
+"Type a name": "Typ een naam",
+"Keep typing to narrow the list.": "Typ verder om de lijst te verfijnen.",
+"No place with that name in this guide.": "Geen zaak met die naam in deze gids.",
+"Sort by distance from a place in this guide": "Sorteer op afstand vanaf een zaak in deze gids",
+"Tap to clear": "Tik om te wissen",
+"Find places nearby": "Zoek zaken in de buurt"
 };
