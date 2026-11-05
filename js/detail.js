@@ -1,6 +1,6 @@
 /* Table and the City – restaurant detail page (full colour) */
 (async function () {
-  const { esc, fmtDate, eur, known, badges, TYPE_LABEL, catLabel, cityUrl } = TG;
+  const { esc, fmtDate, eur, known, badges, TYPE_LABEL, catLabel, cityUrl, M } = TG;
   const isR = r => r.group === 'restaurants';
   TG.bindNav();
   const { cfg, city } = await TG.currentCity();
@@ -26,49 +26,51 @@
   // ---- hero: a real, freely licensed photo of the restaurant if we have one; otherwise a neutral typographic hero ----
   const own = TG.realPhotos(r);
   const pk = r.photoHold ? {} : TG.pickOf(r);   // the photo research's pick (own website photo or own Instagram post) leads
-  const heroP = r.photoHold || pk.post ? null : (pk.photo || TG.bestPhoto(own));
+  const heroP = r.photoHold ? null : (pk.photo || TG.bestPhoto(own));   // never an Instagram post / embed as the hero (they show up empty or as text graphics)
   const igPosts = TG.igPostsOf(r);
   const igHandle = r.igHandle || '';
   const HI = r.heroImage, heroHost = HI ? HI.source.replace(/^https?:\/\/(www\.)?/, '').split('/')[0] : '';
+  // optional per-photo "ig": the photo's own Instagram post (data/cities/<city>-photos.json) — a small link to that post, opening in a new tab
+  const igOf = p => p && typeof p.ig === 'string' && /^https:\/\/(www\.)?instagram\.com\/(p|reel)\/[\w-]+\/?$/.test(p.ig) ? p.ig : '';
+  const IGPOST = 'View this photo on Instagram';
+  const tIG = k => (window.TG_I18N && TG_I18N.t ? TG_I18N.t(k) : k);   // credits / captions are skipped by the page translator, so these two words are translated here
+  const igLink = p => igOf(p) ? ` · <a class="ig-post" href="${esc(igOf(p))}" target="_blank" rel="noopener" aria-label="${esc(tIG(IGPOST))}">${esc(tIG('Instagram post'))}</a>` : '';
+  // a credit "@handle on Instagram" (data) → "Photos from Instagram @handle" (translated label + linked handle); other credits unchanged
+  const IGFROM = 'Photos from Instagram';
+  const igCred = p => { const m = p && /^@([A-Za-z0-9_.]+) on Instagram$/.exec(p.credit || ''); return m ? m[1] : ''; };
+  const igCredHtml = (p, h) => `${esc(tIG(IGFROM))} <a href="${esc(p.credit_url || `https://www.instagram.com/${h}/`)}" target="_blank" rel="noopener">@${esc(h)}</a>`;
+  const LIC = p => p.license ? esc(tIG(p.license)) : '';   // e.g. "the place's own photo" (data) → translated label
+  const PHOTO = () => esc(tIG('Photo:'));
   const plainHero = () => {
     const top = document.querySelector('.dhero'); top.classList.add('dhero--plain'); top.classList.remove('dhero--ig');
     top.querySelectorAll('.dhero__ig').forEach(x => x.remove());
     if (!top.querySelector('.dhero__mono')) top.insertAdjacentHTML('afterbegin', `<span class="dhero__mono" aria-hidden="true">${esc((r.name.match(/[A-Za-zÀ-ž]/) || ['T'])[0].toUpperCase())}</span>`);
   };
-  // Instagram as the hero: the first photo post (official embed), else — when the profile embed renders without a login — the first tile of
-  // the place's own profile grid; scaled to cover and clipped to the hero (not clickable here; the credit links to Instagram)
-  const igHero = () => {
-    const prof = !igPosts.length && r.igEmbed;
-    if (!igPosts.length && !prof) { $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); return; }
-    const top = document.querySelector('.dhero'); top.classList.add('dhero--ig');
-    const hp = pk.post || TG.bestPost(igPosts);   // a photo post rather than a reel (no play button): food / drinks / interior first
-    const src = prof ? `https://www.instagram.com/${igHandle}/embed/` : hp.url.replace(/\/$/, '') + '/embed/';
-    top.insertAdjacentHTML('afterbegin', `<div class="dhero__ig" aria-hidden="true"><iframe src="${esc(src)}" title="" tabindex="-1" loading="eager" scrolling="no"></iframe></div>`);
-    const box = top.querySelector('.dhero__ig'), fr = box.querySelector('iframe');
-    const fit = () => TG.fitIg(box, fr, prof ? 'igprofile' : 'ighero');
-    fit(); addEventListener('resize', fit);
-    const cr = $('.dhero .credit'); if (cr) cr.innerHTML = `Photo: <a href="${esc(prof ? `https://www.instagram.com/${igHandle}/` : hp.url)}" target="_blank" rel="noopener">${igHandle ? '@' + esc(igHandle) : 'Instagram'}</a> on Instagram`;
-  };
+  // no real photo of the place: the neutral typographic hero (an Instagram embed is never the hero; the posts stay in the gallery below)
+  const igHero = () => { $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); };
   if (r.photoHold) { $('#himg').remove(); $('.dhero .credit') && $('.dhero .credit').remove(); plainHero(); }   // only photos with people exist: neutral
-  else if (pk.post) { $('#himg').remove(); igHero(); }
   else if (!heroP && HI) {
     $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(HI.url)}" alt="${esc(r.name)}" referrerpolicy="no-referrer" fetchpriority="high" loading="eager" decoding="async">`;
-    $('.dhero .credit').innerHTML = `Photo: <a href="${esc(HI.source)}" target="_blank" rel="noopener">${esc(heroHost)}</a>`;
-    $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → Instagram → monogram
+    $('.dhero .credit').innerHTML = `${PHOTO()} <a href="${esc(HI.source)}" target="_blank" rel="noopener">${esc(heroHost)}</a>`;
+    $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
   } else if (!heroP && (igPosts.length || r.igEmbed)) { $('#himg').remove(); igHero(); }
   else if (heroP) {
-    $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(heroP.src)}" ${heroP.srcset ? `srcset="${esc(heroP.srcset)}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
-    if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → Instagram → monogram
-    $('.dhero .credit').innerHTML = `Photo: ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + esc(heroP.license) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}`;
+    $('#himg').outerHTML = `<img class="dhero__img" id="himg" src="${esc(M.url(heroP.src))}" ${heroP.srcset ? `srcset="${esc(M.srcset(heroP.srcset))}" sizes="100vw"` : ''} alt="${esc(heroP.alt || r.name)}" ${heroP.hotlink ? ' referrerpolicy="no-referrer"' : ''} fetchpriority="high">`;
+    if (heroP.hotlink) $('#himg').addEventListener('error', () => { $('#himg').remove(); igHero(); }, { once: true });   // broken hotlink → the neutral hero
+    $('.dhero .credit').innerHTML = igCred(heroP) ? `${igCredHtml(heroP, igCred(heroP))}${igLink(heroP)}` : `${PHOTO()} ${heroP.credit_url ? `<a href="${esc(heroP.credit_url)}" target="_blank" rel="noopener">${esc(heroP.credit)}</a>` : esc(heroP.credit)}${heroP.license ? ' · ' + LIC(heroP) : ''}${heroP.source_url ? ` · <a href="${esc(heroP.source_url)}" target="_blank" rel="noopener">Wikimedia Commons</a>` : ''}${igLink(heroP)}`;
   } else { $('#himg').remove(); $('.dhero .credit').remove(); plainHero(); }
   $('#hbadges').innerHTML = badges(r);
   $('#hname').textContent = r.name;
   if (r.gscore) $('#hname').insertAdjacentHTML('beforeend', TG.scoreBadge(r));
+  // the place's own Instagram handle, small under the name — only a confirmed handle (research / OSM tag / a profile link), never a post link
+  const igH = !r.igUnconfirmed && /^[A-Za-z0-9_.]{1,30}$/.test(igHandle) && !/^(p|reel|reels|explore|stories)$/i.test(igHandle) && (r.instagram_handle || /^https?:\/\/(www\.)?instagram\.com\/[A-Za-z0-9_.]+\/?$/.test(r.instagram || '')) ? igHandle : '';
+  if (igH) $('#hname').insertAdjacentHTML('afterend', `<a class="dh-ig" data-i18n-skip href="https://www.instagram.com/${esc(igH)}/" target="_blank" rel="noopener">@${esc(igH)}</a>`);
   // "Open now" / "Closed · opens Tue 08:00" (Europe/Brussels, js/hours.js); nothing when the hours are unknown; refreshed every minute
+  const cuisineTxt = c => { const m = /^(.+?)( [–-] .+)$/.exec(c || ''); return window.TG_I18N && TG_I18N.tr ? (m ? TG_I18N.tr(m[1]) + m[2] : TG_I18N.tr(c)) : c; };
   const paintOpen = () => { const h = TG.openLabel(TG.openState(r), true), el = $('#hopen'); if (el && el.innerHTML !== h) el.innerHTML = h; };
   paintOpen(); setInterval(paintOpen, 60000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) paintOpen(); });
-  $('#hmeta').textContent = [catLabel(r), isR(r) && r.cuisine !== catLabel(r) ? r.cuisine : '', known(r.neighbourhood) ? r.neighbourhood : ''].filter(Boolean).join(' · ');
+  $('#hmeta').textContent = [catLabel(r), isR(r) && r.cuisine !== catLabel(r) ? cuisineTxt(r.cuisine) : '', known(r.neighbourhood) ? r.neighbourhood : '', TG.seasonLabel(r)].filter(Boolean).join(' · ');
   const d = r.distinctions || {};
   const priceTxt = [known(r.priceLevel) ? esc(r.priceLevel) : '', r.priceFrom ? `from ${eur(r.priceFrom)}` : ''].filter(Boolean).join(' · ') || '<span class="unk">unknown</span>';
   const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
@@ -91,11 +93,18 @@
   const MEALF = TG.mealOf(r);
   const live = r.events || [];
   const CHECK = '<svg class="ft__ic" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5 6.5 12 13 4.5"/></svg>';
-  const tiles = TILES.map(([k, l]) => {
+  const URL_RE = /https?:\/\/[^\s"“”]+/g;
+  const evUrl = k => ((EV[k] || '').match(URL_RE) || [])[0] || '';
+  const evTxt = k => (EV[k] || '').replace(URL_RE, '').replace(/^[\s—–-]+|[\s—–-]+$/g, '').replace(/\s+—\s+—\s+/g, ' — ');   // the evidence without raw URLs
+  const tileOf = ([k, l]) => {
     const v = F[k], note = (r.features_note || {})[k];             // e.g. reservations: 'Groups of 6+ only'
-    const tip = note ? note : v === true ? (EV[k] ? `Confirmed — ${EV[k]}` : 'Confirmed') : v === false ? 'No' : 'Not confirmed';
-    return `<li class="ft${v === true ? ' on' : ''}${note ? ' ft--note' : ''}" title="${esc(tip)}" data-state="${v === true ? 'yes' : v === false ? 'no' : 'unknown'}">${v === true ? CHECK : ''}<span>${l}${note ? `<small class="ft__note">${esc(note)}</small>` : ''}</span><span class="sr">: ${esc(tip)}</span></li>`;
-  }).join('');
+    const tip = note ? note : v === true ? (evTxt(k) ? `Confirmed — ${evTxt(k)}` : 'Confirmed') : v === false ? 'No' : 'Not confirmed';
+    const src = v != null && evUrl(k) ? `<a class="ft__src" href="${esc(evUrl(k))}" target="_blank" rel="noopener" aria-label="${esc(`Source: ${host(evUrl(k))}`)}">source</a>` : '';
+    return `<li class="ft${v === true ? ' on' : ''}${v === false ? ' ft--no' : ''}${note ? ' ft--note' : ''}" title="${esc(tip)}" data-state="${v === true ? 'yes' : v === false ? 'no' : 'unknown'}">${v === true ? CHECK : ''}<span>${l}${note ? `<small class="ft__note">${esc(note)}</small>` : ''}${v === false && !note ? '<small class="ft__note ft__no">No</small>' : ''}</span>${src}${v === false && !note ? '' : `<span class="sr">: ${esc(tip)}</span>`}</li>`;
+  };
+  const tilesKnown = TILES.filter(([k]) => F[k] === true || F[k] === false || (r.features_note || {})[k]);
+  const tilesUnk = TILES.filter(t => !tilesKnown.includes(t));
+  const tiles = tilesKnown.map(tileOf).join('');
   const nYes = TILES.filter(([k]) => F[k] === true).length;
   // ---- "Know this place?" visitor feedback: tap pills (has it / doesn't / neutral), optional note, one Send. Never changes data. ----
   const FB_SKIP = new Set(['events', 'chefCollabs', 'michelin', 'gaultMillau', 'new']);   // computed or editorial, not for visitors
@@ -113,8 +122,10 @@
   const rptLine = formsOn ? `<p class="rpt-line">Spotted something off? Help us keep this accurate. <button class="pill-btn sm rpt-btn" type="button" data-report data-place="${esc(r.name)}" data-city="${esc(city.name)}">Let us know</button></p>` : '';
   const suggBlock = formsOn ? `<details class="sugg" id="sugg"><summary><span class="sugg__t"><span>Know this place?</span> <span>Suggest a change</span></span><span class="sugg__sub">Help us keep it right</span><svg class="sugg__chev" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 6l5 5 5-5"/></svg></summary>
       <div class="sugg__body">${feedbackBlock}${rptLine}</div></details>` : '';
-  // ---- reserve: own booking URL (verified) > website > phone ----
-  const resv = !isR(r) || r.fromUpcoming ? null : r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : r.website ? { href: r.website, label: 'Reserve' } : r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
+  // ---- reserve: a Reserve button only for a real (verified) booking link; no link but a phone and no website → "Call to reserve";
+  //      otherwise no button, just the note pointing to the Website button (never a Reserve button next to "No online booking link found") ----
+  const bookable = isR(r) && !r.fromUpcoming;
+  const resv = !bookable ? null : r.reservation_url ? { href: r.reservation_url, label: 'Reserve' } : !r.website && r.phone ? { href: 'tel:' + r.phone.replace(/[^\d+]/g, ''), label: 'Call to reserve' } : null;
   // ---- announced openings (data/cities/<city>-upcoming.json): expected date + the announcement itself ----
   const expTxt = r.fromUpcoming ? (TG.expectedText(r, true) || 'Soon — date not announced yet') : '';
   const src0 = (r.sources || [])[0];
@@ -127,12 +138,23 @@
       ${V && V.note ? `<span>${esc(V.note)}</span>` : (!V && r.dietNote ? `<span>${esc(r.dietNote)}</span>` : (V ? `<span>Source: ${esc(V.basis)}.</span>` : ''))}
       ${V && V.dishes && V.dishes.length ? `<ul>${V.dishes.map(d => `<li>${esc(d.dish)}</li>`).join('')}</ul>` : ''}
       ${V && V.sources ? `<span class="vegsrc">${V.sources.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(' · ')}</span>` : ''}</div>`;
+  // ---- the description: data has one language per place (summaryLang); no translation → the original, labelled as such.
+  //      A text cut off in the data ('…') gets a "Read more" link to the page it was taken from (Michelin / Gault&Millau) ----
+  const UI = (window.TG_I18N && TG_I18N.lang) || 'en', sLang = r.summaryLang || 'nl';
+  const LANG_NAME = { nl: 'Dutch', en: 'English', fr: 'French', de: 'German', es: 'Spanish' };
+  const cut = /…$/.test(r.summary || '');
+  const fullSrc = cut ? (r.sources || []).find(u => /guide\.michelin\.com|gaultmillau\.be/.test(u)) || '' : '';
+  const sumTxt = cut ? r.summary.replace(/\s*…$/, '') + '…' : r.summary;
+  const summaryHtml = !r.summary ? '' : `<div class="summary-wrap"><p class="summary" lang="${esc(sLang)}">${esc(sumTxt)}</p>
+      ${sLang !== UI || fullSrc ? `<p class="summary-lang">${sLang !== UI && LANG_NAME[sLang] ? `<span>${esc(`Original description in ${LANG_NAME[sLang]}`)}</span>` : ''}${fullSrc ? `<a class="summary-more" href="${esc(fullSrc)}" target="_blank" rel="noopener">${esc(`Read more on ${/michelin/.test(fullSrc) ? 'the Michelin Guide' : 'Gault&Millau'}`)}</a>` : ''}</p>` : ''}</div>`;
   const hoodLine = [known(r.neighbourhood) ? r.neighbourhood : '', known(r.district) && r.district !== r.neighbourhood ? r.district : ''].filter(Boolean).join(' · ');
   const sourcesLine = `<details class="srcline"><summary>Sources</summary>
       <ol class="sources">${r.sources.map(s => s.startsWith('http') ? `<li><a href="${esc(s.split(' ')[0])}" target="_blank" rel="noopener">${esc(s)}</a></li>` : `<li>${esc(s)}</li>`).join('')}</ol>
-      <p>${r.fromUpcoming ? '' : `Last changed ${esc(fmtDate(r.lastChanged))} · `}Coordinates: ${esc(r.geoSource)}${r.fromOsm ? ' · Data © OpenStreetMap contributors (ODbL)' : ''}${r.openingHoursSource && hours ? ` · Hours: ${esc(r.openingHoursSource)}` : ''}${r.reservation_url ? ` · Booking link taken from ${esc(host(r.website))}` : ''}</p></details>`;
+      <p>${[r.fromUpcoming ? '' : `<span>Last changed ${esc(fmtDate(r.lastChanged))}</span>`, `<span>Coordinates: ${esc(r.geoSource)}</span>`, r.fromOsm ? '<span>Data © OpenStreetMap contributors (ODbL)</span>' : '',
+        r.openingHoursSource && hours ? (/^https?:/.test(r.openingHoursSource) ? `<span>Hours:</span> <a href="${esc(r.openingHoursSource.split(' ')[0])}" target="_blank" rel="noopener">${esc(host(r.openingHoursSource.split(' ')[0]))}</a>` : `<span>Hours: ${esc(r.openingHoursSource)}</span>`) : '',
+        r.reservation_url && r.website ? `<span>Booking link taken from ${esc(host(r.website))}</span>` : ''].filter(Boolean).join(' · ')}</p></details>`;
   $('#left').innerHTML = `
-    ${r.summary ? `<p class="summary" lang="${esc(r.summaryLang || 'nl')}">${esc(r.summary)}</p>` : ''}
+    ${summaryHtml}
     ${r.fromUpcoming ? openingBox : ''}
     ${r.fromOsm ? `<p class="osmnote">From the <a href="https://www.openstreetmap.org/${esc(r.osm)}" target="_blank" rel="noopener">OpenStreetMap</a> base list — not yet reviewed by us. Know it? Tell us below.</p>` : ''}
     ${r.status !== 'open' ? `<div class="conflict"><strong>Status: ${esc(r.status)}.</strong> ${esc(r.statusNote)}</div>` : ''}
@@ -148,10 +170,11 @@
       ${MEALF.any ? `<div><dt>${MEALF.bf && MEALF.br ? 'Breakfast &amp; brunch' : MEALF.bf ? 'Breakfast' : 'Brunch'}</dt><dd>Yes${r.breakfastHours ? ` · breakfast ${esc(r.breakfastHours)}` : ''}${r.brunchDays ? ` · brunch ${esc(r.brunchDays)}` : ''}${(r.mealSources || []).length ? ` <span class="unk">(${[...new Map(r.mealSources.map(u => [host(u), u])).entries()].map(([h, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(h)}</a>`).join(' · ')})</span>` : ''}</dd></div>` : ''}
       ${r.liveMusic ? `<div class="ess-live"><dt>Live music</dt><dd>${r.liveMusic.note ? esc(r.liveMusic.note) : 'Yes'}${r.liveMusic.source ? ` <span class="unk">(<a href="${esc(r.liveMusic.source)}" target="_blank" rel="noopener">${esc(host(r.liveMusic.source))}</a>)</span>` : ''}</dd></div>` : ''}
       ${known(r.menuType) ? `<div><dt>Menu</dt><dd>${esc(r.menuType)}</dd></div>` : ''}
-      ${hours ? `<div class="ess-hours"><dt>Hours</dt><dd>${hoursHtml}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
+      ${hours ? `<div class="ess-hours"><dt>Hours</dt><dd>${TG.seasonLabel(r) ? `<span class="opens season">${esc(TG.seasonLabel(r))}</span>` : ''}${hoursHtml}${MEALF.open && MEALF.open.mins <= 600 ? `<span class="opens">Opens at ${esc(MEALF.open.time)}${MEALF.open.days ? ` (${esc(MEALF.open.days)})` : ''}${MEALF.any ? '' : ' — by the opening hours; breakfast not confirmed'}</span>` : ''}</dd></div>` : ''}
     </dl>
-    <h2 class="ft-head">At a glance <span class="ft-legend"><i class="sw on"></i>confirmed <i class="sw"></i>no / not confirmed</span></h2>
-    <ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>
+    <h2 class="ft-head">At a glance</h2>
+    ${tiles ? `<ul class="ftgrid" aria-label="Features (${nYes} confirmed)">${tiles}</ul>` : ''}
+    ${tilesUnk.length ? `<details class="ft-more"><summary><span>Not confirmed</span> <span class="ft-more__n">(${tilesUnk.length})</span></summary><ul class="ftgrid ftgrid--unk">${tilesUnk.map(tileOf).join('')}</ul></details>` : ''}
     ${vegBox}
     ${suggBlock}
     ${live.length ? `<h2>${isR(r) ? 'Events &amp; collaborations' : 'Events'}</h2>` + live.slice().sort((a, b) => a.dateStart.localeCompare(b.dateStart)).map(e => `<div class="dev${TG.evHref(e) ? ' ev--link' : ''}"${TG.evHref(e) ? ` data-ev-href="${esc(TG.evHref(e))}"` : ''}><div class="ev__when"><span class="ev__date">${e.dateStart ? esc(fmtDate(e.dateStart, long)) + (e.dateEnd ? ' <span class="dash">–</span> ' + esc(fmtDate(e.dateEnd, { day: 'numeric', month: 'long' })) : '') : esc(e.dateText || 'date unknown')}</span><span class="ev__type">${esc(e.type)}${e.recurrence ? ' · recurring' : ' · upcoming'}</span></div>
@@ -196,88 +219,95 @@
       ${r.website ? `<a class="pill-btn dark" data-cta="website" href="${esc(r.website)}" target="_blank" rel="noopener">Website</a>` : ''}</div><div class="dcta__row">
       ${r.instagram ? `<a class="pill-btn dark" data-cta="instagram" href="${esc(r.instagram)}" target="_blank" rel="noopener">Instagram</a>` : ''}
       <a class="pill-btn dark" id="directions" href="${esc(TG.directionsUrl(r))}" target="_blank" rel="noopener" aria-label="Directions to ${esc(r.name)} in Google Maps (new tab)">Directions</a></div></div>
-    ${r.reservation_url ? `<p class="resv-note">Books via ${esc(r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url))}, as linked on the restaurant's own website.</p>` : (resv ? `<p class="resv-note">No online booking link found — ${resv.href.startsWith('tel:') ? 'book by phone' : 'see the restaurant’s website'}.</p>` : '')}
+    ${r.reservation_url ? `<p class="resv-note">${esc(tIG('Books via {x}, as linked on the restaurant’s own website.').replace('{x}', r.reservation_provider && r.reservation_provider !== 'own page' ? r.reservation_provider : host(r.reservation_url)))}</p>` : (bookable && r.website ? `<p class="resv-note">${esc(tIG('No online booking link found — see the restaurant’s website.'))}</p>` : '')}
     <div class="dmap" id="dmap"></div>
     <p class="dmap-cap">${esc(hoodLine)}</p>`;
 
-  // ---- gallery: only real photos of this restaurant (freely licensed, e.g. Wikimedia Commons) + official Instagram embeds ----
-  // no 'chef' / people category: TG.igPostsOf already leaves photos of people out
-  const CATL = { food: 'Food', drink: 'Drinks', interior: 'Atmosphere', exterior: 'Exterior', other: 'More', profile: 'Instagram' };
+  // ---- photos: only real photos of this restaurant (own website / socials, self-hosted, or freely licensed); no Instagram embeds ----
+  const CATL = { food: 'Food', drink: 'Drinks', interior: 'Atmosphere', exterior: 'Exterior', other: 'More' };
   // the website og:image (hotlinked from the place's own site, credited) is a photo tile too
   const webPhoto = HI && HI.url ? [{ src: HI.url, thumb: HI.url, w: HI.w, h: HI.h, category: 'other', hotlink: true, alt: `${r.name} — photo from ${heroHost}`, credit: heroHost, credit_url: HI.source }] : [];
   const photos = [...own.filter(p => CATL[p.category]), ...webPhoto];
   // ---- photos under the facts: the hero is the best photo; up to 3 more as thumbnails + the count; all of them open in the light box ----
-  const heroSrc = r.photoHold || pk.post ? '' : heroP ? heroP.src : HI ? HI.url : '';
+  const heroSrc = r.photoHold ? '' : heroP ? heroP.src : HI ? HI.url : '';
   const heroPh = photos.find(p => p.src === heroSrc);
   const lbList = heroPh ? [heroPh, ...photos.filter(p => p !== heroPh)] : photos.slice();
   const nPh = lbList.length, t0 = heroPh ? 1 : 0, thumbs = lbList.slice(t0, t0 + 3);
   const nTxt = n => n === 1 ? '1 photo' : `${n} photos`;
-  if (thumbs.length) {
-    const creds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()].map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
+  const tile = (p, k, lab) => `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(M.url(p.thumb || p.src))}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${lab ? `<span class="dphotos__lab">${lab}</span>` : ''}</button>`;
+  // one layout for every place, the Fou d'O set: up to 4 slots — Food, Food, Inside, Outside (2 × 2). Fewer photos: 1 → one tile at the
+  // standard size, 2 → side by side, 3 → a row of three. A section with more photos than slots becomes a swipeable slot (touch swipe,
+  // small prev / next on desktop, a gold 1/3 counter), so every photo in the data is reachable here; extra slides load lazily
+  if (nPh) {
+    const ix = lbList.map((p, k) => [p, k]);
+    const kindOf = ([p]) => p.category === 'food' || p.category === 'drink' ? 'food' : p.category === 'interior' ? 'inside' : p.category === 'exterior' ? 'outside' : 'other';
+    const BK = { food: [], inside: [], outside: [], other: [] };
+    ix.forEach(e => BK[kindOf(e)].push(e));
+    BK.inside.sort((a, b) => (a[0].staff ? 1 : 0) - (b[0].staff ? 1 : 0));   // the room before staff at work
+    const nSlots = Math.min(4, nPh), slots = [], take = k => { const e = BK[k].shift(); slots.push({ k, ph: [e] }); };
+    if (BK.food.length) take('food');
+    if (BK.inside.length) take('inside');
+    if (BK.outside.length) take('outside');
+    if (BK.food.length && slots.length < nSlots) take('food');   // the second food slot
+    while (slots.length < nSlots) {   // a section is missing: the next photos open a slot of their own (other, a second room photo, outside, food)
+      const k = ['other', 'inside', 'outside', 'food'].find(x => BK[x].length);   // no outside photo → a second room photo, as on Fou d'O's 2 × 2
+      take(k);
+    }
+    for (const k of ['food', 'inside', 'outside', 'other']) {   // the rest joins its own section's slot(s), round robin; 'other' joins the shortest slot
+      for (const e of BK[k]) { const own = slots.filter(s => s.k === k), pool = own.length && k !== 'other' ? own : slots;
+        pool.reduce((a, b) => b.ph.length < a.ph.length ? b : a).ph.push(e); }
+    }
+    const RANK = { food: 0, inside: 1, other: 2, outside: 3 };
+    slots.sort((a, b) => RANK[a.k] - RANK[b.k]);
+    const rows = slots.length === 4 ? [slots.slice(0, 2), slots.slice(2)] : [slots];
+    let firstFood = true;
+    const lab = (p, s, labFood) => s.k === 'food' ? (labFood ? (p.category === 'drink' ? 'Drinks' : 'Food') : '') : p.category === 'exterior' ? 'Outside' : p.category === 'interior' ? (p.staff ? 'At work' : 'Inside') : '';
+    const slide = (p, k, l, i) => i ? tile(p, k, l).replace(/<img src="([^"]*)"/, '<img data-src="$1" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="') : tile(p, k, l);
+    const CHEV = d => `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="${d ? 'M6 3l5 5-5 5' : 'M10 3L5 8l5 5'}"/></svg>`;
+    const IGSVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6"/></svg>';
+    const igA = s => { const p0 = s.ph[0][0]; return s.ph.some(([p]) => igOf(p)) ? `<a class="dphotos__ig" href="${esc(igOf(p0) || '#')}" target="_blank" rel="noopener" aria-label="${IGPOST}" title="${IGPOST}"${igOf(p0) ? '' : ' hidden'}>${IGSVG}</a>` : ''; };
+    const slotHtml = s => { const labFood = s.k === 'food' && firstFood; if (s.k === 'food') firstFood = false;
+      const n = s.ph.length, body = s.ph.map(([p, k], i) => slide(p, k, lab(p, s, labFood), i)).join('');
+      return n < 2 ? `<div class="dphotos__slot">${body}${igA(s)}</div>`
+        : `<div class="dphotos__slot dphotos__slot--car" data-count="${n}"><div class="dphotos__track" tabindex="0" role="group" aria-label="${n} photos, swipe for more">${body}</div>
+          <button type="button" class="dphotos__nav dphotos__nav--prev" aria-label="Previous photo" disabled>${CHEV(0)}</button><button type="button" class="dphotos__nav dphotos__nav--next" aria-label="Next photo">${CHEV(1)}</button>
+          <span class="dphotos__cnt" aria-hidden="true"><b>1</b>/${n}</span>${igA(s)}</div>`; };
+    const uCreds = [...new Map(lbList.filter(p => p.credit).map(p => [p.credit, p])).values()];
+    const otherCr = uCreds.filter(p => !igCred(p)).map(p => p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit)).join(' · ');
+    const igCr = uCreds.filter(p => igCred(p)).map(p => igCredHtml(p, igCred(p))).join(' · ');
+    const creds = otherCr || igCr;
     $('#left dl.essentials').insertAdjacentHTML('afterend', `<section class="dphotos" aria-labelledby="dphotos-h"><h2 id="dphotos-h">Photos</h2>
-      <div class="dphotos__row">${thumbs.map((p, i) => { const k = t0 + i, more = i === thumbs.length - 1 && nPh > k + 1;
-        return `<button type="button" class="dphotos__t" data-pi="${k}" aria-label="Open photo"><img src="${esc(p.thumb || p.src)}"${p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'button\').remove()"' : ''} width="${p.w || 800}" height="${p.h || 600}" loading="lazy" decoding="async" alt="${esc(p.alt || '')}">${more ? `<span class="dphotos__more">All ${nPh}</span>` : ''}</button>`; }).join('')}</div>
-      <div class="dphotos__foot">${creds ? `<span class="dphotos__cr"><span>Photos:</span> ${creds}</span>` : '<span></span>'}${nPh > 1 ? `<button type="button" class="dphotos__all" data-pi="0">View all ${nPh}</button>` : ''}</div></section>`);
+      ${rows.map(row => `<div class="dphotos__row" data-n="${row.length}">${row.map(slotHtml).join('')}</div>`).join('')}
+      <div class="dphotos__foot">${creds ? `<span class="dphotos__cr">${otherCr ? `<span>Photos:</span> ${otherCr}` : ''}${otherCr && igCr ? ' · ' : ''}${igCr ? `<span data-i18n-skip>${igCr}</span>` : ''}</span>` : '<span></span>'}${nPh > 1 ? `<button type="button" class="dphotos__all" data-pi="0">View all ${nPh}</button>` : ''}</div></section>`);
+    document.querySelectorAll('.dphotos__slot--car').forEach(slot => {
+      const tr = slot.querySelector('.dphotos__track'), n = +slot.dataset.count, cnt = slot.querySelector('.dphotos__cnt b');
+      const pv = slot.querySelector('.dphotos__nav--prev'), nx = slot.querySelector('.dphotos__nav--next');
+      const load = upto => [...tr.querySelectorAll('img[data-src]')].slice(0, upto).forEach(im => { im.src = im.dataset.src; im.removeAttribute('data-src'); });
+      const cur = () => Math.round(tr.scrollLeft / Math.max(1, tr.clientWidth));
+      const ig = slot.querySelector('.dphotos__ig');
+      const upd = () => { const i = Math.min(n - 1, cur()); cnt.textContent = i + 1; pv.disabled = i <= 0; nx.disabled = i >= n - 1; load(i + 1);
+        if (ig) { const b = tr.children[i], u = b ? igOf(lbList[+b.dataset.pi]) : ''; ig.hidden = !u; if (u && ig.getAttribute('href') !== u) ig.href = u; } };   // the link follows the photo in view
+      tr.addEventListener('scroll', () => { slot._swiped = Date.now(); }, { passive: true });
+      const go = d => { load(cur() + 1 + d); tr.scrollTo({ left: (cur() + d) * tr.clientWidth, behavior: 'smooth' }); };
+      pv.addEventListener('click', () => go(-1)); nx.addEventListener('click', () => go(1));
+      tr.addEventListener('scroll', () => requestAnimationFrame(upd), { passive: true });
+      ['pointerenter', 'touchstart', 'focusin'].forEach(ev => slot.addEventListener(ev, () => load(1), { once: true, passive: true }));   // the next slide is ready before the swipe
+      tr.addEventListener('keydown', e => { if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); e.stopPropagation(); go(e.key === 'ArrowRight' ? 1 : -1); } });
+    });
   }
+  { let p0 = null;   // a swipe (finger / mouse moved, or the slot still gliding) never opens the post; a tap on the Instagram mark never opens the light box
+    document.addEventListener('pointerdown', e => { p0 = e.target.closest && e.target.closest('.dphotos__ig') ? [e.clientX, e.clientY] : null; }, { passive: true });
+    document.addEventListener('click', e => { const a = e.target.closest && e.target.closest('.dphotos__ig'); if (!a) return;
+      const moved = p0 && Math.hypot(e.clientX - p0[0], e.clientY - p0[1]) > 8, slot = a.closest('.dphotos__slot');
+      if (a.hidden || moved || (slot && slot._swiped && Date.now() - slot._swiped < 250)) e.preventDefault(); e.stopPropagation(); }, true); }
   if (nPh > 1 || (nPh && !heroPh)) $('.dhero').insertAdjacentHTML('beforeend', `<button type="button" class="dhero__photos" data-pi="0"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l5-5 4 4 3-3 4 4"/></svg><span>${nTxt(nPh)}</span></button>`);
-  const railPhotos = nPh ? [] : photos;   // the photos live in the row above; the gallery below keeps only Instagram
-  const PR = { food: 0, drink: 0, interior: 0 };
-  const posts = igPosts.map((p, i) => [p, i]).sort((a, b) => (PR[a[0].category] ?? 1) - (PR[b[0].category] ?? 1) || a[1] - b[1]).map(x => x[0]).slice(0, 8);   // food / drinks / interior first; max 8 Instagram tiles
-  const handle = igHandle;
-  let gcat = '', shown = [], idx = 0;
-  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}Photo: ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || 'unknown')}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${esc(p.license)}</a>` : esc(p.license)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">source</a>` : ''}</span>`;
-  // Instagram posts first (the place's own photos, via Instagram's official embed iframe — never downloaded or rehosted), then free-licence photos
-  // no posts collected but the profile embed renders: Instagram's own profile widget (recent photo grid, each tile links to the post)
-  const prof = !posts.length && r.igEmbed ? [{ kind: 'igprofile', cat: 'profile', p: { url: `https://www.instagram.com/${igHandle}/` } }] : [];
-  const all = [...posts.map(p => ({ kind: 'ig', cat: CATL[p.category] ? p.category : '', p })), ...prof, ...railPhotos.map(p => ({ kind: 'photo', cat: p.category, p }))];
-  const cats = Object.keys(CATL).filter(c => all.some(x => x.cat === c));
-  $('#gal-chips').innerHTML = all.length > 1 && cats.length > 1 ? [['', 'All'], ...cats.map(c => [c, CATL[c]])].map(([c, l]) => `<button class="chip" data-gc="${c}" aria-pressed="${c === ''}">${l}<span class="cnt">${c ? all.filter(x => x.cat === c).length : all.length}</span></button>`).join('') : '';
-  $('#gal-note').innerHTML = prof.length ? `Recent photos from the place’s own Instagram <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>, shown with Instagram’s profile embed — tap a photo to open it on Instagram.${railPhotos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : posts.length ? `Photos from the place’s own Instagram${handle ? ` <a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)}</a>` : ''}, shown with Instagram’s embed — tap a photo to open the post.${railPhotos.length ? ' Other photos: from the place’s own website or freely licensed, credited per image.' : ''}` : (railPhotos.length ? (webPhoto.length && railPhotos.length === 1 ? `Photo from the place’s own website (${esc(heroHost)}).` : 'Photos from the place’s own website or under a free licence, credited per image.') : '');
-  const igTile = x => { const u = x.p.url.replace(/\/$/, ''), kind = /\/reel\//.test(u) ? 'Reel' : 'Post';
-    return `<figure class="gtile gtile--ig"><div class="gtile__clip"><iframe data-src="${esc(u)}/embed/" title="${esc(kind)} by ${handle ? '@' + esc(handle) : esc(r.name)} on Instagram" loading="lazy" scrolling="no" allowtransparency="true"></iframe></div>
-      <figcaption><a href="${esc(x.p.url)}" target="_blank" rel="noopener">View on Instagram${handle ? ` @${esc(handle)}` : ''}</a></figcaption></figure>`; };
-  const profTile = () => `<figure class="gtile gtile--igprofile"><div class="gtile__prof"><iframe data-src="https://www.instagram.com/${esc(handle)}/embed/" title="Recent posts by @${esc(handle)} on Instagram" loading="lazy" scrolling="no" allowtransparency="true"></iframe></div>
-      <figcaption><a href="https://www.instagram.com/${esc(handle)}/" target="_blank" rel="noopener">@${esc(handle)} on Instagram</a></figcaption></figure>`;
-  function renderGallery() {
-    const sel = all.filter(x => !gcat || x.cat === gcat);
-    shown = sel.filter(x => x.kind === 'photo').map(x => x.p);
-    let pi = 0;
-    $('#gal-grid').innerHTML = sel.map(x => x.kind === 'photo' ? `<figure class="gtile">
-      <button class="tile__btn" data-i="${pi++}" aria-label="Open photo: ${esc(x.p.alt || CATL[x.p.category])}">
-        <img src="${esc(x.p.thumb || x.p.src)}"${x.p.hotlink ? ' referrerpolicy="no-referrer" onerror="this.closest(\'figure\').remove()"' : ` srcset="${esc(x.p.thumb || x.p.src)} 800w, ${esc(x.p.src)} 1600w"`} sizes="(max-width: 700px) 72vw, 300px" width="${x.p.w || 800}" height="${x.p.h || 600}" loading="lazy" decoding="async" alt="${esc(x.p.alt || '')}">
-        <span class="tile__tag">${x.p.hotlink ? 'Website' : CATL[x.p.category]}</span></button></figure>` : x.kind === 'igprofile' ? profTile() : igTile(x)).join('');
-    lazyIg();
-  }
-  // iframes get their src only when near the viewport (and the rail scrolls them in)
-  let igObs = null;
-  function lazyIg() {
-    const fr = [...document.querySelectorAll('#gal-grid iframe[data-src]')]; if (!fr.length) return;
-    if (!('IntersectionObserver' in window)) { fr.forEach(f => { f.src = f.dataset.src; f.removeAttribute('data-src'); }); return; }
-    if (igObs) igObs.disconnect();
-    igObs = new IntersectionObserver(en => en.forEach(e => { if (!e.isIntersecting) return; const f = e.target; f.src = f.dataset.src; f.removeAttribute('data-src'); igObs.unobserve(f); }), { rootMargin: '300px 600px' });
-    fr.forEach(f => igObs.observe(f));
-  }
-  const igProfile = handle ? `https://www.instagram.com/${esc(handle)}/` : '';
-  if (!all.length && handle) {
-    // no posts collected yet, but a known Instagram account: one tile linking to the profile (no embed, nothing copied)
-    $('#gal-grid').innerHTML = `<figure class="gtile gtile--profile"><a href="${igProfile}" target="_blank" rel="noopener"><span class="gtile__ig" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></span><strong>See photos on Instagram</strong><span>@${esc(handle)}</span></a></figure>`;
-    $('#gal-grid').classList.add('gal-rail--single');
-  } else if (!all.length && nPh) {
-    $('#gallery').style.display = 'none';   // every photo is already in the row under the facts
-  } else if (!all.length) {
-    $('#gal-grid').outerHTML = `<div class="gal-empty"><p class="gal-empty__t">Photos coming soon</p><p>We only show photos from the place itself or under a free licence. Until then, see ${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">their website</a>` : 'their own channels'}.</p></div>`;
-  } else renderGallery();
-  // the profile link stays below the rail only when the rail shows posts (the single profile tile already is that link)
-  $('#ig').innerHTML = handle && all.length ? `<a class="pill-btn dark" href="${igProfile}" target="_blank" rel="noopener">More on Instagram @${esc(handle)}</a>` : '';
-  const rail = $('#gal-grid'); if (rail && all.length > 1) { document.querySelector('.gal-arrows').hidden = false; TG.carousel(rail); }
-  $('#gal-chips').addEventListener('click', e => { const b = e.target.closest('[data-gc]'); if (!b) return; gcat = b.dataset.gc;
-    $('#gal-chips').querySelectorAll('[data-gc]').forEach(x => x.setAttribute('aria-pressed', x === b)); renderGallery(); });
+  let shown = [], idx = 0;
+  const capOf = p => `${esc(p.alt || '')}<span class="lb__credit">${p.source === 'google_places' ? 'Google Maps · ' : ''}${igCred(p) ? `${igCredHtml(p, igCred(p))}${igLink(p)}</span>` : `${PHOTO()} ${p.credit_url ? `<a href="${esc(p.credit_url)}" target="_blank" rel="noopener">${esc(p.credit)}</a>` : esc(p.credit || tIG('unknown'))}${p.license ? ` · ${p.license_url ? `<a href="${esc(p.license_url)}" target="_blank" rel="noopener">${LIC(p)}</a>` : LIC(p)}` : ''}${p.source_url ? ` · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">${esc(tIG('source'))}</a>` : ''}${igLink(p)}</span>`}`;
   const lb = $('#lb'); let lastFocus = null;
   function show(i) { idx = (i + shown.length) % shown.length; const p = shown[idx]; const im = $('#lb-img');
-    im.referrerPolicy = 'no-referrer'; im.src = p.src; im.alt = p.alt || ''; $('#lb-cap').innerHTML = `<span class="lb__count">${idx + 1} / ${shown.length} · ${CATL[p.category]}</span>${capOf(p)}`; }
+    im.referrerPolicy = 'no-referrer'; im.src = M.url(p.src); im.alt = p.alt || ''; $('#lb-cap').innerHTML = `<span class="lb__count">${idx + 1} / ${shown.length} · ${CATL[p.category]}</span>${capOf(p)}`; }
   function openLb(i) { lastFocus = document.activeElement; lb.hidden = false; document.body.classList.add('noscroll'); show(i); $('#lb-close').focus(); }
   function closeLb() { lb.hidden = true; document.body.classList.remove('noscroll'); if (lastFocus) lastFocus.focus(); }
-  document.addEventListener('click', e => { const b = e.target.closest('#gal-grid [data-i]'); if (b) openLb(+b.dataset.i); });
   document.addEventListener('click', e => { const b = e.target.closest('[data-pi]'); if (b && lbList.length) { shown = lbList; openLb(Math.min(+b.dataset.pi, lbList.length - 1)); } });
   $('#lb-prev').addEventListener('click', () => show(idx - 1)); $('#lb-next').addEventListener('click', () => show(idx + 1));
   $('#lb-close').addEventListener('click', closeLb);

@@ -3,6 +3,8 @@
    and window.TGApp (set by js/app.js once the data is loaded: places, events, the list's own filters and booking button).
    Data rules are the site's own: same place list (exclusions unchanged), veggie/vegan = the Veggie & vegan / Vegan options chips,
    opening hours via js/hours.js in Europe/Brussels (known closed on the chosen day → never shown; unknown hours → ranked lower).
+   Question 2 is a timing question per mood (MEAL below: lunch/dinner, aperitif/after dinner, morning/afternoon), checked the same way;
+   question 3 is the day ("When?"), so the timing window is checked on that day.
    Nothing here claims a table is available. */
 (function () {
   'use strict';
@@ -27,6 +29,7 @@
   /* one place on one day: 'open' (opening hours list hours that day [after `from` minutes for today]) | 'closed' (known closed) | 'unknown' */
   function dayState(r, d, from = 0) {
     if (r.status && r.status !== 'open' && !(r.statusUntil && d.iso > r.statusUntil)) return { s: 'closed' };
+    if (!TG.inSeason(r, d.iso)) return { s: 'closed' };   // seasonal place, outside its months
     if (r.openingHoursNote || !TG.known(r.openingHours)) return { s: 'unknown' };
     const P = H.parse(r.openingHours);
     if (!P.ok || (P.ph && H.isHoliday(d.iso))) return { s: 'unknown' };
@@ -45,6 +48,42 @@
     const s = res.some(x => x.s === 'open') ? 'open' : res.every(x => x.s === 'closed') ? 'closed' : 'unknown';
     return { s, now: res.some(x => x.now), days: res.filter(x => x.s === 'open').map(x => ({ dow: x.d.dow, iv: x.iv })) };
   }
+  /* timing (question 2): a time window per answer; a place matches when its hours on the day cover at least `min` minutes of it.
+     Days = those of the "When?" answer, otherwise any day of the coming week. Known hours that never cover it → 'no' (left out);
+     unknown hours → 'unknown' (kept, ranked lower). Today only counts while the window has not passed. */
+  const MEAL = {
+    lunch: { s: 12 * 60, e: 14 * 60 }, dinner: { s: 19 * 60, e: 21 * 60 },                  // restaurants
+    aperitif: { s: 17 * 60, e: 19 * 60 }, late: { s: 22 * 60, e: 26 * 60, late: true },      // bars (late: up to 02:00 the next night)
+    morning: { s: 8 * 60, e: 11 * 60 }, afternoon: { s: 14 * 60, e: 17 * 60 }               // coffee
+  };
+  const MEAL_MIN = 60;
+  function mealDay(P, d, W, C) {
+    if (P.ph && H.isHoliday(d.iso)) return 'unknown';
+    const iv = P.days[d.dow], prev = P.days[(d.dow + 6) % 7];
+    if (iv === null) return 'unknown';
+    const end = d.k === 0 ? Math.max(W.s, C.mins) : W.s;                  // today: what is left of the window
+    if (W.e - end < MEAL_MIN) return 'no';
+    const all = [...(iv || []), ...(prev || []).filter(x => x.e != null && x.e > 1440).map(x => ({ s: 0, e: x.e - 1440 }))];
+    let unk = false;
+    for (const x of all) {
+      if (x.wrap) continue;                                               // open end after an overnight range: next day
+      if (x.e == null) { if (x.s <= end && !W.late) return 'yes'; if (x.s <= W.e - MEAL_MIN) unk = true; continue; }   // open end ("18:00+")
+      if (Math.min(x.e, W.e) - Math.max(x.s, end) >= MEAL_MIN) return 'yes';
+    }
+    return unk ? 'unknown' : 'no';
+  }
+  function mealState(r, meal, when, C) {
+    const W = MEAL[meal]; if (!W) return 'yes';
+    const days = (when ? whenSpec(when, C).days : [0, 1, 2, 3, 4, 5, 6]).map(k => C.day(k))
+      .filter(d => !(r.status && r.status !== 'open' && !(r.statusUntil && d.iso > r.statusUntil)) && TG.inSeason(r, d.iso))
+      .filter(d => d.k !== 0 || W.e - Math.max(W.s, C.mins) >= MEAL_MIN);   // today only while the window is still ahead (any hours)
+    if (!days.length) return 'no';
+    if (r.openingHoursNote || !TG.known(r.openingHours)) return 'unknown';
+    const P = H.parse(r.openingHours); if (!P.ok) return 'unknown';
+    const res = days.map(d => mealDay(P, d, W, C));
+    return res.includes('yes') ? 'yes' : res.length && res.every(x => x === 'no') ? 'no' : 'unknown';
+  }
+  const M_RANK = { yes: 0, unknown: 1, no: 2 };
   const WHEN = {
     now: C => ({ days: [0], from: C.mins, nowOnly: true }),
     today: C => ({ days: [0], from: C.mins }),
@@ -88,6 +127,16 @@
     SUB_Q.opts = [{ v: 'any', l: 'Any of these', chip: 'Any of these', all: true },
       ...TG.CZ_FAMILIES.filter(f => f.members.length > 1).flatMap(f => f.members.map(m => ({ v: m, fam: f.id, l: TG.CZ_BY[m].label, f: r => TG.inCuisine(r, m) })))]; };
   const whenQ = (q, list) => ({ id: 'when', q, hard: true, when: true, opts: list });
+  /* the timing question (question 2 after the mood); `always`: asked whenever an answer is possible, never skipped by the adaptive rule */
+  const mealQ = (q, opts, always = true) => ({ id: 'meal', q, short: 'Timing', hard: true, meal: true, always, opts });
+  const MEAL_OPT = {
+    lunch: { v: 'lunch', l: 'Lunch', s: 'Open around 12:00–14:00' },
+    dinner: { v: 'dinner', l: 'Dinner', s: 'Open around 19:00–21:00' },
+    aperitif: { v: 'aperitif', l: 'Aperitif', s: 'Open around 17:00–19:00' },
+    late: { v: 'late', l: 'After dinner', s: 'Open late, from 22:00' },
+    morning: { v: 'morning', l: 'Morning', s: 'Open around 08:00–11:00' },
+    afternoon: { v: 'afternoon', l: 'Afternoon', s: 'Open around 14:00–17:00' }
+  };
   const W = {
     now: (l = 'Right now') => ({ v: 'now', l, s: C => `Open now · ${DAY_LONG[C.dow]}` }),
     today: (l = 'Today') => ({ v: 'today', l, s: () => 'Open now or later today' }),
@@ -107,13 +156,14 @@
     restaurant: {
       label: 'Restaurant', sub: 'Lunch or dinner', noun: ['table', 'tables'], pool: r => isR(r),
       questions: [
+        mealQ('Lunch or dinner?', [MEAL_OPT.lunch, MEAL_OPT.dinner]),
+        whenQ('When?', [W.today(), W.tomorrow(), W.weekend(), W.pick()]),
         KIND_Q, FAMILY_Q, SUB_Q,
         { id: 'style', q: 'What style?', short: 'Style', hard: true, relax: 'style', opts: [
           { v: 'casual', l: 'Casual', s: 'Easy-going, all kinds of kitchens', f: STYLE.casual },
           { v: 'moderate', l: 'Moderate', s: 'Bistros, brasseries, gastro-bistros', f: STYLE.moderate },
           { v: 'fancy', l: 'Fancy', s: 'Fine dining, gastro-bistros, Michelin stars', f: STYLE.fancy }] },
         DIET_Q,
-        whenQ('When?', [W.today(), W.tomorrow(), W.weekend(), W.pick()]),
       ],
       relaxOrder: ['style', 'sub', 'diet'],
       adaptive: true,
@@ -134,6 +184,9 @@
     bar: {
       label: 'Bar', sub: 'Cocktails, wine, brown cafés, pubs, dancing', noun: ['bar', 'bars'], pool: r => r.group === 'cafes_bars',
       questions: [
+        mealQ('Aperitif or after dinner?', [MEAL_OPT.aperitif, MEAL_OPT.late]),
+        // aperitif: 'Today' instead of 'Now / tonight' (which means after 20:00)
+        whenQ('When?', [{ ...W.tonight(), only: p => p.meal !== 'aperitif' }, { ...W.today(), only: p => p.meal === 'aperitif' }, W.tomorrow(), W.weekend(), W.pick()]),
         /* live music (data/cities/<city>-livemusic.json): asked whenever at least one bar has it (`always`); too few exact matches → results() relaxes it last, live places stay on top */
         { id: 'live', q: 'Do you want live music?', short: 'Live music', hard: true, relax: 'live', noSkip: true, always: true, opts: [
           { v: 'yes', l: 'Yes, live music', s: 'Concerts, jazz nights, jam sessions', f: r => !!r.liveMusic },
@@ -142,22 +195,22 @@
           { v: 'cocktail_bar', l: 'Cocktail bar', s: 'Signature drinks, mocktails' }, { v: 'brown_cafe', l: 'Brown café', s: () => `Classic ${(APP && APP.city && APP.city.name) || 'local'} pub` },
           { v: 'wine_bar', l: 'Wine bar', s: 'Wine by the glass, small plates' },
           { v: 'irish_pub', l: 'Irish pub', s: 'Pints & sport' }, { v: 'dance_cafe', l: 'Dance café', s: 'DJ, late nights' }].map(o => ({ ...o, f: r => r.category === o.v })) },
-        whenQ('When?', [W.tonight(), W.tomorrow(), W.weekend(), W.pick()]),
         { id: 'terrace', q: 'Terrace?', short: 'Terrace', hard: true, relax: 'terrace', minViable: 1, opts: [{ v: 'yes', l: 'Yes, a terrace', s: 'Confirmed terrace', f: r => r.features.terrace === true }] }
       ],
       relaxOrder: ['terrace', 'type', 'live'], adaptive: true,
-      score: (r, a) => base(r) + (a.live === 'yes' && r.liveMusic ? 30 : 0) + (r.features.terrace === true ? 1 : 0) + (r.features.lateNight === true && a.when === 'tonight' ? 2 : 0),
+      score: (r, a) => base(r) + (a.live === 'yes' && r.liveMusic ? 30 : 0) + (r.features.terrace === true ? 1 : 0) + (r.features.lateNight === true && (a.when === 'tonight' || a.meal === 'late') ? 2 : 0),
       list: a => ({ group: 'cafes_bars', ...(a.live === 'yes' ? { live: true } : {}), ...(a.type ? { type: a.type } : {}), ...(a.when === 'now' ? { open: true } : {}) })
     },
     coffee: {
       label: 'Coffee', sub: 'Specialty coffee, brunch, laptop spots', noun: ['coffee spot', 'coffee spots'], pool: r => r.group === 'coffee',
       questions: [
+        mealQ('Morning or afternoon?', [MEAL_OPT.morning, MEAL_OPT.afternoon], false),
+        whenQ('When?', [W.now(), W.today(), W.tomorrow(), W.weekend(), W.pick()]),
         { id: 'purpose', q: 'What for?', short: 'What for', hard: true, relax: 'purpose', opts: [
           { v: 'quick', l: 'A quick specialty coffee', s: 'Specialty coffee bars', f: r => r.category === 'coffee_bar' },
           { v: 'food', l: 'Coffee + something to eat', s: 'Food served, breakfast or brunch', f: r => r.features.foodServed === true || TG.mealOf(r).any },
           { v: 'laptop', l: 'Work with my laptop', s: 'Wifi confirmed', f: r => r.features.wifi === true }] },
-        DIET_Q,
-        whenQ('When?', [W.now(), W.today(), W.tomorrow(), W.weekend(), W.pick()])
+        DIET_Q
       ],
       adaptive: true,
       score: (r, a) => base(r) + (a.purpose === 'food' && TG.mealOf(r).any ? 2 : 0) + (r.features.seating === true && a.purpose === 'laptop' ? 1 : 0) + (DIET_ON(a) ? VR(r) : 0),
@@ -215,6 +268,7 @@
       if (r.upcoming || !sec.pool(r)) return false;                      // announced, not open yet
       for (const [k, v] of Object.entries(a)) {
         if (!v || skip.includes(k)) continue;
+        if (k === 'meal') { if (mealState(r, v, a.when, C) === 'no') return false; continue; }
         if (k === 'when') { r._w = whenState(r, v, C); if (r._w.s === 'closed' || (whenSpec(v, C).nowOnly && r._w.s !== 'open')) return false; continue; }
         const o = qOpt(sec, k, v); if (o && o.f && !o.f(r)) return false;
       }
@@ -239,7 +293,7 @@
       }
     } else if (exact.length < 3) {
       for (const k of order) {
-        if (!a[k] || k === 'when' || k === 'diet') continue;              // "when" is never relaxed: known-closed places stay out; the diet only with a clear message
+        if (!a[k] || k === 'when' || k === 'meal' || k === 'diet') continue;              // "when" is never relaxed: known-closed places stay out; the diet only with a clear message
         const wider = matches(sec, a, C, [k]);
         if (wider.length > exact.length) { list = wider; relaxed = k; break; }
       }
@@ -251,15 +305,16 @@
     if (sec.events) {
       list = list.slice().sort((x, y) => (ok.has(y) - ok.has(x)) || (pickIso ? evDist(x, pickIso) - evDist(y, pickIso) : 0) || x.dateStart.localeCompare(y.dateStart));
     } else {
-      list.forEach(r => { r._w = whenState(r, a.when, C); r._s = sec.score(r, a) + (ok.has(r) ? 50 : 0); });
+      list.forEach(r => { r._w = whenState(r, a.when, C); r._m = a.meal ? mealState(r, a.meal, a.when, C) : 'yes'; r._s = sec.score(r, a) + (ok.has(r) ? 50 : 0); });
       const tier = r => r._w.now ? 0 : RANK[r._w.s] + 1;                  // open now › open that day › unknown hours
-      list = list.slice().sort((x, y) => (relaxed === 'live' ? ok.has(y) - ok.has(x) : 0) || (a.when && a.when !== 'now' && a.when !== 'today' ? RANK[x._w.s] - RANK[y._w.s] : tier(x) - tier(y)) || y._s - x._s || x.name.localeCompare(y.name, 'en'));
+      // timing confirmed by the hours › hours unknown (never above a confirmed place), then the existing order
+      list = list.slice().sort((x, y) => (relaxed === 'live' ? ok.has(y) - ok.has(x) : 0) || M_RANK[x._m] - M_RANK[y._m] || (a.when && a.when !== 'now' && a.when !== 'today' ? RANK[x._w.s] - RANK[y._w.s] : tier(x) - tier(y)) || y._s - x._s || x.name.localeCompare(y.name, 'en'));
     }
     return { list, exactN: exact.length, relaxed, near, dietMsg, dietTo };
   }
 
   /* ---------- UI ---------- */
-  const st = { mood: '', a: {}, step: 0, steps: [], skipped: {}, pick: null };   // pick: { iso, month } while the date picker is open
+  const st = { mood: '', a: {}, step: 0, steps: [], skipped: {}, pick: null, planned: {} };   // pick: { iso, month } while the date picker is open; planned: steps counted in "n of m"
   function mount() {
     root = document.createElement('div');
     root.className = 'qz'; root.hidden = true;
@@ -302,7 +357,7 @@
   }
   const body = () => root.querySelector('.qz__body');
   function restart(mood) {
-    st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; st.pick = null;
+    st.mood = ''; st.a = {}; st.step = 0; st.steps = []; st.skipped = {}; st.pick = null; st.planned = {};
     if (typeof mood === 'string' && SECTIONS[mood] && moodOpts(clock()).some(o => o.v === mood)) { st.mood = mood; st.steps = SECTIONS[mood].questions; }
     draw();
   }
@@ -312,7 +367,7 @@
   function optionsFor(sec, i, C) {
     const q = st.steps[i], prev = {};
     st.steps.slice(0, i).forEach(p => { if (st.a[p.id]) prev[p.id] = st.a[p.id]; });
-    return q.opts.filter(o => !o.fam || o.fam === prev.family).map(o => {
+    return q.opts.filter(o => (!o.fam || o.fam === prev.family) && (!o.only || o.only(prev))).map(o => {
       const n = q.hard && !o.pick ? matches(sec, { ...prev, [q.id]: o.v }, C).length : null;
       return { ...o, n };
     }).filter(o => o.n == null || o.n > 0 || q.id === 'diet');            // diet: always the same three answers (an empty Vegan gets an honest fallback)
@@ -321,7 +376,17 @@
      Hard (filtering) steps: asked only with > 6 places left, enough viable answers (>= 3 places and fewer than all; non-viable answers are
      hidden; `all` answers = keep everything) and not lopsided (top answer > 85% while the rest keep < 8). 'When': unless <= 3 left.
      Soft steps (re-rank only): their own ask(list) test, answers without any matching place (has) hidden. Returns { skip } or { opts }. */
+  /* a step already announced in the "n of m" counter stays in the path while it still offers a real choice, so the total only
+     changes when an answer changes the path (e.g. 'A specific cuisine' adds 'Which kitchen?'), never because of the adaptive rule */
   function stepPlan(sec, i, C) {
+    const p = stepPlan0(sec, i, C);
+    if (p.skip === 'rule' && st.planned[i]) {
+      const opts = optionsFor(sec, i, C);
+      if (opts.length >= 2 && opts.some(o => !o.all && !o.pick)) return { opts };
+    }
+    return p;
+  }
+  function stepPlan0(sec, i, C) {
     const q = st.steps[i], prev = prevA(i);
     if (q.cond && !q.cond(prev)) return { skip: 'cond' };
     const opts = optionsFor(sec, i, C);
@@ -347,10 +412,9 @@
   function draw() {
     const C = clock();
     const dots = root.querySelector('.qz__dots'), back = root.querySelector('[data-qz-back]');
-    const total = st.mood ? st.steps.length + 2 : 5, cur = !st.mood ? 0 : st.step + 1;
-    dots.innerHTML = Array.from({ length: total }, (_, i) => `<i class="${i < cur ? 'done' : i === cur ? 'on' : ''}"></i>`).join('');
     back.style.visibility = st.mood ? 'visible' : 'hidden';
     if (!st.mood) {
+      dots.innerHTML = '';                                                 // the path (and so the number of steps) is only known once a mood is chosen
       const opts = moodOpts(C);
       return paint(`<p class="qz__eyebrow">Find my table</p><h2 class="qz__q" id="qz-title">${esc(MOOD_Q.q)}</h2>
         <div class="qz__opts">${opts.map(o => optBtn(o, 'mood', C)).join('')}</div>`);
@@ -360,9 +424,14 @@
     const q = st.steps[st.step], plan = stepPlan(sec, st.step, C);
     if (plan.skip) { st.a[q.id] = ''; st.skipped[st.step] = plan.skip; st.step++; return draw(); }   // nothing to choose: skip (and on Back)
     const opts = plan.opts;
-    // "n of m": questions asked so far + this one, of that + the later steps that can still come (each may still be skipped)
-    const asked = st.steps.slice(0, st.step).filter((x, j) => !st.skipped[j]).length + 1;
-    const of = asked + st.steps.slice(st.step + 1).filter(x => !x.cond || x.cond(prevA(st.step)) || (q.id === 'kind' && x.id === 'family')).length;
+    // "n of m": questions asked so far + this one, of that + the later steps this path will still ask given the answers so far
+    // (the same adaptive rule as stepPlan, so the counter and the dots agree and only change when an answer changes the path)
+    const asked = st.steps.slice(0, st.step).filter((x, j) => passed(j)).length + 1;
+    st.planned[st.step] = true;
+    const later = st.steps.map((x, j) => j).filter(j => j > st.step && !stepPlan(sec, j, C).skip);
+    later.forEach(j => { st.planned[j] = true; });
+    const of = asked + later.length;
+    dots.innerHTML = Array.from({ length: of }, (_, i) => `<i class="${i < asked - 1 ? 'done' : i === asked - 1 ? 'on' : ''}"></i>`).join('');
     const hasPick = opts.some(o => o.pick);
     if (hasPick && !st.pick && isPick(st.a[q.id])) st.pick = { iso: st.a[q.id].slice(2), month: st.a[q.id].slice(2, 9) };   // back to a picked date
     paint(`<p class="qz__eyebrow">${esc(sec.label)} · ${asked} of ${of}</p><h2 class="qz__q" id="qz-title">${esc(q.q)}</h2>
@@ -403,6 +472,9 @@
     const f = focusSel && cal.querySelector(focusSel); if (f) f.focus({ preventScroll: true });
     if (st.pick.iso) cal.querySelector('.qz-cal__go').scrollIntoView({ block: 'nearest', behavior: 'auto' });
   }
+  /* a step counts in "n of m" when it was asked, or when it was announced and then had nothing left to choose (it shows under
+     "Not asked — wouldn't change these results"), so the counter never jumps back */
+  const passed = j => !st.skipped[j] || (st.skipped[j] === 'rule' && !!st.planned[j]);
   function prevA(i) { const p = {}; st.steps.slice(0, i).forEach(q => { if (st.a[q.id]) p[q.id] = st.a[q.id]; }); return p; }
   function optBtn(o, id, C) {
     const sel = id === 'mood' ? st.mood === o.v : o.pick ? !!st.pick || isPick(st.a[id]) : st.a[id] === o.v && !st.pick, s = val(o.s, C);
@@ -433,7 +505,8 @@
       ${chips ? `<ul class="qz__chips">${chips}</ul>` : ''}${skippedHtml()}${relaxLine}${note ? `<p class="qz__note">${esc(note)}</p>` : ''}
       <div class="qz__res">${list.length ? top.map(x => sec.events ? evCard(x) : placeCard(x, a, C)).join('') : '<p class="qz__empty">Try fewer wishes, or browse everything.</p>'}</div>
       <div class="qz__end">${more}<button class="qz__skip" type="button" data-qz-restart>Start over</button></div>`);
-    root.querySelector('.qz__dots').innerHTML = Array.from({ length: st.steps.length + 2 }, () => '<i class="done"></i>').join('');
+    const askedN = st.steps.filter((q, i) => passed(i)).length;
+    root.querySelector('.qz__dots').innerHTML = Array.from({ length: askedN }, () => '<i class="done"></i>').join('');
   }
   /* the steps left out by the adaptive rule (stepPlan), so it is clear why the quiz was short */
   function skippedHtml() {
@@ -444,15 +517,21 @@
     const price = TG.known(r.priceLevel) ? r.priceLevel : '';
     const meta = [TG.catLabel(r), TG.known(r.neighbourhood) ? r.neighbourhood : '', price].filter(Boolean).map(esc).join(' · ');
     const w = r._w || {}, o = TG.openState(r), nowish = !a.when || a.when === 'now' || a.when === 'today' || a.when === 'tonight' || a.when === 'd:' + C.iso;
+    const MW = a.meal && MEAL[a.meal];
+    const inW = x => !MW || (x.e == null ? x.s < MW.e : Math.min(x.e, MW.e) - Math.max(x.s, MW.s) > 0);   // an opening interval that touches the timing window
     let when = '';
-    if (a.when && a.when !== 'now' && w.days && w.days.length) when = w.days.map(d => `${DAY[d.dow]} ${ivText(d.iv)}`).join(' · ');
-    else if (a.when && w.s === 'unknown') when = 'Hours not confirmed';
+    if (a.when && a.when !== 'now' && w.days && w.days.length) {
+      const ds = w.days.map(d => ({ ...d, iv: d.iv.filter(inW) })).filter(d => d.iv.length);
+      when = ds.map(d => `${DAY[d.dow]} ${ivText(d.iv)}`).join(' · ');
+      if (MW && when) when = `${MEAL_OPT[a.meal].l} · ${when}`;
+    }
+    else if ((a.when && w.s === 'unknown') || (a.meal && r._m === 'unknown')) when = 'Hours not confirmed';
     const isRest = r.group === 'restaurants';
     const dl = dietLabel(r), diet = DIET_ON(a) || FULLY(r) ? (dl ? `<span class="badge veg lv-${esc(r.veggieLevel)}">${esc(dl)}</span>` : '<span class="badge qz-nodiet">No confirmed veggie options</span>') : '';
     const foot = APP.bookOn(r) ? APP.booking(r) : isRest && r.reservation_url ? `<span class="ext resv" data-href="${esc(r.reservation_url)}" role="link" tabindex="0" aria-label="Reserve at ${esc(r.name)} (opens booking page)">Reserve</span>` : '';
     return `<a class="qz-card bw-host" href="${APP.detailUrl(r.id)}">
       <span class="qz-card__thumb">${TG.thumb(r, '64px')}</span>
-      <span class="qz-card__body"><span class="qz-card__top">${nowish || (o.state === 'open' && !isPick(a.when)) ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1, noVeg: true })}${diet}</span>
+      <span class="qz-card__body"><span class="qz-card__top">${MW ? (o.state === 'open' && nowish && C.mins >= MW.s - 30 && C.mins < MW.e ? TG.openLabel(o) : '') : nowish || (o.state === 'open' && !isPick(a.when)) ? TG.openLabel(o) : ''}${TG.badges(r, { max: 1, noVeg: true })}${diet}</span>
         <span class="qz-card__name">${esc(r.name)}${TG.scoreBadge(r)}</span><span class="qz-card__meta">${meta}</span>
         ${when ? `<span class="qz-card__when">${esc(when)}</span>` : ''}${foot ? `<span class="qz-card__foot">${foot}</span>` : ''}</span></a>`;
   }
@@ -474,7 +553,7 @@
     if (t.closest('[data-qz-back]')) {
       if (!st.mood) return;
       st.pick = null; st.step--; while (st.step >= 0 && st.skipped[st.step]) st.step--;
-      if (st.step < 0) { st.mood = ''; st.a = {}; st.step = 0; }
+      if (st.step < 0) { st.mood = ''; st.a = {}; st.step = 0; st.planned = {}; }
       draw(); return;
     }
     if (t.closest('[data-qz-restart]')) { restart(); return; }
@@ -493,7 +572,7 @@
     st.pick = null;
     if (b.dataset.q === 'mood') {
       if (st.mood !== b.dataset.v) st.a = {};
-      st.mood = b.dataset.v; st.steps = SECTIONS[st.mood].questions; st.step = 0; st.skipped = {};
+      st.mood = b.dataset.v; st.steps = SECTIONS[st.mood].questions; st.step = 0; st.skipped = {}; st.planned = {};
     } else { st.a[b.dataset.q] = b.dataset.v; clearAfter(); st.step++; }
     b.setAttribute('aria-pressed', 'true');
     setTimeout(draw, 120);                                                 // brief pressed state, then the next question

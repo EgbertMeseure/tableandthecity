@@ -151,7 +151,7 @@ Visitors never need their own mail app (there is no mailto fallback).
   visitors, e.g. from Belgium.
 - Each attempt times out after 12 s; the error message appears only when both fail. States: **Send** → *Sending…* → a thank-you;
 on a network error, timeout (15 s) or `success:false` the form shows "Couldn't send, please try again." and keeps what was typed.
-- **Suggest a place** (`js/suggest.js`; footer, nav drawer, end of the list, `#suggest`): subject `Suggestion: <place>`; fields Place, City, Type, Location*, Why*, From*.
+- **Suggest a place** (`js/suggest.js`; footer, nav drawer, slim line under the guide map, `#suggest`): subject `Suggestion: <place>`; fields Place, City, Type, Location*, Why*, From*.
 - **Know this place?** (`js/detail.js`, under *At a glance* on every detail page): tap pills (1× = has it ✓, 2× = doesn't have it, 3× = not sure) + an optional note; subject `Correction: <place>`; fields Place (`<place>, <city>`), Changes* (e.g. `Terrace: yes, has it; Veggie: no, doesn’t have it`), Note*, Link (the place page URL). Max 3 sends per place per 24 h per browser (`localStorage` key `tg-fb-<city>-<id>`).
 - **Request your city** (`js/cityreq.js`, bottom of the Country/City dropdowns): subject `City request: <city>`; fields City, Country, From*.
 

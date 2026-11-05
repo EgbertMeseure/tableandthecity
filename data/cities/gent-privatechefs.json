@@ -1,0 +1,419 @@
+{
+ "city": "gent",
+ "updated": "2026-10-31",
+ "note": "Private chefs and chef-at-home services for this city only. Facts come from each chef’s own website (see sources); prices and group sizes as published there on the date checked. Photos only from the chef’s own website, credited; no photo = monogram.",
+ "chefs": [
+  {
+   "id": "nalou-dining",
+   "name": "Nalou Dining",
+   "chef": "Nathan Campbell",
+   "style": "Seasonal fine dining",
+   "description": "Chef Nathan Campbell (Hotelschool Ter Duinen, then Michelin-starred kitchens) builds a seasonal menu from scratch for your table. He brings the ingredients, tableware and service, and leaves the kitchen clean.",
+   "serves": "Ghent, East Flanders and the rest of Flanders",
+   "base": "",
+   "guests": "From 6 guests",
+   "price": "€65 pp (3 courses), €85 (4), €105 (5); drinks not included",
+   "website": "https://www.naloudining.com/chef-aan-huis/gent",
+   "instagram": "https://www.instagram.com/naloudining/",
+   "email": "info@naloudining.com",
+   "phone": "+32468200180",
+   "phoneDisplay": "+32 468 20 01 80",
+   "placeId": "",
+   "sources": [
+    "https://www.naloudining.com/chef-aan-huis/gent",
+    "https://www.naloudining.com/prijzen",
+    "https://www.naloudining.com/de-chef"
+   ],
+   "image": {
+    "src": "img/chefs/gent/nalou-dining.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated langoustine dish (Nalou Dining)",
+    "credit": "Nalou Dining (naloudining.com)",
+    "credit_url": "https://www.naloudining.com/"
+   },
+   "photos": [
+    {
+     "src": "img/chefs/gent/nalou-dining-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Lamb with spring vegetables (Nalou Dining)",
+     "credit": "Nalou Dining (naloudining.com)",
+     "credit_url": "https://www.naloudining.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/nalou-dining-3.webp",
+     "w": 720,
+     "h": 540,
+     "alt": "Asparagus with peas (Nalou Dining)",
+     "credit": "Nalou Dining (naloudining.com)",
+     "credit_url": "https://www.naloudining.com/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/nalou-dining-4.webp",
+     "w": 768,
+     "h": 576,
+     "alt": "A plated meat course with green beans (Nalou Dining)",
+     "credit": "Nalou Dining (naloudining.com)",
+     "credit_url": "https://www.naloudining.com/",
+     "kind": "food"
+    }
+   ],
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "tableware",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "service",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.naloudining.com/chef-aan-huis/gent"
+    },
+    {
+     "k": "business",
+     "src": "https://www.naloudining.com/"
+    }
+   ]
+  },
+  {
+   "id": "50-fifty",
+   "name": "50 Fifty",
+   "chef": "",
+   "style": "Chef's Choice tasting menu",
+   "description": "The kitchen of 50 Fifty comes to your home with its 'Chef's Choice': a multi-course menu cooked in your kitchen, in a fish-and-meat or a vegetarian version.",
+   "serves": "Ghent and around (€10 travel fee within 30 km)",
+   "base": "",
+   "guests": "4 to 10 guests",
+   "price": "4 courses €80 pp, 5 courses €90 pp",
+   "website": "https://50fiftygent.be/op-locatie/",
+   "instagram": "https://www.instagram.com/50fiftygent/",
+   "email": "info@50fiftygent.be",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://50fiftygent.be/op-locatie/"
+   ],
+   "image": {
+    "src": "img/chefs/gent/50-fifty.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "Glazed aubergine with pomegranate and fennel (50 Fifty)",
+    "credit": "50 Fifty (50fiftygent.be)",
+    "credit_url": "https://50fiftygent.be/"
+   },
+   "photos": [
+    {
+     "src": "img/chefs/gent/50-fifty-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Octopus with leek, chorizo and potato (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/50-fifty-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A plated salmon starter (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/50-fifty-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Semi-dried tomato, bread, basil and red onion (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/50-fifty-5.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Chef Wim Van Daele at the stove (50 Fifty)",
+     "credit": "50 Fifty (50fiftygent.be)",
+     "credit_url": "https://50fiftygent.be/",
+     "kind": "chef"
+    }
+   ],
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "tableware",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "vegetarian",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "wine",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "winetasting",
+     "src": "https://50fiftygent.be/op-locatie/"
+    },
+    {
+     "k": "class",
+     "src": "https://50fiftygent.be/op-locatie/"
+    }
+   ]
+  },
+  {
+   "id": "food-at-home",
+   "name": "Food@Home Culinair",
+   "chef": "Henk Janssens",
+   "style": "Chef at home",
+   "description": "Chef Henk Janssens cooks and serves a menu in your own kitchen, for parties at home in and around Ghent.",
+   "serves": "Ghent and around",
+   "base": "Wondelgem",
+   "guests": "From 10 guests",
+   "price": "Menus from €65 pp",
+   "website": "https://www.foodathome.be/kok-aan-huis",
+   "instagram": "https://www.instagram.com/culinair_food_at_home/",
+   "email": "info@foodathome.be",
+   "phone": "+32477513088",
+   "phoneDisplay": "+32 477 51 30 88",
+   "placeId": "",
+   "sources": [
+    "https://www.foodathome.be/kok-aan-huis"
+   ],
+   "image": null,
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.foodathome.be/"
+    },
+    {
+     "k": "service",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "diets",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "kids",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "buffet",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.foodathome.be/kok-aan-huis"
+    }
+   ]
+  },
+  {
+   "id": "what-the-food",
+   "name": "What The Food",
+   "chef": "Margaux",
+   "style": "Plant-based (vegan)",
+   "description": "Plant-based private catering and private-chef dinners by Margaux, based in Ghent’s Zuid district.",
+   "serves": "Ghent",
+   "base": "",
+   "guests": "",
+   "price": "",
+   "website": "https://whatthefood.gent/private-catering/",
+   "instagram": "",
+   "email": "",
+   "phone": "",
+   "phoneDisplay": "",
+   "placeId": "",
+   "sources": [
+    "https://whatthefood.gent/private-catering/",
+    "https://whatthefood.gent/"
+   ],
+   "image": {
+    "src": "img/chefs/gent/what-the-food.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A colourful plant-based bowl (What The Food)",
+    "credit": "What The Food (whatthefood.gent)",
+    "credit_url": "https://whatthefood.gent/"
+   },
+   "photos": [
+    {
+     "src": "img/chefs/gent/what-the-food-2.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "A sesame-topped stir-fry (What The Food)",
+     "credit": "What The Food (whatthefood.gent)",
+     "credit_url": "https://whatthefood.gent/private-catering/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/what-the-food-3.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Seared scallops with asparagus (What The Food)",
+     "credit": "What The Food (whatthefood.gent)",
+     "credit_url": "https://whatthefood.gent/private-catering/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/what-the-food-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Roasted fennel with a dark glaze (What The Food)",
+     "credit": "What The Food (whatthefood.gent)",
+     "credit_url": "https://whatthefood.gent/private-catering-3-2-2/",
+     "kind": "food"
+    }
+   ],
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "vegan",
+     "src": "https://whatthefood.gent/private-catering/"
+    },
+    {
+     "k": "chefsplace",
+     "src": "https://whatthefood.gent/private-catering/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://whatthefood.gent/"
+    }
+   ]
+  },
+  {
+   "id": "bien-cuit",
+   "name": "Bien Cuit",
+   "chef": "Pieter Uytterlinde",
+   "style": "Fine dining, sharing, Italian, modern European",
+   "description": "Chef Pieter Uytterlinde plans the menu with you, shops, cooks on site and cleans up: 4- or 5-course fine dining, a sharing concept, seasonal Italian or modern European, with fish or vegetarian options.",
+   "serves": "Ghent is one of his regular service areas",
+   "base": "Borgerhout",
+   "guests": "",
+   "price": "",
+   "website": "https://www.bien-cuit.be/en/chef-at-home/",
+   "instagram": "https://www.instagram.com/chefs_bien_cuit/",
+   "email": "chefsbiencuit@gmail.com",
+   "phone": "+32493436322",
+   "phoneDisplay": "0493 43 63 22",
+   "placeId": "",
+   "sources": [
+    "https://www.bien-cuit.be/en/chef-at-home/"
+   ],
+   "image": {
+    "src": "img/chefs/gent/bien-cuit.webp",
+    "w": 960,
+    "h": 720,
+    "alt": "A plated starter in a white bowl (Bien Cuit)",
+    "credit": "Bien Cuit (bien-cuit.be)",
+    "credit_url": "https://www.bien-cuit.be/"
+   },
+   "photos": [
+    {
+     "src": "img/chefs/gent/bien-cuit-2.webp",
+     "w": 819,
+     "h": 614,
+     "alt": "A plated meat dish with a yellow sauce (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/bien-cuit-3.webp",
+     "w": 819,
+     "h": 614,
+     "alt": "Langoustine starters being plated (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/chef-at-home/",
+     "kind": "food"
+    },
+    {
+     "src": "img/chefs/gent/bien-cuit-4.webp",
+     "w": 960,
+     "h": 720,
+     "alt": "Ham-wrapped dish with risotto (Bien Cuit)",
+     "credit": "Bien Cuit (bien-cuit.be)",
+     "credit_url": "https://www.bien-cuit.be/en/group-dining-private-restaurant/",
+     "kind": "food"
+    }
+   ],
+   "checked": "2026-10-31",
+   "does": [
+    {
+     "k": "menu",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "shopping",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "service",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "cleanup",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "vegetarian",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "diets",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "walking",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "buffet",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "bbq",
+     "src": "https://www.bien-cuit.be/kok-chef-aan-huis-west-vlaanderen/"
+    },
+    {
+     "k": "class",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    },
+    {
+     "k": "winetasting",
+     "src": "https://www.bien-cuit.be/en/chef-at-home/"
+    }
+   ]
+  }
+ ]
+}

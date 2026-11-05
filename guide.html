@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="592abf54a6">
-<script src="js/i18n.js?v=592abf54a6"></script>
+<meta name="build" content="4cf5a589b5">
+<script src="js/media.js?v=4cf5a589b5"></script>
+<script src="js/i18n.js?v=4cf5a589b5"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Table and the City</title>
 <meta name="description" content="Table and the City: a curated, filterable guide to the city's best tables — restaurants, bistros, cafés, coffee, bakeries, new openings and vegetarian &amp; vegan options.">
@@ -30,17 +31,17 @@
 (function(){var h=location.hash,p=h==='#about'?'':(h==='#changelog'||h==='#changes')?'#changes':null;if(p!==null)location.replace('about.html'+location.search+p);})();</script>
 <script>/* static hero = default city (Gent); another ?city= gets its own hero from data/cities.json (js/app.js), so don't preload or show Gent's */
 (function(){var c=(new URLSearchParams(location.search).get('city')||'').toLowerCase();document.documentElement.setAttribute('data-city',c||'gent');
-if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='image';l.href='img/cities/gent/hero-gravensteen-1600.webp';l.setAttribute('imagesrcset','img/cities/gent/hero-gravensteen-1000.webp 1000w, img/cities/gent/hero-gravensteen-1600.webp 1600w, img/cities/gent/hero-gravensteen-2400.webp 2400w');l.setAttribute('imagesizes','100vw');document.head.appendChild(l);}})();</script>
+if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='image';var M=window.TG_MEDIA;l.href=M.url('img/cities/gent/hero-gravensteen-1600.webp');l.setAttribute('imagesrcset',M.srcset('img/cities/gent/hero-gravensteen-1000.webp 1000w, img/cities/gent/hero-gravensteen-1600.webp 1600w, img/cities/gent/hero-gravensteen-2400.webp 2400w'));l.setAttribute('imagesizes','100vw');document.head.appendChild(l);}})();</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="vendor/leaflet.markercluster/MarkerCluster.css">
-<link rel="stylesheet" href="css/brand.css?v=592abf54a6">
-<link rel="stylesheet" href="css/style.css?v=592abf54a6">
+<link rel="stylesheet" href="css/brand.css?v=4cf5a589b5">
+<link rel="stylesheet" href="css/style.css?v=4cf5a589b5">
 </head>
 <body>
 <header class="hero grain" id="top">
-  <img class="hero__img bw" src="img/cities/gent/hero-gravensteen-1600.jpg" srcset="img/cities/gent/hero-gravensteen-1000.webp 1000w, img/cities/gent/hero-gravensteen-1600.webp 1600w, img/cities/gent/hero-gravensteen-2400.webp 2400w" sizes="100vw" alt="" fetchpriority="high">
+  <img class="hero__img bw" src="https://img.tableandthecity.com/img/cities/gent/hero-gravensteen-1600.jpg" srcset="https://img.tableandthecity.com/img/cities/gent/hero-gravensteen-1000.webp 1000w, https://img.tableandthecity.com/img/cities/gent/hero-gravensteen-1600.webp 1600w, https://img.tableandthecity.com/img/cities/gent/hero-gravensteen-2400.webp 2400w" sizes="100vw" alt="" fetchpriority="high">
   <div class="topbar">
     <span class="logo-wrap"><a class="logo" href="/"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City – home" width="190" height="40"></a><button class="beta-tag" type="button" aria-describedby="beta-tip">Beta</button><span class="beta-tip" id="beta-tip" role="tooltip">This guide is in beta: some info may not be fully accurate yet.</span></span>
     <div class="topbar__right">
@@ -69,6 +70,7 @@ if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='im
   <a href="#categories" data-close-nav>Categories</a>
   <a href="#explore" data-close-nav>Map &amp; list</a>
   <a href="#events" data-close-nav>Events</a>
+  <a data-city-page="privatechef.html" href="privatechef.html">Private chefs</a>
   <a href="#suggest" class="nav-suggest" data-suggest data-close-nav>Suggest a place</a>
   <a href="./">All destinations</a>
   <span class="family">Part of the … and the City family</span>
@@ -112,9 +114,9 @@ if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='im
     <div class="chips czsub" id="czsub" role="group" aria-label="Cuisine" hidden></div>
   </div>
   <div class="explorer">
-    <div class="mapwrap"><div id="map" role="region" aria-label="Map"></div><div class="maphint" id="maphint">Click the map to sort by distance</div></div>
+    <div class="mapwrap"><div id="map" role="region" aria-label="Map"></div><div class="maphint" id="maphint">Click the map to sort by distance</div><p class="suggest-line suggest-line--map">Missing a place? <a href="#suggest" data-suggest>Suggest it</a></p></div>
     <div class="list" id="list" aria-live="polite"></div>
-    <div class="list-more"><button class="pill-btn dark" id="list-more" hidden>Show more</button><p class="suggest-line">Missing a place? <a href="#suggest" data-suggest>Suggest it</a></p></div>
+    <div class="list-more"><button class="pill-btn dark" id="list-more" hidden>Show more</button></div>
   </div>
 </section>
 
@@ -133,18 +135,18 @@ if(!c||c==='gent'){var l=document.createElement('link');l.rel='preload';l.as='im
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="vendor/leaflet.markercluster/leaflet.markercluster.js"></script>
-<script src="js/config.js?v=592abf54a6"></script>
-<script src="js/forms.js?v=592abf54a6"></script>
-<script src="js/hours.js?v=592abf54a6"></script>
-<script src="js/common.js?v=592abf54a6"></script>
-<script src="js/quotes.js?v=592abf54a6"></script>
-<script src="js/app.js?v=592abf54a6"></script>
-<script src="js/quiz.js?v=592abf54a6"></script>
-<script src="js/suggest.js?v=592abf54a6"></script>
-<script src="js/eventreq.js?v=592abf54a6"></script>
-<script src="js/visits.js?v=592abf54a6"></script>
-<script src="js/cityreq.js?v=592abf54a6"></script>
-<script src="js/features.js?v=592abf54a6"></script>
-<script src="js/pwa.js?v=592abf54a6"></script>
+<script src="js/config.js?v=4cf5a589b5"></script>
+<script src="js/forms.js?v=4cf5a589b5"></script>
+<script src="js/hours.js?v=4cf5a589b5"></script>
+<script src="js/common.js?v=4cf5a589b5"></script>
+<script src="js/quotes.js?v=4cf5a589b5"></script>
+<script src="js/app.js?v=4cf5a589b5"></script>
+<script src="js/quiz.js?v=4cf5a589b5"></script>
+<script src="js/suggest.js?v=4cf5a589b5"></script>
+<script src="js/eventreq.js?v=4cf5a589b5"></script>
+<script src="js/visits.js?v=4cf5a589b5"></script>
+<script src="js/cityreq.js?v=4cf5a589b5"></script>
+<script src="js/features.js?v=4cf5a589b5"></script>
+<script src="js/pwa.js?v=4cf5a589b5"></script>
 </body>
 </html>

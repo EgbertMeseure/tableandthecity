@@ -1361,6 +1361,24 @@
    "note": "Own site: \"onze menukaart 100% plantaardig\".",
    "basis": "verified",
    "checked": "2026-10-20"
+  },
+  "giftshop": {
+   "veggieLevel": "vegan-friendly",
+   "sources": [
+    "https://www.happycow.net/reviews/giftshop-ghent-404085"
+   ],
+   "basis": "HappyCow listing",
+   "hcName": "Giftshop Gent",
+   "hcInfo": "Cozy bar in an art center serving local drinks & coffee in the city center. Offers vegan mastelles from Frimout Bakkery and drinks.  Sun 13:00-18:00"
+  },
+  "t-kanon": {
+   "veggieLevel": "veggie-friendly",
+   "sources": [
+    "https://files.cargocollective.com/c1041532/FOODV7.pdf"
+   ],
+   "note": "Own food menu (Oct 2026): a 'Vegetarian' section (Aardpeer/sunroot, celeriac skewer, toast champignon, saffron arancini).",
+   "basis": "verified",
+   "checked": "2026-11-01"
   }
  }
 }

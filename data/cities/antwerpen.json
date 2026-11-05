@@ -359,6 +359,30 @@
    "note": "Mostly indoors across two halls. Children born 2015 or later free. Ticket sales announced to start Oct 2026.",
    "id": "extra-15",
    "tickets": "https://www.proeft.be/tickets.html"
+  },
+  {
+   "title": "Tweede Kans Keuken – cook and eat together against food waste (community kitchen)",
+   "dateStart": "2026-11-02",
+   "dateEnd": null,
+   "type": "community kitchen",
+   "location": "Buurthuis Unik, Fransenplaats 1, 2018 Antwerpen",
+   "partners": [
+    "Braver Spaces"
+   ],
+   "sources": [
+    "https://www.eventbrite.com/e/tweede-kans-keuken-elke-eerste-maandag-van-de-maand-van-7-sept-tot-7-dec-tickets-1985647501128"
+   ],
+   "id": "eb-1985647501128",
+   "tickets": "https://www.eventbrite.com/e/tweede-kans-keuken-elke-eerste-maandag-van-de-maand-van-7-sept-tot-7-dec-tickets-1985647501128",
+   "note": "18:00–22:00. Free (registration via Eventbrite). Every first Monday of the month until 7 December.",
+   "image": {
+    "src": "img/events/eb-1985647501128.webp",
+    "w": 960,
+    "h": 540,
+    "alt": "Tweede Kans Keuken – cook and eat together against food waste (community kitchen) (event image)",
+    "credit": "Braver Spaces (Eventbrite)",
+    "credit_url": "https://www.eventbrite.com/e/tweede-kans-keuken-elke-eerste-maandag-van-de-maand-van-7-sept-tot-7-dec-tickets-1985647501128"
+   }
   }
  ],
  "changelog": [
@@ -13139,6 +13163,19 @@
    "ticketUrl": "https://www.proeft.be/tickets.html",
    "time": null,
    "price": null
+  },
+  "eb-1985647501128": {
+   "venue": "Buurthuis Unik",
+   "originalTitle": "Tweede Kans Keuken (Elke eerste maandag van de maand. Van 7 sept tot 7 dec)",
+   "address": "Fransenplaats 1, 2018 Antwerpen",
+   "lat": 51.2005884,
+   "lng": 4.3983223,
+   "geoSource": "Eventbrite venue",
+   "blurb": "Samen koken samen eten! Een volkskeuken met een goede doel. Tegen voedselverspilling en een meer duurzaam levende buurt.",
+   "ticketUrl": "https://www.eventbrite.com/e/tweede-kans-keuken-elke-eerste-maandag-van-de-maand-van-7-sept-tot-7-dec-tickets-1985647501128",
+   "time": "18:00–22:00",
+   "price": "free",
+   "source": "eventbrite"
   }
  }
 }

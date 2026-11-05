@@ -7,7 +7,65 @@
    "note": "Live jazz every weekend",
    "source": "https://www.archiduc.net/",
    "basis": "Own site: 'Live Music Every Weekend' — Saturday's Jazz After Shopping 17:00–19:00 and Sunday concerts",
-   "checked": "2026-10-30"
+   "checked": "2026-10-30",
+   "events": [
+    {
+     "id": "lm-l-archiduc-1",
+     "title": "B I R T H E",
+     "dateStart": "2026-11-06",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "L'Archiduc, Rue Antoine Dansaert 6, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://jazzinbelgium.be/en/events/72710/b-i-r-t-h-e",
+      "https://jazznl.nl/podium/l-archiduc-brussel"
+     ],
+     "note": "20:00"
+    },
+    {
+     "id": "lm-l-archiduc-2",
+     "title": "Gustaf Ljunggren & Emil De Waal",
+     "dateStart": "2026-11-07",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "L'Archiduc, Rue Antoine Dansaert 6, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://jazzinbelgium.be/public/nl/evenementen/72711/gustaf-ljunggren-emil-de-waal",
+      "https://jazznl.nl/podium/l-archiduc-brussel"
+     ],
+     "note": "17:00 · Jazz After Shopping"
+    },
+    {
+     "id": "lm-l-archiduc-3",
+     "title": "Minton Mattos Noble",
+     "dateStart": "2026-11-15",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "L'Archiduc, Rue Antoine Dansaert 6, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.jazzucrist.com/event/f83d49a6-cec5-4d45-9445-c92a996c080a",
+      "https://jazznl.nl/podium/l-archiduc-brussel"
+     ],
+     "note": "17:00"
+    },
+    {
+     "id": "lm-l-archiduc-4",
+     "title": "Stéphane Mercier Mauritius Belgium Reunion",
+     "dateStart": "2026-11-30",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "L'Archiduc, Rue Antoine Dansaert 6, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://jazzinbelgium.be/en/events/72713/stephane-mercier-mauritius-belgium-reunion",
+      "https://jazznl.nl/podium/l-archiduc-brussel"
+     ],
+     "note": "17:00"
+    }
+   ]
   },
   "le-corbeau": {
    "note": "Concerts on Friday and Saturday nights",
@@ -46,6 +104,19 @@
      "note": "20:00 · €12"
     },
     {
+     "id": "lm-sounds-jazz-club-6",
+     "title": "Os Garotos da Subterra feat. Pablo Cruz",
+     "dateStart": "2026-11-07",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €12 · Latin jazz"
+    },
+    {
      "id": "lm-sounds-jazz-club-2",
      "title": "Lucid Lucia / DJ Grazzhoppa",
      "dateStart": "2026-11-13",
@@ -57,6 +128,19 @@
       "https://www.sounds.brussels/agenda/"
      ],
      "note": "20:00 · €15"
+    },
+    {
+     "id": "lm-sounds-jazz-club-7",
+     "title": "Chantal Acda x Rachel Therrien",
+     "dateStart": "2026-11-15",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "18:00 · €12"
     },
     {
      "id": "lm-sounds-jazz-club-3",
@@ -85,6 +169,19 @@
      "note": "20:00 · €10"
     },
     {
+     "id": "lm-sounds-jazz-club-8",
+     "title": "Tamarae",
+     "dateStart": "2026-11-26",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €12 · soul, jazz & electronics"
+    },
+    {
      "id": "lm-sounds-jazz-club-5",
      "title": "Wayne Shorter tribute",
      "dateStart": "2026-11-27",
@@ -96,6 +193,19 @@
       "https://www.sounds.brussels/agenda/"
      ],
      "note": "20:00 · €12"
+    },
+    {
+     "id": "lm-sounds-jazz-club-9",
+     "title": "Under the Reefs Orchestra",
+     "dateStart": "2026-12-11",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €12 · jazz & post-rock"
     }
    ],
    "checked": "2026-10-30"
@@ -169,6 +279,132 @@
       "https://www.themusicvillage.com/en/program/upcoming-concerts"
      ],
      "note": "20:30 · Groove Week"
+    },
+    {
+     "id": "lm-music-village-6",
+     "title": "Sarah Letor & Soul band",
+     "dateStart": "2026-11-14",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-11-14-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · soul"
+    },
+    {
+     "id": "lm-music-village-7",
+     "title": "Interplay Quartet invites Paolo Loveri",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-11-19-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · jazz"
+    },
+    {
+     "id": "lm-music-village-8",
+     "title": "New Orleans Night Owls",
+     "dateStart": "2026-11-21",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-11-21-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · New Orleans jazz"
+    },
+    {
+     "id": "lm-music-village-9",
+     "title": "Wayne Shorter Celebration",
+     "dateStart": "2026-11-25",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-11-25-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30)"
+    },
+    {
+     "id": "lm-music-village-10",
+     "title": "Judy Niemack & Jeanfrançois Prins Trio – Singing Miles",
+     "dateStart": "2026-11-27",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-11-27-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · also on 28 Nov"
+    },
+    {
+     "id": "lm-music-village-11",
+     "title": "Odone/Di Maio/Rahola Trio",
+     "dateStart": "2026-12-02",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-12-02-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · jazz"
+    },
+    {
+     "id": "lm-music-village-12",
+     "title": "Ibernice Mc Bean, Ivan Paduart, Patrick Deltenre, Victor Foulon",
+     "dateStart": "2026-12-05",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-12-05-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · vocal jazz"
+    },
+    {
+     "id": "lm-music-village-13",
+     "title": "Paolo Loveri Trio + Alessandra Dambra",
+     "dateStart": "2026-12-10",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-12-10-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · vocal jazz"
+    },
+    {
+     "id": "lm-music-village-14",
+     "title": "Belgian Italian Jazz Orchestra – the Italian Golden Era",
+     "dateStart": "2026-12-12",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/concerts/2026-12-12-20-30",
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 (doors 19:30) · big band"
     }
    ],
    "checked": "2026-10-30"

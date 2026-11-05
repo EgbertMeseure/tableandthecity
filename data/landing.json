@@ -1,5 +1,5 @@
 {
- "_doc": "Landing page (world.html): globe dots + per-city showcase. Each city lists only its own images (L = landing photo img/cities/<id>/landing/<name>-{900,1600}.webp, C = the city's own category card photo <base>-{800,1600}.webp). Credits: img/CREDITS.json. label: side of the city-dot label at country zoom (l/r/t/b) so nearby cities do not overlap.",
+ "_doc": "Landing page (world.html): globe dots + per-city showcase. Each city lists only its own images (L = landing photo img/cities/<id>/landing/<name>-{900,1600}.webp, C = the city's own category card photo <base>-{800,1600}.webp). Credits: img/CREDITS.json. label: side of the city-dot label at country zoom (l/r/t/b) so nearby cities do not overlap. Coming-soon cities (active: false in data/cities.json, e.g. Leuven, Charleroi) get only \"soon\": true and a label side here: a dimmed dot at country zoom and a photo-less \"Coming soon\" card, never a guide link or showcase.",
  "countries": [
   {
    "id": "be",
@@ -14,6 +14,7 @@
    "id": "nl",
    "name": "Netherlands",
    "active": false,
+   "next": true,
    "dot": [
     52.2,
     5.3
@@ -385,6 +386,14 @@
     }
    ],
    "label": "r"
+  },
+  "leuven": {
+   "soon": true,
+   "label": "br"
+  },
+  "charleroi": {
+   "soon": true,
+   "label": "b"
   }
  }
 }

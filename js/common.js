@@ -6,9 +6,11 @@ const TG = (() => {
   const TODAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Brussels', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   const U = 'unknown';
   const TYPE_KEY = { 'fine dining': 'finedining', 'gastro-bistro': 'bistro', 'bistro': 'nieuw', 'brasserie': 'casual', 'casual': 'interior' };
-  const TYPE_IMG = Object.fromEntries(Object.entries(TYPE_KEY).map(([k, v]) => [k, `img/${v}.jpg`]));
+  /* photos load from the media host (js/media.js: TG_MEDIA.url / .srcset; data keeps repo-relative img/… paths) */
+  const M = window.TG_MEDIA || { url: u => u, srcset: s => s };
+  const TYPE_IMG = Object.fromEntries(Object.entries(TYPE_KEY).map(([k, v]) => [k, M.url(`img/${v}.jpg`)]));
   /* responsive <img> attributes for a site image key (img/<key>-{800,1600,2400}.webp, jpg fallback) */
-  const imgAttrs = (key, sizes = '100vw') => `src="img/${key}.jpg" srcset="img/${key}-800.webp 800w, img/${key}-1600.webp 1600w, img/${key}-2400.webp 2400w" sizes="${sizes}"`;
+  const imgAttrs = (key, sizes = '100vw') => `src="${M.url(`img/${key}.jpg`)}" srcset="${M.srcset(`img/${key}-800.webp 800w, img/${key}-1600.webp 1600w, img/${key}-2400.webp 2400w`)}" sizes="${sizes}"`;
   /* real, licensed photos of a restaurant only (Commons / own / Google Places when a key is configured) — never stock, never Instagram */
   /* cache-busting: data fetches carry the page's build stamp (<meta name="build">, set by scripts/stamp_assets.py) */
   const BUILD = (document.querySelector('meta[name="build"]') || {}).content || '';
@@ -54,7 +56,7 @@ const TG = (() => {
     const pk = pickOf(r);
     if (pk.post && !(forCard && !igCardsOn())) return igPostCard(r, pk.post);
     const p = pk.photo || bestPhoto(realPhotos(r));
-    if (p) return { kind: 'img', src: p.thumb || p.src, srcset: p.srcset, hotlink: !!p.hotlink, credit: `Photo: ${p.credit || ''}` };
+    if (p) return { kind: 'img', src: M.url(p.thumb || p.src), srcset: M.srcset(p.srcset), hotlink: !!p.hotlink, credit: `Photo: ${p.credit || ''}` };
     if (r.heroImage && r.heroImage.url) return { kind: 'img', src: r.heroImage.url, hotlink: true, credit: `Photo: ${hostOf(r.heroImage.source)}` };
     if (forCard && !igCardsOn()) return null;
     const posts = igPostsOf(r);
@@ -273,9 +275,18 @@ const TG = (() => {
   /* ---- open now (js/hours.js, Europe/Brussels) ----
      open | closed | unknown. A place with a non-open status (temporarily closed, renovation…) is never open. Hours that cannot be
      parsed with confidence, or that carry a "sources differ" note, are unknown: nothing is shown and they sort between open and closed. */
+  /* seasonal places: season = {from, to} (months 1–12, inclusive; may wrap the year end, e.g. {from: 11, to: 3}). Outside the season the
+     place is closed whatever its weekly hours (open now, quiz days); the label ("Open April – October") shows on the card meta and detail page. */
+  function inSeason(r, iso = TODAY) {
+    const s = r.season; if (!s || !(s.from >= 1 && s.from <= 12 && s.to >= 1 && s.to <= 12)) return true;
+    const m = +String(iso).slice(5, 7);
+    return s.from <= s.to ? m >= s.from && m <= s.to : m >= s.from || m <= s.to;
+  }
+  const seasonLabel = r => { const s = r.season; return s && MONTHS[s.from - 1] && MONTHS[s.to - 1] ? `Open ${MONTHS[s.from - 1]} – ${MONTHS[s.to - 1]}` : ''; };
   function openState(r, now = new Date()) {
     if (r.upcoming) return { state: 'unknown' };
     if (r.status && r.status !== 'open') return { state: 'closed', byStatus: true };
+    if (r.season && !inSeason(r, window.TGHours ? window.TGHours.brussels(now).iso : TODAY)) return { state: 'closed', bySeason: true, season: seasonLabel(r) };
     if (r.openingHoursNote || !known(r.openingHours) || !window.TGHours) return { state: 'unknown' };
     return window.TGHours.status(r.openingHours, now);
   }
@@ -283,6 +294,7 @@ const TG = (() => {
   /* small label: list cards (short) and the detail page (long: "Closed · opens Tue 08:00"); empty for unknown / status-closed */
   function openLabel(o, long = false) {
     if (!o || o.byStatus) return '';
+    if (o.bySeason) return o.season ? `<span class="oh oh--closed">${esc(o.season)}</span>` : '';   // out of season: the season is the pill
     if (o.state === 'open') return `<span class="oh oh--open">Open now${long && o.closesAt ? `<span class="oh__sub"> · until ${esc(o.closesAt)}</span>` : ''}</span>`;
     if (o.state !== 'closed') return '';
     const t = o.opensAt ? window.TGHours.opensText(o.opensAt) : '';
@@ -331,7 +343,7 @@ const TG = (() => {
     if (r.category === 'cocktail_bar') TILES_BY_GROUP.cafes_bars = [['terrace', 'Terrace'], ['signatureCocktails', 'Signature cocktails'], ['mocktails', 'Mocktails / alcohol-free'],
       ['foodServed', 'Food served'], ['lateNight', 'Late night'], ['openSunday', 'Open Sunday'], ['reservations', 'Reservations']];
     if (!isR) F.new = r.isNew ? true : null;
-    const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
+    const TILES = TILES_BY_GROUP[r.group] || [['streetFood', 'Street food'], ['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
       ['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
       ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
       ['walkIn', 'Walk-in'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']];
@@ -412,7 +424,8 @@ const TG = (() => {
     });
     document.addEventListener('click', () => document.querySelectorAll('.citysel.open').forEach(d => { d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded', 'false'); }));
     document.querySelectorAll('[data-home]').forEach(a => a.href = cityUrl('guide.html', city.id) + (a.dataset.home || ''));
-    document.querySelectorAll('[data-city-page]').forEach(a => a.href = cityUrl(a.dataset.cityPage, city.id));   // city-specific page links ([data-city-page]) for this city
+    document.querySelectorAll('[data-city-page]').forEach(a => a.href = cityUrl(a.dataset.cityPage, city.id));
+    if (!city.privatechefs) document.querySelectorAll('[data-city-page="privatechef.html"]').forEach(a => { a.hidden = true; a.style.display = 'none'; });   // Private chefs only for a city with its own list   // city-specific page links ([data-city-page]) for this city
   }
   /* cuisine groups for the quiz's 'What kind of food?' step and the 'By cuisine' card. `t` is tested on each cuisine tag
      (OSM + curated), `x` (optional) on the curated free-text cuisine line (curated tags are coarse, e.g. Thai → 'Asian').
@@ -480,15 +493,15 @@ const TG = (() => {
     document.querySelectorAll('[data-footer]').forEach(el => el.innerHTML = `
       <a class="logo logo--foot" href="${cityUrl('guide.html', city.id)}"><img class="logo__img" src="img/brand/lockup-horizontal-white.svg" alt="Table and the City" width="162" height="34"></a>
       <div class="family">Part of the <i>… and the City</i> family</div>
-      <nav class="foot-links" aria-label="Footer"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><span aria-hidden="true">·</span><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data</a><span aria-hidden="true">·</span><a href="privacy.html" class="foot-privacy">Privacy</a></nav>
+      <nav class="foot-links" aria-label="Footer"><a href="#suggest" class="foot-suggest" data-suggest>Suggest a place</a><span aria-hidden="true">·</span><a href="${cityUrl('about.html', city.id)}" class="foot-about">About the data</a><span aria-hidden="true">·</span><a href="privacy.html" class="foot-privacy">Privacy</a><span aria-hidden="true">·</span><a href="${cityUrl('promote.html', city.id)}" class="foot-promote">Promote your place</a></nav>
       <div class="meta"><span>© Table and the City</span><span aria-hidden="true">·</span><span><span>Data:</span> <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors</a></span></div>`);
   }
 
   /* ---- data ---- */
   async function load(city) {
     const opt = (url, empty) => url ? fetch(bust(url), { cache: 'no-cache' }).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg, hz, bk, ig, gr, ph, tg, lm] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
-      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} }), opt(city.tags, { places: {} }), opt(city.livemusic, { places: {} })]);
+    const [d, up, om, vg, hz, bk, ig, gr, ph, tg, lm, sf] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} }), opt(city.tags, { places: {} }), opt(city.livemusic, { places: {} }), opt(city.streetfood, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
@@ -503,6 +516,12 @@ const TG = (() => {
     rs.forEach(r => { const x = (lm.places || {})[r.id]; if (!x) return;
       r.liveMusic = { note: x.note || '', source: x.source || '' };
       if ((x.events || []).length) r.events = [...(r.events || []), ...x.events]; });
+    /* street food layer (data/cities/<city>-streetfood.json, sourced; Gent first): format flag → features.streetFood
+       (Choose your table 'Street food' card); keeps real cuisine tags; never invents a cuisine */
+    rs.forEach(r => { const x = (sf.places || {})[r.id]; if (!x) return;
+      r.features = { ...(r.features || {}) }; r.features_evidence = { ...(r.features_evidence || {}) };
+      if (r.features.streetFood == null) { r.features.streetFood = true; r.features_evidence.streetFood = x.source || x.note || 'street food research'; }
+      r.streetFood = { note: x.note || '', source: x.source || '' }; });
     rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
     rs.forEach(r => { const g = (gr.places || {})[r.id]; r.gscore = g && g.score > 0 ? g.score : null; });   // <city>-ratings.json: Google rating x 2 (0-10), only confident matches
     rs.forEach(r => { const h = (hz.places || {})[r.id]; if (h && !r.heroImage) r.heroImage = h; applyMeal(r, (bk.places || {})[r.id]); });
@@ -529,9 +548,12 @@ const TG = (() => {
       const x = PH[r.id]; if (!x) return;
       if (x.hold) { r.photoHold = x.hold; r.photos = []; r.google_photos = []; r.instagram_posts = []; delete r.heroImage; r.igEmbed = false; return; }
       const posts = (x.posts || []), seen = new Set(posts.map(p => p.url.replace(/\/$/, '')));
-      r.photos = [...(x.photos || []), ...(r.photos || [])];
+      // only: the reworked, self-hosted set (scripts/apply_photos_all.py) replaces older photos and the hotlinked website og:image
+      if (x.only) { r.photos = (x.photos || []).slice(); r.google_photos = []; delete r.heroImage; }
+      else r.photos = [...(x.photos || []), ...(r.photos || [])];
       r.instagram_posts = [...posts, ...igPostsOf(r).filter(p => !seen.has(p.url.replace(/\/$/, '')))];
       if (x.pick) r.photoPick = x.pick;
+      if (x.layout) r.photoLayout = x.layout;   // 'mix': the Photos section groups food, then inside + outside
     });
     /* only upcoming events exist for the UI: past / undated ones are dropped here, everywhere */
     rs.forEach(r => { r.events = (r.events || []).map(liveEvent).filter(Boolean); });
@@ -648,10 +670,10 @@ const TG = (() => {
     (e.tickets ? `<a class="ev-btn ev-btn--tix" href="${_evEsc(e.tickets)}" target="_blank" rel="noopener">Get tickets</a>` : ''); })();
   // optional picture in the box (e.image: { src, w, h, alt, credit, credit_url }) — a calm landscape image saved under img/events/; no image = box unchanged
   const evImg = e => { const m = e.image; if (!m || !m.src) return '';
-    return `<figure class="ev__img"><img src="${_evEsc(m.src)}" width="${+m.w || 960}" height="${+m.h || 540}" loading="lazy" decoding="async" alt="${_evEsc(m.alt || '')}">${m.credit ? `<figcaption class="ev__credit">Photo: ${m.credit_url ? `<a href="${_evEsc(m.credit_url)}" target="_blank" rel="noopener">${_evEsc(m.credit)}</a>` : _evEsc(m.credit)}</figcaption>` : ''}</figure>`; };
+    return `<figure class="ev__img"><img src="${_evEsc(M.url(m.src))}" width="${+m.w || 960}" height="${+m.h || 540}" loading="lazy" decoding="async" alt="${_evEsc(m.alt || '')}">${m.credit ? `<figcaption class="ev__credit">Photo: ${m.credit_url ? `<a href="${_evEsc(m.credit_url)}" target="_blank" rel="noopener">${_evEsc(m.credit)}</a>` : _evEsc(m.credit)}</figcaption>` : ''}</figure>`; };
   // the whole box opens the event page (links / buttons inside keep their own target)
   document.addEventListener('click', ev => { const b = ev.target.closest('[data-ev-href]'); if (!b || ev.target.closest('a, button') || (getSelection && String(getSelection()))) return;
     window.open(b.dataset.evHref, '_blank', 'noopener'); });
-  return { EVREG, CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
+  return { M, EVREG, CUISINES, CZ_BY, CZ_FAMILIES, CZ_GROUPS, czSubs, hasCuisine, evDesc, evHref, evButtons, evImg, inCuisine, cuisineList, scoreBadge, openState, openLabel, inSeason, seasonLabel, OPEN_RANK, openFrom, mealOf, VEG_LABEL, VEG_SHORT, directionsUrl, featureTiles, expectedPassed, expectedText, soonLabel, newLabel, MONTHS, GROUP_LABEL, CAT_LABEL, catLabel, realPhotos, bestPhoto, pickOf, initials, thumb, cardPhoto, fitIg, lazyIg, igPostsOf, bestPost, hostOf, carousel, wasDragged, BRAND, LOCALE, TODAY, U, TYPE_IMG, TYPE_KEY, imgAttrs, liveEvent, nextOccurrence, TYPE_LABEL, esc, known, fmtDate, eur, priceNum, isStar, distRank, stars, isUpcoming, badges,
     cities, currentCity, cityUrl, renderCitySel, renderFooter, load, haversine, bindNav, bust };
 })();

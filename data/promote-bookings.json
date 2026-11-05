@@ -1,0 +1,4 @@
+{
+  "note": "Sold promotion spots for promote.html (see PROMOTE.md, 'Add a booking'). One object per sale. city: gent|antwerpen|brussel|brugge|oostende; package: an id from js/promote-config.js (top-list-1 … top-list-5, city-page-month, ig-story, ig-shared, ig-own, bundle-monthly); list: the place's list for top-list-* and bundle-monthly (restaurants|cafes_bars|coffee|bakeries); start: first month YYYY-MM; end: last month YYYY-MM, or null while a monthly subscription keeps running (one-off Instagram packages: leave end out = only the start month); place: the place id from the city data (or 'new'); stripe: optional payment / subscription id for your own reference.",
+  "bookings": []
+}

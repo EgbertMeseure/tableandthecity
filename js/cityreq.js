@@ -1,10 +1,12 @@
 /* "Request your city": an extra item at the bottom of the header Country ▾ / City ▾ dropdowns that opens a small form
    (Country, City, optional email), sent with TGForms.send (js/forms.js: FormSubmit, fallback Web3Forms → info@tableandthecity.com), like every
-   visitor form; no mail app involved. Hook: this script tag only (index.html, restaurant.html). */
+   visitor form; no mail app involved. Hook: this script tag only (index.html, restaurant.html).
+   Also opened by any [data-city-request] element (the 'Request a city' buttons on the globe landing, index.html), with empty fields
+   (or data-city-request-country="…" to prefill the country). No sender configured → html.no-cityreq (the landing hides those buttons). */
 (function () {
   'use strict';
   const F = window.TGForms;
-  if (!F || !F.ready) return;                                              // no endpoint configured → feature off
+  if (!F || !F.ready) { document.documentElement.classList.add('no-cityreq'); return; }   // no endpoint configured → feature off
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   let root = null, lastFocus = null;
 
@@ -50,7 +52,7 @@
     document.body.appendChild(root);
     root.addEventListener('click', e => { if (e.target.closest('[data-crq-close]')) close(); });
     root.addEventListener('keydown', e => {
-      if (e.key === 'Escape') { e.preventDefault(); close(); }
+      if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); close(); }   // only the form closes (not the landing's destinations list / country view under it)
       if (e.key === 'Tab') {
         const f = [...root.querySelectorAll('input:not(.sgp__hp), button')].filter(x => x.offsetParent); if (!f.length) return;
         const i = f.indexOf(document.activeElement);
@@ -85,14 +87,14 @@
       finally { btn.disabled = false; btn.textContent = 'Send'; root.classList.remove('is-sending'); }
     });
   }
-  function open(host, from) {
+  function open(host, from, country) {
     if (!root) mount();
     lastFocus = from || document.activeElement;
     const form = root.querySelector('form'); form.reset(); form.hidden = false;
     form.querySelectorAll('[aria-invalid]').forEach(x => x.removeAttribute('aria-invalid'));
     root.querySelector('.crq__err').hidden = true; root.querySelector('.crq__done').hidden = true; root.querySelector('.crq__lead').hidden = false;
-    const cur = host.querySelector('[data-dd="country"]>button');               // prefill the country shown in the header
-    if (cur) form.elements.country.value = cur.textContent.trim();
+    const cur = host && host.querySelector('[data-dd="country"]>button');       // prefill the country shown in the header
+    if (cur) form.elements.country.value = cur.textContent.trim(); else if (country) form.elements.country.value = country;
     root.hidden = false; document.documentElement.classList.add('crq-lock');
     requestAnimationFrame(() => { root.classList.add('is-open'); form.elements[form.elements.country.value ? 'city' : 'country'].focus({ preventScroll: true }); });
   }
@@ -102,6 +104,10 @@
     setTimeout(() => { root.hidden = true; }, 200);
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
+  document.addEventListener('click', e => {
+    const t = e.target.closest('[data-city-request]'); if (!t) return;
+    e.preventDefault(); open(null, t, t.dataset.cityRequestCountry || '');
+  });
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', watch); else watch();
-  const API = window.TGCityRequest = { open: () => { const h = document.querySelector('[data-citysel]'); if (h) open(h); }, close };
+  const API = window.TGCityRequest = { open: () => open(document.querySelector('[data-citysel]')), close };
 })();

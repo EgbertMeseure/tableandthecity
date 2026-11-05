@@ -1,0 +1,115 @@
+{
+ "about": "Street food layer (Gent first): places with a sourced street-food format (bao/taco/dumpling/falafel/ramen counter, fixed foodtruck, artisanal snack). Applied in js/common.js load() as features.streetFood. Not a cuisine — keeps real cuisineTags. Built 5 Nov 2026 (preview-gent-streetfood).",
+ "city": "gent",
+ "count": 27,
+ "places": {
+  "kin-khao-thai-eatery": {
+   "note": "Thai sharing with high street-food character (own curated summary)",
+   "source": "Street food research Nov 2026"
+  },
+  "frankies": {
+   "note": "LA-style tacos and dirty nachos",
+   "source": "Street food research Nov 2026"
+  },
+  "caracalla": {
+   "note": "Syrian mezze sharing",
+   "source": "Street food research Nov 2026"
+  },
+  "pica-beans": {
+   "note": "Palestinian food, coffee and tea",
+   "source": "Street food research Nov 2026"
+  },
+  "mexcalli": {
+   "note": "Seasonal Mexican and mezcalería",
+   "source": "Street food research Nov 2026"
+  },
+  "darbode": {
+   "note": "Moroccan lunch, mezze and cocktails",
+   "source": "Street food research Nov 2026"
+  },
+  "yusu": {
+   "note": "Plant-based Asian bowls",
+   "source": "Street food research Nov 2026"
+  },
+  "het-mooie-weer": {
+   "note": "Brother-run sandwich and soup bar by Sint-Jacobs: Mexican tortas, tacos and pozole alongside Vietnamese bánh mì and phở,",
+   "source": "https://hetmooieweer.be/"
+  },
+  "steamy-windows": {
+   "note": "Dumpling bar and shop on the Hoogpoort: steamed and pan-fried dumplings to eat in, plus frozen packs and a small sake an",
+   "source": "https://www.steamywindows.be/"
+  },
+  "rabot-dumpling-house": {
+   "note": "House-made steamed momo (chicken, tofu, veggie) in Rabot — a focused dumpling counter that also appeared at Gent Smaakt ",
+   "source": "https://www.rabot-dumpling-house.be/"
+  },
+  "golden-gai": {
+   "note": "Gault&Millau HIP ramen bar: Japanese-inspired bowls with house-made noodles and local produce, plus cocktails — walk-in ",
+   "source": "https://www.goldengai.be/"
+  },
+  "zuru-zuru-ramen": {
+   "note": "Independent ramen bar by chef Nick Hofman: fresh organic noodles made in-house, no reservations — a classic Japanese cou",
+   "source": "https://zuruzuru-ramen.be/"
+  },
+  "horn-ok-please": {
+   "note": "Indian kitchen centred on Mumbai street food, dosas and Hyderabad biryani, with cocktails and lassis — Visit Gent’s stre",
+   "source": "https://www.hornokplease.space/"
+  },
+  "taco-santo": {
+   "note": "Independent Gent taquería by Andrés Villagómez since 2019: house corn tortillas, salsas and agave drinks at the original",
+   "source": "https://www.tacosanto.be/"
+  },
+  "taco-santo-dos": {
+   "note": "Second Taco Santo room by Portus Ganda for larger groups — same house tortillas, salsas and agave drinks as Uno.",
+   "source": "https://www.tacosanto.be/"
+  },
+  "bicho-malo": {
+   "note": "Rock-and-roll Mexican street food and drinks on Serpentstraat — tacos with tequila and mezcal.",
+   "source": "http://bichomalo.be/"
+  },
+  "guerrilla-streetfood": {
+   "note": "Sharing etagères inspired by Mexico and Tel Aviv — tacos, dips and cocktails in a casual street-food room on Oude Schaap",
+   "source": "https://www.guerrillastreetfood.be/"
+  },
+  "fattoush": {
+   "note": "Syrian mezze and standout ring-shaped falafel on Brabantdam — cold and warm sharing plates, not a generic kebab counter.",
+   "source": "https://www.fattoushgent.be/"
+  },
+  "yalla-yalla": {
+   "note": "Gault&Millau HIP Lebanese foodbar with foodtruck roots (Gentse Feesten 2015): mezze and street-food plates on Donkerstee",
+   "source": "https://www.yallayallafoodbar.be/"
+  },
+  "chapeluur": {
+   "note": "Handmade croquettes from their own atelier — Visit Gent’s street-food page pick for a quality Belgian snack (also in Kor",
+   "source": "https://chapeluur.eu/"
+  },
+  "pho-saigon": {
+   "note": "Dedicated phở and noodle-soup house next to Yalla Yalla — a Vietnamese street-food counter on Donkersteeg.",
+   "source": "https://www.phosaigon-gent.be/"
+  },
+  "ichi": {
+   "note": "Gent’s bao specialist: oversized steamed buns with house sauces and local butcher meat, counter takeaway or a few seats ",
+   "source": "https://ichibao.be/"
+  },
+  "dumpling-delight": {
+   "note": "Bao, soup and dumpling bar by Andy Zhu on Vlaanderenstraat — wide dumpling variety including vegan and sweet, plus cockt",
+   "source": "https://hipsteadresjes.gent/nieuw/dumpling-delight/"
+  },
+  "coco-and-tacos": {
+   "note": "Fusion tacos and empanadas drawing on nine countries — fixed Gent address on Oudburg with delivery and pick-up.",
+   "source": "https://www.cocoandtacos.be/"
+  },
+  "falafolie": {
+   "note": "Independent Syrian street-food kitchen in Mariakerke: falafel, kubbeh sandwiches and plates via their own ordering site.",
+   "source": "https://www.falafoliegent.be/"
+  },
+  "orange-ini": {
+   "note": "Sicilian street-food bar by Irene Ziostra: handmade arancini, rizzuola, calzone and cannoli on Hoogstraat — recent 2026 ",
+   "source": "https://orange-ini.be/"
+  },
+  "barake-foodtruck": {
+   "note": "Brothers’ Syrian street-food truck with a recurring Saturday spot at Koning Albertpark (Zuidpark): za’atar panini, falaf",
+   "source": "https://www.gentsmaakt.be/nl/standhouders/"
+  }
+ }
+}

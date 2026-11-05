@@ -483,6 +483,56 @@
    "summary": "Neighbourhood breakfast, brunch and lunch bar (green eggs, tuna croque) in Sint-Amandsberg.",
    "summarySource": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html",
    "source": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/de-buurt-had-hier-nood-aan-jeffrey-34-opent-brunchbar-met-groene-eitjes-en-croque-tonijn/143222938.html | https://www.foodbar-jef.be"
+  },
+  "way/102713996": {
+   "features": {
+    "terrace": true,
+    "wheelchair": false,
+    "kidsWelcome": true,
+    "breakfast": true,
+    "lunch": true,
+    "dinner": true,
+    "aLaCarte": true,
+    "reservations": true,
+    "openMonday": true,
+    "openSunday": true
+   },
+   "features_evidence": {
+    "terrace": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "wheelchair": "OpenStreetMap: wheelchair=no",
+    "kidsWelcome": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "breakfast": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "lunch": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "dinner": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "aLaCarte": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "reservations": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "openMonday": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)",
+    "openSunday": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)"
+   },
+   "source": "Owner correction via site 'Stel een wijziging voor' form (Jaggers, 1 Nov 2026)"
+  },
+  "node/13607927401": {
+   "features": {
+    "vegan": true,
+    "wifi": true,
+    "dinner": true,
+    "terrace": true,
+    "glutenFree": true,
+    "lunch": true
+   },
+   "features_evidence": {
+    "vegan": "OpenStreetMap: diet:vegan=yes",
+    "wifi": "OpenStreetMap: internet_access=wlan",
+    "dinner": "Owner request via Instagram DM (Planttrekkerij, 1 Nov 2026); own website: planttrekkerij.be (Diner Tue–Thu 17:30–22:00; Zalige Zondag lunch last Sunday of the month 12:00–15:00)",
+    "terrace": "Owner request via Instagram DM (Planttrekkerij, 1 Nov 2026)",
+    "glutenFree": "Owner request via Instagram DM (Planttrekkerij, 1 Nov 2026)",
+    "lunch": "Owner request via Instagram DM (Planttrekkerij, 1 Nov 2026); own website: planttrekkerij.be (Diner Tue–Thu 17:30–22:00; Zalige Zondag lunch last Sunday of the month 12:00–15:00)"
+   },
+   "features_note": {
+    "lunch": "Zalige Zondag: last Sunday of the month · collab each quarter"
+   },
+   "instagram_handle": "planttrekkerij",
+   "source": "Owner request via Instagram DM (Planttrekkerij, 1 Nov 2026) | https://www.planttrekkerij.be/ (checked 1 Nov 2026) (website links instagram.com/planttrekkerij)"
   }
  }
 }

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="build" content="4cf5a589b5">
+<script src="js/media.js?v=4cf5a589b5"></script>
+<script src="js/i18n.js?v=4cf5a589b5"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Private chefs — Table and the City</title>
+<meta name="description" content="Independent private chefs and chef-at-home services per city: style, area, group size and prices as published on their own websites.">
+<link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" href="img/brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/brand/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="img/brand/favicon-16.png" type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="img/brand/apple-touch-icon-180.png" sizes="180x180">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Table and the City">
+<meta property="og:title" content="Private chefs — Table and the City">
+<meta property="og:description" content="Independent private chefs and chef-at-home services per city: style, area, group size and prices as published on their own websites.">
+<meta property="og:image" content="https://www.tableandthecity.com/img/share-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Table and the City logo">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/brand.css?v=4cf5a589b5">
+<link rel="stylesheet" href="css/style.css?v=4cf5a589b5">
+</head>
+<body class="detail info info--quiet" data-page="privatechef">
+<!-- Private chefs, one page per city (privatechef.html?country=&city=), filled by js/privatechef.js from data/cities/<city>-privatechefs.json (cities strictly separate) -->
+<header class="ihero ihero--quiet grain" id="top">
+  <div class="topbar">
+    <span class="logo-wrap"><a class="pill-btn sm backbtn" href="guide.html" data-back>Back</a><button class="beta-tag" type="button" aria-describedby="beta-tip">Beta</button><span class="beta-tip" id="beta-tip" role="tooltip">This guide is in beta: some info may not be fully accurate yet.</span></span>
+    <div class="topbar__right">
+      <div class="citysel" data-citysel></div>
+      <a class="pill-btn sm" id="back" data-home href="guide.html">Back to the guide</a>
+      <button class="menu-btn" data-open-nav aria-label="Menu"><svg viewBox="0 0 30 22"><path d="M8 21 15 1M15 21 22 1M22 21 29 1"/></svg></button>
+    </div>
+  </div>
+  <div class="ihero__body">
+    <p class="ihero__eyebrow" id="ih-city">Ghent</p>
+    <h1>Private chefs</h1>
+    <p class="ihero__lede">Chefs who cook at your home or on location, with what they publish on their own websites.</p>
+    <p class="ihero__notice" id="city-notice" hidden></p>
+  </div>
+</header>
+<nav class="navdrawer" id="nav" aria-hidden="true">
+  <button class="close up" data-close-nav>Close</button>
+  <a data-home href="guide.html">Home</a><a data-home="#explore" href="guide.html#explore">Map &amp; list</a><a data-home="#events" href="guide.html#events">Events</a><a data-city-page="privatechef.html" href="privatechef.html" aria-current="page">Private chefs</a><a href="#suggest" class="nav-suggest" data-suggest data-close-nav>Suggest a place</a>
+  <span class="family">Part of the … and the City family</span>
+</nav>
+<main class="ipage pcpage" id="main">
+  <p class="pc-count" id="pc-count" aria-live="polite"></p>
+  <div class="pcgrid" id="pcgrid"></div>
+  <p class="pc-note">Prices, group sizes and areas as published by each chef on the date checked; always confirm with the chef. Photos come from the chefs’ own websites; no photo, then a monogram.</p>
+  <p class="suggest-line pc-ask">Are you a private chef? <a href="#suggest" data-suggest data-suggest-type="Private chef">Get listed</a></p>
+</main>
+<footer class="site-footer" data-footer></footer>
+<script src="js/config.js?v=4cf5a589b5"></script>
+<script src="js/forms.js?v=4cf5a589b5"></script>
+<script src="js/hours.js?v=4cf5a589b5"></script>
+<script src="js/common.js?v=4cf5a589b5"></script>
+<script src="js/privatechef.js?v=4cf5a589b5"></script>
+<script src="js/suggest.js?v=4cf5a589b5"></script>
+<script src="js/visits.js?v=4cf5a589b5"></script>
+<script src="js/cityreq.js?v=4cf5a589b5"></script>
+<script src="js/back.js?v=4cf5a589b5"></script>
+<script src="js/pwa.js?v=4cf5a589b5"></script>
+</body>
+</html>

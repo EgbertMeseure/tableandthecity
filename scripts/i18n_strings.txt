@@ -25,11 +25,14 @@ Part of the … and the City family | Deel van de … and the City-familie | Tei
 Home | Home | Start | Accueil | Inicio
 Table and the City – home | Table and the City – home | Table and the City – Startseite | Table and the City – accueil | Table and the City – inicio
 Request your city | Vraag je stad aan | Deine Stadt anfragen | Demandez votre ville | Pide tu ciudad
+Request a city | Vraag een stad aan | Stadt anfragen | Demander une ville | Pide una ciudad
 soon | binnenkort | bald | bientôt | pronto
 coming soon | binnenkort | demnächst | bientôt | muy pronto
 {x} · coming soon | {x} · binnenkort | {x} · demnächst | {x} · bientôt | {x} · muy pronto
 {x}, coming soon | {x}, binnenkort | {x}, demnächst | {x}, bientôt | {x}, muy pronto
 {x} — coming soon | {x} — binnenkort | {x} — demnächst | {x} — bientôt | {x} — muy pronto
+{x} · next | {x} · als volgende | {x} · als Nächstes | {x} · prochaine étape | {x} · próximo destino
+{x}, next | {x}, als volgende | {x}, als Nächstes | {x}, prochaine étape | {x}, próximo destino
 Choose country | Kies een land | Land wählen | Choisir un pays | Elige país
 Choose city | Kies een stad | Stadt wählen | Choisir une ville | Elige ciudad
 Scroll | Scroll | Scrollen | Défiler | Desliza
@@ -47,6 +50,9 @@ Antwerp | Antwerpen | Antwerpen | Anvers | Amberes
 Bruges | Brugge | Brügge | Bruges | Brujas
 Ostend | Oostende | Ostende | Ostende | Ostende
 Brussels | Brussel | Brüssel | Bruxelles | Bruselas
+The Hague | Den Haag | Den Haag | La Haye | La Haya
+Leuven | Leuven | Leuven | Louvain | Lovaina
+Charleroi | Charleroi | Charleroi | Charleroi | Charleroi
 ## hero
 Taste the city | Proef de stad | Schmeck die Stadt | Goûtez la ville | Saborea la ciudad
 at its finest tables | aan haar beste tafels | an ihren besten Tischen | à ses plus belles tables | en sus mejores mesas
@@ -178,9 +184,16 @@ Jazz concerts six to seven nights a week | Jazzconcerten zes tot zeven avonden p
 Jazz café | Jazzcafé | Jazzcafé | Café jazz | Café de jazz
 Blues & roots café | Blues- & rootscafé | Blues- & Roots-Café | Café blues & roots | Café de blues y roots
 Jazz club | Jazzclub | Jazzclub | Club de jazz | Club de jazz
+Open April – October | Open van april tot oktober | Geöffnet April bis Oktober | Ouvert d’avril à octobre | Abierto de abril a octubre
+Open {x} – {y} | Open van {x} tot {y} | Geöffnet {x} bis {y} | Ouvert de {x} à {y} | Abierto de {x} a {y}
+Art-space café: local drinks, coffee, vegan mastel | Kunstcafé: lokale drankjes, koffie, vegan mastel | Kunstcafé: lokale Getränke, Kaffee, veganer Mastel | Café d’art : boissons locales, café, mastel vegan | Café de arte: bebidas locales, café, mastel vegano
 ## place types
 Restaurant | Restaurant | Restaurant | Restaurant | Restaurante
 Quick bites | Snelle hap | Kleine Happen | Sur le pouce | Para picar
+
+## street food (Gent first; feature flag + Choose your table card)
+Street food | Streetfood | Streetfood | Street food | Comida callejera
+Street food in {city} | Streetfood in {city} | Streetfood in {city} | Street food à {city} | Comida callejera en {city}
 Dance café | Danscafé | Tanzcafé | Café dansant | Café con baile
 Brown café | Bruine kroeg | Braune Kneipe | Café brun | Bar de toda la vida
 Irish pub | Ierse pub | Irish Pub | Pub irlandais | Pub irlandés
@@ -250,6 +263,7 @@ Confirmed — {raw} | Bevestigd — {raw} | Bestätigt — {raw} | Confirmé —
 Not confirmed | Niet bevestigd | Nicht bestätigt | Pas confirmé | Sin confirmar
 No | Nee | Nein | Non | No
 Groups of 6+ only | Enkel groepen van 6+ | Nur Gruppen ab 6 | Groupes de 6+ uniquement | Solo grupos de 6+
+Zalige Zondag: last Sunday of the month · collab each quarter | Zalige Zondag: laatste zondag van de maand · elk kwartaal een collab | Zalige Zondag: letzter Sonntag im Monat · jedes Quartal eine Kollabo | Zalige Zondag : dernier dimanche du mois · une collab par trimestre | Zalige Zondag: último domingo del mes · una colaboración cada trimestre
 Gluten-free | Glutenvrij | Glutenfrei | Sans gluten | Sin gluten
 Gluten-free options | Glutenvrije opties | Glutenfreie Optionen | Options sans gluten | Opciones sin gluten
 Wheelchair | Rolstoel | Rollstuhl | Fauteuil roulant | Silla de ruedas
@@ -395,6 +409,9 @@ Opening hours | Openingsuren | Öffnungszeiten | Horaires d’ouverture | Horari
 Photos | Foto’s | Fotos | Photos | Fotos
 Photos: | Foto’s: | Fotos: | Photos : | Fotos:
 Open photo | Open foto | Foto öffnen | Ouvrir la photo | Abrir foto
+Inside | Binnen | Innen | Intérieur | Interior
+Outside | Buiten | Außen | Extérieur | Exterior
+At work | Aan het werk | Bei der Arbeit | Au travail | Trabajando
 1 photo | 1 foto | 1 Foto | 1 photo | 1 foto
 {n} photos | {n} foto’s | {n} Fotos | {n} photos | {n} fotos
 All {n} | Alle {n} | Alle {n} | Toutes ({n}) | Todas ({n})
@@ -459,7 +476,8 @@ This week | Deze week | Diese Woche | Cette semaine | Esta semana
 Later | Later | Später | Plus tard | Más adelante
 From {date} | Vanaf {date} | Ab {date} | À partir du {date} | Desde el {date}
 Pick a date | Kies een datum | Datum wählen | Choisir une date | Elige una fecha
-Any day until {date} | Elke dag tot {date} | Jeder Tag bis {date} | N’importe quel jour jusqu’au {date} | Cualquier día hasta el {date}
+Any day Only {date} for now, the month after is booked | Voorlopig enkel {date}, de maand erna is volzet | Vorerst nur {date}, der Monat danach ist ausgebucht | Seulement {date} pour l’instant, le mois suivant est complet | Por ahora solo {date}, el mes siguiente está completo
+until {date} | Elke dag tot {date} | Jeder Tag bis {date} | N’importe quel jour jusqu’au {date} | Cualquier día hasta el {date}
 Choose a day | Kies een dag | Tag wählen | Choisir un jour | Elige un día
 Previous month | Vorige maand | Vorheriger Monat | Mois précédent | Mes anterior
 Next month | Volgende maand | Nächster Monat | Mois suivant | Mes siguiente
@@ -472,6 +490,7 @@ Fine dining, gastro-bistros, Michelin stars | Fine dining, gastrobistro’s, Mic
 What kind of bar? | Welk soort bar? | Was für eine Bar? | Quel genre de bar ? | ¿Qué tipo de bar?
 Signature drinks, mocktails | Signature drinks, mocktails | Signature-Drinks, Mocktails | Créations maison, mocktails | Cócteles de autor, mocktails
 Wine by the glass, small plates | Wijn per glas, kleine gerechtjes | Wein im Glas, kleine Teller | Vin au verre, petites assiettes | Vino por copas, platillos
+Petit grand café: bar bites, small plates, wine | Petit grand café: barhapjes, kleine gerechten, wijn | Petit grand café: Barsnacks, kleine Gerichte, Wein | Petit grand café : bouchées de bar, petites assiettes, vin | Petit grand café: tapas de barra, platos pequeños, vino
 Pints & sport | Pinten & sport | Pints & Sport | Pintes & sport | Pintas y deporte
 DJ, late nights | DJ, tot laat | DJ, lange Nächte | DJ, jusqu’au bout de la nuit | DJ, hasta tarde
 Terrace? | Terras? | Terrasse? | Terrasse ? | ¿Terraza?
@@ -532,7 +551,24 @@ Style | Stijl | Stil | Style | Estilo
 Kind of bar | Soort bar | Art der Bar | Type de bar | Tipo de bar
 What for | Waarvoor | Wofür | Pour quoi | Para qué
 Bread or sweet | Brood of zoet | Brot oder Süßes | Pain ou sucré | Pan o dulce
+# quiz: timing question (31 Oct 2026, preview-quiz-timing); Lunch / Dinner are in the hours section above
+Lunch or dinner? | Lunch of diner? | Mittag- oder Abendessen? | Déjeuner ou dîner ? | ¿Almuerzo o cena?
+Open around 12:00–14:00 | Open rond 12:00–14:00 | Geöffnet etwa 12:00–14:00 | Ouvert vers 12 h–14 h | Abierto hacia las 12:00–14:00
+Open around 19:00–21:00 | Open rond 19:00–21:00 | Geöffnet etwa 19:00–21:00 | Ouvert vers 19 h–21 h | Abierto hacia las 19:00–21:00
+Aperitif or after dinner? | Aperitief of na het eten? | Aperitif oder nach dem Essen? | Apéro ou après le dîner ? | ¿Aperitivo o después de cenar?
+Aperitif | Aperitief | Aperitif | Apéro | Aperitivo
+Open around 17:00–19:00 | Open rond 17:00–19:00 | Geöffnet etwa 17:00–19:00 | Ouvert vers 17 h–19 h | Abierto hacia las 17:00–19:00
+After dinner | Na het eten | Nach dem Essen | Après le dîner | Después de cenar
+Open late, from 22:00 | Laat open, vanaf 22:00 | Lange geöffnet, ab 22:00 | Ouvert tard, dès 22 h | Abierto hasta tarde, desde las 22:00
+Morning or afternoon? | Voormiddag of namiddag? | Vormittag oder Nachmittag? | Matin ou après-midi ? | ¿Por la mañana o por la tarde?
+Morning | Voormiddag | Vormittag | Matin | Mañana
+Open around 08:00–11:00 | Open rond 08:00–11:00 | Geöffnet etwa 08:00–11:00 | Ouvert vers 8 h–11 h | Abierto hacia las 08:00–11:00
+Afternoon | Namiddag | Nachmittag | Après-midi | Tarde
+Open around 14:00–17:00 | Open rond 14:00–17:00 | Geöffnet etwa 14:00–17:00 | Ouvert vers 14 h–17 h | Abierto hacia las 14:00–17:00
+Timing | Tijdstip | Uhrzeit | Moment | Momento
 ## forms
+Tell us where you’d like us to go next. | Vertel ons waar we hierna naartoe moeten. | Sag uns, wohin wir als Nächstes gehen sollen. | Dites-nous où vous aimeriez que nous allions ensuite. | Dinos adónde te gustaría que fuéramos después.
+So we can tell you when it’s live | Zodat we je kunnen laten weten wanneer de gids live staat | Damit wir dir Bescheid sagen können, sobald der Guide online ist | Pour vous prévenir dès que le guide est en ligne | Para avisarte cuando la guía esté lista
 Know a table we’re missing? Tell us about it. | Ken je een tafel die we missen? Vertel het ons. | Kennst du einen Tisch, der uns fehlt? Erzähl uns davon. | Vous connaissez une table qui nous manque ? Parlez-nous-en. | ¿Conoces una mesa que nos falta? Cuéntanoslo.
 Place name | Naam van de zaak | Name des Lokals | Nom de l’adresse | Nombre del sitio
 City | Stad | Stadt | Ville | Ciudad
@@ -589,13 +625,18 @@ Continue to {city} | Verder naar {city} | Weiter nach {city} | Continuer vers {c
 A curated guide, city by city | Een zorgvuldig samengestelde gids, stad per stad | Ein kuratierter Guide, Stadt für Stadt | Un guide choisi avec soin, ville par ville | Una guía seleccionada, ciudad a ciudad
 Where shall we | Waar gaan we | Wo essen wir | Où dîner | ¿Dónde cenamos
 dine tonight? | vanavond eten? | heute Abend? | ce soir ? | esta noche?
-We start in Belgium and grow, city by city, to every great food city in the world. | We beginnen in België en groeien, stad per stad, naar elke grote foodstad ter wereld. | Wir starten in Belgien und wachsen Stadt für Stadt – bis zu jeder großen Food-Stadt der Welt. | Nous commençons en Belgique et grandissons, ville par ville, vers toutes les grandes villes gourmandes du monde. | Empezamos en Bélgica y crecemos, ciudad a ciudad, hasta cada gran ciudad gastronómica del mundo.
-Explore Belgium | Ontdek België | Belgien entdecken | Explorer la Belgique | Explora Bélgica
+We start in Europe and grow, country by country and city by city, to every great food city in the world. | We beginnen in Europa en groeien, land per land en stad per stad, naar elke grote foodstad ter wereld. | Wir starten in Europa und wachsen Land für Land und Stadt für Stadt – bis zu jeder großen Food-Stadt der Welt. | Nous commençons en Europe et grandissons, pays par pays et ville par ville, vers toutes les grandes villes gourmandes du monde. | Empezamos en Europa y crecemos, país a país y ciudad a ciudad, hasta cada gran ciudad gastronómica del mundo.
+Explore Europe | Ontdek Europa | Europa entdecken | Explorer l’Europe | Explora Europa
+Europe | Europa | Europa | Europe | Europa
+Europe: choose a country | Europa: kies een land | Europa: wähle ein Land | Europe : choisissez un pays | Europa: elige un país
+Choose a country | Kies een land | Wähle ein Land | Choisissez un pays | Elige un país
+Soon as an app on the App Store and Google Play | Binnenkort als app in de App Store en Google Play | Bald als App im App Store und bei Google Play | Bientôt en app sur l’App Store et Google Play | Pronto como app en App Store y Google Play
 Drag to spin the globe · tap the gold light | Sleep om de wereldbol te draaien · tik op het gouden licht | Ziehen, um den Globus zu drehen · tippe auf das goldene Licht | Faites tourner le globe · touchez la lumière dorée | Arrastra para girar el globo · toca la luz dorada
 Choose your city | Kies je stad | Wähle deine Stadt | Choisissez votre ville | Elige tu ciudad
 More countries are on their way. | Er komen nog meer landen aan. | Weitere Länder folgen. | D’autres pays arrivent bientôt. | Pronto llegarán más países.
+Coming soon to the guide | Binnenkort in de gids | Bald im Guide | Bientôt dans le guide | Muy pronto en la guía
 Back to the globe | Terug naar de wereldbol | Zurück zum Globus | Retour au globe | Volver al globo
-Starting in Belgium, growing to every great food city in the world. | We starten in België en groeien naar elke grote foodstad ter wereld. | Start in Belgien, Wachstum bis zu jeder großen Food-Stadt der Welt. | D’abord la Belgique, puis toutes les grandes villes gourmandes du monde. | Empezando en Bélgica, creciendo hacia cada gran ciudad gastronómica del mundo.
+Starting in Europe, growing to every great food city in the world. | We starten in Europa en groeien naar elke grote foodstad ter wereld. | Start in Europa, Wachstum bis zu jeder großen Food-Stadt der Welt. | D’abord l’Europe, puis toutes les grandes villes gourmandes du monde. | Empezando en Europa, creciendo hacia cada gran ciudad gastronómica del mundo.
 Globe: NASA Earth Observatory, Black Marble & Blue Marble (public domain) · | Wereldbol: NASA Earth Observatory, Black Marble & Blue Marble (publiek domein) · | Globus: NASA Earth Observatory, Black Marble & Blue Marble (gemeinfrei) · | Globe : NASA Earth Observatory, Black Marble & Blue Marble (domaine public) · | Globo: NASA Earth Observatory, Black Marble y Blue Marble (dominio público) ·
 Photo credits | Fotocredits | Bildnachweise | Crédits photo | Créditos de las fotos
 Loading… | Laden… | Wird geladen… | Chargement… | Cargando…
@@ -653,7 +694,6 @@ Want to go | Wil ik heen | Will ich hin | À découvrir | Quiero ir
 Been here | Al geweest | Schon da gewesen | Déjà allé | Ya he ido
 Your score | Jouw score | Deine Bewertung | Votre note | Tu nota
 Your score: {n} | Jouw score: {n} | Deine Bewertung: {n} | Votre note : {n} | Tu nota: {n}
-Visited on | Bezocht op | Besucht am | Visité le | Visitado el
 Only you see this, on this device. | Alleen jij ziet dit, op dit toestel. | Nur du siehst das, auf diesem Gerät. | Vous seul le voyez, sur cet appareil. | Solo tú lo ves, en este dispositivo.
 Moved to Been here: give it your score on its page | Verplaatst naar Al geweest: geef je score op de pagina van het adres | Zu „Schon da gewesen“ verschoben: bewerte es auf seiner Seite | Déplacé vers Déjà allé : donnez votre note sur sa page | Movido a Ya he ido: ponle tu nota en su página
 Nothing on My table in {city} yet. Tap the logo on a place to add it, also offline. | Nog niets op Mijn tafel in {city}. Tik op het logo bij een adres om het toe te voegen, ook offline. | Noch nichts auf „Mein Tisch“ in {city}. Tippe bei einem Ort auf das Logo, um ihn hinzuzufügen, auch offline. | Rien encore sur Ma table à {city}. Touchez le logo d’une adresse pour l’ajouter, même hors ligne. | Aún no hay nada en Mi mesa en {city}. Toca el logo de un sitio para añadirlo, también sin conexión.
@@ -673,7 +713,7 @@ This event starts too soon for a reminder. | Dit event begint te snel voor een h
 Notifications are off for this app. Turn them on in your phone settings to get reminders. | Meldingen staan uit voor deze app. Zet ze aan in de instellingen van je telefoon om herinneringen te krijgen. | Mitteilungen sind für diese App aus. Schalte sie in den Telefoneinstellungen ein, um Erinnerungen zu bekommen. | Les notifications sont désactivées pour cette app. Activez-les dans les réglages du téléphone pour recevoir des rappels. | Las notificaciones están desactivadas para esta app. Actívalas en los ajustes del teléfono para recibir recordatorios.
 Open now, nearest first. Places without confirmed hours are left out. | Nu open, dichtstbij eerst. Adressen zonder bevestigde openingsuren staan er niet bij. | Jetzt offen, nächste zuerst. Orte ohne bestätigte Öffnungszeiten fehlen. | Ouvert maintenant, le plus proche d’abord. Les adresses sans horaires confirmés sont exclues. | Abierto ahora, el más cercano primero. Los sitios sin horario confirmado no aparecen.
 Location is off. Allow location to see what is open near you, or click the map to pick a starting point. | Locatie staat uit. Sta locatie toe om te zien wat er bij jou in de buurt open is, of klik op de kaart om een vertrekpunt te kiezen. | Standort ist aus. Erlaube den Standort, um zu sehen, was in deiner Nähe offen ist, oder klicke auf die Karte für einen Startpunkt. | La localisation est désactivée. Autorisez-la pour voir ce qui est ouvert près de vous, ou cliquez sur la carte pour choisir un point de départ. | La ubicación está desactivada. Permítela para ver qué está abierto cerca de ti, o haz clic en el mapa para elegir un punto de partida.
-My table (your Want to go and Been here places, with your own scores and visit dates) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used. | Mijn tafel (je adressen bij Wil ik heen en Al geweest, met je eigen scores en bezoekdata) en herinneringen voor events blijven ook alleen op je toestel: ze worden nooit naar ons of iemand anders gestuurd en werken offline. Herinneringen in de app zijn meldingen die je telefoon zelf inplant (op de website een agendabestand dat je downloadt); er wordt geen pushdienst gebruikt. | „Mein Tisch“ (deine Orte unter „Will ich hin“ und „Schon da gewesen“, mit deinen eigenen Bewertungen und Besuchsdaten) und Event-Erinnerungen bleiben ebenfalls nur auf deinem Gerät: Sie werden nie an uns oder andere gesendet und funktionieren offline. Erinnerungen in der App sind Mitteilungen, die dein Telefon selbst plant (auf der Website eine Kalenderdatei zum Herunterladen); es wird kein Push-Dienst genutzt. | Ma table (vos adresses À découvrir et Déjà allé, avec vos propres notes et dates de visite) et les rappels d’événements restent aussi uniquement sur votre appareil : ils ne nous sont jamais envoyés, ni à personne d’autre, et fonctionnent hors ligne. Dans l’app, les rappels sont des notifications programmées par votre téléphone lui-même (sur le site, un fichier calendrier à télécharger) ; aucun service push n’est utilisé. | Mi mesa (tus sitios en Quiero ir y Ya he ido, con tus propias notas y fechas de visita) y los recordatorios de eventos también se quedan solo en tu dispositivo: nunca se nos envían a nosotros ni a nadie, y funcionan sin conexión. En la app, los recordatorios son notificaciones que programa tu propio teléfono (en la web, un archivo de calendario que descargas); no se usa ningún servicio push.
+My table (your Want to go and Been here places, with your own scores) and event reminders are also kept only on your device: they are never sent to us or anyone else, and they work offline. Reminders in the app are notifications scheduled by your phone itself (on the website, a calendar file you download); no push service is used. | Mijn tafel (je adressen bij Wil ik heen en Al geweest, met je eigen scores) en herinneringen voor events blijven ook alleen op je toestel: ze worden nooit naar ons of iemand anders gestuurd en werken offline. Herinneringen in de app zijn meldingen die je telefoon zelf inplant (op de website een agendabestand dat je downloadt); er wordt geen pushdienst gebruikt. | „Mein Tisch“ (deine Orte unter „Will ich hin“ und „Schon da gewesen“, mit deinen eigenen Bewertungen) und Event-Erinnerungen bleiben ebenfalls nur auf deinem Gerät: Sie werden nie an uns oder andere gesendet und funktionieren offline. Erinnerungen in der App sind Mitteilungen, die dein Telefon selbst plant (auf der Website eine Kalenderdatei zum Herunterladen); es wird kein Push-Dienst genutzt. | Ma table (vos adresses À découvrir et Déjà allé, avec vos propres notes) et les rappels d’événements restent aussi uniquement sur votre appareil : ils ne nous sont jamais envoyés, ni à personne d’autre, et fonctionnent hors ligne. Dans l’app, les rappels sont des notifications programmées par votre téléphone lui-même (sur le site, un fichier calendrier à télécharger) ; aucun service push n’est utilisé. | Mi mesa (tus sitios en Quiero ir y Ya he ido, con tus propias notas) y los recordatorios de eventos también se quedan solo en tu dispositivo: nunca se nos envían a nosotros ni a nadie, y funcionan sin conexión. En la app, los recordatorios son notificaciones que programa tu propio teléfono (en la web, un archivo de calendario que descargas); no se usa ningún servicio push.
 
 ## 'Want to go with…' invite (js/features.js D) + privacy addition
 Want to go with… | Wil ik heen met… | Will ich hin mit… | À découvrir avec… | Quiero ir con…
@@ -696,6 +736,15 @@ Added to Want to go, with {name} | Bij Wil ik heen gezet, met {name} | Zu „Wil
 Added to Want to go | Bij Wil ik heen gezet | Zu „Will ich hin“ hinzugefügt | Ajouté à À découvrir | Añadido a Quiero ir
 With “Want to go with…” you can send a friend a link to a place. The first name you type is only put in that link and stored on your device; it is never sent to us. | Met “Wil ik heen met…” stuur je iemand een link naar een adres. De voornaam die je typt staat alleen in die link en wordt op je toestel bewaard; hij wordt nooit naar ons gestuurd. | Mit „Will ich hin mit…“ schickst du jemandem einen Link zu einem Ort. Der Vorname, den du eingibst, steht nur in diesem Link und wird auf deinem Gerät gespeichert; er wird nie an uns gesendet. | Avec « À découvrir avec… », vous envoyez à un ami le lien d’une adresse. Le prénom que vous saisissez figure seulement dans ce lien et est enregistré sur votre appareil ; il ne nous est jamais envoyé. | Con «Quiero ir con…» envías a alguien un enlace a un sitio. El nombre que escribes solo va en ese enlace y se guarda en tu dispositivo; nunca se nos envía.
 Several names? Separate them with a comma. The one link works for all of them. | Meerdere namen? Scheid ze met een komma. Eén link werkt voor iedereen. | Mehrere Namen? Trenne sie mit einem Komma. Ein Link gilt für alle. | Plusieurs prénoms ? Séparez-les par une virgule. Un seul lien suffit pour tous. | ¿Varios nombres? Sepáralos con una coma. Un solo enlace sirve para todos.
+## 'Want to go with…': own name remembered, people you invited (js/features.js D)
+Sending as | Je verstuurt als | Du sendest als | Envoyé par | Lo envías como
+Change | Wijzigen | Ändern | Modifier | Cambiar
+Saved on this device, so you only type it once. | Wordt op dit toestel bewaard, zodat je hem maar één keer typt. | Wird auf diesem Gerät gespeichert, du gibst ihn nur einmal ein. | Enregistré sur cet appareil : vous ne le saisissez qu’une fois. | Se guarda en este dispositivo, así solo lo escribes una vez.
+Choose from people you invited | Kies uit wie je al uitnodigde | Aus bisher Eingeladenen wählen | Choisir parmi vos invités | Elige entre quienes ya invitaste
+People you invited | Mensen die je uitnodigde | Von dir Eingeladene | Personnes invitées | Personas que invitaste
+Remove {name} from this list | Verwijder {name} uit deze lijst | {name} aus dieser Liste entfernen | Retirer {name} de cette liste | Quitar a {name} de esta lista
+{name} removed from your list | {name} verwijderd uit je lijst | {name} aus deiner Liste entfernt | {name} retiré de votre liste | {name} quitado de tu lista
+Only your name goes in the link. Names are kept on this device, never sent to us. | Alleen je eigen naam staat in de link. Namen blijven op dit toestel en worden nooit naar ons gestuurd. | Nur dein Name steht im Link. Namen bleiben auf diesem Gerät und werden nie an uns gesendet. | Seul votre prénom figure dans le lien. Les prénoms restent sur cet appareil et ne nous sont jamais envoyés. | Solo tu nombre va en el enlace. Los nombres se quedan en este dispositivo y nunca se nos envían.
 Previous | Vorige | Vorherige | Précédent | Anterior
 Next | Volgende | Nächste | Suivant | Siguiente
 ## short footer + about sources (preview-footer)
@@ -707,3 +756,185 @@ MICHELIN Guide, Gault&Millau, the places’ own websites and local press. | MICH
 Base list: | Basislijst: | Basisliste: | Liste de base : | Lista base:
 Veggie levels: our own checks plus HappyCow. | Veggie-niveaus: eigen controles plus HappyCow. | Veggie-Stufen: eigene Prüfungen plus HappyCow. | Niveaux veggie : nos propres vérifications et HappyCow. | Niveles veggie: comprobaciones propias y HappyCow.
 Ratings: Google, shown as a score out of 10. | Beoordelingen: Google, getoond als score op 10. | Bewertungen: Google, als Wert von 10 angezeigt. | Notes : Google, affichées sur 10. | Valoraciones: Google, mostradas como nota sobre 10.
+## private chefs page (privatechef.html, js/privatechef.js) + entry points (nav drawer, last 'Choose your table' card, Suggest type)
+Private chefs | Privéchefs | Private Chefs | Chefs à domicile | Chefs privados
+Private chef | Privéchef | Private Chef | Chef à domicile | Chef privado
+At your home | Bij jou thuis | Bei dir zu Hause | Chez vous | En tu casa
+Private chefs, at your home | Privéchefs, bij jou thuis | Private Chefs, bei dir zu Hause | Chefs à domicile, chez vous | Chefs privados, en tu casa
+Private chefs — Table and the City | Privéchefs — Table and the City | Private Chefs — Table and the City | Chefs à domicile — Table and the City | Chefs privados — Table and the City
+Private chefs · {city} — Table and the City | Privéchefs · {city} — Table and the City | Private Chefs · {city} — Table and the City | Chefs à domicile · {city} — Table and the City | Chefs privados · {city} — Table and the City
+Independent private chefs and chef-at-home services per city: style, area, group size and prices as published on their own websites. | Onafhankelijke privéchefs en koks aan huis per stad: stijl, regio, groepsgrootte en prijzen zoals ze die zelf op hun website publiceren. | Unabhängige Private Chefs und Köche für zu Hause pro Stadt: Stil, Gebiet, Gruppengröße und Preise, wie sie sie auf ihrer eigenen Website veröffentlichen. | Chefs à domicile indépendants, ville par ville : style, zone, taille du groupe et prix tels qu’ils les publient sur leur propre site. | Chefs privados independientes por ciudad: estilo, zona, tamaño del grupo y precios tal como los publican en su propia web.
+Chefs who cook at your home or on location, with what they publish on their own websites. | Chefs die bij jou thuis of op locatie koken, met wat ze zelf op hun website vermelden. | Köche, die bei dir zu Hause oder vor Ort kochen, mit dem, was sie auf ihrer eigenen Website angeben. | Des chefs qui cuisinent chez vous ou sur place, avec ce qu’ils publient sur leur propre site. | Chefs que cocinan en tu casa o en el lugar que elijas, con lo que publican en su propia web.
+{n} private chefs in {city} | {n} privéchefs in {city} | {n} Private Chefs in {city} | {n} chefs à domicile à {city} | {n} chefs privados en {city}
+No private chefs listed for {city} yet. | Nog geen privéchefs voor {city}. | Für {city} sind noch keine Private Chefs eingetragen. | Aucun chef à domicile pour {city} pour l’instant. | Todavía no hay chefs privados en {city}.
+Chef | Chef | Koch | Chef | Chef
+Serves | Werkt in | Gebiet | Se déplace | Zona
+Based in | Gevestigd in | Sitz in | Basé à | Con base en
+Guests | Gasten | Gäste | Convives | Comensales
+Call | Bellen | Anrufen | Appeler | Llamar
+Also in the guide | Ook in de gids | Auch im Guide | Aussi dans le guide | También en la guía
+Website of {raw} | Website van {raw} | Website von {raw} | Site web de {raw} | Web de {raw}
+Prices, group sizes and areas as published by each chef on the date checked; always confirm with the chef. Photos come from the chefs’ own websites; no photo, then a monogram. | Prijzen, groepsgroottes en regio’s zoals elke chef ze publiceerde op de datum van controle; bevestig altijd bij de chef zelf. Foto’s komen van de eigen websites van de chefs; zonder foto tonen we een monogram. | Preise, Gruppengrößen und Gebiete, wie jeder Koch sie am Prüfdatum veröffentlicht hat; bitte immer direkt beim Koch bestätigen. Fotos stammen von den eigenen Websites der Köche; ohne Foto zeigen wir ein Monogramm. | Prix, tailles de groupe et zones tels que publiés par chaque chef à la date de vérification ; confirmez toujours auprès du chef. Les photos viennent des sites des chefs ; sans photo, un monogramme. | Precios, tamaños de grupo y zonas tal como los publicó cada chef en la fecha de comprobación; confírmalo siempre con el chef. Las fotos son de las webs de los propios chefs; sin foto, un monograma.
+Are you a private chef? | Ben je privéchef? | Bist du Private Chef? | Vous êtes chef à domicile ? | ¿Eres chef privado?
+Get listed | Kom erbij | Eintragen lassen | Être référencé | Aparece aquí
+
+## private chefs: 'What they do' tiles (only services stated on the chef's own website)
+What they do | Wat ze doen | Was sie anbieten | Ce qu’ils proposent | Qué ofrecen
+Menu made to measure | Menu op maat | Menü nach Maß | Menu sur mesure | Menú a medida
+Does the shopping | Doet de boodschappen | Kauft ein | Fait les courses | Hace la compra
+Brings tableware | Brengt servies mee | Bringt Geschirr mit | Apporte la vaisselle | Trae la vajilla
+Serves at table | Bediening aan tafel | Service am Tisch | Service à table | Servicio en la mesa
+Cleans up after | Ruimt achteraf op | Räumt danach auf | Nettoie après | Recoge al final
+Vegetarian menu | Vegetarisch menu | Vegetarisches Menü | Menu végétarien | Menú vegetariano
+Vegan menu | Veganistisch menu | Veganes Menü | Menu végan | Menú vegano
+Allergies & diets | Allergieën & diëten | Allergien & Diäten | Allergies & régimes | Alergias y dietas
+Kids’ menu | Kindermenu | Kindermenü | Menu enfant | Menú infantil
+Matching wines | Aangepaste wijnen | Passende Weine | Accords mets-vins | Maridaje de vinos
+Wine list | Wijnkaart | Weinkarte | Carte des vins | Carta de vinos
+Wine tasting | Wijndegustatie | Weinverkostung | Dégustation de vins | Cata de vinos
+Cooking class | Kookworkshop | Kochkurs | Cours de cuisine | Clase de cocina
+Walking dinner | Walking dinner | Walking Dinner | Walking dinner | Walking dinner
+Buffet | Buffet | Buffet | Buffet | Bufé
+Barbecue | Barbecue | Grillen | Barbecue | Barbacoa
+Business dinners | Zakendiners | Geschäftsessen | Dîners d’affaires | Cenas de empresa
+Dinner at the chef’s place | Diner bij de chef | Essen beim Koch | Dîner chez le chef | Cena en casa del chef
+
+## private chefs: photo slot (2+ photos per chef)
+{n} photos, swipe for more | {n} foto’s, swipe voor meer | {n} Fotos, wischen für mehr | {n} photos, faites glisser pour en voir plus | {n} fotos, desliza para ver más
+
+## merged category tabs (31 Oct 2026, preview-merge-cats): Veggie & vegan · Breakfast, brunch & coffee · Bars & live music
+Breakfast, brunch & coffee | Ontbijt, brunch & koffie | Frühstück, Brunch & Kaffee | Petit-déj, brunch & café | Desayuno, brunch y café
+breakfast, brunch & coffee | ontbijt, brunch & koffie | Frühstück, Brunch & Kaffee | petit-déj, brunch & café | desayuno, brunch y café
+Bars & live music | Cafés & livemuziek | Bars & Livemusik | Bars & musique live | Bares y música en directo
+bars & live music | cafés & livemuziek | Bars & Livemusik | bars & musique live | bares y música en directo
+veggie & vegan | veggie & vegan | Veggie & vegan | végé & vegan | veggie y vegano
+100% vegetarian | 100% vegetarisch | 100 % vegetarisch | 100 % végétarien | 100 % vegetariano
+{x} in {city} | {x} in {city} | {x} in {city} | {x} à {city} | {x} en {city}
+View this photo on Instagram | Bekijk deze foto op Instagram | Dieses Foto auf Instagram ansehen | Voir cette photo sur Instagram | Ver esta foto en Instagram
+Instagram post | Instagram-post | Instagram-Beitrag | Publication Instagram | Publicación de Instagram
+## promote your place (promote.html + promote-thanks.html, js/promote.js, js/promote-config.js; preview, noindex, not linked)
+Promote your place | Promoot je zaak | Bewerben Sie Ihr Lokal | Faites connaître votre adresse | Promociona tu local
+Promote your place — Table and the City | Promoot je zaak — Table and the City | Bewerben Sie Ihr Lokal — Table and the City | Faites connaître votre adresse — Table and the City | Promociona tu local — Table and the City
+Promote your place · {city} — Table and the City | Promoot je zaak · {city} — Table and the City | Bewerben Sie Ihr Lokal · {city} — Table and the City | Faites connaître votre adresse · {city} — Table and the City | Promociona tu local · {city} — Table and the City
+Put your place in front of people choosing where to eat and drink: top of the list, top of the city page and Instagram on @tableandthecity. Book and pay online. | Breng je zaak onder de aandacht van mensen die kiezen waar ze gaan eten en drinken: bovenaan de lijst, bovenaan de stadspagina en op Instagram via @tableandthecity. Online boeken en betalen. | Zeigen Sie Ihr Lokal Menschen, die gerade entscheiden, wo sie essen und trinken: oben in der Liste, oben auf der Stadtseite und auf Instagram bei @tableandthecity. Online buchen und bezahlen. | Montrez votre adresse à ceux qui choisissent où manger et boire : en tête de liste, en haut de la page de la ville et sur Instagram via @tableandthecity. Réservez et payez en ligne. | Muestra tu local a quien elige dónde comer y beber: arriba de la lista, arriba de la página de la ciudad y en Instagram con @tableandthecity. Reserva y paga online.
+Table and the City is a new kind of TripAdvisor that only lists good independent places. People filter by city, category and mood, or let the Find my table quiz choose for them. Put your place in front of them while they decide where to go. | Table and the City is een nieuw soort TripAdvisor met alleen goede, onafhankelijke zaken. Mensen filteren op stad, categorie en sfeer, of laten de Vind mijn tafel-quiz voor hen kiezen. Breng je zaak onder hun aandacht terwijl ze beslissen waar ze naartoe gaan. | Table and the City ist eine neue Art TripAdvisor, nur mit guten, unabhängigen Lokalen. Man filtert nach Stadt, Kategorie und Stimmung oder lässt das Finde-meinen-Tisch-Quiz wählen. Zeigen Sie Ihr Lokal genau dann, wenn entschieden wird, wohin es geht. | Table and the City est une sorte de nouveau TripAdvisor qui ne référence que de bonnes adresses indépendantes. On filtre par ville, catégorie et ambiance, ou on laisse le quiz Trouver ma table choisir. Montrez votre adresse au moment où l’on décide où aller. | Table and the City es un nuevo tipo de TripAdvisor que solo recoge buenos locales independientes. La gente filtra por ciudad, categoría y ambiente, o deja que el test Encuentra mi mesa elija por ella. Muestra tu local justo cuando deciden adónde ir.
+Promote in | Promoten in | Bewerben in | Promouvoir à | Promocionar en
+On the guide | In de gids | Im Guide | Dans le guide | En la guía
+On Instagram | Op Instagram | Auf Instagram | Sur Instagram | En Instagram
+On @tableandthecity, one account for all our cities. | Op @tableandthecity, één account voor al onze steden. | Auf @tableandthecity, ein Konto für alle unsere Städte. | Sur @tableandthecity, un seul compte pour toutes nos villes. | En @tableandthecity, una sola cuenta para todas nuestras ciudades.
+Bundle | Bundel | Paket | Formule groupée | Pack
+How it works | Hoe het werkt | So funktioniert’s | Comment ça marche | Cómo funciona
+Choose | Kiezen | Wählen | Choisir | Elegir
+Pick your city, your place, a package and a free month. | Kies je stad, je zaak, een pakket en een vrije maand. | Wählen Sie Ihre Stadt, Ihr Lokal, ein Paket und einen freien Monat. | Choisissez votre ville, votre adresse, une formule et un mois libre. | Elige tu ciudad, tu local, un paquete y un mes libre.
+Pay | Betalen | Bezahlen | Payer | Pagar
+Pay securely with Stripe and add your Instagram handle and any notes. | Betaal veilig via Stripe en vul je Instagram-naam en eventuele opmerkingen in. | Sicher über Stripe bezahlen und Ihren Instagram-Namen und eventuelle Hinweise angeben. | Payez en toute sécurité avec Stripe et ajoutez votre compte Instagram et vos remarques éventuelles. | Paga de forma segura con Stripe y añade tu cuenta de Instagram y tus notas.
+Go live | Live | Live gehen | En ligne | Publicación
+We check the fit, confirm by email within two working days and schedule it. | We bekijken of het past, bevestigen per e-mail binnen twee werkdagen en plannen het in. | Wir prüfen, ob es passt, bestätigen innerhalb von zwei Werktagen per E-Mail und planen es ein. | Nous vérifions que votre adresse correspond, confirmons par e-mail sous deux jours ouvrables et planifions la publication. | Comprobamos que encaja, lo confirmamos por correo en dos días laborables y lo programamos.
+Terms in short | Voorwaarden in het kort | Bedingungen in Kürze | Conditions en bref | Condiciones en breve
+What you get | Wat je krijgt | Was Sie bekommen | Ce que vous obtenez | Qué recibes
+Exactly what the package says. Promoted places are always marked Promoted on the guide, and Instagram content carries Instagram’s paid partnership label. | Precies wat er in het pakket staat. Gepromote zaken staan in de gids altijd gemarkeerd als Gepromoot, en Instagram-content krijgt Instagrams label voor betaald partnerschap. | Genau das, was im Paket steht. Beworbene Lokale sind im Guide immer als Gesponsert gekennzeichnet, Instagram-Inhalte tragen Instagrams Label für bezahlte Partnerschaften. | Exactement ce que prévoit la formule. Les adresses promues sont toujours signalées Sponsorisé dans le guide, et les contenus Instagram portent la mention partenariat rémunéré d’Instagram. | Exactamente lo que dice el paquete. Los locales promocionados siempre aparecen marcados como Promocionado en la guía, y el contenido de Instagram lleva la etiqueta de colaboración pagada de Instagram.
+When it runs | Wanneer | Wann es läuft | Quand | Cuándo
+Only places that fit | Alleen zaken die passen | Nur Lokale, die passen | Seulement des adresses qui correspondent | Solo locales que encajan
+We only promote good independent places: no chains, no fast food or junk food. We may decline a place that does not fit the guide; if we do, you get a full refund. | We promoten alleen goede, onafhankelijke zaken: geen ketens, geen fastfood of junkfood. We kunnen een zaak weigeren die niet bij de gids past; dan krijg je je geld volledig terug. | Wir bewerben nur gute, unabhängige Lokale: keine Ketten, kein Fast Food oder Junk Food. Wir können ein Lokal ablehnen, das nicht zum Guide passt; dann erstatten wir den vollen Betrag. | Nous ne promouvons que de bonnes adresses indépendantes : pas de chaînes, pas de fast-food ni de malbouffe. Nous pouvons refuser une adresse qui ne correspond pas au guide ; dans ce cas, vous êtes remboursé intégralement. | Solo promocionamos buenos locales independientes: nada de cadenas, comida rápida ni comida basura. Podemos rechazar un local que no encaje en la guía; en ese caso te devolvemos el importe completo.
+Your content | Jouw content | Ihre Inhalte | Votre contenu | Tu contenido
+Send us photos you own the rights to. We write the text in our own voice and check the facts with you before it goes up. | Stuur ons foto’s waarvan jij de rechten hebt. Wij schrijven de tekst in onze eigen stijl en checken de feiten met jou voor publicatie. | Schicken Sie uns Fotos, an denen Sie die Rechte haben. Wir schreiben den Text in unserem eigenen Ton und prüfen die Fakten vor der Veröffentlichung mit Ihnen. | Envoyez-nous des photos dont vous détenez les droits. Nous écrivons le texte avec notre propre ton et vérifions les faits avec vous avant publication. | Envíanos fotos de las que tengas los derechos. Escribimos el texto con nuestra propia voz y revisamos los datos contigo antes de publicarlo.
+Independence | Onafhankelijkheid | Unabhängigkeit | Indépendance | Independencia
+Paying never changes ratings, other places or what we write. If your place is not in the guide yet, we check it first and add it for free when it fits. | Betalen verandert nooit iets aan scores, andere zaken of wat we schrijven. Staat je zaak nog niet in de gids, dan bekijken we ze eerst en voegen we ze gratis toe als ze past. | Bezahlen ändert nie Bewertungen, andere Lokale oder das, was wir schreiben. Ist Ihr Lokal noch nicht im Guide, prüfen wir es zuerst und nehmen es kostenlos auf, wenn es passt. | Payer ne change jamais les notes, les autres adresses ni ce que nous écrivons. Si votre adresse n’est pas encore dans le guide, nous la vérifions d’abord et l’ajoutons gratuitement si elle correspond. | Pagar nunca cambia las puntuaciones, los demás locales ni lo que escribimos. Si tu local aún no está en la guía, primero lo revisamos y lo añadimos gratis si encaja.
+Cancelling | Annuleren | Stornieren | Annulation | Cancelación
+Questions | Vragen | Fragen | Questions | Preguntas
+All prices in euro, excl. 21% VAT (BTW); the amount incl. VAT is shown under each price. You get an invoice from Stripe. Pay by card, Bancontact, Apple Pay or Google Pay. | Alle prijzen in euro, excl. 21% btw; het bedrag incl. btw staat onder elke prijs. Je krijgt een factuur via Stripe. Betaal met kaart, Bancontact, Apple Pay of Google Pay. | Alle Preise in Euro, zzgl. 21 % MwSt. (BTW); der Betrag inkl. MwSt. steht unter jedem Preis. Sie erhalten eine Rechnung über Stripe. Zahlung per Karte, Bancontact, Apple Pay oder Google Pay. | Tous les prix en euros, hors TVA de 21 % ; le montant TVA comprise figure sous chaque prix. Vous recevez une facture via Stripe. Paiement par carte, Bancontact, Apple Pay ou Google Pay. | Todos los precios en euros, sin el 21 % de IVA; el importe con IVA aparece bajo cada precio. Recibes una factura de Stripe. Paga con tarjeta, Bancontact, Apple Pay o Google Pay.
+Top of the list | Bovenaan de lijst | Oben in der Liste | En tête de liste | Arriba de la lista
+Top of the city page | Bovenaan de stadspagina | Oben auf der Stadtseite | En haut de la page de la ville | Arriba de la página de la ciudad
+Instagram story | Instagram-story | Instagram-Story | Story Instagram | Historia de Instagram
+A story on @tableandthecity about your place, with a link sticker to your website or booking page. | Een story op @tableandthecity over je zaak, met een linksticker naar je website of reserveringspagina. | Eine Story auf @tableandthecity über Ihr Lokal, mit Link-Sticker zu Ihrer Website oder Reservierungsseite. | Une story sur @tableandthecity consacrée à votre adresse, avec un sticker lien vers votre site ou votre page de réservation. | Una historia en @tableandthecity sobre tu local, con un sticker de enlace a tu web o página de reservas.
+Shared Instagram post | Gedeelde Instagram-post | Geteilter Instagram-Beitrag | Publication Instagram partagée | Post de Instagram compartido
+Your place in a feed post with a few other good places, around a theme like new openings or brunch. | Je zaak in een feedpost met enkele andere goede zaken, rond een thema zoals nieuwe openingen of brunch. | Ihr Lokal in einem Feed-Beitrag mit einigen anderen guten Lokalen, zu einem Thema wie Neueröffnungen oder Brunch. | Votre adresse dans une publication avec quelques autres bonnes adresses, autour d’un thème comme les nouveautés ou le brunch. | Tu local en un post con algunos otros buenos locales, en torno a un tema como nuevas aperturas o brunch.
+Your own Instagram post | Je eigen Instagram-post | Ihr eigener Instagram-Beitrag | Votre propre publication Instagram | Tu propio post de Instagram
+One feed post fully about your place: photos, a short text and your handle tagged. | Eén feedpost helemaal over je zaak: foto’s, een korte tekst en je account getagd. | Ein Feed-Beitrag ganz über Ihr Lokal: Fotos, ein kurzer Text und Ihr Konto markiert. | Une publication entièrement consacrée à votre adresse : photos, un court texte et votre compte identifié. | Un post dedicado por completo a tu local: fotos, un texto breve y tu cuenta etiquetada.
+24 hours | 24 uur | 24 Stunden | 24 heures | 24 horas
+Stays on the profile | Blijft op het profiel | Bleibt im Profil | Reste sur le profil | Se queda en el perfil
+Marked Promoted, with your photo and details | Gemarkeerd als Gepromoot, met je foto en gegevens | Gekennzeichnet als Gesponsert, mit Ihrem Foto und Ihren Angaben | Signalée Sponsorisé, avec votre photo et vos infos | Marcado como Promocionado, con tu foto y tus datos
+Your photo, name and type, linked to your page in the guide | Je foto, naam en type, met een link naar je pagina in de gids | Ihr Foto, Name und Typ, verlinkt mit Ihrer Seite im Guide | Votre photo, votre nom et votre type, avec un lien vers votre page dans le guide | Tu foto, nombre y tipo, enlazados a tu página en la guía
+One story, live for 24 hours | Eén story, 24 uur online | Eine Story, 24 Stunden online | Une story, en ligne 24 heures | Una historia, publicada 24 horas
+A link sticker to your website or booking page | Een linksticker naar je website of reserveringspagina | Ein Link-Sticker zu Ihrer Website oder Reservierungsseite | Un sticker lien vers votre site ou votre page de réservation | Un sticker de enlace a tu web o página de reservas
+Your handle tagged | Je account getagd | Ihr Konto markiert | Votre compte identifié | Tu cuenta etiquetada
+Your place in a carousel with three to five good places | Je zaak in een carrousel met drie tot vijf goede zaken | Ihr Lokal in einem Karussell mit drei bis fünf guten Lokalen | Votre adresse dans un carrousel de trois à cinq bonnes adresses | Tu local en un carrusel con tres a cinco buenos locales
+Your photo, one line about you and your handle tagged | Je foto, één zin over je zaak en je account getagd | Ihr Foto, ein Satz über Sie und Ihr Konto markiert | Votre photo, une phrase sur vous et votre compte identifié | Tu foto, una frase sobre ti y tu cuenta etiquetada
+Stays on our profile | Blijft op ons profiel | Bleibt in unserem Profil | Reste sur notre profil | Se queda en nuestro perfil
+Up to ten photos of your place in one carousel | Tot tien foto’s van je zaak in één carrousel | Bis zu zehn Fotos Ihres Lokals in einem Karussell | Jusqu’à dix photos de votre adresse dans un carrousel | Hasta diez fotos de tu local en un carrusel
+A short text in our own voice, facts checked with you | Een korte tekst in onze eigen stijl, feiten gecheckt met jou | Ein kurzer Text in unserem eigenen Ton, Fakten mit Ihnen geprüft | Un court texte avec notre propre ton, faits vérifiés avec vous | Un texto breve con nuestra propia voz, datos revisados contigo
+A collab invite, so it can show on your profile too | Een collab-uitnodiging, zodat de post ook op jouw profiel kan staan | Eine Collab-Einladung, damit der Beitrag auch in Ihrem Profil erscheinen kann | Une invitation collab, pour qu’elle puisse aussi apparaître sur votre profil | Una invitación de colaboración, para que también pueda salir en tu perfil
+One Instagram story | Eén Instagram-story | Eine Instagram-Story | Une story Instagram | Una historia de Instagram
+Promoted | Gepromoot | Gesponsert | Sponsorisé | Promocionado
+excl. VAT | excl. btw | zzgl. MwSt. | HTVA | sin IVA
+{p} incl. {v}% VAT | {p} incl. {v}% btw | {p} inkl. {v} % MwSt. | {p} TVAC ({v} %) | {p} con {v} % de IVA
+Buy now | Nu kopen | Jetzt kaufen | Acheter | Comprar
+Coming soon | Binnenkort | Demnächst | Bientôt disponible | Próximamente
+Thank you — Table and the City | Bedankt — Table and the City | Danke — Table and the City | Merci — Table and the City | Gracias — Table and the City
+Thank you for promoting your place on Table and the City. | Bedankt om je zaak te promoten op Table and the City. | Danke, dass Sie Ihr Lokal auf Table and the City bewerben. | Merci de promouvoir votre adresse sur Table and the City. | Gracias por promocionar tu local en Table and the City.
+Thank you, your promotion is booked | Bedankt, je promotie is geboekt | Danke, Ihre Werbung ist gebucht | Merci, votre promotion est réservée | Gracias, tu promoción está reservada
+Your payment went through. Stripe sends your receipt and invoice by email. | Je betaling is gelukt. Stripe stuurt je betaalbewijs en factuur per e-mail. | Ihre Zahlung ist eingegangen. Stripe schickt Ihnen Beleg und Rechnung per E-Mail. | Votre paiement est validé. Stripe vous envoie le reçu et la facture par e-mail. | Tu pago se ha completado. Stripe te envía el recibo y la factura por correo.
+What happens next | Wat er nu gebeurt | Wie es weitergeht | La suite | Qué pasa ahora
+We check the fit | We bekijken of het past | Wir prüfen, ob es passt | Nous vérifions que cela correspond | Comprobamos que encaja
+We look at your place within two working days. If it does not fit the guide, you get a full refund. | We bekijken je zaak binnen twee werkdagen. Past ze niet in de gids, dan krijg je je geld volledig terug. | Wir sehen uns Ihr Lokal innerhalb von zwei Werktagen an. Passt es nicht zum Guide, erstatten wir den vollen Betrag. | Nous examinons votre adresse sous deux jours ouvrables. Si elle ne correspond pas au guide, vous êtes remboursé intégralement. | Revisamos tu local en dos días laborables. Si no encaja en la guía, te devolvemos el importe completo.
+We confirm by email | We bevestigen per e-mail | Wir bestätigen per E-Mail | Nous confirmons par e-mail | Lo confirmamos por correo
+With your start date, or the first free slot after the date you asked for. | Met je startdatum, of het eerste vrije moment na de datum die je vroeg. | Mit Ihrem Startdatum oder dem ersten freien Termin nach Ihrem Wunschdatum. | Avec votre date de début, ou le premier créneau libre après la date demandée. | Con tu fecha de inicio, o el primer hueco libre tras la fecha que pediste.
+Send us your photos | Stuur ons je foto’s | Schicken Sie uns Ihre Fotos | Envoyez-nous vos photos | Envíanos tus fotos
+For Instagram, reply with photos you own the rights to. We write the text and check the facts with you. | Voor Instagram antwoord je met foto’s waarvan jij de rechten hebt. Wij schrijven de tekst en checken de feiten met jou. | Für Instagram antworten Sie mit Fotos, an denen Sie die Rechte haben. Wir schreiben den Text und prüfen die Fakten mit Ihnen. | Pour Instagram, répondez avec des photos dont vous détenez les droits. Nous écrivons le texte et vérifions les faits avec vous. | Para Instagram, responde con fotos de las que tengas los derechos. Escribimos el texto y revisamos los datos contigo.
+Questions? info@tableandthecity.com | Vragen? info@tableandthecity.com | Fragen? info@tableandthecity.com | Des questions ? info@tableandthecity.com | ¿Preguntas? info@tableandthecity.com
+Choose your place, a package and a free month, then pay online. Guide packages are monthly and can be cancelled any time. No emails back and forth: we check the fit and confirm within two working days. | Kies je zaak, een pakket en een vrije maand en betaal online. Pakketten in de gids zijn maandelijks en altijd opzegbaar. Geen gemail heen en weer: we kijken of je zaak past en bevestigen binnen twee werkdagen. | Wählen Sie Ihr Lokal, ein Paket und einen freien Monat und bezahlen Sie online. Pakete im Guide laufen monatlich und sind jederzeit kündbar. Kein Hin und Her per E-Mail: Wir prüfen, ob Ihr Lokal passt, und bestätigen innerhalb von zwei Werktagen. | Choisissez votre adresse, une formule et un mois libre, puis payez en ligne. Les formules du guide sont mensuelles et résiliables à tout moment. Pas d’allers-retours par e-mail : nous vérifions que votre adresse convient et confirmons sous deux jours ouvrables. | Elige tu local, un paquete y un mes libre y paga en línea. Los paquetes de la guía son mensuales y se pueden cancelar en cualquier momento. Sin correos de ida y vuelta: comprobamos que tu local encaja y confirmamos en dos días laborables.
+Placements on the website and in the app, per month. | Plaatsingen op de website en in de app, per maand. | Platzierungen auf der Website und in der App, pro Monat. | Emplacements sur le site et dans l’app, au mois. | Espacios en la web y en la app, por meses.
+Placements on the website and in the app, per month, in {city}. | Plaatsingen op de website en in de app, per maand, in {city}. | Platzierungen auf der Website und in der App, pro Monat, in {city}. | Emplacements sur le site et dans l’app, au mois, à {city}. | Espacios en la web y en la app, por meses, en {city}.
+The guide and Instagram together every month, for less. | De gids en Instagram samen, elke maand, voordeliger. | Guide und Instagram jeden Monat zusammen, günstiger. | Le guide et Instagram ensemble chaque mois, pour moins cher. | La guía e Instagram juntos cada mes, por menos.
+Guide packages and the bundle are monthly subscriptions: they start in the month you pick and renew every month until you cancel; you pay the first month at checkout. The calendar shows which months and spots are still free. Instagram content goes up in the month you pick, on a date we agree with you. | Pakketten in de gids en de bundel zijn maandabonnementen: ze starten in de maand die je kiest en lopen elke maand door tot je opzegt; de eerste maand betaal je bij het afrekenen. De kalender toont welke maanden en plaatsen nog vrij zijn. Instagram-content verschijnt in de maand die je kiest, op een datum die we met je afspreken. | Pakete im Guide und das Bündel sind Monatsabos: Sie beginnen im gewählten Monat und verlängern sich jeden Monat, bis Sie kündigen; den ersten Monat bezahlen Sie beim Kauf. Der Kalender zeigt, welche Monate und Plätze noch frei sind. Instagram-Inhalte erscheinen im gewählten Monat, an einem mit Ihnen vereinbarten Datum. | Les formules du guide et le pack sont des abonnements mensuels : ils commencent le mois choisi et se renouvellent chaque mois jusqu’à résiliation ; vous payez le premier mois à la commande. Le calendrier indique les mois et les places encore libres. Le contenu Instagram est publié le mois choisi, à une date convenue avec vous. | Los paquetes de la guía y el pack son suscripciones mensuales: empiezan el mes que eliges y se renuevan cada mes hasta que canceles; el primer mes se paga al comprar. El calendario muestra qué meses y plazas siguen libres. El contenido de Instagram se publica el mes que eliges, en una fecha que acordamos contigo.
+Cancel a monthly subscription any time with the link in your Stripe email; it stops at the end of the month you paid for. Instagram posts and stories: full refund if you cancel before they go live. | Zeg een maandabonnement op wanneer je wilt via de link in je e-mail van Stripe; het stopt aan het einde van de betaalde maand. Instagram-posts en -stories: volledige terugbetaling als je annuleert voor ze online staan. | Kündigen Sie ein Monatsabo jederzeit über den Link in Ihrer E-Mail von Stripe; es endet mit dem bezahlten Monat. Instagram-Beiträge und -Storys: volle Erstattung, wenn Sie vor der Veröffentlichung stornieren. | Résiliez un abonnement mensuel à tout moment via le lien dans votre e-mail Stripe ; il s’arrête à la fin du mois payé. Publications et stories Instagram : remboursement intégral si vous annulez avant leur mise en ligne. | Cancela una suscripción mensual cuando quieras con el enlace de tu correo de Stripe; termina al final del mes pagado. Posts e historias de Instagram: reembolso completo si cancelas antes de que se publiquen.
+Monthly bundle | Maandbundel | Monatspaket | Formule mensuelle | Pack mensual
+Monthly, cancel any time | Maandelijks, altijd opzegbaar | Monatlich, jederzeit kündbar | Mensuel, résiliable à tout moment | Mensual, cancela cuando quieras
+Your own Instagram post every month | Elke maand je eigen Instagram-post | Jeden Monat Ihr eigener Instagram-Beitrag | Votre propre publication Instagram chaque mois | Tu propio post de Instagram cada mes
+One Instagram story every month | Elke maand één Instagram-story | Jeden Monat eine Instagram-Story | Une story Instagram chaque mois | Una historia de Instagram cada mes
+per month | per maand | pro Monat | par mois | al mes
+{p} per month incl. {v}% VAT | {p} per maand incl. {v}% btw | {p} pro Monat inkl. {v} % MwSt. | {p} par mois TVAC ({v} %) | {p} al mes con {v} % de IVA
+Separately {a}, you save {b} | Apart {a}, je bespaart {b} | Einzeln {a}, Sie sparen {b} | Séparément {a}, vous économisez {b} | Por separado {a}, ahorras {b}
+Subscribe | Abonneren | Abonnieren | S’abonner | Suscribirse
+Your place pinned in the top five of its category list in one city, marked Promoted. Pick your position. | Je zaak vastgezet in de top vijf van haar categorielijst in één stad, gemarkeerd als Gepromoot. Kies je positie. | Ihr Lokal unter den ersten fünf seiner Kategorieliste in einer Stadt, gekennzeichnet als Gesponsert. Wählen Sie Ihre Position. | Votre adresse épinglée dans le top cinq de sa liste de catégorie dans une ville, signalée Sponsorisé. Choisissez votre position. | Tu local fijado entre los cinco primeros de la lista de su categoría en una ciudad, marcado como Promocionado. Elige tu posición.
+One of three places in the Featured row at the top of the city page, the first thing visitors see. | Een van de drie zaken in de rij Uitgelicht bovenaan de stadspagina, het eerste wat bezoekers zien. | Eines von drei Lokalen in der Reihe Empfohlen oben auf der Stadtseite, das Erste, was Besucher sehen. | L’une des trois adresses de la rangée À la une en haut de la page de la ville, la première chose que voient les visiteurs. | Uno de los tres locales de la fila Destacados arriba de la página de la ciudad, lo primero que ven los visitantes.
+Every month: first in your list, a spot on the city page, your own Instagram post and a story. | Elke maand: eerste in je lijst, een plek op de stadspagina, je eigen Instagram-post en een story. | Jeden Monat: Platz eins in Ihrer Liste, ein Platz auf der Stadtseite, Ihr eigener Instagram-Beitrag und eine Story. | Chaque mois : première place de votre liste, une place sur la page de la ville, votre propre publication Instagram et une story. | Cada mes: el primero de tu lista, un sitio en la página de la ciudad, tu propio post de Instagram y una historia.
+In the top five of its category list, in the city you pick | In de top vijf van haar categorielijst, in de stad die je kiest | Unter den ersten fünf seiner Kategorieliste, in der gewählten Stadt | Dans le top cinq de sa liste de catégorie, dans la ville choisie | Entre los cinco primeros de la lista de su categoría, en la ciudad que elijas
+Five spots per list, cheaper further down; subject to availability | Vijf plaatsen per lijst, goedkoper naar onderen; zolang er plaats is | Fünf Plätze pro Liste, weiter unten günstiger; je nach Verfügbarkeit | Cinq places par liste, moins chères plus bas ; sous réserve de disponibilité | Cinco puestos por lista, más baratos cuanto más abajo; según disponibilidad
+A Featured row of three places at the top of the city page | Een rij Uitgelicht met drie zaken bovenaan de stadspagina | Eine Reihe Empfohlen mit drei Lokalen oben auf der Stadtseite | Une rangée À la une de trois adresses en haut de la page de la ville | Una fila Destacados con tres locales arriba de la página de la ciudad
+Three spots per city, subject to availability; when they are full, you start as soon as one frees up | Drie plaatsen per stad, zolang er plaats is; zijn ze vol, dan start je zodra er een vrijkomt | Drei Plätze pro Stadt, je nach Verfügbarkeit; sind sie belegt, starten Sie, sobald einer frei wird | Trois places par ville, sous réserve de disponibilité ; si elles sont prises, vous commencez dès qu’une se libère | Tres puestos por ciudad, según disponibilidad; si están llenos, empiezas en cuanto se libere uno
+Top of the list, position 1 | Bovenaan de lijst, positie 1 | Oben in der Liste, Position 1 | En tête de liste, position 1 | Arriba de la lista, posición 1
+Position in the list | Positie in de lijst | Position in der Liste | Position dans la liste | Posición en la lista
+Your place | Je zaak | Ihr Lokal | Votre adresse | Tu local
+Search your place in {city} | Zoek je zaak in {city} | Ihr Lokal in {city} suchen | Cherchez votre adresse à {city} | Busca tu local en {city}
+My place is not in the guide yet | Mijn zaak staat nog niet in de gids | Mein Lokal ist noch nicht im Guide | Mon adresse n’est pas encore dans le guide | Mi local aún no está en la guía
+We check it first and add it for free when it fits | We bekijken het eerst en zetten het er gratis in als het past | Wir prüfen es zuerst und nehmen es kostenlos auf, wenn es passt | Nous vérifions d’abord et l’ajoutons gratuitement s’il convient | Primero lo comprobamos y lo añadimos gratis si encaja
+Not in the guide yet: tell us in the notes at checkout | Nog niet in de gids: vertel het ons in de opmerkingen bij het afrekenen | Noch nicht im Guide: Schreiben Sie es uns beim Kauf in die Hinweise | Pas encore dans le guide : dites-le-nous dans les remarques à la commande | Aún no está en la guía: cuéntanoslo en las notas al pagar
+New place | Nieuwe zaak | Neues Lokal | Nouvelle adresse | Local nuevo
+No place chosen yet | Nog geen zaak gekozen | Noch kein Lokal gewählt | Aucune adresse choisie | Aún no has elegido local
+Choose your place first | Kies eerst je zaak | Wählen Sie zuerst Ihr Lokal | Choisissez d’abord votre adresse | Elige primero tu local
+Fully booked | Volzet | Ausgebucht | Complet | Completo
+Free | Vrij | Frei | Libre | Libre
+Full | Vol | Voll | Plein | Lleno
+Your pick | Jouw keuze | Ihre Wahl | Votre choix | Tu elección
+{n} of {c} free | {n} van {c} vrij | {n} von {c} frei | {n} sur {c} libres | {n} de {c} libres
+Free spots in the {x} list | Vrije plaatsen in de lijst {x} | Freie Plätze in der Liste {x} | Places libres dans la liste {x} | Plazas libres en la lista {x}
+Position {n} | Positie {n} | Position {n} | Position {n} | Posición {n}
+From {date} | Vanaf {date} | Ab {date} | À partir de {date} | Desde {date}
+until {date} | tot {date} | bis {date} | jusqu’à {date} | hasta {date}
+Month | Maand | Monat | Mois | Mes
+Start month | Startmaand | Startmonat | Mois de début | Mes de inicio
+# place page — tester feedback 2026-11-02 (descriptions, booking note, photo credits, At a glance)
+Original description in Dutch | Oorspronkelijke beschrijving in het Nederlands | Originalbeschreibung auf Niederländisch | Description originale en néerlandais | Descripción original en neerlandés
+Original description in English | Oorspronkelijke beschrijving in het Engels | Originalbeschreibung auf Englisch | Description originale en anglais | Descripción original en inglés
+Read more on the Michelin Guide | Lees meer in de Michelin Gids | Weiterlesen im Guide Michelin | Lire la suite dans le Guide Michelin | Leer más en la Guía Michelin
+Read more on Gault&Millau | Lees meer bij Gault&Millau | Weiterlesen bei Gault&Millau | Lire la suite sur Gault&Millau | Leer más en Gault&Millau
+No online booking link found — see the restaurant’s website. | Geen online reserveringslink gevonden — zie de website van het restaurant. | Kein Online-Reservierungslink gefunden — siehe die Website des Restaurants. | Aucun lien de réservation en ligne trouvé — voir le site du restaurant. | No se encontró enlace de reserva online — consulta la web del restaurante.
+Books via {x}, as linked on the restaurant’s own website. | Reserveren via {x}, zoals gelinkt op de eigen website van het restaurant. | Reservierung über {x}, wie auf der eigenen Website des Restaurants verlinkt. | Réservation via {x}, comme indiqué sur le site du restaurant. | Reservas a través de {x}, según el enlace de la propia web del restaurante.
+the place's own photo | eigen foto van de zaak | eigenes Foto des Lokals | photo de l’établissement | foto propia del local
+Photos from Instagram | Foto’s van Instagram | Fotos von Instagram | Photos d’Instagram | Fotos de Instagram
+source | bron | Quelle | source | fuente
+Source: {raw} | Bron: {raw} | Quelle: {raw} | Source : {raw} | Fuente: {raw}
+Hours: | Uren: | Zeiten: | Horaires : | Horario:
+Data © OpenStreetMap contributors (ODbL) | Data © OpenStreetMap-bijdragers (ODbL) | Daten © OpenStreetMap-Mitwirkende (ODbL) | Données © contributeurs OpenStreetMap (ODbL) | Datos © colaboradores de OpenStreetMap (ODbL)
+Booking link taken from {raw} | Reserveringslink overgenomen van {raw} | Reservierungslink übernommen von {raw} | Lien de réservation repris de {raw} | Enlace de reserva tomado de {raw}

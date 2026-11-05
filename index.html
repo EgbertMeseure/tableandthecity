@@ -2,8 +2,9 @@
 <html lang="en" class="wl-boot">
 <head>
 <meta charset="utf-8">
-<meta name="build" content="592abf54a6">
-<script src="js/i18n.js?v=592abf54a6"></script>
+<meta name="build" content="4cf5a589b5">
+<script src="js/media.js?v=4cf5a589b5"></script>
+<script src="js/i18n.js?v=4cf5a589b5"></script>
 <script>/* the site root is the globe landing; any old guide link (index.html?city=… / ?country=… / #explore …) forwards to guide.html with the same query + hash before anything renders */
 if((location.search&&!/^\?lang=[a-z]{2}$/.test(location.search))||(location.hash.length>1&&!/^#(be(\/|$)|wl-)/i.test(location.hash)))location.replace("guide.html"+location.search+location.hash);
 else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathname);</script>
@@ -32,8 +33,8 @@ else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathna
 <link rel="modulepreload" href="vendor/three/three.custom.min.js">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/brand.css?v=592abf54a6">
-<link rel="stylesheet" href="css/world.css?v=592abf54a6">
+<link rel="stylesheet" href="css/brand.css?v=4cf5a589b5">
+<link rel="stylesheet" href="css/world.css?v=4cf5a589b5">
 </head>
 <body class="wl">
 <a class="wl-skip" href="#wl-dest">Skip to the list of cities</a>
@@ -51,12 +52,22 @@ else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathna
   </div>
 </header>
 
+<!-- phone only: a quiet note that the app is on its way (not a download link: nothing to tap). Shown by world.js, never inside the app itself or an installed PWA -->
+<p class="wl-soon" id="wl-soon" hidden><span class="wl-soon__ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9-.7 0-1.8-.8-3-.8-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 2.9 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.3.9-1.3 1.3-2.6 1.3-2.6s-2.5-1-2.5-3.8zM14.2 5.8c.6-.8 1.1-1.9 1-3-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.9 1 .1 2.1-.5 2.7-1.3z"/></svg><svg viewBox="0 0 24 24"><path d="M4.6 17.5a7.4 7.4 0 0 1 14.8 0z"/><path class="wl-soon__ln" d="M7.6 11.2 6 8.4M16.4 11.2 18 8.4"/><circle class="wl-soon__eye" cx="9.1" cy="14.4" r=".95"/><circle class="wl-soon__eye" cx="14.9" cy="14.4" r=".95"/></svg></span><span class="wl-soon__t">Soon as an app on the App Store and Google Play</span></p>
 <section class="wl-intro" id="wl-intro">
   <p class="wl-eyebrow">A curated guide, city by city</p>
   <h1>Where shall we<br><i>dine tonight?</i></h1>
-  <p class="wl-lede">We start in Belgium and grow, city by city, to every great food city in the world.</p>
-  <button class="wl-cta" type="button" data-country="be"><span class="wl-cta__dot" aria-hidden="true"></span>Explore Belgium</button>
+  <p class="wl-lede">We start in Europe and grow, country by country and city by city, to every great food city in the world.</p>
+  <button class="wl-cta" type="button" data-europe><span class="wl-cta__dot" aria-hidden="true"></span>Explore Europe</button>
   <p class="wl-hint" id="wl-hint">Drag to spin the globe · tap the gold light</p>
+</section>
+<!-- 'Request a city': centred under the globe on the first step (placed by world.js); opens the js/cityreq.js form (→ TGForms → info@tableandthecity.com) -->
+<button class="wl-reqbtn" id="wl-req" type="button" data-city-request hidden>Request a city</button>
+
+<section class="wl-eu" id="wl-eu" aria-labelledby="wl-eu-title" hidden>
+  <p class="wl-eyebrow">Europe</p>
+  <h2 id="wl-eu-title">Choose a country</h2>
+  <button class="wl-eu__back" type="button" data-eu-back aria-label="Back to the globe">Back</button>
 </section>
 
 <aside class="wl-panel" id="wl-panel" aria-labelledby="wl-panel-title" hidden>
@@ -77,7 +88,7 @@ else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathna
     <div id="wl-dest-list">
       <!-- static fallback (no JS / no WebGL); world.js rebuilds it from data/cities.json -->
       <h3>Belgium</h3>
-      <ul><li><a href="guide.html?country=be&amp;city=gent">Ghent</a></li><li><a href="guide.html?country=be&amp;city=antwerpen">Antwerp</a></li><li><a href="guide.html?country=be&amp;city=brugge">Bruges</a></li><li><a href="guide.html?country=be&amp;city=oostende">Ostend</a></li><li><a href="guide.html?country=be&amp;city=brussel">Brussels</a></li></ul>
+      <ul><li><a href="guide.html?country=be&amp;city=gent">Ghent</a></li><li><a href="guide.html?country=be&amp;city=antwerpen">Antwerp</a></li><li><a href="guide.html?country=be&amp;city=brugge">Bruges</a></li><li><a href="guide.html?country=be&amp;city=oostende">Ostend</a></li><li><a href="guide.html?country=be&amp;city=brussel">Brussels</a></li><li><span>Leuven <em>soon</em></span></li><li><span>Charleroi <em>soon</em></span></li></ul>
     </div>
   </div>
 </nav>
@@ -93,8 +104,11 @@ else if(/^#be/i.test(location.hash))history.replaceState(null,"",location.pathna
   </div>
 </div>
 
-<script type="module" src="js/world.js?v=592abf54a6"></script>
+<script type="module" src="js/world.js?v=4cf5a589b5"></script>
+<script src="js/config.js?v=4cf5a589b5"></script>
+<script src="js/forms.js?v=4cf5a589b5"></script>
+<script src="js/cityreq.js?v=4cf5a589b5"></script>
 <script nomodule>document.documentElement.className+=' no-webgl';</script>
-<script src="js/pwa.js?v=592abf54a6"></script>
+<script src="js/pwa.js?v=4cf5a589b5"></script>
 </body>
 </html>

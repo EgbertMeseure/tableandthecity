@@ -65,13 +65,55 @@ body.is-country .wl-intro{opacity:0;transform:translate(-30px,-46%);pointer-even
 .wl-mk--city[data-side=b] .wl-mk__lbl{left:0;top:12px;transform:translateX(-50%)}
 .wl-mk--city.is-hot .wl-mk__lbl{background:var(--gold);color:#111;border-color:var(--gold)}
 body:not(.is-country) .wl-mk--city{opacity:0;pointer-events:none}
+/* coming-soon cities inside an open country (Leuven, Charleroi): a small hollow dot + a dashed, dimmed label; tapping only says 'soon' */
+.wl-mk--citysoon{cursor:default}
+.wl-mk--citysoon .wl-mk__dot{left:-4px;top:-4px;width:8px;height:8px;background:rgba(4,5,6,.6);border:1.5px solid rgba(244,239,228,.6);box-shadow:none}
+.wl-mk--citysoon .wl-mk__dot::before,.wl-mk--citysoon .wl-mk__dot::after{display:none}
+.wl-mk--citysoon .wl-mk__lbl{left:11px;top:-10px;font-size:9.5px;font-weight:500;padding:3px 9px;border-style:dashed;border-color:rgba(244,239,228,.3);color:rgba(244,239,228,.72);background:rgba(4,5,6,.5)}
+.wl-mk--citysoon .wl-mk__lbl small{font-size:8.5px;margin-left:5px}
+.wl-mk--citysoon[data-side=l] .wl-mk__lbl{left:auto;right:11px}
+.wl-mk--citysoon[data-side=t] .wl-mk__lbl{left:0;top:auto;bottom:10px;transform:translateX(-50%)}
+.wl-mk--citysoon[data-side=b] .wl-mk__lbl{left:0;top:10px;transform:translateX(-50%)}
+.wl-mk--citysoon[data-side=br] .wl-mk__lbl{left:11px;top:16px}   /* below-right: clears a live city's label beside it (Leuven next to Brussels) */
+.wl-mk--citysoon:hover .wl-mk__lbl,.wl-mk--citysoon.is-hot .wl-mk__lbl,.wl-mk--citysoon.is-say .wl-mk__lbl{background:rgba(4,5,6,.75);color:var(--cream);border-color:rgba(244,239,228,.6)}
+body:not(.is-country) .wl-mk--citysoon{opacity:0;pointer-events:none}
 body.is-country .wl-mk--country{opacity:0;pointer-events:none}
+/* step 1 (globe): only the Europe marker · step 2 (body.is-europe): the country markers, spaced apart · country: the city markers */
+.wl-mk--region .wl-mk__lbl{font-size:var(--fs-s)}
+body.is-europe .wl-mk--region,body.is-country .wl-mk--region{opacity:0;pointer-events:none}
+body:not(.is-europe) .wl-mk--country,body:not(.is-europe) .wl-mk--soon{opacity:0;pointer-events:none}
+.wl-mk--region,.wl-mk--country{z-index:2}
+.wl-mk--region::before,.wl-mk--country::before{content:"";position:absolute;left:-26px;top:-26px;width:52px;height:52px;border-radius:50%}   /* generous tap target round the dot */
+.wl-mk--region:hover .wl-mk__lbl,.wl-mk--region:focus-visible .wl-mk__lbl,.wl-mk--country:hover .wl-mk__lbl,.wl-mk--country:focus-visible .wl-mk__lbl{background:var(--petrol);border-color:var(--petrol);color:var(--cream)}
+body.is-europe .wl-mk--country .wl-mk__lbl{padding:8px 16px}
+.wl-mk--country[data-side=b] .wl-mk__lbl{left:0;top:20px;transform:translateX(-50%)}
+.wl-mk--country[data-side=l] .wl-mk__lbl{left:auto;right:18px}
+.wl-mk--country[data-side=t] .wl-mk__lbl{left:0;top:auto;bottom:18px;transform:translateX(-50%)}
+body.is-europe .wl-mk--soon{z-index:1}
+body.is-europe .wl-mk--soon .wl-mk__lbl{opacity:.85;padding:6px 12px}
+body.is-europe .wl-mk--soon[data-side=r] .wl-mk__lbl{left:14px;top:-12px}
+body.is-europe .wl-mk--soon[data-side=t] .wl-mk__lbl{left:0;top:auto;bottom:14px;transform:translateX(-50%)}
+body.is-europe .wl-mk--soon[data-side=l] .wl-mk__lbl{left:auto;right:14px;top:-12px}
+body.is-europe .wl-mk--soon[data-side=b] .wl-mk__lbl{left:0;top:14px;transform:translateX(-50%)}
+body.is-europe .wl-mk--soon .wl-mk__dot::before{display:block;content:"";position:absolute;inset:-6px;border:0;border-radius:50%;animation:none}
+
+/* step 2 caption (Europe · Choose a country · Back) */
+.wl-eu{position:fixed;z-index:10;left:var(--gutter);bottom:64px;max-width:340px;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .6s var(--wl-ease),transform .8s var(--wl-ease)}
+.wl-eu[hidden]{display:block;visibility:hidden}
+body.is-europe .wl-eu{opacity:1;transform:none;pointer-events:auto;visibility:visible}
+.wl-eu .wl-eyebrow{margin-bottom:8px}
+.wl-eu{text-shadow:0 1px 14px rgba(0,0,0,.85)}
+.wl-eu h2{margin:0 0 16px;font-family:var(--display);font-weight:500;font-size:clamp(30px,2.8vw,42px);line-height:1.05;color:var(--cream)}
+.wl-eu__back{height:36px;padding:0 18px;border-radius:var(--pill);border:1px solid rgba(244,239,228,.4);background:rgba(4,5,6,.35);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:var(--cream);font:inherit;font-size:var(--fs-s);letter-spacing:var(--track-ui);text-transform:uppercase;font-weight:500;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.wl-eu__back:hover,.wl-eu__back:focus-visible{background:var(--petrol);border-color:var(--petrol)}
+body.is-europe .wl-intro{opacity:0;transform:translate(-30px,-46%);pointer-events:none}
 
 /* country panel (desktop: right column; phone: bottom sheet) */
 .wl-panel{position:fixed;z-index:15;top:0;right:0;bottom:0;width:min(470px,38vw);padding:110px 34px 28px;display:flex;flex-direction:column;
   background:linear-gradient(90deg,rgba(4,5,6,0) 0%,rgba(4,5,6,.78) 18%,rgba(4,5,6,.92) 100%);transform:translateX(40px);opacity:0;transition:opacity .6s var(--wl-ease),transform .8s var(--wl-ease)}
 .wl-panel[hidden]{display:flex;visibility:hidden}
 body.is-country .wl-panel{opacity:1;transform:none;visibility:visible}
+body:not(.is-country) .wl-panel{pointer-events:none}   /* faded out after Back: never catch taps meant for the intro / Request a city underneath */
 .wl-panel__head{display:flex;align-items:center;gap:16px;margin-bottom:18px}
 .wl-panel h2{margin:0;font-family:var(--display);font-weight:500;font-size:clamp(34px,3.4vw,52px);line-height:1;color:var(--cream)}
 .wl-panel .wl-eyebrow{margin-bottom:8px}
@@ -97,6 +139,23 @@ body.is-country .wl-cards li:nth-child(6) .wl-card{transition-delay:.3s}
 .wl-card:hover,.wl-card:focus-visible,.wl-card.is-hot{border-color:var(--gold)}
 .wl-card:hover img,.wl-card:focus-visible img,.wl-card.is-hot img{transform:scale(1.05)}
 .wl-card:hover .wl-card__go,.wl-card:focus-visible .wl-card__go{background:var(--gold);border-color:var(--gold);color:#111}
+body.is-soon-country .wl-mk--city,body.is-soon-country .wl-mk--citysoon{opacity:0;pointer-events:none}   /* a soon country: no Belgian city lights, nor Leuven / Charleroi */
+.wl-card--soon{cursor:default}   /* a 'soon' city (no guide yet): same photo card, not a link, no hover */
+.wl-card--soon:hover{border-color:rgba(244,239,228,.14)}
+.wl-card--soon:hover img{transform:none}
+.wl-card__soon{align-self:flex-start;font-size:11px;letter-spacing:var(--track-wide);text-transform:uppercase;padding:3px 10px;border:1px dashed rgba(244,239,228,.6);border-radius:999px;background:rgba(4,5,6,.45);color:var(--cream)}
+.wl-card__credit{position:absolute;z-index:1;right:12px;bottom:8px;font-size:10px;color:rgba(244,239,228,.7);text-shadow:0 1px 6px rgba(0,0,0,.8)}
+/* coming-soon cities inside an open country (Leuven, Charleroi; scoped to .wl-soonrow so the Netherlands' 'soon' photo cards keep their look): two quiet, photo-less tiles under the live cards (not links) */
+.wl-soonrow{list-style:none}
+.wl-soonrow__grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.wl-soonrow .wl-card.wl-card--soon{height:64px;align-items:center;border:1px dashed rgba(244,239,228,.28);background:rgba(244,239,228,.03);cursor:default}
+.wl-soonrow .wl-card--soon::after{display:none}
+.wl-soonrow .wl-card--soon .wl-card__txt{padding:0 18px;gap:5px;text-shadow:none}
+.wl-soonrow .wl-card--soon .wl-card__name{font-size:21px;color:rgba(244,239,228,.82)}
+.wl-soonrow .wl-card__soon{align-self:auto;padding:0;border:0;border-radius:0;background:none;font-size:var(--fs-xs);letter-spacing:var(--track-wide);text-transform:uppercase;color:rgba(244,239,228,.5)}
+.wl-soonrow .wl-card__soon::before{content:"";display:inline-block;width:5px;height:5px;margin:0 7px 1px 0;border-radius:50%;background:var(--gold);opacity:.8;vertical-align:middle}   /* the one small gold detail */
+.wl-soonrow .wl-card--soon.is-hot,.wl-soonrow .wl-card--soon:hover{border-color:rgba(244,239,228,.5)}
+body.is-country .wl-cards li:nth-child(6) .wl-card--soon{transition-delay:.3s}
 .wl-panel__foot{margin:14px 0 0;font-size:var(--fs-xs);letter-spacing:var(--track-wide);text-transform:uppercase;color:rgba(244,239,228,.5)}
 
 /* all destinations (also the no-WebGL fallback) */
@@ -192,6 +251,68 @@ button.ws-ghost{background:none;font-family:inherit;cursor:pointer}
 .wl-credit a{text-decoration:none;border-bottom:1px solid rgba(244,239,228,.25)}
 body.is-country .wl-credit{opacity:0;pointer-events:none}
 
+/* 'Request a city' (js/cityreq.js form): a quiet pill under the globe (step 1) + a petrol button in the destinations list */
+.wl-reqbtn{height:36px;display:inline-flex;align-items:center;justify-content:center;padding:0 20px;border-radius:var(--pill);border:1px solid rgba(244,239,228,.4);background:rgba(4,5,6,.45);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:var(--cream);font:500 var(--fs-s)/1 var(--sans);letter-spacing:var(--track-ui);text-transform:uppercase;white-space:nowrap;cursor:pointer;transition:background .25s,color .25s,border-color .25s,opacity .6s var(--wl-ease)}
+.wl-reqbtn:hover,.wl-reqbtn:focus-visible{background:var(--petrol);border-color:var(--petrol);color:#fff}
+.wl-reqbtn--primary{height:42px;padding:0 24px;background:var(--petrol);border-color:var(--petrol);color:#fff;font-weight:600;backdrop-filter:none;-webkit-backdrop-filter:none}
+.wl-reqbtn--primary:hover,.wl-reqbtn--primary:focus-visible{background:var(--blue-deep);border-color:var(--blue-deep)}
+#wl-req{position:fixed;z-index:11;left:0;top:0;opacity:0;animation:wl-req-in 1s .9s var(--wl-ease) forwards}
+#wl-req[hidden],#wl-req.is-off,html.no-cityreq [data-city-request],html.no-cityreq .wl-dest__req{display:none}
+body.is-europe #wl-req,body.is-country #wl-req,body.is-show #wl-req{opacity:0!important;pointer-events:none;visibility:hidden;animation:none}
+@keyframes wl-req-in{to{opacity:1}}
+.wl-dest__req{margin:16px 0 0}
+html.no-webgl #wl-req{display:none}
+/* the form sheet itself (same look as on the guide pages; css/style.css is not loaded on the landing) */
+html.crq-lock,html.crq-lock body{overflow:hidden}
+.crq{position:fixed;inset:0;z-index:3100;display:flex;align-items:center;justify-content:center;padding:24px;font-family:var(--sans)}
+.crq[hidden]{display:none}
+.crq__scrim{position:absolute;inset:0;background:rgba(0,0,0,.62);opacity:0;transition:opacity .2s}
+.crq.is-open .crq__scrim{opacity:1}
+.crq__sheet{position:relative;width:min(440px,100%);max-height:calc(100dvh - 48px);overflow:auto;background:#fff;color:var(--ink);border-radius:28px;padding:30px 30px 26px;
+  box-shadow:0 30px 80px rgba(0,0,0,.35);opacity:0;transform:translateY(14px);transition:opacity .2s,transform .2s}
+.crq.is-open .crq__sheet{opacity:1;transform:none}
+.crq__x{position:absolute;top:22px;right:24px;background:none;border:0;padding:6px 0;cursor:pointer;color:var(--ink);font:500 10.5px/1 var(--sans);letter-spacing:var(--track-ui);text-transform:uppercase}
+.crq__eyebrow{margin:0 0 8px;font-size:10.5px;letter-spacing:var(--track-ui);text-transform:uppercase;color:var(--text-2)}
+.crq__t{margin:0 0 6px;font-family:var(--serif);font-weight:500;font-size:30px;line-height:1.1}
+.crq__lead{margin:0 0 18px;font-size:14px;color:var(--text-2)}
+.crq__form{display:flex;flex-direction:column;gap:12px}
+.crq__form[hidden],.crq__done[hidden],.crq__lead[hidden]{display:none}
+.crq__f{display:flex;flex-direction:column;gap:6px}
+.crq__f span{font-size:10.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase}
+.crq__f i{font-style:normal;font-weight:400;letter-spacing:.1em;color:var(--text-2)}
+.crq__f input{width:100%;box-sizing:border-box;height:50px;padding:0 22px;border:1px solid var(--line-d);border-radius:var(--pill);background:#fff;color:var(--ink);font:400 16px/1 var(--sans,inherit);outline:0;-webkit-appearance:none;appearance:none}
+.crq__f input::placeholder{color:#9a9a9a}
+.crq__f input:focus-visible{border-color:var(--petrol);box-shadow:0 0 0 2px var(--petrol)}
+.crq__f input[aria-invalid="true"]{border-color:#b3261e;box-shadow:0 0 0 1px #b3261e}
+.crq__err{margin:0;font-size:13px;color:#b3261e}
+.crq .pill-btn.crq__send{width:100%;height:52px;margin-top:6px;background:var(--petrol);color:#fff;border-color:var(--petrol);font-weight:600;font-family:var(--sans)}
+@media (hover:hover){.crq .pill-btn.crq__send:hover{background:var(--blue-deep);border-color:var(--blue-deep);color:#fff}}
+.crq .pill-btn.crq__send:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.crq__note{margin:0;text-align:center;font-size:11.5px;color:var(--text-2)}
+.crq__thanks{margin:6px 0 10px;font-family:var(--serif);font-size:19px;line-height:1.35}
+.sgp__hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
+@media (max-width:640px){
+  .crq{align-items:flex-end;padding:0}
+  .crq__sheet{width:100%;border-radius:24px 24px 0 0;padding:26px 20px calc(22px + env(safe-area-inset-bottom));max-height:92dvh;transform:translateY(30px)}
+  .crq__x{top:20px;right:20px}
+  .crq__t{font-size:27px}
+}
+
+/* "soon as an app" note (phone landing only; world.js unhides it on the web, never in the app or an installed PWA). Not a link: no pointer events */
+.wl-soon{display:none}
+@media (max-width:760px){
+  .wl-soon:not([hidden]){display:flex;position:fixed;z-index:12;left:var(--gutter);right:var(--gutter);top:calc(max(16px,env(safe-area-inset-top)) + 48px);margin:0;justify-content:center;align-items:center;gap:9px;pointer-events:none;user-select:none;-webkit-user-select:none;
+    font-size:11px;line-height:1.35;letter-spacing:.04em;color:rgba(244,239,228,.66);text-align:left;text-wrap:balance;text-shadow:0 1px 10px rgba(0,0,0,.9);opacity:0;animation:wl-soon-in 1.2s 1s var(--wl-ease) forwards;transition:opacity .5s var(--wl-ease),visibility .5s}
+  .wl-soon__ic{flex:none;display:inline-flex;align-items:center;gap:5px;padding-right:9px;border-right:1px solid rgba(200,169,106,.5)}
+  .wl-soon__ic svg{width:13px;height:13px;fill:rgba(244,239,228,.72)}
+  .wl-soon__ic svg+svg{width:14px;height:14px}
+  .wl-soon__ln{fill:none;stroke:rgba(244,239,228,.72);stroke-width:1.3;stroke-linecap:round}
+  .wl-soon__eye{fill:#040506}
+  body.is-europe .wl-soon,body.is-country .wl-soon,body.is-show .wl-soon{opacity:0!important;visibility:hidden;animation:none}
+  html.no-webgl .wl-soon{display:none}
+}
+@keyframes wl-soon-in{to{opacity:1}}
+
 /* phone */
 @media (max-width:760px){
   :root{--gutter:20px}
@@ -201,6 +322,12 @@ body.is-country .wl-credit{opacity:0;pointer-events:none}
   .wl-resume{display:none}
   .wl-intro{top:auto;bottom:calc(40px + env(safe-area-inset-bottom));transform:none;max-width:none;right:var(--gutter)}
   body.is-country .wl-intro{transform:translateY(20px)}
+  body.is-europe .wl-intro{transform:translateY(20px)}
+  .wl-eu{bottom:calc(52px + env(safe-area-inset-bottom));right:var(--gutter);max-width:none;display:flex;align-items:flex-end;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  .wl-eu[hidden]{display:flex}
+  .wl-eu h2{font-size:30px;margin:0}
+  .wl-eu .wl-eyebrow{flex-basis:100%;margin:0 0 -6px}
+  .wl-eu__back{height:40px}
   .wl-intro h1{font-size:clamp(40px,11.5vw,54px)}
   .wl-lede{margin:12px 0 20px;font-size:14px;line-height:1.55}
   .wl-cta{height:48px}
@@ -217,6 +344,12 @@ body.is-country .wl-credit{opacity:0;pointer-events:none}
   .wl-card__txt{padding:12px 16px;padding-right:56px}
   .wl-card__go{right:12px;bottom:auto;top:50%;margin-top:-16px;width:32px;height:32px}
   .wl-panel__foot{display:none}
+  .wl-soonrow__grid{gap:10px}
+  .wl-soonrow .wl-card.wl-card--soon{height:58px;border-radius:14px}
+  .wl-soonrow .wl-card--soon .wl-card__txt{padding:0 14px}
+  .wl-soonrow .wl-card--soon .wl-card__name{font-size:19px}
+  .wl-reqbtn{height:34px;padding:0 16px;font-size:10px}
+  .wl-reqbtn--primary{height:42px;padding:0 22px;font-size:10.5px}
   .wl-dest__in{padding:30px 22px}
   .ws-hero h2{font-size:clamp(58px,17vw,84px)}
   .ws-go,.ws-ghost{height:50px;width:100%;justify-content:center}
