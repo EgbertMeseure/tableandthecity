@@ -3674,7 +3674,7 @@
    "address": "Onderbergen 40, 9000 Gent",
    "postalCode": "9000",
    "district": "Gent (9000)",
-   "neighbourhood": "Patershol",
+   "neighbourhood": "Papegaai",
    "lat": 51.0520937,
    "lng": 3.7195409,
    "geoSource": "Nominatim way/435355453 (building, Onderbergen 40)",
@@ -3705,7 +3705,7 @@
    "instagramSource": "darbode.com (site footer)",
    "instagram_posts": [],
    "phone": "+32 493 38 18 60",
-   "summary": "Brothers Nicolas and Martin Bodé's Moroccan concept store with a restaurant in the middle: lunch, mezze assortments and cocktails with a Moroccan twist; now also open on Friday evening (Bar Bodé).",
+   "summary": "Brothers Nicolas and Martin Bodé's Moroccan concept store with a restaurant in the middle (Bar Bodé): lunch, mezze assortments and cocktails with a Moroccan twist; open Tuesday–Saturday until 22:00, including Friday evening.",
    "summaryLang": "en",
    "events": [],
    "sources": [
@@ -3714,9 +3714,9 @@
     "https://www.darbode.com/",
     "https://exa.ai/library/place/xdy5zyryvzv"
    ],
-   "dataConflict": null,
-   "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "dataConflict": "Hours: Google Maps / HLN list Tu–Sa 10:00–18:00; user (2026-11-05) and darbode.com Friday-evening banner indicate open until 22:00 including Friday. Guide uses 22:00 close.",
+   "dateChecked": "2026-11-05",
+   "lastChanged": "2026-11-05",
    "city": "gent",
    "country": "BE",
    "photos": [],
@@ -3738,9 +3738,9 @@
     "lunch": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/broers-openen-restaurant-in-midden-van-hun-winkel-we-serveren-lunch-en-cocktails-met-een-marokkaanse-twist/153559936.html",
     "veggie": "https://exa.ai/library/place/xdy5zyryvzv (Google reviews: great vegetarian selection)"
    },
-   "openingHours": "Tu-Sa 10:00-18:00; Mo,Su off",
-   "openingHoursSource": "Google Maps (via exa.ai mirror, 2026-10-26; Places API 403) + darbode.com: also open Friday evening",
-   "notes": "Several reviews (Jun 2026) call it a pop-up 'for now'; re-check weekly. Shop + restaurant (\"Bar Bodé\"); HLN 13 Apr 2026 announced the restaurant, Nieuwsblad 29 May 2026 reported it open.",
+   "openingHours": "Tu-Sa 10:00-22:00; Mo,Su off",
+   "openingHoursSource": "Owner/user correction 2026-11-05 (open until 22:00; Friday open) + https://www.darbode.com/ (Now open on friday evening · Bar Bode). Conflict: Google Maps (exa.ai) and HLN Apr 2026 still list Tu–Sa 10:00–18:00 — guide follows user/site for restaurant/bar closing at 22:00.",
+   "notes": "Several reviews (Jun 2026) call it a pop-up 'for now'; re-check weekly. Shop + restaurant (\"Bar Bodé\") at Onderbergen 40 (Papegaai / Sint-Michiels area — not Patershol). HLN 13 Apr 2026 announced the restaurant, Nieuwsblad 29 May 2026 reported it open. Neighbourhood corrected 2026-11-05 (was wrongly Patershol).",
    "otherLocations": null,
    "origin": "research-2026-10-26"
   },
