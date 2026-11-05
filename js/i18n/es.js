@@ -182,6 +182,8 @@
 "Art-space café: local drinks, coffee, vegan mastel": "Café de arte: bebidas locales, café, mastel vegano",
 "Restaurant": "Restaurante",
 "Quick bites": "Para picar",
+"Street food": "Comida callejera",
+"Street food in {city}": "Comida callejera en {city}",
 "Dance café": "Café con baile",
 "Brown café": "Bar de toda la vida",
 "Irish pub": "Pub irlandés",

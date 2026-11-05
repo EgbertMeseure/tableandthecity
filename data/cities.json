@@ -48,10 +48,12 @@
               "coffee": "coffee",
               "bakeries": "bakery",
               "cuisine": "casual",
-              "events": "events"
+              "events": "events",
+              "streetfood": "casual"
             }
           },
-          "photos": "data/cities/gent-photos.json"
+          "photos": "data/cities/gent-photos.json",
+          "streetfood": "data/cities/gent-streetfood.json"
         },
         {
           "id": "antwerpen",

@@ -19,8 +19,8 @@
   document.title = `Table and the City — ${CITY}: restaurants, cafés, coffee & bakeries`;
   const $ = s => document.querySelector(s);
   const ADV = ['group', 'type', 'area', 'cuisine', 'price', 'dist'];          // set by the category cards (and shareable URLs); no filter panel
-  const QUICK = ['open', 'new', 'veggie', 'vegan', 'events', 'live'];   // live: 'Live music' tile (data/cities/<city>-livemusic.json)                  // on/off filters kept in the URL (chips: open, new, events)
-  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, live: false, open: false, stage: '', vlevel: '', meal: '', style: '', cat: '', sort: 'rec', ev: '' };
+  const QUICK = ['open', 'new', 'veggie', 'vegan', 'events', 'live', 'streetFood'];   // live: livemusic layer; streetFood: gent-streetfood.json (Gent first)
+  const DEF = { q: '', group: '', type: '', area: '', cuisine: '', price: '', dist: '', veggie: false, vegan: false, new: false, events: false, live: false, streetFood: false, open: false, stage: '', vlevel: '', meal: '', style: '', cat: '', sort: 'rec', ev: '' };
   const state = { ...DEF, origin: null, originLabel: '' };
 
   // ---- URL state (shareable; ?country=&city= always kept) ----
@@ -95,6 +95,8 @@
       sub('Casual', { group: 'restaurants', type: 'casual' }), sub('Michelin', { group: 'restaurants', dist: 'michelin' })] },
     // 'By cuisine': one card, its cuisines open in a compact chooser (openCz) instead of an in-card menu
     { label: 'By cuisine', img: cardImg('cuisine', 'casual'), f: { group: 'restaurants' }, subs: [], chooser: true },
+    // Street food: sourced format flag (<city>-streetfood.json); only when this city has the layer (Gent first)
+    ...(city.streetfood ? [{ label: 'Street food', img: cardImg('streetfood', 'casual'), f: { streetFood: true }, subs: [], min: 1 }] : []),
     { label: 'Bakeries', img: cardImg('bakeries', 'bakery'), f: { group: 'bakeries' }, subs: [sub('Bakeries', { group: 'bakeries', type: 'bakery' }),   // artisan only (see import_osm.py / data/bakeries-artisan.json)
       sub('Patisseries', { group: 'bakeries', type: 'patisserie' }), sub('Sourdough', { group: 'bakeries', style: 'sourdough' })] },
     { label: 'Breakfast, brunch & coffee', img: cardImg('breakfast', 'coffee'), photo: IMG.breakfastPlacePhoto === false ? null : mealPhoto(), f: { cat: 'morning' }, subs: [sub('Breakfast', { meal: 'breakfast' }), sub('Brunch', { meal: 'brunch' }),
@@ -113,11 +115,12 @@
   if (city.privatechefs) GROUPS.push({ label: 'Private chefs', img: cardImg('privatechef', 'pass'), f: {}, subs: [], toPage: TG.cityUrl('privatechef.html', city.id), sub: 'At your home' });
   const matchF = (r, f) => (!r.upcoming || f.new) && Object.entries(f).every(([k, v]) =>
     k === 'group' ? r.group === v : k === 'type' ? v.split('+').includes(r.category) : k === 'new' ? isNewish(r) : k === 'stage' ? (v === 'soon') === !!r.upcoming :
-    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'live' ? !!r.liveMusic : k === 'dist' ? !!r.distinctions.michelin : k === 'cuisine' ? TG.inCuisine(r, v) : k === 'cat' ? (!MERGED[v] || MERGED[v].f(r)) : true);
+    k === 'meal' ? MEAL(r, v) : k === 'veggie' ? !!r.veggieLevel : k === 'vegan' ? r.vegan === 'yes' : k === 'vlevel' ? r.veggieLevel === v : k === 'style' ? (r.bakeryStyle || []).includes(v) : k === 'events' ? r.events.length > 0 : k === 'live' ? !!r.liveMusic : k === 'streetFood' ? !!(r.features && r.features.streetFood) || !!r.streetFood : k === 'dist' ? !!r.distinctions.michelin : k === 'cuisine' ? TG.inCuisine(r, v) : k === 'cat' ? (!MERGED[v] || MERGED[v].f(r)) : true);
   const countF = f => R.filter(r => matchF(r, f)).length;
   GROUPS.forEach(g => { g.n = g.toPage ? 0 : g.toEvents ? E.filter(isUpcoming).length : countF(g.f); g.subs = g.subs.map(s => ({ ...s, n: countF(s.f) })).filter(s => s.n >= (s.min || 3)); });   // tiny sub-groups stay reachable via filters
   for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].noDiet && GROUPS[i].n < (GROUPS[i].min || 1)) GROUPS.splice(i, 1);   // no empty Veggie & vegan tile
   for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].f.cat && !GROUPS[i].n) GROUPS.splice(i, 1);                                 // nor an empty merged tab
+  for (let i = GROUPS.length - 1; i >= 0; i--) if (GROUPS[i].f.streetFood && GROUPS[i].n < (GROUPS[i].min || 1)) GROUPS.splice(i, 1); // nor an empty Street food tile
   /* diet row in every place card's menu: 'Veggie' (any veggie level, = the Veggie chip) / 'Vegan' (fully vegan or clear vegan options, = the Vegan chip).
      A toggle narrows 'All' and the sub-categories (live counts; empty ones hide); only shown when the card has matching places */
   const DIET = { veggie: { label: 'Veggie', f: { veggie: true }, title: 'Fully vegan or vegetarian, or clear veggie/vegan options' }, vegan: { label: '100% vegan', f: { vlevel: 'vegan' }, title: 'Fully vegan places only' } };
@@ -134,6 +137,7 @@
         ${c.subs.map((s, j) => `<button role="menuitem" tabindex="-1" data-s="${j}">${esc(s.label)}<b>${s.n}</b></button>`).join('')}</div>` : ''}
     </div>`).join('');
   if (state.cat) { const i = GROUPS.findIndex(g => g.f.cat === state.cat && Object.keys(g.f).length === 1); if (i >= 0) $('#carousel').querySelector(`.pillcard[data-cat="${i}"]`).classList.add('active'); }   // ?cat= / old tab link: its merged tab shows as chosen
+  if (state.streetFood) { const i = GROUPS.findIndex(g => g.f.streetFood); if (i >= 0) { const el = $('#carousel').querySelector(`.pillcard[data-cat="${i}"]`); if (el) el.classList.add('active'); } }
   function setDiet(card, d) {                                            // '' = off; updates counts in the open menu
     const g = GROUPS[+card.dataset.cat]; card.dataset.diet = d;
     card.querySelectorAll('[data-d]').forEach(b => b.setAttribute('aria-checked', b.dataset.d === d));
@@ -285,6 +289,7 @@
       if (state.stage && (state.stage === 'soon') !== !!r.upcoming) return false;
       if (state.events && !r.events.length) return false;
       if (state.live && !r.liveMusic) return false;
+      if (state.streetFood && !((r.features && r.features.streetFood) || r.streetFood)) return false;
       if (state.cat && MERGED[state.cat] && !MERGED[state.cat].f(r)) return false;
       return true;
     });
@@ -410,7 +415,7 @@
   const MEAL_T = { any: 'breakfast & brunch', breakfast: 'breakfast', brunch: 'brunch', wkbrunch: 'weekend brunch', early: 'early openers' };
   function listTitle() {
     const diet = state.vlevel ? TG.VEG_LABEL[state.vlevel] : state.vegan ? 'Vegan' : state.veggie ? 'Veggie' : '';
-    const cz = TG.CZ_BY[state.cuisine], noun = state.cat && MERGED[state.cat] && !cz && !state.type && !state.meal && !state.group ? MERGED[state.cat].label : state.live && !cz && !state.group ? 'Live music' : cz ? cz.title || cz.label + ' restaurants' : state.type && CAT_LABEL[state.type] ? CAT_LABEL[state.type] : state.meal ? MEAL_T[state.meal] : state.group ? GROUP_LABEL[state.group] : state.dist === 'michelin' ? 'Michelin' : '';
+    const cz = TG.CZ_BY[state.cuisine], noun = state.cat && MERGED[state.cat] && !cz && !state.type && !state.meal && !state.group ? MERGED[state.cat].label : state.streetFood && !cz && !state.group ? 'Street food' : state.live && !cz && !state.group ? 'Live music' : cz ? cz.title || cz.label + ' restaurants' : state.type && CAT_LABEL[state.type] ? CAT_LABEL[state.type] : state.meal ? MEAL_T[state.meal] : state.group ? GROUP_LABEL[state.group] : state.dist === 'michelin' ? 'Michelin' : '';
     const nw = state.new ? (state.stage === 'soon' ? 'Opening soon:' : state.stage === 'open' ? 'Just opened:' : 'New') : '';
     if (!diet && !noun && !nw) return `All places in ${CITY}`;
     const w = [nw, diet, noun || (diet || nw ? 'places' : '')].filter(Boolean);

@@ -182,6 +182,8 @@
 "Art-space café: local drinks, coffee, vegan mastel": "Kunstcafé: lokale drankjes, koffie, vegan mastel",
 "Restaurant": "Restaurant",
 "Quick bites": "Snelle hap",
+"Street food": "Streetfood",
+"Street food in {city}": "Streetfood in {city}",
 "Dance café": "Danscafé",
 "Brown café": "Bruine kroeg",
 "Irish pub": "Ierse pub",

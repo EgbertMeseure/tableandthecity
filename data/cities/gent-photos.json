@@ -33717,6 +33717,1256 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "barake-foodtruck": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DX_t8owDI89/",
+     "category": "exterior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DXy6q-UDPiv/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DX_t8owDI89/",
+     "category": "exterior",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/barake-foodtruck/p1-1400.webp",
+     "thumb": "img/places/gent/barake-foodtruck/p1-700.webp",
+     "srcset": "img/places/gent/barake-foodtruck/p1-700.webp 700w, img/places/gent/barake-foodtruck/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "Barake Foodtruck: the outside",
+     "credit": "@barakefoodtruck on Instagram",
+     "credit_url": "https://www.instagram.com/barakefoodtruck/",
+     "ig": "https://www.instagram.com/p/DX_t8owDI89/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/barake-foodtruck/p2-1400.webp",
+     "thumb": "img/places/gent/barake-foodtruck/p2-700.webp",
+     "srcset": "img/places/gent/barake-foodtruck/p2-700.webp 700w, img/places/gent/barake-foodtruck/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Barake Foodtruck: food",
+     "credit": "@barakefoodtruck on Instagram",
+     "credit_url": "https://www.instagram.com/barakefoodtruck/",
+     "ig": "https://www.instagram.com/p/DXy6q-UDPiv/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/barake-foodtruck/p3-1400.webp",
+     "thumb": "img/places/gent/barake-foodtruck/p3-700.webp",
+     "srcset": "img/places/gent/barake-foodtruck/p3-700.webp 700w, img/places/gent/barake-foodtruck/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "exterior",
+     "alt": "Barake Foodtruck: the outside",
+     "credit": "@barakefoodtruck on Instagram",
+     "credit_url": "https://www.instagram.com/barakefoodtruck/",
+     "ig": "https://www.instagram.com/p/DX_t8owDI89/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/barake-foodtruck/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "bicho-malo": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DQwey_HjIMC/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DQURDOmDMfb/",
+     "category": "drink",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/bicho-malo/p1-1400.webp",
+     "thumb": "img/places/gent/bicho-malo/p1-700.webp",
+     "srcset": "img/places/gent/bicho-malo/p1-700.webp 700w, img/places/gent/bicho-malo/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1418,
+     "category": "food",
+     "alt": "Bicho Malo: food",
+     "credit": "@bichomalo.be on Instagram",
+     "credit_url": "https://www.instagram.com/bichomalo.be/",
+     "ig": "https://www.instagram.com/p/DQwey_HjIMC/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/bicho-malo/p2-1400.webp",
+     "thumb": "img/places/gent/bicho-malo/p2-700.webp",
+     "srcset": "img/places/gent/bicho-malo/p2-700.webp 700w, img/places/gent/bicho-malo/p2-1400.webp 1400w",
+     "w": 1080,
+     "h": 1418,
+     "category": "drink",
+     "alt": "Bicho Malo: drinks",
+     "credit": "@bichomalo.be on Instagram",
+     "credit_url": "https://www.instagram.com/bichomalo.be/",
+     "ig": "https://www.instagram.com/p/DQURDOmDMfb/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/bicho-malo/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "chapeluur": {
+   "photos": [
+    {
+     "src": "img/places/gent/chapeluur/p1-1400.webp",
+     "thumb": "img/places/gent/chapeluur/p1-700.webp",
+     "srcset": "img/places/gent/chapeluur/p1-700.webp 700w, img/places/gent/chapeluur/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "interior",
+     "alt": "Chapeluur: the interior",
+     "credit": "chapeluur.eu",
+     "credit_url": "https://chapeluur.eu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/chapeluur/p2-1400.webp",
+     "thumb": "img/places/gent/chapeluur/p2-700.webp",
+     "srcset": "img/places/gent/chapeluur/p2-700.webp 700w, img/places/gent/chapeluur/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Chapeluur: food",
+     "credit": "chapeluur.eu",
+     "credit_url": "https://chapeluur.eu/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/chapeluur/p3-1400.webp",
+     "thumb": "img/places/gent/chapeluur/p3-700.webp",
+     "srcset": "img/places/gent/chapeluur/p3-700.webp 700w, img/places/gent/chapeluur/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Chapeluur: food",
+     "credit": "chapeluur.eu",
+     "credit_url": "https://chapeluur.eu/menu.html",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/chapeluur/p4-1400.webp",
+     "thumb": "img/places/gent/chapeluur/p4-700.webp",
+     "srcset": "img/places/gent/chapeluur/p4-700.webp 700w, img/places/gent/chapeluur/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "interior",
+     "alt": "Chapeluur: the interior",
+     "credit": "chapeluur.eu",
+     "credit_url": "https://chapeluur.eu/reserveer-gent.html",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/chapeluur/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "coco-and-tacos": {
+   "photos": [
+    {
+     "src": "img/places/gent/coco-and-tacos/p1-1400.webp",
+     "thumb": "img/places/gent/coco-and-tacos/p1-700.webp",
+     "srcset": "img/places/gent/coco-and-tacos/p1-700.webp 700w, img/places/gent/coco-and-tacos/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "food",
+     "alt": "Coco & Tacos: food",
+     "credit": "cocoandtacos.be",
+     "credit_url": "https://www.cocoandtacos.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/coco-and-tacos/p2-1400.webp",
+     "thumb": "img/places/gent/coco-and-tacos/p2-700.webp",
+     "srcset": "img/places/gent/coco-and-tacos/p2-700.webp 700w, img/places/gent/coco-and-tacos/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 576,
+     "category": "food",
+     "alt": "Coco & Tacos: food",
+     "credit": "cocoandtacos.be",
+     "credit_url": "https://www.cocoandtacos.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/coco-and-tacos/p3-1400.webp",
+     "thumb": "img/places/gent/coco-and-tacos/p3-700.webp",
+     "srcset": "img/places/gent/coco-and-tacos/p3-700.webp 700w, img/places/gent/coco-and-tacos/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Coco & Tacos: food",
+     "credit": "cocoandtacos.be",
+     "credit_url": "https://www.cocoandtacos.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/coco-and-tacos/p4-1400.webp",
+     "thumb": "img/places/gent/coco-and-tacos/p4-700.webp",
+     "srcset": "img/places/gent/coco-and-tacos/p4-700.webp 700w, img/places/gent/coco-and-tacos/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Coco & Tacos: food",
+     "credit": "cocoandtacos.be",
+     "credit_url": "https://www.cocoandtacos.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/coco-and-tacos/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "dumpling-delight": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/C14iAf5NBWV/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C1-KWBmtznj/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C1-KWBmtznj/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/C14h3IUNVTt/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/dumpling-delight/p1-1400.webp",
+     "thumb": "img/places/gent/dumpling-delight/p1-700.webp",
+     "srcset": "img/places/gent/dumpling-delight/p1-700.webp 700w, img/places/gent/dumpling-delight/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Dumpling Delight: food",
+     "credit": "@dumplingdelight.gent on Instagram",
+     "credit_url": "https://www.instagram.com/dumplingdelight.gent/",
+     "ig": "https://www.instagram.com/p/C14iAf5NBWV/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/dumpling-delight/p2-1400.webp",
+     "thumb": "img/places/gent/dumpling-delight/p2-700.webp",
+     "srcset": "img/places/gent/dumpling-delight/p2-700.webp 700w, img/places/gent/dumpling-delight/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Dumpling Delight: food",
+     "credit": "@dumplingdelight.gent on Instagram",
+     "credit_url": "https://www.instagram.com/dumplingdelight.gent/",
+     "ig": "https://www.instagram.com/p/C1-KWBmtznj/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/dumpling-delight/p3-1400.webp",
+     "thumb": "img/places/gent/dumpling-delight/p3-700.webp",
+     "srcset": "img/places/gent/dumpling-delight/p3-700.webp 700w, img/places/gent/dumpling-delight/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1400,
+     "category": "food",
+     "alt": "Dumpling Delight: food",
+     "credit": "@dumplingdelight.gent on Instagram",
+     "credit_url": "https://www.instagram.com/dumplingdelight.gent/",
+     "ig": "https://www.instagram.com/p/C1-KWBmtznj/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/dumpling-delight/p4-1400.webp",
+     "thumb": "img/places/gent/dumpling-delight/p4-700.webp",
+     "srcset": "img/places/gent/dumpling-delight/p4-700.webp 700w, img/places/gent/dumpling-delight/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Dumpling Delight: food",
+     "credit": "@dumplingdelight.gent on Instagram",
+     "credit_url": "https://www.instagram.com/dumplingdelight.gent/",
+     "ig": "https://www.instagram.com/p/C14h3IUNVTt/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/dumpling-delight/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "falafolie": {
+   "photos": [
+    {
+     "src": "img/places/gent/falafolie/p1-1400.webp",
+     "thumb": "img/places/gent/falafolie/p1-700.webp",
+     "srcset": "img/places/gent/falafolie/p1-700.webp 700w, img/places/gent/falafolie/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Falafolie: food",
+     "credit": "falafoliegent.be",
+     "credit_url": "https://www.falafoliegent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/falafolie/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "fattoush": {
+   "photos": [
+    {
+     "src": "img/places/gent/fattoush/p1-1400.webp",
+     "thumb": "img/places/gent/fattoush/p1-700.webp",
+     "srcset": "img/places/gent/fattoush/p1-700.webp 700w, img/places/gent/fattoush/p1-1400.webp 1400w",
+     "w": 1122,
+     "h": 1402,
+     "category": "interior",
+     "alt": "Fattoush Gent: the interior",
+     "credit": "fattoushgent.be",
+     "credit_url": "https://www.fattoushgent.be/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/fattoush/p2-1400.webp",
+     "thumb": "img/places/gent/fattoush/p2-700.webp",
+     "srcset": "img/places/gent/fattoush/p2-700.webp 700w, img/places/gent/fattoush/p2-1400.webp 1400w",
+     "w": 1254,
+     "h": 1254,
+     "category": "food",
+     "alt": "Fattoush Gent: food",
+     "credit": "fattoushgent.be",
+     "credit_url": "https://www.fattoushgent.be/about",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/fattoush/p3-1400.webp",
+     "thumb": "img/places/gent/fattoush/p3-700.webp",
+     "srcset": "img/places/gent/fattoush/p3-700.webp 700w, img/places/gent/fattoush/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 600,
+     "category": "food",
+     "alt": "Fattoush Gent: food",
+     "credit": "fattoushgent.be",
+     "credit_url": "https://www.fattoushgent.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/fattoush/p4-1400.webp",
+     "thumb": "img/places/gent/fattoush/p4-700.webp",
+     "srcset": "img/places/gent/fattoush/p4-700.webp 700w, img/places/gent/fattoush/p4-1400.webp 1400w",
+     "w": 1254,
+     "h": 1254,
+     "category": "food",
+     "alt": "Fattoush Gent: food",
+     "credit": "fattoushgent.be",
+     "credit_url": "https://www.fattoushgent.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/fattoush/p5-1400.webp",
+     "thumb": "img/places/gent/fattoush/p5-700.webp",
+     "srcset": "img/places/gent/fattoush/p5-700.webp 700w, img/places/gent/fattoush/p5-1400.webp 1400w",
+     "w": 1254,
+     "h": 1254,
+     "category": "food",
+     "alt": "Fattoush Gent: food",
+     "credit": "fattoushgent.be",
+     "credit_url": "https://www.fattoushgent.be/menu",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/fattoush/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "golden-gai": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdYzeSaMgqx/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/Dd4Ii3kDGk0/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/golden-gai/p1-1400.webp",
+     "thumb": "img/places/gent/golden-gai/p1-700.webp",
+     "srcset": "img/places/gent/golden-gai/p1-700.webp 700w, img/places/gent/golden-gai/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Golden Gai: food",
+     "credit": "@golden_gai_gent on Instagram",
+     "credit_url": "https://www.instagram.com/golden_gai_gent/",
+     "ig": "https://www.instagram.com/p/DdYzeSaMgqx/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/golden-gai/p2-1400.webp",
+     "thumb": "img/places/gent/golden-gai/p2-700.webp",
+     "srcset": "img/places/gent/golden-gai/p2-700.webp 700w, img/places/gent/golden-gai/p2-1400.webp 1400w",
+     "w": 1067,
+     "h": 1422,
+     "category": "food",
+     "alt": "Golden Gai: food",
+     "credit": "@golden_gai_gent on Instagram",
+     "credit_url": "https://www.instagram.com/golden_gai_gent/",
+     "ig": "https://www.instagram.com/p/Dd4Ii3kDGk0/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/golden-gai/p3-1400.webp",
+     "thumb": "img/places/gent/golden-gai/p3-700.webp",
+     "srcset": "img/places/gent/golden-gai/p3-700.webp 700w, img/places/gent/golden-gai/p3-1400.webp 1400w",
+     "w": 1067,
+     "h": 1600,
+     "category": "food",
+     "alt": "Golden Gai: food",
+     "credit": "goldengai.be",
+     "credit_url": "https://www.goldengai.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/golden-gai/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "guerrilla-streetfood": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DdoGEhvjlsC/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DdoGEhvjlsC/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DeMy1DzDrMd/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/guerrilla-streetfood/p1-1400.webp",
+     "thumb": "img/places/gent/guerrilla-streetfood/p1-700.webp",
+     "srcset": "img/places/gent/guerrilla-streetfood/p1-700.webp 700w, img/places/gent/guerrilla-streetfood/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "exterior",
+     "alt": "Guerrilla Streetfood: the outside",
+     "credit": "guerrillastreetfood.be",
+     "credit_url": "https://www.guerrillastreetfood.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/guerrilla-streetfood/p2-1400.webp",
+     "thumb": "img/places/gent/guerrilla-streetfood/p2-700.webp",
+     "srcset": "img/places/gent/guerrilla-streetfood/p2-700.webp 700w, img/places/gent/guerrilla-streetfood/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1547,
+     "category": "food",
+     "alt": "Guerrilla Streetfood: food",
+     "credit": "@guerrilla_streetfood on Instagram",
+     "credit_url": "https://www.instagram.com/guerrilla_streetfood/",
+     "ig": "https://www.instagram.com/p/DdoGEhvjlsC/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/guerrilla-streetfood/p3-1400.webp",
+     "thumb": "img/places/gent/guerrilla-streetfood/p3-700.webp",
+     "srcset": "img/places/gent/guerrilla-streetfood/p3-700.webp 700w, img/places/gent/guerrilla-streetfood/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1547,
+     "category": "food",
+     "alt": "Guerrilla Streetfood: food",
+     "credit": "@guerrilla_streetfood on Instagram",
+     "credit_url": "https://www.instagram.com/guerrilla_streetfood/",
+     "ig": "https://www.instagram.com/p/DdoGEhvjlsC/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/guerrilla-streetfood/p4-1400.webp",
+     "thumb": "img/places/gent/guerrilla-streetfood/p4-700.webp",
+     "srcset": "img/places/gent/guerrilla-streetfood/p4-700.webp 700w, img/places/gent/guerrilla-streetfood/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Guerrilla Streetfood: food",
+     "credit": "@guerrilla_streetfood on Instagram",
+     "credit_url": "https://www.instagram.com/guerrilla_streetfood/",
+     "ig": "https://www.instagram.com/p/DeMy1DzDrMd/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/guerrilla-streetfood/p5-1400.webp",
+     "thumb": "img/places/gent/guerrilla-streetfood/p5-700.webp",
+     "srcset": "img/places/gent/guerrilla-streetfood/p5-700.webp 700w, img/places/gent/guerrilla-streetfood/p5-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Guerrilla Streetfood: food",
+     "credit": "guerrillastreetfood.be",
+     "credit_url": "https://www.guerrillastreetfood.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/guerrilla-streetfood/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "het-mooie-weer": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/De1nOq4ICpN/",
+     "category": "interior",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DOMDuQFiN2W/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DOMDuQFiN2W/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DLFBkW6o6C8/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DR4rZNgiIrR/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/het-mooie-weer/p1-1400.webp",
+     "thumb": "img/places/gent/het-mooie-weer/p1-700.webp",
+     "srcset": "img/places/gent/het-mooie-weer/p1-700.webp 700w, img/places/gent/het-mooie-weer/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "interior",
+     "alt": "Het Mooie Weer!: the interior",
+     "credit": "@hetmooieweer.gent on Instagram",
+     "credit_url": "https://www.instagram.com/hetmooieweer.gent/",
+     "ig": "https://www.instagram.com/p/De1nOq4ICpN/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/het-mooie-weer/p2-1400.webp",
+     "thumb": "img/places/gent/het-mooie-weer/p2-700.webp",
+     "srcset": "img/places/gent/het-mooie-weer/p2-700.webp 700w, img/places/gent/het-mooie-weer/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1627,
+     "category": "food",
+     "alt": "Het Mooie Weer!: food",
+     "credit": "@hetmooieweer.gent on Instagram",
+     "credit_url": "https://www.instagram.com/hetmooieweer.gent/",
+     "ig": "https://www.instagram.com/p/DOMDuQFiN2W/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/het-mooie-weer/p3-1400.webp",
+     "thumb": "img/places/gent/het-mooie-weer/p3-700.webp",
+     "srcset": "img/places/gent/het-mooie-weer/p3-700.webp 700w, img/places/gent/het-mooie-weer/p3-1400.webp 1400w",
+     "w": 1200,
+     "h": 1394,
+     "category": "food",
+     "alt": "Het Mooie Weer!: food",
+     "credit": "@hetmooieweer.gent on Instagram",
+     "credit_url": "https://www.instagram.com/hetmooieweer.gent/",
+     "ig": "https://www.instagram.com/p/DOMDuQFiN2W/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/het-mooie-weer/p4-1400.webp",
+     "thumb": "img/places/gent/het-mooie-weer/p4-700.webp",
+     "srcset": "img/places/gent/het-mooie-weer/p4-700.webp 700w, img/places/gent/het-mooie-weer/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1210,
+     "category": "food",
+     "alt": "Het Mooie Weer!: food",
+     "credit": "@hetmooieweer.gent on Instagram",
+     "credit_url": "https://www.instagram.com/hetmooieweer.gent/",
+     "ig": "https://www.instagram.com/p/DLFBkW6o6C8/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/het-mooie-weer/p5-1400.webp",
+     "thumb": "img/places/gent/het-mooie-weer/p5-700.webp",
+     "srcset": "img/places/gent/het-mooie-weer/p5-700.webp 700w, img/places/gent/het-mooie-weer/p5-1400.webp 1400w",
+     "w": 1080,
+     "h": 1099,
+     "category": "food",
+     "alt": "Het Mooie Weer!: food",
+     "credit": "@hetmooieweer.gent on Instagram",
+     "credit_url": "https://www.instagram.com/hetmooieweer.gent/",
+     "ig": "https://www.instagram.com/p/DR4rZNgiIrR/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/het-mooie-weer/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "horn-ok-please": {
+   "photos": [
+    {
+     "src": "img/places/gent/horn-ok-please/p1-1400.webp",
+     "thumb": "img/places/gent/horn-ok-please/p1-700.webp",
+     "srcset": "img/places/gent/horn-ok-please/p1-700.webp 700w, img/places/gent/horn-ok-please/p1-1400.webp 1400w",
+     "w": 1000,
+     "h": 1333,
+     "category": "interior",
+     "alt": "Horn OK Please: the interior",
+     "credit": "hornokplease.space",
+     "credit_url": "https://www.hornokplease.space/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/horn-ok-please/p2-1400.webp",
+     "thumb": "img/places/gent/horn-ok-please/p2-700.webp",
+     "srcset": "img/places/gent/horn-ok-please/p2-700.webp 700w, img/places/gent/horn-ok-please/p2-1400.webp 1400w",
+     "w": 1212,
+     "h": 806,
+     "category": "food",
+     "alt": "Horn OK Please: food",
+     "credit": "hornokplease.space",
+     "credit_url": "https://www.hornokplease.space/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/horn-ok-please/p3-1400.webp",
+     "thumb": "img/places/gent/horn-ok-please/p3-700.webp",
+     "srcset": "img/places/gent/horn-ok-please/p3-700.webp 700w, img/places/gent/horn-ok-please/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "food",
+     "alt": "Horn OK Please: food",
+     "credit": "hornokplease.space",
+     "credit_url": "https://www.hornokplease.space/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/horn-ok-please/p4-1400.webp",
+     "thumb": "img/places/gent/horn-ok-please/p4-700.webp",
+     "srcset": "img/places/gent/horn-ok-please/p4-700.webp 700w, img/places/gent/horn-ok-please/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 921,
+     "category": "food",
+     "alt": "Horn OK Please: food",
+     "credit": "hornokplease.space",
+     "credit_url": "https://www.hornokplease.space/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/horn-ok-please/p5-1400.webp",
+     "thumb": "img/places/gent/horn-ok-please/p5-700.webp",
+     "srcset": "img/places/gent/horn-ok-please/p5-700.webp 700w, img/places/gent/horn-ok-please/p5-1400.webp 1400w",
+     "w": 1000,
+     "h": 678,
+     "category": "interior",
+     "alt": "Horn OK Please: the interior",
+     "credit": "hornokplease.space",
+     "credit_url": "https://www.hornokplease.space/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/horn-ok-please/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "ichi": {
+   "photos": [
+    {
+     "src": "img/places/gent/ichi/p1-1400.webp",
+     "thumb": "img/places/gent/ichi/p1-700.webp",
+     "srcset": "img/places/gent/ichi/p1-700.webp 700w, img/places/gent/ichi/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 933,
+     "category": "food",
+     "alt": "Ichi: food",
+     "credit": "ichibao.be",
+     "credit_url": "https://www.ichibao.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/ichi/p2-1400.webp",
+     "thumb": "img/places/gent/ichi/p2-700.webp",
+     "srcset": "img/places/gent/ichi/p2-700.webp 700w, img/places/gent/ichi/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Ichi: food",
+     "credit": "ichibao.be",
+     "credit_url": "https://www.ichibao.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/ichi/p3-1400.webp",
+     "thumb": "img/places/gent/ichi/p3-700.webp",
+     "srcset": "img/places/gent/ichi/p3-700.webp 700w, img/places/gent/ichi/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 1867,
+     "category": "food",
+     "alt": "Ichi: food",
+     "credit": "ichibao.be",
+     "credit_url": "https://www.ichibao.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/ichi/p4-1400.webp",
+     "thumb": "img/places/gent/ichi/p4-700.webp",
+     "srcset": "img/places/gent/ichi/p4-700.webp 700w, img/places/gent/ichi/p4-1400.webp 1400w",
+     "w": 1400,
+     "h": 1750,
+     "category": "food",
+     "alt": "Ichi: food",
+     "credit": "ichibao.be",
+     "credit_url": "https://www.ichibao.be/events",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/ichi/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "rabot-dumpling-house": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DfNC3YXDJdy/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DfNFA-cjOQp/",
+     "category": "food",
+     "origin": "research"
+    },
+    {
+     "url": "https://www.instagram.com/p/DfNC3YXDJdy/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/rabot-dumpling-house/p1-1400.webp",
+     "thumb": "img/places/gent/rabot-dumpling-house/p1-700.webp",
+     "srcset": "img/places/gent/rabot-dumpling-house/p1-700.webp 700w, img/places/gent/rabot-dumpling-house/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 876,
+     "category": "food",
+     "alt": "Rabot Dumpling House: food",
+     "credit": "@rabot_dumpling_house on Instagram",
+     "credit_url": "https://www.instagram.com/rabot_dumpling_house/",
+     "ig": "https://www.instagram.com/p/DfNC3YXDJdy/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/rabot-dumpling-house/p2-1400.webp",
+     "thumb": "img/places/gent/rabot-dumpling-house/p2-700.webp",
+     "srcset": "img/places/gent/rabot-dumpling-house/p2-700.webp 700w, img/places/gent/rabot-dumpling-house/p2-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Rabot Dumpling House: food",
+     "credit": "@rabot_dumpling_house on Instagram",
+     "credit_url": "https://www.instagram.com/rabot_dumpling_house/",
+     "ig": "https://www.instagram.com/p/DfNFA-cjOQp/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/rabot-dumpling-house/p3-1400.webp",
+     "thumb": "img/places/gent/rabot-dumpling-house/p3-700.webp",
+     "srcset": "img/places/gent/rabot-dumpling-house/p3-700.webp 700w, img/places/gent/rabot-dumpling-house/p3-1400.webp 1400w",
+     "w": 1080,
+     "h": 877,
+     "category": "food",
+     "alt": "Rabot Dumpling House: food",
+     "credit": "@rabot_dumpling_house on Instagram",
+     "credit_url": "https://www.instagram.com/rabot_dumpling_house/",
+     "ig": "https://www.instagram.com/p/DfNC3YXDJdy/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/rabot-dumpling-house/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "steamy-windows": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DaNNcA8gyib/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/steamy-windows/p1-1400.webp",
+     "thumb": "img/places/gent/steamy-windows/p1-700.webp",
+     "srcset": "img/places/gent/steamy-windows/p1-700.webp 700w, img/places/gent/steamy-windows/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 934,
+     "category": "interior",
+     "alt": "Steamy Windows: the interior",
+     "credit": "steamywindows.be",
+     "credit_url": "https://www.steamywindows.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/steamy-windows/p2-1400.webp",
+     "thumb": "img/places/gent/steamy-windows/p2-700.webp",
+     "srcset": "img/places/gent/steamy-windows/p2-700.webp 700w, img/places/gent/steamy-windows/p2-1400.webp 1400w",
+     "w": 1080,
+     "h": 1408,
+     "category": "food",
+     "alt": "Steamy Windows: food",
+     "credit": "@steamywindowsbe on Instagram",
+     "credit_url": "https://www.instagram.com/steamywindowsbe/",
+     "ig": "https://www.instagram.com/p/DaNNcA8gyib/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/steamy-windows/p3-1400.webp",
+     "thumb": "img/places/gent/steamy-windows/p3-700.webp",
+     "srcset": "img/places/gent/steamy-windows/p3-700.webp 700w, img/places/gent/steamy-windows/p3-1400.webp 1400w",
+     "w": 1400,
+     "h": 2100,
+     "category": "food",
+     "alt": "Steamy Windows: food",
+     "credit": "steamywindows.be",
+     "credit_url": "https://www.steamywindows.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/steamy-windows/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "taco-santo": {
+   "photos": [
+    {
+     "src": "img/places/gent/taco-santo/p1-1400.webp",
+     "thumb": "img/places/gent/taco-santo/p1-700.webp",
+     "srcset": "img/places/gent/taco-santo/p1-700.webp 700w, img/places/gent/taco-santo/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "food",
+     "alt": "Taco Santo Uno: food",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/taco-santo/p2-1400.webp",
+     "thumb": "img/places/gent/taco-santo/p2-700.webp",
+     "srcset": "img/places/gent/taco-santo/p2-700.webp 700w, img/places/gent/taco-santo/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "food",
+     "alt": "Taco Santo Uno: food",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/taco-santo/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "taco-santo-dos": {
+   "photos": [
+    {
+     "src": "img/places/gent/taco-santo-dos/p1-1400.webp",
+     "thumb": "img/places/gent/taco-santo-dos/p1-700.webp",
+     "srcset": "img/places/gent/taco-santo-dos/p1-700.webp 700w, img/places/gent/taco-santo-dos/p1-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "food",
+     "alt": "Taco Santo Dos: food",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/taco-santo-dos/p2-1400.webp",
+     "thumb": "img/places/gent/taco-santo-dos/p2-700.webp",
+     "srcset": "img/places/gent/taco-santo-dos/p2-700.webp 700w, img/places/gent/taco-santo-dos/p2-1400.webp 1400w",
+     "w": 1400,
+     "h": 788,
+     "category": "food",
+     "alt": "Taco Santo Dos: food",
+     "credit": "tacosanto.be",
+     "credit_url": "https://www.tacosanto.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/taco-santo-dos/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "yalla-yalla": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/Dda73yLogD5/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/yalla-yalla/p1-1400.webp",
+     "thumb": "img/places/gent/yalla-yalla/p1-700.webp",
+     "srcset": "img/places/gent/yalla-yalla/p1-700.webp 700w, img/places/gent/yalla-yalla/p1-1400.webp 1400w",
+     "w": 1080,
+     "h": 1080,
+     "category": "food",
+     "alt": "Yalla Yalla Beirut Foodbar: food",
+     "credit": "@yallayalla_beirutfoodbar on Instagram",
+     "credit_url": "https://www.instagram.com/yallayalla_beirutfoodbar/",
+     "ig": "https://www.instagram.com/p/Dda73yLogD5/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/yalla-yalla/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
+  },
+  "zuru-zuru-ramen": {
+   "posts": [
+    {
+     "url": "https://www.instagram.com/p/DeO6qmtjueB/",
+     "category": "food",
+     "origin": "research"
+    }
+   ],
+   "photos": [
+    {
+     "src": "img/places/gent/zuru-zuru-ramen/p1-1400.webp",
+     "thumb": "img/places/gent/zuru-zuru-ramen/p1-700.webp",
+     "srcset": "img/places/gent/zuru-zuru-ramen/p1-700.webp 700w, img/places/gent/zuru-zuru-ramen/p1-1400.webp 1400w",
+     "w": 1200,
+     "h": 800,
+     "category": "food",
+     "alt": "Zuru Zuru Ramen: food",
+     "credit": "zuruzuru-ramen.be",
+     "credit_url": "https://zuruzuru-ramen.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/zuru-zuru-ramen/p2-1400.webp",
+     "thumb": "img/places/gent/zuru-zuru-ramen/p2-700.webp",
+     "srcset": "img/places/gent/zuru-zuru-ramen/p2-700.webp 700w, img/places/gent/zuru-zuru-ramen/p2-1400.webp 1400w",
+     "w": 1200,
+     "h": 800,
+     "category": "food",
+     "alt": "Zuru Zuru Ramen: food",
+     "credit": "zuruzuru-ramen.be",
+     "credit_url": "https://zuruzuru-ramen.be/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/zuru-zuru-ramen/p3-1400.webp",
+     "thumb": "img/places/gent/zuru-zuru-ramen/p3-700.webp",
+     "srcset": "img/places/gent/zuru-zuru-ramen/p3-700.webp 700w, img/places/gent/zuru-zuru-ramen/p3-1400.webp 1400w",
+     "w": 1200,
+     "h": 898,
+     "category": "food",
+     "alt": "Zuru Zuru Ramen: food",
+     "credit": "zuruzuru-ramen.be",
+     "credit_url": "https://zuruzuru-ramen.be/feed/",
+     "license": "the place's own photo",
+     "source": "own_website",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    },
+    {
+     "src": "img/places/gent/zuru-zuru-ramen/p4-1400.webp",
+     "thumb": "img/places/gent/zuru-zuru-ramen/p4-700.webp",
+     "srcset": "img/places/gent/zuru-zuru-ramen/p4-700.webp 700w, img/places/gent/zuru-zuru-ramen/p4-1400.webp 1400w",
+     "w": 1080,
+     "h": 1350,
+     "category": "food",
+     "alt": "Zuru Zuru Ramen: food",
+     "credit": "@zuruzururamen on Instagram",
+     "credit_url": "https://www.instagram.com/zuruzururamen/",
+     "ig": "https://www.instagram.com/p/DeO6qmtjueB/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true,
+     "added": "streetfood-gent photos 2026-11-05"
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/gent/zuru-zuru-ramen/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  }
 }
