@@ -293,6 +293,7 @@
 "Fri": "ven.",
 "Sat": "sam.",
 "Sun": "dim.",
+"tomorrow": "demain",
 "Mo": "lu",
 "Tu": "ma",
 "We": "me",

@@ -293,6 +293,7 @@
 "Fri": "Fr",
 "Sat": "Sa",
 "Sun": "So",
+"tomorrow": "morgen",
 "Mo": "Mo",
 "Tu": "Di",
 "We": "Mi",

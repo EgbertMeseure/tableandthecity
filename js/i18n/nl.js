@@ -293,6 +293,7 @@
 "Fri": "vr",
 "Sat": "za",
 "Sun": "zo",
+"tomorrow": "morgen",
 "Mo": "ma",
 "Tu": "di",
 "We": "wo",

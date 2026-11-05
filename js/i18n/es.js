@@ -293,6 +293,7 @@
 "Fri": "vie",
 "Sat": "sáb",
 "Sun": "dom",
+"tomorrow": "mañana",
 "Mo": "lu",
 "Tu": "ma",
 "We": "mi",

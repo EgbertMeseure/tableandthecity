@@ -307,6 +307,7 @@ Thu | do | Do | jeu. | jue
 Fri | vr | Fr | ven. | vie
 Sat | za | Sa | sam. | sáb
 Sun | zo | So | dim. | dom
+tomorrow | morgen | morgen | demain | mañana
 Mo | ma | Mo | lu | lu
 Tu | di | Di | ma | ma
 We | wo | Mi | me | mi

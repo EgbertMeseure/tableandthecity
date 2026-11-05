@@ -99,8 +99,8 @@
     [/^(.+) — (Ghent|Antwerp|Bruges|Ostend|Brussels) — Table and the City$/, '{raw} — {city} — Table and the City', ['raw', 'city']],
     [/^(Ghent|Antwerp|Bruges|Ostend|Brussels) — Table and the City$/, '{city} — Table and the City', ['city']]
   ];
-  var TOK = new RegExp('^(?:(?:' + DAYS + '|' + MON + '|' + WEEK + '|closed|Closed|Daily|and holidays|Mo|Tu|We|Th|Fr|Sa|Su)\\b|[\\d:.,;·–\\- ])+$');
-  var TOKS = new RegExp('\\b(' + WEEK + '|' + DAYS + '|' + MON + '|closed|Closed|Daily|and holidays)\\b', 'g');
+  var TOK = new RegExp('^(?:(?:' + DAYS + '|' + MON + '|' + WEEK + '|tomorrow|closed|Closed|Daily|and holidays|Mo|Tu|We|Th|Fr|Sa|Su)\\b|[\\d:.,;·–\\- ])+$');
+  var TOKS = new RegExp('\\b(' + WEEK + '|' + DAYS + '|' + MON + '|tomorrow|closed|Closed|Daily|and holidays)\\b', 'g');
   function tokens(s) { return s.replace(TOKS, function (w) { return t(w); }); }
   function one(s) {                                       // translate one trimmed string, or return null when nothing applies
     if (has(s)) return t(s);
