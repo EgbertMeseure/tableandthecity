@@ -190,6 +190,10 @@ Art-space café: local drinks, coffee, vegan mastel | Kunstcafé: lokale drankje
 ## place types
 Restaurant | Restaurant | Restaurant | Restaurant | Restaurante
 Quick bites | Snelle hap | Kleine Happen | Sur le pouce | Para picar
+
+## street food (Gent first; feature flag + Choose your table card)
+Street food | Streetfood | Streetfood | Street food | Comida callejera
+Street food in {city} | Streetfood in {city} | Streetfood in {city} | Street food à {city} | Comida callejera en {city}
 Dance café | Danscafé | Tanzcafé | Café dansant | Café con baile
 Brown café | Bruine kroeg | Braune Kneipe | Café brun | Bar de toda la vida
 Irish pub | Ierse pub | Irish Pub | Pub irlandais | Pub irlandés

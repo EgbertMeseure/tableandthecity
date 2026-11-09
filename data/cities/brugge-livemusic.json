@@ -7,7 +7,35 @@
    "note": "Jazz or blues on Friday and Saturday",
    "source": "https://www.27bflat.be/nl/",
    "basis": "Own site: 'Kom vrijdag en zaterdag naar één van onze unieke jazz- of blues concerten'",
-   "checked": "2026-10-30"
+   "checked": "2026-10-30",
+   "events": [
+    {
+     "id": "lm-27b-flat-1",
+     "title": "Stevie's Experience",
+     "dateStart": "2026-11-13",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "27B Flat, Sint-Jakobsstraat 15, 8000 Brugge",
+     "partners": [],
+     "sources": [
+      "https://www.27bflat.be/nl/agenda/stevies-experience-21"
+     ],
+     "note": "20:30 · €15 · blues & funk, booking advised"
+    },
+    {
+     "id": "lm-27b-flat-2",
+     "title": "Iza & The Wild Cards",
+     "dateStart": "2026-12-04",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "27B Flat, Sint-Jakobsstraat 15, 8000 Brugge",
+     "partners": [],
+     "sources": [
+      "https://www.27bflat.be/nl/agenda/iza--the-wild-cards"
+     ],
+     "note": "20:30 · €15 · blues-rock"
+    }
+   ]
   },
   "delaneys": {
    "note": "Live music on Friday and Saturday",

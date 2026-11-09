@@ -343,7 +343,7 @@ const TG = (() => {
     if (r.category === 'cocktail_bar') TILES_BY_GROUP.cafes_bars = [['terrace', 'Terrace'], ['signatureCocktails', 'Signature cocktails'], ['mocktails', 'Mocktails / alcohol-free'],
       ['foodServed', 'Food served'], ['lateNight', 'Late night'], ['openSunday', 'Open Sunday'], ['reservations', 'Reservations']];
     if (!isR) F.new = r.isNew ? true : null;
-    const TILES = TILES_BY_GROUP[r.group] || [['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
+    const TILES = TILES_BY_GROUP[r.group] || [['streetFood', 'Street food'], ['veggie', 'Veggie'], ['vegan', 'Vegan'], ['glutenFree', 'Gluten-free options'], ['kidsWelcome', 'Kids welcome'], ['terrace', 'Terrace'],
       ['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
       ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
       ['walkIn', 'Walk-in'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']];
@@ -500,8 +500,8 @@ const TG = (() => {
   /* ---- data ---- */
   async function load(city) {
     const opt = (url, empty) => url ? fetch(bust(url), { cache: 'no-cache' }).then(r => r.ok ? r.json() : empty).catch(() => empty) : Promise.resolve(empty);
-    const [d, up, om, vg, hz, bk, ig, gr, ph, tg, lm] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
-      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} }), opt(city.tags, { places: {} }), opt(city.livemusic, { places: {} })]);
+    const [d, up, om, vg, hz, bk, ig, gr, ph, tg, lm, sf] = await Promise.all([fetch(bust(city.data), { cache: 'no-cache' }).then(r => r.json()), opt(city.upcoming, { upcoming: [] }), opt(city.osm, { places: [] }), opt(city.veggie, { places: {} }),
+      opt(city.heroes, { places: {} }), opt(city.breakfast, { places: {} }), opt(city.instagram, { places: {}, embed: {} }), opt(city.ratings, { places: {} }), opt(city.photos, { places: {} }), opt(city.tags, { places: {} }), opt(city.livemusic, { places: {} }), opt(city.streetfood, { places: {} })]);
     const rs = d.restaurants.filter(r => r.status !== 'unverified');   // unverified records stay in the data, never shown
     rs.forEach(r => { r.curated = true; });                             // hand-curated records rank first
     const ids = new Set(rs.map(r => r.id));                            // once moved into <city>.json, that record wins
@@ -516,6 +516,12 @@ const TG = (() => {
     rs.forEach(r => { const x = (lm.places || {})[r.id]; if (!x) return;
       r.liveMusic = { note: x.note || '', source: x.source || '' };
       if ((x.events || []).length) r.events = [...(r.events || []), ...x.events]; });
+    /* street food layer (data/cities/<city>-streetfood.json, sourced; Gent first): format flag → features.streetFood
+       (Choose your table 'Street food' card); keeps real cuisine tags; never invents a cuisine */
+    rs.forEach(r => { const x = (sf.places || {})[r.id]; if (!x) return;
+      r.features = { ...(r.features || {}) }; r.features_evidence = { ...(r.features_evidence || {}) };
+      if (r.features.streetFood == null) { r.features.streetFood = true; r.features_evidence.streetFood = x.source || x.note || 'street food research'; }
+      r.streetFood = { note: x.note || '', source: x.source || '' }; });
     rs.forEach(r => applyVeg(r, (vg.places || {})[r.id]));
     rs.forEach(r => { const g = (gr.places || {})[r.id]; r.gscore = g && g.score > 0 ? g.score : null; });   // <city>-ratings.json: Google rating x 2 (0-10), only confident matches
     rs.forEach(r => { const h = (hz.places || {})[r.id]; if (h && !r.heroImage) r.heroImage = h; applyMeal(r, (bk.places || {})[r.id]); });
