@@ -7,21 +7,8 @@
    "note": "Live music every weekend",
    "source": "https://www.kellysantwerp.be/",
    "basis": "Own site: 'Every weekend live music at Kelly's'",
-   "checked": "2026-10-30",
+   "checked": "2026-11-09",
    "events": [
-    {
-     "id": "lm-kellys-1",
-     "title": "Paul Taggart",
-     "dateStart": "2026-11-06",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Kelly's Irish Pub, De Keyserlei 27, 2018 Antwerpen",
-     "partners": [],
-     "sources": [
-      "https://www.kellysantwerp.be/show-nights/"
-     ],
-     "note": "Live music (pop, rock, blues, acoustic)"
-    },
     {
      "id": "lm-kellys-2",
      "title": "Ian Kelmer",
@@ -86,20 +73,77 @@
    "note": "Free live jazz most evenings",
    "source": "https://jazzcafedemuze.be/programma/",
    "basis": "Own site: concerts Mon–Thu 21:00, Fri–Sat 22:00, Sun 15:00; 'Alle optredens zijn vrij van inkom' (November programme not online yet on 30 Oct)",
-   "checked": "2026-10-30",
+   "checked": "2026-11-09",
    "events": [
     {
-     "id": "lm-jazzcafe-de-muze-1",
-     "title": "De Muze 5",
-     "dateStart": "2026-11-03",
+     "id": "lm-jazzcafe-de-muze-4",
+     "title": "Robbe Broeckx invites",
+     "dateStart": "2026-11-09",
      "dateEnd": null,
      "type": "concert",
      "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
      "partners": [],
      "sources": [
-      "https://www.milanverbist.be/concerts/"
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
      ],
      "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-5",
+     "title": "Fré Madou invites",
+     "dateStart": "2026-11-12",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-6",
+     "title": "Daniel Menezes invites",
+     "dateStart": "2026-11-13",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "22:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-7",
+     "title": "Cis Belien invites",
+     "dateStart": "2026-11-14",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "22:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-8",
+     "title": "My Name's Jeff",
+     "dateStart": "2026-11-15",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "15:00 · free entry"
     },
     {
      "id": "lm-jazzcafe-de-muze-2",
@@ -113,6 +157,104 @@
       "https://www.milanverbist.be/concerts/"
      ],
      "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-9",
+     "title": "Piet Verbist Quartet",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-10",
+     "title": "AIR Sessions: RDG Trio",
+     "dateStart": "2026-11-20",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "22:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-11",
+     "title": "Kari Antila invites",
+     "dateStart": "2026-11-22",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "15:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-12",
+     "title": "Bram Weijters Trio",
+     "dateStart": "2026-11-23",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-13",
+     "title": "SONOGRAM Sessions: Yökaï",
+     "dateStart": "2026-11-26",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "21:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-14",
+     "title": "Arno Goosens invites",
+     "dateStart": "2026-11-28",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "22:00 · free entry"
+    },
+    {
+     "id": "lm-jazzcafe-de-muze-15",
+     "title": "Jasper De Roeck invites",
+     "dateStart": "2026-11-29",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Jazzcafé De Muze, Melkmarkt 15, 2000 Antwerpen",
+     "partners": [],
+     "sources": [
+      "https://jazzcafedemuze.be/wp-content/uploads/2026/11/NOVEMBER-26-A3-web.pdf",
+      "https://jazzcafedemuze.be/programma/"
+     ],
+     "note": "15:00 · free entry"
     },
     {
      "id": "lm-jazzcafe-de-muze-3",

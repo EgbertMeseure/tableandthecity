@@ -9,20 +9,6 @@
    "basis": "Own site: 'concerten op woensdag en donderdag' (plus comedy on Tuesday, DJ nights Wed–Sat)",
    "events": [
     {
-     "id": "lm-charlatan-1",
-     "title": "Floris Francis Arthur (band) + Maya Teklal",
-     "dateStart": "2026-11-04",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Charlatan, Vlasmarkt 6, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.charlatan.be/agenda",
-      "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
-     ],
-     "note": "21:00 · release show of the third album"
-    },
-    {
      "id": "lm-charlatan-2",
      "title": "West Coast Caravan + Prekowski",
      "dateStart": "2026-11-11",
@@ -77,78 +63,28 @@
       "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
      ],
      "note": "21:00"
+    },
+    {
+     "id": "lm-charlatan-6",
+     "title": "Wholes/NotWholes",
+     "dateStart": "2026-12-18",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Charlatan, Vlasmarkt 6, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.podiuminfo.nl/concertagenda/podium/charlatan/"
+     ],
+     "note": "18:30"
     }
    ],
-   "checked": "2026-10-30"
+   "checked": "2026-11-09"
   },
   "kinky-star": {
    "note": "Free concerts several nights a week",
    "source": "https://www.kinkystar.com/nl",
    "basis": "Own agenda: concerts most nights, entry 'Gratis'",
    "events": [
-    {
-     "id": "lm-kinky-star-1",
-     "title": "Luminous Fest: Saumon Sauvage (BE) + People Who Died (BE)",
-     "dateStart": "2026-11-06",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.kinkystar.com/nl"
-     ],
-     "note": "21:00 · free",
-     "image": {
-      "src": "img/events/kinky-star-concerts.webp",
-      "w": 960,
-      "h": 540,
-      "alt": "Kinky Star logo (event image)",
-      "credit": "Kinky Star (kinkystar.com)",
-      "credit_url": "https://www.kinkystar.com/"
-     }
-    },
-    {
-     "id": "lm-kinky-star-2",
-     "title": "Dark Entries: Darkvolt (BE) + The Ordure (BE)",
-     "dateStart": "2026-11-07",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.kinkystar.com/nl"
-     ],
-     "note": "21:00 · free",
-     "image": {
-      "src": "img/events/kinky-star-concerts.webp",
-      "w": 960,
-      "h": 540,
-      "alt": "Kinky Star logo (event image)",
-      "credit": "Kinky Star (kinkystar.com)",
-      "credit_url": "https://www.kinkystar.com/"
-     }
-    },
-    {
-     "id": "lm-kinky-star-3",
-     "title": "KINKY KAPOT: Narkose (DE) + Landrot (BE)",
-     "dateStart": "2026-11-08",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.kinkystar.com/nl"
-     ],
-     "note": "21:00 · free",
-     "image": {
-      "src": "img/events/kinky-star-concerts.webp",
-      "w": 960,
-      "h": 540,
-      "alt": "Kinky Star logo (event image)",
-      "credit": "Kinky Star (kinkystar.com)",
-      "credit_url": "https://www.kinkystar.com/"
-     }
-    },
     {
      "id": "lm-kinky-star-5",
      "title": "NNC: Sotabosc (ES) + Juneau (BE)",
@@ -213,6 +149,32 @@
      }
     },
     {
+     "id": "lm-kinky-star-12",
+     "title": "Buitendienst x Kinky Star: Carroser (BE) + ???",
+     "dateStart": "2026-11-19",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl"
+     ],
+     "note": "21:00 · free"
+    },
+    {
+     "id": "lm-kinky-star-13",
+     "title": "Mengelmoes: Jessica King (BE) + Zuidas (NL)",
+     "dateStart": "2026-11-20",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl"
+     ],
+     "note": "21:00 · free"
+    },
+    {
      "id": "lm-kinky-star-7",
      "title": "MONOCHROME #02: The Dark Wave (NL) + Radar Machine (NL) + FAILED (BE)",
      "dateStart": "2026-11-21",
@@ -234,8 +196,21 @@
      }
     },
     {
+     "id": "lm-kinky-star-14",
+     "title": "Mengelmoes: Cul Zag (FR) + Coup Dur (BE)",
+     "dateStart": "2026-11-26",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl"
+     ],
+     "note": "21:00 · free"
+    },
+    {
      "id": "lm-kinky-star-8",
-     "title": "KINKY KAPOT: Ulrikes Dream (BE) + End Of Ernie (BE)",
+     "title": "KINKY KAPOT: Ulrikes Dream (BE) + VerpesT (BE)",
      "dateStart": "2026-11-28",
      "dateEnd": null,
      "type": "concert",
@@ -274,6 +249,19 @@
       "credit": "Kinky Star (kinkystar.com)",
       "credit_url": "https://www.kinkystar.com/"
      }
+    },
+    {
+     "id": "lm-kinky-star-15",
+     "title": "Garagester: Big Muffin (BE) + Futuro Pelo (FR/BE) + Cemented Minds (FR)",
+     "dateStart": "2026-12-04",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl?page=2"
+     ],
+     "note": "21:00 · free"
     },
     {
      "id": "lm-kinky-star-10",
@@ -316,36 +304,28 @@
       "credit": "Kinky Star (kinkystar.com)",
       "credit_url": "https://www.kinkystar.com/"
      }
+    },
+    {
+     "id": "lm-kinky-star-16",
+     "title": "IJZERsterK: Ka'Una (BE) + Stonemule (BE)",
+     "dateStart": "2026-12-17",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Kinky Star, Vlasmarkt 9, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.kinkystar.com/nl?page=2"
+     ],
+     "note": "21:00 · free"
     }
    ],
-   "checked": "2026-10-30"
+   "checked": "2026-11-09"
   },
   "osm-de-salopette-n6942598387": {
    "note": "Thursday-evening concerts, about monthly",
    "source": "https://de-salopette.be",
    "basis": "Own site lists 'optredens' on Thursday evenings (5 Nov, 3 Dec 2026)",
    "events": [
-    {
-     "id": "lm-de-salopette-1",
-     "title": "Silke Hamers",
-     "dateStart": "2026-11-05",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "De Salopette, Steendam 57, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://de-salopette.be"
-     ],
-     "note": "20:30",
-     "image": {
-      "src": "img/events/de-salopette-concerts.webp",
-      "w": 960,
-      "h": 540,
-      "alt": "De Salopette logo (event image)",
-      "credit": "De Salopette (de-salopette.be)",
-      "credit_url": "https://de-salopette.be"
-     }
-    },
     {
      "id": "lm-de-salopette-2",
      "title": "Line De Dauw",
@@ -368,7 +348,7 @@
      }
     }
    ],
-   "checked": "2026-10-30"
+   "checked": "2026-11-09"
   },
   "hot-club-gent": {
    "note": "Concerts and jam sessions most nights",
@@ -376,9 +356,9 @@
    "basis": "Own agenda: concerts + jam sessions Mon–Thu and Sun every week (Nov 2026)",
    "events": [
     {
-     "id": "lm-hot-club-gent-1",
-     "title": "Classic Jazz Sessions: Dancehall Shakin' + jam",
-     "dateStart": "2026-11-02",
+     "id": "lm-hot-club-gent-14",
+     "title": "Classic Jazz Sessions: Mortier met Vier",
+     "dateStart": "2026-11-09",
      "dateEnd": null,
      "type": "concert",
      "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
@@ -386,33 +366,7 @@
      "sources": [
       "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
      ],
-     "note": "21:00 · concert & jam session"
-    },
-    {
-     "id": "lm-hot-club-gent-2",
-     "title": "Mercredis Libres: Exit Wound",
-     "dateStart": "2026-11-04",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
-     ],
-     "note": "21:00 · concert & jam session"
-    },
-    {
-     "id": "lm-hot-club-gent-3",
-     "title": "Hot Cats de Gand: Goeie Vraag",
-     "dateStart": "2026-11-05",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
-     ],
-     "note": "21:00 · concert & jam session"
+     "note": "21:00 · jazz"
     },
     {
      "id": "lm-hot-club-gent-7",
@@ -428,6 +382,19 @@
      "note": "21:00 · gypsy swing jam concert"
     },
     {
+     "id": "lm-hot-club-gent-15",
+     "title": "Mercredis Libres: 1, 2, 3 + Bart Maris' Jam",
+     "dateStart": "2026-11-11",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
+    },
+    {
      "id": "lm-hot-club-gent-4",
      "title": "Hot Cats de Gand: Frie Mechele invites",
      "dateStart": "2026-11-12",
@@ -439,6 +406,58 @@
       "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
      ],
      "note": "21:00 · concert & jam session"
+    },
+    {
+     "id": "lm-hot-club-gent-16",
+     "title": "Jazzventures: Old Friends",
+     "dateStart": "2026-11-15",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
+    },
+    {
+     "id": "lm-hot-club-gent-17",
+     "title": "Classic Jazz Sessions: Eerst Odette – dan jam",
+     "dateStart": "2026-11-16",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
+    },
+    {
+     "id": "lm-hot-club-gent-18",
+     "title": "Birds of Swing Sessions: Blue Birding",
+     "dateStart": "2026-11-17",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
+    },
+    {
+     "id": "lm-hot-club-gent-19",
+     "title": "Mercredis Libres: Rempis/Chkifi + Bart Maris' Jam",
+     "dateStart": "2026-11-18",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
     },
     {
      "id": "lm-hot-club-gent-5",
@@ -465,6 +484,45 @@
       "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
      ],
      "note": "21:00 · contemporary jazz"
+    },
+    {
+     "id": "lm-hot-club-gent-20",
+     "title": "Classic Jazz Sessions: Le Ton d'Anton",
+     "dateStart": "2026-11-23",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
+    },
+    {
+     "id": "lm-hot-club-gent-21",
+     "title": "Words & Birds",
+     "dateStart": "2026-11-24",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
+    },
+    {
+     "id": "lm-hot-club-gent-22",
+     "title": "Mercredis Libres: G.A.P + Bart Maris' Jam",
+     "dateStart": "2026-11-25",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Hot Club Gent, Schuddevisstraatje 2, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://www.hotclub.gent/programma.php?maand=11&jaar=2026"
+     ],
+     "note": "21:00 · jazz"
     },
     {
      "id": "lm-hot-club-gent-6",
@@ -545,67 +603,13 @@
      "note": "21:00 · swing jazz, concert & jam session"
     }
    ],
-   "checked": "2026-10-30"
+   "checked": "2026-11-09"
   },
   "missy-sippy": {
    "note": "Weekly blues and roots concerts and jams",
    "source": "https://missy-sippy.be/",
    "basis": "Own site: 'wekelijks passeren concerten, jams, dj-sets en dansavonden de revue'",
    "events": [
-    {
-     "id": "lm-missy-sippy-6",
-     "title": "Jan Bas – rock & roll romanticus",
-     "dateStart": "2026-11-02",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.eventbrite.be/e/jan-bas-rock-roll-romanticus-missy-sippy-tickets-2003819261352",
-      "https://missy-sippy.be/"
-     ],
-     "note": "21:00 · heartland Americana, soul, roots"
-    },
-    {
-     "id": "lm-missy-sippy-1",
-     "title": "Memphis Moon – the songs of John Hiatt",
-     "dateStart": "2026-11-03",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.eventbrite.be/e/memphis-moon-the-songs-of-john-hiatt-clubshow-missy-sippy-tickets-2002271606274"
-     ],
-     "note": "20:30 · club show"
-    },
-    {
-     "id": "lm-missy-sippy-2",
-     "title": "Blues & roots jam",
-     "dateStart": "2026-11-05",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://jamodyssey.net/en/events/be-gent-missy-sippy-blues-roots-jam-2026-11-05"
-     ],
-     "note": "20:30 · free"
-    },
-    {
-     "id": "lm-missy-sippy-7",
-     "title": "Darker – the songs of Leonard Cohen",
-     "dateStart": "2026-11-08",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
-     "partners": [],
-     "sources": [
-      "https://www.eventbrite.be/e/darker-the-songs-of-leonard-cohen-clubshow-missy-sippy-tickets-2002611557076",
-      "https://missy-sippy.be/"
-     ],
-     "note": "17:00 · club show"
-    },
     {
      "id": "lm-missy-sippy-3",
      "title": "Monkey Mask",
@@ -672,9 +676,22 @@
       "https://missy-sippy.be/"
      ],
      "note": "20:30"
+    },
+    {
+     "id": "lm-missy-sippy-10",
+     "title": "Missy Sippy All Stars – Muddy Sippy Sessions",
+     "dateStart": "2026-12-20",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Missy Sippy, Klein Turkije 16, 9000 Gent",
+     "partners": [],
+     "sources": [
+      "https://missy-sippy.be/"
+     ],
+     "note": "20:30 · jazz, blues, bayou & beyond"
     }
    ],
-   "checked": "2026-10-30"
+   "checked": "2026-11-09"
   }
  }
 }
