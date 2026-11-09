@@ -1248,58 +1248,6 @@
    "only": true,
    "layout": "mix"
   },
-  "daily-3000": {
-   "photos": [
-    {
-     "src": "img/places/brussel/daily-3000/p1-1400.webp",
-     "thumb": "img/places/brussel/daily-3000/p1-700.webp",
-     "srcset": "img/places/brussel/daily-3000/p1-700.webp 700w, img/places/brussel/daily-3000/p1-1400.webp 1400w",
-     "w": 1376,
-     "h": 774,
-     "category": "food",
-     "alt": "Daily 3000: food",
-     "credit": "chef3000.com",
-     "credit_url": "https://chef3000.com/menu/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/daily-3000/p2-800.webp",
-     "thumb": "img/places/brussel/daily-3000/p2-400.webp",
-     "srcset": "img/places/brussel/daily-3000/p2-400.webp 400w, img/places/brussel/daily-3000/p2-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "food",
-     "alt": "Daily 3000: food",
-     "credit": "@daily_3000 on Instagram",
-     "credit_url": "https://www.instagram.com/daily_3000/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brussel/daily-3000/p3-800.webp",
-     "thumb": "img/places/brussel/daily-3000/p3-400.webp",
-     "srcset": "img/places/brussel/daily-3000/p3-400.webp 400w, img/places/brussel/daily-3000/p3-800.webp 800w",
-     "w": 800,
-     "h": 1067,
-     "category": "drink",
-     "alt": "Daily 3000: drinks",
-     "credit": "@daily_3000 on Instagram",
-     "credit_url": "https://www.instagram.com/daily_3000/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/brussel/daily-3000/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "eliane": {
    "photos": [
     {

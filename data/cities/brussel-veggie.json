@@ -1,16 +1,8 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "brussel",
- "count": 20,
+ "count": 19,
  "places": {
-  "daily-3000": {
-   "veggieLevel": "vegetarian",
-   "sources": [
-    "https://lefooding.com/restaurants/daily-3000",
-    "https://www.demorgen.be/koken-met-de-morgen/bekende-chefs-en-beloftevolle-nieuwkomers-deze-25-nieuwe-restaurants-openen-dit-najaar~be3db896/"
-   ],
-   "basis": "Own site: plant-based bakery & vegetarian eatery"
-  },
   "honest": {
    "veggieLevel": "veggie-friendly",
    "sources": [

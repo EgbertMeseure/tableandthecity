@@ -1290,6 +1290,13 @@
    "address": "Reep, Gent",
    "closed": "2026-09-19",
    "source": "https://www.john-dory.fish/"
+  },
+  "name:Daily 3000": {
+   "name": "Daily 3000",
+   "id": "daily-3000",
+   "address": "Rue Antoine Bréart 20a, 1060 Bruxelles/Brussel",
+   "closed": "2026-11",
+   "source": "Instagram DM from @daily_3000 to @tableandthecity (~2026-11-06): permanently closed (\"définitivement fermé\")"
   }
  }
 }
