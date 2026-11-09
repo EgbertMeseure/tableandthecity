@@ -18121,6 +18121,14 @@
    "change": "Permanently closed on 19 Sep 2026 (building on the Reep sold; own site); OSM node/7827689770 added to data/osm/closed.json, removed.",
    "source": "https://www.john-dory.fish/",
    "public": "Removed: closed permanently."
+  },
+  {
+   "date": "2026-11-09",
+   "restaurant": "Lunchbar ROMM",
+   "field": "upcoming",
+   "change": "Added to Opening soon: Mirto's lunch bar at the Rommelaere site (Jozef Kluyskensstraat 29) opens 16 Nov 2026 (AVS); weekly research 2026-11-09.",
+   "source": "https://avs.be/nieuws/maatwerkbedrijf-mirto-doet-intrede-in-de-horecawereld",
+   "public": "Added: opening soon (November 2026)."
   }
  ],
  "eventDetails": {

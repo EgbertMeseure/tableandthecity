@@ -240,8 +240,8 @@
   "node/9902273001": {
    "name": "Mortier",
    "address": "Dampoortstraat 31, 9000 Gent",
-   "closed": "unknown",
-   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched)"
+   "closed": "2026-11",
+   "source": "Google Places businessStatus CLOSED_PERMANENTLY (Table and the City ratings run, 2026-10-25; name + address matched); confirmed by press: chef Thomas Mortier closes the restaurant permanently after five years (Gazet van Antwerpen via FOCUS online, 4 Nov 2026): https://www.focus.de/panorama/welt/thomas-40-schliesst-sein-restaurant-aus-gesundheitlichen-gruenden-bin-an-meine-grenzen-gestossen_c605f2c7-0f3a-41e7-bc02-4aa359f7a291.html"
   },
   "node/12116554787": {
    "name": "Nat Thai",

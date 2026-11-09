@@ -1,6 +1,6 @@
 {
  "city": "gent",
- "dateChecked": "2026-11-02",
+ "dateChecked": "2026-11-09",
  "timezone": "Europe/Brussels",
  "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into gent.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
  "excludedChecked": {
@@ -24,7 +24,6 @@
    "MTM group (Mòris, Bianca…) takes over an unnamed Gentse brasserie in Oct 2026 (HLN 24 Sep 2026) — name secret",
    "Sarma building (Korenmarkt): horeca planned above Hema, no operator or date (HLN)",
    "Bakkerij Bloch second shop \"aan de rand van Gent\" — no date found",
-   "Lunchbar ROMM (Mirto, Rommelaere site): 'coming soon', no opening month published (sandwich contest 5 Oct–27 Nov 2026) — re-add with a month",
    "Successor of Jus, Mageleinstraat 43 (two brothers; no name/date, 2026-10-26)",
    "'Mijn Restaurant' duo at ex-Door73, Hoogstraat 73 (concept secret, HLN 5 Aug 2026)",
    "Successor of Grade, Ledebergplein (no details, 2026-10-26)",
@@ -36,7 +35,9 @@
    "La Matta (gelato open; wine & sandwiches from Oct 2026 — partly open)",
    "McDonald's Vrijdagmarkt (summer 2027) — big chains are excluded from the site (data/chains-exclude.json)",
    "Crousty concept by the Colmar brothers (rice bowls, chain group/fast food – Nieuwsblad Oct 2026)",
-   "Winterbar, Sint-Veerleplein 11 (seasonal pop-up 4 Dec 2026 – 3 Jan 2027, not a permanent place)"
+   "Winterbar, Sint-Veerleplein 11 (seasonal pop-up 4 Dec 2026 – 3 Jan 2027, not a permanent place)",
+   "Wrap Up burrito bar, Charles Andrieslaan 9 (reopened Oct 2026; fast food – not added)",
+   "ARNO ristorante, Akkerhage 2B (G&M 'Ten to Taste' Apr 2026; permanently closed 31 Aug 2026 – removed 2026-10-25, not re-added)"
   ]
  },
  "upcoming": [
@@ -73,7 +74,7 @@
     "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/bekende-gentse-club-verdwijnt-na-ruim-25-jaar-en-viert-dat-met-een-maand-vol-laatste-feesten-de-cirkel-is-rond/162495399.html"
    ],
    "announcedBy": "HLN, 9 Oct 2026; Nieuwsblad, Oct 2026",
-   "dateChecked": "2026-11-02"
+   "dateChecked": "2026-11-09"
   },
   {
    "id": "sint-annakerk-restaurant-wijnbar",
@@ -107,7 +108,43 @@
     "https://avs.be/nieuws/renovatiewerken-sint-annakerk-schieten-op-opening-voorzien-tegen-eind-2027"
    ],
    "announcedBy": "Delhaize press release, 3 Sep 2026; AVS, 23 Jun 2026",
-   "dateChecked": "2026-11-02"
+   "dateChecked": "2026-11-09"
+  },
+  {
+   "id": "lunchbar-romm",
+   "name": "Lunchbar ROMM",
+   "group": "restaurants",
+   "category": "casual",
+   "address": "Jozef Kluyskensstraat 29, 9000 Gent (Rommelaere site)",
+   "postalCode": "9000",
+   "district": "Gent (9000)",
+   "neighbourhood": "Kunstenkwartier",
+   "lat": 51.0453219,
+   "lng": 3.7204894,
+   "geoSource": "Nominatim/OpenStreetMap (same address as The Generous)",
+   "geoPrecision": "address",
+   "expectedOpening": "2026-11-16",
+   "expectedOpeningLabel": null,
+   "expectedOpeningNote": "AVS: Mirto opens Lunchbar ROMM on 16 November 2026; open Monday to Friday 09:00-15:30.",
+   "description": "Lunch bar in the former Rommelaere Institute by social-economy company Mirto: sandwiches, salads, soup and daily dishes with local, seasonal produce, to eat in or take away; kitchen, bar and service run by people with a distance to the labour market, with coaches.",
+   "team": "Mirto vzw (maatwerkbedrijf)",
+   "website": "https://mirto.be/wedstrijdinfo-lunchbar-romm/",
+   "instagram_handle": null,
+   "vegetarian": "unknown",
+   "vegan": "unknown",
+   "dietNote": "",
+   "openingHours": "Mo-Fr 09:00-15:30; Sa,Su off",
+   "openingHoursSource": "https://avs.be/nieuws/maatwerkbedrijf-mirto-doet-intrede-in-de-horecawereld (announced; no Google Maps listing yet)",
+   "features": {},
+   "features_evidence": {},
+   "sources": [
+    "https://avs.be/nieuws/maatwerkbedrijf-mirto-doet-intrede-in-de-horecawereld",
+    "https://mirto.be/wedstrijdinfo-lunchbar-romm/",
+    "https://companybelgium.be/en/establishment/2392578046/mirto-vzw-site-lunchbar-romm",
+    "https://www.vrt.be/vrtnws/nl/2026/08/20/gent-universiteit-ugent-rommelaere-nieuwe-invulling-restaurant-c/"
+   ],
+   "announcedBy": "AVS, Nov 2026; Mirto",
+   "dateChecked": "2026-11-09"
   }
  ]
 }
