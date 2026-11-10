@@ -2748,7 +2748,7 @@
   {
    "id": "onslow",
    "name": "Onslow",
-   "type": "bistro",
+   "type": "restaurant",
    "cuisine": "Seasonal, small plates",
    "cuisineTags": [
     "Seasonal",
@@ -2786,7 +2786,7 @@
    "instagram": "https://www.instagram.com/onslow_brugge/",
    "instagram_handle": "onslow_brugge",
    "phone": "+32 50 68 09 75",
-   "summary": "Bib Gourmand bistro in an old café with relaxed sharing plates inspired by Korean, Thai and European cooking, including veg and vegan choices; G&M 13/20.",
+   "summary": "Bib Gourmand restaurant in an old café with relaxed sharing plates inspired by Korean, Thai and European cooking; G&M 13/20.",
    "summaryLang": "en",
    "events": [],
    "sources": [
@@ -2797,8 +2797,8 @@
     "https://www.visitbruges.be/en/eat-and-sleep/food-bars-cafes/onslow"
    ],
    "dataConflict": null,
-   "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "dateChecked": "2026-11-10",
+   "lastChanged": "2026-11-10",
    "city": "brugge",
    "country": "BE",
    "reservation_url": null,
@@ -2842,7 +2842,7 @@
    "openingHours": "Mo-We 17:30-23:30; Th-Sa 12:00-14:00,17:30-23:30; Su off",
    "openingHoursSource": "Michelin Guide page",
    "group": "restaurants",
-   "category": "bistro",
+   "category": "restaurant",
    "notes": null,
    "instagramSource": "link on Visit Bruges listing",
    "origin": "research-2026-10-25"

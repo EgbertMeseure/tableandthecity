@@ -3278,44 +3278,6 @@
    "only": true,
    "layout": "mix"
   },
-  "onslow": {
-   "photos": [
-    {
-     "src": "img/places/brugge/onslow/p1-1400.webp",
-     "thumb": "img/places/brugge/onslow/p1-700.webp",
-     "srcset": "img/places/brugge/onslow/p1-700.webp 700w, img/places/brugge/onslow/p1-1400.webp 1400w",
-     "w": 900,
-     "h": 1600,
-     "category": "food",
-     "alt": "Onslow: food",
-     "credit": "@onslow_brugge on Instagram",
-     "credit_url": "https://www.instagram.com/onslow_brugge/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/brugge/onslow/p2-800.webp",
-     "thumb": "img/places/brugge/onslow/p2-400.webp",
-     "srcset": "img/places/brugge/onslow/p2-400.webp 400w, img/places/brugge/onslow/p2-800.webp 800w",
-     "w": 800,
-     "h": 1060,
-     "category": "food",
-     "alt": "Onslow: food",
-     "credit": "@onslow_brugge on Instagram",
-     "credit_url": "https://www.instagram.com/onslow_brugge/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/brugge/onslow/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
-  },
   "van-mullem": {
    "photos": [
     {
