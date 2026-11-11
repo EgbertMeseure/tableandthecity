@@ -4385,7 +4385,7 @@
   },
   {
    "id": "ptitbeur",
-   "name": "P'tit Beur",
+   "name": "PtitBeur",
    "type": "bistro",
    "cuisine": "Bistro",
    "cuisineTags": [
@@ -4430,8 +4430,8 @@
     "https://www.gaultmillau.be/nl/restaurants/ptitbeur-bruxelles-saint-gilles"
    ],
    "dataConflict": null,
-   "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "dateChecked": "2026-11-11",
+   "lastChanged": "2026-11-11",
    "city": "brussel",
    "country": "BE",
    "reservation_url": null,
@@ -4442,8 +4442,8 @@
     "glutenFree": null,
     "kidsWelcome": null,
     "terrace": null,
-    "lunch": null,
-    "dinner": null,
+    "lunch": false,
+    "dinner": true,
     "setMenu": null,
     "aLaCarte": null,
     "winePairing": null,
@@ -4455,41 +4455,29 @@
     "reservations": null,
     "walkIn": null,
     "wheelchair": null,
-    "openSunday": null,
+    "openSunday": false,
     "new": false,
-    "openMonday": null,
+    "openMonday": false,
     "breakfast": null,
     "brunch": null
    },
    "features_evidence": {
     "michelin": "Michelin Guide not listed",
     "gaultMillau": "Gault&Millau 2026: 13.5/20",
-    "new": "not opened in the last 12 months (per sources)"
+    "new": "not opened in the last 12 months (per sources)",
+    "dinner": "Instagram DM from @_ptitbeur_ (2026-11-10): Tue–Thu 19:00–22:00, Fri–Sat 19:00–22:30",
+    "lunch": "Instagram DM from @_ptitbeur_ (2026-11-10): dinner hours only, no lunch",
+    "openSunday": "Instagram DM from @_ptitbeur_ (2026-11-10): closed Sunday and Monday",
+    "openMonday": "Instagram DM from @_ptitbeur_ (2026-11-10): closed Sunday and Monday"
    },
-   "openingHours": "Tu-Sa 18:30-22:30",
-   "openingHoursSource": "OpenStreetMap",
+   "openingHours": "Tu-Th 19:00-22:00; Fr-Sa 19:00-22:30; Su,Mo off",
+   "openingHoursSource": "Instagram DM from @_ptitbeur_ (2026-11-10)",
    "group": "restaurants",
    "category": "bistro",
-   "notes": "Gault&Millau lists service days: Tu-Sa dinner; closed Mo,Su (no times published; openingHours left null).",
+   "notes": null,
    "instagramSource": "own website link, Gault&Millau/Le Fooding listing or press",
    "origin": "research-2026-10-25",
-   "osm": "node/10908419020",
-   "photos": [
-    {
-     "src": "img/places/brussel/ptitbeur/2-interior-1600.webp",
-     "thumb": "img/places/brussel/ptitbeur/2-interior-800.webp",
-     "srcset": "img/places/brussel/ptitbeur/2-interior-800.webp 800w, img/places/brussel/ptitbeur/2-interior-1600.webp 1600w",
-     "w": 900,
-     "h": 1600,
-     "category": "interior",
-     "alt": "P'tit Beur: interior",
-     "credit": "@_ptitbeur_ on Instagram",
-     "credit_url": "https://www.instagram.com/_ptitbeur_/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ]
+   "osm": "node/10908419020"
   },
   {
    "id": "savage",

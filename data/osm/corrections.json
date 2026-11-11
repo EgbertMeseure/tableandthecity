@@ -533,6 +533,13 @@
    },
    "instagram_handle": "planttrekkerij",
    "source": "Owner request via Instagram DM (Planttrekkerij, 1 Nov 2026) | https://www.planttrekkerij.be/ (checked 1 Nov 2026) (website links instagram.com/planttrekkerij)"
+  },
+  "node/10908419020": {
+   "name": "PtitBeur",
+   "openingHours": "Tu-Th 19:00-22:00; Fr-Sa 19:00-22:30; Su,Mo off",
+   "openingHoursSource": "Instagram DM from @_ptitbeur_ (2026-11-10)",
+   "openingHoursConfidence": "high",
+   "source": "Instagram DM from @_ptitbeur_ to @tableandthecity (2026-11-10); name confirmed on own Instagram https://www.instagram.com/_ptitbeur_/ and Facebook https://www.facebook.com/Leptitbeur/"
   }
  }
 }
