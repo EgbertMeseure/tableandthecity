@@ -6126,8 +6126,8 @@
     "https://www.visitoostende.be/nl/fogato"
    ],
    "dataConflict": "Visit Oostende shows Tu-Fr 07:30-17:30 and Sa,Su 09:00-19:00; own site used.",
-   "dateChecked": "2026-10-26",
-   "lastChanged": "2026-10-26",
+   "dateChecked": "2026-11-14",
+   "lastChanged": "2026-11-14",
    "city": "oostende",
    "country": "BE",
    "reservation_url": null,
@@ -6148,14 +6148,15 @@
     "openMonday": false,
     "signatureCocktails": null,
     "lateNight": null,
-    "breakfast": null,
+    "breakfast": false,
     "brunch": null,
     "new": false
    },
    "features_evidence": {
     "new": "not opened in the last 12 months (per sources)",
     "openSunday": "opening hours (own site fogato.be)",
-    "openMonday": "opening hours (own site fogato.be)"
+    "openMonday": "opening hours (own site fogato.be)",
+    "breakfast": "Instagram DM from @fogato_oostende (2026-11-13): no breakfast served"
    },
    "openingHours": "Tu-Fr 09:00-17:30; Sa,Su 10:00-17:30; Mo off",
    "openingHoursSource": "own site fogato.be",

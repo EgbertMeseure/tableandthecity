@@ -703,20 +703,6 @@
   "fogato": {
    "photos": [
     {
-     "src": "img/places/oostende/fogato/p1-1400.webp",
-     "thumb": "img/places/oostende/fogato/p1-700.webp",
-     "srcset": "img/places/oostende/fogato/p1-700.webp 700w, img/places/oostende/fogato/p1-1400.webp 1400w",
-     "w": 1366,
-     "h": 1080,
-     "category": "food",
-     "alt": "Fogato: food",
-     "credit": "fogato.be",
-     "credit_url": "https://www.fogato.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
      "src": "img/places/oostende/fogato/p2-800.webp",
      "thumb": "img/places/oostende/fogato/p2-400.webp",
      "srcset": "img/places/oostende/fogato/p2-400.webp 400w, img/places/oostende/fogato/p2-800.webp 800w",
@@ -733,7 +719,7 @@
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/oostende/fogato/p1-1400.webp"
+    "src": "img/places/oostende/fogato/p2-800.webp"
    },
    "only": true,
    "layout": "mix"
