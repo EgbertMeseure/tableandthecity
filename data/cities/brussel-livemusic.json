@@ -7,22 +7,8 @@
    "note": "Live jazz every weekend",
    "source": "https://www.archiduc.net/",
    "basis": "Own site: 'Live Music Every Weekend' — Saturday's Jazz After Shopping 17:00–19:00 and Sunday concerts",
-   "checked": "2026-11-09",
+   "checked": "2026-11-16",
    "events": [
-    {
-     "id": "lm-l-archiduc-3",
-     "title": "Minton Mattos Noble",
-     "dateStart": "2026-11-15",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "L'Archiduc, Rue Antoine Dansaert 6, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.jazzucrist.com/event/f83d49a6-cec5-4d45-9445-c92a996c080a",
-      "https://jazznl.nl/podium/l-archiduc-brussel"
-     ],
-     "note": "17:00"
-    },
     {
      "id": "lm-l-archiduc-4",
      "title": "Stéphane Mercier Mauritius Belgium Reunion",
@@ -43,90 +29,69 @@
    "note": "Concerts on Friday and Saturday nights",
    "source": "https://lecorbeau1875.be/",
    "basis": "Own site: 'Les vendredis et samedis soirs … concerts'",
-   "checked": "2026-10-30"
+   "checked": "2026-11-16"
   },
   "osm-cafe-central-n11390036402": {
    "note": "Concerts and DJ sets most nights",
    "source": "https://www.brusselslife.be/en/le-cafe-central",
    "basis": "brusselslife.be: 'concerts que de sets de DJ, chaque jour de la semaine'",
-   "checked": "2026-10-30"
+   "checked": "2026-11-16"
   },
   "osm-la-source-n8586364197": {
    "note": "Regular free concerts",
    "source": "https://lasourcebeer.be/",
    "basis": "Own site: 'free concerts are regularly organized'",
-   "checked": "2026-10-30"
+   "checked": "2026-11-16",
+   "events": [
+    {
+     "id": "lm-la-source-1",
+     "title": "Coilguns + Villenoire",
+     "dateStart": "2026-11-26",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "La Source Beer Co, Rue Dieudonné Lefèvre 4, 1020 Brussels",
+     "partners": [],
+     "sources": [
+      "https://idiots.beer/event/coilguns-villenoire-la-source/",
+      "https://www.songkick.com/venues/4370271-la-source-beer-co"
+     ],
+     "note": "Doors 19:00 · €17 · Coilguns album release show"
+    },
+    {
+     "id": "lm-la-source-2",
+     "title": "JusteNiels",
+     "dateStart": "2026-11-27",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "La Source Beer Co, Rue Dieudonné Lefèvre 4, 1020 Brussels",
+     "partners": [],
+     "sources": [
+      "https://idiots.beer/event/justeniels-la-source/",
+      "https://www.songkick.com/venues/4370271-la-source-beer-co"
+     ],
+     "note": "19:00 · francophone pop"
+    },
+    {
+     "id": "lm-la-source-3",
+     "title": "Årabrot + Big Horse",
+     "dateStart": "2026-12-02",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "La Source Beer Co, Rue Dieudonné Lefèvre 4, 1020 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.billetweb.fr/rabrot-support",
+      "https://www.songkick.com/concerts/43440878-arabrot-at-la-source-beer-co"
+     ],
+     "note": "Doors 19:00 · €13 presale / €16 door"
+    }
+   ]
   },
   "sounds-jazz-club": {
    "note": "Live jazz Thursday to Sunday",
    "source": "https://www.sounds.brussels/visit/",
    "basis": "Own site: 'Live music Thursday to Sunday'",
    "events": [
-    {
-     "id": "lm-sounds-jazz-club-10",
-     "title": "Concert pour la paix: Gronowski et son orchestre",
-     "dateStart": "2026-11-11",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "17:00 · €12"
-    },
-    {
-     "id": "lm-sounds-jazz-club-11",
-     "title": "Conjunto Media Luna",
-     "dateStart": "2026-11-12",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "19:30 · €12 · Latin"
-    },
-    {
-     "id": "lm-sounds-jazz-club-2",
-     "title": "Lucid Lucia / DJ Grazzhoppa",
-     "dateStart": "2026-11-13",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "20:00 · €15"
-    },
-    {
-     "id": "lm-sounds-jazz-club-12",
-     "title": "Gipsy Jazz Night",
-     "dateStart": "2026-11-14",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "20:00 · €12"
-    },
-    {
-     "id": "lm-sounds-jazz-club-7",
-     "title": "Chantal Acda x Rachel Therrien",
-     "dateStart": "2026-11-15",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "18:00 · €12"
-    },
     {
      "id": "lm-sounds-jazz-club-13",
      "title": "Pan Amsterdam with The Free Band",
@@ -310,92 +275,13 @@
      "note": "20:00 · €12 · Mediterranean & flamenco"
     }
    ],
-   "checked": "2026-11-09"
+   "checked": "2026-11-16"
   },
   "osm-the-music-village-n4413933705": {
    "note": "Jazz concerts six to seven nights a week",
    "source": "https://www.themusicvillage.com/en",
    "basis": "Own site: 'live music six to seven days a week, all year long, with more than 300 live concerts per year'",
    "events": [
-    {
-     "id": "lm-music-village-15",
-     "title": "MdM Groove Quartet",
-     "dateStart": "2026-11-10",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · Groove Week"
-    },
-    {
-     "id": "lm-music-village-5",
-     "title": "Gaju and The Groovy Stones",
-     "dateStart": "2026-11-11",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · Groove Week"
-    },
-    {
-     "id": "lm-music-village-16",
-     "title": "Tribute to John Scofield",
-     "dateStart": "2026-11-12",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · jazz"
-    },
-    {
-     "id": "lm-music-village-17",
-     "title": "Tribute to Aretha Franklin",
-     "dateStart": "2026-11-13",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · soul"
-    },
-    {
-     "id": "lm-music-village-6",
-     "title": "Sarah Letor & Soul band",
-     "dateStart": "2026-11-14",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/concerts/2026-11-14-20-30",
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 (doors 19:30) · soul"
-    },
-    {
-     "id": "lm-music-village-18",
-     "title": "NØ STEAM",
-     "dateStart": "2026-11-15",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · funk & groove"
-    },
     {
      "id": "lm-music-village-19",
      "title": "Maur-Vantomme Quartet – album release \"Old Friend\"",
@@ -557,6 +443,19 @@
      "note": "20:30 (doors 19:30) · also on 28 Nov"
     },
     {
+     "id": "lm-music-village-45",
+     "title": "Judy Niemack & Jeanfrançois Prins Trio – Singing Miles",
+     "dateStart": "2026-11-28",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · tribute to Miles Davis (second night)"
+    },
+    {
      "id": "lm-music-village-27",
      "title": "Matthieu Van / \"The Seventh Son\"",
      "dateStart": "2026-11-29",
@@ -661,6 +560,19 @@
       "https://www.themusicvillage.com/en/program/upcoming-concerts"
      ],
      "note": "20:30 · jazz"
+    },
+    {
+     "id": "lm-music-village-46",
+     "title": "Golden Hits – 70s, 80s, 90s",
+     "dateStart": "2026-12-07",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · groove jam session"
     },
     {
      "id": "lm-music-village-33",
@@ -845,9 +757,87 @@
       "https://www.themusicvillage.com/en/program/upcoming-concerts"
      ],
      "note": "20:30 · vocal jazz"
+    },
+    {
+     "id": "lm-music-village-47",
+     "title": "The Jacquelines: Christmas at the Music Village",
+     "dateStart": "2026-12-22",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · festive season"
+    },
+    {
+     "id": "lm-music-village-48",
+     "title": "Hey Look at Me",
+     "dateStart": "2026-12-23",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · carte blanche to Umberto Odone"
+    },
+    {
+     "id": "lm-music-village-49",
+     "title": "The New Yorkers: A Special Holiday Concert",
+     "dateStart": "2026-12-25",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · vocal jazz"
+    },
+    {
+     "id": "lm-music-village-50",
+     "title": "The Marshmallows – a tribute to Warne Marsh & Lennie Tristano",
+     "dateStart": "2026-12-26",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · festive season"
+    },
+    {
+     "id": "lm-music-village-51",
+     "title": "Stevie's Experience / The Last Waltz",
+     "dateStart": "2026-12-27",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · vocal blues"
+    },
+    {
+     "id": "lm-music-village-52",
+     "title": "Christmas: The Afterparty",
+     "dateStart": "2026-12-28",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · vocal jazz"
     }
    ],
-   "checked": "2026-11-09"
+   "checked": "2026-11-16"
   }
  }
 }
