@@ -254,6 +254,7 @@
 "Zalige Zondag: last Sunday of the month · collab each quarter": "Zalige Zondag: laatste zondag van de maand · elk kwartaal een collab",
 "Gluten-free": "Glutenvrij",
 "Gluten-free options": "Glutenvrije opties",
+"Low-gluten": "Glutenarm",
 "Wheelchair": "Rolstoel",
 "Wheelchair accessible": "Rolstoeltoegankelijk",
 "Chef collabs": "Chef-samenwerkingen",

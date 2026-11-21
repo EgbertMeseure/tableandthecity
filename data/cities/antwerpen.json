@@ -10091,7 +10091,7 @@
   },
   {
    "id": "caffenation",
-   "name": "Caffènation",
+   "name": "Caffenation",
    "type": null,
    "cuisine": "Specialty coffee roaster",
    "cuisineTags": [],
@@ -10135,8 +10135,8 @@
     "https://europeancoffeetrip.com/antwerp/"
    ],
    "dataConflict": null,
-   "dateChecked": "2026-10-25",
-   "lastChanged": "2026-10-25",
+   "dateChecked": "2026-11-21",
+   "lastChanged": "2026-11-21",
    "city": "antwerpen",
    "country": "BE",
    "reservation_url": null,
@@ -10169,7 +10169,7 @@
    "openingHoursSource": "OpenStreetMap",
    "group": "coffee",
    "category": "coffee_bar",
-   "notes": "Address is the contact address on caffenation.be/pages/contact; the site also mentions a new bar \"Blue\" at Mechelsesteenweg 127. Which location serves as the main café is not confirmed.",
+   "notes": "Address is the contact address on caffenation.be/pages/contact; the site also mentions a new bar \"Blue\" at Mechelsesteenweg 127. Which location serves as the main café is not confirmed. Name spelled \"Caffenation\" (no accent), as on caffenation.be and their Instagram; they asked for the fix on 20 Nov 2026 and call themselves technically a chain (decision pending).",
    "instagramSource": "own website link or press article",
    "origin": "research-2026-10-25",
    "osm": "node/5715201622"

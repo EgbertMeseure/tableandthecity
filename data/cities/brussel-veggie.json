@@ -1,7 +1,7 @@
 {
  "about": "veggieLevel: 'vegan' (fully vegan) | 'vegetarian' (fully vegetarian, no meat/fish) | 'vegan-friendly' (clear vegan options:\nlabelled dishes / vegan menu) | 'veggie-friendly' (clear vegetarian options). Never guessed.",
  "city": "brussel",
- "count": 19,
+ "count": 18,
  "places": {
   "honest": {
    "veggieLevel": "veggie-friendly",
@@ -17,14 +17,6 @@
     "https://www.gaultmillau.be/nl/restaurants/humus-x-hortense-bruxelles-ixelles"
    ],
    "basis": "Michelin and own site: fully plant-based (vegetarian/vegan) gastronomic menu"
-  },
-  "munch": {
-   "veggieLevel": "veggie-friendly",
-   "sources": [
-    "https://www.brusselstimes.com/2260634/have-you-tried-these-new-restaurants-in-brussels",
-    "https://bruxellessecrete.com/en/the-gems-of-2026-5-newly-opened-restaurants-that-have-already-become-must-visit-spots-for-foodies-in-brussels/"
-   ],
-   "basis": "Brussels Times: mushroom version of the rou jia mo; Bruxelles Secrète: veggie version"
   },
   "origine": {
    "veggieLevel": "veggie-friendly",

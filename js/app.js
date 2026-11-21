@@ -381,7 +381,7 @@
 
   // ---- render list + markers ----
   const detailUrl = id => cityUrl('restaurant.html', city.id, '&id=' + encodeURIComponent(id));
-  const SHORT = { glutenFree: 'Gluten-free', naPairing: 'NA pairing', wheelchair: 'Wheelchair', vegan: 'Vegan', aLaCarte: 'À la carte', gaultMillau: 'G&M', chefCollabs: 'Chef collabs', openSunday: 'Sunday', openMonday: 'Monday', foodServed: 'Food', reservations: 'Bookable' };
+  const SHORT = { glutenFree: 'Gluten-free', lowGluten: 'Low-gluten', naPairing: 'NA pairing', wheelchair: 'Wheelchair', vegan: 'Vegan', aLaCarte: 'À la carte', gaultMillau: 'G&M', chefCollabs: 'Chef collabs', openSunday: 'Sunday', openMonday: 'Monday', foodServed: 'Food', reservations: 'Bookable' };
   /* booking button on list cards (only categories in TG_CONFIG.BOOKING_BUTTON_TYPES): online link → "Reserve";
      no online link but a phone (data says phone-only, or nothing researched yet) → tel: "Reservation by phone"; walk-in only → chip */
   const BK_TYPES = (window.TG_CONFIG || {}).BOOKING_BUTTON_TYPES || [];

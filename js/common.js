@@ -347,6 +347,7 @@ const TG = (() => {
       ['breakfast', 'Breakfast'], ['brunch', 'Brunch'], ['lunch', 'Lunch'], ['dinner', 'Dinner'], ['setMenu', 'Set menu'], ['aLaCarte', 'À la carte'], ['winePairing', 'Wine pairing'], ['naPairing', 'Non-alcoholic pairing'],
       ['michelin', 'Michelin'], ['gaultMillau', 'Gault&Millau'], ['events', 'Events'], ['chefCollabs', 'Chef collabs'], ['reservations', 'Reservations'],
       ['walkIn', 'Walk-in'], ['takeaway', 'Takeaway'], ['wheelchair', 'Wheelchair accessible'], ['openMonday', 'Open Monday'], ['openSunday', 'Open Sunday'], ['new', 'New']];
+    if (F.lowGluten != null) { const gi = TILES.findIndex(([k]) => k === 'glutenFree'); TILES.splice(gi < 0 ? TILES.length : gi + 1, 0, ['lowGluten', 'Low-gluten']); }   // only where sourced (e.g. 'not 100% gluten-free, always low in gluten')
     return { F, EV, TILES };
   }
 
