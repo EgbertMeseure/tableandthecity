@@ -7,7 +7,7 @@
    "note": "Live jazz every weekend",
    "source": "https://www.archiduc.net/",
    "basis": "Own site: 'Live Music Every Weekend' — Saturday's Jazz After Shopping 17:00–19:00 and Sunday concerts",
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "events": [
     {
      "id": "lm-l-archiduc-4",
@@ -29,19 +29,19 @@
    "note": "Concerts on Friday and Saturday nights",
    "source": "https://lecorbeau1875.be/",
    "basis": "Own site: 'Les vendredis et samedis soirs … concerts'",
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
   },
   "osm-cafe-central-n11390036402": {
    "note": "Concerts and DJ sets most nights",
    "source": "https://www.brusselslife.be/en/le-cafe-central",
    "basis": "brusselslife.be: 'concerts que de sets de DJ, chaque jour de la semaine'",
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
   },
   "osm-la-source-n8586364197": {
    "note": "Regular free concerts",
    "source": "https://lasourcebeer.be/",
    "basis": "Own site: 'free concerts are regularly organized'",
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "events": [
     {
      "id": "lm-la-source-1",
@@ -93,71 +93,6 @@
    "basis": "Own site: 'Live music Thursday to Sunday'",
    "events": [
     {
-     "id": "lm-sounds-jazz-club-13",
-     "title": "Pan Amsterdam with The Free Band",
-     "dateStart": "2026-11-17",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "20:00 · €15 · jazz hip-hop"
-    },
-    {
-     "id": "lm-sounds-jazz-club-3",
-     "title": "Tribute to Art Blakey and the Jazz Messengers",
-     "dateStart": "2026-11-19",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "20:00 · €10"
-    },
-    {
-     "id": "lm-sounds-jazz-club-14",
-     "title": "Dusty Husky & DJ Bunta + Nasty Nag",
-     "dateStart": "2026-11-20",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "20:00 · €12 · hip-hop"
-    },
-    {
-     "id": "lm-sounds-jazz-club-4",
-     "title": "Manouchedrome",
-     "dateStart": "2026-11-21",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "20:00 · €10"
-    },
-    {
-     "id": "lm-sounds-jazz-club-15",
-     "title": "Tribute to Raul de Souza by Roberto De Oliveira",
-     "dateStart": "2026-11-22",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
-     "partners": [],
-     "sources": [
-      "https://www.sounds.brussels/agenda/"
-     ],
-     "note": "17:00 · €12 · Latin jazz"
-    },
-    {
      "id": "lm-sounds-jazz-club-16",
      "title": "Ghost Dog: live soundtrack (movie + live jazz)",
      "dateStart": "2026-11-25",
@@ -197,6 +132,19 @@
      "note": "20:00 · €12"
     },
     {
+     "id": "lm-sounds-jazz-club-22",
+     "title": "Pee Diamond – live acoustic",
+     "dateStart": "2026-11-28",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €8"
+    },
+    {
      "id": "lm-sounds-jazz-club-17",
      "title": "The Gasterbajters",
      "dateStart": "2026-11-29",
@@ -210,6 +158,19 @@
      "note": "17:00 · €10 · 80s Yugoslav rock · sold out"
     },
     {
+     "id": "lm-sounds-jazz-club-23",
+     "title": "Mini Impro Club",
+     "dateStart": "2026-12-03",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "20:00 · €12 · free jazz to impro"
+    },
+    {
      "id": "lm-sounds-jazz-club-18",
      "title": "The Frida Violeta Band",
      "dateStart": "2026-12-05",
@@ -221,6 +182,19 @@
       "https://www.sounds.brussels/agenda/"
      ],
      "note": "20:00 · €12 · Latin folk"
+    },
+    {
+     "id": "lm-sounds-jazz-club-24",
+     "title": "Awa Keme Kemo + jam",
+     "dateStart": "2026-12-06",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "Sounds Jazz Club, Rue de la Tulipe 28, 1050 Ixelles",
+     "partners": [],
+     "sources": [
+      "https://www.sounds.brussels/agenda/"
+     ],
+     "note": "17:00 · €10 · Latin jam"
     },
     {
      "id": "lm-sounds-jazz-club-19",
@@ -275,106 +249,13 @@
      "note": "20:00 · €12 · Mediterranean & flamenco"
     }
    ],
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
   },
   "osm-the-music-village-n4413933705": {
    "note": "Jazz concerts six to seven nights a week",
    "source": "https://www.themusicvillage.com/en",
    "basis": "Own site: 'live music six to seven days a week, all year long, with more than 300 live concerts per year'",
    "events": [
-    {
-     "id": "lm-music-village-19",
-     "title": "Maur-Vantomme Quartet – album release \"Old Friend\"",
-     "dateStart": "2026-11-16",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · jazz"
-    },
-    {
-     "id": "lm-music-village-20",
-     "title": "Thomas Grimmonprez Trio",
-     "dateStart": "2026-11-17",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · jazz jam"
-    },
-    {
-     "id": "lm-music-village-21",
-     "title": "Living Legends",
-     "dateStart": "2026-11-18",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · jazz"
-    },
-    {
-     "id": "lm-music-village-7",
-     "title": "Interplay Quartet invites Paolo Loveri",
-     "dateStart": "2026-11-19",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/concerts/2026-11-19-20-30",
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 (doors 19:30) · jazz"
-    },
-    {
-     "id": "lm-music-village-22",
-     "title": "The New Yorkers: Golden Age of Crooners",
-     "dateStart": "2026-11-20",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · vocal jazz"
-    },
-    {
-     "id": "lm-music-village-8",
-     "title": "New Orleans Night Owls",
-     "dateStart": "2026-11-21",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/concerts/2026-11-21-20-30",
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 (doors 19:30) · New Orleans jazz"
-    },
-    {
-     "id": "lm-music-village-23",
-     "title": "Tommy Soto and Septeto To' Mezclao Tradicional",
-     "dateStart": "2026-11-22",
-     "dateEnd": null,
-     "type": "concert",
-     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
-     "partners": [],
-     "sources": [
-      "https://www.themusicvillage.com/en/program/upcoming-concerts"
-     ],
-     "note": "20:30 · Cuban son"
-    },
     {
      "id": "lm-music-village-24",
      "title": "Su Nayan Groove Unit",
@@ -835,9 +716,87 @@
       "https://www.themusicvillage.com/en/program/upcoming-concerts"
      ],
      "note": "20:30 · vocal jazz"
+    },
+    {
+     "id": "lm-music-village-53",
+     "title": "Christmas Jazz Quintet",
+     "dateStart": "2026-12-29",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · swing, festive season"
+    },
+    {
+     "id": "lm-music-village-54",
+     "title": "Odone/Riahi/Pecoraro Trio",
+     "dateStart": "2026-12-30",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · carte blanche to Umberto Odone"
+    },
+    {
+     "id": "lm-music-village-55",
+     "title": "Andrew Bolton sings Frank Sinatra",
+     "dateStart": "2027-01-01",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · vocal jazz"
+    },
+    {
+     "id": "lm-music-village-56",
+     "title": "Andy Middleton – Jeanfrançois Prins Quartet",
+     "dateStart": "2027-01-02",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · jazz"
+    },
+    {
+     "id": "lm-music-village-57",
+     "title": "Lior Tzemach Funk Experience",
+     "dateStart": "2027-01-03",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · funk"
+    },
+    {
+     "id": "lm-music-village-58",
+     "title": "The Ultimate 70s, 80s, 90s Hits",
+     "dateStart": "2027-01-04",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "The Music Village, Rue des Pierres 50, 1000 Brussels",
+     "partners": [],
+     "sources": [
+      "https://www.themusicvillage.com/en/program/upcoming-concerts"
+     ],
+     "note": "20:30 · soul jam"
     }
    ],
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
   }
  }
 }

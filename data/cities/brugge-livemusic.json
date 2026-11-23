@@ -7,8 +7,21 @@
    "note": "Jazz or blues on Friday and Saturday",
    "source": "https://www.27bflat.be/nl/",
    "basis": "Own site: 'Kom vrijdag en zaterdag naar één van onze unieke jazz- of blues concerten'",
-   "checked": "2026-11-16",
+   "checked": "2026-11-23",
    "events": [
+    {
+     "id": "lm-27b-flat-4",
+     "title": "Bill Roseman",
+     "dateStart": "2026-11-27",
+     "dateEnd": null,
+     "type": "concert",
+     "location": "27B Flat, Sint-Jakobsstraat 15, 8000 Brugge",
+     "partners": [],
+     "sources": [
+      "https://www.27bflat.be/nl/agenda"
+     ],
+     "note": "20:30 · €15"
+    },
     {
      "id": "lm-27b-flat-2",
      "title": "Iza & The Wild Cards",
@@ -41,7 +54,7 @@
    "note": "Live music on Friday and Saturday",
    "source": "https://www.delaneys.be/",
    "basis": "Own site: 'regularly hosts live music on Friday and Saturday night'",
-   "checked": "2026-11-16"
+   "checked": "2026-11-23"
   }
  }
 }
