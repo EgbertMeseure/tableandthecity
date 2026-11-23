@@ -1,6 +1,6 @@
 {
  "city": "gent",
- "dateChecked": "2026-11-16",
+ "dateChecked": "2026-11-23",
  "timezone": "Europe/Brussels",
  "about": "Announced openings that are NOT open yet (restaurants, cafés & bars, coffee, bakeries). Shown on the site under New → Opening soon. expectedOpening = YYYY-MM-DD | YYYY-MM | YYYY | \"soon\"; once that date/period has passed (Europe/Brussels, computed in the browser) the record shows as \"Just opened\" until it is moved into gent.json (see update.md). Unknown fields are null; nothing invented. `opening: 'YYYY-MM'` is accepted as an alias of expectedOpening. Cards show 'Opening soon · <Month>' (year added beyond the next 3 months); once the month has passed the place shows as 'New since <Month YYYY>' automatically.",
  "excludedChecked": {
@@ -20,7 +20,8 @@
    "Café De Koer, Meibloemstraat 86 (volunteer neighbourhood café, opened Oct 2026; generic café – not added)",
    "El Barista, Schouwburgstraat 8 (trend coffee bar: Dubai bars, strawberry cups, waffles; opened ~Aug 2026; not specialty coffee – not added)",
    "Kaskroet, Mageleinstraat 43 (successor of Jus; open since 3 Nov 2026 – added to the guide 2026-11-16)",
-   "Lunchbar ROMM, Jozef Kluyskensstraat 29 (opened 16 Nov 2026 – moved into the guide 2026-11-16)"
+   "Lunchbar ROMM, Jozef Kluyskensstraat 29 (opened 16 Nov 2026 – moved into the guide 2026-11-16)",
+   "Rosas, Hoogpoort 29 (opened week of 9–15 Nov 2026 – added to the guide 2026-11-23)"
   ],
   "notEnoughInfo": [
    "MTM group (Mòris, Bianca…) takes over an unnamed Gentse brasserie in Oct 2026 (HLN 24 Sep 2026) — name secret",
@@ -28,8 +29,9 @@
    "Bakkerij Bloch second shop \"aan de rand van Gent\" — no date found",
    "Successor of Grade, Ledebergplein (no details, 2026-10-26)",
    "Theehuis + tweedehandswinkel by Ruth (41) in Gent (Nieuwsblad 7 Oct 2026; name/address not found – tea house with second-hand shop, not added)",
-   "Karaf, Annonciadenstraat 4 (natural-wine bar + bottle shop with Tunisian rugs/ceramics by Jasmina Chalghmi; Nieuwsblad 14 Nov 2026 'opent wijnbar'; Google Maps: Thu–Sat 17:00–22:00, marked new) — opening month not confirmed (article paywalled, Instagram login wall); re-check and add as wine bar once the month is known",
-   "Social restaurant of Nieuw Gent, Rerum Novarumplein (city of Gent: opens summer 2027, name not chosen yet; stad.gent 10 Nov 2026)"
+   "Social restaurant of Nieuw Gent, Rerum Novarumplein (city of Gent: opens summer 2027, name not chosen yet; stad.gent 10 Nov 2026)",
+   "Karaf, Annonciadenstraat 4 (ex-Menu.koffie; natural-wine bar + bottle shop with Tunisian rugs/ceramics by Jasmina Chalghmi; Nieuwsblad: opened 'enkele weken geleden'; Google Maps 2026-11-23: listing KARAF, closed Mon, 'Gaat open op do om 17:00', earlier read Thu–Sat 17:00–22:00) — opening month still not confirmed (article undated behind paywall, Instagram login wall; probably Oct 2026); re-check and add as wine bar (Café & bars) once the month is known",
+   "Rosse Vos, Dampoortstraat 31 (day café by Robbe & Aaron: breakfast, coffee, lunch with Cuban sandwiches, cocktails, afterwork; own site rossevos.be: Mon–Thu 08:00–16:00, Fri 08:00–24:00; Google Maps Mon 08:00–16:00; HLN 'NET OPEN' 19 Nov 2026, Nieuwsblad ~18 Nov 2026) — opening month not confirmed (paywall); candidate for next week"
   ],
   "outOfScopeOrStale": [
    "The Bakery by Joost Arijs \"opens 9 December\" — 2022 press release, already open",
@@ -44,7 +46,13 @@
    "Datcha, Sleepstraat 210 (Davai Dumplings gastrobar; own site: 'tijdelijk' pop-up since Jun 2026 – temporary, not added)",
    "Mom & Pop, Filips van Marnixstraat 1 (ex-Ces'Arts; prep-and-go foodshop/traiteur with buffet and take-away, opened Nov 2026 – not a restaurant, not added; HLN 12 Nov 2026)",
    "Chez Babette stone-grill restaurant at the Gentse Winterfeesten, Sint-Baafsplein (3 Dec 2026 – 3 Jan 2027, seasonal – not added)",
-   "Oh Boy, Gebroeders Vandeveldestraat 95 (breakfast café; OSM node/6920767990 long-standing, no recent opening date – not new)"
+   "Oh Boy, Gebroeders Vandeveldestraat 95 (breakfast café; OSM node/6920767990 long-standing, no recent opening date – not new)",
+   "Sushi Vrijdagmarkt, Vrijdagmarkt 51 (ex-GÖK; all-you-can-eat sushi, opened 17 Nov 2026 – all-you-can-eat formula, not added; HLN 16 Nov 2026)",
+   "Plunged, Dampoortstraat (recovery studio with saunas, ice baths and cocktails, opened Nov 2026 – not horeca; HLN 16 Nov 2026)",
+   "Aneliya buffet restaurant, Gent (€13 all-you-can-scoop buffet, Nieuwsblad Nov 2026 – buffet, not added)",
+   "Arlet, Sint-Martens-Latem (Timon Michiels, opened Nov 2026 – outside the city of Gent, not added; Nieuwsblad)",
+   "Kaiju & Neko, JAM Hotel (HLN 'Net open' 31 Oct 2025 – already more than 12 months, not new)",
+   "Kobe Desramaults back in Gent? HLN 23 Nov 2026: 'Geen nieuw restaurant' – nothing to add"
   ]
  },
  "upcoming": [
@@ -81,7 +89,7 @@
     "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/bekende-gentse-club-verdwijnt-na-ruim-25-jaar-en-viert-dat-met-een-maand-vol-laatste-feesten-de-cirkel-is-rond/162495399.html"
    ],
    "announcedBy": "HLN, 9 Oct 2026; Nieuwsblad, Oct 2026",
-   "dateChecked": "2026-11-16"
+   "dateChecked": "2026-11-23"
   },
   {
    "id": "sint-annakerk-restaurant-wijnbar",
@@ -115,7 +123,7 @@
     "https://avs.be/nieuws/renovatiewerken-sint-annakerk-schieten-op-opening-voorzien-tegen-eind-2027"
    ],
    "announcedBy": "Delhaize press release, 3 Sep 2026; AVS, 23 Jun 2026",
-   "dateChecked": "2026-11-16"
+   "dateChecked": "2026-11-23"
   }
  ]
 }

@@ -2020,11 +2020,11 @@
    "menuType": "unknown",
    "menuChanges": "unknown",
    "currentMenuNote": "unknown",
-   "statusNote": "Closed for renovation after Saturday 17 October 2026, for about two weeks.",
+   "statusNote": "",
    "instagram": "https://www.instagram.com/boutique.et.boissons/",
    "phone": null,
    "dataConflict": null,
-   "lastChanged": "2026-10-23",
+   "lastChanged": "2026-11-23",
    "city": "Gent",
    "country": "Belgium",
    "summaryLang": "en",
@@ -2042,13 +2042,13 @@
    "website": null,
    "instagram_handle": "boutique.et.boissons",
    "summary": "Cocktail bar near the Capitole that opened in 2019 as a combined jewellery shop and bar, with a velvet, Parisian-style interior.",
-   "status": "temporarily closed",
+   "status": "open",
    "events": [],
    "sources": [
     "https://www.bars10.com/BE/Ghent/105553380849520/Boutique-%26-Boissons",
     "https://hipsteadresjes.gent/nieuw/boutique-boissons/"
    ],
-   "dateChecked": "2026-10-20",
+   "dateChecked": "2026-11-23",
    "features": {
     "foodServed": true
    },
@@ -2060,7 +2060,8 @@
    "statusSource": "https://www.bars10.com/BE/Ghent/105553380849520/Boutique-%26-Boissons",
    "openingHours": "We-Th 17:00-02:30; Fr-Sa 16:00-03:00; Mo-Tu,Su off",
    "openingHoursSource": "Google Maps (read 2026-10-23) https://www.google.com/maps/search/?api=1&query=Boutique%20%26%20Boissons%2C%20Vlaanderenstraat%2066%2C%209000%20Gent",
-   "instagramSource": "https://www.instagram.com/p/DUGkFdziBNH/"
+   "instagramSource": "https://www.instagram.com/p/DUGkFdziBNH/",
+   "notes": "Renovation closure (from 17 Oct 2026, ~2 weeks) is over: Google Maps no longer shows it as temporarily closed and shows the regular schedule ('Gesloten · Gaat open op wo om 17:00'), read 2026-11-23."
   },
   {
    "cuisine": "",
@@ -17137,6 +17138,90 @@
    "openingHoursSource": "Google Maps (KASKROET, Mageleinstraat 43, marked new; 2026-11-16) = own site kaskroet.be ('Di - Zo 11:00 - 18:00; warme keuken 11u30 tot 15u')",
    "notes": "Successor of Jus (closed 19 Sep 2026, data/osm/closed.json node/12315865312). Opening party 30 Oct 2026; officially open since 3 Nov 2026 (own site). Hot kitchen 11:30–15:00, cold dishes and drinks all opening hours. HLN 'Net open' 11 Nov 2026: soup + rillette €9, curry sandwich €6, paleron €27, confit chicken €24, veggie parmentier €18, desserts €9.",
    "origin": "research-2026-11-16"
+  },
+  {
+   "type": "bistro",
+   "cuisineTags": [],
+   "chef": "unknown",
+   "priceLevel": "€€",
+   "priceFrom": 8.5,
+   "distinctions": {
+    "michelin": null,
+    "michelinYear": null,
+    "gaultMillau": null,
+    "gaultMillauEdition": null
+   },
+   "vegetarian": "yes",
+   "vegan": "some",
+   "dietNote": "Vegan Gentse waterzooi and spaghetti with aubergine and ricotta; daily dish with or without meat (HLN, Nieuwsblad, Nov 2026).",
+   "menuType": "À la carte all day (breakfast, lunch, dinner) plus a daily dish",
+   "menuChanges": "unknown",
+   "currentMenuNote": "unknown",
+   "status": "open",
+   "statusNote": "",
+   "dataConflict": null,
+   "dateChecked": "2026-11-23",
+   "lastChanged": "2026-11-23",
+   "city": "gent",
+   "country": "BE",
+   "photos": [],
+   "events": [],
+   "instagram_posts": [],
+   "reservation_url": null,
+   "reservation_provider": null,
+   "otherLocations": null,
+   "summaryLang": "en",
+   "id": "rosas",
+   "name": "Rosas",
+   "group": "restaurants",
+   "category": "bistro",
+   "cuisine": "Neighbourhood bistro & café: breakfast, lunch (soup, shrimp croquettes, pistolets), Belgian classics at night (stoofvlees, stoemp, steak, vegan Gentse waterzooi), cake, wine and cocktails",
+   "address": "Hoogpoort 29, 9000 Gent",
+   "postalCode": "9000",
+   "district": "Gent (9000)",
+   "neighbourhood": "Sint-Jacobs",
+   "lat": 51.0553418,
+   "lng": 3.7238688,
+   "geoSource": "Nominatim/OpenStreetMap way/494007870 (building, Hoogpoort 29); Google Maps pin 51.0553799,3.7239022",
+   "geoPrecision": "address",
+   "openingYear": 2026,
+   "openingDate": "2026-11",
+   "opened": "2026-11",
+   "isNew": true,
+   "website": "https://www.rosasgent.be/",
+   "instagram_handle": "rosasgent",
+   "instagram": "https://www.instagram.com/rosasgent/",
+   "instagramSource": "rosasgent.be (footer link instagram.com/rosasgent)",
+   "phone": null,
+   "summary": "Second place of Dieter Van Landschoot (18 years of Barrazza) in the former Amatsu on the Hoogpoort: a relaxed neighbourhood bistro, café and tearoom with a garden at the back. Breakfast from 9:00, soup, pistolets and shrimp croquettes at lunch, and Belgian classics at night such as stoofvlees, stoemp with sausage and a vegan Gentse waterzooi; wines include Georgian and Lebanese bottles. Ceramics are part of the place.",
+   "sources": [
+    "https://www.hln.be/gent/net-open-dieter-42-runt-na-bar-aan-het-water-nu-ook-buurtbistro-op-amper-250-meter-van-een-pistolet-met-kaas-tot-georgische-wijn~ad64318f/",
+    "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/dieter-runt-al-18-jaar-populair-biercafe-aan-het-water-nu-heeft-hij-ook-een-bistro-met-een-heel-mooie-tuin/164762095.html",
+    "https://www.rosasgent.be/"
+   ],
+   "features": {
+    "foodServed": true,
+    "breakfast": true,
+    "lunch": true,
+    "aLaCarte": true,
+    "openSunday": true,
+    "openMonday": true,
+    "new": true
+   },
+   "features_evidence": {
+    "foodServed": "https://www.hln.be/gent/net-open-dieter-42-runt-na-bar-aan-het-water-nu-ook-buurtbistro-op-amper-250-meter-van-een-pistolet-met-kaas-tot-georgische-wijn~ad64318f/",
+    "breakfast": "https://www.hln.be/gent/net-open-dieter-42-runt-na-bar-aan-het-water-nu-ook-buurtbistro-op-amper-250-meter-van-een-pistolet-met-kaas-tot-georgische-wijn~ad64318f/ (breakfast €8.50–€22.50)",
+    "lunch": "https://www.hln.be/gent/net-open-dieter-42-runt-na-bar-aan-het-water-nu-ook-buurtbistro-op-amper-250-meter-van-een-pistolet-met-kaas-tot-georgische-wijn~ad64318f/ (soup, pistolets, shrimp croquettes at lunch)",
+    "aLaCarte": "https://www.hln.be/gent/net-open-dieter-42-runt-na-bar-aan-het-water-nu-ook-buurtbistro-op-amper-250-meter-van-een-pistolet-met-kaas-tot-georgische-wijn~ad64318f/",
+    "openSunday": "https://www.rosasgent.be/ + Nieuwsblad (open 9:00–24:00, closed Tuesday)",
+    "openMonday": "Google Maps (Monday 09:00–00:00, read 2026-11-23)",
+    "new": "https://www.nieuwsblad.be/regio/oost-vlaanderen/regio-gent/gent/dieter-runt-al-18-jaar-populair-biercafe-aan-het-water-nu-heeft-hij-ook-een-bistro-met-een-heel-mooie-tuin/164762095.html ('Hij opende het vorige week'); https://www.hln.be/gent/net-open-dieter-42-runt-na-bar-aan-het-water-nu-ook-buurtbistro-op-amper-250-meter-van-een-pistolet-met-kaas-tot-georgische-wijn~ad64318f/ (NET OPEN, 17 Nov 2026)"
+   },
+   "openingHours": "Mo,We-Su 09:00-24:00; Tu off",
+   "openingHoursSource": "Google Maps (Rosas, Hoogpoort 29; Monday 09:00–00:00, logged-out view shows only the current day, read 2026-11-23) + Nieuwsblad/rosasgent.be ('Open van 9 uur tot middernacht. Gesloten op dinsdag'); HLN 17 Nov 2026 said until 01:00",
+   "notes": "Opened in the week of 9–15 Nov 2026 (Nieuwsblad ~20 Nov 2026: 'Hij opende het vorige week'; HLN 'NET OPEN' 17 Nov 2026). Takes the place of Japanese restaurant Amatsu (moved). Staff largely from Barrazza. Prices (HLN): breakfast €8.50–€22.50, shrimp croquettes €10, spaghetti €16, vegan waterzooi €22. A ceramics studio upstairs is planned. Not a generic café: full kitchen from breakfast to dinner.",
+   "team": "Dieter Van Landschoot (owner, also Barrazza)",
+   "origin": "research-2026-11-23"
   }
  ],
  "extraEvents": [
@@ -18321,6 +18406,22 @@
    "change": "Temporarily closed for the winter, back in 2027 (own site; Google Maps temporarily closed).",
    "source": "https://lamatta.fun/",
    "public": "Temporarily closed (winter break)."
+  },
+  {
+   "date": "2026-11-23",
+   "restaurant": "Rosas",
+   "field": "opened",
+   "change": "Added: neighbourhood bistro & café of Dieter Van Landschoot (Barrazza) at Hoogpoort 29 (ex-Amatsu), opened the week of 9–15 Nov 2026 (Nieuwsblad; HLN 'NET OPEN' 17 Nov 2026); hours Google Maps + own site; weekly research 2026-11-23.",
+   "source": "https://www.hln.be/gent/net-open-dieter-42-runt-na-bar-aan-het-water-nu-ook-buurtbistro-op-amper-250-meter-van-een-pistolet-met-kaas-tot-georgische-wijn~ad64318f/",
+   "public": "Added: new opening (November 2026)."
+  },
+  {
+   "date": "2026-11-23",
+   "restaurant": "Boutique & Boissons",
+   "field": "status",
+   "change": "Back open after the renovation closure (from 17 Oct 2026): Google Maps shows the regular schedule and no longer 'temporarily closed' (read 2026-11-23).",
+   "source": "Google Maps, 2026-11-23",
+   "public": "Open again after renovation."
   }
  ],
  "eventDetails": {
