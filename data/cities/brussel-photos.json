@@ -715,28 +715,7 @@
    "layout": "mix"
   },
   "car-bon": {
-   "photos": [
-    {
-     "src": "img/places/brussel/car-bon/p1-1400.webp",
-     "thumb": "img/places/brussel/car-bon/p1-700.webp",
-     "srcset": "img/places/brussel/car-bon/p1-700.webp 700w, img/places/brussel/car-bon/p1-1400.webp 1400w",
-     "w": 900,
-     "h": 1600,
-     "category": "interior",
-     "alt": "Car Bon: the interior",
-     "credit": "@carbon_ixelles on Instagram",
-     "credit_url": "https://www.instagram.com/carbon_ixelles/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
-    }
-   ],
-   "pick": {
-    "type": "photo",
-    "src": "img/places/brussel/car-bon/p1-1400.webp"
-   },
-   "only": true,
-   "layout": "mix"
+   "hold": "no checked photo of Car Bon itself: the earlier photo showed Alley Mian (per Car Bon on Instagram, 21 Nov 2026)"
   },
   "carte-blanche": {
    "photos": [

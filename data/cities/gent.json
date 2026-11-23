@@ -12450,8 +12450,8 @@
     "https://www.rizoomgent.be/contact"
    ],
    "dataConflict": null,
-   "dateChecked": "2026-10-19",
-   "lastChanged": "2026-10-20",
+   "dateChecked": "2026-11-21",
+   "lastChanged": "2026-11-21",
    "city": "gent",
    "country": "BE",
    "summaryLang": "nl",
@@ -12497,7 +12497,7 @@
    "features": {
     "veggie": false,
     "vegan": false,
-    "glutenFree": true,
+    "glutenFree": null,
     "kidsWelcome": null,
     "terrace": null,
     "lunch": true,
@@ -12515,7 +12515,8 @@
     "wheelchair": null,
     "openSunday": false,
     "new": null,
-    "openMonday": false
+    "openMonday": false,
+    "lowGluten": true
    },
    "features_evidence": {
     "lunch": "menu type: Omakase menu (Wed/Thu \"fundamentals\", Fri/Sat \"experience\", Friday lunch)",
@@ -12523,9 +12524,9 @@
     "michelin": "Michelin selection (2026)",
     "gaultMillau": "15.0/20 (2026)",
     "reservations": "booking link on own website: https://www.rizoomgent.be/reserveren",
-    "glutenFree": "https://www.rizoomgent.be/menu — gluten intolerance possible only if cross-contamination is not a problem; not for severe allergy",
     "openMonday": "https://www.rizoomgent.be/contact",
-    "openSunday": "https://www.rizoomgent.be/contact"
+    "openSunday": "https://www.rizoomgent.be/contact",
+    "lowGluten": "Rizoom on Instagram (Nov 2026): not a 100% gluten-free menu, but the menu is always low in gluten — https://www.rizoomgent.be/menu"
    },
    "openingHours": "Mon–Tue closed · Wed–Thu 19:00–23:30 · Fri 12:30–15:30, 19:00–23:30 · Sat 19:00–23:30 · Sun closed",
    "group": "restaurants",

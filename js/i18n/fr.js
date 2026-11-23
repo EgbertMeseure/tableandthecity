@@ -254,6 +254,7 @@
 "Zalige Zondag: last Sunday of the month · collab each quarter": "Zalige Zondag : dernier dimanche du mois · une collab par trimestre",
 "Gluten-free": "Sans gluten",
 "Gluten-free options": "Options sans gluten",
+"Low-gluten": "Pauvre en gluten",
 "Wheelchair": "Fauteuil roulant",
 "Wheelchair accessible": "Accessible en fauteuil",
 "Chef collabs": "Collabs de chefs",

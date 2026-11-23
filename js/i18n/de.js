@@ -254,6 +254,7 @@
 "Zalige Zondag: last Sunday of the month · collab each quarter": "Zalige Zondag: letzter Sonntag im Monat · jedes Quartal eine Kollabo",
 "Gluten-free": "Glutenfrei",
 "Gluten-free options": "Glutenfreie Optionen",
+"Low-gluten": "Glutenarm",
 "Wheelchair": "Rollstuhl",
 "Wheelchair accessible": "Rollstuhlgerecht",
 "Chef collabs": "Koch-Kollabos",

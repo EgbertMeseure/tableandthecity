@@ -1104,51 +1104,23 @@
   "caffenation": {
    "photos": [
     {
-     "src": "img/places/antwerpen/caffenation/p1-1400.webp",
-     "thumb": "img/places/antwerpen/caffenation/p1-700.webp",
-     "srcset": "img/places/antwerpen/caffenation/p1-700.webp 700w, img/places/antwerpen/caffenation/p1-1400.webp 1400w",
-     "w": 1400,
-     "h": 788,
-     "category": "interior",
-     "alt": "Caffènation: the interior",
-     "credit": "caffenation.be",
-     "credit_url": "https://caffenation.be/",
-     "license": "the place's own photo",
-     "source": "own_website",
-     "noPeopleChecked": true
-    },
-    {
      "src": "img/places/antwerpen/caffenation/p2-800.webp",
      "thumb": "img/places/antwerpen/caffenation/p2-400.webp",
      "srcset": "img/places/antwerpen/caffenation/p2-400.webp 400w, img/places/antwerpen/caffenation/p2-800.webp 800w",
      "w": 800,
      "h": 800,
      "category": "drink",
-     "alt": "Caffènation: drinks",
+     "alt": "Caffenation: drinks",
      "credit": "caffenation.be",
      "credit_url": "https://caffenation.be/",
      "license": "the place's own photo",
      "source": "own_website",
      "noPeopleChecked": true
-    },
-    {
-     "src": "img/places/antwerpen/caffenation/p3-800.webp",
-     "thumb": "img/places/antwerpen/caffenation/p3-400.webp",
-     "srcset": "img/places/antwerpen/caffenation/p3-400.webp 400w, img/places/antwerpen/caffenation/p3-800.webp 800w",
-     "w": 800,
-     "h": 1066,
-     "category": "interior",
-     "alt": "Caffènation: the interior",
-     "credit": "@caffenation_coffee on Instagram",
-     "credit_url": "https://www.instagram.com/caffenation_coffee/",
-     "license": "the place's own photo",
-     "source": "own_instagram",
-     "noPeopleChecked": true
     }
    ],
    "pick": {
     "type": "photo",
-    "src": "img/places/antwerpen/caffenation/p1-1400.webp"
+    "src": "img/places/antwerpen/caffenation/p2-800.webp"
    },
    "only": true,
    "layout": "mix"

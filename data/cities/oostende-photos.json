@@ -4235,6 +4235,86 @@
    },
    "only": true,
    "layout": "mix"
+  },
+  "rachelerie": {
+   "photos": [
+    {
+     "src": "img/places/oostende/rachelerie/p1-1400.webp",
+     "thumb": "img/places/oostende/rachelerie/p1-700.webp",
+     "srcset": "img/places/oostende/rachelerie/p1-700.webp 700w, img/places/oostende/rachelerie/p1-1400.webp 1400w",
+     "w": 640,
+     "h": 960,
+     "category": "interior",
+     "alt": "Rachelerie: the interior",
+     "credit": "@rachelerie.ostend on Instagram",
+     "credit_url": "https://www.instagram.com/rachelerie.ostend/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rachelerie/p2-800.webp",
+     "thumb": "img/places/oostende/rachelerie/p2-400.webp",
+     "srcset": "img/places/oostende/rachelerie/p2-400.webp 400w, img/places/oostende/rachelerie/p2-800.webp 800w",
+     "w": 800,
+     "h": 533,
+     "category": "food",
+     "alt": "Rachelerie: food",
+     "credit": "@rachelerie.ostend on Instagram",
+     "credit_url": "https://www.instagram.com/rachelerie.ostend/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rachelerie/p3-800.webp",
+     "thumb": "img/places/oostende/rachelerie/p3-400.webp",
+     "srcset": "img/places/oostende/rachelerie/p3-400.webp 400w, img/places/oostende/rachelerie/p3-800.webp 800w",
+     "w": 640,
+     "h": 960,
+     "category": "food",
+     "alt": "Rachelerie: food",
+     "credit": "@rachelerie.ostend on Instagram",
+     "credit_url": "https://www.instagram.com/rachelerie.ostend/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rachelerie/p4-800.webp",
+     "thumb": "img/places/oostende/rachelerie/p4-400.webp",
+     "srcset": "img/places/oostende/rachelerie/p4-400.webp 400w, img/places/oostende/rachelerie/p4-800.webp 800w",
+     "w": 800,
+     "h": 532,
+     "category": "food",
+     "alt": "Rachelerie: food",
+     "credit": "@fijnbakkerij_debusschere on Instagram",
+     "credit_url": "https://www.instagram.com/fijnbakkerij_debusschere/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    },
+    {
+     "src": "img/places/oostende/rachelerie/p5-800.webp",
+     "thumb": "img/places/oostende/rachelerie/p5-400.webp",
+     "srcset": "img/places/oostende/rachelerie/p5-400.webp 400w, img/places/oostende/rachelerie/p5-800.webp 800w",
+     "w": 640,
+     "h": 960,
+     "category": "interior",
+     "alt": "Rachelerie: the interior",
+     "credit": "@rachelerie.ostend on Instagram",
+     "credit_url": "https://www.instagram.com/rachelerie.ostend/",
+     "license": "the place's own photo",
+     "source": "own_instagram",
+     "noPeopleChecked": true
+    }
+   ],
+   "pick": {
+    "type": "photo",
+    "src": "img/places/oostende/rachelerie/p1-1400.webp"
+   },
+   "only": true,
+   "layout": "mix"
   }
  },
  "about": "Checked photos per place for the place page (photo layout 'mix': the hero shows the place itself, then a food row and the inside / the outside): food, drinks, the interior, staff at work or a guest-free exterior only, from the place's own website, its own public Instagram profile embed (no login) or a free licence; every photo checked by eye for guests, text graphics, posters, logos, menus and collages. Self-hosted under img/places/<city>/<id>/ (scripts/apply_photo_picks.py). only = this set replaces older photos and the hotlinked og:image; hold = only photos with people exist (neutral placeholder)."
